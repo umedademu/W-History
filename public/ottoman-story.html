@@ -7,14 +7,15 @@
   <title>オスマン帝国｜地図でたどる世界史</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/timur-story.css?v=0.002" />
-  <link rel="stylesheet" href="/ottoman-story.css?v=0.002" />
-  <script src="/ottoman-story.js?v=0.002" type="module"></script>
+  <link rel="stylesheet" href="/ottoman-story.css?v=0.007" />
+  <link rel="preload" href="/ottoman-world-map.svg?v=0.007" as="image" />
+  <script src="/ottoman-story.js?v=0.007" type="module"></script>
 </head>
 <body class="ottoman-story">
   <header class="story-header">
     <a href="/" class="home-link">← 教材一覧へ</a>
     <span class="series-name">地図でたどる世界史 <span class="experiment">07</span></span>
-    <span class="version">v0.006</span>
+    <span class="version">v0.007</span>
   </header>
   <main class="story-shell">
     <div class="introduction">
@@ -48,6 +49,23 @@
           <span class="north-mark" aria-hidden="true">北<br />↑</span>
           <p id="map-status" class="map-action-status"></p>
         </div>
+        <div class="map-location">
+          <div class="location-guide">
+            <p class="location-path">世界 <span aria-hidden="true">→</span> 地中海周辺 <span aria-hidden="true">→</span><br /><strong id="location-name">アナトリア西北部</strong></p>
+            <div class="location-actions">
+              <button type="button" id="show-location">広い地図で位置を確認</button>
+              <button type="button" id="skip-orientation" hidden>説明へ進む →</button>
+            </div>
+          </div>
+          <figure class="world-locator">
+            <figcaption>世界の中の位置</figcaption>
+            <svg id="world-locator" viewBox="0 0 1440 720" role="img" aria-label="枠は現在の表示範囲です">
+              <image href="/ottoman-world-map.svg?v=0.007" width="1440" height="720" />
+              <rect id="locator-frame" x="772" y="184" width="64" height="64" />
+            </svg>
+            <p>枠：いま表示している範囲</p>
+          </figure>
+        </div>
         <div class="map-legend" aria-label="地図の凡例">
           <span><i class="legend-capital"></i>都</span>
           <span><i class="legend-region"></i>注目地域</span>
@@ -60,6 +78,13 @@
         <p class="map-caption">都市の印が位置の基準です。人物・建物は見やすい位置へずらし、細い線で結んでいます。色は注目地域、矢印は進む方向の概略です。</p>
       </div>
       <article id="narrative" class="narrative" aria-live="polite" aria-atomic="true">
+        <div id="orientation-note" class="orientation-note" hidden>
+          <p class="orientation-eyebrow">場所を確かめてから、物語へ</p>
+          <h2 id="orientation-heading">世界から、物語の舞台へ</h2>
+          <p id="orientation-description"></p>
+          <p id="orientation-hint" class="orientation-hint">地図が近づいたら、説明が始まります。</p>
+        </div>
+        <div id="scene-content" class="scene-content">
         <div class="scene-meta">
           <span id="scene-number">01 / 20</span>
           <span id="scene-year">1299年頃</span>
@@ -72,6 +97,7 @@
           <p id="scene-takeaway"></p>
         </div>
         <p id="scene-note" class="scene-note"></p>
+        </div>
       </article>
     </section>
     <div class="story-controls">
@@ -83,7 +109,7 @@
       <button type="button" id="next" class="next-button">次へ →</button>
     </div>
     <nav id="scene-nav" class="scene-nav" aria-label="好きな場面へ移動"></nav>
-    <p class="interaction-hint">自分のペースで進めます。パソコンでは ← → キーでも移動できます。音声はありません。</p>
+    <p class="interaction-hint">広い地図で位置を確かめてから、物語へ。パソコンでは ← → キーでも移動できます。音声はありません。</p>
     <noscript><p class="no-script">この紙芝居を見るには、ブラウザーで JavaScript を有効にしてください。</p></noscript>
     <footer class="story-footer">
       <span>歴史の紙芝居・実験室</span>

@@ -1,12 +1,19 @@
 import { places, zones, scenes } from "./ottoman-scenes.js?v=0.002";
+import { project, worldMap, createOrientation, transitionFor } from "./ottoman-orientation.js?v=0.007";
 
 const NS = "http://www.w3.org/2000/svg";
-const project = ([lon, lat]) => [(lon - 12) * 20, (52 - lat) * 20];
 const clamp = (n, a = 0, b = 1) => Math.max(a, Math.min(b, n));
 const byId = id => document.getElementById(id);
 const map = byId("story-map"), reduced = matchMedia("(prefers-reduced-motion: reduce)");
 const colors = { campaign: "#b5573f", rival: "#5c7886", move: "#54866b", trade: "#b0882f" };
-let index = 0, stop = () => {}, lastSize = "";
+let index = 0, stop = () => {}, lastSize = "", displayedScene = null;
+const orientation = createOrientation({ map, svg, onPending: pending => {
+  byId("narrative").classList.toggle("is-orienting", pending);
+  byId("narrative").setAttribute("aria-busy", String(pending));
+  byId("scene-content").setAttribute("aria-hidden", String(pending));
+  byId("orientation-note").hidden = !pending;
+  byId("map-characters").style.visibility = pending ? "hidden" : "";
+} });
 
 function svg(tag, attrs = {}, text) {
   const node = document.createElementNS(NS, tag);
@@ -27,11 +34,14 @@ function geometry(scene, width, height) {
 
 const resolveImg = key => key.includes("/") ? `/images/${key}.png` : `/images/ottoman/${key}.png`;
 
-function drawMap(scene) {
+function drawMap(scene, mode = "none") {
   stop();
+  orientation.cancel();
   const width = map.clientWidth, height = map.clientHeight;
   if (!width || !height) return;
-  const { scale, x, y, toScreen } = geometry(scene, width, height);
+  lastSize = `${width},${height}`;
+  const camera = geometry(scene, width, height);
+  const { scale, x, y, toScreen } = camera;
   map.setAttribute("viewBox", `0 0 ${width} ${height}`);
   map.dataset.scene = scene.id;
   map.replaceChildren(
@@ -39,7 +49,7 @@ function drawMap(scene) {
     svg("desc", { id: "map-description" }, `${scene.before}。${scene.after}。${scene.pins.map(k => places[k].name).join("、")}を地図で示します。`)
   );
 
-  const base = svg("image", { href: "/ottoman-map.svg", x, y, width: 800 * scale, height: 680 * scale });
+  const base = svg("image", { href: worldMap.url, x, y, width: worldMap.width * scale, height: worldMap.height * scale });
   map.append(base);
 
   const regions = svg("g", { class: "ottoman-regions" });
@@ -150,6 +160,7 @@ function drawMap(scene) {
   let frame = 0, cancelled = false;
   const update = p => {
     map.dataset.progress = p.toFixed(3); map.dataset.phase = p >= 1 ? "complete" : "moving";
+    if (root) root.dataset.phase = p >= 1 ? "complete" : "moving";
     byId("map-status").textContent = p >= 1 ? scene.after : scene.before;
     regions.style.opacity = String(.2 + .12 * p);
     for (const { route, path, reveal, head, dot, length } of routeNodes) {
@@ -189,8 +200,10 @@ function drawMap(scene) {
     if (ring) { ring.setAttribute("r", 8 + 7 * Math.sin(p * Math.PI)); ring.setAttribute("opacity", .45 + .45 * p); }
   };
 
-  if (reduced.matches || !scene.duration) update(1);
-  else {
+  stop = () => { cancelled = true; cancelAnimationFrame(frame); };
+  const startStory = () => {
+    if (cancelled) return;
+    if (reduced.matches || !scene.duration) { update(1); return; }
     update(0);
     const start = performance.now() + 300;
     const tick = now => {
@@ -200,8 +213,8 @@ function drawMap(scene) {
       if (p < 1) frame = requestAnimationFrame(tick);
     };
     frame = requestAnimationFrame(tick);
-  }
-  stop = () => { cancelled = true; cancelAnimationFrame(frame); };
+  };
+  orientation.run({ scene, target: camera, mode, stationary: reduced.matches, done: startStory });
 }
 
 function show(scroll = false) {
@@ -232,7 +245,9 @@ function show(scroll = false) {
     if (scenes[Number(b.dataset.chapter)].chapter === scene.chapter) b.setAttribute("aria-current", "step");
     else b.removeAttribute("aria-current");
   });
-  drawMap(scene);
+  const mode = transitionFor(scene, displayedScene);
+  displayedScene = scene;
+  drawMap(scene, mode);
   if (scroll && matchMedia("(max-width: 740px)").matches) {
     document.querySelector(".chapter-nav").scrollIntoView({ block: "start", behavior: "instant" });
   }
@@ -259,6 +274,10 @@ scenes.forEach((scene, i) => {
 byId("previous").addEventListener("click", () => go(index - 1));
 byId("next").addEventListener("click", () => go(index === scenes.length - 1 ? 0 : index + 1));
 byId("replay").addEventListener("click", () => drawMap(scenes[index]));
+byId("show-location").addEventListener("click", () => {
+  if (matchMedia("(max-width: 740px)").matches) byId("map-heading").scrollIntoView({ block: "start", behavior: "instant" });
+  drawMap(scenes[index], "world");
+});
 document.querySelectorAll("[data-chapter]").forEach(b => b.addEventListener("click", () => go(Number(b.dataset.chapter))));
 
 document.addEventListener("keydown", event => {
