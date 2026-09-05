@@ -8,15 +8,15 @@
 
 | 番号 | 教材 | 場面数 | ページ |
 | ---: | --- | ---: | --- |
-| 01 | イスラーム教の成立と正統カリフ | 16 | `/islam-origin-story.html` |
-| 02 | ウマイヤ朝とアッバース朝 | 17 | `/umayyad-abbasid-story.html` |
-| 03 | 分裂と地方政権の興亡 | 27 | `/regional-dynasties-story.html` |
+| 01 | イスラーム教の成立と正統カリフ | 15 | `/islam-origin-story.html` |
+| 02 | ウマイヤ朝とアッバース朝 | 16 | `/umayyad-abbasid-story.html` |
+| 03 | 分裂と地方政権の興亡 | 20 | `/regional-dynasties-story.html` |
 | 04 | ティムールの遠征 | 13 | `/timur-story.html` |
 | 05 | ティムールの、その後 | 16 | `/timur-after-story.html` |
 | 06 | サファヴィー朝 | 20 | `/safavid-story.html` |
 | 07 | オスマン帝国 | 20 | `/ottoman-story.html` |
-| 08 | ムガル帝国 | 20 | `/mughal-story.html` |
-| 09 | イスラーム文化 | 20 | `/islamic-culture-story.html` |
+| 08 | ムガル帝国 | 18 | `/mughal-story.html` |
+| 09 | イスラーム文化 | 15 | `/islamic-culture-story.html` |
 
 入口は `/` の教材一覧です。前後ボタン、左右キー、章・場面番号から移動できます。音声と自動の場面送りはありません。端末の「動きを減らす」設定では結果を静止表示します。
 
