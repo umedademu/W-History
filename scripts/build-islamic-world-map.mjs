@@ -7,13 +7,13 @@ const layers = await Promise.all(["ne_110m_land", "ne_110m_lakes"].map(async (na
   return response.json();
 }));
 
-// 経度 -12〜82度、緯度 10〜55度（イベリア・西アフリカから中央アジア・インドまで）
-const MIN_LON = -12, MAX_LON = 82;
-const MIN_LAT = 10, MAX_LAT = 55;
+// 経度 -18〜122度、緯度 -26〜55度。南部アフリカとベンガルも地形上に表示する。
+const MIN_LON = -18, MAX_LON = 122;
+const MIN_LAT = -26, MAX_LAT = 55;
 const SCALE_X = 14;
 const SCALE_Y = 14;
-const WIDTH = Math.round((MAX_LON - MIN_LON) * SCALE_X); // 1316
-const HEIGHT = Math.round((MAX_LAT - MIN_LAT) * SCALE_Y); // 630
+const WIDTH = Math.round((MAX_LON - MIN_LON) * SCALE_X);
+const HEIGHT = Math.round((MAX_LAT - MIN_LAT) * SCALE_Y);
 
 function clipRing(ring) {
   let result = ring;
@@ -45,8 +45,8 @@ function paths(layer) {
 }
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${WIDTH} ${HEIGHT}">
-<title>イスラーム世界の広域地形図（大西洋から中央アジア・インドまで）</title>
-<desc>Natural Earth 1:110m の陸地と湖を使用。国境なし。経度-12〜82度、緯度10〜55度の範囲。</desc>
+<title>イスラーム世界の広域地形図（アフリカ・地中海・アジア）</title>
+<desc>Natural Earth 1:110m の陸地と湖を使用。国境なし。経度-18〜122度、緯度-26〜55度の範囲。</desc>
 <rect width="${WIDTH}" height="${HEIGHT}" fill="#e6eded"/>
 <g fill="#f0eddf" stroke="#bdc5b8" stroke-width="1.2" fill-rule="evenodd">${paths(layers[0])}</g>
 <g fill="#e6eded" stroke="#bdc5b8" stroke-width="1.2" fill-rule="evenodd">${paths(layers[1])}</g>

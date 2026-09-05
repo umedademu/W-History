@@ -3,18 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="地図と物語で世界史を学ぶ。バーブルの建国、アクバル大帝の宗教融和とジズヤ廃止、シャー＝ジャハーンのタージ＝マハル、アウラングゼーブの最大領土と帝国の動揺をたどる教材。" />
-  <title>ムガル帝国｜W-History</title>
+  <meta name="description" content="ムガル帝国を、地図と短い物語でたどる20場面の教材。" />
+  <title>ムガル帝国｜地図でたどる世界史</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="/library.css?v=0.005" />
-  <link rel="stylesheet" href="/mughal-story.css?v=0.005" />
-  <script src="/mughal-story.js?v=0.005" type="module"></script>
+  <link rel="stylesheet" href="/timur-story.css?v=0.006" />
+  <link rel="stylesheet" href="/history-story.css?v=0.006" />
+  <link rel="stylesheet" href="/mughal-story.css?v=0.006" />
+  <script src="/mughal-story.js?v=0.006" type="module"></script>
 </head>
-<body class="mughal-story">
+<body class="restored-story mughal-story">
   <header class="story-header">
     <a href="/" class="home-link">← 教材一覧へ</a>
     <span class="series-name">地図でたどる世界史 <span class="experiment">08</span></span>
-    <span class="version">v0.005</span>
+    <span class="version">v0.006</span>
   </header>
   <main class="story-shell">
     <div class="introduction">
@@ -22,39 +23,75 @@
         <p class="eyebrow">カーブルから亜大陸全土へ。大帝の融和と白大理石の至宝。</p>
         <h1>ムガル帝国</h1>
       </div>
-      <p class="intro-note">ひとつの地図、18の場面。<br />「次へ」を押して、歴史をたどろう。</p>
+      <p class="intro-note">ひとつの地図、20の場面。<br />「次へ」を押して、歴史をたどろう。</p>
     </div>
     <nav class="story-series-links" aria-label="ほかの紙芝居"><a href="/islam-origin-story.html">01 イスラーム成立</a><a href="/umayyad-abbasid-story.html">02 ウマイヤ・アッバース</a><a href="/regional-dynasties-story.html">03 地方政権</a><a href="/timur-story.html">04 ティムール遠征</a><a href="/timur-after-story.html">05 その後</a><a href="/safavid-story.html">06 サファヴィー</a><a href="/ottoman-story.html">07 オスマン</a><a href="/mughal-story.html" aria-current="page">08 ムガル</a><a href="/islamic-culture-story.html">09 イスラーム文化</a></nav>
     <nav class="chapter-nav" aria-label="物語の章">
-      <button type="button" data-chapter="0"><span>一</span> 建国と確立（バーブルとアクバル）</button>
-      <button type="button" data-chapter="7"><span>二</span> 帝国の繁栄と大建築（ジャハンギールとシャー＝ジャハーン）</button>
-      <button type="button" data-chapter="12"><span>三</span> 最大領土と動揺・解体（アウラングゼーブと反乱）</button>
+      <button type="button" data-chapter="0"><span>一</span> 建国と統治の確立</button>
+      <button type="button" data-chapter="7"><span>二</span> 繁栄と文化の交流</button>
+      <button type="button" data-chapter="13"><span>三</span> 拡大の負担と衰退</button>
     </nav>
-    <div class="story-stage">
-      <div class="map-container">
-        <svg id="story-map" role="img" aria-labelledby="map-title" aria-describedby="map-description"></svg>
-      </div>
-      <div class="story-narrative">
-        <div>
-          <div class="scene-header">
-            <span class="year-badge" id="year"></span>
-            <p class="kicker" id="kicker"></p>
-            <h2 id="title"></h2>
-          </div>
-          <div class="scene-body" id="body"></div>
-          <div class="scene-takeaway" id="takeaway-box">
-            <p id="takeaway"></p>
-          </div>
-          <div class="scene-notes" id="notes"></div>
+    <section class="story-stage" aria-label="地図と物語">
+      <div class="map-panel">
+        <div class="map-heading">
+          <p id="map-heading">フェルガナからカーブルへの進軍路</p>
+          <button type="button" id="replay" class="replay-button" aria-label="この場面の地図と人物の動きをもう一度見る">↻ 動きをもう一度</button>
         </div>
-        <div class="story-controls">
-          <button type="button" class="ctrl-btn" id="btn-prev">← 前へ</button>
-          <span class="scene-counter" id="scene-counter"></span>
-          <button type="button" class="ctrl-btn" id="btn-replay">動きをもう一度</button>
-          <button type="button" class="ctrl-btn" id="btn-next">次へ →</button>
+        <p id="map-focus" class="map-focus"></p>
+        <div class="map-viewport">
+          <svg id="story-map" viewBox="0 0 800 680" role="img" aria-labelledby="map-title map-description">
+            <title id="map-title">ムガル帝国の地図</title>
+            <desc id="map-description">場面に関係する地域・都市・移動の方向を示します。</desc>
+          </svg>
+          <div id="map-characters" class="map-characters" role="group" aria-label="地図上の登場人物"></div>
+          <span class="north-mark" aria-hidden="true">北<br />↑</span>
+          <p id="map-status" class="map-action-status"></p>
         </div>
+        <div class="map-legend" aria-label="地図の凡例">
+          <span><i class="legend-capital"></i>都</span>
+          <span><i class="legend-region"></i>注目地域</span>
+          <span><i class="legend-route"></i>進軍</span>
+          <span><i class="legend-rival"></i>相手の進軍</span>
+          <span><i class="legend-move"></i>移動</span>
+          <span><i class="legend-trade"></i>交易</span>
+        </div>
+        <ul id="map-facts" class="map-facts" aria-label="地図の見どころ"></ul>
+        <p class="map-caption">都市の印が位置の基準です。人物・建物は見やすい位置へずらし、細い線で結んでいます。色は注目地域、矢印は進む方向の概略です。</p>
       </div>
+      <article id="narrative" class="narrative" aria-live="polite" aria-atomic="true">
+        <div class="scene-meta">
+          <span id="scene-number">01 / 20</span>
+          <span id="scene-year">1526年以前</span>
+        </div>
+        <p id="scene-kicker" class="scene-kicker"></p>
+        <h2 id="scene-title"></h2>
+        <div id="scene-body" class="scene-body"></div>
+        <div class="takeaway">
+          <span class="takeaway-label">ここをつかもう</span>
+          <p id="scene-takeaway"></p>
+        </div>
+        <p id="scene-note" class="scene-note"></p>
+      </article>
+    </section>
+    <div class="story-controls">
+      <button type="button" id="previous" class="previous-button" disabled>← 前へ</button>
+      <div class="progress-block">
+        <label for="story-progress" id="progress-label">1 / 20</label>
+        <progress id="story-progress" max="20" value="1">1 / 20</progress>
+      </div>
+      <button type="button" id="next" class="next-button">次へ →</button>
     </div>
+    <nav id="scene-nav" class="scene-nav" aria-label="好きな場面へ移動"></nav>
+    <p class="interaction-hint">自分のペースで進めます。パソコンでは ← → キーでも移動できます。音声はありません。</p>
+    <noscript><p class="no-script">この紙芝居を見るには、ブラウザーで JavaScript を有効にしてください。</p></noscript>
+    <footer class="story-footer">
+      <span>W-History ・ 地図と物語で学ぶ世界史</span>
+      <details>
+        <summary>地図と説明について</summary>
+        <p>提供された資料の第21回「ムガル帝国」p.343〜346をもとに、20場面へ再構成しました。本文の年代や用語を整理し、前後のつながりを補っています。人物画・建物・旗は内容を理解するための象徴的な表現です。吹き出しは説明用に創作したもので、実際の発言の引用ではありません。</p>
+        <p>色は注目地域の模式図です。現在の国境や各時点の確定した最大領域ではありません。基図は<a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noreferrer">Natural Earth の公開地図</a>を使用しています。</p>
+      </details>
+    </footer>
   </main>
 </body>
 </html>
