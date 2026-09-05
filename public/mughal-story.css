@@ -1,0 +1,237 @@
+/* 08 ムガル帝国 スタイルシート */
+@import "/library.css";
+
+.mughal-story {
+  --primary-accent: #2563eb;
+  --bg-gradient: linear-gradient(135deg, #0f172a 0%, #172554 100%);
+}
+
+.story-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background: rgba(15, 23, 42, 0.95);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.story-header .home-link {
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.story-header .series-name {
+  color: #f1f5f9;
+  font-size: 0.95rem;
+}
+
+.story-header .version {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+.story-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.introduction {
+  margin-bottom: 1.25rem;
+  border-left: 4px solid #3b82f6;
+  padding-left: 1rem;
+}
+
+.introduction .eyebrow {
+  color: #93c5fd;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+}
+
+.introduction h1 {
+  font-size: 1.75rem;
+  color: #f8fafc;
+  margin: 0 0 0.5rem 0;
+}
+
+.introduction .intro-note {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.chapter-nav {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+}
+
+.chapter-nav button {
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #cbd5e1;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.chapter-nav button[aria-current="true"] {
+  background: #2563eb;
+  color: #ffffff;
+  border-color: #60a5fa;
+  font-weight: bold;
+}
+
+.story-stage {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 1.5rem;
+  background: #0f172a;
+  border-radius: 12px;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 900px) {
+  .story-stage {
+    grid-template-columns: 1fr;
+  }
+}
+
+.map-container {
+  background: #e6eded;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  min-height: 420px;
+  border: 1px solid #cbd5e1;
+}
+
+#story-map {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.story-narrative {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgba(15, 23, 42, 0.6);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.scene-header .year-badge {
+  display: inline-block;
+  background: #1d4ed8;
+  color: #dbeafe;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.scene-header .kicker {
+  color: #60a5fa;
+  font-size: 0.85rem;
+  margin: 0 0 0.25rem 0;
+}
+
+.scene-header h2 {
+  font-size: 1.25rem;
+  color: #f8fafc;
+  margin: 0 0 0.75rem 0;
+  line-height: 1.4;
+  white-space: pre-line;
+}
+
+.scene-body {
+  color: #cbd5e1;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.scene-body p {
+  margin: 0 0 0.6rem 0;
+}
+
+.scene-takeaway {
+  background: rgba(37, 99, 235, 0.25);
+  border-left: 3px solid #60a5fa;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 0.75rem;
+}
+
+.scene-takeaway p {
+  color: #bfdbfe;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.scene-notes {
+  color: #94a3b8;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.scene-notes p {
+  margin: 0;
+}
+
+.story-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 1rem;
+}
+
+.ctrl-btn {
+  background: #334155;
+  color: #f8fafc;
+  border: 1px solid #475569;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.ctrl-btn:hover:not(:disabled) {
+  background: #1e293b;
+  border-color: #60a5fa;
+}
+
+.ctrl-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.scene-counter {
+  color: #94a3b8;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* 地図内SVG要素 */
+.city-dot { fill: #1e293b; stroke: #ffffff; stroke-width: 1.5; }
+.city-dot.capital { fill: #2563eb; r: 6.5; }
+.city-name { font-size: 11px; font-weight: bold; fill: #0f172a; text-anchor: middle; paint-order: stroke; stroke: #ffffff; stroke-width: 2.5px; }
+.city-name.capital-name { fill: #1d4ed8; font-size: 12px; }
+.water-label { font-size: 11px; fill: #64748b; font-style: italic; opacity: 0.8; }
+.arrow { fill: none; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+.arrow.trade { stroke: #d97706; }
+.arrow.move { stroke: #2563eb; }
+.actor-bubble rect { fill: rgba(15, 23, 42, 0.88); stroke: #cbd5e1; stroke-width: 1; }
+.actor-bubble text { font-size: 10.5px; fill: #ffffff; text-anchor: middle; font-weight: bold; }

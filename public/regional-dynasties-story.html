@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="地図と物語で世界史を学ぶ。3カリフ並立、ベルベル人王朝、十字軍とサラディン、セルジューク朝、デリー＝スルタン朝からモンゴル襲来、アフリカ黄金王国までの歴史をたどる教材。" />
+  <title>分裂と地方政権の興亡｜W-History</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/library.css?v=0.005" />
+  <link rel="stylesheet" href="/regional-dynasties-story.css?v=0.005" />
+  <script src="/regional-dynasties-story.js?v=0.005" type="module"></script>
+</head>
+<body class="regional-dynasties-story">
+  <header class="story-header">
+    <a href="/" class="home-link">← 教材一覧へ</a>
+    <span class="series-name">地図でたどる世界史 <span class="experiment">03</span></span>
+    <span class="version">v0.005</span>
+  </header>
+  <main class="story-shell">
+    <div class="introduction">
+      <div>
+        <p class="eyebrow">３カリフの並立から、各地に花開くスルタンの覇権へ。</p>
+        <h1>分裂と地方政権の興亡</h1>
+      </div>
+      <p class="intro-note">ひとつの地図、20の場面。<br />「次へ」を押して、歴史をたどろう。</p>
+    </div>
+    <nav class="story-series-links" aria-label="ほかの紙芝居"><a href="/islam-origin-story.html">01 イスラーム成立</a><a href="/umayyad-abbasid-story.html">02 ウマイヤ・アッバース</a><a href="/regional-dynasties-story.html" aria-current="page">03 地方政権</a><a href="/timur-story.html">04 ティムール遠征</a><a href="/timur-after-story.html">05 その後</a><a href="/safavid-story.html">06 サファヴィー</a><a href="/ottoman-story.html">07 オスマン</a><a href="/mughal-story.html">08 ムガル</a><a href="/islamic-culture-story.html">09 イスラーム文化</a></nav>
+    <nav class="chapter-nav" aria-label="物語の章">
+      <button type="button" data-chapter="0"><span>一</span> ３カリフ並立と西方の自立</button>
+      <button type="button" data-chapter="7"><span>二</span> 東方のトルコ化とセルジューク朝</button>
+      <button type="button" data-chapter="14"><span>三</span> モンゴルの激震とインド・アフリカ</button>
+    </nav>
+    <div class="story-stage">
+      <div class="map-container">
+        <svg id="story-map" role="img" aria-labelledby="map-title" aria-describedby="map-description"></svg>
+      </div>
+      <div class="story-narrative">
+        <div>
+          <div class="scene-header">
+            <span class="year-badge" id="year"></span>
+            <p class="kicker" id="kicker"></p>
+            <h2 id="title"></h2>
+          </div>
+          <div class="scene-body" id="body"></div>
+          <div class="scene-takeaway" id="takeaway-box">
+            <p id="takeaway"></p>
+          </div>
+          <div class="scene-notes" id="notes"></div>
+        </div>
+        <div class="story-controls">
+          <button type="button" class="ctrl-btn" id="btn-prev">← 前へ</button>
+          <span class="scene-counter" id="scene-counter"></span>
+          <button type="button" class="ctrl-btn" id="btn-replay">動きをもう一度</button>
+          <button type="button" class="ctrl-btn" id="btn-next">次へ →</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

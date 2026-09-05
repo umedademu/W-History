@@ -1,17 +1,22 @@
 # W-History
 
-地図と物語で世界史の流れを学ぶ、クリックで進む紙芝居教材です。現在の版は **v0.004** です。
+地図と物語で世界史の流れを学ぶ、クリックで進む紙芝居教材です。現在の版は **v0.005** です。
 
 公開先：**https://w-history-one.vercel.app**
 
 保存先：https://github.com/umedademu/W-History
 
-| 教材 | 場面数 | ページ |
-| --- | ---: | --- |
-| ティムールの遠征 | 13 | `/timur-story.html` |
-| ティムールの、その後 | 16 | `/timur-after-story.html` |
-| サファヴィー朝 | 20 | `/safavid-story.html` |
-| オスマン帝国 | 20 | `/ottoman-story.html` |
+| 番号 | 教材 | 場面数 | ページ |
+| ---: | --- | ---: | --- |
+| 01 | イスラーム教の成立と正統カリフ | 15 | `/islam-origin-story.html` |
+| 02 | ウマイヤ朝とアッバース朝 | 16 | `/umayyad-abbasid-story.html` |
+| 03 | 分裂と地方政権の興亡 | 20 | `/regional-dynasties-story.html` |
+| 04 | ティムールの遠征 | 13 | `/timur-story.html` |
+| 05 | ティムールの、その後 | 16 | `/timur-after-story.html` |
+| 06 | サファヴィー朝 | 20 | `/safavid-story.html` |
+| 07 | オスマン帝国 | 20 | `/ottoman-story.html` |
+| 08 | ムガル帝国 | 18 | `/mughal-story.html` |
+| 09 | イスラーム文化 | 15 | `/islamic-culture-story.html` |
 
 入口は `/` の教材一覧です。前後ボタン、左右キー、章・場面番号から移動できます。音声と自動の場面送りはありません。端末の「動きを減らす」設定では結果を静止表示します。
 
@@ -20,10 +25,10 @@
 Node.js を用意して、このフォルダで次のコマンドを実行します。外部の追加部品や環境変数は不要です。
 
 ```sh
-npm run dev
+node scripts/serve.mjs
 ```
 
-`http://127.0.0.1:8766/` を開きます。終了は Ctrl+C。確認用コマンドは `npm run check`、公開前の確認は `npm run build` です。
+`http://127.0.0.1:8766/` を開きます。終了は Ctrl+C。確認用コマンドは `node scripts/check.mjs`、公開前の確認は `npm run build` です。
 
 ## Vercelで公開する
 
