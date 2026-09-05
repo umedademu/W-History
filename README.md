@@ -2,6 +2,10 @@
 
 地図と物語で世界史の流れを学ぶ、クリックで進む紙芝居教材です。Anki v0.188 の3教材を、文章・地図・画像・動きを保ったまま独立させました。現在の版は **v0.001** です。
 
+公開先：**https://w-history-one.vercel.app**
+
+保存先：https://github.com/umedademu/W-History
+
 | 教材 | 場面数 | ページ |
 | --- | ---: | --- |
 | ティムールの遠征 | 13 | `/timur-story.html` |

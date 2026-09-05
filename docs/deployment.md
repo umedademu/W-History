@@ -1,5 +1,14 @@
 # 公開と手元での確認
 
+2026年9月5日、Vercelの `w-history` プロジェクトとして公開しました。
+
+- 公開先：https://w-history-one.vercel.app
+- 保存先：https://github.com/umedademu/W-History
+- 公開用ブランチ：`main`
+- 管理画面：https://vercel.com/umedademu-gmailcoms-projects/w-history
+
+すでにGitHubと接続済みです。通常の更新では、新規プロジェクトを作り直す必要はありません。
+
 ## Vercel
 
 1. このフォルダ全体を単独のGitHubリポジトリへ登録する。
