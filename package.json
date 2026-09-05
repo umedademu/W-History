@@ -1,0 +1,11 @@
+{
+  "name": "w-history",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "build": "npm run check",
+    "build:map": "node scripts/build-timur-map.mjs"
+  }
+}

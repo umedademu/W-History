@@ -1,0 +1,439 @@
+{
+  "source": "umedademu/anki",
+  "sourceCommit": "fdc5acc",
+  "sourceVersion": "0.188",
+  "date": "2026-09-05",
+  "verifiedBeforeAdaptation": true,
+  "files": [
+    {
+      "path": "public/safavid-scenes.js",
+      "bytes": 33294,
+      "sha256": "b8b050272208d81b2a58849c288c4472a383b7aed046d1bc4745f4f2c4bc3b14"
+    },
+    {
+      "path": "public/safavid-story.css",
+      "bytes": 4083,
+      "sha256": "98c5b5c59d5c5e345f94941fc884b5eec1a22c0c9a77680b95e5beb22fafbd42"
+    },
+    {
+      "path": "public/safavid-story.html",
+      "bytes": 6721,
+      "sha256": "e574a13f80a330a27b5276f10f391030c28ca5a1ba7c638bbbf52aac70d13bda"
+    },
+    {
+      "path": "public/safavid-story.js",
+      "bytes": 14198,
+      "sha256": "ec5bff67f4757897748314018a2ef644c949f358e729f754b7ee0bd67e5a0efe"
+    },
+    {
+      "path": "public/timur-after-scenes.js",
+      "bytes": 22298,
+      "sha256": "285a9050dad014e333d28c5c21b386f0c36a20df413e1ee8d58c4b14df26c6ce"
+    },
+    {
+      "path": "public/timur-after-story.css",
+      "bytes": 3140,
+      "sha256": "ca45ccb6231513d24c1c8aa19eda17d9d93a6bfe2c31549b3b609a84f06ffa21"
+    },
+    {
+      "path": "public/timur-after-story.html",
+      "bytes": 9265,
+      "sha256": "30b03d4638533ebb498199a18058a1e54a3281924e9968ddb4adbf33f869652b"
+    },
+    {
+      "path": "public/timur-after-story.js",
+      "bytes": 14061,
+      "sha256": "3c58dbab637f637119d36df1c7cad102914da98ab502f65497b9e96efc46f335"
+    },
+    {
+      "path": "public/timur-characters.js",
+      "bytes": 13326,
+      "sha256": "f62bda748b276a4f5f189b3c4ff345276e6aafd71c6c320d6fa76acde05413b5"
+    },
+    {
+      "path": "public/timur-map.svg",
+      "bytes": 10296,
+      "sha256": "7653de47e6a10c61607cb582078e62df329edacaf81fbcff4ed91ca1a9855712"
+    },
+    {
+      "path": "public/timur-story.css",
+      "bytes": 16263,
+      "sha256": "2be10bc4e5164ce29fd4d66255175930dd5ad32070cb9e64d086dea82fca8ef1"
+    },
+    {
+      "path": "public/timur-story.html",
+      "bytes": 7652,
+      "sha256": "b7bb26e2230f257eb528b16577054b3826da0b8a3e34e2deaab726335a69bf71"
+    },
+    {
+      "path": "public/timur-story.js",
+      "bytes": 28245,
+      "sha256": "f635813cd5c082898bb01e82430fa7419dfd876ef01222b19856fa1845c802fb"
+    },
+    {
+      "path": "docs/safavid-images.md",
+      "bytes": 7757,
+      "sha256": "f9c949582530908f6b6a3f7c342df7abdf41318330c85641460aca4ff60fbc90"
+    },
+    {
+      "path": "docs/safavid-story.md",
+      "bytes": 8002,
+      "sha256": "591318a2c5dfc8e529c939724e3e51ab14bf660b6adff91b525a7f9a1ee85b29"
+    },
+    {
+      "path": "docs/timur-after-images.md",
+      "bytes": 6079,
+      "sha256": "7d25462c9a42b69a5a45beba2a943652a1446cf2a3056c07d33147c84ac9a8cf"
+    },
+    {
+      "path": "docs/timur-after-story.md",
+      "bytes": 7345,
+      "sha256": "06f4f8d131f22f6ab87f187413d59adcdda48711a30c2f99bf40372d2df9e3cd"
+    },
+    {
+      "path": "docs/timur-character-images.md",
+      "bytes": 4785,
+      "sha256": "2bcef8829f4d2535121896cdabccc2313a5117c95bc71bb41e6de0dbf4540cd5"
+    },
+    {
+      "path": "docs/timur-story.md",
+      "bytes": 10873,
+      "sha256": "704d24da78aa3fd99c8fed4a368ccdfd35020011b129454dadb654daa6d1a679"
+    },
+    {
+      "path": "scripts/build-timur-map.mjs",
+      "bytes": 2673,
+      "sha256": "2777f6c6ffc9a7f3de8a2bdb601b88524ee122c8af50d76edd023239eccaf9db"
+    },
+    {
+      "path": "public/images/timur/bayezid-angry.png",
+      "bytes": 50079,
+      "sha256": "b58fcc7e51d66e0786717a13388cf053dc912a5fc71d3fc0acd96fb080f01629"
+    },
+    {
+      "path": "public/images/timur/bayezid-sad.png",
+      "bytes": 41185,
+      "sha256": "f4d83bac407b22ccb9fb9644ce51f8fa1aa0e31b69848078bfb583db7efa8811"
+    },
+    {
+      "path": "public/images/timur/genghis.png",
+      "bytes": 54838,
+      "sha256": "a58615b4a46d25920722fcc7357169a8afac57c3ae114a9f2f7499a4ba8172db"
+    },
+    {
+      "path": "public/images/timur/ming.png",
+      "bytes": 39603,
+      "sha256": "46dc7a5e9a51eeb25b15643aa83d3802bf0f5720a5f906c2780f058451eb5465"
+    },
+    {
+      "path": "public/images/timur/princess-calm.png",
+      "bytes": 46691,
+      "sha256": "212aadd81d2efa6b2a275c41ed957b7495afd3050917f61a8ab77cea6a2daafa"
+    },
+    {
+      "path": "public/images/timur/princess-happy.png",
+      "bytes": 50416,
+      "sha256": "5c5c465fdfffbb940d64e6b0159d561b34e749ee3b7d9dfa54a2dccf3812ca15"
+    },
+    {
+      "path": "public/images/timur/ruler-calm.png",
+      "bytes": 43115,
+      "sha256": "f5e29c99c86ec2e25c999d8c5f1fbb3d7e7c996de439442e6be127962001a74d"
+    },
+    {
+      "path": "public/images/timur/ruler-happy.png",
+      "bytes": 43590,
+      "sha256": "ffa579e585a5ebb486523956f3be82af39e00cefc1831898b2cf3a3a4e4a21c2"
+    },
+    {
+      "path": "public/images/timur/ruler-worried.png",
+      "bytes": 47437,
+      "sha256": "cbae1062476f69376403729117474d72d994dc78c74ea66faba76f2cde23a627"
+    },
+    {
+      "path": "public/images/timur/scholar.png",
+      "bytes": 41430,
+      "sha256": "5bfdc75995e8cbdb9b3a75391f7c8d3a10ac294aede805d894c9f82f7e79f16a"
+    },
+    {
+      "path": "public/images/timur/timur-calm.png",
+      "bytes": 40231,
+      "sha256": "a0a7d41ab35617d7b11162c2b77a315fe6525ca092e90f5905c20f59cf78d88d"
+    },
+    {
+      "path": "public/images/timur/timur-cavalry.png",
+      "bytes": 40348,
+      "sha256": "2ae492dc88205b2fd9a483ec8672347be3c4343a20e0e4e5a2d6ba72ab3e5bbf"
+    },
+    {
+      "path": "public/images/timur/timur-happy.png",
+      "bytes": 41289,
+      "sha256": "cac8650c946a3d6931f2012d05b2d96f9ba6c4eb26fa041dd10a8322c05d2f64"
+    },
+    {
+      "path": "public/images/timur/timur-ill.png",
+      "bytes": 38041,
+      "sha256": "f9b7b5af54571fe0bd8e9cc2ed03982e6332a9b6e1165906e7165fc11d0e1224"
+    },
+    {
+      "path": "public/images/timur/timur-march.png",
+      "bytes": 46249,
+      "sha256": "fe6cca60f13c178144c190df92ce813711137b2981db7aa63e5841da77fd1c6b"
+    },
+    {
+      "path": "public/images/timur/tokhtamysh-angry.png",
+      "bytes": 47031,
+      "sha256": "ecbc1eb901584559aca40e84f7916e048ecd299e30a37b9e111b75b642b2f1f4"
+    },
+    {
+      "path": "public/images/timur/tokhtamysh-worried.png",
+      "bytes": 48252,
+      "sha256": "ca8270a25a3cc9f652139167b903ede0c6b97e741a771bfee48b37635523cbb5"
+    },
+    {
+      "path": "public/images/timur/war-elephant.png",
+      "bytes": 42406,
+      "sha256": "20edbf9f789f8f141ffe0ff159b293fcc26dd15e724456174f3f460a00506750"
+    },
+    {
+      "path": "public/images/timur-after/camel.png",
+      "bytes": 58916,
+      "sha256": "44517bd69a25d12e717a2674e78e64e13b70a8bd6000753eeb22751b0f65e432"
+    },
+    {
+      "path": "public/images/timur-after/kazakh.png",
+      "bytes": 48227,
+      "sha256": "0436cbacf38f8d8d2e061e5db549e650dcbb5df488b9faa00069f31a1356a202"
+    },
+    {
+      "path": "public/images/timur-after/market.png",
+      "bytes": 75040,
+      "sha256": "0bda95981258091290861bdca4a0a253075712ee82006f8fa34c6bd215ef6194"
+    },
+    {
+      "path": "public/images/timur-after/merchant.png",
+      "bytes": 42722,
+      "sha256": "3961a6cefe8540c39d1337f1e9c1dd3fe42a7976cdba065bd7c5622bf88c0f87"
+    },
+    {
+      "path": "public/images/timur-after/miniature.png",
+      "bytes": 73339,
+      "sha256": "d430f26db6bb84209a8c0dde012625a647c43f611d12d492bae289081179c340"
+    },
+    {
+      "path": "public/images/timur-after/observatory.png",
+      "bytes": 62653,
+      "sha256": "be506922357d3dc494d46f19c14fd9ed39451b99ed88a0c65946b8052bee8e15"
+    },
+    {
+      "path": "public/images/timur-after/painter.png",
+      "bytes": 45600,
+      "sha256": "ab1bd6a7b395ff93612fc0e88cb2dbe162e7560b910cfd186dc8b9c2e086c085"
+    },
+    {
+      "path": "public/images/timur-after/palace.png",
+      "bytes": 70638,
+      "sha256": "940121d75daee7c2d482827542e320ce3a08bc1bd956175038f1453c37bcc927"
+    },
+    {
+      "path": "public/images/timur-after/poet.png",
+      "bytes": 44756,
+      "sha256": "366fbde03b5c411e014381182b7e8851da774f7d86b042b36dd5def48f4d413d"
+    },
+    {
+      "path": "public/images/timur-after/poetry.png",
+      "bytes": 66361,
+      "sha256": "b9c1661992516f003103a4f08a462b307fcda7531f82c4fe72eee1aaeb8af678"
+    },
+    {
+      "path": "public/images/timur-after/russian-soldier.png",
+      "bytes": 31904,
+      "sha256": "636d5ba5f12327a9c084771f773b8c39618d92ee0a683e8766cb78777e8eba42"
+    },
+    {
+      "path": "public/images/timur-after/shahrukh-calm.png",
+      "bytes": 40700,
+      "sha256": "31d2f392d4e8ca590770f1cb5369fee03bde5ed30cf6e36e4fbe78a264f3b510"
+    },
+    {
+      "path": "public/images/timur-after/shahrukh-happy.png",
+      "bytes": 45919,
+      "sha256": "432c70a6052ff8e57bab142850f9ce9b4a57eed2b36d00f4e80a8645ef311901"
+    },
+    {
+      "path": "public/images/timur-after/shahrukh-old.png",
+      "bytes": 39285,
+      "sha256": "778db7646330617516d16b8dd3fa665ab3de6d84a35dc464865c94ae42078dba"
+    },
+    {
+      "path": "public/images/timur-after/shahrukh-walk.png",
+      "bytes": 39619,
+      "sha256": "0dff31f2c75a596a014f3a0fe33a2e203132334995e6fe1ad960f6ad9452e407"
+    },
+    {
+      "path": "public/images/timur-after/shaybani-happy.png",
+      "bytes": 42246,
+      "sha256": "4e31da238d6f63aa5bb5f36d73e36a36195f79ecc92681682b158a262b68e165"
+    },
+    {
+      "path": "public/images/timur-after/shaybani-march.png",
+      "bytes": 43008,
+      "sha256": "3e05efac2acdfb02eedc8998c26bc209a9913c4d249251e5a878c9c636567e09"
+    },
+    {
+      "path": "public/images/timur-after/ulugh-fallen.png",
+      "bytes": 36808,
+      "sha256": "207c8462c7e91116e1fca5c34fdd23e43e3a9ff74e1e830b4ac2520a95f650c5"
+    },
+    {
+      "path": "public/images/timur-after/ulugh-king.png",
+      "bytes": 42489,
+      "sha256": "cf56d0a3479a33f58be143824e940f45d177298326360fd29715817839d32202"
+    },
+    {
+      "path": "public/images/timur-after/ulugh-scholar.png",
+      "bytes": 46760,
+      "sha256": "b321f40b84de4fc75a28f302b11abf4170c93a2fd284100d8551d60fa46ee046"
+    },
+    {
+      "path": "public/images/timur-after/ulugh-worried.png",
+      "bytes": 48007,
+      "sha256": "196e889a4034e7a9b931bcbb003ff6efc015b7dda3564fb66ef52b766a6cde19"
+    },
+    {
+      "path": "public/images/timur-after/uzbek-ruler.png",
+      "bytes": 43145,
+      "sha256": "c5d675a5e8a2678357e38570696b1349676b38c41dd785605383862d4492162e"
+    },
+    {
+      "path": "public/images/safavid/abbas-calm.png",
+      "bytes": 34854,
+      "sha256": "fdf5057c40abd1954ac2c526c0e1f3035e4705d8325c8c6524d7bb0cbf6b3b0e"
+    },
+    {
+      "path": "public/images/safavid/abbas-happy.png",
+      "bytes": 36906,
+      "sha256": "2505620a8d882998ecc44e69e0791727dccd9f81f5788ab1fb3b3f713b24a6ec"
+    },
+    {
+      "path": "public/images/safavid/abbas-march.png",
+      "bytes": 35623,
+      "sha256": "05fca501306e012b7bd7eae2eab9a03d14b208987a84f6bced2e4c96ead4345b"
+    },
+    {
+      "path": "public/images/safavid/afghan-warrior.png",
+      "bytes": 31342,
+      "sha256": "00174909447ea61710bb80f477e63fe8c4e3fd6b89c30ac42e4a06653871a146"
+    },
+    {
+      "path": "public/images/safavid/agha-mohammad.png",
+      "bytes": 31920,
+      "sha256": "1162d32aa301f68c702f43cbc934fd34209a0a2114d07e5747085e4f853aab92"
+    },
+    {
+      "path": "public/images/safavid/ahmad-durrani.png",
+      "bytes": 33259,
+      "sha256": "4088ac1f615c3a1be1cad963f1da7403dded2f79277082d46bc4bf41e6214d41"
+    },
+    {
+      "path": "public/images/safavid/ali-qapu.png",
+      "bytes": 47027,
+      "sha256": "a8214c1959bbb3fca96b767e48e8efd767b8c116c17ab68d7df27aa45f5fe6c5"
+    },
+    {
+      "path": "public/images/safavid/armenian-merchant.png",
+      "bytes": 35163,
+      "sha256": "9615557194df15612ec5ecdb04c2f695895590e111feb3b449f6a7c5fbdb05f3"
+    },
+    {
+      "path": "public/images/safavid/cannon-firing.png",
+      "bytes": 24207,
+      "sha256": "cccaf3e79eb85fd12f2ea69fa797ce15016cf7605fb9aec54f95a90cb152265c"
+    },
+    {
+      "path": "public/images/safavid/cannon.png",
+      "bytes": 21455,
+      "sha256": "b29d1a4fab923ca70ab87eb8f4bd2469209104f5b51a5caab97a8cea355a7990"
+    },
+    {
+      "path": "public/images/safavid/caravanserai.png",
+      "bytes": 40530,
+      "sha256": "f498278913688b1d9d414c0846fdf1296340afc1a85d9b8816f946f990855f4c"
+    },
+    {
+      "path": "public/images/safavid/english-ship.png",
+      "bytes": 40786,
+      "sha256": "38cbc01c0fe5d9e4c8acc21e477031d61b4c6d9cd390be4ff82d0a5f1f63e003"
+    },
+    {
+      "path": "public/images/safavid/gholam-soldier.png",
+      "bytes": 34227,
+      "sha256": "82559f3f442e0cb082c801233535367260c5da9c3f0a33cffd8ae69b430ada78"
+    },
+    {
+      "path": "public/images/safavid/ismail-calm.png",
+      "bytes": 31076,
+      "sha256": "f6cbe59b3ef1a0ff9fe95b5f254da2f84f4f4d7c4f050a137ac60b0b69f95b35"
+    },
+    {
+      "path": "public/images/safavid/ismail-march.png",
+      "bytes": 32552,
+      "sha256": "b4c528b9c040b76d0bf68856f84024dbe3585628af0e3f607cee6d4dffa8d6ee"
+    },
+    {
+      "path": "public/images/safavid/ismail-worried.png",
+      "bytes": 33095,
+      "sha256": "286e03a39947f10139602b8cd34d750bc39c4b1e03cfdcfb6ffa758dc65a3d19"
+    },
+    {
+      "path": "public/images/safavid/late-shah-worried.png",
+      "bytes": 33417,
+      "sha256": "9d35ce76c968e495265505a653412e4d98074af7b0e004975448c26a7260afb6"
+    },
+    {
+      "path": "public/images/safavid/nadir-shah.png",
+      "bytes": 32274,
+      "sha256": "f294a6a1404d1902ef02f0df1ffe0d879c8c1f6af023ec27f131ace7055aaa2e"
+    },
+    {
+      "path": "public/images/safavid/ottoman-gunner.png",
+      "bytes": 15969,
+      "sha256": "6854ab423305e24fe559bbae64619f1248c151967d46d27d8bced32058241aef"
+    },
+    {
+      "path": "public/images/safavid/ottoman-infantry.png",
+      "bytes": 20731,
+      "sha256": "1f63b543f05c1672dcd407e3bdc11d2296bd51d1fcb57dff907fd0e2f6f7b692"
+    },
+    {
+      "path": "public/images/safavid/qizilbash-cavalry.png",
+      "bytes": 33736,
+      "sha256": "d9599d4376d5a9f12ba59a42479d1fb4ce5b80deaecbf2c26f7987adbb3b9cf5"
+    },
+    {
+      "path": "public/images/safavid/qizilbash-warrior.png",
+      "bytes": 35548,
+      "sha256": "b9ba634401d103732e1c7537e317bb8674d997ac21b66b823325ceb2708a7a62"
+    },
+    {
+      "path": "public/images/safavid/selim-angry.png",
+      "bytes": 38304,
+      "sha256": "c2e8da3ef670c631cb084d883589f57527885741fe1a99604372a6f1d4c27f10"
+    },
+    {
+      "path": "public/images/safavid/shah-mosque.png",
+      "bytes": 46385,
+      "sha256": "0c0acaa7db45c068f441f20a7da8ef85024225d3e20091784368f605434e66ba"
+    },
+    {
+      "path": "public/images/safavid/shia-scholar.png",
+      "bytes": 31565,
+      "sha256": "74ba74f390f39315e32b892d0d96b458c24456536c3e2aaef43a1bae12f2e5b8"
+    },
+    {
+      "path": "public/images/safavid/silk-fabric.png",
+      "bytes": 32457,
+      "sha256": "9744de49e52becf3f004ba0f723bcf16e30f0e9aff424145ae366246e407aec0"
+    }
+  ]
+}
