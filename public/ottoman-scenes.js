@@ -1,0 +1,458 @@
+// 提供された教科書写真（オスマン帝国）をもとに再構成した固定教材。学習データとは独立している。
+export const places = {
+  sogut: { name: "ソグート", point: [30.01, 40.02] },
+  bursa: { name: "ブルサ", point: [29.06, 40.18] },
+  edirne: { name: "エディルネ", point: [26.56, 41.68] },
+  kosovo: { name: "コソヴォ", point: [21.16, 42.66] },
+  nicopolis: { name: "ニコポリス", point: [24.89, 43.70] },
+  ankara: { name: "アンカラ", point: [32.85, 39.93] },
+  istanbul: { name: "イスタンブル", point: [28.98, 41.01] },
+  chaldiran: { name: "チャルディラーン", point: [44.35, 39.14] },
+  tabriz: { name: "タブリーズ", point: [46.29, 38.08] },
+  cairo: { name: "カイロ", point: [31.24, 30.04] },
+  damascus: { name: "ダマスクス", point: [36.29, 33.51] },
+  mecca: { name: "メッカ", point: [39.83, 21.42] },
+  medina: { name: "メディナ", point: [39.61, 24.47] },
+  baghdad: { name: "バグダード", point: [44.37, 33.32] },
+  mohacs: { name: "モハーチ", point: [18.68, 45.99] },
+  vienna: { name: "ウィーン", point: [16.37, 48.21] },
+  preveza: { name: "プレヴェザ", point: [20.75, 38.96] },
+  lepanto: { name: "レパント", point: [21.83, 38.39] },
+  karlowitz: { name: "カルロヴィッツ", point: [19.93, 45.20] },
+  crimea: { name: "クリミア", point: [34.10, 44.95] },
+  buda: { name: "ブダ", point: [19.04, 47.50] },
+  algiers: { name: "アルジェ", point: [13.0, 36.7] }, // 地図枠内模式
+};
+
+export const zones = {
+  early: { color: "#c26d53", points: [[28.5, 40.5], [30.5, 40.5], [30.5, 39.5], [28.5, 39.5]] },
+  balkans: { color: "#7a8f9a", points: [[20, 44], [27, 44], [28, 40], [21, 38], [19, 41]] },
+  mehmed: { color: "#b35b45", points: [[20, 44], [30, 44], [35, 42], [35, 37], [26, 36], [20, 39]] },
+  selim: { color: "#8b6582", points: [[26, 42], [45, 41], [46, 32], [32, 29], [30, 32]] },
+  suleiman: { color: "#a8543f", points: [[16, 48], [24, 48], [36, 46], [47, 40], [48, 30], [33, 29], [18, 41]] },
+  hungary: { color: "#9a8b54", points: [[17, 48], [22, 48], [22, 45], [17, 45]] },
+  safavid_border: { color: "#54866b", points: [[44, 41], [50, 41], [50, 32], [44, 32]] },
+  mamluk: { color: "#b0882f", points: [[30, 32], [38, 34], [38, 28], [30, 27]] },
+};
+
+const point = p => typeof p === "string" ? places[p].point : p;
+const route = (points, kind = "campaign", options = {}) => ({ points: points.map(point), kind, ...options });
+const person = (name, image, at, options = {}) => ({ name, image, at, ...options });
+const prop = (name, image, at, options = {}) => ({ name, image, at, kind: "prop", ...options });
+const scene = s => ({ frame: [14, 20, 48, 50], zones: [], pins: [], routes: [], tags: [], facts: [], actors: [], props: [], duration: 3400, ...s });
+
+export const scenes = [
+  scene({
+    id: "founding", chapter: 0, year: "1299年頃", kicker: "小国家からの出発",
+    title: "アナトリア西北部に、\nオスマン朝が誕生する。",
+    body: [
+      "13世紀、モンゴルの遠征によってルーム＝セルジューク朝が崩壊すると、アナトリア各地にトルコ人戦士の小国家（ベイリク）が乱立した。",
+      "その中から現れた<strong>オスマン1世</strong>が、アナトリア西北部のソグート周辺にオスマン朝を建てた。この時点ではまだ小さな「戦士集団」にすぎなかった。"
+    ],
+    takeaway: "1299年頃・オスマン1世・アナトリア西北部の小集団から始まる。",
+    note: "建国の年代には諸説があります。当初は強大な帝国ではなく、国境地帯で活動するイスラーム戦士（ガーズィー）の集団でした。",
+    focus: "オスマン1世", mapHeading: "アナトリア北西部に注目",
+    before: "トルコ系戦士たちがアナトリア北西部に結集", after: "オスマン1世が小国家を建てる",
+    frame: [24, 36, 36, 44], zones: ["early"], pins: ["sogut"], capital: "sogut",
+    tags: [{ at: [30, 41.2], text: "オスマン朝発祥地" }], facts: ["指導者：オスマン1世", "拠点：ソグート"],
+    actors: [
+      person("オスマン1世", "osman-calm", "sogut", { offset: [-28, 0], bubble: "我らの国を拓く！" }),
+      person("スィパーヒー騎兵", "sipahi-cavalry", "sogut", { offset: [32, 0] })
+    ]
+  }),
+
+  scene({
+    id: "bursa", chapter: 0, year: "1326年", kicker: "拠点の確立と都の誕生",
+    title: "第2代オルハンが、\nブルサを奪い都とする。",
+    body: [
+      "第2代<strong>オルハン</strong>は、衰退するビザンツ帝国から重要都市<strong>ブルサ</strong>を奪取した。ビザンツにとっては地方都市だったブルサが、オスマン朝の最初の本格的な「都」となった。",
+      "トルコ人のイスラーム戦士だけでなく、地元のキリスト教徒も宗教に関係なく戦士として受け入れる柔軟さが、急速な発展の原動力となった。"
+    ],
+    takeaway: "第2代オルハン・ブルサを都とし、宗教を超えて戦士を結集。",
+    note: "ブルサは絹織物交易の要所でもあり、小国家から領土国家へと脱皮する確固たる基盤となりました。",
+    focus: "オルハン", mapHeading: "ビザンツ領からブルサを奪う",
+    before: "ソグートから西のブルサへ進出", after: "ブルサを都とし、国家の骨格を形成",
+    frame: [25, 37, 35, 43], zones: ["early"], pins: ["sogut", "bursa"], capital: "bursa",
+    routes: [route(["sogut", "bursa"])],
+    facts: ["最初の本格的な都：ブルサ", "異教徒も受け入れる柔軟性"],
+    actors: [
+      person("オルハン", "orhan-calm", "bursa", { offset: [30, 0], bubble: "ブルサを都とする！" }),
+      person("オスマン戦士", "osman-march", "sogut", { route: 0, offset: [-28, 0] })
+    ]
+  }),
+
+  scene({
+    id: "edirne", chapter: 0, year: "1362〜66年", kicker: "海峡を越えてヨーロッパへ",
+    title: "ムラト1世がバルカンへ進出し、\nエディルネへ遷都。",
+    body: [
+      "第3代<strong>ムラト1世</strong>は、守りの固いコンスタンティノープルを迂回して、ヨーロッパ側の<strong>バルカン半島</strong>へと本格的に進出した。",
+      "ビザンツ第2の都市<strong>アドリアノープル（エディルネ）</strong>を占領して都を移した。これによりオスマン朝は、アジアとヨーロッパの両大陸にまたがる強国へと成長していく。"
+    ],
+    takeaway: "ムラト1世・バルカン進出・アドリアノープル（エディルネ）遷都。",
+    note: "当時バルカン半島のキリスト教諸国（ブルガリアやセルビア）は内紛で弱体化しており、オスマン朝の進出を容易にしました。",
+    focus: "ムラト1世", mapHeading: "ダーダネルス海峡を越えバルカンへ",
+    before: "ブルサから海峡を渡りヨーロッパ側へ進軍", after: "エディルネを占領して遷都",
+    frame: [23, 38, 33, 44], zones: ["early", "balkans"], pins: ["bursa", "edirne", "istanbul"], capital: "edirne",
+    routes: [route(["bursa", [27.0, 40.5], "edirne"])],
+    facts: ["海峡を渡りヨーロッパへ", "新都：エディルネ"],
+    actors: [
+      person("ムラト1世", "murad-march", "bursa", { route: 0, afterImage: "murad-calm", offset: [-28, 0], bubble: "バルカンへ進出する！" }),
+      person("ビザンツ勢力", "constantine-xi", "istanbul", { offset: [30, 0] })
+    ]
+  }),
+
+  scene({
+    id: "kosovo", chapter: 0, year: "1389年", kicker: "バルカン支配と常備軍",
+    title: "コソヴォの戦いと、\nイェニチェリ軍団の創設。",
+    body: [
+      "1389年の<strong>コソヴォの戦い</strong>で、オスマン軍はセルビアやボスニアなどのスラヴ連合軍を撃破した。ムラト1世はこの戦いの最中に暗殺されたものの、バルカン南部での優位を決定づけた。",
+      "ムラト1世はイスラーム法学者を登用して統治機構を整備するとともに、キリスト教徒の少年を強制徴募してイスラームに改宗させる<strong>デヴシルメ制</strong>により、スルタン直属の常備歩兵軍<strong>イェニチェリ</strong>を創設した。"
+    ],
+    takeaway: "1389年コソヴォの戦い・デヴシルメ制・常備歩兵軍イェニチェリ創設。",
+    note: "イェニチェリはスルタン直属の奴隷軍人ですが、功績をあげれば将軍や宰相（大宰相）へと出世できる特権的なエリート集団でした。",
+    focus: "コソヴォの戦いと軍制", mapHeading: "バルカン奥地での決戦",
+    before: "エディルネから軍を進めコソヴォで対決", after: "連合軍を撃破し、直属軍イェニチェリを確立",
+    frame: [18, 39, 30, 45], zones: ["balkans"], pins: ["edirne", "kosovo"],
+    routes: [route(["edirne", [24, 42], "kosovo"])],
+    facts: ["コソヴォの戦い：スラヴ軍撃破", "イェニチェリ：スルタン直属軍"],
+    actors: [
+      person("ムラト1世", "murad-calm", "kosovo", { offset: [-30, 0], bubble: "勝利と軍制改革" }),
+      person("イェニチェリ銃兵", "ottoman-gunner", "kosovo", { offset: [30, 0] })
+    ]
+  }),
+
+  scene({
+    id: "nicopolis", chapter: 0, year: "1396年", kicker: "「稲妻」と呼ばれた軍事の天才",
+    title: "バヤジット1世、\nニコポリスで連合十字軍を破る。",
+    body: [
+      "ムラト1世を継いだ第4代<strong>バヤジット1世</strong>は、「稲妻（ユルドゥルム）」と呼ばれる電光石火の軍才で、バルカン半島とアナトリアの双方を次々と征服した。",
+      "危機感を募らせたヨーロッパ側は、ハンガリー王ジギスムントを中心にヨーロッパ連合十字軍を結成。ドナウ川沿いの<strong>ニコポリスの戦い（1396年）</strong>で衝突したが、バヤジット1世はこれを壊滅させ、<strong>スルタン</strong>の称号を広く認めさせた。"
+    ],
+    takeaway: "1396年・ニコポリスの戦いでヨーロッパ連合十字軍を撃破。",
+    note: "この大勝により、オスマン朝はヨーロッパ諸国にとって最大の脅威として恐れられるようになりました。",
+    focus: "バヤジット1世", mapHeading: "ドナウ川のニコポリスで激突",
+    before: "南から進軍するオスマン軍と、北からの十字軍", after: "十字軍を粉砕し、スルタンの威光を示す",
+    frame: [18, 39, 30, 46], zones: ["balkans"], pins: ["edirne", "nicopolis"],
+    routes: [route(["edirne", "nicopolis"], "campaign"), route([[22, 46], "nicopolis"], "rival")],
+    facts: ["稲妻バヤジット1世", "ヨーロッパ連合軍を撃破"],
+    actors: [
+      person("バヤジット1世", "bayezid-angry", "edirne", { route: 0, offset: [-30, 0], bubble: "十字軍など恐るるに足らず！" }),
+      person("イェニチェリ", "sipahi-cavalry", "nicopolis", { offset: [32, 0] })
+    ]
+  }),
+
+  scene({
+    id: "ankara", chapter: 0, year: "1402年", kicker: "東方からの思わぬ強敵",
+    title: "アンカラの戦いでティムールに敗れ、\n帝国は一時中断する。",
+    body: [
+      "ヨーロッパで無敵を誇ったバヤジット1世だったが、背後のアナトリアで足元をすくわれる。領土を奪われたアナトリアの旧君侯たちが、中央アジアの覇者<strong>ティムール</strong>に救援を求めた。",
+      "1402年、<strong>アンカラの戦い</strong>でオスマン軍はティムール軍に大敗。バヤジット1世は捕虜となり、悲劇的な死を遂げた。オスマン朝は後継者をめぐる激しい内紛に陥り、一時中断（空位時代）となった。"
+    ],
+    takeaway: "1402年・アンカラの戦い → ティムールに敗れバヤジット1世は捕虜に。",
+    note: "教材01「ティムールの遠征」の場面9と表裏をなす出来事です。国家存亡の危機でしたが、オスマン朝はバルカンを拠点に約10年で再統一を果たします。",
+    focus: "アンカラの戦い", mapHeading: "アナトリア中央部で二大勢力が衝突",
+    before: "西からバヤジット1世、東からティムール軍が迫る", after: "ティムール軍が勝利し、バヤジット1世は捕虜に",
+    frame: [26, 36, 38, 43], pins: ["ankara", "bursa"],
+    routes: [route(["bursa", "ankara"], "campaign"), route([[38, 39], "ankara"], "rival")],
+    facts: ["アンカラでティムールと激突", "スルタン捕縛・帝国一時中断"],
+    actors: [
+      person("バヤジット1世", "bayezid-sad", "ankara", { offset: [-32, 0], bubble: "無念…捕虜となるとは…" }),
+      person("ティムール", "timur-march", [38, 39], { route: 1, offset: [32, 0], bubble: "我が覇道に敵なし！" })
+    ]
+  }),
+
+  scene({
+    id: "recovery", chapter: 0, year: "15世紀前半", kicker: "バルカンを拠点とする再生",
+    title: "混乱を乗り越え、\n着実に統治体制を再建する。",
+    body: [
+      "アンカラの敗戦でアナトリアの領地は大きく削られたが、オスマン朝は住民の支持を背景にバルカン半島を中心として粘り強く踏みとどまった。",
+      "首都をエディルネに置き、約10年の内紛を経てメフメト1世、ムラト2世のもとで国家を再興。急速な拡大を戒め、地方統治と軍制をじっくり固め直していった。"
+    ],
+    takeaway: "バルカン半島を支えに約10年で復興、次の大躍進へ準備を整える。",
+    note: "バヤジット1世時代の拡大ペースが速すぎて統治が追いついていなかった反省から、この時期に着実な官僚機構と軍制の整備が進められました。",
+    focus: "国家の再建", mapHeading: "エディルネを中心に体制を立て直す",
+    before: "内紛を収拾し、再び領土を回復", after: "安定した統治基盤を確立",
+    frame: [22, 38, 34, 44], zones: ["balkans"], pins: ["edirne", "bursa"], capital: "edirne",
+    facts: ["バルカン半島が復興の支え", "組織と統治を固め直す"],
+    actors: [
+      person("オスマン君主", "murad-calm", "edirne", { offset: [-28, 0], bubble: "国を立て直し、基盤を固める" }),
+      person("スィパーヒー騎兵", "sipahi-cavalry", "edirne", { offset: [32, 0] })
+    ]
+  }),
+
+  scene({
+    id: "conquest", chapter: 1, year: "1453年", kicker: "千年の城壁を砕く奇策",
+    title: "メフメト2世、\nコンスタンティノープルを征服！",
+    body: [
+      "第7代<strong>メフメト2世</strong>は、歴代スルタンの悲願であったビザンツ帝国の首都<strong>コンスタンティノープル</strong>の攻略を開始した。堅固なテオドシウスの二重城壁と金角湾の鉄の鎖が攻撃を阻む。",
+      "メフメト2世はハンガリー人技術者<strong>ウルバン</strong>に600kgの巨石を飛ばす<strong>巨大大砲</strong>を鋳造させ、さらに72隻の軍艦を陸上の「山越え」で金角湾内へと突入させる奇襲を成功させ、ついに要塞を陥落させた。"
+    ],
+    takeaway: "1453年・メフメト2世・巨大大砲と船の山越えでコンスタンティノープル征服。",
+    note: "ビザンツ守備軍わずか1万に対し、オスマン軍は10万余。最新鋭の火器技術と奇抜な戦略が難攻不落の要塞を破りました。",
+    focus: "メフメト2世と巨大兵器", mapHeading: "ボスポラス海峡を挟む大攻防戦",
+    before: "大砲と艦船でコンスタンティノープルを包囲", after: "1453年、難攻不落の城壁が崩壊",
+    frame: [26, 39, 32, 43], pins: ["edirne", "istanbul"],
+    routes: [route(["edirne", "istanbul"])],
+    facts: ["ウルバンの巨大大砲", "72隻の軍艦の山越え作戦"],
+    actors: [
+      person("メフメト2世", "mehmed-march", "edirne", { route: 0, offset: [-36, 0], bubble: "全軍突撃！城壁を砕け！" }),
+      person("技術者ウルバン", "urban-engineer", "istanbul", { offset: [36, 0] })
+    ],
+    props: [
+      prop("巨大大砲", "giant-cannon", "istanbul", { offset: [-10, -32] }),
+      prop("山越え軍艦", "ottoman-galley", "istanbul", { offset: [20, 28] })
+    ]
+  }),
+
+  scene({
+    id: "istanbul", chapter: 1, year: "1453年以後", kicker: "ローマ皇帝の後継者を称す",
+    title: "ビザンツ帝国滅亡。\n新都イスタンブルの建設。",
+    body: [
+      "1453年の首都陥落により、千年以上続いた<strong>ビザンツ帝国（東ローマ帝国）は滅亡</strong>した。メフメト2世は都をここに移し、<strong>イスタンブル</strong>と改称した。",
+      "キリスト教の大聖堂ハギア＝ソフィアをモスクに改築し、新宮殿<strong>トプカプ宮殿</strong>を造営。ローマ帝国の遺産をも受け継いだオスマン朝は、東西に君臨する大帝国「オスマン帝国」へと脱皮した。"
+    ],
+    takeaway: "1453年ビザンツ帝国滅亡・イスタンブル遷都・トプカプ宮殿造営。",
+    note: "メフメト2世は「ルームのカイサル（ローマ皇帝）」を自称し、イスラームとヨーロッパ双方の伝統を融合させた統治を構想しました。",
+    focus: "新都イスタンブル", mapHeading: "東西文明の結節点が帝国の都に",
+    before: "首都をエディルネからイスタンブルへ移転", after: "モスクや宮殿を造営し、帝国の中心へ",
+    frame: [25, 38, 33, 44], zones: ["mehmed"], pins: ["istanbul"], capital: "istanbul",
+    facts: ["ビザンツ帝国滅亡（1453年）", "新都イスタンブル・トプカプ宮殿"],
+    actors: [
+      person("メフメト2世", "mehmed-happy", "istanbul", { offset: [-32, 0], bubble: "イスタンブルを帝国の心臓に！" })
+    ],
+    props: [
+      prop("トプカプ宮殿", "topkapi-palace", "istanbul", { offset: [32, -10] }),
+      prop("ハギア＝ソフィア", "suleymaniye-mosque", "istanbul", { offset: [32, 26] })
+    ]
+  }),
+
+  scene({
+    id: "millet", chapter: 1, year: "15世紀後半", kicker: "多様性を力に変える仕組み",
+    title: "ミッレット制を整え、\n多様な宗教と民族を包摂する。",
+    body: [
+      "バルカン半島から黒海北岸（クリミア＝ハン国の服属）まで勢力を広げたオスマン帝国は、多民族・多宗教の大国家となった。",
+      "キリスト教徒やユダヤ教徒などの非イスラーム教徒に対し、税納入を条件に信仰と自治を認める<strong>ミッレット制（宗教別共同体）</strong>を確立。ギリシア人やアルメニア人、スペインを追われたユダヤ人商人らが交易で大きく活躍した。"
+    ],
+    takeaway: "ミッレット制・非イスラーム教徒の信仰と自治を認めて共存・繁栄。",
+    note: "「ミッレット」という語は近代以降の呼称ですが、宗教ごとに首長を定めて裁判や婚姻などの自治を任せる共存システムは帝国の強みでした。",
+    focus: "帝国内の共存と交易", mapHeading: "黒海とバルカンを覆う多民族体制",
+    before: "黒海周辺・クリミアを従え、自治体制を承認", after: "各共同体の商人が活発に交易を展開",
+    frame: [22, 36, 38, 47], zones: ["mehmed"], pins: ["istanbul", "crimea"],
+    tags: [{ at: [34, 45], text: "クリミア＝ハン国服属" }],
+    facts: ["ミッレット制：宗教別自治共同体", "ユダヤ・アルメニア商人の活躍"],
+    actors: [
+      person("メフメト2世", "mehmed-calm", "istanbul", { offset: [-30, 0], bubble: "信仰を守り、自治を許す" }),
+      person("アルメニア商人", "armenian-merchant", "istanbul", { offset: [30, 0] })
+    ],
+    props: [
+      prop("隊商宿", "ottoman-inn", "crimea", { offset: [0, 0] })
+    ]
+  }),
+
+  scene({
+    id: "chaldiran", chapter: 1, year: "1514年", kicker: "東の宿敵サファヴィー朝を破る",
+    title: "セリム1世、チャルディラーンで\nサファヴィー朝を撃破。",
+    body: [
+      "16世紀初頭、イランで台頭したシーア派のサファヴィー朝がアナトリアへ影響力を伸ばし、危機感を強めた第9代<strong>セリム1世</strong>が出陣した。",
+      "1514年の<strong>チャルディラーンの戦い</strong>で、オスマン軍は鉄砲・大砲の圧倒的な火力によりイスマーイール1世率いるキジルバシュ騎兵を撃破。東アナトリア全域を完全に領有し、裁判官カーディーを派遣して支配を固めた。"
+    ],
+    takeaway: "1514年・チャルディラーンの戦い → 火器部隊でサファヴィー朝を破り東アナトリア獲得。",
+    note: "教材03「サファヴィー朝」の場面5と連動する重要な戦いです。オスマン朝の火薬兵器の優位性が証明されました。",
+    focus: "セリム1世と東方遠征", mapHeading: "アナトリア東部で激突",
+    before: "イスタンブルから東へ大遠征", after: "チャルディラーンで大勝し、東部国境を安定化",
+    frame: [28, 34, 48, 43], zones: ["selim", "safavid_border"], pins: ["istanbul", "chaldiran", "tabriz"],
+    routes: [route(["istanbul", [36, 39], "chaldiran"], "campaign"), route(["tabriz", "chaldiran"], "rival")],
+    facts: ["鉄砲・大砲の火力で圧勝", "東アナトリアの支配確立"],
+    actors: [
+      person("セリム1世", "selim-angry", "istanbul", { route: 0, offset: [-36, 0], bubble: "火器の威力を見よ！" }),
+      person("イスマーイール1世", "ismail-worried", "chaldiran", { offset: [36, 0], bubble: "オスマンの大砲に敵わぬ…" })
+    ],
+    props: [
+      prop("大砲", "giant-cannon", "chaldiran", { offset: [-12, -28] })
+    ]
+  }),
+
+  scene({
+    id: "cairo", chapter: 1, year: "1517年", kicker: "イスラーム世界の最高盟主へ",
+    title: "マムルーク朝を滅ぼし、\nメッカ・メディナの保護権を獲得。",
+    body: [
+      "東方を制したセリム1世は、返す刀でシリアからエジプトへと侵攻。1517年、カイロを攻略して<strong>マムルーク朝を滅ぼした</strong>。",
+      "これにより、イスラーム教の二大聖都である<strong>メッカとメディナの保護権</strong>を獲得。オスマン帝国の君主は、スンナ派イスラーム世界全体の最高指導者としての地位を確立した。"
+    ],
+    takeaway: "1517年・マムルーク朝征服・メッカ・メディナ保護権獲得でイスラームの盟主に。",
+    note: "のちに18世紀以降、この征服をもってカイロのアッバース家からカリフ位を譲られたとする「スルタン＝カリフ制」が主張されるようになります。",
+    focus: "エジプトとアラビア半島の併合", mapHeading: "シリア・エジプトから紅海沿岸へ",
+    before: "アナトリアからシリアを経てカイロへ進軍", after: "マムルーク朝滅亡、メッカ・メディナを手中に",
+    frame: [25, 20, 46, 38], zones: ["selim", "mamluk"], pins: ["istanbul", "damascus", "cairo", "medina", "mecca"],
+    routes: [route(["istanbul", "damascus", "cairo"])],
+    facts: ["マムルーク朝滅亡（1517年）", "メッカ・メディナの保護権獲得"],
+    actors: [
+      person("セリム1世", "selim-angry", "cairo", { offset: [-30, 0], bubble: "二大聖都の保護者となる！" }),
+      person("イェニチェリ銃兵", "ottoman-gunner", "cairo", { offset: [30, 0] })
+    ]
+  }),
+
+  scene({
+    id: "suleiman", chapter: 1, year: "1520年代〜", kicker: "壮麗帝の即位とバグダード攻略",
+    title: "スレイマン1世の登場。\nイラクを併合し東西を圧する。",
+    body: [
+      "第10代スルタンに即位した<strong>スレイマン1世</strong>のもとで、オスマン帝国は未曾有の全盛期を迎えた。紅海・黒海・東地中海の要衝を押さえ、財政と軍事力は頂点に達する。",
+      "東方ではサファヴィー朝へ遠征してタブリーズを制圧し、さらに<strong>バグダードを攻略</strong>してイラクを領有。ペルシア湾への出口を確保し、東西交易路を固めた。"
+    ],
+    takeaway: "スレイマン1世即位・全盛期の幕開け・バグダード攻略でイラク併合。",
+    note: "スレイマン1世はヨーロッパでは「壮麗帝」、帝国内では法典を整えた「立法者（カーヌーニー）」と称えられます。",
+    focus: "スレイマン1世", mapHeading: "イラク方面へ進出、バグダード確保",
+    before: "イスタンブルからメソポタミアへ進軍", after: "バグダードを攻略し、交易路を掌握",
+    frame: [26, 28, 48, 44], zones: ["suleiman"], pins: ["istanbul", "baghdad", "tabriz"],
+    routes: [route(["istanbul", [36, 37], "baghdad"])],
+    facts: ["スレイマン1世（壮麗帝）即位", "バグダード攻略・イラク併合"],
+    actors: [
+      person("スレイマン1世", "suleiman-march", "istanbul", { route: 0, afterImage: "suleiman-calm", offset: [-30, 0], bubble: "帝国の栄光を極めん！" }),
+      person("スィパーヒー騎兵", "sipahi-cavalry", "baghdad", { offset: [30, 0] })
+    ]
+  }),
+
+  scene({
+    id: "vienna1", chapter: 1, year: "1526〜29年", kicker: "中央ヨーロッパを揺るがす進撃",
+    title: "モハーチの戦いと、\n第1次ウィーン包囲。",
+    body: [
+      "西欧ではハプスブルク家の神聖ローマ皇帝カール5世が台頭。これに対抗するフランス王フランソワ1世がスレイマン1世に支援を要請した。",
+      "スレイマン1世は北上し、1526年の<strong>モハーチの戦い</strong>でハンガリー王を破ってハンガリーの大半を征服。さらに1529年、ハプスブルクの本拠地<strong>ウィーンを包囲</strong>（第1次ウィーン包囲）し、全ヨーロッパを震撼させた。"
+    ],
+    takeaway: "1526年モハーチの戦い・1529年第1次ウィーン包囲でヨーロッパに大衝撃。",
+    note: "寒気の到来と補給難により包囲は解かれましたが、ドナウ川流域におけるオスマン帝国の軍事的脅威をヨーロッパ全土に強烈に刻みつけました。",
+    focus: "中欧への進出", mapHeading: "ドナウ川を遡りウィーンへ肉薄",
+    before: "ドナウ川沿いに北上、ハンガリーを制圧", after: "ウィーンを包囲し、ハプスブルク家を圧迫",
+    frame: [14, 40, 30, 50], zones: ["suleiman", "hungary"], pins: ["istanbul", "mohacs", "buda", "vienna"],
+    routes: [route(["istanbul", "edirne", "mohacs", "vienna"])],
+    facts: ["モハーチの戦い：ハンガリー征服", "第1次ウィーン包囲（1529年）"],
+    actors: [
+      person("スレイマン1世", "suleiman-march", "mohacs", { route: 0, offset: [-30, 0], bubble: "ウィーンを包囲せよ！" }),
+      person("イェニチェリ銃兵", "ottoman-gunner", "vienna", { offset: [30, 0] })
+    ]
+  }),
+
+  scene({
+    id: "preveza", chapter: 1, year: "1538年", kicker: "地中海を「オスマンの海」に",
+    title: "プレヴェザの海戦で、\n地中海の制海権を握る。",
+    body: [
+      "陸上だけでなく海でも覇権を広げたスレイマン1世は、北アフリカの名高き海賊提督<strong>バルバロス（ハイレディン）</strong>を海軍総司令官に抜擢した。",
+      "1538年の<strong>プレヴェザの海戦</strong>で、バルバロス率いるオスマン海軍は、スペイン・ヴェネツィア・ローマ教皇の連合艦隊を撃破。地中海のほぼ全域で確固たる制海権を握った。"
+    ],
+    takeaway: "1538年・プレヴェザの海戦 → 提督バルバロスが連合艦隊を撃破し地中海の制海権掌握。",
+    note: "この勝利により、地中海貿易の主導権は完全にオスマン朝の手に入り、西欧諸国は地中海での活動を制限されることになりました。",
+    focus: "バルバロスと地中海", mapHeading: "イオニア海プレヴェザ沖の激突",
+    before: "連合艦隊を迎え撃つオスマン艦隊", after: "連合艦隊を壊滅させ、制海権を確立",
+    frame: [16, 34, 28, 42], pins: ["preveza", "istanbul"],
+    routes: [route([[28, 40], [24, 38], "preveza"], "campaign"), route([[16, 38], "preveza"], "rival")],
+    facts: ["海軍総司令官バルバロス", "プレヴェザで連合艦隊撃破"],
+    actors: [
+      person("バルバロス提督", "barbaros-admiral", "preveza", { offset: [-30, 0], bubble: "地中海は我らの海だ！" })
+    ],
+    props: [
+      prop("オスマン軍艦", "ottoman-galley", "preveza", { offset: [30, 0] })
+    ]
+  }),
+
+  scene({
+    id: "capitulation", chapter: 1, year: "16世紀半ば", kicker: "法と外交、文化の黄金期",
+    title: "カピチュレーションと、\n法・文化の成熟。",
+    body: [
+      "スレイマン1世は対ハプスブルクで連携したフランスに対し、領事裁判権や免税を含む通商特権<strong>カピチュレーション</strong>を付与した。これは後に英・蘭などへも広がり、東西貿易の活況を生んだ。",
+      "国内ではシャリーア（イスラーム法）のもとに世俗法典（カーヌーン）を整備し、宮廷建築家スィナンの設計による<strong>スレイマニエ＝モスク</strong>を建立。文化・法制の両面で帝国の黄金時代が完成した。"
+    ],
+    takeaway: "カピチュレーション（通商特権）・カーヌーン法典・スレイマニエ＝モスク建立。",
+    note: "カピチュレーションは当初、強大なオスマン帝国が恩恵として与えたものでしたが、のちに帝国衰退期には不平等条約として重荷となっていきます。",
+    focus: "法の整備と建築文化", mapHeading: "イスタンブルに咲き誇る帝国の栄華",
+    before: "フランスへ特権を与え、国内法を整備", after: "スレイマニエ＝モスクが帝都にそびえる",
+    frame: [25, 38, 33, 44], zones: ["suleiman"], pins: ["istanbul"], capital: "istanbul",
+    facts: ["カピチュレーション付与", "建築家スィナンとスレイマニエ"],
+    actors: [
+      person("スレイマン1世", "suleiman-happy", "istanbul", { offset: [-32, 0], bubble: "法と美の調和をここに" })
+    ],
+    props: [
+      prop("スレイマニエ＝モスク", "suleymaniye-mosque", "istanbul", { offset: [32, 0] })
+    ]
+  }),
+
+  scene({
+    id: "lepanto", chapter: 2, year: "1571年", kicker: "無敵神話の終焉",
+    title: "レパントの海戦で、\n地中海の不敗神話が崩れる。",
+    body: [
+      "スレイマン1世の死後、セリム2世の時代にオスマン軍はキプロス島を征服したが、これに対抗してスペイン王フェリペ2世を中心に神聖同盟連合艦隊が結成された。",
+      "1571年、ギリシア沖の<strong>レパントの海戦</strong>で、オスマン海軍は連合艦隊に大敗を喫した。オスマン朝は短期間で艦隊を再建したものの、地中海での「不敗神話」はついに打ち破られた。"
+    ],
+    takeaway: "1571年・レパントの海戦 → スペイン等の連合艦隊に敗れ不敗神話が動揺。",
+    note: "この敗戦後も東地中海の支配は維持されましたが、オスマン帝国の拡大速度が鈍化し始める象徴的な転換点となりました。",
+    focus: "レパントの海戦", mapHeading: "ギリシア西岸レパント沖での激突",
+    before: "地中海をめぐる大艦隊の衝突", after: "オスマン海軍が敗北、不敗神話の崩壊",
+    frame: [18, 36, 26, 42], pins: ["lepanto", "istanbul"],
+    routes: [route([[26, 38], "lepanto"], "campaign"), route([[16, 37], "lepanto"], "rival")],
+    facts: ["1571年レパントの海戦", "スペイン連合艦隊に敗北"],
+    actors: [
+      person("オスマン提督", "murad-calm", "lepanto", { offset: [-30, 0], bubble: "無念…艦隊の再建を急げ" })
+    ],
+    props: [
+      prop("軍艦", "ottoman-galley", "lepanto", { offset: [30, 0] })
+    ]
+  }),
+
+  scene({
+    id: "crisis", chapter: 2, year: "17世紀", kicker: "制度の変質と内なる動揺",
+    title: "ティマール制の崩壊と、\n財政難の広がり。",
+    body: [
+      "長期化する対外戦争と軍事技術の変化（鉄砲の普及）により、従来の封建的騎士軍であるスィパーヒーの地位が低下し、<strong>ティマール制が崩壊</strong>し始めた。",
+      "増大する軍事費を賄うため、徴税権を入札にかける<strong>徴税請負制（イルティザーム）</strong>が導入されたが、地方有力者（アーヤーン）の台頭を招き、中央集権の土台が次第に揺らいでいった。"
+    ],
+    takeaway: "ティマール制の崩壊・徴税請負制の導入・軍事財政難による制度の変質。",
+    note: "火器を装備する歩兵イェニチェリの増員が財政を圧迫し、銀の流入によるインフレも重なって、社会全体の構造改革が迫られました。",
+    focus: "制度の変容", mapHeading: "アナトリアとバルカン各地での動揺",
+    before: "地方軍制が揺らぎ、徴税制度が変化", after: "地方の自立化と財政の悪化が進行",
+    frame: [22, 36, 38, 45], zones: ["suleiman"], pins: ["istanbul", "bursa", "edirne"],
+    facts: ["騎士制度ティマールの衰退", "徴税請負制の拡大と財政難"],
+    actors: [
+      person("スィパーヒー騎兵", "sipahi-cavalry", "bursa", { offset: [-28, 0], bubble: "騎士の時代が去っていく…" }),
+      person("イェニチェリ", "ottoman-gunner", "istanbul", { offset: [28, 0] })
+    ]
+  }),
+
+  scene({
+    id: "karlowitz", chapter: 2, year: "1683〜99年", kicker: "領土拡張の終わり",
+    title: "第2次ウィーン包囲失敗と、\nカルロヴィッツ条約。",
+    body: [
+      "1683年、起死回生を期して大軍で敢行された<strong>第2次ウィーン包囲</strong>だったが、ポーランド王ヤン3世ソビエスキらの援軍に阻まれて壊滅的な大敗を喫した。",
+      "これを機に結成された神聖同盟諸国との長期戦に敗れ、1699年の<strong>カルロヴィッツ条約</strong>で、オスマン帝国は初めて敗戦国として<strong>ハンガリーなどをオーストリアに割譲</strong>した。帝国の領土縮小時代の幕開けとなった。"
+    ],
+    takeaway: "1683年第2次ウィーン包囲失敗・1699年カルロヴィッツ条約でハンガリー割譲。",
+    note: "初めて領土割譲を認めたこの条約は、ヨーロッパ諸国に対するオスマン帝国の軍事的優位が決定的に失われた瞬間でした。",
+    focus: "第2次ウィーン包囲と条約", mapHeading: "ドナウ流域での後退",
+    before: "ウィーン包囲に失敗、反撃を受ける", after: "カルロヴィッツ条約でハンガリーを割譲",
+    frame: [14, 42, 28, 50], pins: ["vienna", "karlowitz", "istanbul"],
+    routes: [route(["istanbul", "karlowitz", "vienna"], "campaign"), route(["vienna", "karlowitz"], "rival")],
+    facts: ["第2次ウィーン包囲失敗（1683年）", "カルロヴィッツ条約（1699年）"],
+    actors: [
+      person("オスマン将軍", "murad-march", "karlowitz", { offset: [-30, 0], bubble: "領土の割譲を呑むとは…" })
+    ]
+  }),
+
+  scene({
+    id: "tulip", chapter: 2, year: "18世紀前半", kicker: "西欧趣味と享楽の時代",
+    title: "チューリップ時代。\n小国家から大帝国への歩みを振り返る。",
+    body: [
+      "18世紀前半、第23代<strong>アフメト3世</strong>の治世、ヨーロッパとの平和が保たれる中で西欧の文化や芸術を取り入れる<strong>チューリップ時代</strong>が訪れた。宮廷にはチューリップが咲き乱れ、享楽的な文化が花開いた。",
+      "アナトリアの一小国家から興り、三大陸に君臨したオスマン帝国。やがて西欧で産業革命が始まり勢力関係が逆転していく近代を前に、帝国の栄光と変遷は世界史の壮大な一幕となった。"
+    ],
+    takeaway: "アフメト3世・チューリップ時代（西欧文化の受容と平和）から近代への移行。",
+    note: "軍事的な後退の反面、印刷機の導入や西欧風バロック建築など文化的な開花も見られた時代でした。",
+    focus: "チューリップ時代と全体の歩み", mapHeading: "帝国全域を見渡す",
+    before: "平和な宮廷で西欧文化を受容", after: "小集団から三大陸の大帝国への軌跡",
+    frame: [14, 20, 48, 50], zones: ["suleiman"], pins: ["istanbul", "edirne", "bursa", "cairo", "baghdad"], capital: "istanbul",
+    facts: ["アフメト3世とチューリップ時代", "三大陸にまたがる大帝国の歴史"],
+    actors: [
+      person("アフメト3世", "ahmed-calm", "istanbul", { offset: [-28, 0], bubble: "平和と文化を愛でよう" })
+    ],
+    props: [
+      prop("チューリップ", "tulip-flower", "istanbul", { offset: [28, 0] })
+    ]
+  })
+];
