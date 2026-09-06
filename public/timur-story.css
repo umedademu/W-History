@@ -54,8 +54,11 @@ h1 { margin: 0; font-size: clamp(28px, 3.2vw, 44px); letter-spacing: .09em; line
 .scene-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 11px; color: var(--muted); }
 #scene-number { font-variant-numeric: tabular-nums; letter-spacing: .12em; }
 #scene-year { font-weight: 700; color: var(--copper); background: #f3e8dc; padding: 6px 10px; border-radius: 2px; }
-.scene-kicker { color: var(--copper); font-size: 11px; margin: 24px 0 8px; letter-spacing: .06em; }
+.scene-kicker { color: var(--copper); font-size: 11px; margin: 16px 0 6px; letter-spacing: .06em; }
 h2 { font-size: clamp(23px, 2.3vw, 30px); margin: 0 0 18px; line-height: 1.65; letter-spacing: .025em; }
+/* 全教材の場面見出しを、本文より少し大きい太字に統一する。 */
+.story-stage .narrative #scene-title { font-family: inherit; font-size: 16px; font-weight: 700; line-height: 1.6; letter-spacing: .01em; margin: 0 0 10px; white-space: normal; }
+.story-stage .narrative #scene-title br { display: none; }
 .scene-body { font-size: 14px; line-height: 2; }
 .scene-body p { margin: 0 0 12px; }
 .scene-body strong { font-weight: 700; background: linear-gradient(transparent 68%, #e6d4b1 68%); }
@@ -142,6 +145,7 @@ progress::-moz-progress-bar { background: var(--copper); }
   .story-stage { grid-template-columns: minmax(0, 1.4fr) minmax(280px, 1fr); }
   .narrative { padding: 24px 22px; }
   .scene-body { font-size: 13px; }
+  .story-stage .narrative #scene-title { font-size: 15px; }
   .map-heading { padding: 14px 14px 0; }
   .map-heading p { font-size: 11px; }
   .map-legend { padding-left: 14px; padding-right: 14px; }
@@ -185,7 +189,7 @@ progress::-moz-progress-bar { background: var(--copper); }
   .map-ancestor small { font-size: 8px; }
   .north-mark { left: 12px; top: 8px; font-size: 9px; }
   .narrative { padding: 22px; }
-  .scene-kicker { margin-top: 18px; }
+  .scene-kicker { margin-top: 12px; }
   h2 { font-size: 25px; line-height: 1.55; margin-bottom: 14px; }
   .scene-body { font-size: 13px; line-height: 1.95; }
   .takeaway { margin-top: 8px; }
