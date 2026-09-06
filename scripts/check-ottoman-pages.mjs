@@ -76,7 +76,11 @@ const noDeath=structuredClone(pages);noDeath.find(p=>p.id==="vienna1-2").animati
 assert.throws(()=>checkFlow(noDeath),/経緯/);
 for(const p of pages)assert(!/原文|原資料|書き起こし|参考書|source|写真\d+頁/i.test([p.title,...p.body,...p.notes].join(" ")),"公開画面に編集用の資料情報が出ています");
 const html=await fs.readFile(new URL("../public/ottoman-story.html",import.meta.url),"utf8");
+const app=await fs.readFile(new URL("../public/ottoman-story.js",import.meta.url),"utf8");
 assert(!/原文|原資料|書き起こし|参考書|教科書写真/.test(html),"画面の補足に資料への言及が残っています");
 assert(!/id="step-(?:nav|next|previous|count)"/.test(html),"小ページの操作が残っています");
-for(const id of ["page-select","animation-play","previous","next","replay"])assert(html.includes(`id="${id}"`));
-console.log(`07の${pages.length}ページ・${pages.reduce((n,p)=>n+p.animation.length,0)}の動き、原資料の名前${names.length}項目と本文・地図の名前の双方向一致、小ページ操作の撤去を確認しました。`);
+for(const id of ["animation-play","previous","next","replay","scene-nav"])assert(html.includes(`id="${id}"`));
+assert(!/class="chapter-nav"|id="page-select"|class="page-index"/.test(html),"大分類・プルダウン・折りたたみ目次が残っています");
+assert(!/data-chapter|page-select/.test(app),"大分類またはプルダウンの処理が残っています");
+assert(app.includes("b.textContent=String(i+1).padStart(2,\"0\")"),"53ページの番号移動がありません");
+console.log(`07の${pages.length}ページ・${pages.reduce((n,p)=>n+p.animation.length,0)}の動き、原資料の名前${names.length}項目と本文・地図の名前の双方向一致、53個の番号だけを使う移動方法を確認しました。`);

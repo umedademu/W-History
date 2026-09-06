@@ -1,5 +1,5 @@
 import {createMapLayout} from "./map-layout.js?v=0.009";
-import {pages as scenes,chapters} from "./ottoman-pages.js?v=0.018";
+import {pages as scenes} from "./ottoman-pages.js?v=0.021";
 import {entities,positionFor} from "./ottoman-storyboard.js?v=0.018";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
 import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.016";
@@ -226,23 +226,15 @@ function show(scroll=false){
   byId("scene-body").replaceChildren(...scene.body.map((text,i)=>{const p=document.createElement("p");p.dataset.paragraph=i;p.textContent=text;return p;}));markNames(scene);
   byId("previous").disabled=index===0;byId("next").textContent=index===scenes.length-1?"最初のページへ ↻":"次のページ →";
   byId("story-progress").max=scenes.length;byId("story-progress").value=index+1;
-  byId("page-select").value=index;
-  document.querySelectorAll("button[data-scene]").forEach(b=>{if(+b.dataset.scene===index)b.setAttribute("aria-current","page");else b.removeAttribute("aria-current");});
-  document.querySelectorAll("[data-chapter]").forEach(b=>{if(scenes[+b.dataset.chapter].chapter===scene.chapter)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");});
+  document.querySelectorAll("button[data-scene]").forEach(b=>{if(+b.dataset.scene===index)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");});
   const mode=transitionFor(scene,displayedScene);replayMode=mode==="nearby"?"none":mode;displayedScene=scene;drawMap(mode);
   if(scroll)byId("page-controls").scrollIntoView({block:"start",behavior:"instant"});
 }
 
 function go(next){next=Math.max(0,Math.min(scenes.length-1,next));if(next===index)return;index=next;show(true);}
-const chapterNav=document.querySelector(".chapter-nav");
-chapters.forEach((title,chapter)=>{
-  const first=scenes.findIndex(s=>s.chapter===chapter),b=document.createElement("button");b.type="button";b.dataset.chapter=first;b.textContent=title;b.addEventListener("click",()=>go(first));chapterNav.append(b);
-});
 scenes.forEach((scene,i)=>{
-  const b=document.createElement("button");b.type="button";b.dataset.scene=i;b.textContent=String(i+1).padStart(2,"0")+"　"+scene.title;b.addEventListener("click",()=>go(i));byId("scene-nav").append(b);
-  const option=document.createElement("option");option.value=i;option.textContent=(i+1)+". "+scene.title;byId("page-select").append(option);
+  const b=document.createElement("button");b.type="button";b.dataset.scene=i;b.textContent=String(i+1).padStart(2,"0");b.title=scene.title;b.setAttribute("aria-label",(i+1)+"ページ目「"+scene.title+"」へ移動");b.addEventListener("click",()=>go(i));byId("scene-nav").append(b);
 });
-byId("page-select").addEventListener("change",e=>go(+e.target.value));
 byId("previous").addEventListener("click",()=>go(index-1));
 byId("next").addEventListener("click",()=>go(index===scenes.length-1?0:index+1));
 byId("replay").addEventListener("click",()=>{partIndex=0;elapsed=0;playing=!reduced.matches;drawMap(replayMode,true);});

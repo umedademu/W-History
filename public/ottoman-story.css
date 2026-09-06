@@ -64,7 +64,6 @@
 #locator-frame { fill:#b54a2c20; stroke:#aa3e27; stroke-width:1.5; vector-effect:non-scaling-stroke; }
 @media(max-width:1000px) { .ottoman-story .story-stage { grid-template-columns:minmax(0,1.2fr) minmax(280px,1fr); } }
 @media(max-width:740px) {
-  .ottoman-story .story-controls { position:static; }
   .animation-controls { margin:0 12px; }
   .ottoman-story .story-stage { grid-template-columns:1fr; }
   .ottoman-story #story-map { height:400px; }
@@ -90,26 +89,11 @@
 .ottoman-story .scene-body p { border-left:3px solid transparent; padding:8px 10px; margin:0 0 10px; transition:background .2s,border-color .2s; }
 .ottoman-story .scene-body p.is-current { background:#f5e9d5; border-left-color:#a76343; }
 .ottoman-story .scene-note { border-top:1px solid var(--line); padding-top:12px; margin-top:12px; }
-.ottoman-story .story-controls { gap:16px; grid-template-columns:140px minmax(0,1fr) 150px; padding:16px 0; }
-.page-choice { min-width:0; }
-.page-choice label { display:block; font-size:10px; color:var(--muted); margin-bottom:4px; }
-#page-select { width:100%; min-width:0; padding:8px; border:1px solid #bcc7bc; color:var(--ink); background:#fdfaf4; font-size:12px; }
-.page-choice .progress-block { max-width:none; margin-top:6px; font-size:10px; }
-.page-choice #progress-label { white-space:nowrap; }
-.page-index { margin-top:18px; font-size:12px; }
-.page-index summary { padding:12px 0; cursor:pointer; }
-.ottoman-story .scene-nav { display:grid; grid-template-columns:1fr 1fr; gap:6px; }
-.ottoman-story .scene-nav button { width:auto; min-width:0; border:1px solid #d8d4c8; border-radius:3px; text-align:left; padding:10px; line-height:1.6; }
-.ottoman-story .scene-nav button[aria-current="page"] { border-color:var(--copper); background:#eee3d4; color:var(--ink); font-weight:700; }
+.ottoman-story .scene-nav { margin-top:18px; }
 .ottoman-story .map-action-status { line-height:1.65; text-align:left; max-height:6.6em; overflow:auto; }
 @media(max-width:740px) {
-  .ottoman-story .chapter-nav { grid-template-columns:1fr 1fr; }
-  .ottoman-story .story-controls { grid-template-columns:1fr 1fr; gap:8px; }
-  .page-choice { grid-column:1/-1; grid-row:1; }
-  .ottoman-story .story-controls button { min-height:42px; padding:8px; justify-content:center; }
   .ottoman-story .narrative { grid-row:1; padding:18px 14px; }
   .ottoman-story .map-panel { grid-row:2; border-right:0; }
   .ottoman-story .scene-body p { padding:6px 8px; }
-  .ottoman-story .scene-nav { grid-template-columns:1fr; }
 }
 @media(prefers-reduced-motion:reduce) { .ottoman-story .scene-body p { transition:none; } }
