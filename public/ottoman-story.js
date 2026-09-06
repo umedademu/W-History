@@ -1,16 +1,30 @@
 import {createMapLayout} from "./map-layout.js?v=0.009";
-import {scenes} from "./ottoman-scenes.js?v=0.014";
-import {entities,storyboards,positionFor,mentionsFor} from "./ottoman-storyboard.js?v=0.014";
+import {pages as scenes,chapters,mentionsForPage} from "./ottoman-pages.js?v=0.016";
+import {entities,positionFor} from "./ottoman-storyboard.js?v=0.014";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
-import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.008";
+import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.016";
 
 const byId=id=>document.getElementById(id), map=byId("story-map"),root=byId("map-characters");
 const reduced=matchMedia("(prefers-reduced-motion: reduce)"),clamp=n=>Math.max(0,Math.min(1,n));
 const colors={campaign:"#b5573f",rival:"#5c7886",move:"#54866b",trade:"#a57d27"};
 const resolveImg=key=>"/images/"+(key.includes("/")?key:"ottoman/"+key)+".png";
-let index=0,stepIndex=0,elapsed=0,playing=!reduced.matches,stop=()=>{};
+let index=0,partIndex=0,elapsed=0,playing=!reduced.matches,stop=()=>{};
 let lastSize="",displayedScene=null,replayMode="none",pending=false,activeIntro="none";
-const currentSteps=()=>storyboards[scenes[index].id],currentStep=()=>currentSteps()[stepIndex];
+const currentAnimation=()=>scenes[index].animation;
+// 動きを抑える設定では、ページ全体の結果を一枚の地図にまとめる。
+function overview(){
+  const parts=currentAnimation(),last=parts.at(-1),ids=[...new Set(parts.flatMap(p=>p.ids))];
+  const positions=Object.assign({},...parts.map(p=>Object.fromEntries(p.ids.map(id=>[id,positionFor(id,p)]))));
+  for(const part of parts)for(const route of part.moves??[])positions[route.who]=route.path.at(-1);
+  const frames=parts.map(p=>p.frame);
+  return {...last,title:scenes[index].title,caption:scenes[index].body.join(" "),ids,positions,
+    frame:[Math.min(...frames.map(f=>f[0])),Math.min(...frames.map(f=>f[1])),Math.max(...frames.map(f=>f[2])),Math.max(...frames.map(f=>f[3]))],
+    detail:parts.every(p=>p.detail===last.detail)?last.detail:undefined,
+    moves:parts.flatMap(p=>p.moves??[]),messages:parts.flatMap(p=>p.messages??[]),areas:parts.flatMap(p=>p.areas??[]),
+    images:Object.assign({},...parts.map(p=>({...p.images,...p.afterImages}))),
+    grow:[],fades:[],afterImages:{},afterIcons:{},badges:{},labels:Object.assign({},...parts.map(p=>p.labels))};
+}
+const currentPart=()=>reduced.matches?overview():currentAnimation()[partIndex];
 const orientation=createOrientation({map,svg,onPending:value=>{
   pending=value;
   const hideNarrative=value&&activeIntro!=="nearby";
@@ -36,31 +50,29 @@ function geometry(step,width,height){
   return {scale,x,y,toScreen:p=>{const q=project(p);return [q[0]*scale+x,q[1]*scale+y];}};
 }
 function updateControls(){
-  const step=currentStep();
-  byId("scene-year").textContent=step.year??scenes[index].year;
-  byId("step-count").textContent="説明 "+(stepIndex+1)+" / "+currentSteps().length;
-  byId("step-caption").textContent=step.caption;
-  byId("step-note").textContent=step.note??"位置・範囲・進路は概略です。制度の記号は関係する拠点に置いています。";
-  byId("step-previous").disabled=stepIndex===0;byId("step-next").disabled=stepIndex===currentSteps().length-1;
-  byId("step-play").disabled=pending||reduced.matches;
-  byId("step-play").textContent=reduced.matches?"動きを抑える設定：説明は手動で切替":playing?"一時停止":elapsed>=step.duration?"この説明をもう一度":"再生を再開";
-  byId("step-play").setAttribute("aria-pressed",String(playing));
-  document.querySelectorAll("[data-story-step]").forEach(b=>{
-    if(+b.dataset.storyStep===stepIndex)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");
+  const part=currentPart(),finished=reduced.matches||partIndex===currentAnimation().length-1&&elapsed>=part.duration;
+  byId("animation-play").disabled=pending||reduced.matches||finished;
+  byId("animation-play").textContent=reduced.matches?"静止表示":finished?"再生終了":playing?"一時停止":"再生を再開";
+  byId("animation-play").setAttribute("aria-pressed",String(playing));
+  byId("animation-state").textContent=pending?"場所を確認しています":finished?"読み終えたら「次のページ」へ":playing?"色の付いた文章を地図で表しています":"動きを一時停止しています";
+  document.querySelectorAll("[data-paragraph]").forEach((p,i)=>{
+    const active=reduced.matches||i===partIndex;p.classList.toggle("is-current",active);
+    if(active)p.setAttribute("aria-current","true");else p.removeAttribute("aria-current");
   });
-  document.querySelectorAll("button[data-mention]").forEach(b=>b.classList.toggle("is-map-active",step.ids.includes(b.dataset.mention)));
+  document.querySelectorAll("[data-mention]").forEach(n=>n.classList.toggle("is-map-active",part.ids.includes(n.dataset.mention)));
 }
+
 function drawMap(mode="none",restart=false){
   stop();orientation.cancel();activeIntro=mode;
-  const scene=scenes[index],step=currentStep(),width=map.clientWidth,height=map.clientHeight;
+  const scene=scenes[index],step=currentPart(),width=map.clientWidth,height=map.clientHeight;
   if(!width||!height)return;lastSize=width+","+height;
   const camera=geometry(step,width,height),{scale,x,y,toScreen}=camera;
   const polygon=points=>points.map(p=>toScreen(p).join(",")).join(" ");
   const line=points=>points.map((p,i)=>(i?"L":"M")+toScreen(p).join(",")).join(" ");
-  map.setAttribute("viewBox","0 0 "+width+" "+height);map.dataset.scene=scene.id;map.dataset.step=stepIndex;
-  map.replaceChildren(svg("title",{id:"map-title"},step.title),svg("desc",{id:"map-description"},step.caption),
+  map.setAttribute("viewBox","0 0 "+width+" "+height);map.dataset.scene=scene.id;map.dataset.part=partIndex;
+  map.replaceChildren(svg("title",{id:"map-title"},step.title),svg("desc",{id:"map-description"},step.text??step.caption),
     svg("image",{href:worldMap.url,x,y,width:worldMap.width*scale,height:worldMap.height*scale}));
-  root.replaceChildren();root.dataset.scene=scene.id;root.dataset.step=stepIndex;root.dataset.phase="loading";
+  root.replaceChildren();root.dataset.scene=scene.id;root.dataset.part=partIndex;root.dataset.phase="loading";
   byId("map-heading").textContent=step.title;byId("map-focus").textContent=step.ids.map(id=>entities[id].name).join(" ／ ");
   // 世界地図では省略される金角湾と海峡を、位置関係の模式図として描く。
   if(step.detail){
@@ -133,7 +145,7 @@ function drawMap(mode="none",restart=false){
   const placeContents=createMapLayout({map,root,items});let frame=0,cancelled=false;
   function update(p){
     map.dataset.progress=p.toFixed(3);map.dataset.phase=p>=1?"complete":"moving";root.dataset.phase=map.dataset.phase;
-    byId("map-status").textContent=(stepIndex+1)+"/"+currentSteps().length+"　"+step.title;
+    byId("map-status").textContent=reduced.matches?"このページ全体の位置と関係":step.text;
     areaNodes.forEach(({node,mode})=>{
       node.style.opacity=String(mode==="fade"||mode==="split"?.5*(1-p)+.06:mode==="locate"?.65+.35*p:.12+.3*p);
       if(mode==="transfer")node.setAttribute("fill",p<.5?"#b96544":"#5c8394");
@@ -171,18 +183,21 @@ function drawMap(mode="none",restart=false){
     // 名前は残し、図像や領域の弱まりで敗退・解体を示す。
     for(const id of step.fades??[]){const n=labels.querySelector('[data-entity="'+id+'"]');if(n)n.style.fill=p>.5?"#777767":"";}
     const wall=map.querySelector("[data-wall]");if(wall)wall.style.opacity=step.fades?.includes("walls")?String(1-.65*p):"1";
-    placeContents();byId("step-progress").value=p;
+    placeContents();byId("animation-progress").value=reduced.matches?1:(partIndex+p)/currentAnimation().length;
   }
   stop=()=>{cancelled=true;cancelAnimationFrame(frame);};
   function start(){
     if(cancelled)return;activeIntro="none";
-    if(reduced.matches){elapsed=step.duration;update(1);return;}
+    if(reduced.matches){elapsed=step.duration;playing=false;update(1);updateControls();return;}
     update(clamp(elapsed/step.duration));if(!playing)return;
     let previous=performance.now();
     function tick(now){
       if(cancelled)return;elapsed+=Math.max(0,now-previous);previous=now;update(clamp(elapsed/step.duration));
-      // 再生が終わった説明を保持し、次の説明は利用者の操作で選ぶ。
-      if(elapsed>=step.duration){playing=false;updateControls();return;}
+      // 同じ主題の動きを一続きに見せ、対応する文章も同時に強調する。
+      if(elapsed>=step.duration){
+        if(partIndex===currentAnimation().length-1){playing=false;updateControls();return;}
+        if(elapsed>=step.duration+900){partIndex++;elapsed=0;drawMap("nearby");return;}
+      }
       frame=requestAnimationFrame(tick);
     }
     frame=requestAnimationFrame(tick);
@@ -190,54 +205,53 @@ function drawMap(mode="none",restart=false){
   updateControls();orientation.run({scene:{...scene,frame:step.frame??scene.frame},target:camera,mode,restart,stationary:reduced.matches,done:start});
 }
 function markNames(scene){
-  const mentions=mentionsFor(scene),seen=new Set(),alternatives=mentions.filter(m=>{if(seen.has(m.term))return false;seen.add(m.term);return true;});
+  const mentions=mentionsForPage(scene),seen=new Set(),alternatives=mentions.filter(m=>{if(seen.has(m.term))return false;seen.add(m.term);return true;});
   const escape=s=>s.replace(/[.*+?^\u0024{}()|[\]\\]/g,"\\$&");
   const pattern=new RegExp(alternatives.map(m=>escape(m.term)).join("|"),"g"),lookup=new Map(alternatives.map(m=>[m.term,m]));
-  for(const container of ["scene-title","scene-body","scene-takeaway","scene-note","map-facts"].map(byId)){
-    const walker=document.createTreeWalker(container,NodeFilter.SHOW_TEXT),nodes=[];
-    while(walker.nextNode())nodes.push(walker.currentNode);
-    for(const text of nodes){
-      const fragment=document.createDocumentFragment();let end=0;
-      for(const match of text.textContent.matchAll(pattern)){
-        fragment.append(text.textContent.slice(end,match.index));
-        const mention=lookup.get(match[0]),button=document.createElement("button");
-        button.type="button";button.className="map-mention";button.dataset.mention=mention.id;button.textContent=match[0];button.setAttribute("aria-label",match[0]+"を地図で見る");
-        button.addEventListener("click",()=>selectStep(mention.step,true));fragment.append(button);end=match.index+match[0].length;
-      }
-      fragment.append(text.textContent.slice(end));text.replaceWith(fragment);
+  const walker=document.createTreeWalker(byId("scene-body"),NodeFilter.SHOW_TEXT),nodes=[];
+  while(walker.nextNode())nodes.push(walker.currentNode);
+  for(const text of nodes){
+    const fragment=document.createDocumentFragment();let end=0;
+    for(const match of text.textContent.matchAll(pattern)){
+      fragment.append(text.textContent.slice(end,match.index));
+      const name=document.createElement("span");name.className="map-mention";name.dataset.mention=lookup.get(match[0]).id;name.textContent=match[0];
+      fragment.append(name);end=match.index+match[0].length;
     }
+    fragment.append(text.textContent.slice(end));text.replaceWith(fragment);
   }
 }
-function selectStep(next,scroll=false){
-  stepIndex=Math.max(0,Math.min(currentSteps().length-1,next));elapsed=0;playing=!reduced.matches;drawMap("nearby");
-  if(scroll&&matchMedia("(max-width:740px)").matches)byId("map-heading").scrollIntoView({block:"start",behavior:"instant"});
-}
+
 function show(scroll=false){
-  const scene=scenes[index];stepIndex=0;elapsed=0;playing=!reduced.matches;
-  for(const [id,value] of Object.entries({"scene-number":String(index+1).padStart(2,"0")+" / "+scenes.length,"scene-year":scene.year,"scene-kicker":scene.kicker,"scene-title":scene.title,"scene-takeaway":scene.takeaway,"scene-note":scene.note,"progress-label":(index+1)+" / "+scenes.length}))byId(id).textContent=value;
-  byId("scene-body").innerHTML=scene.body.map(text=>"<p>"+text+"</p>").join("");
-  byId("map-facts").replaceChildren(...scene.facts.map(text=>{const li=document.createElement("li");li.textContent=text;return li;}));markNames(scene);
-  byId("step-nav").replaceChildren(...currentSteps().map((step,i)=>{const b=document.createElement("button");b.type="button";b.dataset.storyStep=i;b.textContent=(i+1)+". "+step.title;b.addEventListener("click",()=>selectStep(i));return b;}));
-  byId("previous").disabled=index===0;byId("next").textContent=index===scenes.length-1?"最初から ↻":"次へ →";
-  byId("story-progress").value=index+1;byId("story-progress").textContent=(index+1)+" / "+scenes.length;
-  document.querySelectorAll("button[data-scene]").forEach(b=>{if(+b.dataset.scene===index)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");});
+  const scene=scenes[index];partIndex=0;elapsed=0;playing=!reduced.matches;
+  for(const [id,value] of Object.entries({"scene-number":String(index+1).padStart(2,"0")+" / "+scenes.length,"scene-year":scene.year,"scene-kicker":scene.kicker,"scene-title":scene.title,"scene-note":scene.notes.join(" "),"progress-label":(index+1)+" / "+scenes.length}))byId(id).textContent=value;
+  byId("scene-body").replaceChildren(...scene.body.map((text,i)=>{const p=document.createElement("p");p.dataset.paragraph=i;p.textContent=text;return p;}));markNames(scene);
+  byId("previous").disabled=index===0;byId("next").textContent=index===scenes.length-1?"最初のページへ ↻":"次のページ →";
+  byId("story-progress").max=scenes.length;byId("story-progress").value=index+1;
+  byId("page-select").value=index;
+  document.querySelectorAll("button[data-scene]").forEach(b=>{if(+b.dataset.scene===index)b.setAttribute("aria-current","page");else b.removeAttribute("aria-current");});
   document.querySelectorAll("[data-chapter]").forEach(b=>{if(scenes[+b.dataset.chapter].chapter===scene.chapter)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");});
   const mode=transitionFor(scene,displayedScene);replayMode=mode==="nearby"?"none":mode;displayedScene=scene;drawMap(mode);
-  if(scroll&&matchMedia("(max-width:740px)").matches)document.querySelector(".chapter-nav").scrollIntoView({block:"start",behavior:"instant"});
+  if(scroll)byId("page-controls").scrollIntoView({block:"start",behavior:"instant"});
 }
+
 function go(next){next=Math.max(0,Math.min(scenes.length-1,next));if(next===index)return;index=next;show(true);}
-scenes.forEach((scene,i)=>{const b=document.createElement("button");b.type="button";b.dataset.scene=i;b.textContent=String(i+1).padStart(2,"0");b.setAttribute("aria-label",(i+1)+". "+scene.title.replace("\n",""));b.addEventListener("click",()=>go(i));byId("scene-nav").append(b);});
+const chapterNav=document.querySelector(".chapter-nav");
+chapters.forEach((title,chapter)=>{
+  const first=scenes.findIndex(s=>s.chapter===chapter),b=document.createElement("button");b.type="button";b.dataset.chapter=first;b.textContent=title;b.addEventListener("click",()=>go(first));chapterNav.append(b);
+});
+scenes.forEach((scene,i)=>{
+  const b=document.createElement("button");b.type="button";b.dataset.scene=i;b.textContent=String(i+1).padStart(2,"0")+"　"+scene.title;b.addEventListener("click",()=>go(i));byId("scene-nav").append(b);
+  const option=document.createElement("option");option.value=i;option.textContent=(i+1)+". "+scene.title;byId("page-select").append(option);
+});
+byId("page-select").addEventListener("change",e=>go(+e.target.value));
 byId("previous").addEventListener("click",()=>go(index-1));
 byId("next").addEventListener("click",()=>go(index===scenes.length-1?0:index+1));
-byId("replay").addEventListener("click",()=>{stepIndex=0;elapsed=0;playing=!reduced.matches;drawMap(replayMode,true);});
+byId("replay").addEventListener("click",()=>{partIndex=0;elapsed=0;playing=!reduced.matches;drawMap(replayMode,true);});
 byId("show-location").addEventListener("click",()=>{replayMode="world";drawMap("world");});
-byId("step-previous").addEventListener("click",()=>selectStep(stepIndex-1));
-byId("step-next").addEventListener("click",()=>selectStep(stepIndex+1));
-byId("step-play").addEventListener("click",()=>{
-  if(pending||reduced.matches)return;playing=!playing;
-  if(playing&&elapsed>=currentStep().duration)elapsed=0;drawMap();
+byId("animation-play").addEventListener("click",()=>{
+  if(pending||reduced.matches)return;playing=!playing;drawMap();
 });
-document.querySelectorAll("[data-chapter]").forEach(b=>b.addEventListener("click",()=>go(+b.dataset.chapter)));
+
 document.addEventListener("keydown",event=>{
   if(event.altKey||event.ctrlKey||event.metaKey||event.shiftKey||event.repeat||event.target.closest("input,textarea,select,[contenteditable=true],details"))return;
   if(event.key==="ArrowRight"||event.key==="ArrowLeft"){event.preventDefault();go(index+(event.key==="ArrowRight"?1:-1));}

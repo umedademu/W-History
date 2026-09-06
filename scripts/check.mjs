@@ -14,6 +14,7 @@ import {scenes as islamicCultureScenes} from "../public/islamic-culture-scenes.j
 import "./check-ottoman-orientation.mjs";
 import "./check-map-layout.mjs";
 import "./check-ottoman-storyboard.mjs";
+import "./check-ottoman-pages.mjs";
 
 const root=fileURLToPath(new URL("../",import.meta.url)),publicRoot=path.join(root,"public");
 async function files(dir){return(await Promise.all((await fs.readdir(dir,{withFileTypes:true})).map(e=>e.isDirectory()?files(path.join(dir,e.name)):[path.join(dir,e.name)]))).flat();}

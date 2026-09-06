@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import {pages} from "../public/ottoman-pages.js";
 import { scenes } from "../public/ottoman-scenes.js";
 import { project, fitCamera, visibleBounds, locationFor, transitionFor } from "../public/ottoman-orientation.js";
 
@@ -6,7 +7,7 @@ import { project, fitCamera, visibleBounds, locationFor, transitionFor } from ".
 assert.deepEqual(project([-180, 90]), [0, 0]);
 assert.deepEqual(project([180, -90]), [1440, 720]);
 for (const [width, height] of [[356, 400], [728, 530], [1000, 440]]) {
-  for (const bounds of [[-178, -58, 178, 82], [-18, -5, 82, 65], ...scenes.map(scene => scene.frame)]) {
+  for (const bounds of [[-178, -58, 178, 82], [-18, -5, 82, 65], ...[...scenes,...pages].map(scene => scene.frame)]) {
     const camera = fitCamera(bounds, width, height), actual = visibleBounds(camera, width, height);
     assert.ok(actual.every(Number.isFinite));
     assert.ok(actual[0] <= bounds[0] && actual[1] <= bounds[1] && actual[2] >= bounds[2] && actual[3] >= bounds[3], "端末の縦横比によって注目範囲が切れています");
@@ -18,7 +19,7 @@ for (const [width, height] of [[356, 400], [728, 530], [1000, 440]]) {
   }
 }
 
-for (const scene of scenes) {
+for (const scene of [...scenes,...pages]) {
   const location = locationFor(scene);
   assert.ok(location.region && location.label && location.guidance, `${scene.id} の位置案内がありません`);
 }
@@ -32,4 +33,4 @@ assert.equal(transitionFor(scene("cairo"), scene("chaldiran")), "region");
 assert.equal(transitionFor(scene("chaldiran"), scene("cairo")), "region");
 assert.equal(transitionFor(scene("vienna1"), scene("suleiman")), "region");
 assert.equal(transitionFor(scene("lepanto"), scene("capitulation")), "region");
-console.log("オスマン編の地図の向き・表示範囲・20場面の位置案内・移動の切り替えを確認しました。");
+console.log("オスマン編の地図の向き・表示範囲・参照資料20場面と57ページの位置案内・移動の切り替えを確認しました。");

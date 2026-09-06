@@ -28,12 +28,13 @@ const locations = {
 };
 
 export function locationFor(scene) {
-  const [region, label, guidance] = locations[scene.id];
+  const [region, label, guidance] = locations[scene.sourceId??scene.id];
+  if(scene.locationLabel)return {region,label:scene.locationLabel,guidance:`${scene.locationLabel}の位置関係を確かめてから、出来事をたどります。`};
   return { region, label, guidance: guidance ?? `地中海周辺での位置を確かめ、${label}に近づきます。` };
 }
 
 export function transitionFor(scene, previous) {
-  if (!previous || scene.id === "founding") return "world";
+  if (!previous || ["founding","founding-1"].includes(scene.id)) return "world";
   if (scene.chapter !== previous.chapter || locationFor(scene).region !== locationFor(previous).region) return "region";
   return "nearby";
 }
