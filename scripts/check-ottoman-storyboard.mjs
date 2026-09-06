@@ -4,6 +4,29 @@ import {scenes} from "../public/ottoman-scenes.js";
 import {entities,storyboards,positionFor,mentionsFor} from "../public/ottoman-storyboard.js";
 import {symbolPaths} from "../public/ottoman-symbols.js";
 
+// 本文からの逆算では発見できない省略を、原資料から作った独立の一覧で検査する。
+const sourceNames=JSON.parse(await fs.readFile(new URL("./ottoman-source-names.json",import.meta.url),"utf8"));
+function checkSourceNames(sceneData,boards){
+  for(const {scene:sceneId,term,entity,source} of sourceNames){
+    const scene=sceneData.find(s=>s.id===sceneId);
+    assert(scene,source+": 場面がありません "+sceneId);
+    const text=[scene.title,...scene.body,scene.takeaway,scene.note,...scene.facts].join(" ").replace(/<[^>]*>/g,"");
+    assert(text.includes(term),source+": 原文の「"+term+"」が本文から省略されています");
+    assert(boards[sceneId].some(s=>s.ids.includes(entity)),source+": 「"+term+"」が地図に登場しません");
+    assert(entities[entity].aliases.some(a=>term.includes(a)||a.includes(term)),term+": 本文の名前から地図を選べません");
+  }
+}
+checkSourceNames(scenes,storyboards);
+// 実際の不具合だったヒジャーズの本文／地図の片方だけが消えても検出する。
+const missingText=structuredClone(scenes);
+const cairoText=missingText.find(s=>s.id==="cairo");
+for(const key of ["title","takeaway","note"])cairoText[key]=cairoText[key]?.replaceAll("ヒジャーズ","");
+for(const key of ["body","facts"])cairoText[key]=cairoText[key].map(s=>s.replaceAll("ヒジャーズ",""));
+assert.throws(()=>checkSourceNames(missingText,storyboards),/ヒジャーズ/);
+const missingMap=structuredClone(storyboards);
+missingMap.cairo.forEach(s=>s.ids=s.ids.filter(id=>id!=="hejaz"));
+assert.throws(()=>checkSourceNames(scenes,missingMap),/ヒジャーズ/);
+
 const aliases=Object.entries(entities).flatMap(([id,e])=>e.aliases.map(term=>({id,term}))).sort((a,b)=>b.term.length-a.term.length);
 const escaped=s=>s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
 const names=new RegExp(aliases.map(a=>escaped(a.term)).join("|"),"g");
@@ -51,4 +74,4 @@ assert(storyboards.founding[2].settlements.length>=5);
 assert(storyboards.founding[3].ids.includes("osman"));
 assert(storyboards.conquest[3].moves.find(r=>r.who==="ships").path.some(p=>p[1]>41.07));
 assert(storyboards.cairo.at(-1).note.includes("断定"));
-console.log(`07の20場面・${count}説明、本文中の名前${mentions}か所と位置・経路・表示対象・画像を確認しました。`);
+console.log(`07の20場面・${count}説明、原資料の名前${sourceNames.length}項目、本文中の名前${mentions}か所と位置・経路・表示対象・画像を確認しました。`);
