@@ -1,0 +1,173 @@
+.theme-toggle {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  min-height:34px;
+  padding:6px 10px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  color:inherit;
+  background:transparent;
+  font:inherit;
+  font-size:10px;
+  white-space:nowrap;
+  cursor:pointer;
+}
+.theme-toggle:hover { background:#e8e4da; }
+.theme-toggle-icon { width:1em; font-size:13px; line-height:1; text-align:center; }
+.theme-toggle:focus-visible { outline:3px solid #3b7188; outline-offset:3px; }
+.theme-actions { display:flex; align-items:center; justify-content:flex-end; gap:12px; }
+.story-header.has-theme-toggle { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); }
+.story-header.has-theme-toggle .home-link { justify-self:start; }
+.story-header.has-theme-toggle .series-name { justify-self:center; }
+.story-header.has-theme-toggle .theme-actions { justify-self:end; }
+.theme-toggle-floating { position:fixed; z-index:5; top:18px; right:20px; }
+
+html[data-theme="dark"] {
+  color-scheme:dark;
+  color:#e4ebe7;
+  background:#151a19;
+  --ink:#e4ebe7;
+  --muted:#a5b2ad;
+  --copper:#e39a78;
+  --line:#3c4844;
+  --accent:#e39a78;
+}
+html[data-theme="dark"] body { color:#e4ebe7; background:#151a19; }
+html[data-theme="dark"] .islam-origin-story { --copper:#91cda2; }
+html[data-theme="dark"] .umayyad-abbasid-story { --copper:#8dbbd1; }
+html[data-theme="dark"] .regional-dynasties-story { --copper:#8fc6b0; }
+html[data-theme="dark"] .mughal-story { --copper:#bda7d3; }
+html[data-theme="dark"] .islamic-culture-story { --copper:#91bfd2; }
+
+html[data-theme="dark"] .theme-toggle { border-color:#52615c; color:#dce5e0; background:#202826; }
+html[data-theme="dark"] .theme-toggle:hover { background:#2b3532; }
+html[data-theme="dark"] .intro { background:radial-gradient(ellipse at 84% 36%,#31403970,transparent 47%); }
+html[data-theme="dark"] .intro-copy,
+html[data-theme="dark"] .card-body > p:not(.period) { color:#b0beb7; }
+html[data-theme="dark"] .collection-meta b { color:#d8e4de; }
+html[data-theme="dark"] .site-header nav a { border-color:#52615c; }
+html[data-theme="dark"] .story-card,
+html[data-theme="dark"] .release-card { color:#e4ebe7; background:#202725; border-color:#46524e; }
+html[data-theme="dark"] .story-card:hover { box-shadow:0 12px 24px #0007; }
+html[data-theme="dark"] .cover { background:#283532; border-color:#46524e; }
+html[data-theme="dark"] .cover::before { opacity:.5; filter:brightness(.48) saturate(.7) contrast(1.15); }
+html[data-theme="dark"] .cover-timur { background:#283834; }
+html[data-theme="dark"] .cover-after { background:#37372d; }
+html[data-theme="dark"] .cover-safavid,
+html[data-theme="dark"] .cover-ottoman { background:#3b302c; }
+html[data-theme="dark"] .cover-islam-origin,
+html[data-theme="dark"] .cover-regional-dynasties { background:#283a33; }
+html[data-theme="dark"] .cover-umayyad-abbasid,
+html[data-theme="dark"] .cover-mughal { background:#293642; }
+html[data-theme="dark"] .cover-islamic-culture { background:#352f40; }
+html[data-theme="dark"] .cover-number,
+html[data-theme="dark"] .cover-place,
+html[data-theme="dark"] .cover-caption { color:#c1d0c8; }
+html[data-theme="dark"] .period span { color:#aebdb5; border-color:#4d5a55; }
+html[data-theme="dark"] .card-action { border-color:#3f4a46; }
+html[data-theme="dark"] .card-action > span { color:#e39a78; }
+html[data-theme="dark"] .site-footer { color:#98a8a0; }
+
+html[data-theme="dark"] .story-stage { background:#202725; border-color:var(--line); }
+html[data-theme="dark"] .map-panel,
+html[data-theme="dark"] .restored-story .map-panel,
+html[data-theme="dark"] .safavid-story .map-panel,
+html[data-theme="dark"] .ottoman-story .map-panel { background:#1d2928; }
+html[data-theme="dark"] .narrative { background:#202725; }
+html[data-theme="dark"] .chapter-nav button:hover,
+html[data-theme="dark"] .previous-button:hover:not(:disabled),
+html[data-theme="dark"] .scene-nav button:hover { background:#29322f; }
+html[data-theme="dark"] #scene-year { background:#3a2d27; }
+html[data-theme="dark"] .scene-body strong { background:linear-gradient(transparent 68%,#72513f 68%); }
+html[data-theme="dark"] .restored-story .scene-body strong { color:#f0c1aa; }
+html[data-theme="dark"] .previous-button { color:#b7c5be; border-color:#52605a; }
+html[data-theme="dark"] .next-button { color:#f5f8f6; background:#315c65; border-color:#4d7680; }
+html[data-theme="dark"] .next-button:hover { background:#3b6c76; }
+html[data-theme="dark"] progress,
+html[data-theme="dark"] progress::-webkit-progress-bar { background:#3b4642; }
+html[data-theme="dark"] .scene-nav button[aria-current="step"] { color:var(--copper); background:#3a302a; }
+html[data-theme="dark"] .story-series-links { color:#a7b6af; }
+html[data-theme="dark"] .story-series-links a { border-color:#52615c; }
+html[data-theme="dark"] .story-series-links [aria-current="page"] { color:var(--copper); }
+html[data-theme="dark"] .no-script { background:#3b2e26; }
+
+html[data-theme="dark"] #story-map image,
+html[data-theme="dark"] #world-locator image { filter:brightness(.46) saturate(.72) contrast(1.16); }
+html[data-theme="dark"] #story-map { background:#182423; }
+html[data-theme="dark"] .ottoman-story #story-map > rect[fill="#e5dfc9"] { fill:#30342f; }
+html[data-theme="dark"] .ottoman-story #story-map > polygon[fill="#d9e9e7"] { fill:#172526; stroke:#425754; }
+html[data-theme="dark"] #story-map text { fill:#c3d0ca; stroke:#202a28; }
+html[data-theme="dark"] #story-map .sea-label,
+html[data-theme="dark"] #story-map .history-water,
+html[data-theme="dark"] #story-map .safavid-water,
+html[data-theme="dark"] #story-map .ottoman-water { fill:#88afb6; stroke:#1d2928; }
+html[data-theme="dark"] #story-map .region-label { fill:#b8c6bc; }
+html[data-theme="dark"] #story-map .region-label.active { fill:#91cfc3; }
+html[data-theme="dark"] #story-map .place-label,
+html[data-theme="dark"] #story-map .history-city,
+html[data-theme="dark"] #story-map .safavid-city,
+html[data-theme="dark"] #story-map .ottoman-city { fill:#d4e2dc; }
+html[data-theme="dark"] #story-map .place-label.active,
+html[data-theme="dark"] #story-map .map-callout,
+html[data-theme="dark"] #story-map .history-country,
+html[data-theme="dark"] #story-map .safavid-country,
+html[data-theme="dark"] #story-map .ottoman-country { fill:#e7ae92; }
+html[data-theme="dark"] #story-map .capital-label,
+html[data-theme="dark"] #story-map .history-capital,
+html[data-theme="dark"] #story-map .safavid-capital,
+html[data-theme="dark"] #story-map .ottoman-capital { fill:#83c8d0; }
+html[data-theme="dark"] #story-map .place-dot { fill:#263330; stroke:#9eb6ad; }
+html[data-theme="dark"] #story-map .place-dot.active { fill:#d97855; stroke:#f2d8c9; }
+html[data-theme="dark"] #story-map .capital-dot { fill:#58a8b6; stroke:#dcebea; }
+
+html[data-theme="dark"] .map-focus { color:#e0a184; }
+html[data-theme="dark"] .map-caption,
+html[data-theme="dark"] .map-legend,
+html[data-theme="dark"] .north-mark,
+html[data-theme="dark"] .replay-button { color:#a5b8b3; }
+html[data-theme="dark"] .replay-button { border-color:#536460; }
+html[data-theme="dark"] .map-action-status,
+html[data-theme="dark"] .restored-story .map-action-status,
+html[data-theme="dark"] .safavid-story .map-action-status,
+html[data-theme="dark"] .ottoman-story .map-action-status { color:#c6d2cd; background:#202826ed; border-color:#52615c; }
+html[data-theme="dark"] .map-facts li { color:#c0cec7; background:#242e2b; border-color:#64756d; }
+html[data-theme="dark"] .map-speech,
+html[data-theme="dark"] .history-bubble,
+html[data-theme="dark"] .safavid-bubble,
+html[data-theme="dark"] .ottoman-bubble,
+html[data-theme="dark"] .after-bubble { color:#f1c7aa; background:#302922f2; border-color:#8d6d59; }
+html[data-theme="dark"] .is-prop .history-name,
+html[data-theme="dark"] .is-prop .safavid-name,
+html[data-theme="dark"] .is-prop .ottoman-name,
+html[data-theme="dark"] .is-prop .after-name { color:#ead9ba; background:#342f28ed; border-color:#766a55; }
+html[data-theme="dark"] .map-relation { color:#e0cfaa; background:#302d24e8; border-color:#6c644f; }
+
+html[data-theme="dark"] .animation-controls,
+html[data-theme="dark"] .map-location { border-color:#45534e; }
+html[data-theme="dark"] .animation-toolbar { color:#a9bbb5; }
+html[data-theme="dark"] .animation-toolbar button { color:#c4d5cf; background:#242e2b; border-color:#52615c; }
+html[data-theme="dark"] .ottoman-story .map-mention.is-map-active,
+html[data-theme="dark"] .ottoman-story .scene-body p.is-current { background:#493a2e; }
+html[data-theme="dark"] .location-path,
+html[data-theme="dark"] .world-locator p { color:#a7b7b0; }
+html[data-theme="dark"] .location-path strong,
+html[data-theme="dark"] .location-actions #skip-orientation { color:#e4a184; }
+html[data-theme="dark"] .location-actions button { color:#a9d0ca; border-color:#617973; }
+html[data-theme="dark"] .world-locator { color:#c7d2cd; background:#242c29; border-color:#52615c; }
+html[data-theme="dark"] .world-locator svg { background:#182423; }
+html[data-theme="dark"] #locator-frame { fill:#df78522e; stroke:#e38462; }
+
+@media(max-width:740px) {
+  html[data-theme="dark"] .story-controls { background:#151a19f2; }
+  .theme-actions { gap:8px; }
+  .theme-toggle { min-height:32px; padding:5px 8px; }
+}
+@media(max-width:640px) {
+  .site-header .version { display:none; }
+  .site-header nav { gap:10px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .theme-toggle { transition:none; }
+}

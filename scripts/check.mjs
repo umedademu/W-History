@@ -29,6 +29,15 @@ for(const file of publicFiles.filter(f=>/\.(html|js|css)$/.test(f))){
   for(const ref of refs){if(/^(https?:|#|data:|mailto:)/.test(ref))continue;const clean=ref.split(/[?#]/)[0];const target=clean.startsWith("/")?path.join(publicRoot,clean==="/"?"index.html":clean):path.resolve(path.dirname(file),clean);await fs.access(target);references++;}
   if(/anki-ume\.vercel\.app|anki-progress-api|cloud-progress\.js|speech\.js/.test(text))throw new Error(`Ankiへの依存が残っています: ${file}`);
 }
+const htmlFiles=publicFiles.filter(file=>file.endsWith(".html"));
+for(const file of htmlFiles){
+  const html=await fs.readFile(file,"utf8");
+  if(!html.includes('/theme.js?v=0.022')||!html.includes('/theme.css?v=0.022'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
+}
+const themeScript=await fs.readFile(path.join(publicRoot,"theme.js"),"utf8");
+const themeStyle=await fs.readFile(path.join(publicRoot,"theme.css"),"utf8");
+for(const required of ["prefers-color-scheme: dark","localStorage.setItem","dataset.themeToggle"]){if(!themeScript.includes(required))throw new Error(`明暗テーマの切り替え処理が不足しています: ${required}`);}
+for(const required of ['html[data-theme="dark"]','.theme-toggle','#story-map image']){if(!themeStyle.includes(required))throw new Error(`ダークテーマの配色が不足しています: ${required}`);}
 const catalog=await fs.readFile(path.join(publicRoot,"index.html"),"utf8");
 const allModules=[
   "islam-origin-story",
