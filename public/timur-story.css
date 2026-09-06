@@ -57,7 +57,8 @@ h1 { margin: 0; font-size: clamp(28px, 3.2vw, 44px); letter-spacing: .09em; line
 .scene-kicker { color: var(--copper); font-size: 11px; margin: 16px 0 6px; letter-spacing: .06em; }
 h2 { font-size: clamp(23px, 2.3vw, 30px); margin: 0 0 18px; line-height: 1.65; letter-spacing: .025em; }
 /* 全教材の場面見出しを、本文より少し大きい太字に統一する。 */
-.story-stage .narrative #scene-title { font-family: inherit; font-size: 16px; font-weight: 700; line-height: 1.6; letter-spacing: .01em; margin: 0 0 10px; white-space: normal; }
+.story-stage .narrative #scene-title,
+.story-stage .narrative #orientation-heading { font-family: inherit; font-size: 16px; font-weight: 700; line-height: 1.6; letter-spacing: .01em; margin: 0 0 10px; white-space: normal; }
 .story-stage .narrative #scene-title br { display: none; }
 .scene-body { font-size: 14px; line-height: 2; }
 .scene-body p { margin: 0 0 12px; }
@@ -145,7 +146,8 @@ progress::-moz-progress-bar { background: var(--copper); }
   .story-stage { grid-template-columns: minmax(0, 1.4fr) minmax(280px, 1fr); }
   .narrative { padding: 24px 22px; }
   .scene-body { font-size: 13px; }
-  .story-stage .narrative #scene-title { font-size: 15px; }
+  .story-stage .narrative #scene-title,
+  .story-stage .narrative #orientation-heading { font-size: 15px; }
   .map-heading { padding: 14px 14px 0; }
   .map-heading p { font-size: 11px; }
   .map-legend { padding-left: 14px; padding-right: 14px; }
