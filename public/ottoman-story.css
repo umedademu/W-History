@@ -1,4 +1,21 @@
 .ottoman-story { --copper:#9e3e2c; }
+.ottoman-symbol { display:block; width:100%; height:100%; }
+.step-explanation { margin:0 17px; padding:15px 0; border-top:1px solid #c5d0c5; }
+.step-toolbar,.step-arrows { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.step-toolbar { color:#884d37; font-size:12px; }
+.step-explanation button { border:1px solid #b9c7ba; border-radius:3px; padding:8px 10px; color:#34565c; background:#f8f7ef; font:inherit; font-size:12px; cursor:pointer; }
+.step-explanation button:disabled { opacity:.55; cursor:default; }
+#step-progress { display:block; width:100%; height:3px; margin-top:10px; accent-color:#a76343; }
+#step-caption { font-size:14px; line-height:1.9; margin:12px 0; min-height:3.8em; }
+#step-nav { display:grid; grid-template-columns:1fr 1fr; gap:7px; margin:12px 0; }
+#step-nav button { text-align:left; line-height:1.6; }
+#step-nav button[aria-current] { color:#823e29; background:#f4e5cf; border-color:#b67b54; font-weight:700; }
+#step-note { font-size:10px; color:#65756e; line-height:1.8; margin:13px 0 0; }
+.ottoman-story .map-mention { display:inline; padding:0; margin:0; border:0; border-bottom:1px dotted #7c8f82; background:transparent; color:inherit; font:inherit; line-height:inherit; text-align:inherit; cursor:pointer; }
+.ottoman-story .map-mention.is-map-active { background:#f0ddba90; border-bottom-color:#a36040; }
+.ottoman-story .map-mention:hover { background:#ead3a7; }
+.ottoman-story button:focus-visible { outline:2px solid #9e593d; outline-offset:3px; }
+.ottoman-story #story-map .ottoman-route-label { fill:#896b24; font-size:10px; }
 .ottoman-story .story-stage { grid-template-columns:minmax(0,1.55fr) minmax(320px,1fr); }
 .ottoman-story .map-panel { background:#e8eeea; }
 .ottoman-story #story-map { height:clamp(440px, 52vh, 530px); }
@@ -54,6 +71,10 @@
 #locator-frame { fill:#b54a2c20; stroke:#aa3e27; stroke-width:1.5; vector-effect:non-scaling-stroke; }
 @media(max-width:1000px) { .ottoman-story .story-stage { grid-template-columns:minmax(0,1.2fr) minmax(280px,1fr); } }
 @media(max-width:740px) {
+  .ottoman-story .story-controls { position:static; }
+  .step-explanation { margin:0 12px; }
+  #step-caption { font-size:13px; }
+  #step-nav { grid-template-columns:1fr; }
   .ottoman-story .story-stage { grid-template-columns:1fr; }
   .ottoman-story #story-map { height:400px; }
   .ottoman-story .map-heading p { font-size:10px; line-height:1.7; }

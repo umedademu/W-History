@@ -7,15 +7,15 @@
   <title>オスマン帝国｜地図でたどる世界史</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/timur-story.css?v=0.002" />
-  <link rel="stylesheet" href="/ottoman-story.css?v=0.007" />
+  <link rel="stylesheet" href="/ottoman-story.css?v=0.010" />
   <link rel="preload" href="/ottoman-world-map.svg?v=0.007" as="image" />
-  <script src="/ottoman-story.js?v=0.009" type="module"></script>
+  <script src="/ottoman-story.js?v=0.010" type="module"></script>
 </head>
 <body class="ottoman-story">
   <header class="story-header">
     <a href="/" class="home-link">← 教材一覧へ</a>
     <span class="series-name">地図でたどる世界史 <span class="experiment">07</span></span>
-    <span class="version">v0.009</span>
+    <span class="version">v0.010</span>
   </header>
   <main class="story-shell">
     <div class="introduction">
@@ -23,7 +23,7 @@
         <p class="eyebrow">小国家から三大陸にまたがる大帝国へ。</p>
         <h1>オスマン帝国</h1>
       </div>
-      <p class="intro-note">ひとつの地図、20の場面。<br />「次へ」を押して、歴史をたどろう。</p>
+      <p class="intro-note">20の場面を、出来事の順に。<br />本文の下線のある名前を押すと、地図で確認できます。</p>
     </div>
     <nav class="story-series-links" aria-label="ほかの紙芝居">
       <a href="/islam-origin-story.html">01 イスラーム成立</a><a href="/umayyad-abbasid-story.html">02 ウマイヤ・アッバース</a><a href="/regional-dynasties-story.html">03 地方政権</a><a href="/timur-story.html">04 ティムール遠征</a><a href="/timur-after-story.html">05 その後</a><a href="/safavid-story.html">06 サファヴィー</a><a href="/ottoman-story.html" aria-current="page">07 オスマン</a><a href="/mughal-story.html">08 ムガル</a><a href="/islamic-culture-story.html">09 イスラーム文化</a>
@@ -49,6 +49,14 @@
           <span class="north-mark" aria-hidden="true">北<br />↑</span>
           <p id="map-status" class="map-action-status"></p>
         </div>
+        <section class="step-explanation" aria-label="このコマの地図の説明">
+          <div class="step-toolbar"><span id="step-count"></span><button type="button" id="step-play" aria-pressed="true">一時停止</button></div>
+          <progress id="step-progress" max="1" value="0" aria-label="この説明の動きの進み具合"></progress>
+          <p id="step-caption" aria-live="polite"></p>
+          <nav id="step-nav" aria-label="説明を選んで見直す"></nav>
+          <div class="step-arrows"><button type="button" id="step-previous">← 前の説明</button><button type="button" id="step-next">次の説明 →</button></div>
+          <p id="step-note"></p>
+        </section>
         <div class="map-location">
           <div class="location-guide">
             <p class="location-path">世界 <span aria-hidden="true">→</span> 地中海周辺 <span aria-hidden="true">→</span><br /><strong id="location-name">アナトリア西北部</strong></p>
@@ -72,10 +80,10 @@
           <span><i class="legend-route"></i>進軍</span>
           <span><i class="legend-rival"></i>相手の進軍</span>
           <span><i class="legend-move"></i>移動</span>
-          <span><i class="legend-trade"></i>交易</span>
+          <span><i class="legend-trade"></i>交易・要請・制度上の関係</span>
         </div>
         <ul id="map-facts" class="map-facts" aria-label="地図の見どころ"></ul>
-        <p class="map-caption">都市の印が位置の基準です。人物・建物は見やすい位置へずらし、細い線で結んでいます。色は注目地域、矢印は進む方向の概略です。</p>
+        <p class="map-caption">印が位置の基準です。人物・建物は細い線で位置に結びます。範囲や矢印は概略、共通の人物・制度の絵は役割を示す記号です。</p>
       </div>
       <article id="narrative" class="narrative" aria-live="polite" aria-atomic="true">
         <div id="orientation-note" class="orientation-note" hidden>
@@ -109,7 +117,7 @@
       <button type="button" id="next" class="next-button">次へ →</button>
     </div>
     <nav id="scene-nav" class="scene-nav" aria-label="好きな場面へ移動"></nav>
-    <p class="interaction-hint">広い地図で位置を確かめてから、物語へ。パソコンでは ← → キーでも移動できます。音声はありません。</p>
+    <p class="interaction-hint">各コマの説明は順に再生されます。下線のある名前や説明を選ぶと、その動きを一度再生して止まります。「続けて再生」で先へ進めます。← → キーはコマの移動。音声はありません。</p>
     <noscript><p class="no-script">この紙芝居を見るには、ブラウザーで JavaScript を有効にしてください。</p></noscript>
     <footer class="story-footer">
       <span>歴史の紙芝居・実験室</span>
