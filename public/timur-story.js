@@ -1,4 +1,4 @@
-import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.185";
+import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.009";
 
 const scenes = [
   {
@@ -220,7 +220,7 @@ function drawPlace(key, scene) {
   if (scene.characters === "syria" && key === "baghdad") offset[0] = 10 / scale;
   if (capital && scene.regions.includes("ming")) { offset[0] = 0; offset[1] = (mobile.matches ? 66 : 48) / scale; }
   group.append(svgElement("text", {
-    x: x + offset[0], y: y + offset[1],
+    x: x + offset[0], y: y + offset[1], "data-anchor-x": x, "data-anchor-y": y,
     class: capital ? "capital-label" : `place-label${active ? " active" : ""}`,
     "text-anchor": scene.characters === "syria" && key === "damascus" ? "end" : scene.characters === "syria" && key === "baghdad" ? "start" : hasPerson ? "middle" : summaryAnkara ? "start" : place.anchor ?? "start",
     style: `font-size:${(mobile.matches ? 10.5 : 12) / scale}px`,

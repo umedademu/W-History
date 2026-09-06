@@ -18,7 +18,7 @@
 .after-bubble:empty { display: none; }
 .after-connector { position: absolute; height: 0; left: 0; top: 0; border-top: 1px dashed #536f78b0; transform-origin: left center; }
 .after-map-item.is-walking img { animation: after-walk .38s steps(2,end) infinite; transform-origin: center bottom; }
-.map-relation { position: absolute; top: 8px; left: 28px; right: 10px; margin: 0; padding: 6px 8px; background: #fff9e7dd; border: 1px solid #d4c7a6; color: #746442; font-size: 10px; line-height: 1.6; text-align: center; }
+.map-relation { position: absolute; top: 8px; left: 46px; right: 10px; margin: 0; padding: 6px 8px; background: #fff9e7dd; border: 1px solid #d4c7a6; color: #746442; font-size: 10px; line-height: 1.6; text-align: center; }
 .after-story .legend-move { width: 17px; border-top: 2px solid #467b92; }
 .after-story .legend-peace { width: 17px; border-top: 2px dashed #428974; }
 .after-story .legend-trade { width: 17px; border-top: 2px dotted #ac812e; }

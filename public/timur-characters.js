@@ -1,3 +1,4 @@
+import { createMapLayout } from "./map-layout.js?v=0.009";
 // 人物は透過PNG。位置は地図と同じ緯度・経度から求める。
 const capital = [66.97, 39.65];
 const actor = (name, image, point, options = {}) => ({ name, image, point, ...options });
@@ -141,6 +142,9 @@ export function renderMapCharacters(root, scene, { map, routes, project, reduced
     }
     return projected.at(-1);
   };
+  const placeContents = createMapLayout({ map, root, items: actors.map(entry => ({
+    ...entry, figure: entry.person, bubble: entry.speech, reserveSpeech: definition.result
+  })) });
   const update = (progress) => {
     const finished = progress >= 1;
     const box = map.viewBox.baseVal;
@@ -174,6 +178,7 @@ export function renderMapCharacters(root, scene, { map, routes, project, reduced
       speech.textContent = showSpeech ? definition.result : "";
       captive.hidden = !(definition.action === "capture" && index === 1 && finished);
     });
+    placeContents();
   };
   update(reducedMotion || definition.action === "summary" || definition.action === "plan" ? 1 : 0);
   root.dataset.phase = "loading";

@@ -1,3 +1,4 @@
+import { createMapLayout } from "./map-layout.js?v=0.009";
 import { locations, zones, scenes } from "./timur-after-scenes.js?v=0.185";
 
 const NS = "http://www.w3.org/2000/svg";
@@ -78,13 +79,13 @@ function renderMap(scene) {
     el["map-routes"].append(svg("path",{d:pathText(route.points),class:`after-route ${route.kind}`,stroke:colors[route.kind],"stroke-width":2/scale,"marker-end":`url(#after-${route.kind})`,"data-route":i}));
   });
   // 都市の印は地理上の位置に固定し、人物や建物は引き出し線でその場所と結ぶ。
-  const pinNodes=scene.pins.map(key=>{
+  scene.pins.forEach(key=>{
     const place=locations[key], [x,y]=project(place.point), isCapital=scene.capital===key;
     el["map-places"].append(isCapital ? svg("path",{d:`M${x},${y-5/scale} l${5/scale},${5/scale} -${5/scale},${5/scale} -${5/scale},-${5/scale} Z`,fill:"#24778a"}) : svg("circle",{cx:x,cy:y,r:3/scale,fill:"#a65335",stroke:"#fff9eb","stroke-width":1.5/scale}));
     const node=svg("text",{x,y,"text-anchor":"middle",class:isCapital?"capital-label":"place-label",style:`font-size:${(small.matches?10.5:12)/scale}px`},place.name);
-    const guide=svg("line",{x1:x,y1:y,x2:x,y2:y,stroke:"#6c8384","stroke-width":.7/scale,opacity:.55});
-    el["map-places"].append(guide,node);
-    return {key,x,y,node,guide,labelWidth:node.getComputedTextLength()*scale+8};
+    node.setAttribute("y", y + 19 / scale);
+    node.dataset.anchorX = x; node.dataset.anchorY = y;
+    el["map-places"].append(node);
   });
   const root=el["map-characters"];
   root.replaceChildren(); root.dataset.scene=scene.id; root.dataset.phase="loading";
@@ -99,12 +100,13 @@ function renderMap(scene) {
     root.append(node);
     return {item,node,figure:node.querySelector(".after-figure"),image:node.querySelector("img"),bubble:node.querySelector(".after-bubble"),connector:node.firstElementChild};
   });
+  const placeContents = createMapLayout({ map, root, items });
   let cancelled=false, frame=0;
   const update=(progress)=>{
     root.dataset.progress=progress.toFixed(3);
     root.dataset.phase=progress>=1?"complete":"moving";
     status.textContent=progress>=1?scene.after:scene.before;
-    const bounds=[];
+
     items.forEach(({item,node,figure,image,bubble,connector})=>{
       const moving=item.route!==undefined&&progress<1;
       const pos=item.route===undefined?project(pointOf(item.at)):routePosition(scene.routes[item.route].points,progress);
@@ -122,31 +124,9 @@ function renderMap(scene) {
       if(node.dataset.image!==key){image.src=asset(key);node.dataset.image=key;}
       node.classList.toggle("is-walking",Boolean(moving&&!reduced.matches));
       bubble.textContent=changed&&item.bubble?item.bubble:"";
-      if(!node.hidden) bounds.push({x:x+offset[0],y:y+offset[1],w:Math.max(parseFloat(node.style.getPropertyValue("--item-width")),small.matches?80:104),h:parseFloat(node.style.getPropertyValue("--item-height"))+(bubble.textContent?31:0),item});
+
     });
-    // 人物が都市に着いたら、地名を足元の下へ移して隠れないようにする。
-    const placed=[];
-    const intersects=(a,b)=>a.left<b.right+5&&a.right>b.left-5&&a.top<b.bottom+4&&a.bottom>b.top-4;
-    const occupied=bounds.map(b=>({left:b.x-b.w/2,right:b.x+b.w/2,top:b.y-b.h-4,bottom:b.y+28}));
-    pinNodes.forEach(({key,x,y,node,guide,labelWidth})=>{
-      const px=(x-left)*scale, py=(y-top)*scale;
-      const overlapping=bounds.filter(b=>Math.abs(b.x-px)<b.w/2+30&&py>b.y-b.h-16&&py<b.y+40);
-      const below=overlapping.length?Math.max(...overlapping.map(b=>b.y))+48:py+19;
-      const desired=scene.id==="three-khanates"?py+(key==="bukhara"?78:48):Math.min(height-57,below);
-      const candidates=[];
-      for(const cy of [desired,py+19,py+48,desired+22,desired-22,py-16,py-42,desired+44,desired-44]) {
-        for(const dx of [0,-42,42,-75,75]) {
-          const cx=clamp(px+dx,labelWidth/2+8,width-labelWidth/2-8);
-          const candidate={left:cx-labelWidth/2,right:cx+labelWidth/2,top:cy-12,bottom:cy+4,cx,cy};
-          if(candidate.top>38&&candidate.bottom<height-48)candidates.push(candidate);
-        }
-      }
-      const chosen=candidates.find(c=>![...occupied,...placed].some(b=>intersects(c,b)))??candidates[0];
-      placed.push(chosen);
-      node.setAttribute("x",left+chosen.cx/scale);node.setAttribute("y",top+chosen.cy/scale);
-      guide.setAttribute("x2",left+chosen.cx/scale);guide.setAttribute("y2",top+(chosen.cy-8)/scale);
-      guide.setAttribute("visibility",Math.hypot(chosen.cx-px,chosen.cy-py)>28?"visible":"hidden");
-    });
+    placeContents();
   };
   update(reduced.matches||!scene.duration?1:0); root.dataset.phase="loading";
   const keys=[...new Set(items.flatMap(({item})=>[item.image,item.afterImage].filter(Boolean)))];

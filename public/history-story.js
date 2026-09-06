@@ -1,3 +1,4 @@
+import { createMapLayout } from "./map-layout.js?v=0.009";
 
 export function mountStory({ places, zones, scenes, imageDirectory }) {
 const NS = "http://www.w3.org/2000/svg";
@@ -82,29 +83,10 @@ function drawMap(scene) {
 
   const pins = svg("g", { class: "history-pins" }), labels = svg("g", { class: "history-labels" });
   map.append(pins, labels);
-  const occupied = [];
-  const overlaps = (a, b) => a.left < b.right + 4 && a.right > b.left - 4 && a.top < b.bottom + 4 && a.bottom > b.top - 4;
-
   function label(text, point, className) {
-    const [px, py] = toScreen(point), node = svg("text", { x: px, y: py, class: className, "text-anchor": "middle" }, text);
+    const [px, py] = toScreen(point);
+    const node = svg("text", { x: px, y: py + 20, class: className, "text-anchor": "middle", "data-anchor-x": px, "data-anchor-y": py }, text);
     labels.append(node);
-    const half = node.getComputedTextLength() / 2 + 3, candidates = [];
-    for (const dy of [-13, 23, -34, 44, -55, 65]) {
-      for (const dx of [0, -38, 38, -70, 70]) {
-        const cx = clamp(px + dx, half + 8, width - half - 8), cy = py + dy;
-        const r = { left: cx - half, right: cx + half, top: cy - 12, bottom: cy + 4, cx, cy };
-        if (r.top > 28 && r.bottom < height - 43) candidates.push(r);
-      }
-    }
-    const chosen = candidates.find(r => !occupied.some(b => overlaps(r, b))) ?? candidates[0];
-    if (!chosen) { node.remove(); return; }
-    occupied.push(chosen);
-    node.setAttribute("x", chosen.cx);
-    node.setAttribute("y", chosen.cy);
-    if (Math.hypot(chosen.cx - px, chosen.cy - py) > 26) {
-      const line = svg("line", { x1: px, y1: py, x2: chosen.cx, y2: chosen.cy - 5, stroke: "#617e7c", "stroke-width": .7, opacity: .65 });
-      labels.insertBefore(line, node);
-    }
   }
 
   for (const key of scene.pins) {
@@ -148,32 +130,7 @@ function drawMap(scene) {
     return { item, node, figure: node.querySelector(".history-figure"), image: node.querySelector("img"), bubble: node.querySelector(".history-bubble"), connector: node.firstElementChild };
   });
 
-  for (const entry of items) {
-    const {item, figure, bubble} = entry;
-    const raw = typeof item.at === "string" ? places[item.at].point : item.at;
-    const endpoint = item.route === undefined ? toScreen(raw) : (() => {
-      const r = routeNodes[item.route]; const p = r.path.getPointAtLength(r.length); return [p.x,p.y];
-    })();
-    const fw = figure.offsetWidth, fh = figure.offsetHeight;
-    const name = figure.querySelector(".history-name");
-    const bw = Math.max(fw, name.offsetWidth, bubble.offsetWidth) + 6;
-    const top = fh + (bubble.textContent ? bubble.offsetHeight + 8 : 0);
-    const bottom = name.offsetHeight + 5;
-    const preferred = item.offset || [0,0], candidates = [];
-    for (const dy of [preferred[1], 30, -25, 65, -65, 115, -115, 165]) {
-      for (const dx of [preferred[0], -65, 65, -125, 125, -190, 190, 0]) {
-        const cx = clamp(endpoint[0]+dx, bw/2+8, width-bw/2-8);
-        const cy = clamp(endpoint[1]+dy, top+10, height-bottom-57);
-        const box = {left:cx-bw/2,right:cx+bw/2,top:cy-top,bottom:cy+bottom};
-        const overlap = occupied.reduce((sum,b)=>sum + Math.max(0,Math.min(box.right,b.right+4)-Math.max(box.left,b.left-4))*Math.max(0,Math.min(box.bottom,b.bottom+4)-Math.max(box.top,b.top-4)),0);
-        candidates.push({box, offset:[cx-endpoint[0],cy-endpoint[1]], score:overlap*1000 + Math.hypot(cx-endpoint[0]-preferred[0],cy-endpoint[1]-preferred[1])});
-      }
-    }
-    candidates.sort((a,b)=>a.score-b.score);
-    entry.layout = candidates[0].offset;
-    occupied.push(candidates[0].box);
-    bubble.textContent = "";
-  }
+  const placeContents = createMapLayout({ map, root, items });
   let frame = 0, cancelled = false;
   const update = p => {
     if (root) root.dataset.phase = p >= 1 ? "complete" : "moving";
@@ -188,7 +145,7 @@ function drawMap(scene) {
       dot.setAttribute("cx", at.x); dot.setAttribute("cy", at.y); dot.dataset.progress = q.toFixed(3);
       head.setAttribute("transform", `translate(${at.x},${at.y}) rotate(${Math.atan2(at.y - prev.y, at.x - prev.x) * 180 / Math.PI})`);
     }
-    for (const { item, node, figure, image, bubble, connector, layout } of items) {
+    for (const { item, node, figure, image, bubble, connector } of items) {
       let pos;
       const r = item.route === undefined ? null : routeNodes[item.route].route;
       const moving = r && p >= (r.start ?? 0) && p < (r.end ?? 1);
@@ -202,7 +159,7 @@ function drawMap(scene) {
         pos = toScreen(rawPoint);
       }
       const arrival = item.route === undefined ? 1 : clamp((p - .78) / .22);
-      const offset = layout.map(v => v * arrival);
+      const offset = (item.offset ?? [0, 0]).map(v => v * arrival);
       node.hidden = p < (item.from ?? 0);
       node.style.transform = `translate(${pos[0]}px,${pos[1]}px)`;
       figure.style.transform = `translate(calc(-50% + ${offset[0]}px),${offset[1]}px)`;
@@ -215,6 +172,7 @@ function drawMap(scene) {
       node.classList.toggle("is-walking", Boolean(moving && !reduced.matches));
       bubble.textContent = changed && item.bubble ? item.bubble : "";
     }
+    placeContents();
     if (ring) { ring.setAttribute("r", 8 + 7 * Math.sin(p * Math.PI)); ring.setAttribute("opacity", .45 + .45 * p); }
   };
 

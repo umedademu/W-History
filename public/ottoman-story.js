@@ -1,3 +1,4 @@
+import { createMapLayout } from "./map-layout.js?v=0.009";
 import { places, zones, scenes } from "./ottoman-scenes.js?v=0.002";
 import { project, worldMap, createOrientation, transitionFor } from "./ottoman-orientation.js?v=0.008";
 
@@ -92,29 +93,10 @@ function drawMap(scene, mode = "none", restart = false) {
 
   const pins = svg("g", { class: "ottoman-pins" }), labels = svg("g", { class: "ottoman-labels" });
   map.append(pins, labels);
-  const occupied = [];
-  const overlaps = (a, b) => a.left < b.right + 4 && a.right > b.left - 4 && a.top < b.bottom + 4 && a.bottom > b.top - 4;
-
   function label(text, point, className) {
-    const [px, py] = toScreen(point), node = svg("text", { x: px, y: py, class: className, "text-anchor": "middle" }, text);
+    const [px, py] = toScreen(point);
+    const node = svg("text", { x: px, y: py + 20, class: className, "text-anchor": "middle", "data-anchor-x": px, "data-anchor-y": py }, text);
     labels.append(node);
-    const half = node.getComputedTextLength() / 2 + 3, candidates = [];
-    for (const dy of [-13, 23, -34, 44, -55, 65]) {
-      for (const dx of [0, -38, 38, -70, 70]) {
-        const cx = clamp(px + dx, half + 8, width - half - 8), cy = py + dy;
-        const r = { left: cx - half, right: cx + half, top: cy - 12, bottom: cy + 4, cx, cy };
-        if (r.top > 28 && r.bottom < height - 43) candidates.push(r);
-      }
-    }
-    const chosen = candidates.find(r => !occupied.some(b => overlaps(r, b))) ?? candidates[0];
-    if (!chosen) { node.remove(); return; }
-    occupied.push(chosen);
-    node.setAttribute("x", chosen.cx);
-    node.setAttribute("y", chosen.cy);
-    if (Math.hypot(chosen.cx - px, chosen.cy - py) > 26) {
-      const line = svg("line", { x1: px, y1: py, x2: chosen.cx, y2: chosen.cy - 5, stroke: "#617e7c", "stroke-width": .7, opacity: .65 });
-      labels.insertBefore(line, node);
-    }
   }
 
   for (const key of scene.pins) {
@@ -157,6 +139,7 @@ function drawMap(scene, mode = "none", restart = false) {
     return { item, node, figure: node.querySelector(".ottoman-figure"), image: node.querySelector("img"), bubble: node.querySelector(".ottoman-bubble"), connector: node.firstElementChild };
   });
 
+  const placeContents = createMapLayout({ map, root, items });
   let frame = 0, cancelled = false;
   const update = p => {
     map.dataset.progress = p.toFixed(3); map.dataset.phase = p >= 1 ? "complete" : "moving";
@@ -197,6 +180,7 @@ function drawMap(scene, mode = "none", restart = false) {
       node.classList.toggle("is-walking", Boolean(moving && !reduced.matches));
       bubble.textContent = changed && item.bubble ? item.bubble : "";
     }
+    placeContents();
     if (ring) { ring.setAttribute("r", 8 + 7 * Math.sin(p * Math.PI)); ring.setAttribute("opacity", .45 + .45 * p); }
   };
 

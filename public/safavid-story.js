@@ -1,3 +1,4 @@
+import { createMapLayout } from "./map-layout.js?v=0.009";
 import {places,zones,scenes} from "./safavid-scenes.js?v=0.188";
 
 const NS="http://www.w3.org/2000/svg";
@@ -51,22 +52,12 @@ function drawMap(scene){
     return {route,path,reveal,head,dot,length};
   });
   const pins=svg("g",{class:"safavid-pins"}),labels=svg("g",{class:"safavid-labels"});map.append(pins,labels);
-  const occupied=[];
-  if(scene.square)occupied.push({left:width/2-126,right:width/2+126,top:54,bottom:248});
-  const overlaps=(a,b)=>a.left<b.right+4&&a.right>b.left-4&&a.top<b.bottom+4&&a.bottom>b.top-4;
-  function label(text,point,className){
-    const [px,py]=toScreen(point),node=svg("text",{x:px,y:py,class:className,"text-anchor":"middle"},text);labels.append(node);
-    const half=node.getComputedTextLength()/2+3,candidates=[];
-    for(const dy of [-13,23,-34,44,-55,65])for(const dx of [0,-38,38,-70,70]){
-      const cx=clamp(px+dx,half+8,width-half-8),cy=py+dy;
-      const r={left:cx-half,right:cx+half,top:cy-12,bottom:cy+4,cx,cy};
-      if(r.top>28&&r.bottom<height-43)candidates.push(r);
-    }
-    const chosen=candidates.find(r=>!occupied.some(b=>overlaps(r,b)))??candidates[0];
-    if(!chosen){node.remove();return;}
-    occupied.push(chosen);node.setAttribute("x",chosen.cx);node.setAttribute("y",chosen.cy);
-    if(Math.hypot(chosen.cx-px,chosen.cy-py)>26){const line=svg("line",{x1:px,y1:py,x2:chosen.cx,y2:chosen.cy-5,stroke:"#617e7c","stroke-width":.7,opacity:.65});labels.insertBefore(line,node);}
+  function label(text, point, className) {
+    const [px, py] = toScreen(point);
+    const node = svg("text", { x: px, y: py + 20, class: className, "text-anchor": "middle", "data-anchor-x": px, "data-anchor-y": py }, text);
+    labels.append(node);
   }
+
   for(const key of scene.pins){
     const [px,py]=toScreen(places[key].point),capital=scene.capital===key;
     pins.append(capital?svg("path",{d:`M${px},${py-5} l5,5 -5,5 -5,-5 Z`,fill:"#2d716f",stroke:"#fff9ec","stroke-width":1.5}):svg("circle",{cx:px,cy:py,r:3.5,fill:"#8e553b",stroke:"#fff9ec","stroke-width":1.5}));
@@ -105,6 +96,7 @@ function drawMap(scene){
     if(item.afterImage)preload(item.afterImage);
     return {item,node,figure:node.querySelector(".safavid-figure"),image:node.querySelector("img"),bubble:node.querySelector(".safavid-bubble"),connector:node.firstElementChild};
   });
+  const placeContents = createMapLayout({ map, root, items });
   let frame=0,cancelled=false;
   const update=p=>{
     map.dataset.progress=p.toFixed(3);map.dataset.phase=p>=1?"complete":"moving";
@@ -144,6 +136,7 @@ function drawMap(scene){
       node.classList.toggle("is-walking",Boolean(moving&&!reduced.matches));
       bubble.textContent=changed&&item.bubble?item.bubble:"";
     }
+    placeContents();
     if(ring){ring.setAttribute("r",8+7*Math.sin(p*Math.PI));ring.setAttribute("opacity",.45+.45*p);}
     if(city)city.setAttribute("opacity",String(.3+.7*p));
   };
