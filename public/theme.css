@@ -94,39 +94,88 @@ html[data-theme="dark"] .story-series-links [aria-current="page"] { color:var(--
 html[data-theme="dark"] .no-script { background:#3b2e26; }
 
 html[data-theme="dark"] #story-map image,
-html[data-theme="dark"] #world-locator image { filter:brightness(.46) saturate(.72) contrast(1.16); }
+html[data-theme="dark"] #world-locator image { filter:brightness(.52) saturate(2.6) contrast(1.28); }
 html[data-theme="dark"] #story-map { background:#182423; }
 html[data-theme="dark"] .ottoman-story #story-map > rect[fill="#e5dfc9"] { fill:#30342f; }
 html[data-theme="dark"] .ottoman-story #story-map > polygon[fill="#d9e9e7"] { fill:#172526; stroke:#425754; }
-html[data-theme="dark"] #story-map text { fill:#c3d0ca; stroke:#202a28; }
+html[data-theme="dark"] #story-map text {
+  fill:#edf4f0;
+  stroke:#13201e;
+  stroke-width:3px;
+  stroke-opacity:.96;
+  paint-order:stroke fill;
+}
 html[data-theme="dark"] #story-map .sea-label,
 html[data-theme="dark"] #story-map .history-water,
 html[data-theme="dark"] #story-map .safavid-water,
-html[data-theme="dark"] #story-map .ottoman-water { fill:#88afb6; stroke:#1d2928; }
-html[data-theme="dark"] #story-map .region-label { fill:#b8c6bc; }
-html[data-theme="dark"] #story-map .region-label.active { fill:#91cfc3; }
+html[data-theme="dark"] #story-map .ottoman-water { fill:#a9dce3; stroke:#13201e; }
+html[data-theme="dark"] #story-map .region-label { fill:#dce8e1; }
+html[data-theme="dark"] #story-map .region-label.active { fill:#9be5cf; }
 html[data-theme="dark"] #story-map .place-label,
 html[data-theme="dark"] #story-map .history-city,
 html[data-theme="dark"] #story-map .safavid-city,
-html[data-theme="dark"] #story-map .ottoman-city { fill:#d4e2dc; }
+html[data-theme="dark"] #story-map .ottoman-city { fill:#f2f7f4; }
 html[data-theme="dark"] #story-map .place-label.active,
 html[data-theme="dark"] #story-map .map-callout,
 html[data-theme="dark"] #story-map .history-country,
 html[data-theme="dark"] #story-map .safavid-country,
-html[data-theme="dark"] #story-map .ottoman-country { fill:#e7ae92; }
+html[data-theme="dark"] #story-map .ottoman-country { fill:#ffc09e; }
 html[data-theme="dark"] #story-map .capital-label,
 html[data-theme="dark"] #story-map .history-capital,
 html[data-theme="dark"] #story-map .safavid-capital,
-html[data-theme="dark"] #story-map .ottoman-capital { fill:#83c8d0; }
-html[data-theme="dark"] #story-map .place-dot { fill:#263330; stroke:#9eb6ad; }
-html[data-theme="dark"] #story-map .place-dot.active { fill:#d97855; stroke:#f2d8c9; }
-html[data-theme="dark"] #story-map .capital-dot { fill:#58a8b6; stroke:#dcebea; }
+html[data-theme="dark"] #story-map .ottoman-capital { fill:#91e1ed; }
+html[data-theme="dark"] #story-map .place-dot { fill:#1b2926; stroke:#d6e5df; }
+html[data-theme="dark"] #story-map .place-dot.active { fill:#ff8768; stroke:#fff1e8; }
+html[data-theme="dark"] #story-map .capital-dot { fill:#63c9d8; stroke:#eafafa; }
+
+html[data-theme="dark"] #story-map .history-regions,
+html[data-theme="dark"] #story-map .safavid-regions,
+html[data-theme="dark"] #story-map #map-regions { filter:brightness(1.2) saturate(1.35); }
+html[data-theme="dark"] #story-map .region { fill-opacity:.4; stroke-width:2; }
+html[data-theme="dark"] #story-map .after-zone { opacity:.42; stroke-width:1.5; }
+
+html[data-theme="dark"] #story-map .route:not(.planned):not(.history),
+html[data-theme="dark"] #story-map .after-route.campaign,
+html[data-theme="dark"] #story-map [stroke="#b5573f"],
+html[data-theme="dark"] #story-map [stroke="#b85434"] { stroke:#ff8e70; }
+html[data-theme="dark"] #story-map [fill="#b5573f"],
+html[data-theme="dark"] #story-map [fill="#b85434"] { fill:#ff8e70; }
+html[data-theme="dark"] #story-map .after-route.move,
+html[data-theme="dark"] #story-map [stroke="#467b92"] { stroke:#76cff2; }
+html[data-theme="dark"] #story-map .after-route.peace,
+html[data-theme="dark"] #story-map [stroke="#428974"] { stroke:#70e0ac; }
+html[data-theme="dark"] #story-map .route.planned,
+html[data-theme="dark"] #story-map [stroke="#5c7886"] { stroke:#8fcde8; }
+html[data-theme="dark"] #story-map [fill="#5c7886"] { fill:#8fcde8; }
+html[data-theme="dark"] #story-map [stroke="#54866b"] { stroke:#70dfa6; }
+html[data-theme="dark"] #story-map [fill="#54866b"] { fill:#70dfa6; }
+html[data-theme="dark"] #story-map .after-route.trade,
+html[data-theme="dark"] #story-map [stroke="#b0882f"],
+html[data-theme="dark"] #story-map [stroke="#a57d27"],
+html[data-theme="dark"] #story-map [stroke="#ac812e"] { stroke:#f2ca63; }
+html[data-theme="dark"] #story-map [fill="#b0882f"],
+html[data-theme="dark"] #story-map [fill="#a57d27"],
+html[data-theme="dark"] #story-map [fill="#ac812e"] { fill:#f2ca63; }
+html[data-theme="dark"] #story-map .route.history { stroke:#dbc0a5; opacity:.72; }
+html[data-theme="dark"] #story-map .history-arrows,
+html[data-theme="dark"] #story-map .safavid-arrows,
+html[data-theme="dark"] #story-map #map-routes { filter:drop-shadow(0 1px 1px #0b1513); }
 
 html[data-theme="dark"] .map-focus { color:#e0a184; }
 html[data-theme="dark"] .map-caption,
 html[data-theme="dark"] .map-legend,
 html[data-theme="dark"] .north-mark,
 html[data-theme="dark"] .replay-button { color:#a5b8b3; }
+html[data-theme="dark"] .legend-capital { background:#63c9d8; }
+html[data-theme="dark"] .legend-region { border-color:#82cbb5; background:#4f8877; }
+html[data-theme="dark"] .legend-route { border-color:#ff8e70; }
+html[data-theme="dark"] .legend-rival,
+html[data-theme="dark"] .legend-plan,
+html[data-theme="dark"] .after-story .legend-move { border-color:#8fcde8; }
+html[data-theme="dark"] .legend-move,
+html[data-theme="dark"] .after-story .legend-peace { border-color:#70dfa6; }
+html[data-theme="dark"] .legend-trade,
+html[data-theme="dark"] .after-story .legend-trade { border-color:#f2ca63; }
 html[data-theme="dark"] .replay-button { border-color:#536460; }
 html[data-theme="dark"] .map-action-status,
 html[data-theme="dark"] .restored-story .map-action-status,

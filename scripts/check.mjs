@@ -33,12 +33,12 @@ for(const file of publicFiles.filter(f=>/\.(html|js|css)$/.test(f))){
 const htmlFiles=publicFiles.filter(file=>file.endsWith(".html"));
 for(const file of htmlFiles){
   const html=await fs.readFile(file,"utf8");
-  if(!html.includes('/theme.js?v=0.026')||!html.includes('/theme.css?v=0.026'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
+  if(!html.includes('/theme.js?v=0.027')||!html.includes('/theme.css?v=0.027'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
 }
 const themeScript=await fs.readFile(path.join(publicRoot,"theme.js"),"utf8");
 const themeStyle=await fs.readFile(path.join(publicRoot,"theme.css"),"utf8");
 for(const required of ["prefers-color-scheme: dark","localStorage.setItem","dataset.themeToggle"]){if(!themeScript.includes(required))throw new Error(`明暗テーマの切り替え処理が不足しています: ${required}`);}
-for(const required of ['html[data-theme="dark"]','.theme-toggle','#story-map image']){if(!themeStyle.includes(required))throw new Error(`ダークテーマの配色が不足しています: ${required}`);}
+for(const required of ['html[data-theme="dark"]','.theme-toggle','#story-map image','brightness(.52) saturate(2.6)','stroke:#13201e','.legend-route { border-color:#ff8e70; }']){if(!themeStyle.includes(required))throw new Error(`ダークテーマの配色が不足しています: ${required}`);}
 const catalog=await fs.readFile(path.join(publicRoot,"index.html"),"utf8");
 const allModules=[
   "islam-origin-story",
