@@ -1,7 +1,7 @@
 import {createMapLayout} from "./map-layout.js?v=0.009";
-import {scenes} from "./ottoman-scenes.js?v=0.010";
-import {entities,storyboards,positionFor,mentionsFor} from "./ottoman-storyboard.js?v=0.010";
-import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.010";
+import {scenes} from "./ottoman-scenes.js?v=0.013";
+import {entities,storyboards,positionFor,mentionsFor} from "./ottoman-storyboard.js?v=0.013";
+import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
 import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.008";
 
 const byId=id=>document.getElementById(id), map=byId("story-map"),root=byId("map-characters");
@@ -121,7 +121,8 @@ function drawMap(mode="none",restart=false){
   routeNodes.forEach(({route})=>{if(route.label)label(route.label,route.path[Math.floor((route.path.length-1)/2)],{class:"ottoman-route-label"});});
   const small=width<500;
   const items=step.ids.filter(id=>!["place","state"].includes(entities[id].kind)).map(id=>{
-    const e={...entities[id],name:step.labels?.[id]??entities[id].name,icon:step.icons?.[id]??entities[id].icon},node=document.createElement("div"),size=e.kind==="person"?(small?48:58):(small?45:55);
+    const imgKey=step.images?.[id]??entities[id].image;
+    const e={...entities[id],name:step.labels?.[id]??entities[id].name,icon:step.icons?.[id]??entities[id].icon,image:imgKey},node=document.createElement("div"),size=e.kind==="person"?(small?48:58):(small?45:55);
     node.className="ottoman-map-item";node.dataset.entity=id;node.dataset.name=e.name;
     node.style.setProperty("--item-width",size+"px");node.style.setProperty("--item-height",(e.image&&e.kind==="person"?size*1.5:size)+"px");
     node.innerHTML='<span class="ottoman-connector"></span><div class="ottoman-figure"><span class="ottoman-bubble"></span>'+
@@ -151,7 +152,16 @@ function drawMap(mode="none",restart=false){
       node.style.transform="translate("+pos[0]+"px,"+pos[1]+"px)";figure.style.transform="translate(-50%,0)";
       graphic.style.opacity=String(step.fades?.includes(id)?1-.65*p:step.grow?.includes(id)?.2+.8*p:.7+.3*p);
       graphic.style.clipPath=step.grow?.includes(id)?"inset("+((1-p)*100)+"% 0 0 0)":"none";
-      if(step.afterIcons?.[id]){
+      if(step.afterImages?.[id]){
+        const nextImg=p>=.5?step.afterImages[id]:(step.images?.[id]??entities[id].image);
+        if(node.dataset.image!==nextImg){
+          const targetSrc=resolveImg(nextImg);
+          const img=node.querySelector("img");
+          if(img&&img.getAttribute("src")!==targetSrc){img.src=targetSrc;}
+          node.dataset.image=nextImg;
+        }
+      }
+      if(step.afterIcons?.[id]&&!entities[id].image){
         const icon=p>=.5?step.afterIcons[id]:entities[id].icon;
         if(node.dataset.icon!==icon){graphic.innerHTML=symbolPaths[icon];node.dataset.icon=icon;}
       }
