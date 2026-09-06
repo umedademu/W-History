@@ -8,7 +8,7 @@ const byId=id=>document.getElementById(id), map=byId("story-map"),root=byId("map
 const reduced=matchMedia("(prefers-reduced-motion: reduce)"),clamp=n=>Math.max(0,Math.min(1,n));
 const colors={campaign:"#b5573f",rival:"#5c7886",move:"#54866b",trade:"#a57d27"};
 const resolveImg=key=>"/images/"+(key.includes("/")?key:"ottoman/"+key)+".png";
-let index=0,stepIndex=0,elapsed=0,playing=!reduced.matches,selectedOnly=false,stop=()=>{};
+let index=0,stepIndex=0,elapsed=0,playing=!reduced.matches,stop=()=>{};
 let lastSize="",displayedScene=null,replayMode="none",pending=false,activeIntro="none";
 const currentSteps=()=>storyboards[scenes[index].id],currentStep=()=>currentSteps()[stepIndex];
 const orientation=createOrientation({map,svg,onPending:value=>{
@@ -43,7 +43,7 @@ function updateControls(){
   byId("step-note").textContent=step.note??"位置・範囲・進路は概略です。制度の記号は関係する拠点に置いています。";
   byId("step-previous").disabled=stepIndex===0;byId("step-next").disabled=stepIndex===currentSteps().length-1;
   byId("step-play").disabled=pending||reduced.matches;
-  byId("step-play").textContent=reduced.matches?"動きを抑える設定：説明は手動で切替":playing?"一時停止":"続けて再生";
+  byId("step-play").textContent=reduced.matches?"動きを抑える設定：説明は手動で切替":playing?"一時停止":elapsed>=step.duration?"この説明をもう一度":"再生を再開";
   byId("step-play").setAttribute("aria-pressed",String(playing));
   document.querySelectorAll("[data-story-step]").forEach(b=>{
     if(+b.dataset.storyStep===stepIndex)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");
@@ -181,12 +181,9 @@ function drawMap(mode="none",restart=false){
     let previous=performance.now();
     function tick(now){
       if(cancelled)return;elapsed+=Math.max(0,now-previous);previous=now;update(clamp(elapsed/step.duration));
-      if(selectedOnly&&elapsed>=step.duration){playing=false;selectedOnly=false;updateControls();return;}
-      // 説明文を読む時間を置いてから、同じコマの次の説明へ進む。
-      if(elapsed>=step.duration+Math.max(1800,step.caption.length*50)){
-        if(stepIndex<currentSteps().length-1){stepIndex++;elapsed=0;updateControls();drawMap("nearby");}
-        else{playing=false;updateControls();}
-      }else frame=requestAnimationFrame(tick);
+      // 再生が終わった説明を保持し、次の説明は利用者の操作で選ぶ。
+      if(elapsed>=step.duration){playing=false;updateControls();return;}
+      frame=requestAnimationFrame(tick);
     }
     frame=requestAnimationFrame(tick);
   }
@@ -212,11 +209,11 @@ function markNames(scene){
   }
 }
 function selectStep(next,scroll=false){
-  stepIndex=Math.max(0,Math.min(currentSteps().length-1,next));elapsed=0;playing=!reduced.matches;selectedOnly=true;drawMap("nearby");
+  stepIndex=Math.max(0,Math.min(currentSteps().length-1,next));elapsed=0;playing=!reduced.matches;drawMap("nearby");
   if(scroll&&matchMedia("(max-width:740px)").matches)byId("map-heading").scrollIntoView({block:"start",behavior:"instant"});
 }
 function show(scroll=false){
-  const scene=scenes[index];stepIndex=0;elapsed=0;playing=!reduced.matches;selectedOnly=false;
+  const scene=scenes[index];stepIndex=0;elapsed=0;playing=!reduced.matches;
   for(const [id,value] of Object.entries({"scene-number":String(index+1).padStart(2,"0")+" / "+scenes.length,"scene-year":scene.year,"scene-kicker":scene.kicker,"scene-title":scene.title,"scene-takeaway":scene.takeaway,"scene-note":scene.note,"progress-label":(index+1)+" / "+scenes.length}))byId(id).textContent=value;
   byId("scene-body").innerHTML=scene.body.map(text=>"<p>"+text+"</p>").join("");
   byId("map-facts").replaceChildren(...scene.facts.map(text=>{const li=document.createElement("li");li.textContent=text;return li;}));markNames(scene);
@@ -232,13 +229,13 @@ function go(next){next=Math.max(0,Math.min(scenes.length-1,next));if(next===inde
 scenes.forEach((scene,i)=>{const b=document.createElement("button");b.type="button";b.dataset.scene=i;b.textContent=String(i+1).padStart(2,"0");b.setAttribute("aria-label",(i+1)+". "+scene.title.replace("\n",""));b.addEventListener("click",()=>go(i));byId("scene-nav").append(b);});
 byId("previous").addEventListener("click",()=>go(index-1));
 byId("next").addEventListener("click",()=>go(index===scenes.length-1?0:index+1));
-byId("replay").addEventListener("click",()=>{stepIndex=0;elapsed=0;playing=!reduced.matches;selectedOnly=false;drawMap(replayMode,true);});
+byId("replay").addEventListener("click",()=>{stepIndex=0;elapsed=0;playing=!reduced.matches;drawMap(replayMode,true);});
 byId("show-location").addEventListener("click",()=>{replayMode="world";drawMap("world");});
 byId("step-previous").addEventListener("click",()=>selectStep(stepIndex-1));
 byId("step-next").addEventListener("click",()=>selectStep(stepIndex+1));
 byId("step-play").addEventListener("click",()=>{
-  if(pending||reduced.matches)return;playing=!playing;selectedOnly=false;
-  if(playing&&stepIndex===currentSteps().length-1&&elapsed>=currentStep().duration){stepIndex=0;elapsed=0;}drawMap();
+  if(pending||reduced.matches)return;playing=!playing;
+  if(playing&&elapsed>=currentStep().duration)elapsed=0;drawMap();
 });
 document.querySelectorAll("[data-chapter]").forEach(b=>b.addEventListener("click",()=>go(+b.dataset.chapter)));
 document.addEventListener("keydown",event=>{
