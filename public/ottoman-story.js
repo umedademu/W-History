@@ -1,8 +1,10 @@
 import {createMapLayout} from "./map-layout.js?v=0.009";
-import {pages as scenes,chapters,mentionsForPage} from "./ottoman-pages.js?v=0.016";
+import {pages as scenes,chapters} from "./ottoman-pages.js?v=0.017";
 import {entities,positionFor} from "./ottoman-storyboard.js?v=0.014";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
 import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.016";
+
+import {referencesIn} from "./ottoman-names.js?v=0.017";
 
 const byId=id=>document.getElementById(id), map=byId("story-map"),root=byId("map-characters");
 const reduced=matchMedia("(prefers-reduced-motion: reduce)"),clamp=n=>Math.max(0,Math.min(1,n));
@@ -205,17 +207,14 @@ function drawMap(mode="none",restart=false){
   updateControls();orientation.run({scene:{...scene,frame:step.frame??scene.frame},target:camera,mode,restart,stationary:reduced.matches,done:start});
 }
 function markNames(scene){
-  const mentions=mentionsForPage(scene),seen=new Set(),alternatives=mentions.filter(m=>{if(seen.has(m.term))return false;seen.add(m.term);return true;});
-  const escape=s=>s.replace(/[.*+?^\u0024{}()|[\]\\]/g,"\\$&");
-  const pattern=new RegExp(alternatives.map(m=>escape(m.term)).join("|"),"g"),lookup=new Map(alternatives.map(m=>[m.term,m]));
   const walker=document.createTreeWalker(byId("scene-body"),NodeFilter.SHOW_TEXT),nodes=[];
   while(walker.nextNode())nodes.push(walker.currentNode);
   for(const text of nodes){
     const fragment=document.createDocumentFragment();let end=0;
-    for(const match of text.textContent.matchAll(pattern)){
+    for(const match of referencesIn(text.textContent)){
       fragment.append(text.textContent.slice(end,match.index));
-      const name=document.createElement("span");name.className="map-mention";name.dataset.mention=lookup.get(match[0]).id;name.textContent=match[0];
-      fragment.append(name);end=match.index+match[0].length;
+      const name=document.createElement("span");name.className="map-mention";name.dataset.mention=match.id;name.textContent=match.term;
+      fragment.append(name);end=match.index+match.term.length;
     }
     fragment.append(text.textContent.slice(end));text.replaceWith(fragment);
   }
