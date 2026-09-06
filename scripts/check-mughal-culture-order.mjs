@@ -20,6 +20,18 @@ function checkWords(label, scenes, requirements) {
   }
 }
 
+function checkAbsentWords(label, scenes, requirements) {
+  const byId = new Map(scenes.map((scene) => [scene.id, scene]));
+  for (const [id, words] of Object.entries(requirements)) {
+    const scene = byId.get(id);
+    if (!scene) throw new Error(`${label}の必須場面 ${id} がありません。`);
+    const text = [scene.title, ...scene.body, ...scene.facts].join(" ");
+    for (const word of words) {
+      if (text.includes(word)) throw new Error(`${label}/${id} に先の段落の ${word} が入り込んでいます。`);
+    }
+  }
+}
+
 checkOrder("08 ムガル帝国", mughalScenes, [
   "babur-kabul",
   "first-panipat",
@@ -30,8 +42,8 @@ checkOrder("08 ムガル帝国", mughalScenes, [
   "mansabdari-system",
   "jahangir-culture",
   "shah-jahan-deccan",
-  "taj-mahal-creation",
   "red-fort-delhi",
+  "taj-mahal-creation",
   "aurangzeb-accession",
   "deccan-campaign-max",
   "jizya-restoration",
@@ -48,12 +60,23 @@ checkOrder("08 ムガル帝国", mughalScenes, [
 checkWords("08 ムガル帝国", mughalScenes, {
   "akbar-jizya-abolition": ["ジズヤ", "ラージプート"],
   "guru-nanak-sikh": ["カビール", "ナーナク"],
-  "deccan-campaign-max": ["最大"],
-  "jizya-restoration": ["ジズヤ"],
+  "shah-jahan-deccan": ["デカン高原", "インド＝イスラーム文化"],
+  "aurangzeb-accession": ["アグラ城", "8年間"],
+  "deccan-campaign-max": ["デカン高原", "ほぼ全インド", "最大"],
+  "jizya-restoration": ["戦費", "ジズヤ", "ヒンドゥー寺院", "シーア派"],
+  "shivaji-maratha": ["シヴァージー", "マラーター王国"],
+  "sikh-militarization": ["パンジャーブ地方", "シク教徒", "官僚", "土地"],
   "empire-fragmentation": ["ニザーム王国", "アワド王国", "シク王国", "マラーター同盟", "マイソール王国", "ナーディル＝シャー"],
   "company-advance": ["イギリス", "フランス", "プラッシーの戦い", "ベンガル太守"],
   "urdu-language-culture": ["ウルドゥー語", "『バーブル＝ナーマ』", "『アクバル＝ナーマ』", "アブル＝ファズル"],
   "indian-cotton-trade": ["モスリン", "キャラコ", "更紗", "ヨーロッパ"]
+});
+
+checkAbsentWords("08 ムガル帝国", mughalScenes, {
+  "shah-jahan-deccan": ["戦象部隊", "砲兵隊", "莫大な貢納"],
+  "deccan-campaign-max": ["1707年", "死後", "マラーター"],
+  "shivaji-maratha": ["英雄", "幾度も撃破", "武勇"],
+  "sikh-militarization": ["ゴービンド＝シング", "カルサー"]
 });
 
 checkOrder("09 イスラーム文化", cultureScenes, [
