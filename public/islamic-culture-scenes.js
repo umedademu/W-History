@@ -1,4 +1,4 @@
-// 09 イスラーム文化（20場面）
+// 09 イスラーム文化（22場面）
 // 原文との対応・補正事項は docs/content-review.md を参照。
 
 export const places = {
@@ -162,6 +162,13 @@ export const places = {
       -3.59,
       37.18
     ]
+  },
+  "shiraz": {
+    "name": "シーラーズ",
+    "point": [
+      52.58,
+      29.61
+    ]
   }
 };
 
@@ -242,7 +249,7 @@ export const zones = {
   }
 };
 
-export const scenes = [
+const sceneCatalog = [
   {
     "zones": [],
     "pins": [
@@ -1427,3 +1434,206 @@ export const scenes = [
     ]
   }
 ];
+
+const ghazaliScene = {
+  "zones": [],
+  "pins": [
+    "tus",
+    "baghdad"
+  ],
+  "routes": [
+    {
+      "points": [
+        [
+          59.5,
+          36.49
+        ],
+        [
+          51,
+          35
+        ],
+        [
+          44.37,
+          33.32
+        ]
+      ],
+      "kind": "move"
+    }
+  ],
+  "tags": [],
+  "facts": [
+    "神学者：ガザーリー",
+    "学びの場：バグダードのニザーミーヤ学院",
+    "スンナ派神学とスーフィズムを結びつける"
+  ],
+  "actors": [
+    {
+      "name": "ガザーリー",
+      "image": "timur/scholar",
+      "at": "tus",
+      "route": 0,
+      "bubble": "知識と内面の信仰を結ぶ"
+    }
+  ],
+  "props": [],
+  "duration": 3400,
+  "id": "ghazali-theology",
+  "year": "11〜12世紀",
+  "kicker": "神学とスーフィズムの統合",
+  "title": "ガザーリーが、\n信仰の学びを体系化する。",
+  "body": [
+    "イラン出身の神学者<strong>ガザーリー</strong>は、バグダードの<strong>ニザーミーヤ学院</strong>で教え、スンナ派の神学を体系化した。",
+    "形式だけに傾く学問を批判し、神との内面的な結びつきを求める<strong>スーフィズム</strong>をイスラーム法や神学と調和させようとした。"
+  ],
+  "takeaway": "ガザーリーはスンナ派神学をまとめ、スーフィズムを正統な信仰の中に位置づけた。",
+  "note": "スーフィズムは一人が始めたものではありません。ガザーリーは、その思想とスンナ派の学問を結ぶ上で大きな役割を果たしました。",
+  "focus": "トゥースからバグダードへ向かうガザーリー",
+  "mapHeading": "ガザーリーがニザーミーヤ学院で教える",
+  "before": "経典・法・神学の研究が積み重なる",
+  "after": "神学と内面的な信仰の実践が結びつく",
+  "capital": "baghdad",
+  "frame": [
+    40,
+    29,
+    63,
+    40
+  ]
+};
+
+const saadiScene = {
+  "zones": [],
+  "pins": [
+    "baghdad",
+    "shiraz"
+  ],
+  "routes": [
+    {
+      "points": [
+        [
+          44.37,
+          33.32
+        ],
+        [
+          49,
+          31
+        ],
+        [
+          52.58,
+          29.61
+        ]
+      ],
+      "kind": "move"
+    }
+  ],
+  "tags": [],
+  "facts": [
+    "詩人：サーディー",
+    "出身地：シーラーズ",
+    "代表作：『ばら園』"
+  ],
+  "actors": [
+    {
+      "name": "サーディー",
+      "image": "timur/scholar",
+      "at": "baghdad",
+      "route": 0,
+      "bubble": "旅で得た教訓を物語に"
+    }
+  ],
+  "props": [],
+  "duration": 3400,
+  "id": "saadi-gulistan",
+  "year": "13世紀",
+  "kicker": "旅の経験を伝えるペルシア文学",
+  "title": "サーディーが、\n『ばら園』を著す。",
+  "body": [
+    "シーラーズ出身のペルシア詩人<strong>サーディー</strong>は、各地を旅した経験をもとに、人の生き方や社会を見つめた作品を残した。",
+    "代表作<strong>『ばら園』</strong>は、短い物語と詩を組み合わせて教訓を語る。ペルシア語文学は宮廷だけでなく、広い地域の人々に読まれた。"
+  ],
+  "takeaway": "サーディーは旅の経験と教訓を『ばら園』にまとめた。",
+  "note": "地図の移動はサーディーの長い遍歴を一つの経路で再現するものではなく、学びの地バグダードと故郷シーラーズのつながりを示します。",
+  "focus": "バグダードとシーラーズを結ぶサーディーの学び",
+  "mapHeading": "旅の経験が『ばら園』へ結実する",
+  "before": "サーディーが各地を旅して人々の暮らしを見る",
+  "after": "短い物語と詩による教訓文学が広まる",
+  "capital": "shiraz",
+  "frame": [
+    40,
+    26,
+    57,
+    37
+  ]
+};
+
+const revisedScenes = {
+  "shared-knowledge": {
+    "year": "8世紀以降",
+    "kicker": "イスラーム世界の学問の二つの柱",
+    "title": "固有の学問と外来の学問が、\nともに発達する。",
+    "body": [
+      "イスラーム世界の学問は、信仰やアラビア語を土台とする<strong>固有の学問</strong>と、ギリシア・ペルシア・インドなどから受け継いだ<strong>外来の学問</strong>に大きく分けられる。",
+      "広い地域で<strong>アラビア語</strong>が信仰と学問の共通語となり、異なる出自や信仰の人々が知識を共有した。まず固有の学問を見てから、翻訳で発達した外来の学問へ進もう。"
+    ],
+    "facts": [
+      "固有の学問：経典・言語・神学・法学・歴史学",
+      "外来の学問：哲学・医学・数学・天文学・錬金術",
+      "共通語：アラビア語"
+    ],
+    "takeaway": "イスラーム文化の学問は、固有の学問と外来の学問の両方から成り立つ。",
+    "mapHeading": "二つの学問を結ぶアラビア語の文化圏",
+    "before": "各地に異なる知識と言語の伝統がある",
+    "after": "アラビア語を通して二つの系統の学問が発達する"
+  },
+  "faith-and-law": {
+    "body": [
+      "固有の学問は、<strong>コーラン</strong>と預言者の言行を伝える<strong>ハディース</strong>の研究から始まった。経典を正確に読むための<strong>アラビア語文法</strong>や、言葉を磨く<strong>詩</strong>も発達する。",
+      "<strong>神学</strong>は信仰の内容を考え、<strong>法学</strong>は人の行為のあり方を論じた。学者である<strong>ウラマー</strong>が研究と教育を担い、スンナ派では四つの主要な法学派が形成された。"
+    ],
+    "facts": [
+      "出発点：コーランとハディース",
+      "言語：アラビア語文法と詩",
+      "神学・法学：信仰と生活の規範を考える"
+    ],
+    "takeaway": "経典の研究から、アラビア語・神学・法学などの固有の学問が育った。"
+  },
+  "ibn-battuta-travels": {
+    "body": [
+      "モロッコのタンジールを出た<strong>イブン＝バットゥータ</strong>は、メッカ巡礼をきっかけに約30年間の旅を続け、アフリカ・中東・インドなどを訪れた。",
+      "彼は各地で知識を教える<strong>ウラマー</strong>でもあり、インドではトゥグルク朝の宮廷で裁判官を務めた。帰国後に口述した<strong>『三大陸周遊記』</strong>は、人と知識が行き交うイスラーム世界を伝えている。"
+    ],
+    "takeaway": "ウラマーのイブン＝バットゥータは各地を旅し、その見聞を『三大陸周遊記』に残した。"
+  }
+};
+
+const sceneOrder = [
+  "shared-knowledge",
+  "faith-and-law",
+  "tabari-chronicle",
+  "rashid-al-din-history",
+  "ibn-khaldun-muqaddimah",
+  "ghazali-theology",
+  "ibn-battuta-travels",
+  "ibn-sina-canon",
+  "ibn-rushd-philosophy",
+  "razi-medicine",
+  "khwarizmi-math",
+  "astronomy-instruments",
+  "ibn-alhaytham-optics",
+  "chemistry-crafts",
+  "twelfth-century-renaissance",
+  "firdausi-shahnameh",
+  "omar-khayyam-rubaiyat",
+  "saadi-gulistan",
+  "scheherazade-nights",
+  "mosque-architecture",
+  "arabesque-and-heritage",
+  "painting-and-crafts"
+];
+
+const sceneById = new Map([...sceneCatalog, ghazaliScene, saadiScene].map((scene) => [scene.id, scene]));
+
+export const scenes = sceneOrder.map((id, index) => ({
+  ...sceneById.get(id),
+  ...(revisedScenes[id] || {}),
+  chapter: index < 7 ? 0 : index < 15 ? 1 : 2
+}));

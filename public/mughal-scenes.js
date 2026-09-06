@@ -1,4 +1,4 @@
-// 08 ムガル帝国（20場面）
+// 08 ムガル帝国（22場面）
 // 原文との対応・補正事項は docs/content-review.md を参照。
 
 export const places = {
@@ -133,6 +133,13 @@ export const places = {
     "point": [
       88.25,
       23.8
+    ]
+  },
+  "europe": {
+    "name": "ヨーロッパ",
+    "point": [
+      8,
+      48
     ]
   }
 };
@@ -277,7 +284,7 @@ export const zones = {
   }
 };
 
-export const scenes = [
+const sceneCatalog = [
   {
     "frame": [
       66.17,
@@ -1565,3 +1572,249 @@ export const scenes = [
     ]
   }
 ];
+
+const cottonTradeScene = {
+  "zones": [],
+  "pins": [
+    "surat",
+    "europe"
+  ],
+  "routes": [
+    {
+      "points": [
+        [
+          72.83,
+          21.17
+        ],
+        [
+          55,
+          12
+        ],
+        [
+          33,
+          30
+        ],
+        [
+          8,
+          48
+        ]
+      ],
+      "kind": "trade"
+    }
+  ],
+  "tags": [
+    {
+      "text": "インド産綿布",
+      "at": [
+        68,
+        18
+      ]
+    }
+  ],
+  "facts": [
+    "モスリン：薄手の綿織物",
+    "キャラコ・更紗：染色や文様を施した綿布",
+    "17世紀：ヨーロッパ各国がインド洋交易へ進出"
+  ],
+  "actors": [
+    {
+      "name": "インド産綿布を運ぶ商人",
+      "image": "trade-envoy",
+      "at": "surat",
+      "route": 0,
+      "bubble": "人気の綿布を海の向こうへ"
+    }
+  ],
+  "props": [],
+  "duration": 3400,
+  "id": "indian-cotton-trade",
+  "year": "17〜18世紀",
+  "kicker": "インド産綿布とヨーロッパ商人",
+  "title": "綿布を求めて、\nヨーロッパ勢力が進出する。",
+  "body": [
+    "17世紀、ヨーロッパ各国はインドとの海上交易に進出した。とくにインド産の<strong>綿布</strong>は、ヨーロッパで広く好まれた。",
+    "薄手の<strong>モスリン</strong>、白地の<strong>キャラコ</strong>、染色や文様を施した<strong>更紗（さらさ）</strong>などが運ばれた。交易の拡大は、やがてヨーロッパ勢力のインド進出を強める土台になった。"
+  ],
+  "takeaway": "インド産綿布の人気が交易を広げ、ヨーロッパ勢力の進出につながった。",
+  "note": "チンツはインド更紗を指す英語名です。布の名称には地域や時代による使い分けがあります。",
+  "focus": "スーラトからヨーロッパへ向かう綿布交易",
+  "mapHeading": "インド産綿布が海を越える",
+  "before": "インドで多様な綿布が生産される",
+  "after": "ヨーロッパ商人が交易と政治への関与を強める",
+  "frame": [
+    -5,
+    2,
+    82,
+    53
+  ]
+};
+
+const companyAdvanceScene = {
+  ...sceneCatalog.find((scene) => scene.id === "empire-fragmentation"),
+  "id": "company-advance",
+  "year": "18世紀半ば",
+  "kicker": "英仏の争いと東インド会社",
+  "title": "植民地争奪戦を経て、\n会社が政治へ進出する。",
+  "body": [
+    "18世紀半ば以降、<strong>イギリス</strong>と<strong>フランス</strong>はインドで植民地争奪戦を展開した。地方勢力どうしの対立にも、両国の会社が介入する。",
+    "1757年の<strong>プラッシーの戦い</strong>でイギリス東インド会社はベンガル太守を破り、1765年には皇帝からベンガルなどの徴税権を得た。ムガル皇帝はしだいに名目上の存在へ変わった。"
+  ],
+  "takeaway": "英仏の植民地争奪戦を経て、イギリス東インド会社が政治的な支配を強めた。",
+  "note": "1757年の勝利と1765年の徴税権獲得は別の出来事です。この段階でインド全土を支配したわけではありません。",
+  "focus": "ベンガルで強まるイギリス東インド会社の支配",
+  "mapHeading": "植民地争奪戦から会社の政治支配へ",
+  "before": "イギリスとフランスの会社が地方勢力の争いに介入する",
+  "after": "軍事的勝利と徴税権によって支配を広げる"
+};
+
+const revisedScenes = {
+  "empire-fragmentation": {
+    "zones": [],
+    "pins": [
+      "delhi",
+      "panjab",
+      "golconda",
+      "pune"
+    ],
+    "routes": [
+      {
+        "points": [
+          [
+            60,
+            35
+          ],
+          [
+            68,
+            32
+          ],
+          [
+            77.21,
+            28.61
+          ]
+        ],
+        "kind": "campaign"
+      }
+    ],
+    "tags": [
+      {
+        "text": "アワド王国",
+        "at": [
+          81,
+          27
+        ]
+      },
+      {
+        "text": "ニザーム王国",
+        "at": [
+          78.4,
+          17.4
+        ]
+      },
+      {
+        "text": "シク王国",
+        "at": [
+          74.5,
+          31.5
+        ]
+      },
+      {
+        "text": "マラーター同盟",
+        "at": [
+          73.8,
+          19.5
+        ]
+      },
+      {
+        "text": "マイソール王国",
+        "at": [
+          76.6,
+          12.3
+        ]
+      }
+    ],
+    "facts": [
+      "各地：地方政権や有力勢力が自立",
+      "1739年：ナーディル＝シャーがデリーを占領"
+    ],
+    "actors": [
+      {
+        "name": "ナーディル＝シャー",
+        "image": "timur/timur-march",
+        "at": [
+          60,
+          35
+        ],
+        "route": 0,
+        "bubble": "デリーへ進軍する"
+      }
+    ],
+    "props": [],
+    "duration": 3400,
+    "year": "18世紀前半",
+    "kicker": "地方勢力の自立と帝国の分裂",
+    "title": "帝国が分裂し、\n各地に政権が並び立つ。",
+    "body": [
+      "帝国の統制が弱まると、<strong>ニザーム王国（ハイダラーバード）</strong>、<strong>アワド王国</strong>、<strong>シク王国</strong>、<strong>マラーター同盟</strong>、<strong>マイソール王国</strong>など、地方政権や有力勢力が各地で自立した。",
+      "1739年にはイランのアフシャール朝を率いる<strong>ナーディル＝シャー</strong>がデリーを占領して略奪した。ムガル皇帝の権威はさらに低下し、インドは複数の勢力が競う状態へ進んだ。"
+    ],
+    "takeaway": "地方政権の自立と外敵の侵入により、ムガル帝国の分裂が進んだ。",
+    "note": "地方勢力は一斉に同じ形で独立したわけではありません。地図は18世紀の分裂の大勢をまとめて示しています。",
+    "focus": "デリーの権威低下と各地の地方政権",
+    "mapHeading": "ムガル帝国が各地の勢力へ分かれる",
+    "before": "アウラングゼーブ死後に中央の統制が弱まる",
+    "after": "地方政権が自立し、デリーも外敵の侵入を受ける",
+    "capital": "delhi",
+    "frame": [
+      58,
+      8,
+      88,
+      38
+    ]
+  },
+  "urdu-language-culture": {
+    "body": [
+      "宮廷の公用語には<strong>ペルシア語</strong>が使われた。一方、町や軍営では多様な言葉を話す人々が接触し、北インドの言語を基盤に<strong>ウルドゥー語</strong>が発達した。",
+      "ウルドゥー語はペルシア語・アラビア語などの語彙を取り入れ、ペルシア語を経たアラビア文字系の文字で表す。言語にも、インドとイスラーム文化の長い交流が刻まれた。",
+      "文学では、バーブル自身がトルコ語（チャガタイ語）で回顧録<strong>『バーブル＝ナーマ』</strong>を残した。アクバル時代の宮廷史<strong>『アクバル＝ナーマ』</strong>は、歴史家<strong>アブル＝ファズル</strong>がペルシア語で著した別の作品である。"
+    ],
+    "facts": [
+      "公用語：ペルシア語",
+      "ウルドゥー語：北インドの言語を基盤に発達",
+      "『バーブル＝ナーマ』と『アクバル＝ナーマ』は別の著作"
+    ],
+    "takeaway": "ペルシア語と現地語の交流からウルドゥー語が育ち、宮廷では歴史書も編まれた。"
+  }
+};
+
+const sceneOrder = [
+  "babur-kabul",
+  "first-panipat",
+  "humayun-exile",
+  "akbar-coronation",
+  "akbar-jizya-abolition",
+  "guru-nanak-sikh",
+  "mansabdari-system",
+  "jahangir-culture",
+  "shah-jahan-deccan",
+  "taj-mahal-creation",
+  "red-fort-delhi",
+  "aurangzeb-accession",
+  "deccan-campaign-max",
+  "jizya-restoration",
+  "shivaji-maratha",
+  "sikh-militarization",
+  "empire-fragmentation",
+  "company-advance",
+  "mughal-painting",
+  "urdu-language-culture",
+  "indian-cotton-trade",
+  "mughal-end"
+];
+
+const sceneById = new Map([...sceneCatalog, companyAdvanceScene, cottonTradeScene].map((scene) => [scene.id, scene]));
+
+export const scenes = sceneOrder.map((id, index) => ({
+  ...sceneById.get(id),
+  ...(revisedScenes[id] || {}),
+  chapter: index < 7 ? 0 : index < 18 ? 1 : 2
+}));
