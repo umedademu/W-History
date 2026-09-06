@@ -87,7 +87,7 @@ export function createOrientation({ map, svg, onPending }) {
     mini.dataset.bounds = bounds.map(v => v.toFixed(4)).join(",");
   }
 
-  function run({ scene, target, mode, stationary = false, done }) {
+  function run({ scene, target, mode, restart = false, stationary = false, done }) {
     cancel();
     const width = map.clientWidth, height = map.clientHeight, place = locationFor(scene);
     document.getElementById("location-name").textContent = place.label;
@@ -96,7 +96,7 @@ export function createOrientation({ map, svg, onPending }) {
     if (mode === "none" || stationary && mode === "nearby") { locate(target, width, height); done(); return; }
     const wide = fitCamera([-178, -58, 178, 82], width, height);
     const regional = fitCamera([-18, -5, 82, 65], width, height);
-    const start = mode === "world" ? wide : current ?? regional;
+    const start = mode === "world" ? wide : restart ? regional : current ?? regional;
     const stops = mode === "world"
       ? [[0, wide], [550, wide], [1500, regional], [1900, regional], [3200, target]]
       : mode === "region" ? [[0, start], [650, regional], [1100, regional], [2400, target]]

@@ -1,12 +1,12 @@
 import { places, zones, scenes } from "./ottoman-scenes.js?v=0.002";
-import { project, worldMap, createOrientation, transitionFor } from "./ottoman-orientation.js?v=0.007";
+import { project, worldMap, createOrientation, transitionFor } from "./ottoman-orientation.js?v=0.008";
 
 const NS = "http://www.w3.org/2000/svg";
 const clamp = (n, a = 0, b = 1) => Math.max(a, Math.min(b, n));
 const byId = id => document.getElementById(id);
 const map = byId("story-map"), reduced = matchMedia("(prefers-reduced-motion: reduce)");
 const colors = { campaign: "#b5573f", rival: "#5c7886", move: "#54866b", trade: "#b0882f" };
-let index = 0, stop = () => {}, lastSize = "", displayedScene = null;
+let index = 0, stop = () => {}, lastSize = "", displayedScene = null, replayMode = "none";
 const orientation = createOrientation({ map, svg, onPending: pending => {
   byId("narrative").classList.toggle("is-orienting", pending);
   byId("narrative").setAttribute("aria-busy", String(pending));
@@ -34,7 +34,7 @@ function geometry(scene, width, height) {
 
 const resolveImg = key => key.includes("/") ? `/images/${key}.png` : `/images/ottoman/${key}.png`;
 
-function drawMap(scene, mode = "none") {
+function drawMap(scene, mode = "none", restart = false) {
   stop();
   orientation.cancel();
   const width = map.clientWidth, height = map.clientHeight;
@@ -214,7 +214,7 @@ function drawMap(scene, mode = "none") {
     };
     frame = requestAnimationFrame(tick);
   };
-  orientation.run({ scene, target: camera, mode, stationary: reduced.matches, done: startStory });
+  orientation.run({ scene, target: camera, mode, restart, stationary: reduced.matches, done: startStory });
 }
 
 function show(scroll = false) {
@@ -246,6 +246,7 @@ function show(scroll = false) {
     else b.removeAttribute("aria-current");
   });
   const mode = transitionFor(scene, displayedScene);
+  replayMode = mode === "nearby" ? "none" : mode;
   displayedScene = scene;
   drawMap(scene, mode);
   if (scroll && matchMedia("(max-width: 740px)").matches) {
@@ -273,8 +274,9 @@ scenes.forEach((scene, i) => {
 
 byId("previous").addEventListener("click", () => go(index - 1));
 byId("next").addEventListener("click", () => go(index === scenes.length - 1 ? 0 : index + 1));
-byId("replay").addEventListener("click", () => drawMap(scenes[index]));
+byId("replay").addEventListener("click", () => drawMap(scenes[index], replayMode, true));
 byId("show-location").addEventListener("click", () => {
+  replayMode = "world";
   if (matchMedia("(max-width: 740px)").matches) byId("map-heading").scrollIntoView({ block: "start", behavior: "instant" });
   drawMap(scenes[index], "world");
 });
