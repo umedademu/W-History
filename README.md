@@ -1,6 +1,6 @@
 # W-History
 
-地図と物語で世界史の流れを学ぶ、クリックで進む紙芝居教材です。現在の版は **v0.028** です。
+地図と物語で世界史の流れを学ぶ、クリックで進む紙芝居教材です。現在の版は **v0.029** です。
 
 公開先：**https://w-history-one.vercel.app**
 
@@ -9,7 +9,7 @@
 | 番号 | 教材 | 場面数 | ページ |
 | ---: | --- | ---: | --- |
 | 01 | イスラーム教の成立と正統カリフ | 27 | `/islam-origin-story.html` |
-| 02 | ウマイヤ朝とアッバース朝 | 17 | `/umayyad-abbasid-story.html` |
+| 02 | ウマイヤ朝とアッバース朝 | 27 | `/umayyad-abbasid-story.html` |
 | 03 | 分裂と地方政権の興亡 | 27 | `/regional-dynasties-story.html` |
 | 04 | ティムールの遠征 | 13 | `/timur-story.html` |
 | 05 | ティムールの、その後 | 16 | `/timur-after-story.html` |

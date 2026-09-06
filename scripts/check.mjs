@@ -17,6 +17,7 @@ import "./check-ottoman-storyboard.mjs";
 import "./check-ottoman-pages.mjs";
 import "./check-mughal-culture-order.mjs";
 import "./check-islam-origin-source.mjs";
+import "./check-umayyad-abbasid-source.mjs";
 
 const root=fileURLToPath(new URL("../",import.meta.url)),publicRoot=path.join(root,"public");
 async function files(dir){return(await Promise.all((await fs.readdir(dir,{withFileTypes:true})).map(e=>e.isDirectory()?files(path.join(dir,e.name)):[path.join(dir,e.name)]))).flat();}
@@ -33,7 +34,7 @@ for(const file of publicFiles.filter(f=>/\.(html|js|css)$/.test(f))){
 const htmlFiles=publicFiles.filter(file=>file.endsWith(".html"));
 for(const file of htmlFiles){
   const html=await fs.readFile(file,"utf8");
-  if(!html.includes('/theme.js?v=0.028')||!html.includes('/theme.css?v=0.028'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
+  if(!html.includes('/theme.js?v=0.029')||!html.includes('/theme.css?v=0.029'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
 }
 const themeScript=await fs.readFile(path.join(publicRoot,"theme.js"),"utf8");
 const themeStyle=await fs.readFile(path.join(publicRoot,"theme.css"),"utf8");
