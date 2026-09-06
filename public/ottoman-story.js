@@ -1,10 +1,10 @@
 import {createMapLayout} from "./map-layout.js?v=0.009";
-import {pages as scenes,chapters} from "./ottoman-pages.js?v=0.017";
-import {entities,positionFor} from "./ottoman-storyboard.js?v=0.014";
+import {pages as scenes,chapters} from "./ottoman-pages.js?v=0.018";
+import {entities,positionFor} from "./ottoman-storyboard.js?v=0.018";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
 import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.016";
 
-import {referencesIn} from "./ottoman-names.js?v=0.017";
+import {referencesIn} from "./ottoman-names.js?v=0.018";
 
 const byId=id=>document.getElementById(id), map=byId("story-map"),root=byId("map-characters");
 const reduced=matchMedia("(prefers-reduced-motion: reduce)"),clamp=n=>Math.max(0,Math.min(1,n));
@@ -75,7 +75,7 @@ function drawMap(mode="none",restart=false){
   map.replaceChildren(svg("title",{id:"map-title"},step.title),svg("desc",{id:"map-description"},step.text??step.caption),
     svg("image",{href:worldMap.url,x,y,width:worldMap.width*scale,height:worldMap.height*scale}));
   root.replaceChildren();root.dataset.scene=scene.id;root.dataset.part=partIndex;root.dataset.phase="loading";
-  byId("map-heading").textContent=step.title;byId("map-focus").textContent=step.ids.map(id=>entities[id].name).join(" ／ ");
+  byId("map-heading").textContent=step.title;byId("map-focus").textContent=step.ids.map(id=>step.labels?.[id]??entities[id].name).join(" ／ ");
   // 世界地図では省略される金角湾と海峡を、位置関係の模式図として描く。
   if(step.detail){
     map.append(svg("rect",{width,height,fill:"#e5dfc9"}));

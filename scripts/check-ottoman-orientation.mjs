@@ -33,4 +33,4 @@ assert.equal(transitionFor(scene("cairo"), scene("chaldiran")), "region");
 assert.equal(transitionFor(scene("chaldiran"), scene("cairo")), "region");
 assert.equal(transitionFor(scene("vienna1"), scene("suleiman")), "region");
 assert.equal(transitionFor(scene("lepanto"), scene("capitulation")), "region");
-console.log("オスマン編の地図の向き・表示範囲・参照資料20場面と57ページの位置案内・移動の切り替えを確認しました。");
+console.log(`オスマン編の地図の向き・表示範囲・参照資料20場面と${pages.length}ページの位置案内・移動の切り替えを確認しました。`);

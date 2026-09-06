@@ -9,6 +9,11 @@ const state = (name, at, aliases = []) => ({ ...geo(name, at, aliases), kind: "s
 const anatolia = [[26,39],[27,41],[33,42],[39,41],[43,39],[42,37],[36,36],[29,36]];
 const balkans = [[19,40],[20,45],[26,45],[29,41],[25,38],[21,37]];
 export const entities = {
+  cape: geo("喜望峰", [18.5,-34.4]),
+  charlesBrother: symbol("カール5世の弟", [12,47], "person"),
+  charlesSister: symbol("カール5世の妹", [12,43.5], "person"),
+  lajosSister: symbol("ラヨシュ2世の姉", [22,47], "person"),
+  hungarianRoyal: state("ハンガリー王家", [22,50]),
   hejaz: geo("ヒジャーズ", [39,24], [], [[36.5,28],[39,28],[41.5,22],[41,20],[38.5,20],[37.5,24]]),
   thrace: geo("トラキア地方", [26,41.5], ["トラキア"], [[24,40.5],[26,42.5],[28,42],[29,41],[26,40]]),
   albania: geo("アルバニア", [20,41]), germany: geo("ドイツ地域", [10,50], ["ドイツ"]),
