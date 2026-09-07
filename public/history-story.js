@@ -221,7 +221,7 @@ function show(scroll = false) {
   });
   drawMap(scene);
   if (scroll && matchMedia("(max-width: 740px)").matches) {
-    document.querySelector(".chapter-nav").scrollIntoView({ block: "start", behavior: "instant" });
+    document.querySelector(".story-stage").scrollIntoView({ block: "start", behavior: "instant" });
   }
 }
 

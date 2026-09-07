@@ -154,7 +154,7 @@ function show(scroll=false){
   document.querySelectorAll("button[data-scene]").forEach(b=>{if(Number(b.dataset.scene)===index)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");});
   document.querySelectorAll("[data-chapter]").forEach(b=>{if(scenes[Number(b.dataset.chapter)].chapter===scene.chapter)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");});
   drawMap(scene);
-  if(scroll&&matchMedia("(max-width: 740px)").matches)document.querySelector(".chapter-nav").scrollIntoView({block:"start",behavior:"instant"});
+  if(scroll&&matchMedia("(max-width: 740px)").matches)document.querySelector(".story-stage").scrollIntoView({block:"start",behavior:"instant"});
 }
 function go(next){next=clamp(next,0,scenes.length-1);if(next===index)return;index=next;show(true);}
 scenes.forEach((scene,i)=>{const b=document.createElement("button");b.type="button";b.dataset.scene=i;b.textContent=String(i+1).padStart(2,"0");b.setAttribute("aria-label",`${i+1}. ${scene.title.replace("\n","")}`);b.title=b.getAttribute("aria-label");b.addEventListener("click",()=>go(i));byId("scene-nav").append(b);});

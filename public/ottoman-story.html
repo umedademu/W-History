@@ -6,16 +6,16 @@
   <meta name="description" content="オスマン帝国の建国、バルカン進出、コンスタンティノープル征服、スレイマン1世の全盛期からチューリップ時代まで。地図と矢印でたどる42ページの紙芝居。" />
   <title>オスマン帝国｜地図でたどる世界史</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="/timur-story.css?v=0.031" />
+  <link rel="stylesheet" href="/timur-story.css?v=0.032" />
   <link rel="stylesheet" href="/ottoman-story.css?v=0.031" />
   <link rel="preload" href="/ottoman-world-map.svg?v=0.007" as="image" />
-  <script src="/ottoman-story.js?v=0.031" type="module"></script>
-<script src="/theme.js?v=0.031"></script><link rel="stylesheet" href="/theme.css?v=0.031"/></head>
+  <script src="/ottoman-story.js?v=0.032" type="module"></script>
+<script src="/theme.js?v=0.032"></script><link rel="stylesheet" href="/theme.css?v=0.032"/></head>
 <body class="ottoman-story">
   <header class="story-header">
     <a href="/" class="home-link">← 教材一覧へ</a>
     <span class="series-name">地図でたどる世界史 <span class="experiment">07</span></span>
-    <span class="version">v0.031</span>
+    <span class="version">v0.032</span>
   </header>
   <main class="story-shell">
     <div class="introduction">
@@ -35,12 +35,13 @@
     </div>
     <section class="story-stage" aria-label="地図と物語">
       <div class="map-panel">
-        <div class="map-heading">
+        <div class="map-heading" hidden>
           <p id="map-heading">アナトリア北西部に注目</p>
-          <button type="button" id="replay" class="replay-button" aria-label="この場面の地図の拡大と人物の動きをもう一度見る">↻ 動きをもう一度</button>
+
         </div>
-        <p id="map-focus" class="map-focus"></p>
+        <p id="map-focus" class="map-focus" hidden></p>
         <div class="map-viewport">
+          <button type="button" id="replay" class="map-replay-surface" aria-label="この場面の地図の拡大と人物の動きをもう一度見る"></button>
           <svg id="story-map" viewBox="0 0 800 680" role="img" aria-labelledby="map-title map-description">
             <title id="map-title">オスマン帝国の地図</title>
             <desc id="map-description">アナトリア、バルカン、地中海、中東地域と都市の位置を示します。</desc>
@@ -70,7 +71,7 @@
             <p>枠：いま表示している範囲</p>
           </figure>
         </div>
-        <div class="map-legend" aria-label="地図の凡例">
+        <div class="map-legend" aria-label="地図の凡例" hidden>
           <span><i class="legend-capital"></i>都</span>
           <span><i class="legend-region"></i>注目地域</span>
           <span><i class="legend-route"></i>進軍</span>
@@ -78,7 +79,7 @@
           <span><i class="legend-move"></i>移動</span>
           <span><i class="legend-trade"></i>交易・要請・制度上の関係</span>
         </div>
-        <p class="map-caption">印が位置の基準です。人物・建物は細い線で位置に結びます。範囲や矢印は概略、共通の人物・制度の絵は役割を示す記号です。</p>
+        <p class="map-caption" hidden>印が位置の基準です。人物・建物は細い線で位置に結びます。範囲や矢印は概略、共通の人物・制度の絵は役割を示す記号です。</p>
       </div>
       <article id="narrative" class="narrative" aria-live="polite" aria-atomic="true">
         <div id="orientation-note" class="orientation-note" hidden>
