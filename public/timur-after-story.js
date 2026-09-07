@@ -160,7 +160,7 @@ function show({scroll=false}={}) {
     if(scenes[Number(button.dataset.chapter)].chapter===scene.chapter)button.setAttribute("aria-current","step");else button.removeAttribute("aria-current");
   });
   renderMap(scene);
-  if(scroll&&small.matches)document.querySelector(".story-stage").scrollIntoView({block:"start",behavior:"instant"});
+  if(scroll)document.querySelector(".story-stage").scrollIntoView({block:"start",behavior:"instant"});
 }
 function go(next){next=clamp(next,0,scenes.length-1);if(next===index)return;index=next;show({scroll:true});}
 scenes.forEach((scene,i)=>{

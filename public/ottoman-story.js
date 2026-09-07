@@ -228,7 +228,7 @@ function show(scroll=false){
   byId("story-progress").max=scenes.length;byId("story-progress").value=index+1;
   document.querySelectorAll("button[data-scene]").forEach(b=>{if(+b.dataset.scene===index)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");});
   const mode=transitionFor(scene,displayedScene);replayMode=mode==="nearby"?"none":mode;displayedScene=scene;drawMap(mode);
-  if(scroll)byId("page-controls").scrollIntoView({block:"start",behavior:"instant"});
+  if(scroll)document.querySelector(".story-stage").scrollIntoView({block:"start",behavior:"instant"});
 }
 
 function go(next){next=Math.max(0,Math.min(scenes.length-1,next));if(next===index)return;index=next;show(true);}

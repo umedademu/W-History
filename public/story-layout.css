@@ -1,0 +1,24 @@
+body .story-shell .story-stage { grid-template-columns:minmax(0,1fr); }
+body .story-shell .map-panel { border-right:0; border-bottom:1px solid var(--line); }
+body .story-shell #story-map { height:clamp(440px,60svh,760px); }
+body .story-shell .narrative { padding:20px 28px; }
+body .story-shell .scene-body { max-width:960px; }
+body .story-shell .scene-body p:last-child { margin-bottom:0; }
+body .story-shell { padding-bottom:110px; }
+body .story-shell .story-controls {
+  position:fixed; bottom:0; left:50%; transform:translateX(-50%);
+  width:calc(100% - 80px); max-width:1200px; z-index:110;
+  padding:12px 0 calc(12px + env(safe-area-inset-bottom));
+  border-top:1px solid var(--line); background:#f4f0e8;
+}
+html[data-theme="dark"] body .story-shell .story-controls { background:#151a19; }
+@media(max-width:740px) {
+  body .story-shell #story-map { height:clamp(320px,55svh,520px); }
+  body .story-shell .narrative { padding:18px 16px; }
+  body .story-shell .story-controls { width:calc(100% - 32px); }
+}
+
+body .scene-body strong, body .scene-body .map-mention {
+  font-weight:700; text-decoration:none !important;
+  border-bottom:0 !important; background:none !important; box-shadow:none !important;
+}

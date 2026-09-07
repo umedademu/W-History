@@ -330,7 +330,7 @@ function renderScene({ moveToStage = false } = {}) {
   elements.narrative.classList.remove("scene-enter");
   void elements.narrative.offsetWidth;
   elements.narrative.classList.add("scene-enter");
-  if (moveToStage && mobile.matches) document.querySelector(".story-stage").scrollIntoView({ block: "start", behavior: "instant" });
+  if (moveToStage) document.querySelector(".story-stage").scrollIntoView({ block: "start", behavior: "instant" });
 }
 
 function goTo(index) {
