@@ -1,0 +1,30 @@
+{
+  "source": "sources/05_islamic_culture.md の『5 イスラーム文化』",
+  "excludedBoundary": "『年号のツボ』は政治史の復習欄として09章の場面外",
+  "sceneOrder": [
+    "two-kinds-of-learning", "quran-hadith-law", "tabari-chronicle", "ibn-khaldun-history", "ghazali-theology", "ibn-battuta-ulama",
+    "foreign-learning", "ibn-sina", "ibn-rushd", "khwarizmi",
+    "firdausi", "omar-khayyam", "saadi", "thousand-nights", "dome-of-rock", "alhambra", "three-empires", "mosque-features", "hagia-qutb"
+  ],
+  "checks": [
+    {"scene":"two-kinds-of-learning","terms":["イスラーム世界","ギリシア","インド","アラビア語"]},
+    {"scene":"quran-hadith-law","terms":["コーラン","ムハンマド","ハディース","マドラサ","ウラマー","スンナ派"]},
+    {"scene":"tabari-chronicle","terms":["アッバース朝","タバリー","預言者たちと諸王の歴史"]},
+    {"scene":"ibn-khaldun-history","terms":["マムルーク朝","イブン＝ハルドゥーン","世界史序説"]},
+    {"scene":"ghazali-theology","terms":["セルジューク朝","ガザーリー","ニザーミーヤ学院","スンナ派","スーフィズム"]},
+    {"scene":"ibn-battuta-ulama","terms":["イブン＝バットゥータ","メッカ","インド","ウラマー","大旅行記","三大陸周遊記"]},
+    {"scene":"foreign-learning","terms":["ギリシア","インド","アリストテレス"]},
+    {"scene":"ibn-sina","terms":["サーマーン朝","イブン＝シーナー","アヴィケンナ","医学典範","アリストテレス","ヨーロッパ"]},
+    {"scene":"ibn-rushd","terms":["ムワッヒド朝","コルドバ","イブン＝ルシュド","アヴェロエス","アリストテレス","ヨーロッパ","スコラ学"]},
+    {"scene":"khwarizmi","terms":["インド","ゼロ","インド数字","アラビア数字","十進法","アッバース朝","フワーリズミー","代数学"]},
+    {"scene":"firdausi","terms":["ガズナ朝","イラン","フィルドゥシー","シャー＝ナーメ","王の書","ササン朝"]},
+    {"scene":"omar-khayyam","terms":["セルジューク朝","ウマル＝ハイヤーム","ルバイヤート","四行詩集","刹那主義"]},
+    {"scene":"saadi","terms":["イラン","サーディー","ばら園"]},
+    {"scene":"thousand-nights","terms":["ペルシア","千夜一夜物語","アラビアン＝ナイト","カイロ","アッバース朝","ハールーン＝アッラシード"]},
+    {"scene":"dome-of-rock","terms":["ウマイヤ朝","イェルサレム","ムハンマド","岩のドーム","ユダヤ教","キリスト教","イスラーム教"]},
+    {"scene":"alhambra","terms":["イベリア半島","ナスル朝","グラナダ","アルハンブラ宮殿","赤い城","アラベスク"]},
+    {"scene":"three-empires","terms":["オスマン帝国","スレイマン1世","イスタンブル","スレイマン＝モスク","サファヴィー朝","アッバース1世","イスファハーン","イマームのモスク","王のモスク","ムガル帝国","シャー＝ジャハーン","アグラ","タージ＝マハル"]},
+    {"scene":"mosque-features","terms":["モスク","メッカ","ミフラーブ","アラベスク","ドーム","ミナレット"]},
+    {"scene":"hagia-qutb","terms":["キリスト教","オスマン朝","コンスタンティノープル","ハギア＝ソフィア聖堂","4本","奴隷王朝","アイバク","デリー","クトゥブ＝ミナール","ペルシア語","ミナレット"]}
+  ]
+}
