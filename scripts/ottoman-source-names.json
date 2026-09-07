@@ -1,992 +1,138 @@
 [
-  {
-    "scene": "founding",
-    "term": "アナトリア",
-    "entity": "anatolia",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "founding",
-    "term": "小アジア",
-    "entity": "anatolia",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "founding",
-    "term": "セルジューク朝",
-    "entity": "seljuk",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "founding",
-    "term": "ルーム＝セルジューク朝",
-    "entity": "rum",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "founding",
-    "term": "モンゴル",
-    "entity": "mongols",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "founding",
-    "term": "ガーズィー",
-    "entity": "ghazis",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "founding",
-    "term": "ベイリク",
-    "entity": "beyliks",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "founding",
-    "term": "オスマン1世",
-    "entity": "osman",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "founding",
-    "term": "オスマン朝",
-    "entity": "ottoman",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "bursa",
-    "term": "オルハン",
-    "entity": "orhan",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "bursa",
-    "term": "ブルサ",
-    "entity": "bursa",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "bursa",
-    "term": "ビザンツ帝国",
-    "entity": "byzantine",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "bursa",
-    "term": "ギリシア正教徒",
-    "entity": "orthodox",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "bursa",
-    "term": "キリスト教徒",
-    "entity": "christian",
-    "source": "写真337頁・書き起こし1-1"
-  },
-  {
-    "scene": "edirne",
-    "term": "ムラト1世",
-    "entity": "murad",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "edirne",
-    "term": "トラキア",
-    "entity": "thrace",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "edirne",
-    "term": "アドリアノープル",
-    "entity": "edirne",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "edirne",
-    "term": "エディルネ",
-    "entity": "edirne",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "edirne",
-    "term": "バルカン半島",
-    "entity": "balkans",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "edirne",
-    "term": "ブルガリア",
-    "entity": "bulgaria",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "edirne",
-    "term": "セルビア",
-    "entity": "serbia",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "kosovo",
-    "term": "コソヴォの戦い",
-    "entity": "kosovo",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "kosovo",
-    "term": "ボスニア",
-    "entity": "bosnia",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "kosovo",
-    "term": "スラヴ",
-    "entity": "slavs",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "kosovo",
-    "term": "ウラマー",
-    "entity": "jurists",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "kosovo",
-    "term": "イェニチェリ",
-    "entity": "janissaries",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "kosovo",
-    "term": "デヴシルメ制",
-    "entity": "devshirme",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "kosovo",
-    "term": "マムルーク",
-    "entity": "mamlukSoldiers",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "nicopolis",
-    "term": "バヤジット1世",
-    "entity": "bayezid",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "nicopolis",
-    "term": "イルディリム",
-    "entity": "bayezid",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "nicopolis",
-    "term": "ニコポリスの戦い",
-    "entity": "nicopolis",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "nicopolis",
-    "term": "ハンガリー",
-    "entity": "hungary",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "nicopolis",
-    "term": "ジギスムント",
-    "entity": "sigismund",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "nicopolis",
-    "term": "イングランド",
-    "entity": "england",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "nicopolis",
-    "term": "イギリス",
-    "entity": "england",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "nicopolis",
-    "term": "フランス",
-    "entity": "france",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "nicopolis",
-    "term": "ドイツ",
-    "entity": "germany",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "nicopolis",
-    "term": "アッバース朝",
-    "entity": "abbasid",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "nicopolis",
-    "term": "カイロ",
-    "entity": "cairo",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "ankara",
-    "term": "アンカラの戦い",
-    "entity": "ankara",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "ankara",
-    "term": "ティムール",
-    "entity": "timur",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "ankara",
-    "term": "中央アジア",
-    "entity": "centralAsia",
-    "source": "写真338〜339頁・書き起こし1-2"
-  },
-  {
-    "scene": "recovery",
-    "term": "メフメト1世",
-    "entity": "mehmed1",
-    "source": "写真339頁"
-  },
-  {
-    "scene": "recovery",
-    "term": "ムラト2世",
-    "entity": "murad2",
-    "source": "写真339頁"
-  },
-  {
-    "scene": "conquest",
-    "term": "メフメト2世",
-    "entity": "mehmed",
-    "source": "写真338・340頁・書き起こし1-3"
-  },
-  {
-    "scene": "conquest",
-    "term": "ファティフ",
-    "entity": "mehmed",
-    "source": "写真338・340頁・書き起こし1-3"
-  },
-  {
-    "scene": "conquest",
-    "term": "コンスタンティノープル",
-    "entity": "constantinople",
-    "source": "写真338・340頁・書き起こし1-3"
-  },
-  {
-    "scene": "conquest",
-    "term": "テオドシウス",
-    "entity": "walls",
-    "source": "写真338・340頁・書き起こし1-3"
-  },
-  {
-    "scene": "conquest",
-    "term": "金角湾",
-    "entity": "goldenHorn",
-    "source": "写真338・340頁・書き起こし1-3"
-  },
-  {
-    "scene": "conquest",
-    "term": "ウルバン",
-    "entity": "urban",
-    "source": "写真338・340頁・書き起こし1-3"
-  },
-  {
-    "scene": "conquest",
-    "term": "ギリシアの火",
-    "entity": "greekFire",
-    "source": "写真338・340頁・書き起こし1-3"
-  },
-  {
-    "scene": "istanbul",
-    "term": "東ローマ帝国",
-    "entity": "byzantine",
-    "source": "写真340頁・書き起こし1-3"
-  },
-  {
-    "scene": "istanbul",
-    "term": "イスタンブル",
-    "entity": "istanbul",
-    "source": "写真340頁・書き起こし1-3"
-  },
-  {
-    "scene": "istanbul",
-    "term": "ハギア＝ソフィア",
-    "entity": "hagia",
-    "source": "写真340頁・書き起こし1-3"
-  },
-  {
-    "scene": "istanbul",
-    "term": "トプカプ宮殿",
-    "entity": "topkapi",
-    "source": "写真340頁・書き起こし1-3"
-  },
-  {
-    "scene": "istanbul",
-    "term": "マドラサ",
-    "entity": "madrasa",
-    "source": "写真340頁・書き起こし1-3"
-  },
-  {
-    "scene": "istanbul",
-    "term": "スーク",
-    "entity": "suq",
-    "source": "写真340頁・書き起こし1-3"
-  },
-  {
-    "scene": "millet",
-    "term": "アルバニア",
-    "entity": "albania",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "ギリシア",
-    "entity": "greece",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "クリム＝ハン国",
-    "entity": "crimea",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "クリミア＝ハン国",
-    "entity": "crimea",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "ミッレト制",
-    "entity": "millet",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "ギリシア正教徒",
-    "entity": "orthodox",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "アルメニア教徒",
-    "entity": "armenianChurch",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "アルメニア教会徒",
-    "entity": "armenianChurch",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "ユダヤ教徒",
-    "entity": "jewish",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "ジンミー",
-    "entity": "dhimmi",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "啓典の民",
-    "entity": "dhimmi",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "ジズヤ",
-    "entity": "jizya",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "総主教",
-    "entity": "patriarch",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "首席ラビ",
-    "entity": "rabbi",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "スペイン",
-    "entity": "spain",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "ギリシア人",
-    "entity": "greek",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "millet",
-    "term": "アルメニア人",
-    "entity": "armenian",
-    "source": "写真340頁・書き起こし1-3・3-2"
-  },
-  {
-    "scene": "chaldiran",
-    "term": "セリム1世",
-    "entity": "selim",
-    "source": "写真338・340〜341頁・書き起こし1-3"
-  },
-  {
-    "scene": "chaldiran",
-    "term": "ヤヴズ",
-    "entity": "selim",
-    "source": "写真338・340〜341頁・書き起こし1-3"
-  },
-  {
-    "scene": "chaldiran",
-    "term": "チャルディラーンの戦い",
-    "entity": "chaldiran",
-    "source": "写真338・340〜341頁・書き起こし1-3"
-  },
-  {
-    "scene": "chaldiran",
-    "term": "サファヴィー朝",
-    "entity": "safavid",
-    "source": "写真338・340〜341頁・書き起こし1-3"
-  },
-  {
-    "scene": "chaldiran",
-    "term": "イスマーイール1世",
-    "entity": "ismail",
-    "source": "写真338・340〜341頁・書き起こし1-3"
-  },
-  {
-    "scene": "chaldiran",
-    "term": "シーア派",
-    "entity": "safavid",
-    "source": "写真338・340〜341頁・書き起こし1-3"
-  },
-  {
-    "scene": "chaldiran",
-    "term": "キジルバシュ",
-    "entity": "qizilbash",
-    "source": "写真338・340〜341頁・書き起こし1-3"
-  },
-  {
-    "scene": "chaldiran",
-    "term": "東アナトリア",
-    "entity": "eastAnatolia",
-    "source": "写真338・340〜341頁・書き起こし1-3"
-  },
-  {
-    "scene": "chaldiran",
-    "term": "アゼルバイジャン",
-    "entity": "azerbaijan",
-    "source": "写真338・340〜341頁・書き起こし1-3"
-  },
-  {
-    "scene": "chaldiran",
-    "term": "タブリーズ",
-    "entity": "tabriz",
-    "source": "写真338・340〜341頁・書き起こし1-3"
-  },
-  {
-    "scene": "chaldiran",
-    "term": "トルコ共和国",
-    "entity": "turkey",
-    "source": "写真338・340〜341頁・書き起こし1-3"
-  },
-  {
-    "scene": "chaldiran",
-    "term": "カーディー",
-    "entity": "qadi",
-    "source": "写真338・340〜341頁・書き起こし1-3"
-  },
-  {
-    "scene": "cairo",
-    "term": "シリア",
-    "entity": "syria",
-    "source": "写真341頁・書き起こし1-3"
-  },
-  {
-    "scene": "cairo",
-    "term": "エジプト",
-    "entity": "egypt",
-    "source": "写真341頁・書き起こし1-3"
-  },
-  {
-    "scene": "cairo",
-    "term": "マムルーク朝",
-    "entity": "mamluk",
-    "source": "写真341頁・書き起こし1-3"
-  },
-  {
-    "scene": "cairo",
-    "term": "ヒジャーズ",
-    "entity": "hejaz",
-    "source": "写真341頁・書き起こし1-3"
-  },
-  {
-    "scene": "cairo",
-    "term": "紅海",
-    "entity": "redSea",
-    "source": "写真341頁・書き起こし1-3"
-  },
-  {
-    "scene": "cairo",
-    "term": "アラビア半島",
-    "entity": "arabia",
-    "source": "写真341頁・書き起こし1-3"
-  },
-  {
-    "scene": "cairo",
-    "term": "メッカ",
-    "entity": "mecca",
-    "source": "写真341頁・書き起こし1-3"
-  },
-  {
-    "scene": "cairo",
-    "term": "メディナ",
-    "entity": "medina",
-    "source": "写真341頁・書き起こし1-3"
-  },
-  {
-    "scene": "cairo",
-    "term": "スンナ派",
-    "entity": "sunni",
-    "source": "写真341頁・書き起こし1-3"
-  },
-  {
-    "scene": "cairo",
-    "term": "スルタン＝カリフ制",
-    "entity": "caliph",
-    "source": "写真341頁・書き起こし1-3"
-  },
-  {
-    "scene": "cairo",
-    "term": "アッバース家",
-    "entity": "abbasid",
-    "source": "写真341頁・書き起こし1-3"
-  },
-  {
-    "scene": "suleiman",
-    "term": "スレイマン1世",
-    "entity": "suleiman",
-    "source": "写真338・341〜342頁・書き起こし2"
-  },
-  {
-    "scene": "suleiman",
-    "term": "カヌーニー",
-    "entity": "suleiman",
-    "source": "写真338・341〜342頁・書き起こし2"
-  },
-  {
-    "scene": "suleiman",
-    "term": "壮麗帝",
-    "entity": "suleiman",
-    "source": "写真338・341〜342頁・書き起こし2"
-  },
-  {
-    "scene": "suleiman",
-    "term": "紅海",
-    "entity": "redSea",
-    "source": "写真338・341〜342頁・書き起こし2"
-  },
-  {
-    "scene": "suleiman",
-    "term": "黒海",
-    "entity": "blackSea",
-    "source": "写真338・341〜342頁・書き起こし2"
-  },
-  {
-    "scene": "suleiman",
-    "term": "東地中海",
-    "entity": "eastMediterranean",
-    "source": "写真338・341〜342頁・書き起こし2"
-  },
-  {
-    "scene": "suleiman",
-    "term": "バグダード",
-    "entity": "baghdad",
-    "source": "写真338・341〜342頁・書き起こし2"
-  },
-  {
-    "scene": "suleiman",
-    "term": "イラク",
-    "entity": "iraq",
-    "source": "写真338・341〜342頁・書き起こし2"
-  },
-  {
-    "scene": "suleiman",
-    "term": "ペルシア湾",
-    "entity": "gulf",
-    "source": "写真338・341〜342頁・書き起こし2"
-  },
-  {
-    "scene": "suleiman",
-    "term": "ポルトガル",
-    "entity": "portugal",
-    "source": "写真338・341〜342頁・書き起こし2"
-  },
-  {
-    "scene": "suleiman",
-    "term": "インド洋",
-    "entity": "indianOcean",
-    "source": "写真338・341〜342頁・書き起こし2"
-  },
-  {
-    "scene": "suleiman",
-    "term": "ロードス島",
-    "entity": "rhodes",
-    "source": "写真338・341〜342頁・書き起こし2"
-  },
-  {
-    "scene": "suleiman",
-    "term": "ヨハネ騎士団",
-    "entity": "knights",
-    "source": "写真338・341〜342頁・書き起こし2"
-  },
-  {
-    "scene": "vienna1",
-    "term": "中央ヨーロッパ",
-    "entity": "centralEurope",
-    "source": "写真341〜342頁・書き起こし2-1"
-  },
-  {
-    "scene": "vienna1",
-    "term": "ハプスブルク家",
-    "entity": "habsburg",
-    "source": "写真341〜342頁・書き起こし2-1"
-  },
-  {
-    "scene": "vienna1",
-    "term": "神聖ローマ皇帝",
-    "entity": "habsburg",
-    "source": "写真341〜342頁・書き起こし2-1"
-  },
-  {
-    "scene": "vienna1",
-    "term": "カール5世",
-    "entity": "charles",
-    "source": "写真341〜342頁・書き起こし2-1"
-  },
-  {
-    "scene": "vienna1",
-    "term": "カルロス1世",
-    "entity": "charles",
-    "source": "写真341〜342頁・書き起こし2-1"
-  },
-  {
-    "scene": "vienna1",
-    "term": "フランソワ1世",
-    "entity": "francis",
-    "source": "写真341〜342頁・書き起こし2-1"
-  },
-  {
-    "scene": "vienna1",
-    "term": "モハーチの戦い",
-    "entity": "mohacs",
-    "source": "写真341〜342頁・書き起こし2-1"
-  },
-  {
-    "scene": "vienna1",
-    "term": "ラヨシュ2世",
-    "entity": "lajos",
-    "source": "写真341〜342頁・書き起こし2-1"
-  },
-  {
-    "scene": "vienna1",
-    "term": "ウィーン",
-    "entity": "vienna",
-    "source": "写真341〜342頁・書き起こし2-1"
-  },
-  {
-    "scene": "vienna1",
-    "term": "ドナウ川",
-    "entity": "danube",
-    "source": "写真341〜342頁・書き起こし2-1"
-  },
-  {
-    "scene": "preveza",
-    "term": "北アフリカ",
-    "entity": "northAfrica",
-    "source": "写真338・342頁・書き起こし2-1"
-  },
-  {
-    "scene": "preveza",
-    "term": "アルジェリア",
-    "entity": "algeria",
-    "source": "写真338・342頁・書き起こし2-1"
-  },
-  {
-    "scene": "preveza",
-    "term": "バイバロス",
-    "entity": "barbaros",
-    "source": "写真338・342頁・書き起こし2-1"
-  },
-  {
-    "scene": "preveza",
-    "term": "バルバロス＝ハイレッディン",
-    "entity": "barbaros",
-    "source": "写真338・342頁・書き起こし2-1"
-  },
-  {
-    "scene": "preveza",
-    "term": "プレヴェザの海戦",
-    "entity": "preveza",
-    "source": "写真338・342頁・書き起こし2-1"
-  },
-  {
-    "scene": "preveza",
-    "term": "アンドレア＝ドリア",
-    "entity": "doria",
-    "source": "写真338・342頁・書き起こし2-1"
-  },
-  {
-    "scene": "preveza",
-    "term": "ヴェネツィア",
-    "entity": "venice",
-    "source": "写真338・342頁・書き起こし2-1"
-  },
-  {
-    "scene": "preveza",
-    "term": "ローマ教皇",
-    "entity": "rome",
-    "source": "写真338・342頁・書き起こし2-1"
-  },
-  {
-    "scene": "preveza",
-    "term": "地中海",
-    "entity": "mediterranean",
-    "source": "写真338・342頁・書き起こし2-1"
-  },
-  {
-    "scene": "preveza",
-    "term": "クレタ島",
-    "entity": "crete",
-    "source": "写真338・342頁・書き起こし2-1"
-  },
-  {
-    "scene": "preveza",
-    "term": "マルタ島",
-    "entity": "malta",
-    "source": "写真338・342頁・書き起こし2-1"
-  },
-  {
-    "scene": "preveza",
-    "term": "チュニジア",
-    "entity": "tunisia",
-    "source": "写真338・342頁・書き起こし2-1"
-  },
-  {
-    "scene": "preveza",
-    "term": "トリポリ",
-    "entity": "tripoli",
-    "source": "写真338・342頁・書き起こし2-1"
-  },
-  {
-    "scene": "capitulation",
-    "term": "カピチュレーション",
-    "entity": "capitulation",
-    "source": "写真342頁・書き起こし2-1"
-  },
-  {
-    "scene": "capitulation",
-    "term": "オランダ",
-    "entity": "netherlands",
-    "source": "写真342頁・書き起こし2-1"
-  },
-  {
-    "scene": "capitulation",
-    "term": "シャリーア",
-    "entity": "sharia",
-    "source": "写真342頁・書き起こし2-1"
-  },
-  {
-    "scene": "capitulation",
-    "term": "カーヌーン",
-    "entity": "kanun",
-    "source": "写真342頁・書き起こし2-1"
-  },
-  {
-    "scene": "capitulation",
-    "term": "シナン",
-    "entity": "sinan",
-    "source": "写真342頁・書き起こし2-1"
-  },
-  {
-    "scene": "capitulation",
-    "term": "スイナン",
-    "entity": "sinan",
-    "source": "写真342頁・書き起こし2-1"
-  },
-  {
-    "scene": "capitulation",
-    "term": "ミマール＝シナン",
-    "entity": "sinan",
-    "source": "写真342頁・書き起こし2-1"
-  },
-  {
-    "scene": "capitulation",
-    "term": "スレイマン＝モスク",
-    "entity": "suleymaniye",
-    "source": "写真342頁・書き起こし2-1"
-  },
-  {
-    "scene": "capitulation",
-    "term": "スレイマニエ＝モスク",
-    "entity": "suleymaniye",
-    "source": "写真342頁・書き起こし2-1"
-  },
-  {
-    "scene": "lepanto",
-    "term": "セリム2世",
-    "entity": "selim2",
-    "source": "写真342頁・書き起こし4-1"
-  },
-  {
-    "scene": "lepanto",
-    "term": "キプロス島",
-    "entity": "cyprus",
-    "source": "写真342頁・書き起こし4-1"
-  },
-  {
-    "scene": "lepanto",
-    "term": "フェリペ2世",
-    "entity": "philip",
-    "source": "写真342頁・書き起こし4-1"
-  },
-  {
-    "scene": "lepanto",
-    "term": "ドン＝フアン",
-    "entity": "donJuan",
-    "source": "写真342頁・書き起こし4-1"
-  },
-  {
-    "scene": "lepanto",
-    "term": "レパントの海戦",
-    "entity": "lepanto",
-    "source": "写真342頁・書き起こし4-1"
-  },
-  {
-    "scene": "crisis",
-    "term": "ティマール制",
-    "entity": "timar",
-    "source": "写真340・342〜343頁・書き起こし3-1"
-  },
-  {
-    "scene": "crisis",
-    "term": "スィパーヒー",
-    "entity": "sipahi",
-    "source": "写真340・342〜343頁・書き起こし3-1"
-  },
-  {
-    "scene": "crisis",
-    "term": "シパーヒー",
-    "entity": "sipahi",
-    "source": "写真340・342〜343頁・書き起こし3-1"
-  },
-  {
-    "scene": "crisis",
-    "term": "イクター制",
-    "entity": "iqta",
-    "source": "写真340・342〜343頁・書き起こし3-1"
-  },
-  {
-    "scene": "crisis",
-    "term": "イルティザーム",
-    "entity": "iltizam",
-    "source": "写真340・342〜343頁・書き起こし3-1"
-  },
-  {
-    "scene": "crisis",
-    "term": "アーヤーン",
-    "entity": "ayan",
-    "source": "写真340・342〜343頁・書き起こし3-1"
-  },
-  {
-    "scene": "karlowitz",
-    "term": "ポーランド",
-    "entity": "poland",
-    "source": "写真338・343頁・書き起こし4-1"
-  },
-  {
-    "scene": "karlowitz",
-    "term": "ヤン3世ソビエスキ",
-    "entity": "sobieski",
-    "source": "写真338・343頁・書き起こし4-1"
-  },
-  {
-    "scene": "karlowitz",
-    "term": "オーストリア",
-    "entity": "austria",
-    "source": "写真338・343頁・書き起こし4-1"
-  },
-  {
-    "scene": "karlowitz",
-    "term": "ロシア",
-    "entity": "russia",
-    "source": "写真338・343頁・書き起こし4-1"
-  },
-  {
-    "scene": "karlowitz",
-    "term": "大トルコ戦争",
-    "entity": "greatWar",
-    "source": "写真338・343頁・書き起こし4-1"
-  },
-  {
-    "scene": "karlowitz",
-    "term": "カルロヴィッツ条約",
-    "entity": "treaty",
-    "source": "写真338・343頁・書き起こし4-1"
-  },
-  {
-    "scene": "karlowitz",
-    "term": "トランシルヴァニア",
-    "entity": "transylvania",
-    "source": "写真338・343頁・書き起こし4-1"
-  },
-  {
-    "scene": "karlowitz",
-    "term": "ポドリア",
-    "entity": "podolia",
-    "source": "写真338・343頁・書き起こし4-1"
-  },
-  {
-    "scene": "tulip",
-    "term": "アフメト3世",
-    "entity": "ahmed",
-    "source": "写真338・343頁"
-  },
-  {
-    "scene": "tulip",
-    "term": "チューリップ時代",
-    "entity": "tulip",
-    "source": "写真338・343頁"
-  },
-  {
-    "scene": "tulip",
-    "term": "トプカプ宮殿",
-    "entity": "topkapi",
-    "source": "写真338・343頁"
-  },
-  {
-    "scene": "tulip",
-    "term": "産業革命",
-    "entity": "industry",
-    "source": "写真338・343頁"
-  }
+  {"source":"p.337 建国","sourceKey":"founding:0","term":"トルコ人戦士","entity":"ghazis"},
+  {"source":"p.337 建国","sourceKey":"founding:0","term":"アナトリア（小アジア）","entity":"anatolia"},
+  {"source":"p.337 建国","sourceKey":"founding:0","term":"セルジューク朝","entity":"seljuk"},
+  {"source":"p.337 建国","sourceKey":"founding:0","term":"ルーム＝セルジューク朝","entity":"rum"},
+  {"source":"p.337 建国","sourceKey":"founding:1","term":"モンゴル","entity":"mongols"},
+  {"source":"p.337 建国","sourceKey":"founding:2","term":"ベイリク","entity":"beyliks"},
+  {"source":"p.337 建国","sourceKey":"founding:3","term":"オスマン1世","entity":"osman"},
+  {"source":"p.337 建国","sourceKey":"founding:3","term":"アナトリア西北部","entity":"northwest"},
+  {"source":"p.337 建国","sourceKey":"founding:3","term":"オスマン朝","entity":"ottoman"},
+  {"source":"p.337 オルハン","sourceKey":"bursa:0","term":"オルハン","entity":"orhan"},
+  {"source":"p.337 オルハン","sourceKey":"bursa:0","term":"ビザンツ帝国","entity":"byzantine"},
+  {"source":"p.337 オルハン","sourceKey":"bursa:0","term":"ブルサ","entity":"bursa"},
+  {"source":"p.337 オルハン","sourceKey":"bursa:2","term":"キリスト教徒","entity":"christian"},
+  {"source":"p.339 バルカン進出","sourceKey":"edirne:0","term":"ムラト1世","entity":"murad"},
+  {"source":"p.339 バルカン進出","sourceKey":"edirne:0","term":"コンスタンティノープル","entity":"constantinople"},
+  {"source":"p.339 バルカン進出","sourceKey":"edirne:0","term":"バルカン半島","entity":"balkans"},
+  {"source":"p.339 バルカン進出","sourceKey":"edirne:1","term":"アドリアノープル","entity":"edirne"},
+  {"source":"p.339 バルカン進出","sourceKey":"edirne:1","term":"エディルネ","entity":"edirne"},
+  {"source":"p.339 バルカン進出","sourceKey":"edirne:2","term":"セルビア","entity":"serbia"},
+  {"source":"p.339 バルカン進出","sourceKey":"edirne:2","term":"ブルガリア","entity":"bulgaria"},
+  {"source":"p.339 コソヴォ","sourceKey":"kosovo:1","term":"ボスニア","entity":"bosnia"},
+  {"source":"p.339 コソヴォ","sourceKey":"kosovo:1","term":"スラヴ連合軍","entity":"slavs"},
+  {"source":"p.339 コソヴォ","sourceKey":"kosovo:1","term":"コソヴォの戦い","entity":"kosovo"},
+  {"source":"p.339 統治","sourceKey":"kosovo:government","term":"イスラーム法学者（ウラマー）","entity":"jurists"},
+  {"source":"p.339 統治","sourceKey":"kosovo:government","term":"宰相","entity":"officials"},
+  {"source":"p.339 軍制","sourceKey":"kosovo:0","term":"マムルーク","entity":"mamlukSoldiers"},
+  {"source":"p.339 軍制","sourceKey":"kosovo:0","term":"イェニチェリ","entity":"janissaries"},
+  {"source":"p.339 軍制","sourceKey":"kosovo:3","term":"デヴシルメ","entity":"devshirme"},
+  {"source":"p.339 軍制","sourceKey":"kosovo:3","term":"キリスト教徒の少年","entity":"boys"},
+  {"source":"p.339 軍制","sourceKey":"kosovo:4","term":"官僚","entity":"officials"},
+  {"source":"p.339 バヤジット","sourceKey":"nicopolis:1","term":"バヤジット1世","entity":"bayezid"},
+  {"source":"p.339 ニコポリス","sourceKey":"nicopolis:0","term":"イングランド（イギリス）","entity":"england"},
+  {"source":"p.339 ニコポリス","sourceKey":"nicopolis:0","term":"フランス","entity":"france"},
+  {"source":"p.339 ニコポリス","sourceKey":"nicopolis:0","term":"ドイツ","entity":"germany"},
+  {"source":"p.339 ニコポリス","sourceKey":"nicopolis:0","term":"ハンガリー王ジギスムント","entity":"sigismund"},
+  {"source":"p.339 ニコポリス","sourceKey":"nicopolis:0","term":"ヨーロッパ連合十字軍","entity":"crusaders"},
+  {"source":"p.339 ニコポリス","sourceKey":"nicopolis:2","term":"ドナウ川","entity":"danube"},
+  {"source":"p.339 ニコポリス","sourceKey":"nicopolis:2","term":"ニコポリス","entity":"nicopolis"},
+  {"source":"p.339 アンカラ","sourceKey":"ankara:0","term":"ティムール","entity":"timur"},
+  {"source":"p.339 アンカラ","sourceKey":"ankara:0","term":"旧君侯","entity":"nobles"},
+  {"source":"p.339 アンカラ","sourceKey":"ankara:1","term":"アンカラの戦い","entity":"ankara"},
+  {"source":"p.340 征服","sourceKey":"conquest:0","term":"メフメト2世","entity":"mehmed"},
+  {"source":"p.340 征服","sourceKey":"conquest:0","term":"オスマン軍","entity":"ottomanArmy"},
+  {"source":"p.340 征服","sourceKey":"crisis:0","term":"ティマール制","entity":"timar"},
+  {"source":"p.340 征服","sourceKey":"crisis:0","term":"イクター制","entity":"iqta"},
+  {"source":"p.340 征服","sourceKey":"crisis:0","term":"シパーヒー","entity":"sipahi"},
+  {"source":"p.340 寄り耳","sourceKey":"conquest:4","term":"ギリシアの火","entity":"greekFire"},
+  {"source":"p.340 寄り耳","sourceKey":"conquest:2","term":"金角湾","entity":"goldenHorn"},
+  {"source":"p.340 寄り耳","sourceKey":"conquest:2","term":"鉄の鎖","entity":"chain"},
+  {"source":"p.340 寄り耳","sourceKey":"conquest:2","term":"テオドシウスの二重城壁","entity":"walls"},
+  {"source":"p.340 寄り耳","sourceKey":"conquest:1","term":"ウルバン","entity":"urban"},
+  {"source":"p.340 寄り耳","sourceKey":"conquest:1","term":"巨大大砲","entity":"cannon"},
+  {"source":"p.340 寄り耳","sourceKey":"conquest:3","term":"72隻","entity":"ships"},
+  {"source":"p.340 遷都","sourceKey":"istanbul:0","term":"イスタンブル","entity":"istanbul"},
+  {"source":"p.340 都市整備","sourceKey":"istanbul:2","term":"ローマ帝国","entity":"byzantine"},
+  {"source":"p.340 都市整備","sourceKey":"istanbul:2","term":"ローマ皇帝","entity":"mehmed"},
+  {"source":"p.340 都市整備","sourceKey":"istanbul:2","term":"トプカプ宮殿","entity":"topkapi"},
+  {"source":"p.340 都市整備","sourceKey":"istanbul:1","term":"ハギア＝ソフィア","entity":"hagia"},
+  {"source":"p.340 都市整備","sourceKey":"istanbul:3","term":"マドラサ","entity":"madrasa"},
+  {"source":"p.340 都市整備","sourceKey":"istanbul:3","term":"スーク","entity":"suq"},
+  {"source":"p.340 征服継続","sourceKey":"millet:0","term":"ギリシア","entity":"greece"},
+  {"source":"p.340 征服継続","sourceKey":"millet:0","term":"アルバニア","entity":"albania"},
+  {"source":"p.340 征服継続","sourceKey":"millet:1","term":"黒海北岸","entity":"blackSea"},
+  {"source":"p.340 征服継続","sourceKey":"millet:1","term":"クリミア＝ハン国","entity":"crimea"},
+  {"source":"p.340 征服継続","sourceKey":"millet:1","term":"クリム＝ハン国","entity":"crimea"},
+  {"source":"p.340 宗教共同体","sourceKey":"millet:5","term":"ミッレト","entity":"millet"},
+  {"source":"p.340 宗教共同体","sourceKey":"millet:6","term":"ユダヤ教徒","entity":"jewish"},
+  {"source":"p.340 宗教共同体","sourceKey":"millet:6","term":"ギリシア正教徒","entity":"orthodox"},
+  {"source":"p.340 宗教共同体","sourceKey":"millet:6","term":"アルメニア教徒","entity":"armenianChurch"},
+  {"source":"p.340 商人","sourceKey":"millet:4","term":"ユダヤ商人","entity":"jewish"},
+  {"source":"p.340 商人","sourceKey":"millet:4","term":"アルメニア商人","entity":"armenian"},
+  {"source":"p.340〜341 セリム1世","sourceKey":"chaldiran:0","term":"イラン","entity":"iran"},
+  {"source":"p.340〜341 セリム1世","sourceKey":"chaldiran:0","term":"サファヴィー朝","entity":"safavid"},
+  {"source":"p.340〜341 セリム1世","sourceKey":"chaldiran:0","term":"トルコ系騎馬軍団","entity":"qizilbash"},
+  {"source":"p.340〜341 セリム1世","sourceKey":"chaldiran:0","term":"セリム1世","entity":"selim"},
+  {"source":"p.341 チャルディラーン","sourceKey":"chaldiran:1","term":"チャルディラーンの戦い","entity":"chaldiran"},
+  {"source":"p.341 統治","sourceKey":"chaldiran:2","term":"カーディー","entity":"qadi"},
+  {"source":"p.341 統治","sourceKey":"chaldiran:4","term":"トルコ共和国","entity":"turkey"},
+  {"source":"p.341 南方征服","sourceKey":"cairo:0","term":"シリア","entity":"syria"},
+  {"source":"p.341 南方征服","sourceKey":"cairo:0","term":"エジプト","entity":"egypt"},
+  {"source":"p.341 南方征服","sourceKey":"cairo:0","term":"カイロ","entity":"cairo"},
+  {"source":"p.341 南方征服","sourceKey":"cairo:1","term":"マムルーク朝","entity":"mamluk"},
+  {"source":"p.341 聖都","sourceKey":"cairo:2","term":"ヒジャーズ","entity":"hejaz"},
+  {"source":"p.341 聖都","sourceKey":"cairo:2","term":"アラビア半島","entity":"arabia"},
+  {"source":"p.341 聖都","sourceKey":"cairo:2","term":"紅海","entity":"redSea"},
+  {"source":"p.341 聖都","sourceKey":"cairo:2","term":"メッカ","entity":"mecca"},
+  {"source":"p.341 聖都","sourceKey":"cairo:2","term":"メディナ","entity":"medina"},
+  {"source":"p.341 聖都","sourceKey":"cairo:3","term":"スンナ派","entity":"sunni"},
+  {"source":"p.341 後世の主張","sourceKey":"cairo:4","term":"スルタン＝カリフ制","entity":"caliph"},
+  {"source":"p.341 後世の主張","sourceKey":"cairo:4","term":"アッバース家","entity":"abbasid"},
+  {"source":"p.342 全盛期","sourceKey":"suleiman:0","term":"スレイマン1世","entity":"suleiman"},
+  {"source":"p.342 全盛期","sourceKey":"suleiman:0","term":"東地中海","entity":"eastMediterranean"},
+  {"source":"p.342 東方遠征","sourceKey":"suleiman:1","term":"タブリーズ","entity":"tabriz"},
+  {"source":"p.342 東方遠征","sourceKey":"suleiman:1","term":"バグダード","entity":"baghdad"},
+  {"source":"p.342 東方遠征","sourceKey":"suleiman:1","term":"イラク","entity":"iraq"},
+  {"source":"p.341〜342 国際関係","sourceKey":"vienna1:0","term":"ハプスブルク家","entity":"habsburg"},
+  {"source":"p.341〜342 国際関係","sourceKey":"vienna1:0","term":"神聖ローマ皇帝","entity":"habsburg"},
+  {"source":"p.341〜342 国際関係","sourceKey":"vienna1:0","term":"カール5世","entity":"charles"},
+  {"source":"p.341〜342 国際関係","sourceKey":"vienna1:0","term":"カルロス1世","entity":"charles"},
+  {"source":"p.341〜342 国際関係","sourceKey":"vienna1:1","term":"フランソワ1世","entity":"francis"},
+  {"source":"p.342 中央ヨーロッパ","sourceKey":"vienna1:2","term":"モハーチの戦い","entity":"mohacs"},
+  {"source":"p.342 中央ヨーロッパ","sourceKey":"vienna1:2","term":"ラヨシュ2世","entity":"lajos"},
+  {"source":"p.342 中央ヨーロッパ","sourceKey":"vienna1:3","term":"第1次ウィーン包囲","entity":"vienna"},
+  {"source":"p.342 海軍","sourceKey":"preveza:0","term":"アルジェリア","entity":"algeria"},
+  {"source":"p.342 海軍","sourceKey":"preveza:0","term":"バイバロス","entity":"barbaros"},
+  {"source":"p.342 海軍","sourceKey":"preveza:1","term":"スペイン","entity":"spain"},
+  {"source":"p.342 海軍","sourceKey":"preveza:1","term":"ヴェネツィア","entity":"venice"},
+  {"source":"p.342 海軍","sourceKey":"preveza:1","term":"ローマ教皇","entity":"rome"},
+  {"source":"p.342 海軍","sourceKey":"preveza:1","term":"プレヴェザ","entity":"preveza"},
+  {"source":"p.342 海軍","sourceKey":"preveza:3","term":"オスマン海軍","entity":"ottomanFleet"},
+  {"source":"p.342 海軍","sourceKey":"preveza:4","term":"クレタ島","entity":"crete"},
+  {"source":"p.342 海軍","sourceKey":"preveza:4","term":"マルタ島","entity":"malta"},
+  {"source":"p.342 海軍","sourceKey":"preveza:4","term":"地中海","entity":"mediterranean"},
+  {"source":"p.342 インド洋","sourceKey":"suleiman:5","term":"ポルトガル","entity":"portugal"},
+  {"source":"p.342 インド洋","sourceKey":"suleiman:5","term":"インド洋","entity":"indianOcean"},
+  {"source":"p.342 インド洋","sourceKey":"suleiman:5","term":"ペルシア湾","entity":"gulf"},
+  {"source":"p.342 通商特権","sourceKey":"capitulation:0","term":"カピチュレーション","entity":"capitulation"},
+  {"source":"p.342 通商特権","sourceKey":"capitulation:1","term":"オランダ","entity":"netherlands"},
+  {"source":"p.342 内政","sourceKey":"capitulation:2","term":"シャリーア","entity":"sharia"},
+  {"source":"p.342 内政","sourceKey":"capitulation:2","term":"カーヌーン","entity":"kanun"},
+  {"source":"p.342 文化","sourceKey":"capitulation:3","term":"シナン","entity":"sinan"},
+  {"source":"p.342 文化","sourceKey":"capitulation:3","term":"スィナン","entity":"sinan"},
+  {"source":"p.342 文化","sourceKey":"capitulation:3","term":"スレイマン＝モスク","entity":"suleymaniye"},
+  {"source":"p.342 衰退の予兆","sourceKey":"lepanto:0","term":"セリム2世","entity":"selim2"},
+  {"source":"p.342 衰退の予兆","sourceKey":"lepanto:1","term":"フェリペ2世","entity":"philip"},
+  {"source":"p.342 衰退の予兆","sourceKey":"lepanto:4","term":"レパントの海戦","entity":"lepanto"},
+  {"source":"p.342 制度変化","sourceKey":"crisis:3","term":"徴税請負制","entity":"iltizam"},
+  {"source":"p.342〜343 後退","sourceKey":"karlowitz:0","term":"第2次ウィーン包囲","entity":"vienna"},
+  {"source":"p.342〜343 後退","sourceKey":"karlowitz:1","term":"オーストリア","entity":"austria"},
+  {"source":"p.342〜343 後退","sourceKey":"karlowitz:1","term":"ポーランド軍","entity":"poland"},
+  {"source":"p.342〜343 後退","sourceKey":"karlowitz:2","term":"カルロヴィッツ条約","entity":"treaty"},
+  {"source":"p.342〜343 後退","sourceKey":"karlowitz:2","term":"ハンガリー","entity":"hungary"},
+  {"source":"p.343 チューリップ時代","sourceKey":"tulip:0","term":"アフメト3世","entity":"ahmed"},
+  {"source":"p.343 チューリップ時代","sourceKey":"tulip:0","term":"チューリップ時代","entity":"tulip"},
+  {"source":"p.343 結び","sourceKey":"tulip:3","term":"イギリス","entity":"england"},
+  {"source":"p.343 結び","sourceKey":"tulip:3","term":"産業革命","entity":"industry"}
 ]

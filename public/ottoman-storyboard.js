@@ -85,7 +85,7 @@ export const entities = {
   boys: { ...symbol("キリスト教徒の少年", [23,42], "child"), image: "devshirme-boy" }, janissaries: { ...symbol("イェニチェリ", "edirne", "army"), image: "janissary-soldier" },
   devshirme: { ...symbol("デヴシルメ制", "edirne", "scroll"), image: "devshirme-registry" }, officials: { ...symbol("官僚・将軍・大宰相", "edirne", "person", ["官僚","将軍","宰相","大宰相"]), image: "grand-vizier" },
   sipahi: { ...symbol("スィパーヒー", "bursa", "cavalry", ["シパーヒー"]), image:"sipahi-cavalry" },
-  qizilbash: { ...symbol("キジルバシュ騎兵", "tabriz", "cavalry", ["キジルバシュ"]), image: "qizilbash-cavalry" }, qadi: { ...symbol("裁判官カーディー", [40,39], "scroll", ["カーディー"]), image: "qadi-judge" },
+  qizilbash: { ...symbol("トルコ系騎馬軍団", "tabriz", "cavalry", ["キジルバシュ騎兵","キジルバシュ"]), image: "qizilbash-cavalry" }, qadi: { ...symbol("裁判官カーディー", [40,39], "scroll", ["カーディー"]), image: "qadi-judge" },
   safavid: state("サファヴィー朝（シーア派）", "tabriz", ["サファヴィー朝","シーア派"]), mamluk: state("マムルーク朝", "cairo"),
   crimea: state("クリミア＝ハン国", "crimea", ["クリミア","クリム＝ハン国"]), abbasid: { ...symbol("カイロのアッバース家", "cairo", "person", ["アッバース家","アッバース朝"]), image: "abbasid-caliph" },
   sunni: { ...symbol("スンナ派の聖都保護", "mecca", "scroll", ["スンナ派"]), image: "holy-cities-key" }, caliph: { ...symbol("スルタン＝カリフ制の主張", "istanbul", "scroll", ["スルタン＝カリフ制","カリフ位"]), image: "caliphate-symbol" },
