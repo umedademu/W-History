@@ -1,4 +1,4 @@
-import { createMapLayout } from "./map-layout.js?v=0.042";
+import { createMapLayout } from "./map-layout.js?v=0.043";
 import { locations, zones, scenes } from "./timur-after-scenes.js?v=0.031";
 
 const NS = "http://www.w3.org/2000/svg";

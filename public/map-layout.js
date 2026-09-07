@@ -1,3 +1,5 @@
+import { fitMapSprite } from "./map-sprites.js?v=0.043";
+
 const NS = "http://www.w3.org/2000/svg";
 const gap = 6;
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
@@ -38,6 +40,13 @@ export function createMapLayout({ map, root, items }) {
   };
   const fixed = [...map.parentElement.querySelectorAll(".north-mark,.map-action-status,.map-relation,.map-ancestor,.city-plan")].map(localRect);
   const area = { left: 10, right: width - 10, top: 10, bottom: height - 60 };
+  // 地図の拡大率が異なる章でも、文字は画面上で同じ大きさに保つ。
+  for (const text of map.querySelectorAll('text:not(.city-plan text):not(.orientation-layer text)')) {
+    const matrix = text.getScreenCTM();
+    const scale = Math.hypot(matrix.a, matrix.b);
+    const pixels = Number.parseFloat(getComputedStyle(text).getPropertyValue('--map-label-size')) || 13;
+    text.style.fontSize = `${pixels / scale}px`;
+  }
   // 画面内へ出ているラベルだけを配置する。遠くの地名を呼び寄せない。
   const labels = [...map.querySelectorAll("text")].filter(node => !node.closest(".city-plan,.orientation-layer")).flatMap(node => {
     const b = localRect(node);
@@ -75,6 +84,7 @@ export function createMapLayout({ map, root, items }) {
     const { figure, bubble, node, item } = entry;
     const wasHidden = node.hidden, text = bubble.textContent;
     node.hidden = false;
+    fitMapSprite(figure.querySelector('img'));
     bubble.textContent = entry.reserveSpeech ?? item.bubble ?? text;
     figure.style.marginLeft = "0px";
     const name = figure.querySelector("[class$='-name']");

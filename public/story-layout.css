@@ -50,3 +50,32 @@ body .story-shell .scene-body strong.key-term,
 body .story-shell .scene-body strong.key-term .map-mention { color:#805514 !important; }
 html[data-theme="dark"] body .story-shell .scene-body strong.key-term,
 html[data-theme="dark"] body .story-shell .scene-body strong.key-term .map-mention { color:#ead28a !important; }
+
+/* 地図文字は画面上の大きさで読み、ドット絵の縮小処理と分離する。 */
+body .story-shell #story-map text:not(.city-plan text):not(.orientation-layer text) {
+  font-family:"Meiryo","Hiragino Kaku Gothic ProN",sans-serif;
+  font-size:var(--map-label-size,13px); font-weight:var(--map-label-weight,700); letter-spacing:0;
+  stroke-width:1.5px; vector-effect:non-scaling-stroke; paint-order:stroke fill; stroke-linejoin:round;
+}
+body .story-shell #story-map :is(.history-water,.safavid-water,.ottoman-water,.sea-label) {
+  --map-label-size:12px; --map-label-weight:400;
+}
+body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name,.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech,.map-action-status) {
+  font-family:"Meiryo","Hiragino Kaku Gothic ProN",sans-serif;
+  font-size:12px; line-height:1.6; letter-spacing:0;
+}
+body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name) {
+  width:max-content; min-width:64px; max-width:168px; padding:2px 6px;
+}
+body .story-shell :is(.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech) { max-width:168px; }
+/* 縮小時は滑らかに描画。透明部分を除いた本体を、既存の人物枠に合わせる。 */
+.map-sprite-art { display:block; position:relative; width:100%; }
+body .story-shell .map-sprite-art img { image-rendering:auto; filter:none; }
+body .story-shell .map-sprite-art img[data-sprite-fitted] {
+  position:absolute; width:var(--sprite-width); height:var(--sprite-height);
+  left:var(--sprite-left); top:var(--sprite-top); max-width:none; object-fit:fill;
+}
+@media(max-width:740px) {
+  body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name) { max-width:140px; }
+  body .story-shell :is(.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech) { max-width:140px; }
+}

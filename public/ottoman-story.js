@@ -1,4 +1,4 @@
-import {createMapLayout} from "./map-layout.js?v=0.042";
+import {createMapLayout} from "./map-layout.js?v=0.043";
 import {pages as scenes} from "./ottoman-pages.js?v=0.031";
 import {entities,positionFor} from "./ottoman-storyboard.js?v=0.031";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
@@ -136,9 +136,11 @@ function drawMap(mode="none",restart=false){
   const small=width<500;
   const items=step.ids.filter(id=>!["place","state"].includes(entities[id].kind)).map(id=>{
     const imgKey=step.images?.[id]??entities[id].image;
-    const e={...entities[id],name:step.labels?.[id]??entities[id].name,icon:step.icons?.[id]??entities[id].icon,image:imgKey},node=document.createElement("div"),size=e.kind==="person"?(small?48:58):(small?45:55);
+    const e={...entities[id],name:step.labels?.[id]??entities[id].name,icon:step.icons?.[id]??entities[id].icon,image:imgKey},node=document.createElement("div");
+    const portrait=e.image&&(e.kind==="person"||["person","child","army","cavalry","merchant"].includes(e.icon));
+    const size=portrait?(small?48:58):(small?45:55);
     node.className="ottoman-map-item";node.dataset.entity=id;node.dataset.name=e.name;
-    node.style.setProperty("--item-width",size+"px");node.style.setProperty("--item-height",(e.image&&e.kind==="person"?size*1.5:size)+"px");
+    node.style.setProperty("--item-width",size+"px");node.style.setProperty("--item-height",(portrait?size*1.5:size)+"px");
     node.innerHTML='<span class="ottoman-connector"></span><div class="ottoman-figure"><span class="ottoman-bubble"></span>'+
       (e.image?'<img src="'+resolveImg(e.image)+'" alt="" draggable="false">':symbolGraphic(e.icon))+'<span class="ottoman-name"></span></div>';
     node.querySelector(".ottoman-name").textContent=e.name;root.append(node);
