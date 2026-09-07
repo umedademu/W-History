@@ -50,3 +50,29 @@ body .story-shell .scene-body strong.key-term,
 body .story-shell .scene-body strong.key-term .map-mention { color:#805514 !important; }
 html[data-theme="dark"] body .story-shell .scene-body strong.key-term,
 html[data-theme="dark"] body .story-shell .scene-body strong.key-term .map-mention { color:#ead28a !important; }
+
+/* 地図の文字を拡大し、字の内側を潰さない細い縁取りにする。 */
+body .story-shell #story-map text:not(.city-plan text):not(.orientation-layer text) {
+  font-family:"Meiryo","Hiragino Kaku Gothic ProN",sans-serif;
+  font-size:16px; font-weight:700; letter-spacing:0;
+  stroke-width:2px; stroke-linejoin:round; paint-order:stroke fill;
+}
+html[data-theme="dark"] body .story-shell #story-map text:not(.city-plan text):not(.orientation-layer text) {
+  fill:#f5f7f3; stroke:#26312d; stroke-width:2px;
+}
+body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name) {
+  font-family:"Meiryo","Hiragino Kaku Gothic ProN",sans-serif;
+  font-size:14px; line-height:1.6; width:156px; padding:4px 7px;
+  text-shadow:none; overflow-wrap:anywhere;
+}
+body .story-shell :is(.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech) {
+  font-family:"Meiryo","Hiragino Kaku Gothic ProN",sans-serif;
+  font-size:14px; line-height:1.6; max-width:190px; text-shadow:none;
+}
+body .story-shell .map-action-status { font-size:14px; line-height:1.7; }
+@media(max-width:740px) {
+  body .story-shell #story-map text:not(.city-plan text):not(.orientation-layer text) { font-size:14px; }
+  body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name) { font-size:13px; width:128px; }
+  body .story-shell :is(.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech) { font-size:13px; max-width:156px; }
+  body .story-shell .map-action-status { font-size:13px; }
+}
