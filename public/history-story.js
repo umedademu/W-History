@@ -220,7 +220,7 @@ function show(scroll = false) {
     else b.removeAttribute("aria-current");
   });
   drawMap(scene);
-  if (scroll && matchMedia("(max-width: 740px)").matches) {
+  if (scroll && (matchMedia("(max-width: 740px)").matches || document.body.classList.contains("umayyad-abbasid-story"))) {
     document.querySelector(".story-stage").scrollIntoView({ block: "start", behavior: "instant" });
   }
 }

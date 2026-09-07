@@ -1,1 +1,20 @@
 .restored-story { --copper:#956932; }
+.umayyad-abbasid-story .story-stage { grid-template-columns:minmax(0,1fr); }
+.umayyad-abbasid-story .map-panel { border-right:0; border-bottom:1px solid var(--line); }
+.umayyad-abbasid-story #story-map { height:clamp(440px,60svh,760px); }
+.umayyad-abbasid-story .narrative { padding:20px 28px; }
+.umayyad-abbasid-story .scene-body { max-width:960px; }
+.umayyad-abbasid-story .scene-body p:last-child { margin-bottom:0; }
+.umayyad-abbasid-story .story-shell { padding-bottom:110px; }
+.umayyad-abbasid-story .story-controls {
+  position:fixed; bottom:0; left:50%; transform:translateX(-50%);
+  width:calc(100% - 80px); max-width:1200px; z-index:110;
+  padding:12px 0 calc(12px + env(safe-area-inset-bottom));
+  border-top:1px solid var(--line); background:#f4f0e8;
+}
+html[data-theme="dark"] .umayyad-abbasid-story .story-controls { background:#151a19; }
+@media(max-width:740px) {
+  .umayyad-abbasid-story #story-map { height:clamp(320px,55svh,520px); }
+  .umayyad-abbasid-story .narrative { padding:18px 16px; }
+  .umayyad-abbasid-story .story-controls { width:calc(100% - 32px); }
+}
