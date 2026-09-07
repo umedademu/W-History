@@ -75,7 +75,7 @@ function drawMap(scene){
     city.append(svg("text",{x:mid,y:20,"text-anchor":"middle",class:"plan-heading"},"王の広場と周辺（模式図）"));
     city.append(svg("rect",{x:mid-38,y:55,width:76,height:90,fill:"#eae3cf",stroke:"#b3a57f","stroke-dasharray":"4 3"}));
     city.append(svg("text",{x:mid,y:105,"text-anchor":"middle",class:"plan-center"},"王の広場"));
-    for(const [tx,ty,text,color] of [[mid,43,"バザール","#a98443"],[mid-80,101,"王宮","#96728b"],[mid+80,101,"モスク","#4d858b"],[mid,164,"王のモスク","#4d858b"]])city.append(svg("text",{x:tx,y:ty,"text-anchor":"middle",fill:color,class:"plan-building"},text));
+    for(const [tx,ty,text,color] of [[mid,43,"バザール","#a98443"],[mid-82,101,"王宮","#96728b"],[mid+82,94,"モスク","#4d858b"],[mid+82,116,"マドラサ","#4d858b"],[mid,164,"王のモスク（現イマームのモスク）","#4d858b"]])city.append(svg("text",{x:tx,y:ty,"text-anchor":"middle",fill:color,class:"plan-building"},text));
     const [px,py]=toScreen(places.isfahan.point);map.insertBefore(svg("line",{x1:width/2,y1:cy+186,x2:px,y2:py,stroke:"#6f9389","stroke-dasharray":"3 3"}),city);
   }
   const imageCache=new Set();
