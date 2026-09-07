@@ -92,7 +92,6 @@ progress::-moz-progress-bar { background: var(--copper); }
 .story-footer p { line-height: 1.9; }
 .no-script { padding: 20px; background: #f1deca; }
 
-/* 人物劇は地名を隠さないよう、地図の下の独立した舞台に置く。 */
 /* 人物は地図の上に重ねる透過画像。足元が示す地点に合わせて移動する。 */
 .map-characters { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
 .map-actor { position: absolute; left: 0; top: 0; will-change: transform; }
@@ -118,6 +117,8 @@ progress::-moz-progress-bar { background: var(--copper); }
 #story-map .sea-label { fill: #6e929b; stroke: #e6eded; font-size: 15px; letter-spacing: .1em; }
 #story-map .region-label { fill: #6d786a; font-size: 20px; font-weight: 700; }
 #story-map .region-label.active { fill: #35716f; }
+#story-map.overview .region-label { font-size: 17px; }
+#story-map.overview .place-label, #story-map.overview .capital-label { font-size: 16px; }
 #story-map .place-label { fill: #284f57; font-size: 18px; font-weight: 700; }
 #story-map .place-label.active { fill: #a14229; }
 #story-map .capital-label { fill: #216e80; font-size: 19px; font-weight: 700; }
@@ -178,7 +179,7 @@ progress::-moz-progress-bar { background: var(--copper); }
   #story-map.eastward .region-label { font-size: 32px; }
   #story-map.eastward .place-label, #story-map.eastward .capital-label { font-size: 29px; }
   #story-map.eastward .map-callout { font-size: 28px; }
-  #story-map.overview .place-label, #story-map.overview .capital-label, #story-map.overview .region-label { font-size: 40px; }
+  #story-map.overview .place-label, #story-map.overview .capital-label, #story-map.overview .region-label { font-size: 34px; }
   .map-legend { font-size: 9px; gap: 8px 12px; }
   .map-caption { font-size: 9px; margin-top: 8px; margin-bottom: 12px; }
   .map-person, .map-person-image { width: 52px; }

@@ -9,57 +9,56 @@ const expedition = (route, destination, opponent, before, after, result) => ({
 });
 export const characterScenes = {
   culture: {
-    action: "learn", before: "中央アジアで、言葉と信仰が変わっていく", after: "トルコ語とイスラームが広がる", result: "なるほど！", speaker: 0,
-    cast: [actor("モンゴル系の支配者", "ruler-calm", capital, { afterImage: "ruler-happy", side: -1 }), actor("イスラームを学ぶ人", "scholar", capital, { side: 1 })],
+    action: "learn", before: "中央アジアの支配階級だったモンゴル人", after: "トルコ語の使用（トルコ化）とイスラーム教への改宗（イスラーム化）が進む", result: "言葉と信仰が変化", speaker: 0,
+    cast: [actor("支配階級のモンゴル人", "ruler-calm", capital, { afterImage: "ruler-happy", side: -1 }), actor("イスラーム教へ改宗する人", "scholar", capital, { side: 1 })],
   },
   split: {
-    action: "conflict", before: "西チャガタイの部族どうしが争う", after: "西側の争いを勝ち抜き、ティムールが台頭", result: "主導権を握る",
+    action: "conflict", before: "チャガタイ＝ハン国（チャガタイ＝ウルス）が東西に分裂", after: "西チャガタイ＝ハン国の内紛を勝ち抜き、ティムールが台頭", result: "主導権を握る",
     cast: [actor("ティムール", "timur-march", capital, { side: -1 }), actor("対立する部族（模式）", "ruler-calm", capital, { side: 1, afterImage: "ruler-worried" })],
   },
   marriage: {
-    action: "marriage", before: "王家との結婚で、権威を得る", after: "王家の「婿」に。本人は直系の子孫ではない", result: "♥ 結婚", ancestor: true,
-    cast: [actor("ティムール", "timur-calm", capital, { side: -1, afterImage: "timur-happy" }), actor("チャガタイ家の王女", "princess-calm", capital, { side: 1, afterImage: "princess-happy" })],
+    action: "marriage", before: "ティムールがチャガタイ家直系の娘と結婚", after: "チンギス＝ハン（チンギス＝カン）の後継者を称し、ティムール朝を開く", result: "♥ 「婿」", ancestor: true,
+    cast: [actor("ティムール", "timur-calm", capital, { side: -1, afterImage: "timur-happy" }), actor("チャガタイ家直系の娘", "princess-calm", capital, { side: 1, afterImage: "princess-happy" })],
   },
-  north: expedition("north", "sarai", actor("トクタミシュ", "tokhtamysh-angry", [47.2, 47.2], { afterImage: "tokhtamysh-worried", side: -1 }), "サマルカンド → カスピ海の北へ", "トクタミシュを破り、北方の勢力を弱める", "勢力が弱まる"),
-  iran: expedition("iran", "isfahan", actor("イランの諸勢力（模式）", "ruler-calm", [51.68, 32.65], { afterImage: "ruler-worried", side: -1 }), "サマルカンド → イランへ", "イランの諸勢力を倒し、支配下へ", "支配下へ"),
-  caucasus: expedition("caucasus", "georgia", actor("現地の勢力（模式）", "ruler-calm", [44.8, 41.7], { afterImage: "ruler-worried", side: -1 }), "イラン → 黒海とカスピ海の間へ", "アルメニア・グルジアにも進出", "ここにも軍が！"),
+  north: expedition("north", "northShore", actor("キプチャク＝ハン国（ジョチ＝ウルス）", "tokhtamysh-angry", [47.2, 47.2], { afterImage: "tokhtamysh-worried", side: -1 }), "中央アジアのサマルカンド → カスピ海北岸", "ティムールの影響がキプチャク＝ハン国（ジョチ＝ウルス）へ広がる", "影響が広がる"),
+  iran: expedition("iran", "iranCenter", actor("イル＝ハン国（フレグ＝ウルス）滅亡後のイラン", "ruler-calm", [51.68, 32.65], { afterImage: "ruler-worried", side: -1 }), "サマルカンド → イル＝ハン国滅亡後のイラン", "ティムールがフレグ＝ウルス滅亡後の諸勢力を倒し、イランを支配下へ", "支配下へ"),
+  caucasus: expedition("caucasus", "georgia", actor("アルメニア・グルジアの勢力（模式）", "ruler-calm", [44.8, 41.7], { afterImage: "ruler-worried", side: -1 }), "イラン → 黒海とカスピ海の間", "ティムールがアルメニア・グルジアへ軍を進める", "二つの海の間へ"),
   delhi: {
     action: "march", routeKeys: ["india"], destination: "delhi",
-    before: "サマルカンド → 西北インドへ", after: "1398年、デリーを占領。略奪で王朝に打撃", result: "王朝に打撃",
+    before: "中央アジア → 西北インドのデリー", after: "ティムール軍がデリーを占領し、トゥグルク朝が衰退", result: "王朝が衰退",
     cast: [
       actor("ティムール", "timur-march", capital, { travel: true }),
-      actor("トゥグルク朝（模式）", "ruler-calm", [77.21, 28.61], { afterImage: "ruler-worried", side: 0.7 }),
-      actor("インドの戦象", "war-elephant", [77.21, 28.61], { side: 1.8 })
+      actor("トゥグルク朝（模式）", "ruler-calm", [77.21, 28.61], { afterImage: "ruler-worried", side: 0.7 })
     ],
   },
   syria: {
-    action: "march", routeKeys: ["syria", "baghdad"], destination: "baghdad", before: "サマルカンド → ダマスクス → バグダード", after: "二つの町を占領。大きな被害が生まれた", result: "町に被害が…",
-    cast: [actor("ティムール", "timur-march", capital, { travel: true }), actor("シリアの勢力（模式）", "ruler-calm", [36.29, 33.51], { side: -1, afterImage: "ruler-worried", reactAt: .41, until: .5 }), actor("イラクの勢力（模式）", "ruler-calm", [44.37, 33.31], { side: 1, afterImage: "ruler-worried", from: .5, reactAt: .91 })],
+    action: "march", routeKeys: ["syria", "baghdad"], destination: "baghdad", before: "ティムールがシリアのダマスクスへ", after: "ダマスクス、バグダードを占領し、アナトリアへ進撃", result: "占領",
+    cast: [actor("ティムール", "timur-march", capital, { travel: true }), actor("シリア・ダマスクスの勢力（模式）", "ruler-calm", [36.29, 33.51], { side: -1, afterImage: "ruler-worried", reactAt: .41, until: .5 }), actor("バグダードの勢力（模式）", "ruler-calm", [44.37, 33.31], { side: 1, afterImage: "ruler-worried", from: .5, reactAt: .91 })],
   },
   ankara: {
     action: "capture", routeKeys: ["ankara"], destination: "ankara",
-    before: "バグダード方面 → アンカラへ", after: "1402年、アンカラで勝利。バヤジット1世は捕虜に", result: "敗北 → 捕虜",
+    before: "ティムール軍がアナトリアのアンカラへ", after: "1402年、アンカラの戦いでオスマン朝のスルタン、バヤジット1世を捕虜に", result: "敗北 → 捕虜",
     cast: [
       actor("ティムール", "timur-march", capital, { travel: true }),
       actor("バヤジット1世", "bayezid-angry", [32.86, 39.93], { afterImage: "bayezid-sad", side: -1 }),
-      actor("ティムール軍騎兵", "timur-cavalry", [32.86, 39.93], { side: -2.1 })
+      actor("ティムール軍", "timur-cavalry", [32.86, 39.93], { side: -2.1 })
     ],
   },
   return: {
-    action: "gift", before: "アンカラでの勝利後、領地を返す", after: "アナトリアの旧支配者へ返還。バルカンへは進まない", result: "領地を返還",
-    cast: [actor("ティムール", "timur-calm", [32.86, 39.93], { side: -1, afterImage: "timur-happy" }), actor("旧支配者（模式）", "ruler-worried", [32.86, 39.93], { side: 1, afterImage: "ruler-happy" })],
+    action: "gift", before: "オスマン朝が奪ったアナトリアの領地", after: "ティムールが旧支配者へ与え、バルカン半島には進まない", result: "領地を与える",
+    cast: [actor("ティムール", "timur-calm", [32.86, 39.93], { side: -1, afterImage: "timur-happy" }), actor("アナトリアの旧支配者（模式）", "ruler-worried", [32.86, 39.93], { side: 1, afterImage: "ruler-happy" })],
   },
   ming: {
-    action: "plan", before: "サマルカンドで軍を整える。目標は東の明", after: "青い破線は計画。明には到達していない", result: "目標は明",
-    cast: [actor("ティムール", "timur-march", capital), actor("明の皇帝（模式）", "ming", [111, 36])],
+    action: "plan", before: "サマルカンドで軍を再編成", after: "モンゴル宗家の元を中国から北へ追った明が目標", result: "目標は明",
+    cast: [actor("ティムール", "timur-march", capital), actor("明（王朝の模式）", "ming", [111, 36])],
   },
   death: {
-    action: "death", routeKeys: ["otrar"], destination: "otrar", before: "サマルカンドを出発 → オトラルへ", after: "1405年、オトラルで病死。明への遠征は中止", result: "ここで病死",
-    cast: [actor("ティムール", "timur-march", capital, { travel: true, afterImage: "timur-ill" }), actor("明の皇帝（模式）", "ming", [111, 36])],
+    action: "death", routeKeys: ["otrar"], destination: "otrar", before: "中国の明へ向け、サマルカンドから出発", after: "中央アジアのオトラルでティムールが病死。明へは未到達", result: "ここで病死",
+    cast: [actor("ティムール", "timur-march", capital, { travel: true, afterImage: "timur-ill" }), actor("明（王朝の模式）", "ming", [111, 36])],
   },
   summary: {
-    action: "summary", before: "地名と出来事を結びつけて、振り返ろう", after: "サマルカンドから各地へ。最期はオトラル", result: "",
-    cast: [actor("1405年・ティムール", "timur-ill", [68.3, 42.85])],
+    action: "summary", before: "ティムール朝の都サマルカンドと主要都市ヘラート", after: "ティムールの遠征と周辺のビザンツ帝国・オスマン朝・マムルーク朝・トゥグルク朝", result: "",
+    cast: [actor("ティムール", "timur-calm", capital)],
   },
 };
 
@@ -120,7 +119,7 @@ export function renderMapCharacters(root, scene, { map, routes, project, reduced
   if (definition.ancestor) {
     const ancestor = document.createElement("div");
     ancestor.className = "map-ancestor";
-    ancestor.innerHTML = `<img src="${imagePath("genghis")}" alt="" width="32" height="48"><span>王女の祖先<br><strong>チンギス＝ハン</strong><small>同時代の対面ではありません</small></span>`;
+    ancestor.innerHTML = `<img src="${imagePath("genghis")}" alt="" width="32" height="48"><span>チャガタイ家の祖先<br><strong>チンギス＝ハン（チンギス＝カン）</strong><small>同時代の対面ではありません</small></span>`;
     root.append(ancestor);
   }
   const actors = definition.cast.map((item) => {
