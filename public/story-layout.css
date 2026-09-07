@@ -22,3 +22,26 @@ body .scene-body strong, body .scene-body .map-mention {
   font-weight:700; text-decoration:none !important;
   border-bottom:0 !important; background:none !important; box-shadow:none !important;
 }
+
+/* 本文は地図から独立した読みやすい行幅にする。 */
+body .story-shell .narrative {
+  font-family: "Meiryo", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-size:17px; font-weight:400; color:#253e49;
+}
+body .story-shell .narrative .scene-body {
+  width:100%; max-width:45em; margin-inline:auto;
+  font-size:inherit; line-height:1.9; letter-spacing:normal;
+}
+body .story-shell .narrative #scene-title {
+  width:100%; max-width:42.5em; margin:0 auto 14px;
+  font-family:inherit; font-size:18px; line-height:1.7;
+  font-weight:700; letter-spacing:normal;
+}
+body .story-shell .scene-body p { margin-bottom:16px; }
+body .story-shell .scene-body strong,
+body .story-shell .scene-body .map-mention { color:inherit !important; }
+html[data-theme="dark"] body .story-shell .narrative { color:#e4ebe7; }
+@media(max-width:740px) {
+  body .story-shell .narrative { font-size:16px; }
+  body .story-shell .narrative #scene-title { font-size:17px; }
+}
