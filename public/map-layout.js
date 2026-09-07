@@ -53,7 +53,7 @@ export function createMapLayout({ map, root, items }) {
     return [{ node, guide, x, y, matrix, anchor: [anchor.x - viewport.left, anchor.y - viewport.top],
       desired: [(b.left + b.right) / 2, at.y - viewport.top],
       centerOffset: (b.left + b.right) / 2 - (at.x - viewport.left),
-      size: { width: b.right - b.left + 18, top: at.y - viewport.top - b.top + 6, bottom: b.bottom - (at.y - viewport.top) + 6 } }];
+      size: { width: b.right - b.left + 8, top: at.y - viewport.top - b.top + 4, bottom: b.bottom - (at.y - viewport.top) + 4 } }];
   });
   const occupied = [...fixed];
   let fits = true;
@@ -65,16 +65,6 @@ export function createMapLayout({ map, root, items }) {
     const at = new DOMPoint(chosen.x - label.centerOffset + viewport.left, chosen.y + viewport.top).matrixTransform(inverse);
     const start = new DOMPoint(label.anchor[0] + viewport.left, label.anchor[1] + viewport.top).matrixTransform(inverse);
     label.node.setAttribute("x", at.x); label.node.setAttribute("y", at.y);
-    const bounds = label.node.getBBox();
-    const paddingX = 8 / Math.hypot(label.matrix.a, label.matrix.b);
-    const paddingY = 5 / Math.hypot(label.matrix.c, label.matrix.d);
-    const background = document.createElementNS(NS, "rect");
-    for (const [key, value] of Object.entries({
-      x: bounds.x - paddingX, y: bounds.y - paddingY,
-      width: bounds.width + paddingX * 2, height: bounds.height + paddingY * 2,
-      rx: 3, class: "map-label-background", "aria-hidden": "true", "pointer-events": "none"
-    })) background.setAttribute(key, value);
-    label.node.before(background);
     label.guide.setAttribute("x1", start.x); label.guide.setAttribute("y1", start.y);
     label.guide.setAttribute("x2", at.x); label.guide.setAttribute("y2", at.y);
     label.guide.hidden = Math.hypot(chosen.x - label.anchor[0], chosen.y - label.anchor[1]) < 24;

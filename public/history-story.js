@@ -1,4 +1,4 @@
-import { createMapLayout } from "./map-layout.js?v=0.040";
+import { createMapLayout } from "./map-layout.js?v=0.041";
 
 export function mountStory({ places, zones, scenes, imageDirectory }) {
 const NS = "http://www.w3.org/2000/svg";
