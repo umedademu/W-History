@@ -24,7 +24,7 @@
 .safavid-regions polygon { stroke-dasharray:4 3; }
 .safavid-regions.is-fractured polygon { stroke-dasharray:2 7; stroke-width:2; }
 .safavid-story #story-map .plan-heading { font-size:10px; fill:#62766a; stroke:none; }
-.safavid-story #story-map .plan-building { font-size:11px; stroke:none; }
+.safavid-story #story-map .plan-building { font-size:9.5px; fill:#40564f; stroke:#fffaf0; stroke-width:2px; paint-order:stroke; font-weight:800; }
 .safavid-story #story-map .plan-center { font-size:11px; fill:#8a7042; stroke:none; }
 .safavid-story .map-action-status { font-size:11px; left:10px; right:10px; bottom:4px; padding:8px 7px; background:#fbf8eced; }
 .map-facts { list-style:none; padding:0; margin:14px 17px 3px; display:grid; grid-template-columns:1fr 1fr; gap:8px; }
