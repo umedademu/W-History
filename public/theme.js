@@ -56,7 +56,7 @@
 
   document.addEventListener("DOMContentLoaded", () => {
     const button = createButton();
-    const storyHeader = document.querySelector(".story-header");
+    const storyHeader = document.querySelector(".story-tools, .story-header");
     const siteNavigation = document.querySelector(".site-header nav");
     if (storyHeader) {
       const actions = document.createElement("div");

@@ -222,3 +222,8 @@ progress::-moz-progress-bar { background: var(--copper); }
 .map-viewport > .map-replay-surface:focus-visible {
   outline: 3px solid #49a9b8; outline-offset: -4px;
 }
+.story-tools { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; }
+.story-tools .theme-actions { display: flex; align-items: center; gap: 12px; }
+
+.story-footer { flex-wrap: wrap; }
+.story-tools { flex-basis: 100%; }
