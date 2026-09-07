@@ -1,4 +1,4 @@
-import {createMapLayout} from "./map-layout.js?v=0.041";
+import {createMapLayout} from "./map-layout.js?v=0.042";
 import {pages as scenes} from "./ottoman-pages.js?v=0.031";
 import {entities,positionFor} from "./ottoman-storyboard.js?v=0.031";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";

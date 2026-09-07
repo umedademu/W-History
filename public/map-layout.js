@@ -53,7 +53,7 @@ export function createMapLayout({ map, root, items }) {
     return [{ node, guide, x, y, matrix, anchor: [anchor.x - viewport.left, anchor.y - viewport.top],
       desired: [(b.left + b.right) / 2, at.y - viewport.top],
       centerOffset: (b.left + b.right) / 2 - (at.x - viewport.left),
-      size: { width: b.right - b.left + 8, top: at.y - viewport.top - b.top + 4, bottom: b.bottom - (at.y - viewport.top) + 4 } }];
+      size: { width: b.right - b.left + 6, top: at.y - viewport.top - b.top + 3, bottom: b.bottom - (at.y - viewport.top) + 3 } }];
   });
   const occupied = [...fixed];
   let fits = true;

@@ -50,27 +50,3 @@ body .story-shell .scene-body strong.key-term,
 body .story-shell .scene-body strong.key-term .map-mention { color:#805514 !important; }
 html[data-theme="dark"] body .story-shell .scene-body strong.key-term,
 html[data-theme="dark"] body .story-shell .scene-body strong.key-term .map-mention { color:#ead28a !important; }
-
-/* 地図上の文字は背景なしで控えめな大きさに揃える。 */
-body .story-shell #story-map text:not(.city-plan text):not(.orientation-layer text) {
-  font-family:"Meiryo","Hiragino Kaku Gothic ProN",sans-serif;
-  font-size:15px; font-weight:600; letter-spacing:0;
-  fill:#172723 !important; stroke:none !important; filter:none; text-shadow:none;
-}
-html[data-theme="dark"] body .story-shell #story-map text:not(.city-plan text):not(.orientation-layer text) { fill:#f4f6f2 !important; }
-body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name,.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech,.map-action-status) {
-  font-family:"Meiryo","Hiragino Kaku Gothic ProN",sans-serif;
-  font-size:14px; font-weight:600; line-height:1.6;
-  color:#172723 !important; background:transparent !important;
-  border:0 !important; box-shadow:none !important; text-shadow:none !important;
-  padding:2px 4px;
-}
-html[data-theme="dark"] body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name,.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech,.map-action-status) { color:#f4f6f2 !important; }
-body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name) { width:144px; overflow-wrap:anywhere; }
-body .story-shell :is(.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech) { max-width:180px; }
-@media(max-width:740px) {
-  body .story-shell #story-map text:not(.city-plan text):not(.orientation-layer text) { font-size:14px; }
-  body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name,.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech,.map-action-status) { font-size:13px; }
-  body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name) { width:120px; }
-  body .story-shell :is(.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech) { max-width:150px; }
-}
