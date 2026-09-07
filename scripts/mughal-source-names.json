@@ -1,0 +1,71 @@
+{
+  "source": "sources/04_mughal_empire.md",
+  "scope": "p.343〜346上部『インド独自のイスラーム文化の発展と、ヨーロッパ人が求めたインド産綿布』まで",
+  "sceneOrder": [
+    "babur-kabul",
+    "first-panipat",
+    "humayun-exile",
+    "akbar-coronation",
+    "akbar-jizya-abolition",
+    "guru-nanak-sikh",
+    "mansabdari-system",
+    "jahangir-culture",
+    "shah-jahan-deccan",
+    "red-fort-delhi",
+    "taj-mahal-creation",
+    "aurangzeb-accession",
+    "deccan-campaign-max",
+    "jizya-restoration",
+    "shivaji-maratha",
+    "sikh-militarization",
+    "empire-fragmentation",
+    "mughal-painting",
+    "urdu-language-culture",
+    "indian-cotton-trade"
+  ],
+  "requirements": {
+    "babur-kabul": [
+      "バーブル", "ティムール", "チンギス＝ハン", "チャガタイ", "サマルカンド", "ウズベク人",
+      "中央アジア", "サファヴィー朝", "ティムール朝", "アフガニスタン", "カーブル", "ロディー朝"
+    ],
+    "first-panipat": [
+      "バーブル", "パーニーパット", "デリー＝スルタン朝", "ロディー朝", "デリー", "ムガル帝国", "モンゴル"
+    ],
+    "humayun-exile": ["フマーユーン", "スール朝", "イラン", "サファヴィー朝", "デリー"],
+    "akbar-coronation": ["アクバル", "アグラ", "アフガニスタン", "ムガル帝国"],
+    "akbar-jizya-abolition": [
+      "アクバル", "ラージプート", "クシャトリヤ", "ジズヤ", "ヒンドゥー教徒", "イスラーム教徒",
+      "神聖宗教", "ディーネ＝イラーヒー"
+    ],
+    "guru-nanak-sikh": [
+      "カビール", "ナーナク", "カースト", "シク教", "ヒンドゥー教", "バクティ信仰", "イスラーム教", "スーフィズム", "パンジャーブ地方"
+    ],
+    "mansabdari-system": ["アクバル", "州県制", "マンサブ", "マンサブダール制", "ジャーギール", "ザミンダール"],
+    "jahangir-culture": ["ジャハーンギール", "アクバル", "インド＝イスラーム文化"],
+    "shah-jahan-deccan": ["シャー＝ジャハーン", "デカン高原", "ムガル帝国"],
+    "red-fort-delhi": ["シャー＝ジャハーン", "アグラ", "デリー", "赤い城"],
+    "taj-mahal-creation": ["シャー＝ジャハーン", "ムムターズ＝マハル", "アグラ", "タージ＝マハル", "インド＝イスラーム"],
+    "aurangzeb-accession": ["シャー＝ジャハーン", "アウラングゼーブ", "アグラ城", "ムムターズ＝マハル", "タージ＝マハル"],
+    "deccan-campaign-max": ["アウラングゼーブ", "デカン高原", "ムガル帝国"],
+    "jizya-restoration": ["アウラングゼーブ", "スンナ派", "ジズヤ", "ヒンドゥー寺院", "シーア派"],
+    "shivaji-maratha": ["シヴァージー", "デカン高原", "ムガル帝国", "マラーター王国"],
+    "sikh-militarization": ["パンジャーブ地方", "シク教徒", "ムガル帝国"],
+    "empire-fragmentation": [
+      "アウラングゼーブ", "デカン高原", "アーサフ＝ジャー", "ニザーム王国", "ハイデラバード王国",
+      "ガンジス川中流域", "アワド王国", "アウド王国", "パンジャーブ地方", "シク王国", "シク教王国",
+      "イラン", "アフシャール朝", "デリー", "マラーター王国", "マラーター同盟", "南インド", "マイソール王国", "ムガル帝国"
+    ],
+    "mughal-painting": [
+      "イスラーム文化", "ヒンドゥー文化", "インド＝イスラーム文化", "イラン", "細密画", "ミニアチュール",
+      "インド絵画", "ムガル絵画", "ヒンドゥー教徒", "ヴィシュヌ信仰", "ラージプート絵画"
+    ],
+    "urdu-language-culture": [
+      "ヒンディー語", "アラビア語", "ペルシア語", "ウルドゥー語", "パキスタン", "イラン人", "バーブル",
+      "『バーブル＝ナーマ』", "トルコ語", "チャガタイ語", "アクバル", "『アクバル＝ナーマ』", "アブル＝ファズル"
+    ],
+    "indian-cotton-trade": [
+      "ヨーロッパ", "インド", "香辛料", "インド産綿布", "モスリン", "カリカット", "キャラコ", "サラサ", "更紗"
+    ]
+  },
+  "excludedIndependentScenes": ["company-advance", "mughal-end"]
+}
