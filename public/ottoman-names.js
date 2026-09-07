@@ -1,4 +1,4 @@
-import {entities} from "./ottoman-storyboard.js?v=0.018";
+import {entities} from "./ottoman-storyboard.js?v=0.031";
 
 const aliases=Object.entries(entities).flatMap(([id,entity])=>entity.aliases.map(term=>({id,term}))).sort((a,b)=>b.term.length-a.term.length);
 const escape=text=>text.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");

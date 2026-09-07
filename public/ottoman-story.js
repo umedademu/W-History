@@ -1,6 +1,6 @@
 import {createMapLayout} from "./map-layout.js?v=0.009";
-import {pages as scenes} from "./ottoman-pages.js?v=0.021";
-import {entities,positionFor} from "./ottoman-storyboard.js?v=0.018";
+import {pages as scenes} from "./ottoman-pages.js?v=0.031";
+import {entities,positionFor} from "./ottoman-storyboard.js?v=0.031";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
 import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.016";
 

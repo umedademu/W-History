@@ -1,5 +1,5 @@
 import {scenes as sourceScenes} from "./ottoman-scenes.js?v=0.014";
-import {storyboards,entities} from "./ottoman-storyboard.js?v=0.018";
+import {storyboards,entities} from "./ottoman-storyboard.js?v=0.031";
 
 // 主題の順序と、一ページに収める説明を明示する。異なる旧場面の動きも主題に沿ってまとめる。
 // 頁番号・写真との照合は scripts/ottoman-reading-order.json で別に管理し、公開画面には出さない。

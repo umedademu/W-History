@@ -1,4 +1,4 @@
-import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.010";
+import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.031";
 
 const scenes = [
   {

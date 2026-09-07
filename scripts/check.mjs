@@ -15,7 +15,12 @@ import "./check-ottoman-orientation.mjs";
 import "./check-map-layout.mjs";
 import "./check-ottoman-storyboard.mjs";
 import "./check-ottoman-pages.mjs";
-import "./check-mughal-culture-order.mjs";
+import "./check-timur-source.mjs";
+import "./check-timur-after-source.mjs";
+import "./check-safavid-source.mjs";
+import "./check-ottoman-source.mjs";
+import "./check-mughal-source.mjs";
+import "./check-islamic-culture-source.mjs";
 import "./check-islam-origin-source.mjs";
 import "./check-umayyad-abbasid-source.mjs";
 import "./check-regional-dynasties-source.mjs";
@@ -35,7 +40,7 @@ for(const file of publicFiles.filter(f=>/\.(html|js|css)$/.test(f))){
 const htmlFiles=publicFiles.filter(file=>file.endsWith(".html"));
 for(const file of htmlFiles){
   const html=await fs.readFile(file,"utf8");
-  if(!html.includes('/theme.js?v=0.030')||!html.includes('/theme.css?v=0.030'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
+  if(!html.includes('/theme.js?v=0.031')||!html.includes('/theme.css?v=0.031'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
 }
 const themeScript=await fs.readFile(path.join(publicRoot,"theme.js"),"utf8");
 const themeStyle=await fs.readFile(path.join(publicRoot,"theme.css"),"utf8");

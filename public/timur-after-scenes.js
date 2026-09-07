@@ -34,7 +34,7 @@ const scene = (value) => ({ area: central, zones: ["timurid"], pins: ["herat", "
 export const scenes = [
   scene({
     id: "heirs", chapter: 0, year: "1405年以後", kicker: "続編は、ティムールの死後から", title: "一族の中から、\n新しい指導者が現れる。",
-    body: ["ティムールは征服した土地を一族に分けていた。そのため彼が亡くなると、<strong>各地の一族が主導権を争う</strong>ようになった。", "その中で有力になったのが、ティムールの息子<strong>シャー＝ルフ</strong>。自分の拠点<strong>ヘラート</strong>を中心に、政権をまとめていく。"],
+    body: ["ティムールは征服した土地を一族に分けていた。そのため彼が亡くなると、ティムール朝では<strong>各地の一族が主導権を争う</strong>ようになった。", "その中で有力になったのが、ティムールの息子<strong>シャー＝ルフ</strong>。自分の拠点<strong>ヘラート</strong>を中心に、政権をまとめていく。"],
     takeaway: "ティムールの死 → 一族の争い → シャー＝ルフが台頭。", note: "ティムール本人の死と、ティムール朝の滅亡は別の出来事です。",
     mapHeading: "ティムール朝の後継争い｜ヘラートに注目", before: "ティムールの死後、ティムール朝の一族が各地で争う", after: "ヘラートを拠点とするシャー＝ルフが台頭", pins: ["herat","timuridLands"],
     actors: [person("シャー＝ルフ", "shahrukh-calm", "herat", { afterImage: "shahrukh-happy", offset: [-24,0] }), person("一族の王子（模式）", "uzbek-ruler", "timuridLands", { offset: [24,0] })],

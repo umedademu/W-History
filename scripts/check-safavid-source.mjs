@@ -9,7 +9,7 @@ const join = values => values.flat(Infinity).filter(value => value !== undefined
 for (const group of groups) {
   const scene = byId.get(group.scene);
   if (!scene) throw new Error(`06章の照合先がありません: ${group.scene}`);
-  const narrative = join([scene.year, scene.kicker, scene.title, scene.body, scene.takeaway, scene.note]);
+  const narrative = join([scene.title, scene.body]);
   const map = join([
     scene.mapHeading, scene.focus, scene.before, scene.after, scene.facts,
     scene.pins.map(key => places[key]?.name), scene.tags.map(tag => tag.text),
@@ -18,6 +18,23 @@ for (const group of groups) {
   for (const term of group.terms) {
     if (!narrative.includes(term)) throw new Error(`06章 ${scene.id}: 本文に「${term}」がありません。`);
     if (!map.includes(term)) throw new Error(`06章 ${scene.id}: 地図に「${term}」がありません。`);
+  }
+}
+
+// 地図上の地名・人物・建物は欄外でなく説明本文と照合する。
+const recurringNames = ["ティムール朝", "サファヴィー朝", "オスマン帝国", "ウズベク人", "キジルバシュ", "十二イマーム派", "シーア派", "イラン", "ペルシア湾"];
+const namedPeople = ["イスマーイール1世", "セリム1世", "アッバース1世", "ナーディル＝シャー", "アーガー＝ムハンマド", "アフマド＝シャー"];
+for (const scene of scenes) {
+  const narrative = join([scene.title, scene.body]);
+  const labels = join([scene.mapHeading, scene.focus, scene.before, scene.after, scene.facts, scene.tags.map(tag => tag.text), [...scene.actors, ...scene.props].flatMap(item => [item.name, item.bubble])]);
+  for (const key of scene.pins) {
+    const name = places[key]?.name;
+    if (!name || !narrative.includes(name)) throw new Error(`06章 ${scene.id}: 地図の地名「${name}」が説明本文にありません。`);
+  }
+  for (const name of [...new Set([...Object.values(places).map(place => place.name), ...namedPeople, ...recurringNames, "アールィー・カープー", "王のモスク", "イマームのモスク", "新ジュルファ", "イギリス東インド会社", "アナトリア", "ホラーサーン", "コーカサス"])]) {
+    const mapNames = join([labels, scene.pins.map(key => places[key]?.name)]);
+    if (narrative.includes(name) && !mapNames.includes(name)) throw new Error(`06章 ${scene.id}: 説明本文の固有名詞「${name}」が地図にありません。`);
+    if (labels.includes(name) && !narrative.includes(name)) throw new Error(`06章 ${scene.id}: 地図の固有名詞「${name}」が説明本文にありません。`);
   }
 }
 

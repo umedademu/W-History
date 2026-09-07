@@ -1,5 +1,5 @@
 import { createMapLayout } from "./map-layout.js?v=0.009";
-import {places,zones,scenes} from "./safavid-scenes.js?v=0.188";
+import {places,zones,scenes} from "./safavid-scenes.js?v=0.031";
 
 const NS="http://www.w3.org/2000/svg";
 const project=([lon,lat])=>[(lon-20)*12,(58-lat)*15];
