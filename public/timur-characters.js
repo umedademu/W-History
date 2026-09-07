@@ -1,4 +1,4 @@
-import { createMapLayout } from "./map-layout.js?v=0.009";
+import { createMapLayout } from "./map-layout.js?v=0.040";
 // 人物は透過PNG。位置は地図と同じ緯度・経度から求める。
 const capital = [66.97, 39.65];
 const actor = (name, image, point, options = {}) => ({ name, image, point, ...options });

@@ -1,4 +1,4 @@
 import { places, zones, scenes } from "./mughal-scenes.js?v=0.031";
-import { mountStory } from "./history-story.js?v=0.036";
+import { mountStory } from "./history-story.js?v=0.040";
 
 mountStory({ places, zones, scenes, imageDirectory: "mughal" });

@@ -76,3 +76,26 @@ body .story-shell .map-action-status { font-size:14px; line-height:1.7; }
   body .story-shell :is(.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech) { font-size:13px; max-width:156px; }
   body .story-shell .map-action-status { font-size:13px; }
 }
+
+/* 縁取りの代わりに、無地のラベルで地形から文字を分離する。 */
+body .story-shell #story-map text[data-layout-label] {
+  font-size:18px; font-weight:600; fill:#172723 !important;
+  stroke:none !important; filter:none; text-shadow:none;
+}
+body .story-shell #story-map .map-label-background { fill:#fffdf5; stroke:#687b72; stroke-width:1; vector-effect:non-scaling-stroke; }
+html[data-theme="dark"] body .story-shell #story-map text[data-layout-label] { fill:#f4f6f2 !important; }
+html[data-theme="dark"] body .story-shell #story-map .map-label-background { fill:#172320; stroke:#91a69c; }
+body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name,.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech) {
+  font-size:16px; font-weight:600; line-height:1.65; color:#172723 !important;
+  background:#fffdf5 !important; border:1px solid #687b72; text-shadow:none !important;
+}
+html[data-theme="dark"] body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name,.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech) {
+  color:#f4f6f2 !important; background:#172320 !important; border-color:#91a69c;
+}
+body .story-shell .map-action-status { font-family:"Meiryo",sans-serif; font-size:16px; color:#f4f6f2; background:#172320; }
+@media(max-width:740px) {
+  body .story-shell #story-map text[data-layout-label] { font-size:16px; }
+  body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name,.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech) { font-size:14px; }
+}
+body .story-shell #story-map text:not(.city-plan text):not(.orientation-layer text) { font-size:18px; font-weight:600; stroke:none !important; }
+@media(max-width:740px) { body .story-shell #story-map text:not(.city-plan text):not(.orientation-layer text) { font-size:16px; } }
