@@ -1,4 +1,5 @@
-import { createMapLayout } from "./map-layout.js?v=0.044";
+import { maximumMapScale } from "./map-camera.js?v=0.045";
+import { createMapLayout } from "./map-layout.js?v=0.045";
 
 export function mountStory({ places, zones, scenes, imageDirectory }) {
 const NS = "http://www.w3.org/2000/svg";
@@ -21,7 +22,7 @@ function geometry(scene, width, height) {
   const points = [[west, north], [east, south], ...scene.pins.map(k => places[k].point), ...scene.routes.flatMap(r => r.points), ...scene.tags.map(t => t.at), ...[...scene.actors, ...scene.props].map(a => typeof a.at === "string" ? places[a.at].point : a.at)].map(project);
   const xs = points.map(p => p[0]), ys = points.map(p => p[1]);
   const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
-  const scale = Math.min((width - 82) / (maxX - minX), (height - 185) / (maxY - minY));
+  const scale = Math.min(maximumMapScale(project, width, height), (width - 82) / (maxX - minX), (height - 185) / (maxY - minY));
   const x = width / 2 - (minX + maxX) / 2 * scale, y = (height + 75) / 2 - (minY + maxY) / 2 * scale;
   return { scale, x, y, toScreen: p => { const q = project(p); return [q[0] * scale + x, q[1] * scale + y]; } };
 }

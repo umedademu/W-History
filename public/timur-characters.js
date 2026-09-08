@@ -1,4 +1,5 @@
-import { createMapLayout } from "./map-layout.js?v=0.044";
+import { maximumMapScale } from "./map-camera.js?v=0.045";
+import { createMapLayout } from "./map-layout.js?v=0.045";
 // 人物は透過PNG。位置は地図と同じ緯度・経度から求める。
 const capital = [66.97, 39.65];
 const actor = (name, image, point, options = {}) => ({ name, image, point, ...options });
@@ -90,7 +91,7 @@ export function characterCamera(scene, routes, project, width, height, small) {
   const xs = points.map((p) => p[0]), ys = points.map((p) => p[1]);
   const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
   const side = small ? 77 : 104, top = small ? 119 : 155, bottom = small ? 86 : 85;
-  const scale = Math.min(width / base[2], height / base[3], (width - side * 2) / Math.max(1, maxX - minX), (height - top - bottom) / Math.max(1, maxY - minY));
+  const scale = Math.min(maximumMapScale(project, width, height), width / base[2], height / base[3], (width - side * 2) / Math.max(1, maxX - minX), (height - top - bottom) / Math.max(1, maxY - minY));
   const w = width / scale, h = height / scale;
   const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
   const left = clamp(base[0] + (base[2] - w) / 2, maxX + side / scale - w, minX - side / scale);

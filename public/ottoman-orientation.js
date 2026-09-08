@@ -1,3 +1,4 @@
+import { maximumMapScale } from "./map-camera.js?v=0.045";
 // 北を上にしたまま、世界・地域・各場面を同じ座標でつなぐ。
 export const worldMap = { url: "/ottoman-world-map.svg?v=0.007", width: 1440, height: 720 };
 export const project = ([lon, lat]) => [(lon + 180) * 4, (90 - lat) * 4];
@@ -50,7 +51,7 @@ export function visibleBounds(camera, width, height) {
 export function fitCamera(bounds, width, height) {
   const [west, south, east, north] = bounds;
   const [left, top] = project([west, north]), [right, bottom] = project([east, south]);
-  const scale = Math.min((width - 36) / (right - left), (height - 100) / (bottom - top));
+  const scale = Math.min(maximumMapScale(project, width, height), (width - 36) / (right - left), (height - 100) / (bottom - top));
   return { scale, x: width / 2 - (left + right) / 2 * scale, y: (height - 28) / 2 - (top + bottom) / 2 * scale };
 }
 

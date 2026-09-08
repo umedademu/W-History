@@ -1,8 +1,9 @@
-import {createMapLayout} from "./map-layout.js?v=0.044";
+import { maximumMapScale } from "./map-camera.js?v=0.045";
+import {createMapLayout} from "./map-layout.js?v=0.045";
 import {pages as scenes} from "./ottoman-pages.js?v=0.031";
 import {entities,positionFor} from "./ottoman-storyboard.js?v=0.031";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
-import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.016";
+import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.045";
 
 import {referencesIn} from "./ottoman-names.js?v=0.018";
 
@@ -47,7 +48,7 @@ function geometry(step,width,height){
     ...step.ids.flatMap(id=>entities[id].outline??[]),...(step.areas??[]).flatMap(a=>a.points)].map(project);
   const xs=points.map(p=>p[0]),ys=points.map(p=>p[1]);
   const minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys);
-  const scale=Math.min((width-90)/(maxX-minX),(height-145)/(maxY-minY));
+  const scale = Math.min(maximumMapScale(project, width, height), (width-90)/(maxX-minX),(height-145)/(maxY-minY));
   const x=width/2-(minX+maxX)/2*scale,y=(height-35)/2-(minY+maxY)/2*scale;
   return {scale,x,y,toScreen:p=>{const q=project(p);return [q[0]*scale+x,q[1]*scale+y];}};
 }

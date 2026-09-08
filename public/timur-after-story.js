@@ -1,4 +1,5 @@
-import { createMapLayout } from "./map-layout.js?v=0.044";
+import { maximumMapScale } from "./map-camera.js?v=0.045";
+import { createMapLayout } from "./map-layout.js?v=0.045";
 import { locations, zones, scenes } from "./timur-after-scenes.js?v=0.031";
 
 const NS = "http://www.w3.org/2000/svg";
@@ -50,7 +51,7 @@ function camera(scene, width, height) {
   const minX=Math.min(...xs), maxX=Math.max(...xs), minY=Math.min(...ys), maxY=Math.max(...ys);
   const side = small.matches ? 71 : 106;
   const top = scene.paddingTop ?? (small.matches ? 139 : 168), bottom = 93;
-  const scale = Math.min(width/base[2], height/base[3], (width-side*2)/Math.max(1,maxX-minX), (height-top-bottom)/Math.max(1,maxY-minY));
+  const scale = Math.min(maximumMapScale(project, width, height), width/base[2], height/base[3], (width-side*2)/Math.max(1,maxX-minX), (height-top-bottom)/Math.max(1,maxY-minY));
   const w=width/scale, h=height/scale;
   const x=clamp(base[0]+(base[2]-w)/2,maxX+side/scale-w,minX-side/scale);
   const y=clamp(base[1]+(base[3]-h)/2,maxY+bottom/scale-h,minY-top/scale);
