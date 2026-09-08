@@ -1,4 +1,4 @@
-import { createMapLayout } from "./map-layout.js?v=0.043";
+import { createMapLayout } from "./map-layout.js?v=0.044";
 import { locations, zones, scenes } from "./timur-after-scenes.js?v=0.031";
 
 const NS = "http://www.w3.org/2000/svg";
@@ -162,7 +162,7 @@ function show({scroll=false}={}) {
   renderMap(scene);
   if(scroll)document.querySelector(".story-stage").scrollIntoView({block:"start",behavior:"instant"});
 }
-function go(next){next=clamp(next,0,scenes.length-1);if(next===index)return;index=next;show({scroll:true});}
+function go(next, scroll = true){next=clamp(next,0,scenes.length-1);if(next===index)return;index=next;show({scroll});}
 scenes.forEach((scene,i)=>{
   const button=document.createElement("button");button.type="button";button.dataset.scene=i;button.textContent=String(i+1).padStart(2,"0");button.setAttribute("aria-label",`${i+1}. ${scene.title.replace("\n","")}`);button.title=button.getAttribute("aria-label");button.addEventListener("click",()=>go(i));el["scene-nav"].append(button);
 });
@@ -170,7 +170,7 @@ el.previous.addEventListener("click",()=>go(index-1));el.next.addEventListener("
 document.querySelectorAll("[data-chapter]").forEach(button=>button.addEventListener("click",()=>go(Number(button.dataset.chapter))));
 document.addEventListener("keydown",event=>{
   if(event.altKey||event.ctrlKey||event.metaKey||event.shiftKey||event.repeat||event.target.closest("input,textarea,select,[contenteditable=true],details"))return;
-  if(["ArrowRight","ArrowLeft"].includes(event.key)){event.preventDefault();go(index+(event.key==="ArrowRight"?1:-1));}
+  if(["ArrowRight","ArrowLeft"].includes(event.key)){event.preventDefault();go(index+(event.key==="ArrowRight"?1:-1), false);}
 });
 new ResizeObserver(()=>{
   const size=`${el["story-map"].clientWidth},${el["story-map"].clientHeight}`;

@@ -1,4 +1,4 @@
-import { createMapLayout } from "./map-layout.js?v=0.043";
+import { createMapLayout } from "./map-layout.js?v=0.044";
 import {places,zones,scenes} from "./safavid-scenes.js?v=0.031";
 
 const NS="http://www.w3.org/2000/svg";
@@ -156,12 +156,12 @@ function show(scroll=false){
   drawMap(scene);
   if(scroll)document.querySelector(".story-stage").scrollIntoView({block:"start",behavior:"instant"});
 }
-function go(next){next=clamp(next,0,scenes.length-1);if(next===index)return;index=next;show(true);}
+function go(next, scroll = true){next=clamp(next,0,scenes.length-1);if(next===index)return;index=next;show(scroll);}
 scenes.forEach((scene,i)=>{const b=document.createElement("button");b.type="button";b.dataset.scene=i;b.textContent=String(i+1).padStart(2,"0");b.setAttribute("aria-label",`${i+1}. ${scene.title.replace("\n","")}`);b.title=b.getAttribute("aria-label");b.addEventListener("click",()=>go(i));byId("scene-nav").append(b);});
 byId("previous").addEventListener("click",()=>go(index-1));byId("next").addEventListener("click",()=>go(index===scenes.length-1?0:index+1));
 byId("replay").addEventListener("click",()=>drawMap(scenes[index]));
 document.querySelectorAll("[data-chapter]").forEach(b=>b.addEventListener("click",()=>go(Number(b.dataset.chapter))));
-document.addEventListener("keydown",event=>{if(event.altKey||event.ctrlKey||event.metaKey||event.shiftKey||event.repeat||event.target.closest("input,textarea,select,[contenteditable=true],details"))return;if(event.key==="ArrowRight"||event.key==="ArrowLeft"){event.preventDefault();go(index+(event.key==="ArrowRight"?1:-1));}});
+document.addEventListener("keydown",event=>{if(event.altKey||event.ctrlKey||event.metaKey||event.shiftKey||event.repeat||event.target.closest("input,textarea,select,[contenteditable=true],details"))return;if(event.key==="ArrowRight"||event.key==="ArrowLeft"){event.preventDefault();go(index+(event.key==="ArrowRight"?1:-1), false);}});
 new ResizeObserver(()=>{const size=`${map.clientWidth},${map.clientHeight}`;if(size===lastSize)return;lastSize=size;drawMap(scenes[index]);}).observe(map);
 reduced.addEventListener("change",()=>drawMap(scenes[index]));
 // この教材は無音。音声・動画・人物画像・学習データの読み書きを使用しない。

@@ -1,4 +1,4 @@
-import { createMapLayout } from "./map-layout.js?v=0.043";
+import { createMapLayout } from "./map-layout.js?v=0.044";
 
 export function mountStory({ places, zones, scenes, imageDirectory }) {
 const NS = "http://www.w3.org/2000/svg";
@@ -225,11 +225,11 @@ function show(scroll = false) {
   }
 }
 
-function go(next) {
+function go(next, scroll = true) {
   next = clamp(next, 0, scenes.length - 1);
   if (next === index) return;
   index = next;
-  show(true);
+  show(scroll);
 }
 
 scenes.forEach((scene, i) => {
@@ -252,7 +252,7 @@ document.addEventListener("keydown", event => {
   if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.repeat || event.target.closest("input,textarea,select,[contenteditable=true],details")) return;
   if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
     event.preventDefault();
-    go(index + (event.key === "ArrowRight" ? 1 : -1));
+    go(index + (event.key === "ArrowRight" ? 1 : -1), false);
   }
 });
 

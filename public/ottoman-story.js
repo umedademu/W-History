@@ -1,4 +1,4 @@
-import {createMapLayout} from "./map-layout.js?v=0.043";
+import {createMapLayout} from "./map-layout.js?v=0.044";
 import {pages as scenes} from "./ottoman-pages.js?v=0.031";
 import {entities,positionFor} from "./ottoman-storyboard.js?v=0.031";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
@@ -233,7 +233,7 @@ function show(scroll=false){
   if(scroll)document.querySelector(".story-stage").scrollIntoView({block:"start",behavior:"instant"});
 }
 
-function go(next){next=Math.max(0,Math.min(scenes.length-1,next));if(next===index)return;index=next;show(true);}
+function go(next, scroll = true){next=Math.max(0,Math.min(scenes.length-1,next));if(next===index)return;index=next;show(scroll);}
 scenes.forEach((scene,i)=>{
   const b=document.createElement("button");b.type="button";b.dataset.scene=i;b.textContent=String(i+1).padStart(2,"0");b.title=scene.title;b.setAttribute("aria-label",(i+1)+"ページ目「"+scene.title+"」へ移動");b.addEventListener("click",()=>go(i));byId("scene-nav").append(b);
 });
@@ -247,7 +247,7 @@ byId("animation-play").addEventListener("click",()=>{
 
 document.addEventListener("keydown",event=>{
   if(event.altKey||event.ctrlKey||event.metaKey||event.shiftKey||event.repeat||event.target.closest("input,textarea,select,[contenteditable=true],details"))return;
-  if(event.key==="ArrowRight"||event.key==="ArrowLeft"){event.preventDefault();go(index+(event.key==="ArrowRight"?1:-1));}
+  if(event.key==="ArrowRight"||event.key==="ArrowLeft"){event.preventDefault();go(index+(event.key==="ArrowRight"?1:-1), false);}
 });
 new ResizeObserver(()=>{const size=map.clientWidth+","+map.clientHeight;if(size===lastSize)return;drawMap(activeIntro);}).observe(map);
 reduced.addEventListener("change",()=>{playing=!reduced.matches;drawMap(activeIntro);});

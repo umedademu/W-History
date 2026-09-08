@@ -1,4 +1,4 @@
-import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.043";
+import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.044";
 
 const scenes = [
   {
@@ -333,11 +333,11 @@ function renderScene({ moveToStage = false } = {}) {
   if (moveToStage) document.querySelector(".story-stage").scrollIntoView({ block: "start", behavior: "instant" });
 }
 
-function goTo(index) {
+function goTo(index, moveToStage = true) {
   const nextIndex = Math.max(0, Math.min(scenes.length - 1, index));
   if (nextIndex === sceneIndex) return;
   sceneIndex = nextIndex;
-  renderScene({ moveToStage: true });
+  renderScene({ moveToStage });
 }
 
 scenes.forEach((scene, index) => {
@@ -361,7 +361,7 @@ document.addEventListener("keydown", (event) => {
   if (event.target.closest("input, textarea, select, [contenteditable=true], details")) return;
   if (event.key === "ArrowRight" || event.key === "ArrowLeft") {
     event.preventDefault();
-    goTo(sceneIndex + (event.key === "ArrowRight" ? 1 : -1));
+    goTo(sceneIndex + (event.key === "ArrowRight" ? 1 : -1), false);
   }
 });
 let mapSize = "";
