@@ -1,5 +1,5 @@
-import { maximumMapScale } from "./map-camera.js?v=0.045";
-import { createMapLayout } from "./map-layout.js?v=0.045";
+import { maximumMapScale } from "./map-camera.js?v=0.046";
+import { createMapLayout } from "./map-layout.js?v=0.046";
 // 人物は透過PNG。位置は地図と同じ緯度・経度から求める。
 const capital = [66.97, 39.65];
 const actor = (name, image, point, options = {}) => ({ name, image, point, ...options });
@@ -86,7 +86,7 @@ function pathFor(definition, routes) {
 export function characterCamera(scene, routes, project, width, height, small) {
   const definition = characterScenes[scene.characters];
   const route = pathFor(definition, routes);
-  const points = [...definition.cast.filter((item) => !item.travel).map((item) => item.point), ...route].map(project);
+  const points = [...definition.cast.filter((item) => !item.travel).map((item) => item.point), ...route, ...(scene.nameTags ?? []).map(tag=>tag.at)].map(project);
   const base = small ? scene.mobileCamera : scene.camera;
   const xs = points.map((p) => p[0]), ys = points.map((p) => p[1]);
   const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);

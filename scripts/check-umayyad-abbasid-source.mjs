@@ -18,7 +18,7 @@ for (const group of groups) {
 
   for (const term of group.terms) {
     if (!narrative.includes(term)) throw new Error(`02章 ${scene.id}: 本文に「${term}」がありません。`);
-    if (!map.includes(term)) throw new Error(`02章 ${scene.id}: 地図に「${term}」がありません。`);
+    if (!map.includes(term)) throw new Error(`02章 ${scene.id}: 地図用資料に「${term}」がありません。`);
   }
 
   for (const strong of scene.body.flatMap(paragraph => [...paragraph.matchAll(/<strong>(.*?)<\/strong>/g)].map(match => match[1]))) {
@@ -43,4 +43,4 @@ const allText = join(scenes);
 for (const term of removed) if (allText.includes(term)) throw new Error(`02章に対象範囲外の語「${term}」が残っています。`);
 
 const termCount = groups.reduce((sum, group) => sum + group.terms.length, 0);
-console.log(`02章の${scenes.length}場面・原資料由来${termCount}項目について、本文と地図の両方への掲載順を確認しました。`);
+console.log(`02章の${scenes.length}場面・原資料由来${termCount}項目について、原文と地図用資料の掲載順を確認しました。`);

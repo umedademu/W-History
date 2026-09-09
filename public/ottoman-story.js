@@ -1,9 +1,10 @@
-import { maximumMapScale } from "./map-camera.js?v=0.045";
-import {createMapLayout} from "./map-layout.js?v=0.045";
+import { mapNamePlan, renderMapNameConcepts, entityNameForNarrative } from "./map-name-coverage.js?v=0.046";
+import { maximumMapScale } from "./map-camera.js?v=0.046";
+import {createMapLayout} from "./map-layout.js?v=0.046";
 import {pages as scenes} from "./ottoman-pages.js?v=0.031";
 import {entities,positionFor} from "./ottoman-storyboard.js?v=0.031";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
-import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.045";
+import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.046";
 
 import {referencesIn} from "./ottoman-names.js?v=0.018";
 
@@ -43,7 +44,7 @@ function svg(tag,attrs={},text){
 }
 function geometry(step,width,height){
   const [w,s,e,n]=step.frame??scenes[index].frame;
-  const points=[[w,n],[e,s],...step.ids.map(id=>positionFor(id,step)),
+  const points=[[w,n],[e,s],...step.ids.map(id=>positionFor(id,step)), ...(step.nameTags??[]).map(tag=>tag.at),
     ...(step.moves??[]).flatMap(r=>r.path),...(step.messages??[]).flatMap(r=>r.path),
     ...step.ids.flatMap(id=>entities[id].outline??[]),...(step.areas??[]).flatMap(a=>a.points)].map(project);
   const xs=points.map(p=>p[0]),ys=points.map(p=>p[1]);
@@ -67,7 +68,12 @@ function updateControls(){
 
 function drawMap(mode="none",restart=false){
   stop();orientation.cancel();activeIntro=mode;
-  const scene=scenes[index],step=currentPart(),width=map.clientWidth,height=map.clientHeight;
+  const scene=scenes[index], original=currentPart(), width=map.clientWidth,height=map.clientHeight;
+  if(map.dataset.scene!==scene.id)map.style.minHeight="";
+  const labels=Object.fromEntries(original.ids.map(id=>[id,entityNameForNarrative(entities[id],original.labels?.[id],scene)]));
+  const names=mapNamePlan(scene,original.ids.map(id=>({text:labels[id],at:positionFor(id,original)})));
+  const step={...original,labels,nameTags:names.tags};
+  renderMapNameConcepts(map,names.concepts);
   if(!width||!height)return;lastSize=width+","+height;
   const camera=geometry(step,width,height),{scale,x,y,toScreen}=camera;
   const polygon=points=>points.map(p=>toScreen(p).join(",")).join(" ");
@@ -119,11 +125,11 @@ function drawMap(mode="none",restart=false){
     }
     return {route,path,reveal,head,length};
   });
-  const labels=svg("g",{class:"ottoman-labels"}),pins=svg("g",{class:"ottoman-pins"});map.append(pins,labels);
+  const labelLayer=svg("g",{class:"ottoman-labels"}),pins=svg("g",{class:"ottoman-pins"});map.append(pins,labelLayer);
   const locateNodes=[];
   function label(text,point,attrs={}){
     const [px,py]=toScreen(point),node=svg("text",{x:px,y:py+20,"text-anchor":"middle","data-anchor-x":px,"data-anchor-y":py,...attrs},text);
-    labels.append(node);return node;
+    labelLayer.append(node);return node;
   }
   for(const id of step.ids){
     const e=entities[id],point=positionFor(id,step),[px,py]=toScreen(point);
@@ -133,6 +139,7 @@ function drawMap(mode="none",restart=false){
     pins.append(ring);locateNodes.push(ring);
     label(step.labels?.[id]??e.name,point,{class:e.kind==="state"?"ottoman-country":"ottoman-city","data-entity":id});
   }
+  for(const tag of step.nameTags)label(tag.text,tag.at,{class:"map-name-label"});
   routeNodes.forEach(({route})=>{if(route.label)label(route.label,route.path[Math.floor((route.path.length-1)/2)],{class:"ottoman-route-label"});});
   const small=width<500;
   const items=step.ids.filter(id=>!["place","state"].includes(entities[id].kind)).map(id=>{
@@ -250,6 +257,7 @@ document.addEventListener("keydown",event=>{
   if(event.altKey||event.ctrlKey||event.metaKey||event.shiftKey||event.repeat||event.target.closest("input,textarea,select,[contenteditable=true],details"))return;
   if(event.key==="ArrowRight"||event.key==="ArrowLeft"){event.preventDefault();go(index+(event.key==="ArrowRight"?1:-1), false);}
 });
+map.addEventListener("map-layout-resize",()=>drawMap(activeIntro));
 new ResizeObserver(()=>{const size=map.clientWidth+","+map.clientHeight;if(size===lastSize)return;drawMap(activeIntro);}).observe(map);
 reduced.addEventListener("change",()=>{playing=!reduced.matches;drawMap(activeIntro);});
 show();

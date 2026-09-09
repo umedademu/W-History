@@ -1,5 +1,6 @@
-import { maximumMapScale } from "./map-camera.js?v=0.045";
-import { createMapLayout } from "./map-layout.js?v=0.045";
+import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.046";
+import { maximumMapScale } from "./map-camera.js?v=0.046";
+import { createMapLayout } from "./map-layout.js?v=0.046";
 import { locations, zones, scenes } from "./timur-after-scenes.js?v=0.031";
 
 const NS = "http://www.w3.org/2000/svg";
@@ -46,7 +47,7 @@ function camera(scene, width, height) {
   const [west,south,east,north] = scene.area;
   const base = [...project([west,north]), (east-west)*12, (north-south)*15];
   const items = [...scene.actors,...scene.props];
-  const points = [...scene.pins.map((id) => locations[id].point), ...items.flatMap((item) => item.route === undefined ? [pointOf(item.at)] : scene.routes[item.route].points)].map(project);
+  const points = [...scene.pins.map((id) => locations[id].point), ...(scene.tags ?? []).map(tag=>tag.at), ...items.flatMap((item) => item.route === undefined ? [pointOf(item.at)] : scene.routes[item.route].points)].map(project);
   const xs = points.map(p=>p[0]), ys = points.map(p=>p[1]);
   const minX=Math.min(...xs), maxX=Math.max(...xs), minY=Math.min(...ys), maxY=Math.max(...ys);
   const side = small.matches ? 71 : 106;
@@ -59,6 +60,10 @@ function camera(scene, width, height) {
 }
 
 function renderMap(scene) {
+  if(el["story-map"].dataset.scene !== scene.id) el["story-map"].style.minHeight = "";
+  el["story-map"].dataset.scene=scene.id;
+  scene = withMapNames(scene, locations);
+  renderMapNameConcepts(el["story-map"], scene.mapNamePlan.concepts);
   stop();
   const map = el["story-map"], width = map.clientWidth, height = map.clientHeight;
   const [left,top,w,h]=camera(scene,width,height), scale=width/w;
@@ -73,6 +78,7 @@ function renderMap(scene) {
     el["map-regions"].append(svg("path",{d:pathText(zone.points,true),class:"after-zone",fill:zone.color,stroke:zone.color}));
   }
   for (const [point,text] of [[[51,41.4],"カスピ海"],[[59.8,45.4],"アラル海"],[[34,43.8],"黒海"]]) {
+    if (!(scene.title + scene.body.join("")).includes(text)) continue;
     const [x,y]=project(point);
     if(x>left+20/scale&&x<left+w-20/scale&&y>top+14/scale&&y<top+h-50/scale) el["map-labels"].append(svg("text",{x,y,"text-anchor":"middle",class:"sea-label",style:`font-size:${(small.matches?10:12)/scale}px`},text));
   }
@@ -83,11 +89,15 @@ function renderMap(scene) {
   scene.pins.forEach(key=>{
     const place=locations[key], [x,y]=project(place.point), isCapital=scene.capital===key;
     el["map-places"].append(isCapital ? svg("path",{d:`M${x},${y-5/scale} l${5/scale},${5/scale} -${5/scale},${5/scale} -${5/scale},-${5/scale} Z`,fill:"#24778a"}) : svg("circle",{cx:x,cy:y,r:3/scale,fill:"#a65335",stroke:"#fff9eb","stroke-width":1.5/scale}));
-    const node=svg("text",{x,y,"text-anchor":"middle",class:isCapital?"capital-label":"place-label",style:`font-size:${(small.matches?10.5:12)/scale}px`},place.name);
+    const node=svg("text",{x,y,"text-anchor":"middle",class:isCapital?"capital-label":"place-label",style:`font-size:${(small.matches?10.5:12)/scale}px`},mapDisplayName(place.name,scene));
     node.setAttribute("y", y + 19 / scale);
     node.dataset.anchorX = x; node.dataset.anchorY = y;
     el["map-places"].append(node);
   });
+  for(const tag of scene.tags ?? []) {
+    const [x,y]=project(tag.at);
+    el["map-labels"].append(svg("text",{x,y,"text-anchor":"middle",class:"map-name-label","data-anchor-x":x,"data-anchor-y":y},tag.text));
+  }
   const root=el["map-characters"];
   root.replaceChildren(); root.dataset.scene=scene.id; root.dataset.phase="loading";
   root.setAttribute("aria-label",`${scene.before}。${scene.after}。`);
@@ -173,6 +183,7 @@ document.addEventListener("keydown",event=>{
   if(event.altKey||event.ctrlKey||event.metaKey||event.shiftKey||event.repeat||event.target.closest("input,textarea,select,[contenteditable=true],details"))return;
   if(["ArrowRight","ArrowLeft"].includes(event.key)){event.preventDefault();go(index+(event.key==="ArrowRight"?1:-1), false);}
 });
+el["story-map"].addEventListener("map-layout-resize",()=>renderMap(scenes[index]));
 new ResizeObserver(()=>{
   const size=`${el["story-map"].clientWidth},${el["story-map"].clientHeight}`;
   if(size===lastSize)return;lastSize=size;renderMap(scenes[index]);

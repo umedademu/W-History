@@ -40,4 +40,4 @@ for (const item of spec.checks) {
 }
 for (const token of ["01 / 19", "max=\"19\"", "data-chapter=\"6\"", "data-chapter=\"10\""]) if (!html.includes(token)) errors.push(`HTMLの場面数・章境界が未更新です: ${token}`);
 if (errors.length) { console.error(errors.join("\n")); process.exit(1); }
-console.log(`イスラーム文化: 原文順序・固有名詞の本文/地図対応・画像指定を確認しました（${scenes.length}場面、${spec.checks.reduce((n,x)=>n+x.terms.length,0)}項目）。`);
+console.log(`イスラーム文化: 原文順序・固有名詞の本文/地図用資料対応・画像指定を確認しました（${scenes.length}場面、${spec.checks.reduce((n,x)=>n+x.terms.length,0)}項目）。`);

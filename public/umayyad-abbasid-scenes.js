@@ -100,7 +100,7 @@ export const scenes = [
     actors: [{ name: "アブド＝アルマリク", image: "abd-almalik", at: "damascus", bubble: "金貨と銀貨を統一しよう" }],
     title: "金貨と銀貨を統一し、\n二つの経済圏を結ぶ。", kicker: "経済のアラブ化", mapHeading: "旧東ローマと旧ササン朝の経済圏を接続する", focus: "ディナール金貨とディルハム銀貨",
     before: "旧東ローマは金貨、旧ササン朝は銀貨を使う", after: "アラビア語を刻んだ貨幣で交易圏を結ぶ",
-    body: ["貨幣は、アラビア語を刻んだ<strong>ディナール金貨</strong>と<strong>ディルハム銀貨</strong>へ統一された。", "<strong>ダマスクス【ダマスカス】</strong>を中心に、金貨を使う<strong>旧東ローマ【ビザンツ】帝国の経済圏</strong>と、銀貨を使う<strong>旧ササン朝の経済圏</strong>を結び、<strong>交易</strong>を活発にした。"],
+    body: ["<strong>アブド＝アルマリク</strong>のもとで、貨幣はアラビア語を刻んだ<strong>ディナール金貨</strong>と<strong>ディルハム銀貨</strong>へ統一された。", "<strong>ダマスクス【ダマスカス】</strong>を中心に、金貨を使う<strong>旧東ローマ【ビザンツ】帝国の経済圏</strong>と、銀貨を使う<strong>旧ササン朝の経済圏</strong>を結び、<strong>交易</strong>を活発にした。"],
     takeaway: "共通貨幣が、東西の経済圏を結びつけた。", note: "言語と貨幣の統一は、政治だけでなく交易にも作用しました。"
   }),
   makeScene({
@@ -145,7 +145,7 @@ export const scenes = [
     facts: ["マワーリー【改宗者】にもジズヤ【人頭税】・ハラージュ【土地税】を課す／ジズヤは信仰の自由を保証する税", "アラブ人はアター【俸給】を受給し免税／『コーラン』はムスリムの平等を説く"], actors: [{ name: "税を負担するマワーリー", image: "mawali-farmer", at: [55, 35], route: 0, bubble: "改宗しても税が続くのは不平等だ" }, { name: "ウマイヤ朝の徴税官", image: "abd-almalik", at: "damascus", bubble: "税収を保つ" }],
     title: "マワーリーへの課税が続き、\n不満が高まる。", kicker: "改宗しても残る待遇差", mapHeading: "征服地のマワーリーからダマスクスへ向かう不満", focus: "ジズヤ・ハラージュと『コーラン』の平等",
     before: "非アラブ人がイスラーム教へ改宗しマワーリーが増える", after: "不平等への不満をアッバース家の革命運動が吸収する",
-    body: ["<strong>ダマスクス【ダマスカス】</strong>を中心とする王朝のもとで、非アラブ人の<strong>マワーリー【改宗者】</strong>は、<strong>イスラーム教</strong>へ改宗しても<strong>ジズヤ【人頭税】</strong>と<strong>ハラージュ【土地税】</strong>を課されることがあった。ジズヤは本来、<strong>信仰の自由</strong>を保証するための税だった。", "一方、<strong>アラブ人</strong>は<strong>アター【俸給】</strong>を受けて<strong>免税</strong>された。『<strong>コーラン</strong>』が説く<strong>ムスリムの平等</strong>に反するという不満を、<strong>アッバース家</strong>の<strong>革命運動</strong>が吸収した。"],
+    body: ["<strong>ダマスクス【ダマスカス】</strong>を中心とする<strong>ウマイヤ朝</strong>のもとで、非アラブ人の<strong>マワーリー【改宗者】</strong>は、<strong>イスラーム教</strong>へ改宗しても<strong>ジズヤ【人頭税】</strong>と<strong>ハラージュ【土地税】</strong>を課されることがあった。ジズヤは本来、<strong>信仰の自由</strong>を保証するための税だった。", "一方、<strong>アラブ人</strong>は<strong>アター【俸給】</strong>を受けて<strong>免税</strong>された。『<strong>コーラン</strong>』が説く<strong>ムスリムの平等</strong>に反するという不満を、<strong>アッバース家</strong>の<strong>革命運動</strong>が吸収した。"],
     takeaway: "マワーリーへの不平等な課税が、王朝への反発を強めた。", note: "税の種類と、改宗後も続いた負担を区別して示します。"
   }),
   makeScene({
@@ -168,7 +168,7 @@ export const scenes = [
     id: "shia-suppression", chapter: 1, year: "建国後", frame: [34, 29, 49, 38], zones: ["abbasid"], pins: ["kufa", "baghdad"], routes: [{ points: [[44.4, 32.03], [44.37, 33.32]], kind: "rival" }],
     facts: ["アッバース朝：スンナ派を保護", "アリーの血統を掲げるシーア派を弾圧し反乱を鎮圧"], actors: [{ name: "反乱するシーア派", image: "shia-rebel", at: "kufa", route: 0, bubble: "協力したのに弾圧された" }, { name: "アッバース朝のスンナ派", image: "abu-alabbas", at: "baghdad", bubble: "王朝の正統性を守る" }],
     title: "建国後はスンナ派を保護し、\nシーア派を弾圧する。", kicker: "革命の協力者との決裂", mapHeading: "クーファの反乱とアッバース朝の鎮圧", focus: "アリーの血統とアッバース家の対立",
-    before: "シーア派がアッバース革命に協力する", after: "アッバース朝がシーア派の反乱を鎮圧する",
+    before: "シーア派がアッバース朝の成立に協力する", after: "アッバース朝がシーア派の反乱を鎮圧する",
     body: ["<strong>シーア派</strong>の協力で成立した<strong>アッバース朝</strong>は、建国後には<strong>スンナ派</strong>を保護し、シーア派を<strong>弾圧</strong>した。", "<strong>アッバース家</strong>は<strong>アリーの血統</strong>ではないため、シーア派の考えを王朝への脅威とみなした。<strong>クーファ</strong>などで起きた<strong>反乱</strong>は<strong>バグダード</strong>側に<strong>鎮圧</strong>された。"],
     takeaway: "革命に協力したシーア派は、建国後のアッバース朝と対立した。", note: "協力から弾圧へ転じた順番を分けて示します。"
   }),
@@ -185,7 +185,7 @@ export const scenes = [
     tags: [{ at: [35, 36], text: "アラブ帝国" }, { at: [46, 36], text: "イスラーム帝国" }],
     facts: ["ジズヤ【人頭税】：ウマイヤ朝は改宗者にも課税する不平等／アッバース朝はムスリムを免税し平等へ", "ハラージュ【土地税】：アッバース朝ではアラブ人・改宗者・異教徒に課税"], actors: [{ name: "イスラーム教徒のアラブ人", image: "arab-cavalry", at: "damascus", bubble: "ウマイヤ朝では特権を持つ" }, { name: "イスラーム教徒の改宗者", image: "mawali-farmer", at: "baghdad", bubble: "アッバース朝では平等になる" }],
     title: "『アラブ帝国』から、\n『イスラーム帝国』へ変わる。", kicker: "税制表で比べる二王朝", mapHeading: "ダマスクスのウマイヤ朝とバグダードのアッバース朝", focus: "ジズヤ・ハラージュと三つの身分",
-    before: "ウマイヤ朝ではアラブ人が特権を持つ", after: "アッバース朝ではムスリム間の平等を進める",
+    before: "ウマイヤ朝ではアラブ人が特権を持つ", after: "アッバース朝ではイスラーム教徒間の平等を進める",
     body: ["<strong>ダマスクス【ダマスカス】</strong>の<strong>ウマイヤ朝</strong>では、<strong>イスラーム教徒のアラブ人</strong>は<strong>ジズヤ【人頭税】</strong>を免れたが、<strong>改宗者</strong>と<strong>異教徒</strong>には課された。<strong>ハラージュ【土地税】</strong>も、末期を除けばアラブ人は免れ、改宗者と異教徒が負担した。", "<strong>バグダード</strong>の<strong>アッバース朝</strong>ではアラブ人と改宗者のジズヤを免除し、異教徒には課した。ハラージュは土地を持つ<strong>アラブ人</strong>・改宗者・異教徒が負担した。<strong>不平等</strong>な『<strong>アラブ帝国</strong>』から、<strong>平等</strong>を進める『<strong>イスラーム帝国</strong>』へ変わった。"],
     takeaway: "民族ではなく、信仰と土地を基準に税制を整えた。", note: "二つの都を結びながら、王朝交代による税制の変化を比べます。"
   }),

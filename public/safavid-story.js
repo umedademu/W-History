@@ -1,6 +1,7 @@
-import { maximumMapScale } from "./map-camera.js?v=0.045";
-import { createMapLayout } from "./map-layout.js?v=0.045";
-import {places,zones,scenes} from "./safavid-scenes.js?v=0.031";
+import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.046";
+import { maximumMapScale } from "./map-camera.js?v=0.046";
+import { createMapLayout } from "./map-layout.js?v=0.046";
+import {places,zones,scenes} from "./safavid-scenes.js?v=0.046";
 
 const NS="http://www.w3.org/2000/svg";
 const project=([lon,lat])=>[(lon-20)*12,(58-lat)*15];
@@ -20,6 +21,9 @@ function geometry(scene,width,height){
   return {scale,x,y,toScreen:p=>{const q=project(p);return [q[0]*scale+x,q[1]*scale+y];}};
 }
 function drawMap(scene){
+  if(map.dataset.scene !== scene.id) map.style.minHeight = "";
+  scene = withMapNames(scene, places);
+  renderMapNameConcepts(map, scene.mapNamePlan.concepts);
   stop();
   const width=map.clientWidth,height=map.clientHeight;
   if(!width||!height)return;
@@ -32,6 +36,7 @@ function drawMap(scene){
   const polygon=points=>points.map(p=>toScreen(p).join(",")).join(" ");
   for(const key of scene.zones){const z=zones[key];regions.append(svg("polygon",{points:polygon(z.points),fill:z.color,stroke:z.color,"stroke-width":1.1}));}
   for(const [p,text] of [[[51,41.8],"カスピ海"],[[51.5,26.3],"ペルシア湾"],[[35,43.4],"黒海"]]){
+    if (!(scene.title + scene.body.join("")).includes(text)) continue;
     const [sx,sy]=toScreen(p);if(sx>40&&sx<width-40&&sy>32&&sy<height-40)map.append(svg("text",{x:sx,y:sy,class:"safavid-water","text-anchor":"middle"},text));
   }
   const arrows=svg("g",{class:"safavid-arrows"});map.append(arrows);
@@ -54,6 +59,7 @@ function drawMap(scene){
   });
   const pins=svg("g",{class:"safavid-pins"}),labels=svg("g",{class:"safavid-labels"});map.append(pins,labels);
   function label(text, point, className) {
+    text = mapDisplayName(text, scene);
     const [px, py] = toScreen(point);
     const node = svg("text", { x: px, y: py + 20, class: className, "text-anchor": "middle", "data-anchor-x": px, "data-anchor-y": py }, text);
     labels.append(node);
@@ -163,6 +169,7 @@ byId("previous").addEventListener("click",()=>go(index-1));byId("next").addEvent
 byId("replay").addEventListener("click",()=>drawMap(scenes[index]));
 document.querySelectorAll("[data-chapter]").forEach(b=>b.addEventListener("click",()=>go(Number(b.dataset.chapter))));
 document.addEventListener("keydown",event=>{if(event.altKey||event.ctrlKey||event.metaKey||event.shiftKey||event.repeat||event.target.closest("input,textarea,select,[contenteditable=true],details"))return;if(event.key==="ArrowRight"||event.key==="ArrowLeft"){event.preventDefault();go(index+(event.key==="ArrowRight"?1:-1), false);}});
+map.addEventListener("map-layout-resize",()=>drawMap(scenes[index]));
 new ResizeObserver(()=>{const size=`${map.clientWidth},${map.clientHeight}`;if(size===lastSize)return;lastSize=size;drawMap(scenes[index]);}).observe(map);
 reduced.addEventListener("change",()=>drawMap(scenes[index]));
 // この教材は無音。音声・動画・人物画像・学習データの読み書きを使用しない。

@@ -14,7 +14,7 @@ for(const item of sourceNames){
   const part=byKey.get(item.sourceKey);
   assert(part,`${item.source}: 対応する説明がありません ${item.sourceKey}`);
   assert(part.text.includes(item.term),`${item.source}: 本文に「${item.term}」がありません`);
-  assert(part.ids.includes(item.entity),`${item.source}: 地図に「${item.term}」がありません`);
+  assert(part.ids.includes(item.entity),`${item.source}: 地図用資料に「${item.term}」がありません`);
   assert(entities[item.entity],`${item.source}: 地図対象が未登録です ${item.entity}`);
 }
 for(const part of parts)

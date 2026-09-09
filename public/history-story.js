@@ -1,5 +1,6 @@
-import { maximumMapScale } from "./map-camera.js?v=0.045";
-import { createMapLayout } from "./map-layout.js?v=0.045";
+import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.046";
+import { maximumMapScale } from "./map-camera.js?v=0.046";
+import { createMapLayout } from "./map-layout.js?v=0.046";
 
 export function mountStory({ places, zones, scenes, imageDirectory }) {
 const NS = "http://www.w3.org/2000/svg";
@@ -30,6 +31,9 @@ function geometry(scene, width, height) {
 const resolveImg = key => key.includes("/") ? `/images/${key}.png` : `/images/${imageDirectory}/${key}.png`;
 
 function drawMap(scene) {
+  if(map.dataset.scene !== scene.id) map.style.minHeight = "";
+  scene = withMapNames(scene, places);
+  renderMapNameConcepts(map, scene.mapNamePlan.concepts);
   stop();
   const width = map.clientWidth, height = map.clientHeight;
   if (!width || !height) return;
@@ -53,6 +57,7 @@ function drawMap(scene) {
   }
 
   for (const [p, text] of [[[24, 34.5], "地中海"], [[35, 43.5], "黒海"], [[37.5, 23.5], "紅海"], [[50, 27], "ペルシア湾"]]) {
+    if (!(scene.title + scene.body.join("")).includes(text)) continue;
     const [sx, sy] = toScreen(p);
     if (sx > 40 && sx < width - 40 && sy > 32 && sy < height - 40) {
       map.append(svg("text", { x: sx, y: sy, class: "history-water", "text-anchor": "middle" }, text));
@@ -85,6 +90,7 @@ function drawMap(scene) {
   const pins = svg("g", { class: "history-pins" }), labels = svg("g", { class: "history-labels" });
   map.append(pins, labels);
   function label(text, point, className) {
+    text = mapDisplayName(text, scene);
     const [px, py] = toScreen(point);
     const node = svg("text", { x: px, y: py + 20, class: className, "text-anchor": "middle", "data-anchor-x": px, "data-anchor-y": py }, text);
     labels.append(node);
@@ -257,6 +263,7 @@ document.addEventListener("keydown", event => {
   }
 });
 
+map.addEventListener("map-layout-resize",()=>drawMap(scenes[index]));
 new ResizeObserver(() => {
   const size = `${map.clientWidth},${map.clientHeight}`;
   if (size === lastSize) return;

@@ -1,4 +1,5 @@
-import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.045";
+import { mapNamePlan, renderMapNameConcepts } from "./map-name-coverage.js?v=0.046";
+import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.046";
 
 const scenes = [
   {
@@ -265,6 +266,16 @@ function drawRoute(key, scene) {
 }
 
 function renderMap(scene) {
+  if(elements["story-map"].dataset.scene!==scene.id) elements["story-map"].style.minHeight="";
+  elements["story-map"].dataset.scene=scene.id;
+  const mapItems=[
+    ...[...(scene.showCapital === false ? [] : ["samarkand"]),...scene.places].map(k=>({text:places[k].label,at:places[k].point})),
+    ...scene.labels.map(k=>({text:labels[k].text,at:labels[k].point})),...scene.seas.map(k=>({text:seaLabels[k].text,at:seaLabels[k].point})),
+    ...characterScenes[scene.characters].cast.map(a=>({text:a.name,at:a.point}))
+  ];
+  const names=mapNamePlan(scene,mapItems);
+  scene={...scene,nameTags:names.tags};
+  renderMapNameConcepts(elements["story-map"],names.concepts);
   stopCharacters();
   ["map-regions", "map-labels", "map-routes", "map-places", "map-annotations"].forEach((id) => elements[id].replaceChildren());
   const map = elements["story-map"];
@@ -299,6 +310,7 @@ function renderMap(scene) {
     const [x,y] = project(places.otrar.point);
     elements["map-annotations"].append(svgElement("path", { d: `M${x - 7},${y - 8} l14,16 m0,-16 l-14,16`, fill: "none", stroke: "#a6422c", "stroke-width": 4 }));
   }
+  for (const tag of scene.nameTags) elements["map-labels"].append(mapText(tag.at,tag.text,"map-name-label"));
   stopCharacters = renderMapCharacters(elements["map-characters"], scene, { map, routes, project, reducedMotion: reducedMotion.matches });
 }
 
@@ -365,6 +377,7 @@ document.addEventListener("keydown", (event) => {
   }
 });
 let mapSize = "";
+elements["story-map"].addEventListener("map-layout-resize",()=>renderMap(scenes[sceneIndex]));
 new ResizeObserver(() => {
   const map = elements["story-map"];
   const size = `${map.clientWidth},${map.clientHeight}`;

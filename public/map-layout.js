@@ -1,4 +1,4 @@
-import { fitMapSprite } from "./map-sprites.js?v=0.045";
+import { fitMapSprite } from "./map-sprites.js?v=0.046";
 
 const NS = "http://www.w3.org/2000/svg";
 const gap = 6;
@@ -48,6 +48,18 @@ export function createMapLayout({ map, root, items }) {
     text.style.fontSize = `${pixels / scale}px`;
   }
   // 画面内へ出ているラベルだけを配置する。遠くの地名を呼び寄せない。
+  // 長い王朝名・別名は省略せず折り返す。高さを増やしても横幅不足は解消しない。
+  for (const node of map.querySelectorAll('text:not(.city-plan text):not(.orientation-layer text)')) {
+    const maxWidth=Math.min(220,width-32), original=node.textContent;
+    if (node.getBoundingClientRect().width <= maxWidth) continue;
+    const count=Math.max(4,Math.floor([...original].length*maxWidth/node.getBoundingClientRect().width));
+    const characters=[...original], x=node.getAttribute("x");
+    node.replaceChildren();
+    for(let i=0;i<characters.length;i+=count){
+      const line=document.createElementNS(NS,"tspan");line.setAttribute("x",x);line.setAttribute("dy",i?"1.3em":"0");
+      line.textContent=characters.slice(i,i+count).join("");node.append(line);
+    }
+  }
   const labels = [...map.querySelectorAll("text")].filter(node => !node.closest(".city-plan,.orientation-layer")).flatMap(node => {
     const b = localRect(node);
     if (b.right < 0 || b.left > width || b.bottom < 0 || b.top > height) return [];
@@ -74,6 +86,7 @@ export function createMapLayout({ map, root, items }) {
     const at = new DOMPoint(chosen.x - label.centerOffset + viewport.left, chosen.y + viewport.top).matrixTransform(inverse);
     const start = new DOMPoint(label.anchor[0] + viewport.left, label.anchor[1] + viewport.top).matrixTransform(inverse);
     label.node.setAttribute("x", at.x); label.node.setAttribute("y", at.y);
+    for(const line of label.node.querySelectorAll("tspan")) line.setAttribute("x",at.x);
     label.guide.setAttribute("x1", start.x); label.guide.setAttribute("y1", start.y);
     label.guide.setAttribute("x2", at.x); label.guide.setAttribute("y2", at.y);
     label.guide.hidden = Math.hypot(chosen.x - label.anchor[0], chosen.y - label.anchor[1]) < 24;
@@ -108,6 +121,11 @@ export function createMapLayout({ map, root, items }) {
     // 混雑時は表示を隠したり重ねたりせず、地図の高さを確保して再配置する。
     map.style.minHeight = `${height + 96}px`;
     root.style.opacity = "0";
+    // 前ページと同じ高さへ戻った場合は寸法監視が通知されないため、再配置を予約する。
+    const contents = root.firstChild;
+    requestAnimationFrame(() => {
+      if (root.firstChild === contents && root.style.opacity === "0") map.dispatchEvent(new Event("map-layout-resize"));
+    });
   }
   return () => {
     if (!fits) { expand(); return; }

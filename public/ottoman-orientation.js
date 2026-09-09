@@ -1,4 +1,4 @@
-import { maximumMapScale } from "./map-camera.js?v=0.045";
+import { maximumMapScale } from "./map-camera.js?v=0.046";
 // 北を上にしたまま、世界・地域・各場面を同じ座標でつなぐ。
 export const worldMap = { url: "/ottoman-world-map.svg?v=0.007", width: 1440, height: 720 };
 export const project = ([lon, lat]) => [(lon + 180) * 4, (90 - lat) * 4];

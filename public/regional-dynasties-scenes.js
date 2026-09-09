@@ -155,7 +155,7 @@ export const scenes = [
     actors: [{ name: "アルプ＝アルスラーン", image: "tughril-beg", at: "manzikert", bubble: "ビザンツ帝国軍を破る" }],
     title: "マラーズギルドの勝利が、\n十字軍遠征の背景になる。", kicker: "イラン・イラクの王朝③", mapHeading: "マラーズギルドからアナトリアと西欧へ", focus: "アルプ＝アルスラーンとビザンツ帝国",
     before: "セルジューク朝がビザンツ帝国と対峙する", after: "ビザンツ帝国が西欧へ援軍を求める",
-    body: ["<strong>アルプ＝アルスラーン【位1063〜72年】</strong>は、<strong>1071年</strong>の<strong>マラーズギルドの戦い</strong>で<strong>ビザンツ帝国軍</strong>を破り、<strong>ビザンツ帝国</strong>は<strong>アナトリア【小アジア】</strong>を失った。", "ビザンツ帝国が<strong>西欧</strong>へ援軍を求めたことが、<strong>十字軍遠征</strong>の背景になった。"],
+    body: ["<strong>セルジューク朝</strong>の<strong>アルプ＝アルスラーン【位1063〜72年】</strong>は、<strong>1071年</strong>の<strong>マラーズギルドの戦い</strong>で<strong>ビザンツ帝国軍</strong>を破り、<strong>ビザンツ帝国</strong>は<strong>アナトリア【小アジア】</strong>を失った。", "ビザンツ帝国が<strong>西欧</strong>へ援軍を求めたことが、<strong>十字軍遠征</strong>の背景になった。"],
     takeaway: "アナトリアへの進出が、西欧の十字軍遠征につながった。", note: "戦い、領土の変化、援軍要請を一続きで示します。"
   }),
   makeScene({
@@ -189,7 +189,7 @@ export const scenes = [
     facts: ["ガザン＝ハン【位1295〜1304年】", "即位直後にイスラームへ改宗", "イラン人宰相ラシード＝アッディーンを任命"], actors: [{ name: "ガザン＝ハン", image: "hulagu-khan", at: "tabriz", bubble: "イスラームへ改宗する" }],
     title: "ガザン＝ハンが改宗し、\nイスラームを国教とする。", kicker: "イラン・イラクの王朝⑦", mapHeading: "タブリーズから進むイル＝ハン国の改革", focus: "ガザン＝ハンとラシード＝アッディーン",
     before: "モンゴル系のイル＝ハン国がイランを支配する", after: "ガザン＝ハンがイスラームを国教とする",
-    body: ["<strong>イル＝ハン国</strong>の<strong>ガザン＝ハン【位1295〜1304年】</strong>は、都<strong>タブリーズ</strong>で即位すると、直後に<strong>イスラーム</strong>へ<strong>改宗</strong>し、これを<strong>国教</strong>とした。", "<strong>イラン</strong>の統治には、<strong>イラン人宰相</strong>の<strong>ラシード＝アッディーン</strong>を任命した。"],
+    body: ["<strong>モンゴル系</strong>の<strong>イル＝ハン国</strong>の<strong>ガザン＝ハン【位1295〜1304年】</strong>は、都<strong>タブリーズ</strong>で即位すると、直後に<strong>イスラーム</strong>へ<strong>改宗</strong>し、これを<strong>国教</strong>とした。", "<strong>イラン</strong>の統治には、<strong>イラン人宰相</strong>の<strong>ラシード＝アッディーン</strong>を任命した。"],
     takeaway: "モンゴル系王朝がイスラームを受け入れ、現地社会との結びつきを強めた。", note: "人物名と、改宗・国教化・宰相任命の順を確認します。"
   }),
   makeScene({
@@ -205,7 +205,7 @@ export const scenes = [
     tags: [{ at: [6, 30], text: "アラブ系" }, { at: [54, 30], text: "イラン系" }, { at: [72, 43], text: "トルコ系" }], facts: ["後ウマイヤ朝・ファーティマ朝・アッバース朝【バグダード】", "ブワイフ朝・サーマーン朝・カラ＝ハン朝", "10世紀はシーア派の反撃"],
     title: "10世紀、\nシーア派とトルコ系が台頭する。", kicker: "三世紀の勢力図②", mapHeading: "三カリフと東方諸王朝の10世紀", focus: "シーア派の反撃とトルコ系の登場",
     before: "イラン人政権の自立が進む", after: "三カリフと複数の民族系統の王朝が並ぶ",
-    body: ["<strong>10世紀</strong>には、<strong>コルドバ</strong>の<strong>後ウマイヤ朝</strong>、<strong>カイロ</strong>の<strong>ファーティマ朝</strong>、<strong>バグダード</strong>の<strong>アッバース朝</strong>が並んだ。<strong>アラブ系</strong>王朝に加え、<strong>シーア派</strong>のファーティマ朝・<strong>ブワイフ朝</strong>が力を持った。", "東方では<strong>イラン系</strong>の<strong>サーマーン朝</strong>と、<strong>中央アジア</strong>の<strong>トルコ系</strong><strong>カラ＝ハン朝【カラハン朝】</strong>が並んだ。10世紀は『<strong>シーア派の反撃</strong>』の時代でもあった。"],
+    body: ["<strong>イラン人</strong>政権の自立が進んだ<strong>10世紀</strong>には、<strong>コルドバ</strong>の<strong>後ウマイヤ朝</strong>、<strong>カイロ</strong>の<strong>ファーティマ朝</strong>、<strong>バグダード</strong>の<strong>アッバース朝</strong>の三つの<strong>カリフ</strong>政権が並んだ。<strong>アラブ系</strong>王朝に加え、<strong>シーア派</strong>のファーティマ朝・<strong>ブワイフ朝</strong>が力を持った。", "東方では<strong>イラン系</strong>の<strong>サーマーン朝</strong>と、<strong>中央アジア</strong>の<strong>トルコ系</strong><strong>カラ＝ハン朝【カラハン朝】</strong>が並んだ。10世紀は『<strong>シーア派の反撃</strong>』の時代でもあった。"],
     takeaway: "10世紀には、宗派と民族系統の異なる王朝が並立した。", note: "同じ王朝でも、宗派と民族系統は別の観点です。"
   }),
   makeScene({
@@ -261,7 +261,7 @@ export const scenes = [
     facts: ["サーマーン朝のマムルークだったアルプテギン", "アフガニスタンでガズナ朝を建国", "北インドへの侵入がインドのイスラーム化のきっかけ"], actors: [{ name: "アルプテギン", image: "aibak-sultan", at: "ghazna", route: 0, bubble: "北インドへ進む" }],
     title: "アルプテギンのガズナ朝が、\nインド進出を始める。", kicker: "中央アジアの王朝③", mapHeading: "アフガニスタンのガズナから北インドへ", focus: "マムルークの自立とインドのイスラーム化",
     before: "サーマーン朝の宮廷でトルコ人マムルークが力を持つ", after: "ガズナ朝が北インドへ侵入を重ねる",
-    body: ["<strong>アフガニスタン</strong>では、<strong>サーマーン朝</strong>の<strong>マムルーク</strong>だった<strong>アルプテギン</strong>が<strong>ガズナ</strong>で<strong>ガズナ朝</strong>を建てた。", "<strong>10世紀末</strong>から<strong>北インド</strong>への<strong>インド侵入</strong>を繰り返し、<strong>インドのイスラーム化</strong>のきっかけをつくった。こうして<strong>中央アジア</strong>からアフガニスタンが<strong>トルコ系イスラーム王朝</strong>の支配下へ入った。"],
+    body: ["<strong>アフガニスタン</strong>では、<strong>サーマーン朝</strong>の<strong>トルコ人</strong><strong>マムルーク</strong>だった<strong>アルプテギン</strong>が<strong>ガズナ</strong>で<strong>ガズナ朝</strong>を建てた。", "<strong>10世紀末</strong>から<strong>北インド</strong>への<strong>インド侵入</strong>を繰り返し、<strong>インドのイスラーム化</strong>のきっかけをつくった。こうして<strong>中央アジア</strong>からアフガニスタンが<strong>トルコ系イスラーム王朝</strong>の支配下へ入った。"],
     takeaway: "サーマーン朝のマムルークが自立し、インド進出の道を開いた。", note: "後に続くゴール朝との違いは、北インドの場面で整理します。"
   }),
   makeScene({
@@ -277,7 +277,7 @@ export const scenes = [
     facts: ["トゥグリル＝ベクがブワイフ朝を追放", "アッバース朝カリフからスルタン【支配者】称号", "カリフの権威とセルジューク朝の政治的支配権"], actors: [{ name: "トゥグリル＝ベク", image: "tughril-beg", at: "baghdad", bubble: "スルタンとして政治を担う" }],
     title: "カリフが権威を保ち、\nスルタンが政治を担う。", kicker: "トルコ人政権の台頭②", mapHeading: "1055年のバグダード入城", focus: "ブワイフ朝追放とスンナ派の逆襲",
     before: "シーア派ブワイフ朝がバグダードを支配する", after: "スンナ派セルジューク朝が政治的実権を得る",
-    body: ["<strong>1055年</strong>、<strong>トゥグリル＝ベク</strong>は<strong>バグダード</strong>で<strong>ブワイフ朝</strong>を追放し、<strong>アッバース朝カリフ</strong>から<strong>スルタン【支配者】</strong>の称号を受けた。", "<strong>スンナ派</strong>の<strong>セルジューク朝</strong>による『<strong>スンナ派の逆襲</strong>』であり、以後は<strong>カリフの権威</strong>を背景に、スルタンが<strong>政治的支配権</strong>を持った。"],
+    body: ["<strong>1055年</strong>、<strong>トゥグリル＝ベク</strong>は<strong>バグダード</strong>で<strong>シーア派</strong>の<strong>ブワイフ朝</strong>を追放し、<strong>アッバース朝カリフ</strong>から<strong>スルタン【支配者】</strong>の称号を受けた。", "<strong>スンナ派</strong>の<strong>セルジューク朝</strong>による『<strong>スンナ派の逆襲</strong>』であり、以後は<strong>カリフの権威</strong>を背景に、スルタンが<strong>政治的支配権</strong>を持った。"],
     takeaway: "宗教的権威のカリフと、政治を担うスルタンが分かれた。", note: "同じ都市に二つの役割が並ぶ点を示します。"
   }),
   makeScene({
@@ -325,7 +325,7 @@ export const scenes = [
     routes: [route([[-8, 31.63], [-4, 40]], "campaign"), route([[-8, 31.63], [-2, 24], [-8, 16]], "campaign")], facts: ["アッバース朝カリフ中心のスンナ派復興運動", "ベルベル人がファーティマ朝に対抗してムラービト朝を建国", "レコンキスタへの防衛とガーナ王国征服・サハラ交易"], actors: [{ name: "ベルベル人", image: "sahara-caravan", at: "marrakech", bubble: "イベリアとガーナ王国へ進む" }],
     title: "ムラービト朝が、\n海峡とサハラを越える。", kicker: "北アフリカとイベリア①", mapHeading: "マラケシュからイベリア半島とガーナ王国へ", focus: "スンナ派復興・レコンキスタ・サハラ交易",
     before: "ブワイフ朝とファーティマ朝がシーア派を台頭させる", after: "ベルベル人がムラービト朝を建てて対抗する",
-    body: ["<strong>10世紀</strong>に<strong>ブワイフ朝</strong>と<strong>ファーティマ朝</strong>が成立すると、<strong>アッバース朝カリフ</strong>を中心とする<strong>スンナ派復興運動</strong>が起こった。<strong>イスラーム教</strong>へ改宗した<strong>北アフリカ</strong>の<strong>ベルベル人</strong>は、ファーティマ朝に対抗して<strong>モロッコ</strong>に<strong>ムラービト朝</strong>を建てた。", "ムラービト朝は<strong>後ウマイヤ朝</strong>滅亡後の<strong>イベリア半島</strong>へ進み、<strong>レコンキスタ</strong>を進める<strong>キリスト教徒</strong>に対抗した。<strong>サハラ砂漠</strong>を越えて<strong>ガーナ王国</strong>を征服し、<strong>金</strong>と<strong>岩塩</strong>の<strong>サハラ交易</strong>を握ると、都<strong>マラケシュ</strong>に金が集まった。"],
+    body: ["<strong>10世紀</strong>に<strong>シーア派</strong>の<strong>ブワイフ朝</strong>と<strong>ファーティマ朝</strong>が成立すると、<strong>アッバース朝カリフ</strong>を中心とする<strong>スンナ派復興運動</strong>が起こった。<strong>イスラーム教</strong>へ改宗した<strong>北アフリカ</strong>の<strong>ベルベル人</strong>は、ファーティマ朝に対抗して<strong>モロッコ</strong>に<strong>ムラービト朝</strong>を建てた。", "ムラービト朝は<strong>後ウマイヤ朝</strong>滅亡後の<strong>イベリア半島</strong>へ進み、<strong>レコンキスタ</strong>を進める<strong>キリスト教徒</strong>に対抗した。<strong>サハラ砂漠</strong>を越えて<strong>ガーナ王国</strong>を征服し、<strong>金</strong>と<strong>岩塩</strong>の<strong>サハラ交易</strong>を握ると、都<strong>マラケシュ</strong>に金が集まった。"],
     takeaway: "ムラービト朝は、イベリア防衛とサハラ交易の両方を担った。", note: "北と南へ伸びる二本の動きを示します。"
   }),
   makeScene({
@@ -333,7 +333,7 @@ export const scenes = [
     routes: [route([[-8, 31.63], [-4, 40]], "campaign"), route([[-4, 41], [-3.59, 37.18]], "rival"), route([[0, 41], [-3.59, 37.18]], "rival")], tags: [{ at: [-1, 34], text: "ナスル朝" }], facts: ["ムワッヒド朝が改革運動から成立しイベリア半島へ", "カスティリャ王国とアラゴン王国がスペイン王国へ統合", "1492年、グラナダ征服とムスリム・ユダヤ教徒の追放"], props: [{ name: "アルハンブラ宮殿", image: "alhambra-palace", at: "granada", kind: "prop", size: 64 }],
     title: "レコンキスタが進み、\nナスル朝が1492年に滅ぶ。", kicker: "北アフリカとイベリア②", mapHeading: "マラケシュからイベリア南端のグラナダへ", focus: "ムワッヒド朝・スペイン王国・アルハンブラ宮殿",
     before: "ムワッヒド朝が北アフリカとイベリアへ進む", after: "キリスト教徒がグラナダを征服する",
-    body: ["<strong>ベルベル人</strong>の新たな<strong>イスラーム改革運動</strong>から<strong>ムワッヒド朝</strong>が成立し、<strong>マラケシュ</strong>から<strong>イベリア半島</strong>へ進んだ。<strong>13世紀</strong>に<strong>キリスト教徒</strong>に押されると、イスラーム勢力は南端の<strong>ナスル朝</strong>だけになった。", "<strong>カスティリャ王国</strong>と<strong>アラゴン王国</strong>が統合して<strong>スペイン王国</strong>となり、<strong>1492年</strong>に<strong>グラナダ</strong>を征服した。<strong>ムスリム</strong>と<strong>ユダヤ教徒</strong>は半島を追われ、ナスル朝の<strong>アルハンブラ宮殿</strong>が<strong>イスラーム建築</strong>の傑作として残った。"],
+    body: ["<strong>北アフリカ</strong>の<strong>ベルベル人</strong>の新たな<strong>イスラーム改革運動</strong>から<strong>ムワッヒド朝</strong>が成立し、<strong>マラケシュ</strong>から<strong>イベリア半島</strong>へ進んだ。<strong>13世紀</strong>に<strong>キリスト教徒</strong>に押されると、イスラーム勢力は南端の<strong>ナスル朝</strong>だけになった。", "<strong>カスティリャ王国</strong>と<strong>アラゴン王国</strong>が統合して<strong>スペイン王国</strong>となり、<strong>1492年</strong>に<strong>グラナダ</strong>を征服した。<strong>ムスリム</strong>と<strong>ユダヤ教徒</strong>は半島を追われ、ナスル朝の<strong>アルハンブラ宮殿</strong>が<strong>イスラーム建築</strong>の傑作として残った。"],
     takeaway: "1492年のグラナダ陥落で、イベリアのイスラーム王朝が終わった。", note: "王国統合から征服、住民の追放までを順に示します。"
   }),
   makeScene({
@@ -462,7 +462,7 @@ export const scenes = [
     facts: ["ソンガイ王国がマリ王国を滅ぼす", "トンブクトゥに黒人による最古級の大学【マドラサ】", "チャド湖周辺のカネム＝ボルヌー王国"],
     title: "ソンガイ王国とカネム＝ボルヌー王国が、\n西アフリカに栄える。", kicker: "西アフリカのイスラーム化③", mapHeading: "トンブクトゥ・ガオ・チャド湖を結ぶ", focus: "イスラーム教学と二つの黒人国家",
     before: "マリ王国がサハラ交易で栄える", after: "ソンガイ王国が学問の中心を受け継ぐ",
-    body: ["黒人の<strong>イスラーム国家</strong>である<strong>ソンガイ王国</strong>は<strong>マリ王国</strong>を滅ぼし、<strong>ガオ</strong>と<strong>トンブクトゥ</strong>を中心に栄えた。トンブクトゥには黒人による最古級の<strong>大学【マドラサ】</strong>が置かれ、<strong>アフリカのイスラーム教学</strong>の中心となった。", "東方の<strong>チャド湖</strong>周辺には、別の黒人イスラーム国家である<strong>カネム＝ボルヌー王国</strong>が成立した。"],
+    body: ["黒人の<strong>イスラーム国家</strong>である<strong>ソンガイ王国</strong>は<strong>サハラ交易</strong>で栄えた<strong>マリ王国</strong>を滅ぼし、<strong>ガオ</strong>と<strong>トンブクトゥ</strong>を中心に栄えた。トンブクトゥには黒人による最古級の<strong>大学【マドラサ】</strong>が置かれ、<strong>アフリカのイスラーム教学</strong>の中心となった。", "東方の<strong>チャド湖</strong>周辺には、別の黒人イスラーム国家である<strong>カネム＝ボルヌー王国</strong>が成立した。"],
     takeaway: "西アフリカでは、交易とイスラーム教学を担う複数の王国が栄えた。", note: "王国同士の位置関係と学問の中心を示します。"
   }),
   makeScene({
@@ -495,7 +495,7 @@ export const scenes = [
     routes: [route([[39.83, 21.42], [39.61, 24.47]], "move"), route([[36.29, 33.51], [44.37, 33.32]], "move")], facts: ["ヒジュラ【聖遷】622年・ムハンマド", "ウマイヤ朝661年・ムアーウィヤ／アッバース朝750年・アッバース革命", "ファーティマ朝909年／ブワイフ朝バグダード入城946年／セルジューク朝入城1055年"],
     title: "六つの年号を結び、\n次のモンゴル遠征後へ進む。", kicker: "年号のまとめ", mapHeading: "メッカ・メディナから三王朝の中心地へ", focus: "622・661・750・909・946・1055年",
     before: "イスラーム教の成立から地方政権の自立までをたどる", after: "次の教材でモンゴルの遠征後の世界へ進む",
-    body: ["<strong>ムハンマド</strong>が<strong>メッカ</strong>から<strong>メディナ</strong>へ移った<strong>ヒジュラ【聖遷】</strong>は<strong>622年</strong>、<strong>ムアーウィヤ</strong>が<strong>ダマスクス</strong>で開いた<strong>ウマイヤ朝</strong>は<strong>661年</strong>、<strong>シーア派</strong>も加わった<strong>アッバース革命</strong>と<strong>アッバース朝</strong>成立は<strong>750年</strong>だった。", "<strong>チュニジア</strong>での<strong>ファーティマ朝</strong>成立は<strong>909年</strong>、<strong>ブワイフ朝</strong>の<strong>バグダード入城</strong>は<strong>946年</strong>、<strong>セルジューク朝</strong>のバグダード入城は<strong>1055年</strong>。次は<strong>モンゴルの遠征後のイスラーム世界</strong>へ進む。"],
+    body: ["<strong>イスラーム教</strong>を開いた<strong>ムハンマド</strong>が<strong>メッカ</strong>から<strong>メディナ</strong>へ移った<strong>ヒジュラ【聖遷】</strong>は<strong>622年</strong>、<strong>ムアーウィヤ</strong>が<strong>ダマスクス</strong>で開いた<strong>ウマイヤ朝</strong>は<strong>661年</strong>、<strong>シーア派</strong>も加わった<strong>アッバース革命</strong>と<strong>アッバース朝</strong>成立は<strong>750年</strong>だった。", "<strong>チュニジア</strong>での<strong>ファーティマ朝</strong>成立は<strong>909年</strong>、<strong>ブワイフ朝</strong>の<strong>バグダード入城</strong>は<strong>946年</strong>、<strong>セルジューク朝</strong>のバグダード入城は<strong>1055年</strong>。次は<strong>モンゴルの遠征後のイスラーム世界</strong>へ進む。"],
     takeaway: "主要年号を、人物・王朝・都市の動きと結びつける。", note: "語呂ではなく、地図上の移動と出来事の順で振り返ります。"
   }),
 ];

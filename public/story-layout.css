@@ -79,3 +79,12 @@ body .story-shell .map-sprite-art img[data-sprite-fitted] {
   body .story-shell :is(.history-name,.safavid-name,.ottoman-name,.after-name,.map-person-name) { max-width:140px; }
   body .story-shell :is(.history-bubble,.safavid-bubble,.ottoman-bubble,.after-bubble,.map-speech) { max-width:140px; }
 }
+
+/* 固有名詞は実際の地図ラベルと、所在地を持たない語の凡例で示す。 */
+.map-name-label { fill:#294f60; font-weight:700; paint-order:stroke; stroke:#fff9ec; stroke-width:3px; stroke-linejoin:round; }
+.map-name-concepts { display:flex; flex-wrap:wrap; gap:6px 12px; margin:0; padding:10px 16px; border-top:1px solid var(--line); font-size:13px; line-height:1.6; }
+.map-name-concepts[hidden] { display:none; }
+.map-name-concepts-heading { color:#63756c; }
+.map-concept-name { font-weight:700; }
+html[data-theme="dark"] .map-name-label { fill:#e4ebe7; stroke:#13201e; }
+html[data-theme="dark"] .map-name-concepts-heading { color:#a7bdb0; }

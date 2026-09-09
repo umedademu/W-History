@@ -81,7 +81,7 @@ export const scenes = [
     facts: ["もともとの主要交易路：メソポタミアの『オアシスの道』", "6世紀以降活発となった交易路：アラビア半島・ヒジャーズ経由"],
     actors: [{ name: "国境紛争を避ける商人", image: "quraysh-merchant", at: "hormuz", route: 1, bubble: "争いを避けて道を変えよう" }],
     title: "二大国の抗争で、\n交易路がヒジャーズへ移る。", kicker: "戦争が変えた商人の道", mapHeading: "オアシスの道からアラビア半島経由へ", focus: "国境紛争と交易路の変化",
-    before: "東ローマ帝国とササン朝の国境紛争でオアシスの道が危険になる", after: "商人がヒジャーズ地方を通る交易路へ移る",
+    before: "東ローマ【ビザンツ】帝国とササン朝の国境紛争でオアシスの道が危険になる", after: "商人がヒジャーズ地方を通る交易路へ移る",
     body: ["6世紀後半、<strong>東ローマ【ビザンツ】帝国</strong>と<strong>ササン朝</strong>の<strong>国境紛争</strong>が激しくなり、<strong>メソポタミア</strong>を通る「<strong>オアシスの道</strong>」が危険になった。地図では<strong>アレクサンドリア</strong>・<strong>クテシフォン</strong>・<strong>ホルムズ</strong>を結ぶ、もともとの主要交易路を先に示す。", "商人は争いを避け、<strong>イエメン</strong>から<strong>アラビア半島</strong>西部の<strong>ヒジャーズ地方</strong>を通る道へ移った。地図の後半が、6世紀以降活発となった<strong>メッカ</strong>経由の交易路だ。"],
     takeaway: "二大国の抗争が、交易の重心をヒジャーズへ移した。", note: "動きをもう一度押すと、旧道から新道への切り替わりを最初から確認できます。"
   }),
@@ -192,7 +192,7 @@ export const scenes = [
     id: "umar-east", chapter: 2, year: "642年", frame: [38, 25, 59, 40], zones: ["sasanian", "caliphateExpanded"], pins: ["ctesiphon", "nihavand"], routes: [{ points: [[40, 31], [44.58, 33.09]], kind: "campaign", start: 0, end: .48 }, { points: [[44.58, 33.09], [48.37, 34.19], [55, 35]], kind: "campaign", start: .48 }],
     tags: [{ at: [45, 29], text: "イラク" }, { at: [54, 37], text: "イラン高原" }, { at: [54, 31], text: "ササン朝" }], facts: ["ササン朝の都クテシフォンを攻略、王が敗走", "ニハーヴァンドの戦い【642年】で圧勝→ササン朝が事実上崩壊"], actors: [{ name: "ウマル時代のアラブ軍", image: "umar-march", afterImage: "umar-calm", at: [40, 31], route: 0 }],
     title: "クテシフォンを攻略し、\nニハーヴァンドで圧勝する。", kicker: "ササン朝の事実上の崩壊", mapHeading: "イラクからイラン高原へ", focus: "ニハーヴァンドの戦い【642年】", before: "アラブ軍がササン朝の都クテシフォンを攻略する", after: "642年ニハーヴァンドの戦いに勝ちイラクからイラン高原を支配する",
-    body: ["東では<strong>ササン朝</strong>の都<strong>クテシフォン</strong>を攻略して王を敗走させ、<strong>イラク</strong>へ支配を広げた。", "642年の<strong>ニハーヴァンドの戦い</strong>で圧勝すると、ササン朝は事実上崩壊し、<strong>イラン高原</strong>までが支配下に入った。"],
+    body: ["<strong>ウマル</strong>の時代、東では<strong>ササン朝</strong>の都<strong>クテシフォン</strong>を攻略して王を敗走させ、<strong>イラク</strong>へ支配を広げた。", "642年の<strong>ニハーヴァンドの戦い</strong>で圧勝すると、ササン朝は事実上崩壊し、<strong>イラン高原</strong>までが支配下に入った。"],
     takeaway: "クテシフォン攻略の後、642年の勝利でササン朝を崩した。", note: "クテシフォン攻略からニハーヴァンドの勝利へ、順番を分けて表示します。", battle: "nihavand"
   }),
   makeScene({

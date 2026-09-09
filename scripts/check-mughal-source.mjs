@@ -68,4 +68,4 @@ for (const id of sourceNames.excludedIndependentScenes) {
   if (byId.has(id)) throw new Error(`原文範囲外の独立場面 ${id} が残っています。`);
 }
 
-console.log(`08「ムガル帝国」全${scenes.length}場面で、原文の登場順と固有名詞の本文・地図対応を確認しました。`);
+console.log(`08「ムガル帝国」全${scenes.length}場面で、原文の登場順と固有名詞の本文・地図用資料対応を確認しました。`);
