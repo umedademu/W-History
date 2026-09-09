@@ -3929,10 +3929,14 @@ export const sourceEdition = {
       "tags": [
         {
           "at": [
-            -1,
-            34
+            -3.59,
+            37.18
           ],
-          "text": "ナスル朝"
+          "text": "ナスル朝",
+          "labelOffset": [
+            -45,
+            -12
+          ]
         }
       ],
       "actors": [],
@@ -4017,10 +4021,14 @@ export const sourceEdition = {
       "tags": [
         {
           "at": [
-            -1,
-            34
+            -3.59,
+            37.18
           ],
-          "text": "ナスル朝"
+          "text": "ナスル朝",
+          "labelOffset": [
+            -45,
+            -12
+          ]
         }
       ],
       "actors": [],

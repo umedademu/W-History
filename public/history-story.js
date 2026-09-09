@@ -1,6 +1,6 @@
-import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.050";
-import { maximumMapScale } from "./map-camera.js?v=0.050";
-import { createMapLayout } from "./map-layout.js?v=0.050";
+import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.051";
+import { maximumMapScale } from "./map-camera.js?v=0.051";
+import { createMapLayout } from "./map-layout.js?v=0.051";
 
 export function mountStory({ places, zones, scenes, imageDirectory, chapterNavigation }) {
 const NS = "http://www.w3.org/2000/svg";
@@ -89,10 +89,10 @@ function drawMap(scene) {
 
   const pins = svg("g", { class: "history-pins" }), labels = svg("g", { class: "history-labels" });
   map.append(pins, labels);
-  function label(text, point, className) {
+  function label(text, point, className, offset = [0, 20]) {
     text = mapDisplayName(text, scene);
     const [px, py] = toScreen(point);
-    const node = svg("text", { x: px, y: py + 20, class: className, "text-anchor": "middle", "data-anchor-x": px, "data-anchor-y": py }, text);
+    const node = svg("text", { x: px + offset[0], y: py + offset[1], class: className, "text-anchor": "middle", "data-anchor-x": px, "data-anchor-y": py }, text);
     labels.append(node);
   }
 
@@ -101,7 +101,7 @@ function drawMap(scene) {
     pins.append(capital ? svg("path", { d: `M${px},${py - 5} l5,5 -5,5 -5,-5 Z`, fill: "#b54930", stroke: "#fff9ec", "stroke-width": 1.5 }) : svg("circle", { cx: px, cy: py, r: 3.5, fill: "#3b6d8e", stroke: "#fff9ec", "stroke-width": 1.5 }));
     label(places[key].name, places[key].point, capital ? "history-capital" : "history-city");
   }
-  for (const tag of scene.tags) label(tag.text, tag.at, "history-country");
+  for (const tag of scene.tags) label(tag.text, tag.at, "history-country", tag.labelOffset);
 
   let ring;
   const target = scene.battle ?? scene.capital;

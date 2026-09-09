@@ -1,6 +1,6 @@
-import { sourceEdition } from "./source-edition.js?v=0.050";
-import { mapNamePlan, renderMapNameConcepts } from "./map-name-coverage.js?v=0.050";
-import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.050";
+import { sourceEdition } from "./source-edition.js?v=0.051";
+import { mapNamePlan, renderMapNameConcepts } from "./map-name-coverage.js?v=0.051";
+import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.051";
 
 const scenes=sourceEdition.timur;
 
