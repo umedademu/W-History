@@ -1,16 +1,16 @@
-import { mapNamePlan, renderMapNameConcepts, entityNameForNarrative } from "./map-name-coverage.js?v=0.047";
-import { maximumMapScale } from "./map-camera.js?v=0.047";
-import {createMapLayout} from "./map-layout.js?v=0.047";
+import { mapNamePlan, renderMapNameConcepts, entityNameForNarrative } from "./map-name-coverage.js?v=0.048";
+import { maximumMapScale } from "./map-camera.js?v=0.048";
+import {createMapLayout} from "./map-layout.js?v=0.048";
 import {pages} from "./ottoman-pages.js?v=0.031";
-import {selectChapter,mountChapter} from "./story-chapters.js?v=0.047";
+import {selectVolume,volumeNavigation} from "./story-volumes.js?v=0.048";
 import {entities,positionFor} from "./ottoman-storyboard.js?v=0.031";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
-import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.047";
+import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.048";
 
 import {referencesIn} from "./ottoman-names.js?v=0.018";
 
-const selection=selectChapter("ottoman",pages,location.search);
-const scenes=selection.scenes,chapterNavigation=mountChapter(selection);
+const selection=selectVolume("ottoman",pages,location.pathname);
+const scenes=selection.scenes,chapterNavigation=volumeNavigation(selection);
 const byId=id=>document.getElementById(id), map=byId("story-map"),root=byId("map-characters");
 const reduced=matchMedia("(prefers-reduced-motion: reduce)"),clamp=n=>Math.max(0,Math.min(1,n));
 const colors={campaign:"#b5573f",rival:"#5c7886",move:"#54866b",trade:"#a57d27"};

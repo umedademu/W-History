@@ -1,5 +1,5 @@
 import {chromium} from 'playwright';
-import {chapterGroups} from '../public/story-chapters.js';
+import {splitVolumes} from '../public/story-volumes.js';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {spawn} from 'node:child_process';
 import {existsSync} from 'node:fs';
@@ -18,7 +18,7 @@ const errors=[];page.on('pageerror',e=>errors.push(e.message));
 const results=[];
 for(const width of [1280,390]){
  await page.setViewportSize({width,height:900});
- for(const {name,chapter,expected} of ['islam-origin','umayyad-abbasid','regional-dynasties','timur','timur-after','safavid','ottoman','mughal','islamic-culture'].filter(name=>!process.argv[2]||name===process.argv[2]).flatMap(name=>chapterGroups[name]?.map((c,i)=>({name,chapter:i+1,expected:c.pages.length}))??[{name,chapter:0,expected:({'islam-origin':27,'umayyad-abbasid':27,timur:13,'timur-after':16,safavid:20,mughal:20,'islamic-culture':19})[name]}])){
+ for(const {name,chapter,expected} of ['islam-origin','umayyad-abbasid','regional-dynasties','timur','timur-after','safavid','ottoman','mughal','islamic-culture'].filter(name=>!process.argv[2]||name===process.argv[2]).flatMap(name=>splitVolumes.some(v=>v.source===name)?splitVolumes.filter(v=>v.source===name).map(v=>({name:v.id,chapter:0,expected:v.pages.length})):[{name,chapter:0,expected:({'islam-origin':27,'umayyad-abbasid':27,timur:13,'timur-after':16,safavid:20,mughal:20,'islamic-culture':19})[name]}])){
   await page.goto('http://127.0.0.1:'+port+'/'+name+'-story.html'+(chapter?'?chapter='+chapter:''));
   // 地図本体にも data-scene があるため、移動ボタンだけ数える。
   const buttons=page.locator('button[data-scene]');const total=await buttons.count();

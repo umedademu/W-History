@@ -1,5 +1,5 @@
-import { maximumMapScale } from "./map-camera.js?v=0.047";
-import { createMapLayout } from "./map-layout.js?v=0.047";
+import { maximumMapScale } from "./map-camera.js?v=0.048";
+import { createMapLayout } from "./map-layout.js?v=0.048";
 // 人物は透過PNG。位置は地図と同じ緯度・経度から求める。
 const capital = [66.97, 39.65];
 const actor = (name, image, point, options = {}) => ({ name, image, point, ...options });

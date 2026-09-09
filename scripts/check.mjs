@@ -18,6 +18,7 @@ import "./check-map-camera.mjs";
 import "./check-ottoman-storyboard.mjs";
 import "./check-ottoman-pages.mjs";
 import "./check-story-chapters.mjs";
+import {series} from "../public/story-volumes.js";
 import "./check-timur-source.mjs";
 import "./check-timur-after-source.mjs";
 import "./check-safavid-source.mjs";
@@ -44,24 +45,14 @@ for(const file of publicFiles.filter(f=>/\.(html|js|css)$/.test(f))){
 const htmlFiles=publicFiles.filter(file=>file.endsWith(".html"));
 for(const file of htmlFiles){
   const html=await fs.readFile(file,"utf8");
-  if(!html.includes('/theme.js?v=0.047')||!html.includes('/theme.css?v=0.047'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
+  if(!html.includes('/theme.js?v=0.048')||!html.includes('/theme.css?v=0.048'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
 }
 const themeScript=await fs.readFile(path.join(publicRoot,"theme.js"),"utf8");
 const themeStyle=await fs.readFile(path.join(publicRoot,"theme.css"),"utf8");
 for(const required of ["prefers-color-scheme: dark","localStorage.setItem","dataset.themeToggle"]){if(!themeScript.includes(required))throw new Error(`明暗テーマの切り替え処理が不足しています: ${required}`);}
 for(const required of ['html[data-theme="dark"]','.theme-toggle','#story-map image','brightness(.52) saturate(2.6)','stroke:#13201e','.legend-route { border-color:#ff8e70; }']){if(!themeStyle.includes(required))throw new Error(`ダークテーマの配色が不足しています: ${required}`);}
 const catalog=await fs.readFile(path.join(publicRoot,"index.html"),"utf8");
-const allModules=[
-  "islam-origin-story",
-  "umayyad-abbasid-story",
-  "regional-dynasties-story",
-  "timur-story",
-  "timur-after-story",
-  "safavid-story",
-  "ottoman-story",
-  "mughal-story",
-  "islamic-culture-story"
-];
+const allModules=series.map(v=>v.id+"-story");
 for(const name of allModules){if(!catalog.includes(`href="/${name}.html"`))throw new Error(`教材の入口がありません: ${name}`);}
 const config=JSON.parse(await fs.readFile(path.join(root,"vercel.json"),"utf8"));if(config.outputDirectory!=="public")throw new Error("Vercelの公開先が違います。");
 const images=new Set();
@@ -115,7 +106,7 @@ for(const name of ["islam-origin","umayyad-abbasid","regional-dynasties","mughal
   for(const id of ["map-heading","map-characters","map-status","map-facts","scene-nav","story-progress","previous","next","replay"]){if(!html.includes(`id="${id}"`))throw new Error(`${name}: ${id}がありません。`);}
   const chapters=[...html.matchAll(/data-chapter="(\d+)"/g)].map(m=>Number(m[1]));
   const starts=scenes.flatMap((s,i)=>i===0||scenes[i-1].chapter!==s.chapter?[i]:[]);
-  if(JSON.stringify(chapters)!==JSON.stringify(starts))throw new Error(`${name}: 章の入口が場面と一致しません。`);
+  if(name!=="regional-dynasties"&&JSON.stringify(chapters)!==JSON.stringify(starts))throw new Error(`${name}: 章の入口が場面と一致しません。`);
 }
 console.log(`追加５編の${reviewedScenes}場面について、地名・座標・経路・人物・章・操作部品を確認しました。`);
-console.log(`構文・参照先${references}件・場面で使う画像${images.size}点・9教材の入口・Ankiからの独立・Vercel設定を確認しました。`);
+console.log(`構文・参照先${references}件・場面で使う画像${images.size}点・14教材の入口・Ankiからの独立・Vercel設定を確認しました。`);
