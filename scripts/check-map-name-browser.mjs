@@ -1,4 +1,5 @@
 import {chromium} from 'playwright';
+import {chapterGroups} from '../public/story-chapters.js';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {spawn} from 'node:child_process';
 import {existsSync} from 'node:fs';
@@ -17,11 +18,11 @@ const errors=[];page.on('pageerror',e=>errors.push(e.message));
 const results=[];
 for(const width of [1280,390]){
  await page.setViewportSize({width,height:900});
- for(const name of ['islam-origin','umayyad-abbasid','regional-dynasties','timur','timur-after','safavid','ottoman','mughal','islamic-culture'].filter(name=>!process.argv[2]||name===process.argv[2])){
-  await page.goto('http://127.0.0.1:'+port+'/'+name+'-story.html');
+ for(const {name,chapter,expected} of ['islam-origin','umayyad-abbasid','regional-dynasties','timur','timur-after','safavid','ottoman','mughal','islamic-culture'].filter(name=>!process.argv[2]||name===process.argv[2]).flatMap(name=>chapterGroups[name]?.map((c,i)=>({name,chapter:i+1,expected:c.pages.length}))??[{name,chapter:0,expected:({'islam-origin':27,'umayyad-abbasid':27,timur:13,'timur-after':16,safavid:20,mughal:20,'islamic-culture':19})[name]}])){
+  await page.goto('http://127.0.0.1:'+port+'/'+name+'-story.html'+(chapter?'?chapter='+chapter:''));
   // 地図本体にも data-scene があるため、移動ボタンだけ数える。
   const buttons=page.locator('button[data-scene]');const total=await buttons.count();
-  if(total!==({'islam-origin':27,'umayyad-abbasid':27,'regional-dynasties':49,timur:13,'timur-after':16,safavid:20,ottoman:42,mughal:20,'islamic-culture':19})[name])throw new Error(name+': ページ数が一致しません');
+  if(total!==expected)throw new Error(name+': ページ数が一致しません');
   for(let i=0;i<total;i++){
    await buttons.nth(i).evaluate(button=>button.click());
    if(await page.locator('#skip-orientation').isVisible().catch(()=>false)) await page.locator('#skip-orientation').click();
@@ -46,10 +47,10 @@ for(const width of [1280,390]){
    const required=namesInText(data.text),shown=data.shown.map(normalizeMapName),body=normalizeMapName(data.text);
    const missing=required.filter(n=>!shown.some(s=>s.includes(n.key))).map(n=>n.name);
    const extra=namesInText(data.shown.join('。')).filter(n=>!body.includes(n.key)).map(n=>n.name);
-   if(missing.length||extra.length||data.overflow.length||data.overlaps.length||errors.length)results.push({width,name,page:i+1,missing,extra,overflow:data.overflow,overlaps:data.overlaps,height:data.height,errors:errors.splice(0)});
+   if(missing.length||extra.length||data.overflow.length||data.overlaps.length||errors.length)results.push({width,name,chapter,page:i+1,missing,extra,overflow:data.overflow,overlaps:data.overlaps,height:data.height,errors:errors.splice(0)});
   }
 
-  console.log(width,name,total,'issues',results.filter(x=>x.width===width&&x.name===name).length);
+  console.log(width,name,chapter,total,'issues',results.filter(x=>x.width===width&&x.name===name).length);
  }
 }
 

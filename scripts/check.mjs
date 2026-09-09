@@ -17,6 +17,7 @@ import "./check-map-sprites.mjs";
 import "./check-map-camera.mjs";
 import "./check-ottoman-storyboard.mjs";
 import "./check-ottoman-pages.mjs";
+import "./check-story-chapters.mjs";
 import "./check-timur-source.mjs";
 import "./check-timur-after-source.mjs";
 import "./check-safavid-source.mjs";
@@ -43,7 +44,7 @@ for(const file of publicFiles.filter(f=>/\.(html|js|css)$/.test(f))){
 const htmlFiles=publicFiles.filter(file=>file.endsWith(".html"));
 for(const file of htmlFiles){
   const html=await fs.readFile(file,"utf8");
-  if(!html.includes('/theme.js?v=0.046')||!html.includes('/theme.css?v=0.046'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
+  if(!html.includes('/theme.js?v=0.047')||!html.includes('/theme.css?v=0.047'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
 }
 const themeScript=await fs.readFile(path.join(publicRoot,"theme.js"),"utf8");
 const themeStyle=await fs.readFile(path.join(publicRoot,"theme.css"),"utf8");

@@ -1,13 +1,16 @@
-import { mapNamePlan, renderMapNameConcepts, entityNameForNarrative } from "./map-name-coverage.js?v=0.046";
-import { maximumMapScale } from "./map-camera.js?v=0.046";
-import {createMapLayout} from "./map-layout.js?v=0.046";
-import {pages as scenes} from "./ottoman-pages.js?v=0.031";
+import { mapNamePlan, renderMapNameConcepts, entityNameForNarrative } from "./map-name-coverage.js?v=0.047";
+import { maximumMapScale } from "./map-camera.js?v=0.047";
+import {createMapLayout} from "./map-layout.js?v=0.047";
+import {pages} from "./ottoman-pages.js?v=0.031";
+import {selectChapter,mountChapter} from "./story-chapters.js?v=0.047";
 import {entities,positionFor} from "./ottoman-storyboard.js?v=0.031";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
-import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.046";
+import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.047";
 
 import {referencesIn} from "./ottoman-names.js?v=0.018";
 
+const selection=selectChapter("ottoman",pages,location.search);
+const scenes=selection.scenes,chapterNavigation=mountChapter(selection);
 const byId=id=>document.getElementById(id), map=byId("story-map"),root=byId("map-characters");
 const reduced=matchMedia("(prefers-reduced-motion: reduce)"),clamp=n=>Math.max(0,Math.min(1,n));
 const colors={campaign:"#b5573f",rival:"#5c7886",move:"#54866b",trade:"#a57d27"};
@@ -234,8 +237,8 @@ function show(scroll=false){
   const scene=scenes[index];partIndex=0;elapsed=0;playing=!reduced.matches;
   for(const [id,value] of Object.entries({"scene-number":String(index+1).padStart(2,"0")+" / "+scenes.length,"scene-year":scene.year,"scene-kicker":scene.kicker,"scene-title":scene.title,"scene-note":scene.notes.join(" "),"progress-label":(index+1)+" / "+scenes.length}))byId(id).textContent=value;
   byId("scene-body").replaceChildren(...scene.body.map((text,i)=>{const p=document.createElement("p");p.dataset.paragraph=i;p.textContent=text;return p;}));markNames(scene);
-  byId("previous").disabled=index===0;byId("next").textContent=index===scenes.length-1?"最初のページへ ↻":"次のページ →";
-  byId("story-progress").max=scenes.length;byId("story-progress").value=index+1;
+  byId("previous").disabled=index===0;byId("next").textContent=index===scenes.length-1?chapterNavigation.nextLabel:"次のページ →";
+  byId("story-progress").max=scenes.length;byId("story-progress").value=index+1;byId("story-progress").textContent=`${index+1} / ${scenes.length}`;
   document.querySelectorAll("button[data-scene]").forEach(b=>{if(+b.dataset.scene===index)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");});
   const mode=transitionFor(scene,displayedScene);replayMode=mode==="nearby"?"none":mode;displayedScene=scene;drawMap(mode);
   if(scroll)document.querySelector(".story-stage").scrollIntoView({block:"start",behavior:"instant"});
@@ -246,7 +249,7 @@ scenes.forEach((scene,i)=>{
   const b=document.createElement("button");b.type="button";b.dataset.scene=i;b.textContent=String(i+1).padStart(2,"0");b.title=scene.title;b.setAttribute("aria-label",(i+1)+"ページ目「"+scene.title+"」へ移動");b.addEventListener("click",()=>go(i));byId("scene-nav").append(b);
 });
 byId("previous").addEventListener("click",()=>go(index-1));
-byId("next").addEventListener("click",()=>go(index===scenes.length-1?0:index+1));
+byId("next").addEventListener("click",()=>{if(index===scenes.length-1)chapterNavigation.finish();else go(index+1);});
 byId("replay").addEventListener("click",()=>{partIndex=0;elapsed=0;playing=!reduced.matches;drawMap(replayMode,true);});
 byId("show-location").addEventListener("click",()=>{replayMode="world";drawMap("world");});
 byId("animation-play").addEventListener("click",()=>{

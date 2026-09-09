@@ -1,6 +1,6 @@
-import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.046";
-import { maximumMapScale } from "./map-camera.js?v=0.046";
-import { createMapLayout } from "./map-layout.js?v=0.046";
+import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.047";
+import { maximumMapScale } from "./map-camera.js?v=0.047";
+import { createMapLayout } from "./map-layout.js?v=0.047";
 import { locations, zones, scenes } from "./timur-after-scenes.js?v=0.031";
 
 const NS = "http://www.w3.org/2000/svg";

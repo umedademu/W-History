@@ -493,9 +493,9 @@ export const scenes = [
   makeScene({
     id: "date-recap", chapter: 2, year: "622〜1055年", frame: [-10, 18, 63, 44], zones: ["west", "abbasid", "iran"], pins: ["mecca", "medina", "damascus", "tunis", "baghdad"],
     routes: [route([[39.83, 21.42], [39.61, 24.47]], "move"), route([[36.29, 33.51], [44.37, 33.32]], "move")], facts: ["ヒジュラ【聖遷】622年・ムハンマド", "ウマイヤ朝661年・ムアーウィヤ／アッバース朝750年・アッバース革命", "ファーティマ朝909年／ブワイフ朝バグダード入城946年／セルジューク朝入城1055年"],
-    title: "六つの年号を結び、\n次のモンゴル遠征後へ進む。", kicker: "年号のまとめ", mapHeading: "メッカ・メディナから三王朝の中心地へ", focus: "622・661・750・909・946・1055年",
-    before: "イスラーム教の成立から地方政権の自立までをたどる", after: "次の教材でモンゴルの遠征後の世界へ進む",
-    body: ["<strong>イスラーム教</strong>を開いた<strong>ムハンマド</strong>が<strong>メッカ</strong>から<strong>メディナ</strong>へ移った<strong>ヒジュラ【聖遷】</strong>は<strong>622年</strong>、<strong>ムアーウィヤ</strong>が<strong>ダマスクス</strong>で開いた<strong>ウマイヤ朝</strong>は<strong>661年</strong>、<strong>シーア派</strong>も加わった<strong>アッバース革命</strong>と<strong>アッバース朝</strong>成立は<strong>750年</strong>だった。", "<strong>チュニジア</strong>での<strong>ファーティマ朝</strong>成立は<strong>909年</strong>、<strong>ブワイフ朝</strong>の<strong>バグダード入城</strong>は<strong>946年</strong>、<strong>セルジューク朝</strong>のバグダード入城は<strong>1055年</strong>。次は<strong>モンゴルの遠征後のイスラーム世界</strong>へ進む。"],
+    title: "六つの年号で、\n成立から分裂までを振り返る。", kicker: "年号のまとめ", mapHeading: "メッカ・メディナから三王朝の中心地へ", focus: "622・661・750・909・946・1055年",
+    before: "イスラーム教の成立から地方政権の自立までをたどる", after: "後の教材でモンゴルの遠征後のイスラーム世界を学ぶ",
+    body: ["<strong>イスラーム教</strong>を開いた<strong>ムハンマド</strong>が<strong>メッカ</strong>から<strong>メディナ</strong>へ移った<strong>ヒジュラ【聖遷】</strong>は<strong>622年</strong>、<strong>ムアーウィヤ</strong>が<strong>ダマスクス</strong>で開いた<strong>ウマイヤ朝</strong>は<strong>661年</strong>、<strong>シーア派</strong>も加わった<strong>アッバース革命</strong>と<strong>アッバース朝</strong>成立は<strong>750年</strong>だった。", "<strong>チュニジア</strong>での<strong>ファーティマ朝</strong>成立は<strong>909年</strong>、<strong>ブワイフ朝</strong>の<strong>バグダード入城</strong>は<strong>946年</strong>、<strong>セルジューク朝</strong>のバグダード入城は<strong>1055年</strong>。<strong>モンゴルの遠征後のイスラーム世界</strong>は、地方政権の各章を学んだ後の教材で扱う。"],
     takeaway: "主要年号を、人物・王朝・都市の動きと結びつける。", note: "語呂ではなく、地図上の移動と出来事の順で振り返ります。"
   }),
 ];

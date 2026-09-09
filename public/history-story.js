@@ -1,8 +1,8 @@
-import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.046";
-import { maximumMapScale } from "./map-camera.js?v=0.046";
-import { createMapLayout } from "./map-layout.js?v=0.046";
+import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.047";
+import { maximumMapScale } from "./map-camera.js?v=0.047";
+import { createMapLayout } from "./map-layout.js?v=0.047";
 
-export function mountStory({ places, zones, scenes, imageDirectory }) {
+export function mountStory({ places, zones, scenes, imageDirectory, chapterNavigation }) {
 const NS = "http://www.w3.org/2000/svg";
 const project = ([lon, lat]) => [(lon + 18) * 14, (55 - lat) * 14];
 const clamp = (n, a = 0, b = 1) => Math.max(a, Math.min(b, n));
@@ -215,7 +215,7 @@ function show(scroll = false) {
   byId("scene-body").innerHTML = scene.body.map(text => `<p>${text}</p>`).join("");
   byId("map-facts").replaceChildren(...scene.facts.map(text => { const item = document.createElement("li"); item.textContent = text; return item; }));
   byId("previous").disabled = index === 0;
-  byId("next").textContent = index === scenes.length - 1 ? "最初から ↻" : "次へ →";
+  byId("next").textContent = index === scenes.length - 1 ? (chapterNavigation?.nextLabel ?? "最初から ↻") : "次へ →";
   byId("story-progress").value = index + 1;
   byId("story-progress").textContent = `${index + 1} / ${scenes.length}`;
   document.querySelectorAll("button[data-scene]").forEach(b => {
@@ -251,7 +251,10 @@ scenes.forEach((scene, i) => {
 });
 
 byId("previous").addEventListener("click", () => go(index - 1));
-byId("next").addEventListener("click", () => go(index === scenes.length - 1 ? 0 : index + 1));
+byId("next").addEventListener("click", () => {
+  if (index === scenes.length - 1 && chapterNavigation) chapterNavigation.finish();
+  else go(index === scenes.length - 1 ? 0 : index + 1);
+});
 byId("replay").addEventListener("click", () => drawMap(scenes[index]));
 document.querySelectorAll("[data-chapter]").forEach(b => b.addEventListener("click", () => go(Number(b.dataset.chapter))));
 
