@@ -16,13 +16,12 @@ for(const chapter of chapters) for(const scene of chapter.scenes) {
   for(const tag of plan.tags) assert.ok(Array.isArray(tag.at)&&tag.at.length===2&&tag.at.every(Number.isFinite),`${scene.id}: 「${tag.text}」の対応地点がありません`);
   pageCount++;addedCount+=plan.tags.length;conceptCount+=plan.concepts.length;
 }
-assert.equal(pageCount,233);
-const chapter=chapters.find(c=>c.name==="regional-dynasties");
-const scene=chapter.scenes[11];
-assert.equal(scene.id,"ninth-century-map");
+assert.equal(pageCount,221);
+// 複数王朝の位置対応を、公開ページの構成から独立した例で検査する。
+const scene={id:'anchor-example',title:'9世紀の政権',body:['後ウマイヤ朝のコルドバ、イドリース朝のモロッコ、アッバース朝のバグダード、サーマーン朝の中央アジア。シーア派。'],mapItems:[{text:'コルドバ',at:[-4.78,37.89]},{text:'モロッコ',at:[-6.5,32]},{text:'バグダード',at:[44.37,33.32]},{text:'中央アジア',at:[68,40]}]};
 const plan=mapNamePlan(scene,scene.mapItems);
 for(const [name,place] of [["後ウマイヤ朝","コルドバ"],["イドリース朝","モロッコ"],["アッバース朝","バグダード"],["サーマーン朝","中央アジア"]]){
-  assert.deepEqual(plan.tags.find(tag=>tag.text===name)?.at,scene.mapItems.find(item=>item.text===place).at,`03の12ページ: ${name}が${place}に対応していません`);
+  assert.deepEqual(plan.tags.find(tag=>tag.text===name)?.at,scene.mapItems.find(item=>item.text===place).at,`位置対応の例: ${name}が${place}に対応していません`);
 }
 assert.ok(plan.concepts.includes("シーア派"),"宗派を所在地の点へ誤って割り当てない");
 // 見どころや title/desc に文字があっても、地図上の掲載の代用にはしない。

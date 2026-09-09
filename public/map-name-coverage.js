@@ -1,4 +1,4 @@
-import { mapNameCatalog } from "./map-name-catalog.js?v=0.048";
+import { mapNameCatalog } from "./map-name-catalog.js?v=0.049";
 
 export const plainText = value => String(value ?? "").replace(/<[^>]*>/g, "");
 export const normalizeMapName = value => plainText(value).replace(/[\s＝=・『』「」]/g, "");

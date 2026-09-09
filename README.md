@@ -42,4 +42,4 @@ node scripts/serve.mjs
 
 ## 地図の名称を確認する
 
-`npm ci` 後、`npm run check:browser` で全233ページをパソコン幅と携帯幅で確認します。インストール済みのChromeまたはEdgeを使用します。他の場所の実行ファイルは `W_HISTORY_BROWSER` で指定できます。音声の再生は検査開始前に無効化します。詳しくは [名称の表示確認](docs/map-name-coverage.md) を参照してください。
+`npm ci` 後、`npm run check:browser` で全221ページをパソコン幅と携帯幅で確認します。インストール済みのChromeまたはEdgeを使用します。他の場所の実行ファイルは `W_HISTORY_BROWSER` で指定できます。音声の再生は検査開始前に無効化します。詳しくは [名称の表示確認](docs/map-name-coverage.md) を参照してください。

@@ -1,0 +1,30 @@
+{
+  "file": "sources/01_islamic_world_formation.md",
+  "volumes": [
+    {
+      "id": "regional-dynasties",
+      "pages": 7,
+      "paragraphStarts": [
+        "まずは西方の動向",
+        "でも、10世紀になると",
+        "その後、ファーティマ朝はエジプト",
+        "一方、東方でも自立",
+        "そして、10世紀半ば",
+        "ブワイフ朝がバグダードに入城したとき"
+      ],
+      "sha256": "5ce104eb0d364161ee096ad8779cb1fd3842f5d3e4cc1c2b1ac87421fa46887e"
+    },
+    {
+      "id": "seljuq",
+      "pages": 9,
+      "paragraphStarts": [
+        "中央アジアのサーマーン朝は",
+        "アフガニスタンでもサーマーン朝",
+        "トルコ人の地位を決定づけた",
+        "トゥグリル＝ベクはバグダードで",
+        "セルジューク朝は11世紀後半"
+      ],
+      "sha256": "fe3da997103f01f990f563deb71cfc3cfe77e4fbc42b01025e06e922d2c63056"
+    }
+  ]
+}

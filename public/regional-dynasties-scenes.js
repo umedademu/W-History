@@ -1,7 +1,8 @@
-// 03 分裂と地方政権の興亡（49場面）
+// 03〜06：03・04は原文本文のみ、05・06は既存の説明を保持（37場面）
 // 原文 p.324〜332 の流れと固有名詞の対応は docs/regional-dynasties-correspondence.md を参照。
 
 export const places = {
+  khorasanMain: { name: "ホラーサーン", point: [59, 35.5] },
   damascus: { name: "ダマスクス", point: [36.29, 33.51] },
   cordoba: { name: "コルドバ", point: [-4.78, 37.89] },
   iberia: { name: "イベリア半島", point: [-4, 40] },
@@ -92,234 +93,848 @@ const route = (points, kind = "move") => ({ points, kind });
 
 export const scenes = [
   makeScene({
-    id: "western-survivors", chapter: 0, year: "756年", frame: [-12, 27, 15, 44], zones: ["west"], pins: ["iberia", "cordoba", "morocco"],
-    routes: [route([[10, 36], [-4, 40], [-4.78, 37.89]])], tags: [{ at: [-7, 34], text: "イドリース朝" }],
-    facts: ["アブド＝アッラフマーン1世：後ウマイヤ朝を建国", "アミールを称し、カリフは名乗らない", "モロッコではアリーの子孫がイドリース朝を建国"],
-    actors: [{ name: "アブド＝アッラフマーン1世", image: "abd-alrahman3", at: "iberia", route: 0, bubble: "コルドバに後ウマイヤ朝を建てる" }],
-    title: "生き延びたウマイヤ家が、\n西方に二つの政権を生む。", kicker: "西方で始まる自立", mapHeading: "イベリア半島とモロッコの自立政権", focus: "後ウマイヤ朝・イドリース朝・アミール",
-    before: "アッバース朝がウマイヤ朝を滅ぼす", after: "アブド＝アッラフマーン1世がコルドバへ逃れる",
-    body: ["<strong>アッバース朝</strong>に滅ぼされた<strong>ウマイヤ朝</strong>の一族、<strong>アブド＝アッラフマーン1世</strong>は<strong>イベリア半島</strong>へ逃れ、<strong>コルドバ</strong>を都に<strong>後ウマイヤ朝</strong>を建てた。<strong>ウンマ</strong>は一つで指導者の<strong>カリフ</strong>も一人と考え、地方長官を意味する<strong>アミール</strong>を称した。", "同じころ<strong>モロッコ</strong>では、<strong>アリーの子孫</strong>が<strong>イドリース朝</strong>を建てたが、ここでもカリフは名乗らなかった。"],
-    takeaway: "西方の自立政権は、当初は唯一のカリフという考えを守った。", note: "二つの政権と、それぞれがカリフを名乗らなかった点を一緒に示します。"
-  }),
+  "zones": [],
+  "pins": [
+    "iberia",
+    "cordoba",
+    "morocco"
+  ],
+  "routes": [
+    {
+      "points": [
+        [
+          10,
+          36
+        ],
+        [
+          -4,
+          40
+        ],
+        [
+          -4.78,
+          37.89
+        ]
+      ],
+      "kind": "move"
+    }
+  ],
+  "tags": [],
+  "facts": [
+    "後ウマイヤ朝とイドリース朝"
+  ],
+  "actors": [
+    {
+      "name": "アブド＝アッラフマーン1世",
+      "image": "abd-alrahman3",
+      "at": "iberia",
+      "bubble": "",
+      "route": 0
+    }
+  ],
+  "props": [],
+  "duration": 2200,
+  "id": "western-survivors",
+  "chapter": 0,
+  "year": "イスラーム世界の分裂",
+  "frame": [
+    -12,
+    27,
+    15,
+    44
+  ],
+  "title": "後ウマイヤ朝とイドリース朝",
+  "kicker": "後ウマイヤ朝とイドリース朝",
+  "mapHeading": "後ウマイヤ朝とイドリース朝",
+  "focus": "後ウマイヤ朝とイドリース朝",
+  "before": "後ウマイヤ朝とイドリース朝",
+  "after": "後ウマイヤ朝とイドリース朝",
+  "body": [
+    "まずは西方の動向からだよ。アッバース朝に滅ぼされたウマイヤ朝の一族のうち、なんとか生き延びたアブド＝アッラフマーン1世はイベリア半島に逃れ、コルドバを都に後ウマイヤ朝を建てた。この王朝は当初カリフを名乗らず、地方の長官という意味のアミールを名乗った。これは、当時イスラーム教徒が「ウンマは一つで、そのウンマの指導者がカリフ」って考えていたからだ。同じころ、モロッコにもアリーの子孫がイドリース朝を建てたけど、こっちもカリフは名乗らなかった。"
+  ],
+  "takeaway": "後ウマイヤ朝とイドリース朝",
+  "note": "原文 p.324 の本文。",
+  "sourceText": {
+    "page": 324
+  }
+}),
   makeScene({
-    id: "fatimid-founding", chapter: 0, year: "909年", frame: [5, 26, 20, 40], zones: ["fatimid"], pins: ["tunis", "northAfrica"],
-    tags: [{ at: [13, 33], text: "イスマーイール派" }], facts: ["シーア派の秘密運動がチュニジアのベルベル人に広がる", "ファーティマの子孫を称してファーティマ朝を建国", "アッバース朝の正統性を否定してカリフを称す"],
-    actors: [{ name: "ファーティマ朝", image: "fatimid-caliph", at: "tunis", bubble: "ムハンマドの娘ファーティマの子孫を称す" }],
-    title: "イスマーイール派が、\nファーティマ朝を建てる。", kicker: "10世紀のシーア派の反撃", mapHeading: "チュニジアで始まるファーティマ朝", focus: "秘密運動・ベルベル人・カリフ",
-    before: "アッバース革命後にシーア派が弾圧される", after: "イスマーイール派が北アフリカで建国する",
-    body: ["<strong>10世紀</strong>、<strong>アッバース革命</strong>に協力しながら建国後に弾圧された<strong>シーア派</strong>から、<strong>イスマーイール派</strong>が現れた。秘密運動を通じ、<strong>北アフリカ</strong>の<strong>チュニジア</strong>で<strong>ベルベル人</strong>の支持を集めて<strong>ファーティマ朝</strong>を建てた。", "君主は<strong>ムハンマド</strong>の娘<strong>ファーティマ</strong>の子孫を称し、<strong>アッバース家</strong>による<strong>アッバース朝</strong>の正統性を否定して<strong>カリフ</strong>を名乗った。"],
-    takeaway: "ファーティマ朝は、シーア派の立場からカリフを称した。", note: "建国地のチュニジアから、次のエジプト征服へ進みます。"
-  }),
+  "zones": [],
+  "pins": [
+    "tunis"
+  ],
+  "routes": [],
+  "tags": [],
+  "facts": [
+    "ファーティマ朝の成立"
+  ],
+  "actors": [
+    {
+      "name": "ファーティマ朝",
+      "image": "fatimid-caliph",
+      "at": "tunis",
+      "bubble": ""
+    }
+  ],
+  "props": [],
+  "duration": 2200,
+  "id": "fatimid-founding",
+  "chapter": 0,
+  "year": "イスラーム世界の分裂",
+  "frame": [
+    5,
+    26,
+    20,
+    40
+  ],
+  "title": "ファーティマ朝の成立",
+  "kicker": "ファーティマ朝の成立",
+  "mapHeading": "ファーティマ朝の成立",
+  "focus": "ファーティマ朝の成立",
+  "before": "ファーティマ朝の成立",
+  "after": "ファーティマ朝の成立",
+  "body": [
+    "でも、10世紀になると「シーア派の反撃」が始まった！　アッバース革命に協力したのに、建国後に弾圧されたシーア派のなかから「アッバース家はカリフ位を盗んだ！」と主張する過激なイスマーイール派が現れ、秘密運動でチュニジアのベルベル人の支持を集めてファーティマ朝を建てると、君主は「自分はムハンマドの娘ファーティマの子孫である」と主張し、アッバース朝の正統性を否定してカリフを名乗った。"
+  ],
+  "takeaway": "ファーティマ朝の成立",
+  "note": "原文 p.325 の本文。",
+  "sourceText": {
+    "page": 325
+  }
+}),
   makeScene({
-    id: "three-caliphs", chapter: 0, year: "929年", frame: [-10, 25, 51, 42], zones: ["west", "fatimid", "abbasid"], pins: ["cordoba", "tunis", "baghdad"],
-    tags: [{ at: [-1, 35], text: "後ウマイヤ朝" }, { at: [20, 30], text: "ファーティマ朝" }, { at: [47, 36], text: "アッバース朝" }],
-    facts: ["アブド＝アッラフマーン3世が929年にカリフを称す", "ウマイヤ家・ファーティマ朝・アッバース朝", "イスラーム世界に3人のカリフが並立"],
-    actors: [{ name: "アブド＝アッラフマーン3世", image: "abd-alrahman3", at: "cordoba", bubble: "私こそウマイヤ家のカリフだ" }],
-    title: "後ウマイヤ朝もカリフを称し、\n三カリフが並び立つ。", kicker: "西・中・東の三つの権威", mapHeading: "コルドバ・チュニジア・バグダードの三政権", focus: "929年の三カリフ並立",
-    before: "ファーティマ朝がカリフを称す", after: "アブド＝アッラフマーン3世も対抗して名乗る",
-    body: ["<strong>929年</strong>、<strong>後ウマイヤ朝</strong>の<strong>アブド＝アッラフマーン3世</strong>も、<strong>ウマイヤ家</strong>の<strong>カリフ</strong>を称した。", "こうして<strong>コルドバ</strong>の後ウマイヤ朝、<strong>チュニジア</strong>の<strong>ファーティマ朝</strong>、<strong>バグダード</strong>の<strong>アッバース朝</strong>が対立し、<strong>イスラーム世界</strong>に<strong>3人のカリフ</strong>が並び立った。"],
-    takeaway: "唯一と考えられていたカリフが、三人並立する時代になった。", note: "次の場面で、ファーティマ朝がエジプトへ移る流れを示します。"
-  }),
+  "zones": [],
+  "pins": [],
+  "routes": [],
+  "tags": [],
+  "facts": [
+    "３人のカリフの並立"
+  ],
+  "actors": [
+    {
+      "name": "アブド＝アッラフマーン3世",
+      "image": "abd-alrahman3",
+      "at": "cordoba",
+      "bubble": ""
+    }
+  ],
+  "props": [],
+  "duration": 2200,
+  "id": "three-caliphs",
+  "chapter": 0,
+  "year": "イスラーム世界の分裂",
+  "frame": [
+    -10,
+    25,
+    51,
+    42
+  ],
+  "title": "３人のカリフの並立",
+  "kicker": "３人のカリフの並立",
+  "mapHeading": "３人のカリフの並立",
+  "focus": "３人のカリフの並立",
+  "before": "３人のカリフの並立",
+  "after": "３人のカリフの並立",
+  "body": [
+    "すると、後ウマイヤ朝のアブド＝アッラフマーン3世も「バカを言うな！　私こそウマイヤ家のカリフだ！」と、カリフを名乗った。こうしてイスラーム世界には、3人のカリフが並び立ったんだ。"
+  ],
+  "takeaway": "３人のカリフの並立",
+  "note": "原文 p.325 の本文。",
+  "sourceText": {
+    "page": 325
+  }
+}),
   makeScene({
-    id: "fatimid-cairo", chapter: 0, year: "10世紀", frame: [15, 5, 68, 38], zones: ["fatimid"], pins: ["tunis", "cairo", "mediterranean", "redSea", "indianOcean"],
-    routes: [route([[10.18, 36.8], [31.24, 30.04]], "campaign"), route([[20, 35], [31.24, 30.04], [37, 20], [62, 5]], "trade")],
-    facts: ["エジプト征服と新都カイロの建設", "地中海とインド洋を結ぶ紅海貿易", "アズハル＝モスク内のアズハル学院"],
-    props: [{ name: "アズハル＝モスク", image: "azhar-mosque", at: "cairo", kind: "prop", size: 72 }],
-    title: "ファーティマ朝がカイロを築き、\n紅海貿易で栄える。", kicker: "エジプト征服後の新都", mapHeading: "チュニジアからカイロ、紅海からインド洋へ", focus: "アズハル学院と二つの海",
-    before: "ファーティマ朝がチュニジアで成立する", after: "エジプトを征服しカイロを建設する",
-    body: ["<strong>ファーティマ朝</strong>は<strong>チュニジア</strong>から<strong>エジプト</strong>へ進み、首都<strong>カイロ</strong>を建設した。<strong>地中海</strong>と<strong>インド洋</strong>を結ぶ<strong>紅海貿易</strong>を支配して繁栄した。", "カイロの<strong>アズハル＝モスク</strong>には、イスラーム世界で最古級の大学である<strong>アズハル学院</strong>が置かれた。ファーティマ朝では<strong>シーア派</strong>の学問を担い、<strong>アイユーブ朝</strong>以後は<strong>スンナ派神学</strong>の中心となった。"],
-    takeaway: "カイロは、交易と学問を結ぶファーティマ朝の中心になった。", note: "交易路と学院の変化を同じ場面で確認します。"
-  }),
+  "zones": [],
+  "pins": [
+    "egypt",
+    "cairo",
+    "mediterranean",
+    "redSea",
+    "indianOcean"
+  ],
+  "routes": [
+    {
+      "points": [
+        [
+          20,
+          35
+        ],
+        [
+          31.24,
+          30.04
+        ],
+        [
+          37,
+          20
+        ],
+        [
+          62,
+          5
+        ]
+      ],
+      "kind": "trade"
+    }
+  ],
+  "tags": [],
+  "facts": [
+    "カイロの建設と繁栄"
+  ],
+  "actors": [],
+  "props": [
+    {
+      "name": "アズハル＝モスク",
+      "image": "azhar-mosque",
+      "at": "cairo",
+      "kind": "prop",
+      "size": 72
+    }
+  ],
+  "duration": 2200,
+  "id": "fatimid-cairo",
+  "chapter": 0,
+  "year": "イスラーム世界の分裂",
+  "frame": [
+    15,
+    5,
+    68,
+    38
+  ],
+  "title": "カイロの建設と繁栄",
+  "kicker": "カイロの建設と繁栄",
+  "mapHeading": "カイロの建設と繁栄",
+  "focus": "カイロの建設と繁栄",
+  "before": "カイロの建設と繁栄",
+  "after": "カイロの建設と繁栄",
+  "body": [
+    "その後、ファーティマ朝はエジプトを征服して首都カイロを建設し、地中海とインド洋を結ぶ紅海貿易を支配して繁栄した。また、首都カイロに建てられたアズハル＝モスクのなかに、イスラーム世界最古の大学（マドラサ）アズハル学院が設立された。この学院はファーティマ朝のもとではシーア派の学問の中心だけど、アイユーブ朝以降はスンナ派神学の中心になるよ。"
+  ],
+  "takeaway": "カイロの建設と繁栄",
+  "note": "原文 p.325 の本文。",
+  "sourceText": {
+    "page": 325
+  }
+}),
   makeScene({
-    id: "buyid-outline", chapter: 0, year: "932〜1062年", frame: [38, 26, 57, 41], zones: ["iran", "abbasid"], pins: ["iran", "baghdad"], routes: [route([[53, 32], [44.37, 33.32]], "campaign")],
-    facts: ["ブワイフ朝：イラン系シーア派", "946年にバグダードへ入城し大アミールとなる", "軍人・官僚へ管理権と徴税権を与えるイクター制"],
-    actors: [{ name: "大アミール", image: "buyid-amir", at: "iran", route: 0, bubble: "カリフを残して実権を握る" }],
-    title: "ブワイフ朝が、\nバグダードの実権を握る。", kicker: "イラン・イラクの王朝①", mapHeading: "イランからバグダードへ入るブワイフ朝", focus: "大アミールとイクター制",
-    before: "イラン系シーア派の軍事政権が成長する", after: "946年にバグダードへ入城する",
-    body: ["<strong>ブワイフ朝【932〜1062年】</strong>は<strong>イラン系</strong>の<strong>シーア派</strong>政権で、<strong>946年</strong>に<strong>イラン</strong>から<strong>バグダード</strong>へ入城し、<strong>カリフ</strong>から<strong>大アミール</strong>に任命された。", "軍人・官僚へ土地の<strong>管理権</strong>と<strong>徴税権</strong>を与える<strong>イクター制</strong>を始め、イラクの政治を動かした。"],
-    takeaway: "ブワイフ朝はカリフを残し、大アミールとして政治を支配した。", note: "イクター制の成立事情は、後の場面で詳しく扱います。"
-  }),
+  "zones": [],
+  "pins": [
+    "eastIran",
+    "baghdad",
+    "centralAsia",
+    "southIraq"
+  ],
+  "routes": [
+    {
+      "points": [
+        [
+          60,
+          31
+        ],
+        [
+          44.37,
+          33.32
+        ]
+      ],
+      "kind": "campaign"
+    },
+    {
+      "points": [
+        [
+          68,
+          40
+        ],
+        [
+          60,
+          31
+        ]
+      ],
+      "kind": "campaign"
+    }
+  ],
+  "tags": [],
+  "facts": [
+    "イラン人政権の自立と反乱"
+  ],
+  "actors": [],
+  "props": [],
+  "duration": 2200,
+  "id": "iranian-independence",
+  "chapter": 0,
+  "year": "イスラーム世界の分裂",
+  "frame": [
+    39,
+    24,
+    72,
+    43
+  ],
+  "title": "イラン人政権の自立と反乱",
+  "kicker": "イラン人政権の自立と反乱",
+  "mapHeading": "イラン人政権の自立と反乱",
+  "focus": "イラン人政権の自立と反乱",
+  "before": "イラン人政権の自立と反乱",
+  "after": "イラン人政権の自立と反乱",
+  "body": [
+    "一方、東方でも自立の動きが進み、イラン人勢力を中心に次々と独立政権が現れて、アッバース朝は急速に衰退したよ。イラン東部では鍛冶職人だったヤークーブがイラン系最初のイスラーム王朝サッファール朝を建国し、バグダードを目指して西方に進出した。",
+    "ただ、中央アジアから興った同じイラン系のサーマーン朝がサッファール朝を滅ぼし、中央アジアからイランの東部まで支配した。追い打ちをかけるように、南イラクでは黒人奴隷のザンジュの乱が起きて、国内はますます混乱したんだ。"
+  ],
+  "takeaway": "イラン人政権の自立と反乱",
+  "note": "原文 p.326 の本文。",
+  "sourceText": {
+    "page": 326
+  }
+}),
   makeScene({
-    id: "seljuq-outline", chapter: 0, year: "1038〜1194年", frame: [39, 27, 66, 42], zones: ["seljuq"], pins: ["khorasan", "baghdad"], routes: [route([[59, 35.5], [44.37, 33.32]], "campaign")],
-    facts: ["セルジューク朝：トルコ系スンナ派", "トゥグリル＝ベク【位1038〜63年】がホラーサーン地方で建国", "1055年、アッバース朝カリフからスルタン称号"],
-    actors: [{ name: "トゥグリル＝ベク", image: "tughril-beg", at: "khorasan", route: 0, bubble: "バグダードへ進む" }],
-    title: "トゥグリル＝ベクが、\nセルジューク朝を建てる。", kicker: "イラン・イラクの王朝②", mapHeading: "ホラーサーン地方からバグダードへ", focus: "トルコ系スンナ派とスルタン",
-    before: "トゥグリル＝ベクがホラーサーン地方で建国する", after: "1055年にバグダードへ入城する",
-    body: ["<strong>トルコ系</strong>の<strong>スンナ派</strong>政権である<strong>セルジューク朝【1038〜1194年】</strong>は、<strong>トゥグリル＝ベク【位1038〜63年】</strong>が<strong>ホラーサーン地方</strong>で建てた。", "<strong>1055年</strong>に<strong>バグダード</strong>へ入城し、<strong>アッバース朝カリフ</strong>から<strong>スルタン</strong>の称号を受けた。"],
-    takeaway: "セルジューク朝は、カリフから政治的支配者として認められた。", note: "宗教的権威と政治的実権の分担へつながります。"
-  }),
+  "zones": [],
+  "pins": [
+    "caspian",
+    "baghdad"
+  ],
+  "routes": [
+    {
+      "points": [
+        [
+          49,
+          37
+        ],
+        [
+          44.37,
+          33.32
+        ]
+      ],
+      "kind": "campaign"
+    }
+  ],
+  "tags": [],
+  "facts": [
+    "ブワイフ朝がバグダードへ入る"
+  ],
+  "actors": [
+    {
+      "name": "ブワイフ朝",
+      "image": "buyid-amir",
+      "at": "caspian",
+      "route": 0,
+      "bubble": ""
+    }
+  ],
+  "props": [],
+  "duration": 2200,
+  "id": "buyid-baghdad",
+  "chapter": 0,
+  "year": "イスラーム世界の分裂",
+  "frame": [
+    40,
+    27,
+    55,
+    41
+  ],
+  "title": "ブワイフ朝がバグダードへ入る",
+  "kicker": "ブワイフ朝がバグダードへ入る",
+  "mapHeading": "ブワイフ朝がバグダードへ入る",
+  "focus": "ブワイフ朝がバグダードへ入る",
+  "before": "ブワイフ朝がバグダードへ入る",
+  "after": "ブワイフ朝がバグダードへ入る",
+  "body": [
+    "そして、10世紀半ばにカスピ海南西から現れた軍人政権のブワイフ朝は、イラン人歩兵軍団に加えてトルコ人マムルークを率いてバグダードに入城し、カリフから大アミールに任じられた。"
+  ],
+  "takeaway": "ブワイフ朝がバグダードへ入る",
+  "note": "原文 p.326 の本文。",
+  "sourceText": {
+    "page": 326
+  }
+}),
   makeScene({
-    id: "manzikert-outline", chapter: 0, year: "1071年", frame: [24, 31, 48, 48], zones: ["anatolia", "seljuq"], pins: ["manzikert", "anatolia", "westEurope"],
-    routes: [route([[50, 37], [42.54, 39.14]], "campaign"), route([[42.54, 39.14], [34, 39]], "campaign"), route([[34, 39], [3, 47]], "move")],
-    facts: ["アルプ＝アルスラーン【位1063〜72年】", "マラーズギルドの戦い【1071年】でビザンツ帝国軍を破る", "アナトリア喪失と西欧への援軍要請が十字軍遠征の背景"],
-    actors: [{ name: "アルプ＝アルスラーン", image: "tughril-beg", at: "manzikert", bubble: "ビザンツ帝国軍を破る" }],
-    title: "マラーズギルドの勝利が、\n十字軍遠征の背景になる。", kicker: "イラン・イラクの王朝③", mapHeading: "マラーズギルドからアナトリアと西欧へ", focus: "アルプ＝アルスラーンとビザンツ帝国",
-    before: "セルジューク朝がビザンツ帝国と対峙する", after: "ビザンツ帝国が西欧へ援軍を求める",
-    body: ["<strong>セルジューク朝</strong>の<strong>アルプ＝アルスラーン【位1063〜72年】</strong>は、<strong>1071年</strong>の<strong>マラーズギルドの戦い</strong>で<strong>ビザンツ帝国軍</strong>を破り、<strong>ビザンツ帝国</strong>は<strong>アナトリア【小アジア】</strong>を失った。", "ビザンツ帝国が<strong>西欧</strong>へ援軍を求めたことが、<strong>十字軍遠征</strong>の背景になった。"],
-    takeaway: "アナトリアへの進出が、西欧の十字軍遠征につながった。", note: "戦い、領土の変化、援軍要請を一続きで示します。"
-  }),
+  "zones": [],
+  "pins": [
+    "baghdad"
+  ],
+  "routes": [],
+  "tags": [],
+  "facts": [
+    "イクター制の始まり"
+  ],
+  "actors": [
+    {
+      "name": "軍人",
+      "image": "buyid-amir",
+      "at": "baghdad",
+      "bubble": ""
+    }
+  ],
+  "props": [],
+  "duration": 2200,
+  "id": "buyid-iqta",
+  "chapter": 0,
+  "year": "イスラーム世界の分裂",
+  "frame": [
+    40,
+    27,
+    52,
+    39
+  ],
+  "title": "イクター制の始まり",
+  "kicker": "イクター制の始まり",
+  "mapHeading": "イクター制の始まり",
+  "focus": "イクター制の始まり",
+  "before": "イクター制の始まり",
+  "after": "イクター制の始まり",
+  "body": [
+    "ブワイフ朝がバグダードに入城したとき、兵士に俸給（アター）を支払おうとしたんだけど、アッバース朝は財政難だったからバグダードの金庫がすっからかんだ。そしたら軍人たちが暴動を起こすようになったから、土地の管理権と徴税権（イクター）を与えるイクター制を始めたんだ。この後のイスラーム王朝でも採用されるよ。ちなみにブワイフ朝はシーア派だから、東方でも「シーア派の反撃」が起きたってことだね。"
+  ],
+  "takeaway": "イクター制の始まり",
+  "note": "原文 p.327 の本文。",
+  "sourceText": {
+    "page": 327
+  }
+}),
   makeScene({
-    id: "malik-nizam-outline", chapter: 0, year: "1072〜1092年", frame: [37, 25, 63, 43], zones: ["seljuq"], pins: ["iran", "baghdad"],
-    tags: [{ at: [55, 37], text: "ニザーミーヤ学院" }], facts: ["マリク＝シャー【位1072〜92年】の全盛期", "イラン人宰相ニザーム＝アルムルク", "主要都市の学院とイクター制整備"],
-    actors: [{ name: "ニザーム＝アルムルク", image: "nizam-almulk", at: "iran", bubble: "学院とイクター制を整える" }],
-    title: "マリク＝シャーの全盛期を、\n宰相が制度で支える。", kicker: "イラン・イラクの王朝④", mapHeading: "セルジューク朝の主要都市へ制度を広げる", focus: "ニザーム＝アルムルクとニザーミーヤ学院",
-    before: "マリク＝シャーがセルジューク朝を率いる", after: "学院とイクター制が統治を支える",
-    body: ["<strong>マリク＝シャー【位1072〜92年】</strong>の時代、<strong>セルジューク朝</strong>は<strong>全盛期</strong>を迎えた。<strong>イラン人宰相</strong>の<strong>ニザーム＝アルムルク</strong>が統治を支えた。", "<strong>イラン</strong>や<strong>バグダード</strong>などの<strong>主要都市</strong>に<strong>ニザーミーヤ学院</strong>を設け、<strong>イクター制</strong>を整備した。"],
-    takeaway: "軍事だけでなく、宰相の制度整備が全盛期を支えた。", note: "学院の教育内容と『統治の書』は後の場面で扱います。"
-  }),
+  "zones": [],
+  "pins": [
+    "centralAsia",
+    "oasis"
+  ],
+  "routes": [],
+  "tags": [],
+  "facts": [
+    "トルコ人へのイスラーム教の広がり"
+  ],
+  "actors": [],
+  "props": [],
+  "duration": 2200,
+  "id": "turkish-islamization",
+  "chapter": 1,
+  "year": "トルコ人の台頭",
+  "frame": [
+    56,
+    32,
+    108,
+    51
+  ],
+  "title": "トルコ人へのイスラーム教の広がり",
+  "kicker": "トルコ人へのイスラーム教の広がり",
+  "mapHeading": "トルコ人へのイスラーム教の広がり",
+  "focus": "トルコ人へのイスラーム教の広がり",
+  "before": "トルコ人へのイスラーム教の広がり",
+  "after": "トルコ人へのイスラーム教の広がり",
+  "body": [
+    "中央アジアのサーマーン朝はマムルークを多数抱えていたから、宮廷内でトルコ人の力が強まった。同じころ、中央アジアのオアシス地帯のトルコ人のなかには、マムルークではなく独自にイスラーム教を受容する部族も現れ、ムスリム商人の活動とも結びついてイスラーム教が広がった（イスラーム化）。"
+  ],
+  "takeaway": "トルコ人へのイスラーム教の広がり",
+  "note": "原文 p.327 の本文。",
+  "sourceText": {
+    "page": 327
+  }
+}),
   makeScene({
-    id: "seljuq-breakup-outline", chapter: 0, year: "1077〜1231年", frame: [28, 25, 71, 44], zones: ["anatolia", "iran"], pins: ["anatolia", "iran", "afghanistan", "iraq"],
-    tags: [{ at: [35, 41], text: "ルーム＝セルジューク朝" }, { at: [58, 33], text: "ホラズム＝シャー朝" }], facts: ["ルーム＝セルジューク朝【1077〜1308年】", "ホラズム＝シャー朝【1077〜1231年】", "1194年にイラク支配のセルジューク朝を滅ぼす"],
-    title: "セルジューク朝が分かれ、\n二つの王朝が自立する。", kicker: "イラン・イラクの王朝⑤", mapHeading: "アナトリアとイラン・アフガニスタンの分裂", focus: "ルーム＝セルジューク朝とホラズム＝シャー朝",
-    before: "セルジューク朝の各地の軍団が力を持つ", after: "アナトリアと東方に別の王朝が生まれる",
-    body: ["<strong>セルジューク朝</strong>の分裂後、<strong>アナトリア</strong>には<strong>ルーム＝セルジューク朝【1077〜1308年】</strong>が建てられた。", "<strong>セルジューク朝のトルコ人奴隷</strong>から成立した<strong>ホラズム＝シャー朝【1077〜1231年】</strong>は、<strong>イラン</strong>・<strong>アフガニスタン</strong>方面へ広がり、<strong>1194年</strong>に<strong>イラク</strong>支配を続けたセルジューク朝を滅ぼした。"],
-    takeaway: "大帝国の分裂から、地域ごとの王朝が生まれた。", note: "ホラズム朝という短い表記も後に登場します。"
-  }),
+  "zones": [],
+  "pins": [
+    "centralAsia",
+    "mongolia"
+  ],
+  "routes": [
+    {
+      "points": [
+        [
+          103,
+          46
+        ],
+        [
+          80,
+          43
+        ],
+        [
+          68,
+          40
+        ]
+      ],
+      "kind": "move"
+    }
+  ],
+  "tags": [],
+  "facts": [
+    "カラ＝ハン朝と中央アジアの変化"
+  ],
+  "actors": [],
+  "props": [],
+  "duration": 2200,
+  "id": "karakhanid-islamization",
+  "chapter": 1,
+  "year": "トルコ人の台頭",
+  "frame": [
+    56,
+    32,
+    108,
+    51
+  ],
+  "title": "カラ＝ハン朝と中央アジアの変化",
+  "kicker": "カラ＝ハン朝と中央アジアの変化",
+  "mapHeading": "カラ＝ハン朝と中央アジアの変化",
+  "focus": "カラ＝ハン朝と中央アジアの変化",
+  "before": "カラ＝ハン朝と中央アジアの変化",
+  "after": "カラ＝ハン朝と中央アジアの変化",
+  "body": [
+    "こうしてトルコ人のイスラーム化が進み、10世紀半ばには、中央アジアで最初のトルコ系イスラーム王朝であるカラ＝ハン朝【カラハン朝】が現れた。この王朝は、モンゴル高原から移動してきたウイグル人の一部が建てたといわれているよ。そして、10世紀末にサーマーン朝を滅ぼすと、中央アジアのトルコ化（トルコ語を話すようになること）が一気に進んだ。だからこの地を「トルキスタン」と呼ぶようになるんだ。"
+  ],
+  "takeaway": "カラ＝ハン朝と中央アジアの変化",
+  "note": "原文 p.327 の本文。",
+  "sourceText": {
+    "page": 327
+  }
+}),
   makeScene({
-    id: "ilkhan-hulagu-outline", chapter: 0, year: "1258年", frame: [38, 25, 65, 43], zones: ["iran", "abbasid"], pins: ["baghdad", "tabriz"], routes: [route([[64, 40], [44.37, 33.32]], "campaign"), route([[44.37, 33.32], [46.29, 38.08]], "move")],
-    facts: ["イル＝ハン国【1258〜1353年】・都タブリーズ", "フレグの遠征とモンゴルの遠征軍", "1258年にバグダードを占領しアッバース朝を滅ぼす"],
-    actors: [{ name: "フレグ", image: "hulagu-khan", at: [64, 40], route: 0, bubble: "バグダードへ遠征する" }],
-    title: "フレグの遠征が、\nアッバース朝を滅ぼす。", kicker: "イラン・イラクの王朝⑥", mapHeading: "モンゴル軍がバグダードへ進みタブリーズへ", focus: "1258年とイル＝ハン国",
-    before: "フレグ率いるモンゴルの遠征軍が西へ進む", after: "バグダードを占領しイル＝ハン国を建てる",
-    body: ["<strong>フレグ</strong>の率いる<strong>モンゴルの遠征軍</strong>は、<strong>1258年</strong>に<strong>バグダード</strong>を占領し、<strong>アッバース朝</strong>を滅ぼした。", "フレグは<strong>イラン</strong>に<strong>イル＝ハン国【1258〜1353年】</strong>を建て、<strong>タブリーズ</strong>を都とした。"],
-    takeaway: "モンゴルの遠征が、バグダードのアッバース朝を終わらせた。", note: "この遠征は、後のエジプトの場面にもつながります。"
-  }),
+  "zones": [],
+  "pins": [
+    "afghanistan"
+  ],
+  "routes": [
+    {
+      "points": [
+        [
+          67,
+          34
+        ],
+        [
+          78,
+          28
+        ]
+      ],
+      "kind": "campaign"
+    }
+  ],
+  "tags": [],
+  "facts": [
+    "ガズナ朝とインドへの進出"
+  ],
+  "actors": [
+    {
+      "name": "アルプテギン",
+      "image": "aibak-sultan",
+      "at": "afghanistan",
+      "bubble": "",
+      "route": 0
+    }
+  ],
+  "props": [],
+  "duration": 2200,
+  "id": "ghaznavid-alptegin",
+  "chapter": 1,
+  "year": "トルコ人の台頭",
+  "frame": [
+    60,
+    20,
+    84,
+    42
+  ],
+  "title": "ガズナ朝とインドへの進出",
+  "kicker": "ガズナ朝とインドへの進出",
+  "mapHeading": "ガズナ朝とインドへの進出",
+  "focus": "ガズナ朝とインドへの進出",
+  "before": "ガズナ朝とインドへの進出",
+  "after": "ガズナ朝とインドへの進出",
+  "body": [
+    "アフガニスタンでもサーマーン朝のマムルークだったアルプテギンがガズナ朝を建国し、10世紀末からインド侵入を繰り返した。これが、インドがイスラーム化するきっかけだよ。こうして、中央アジアからアフガニスタンがトルコ系イスラーム王朝の支配下に入ったんだ。"
+  ],
+  "takeaway": "ガズナ朝とインドへの進出",
+  "note": "原文 p.327 の本文。",
+  "sourceText": {
+    "page": 327
+  }
+}),
   makeScene({
-    id: "ghazan-outline", chapter: 0, year: "1295〜1304年", frame: [42, 26, 64, 43], zones: ["iran"], pins: ["iran", "tabriz"], tags: [{ at: [57, 35], text: "国教" }],
-    facts: ["ガザン＝ハン【位1295〜1304年】", "即位直後にイスラームへ改宗", "イラン人宰相ラシード＝アッディーンを任命"], actors: [{ name: "ガザン＝ハン", image: "hulagu-khan", at: "tabriz", bubble: "イスラームへ改宗する" }],
-    title: "ガザン＝ハンが改宗し、\nイスラームを国教とする。", kicker: "イラン・イラクの王朝⑦", mapHeading: "タブリーズから進むイル＝ハン国の改革", focus: "ガザン＝ハンとラシード＝アッディーン",
-    before: "モンゴル系のイル＝ハン国がイランを支配する", after: "ガザン＝ハンがイスラームを国教とする",
-    body: ["<strong>モンゴル系</strong>の<strong>イル＝ハン国</strong>の<strong>ガザン＝ハン【位1295〜1304年】</strong>は、都<strong>タブリーズ</strong>で即位すると、直後に<strong>イスラーム</strong>へ<strong>改宗</strong>し、これを<strong>国教</strong>とした。", "<strong>イラン</strong>の統治には、<strong>イラン人宰相</strong>の<strong>ラシード＝アッディーン</strong>を任命した。"],
-    takeaway: "モンゴル系王朝がイスラームを受け入れ、現地社会との結びつきを強めた。", note: "人物名と、改宗・国教化・宰相任命の順を確認します。"
-  }),
+  "zones": [],
+  "pins": [
+    "baghdad",
+    "khorasanMain"
+  ],
+  "routes": [],
+  "tags": [],
+  "facts": [
+    "セルジューク朝の成立とカリフの要請"
+  ],
+  "actors": [
+    {
+      "name": "トゥグリル＝ベク",
+      "image": "tughril-beg",
+      "at": "khorasan",
+      "bubble": ""
+    }
+  ],
+  "props": [],
+  "duration": 2200,
+  "id": "tughril-summoned",
+  "chapter": 1,
+  "year": "トルコ人の台頭",
+  "frame": [
+    38,
+    27,
+    65,
+    43
+  ],
+  "title": "セルジューク朝の成立とカリフの要請",
+  "kicker": "セルジューク朝の成立とカリフの要請",
+  "mapHeading": "セルジューク朝の成立とカリフの要請",
+  "focus": "セルジューク朝の成立とカリフの要請",
+  "before": "セルジューク朝の成立とカリフの要請",
+  "after": "セルジューク朝の成立とカリフの要請",
+  "body": [
+    "トルコ人の地位を決定づけたのがセルジューク朝だよ。トゥグリル＝ベクがホラーサーンでセルジューク朝を建てた。そして、アッバース朝カリフに「いつでも支援する準備はできています」と伝えると、カリフは「ブワイフ朝はバグダードに居座っているから、すぐにバグダードに来るように」と支援を要請した。"
+  ],
+  "takeaway": "セルジューク朝の成立とカリフの要請",
+  "note": "原文 p.327 の本文。",
+  "sourceText": {
+    "page": 327
+  }
+}),
   makeScene({
-    id: "ninth-century-map", chapter: 0, year: "9世紀", frame: [-11, 26, 75, 46], zones: ["west", "abbasid", "centralAsia"], pins: ["cordoba", "morocco", "baghdad", "centralAsia"],
-    tags: [{ at: [8, 33], text: "アラブ系" }, { at: [64, 36], text: "イラン系" }], facts: ["後ウマイヤ朝・イドリース朝・アッバース朝【バグダード】", "中央アジアのサーマーン朝", "9〜10世紀はイラン人の自立と台頭"],
-    title: "9世紀、\nイラン人の自立が始まる。", kicker: "三世紀の勢力図①", mapHeading: "西方から中央アジアまでの9世紀", focus: "アラブ系・イラン系・シーア派",
-    before: "アラブ系王朝が西方とバグダードを支配する", after: "イラン系のサーマーン朝が中央アジアで台頭する",
-    body: ["<strong>9世紀</strong>には、<strong>コルドバ</strong>の<strong>後ウマイヤ朝</strong>、<strong>モロッコ</strong>の<strong>イドリース朝</strong>、<strong>バグダード</strong>の<strong>アッバース朝</strong>という<strong>アラブ系</strong>王朝があった。", "<strong>中央アジア</strong>では<strong>イラン系</strong>の<strong>サーマーン朝</strong>が台頭した。<strong>シーア派</strong>政権も含め、9〜10世紀は<strong>イラン人の自立と台頭</strong>の時代となった。"],
-    takeaway: "9世紀には、アラブ系王朝の周辺でイラン人政権が自立した。", note: "次の10世紀、11世紀と同じ範囲を見比べます。"
-  }),
+  "zones": [],
+  "pins": [
+    "baghdad"
+  ],
+  "routes": [],
+  "tags": [],
+  "facts": [
+    "スルタンの称号と政治的な支配権"
+  ],
+  "actors": [
+    {
+      "name": "トゥグリル＝ベク",
+      "image": "tughril-beg",
+      "at": "baghdad",
+      "bubble": ""
+    }
+  ],
+  "props": [],
+  "duration": 2200,
+  "id": "sultan-sunni-restoration",
+  "chapter": 1,
+  "year": "トルコ人の台頭",
+  "frame": [
+    39,
+    27,
+    53,
+    41
+  ],
+  "title": "スルタンの称号と政治的な支配権",
+  "kicker": "スルタンの称号と政治的な支配権",
+  "mapHeading": "スルタンの称号と政治的な支配権",
+  "focus": "スルタンの称号と政治的な支配権",
+  "before": "スルタンの称号と政治的な支配権",
+  "after": "スルタンの称号と政治的な支配権",
+  "body": [
+    "トゥグリル＝ベクはバグダードでブワイフ朝を追放し、アッバース朝カリフから正式にスルタン（支配者）の称号を受けたんだ。セルジューク朝はスンナ派だから、シーア派に対する「スンナ派の逆襲」だね！　これ以後、カリフの権威を背景にセルジューク朝が政治的な支配権を持つことになるよ。"
+  ],
+  "takeaway": "スルタンの称号と政治的な支配権",
+  "note": "原文 p.328 の本文。",
+  "sourceText": {
+    "page": 328
+  }
+}),
   makeScene({
-    id: "tenth-century-map", chapter: 0, year: "10世紀", frame: [-11, 25, 82, 46], zones: ["west", "fatimid", "abbasid", "iran", "centralAsia"], pins: ["cordoba", "cairo", "baghdad", "centralAsia"],
-    tags: [{ at: [6, 30], text: "アラブ系" }, { at: [54, 30], text: "イラン系" }, { at: [72, 43], text: "トルコ系" }], facts: ["後ウマイヤ朝・ファーティマ朝・アッバース朝【バグダード】", "ブワイフ朝・サーマーン朝・カラ＝ハン朝", "10世紀はシーア派の反撃"],
-    title: "10世紀、\nシーア派とトルコ系が台頭する。", kicker: "三世紀の勢力図②", mapHeading: "三カリフと東方諸王朝の10世紀", focus: "シーア派の反撃とトルコ系の登場",
-    before: "イラン人政権の自立が進む", after: "三カリフと複数の民族系統の王朝が並ぶ",
-    body: ["<strong>イラン人</strong>政権の自立が進んだ<strong>10世紀</strong>には、<strong>コルドバ</strong>の<strong>後ウマイヤ朝</strong>、<strong>カイロ</strong>の<strong>ファーティマ朝</strong>、<strong>バグダード</strong>の<strong>アッバース朝</strong>の三つの<strong>カリフ</strong>政権が並んだ。<strong>アラブ系</strong>王朝に加え、<strong>シーア派</strong>のファーティマ朝・<strong>ブワイフ朝</strong>が力を持った。", "東方では<strong>イラン系</strong>の<strong>サーマーン朝</strong>と、<strong>中央アジア</strong>の<strong>トルコ系</strong><strong>カラ＝ハン朝【カラハン朝】</strong>が並んだ。10世紀は『<strong>シーア派の反撃</strong>』の時代でもあった。"],
-    takeaway: "10世紀には、宗派と民族系統の異なる王朝が並立した。", note: "同じ王朝でも、宗派と民族系統は別の観点です。"
-  }),
+  "zones": [],
+  "pins": [
+    "manzikert",
+    "anatolia",
+    "westEurope"
+  ],
+  "routes": [
+    {
+      "points": [
+        [
+          46,
+          38
+        ],
+        [
+          42.54,
+          39.14
+        ]
+      ],
+      "kind": "campaign"
+    },
+    {
+      "points": [
+        [
+          42.54,
+          39.14
+        ],
+        [
+          34,
+          39
+        ]
+      ],
+      "kind": "campaign"
+    },
+    {
+      "points": [
+        [
+          34,
+          39
+        ],
+        [
+          3,
+          47
+        ]
+      ],
+      "kind": "move"
+    }
+  ],
+  "tags": [],
+  "facts": [
+    "アナトリアへの拡大と十字軍遠征の背景"
+  ],
+  "actors": [],
+  "props": [],
+  "duration": 2200,
+  "id": "manzikert-expansion",
+  "chapter": 1,
+  "year": "トルコ人の台頭",
+  "frame": [
+    24,
+    31,
+    48,
+    48
+  ],
+  "title": "アナトリアへの拡大と十字軍遠征の背景",
+  "kicker": "アナトリアへの拡大と十字軍遠征の背景",
+  "mapHeading": "アナトリアへの拡大と十字軍遠征の背景",
+  "focus": "アナトリアへの拡大と十字軍遠征の背景",
+  "before": "アナトリアへの拡大と十字軍遠征の背景",
+  "after": "アナトリアへの拡大と十字軍遠征の背景",
+  "body": [
+    "その後もセルジューク朝は拡大を続け、マラーズギルドの戦いでビザンツ帝国を破ってアナトリア（小アジア）に侵攻し、トルコ化・イスラーム化を進めた。これに危機感を抱いたビザンツ帝国が西欧に援軍を頼んだことが、十字軍遠征の背景だね。"
+  ],
+  "takeaway": "アナトリアへの拡大と十字軍遠征の背景",
+  "note": "原文 p.328 の本文。",
+  "sourceText": {
+    "page": 328
+  }
+}),
   makeScene({
-    id: "eleventh-century-map", chapter: 0, year: "11世紀", frame: [-11, 22, 84, 46], zones: ["west", "fatimid", "seljuq", "centralAsia", "india"], pins: ["marrakech", "cairo", "iran", "afghanistan", "centralAsia"],
-    tags: [{ at: [2, 30], text: "ベルベル人" }, { at: [47, 30], text: "トルコ系" }], facts: ["ムラービト朝・ファーティマ朝・セルジューク朝", "ガズナ朝・カラ＝ハン朝", "10〜11世紀はトルコ人の自立と台頭、スンナ派の逆襲"],
-    title: "11世紀、\nトルコ人政権が広がる。", kicker: "三世紀の勢力図③", mapHeading: "ベルベル人・アラブ系・トルコ系の11世紀", focus: "トルコ人の自立とスンナ派の逆襲",
-    before: "10世紀にシーア派政権が台頭する", after: "トルコ系スンナ派政権が東方から広がる",
-    body: ["<strong>11世紀</strong>には、<strong>マラケシュ</strong>周辺の<strong>ベルベル人</strong><strong>ムラービト朝</strong>、<strong>カイロ</strong>の<strong>アラブ系</strong>・<strong>シーア派</strong><strong>ファーティマ朝</strong>、<strong>イラン</strong>の<strong>セルジューク朝</strong>、<strong>アフガニスタン</strong>の<strong>ガズナ朝</strong>、<strong>中央アジア</strong>の<strong>カラ＝ハン朝【カラハン朝】</strong>が並んだ。東方三朝は<strong>トルコ系</strong>だった。", "<strong>10〜11世紀</strong>は『<strong>トルコ人の自立と台頭</strong>』と『<strong>スンナ派の逆襲</strong>』の時代となった。"],
-    takeaway: "11世紀には、トルコ系スンナ派政権がイスラーム世界の広い範囲を担った。", note: "ここまでの三場面は、時代ごとの変化を比較するための全体図です。"
-  }),
+  "zones": [],
+  "pins": [],
+  "routes": [],
+  "tags": [],
+  "facts": [
+    "マリク＝シャー時代の統治"
+  ],
+  "actors": [
+    {
+      "name": "マリク＝シャー",
+      "image": "tughril-beg",
+      "at": [
+        53,
+        32
+      ],
+      "bubble": ""
+    }
+  ],
+  "props": [],
+  "duration": 2200,
+  "id": "malik-administration",
+  "chapter": 1,
+  "year": "トルコ人の台頭",
+  "frame": [
+    37,
+    25,
+    64,
+    43
+  ],
+  "title": "マリク＝シャー時代の統治",
+  "kicker": "マリク＝シャー時代の統治",
+  "mapHeading": "マリク＝シャー時代の統治",
+  "focus": "マリク＝シャー時代の統治",
+  "before": "マリク＝シャー時代の統治",
+  "after": "マリク＝シャー時代の統治",
+  "body": [
+    "セルジューク朝は11世紀後半のマリク＝シャー時代に全盛期を迎え、軍ではマムルークを採用し、官僚としてはイラン人を登用してペルシア語を公用語とするなど、統治機構を整備した。"
+  ],
+  "takeaway": "マリク＝シャー時代の統治",
+  "note": "原文 p.328 の本文。",
+  "sourceText": {
+    "page": 328
+  }
+}),
   makeScene({
-    id: "iranian-independence", chapter: 1, year: "9世紀", frame: [39, 24, 72, 43], zones: ["iran", "centralAsia"], pins: ["eastIran", "baghdad", "centralAsia", "southIraq"],
-    routes: [route([[60, 31], [44.37, 33.32]], "campaign"), route([[68, 40], [60, 31]], "campaign")], tags: [{ at: [49, 28], text: "ザンジュの乱" }], facts: ["鍛冶職人ヤークーブがサッファール朝を建国", "サーマーン朝がサッファール朝を滅ぼす", "南イラクで黒人奴隷によるザンジュの乱"],
-    title: "イラン人政権の自立と反乱が、\nアッバース朝を揺らす。", kicker: "東方の自立①", mapHeading: "中央アジア・イラン東部・南イラクの動き", focus: "サッファール朝・サーマーン朝・ザンジュの乱",
-    before: "アッバース朝の支配が東方で弱まる", after: "複数のイラン系政権と反乱が広がる",
-    body: ["<strong>イラン東部</strong>では<strong>鍛冶職人</strong>だった<strong>ヤークーブ</strong>が、<strong>イラン系最初のイスラーム王朝</strong>である<strong>サッファール朝</strong>を建て、<strong>バグダード</strong>を目指して西へ進んだ。<strong>中央アジア</strong>の<strong>イラン系</strong><strong>サーマーン朝</strong>はサッファール朝を滅ぼし、中央アジアからイラン東部を支配した。", "<strong>南イラク</strong>では<strong>黒人奴隷</strong>による<strong>ザンジュの乱</strong>が起こり、<strong>アッバース朝</strong>の混乱が深まった。"],
-    takeaway: "東方の自立政権と南イラクの反乱が、アッバース朝の衰退を進めた。", note: "三つの動きを同じ地図で位置づけます。"
-  }),
+  "zones": [],
+  "pins": [],
+  "routes": [],
+  "tags": [],
+  "facts": [
+    "ニザーム＝アルムルクの制度整備"
+  ],
+  "actors": [
+    {
+      "name": "ニザーム＝アルムルク",
+      "image": "nizam-almulk",
+      "at": "iran",
+      "bubble": ""
+    }
+  ],
+  "props": [],
+  "duration": 2200,
+  "id": "nizam-reforms",
+  "chapter": 1,
+  "year": "トルコ人の台頭",
+  "frame": [
+    37,
+    25,
+    64,
+    43
+  ],
+  "title": "ニザーム＝アルムルクの制度整備",
+  "kicker": "ニザーム＝アルムルクの制度整備",
+  "mapHeading": "ニザーム＝アルムルクの制度整備",
+  "focus": "ニザーム＝アルムルクの制度整備",
+  "before": "ニザーム＝アルムルクの制度整備",
+  "after": "ニザーム＝アルムルクの制度整備",
+  "body": [
+    "この時代のイラン人宰相ニザーム＝アルムルクは、正しい君主のあり方を『統治の書』に著すと、領内の主要都市にニザーミーヤ学院（マドラサ）をつくって神学や法学の育成に努め、またブワイフ朝から受け継いだイクター制を発展させたよ。"
+  ],
+  "takeaway": "ニザーム＝アルムルクの制度整備",
+  "note": "原文 p.328 の本文。",
+  "sourceText": {
+    "page": 328
+  }
+}),
   makeScene({
-    id: "buyid-baghdad", chapter: 1, year: "10世紀半ば", frame: [40, 27, 55, 41], zones: ["iran", "abbasid"], pins: ["caspian", "baghdad"], routes: [route([[49, 37], [44.37, 33.32]], "campaign")],
-    facts: ["カスピ海南西から現れたブワイフ朝", "イラン人歩兵軍団とトルコ人マムルーク", "バグダード入城後、カリフから大アミール"], actors: [{ name: "軍人政権", image: "buyid-amir", at: "caspian", route: 0, bubble: "バグダードへ入城する" }],
-    title: "二つの軍団を率いるブワイフ朝が、\nバグダードへ入る。", kicker: "東方の自立②", mapHeading: "カスピ海南西からバグダードへ", focus: "イラン人歩兵とトルコ人マムルーク",
-    before: "ブワイフ朝がカスピ海南西で成長する", after: "バグダードでカリフから大アミールとなる",
-    body: ["<strong>10世紀半ば</strong>、<strong>カスピ海南西</strong>から現れた<strong>軍人政権</strong>の<strong>ブワイフ朝</strong>は、<strong>イラン人歩兵軍団</strong>と<strong>トルコ人マムルーク</strong>を率いた。", "<strong>バグダード</strong>へ入城し、<strong>カリフ</strong>から<strong>大アミール</strong>に任じられた。"],
-    takeaway: "ブワイフ朝は軍事力を背景に、バグダードの実権を握った。", note: "軍団の構成も地図下の要点に示します。"
-  }),
-  makeScene({
-    id: "buyid-iqta", chapter: 1, year: "946年以後", frame: [40, 27, 52, 39], zones: ["abbasid"], pins: ["baghdad"], tags: [{ at: [48, 36], text: "イクター制" }],
-    facts: ["アッバース朝の財政難でアター【俸給】を払えない", "軍人の暴動に対し土地の管理権・徴税権を与える", "シーア派ブワイフ朝による東方の反撃"], actors: [{ name: "軍人", image: "buyid-amir", at: "baghdad", bubble: "管理権と徴税権を受け取る" }],
-    title: "俸給不足から、\nイクター制が始まる。", kicker: "東方の自立③", mapHeading: "財政難のバグダードで生まれた制度", focus: "アター・暴動・管理権・徴税権",
-    before: "アッバース朝の金庫が空になりアターを払えない", after: "軍人へ土地の管理権と徴税権を与える",
-    body: ["<strong>ブワイフ朝</strong>が<strong>バグダード</strong>へ入ったとき、<strong>アッバース朝</strong>の<strong>財政難</strong>で<strong>アター【俸給】</strong>を払えず、<strong>軍人</strong>が<strong>暴動</strong>を起こした。", "そこで土地の<strong>管理権</strong>と<strong>徴税権</strong>を与える<strong>イクター制</strong>を始めた。<strong>シーア派</strong>のブワイフ朝による『<strong>東方のシーア派の反撃</strong>』でもあった。"],
-    takeaway: "現金の俸給不足を、土地から税を得る権利で補った。", note: "土地そのものではなく、管理と徴税の権利を与える制度です。"
-  }),
-  makeScene({
-    id: "central-asian-dynasties", chapter: 1, year: "867〜1211年", frame: [55, 30, 112, 52], zones: ["centralAsia"], pins: ["centralAsia", "bukhara", "mongolia"],
-    routes: [route([[103, 46], [75, 42], [64.42, 39.77]], "move")], tags: [{ at: [86, 46], text: "ナイマン" }], facts: ["サッファール朝【867〜903年】・サーマーン朝【875〜999年】", "カラ＝ハン朝【10世紀中頃〜12世紀中頃】", "カラ＝キタイ【西遼】【1132〜1211年】を耶律大石が建国"],
-    title: "中央アジアで、\n王朝が次々に交代する。", kicker: "中央アジアの王朝①", mapHeading: "ブハラからモンゴル高原までの王朝交代", focus: "サーマーン朝・カラ＝ハン朝・カラ＝キタイ",
-    before: "イラン系王朝が中央アジアへ広がる", after: "トルコ系と遼の王族の政権へ移る",
-    body: ["<strong>イラン系最初のイスラーム王朝</strong>の<strong>サッファール朝【867〜903年】</strong>に続き、<strong>サーマーン朝【875〜999年】</strong>が<strong>ブハラ</strong>を都とした。<strong>中央アジア</strong>では、最初の<strong>トルコ系イスラーム王朝</strong>である<strong>カラ＝ハン朝【10世紀中頃〜12世紀中頃】</strong>も成立した。", "<strong>遼の王族</strong><strong>耶律大石</strong>は<strong>カラ＝キタイ【西遼】【1132〜1211年】</strong>を建てた。内紛で衰えると<strong>ナイマン</strong>に滅ぼされ、ナイマンも<strong>チンギス＝ハン【カン】</strong>に滅ぼされた。<strong>モンゴル高原</strong>からの動きも中央アジアを変えた。"],
-    takeaway: "中央アジアでは、イラン系・トルコ系・遼系の政権が交代した。", note: "次の場面では、王朝交代とイスラーム化・トルコ化を結びます。"
-  }),
-  makeScene({
-    id: "karakhanid-islamization", chapter: 1, year: "10世紀半ば〜999年", frame: [56, 32, 108, 51], zones: ["centralAsia"], pins: ["bukhara", "oasis", "mongolia"],
-    routes: [route([[103, 46], [70, 41], [64.42, 39.77]], "move")], tags: [{ at: [76, 37], text: "トルキスタン" }], facts: ["サーマーン朝宮廷でマムルークの力が強まる", "ムスリム商人とオアシス地帯の部族がイスラームを受容", "ウイグル人の一部がカラ＝ハン朝を建て999年にサーマーン朝を滅ぼす"],
-    title: "カラ＝ハン朝の成立で、\n中央アジアの姿が変わる。", kicker: "中央アジアの王朝②", mapHeading: "モンゴル高原からオアシス地帯とブハラへ", focus: "イスラーム化・トルコ化・トルキスタン",
-    before: "サーマーン朝がマムルークを多数抱える", after: "カラ＝ハン朝がサーマーン朝を滅ぼす",
-    body: ["<strong>サーマーン朝</strong>の宮廷では<strong>マムルーク</strong>を通じて<strong>トルコ人</strong>の力が強まった。<strong>中央アジアのオアシス地帯</strong>では、部族が独自に<strong>イスラーム教</strong>を受け入れ、<strong>ムスリム商人</strong>の活動も<strong>イスラーム化</strong>を進めた。", "<strong>10世紀半ば</strong>、<strong>モンゴル高原</strong>から移動した<strong>ウイグル人</strong>の一部が建てたとされる<strong>カラ＝ハン朝</strong>が現れ、<strong>999年</strong>に<strong>ブハラ</strong>のサーマーン朝を滅ぼした。<strong>トルコ化</strong>が進んだ中央アジアは<strong>トルキスタン</strong>とよばれるようになった。"],
-    takeaway: "王朝交代と商人の活動が、中央アジアのイスラーム化・トルコ化を進めた。", note: "民族の移動、改宗、言語の変化を分けて捉えます。"
-  }),
-  makeScene({
-    id: "ghaznavid-alptegin", chapter: 1, year: "10世紀末", frame: [60, 20, 84, 42], zones: ["india", "centralAsia"], pins: ["afghanistan", "ghazna", "northIndia"], routes: [route([[68.42, 33.55], [78, 28]], "campaign")],
-    facts: ["サーマーン朝のマムルークだったアルプテギン", "アフガニスタンでガズナ朝を建国", "北インドへの侵入がインドのイスラーム化のきっかけ"], actors: [{ name: "アルプテギン", image: "aibak-sultan", at: "ghazna", route: 0, bubble: "北インドへ進む" }],
-    title: "アルプテギンのガズナ朝が、\nインド進出を始める。", kicker: "中央アジアの王朝③", mapHeading: "アフガニスタンのガズナから北インドへ", focus: "マムルークの自立とインドのイスラーム化",
-    before: "サーマーン朝の宮廷でトルコ人マムルークが力を持つ", after: "ガズナ朝が北インドへ侵入を重ねる",
-    body: ["<strong>アフガニスタン</strong>では、<strong>サーマーン朝</strong>の<strong>トルコ人</strong><strong>マムルーク</strong>だった<strong>アルプテギン</strong>が<strong>ガズナ</strong>で<strong>ガズナ朝</strong>を建てた。", "<strong>10世紀末</strong>から<strong>北インド</strong>への<strong>インド侵入</strong>を繰り返し、<strong>インドのイスラーム化</strong>のきっかけをつくった。こうして<strong>中央アジア</strong>からアフガニスタンが<strong>トルコ系イスラーム王朝</strong>の支配下へ入った。"],
-    takeaway: "サーマーン朝のマムルークが自立し、インド進出の道を開いた。", note: "後に続くゴール朝との違いは、北インドの場面で整理します。"
-  }),
-  makeScene({
-    id: "tughril-summoned", chapter: 1, year: "1038〜1055年", frame: [39, 27, 66, 42], zones: ["seljuq", "abbasid"], pins: ["khorasan", "baghdad"], routes: [route([[59, 35.5], [44.37, 33.32]], "campaign")],
-    facts: ["トゥグリル＝ベクがホラーサーンでセルジューク朝を建国", "アッバース朝カリフがブワイフ朝追放の支援を要請", "セルジューク朝軍がバグダードへ"], actors: [{ name: "トゥグリル＝ベク", image: "tughril-beg", at: "khorasan", route: 0, bubble: "カリフの要請でバグダードへ" }],
-    title: "カリフの要請を受け、\nセルジューク朝が西へ進む。", kicker: "トルコ人政権の台頭①", mapHeading: "ホラーサーンからバグダードへの救援", focus: "トゥグリル＝ベクとアッバース朝カリフ",
-    before: "トゥグリル＝ベクがセルジューク朝を建てる", after: "カリフがブワイフ朝追放の支援を求める",
-    body: ["<strong>トゥグリル＝ベク</strong>は<strong>ホラーサーン地方</strong>で<strong>セルジューク朝</strong>を建て、<strong>アッバース朝カリフ</strong>へ支援の用意を伝えた。", "カリフは<strong>ブワイフ朝</strong>が居座る<strong>バグダード</strong>へ来るよう<strong>支援要請</strong>を出し、セルジューク朝軍が西へ進んだ。"],
-    takeaway: "セルジューク朝の進出は、カリフからの要請を受けて始まった。", note: "建国から入城までの因果関係を示します。"
-  }),
-  makeScene({
-    id: "sultan-sunni-restoration", chapter: 1, year: "1055年", frame: [39, 27, 53, 41], zones: ["seljuq", "abbasid"], pins: ["baghdad"], tags: [{ at: [49, 37], text: "スンナ派の逆襲" }],
-    facts: ["トゥグリル＝ベクがブワイフ朝を追放", "アッバース朝カリフからスルタン【支配者】称号", "カリフの権威とセルジューク朝の政治的支配権"], actors: [{ name: "トゥグリル＝ベク", image: "tughril-beg", at: "baghdad", bubble: "スルタンとして政治を担う" }],
-    title: "カリフが権威を保ち、\nスルタンが政治を担う。", kicker: "トルコ人政権の台頭②", mapHeading: "1055年のバグダード入城", focus: "ブワイフ朝追放とスンナ派の逆襲",
-    before: "シーア派ブワイフ朝がバグダードを支配する", after: "スンナ派セルジューク朝が政治的実権を得る",
-    body: ["<strong>1055年</strong>、<strong>トゥグリル＝ベク</strong>は<strong>バグダード</strong>で<strong>シーア派</strong>の<strong>ブワイフ朝</strong>を追放し、<strong>アッバース朝カリフ</strong>から<strong>スルタン【支配者】</strong>の称号を受けた。", "<strong>スンナ派</strong>の<strong>セルジューク朝</strong>による『<strong>スンナ派の逆襲</strong>』であり、以後は<strong>カリフの権威</strong>を背景に、スルタンが<strong>政治的支配権</strong>を持った。"],
-    takeaway: "宗教的権威のカリフと、政治を担うスルタンが分かれた。", note: "同じ都市に二つの役割が並ぶ点を示します。"
-  }),
-  makeScene({
-    id: "manzikert-expansion", chapter: 1, year: "1071年以後", frame: [24, 31, 48, 48], zones: ["anatolia", "seljuq"], pins: ["manzikert", "anatolia", "westEurope"], routes: [route([[46, 38], [42.54, 39.14]], "campaign"), route([[42.54, 39.14], [34, 39]], "campaign"), route([[34, 39], [3, 47]], "move")],
-    facts: ["セルジューク朝がマラーズギルドの戦いでビザンツ帝国を破る", "アナトリア【小アジア】のトルコ化・イスラーム化", "西欧への援軍要請が十字軍遠征の背景"],
-    title: "アナトリアへ進み、\nトルコ化とイスラーム化を進める。", kicker: "トルコ人政権の台頭③", mapHeading: "マラーズギルドからアナトリアへ", focus: "ビザンツ帝国の危機と十字軍",
-    before: "セルジューク朝がマラーズギルドで勝利する", after: "ビザンツ帝国が西欧へ援軍を求める",
-    body: ["<strong>セルジューク朝</strong>は<strong>マラーズギルドの戦い</strong>で<strong>ビザンツ帝国</strong>を破り、<strong>アナトリア【小アジア】</strong>へ侵攻して<strong>トルコ化</strong>・<strong>イスラーム化</strong>を進めた。", "危機感を抱いたビザンツ帝国が<strong>西欧</strong>へ<strong>援軍</strong>を求めたことが、<strong>十字軍遠征</strong>の背景となった。"],
-    takeaway: "アナトリアの変化とビザンツ帝国の援軍要請が十字軍へつながった。", note: "一覧で先に見た戦いを、地域変化まで含めて整理します。"
-  }),
-  makeScene({
-    id: "malik-reforms", chapter: 1, year: "11世紀後半", frame: [37, 25, 64, 43], zones: ["seljuq"], pins: ["iran", "baghdad"], tags: [{ at: [58, 37], text: "ペルシア語を公用語" }],
-    facts: ["マリク＝シャー時代の全盛期：軍にマムルーク、官僚にイラン人", "ニザーム＝アルムルク『統治の書』", "ニザーミーヤ学院【マドラサ】で神学・法学、イクター制を発展"], actors: [{ name: "ニザーム＝アルムルク", image: "nizam-almulk", at: "iran", bubble: "制度と教育で統治を支える" }],
-    title: "軍・官僚・教育を整え、\nセルジューク朝が全盛期を迎える。", kicker: "トルコ人政権の台頭④", mapHeading: "イラン人宰相が主要都市へ制度を広げる", focus: "『統治の書』・学院・イクター制",
-    before: "マリク＝シャーが広い領土を支配する", after: "ニザーム＝アルムルクが統治機構を整える",
-    body: ["<strong>11世紀後半</strong>の<strong>マリク＝シャー</strong>時代、<strong>セルジューク朝</strong>は<strong>全盛期</strong>を迎えた。軍に<strong>マムルーク</strong>、官僚に<strong>イラン人</strong>を登用し、<strong>ペルシア語</strong>を<strong>公用語</strong>とした。", "<strong>イラン人宰相</strong><strong>ニザーム＝アルムルク</strong>は『<strong>統治の書</strong>』を著し、<strong>イラン</strong>や<strong>バグダード</strong>などの<strong>主要都市</strong>に<strong>ニザーミーヤ学院【マドラサ】</strong>を設けて<strong>神学</strong>と<strong>法学</strong>を育て、ブワイフ朝の<strong>イクター制</strong>を発展させた。"],
-    takeaway: "軍事・行政・教育の制度が、セルジューク朝の統治を支えた。", note: "人物名と三つの制度を同じ場面で対応させます。"
-  }),
-  makeScene({
-    id: "seljuq-fragmentation", chapter: 1, year: "11〜12世紀", frame: [27, 26, 71, 45], zones: ["anatolia", "iran"], pins: ["anatolia", "iran", "afghanistan", "northIraq", "centralAsia"],
-    tags: [{ at: [36, 42], text: "ルーム＝セルジューク朝" }, { at: [58, 32], text: "ホラズム＝シャー【ホラズム】朝" }, { at: [43, 38], text: "ザンギー朝" }], facts: ["セルジューク朝分裂後、第1回十字軍に敗北", "イラン・アフガニスタンとイラク北部に別政権", "中央アジアでカラ＝キタイ【西遼】がカラ＝ハン朝を滅ぼす"],
-    title: "セルジューク朝の分裂が、\n各地の新王朝を生む。", kicker: "トルコ人政権の台頭⑤", mapHeading: "アナトリア・東方・イラク北部の分裂", focus: "三王朝と第1回十字軍",
-    before: "各地の軍団と総督が力を持つ", after: "分裂した政権が十字軍と中央アジアの変動に直面する",
-    body: ["<strong>11世紀末</strong>、<strong>セルジューク朝</strong>の軍団が分裂し、<strong>アナトリア</strong>の<strong>ルーム＝セルジューク朝</strong>、<strong>イラン</strong>・<strong>アフガニスタン</strong>の<strong>ホラズム＝シャー【ホラズム】朝</strong>、<strong>イラク北部</strong>の総督から自立した<strong>ザンギー朝</strong>が生まれた。", "分裂したセルジューク朝は<strong>第1回十字軍</strong>に敗れた。<strong>12世紀</strong>の<strong>中央アジア</strong>では、<strong>カラ＝キタイ【西遼】</strong>が<strong>カラ＝ハン朝</strong>を滅ぼした。"],
-    takeaway: "分裂が、西方の十字軍と中央アジアの王朝交代に影響した。", note: "地図では三つの分裂先と中央アジアを同時に示します。"
-  }),
-  makeScene({
-    id: "twelfth-century-map", chapter: 1, year: "12世紀", frame: [-11, 17, 88, 48], zones: ["west", "mamluk", "anatolia", "iran", "india"], pins: ["anatolia", "centralAsia", "marrakech", "iran", "afghanistan", "cairo", "baghdad"],
-    tags: [{ at: [31, 39], text: "ルーム＝セルジューク朝" }, { at: [72, 44], text: "カラ＝キタイ【西遼】" }, { at: [-4, 34], text: "ムワッヒド朝" }], facts: ["ホラズム朝・ゴール朝・アイユーブ朝", "バグダードのアッバース朝カリフ領", "トルコ系・ベルベル人・イラン系とする説もある王朝／西欧から十字軍"],
-    title: "12世紀、分裂した世界へ、\n十字軍が攻め込む。", kicker: "時代の全体図①", mapHeading: "12世紀の諸王朝と十字軍", focus: "西方・中東・中央アジア・北インド",
-    before: "セルジューク朝の分裂が進む", after: "各地の王朝が西欧の十字軍にも直面する",
-    body: ["<strong>12世紀</strong>には、<strong>アナトリア</strong>の<strong>ルーム＝セルジューク朝</strong>、<strong>中央アジア</strong>の<strong>カラ＝キタイ【西遼】</strong>、<strong>マラケシュ</strong>の<strong>ムワッヒド朝</strong>、<strong>イラン</strong>の<strong>ホラズム朝</strong>、<strong>アフガニスタン</strong>の<strong>ゴール朝</strong>、<strong>カイロ</strong>の<strong>アイユーブ朝</strong>が並び、<strong>バグダード</strong>には<strong>アッバース朝カリフ領</strong>が残った。", "<strong>トルコ系</strong>・<strong>ベルベル人</strong>の王朝に加え、<strong>イラン系・トルコ系の諸説</strong>がある王朝もあった。分裂する一方、<strong>西欧</strong>から<strong>十字軍</strong>が攻め込んだ。"],
-    takeaway: "12世紀は、多数の地方王朝と十字軍が並ぶ分裂の時代だった。", note: "民族系統に複数説がある場合は、断定せず表示します。"
-  }),
-  makeScene({
-    id: "thirteenth-century-map", chapter: 1, year: "13世紀", frame: [-11, 18, 90, 47], zones: ["west", "mamluk", "iran", "india"], pins: ["granada", "cairo", "tabriz", "delhi"],
-    tags: [{ at: [-2, 35], text: "ナスル朝" }, { at: [33, 27], text: "マムルーク朝" }, { at: [50, 39], text: "イル＝ハン国" }, { at: [76, 25], text: "奴隷王朝" }], facts: ["トルコ系・アラブ系・モンゴル系の政権", "ナスル朝・マムルーク朝・イル＝ハン国・奴隷王朝", "全世界がモンゴルの遠征の影響を受ける"],
-    title: "13世紀、\nモンゴルの遠征が世界を変える。", kicker: "時代の全体図②", mapHeading: "イベリアから北インドまでの13世紀", focus: "四つの政権とモンゴルの影響",
-    before: "12世紀の地方王朝が交代する", after: "モンゴルの遠征を受けて新しい政権が並ぶ",
-    body: ["<strong>13世紀</strong>には、<strong>グラナダ</strong>の<strong>ナスル朝</strong>、<strong>カイロ</strong>の<strong>マムルーク朝</strong>、<strong>タブリーズ</strong>の<strong>イル＝ハン国</strong>、<strong>デリー</strong>の<strong>奴隷王朝</strong>が西から東へ並んだ。", "<strong>トルコ系</strong>・<strong>アラブ系</strong>・<strong>モンゴル系</strong>の政権が併存し、全世界が<strong>モンゴルの遠征</strong>の影響を受けた。"],
-    takeaway: "13世紀の諸王朝は、モンゴルの遠征の影響下で並び立った。", note: "ここから西方、エジプト、北インド、アフリカを原文の順にたどります。"
-  }),
+  "zones": [],
+  "pins": [
+    "anatolia",
+    "iran",
+    "afghanistan",
+    "northIraq",
+    "centralAsia"
+  ],
+  "routes": [],
+  "tags": [],
+  "facts": [
+    "セルジューク朝の分裂"
+  ],
+  "actors": [],
+  "props": [],
+  "duration": 2200,
+  "id": "seljuq-fragmentation",
+  "chapter": 1,
+  "year": "トルコ人の台頭",
+  "frame": [
+    27,
+    26,
+    71,
+    45
+  ],
+  "title": "セルジューク朝の分裂",
+  "kicker": "セルジューク朝の分裂",
+  "mapHeading": "セルジューク朝の分裂",
+  "focus": "セルジューク朝の分裂",
+  "before": "セルジューク朝の分裂",
+  "after": "セルジューク朝の分裂",
+  "body": [
+    "ただ、11世紀末には各地の軍団が分裂し、アナトリアのルーム＝セルジューク朝のほか、イラン・アフガニスタンを支配したホラズム＝シャー【ホラズム】朝、イラク北部の総督から自立したザンギー朝などができた。セルジューク朝が分裂したから、第1回十字軍に負けたんだね。さらに12世紀には中央アジアでも、カラ＝ハン朝がカラ＝キタイ【西遼】に滅ぼされた。"
+  ],
+  "takeaway": "セルジューク朝の分裂",
+  "note": "原文 p.328 の本文。",
+  "sourceText": {
+    "page": 328
+  }
+}),
   makeScene({
     id: "almoravid-sahara", chapter: 2, year: "11世紀", frame: [-13, 8, 14, 43], zones: ["west", "westAfrica"], pins: ["northAfrica", "morocco", "marrakech", "iberia", "sahara", "ghana"],
     routes: [route([[-8, 31.63], [-4, 40]], "campaign"), route([[-8, 31.63], [-2, 24], [-8, 16]], "campaign")], facts: ["アッバース朝カリフ中心のスンナ派復興運動", "ベルベル人がファーティマ朝に対抗してムラービト朝を建国", "レコンキスタへの防衛とガーナ王国征服・サハラ交易"], actors: [{ name: "ベルベル人", image: "sahara-caravan", at: "marrakech", bubble: "イベリアとガーナ王国へ進む" }],
@@ -489,13 +1104,5 @@ export const scenes = [
     before: "各地域の王国と港市を個別にたどる", after: "交易路と王国の変遷をアフリカ全体で結ぶ",
     body: ["西では<strong>サハラ砂漠</strong>を越える<strong>サハラ交易</strong>と<strong>トンブクトゥ</strong>を軸に、<strong>ガーナ王国</strong>、<strong>マリ王国</strong>、<strong>ガオ</strong>を中心とする<strong>ソンガイ王国</strong>が変遷し、<strong>チャド湖</strong>周辺の<strong>カネム＝ボルヌー王国</strong>も栄えた。北東の<strong>ナイル川上流</strong>では<strong>クシュ王国</strong>と<strong>アクスム王国</strong>が早くから成立した。", "東岸の<strong>マリンディ</strong>と<strong>ザンジバル</strong>は海の交易を担い、南部の<strong>大ジンバブエ</strong>と<strong>モノモタパ王国</strong>もインド洋へつながった。"],
     takeaway: "アフリカ各地の王国は、砂漠・川・海の交易路で結ばれた。", note: "個別の場面で扱った地名を、広い地図で再確認します。"
-  }),
-  makeScene({
-    id: "date-recap", chapter: 2, year: "622〜1055年", frame: [-10, 18, 63, 44], zones: ["west", "abbasid", "iran"], pins: ["mecca", "medina", "damascus", "tunis", "baghdad"],
-    routes: [route([[39.83, 21.42], [39.61, 24.47]], "move"), route([[36.29, 33.51], [44.37, 33.32]], "move")], facts: ["ヒジュラ【聖遷】622年・ムハンマド", "ウマイヤ朝661年・ムアーウィヤ／アッバース朝750年・アッバース革命", "ファーティマ朝909年／ブワイフ朝バグダード入城946年／セルジューク朝入城1055年"],
-    title: "六つの年号で、\n成立から分裂までを振り返る。", kicker: "年号のまとめ", mapHeading: "メッカ・メディナから三王朝の中心地へ", focus: "622・661・750・909・946・1055年",
-    before: "イスラーム教の成立から地方政権の自立までをたどる", after: "後の教材でモンゴルの遠征後のイスラーム世界を学ぶ",
-    body: ["<strong>イスラーム教</strong>を開いた<strong>ムハンマド</strong>が<strong>メッカ</strong>から<strong>メディナ</strong>へ移った<strong>ヒジュラ【聖遷】</strong>は<strong>622年</strong>、<strong>ムアーウィヤ</strong>が<strong>ダマスクス</strong>で開いた<strong>ウマイヤ朝</strong>は<strong>661年</strong>、<strong>シーア派</strong>も加わった<strong>アッバース革命</strong>と<strong>アッバース朝</strong>成立は<strong>750年</strong>だった。", "<strong>チュニジア</strong>での<strong>ファーティマ朝</strong>成立は<strong>909年</strong>、<strong>ブワイフ朝</strong>の<strong>バグダード入城</strong>は<strong>946年</strong>、<strong>セルジューク朝</strong>のバグダード入城は<strong>1055年</strong>。<strong>モンゴルの遠征後のイスラーム世界</strong>は、地方政権の各章を学んだ後の教材で扱う。"],
-    takeaway: "主要年号を、人物・王朝・都市の動きと結びつける。", note: "語呂ではなく、地図上の移動と出来事の順で振り返ります。"
   }),
 ];

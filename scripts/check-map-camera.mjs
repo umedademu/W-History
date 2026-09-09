@@ -51,5 +51,5 @@ for (const chapter of chapters.sort((a, b) => a.number - b.number)) {
   }
   console.log(`${String(chapter.number).padStart(2, '0')}章：${chapter.scenes.length}ページの範囲を確認（東西・南北とも基準より狭い指定：${narrow}ページ）。`);
 }
-assert.equal(total, 233, '全章の確認漏れ');
+assert.equal(total, 221, '全章の確認漏れ');
 console.log(`全${total}ページ・内部${details}シーン、3種類の投影と画面寸法で地理図の拡大上限を確認しました。`);

@@ -1,5 +1,5 @@
-import { mapNamePlan, renderMapNameConcepts } from "./map-name-coverage.js?v=0.048";
-import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.048";
+import { mapNamePlan, renderMapNameConcepts } from "./map-name-coverage.js?v=0.049";
+import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.049";
 
 const scenes = [
   {

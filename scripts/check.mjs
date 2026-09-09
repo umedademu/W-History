@@ -28,6 +28,7 @@ import "./check-islamic-culture-source.mjs";
 import "./check-islam-origin-source.mjs";
 import "./check-umayyad-abbasid-source.mjs";
 import "./check-regional-dynasties-source.mjs";
+import "./check-regional-main-text.mjs";
 import "./check-map-name-coverage.mjs";
 
 const root=fileURLToPath(new URL("../",import.meta.url)),publicRoot=path.join(root,"public");
@@ -45,7 +46,7 @@ for(const file of publicFiles.filter(f=>/\.(html|js|css)$/.test(f))){
 const htmlFiles=publicFiles.filter(file=>file.endsWith(".html"));
 for(const file of htmlFiles){
   const html=await fs.readFile(file,"utf8");
-  if(!html.includes('/theme.js?v=0.048')||!html.includes('/theme.css?v=0.048'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
+  if(!html.includes('/theme.js?v=0.049')||!html.includes('/theme.css?v=0.049'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
 }
 const themeScript=await fs.readFile(path.join(publicRoot,"theme.js"),"utf8");
 const themeStyle=await fs.readFile(path.join(publicRoot,"theme.css"),"utf8");
@@ -86,7 +87,7 @@ for(const name of ["islam-origin","umayyad-abbasid","regional-dynasties","mughal
   for(const scene of scenes){
     if(ids.has(scene.id))fail(scene,"場面の識別名が重複しています。");ids.add(scene.id);
     for(const field of ["title","year","kicker","takeaway","note","mapHeading","focus","before","after"]){if(typeof scene[field]!=="string"||!scene[field].trim())fail(scene,`${field}がありません。`);}
-    if(scene.body.length<2||!scene.facts.length)fail(scene,"本文か地図の見どころが不足しています。");
+    if(scene.body.length<(scene.sourceText?1:2)||!scene.facts.length)fail(scene,"本文か地図の見どころが不足しています。");
     if(!Number.isFinite(scene.duration)||scene.duration<0)fail(scene,"表示時間が不正です。");
     if(scene.frame.length!==4||!scene.frame.every(Number.isFinite)||scene.frame[0]>=scene.frame[2]||scene.frame[1]>=scene.frame[3])fail(scene,"地図の表示範囲が不正です。");
     for(const key of [...scene.pins,...[scene.capital,scene.battle].filter(Boolean)]){if(!places[key])fail(scene,`地名 ${key} がありません。`);coordinate(scene,places[key].point);}

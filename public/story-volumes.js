@@ -1,4 +1,4 @@
-// 原文との照合番号を保持し、独立した各教材の読む順番を定義する。
+// 共有の場面データから、独立した各教材の読む順番を定義する。
 export const splitVolumes = [
   {
     "title": "イスラーム世界の分裂と三カリフ",
@@ -9,7 +9,15 @@ export const splitVolumes = [
       3,
       4,
       5,
-      6,
+      6
+    ],
+    "description": "西方での三カリフの並立から、東方のイラン人政権とイクター制へ。原文の本文に沿ってたどります。",
+    "source": "regional-dynasties",
+    "id": "regional-dynasties"
+  },
+  {
+    "title": "トルコ人の台頭とセルジューク朝",
+    "pages": [
       7,
       8,
       9,
@@ -18,17 +26,16 @@ export const splitVolumes = [
       12,
       13,
       14,
-      15,
-      16,
-      48
+      15
     ],
-    "description": "三カリフの並立と各地の自立を見渡し、イラン人政権とイクター制を学びます。冒頭の王朝紹介は全体の見取り図です。",
+    "description": "トルコ人のイスラーム化から、セルジューク朝の成立・統治・分裂までを原文の本文でたどります。",
     "source": "regional-dynasties",
-    "id": "regional-dynasties"
+    "id": "seljuq"
   },
   {
-    "title": "トルコ人の台頭とセルジューク朝",
+    "title": "西方・エジプト・北インドの諸王朝",
     "pages": [
+      16,
       17,
       18,
       19,
@@ -38,28 +45,9 @@ export const splitVolumes = [
       23,
       24,
       25,
-      26
-    ],
-    "description": "中央アジアの王朝交代から、セルジューク朝の拡大・統治・分裂へ進みます。",
-    "source": "regional-dynasties",
-    "id": "seljuq"
-  },
-  {
-    "title": "西方・エジプト・北インドの諸王朝",
-    "pages": [
+      26,
       27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39
+      28
     ],
     "description": "北アフリカとイベリア半島、エジプト、北インドの順に、各地の王朝をたどります。",
     "source": "regional-dynasties",
@@ -68,14 +56,14 @@ export const splitVolumes = [
   {
     "title": "アフリカの諸王国と交易",
     "pages": [
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
     ],
     "description": "古代のナイル流域から、西・東・南部アフリカの王国と交易へ進みます。",
     "source": "regional-dynasties",
@@ -148,6 +136,7 @@ export const splitVolumes = [
     "id": "ottoman-height"
   }
 ];
+
 export const series = [
   {
     "id": "islam-origin",

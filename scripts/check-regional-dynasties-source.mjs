@@ -35,7 +35,7 @@ for (const group of groups) {
 }
 
 const sourceOrder = groups.map(group => group.scene);
-const actualOrder = scenes.map(scene => scene.id);
+const actualOrder = scenes.filter(scene => !scene.sourceText).map(scene => scene.id);
 if (JSON.stringify(sourceOrder) !== JSON.stringify(actualOrder)) throw new Error("03章の場面順が原文との照合表と一致しません。");
 
 const removed = ["ルーダキー", "イブン＝スィーナー", "ペルシア・ルネサンス", "ヒッティーン", "クトゥズ", "アイン・ジャールート", "アッコン", "アスキア＝ムハンマド", "季節風", "ソファラ", "カビール", "ナーナク", "バクティ", "クトゥブ＝ミナール"];
@@ -43,4 +43,4 @@ const allText = join(scenes);
 for (const term of removed) if (allText.includes(term)) throw new Error(`03章に対象範囲外の語「${term}」が残っています。`);
 
 const termCount = groups.reduce((sum, group) => sum + group.terms.length, 0);
-console.log(`03章の${scenes.length}場面・原資料由来${termCount}項目について、原文と地図用資料の掲載順を確認しました。`);
+console.log(`03章の${groups.length}場面（05・06）・原資料由来${termCount}項目について、原文と地図用資料の掲載順を確認しました。`);

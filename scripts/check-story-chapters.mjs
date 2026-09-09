@@ -8,7 +8,7 @@ const catalog=await read('index.html');
 assert.equal(series.length,14);
 assert.equal([...catalog.matchAll(/class="story-card"/g)].length,14);
 assert.ok(!/catalog-chapters|chapter-card|\?chapter=/.test(catalog));
-for(const [source,data,expected] of [['regional-dynasties',scenes,[18,10,13,8]],['ottoman',pages,[12,13,17]]]){
+for(const [source,data,expected] of [['regional-dynasties',scenes,[7,9,13,8]],['ottoman',pages,[12,13,17]]]){
  const volumes=splitVolumes.filter(v=>v.source===source);
  assert.deepEqual(volumes.map(v=>v.pages.length),expected);
  assert.deepEqual(volumes.flatMap(v=>v.pages).sort((a,b)=>a-b),data.map((_,i)=>i));
@@ -27,4 +27,4 @@ for(const s of series){
  for(const other of series)assert.ok(nav.includes(`>${other.number} ${other.label}</a>`));
  assert.ok(!/reading-chapter|chapter-end|story-chapters\.js|\?chapter=/.test(html));
 }
-console.log('14教材の独立した入口・通し番号・全教材への移動と、分割対象91ページの欠落・重複なしを確認しました。');
+console.log('14教材の独立した入口・通し番号・全教材への移動と、分割対象79ページの欠落・重複なしを確認しました。');
