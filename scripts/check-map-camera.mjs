@@ -16,20 +16,11 @@ for (const project of projectors) for (const [width, height] of [[320, 440], [72
   assert.ok(height / (limit * Math.abs(north[1] - origin[1])) >= minimumMapSpan.latitude - 1e-8, '横長画面でも南北の位置関係を保つ');
 }
 
-const chapters = [];
-for (const [number, name] of [[1, 'islam-origin'], [2, 'umayyad-abbasid'], [3, 'regional-dynasties'], [5, 'timur-after'], [6, 'safavid'], [8, 'mughal'], [9, 'islamic-culture']]) {
-  const { scenes } = await import(`../public/${name}-scenes.js`);
-  chapters.push({ number, scenes: scenes.map(scene => ({ id: scene.id, frame: scene.frame ?? scene.area })) });
-}
-const timur = await fs.readFile(new URL('../public/timur-story.js', import.meta.url), 'utf8');
-const literal = timur.match(/const scenes = (\[[\s\S]*?\n\]);/)[1];
-const timurScenes = vm.runInNewContext(`(${literal})`);
-chapters.push({ number: 4, scenes: timurScenes.map(scene => {
-  const [x, y, w, h] = scene.camera;
-  return { id: scene.id, frame: [x / 12 + 20, 58 - (y + h) / 15, (x + w) / 12 + 20, 58 - y / 15] };
-}) });
-const { pages } = await import('../public/ottoman-pages.js');
-chapters.push({ number: 7, scenes: pages });
+const {sourceEdition}=await import('../public/source-edition.js');
+const chapters=Object.entries(sourceEdition).map(([name,scenes],i)=>({number:i+1,scenes:scenes.map(scene=>{
+ if(name!=='timur')return {...scene,frame:scene.frame??scene.area};
+ const [x,y,w,h]=scene.camera;return {...scene,frame:[x/12+20,58-(y+h)/15,(x+w)/12+20,58-y/15]};
+})}));
 
 let total = 0, details = 0;
 for (const chapter of chapters.sort((a, b) => a.number - b.number)) {
@@ -51,5 +42,5 @@ for (const chapter of chapters.sort((a, b) => a.number - b.number)) {
   }
   console.log(`${String(chapter.number).padStart(2, '0')}章：${chapter.scenes.length}ページの範囲を確認（東西・南北とも基準より狭い指定：${narrow}ページ）。`);
 }
-assert.equal(total, 221, '全章の確認漏れ');
+assert.equal(total, 155, '全章の確認漏れ');
 console.log(`全${total}ページ・内部${details}シーン、3種類の投影と画面寸法で地理図の拡大上限を確認しました。`);

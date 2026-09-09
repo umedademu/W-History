@@ -1,0 +1,612 @@
+{
+  "images": [
+    "IMG_3701.JPG",
+    "IMG_3702.JPG",
+    "IMG_3703.JPG",
+    "IMG_3704.JPG",
+    "IMG_3705.JPG",
+    "IMG_3706.JPG"
+  ],
+  "kinds": [
+    "bold",
+    "red-bold"
+  ],
+  "paragraphs": [
+    {
+      "id": "01-p323-1",
+      "spans": [
+        {
+          "quote": "ホラーサーン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アブー＝アルアッバース",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アッバース朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p323-2",
+      "spans": [
+        {
+          "quote": "スンナ派",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ジズヤ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ハラージュ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アラブ帝国",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "イスラーム帝国",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p323-3",
+      "spans": [
+        {
+          "quote": "不平等",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "平等",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p323-4",
+      "spans": [],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p323-5",
+      "spans": [
+        {
+          "quote": "マンスール",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "バグダード",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "駅伝制",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ワズィール",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ディーワーン",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "駅伝制",
+          "occurrence": 1,
+          "reading": "えきでんせい"
+        },
+        {
+          "quote": "宰相",
+          "occurrence": 1,
+          "reading": "さいしょう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p324-1",
+      "spans": [
+        {
+          "quote": "ウラマー",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "イスラーム法",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "シャリーア",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p324-2",
+      "spans": [
+        {
+          "quote": "ハールーン＝アッラシード",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ムスリム商人",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "大食",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "マームーン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "知恵の館",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "大食",
+          "occurrence": 1,
+          "reading": "タージー"
+        },
+        {
+          "quote": "館",
+          "occurrence": 1,
+          "reading": "やかた"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p324-3",
+      "spans": [
+        {
+          "quote": "タラス河畔の戦い",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "マムルーク",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "騎馬軍団",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "河畔",
+          "occurrence": 1,
+          "reading": "かはん"
+        },
+        {
+          "quote": "騎馬",
+          "occurrence": 1,
+          "reading": "きば"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p324-4",
+      "spans": [],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p324-5",
+      "spans": [
+        {
+          "quote": "アブド＝アッラフマーン1世",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "コルドバ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "後ウマイヤ朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アミール",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "イドリース朝",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "後",
+          "occurrence": 1,
+          "reading": "こう"
+        },
+        {
+          "quote": "子孫",
+          "occurrence": 1,
+          "reading": "しそん"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p325-1",
+      "spans": [
+        {
+          "quote": "シーア派の反撃",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "シーア派",
+          "occurrence": 2,
+          "style": "red-bold"
+        },
+        {
+          "quote": "イスマーイール派",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ファーティマ朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アブド＝アッラフマーン3世",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "正統",
+          "occurrence": 1,
+          "reading": "せいとう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p325-2",
+      "spans": [
+        {
+          "quote": "カイロ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "紅海貿易",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アズハル学院",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "スンナ派",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p326-1",
+      "spans": [
+        {
+          "quote": "サッファール朝",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "サーマーン朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ザンジュの乱",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "鍛冶",
+          "occurrence": 1,
+          "reading": "かじ"
+        },
+        {
+          "quote": "興",
+          "occurrence": 1,
+          "reading": "おこ"
+        },
+        {
+          "quote": "奴隷",
+          "occurrence": 1,
+          "reading": "どれい"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p326-2",
+      "spans": [
+        {
+          "quote": "ブワイフ朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "バグダード",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "大アミール",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p327-1",
+      "spans": [
+        {
+          "quote": "イクター制",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "シーア派",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "俸給",
+          "occurrence": 1,
+          "reading": "ほうきゅう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p327-2",
+      "spans": [
+        {
+          "quote": "イスラーム化",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "カラ＝ハン朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "カラハン朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "トルコ化",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "トルキスタン",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p327-3",
+      "spans": [
+        {
+          "quote": "アルプテギン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ガズナ朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p327-4",
+      "spans": [
+        {
+          "quote": "セルジューク朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "トゥグリル＝ベク",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p328-1",
+      "spans": [
+        {
+          "quote": "バグダード",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "スルタン",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "スンナ派",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "スンナ派の逆襲",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "マラーズギルドの戦い",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "十字軍遠征",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "小",
+          "occurrence": 1,
+          "reading": "しょう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p328-2",
+      "spans": [
+        {
+          "quote": "マリク＝シャー",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ニザーム＝アルムルク",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "統治の書",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ニザーミーヤ学院",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "イクター制",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ルーム＝セルジューク朝",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ホラズム＝シャー",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ホラズム",
+          "occurrence": 2,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ザンギー朝",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "カラ＝キタイ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "西遼",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "宰相",
+          "occurrence": 1,
+          "reading": "さいしょう"
+        }
+      ],
+      "uncertain": []
+    }
+  ],
+  "notes": [
+    "段落01-p326-2は書籍の改ページにまたがっており、前半部分がIMG_3704.JPG末尾、後半部分（バグダード、大アミールを含む箇所）がIMG_3705.JPG冒頭に掲載されています。両画像を参照して装飾を抽出しています。",
+    "段落01-p327-4はIMG_3705.JPG末尾からIMG_3706.JPG冒頭にまたがって掲載されています。両画像を参照して装飾を抽出しています。"
+  ]
+}

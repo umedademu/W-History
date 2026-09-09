@@ -1,0 +1,739 @@
+{
+  "images": [
+    "IMG_3707.JPG",
+    "IMG_3708.JPG",
+    "IMG_3709.JPG",
+    "IMG_3710.JPG",
+    "IMG_3712.JPG",
+    "IMG_3713.JPG"
+  ],
+  "kinds": [
+    "red-bold",
+    "bold"
+  ],
+  "paragraphs": [
+    {
+      "id": "01-p329-1",
+      "spans": [
+        {
+          "quote": "ベルベル人",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ムラービト朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "レコンキスタ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "マラケシュ",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "復興",
+          "occurrence": 1,
+          "reading": "ふっこう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p329-2",
+      "spans": [
+        {
+          "quote": "ムワッヒド朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ナスル朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "スペイン王国",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "グラナダ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アルハンブラ宮殿",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p329-3",
+      "spans": [
+        {
+          "quote": "サラーフ＝アッディーン",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "サラディン",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アイユーブ朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "第3回十字軍",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "リチャード1世",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "復興",
+          "occurrence": 1,
+          "reading": "ふっこう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p330-1",
+      "spans": [],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p330-2",
+      "spans": [
+        {
+          "quote": "マムルーク朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "フレグ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "バイバルス",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "カーリミー商人",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "カイロ",
+          "occurrence": 2,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "妃",
+          "occurrence": 1,
+          "reading": "きさき"
+        },
+        {
+          "quote": "末裔",
+          "occurrence": 1,
+          "reading": "まつえい"
+        },
+        {
+          "quote": "盟主",
+          "occurrence": 1,
+          "reading": "めいしゅ"
+        },
+        {
+          "quote": "香辛料",
+          "occurrence": 1,
+          "reading": "こうしんりょう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p330-3",
+      "spans": [
+        {
+          "quote": "ガズナ朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ゴール朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "興",
+          "occurrence": 1,
+          "reading": "おこ"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p330-4",
+      "spans": [
+        {
+          "quote": "アイバク",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "デリー",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "奴隷王朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "奴隷",
+          "occurrence": 1,
+          "reading": "どれい"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p331-1",
+      "spans": [
+        {
+          "quote": "デリー",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "デリー＝スルタン朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p331-2",
+      "spans": [
+        {
+          "quote": "スーフィズム",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "神秘主義",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "神秘",
+          "occurrence": 1,
+          "reading": "しんぴ"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p331-3",
+      "spans": [
+        {
+          "quote": "クシュ王国",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "メロエ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アクスム王国",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "単性論派",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "興",
+          "occurrence": 1,
+          "reading": "おこ"
+        },
+        {
+          "quote": "単性論派",
+          "occurrence": 1,
+          "reading": "たんせいろんは"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p331-4",
+      "spans": [
+        {
+          "quote": "ガーナ王国",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p332-1",
+      "spans": [
+        {
+          "quote": "マンディンゴ人",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "マリ王国",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "トンブクトゥ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "マンサ＝ムーサ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ソンガイ王国",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "カネム＝ボルヌー王国",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p332-2",
+      "spans": [
+        {
+          "quote": "モガディシュ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "マリンディ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "モンバサ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ザンジバル",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "キルワ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "モザンビーク",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "スワヒリ語",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "スワヒリ文化",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "港市",
+          "occurrence": 1,
+          "reading": "こうし"
+        },
+        {
+          "quote": "鄭和",
+          "occurrence": 1,
+          "reading": "ていわ"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p332-3",
+      "spans": [
+        {
+          "quote": "モノモタパ王国",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "大ジンバブエ",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p332-4",
+      "spans": [],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p332-5",
+      "spans": [],
+      "ruby": [
+        {
+          "quote": "頑張",
+          "occurrence": 1,
+          "reading": "がんば"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "02-p334-1",
+      "spans": [
+        {
+          "quote": "トルコ化",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "イスラーム化",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "チャガタイ＝ハン国",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "チャガタイ＝ウルス",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ティムール",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "後継者",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ティムール朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "就",
+          "occurrence": 1,
+          "reading": "つ"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "02-p334-2",
+      "spans": [
+        {
+          "quote": "サマルカンド",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "キプチャク＝ハン国",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ジョチ＝ウルス",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "イル＝ハン国",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "フレグ＝ウルス",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "トゥグルク朝",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "オスマン朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "バヤジット1世",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アンカラの戦い",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "捕虜",
+          "occurrence": 1,
+          "reading": "ほりょ"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "02-p334-3",
+      "spans": [
+        {
+          "quote": "明",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "オトラル",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "宗家",
+          "occurrence": 1,
+          "reading": "そうけ"
+        },
+        {
+          "quote": "元",
+          "occurrence": 1,
+          "reading": "げん"
+        },
+        {
+          "quote": "明",
+          "occurrence": 1,
+          "reading": "みん"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "02-p335-1",
+      "spans": [
+        {
+          "quote": "シャー＝ルフ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ヘラート",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ウルグ＝ベク",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "細密画",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ミニアチュール",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "トルコ＝イスラーム文化",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "細密画",
+          "occurrence": 1,
+          "reading": "さいみつが"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "02-p335-2",
+      "spans": [
+        {
+          "quote": "ウズベク人",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "遊牧ウズベク",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "シャイバーニー",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "シャイバーン朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ブハラ＝ハン国",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ヒヴァ＝ハン国",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "コーカンド＝ハン国",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "カザフ",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "遊牧",
+          "occurrence": 1,
+          "reading": "ゆうぼく"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "02-p335-3",
+      "spans": [
+        {
+          "quote": "イスマーイール1世",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "タブリーズ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "サファヴィー朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "シーア派",
+          "occurrence": 2,
+          "style": "red-bold"
+        },
+        {
+          "quote": "十二イマーム派",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "神秘主義",
+          "occurrence": 1,
+          "reading": "しんぴしゅぎ"
+        },
+        {
+          "quote": "遊牧民",
+          "occurrence": 1,
+          "reading": "ゆうぼくみん"
+        },
+        {
+          "quote": "布教",
+          "occurrence": 1,
+          "reading": "ふきょう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "02-p335-4",
+      "spans": [],
+      "ruby": [],
+      "uncertain": []
+    }
+  ],
+  "notes": []
+}

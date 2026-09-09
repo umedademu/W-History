@@ -1,0 +1,638 @@
+{
+  "images": [
+    "IMG_3714.JPG",
+    "IMG_3715.JPG",
+    "IMG_3717.JPG",
+    "IMG_3718.JPG",
+    "IMG_3719.JPG",
+    "IMG_3720.JPG"
+  ],
+  "kinds": [
+    "bold",
+    "red-bold"
+  ],
+  "paragraphs": [
+    {
+      "id": "02-p336-1",
+      "spans": [
+        {
+          "quote": "シャー",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "チャルディラーンの戦い",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "セリム1世",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "タブリーズ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ウズベク人",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "02-p336-2",
+      "spans": [
+        {
+          "quote": "アッバース1世",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "奴隷兵",
+          "occurrence": 1,
+          "reading": "どれいへい"
+        },
+        {
+          "quote": "騎兵",
+          "occurrence": 1,
+          "reading": "きへい"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "02-p336-3",
+      "spans": [
+        {
+          "quote": "キャラバンサライ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "イスファハーン",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "王の広場",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "メイダーン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "王のモスク",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "イマームのモスク",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アルメニア教徒",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "イスファハーンは世界の半分",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "隊商",
+          "occurrence": 1,
+          "reading": "たいしょう"
+        },
+        {
+          "quote": "遷都",
+          "occurrence": 1,
+          "reading": "せんと"
+        },
+        {
+          "quote": "生糸",
+          "occurrence": 1,
+          "reading": "きいと"
+        },
+        {
+          "quote": "北京",
+          "occurrence": 1,
+          "reading": "ペキン"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "02-p337-1",
+      "spans": [
+        {
+          "quote": "アフガン人",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "02-p337-2",
+      "spans": [
+        {
+          "quote": "ナーディル＝シャー",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アフシャール朝",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ドゥッラーニー朝",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アーガー＝ムハンマド",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "テヘラン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ガージャール朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p337-1",
+      "spans": [
+        {
+          "quote": "ルーム＝セルジューク朝",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "オスマン1世",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "オスマン朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p337-2",
+      "spans": [
+        {
+          "quote": "オルハン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ブルサ",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p339-1",
+      "spans": [
+        {
+          "quote": "ムラト1世",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アドリアノープル",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アドリアノープル",
+          "occurrence": 2,
+          "style": "red-bold"
+        },
+        {
+          "quote": "エディルネ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "コソヴォの戦い",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p339-2",
+      "spans": [
+        {
+          "quote": "イェニチェリ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "デヴシルメ",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "宰",
+          "occurrence": 1,
+          "reading": "さい"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "03-p339-3",
+      "spans": [
+        {
+          "quote": "バヤジット1世",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ジギスムント",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ニコポリスの戦い",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "スルタン",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p339-4",
+      "spans": [
+        {
+          "quote": "ティムール",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アンカラの戦い",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p339-5",
+      "spans": [],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p340-1",
+      "spans": [
+        {
+          "quote": "メフメト2世",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "コンスタンティノープル",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ティマール制",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "シパーヒー",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ビザンツ帝国滅亡",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "イスタンブル",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "オスマン帝国",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "トプカプ宮殿",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ハギア＝ソフィア聖堂",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p340-2",
+      "spans": [
+        {
+          "quote": "クリミア＝ハン国",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "クリム＝ハン国",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ミッレト",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "貢納",
+          "occurrence": 1,
+          "reading": "こうのう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "03-p340-3",
+      "spans": [
+        {
+          "quote": "セリム1世",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "騎馬",
+          "occurrence": 1,
+          "reading": "きば"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "03-p341-1",
+      "spans": [
+        {
+          "quote": "チャルディラーンの戦い",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "カーディー",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p341-2",
+      "spans": [
+        {
+          "quote": "マムルーク朝を征服",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "メッカ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "メディナ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "スルタン＝カリフ制",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "禅譲",
+          "occurrence": 1,
+          "reading": "ぜんじょう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "03-p342-1",
+      "spans": [
+        {
+          "quote": "スレイマン1世",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "バグダード",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "カール5世",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "フランソワ1世",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p342-2",
+      "spans": [
+        {
+          "quote": "モハーチの戦い",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ハンガリー",
+          "occurrence": 2,
+          "style": "red-bold"
+        },
+        {
+          "quote": "第1次ウィーン包囲",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p342-3",
+      "spans": [
+        {
+          "quote": "プレヴェザの海戦",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "カルロス1世",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p342-4",
+      "spans": [
+        {
+          "quote": "カピチュレーション",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p342-5",
+      "spans": [
+        {
+          "quote": "イスラーム法",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "シャリーア",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "カーヌーン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "シナン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "スィナン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "スレイマン＝モスク",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "03-p342-6",
+      "spans": [
+        {
+          "quote": "フェリペ2世",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "レパントの海戦",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "徴税請負制",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "第2次ウィーン包囲",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "カルロヴィッツ条約",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "割譲",
+          "occurrence": 1,
+          "reading": "かつじょう"
+        }
+      ],
+      "uncertain": []
+    }
+  ],
+  "notes": [
+    "段落 02-p336-3 の末尾文（「これって、世界的に見ても江戸や北京に次ぎ...」以降）は IMG_3714.JPG から IMG_3715.JPG の最上部にかけて跨がって配置されており、両画像を通じて装飾およびルビ（「北京」の「ペキン」）を抽出しました。",
+    "段落 03-p340-3 の最終文「に対抗したのがセリム1世だよ。」は IMG_3718.JPG の最下部から IMG_3719.JPG の最上部にかけて跨がって配置されており、両画像を通じて赤太字装飾を抽出しました。",
+    "段落 03-p342-6 の後半（「は第2次ウィーン包囲に失敗して...」以降）は、IMG_3720.JPG（p.342）の下端行で紙面が終了しており次ページ（p.343）へ跨がっているため、提供された画像内には含まれていません。推測による装飾の付与を避け、画像内で確認できる範囲（「徴税請負制」まで）のみを記録し、画像外となった箇所を uncertain に記載しています。"
+  ]
+}

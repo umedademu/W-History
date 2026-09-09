@@ -1,6 +1,6 @@
 # W-History の構成
 
-現在の版は v0.049（2026年9月10日）。中東史全14編、合計221場面、場面で使う画像163点を収録しています。参考書全33枚の情報を完全に書き起こした資料集（sourcesフォルダ・全5編＋対照表）を整理し、保管しています（公開管理からは除外）。
+現在の版は v0.050（2026年9月10日）。中東史全14編、合計155ページ、人物・建物の画像を収録しています。参考書全33枚の情報を完全に書き起こした資料集（sourcesフォルダ・全5編＋対照表）を整理し、保管しています（公開管理からは除外）。
 
 ## 公開ファイル
 
@@ -9,21 +9,15 @@
 - `public/theme.js` と `theme.css`：全ページ共通のライト・ダーク切り替え、選択の保存、暗色時の本文・地図・操作部品の配色。
 - `public/changelog.html`：利用者向け更新情報。
 - `public/404.html`：存在しないページの案内。
-- `public/islam-origin-story.*` と `islam-origin-scenes.js`：01 イスラーム教の成立と正統カリフ。27場面。
-- `public/umayyad-abbasid-story.*` と `umayyad-abbasid-scenes.js`：02 ウマイヤ朝とアッバース朝。27場面。
-- `public/regional-dynasties-story.*` と `regional-dynasties-scenes.js`：03〜06の４教材。専用のHTMLから共有の描画処理を呼び、各7・9・13・8ページを表示する。
-- `public/timur-story.*`：07 ティムールの遠征。13場面。
-- `public/timur-after-story.*` と `timur-after-scenes.js`：08 ティムール死後。16場面。
-- `public/safavid-story.*` と `safavid-scenes.js`：09 サファヴィー朝。20場面。
-- `public/ottoman-story.*` と `ottoman-pages.js`：10〜12の３教材。専用のHTMLから共有の描画処理を呼び、各12・13・17ページを表示する。
-- `public/mughal-story.*` と `mughal-scenes.js`：13 ムガル帝国。20場面。
-- `public/islamic-culture-story.*` と `islamic-culture-scenes.js`：14 イスラーム文化。19場面。
+- `public/source-edition.js`：全14教材・155ページの実際に表示する原文本文、装飾、地図の対応。
+- `public/source-decoration.css`：原画像の赤太字・黒太字・読み仮名の表現。
+- 各 `*-story.html` と `*-story.js`：教材の入口と既存の地図・人物の描画。旧 `*-scenes.js` の地理定義は維持するが、公開本文は `source-edition.js` を使用する。
 - `public/islamic-world-map.svg`：アフリカ・地中海・アジアの広域基図。南部アフリカとベンガルも表示範囲に含みます（経度−18〜122度、緯度−26〜55度）。
 - `public/timur-map.svg`：中央アジア・中東・インドを収める広域基図。
 - `public/ottoman-world-map.svg` と `ottoman-orientation.js`：10〜12専用の世界地図と、世界から地域へ近づく導入・小地図による位置案内。
 - `public/images/`：各教材専用の透過ドット絵PNG画像。
 
-01〜06・13〜14は `history-story.js` と `history-story.css` で地図・人物・操作を共通化し、07の `timur-story.css` を画面の土台に使います。各教材の場面データは独立したままです。
+01〜06・13〜14は `history-story.js` と `history-story.css` で地図・人物・操作を共通化し、07の `timur-story.css` を画面の土台に使います。公開本文は原文対応データから生成し、各教材で地図処理を呼び出します。
 
 全14教材は `map-layout.js` で地名・人物・名前・吹き出しの大きさを測り、重なりや画面端へのはみ出しを避けます。人物の移動中も再配置し、表示をずらす場合は地理上の位置と細い線で結びます。詳しくは `docs/map-layout.md` に記載しています。
 
@@ -92,7 +86,7 @@
 
 ## 地理図の拡大上限（v0.045）
 全章の地理図は、画面内に最低でも経度32度・緯度24度の範囲を確保する。倍率の数値は基図の座標単位によって異なるため、public/map-camera.js の maximumMapScale に画面寸法と投影関数を渡して共通上限を求める。既存の人物・移動経路を収める計算と、この上限の小さい方を使う。広域の遠征図を狭めず、オスマン編の導入・地域移動にも同じ制限を適用する。人物・地名は地形と一緒に縮小しない。都市内部や広場の模式図は地理図の倍率とは別に扱う。
-全221ページとオスマン編内部90シーンの範囲指定を点検。3種類の基図の座標と縦長・横長画面で、最低表示範囲と既存の広域範囲を保てることを検査する。今後の章でも拡大上限を個別に外さず、必要な詳細は位置関係が分かる地理図に模式図を併用する。
+全155ページとオスマン編内部27シーンの範囲指定を点検。3種類の基図の座標と縦長・横長画面で、最低表示範囲と既存の広域範囲を保てることを検査する。今後の章でも拡大上限を個別に外さず、必要な詳細は位置関係が分かる地理図に模式図を併用する。
 
 ## 本文と地図の名称の対応（v0.046）
 
@@ -100,34 +94,36 @@
 
 ## 独立した14教材（v0.048、2026年9月10日）
 
-教材一覧は01〜14の単一階層。旧03を４教材、旧07を３教材に分割し、それぞれ専用のHTMLと一覧カードを持つ。前版の小カテゴリ・章選択・章内リンクは撤去した。上部の教材移動も全14教材の通し番号で統一する。合計221ページ。
+教材一覧は01〜14の単一階層。旧03を４教材、旧07を３教材に分割し、それぞれ専用のHTMLと一覧カードを持つ。前版の小カテゴリ・章選択・章内リンクは撤去した。上部の教材移動も全14教材の通し番号で統一する。合計155ページ。
 
 | 番号 | 教材 | ファイル | ページ数 |
 | --- | --- | --- | ---: |
-| 01 | イスラーム成立 | public/islam-origin-story.html | 27 |
-| 02 | ウマイヤ・アッバース | public/umayyad-abbasid-story.html | 27 |
+| 01 | イスラーム成立 | public/islam-origin-story.html | 22 |
+| 02 | ウマイヤ・アッバース | public/umayyad-abbasid-story.html | 19 |
 | 03 | イスラーム世界の分裂と三カリフ | public/regional-dynasties-story.html | 7 |
 | 04 | トルコ人の台頭とセルジューク朝 | public/seljuq-story.html | 9 |
 | 05 | 西方・エジプト・北インドの諸王朝 | public/western-dynasties-story.html | 13 |
-| 06 | アフリカの諸王国と交易 | public/african-kingdoms-story.html | 8 |
-| 07 | ティムール遠征 | public/timur-story.html | 13 |
-| 08 | その後 | public/timur-after-story.html | 16 |
-| 09 | サファヴィー | public/safavid-story.html | 20 |
-| 10 | オスマン帝国 — 建国とバルカン進出 | public/ottoman-story.html | 12 |
-| 11 | オスマン帝国 — 都の征服とイスラーム世界への拡大 | public/ottoman-expansion-story.html | 13 |
-| 12 | オスマン帝国 — 最盛期とその後 | public/ottoman-height-story.html | 17 |
+| 06 | アフリカの諸王国と交易 | public/african-kingdoms-story.html | 6 |
+| 07 | ティムール遠征 | public/timur-story.html | 5 |
+| 08 | その後 | public/timur-after-story.html | 4 |
+| 09 | サファヴィー | public/safavid-story.html | 9 |
+| 10 | オスマン帝国 — 建国とバルカン進出 | public/ottoman-story.html | 9 |
+| 11 | オスマン帝国 — 都の征服とイスラーム世界への拡大 | public/ottoman-expansion-story.html | 8 |
+| 12 | オスマン帝国 — 最盛期とその後 | public/ottoman-height-story.html | 10 |
 | 13 | ムガル | public/mughal-story.html | 20 |
-| 14 | イスラーム文化 | public/islamic-culture-story.html | 19 |
+| 14 | イスラーム文化 | public/islamic-culture-story.html | 14 |
 
-public/story-volumes.js が公開教材の一覧と分割対象の対応を定義する。原文照合用の配列・識別名は維持し、専用URLのファイル名で表示対象を選ぶ。各教材内の番号は１から始まる。旧03の49ページ目の年号まとめは03の末尾、アフリカ全体図は06の末尾とする。分割７教材の末尾は次の独立した教材へ進む。
+public/story-volumes.js が公開教材の一覧と分割対象の対応を定義する。専用URLのファイル名で教材を選び、public/source-edition.js の原文本文を表示する。各教材内の番号は１から始まる。原文本文に含まれない年号まとめとアフリカ全体図の説明ページは除外する。分割７教材の末尾は次の独立した教材へ進む。
 
 資料・検査名に残る旧03・旧07などの番号は原文照合用の旧区分であり、公開画面の番号とは別。原文資料は編集しない。
 
-検査：check-story-chapters.mjs は全14教材の入口・番号・移動先と分割対象79ページの欠落・重複を確認する。check-chapter-navigation-browser.mjs は幅1280と390で14教材の一覧・専用ページ・上部の移動先・小カテゴリ撤去・分割教材の前後移動と末尾を確認する。check-map-name-browser.mjs は regional-dynasties と ottoman の指定で、それぞれ分割先を含む全ページを検査する。音声は停止して実行する。
+検査：check-story-chapters.mjs は全14教材の入口・番号・移動先と分割対象62ページの欠落・重複を確認する。check-chapter-navigation-browser.mjs は幅1280と390で14教材の一覧・専用ページ・上部の移動先・小カテゴリ撤去・分割教材の前後移動と末尾を確認する。check-map-name-browser.mjs は regional-dynasties と ottoman の指定で、それぞれ分割先を含む全ページを検査する。音声は停止して実行する。
 
 
-## 03・04の本文方針（v0.049）
+## 全教材の原文本文と装飾（v0.050）
 
-03は原文p.324の「まずは西方の動向から」からp.327のイクター制まで、04はp.327のトルコ人のイスラーム化からp.328のセルジューク朝分裂までを使用する。本文の字句と順序を変えず、文末でページや段落を区切る。囲み、地図の説明、引用形式の補足、年号まとめを本文に加えない。見出しと地図の短い表示は、そのページの本文の内容に限定する。原文資料は参照専用で変更しない。
+全14教材の104段落を155ページに分けて掲載する。本文は字句と順序を保ち、囲み・図表・地図ラベル・年号・欄外補足から独立した説明を追加しない。既存の地図・人物・共通拡大上限を維持し、本文にない表示名称を除く。
 
-check-regional-main-text.mjs で本文全体の照合値と原文（存在する環境）との完全一致を確認する。05・06は従来の名称照合を継続する。
+原画像30枚の本文をGemini 3.8 Flashで確認し、赤太字と黒太字を出現箇所単位で保存した。赤太字は強調色の太字、黒太字は本文色の太字とし、暗い画面でも区別する。原画像にある読み仮名も表示する。見出しとの部分一致で本文の装飾を追加しない。
+
+画像に基づく書き起こしの補正はアプリ側の対応記録に残し、sources内の原文資料は変更しない。詳細・再生成・検査は [原文の再現方針](source-edition/README.md) を参照。旧版の章別用語網羅検査は当時の確認記録であり、現行本文の合格条件には使わない。

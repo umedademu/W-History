@@ -1,0 +1,15 @@
+/* 原画像の赤太字・黒太字を、出現箇所ごとに区別する。 */
+body .story-shell .narrative .source-bold,
+body .story-shell .narrative .source-red-bold { font-weight:700; }
+body .story-shell .narrative .source-bold,
+body .story-shell .narrative .source-bold .map-mention { color:inherit !important; }
+body .story-shell .narrative .source-red-bold,
+body .story-shell .narrative .source-red-bold .map-mention { color:#9d3825 !important; }
+html[data-theme="dark"] body .story-shell .narrative .source-red-bold,
+html[data-theme="dark"] body .story-shell .narrative .source-red-bold .map-mention { color:#ffb49f !important; }
+body .story-shell .narrative .source-underline { text-decoration:underline; text-underline-offset:.18em; }
+body .story-shell .narrative .source-italic { font-style:italic; }
+body .story-shell .narrative ruby { ruby-position:over; }
+body .story-shell .narrative rt { font-size:.6em; font-weight:400; color:inherit; }
+/* 地図の名称照合用の印は、原画像にない太字を増やさない。 */
+body .story-shell .narrative .map-mention { font-weight:inherit; }

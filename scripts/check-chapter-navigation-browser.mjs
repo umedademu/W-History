@@ -1,3 +1,4 @@
+import {sourceEdition} from "../public/source-edition.js";
 import assert from 'node:assert/strict';
 import {chromium} from 'playwright';
 import {spawn} from 'node:child_process';
@@ -7,8 +8,8 @@ import os from 'node:os';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {splitVolumes,series} from '../public/story-volumes.js';
-import {scenes} from '../public/regional-dynasties-scenes.js';
-import {pages} from '../public/ottoman-pages.js';
+const scenes=['regional-dynasties','seljuq','western-dynasties','african-kingdoms'].flatMap(id=>sourceEdition[id]);
+const pages=['ottoman','ottoman-expansion','ottoman-height'].flatMap(id=>sourceEdition[id]);
 const base='http://127.0.0.1:18767';
 const server=spawn(process.execPath,['scripts/serve.mjs'],{cwd:fileURLToPath(new URL('../',import.meta.url)),env:{...process.env,PORT:'18767'},windowsHide:true,stdio:'pipe'});
 let browser;

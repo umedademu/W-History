@@ -1,0 +1,865 @@
+{
+  "images": [
+    "IMG_3694.JPG",
+    "IMG_3695.JPG",
+    "IMG_3697.JPG",
+    "IMG_3698.JPG",
+    "IMG_3699.JPG",
+    "IMG_3700.JPG"
+  ],
+  "kinds": [
+    "red-bold",
+    "bold"
+  ],
+  "paragraphs": [
+    {
+      "id": "01-p317-1",
+      "spans": [
+        {
+          "quote": "アラブ人",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "イエメン",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "遊牧民",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "隊商貿易",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "灌漑",
+          "occurrence": 1,
+          "reading": "かんがい"
+        },
+        {
+          "quote": "遊牧民",
+          "occurrence": 1,
+          "reading": "ゆうぼくみん"
+        },
+        {
+          "quote": "隊商",
+          "occurrence": 1,
+          "reading": "たいしょう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p317-2",
+      "spans": [
+        {
+          "quote": "ヒジャーズ地方",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "メッカ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "クライシュ族",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "儲",
+          "occurrence": 1,
+          "reading": "もう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p317-3",
+      "spans": [
+        {
+          "quote": "アラブ人",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "カーバ神殿",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "カーバ聖殿",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "多神教",
+          "occurrence": 1,
+          "reading": "たしんきょう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p317-4",
+      "spans": [
+        {
+          "quote": "ハーシム家",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ムハンマド",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アッラー",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "預言者",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "イスラーム教",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "コーラン",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "クルアーン",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "洞窟",
+          "occurrence": 1,
+          "reading": "どうくつ"
+        },
+        {
+          "quote": "瞑想",
+          "occurrence": 1,
+          "reading": "めいそう"
+        },
+        {
+          "quote": "啓示",
+          "occurrence": 1,
+          "reading": "けいじ"
+        },
+        {
+          "quote": "唯一神",
+          "occurrence": 1,
+          "reading": "ゆいいつしん"
+        },
+        {
+          "quote": "帰依",
+          "occurrence": 1,
+          "reading": "きえ"
+        },
+        {
+          "quote": "聖典",
+          "occurrence": 1,
+          "reading": "せいてん"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p318-1",
+      "spans": [
+        {
+          "quote": "偶像崇拝は厳格に禁止",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "カーバ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "聖殿の黒石",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ムスリム",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "絶対平等",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "聖職者の存在も認めず",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "六信",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "五行",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "六信五行",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ラマダーン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "断食月",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "宿",
+          "occurrence": 1,
+          "reading": "やど"
+        },
+        {
+          "quote": "預言者",
+          "occurrence": 1,
+          "reading": "よげんしゃ"
+        },
+        {
+          "quote": "六信",
+          "occurrence": 1,
+          "reading": "ろくしん"
+        },
+        {
+          "quote": "断食",
+          "occurrence": 1,
+          "reading": "だんじき"
+        },
+        {
+          "quote": "喜捨",
+          "occurrence": 1,
+          "reading": "きしゃ"
+        },
+        {
+          "quote": "五行",
+          "occurrence": 1,
+          "reading": "ごぎょう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p318-2",
+      "spans": [
+        {
+          "quote": "622年",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "メディナ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ヤスリブ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ヒジュラ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "聖遷",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "太陰暦",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "イスラーム暦",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "多神教",
+          "occurrence": 1,
+          "reading": "たしんきょう"
+        },
+        {
+          "quote": "聖遷",
+          "occurrence": 1,
+          "reading": "せいせん"
+        },
+        {
+          "quote": "太陰暦",
+          "occurrence": 1,
+          "reading": "たいいんれき"
+        },
+        {
+          "quote": "暦",
+          "occurrence": 2,
+          "reading": "れき"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p318-3",
+      "spans": [
+        {
+          "quote": "ウンマ",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p319-1",
+      "spans": [],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p319-2",
+      "spans": [
+        {
+          "quote": "630年",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "メッカを無血征服",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "632年",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "メディナは第二の聖地",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p319-3",
+      "spans": [
+        {
+          "quote": "ジハード",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "聖戦",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アブー＝バクル",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "カリフ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "正統カリフ",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "啓示",
+          "occurrence": 1,
+          "reading": "けいじ"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p319-4",
+      "spans": [
+        {
+          "quote": "アラブの大征服",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p319-5",
+      "spans": [
+        {
+          "quote": "ウマル",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "シリア",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アレクサンドリア",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "エジプト",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "クテシフォン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "642年",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ニハーヴァンドの戦い",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "イラク",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "イラン高原",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "クーファ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "バスラ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "フスタート",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ミスル",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "軍営都市",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p319-6",
+      "spans": [
+        {
+          "quote": "ジズヤ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ハラージュ",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p320-1",
+      "spans": [
+        {
+          "quote": "啓典の民",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "一神教",
+          "occurrence": 1,
+          "reading": "いっしんきょう"
+        },
+        {
+          "quote": "啓典",
+          "occurrence": 1,
+          "reading": "けいてん"
+        },
+        {
+          "quote": "民",
+          "occurrence": 1,
+          "reading": "たみ"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p320-2",
+      "spans": [
+        {
+          "quote": "ウマイヤ家",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ウスマーン",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "クライシュ族",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "口承",
+          "occurrence": 1,
+          "reading": "こうしょう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p320-3",
+      "spans": [
+        {
+          "quote": "アリー",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "クーファ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ウマイヤ家",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ムアーウィヤ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アリーを暗殺",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "従弟",
+          "occurrence": 1,
+          "reading": "いとこ"
+        },
+        {
+          "quote": "遷都",
+          "occurrence": 1,
+          "reading": "せんと"
+        },
+        {
+          "quote": "総督",
+          "occurrence": 1,
+          "reading": "そうとく"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p321-1",
+      "spans": [
+        {
+          "quote": "661年",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ダマスクス",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ダマスカス",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ウマイヤ朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "01-p321-2",
+      "spans": [
+        {
+          "quote": "アリーとその子孫",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "イマーム",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "シーア派",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "スンナ派",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "スンニー派",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "正統",
+          "occurrence": 1,
+          "reading": "せいとう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p322-1",
+      "spans": [
+        {
+          "quote": "アブド＝アルマリク",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "カリフ権を強化",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アラブ化",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アラビア語",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "金貨",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ディナール",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "銀貨",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ディルハム",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "刻印",
+          "occurrence": 1,
+          "reading": "こくいん"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p322-2",
+      "spans": [
+        {
+          "quote": "ソグディアナ地方",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "マー＝ワラー＝アンナフル",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "マグリブ地方",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "西ゴート王国",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "711年",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "トゥール・ポワティエ間の戦い",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "カール＝マルテル",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "騎馬",
+          "occurrence": 1,
+          "reading": "きば"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p322-3",
+      "spans": [
+        {
+          "quote": "マワーリー",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ジズヤ",
+          "occurrence": 2,
+          "style": "red-bold"
+        },
+        {
+          "quote": "人頭税",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ハラージュ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "土地税",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アター",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "俸給",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "免税",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "俸給",
+          "occurrence": 1,
+          "reading": "ほうきゅう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "01-p322-4",
+      "spans": [],
+      "ruby": [],
+      "uncertain": []
+    }
+  ],
+  "notes": [
+    "IMG_3697.JPGの最下部（319ページ末尾）には「…統治体制をほとんど変えず、税金（人頭税のジズヤ、土地税のハラージュ）さえ払えば宗教や文化、慣習にも干渉」と印字され、IMG_3698.JPGの最上部（320ページ先頭）には「しなかったから、征服された人びとの反発が少なかったからだ。特に…」と印字されています。照合用テキストの段落「01-p319-6」および「01-p320-1」の該当本文中に含まれる文字装飾とルビを正確に抽出・記録しました。"
+  ]
+}

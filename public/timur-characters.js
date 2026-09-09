@@ -1,5 +1,5 @@
-import { maximumMapScale } from "./map-camera.js?v=0.049";
-import { createMapLayout } from "./map-layout.js?v=0.049";
+import { maximumMapScale } from "./map-camera.js?v=0.050";
+import { createMapLayout } from "./map-layout.js?v=0.050";
 // 人物は透過PNG。位置は地図と同じ緯度・経度から求める。
 const capital = [66.97, 39.65];
 const actor = (name, image, point, options = {}) => ({ name, image, point, ...options });
@@ -84,7 +84,7 @@ function pathFor(definition, routes) {
 
 // 地形の表示範囲を保ちながら、出発点と到達点の人物も画面に収める。
 export function characterCamera(scene, routes, project, width, height, small) {
-  const definition = characterScenes[scene.characters];
+  const definition = (scene.characterDefinition ?? characterScenes[scene.characters]);
   const route = pathFor(definition, routes);
   const points = [...definition.cast.filter((item) => !item.travel).map((item) => item.point), ...route, ...(scene.nameTags ?? []).map(tag=>tag.at)].map(project);
   const base = small ? scene.mobileCamera : scene.camera;
@@ -100,7 +100,7 @@ export function characterCamera(scene, routes, project, width, height, small) {
 }
 
 export function renderMapCharacters(root, scene, { map, routes, project, reducedMotion }) {
-  const definition = characterScenes[scene.characters];
+  const definition = (scene.characterDefinition ?? characterScenes[scene.characters]);
   const small = window.matchMedia("(max-width: 740px)").matches;
   const path = pathFor(definition, routes);
   const projected = path.map(project);

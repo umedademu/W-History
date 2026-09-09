@@ -1,6 +1,6 @@
-import { mapNameCatalog } from "./map-name-catalog.js?v=0.049";
+import { mapNameCatalog } from "./map-name-catalog.js?v=0.050";
 
-export const plainText = value => String(value ?? "").replace(/<[^>]*>/g, "");
+export const plainText = value => String(value ?? "").replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g, "").replace(/<[^>]*>/g, "");
 export const normalizeMapName = value => plainText(value).replace(/[\s＝=・『』「」]/g, "");
 const entries = mapNameCatalog.filter(entry=>(!/(?:騎兵|商人|戦士|軍団)$/.test(entry.name) || entry.name === "カーリミー商人")).map(entry => ({...entry, key:normalizeMapName(entry.name)})).sort((a,b)=>b.key.length-a.key.length);
 const byKey = new Map(entries.map(e=>[e.key,e]));
@@ -17,7 +17,7 @@ const localAnchors={
  "マリ王国":["ニジェール川流域"],"ソンガイ王国":["ガオ","ニジェール川流域"],"カネム＝ボルヌー王国":["チャド湖"],"モノモタパ王国":["大ジンバブエ"]
 };
 export function mapNamePlan(scene, mapItems) {
-  const narrative = plainText([scene.title,...scene.body].join("。"));
+  const narrative = plainText([scene.title,...(scene.plainBody??scene.body)].join("。"));
   const required = namesInText(narrative);
   // title・desc・非表示の見どころ欄は、地図上の表示には数えない。
   const shown = mapItems.map(item=>normalizeMapName(mapDisplayName(item.text,scene)));
@@ -35,6 +35,7 @@ export function entityNameForNarrative(entity, fallback, scene) {
   return [...entity.aliases].sort((a,b)=>b.length-a.length).find(name=>body.includes(normalizeMapName(name))) ?? fallback ?? entity.name;
 }
 export function mapDisplayName(text, scene) {
+  if(scene.nameOverrides?.[text])return scene.nameOverrides[text];
   const narrative=normalizeMapName(scene.title+scene.body.join(""));
   return text.replace(/[【（]([^】）]*)[】）]/g,(all,inside)=>
     namesInText(inside).some(entry=>!narrative.includes(entry.key)) ? "" : all);

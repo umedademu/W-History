@@ -1,0 +1,1011 @@
+{
+  "images": [
+    "IMG_3721.JPG",
+    "IMG_3722.JPG",
+    "IMG_3723.JPG",
+    "IMG_3724.JPG",
+    "IMG_3727.JPG",
+    "IMG_3728.JPG"
+  ],
+  "kinds": [
+    "bold",
+    "red-bold",
+    "underline"
+  ],
+  "paragraphs": [
+    {
+      "id": "03-p343-1",
+      "spans": [
+        {
+          "quote": "アフメト3世",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "西欧趣味",
+          "occurrence": 1,
+          "style": "underline"
+        },
+        {
+          "quote": "トプカプ宮殿",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "チューリップ時代",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "産業革命",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "享楽",
+          "occurrence": 1,
+          "reading": "きょうらく"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "04-p344-1",
+      "spans": [
+        {
+          "quote": "バーブル",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "カーブル",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ロディー朝",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "パーニーパットの戦い",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ロディー朝",
+          "occurrence": 2,
+          "style": "bold"
+        },
+        {
+          "quote": "デリー",
+          "occurrence": 2,
+          "style": "bold"
+        },
+        {
+          "quote": "ムガル帝国",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "04-p344-2",
+      "spans": [
+        {
+          "quote": "フマーユーン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "スール朝",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "04-p344-3",
+      "spans": [
+        {
+          "quote": "アクバル",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アグラ",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "04-p344-4",
+      "spans": [
+        {
+          "quote": "ラージプート",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "融和政策",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ジズヤ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "廃止",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "神聖宗教",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ディーネ＝イラーヒー",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "折衷",
+          "occurrence": 1,
+          "reading": "せっちゅう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "04-p344-5",
+      "spans": [
+        {
+          "quote": "カビール",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ナーナク",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "シク教",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "バクティ信仰",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "スーフィズム",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "神秘主義",
+          "occurrence": 1,
+          "reading": "しんぴしゅぎ"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "04-p345-1",
+      "spans": [
+        {
+          "quote": "州県制",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "官位",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "マンサブ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "マンサブダール制",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ジャーギール",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ザミンダール",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "04-p345-2",
+      "spans": [
+        {
+          "quote": "ジャハーンギール",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "インド＝イスラーム文化",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "シャー＝ジャハーン",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ムムターズ＝マハル",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "タージ＝マハル",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アウラングゼーブ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アグラ城",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "悼",
+          "occurrence": 1,
+          "reading": "いた"
+        },
+        {
+          "quote": "幽",
+          "occurrence": 1,
+          "reading": "ゆう"
+        },
+        {
+          "quote": "覗",
+          "occurrence": 1,
+          "reading": "のぞ"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "04-p345-3",
+      "spans": [
+        {
+          "quote": "アウラングゼーブ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "デカン高原",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "04-p345-4",
+      "spans": [
+        {
+          "quote": "ジズヤ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "復活",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "シーア派",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "04-p345-5",
+      "spans": [
+        {
+          "quote": "シヴァージー",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "マラーター王国",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "シク教徒の反乱",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [],
+      "uncertain": []
+    },
+    {
+      "id": "04-p345-6",
+      "spans": [
+        {
+          "quote": "アーサフ＝ジャー",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ニザーム王国",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ハイデラバード王国",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アワド王国",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アウド王国",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "シク王国",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "シク教王国",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アフシャール朝",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "マラーター同盟",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "マイソール王国",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "宰相",
+          "occurrence": 1,
+          "reading": "さいしょう"
+        },
+        {
+          "quote": "諸侯",
+          "occurrence": 1,
+          "reading": "しょこう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "04-p346-1",
+      "spans": [
+        {
+          "quote": "インド＝イスラーム文化",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "細密画",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ミニアチュール",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ムガル絵画",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ラージプート絵画",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ヒンディー語",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ウルドゥー語",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ペルシア語",
+          "occurrence": 2,
+          "style": "bold"
+        },
+        {
+          "quote": "バーブル＝ナーマ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "トルコ語",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アクバル＝ナーマ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アブル＝ファズル",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "細密画",
+          "occurrence": 1,
+          "reading": "さいみつが"
+        },
+        {
+          "quote": "語彙",
+          "occurrence": 1,
+          "reading": "ごい"
+        },
+        {
+          "quote": "回顧録",
+          "occurrence": 1,
+          "reading": "かいころく"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "04-p346-2",
+      "spans": [
+        {
+          "quote": "香辛料",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "モスリン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "キャラコ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "サラサ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "インド産綿布",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "進出を強化",
+          "occurrence": 1,
+          "style": "underline"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "香辛料",
+          "occurrence": 1,
+          "reading": "こうしんりょう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "05-p346-1",
+      "spans": [
+        {
+          "quote": "固有の学問",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "外来の学問",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "コーラン",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "クルアーン",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ハディース",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アラビア語",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "マドラサ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ウラマー",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "四つの法学派",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "伝承",
+          "occurrence": 1,
+          "reading": "でんしょう"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "05-p347-1",
+      "spans": [
+        {
+          "quote": "タバリー",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "預言者たちと諸王の歴史",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "イブン＝ハルドゥーン",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "世界史序説",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ニザーミーヤ学院",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ガザーリー",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "大旅行記",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "三大陸周遊記",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "イブン＝バットゥータ",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "預言者",
+          "occurrence": 1,
+          "reading": "よげんしゃ"
+        },
+        {
+          "quote": "編纂",
+          "occurrence": 1,
+          "reading": "へんさん"
+        },
+        {
+          "quote": "遊牧民",
+          "occurrence": 1,
+          "reading": "ゆうぼくみん"
+        },
+        {
+          "quote": "神秘主義",
+          "occurrence": 1,
+          "reading": "しんぴしゅぎ"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "05-p347-2",
+      "spans": [
+        {
+          "quote": "アリストテレス哲学",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "イブン＝シーナー",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アヴィケンナ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "医学典範",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "イブン＝ルシュド",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アヴェロエス",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "スコラ学",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アラビア数学",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ゼロの概念",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "インド数字",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アラビア数字",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "十進法",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "フワーリズミー",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "代数学",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "錬金術",
+          "occurrence": 1,
+          "reading": "れんきんじゅつ"
+        },
+        {
+          "quote": "典範",
+          "occurrence": 1,
+          "reading": "てんぱん"
+        },
+        {
+          "quote": "概念",
+          "occurrence": 1,
+          "reading": "がいねん"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "05-p347-3",
+      "spans": [
+        {
+          "quote": "フィルドゥシー",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "シャー＝ナーメ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "王の書",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "大民族叙事詩",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ウマル＝ハイヤーム",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ルバイヤート",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "刹那主義",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ばら園",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "サーディー",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "千夜一夜物語",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アラビアン＝ナイト",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ハールーン＝アッラシード",
+          "occurrence": 1,
+          "style": "bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "刹那主義",
+          "occurrence": 1,
+          "reading": "せつなしゅぎ"
+        },
+        {
+          "quote": "千夜一夜物語",
+          "occurrence": 1,
+          "reading": "せんやいちや"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "05-p348-1",
+      "spans": [
+        {
+          "quote": "岩のドーム",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ナスル朝",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "グラナダ",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アルハンブラ宮殿",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "赤い城",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "昇天",
+          "occurrence": 1,
+          "reading": "しょうてん"
+        }
+      ],
+      "uncertain": []
+    },
+    {
+      "id": "05-p348-2",
+      "spans": [
+        {
+          "quote": "スレイマン1世",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "スレイマン＝モスク",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "アッバース1世",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "イスファハーン",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "イマームのモスク",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "シャー＝ジャハーン",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "タージ＝マハル",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "モスク",
+          "occurrence": 4,
+          "style": "red-bold"
+        },
+        {
+          "quote": "説教壇",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ミフラーブ",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "幾何学模様",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アラベスク",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ドーム屋根",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "ミナレット",
+          "occurrence": 1,
+          "style": "red-bold"
+        },
+        {
+          "quote": "ハギア＝ソフィア聖堂",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "奴隷王朝",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "アイバク",
+          "occurrence": 1,
+          "style": "bold"
+        },
+        {
+          "quote": "クトゥブ＝ミナール",
+          "occurrence": 1,
+          "style": "red-bold"
+        }
+      ],
+      "ruby": [
+        {
+          "quote": "幾何学",
+          "occurrence": 1,
+          "reading": "きかがく"
+        },
+        {
+          "quote": "奴隷",
+          "occurrence": 1,
+          "reading": "どれい"
+        }
+      ],
+      "uncertain": []
+    }
+  ],
+  "notes": []
+}

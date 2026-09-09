@@ -1,14 +1,15 @@
+import {sourceEdition} from "../public/source-edition.js";
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {splitVolumes,series,selectVolume} from '../public/story-volumes.js';
-import {scenes} from '../public/regional-dynasties-scenes.js';
-import {pages} from '../public/ottoman-pages.js';
+const scenes=['regional-dynasties','seljuq','western-dynasties','african-kingdoms'].flatMap(id=>sourceEdition[id]);
+const pages=['ottoman','ottoman-expansion','ottoman-height'].flatMap(id=>sourceEdition[id]);
 const read=p=>fs.readFile(new URL('../public/'+p,import.meta.url),'utf8');
 const catalog=await read('index.html');
 assert.equal(series.length,14);
 assert.equal([...catalog.matchAll(/class="story-card"/g)].length,14);
 assert.ok(!/catalog-chapters|chapter-card|\?chapter=/.test(catalog));
-for(const [source,data,expected] of [['regional-dynasties',scenes,[7,9,13,8]],['ottoman',pages,[12,13,17]]]){
+for(const [source,data,expected] of [['regional-dynasties',scenes,[7,9,13,6]],['ottoman',pages,[9,8,10]]]){
  const volumes=splitVolumes.filter(v=>v.source===source);
  assert.deepEqual(volumes.map(v=>v.pages.length),expected);
  assert.deepEqual(volumes.flatMap(v=>v.pages).sort((a,b)=>a-b),data.map((_,i)=>i));
@@ -27,4 +28,4 @@ for(const s of series){
  for(const other of series)assert.ok(nav.includes(`>${other.number} ${other.label}</a>`));
  assert.ok(!/reading-chapter|chapter-end|story-chapters\.js|\?chapter=/.test(html));
 }
-console.log('14教材の独立した入口・通し番号・全教材への移動と、分割対象79ページの欠落・重複なしを確認しました。');
+console.log('14教材の独立した入口・通し番号・全教材への移動と、分割対象62ページの欠落・重複なしを確認しました。');

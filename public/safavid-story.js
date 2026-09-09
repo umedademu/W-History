@@ -1,8 +1,10 @@
-import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.049";
-import { maximumMapScale } from "./map-camera.js?v=0.049";
-import { createMapLayout } from "./map-layout.js?v=0.049";
-import {places,zones,scenes} from "./safavid-scenes.js?v=0.049";
+import { sourceEdition } from "./source-edition.js?v=0.050";
+import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.050";
+import { maximumMapScale } from "./map-camera.js?v=0.050";
+import { createMapLayout } from "./map-layout.js?v=0.050";
+import {places,zones} from "./safavid-scenes.js?v=0.050";
 
+const scenes=sourceEdition["safavid"];
 const NS="http://www.w3.org/2000/svg";
 const project=([lon,lat])=>[(lon-20)*12,(58-lat)*15];
 const clamp=(n,a=0,b=1)=>Math.max(a,Math.min(b,n));

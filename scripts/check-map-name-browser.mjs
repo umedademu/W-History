@@ -1,3 +1,4 @@
+import {sourceEdition} from "../public/source-edition.js";
 import {chromium} from 'playwright';
 import {splitVolumes} from '../public/story-volumes.js';
 import {fileURLToPath,pathToFileURL} from 'node:url';
@@ -18,7 +19,7 @@ const errors=[];page.on('pageerror',e=>errors.push(e.message));
 const results=[];
 for(const width of [1280,390]){
  await page.setViewportSize({width,height:900});
- for(const {name,chapter,expected} of ['islam-origin','umayyad-abbasid','regional-dynasties','timur','timur-after','safavid','ottoman','mughal','islamic-culture'].filter(name=>!process.argv[2]||name===process.argv[2]).flatMap(name=>splitVolumes.some(v=>v.source===name)?splitVolumes.filter(v=>v.source===name).map(v=>({name:v.id,chapter:0,expected:v.pages.length})):[{name,chapter:0,expected:({'islam-origin':27,'umayyad-abbasid':27,timur:13,'timur-after':16,safavid:20,mughal:20,'islamic-culture':19})[name]}])){
+ for(const {name,chapter,expected} of ['islam-origin','umayyad-abbasid','regional-dynasties','timur','timur-after','safavid','ottoman','mughal','islamic-culture'].filter(name=>!process.argv[2]||name===process.argv[2]).flatMap(name=>splitVolumes.some(v=>v.source===name)?splitVolumes.filter(v=>v.source===name).map(v=>({name:v.id,chapter:0,expected:v.pages.length})):[{name,chapter:0,expected:sourceEdition[name].length}])){
   await page.goto('http://127.0.0.1:'+port+'/'+name+'-story.html'+(chapter?'?chapter='+chapter:''));
   // 地図本体にも data-scene があるため、移動ボタンだけ数える。
   const buttons=page.locator('button[data-scene]');const total=await buttons.count();
@@ -34,6 +35,7 @@ for(const width of [1280,390]){
    await page.waitForFunction(()=>{const root=document.querySelector('#map-characters');return !root||getComputedStyle(root).opacity!=='0';},{},{timeout:10000});
    await page.waitForTimeout(80);
    const data=await page.evaluate(()=>{
+    const bodyCopy=document.querySelector('#scene-body').cloneNode(true);bodyCopy.querySelectorAll('rt').forEach(n=>n.remove());
     const map=document.querySelector('#story-map');const r=map.getBoundingClientRect();
     const visible=n=>{for(let e=n;e;e=e.parentElement){const s=getComputedStyle(e);if(e.hidden||s.display==='none'||s.visibility==='hidden'||Number(s.opacity)===0)return false;}const b=n.getBoundingClientRect();return b.width>0&&b.height>0;};
     const nodes=[...map.querySelectorAll('text'),...document.querySelectorAll('#map-characters [class$="-name"],.map-concept-name,.map-action-status,.map-relation,.map-ancestor')];
@@ -42,7 +44,7 @@ for(const width of [1280,390]){
     const overflow=textNodes.filter(n=>{const b=n.getBoundingClientRect();return b.left<r.left-1||b.right>r.right+1||b.top<r.top-1||b.bottom>r.bottom+1;}).map(n=>n.textContent);
     const boxes=textNodes.filter(n=>n.dataset.layoutLabel).map(n=>({text:n.textContent,b:n.getBoundingClientRect()}));
     const overlaps=[];for(let a=0;a<boxes.length;a++)for(let b=a+1;b<boxes.length;b++){const x=boxes[a].b,y=boxes[b].b;if(x.left<y.right-1&&x.right>y.left+1&&x.top<y.bottom-1&&x.bottom>y.top+1)overlaps.push([boxes[a].text,boxes[b].text]);}
-    return {text:document.querySelector('#scene-title').textContent+'。'+document.querySelector('#scene-body').textContent,shown,overflow,overlaps,height:map.clientHeight};
+    return {text:document.querySelector('#scene-title').textContent+'。'+bodyCopy.textContent,shown,overflow,overlaps,height:map.clientHeight};
    });
    const required=namesInText(data.text),shown=data.shown.map(normalizeMapName),body=normalizeMapName(data.text);
    const missing=required.filter(n=>!shown.some(s=>s.includes(n.key))).map(n=>n.name);

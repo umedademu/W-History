@@ -1,6 +1,6 @@
 {
   "name": "w-history",
-  "version": "0.049",
+  "version": "0.050",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,7 +8,9 @@
     "check": "node scripts/check.mjs",
     "build": "node scripts/check.mjs --published",
     "build:map": "node scripts/build-timur-map.mjs",
-    "check:browser": "node scripts/check-map-name-browser.mjs"
+    "check:browser": "node scripts/check-map-name-browser.mjs",
+    "build:source": "node scripts/build-source-edition.mjs",
+    "check:source:browser": "node scripts/check-source-browser.mjs"
   },
   "devDependencies": {
     "playwright": "1.63.0"

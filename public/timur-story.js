@@ -1,138 +1,8 @@
-import { mapNamePlan, renderMapNameConcepts } from "./map-name-coverage.js?v=0.049";
-import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.049";
+import { sourceEdition } from "./source-edition.js?v=0.050";
+import { mapNamePlan, renderMapNameConcepts } from "./map-name-coverage.js?v=0.050";
+import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.050";
 
-const scenes = [
-  {
-    id: "central-asian-change",
-    characters: "culture",
-    year: "14世紀半ば", kicker: "まず、中央アジアの変化から", title: "モンゴル人の間で、\n言葉と信仰が変わる。",
-    body: ["<strong>モンゴル帝国</strong>が衰えるころ、舞台となる<strong>中央アジア</strong>では、支配階級だった<strong>モンゴル人</strong>にも変化が起きていた。", "<strong>トルコ語</strong>を使う<strong>トルコ化</strong>と、<strong>イスラーム教</strong>へ改宗する<strong>イスラーム化</strong>が進んだ。"],
-    takeaway: "中央アジアのモンゴル人に、トルコ化とイスラーム化が進む。",
-    note: "「トルコ化」は、主に使う言葉や文化がトルコ系へ変わることを指します。",
-    mapHeading: "中央アジア｜モンゴル人のトルコ化・イスラーム化", mapDescription: "モンゴル帝国が衰える時期の中央アジアを強調し、支配階級のモンゴル人にトルコ語の使用とイスラーム教への改宗が広がる変化を人物で示します。",
-    regions: ["chagatai"], places: [], labels: ["central"], seas: [], camera: [140, 45, 900, 600], mobileCamera: [300, 70, 610, 405], showCapital: false,
-  },
-  {
-    id: "chagatai-split",
-    characters: "split",
-    year: "14世紀半ば", kicker: "まとまりが崩れると…", title: "国が東西に分かれ、\n争いが続く。",
-    body: ["<strong>モンゴル帝国</strong>が衰えると、中央アジアの<strong>チャガタイ＝ハン国</strong>は東側と西側に分裂し、どちらでも部族の内紛が起きた。", "そのうち<strong>西チャガタイ＝ハン国</strong>の争いを勝ち抜いてきたのが、<strong>ティムール</strong>だった。"],
-    takeaway: "チャガタイ＝ハン国が分裂 → 西側からティムールが登場。",
-    note: "チャガタイ＝ハン国は「チャガタイ＝ウルス」とも呼ばれます。",
-    mapHeading: "チャガタイ＝ハン国（チャガタイ＝ウルス）の東西分裂", mapDescription: "チャガタイ＝ハン国の西側と東側を分け、西チャガタイ＝ハン国からティムールが台頭する位置関係を示します。",
-    regions: ["west", "east"], places: [], labels: ["west", "east"], seas: [], camera: [320, 55, 740, 490], mobileCamera: [390, 90, 650, 430], split: true, showCapital: false,
-  },
-  {
-    id: "timurid-founding",
-    characters: "marriage",
-    year: "14世紀後半", kicker: "ティムール朝の成立", title: "「後継者」の権威で、\nサマルカンドに政権を築く。",
-    body: ["<strong>ティムール</strong>は<strong>チャガタイ家</strong>直系の娘の「婿」となり、<strong>チンギス＝ハン</strong>の後継者を称して政権に就いた。本人は直系の子孫ではない。これが<strong>ティムール朝</strong>だ。", "都<strong>サマルカンド</strong>から遠征し、各地の勢力を倒した。征服地の多くを一族に与える方法にも、<strong>モンゴル帝国</strong>の伝統が表れている。"],
-    takeaway: "都はサマルカンド。チャガタイ家との婚姻とモンゴルの伝統を権威にする。",
-    note: "チンギス＝ハンは「チンギス＝カン」とも表記します。",
-    mapHeading: "ティムール朝の都サマルカンド｜チャガタイ家の「婿」", mapDescription: "モンゴル帝国の伝統を背景に、サマルカンドでティムールとチャガタイ家直系の娘が近づき、祖先のチンギス＝ハン（チンギス＝カン）を別枠で示します。",
-    regions: ["west"], places: [], labels: ["timurid"], seas: [], camera: [300, 90, 620, 410], mobileCamera: [360, 95, 490, 330], capitalActive: true,
-  },
-  {
-    id: "kipchak-expedition",
-    characters: "north",
-    year: "北方への遠征", kicker: "遠征① カスピ海の北へ", title: "キプチャク＝ハン国に、\n影響力を広げる。",
-    body: ["まず<strong>ティムール</strong>は、都<strong>サマルカンド</strong>のある<strong>中央アジア</strong>から<strong>カスピ海北岸</strong>へ進出し、<strong>キプチャク＝ハン国</strong>へ遠征した。", "キプチャク＝ハン国、別名<strong>ジョチ＝ウルス</strong>の全域へ影響力を伸ばした。"],
-    takeaway: "中央アジア → カスピ海北岸 → キプチャク＝ハン国へ影響。",
-    note: "斜線は影響が及んだ広い範囲の概略で、同じ方法で直接支配した領土線ではありません。",
-    mapHeading: "カスピ海北岸｜キプチャク＝ハン国（ジョチ＝ウルス）", mapDescription: "サマルカンドからカスピ海北岸へ向かうティムールの遠征路と、キプチャク＝ハン国（ジョチ＝ウルス）へ及んだ影響の概略を示します。",
-    regions: ["west", "kipchak"], places: ["northShore"], labels: ["kipchak"], seas: ["caspian"], routes: ["north"], camera: [140, 0, 760, 505], mobileCamera: [250, 15, 600, 400],
-  },
-  {
-    id: "iran-expedition",
-    characters: "iran",
-    year: "イランへの遠征", kicker: "遠征② 今度は南西へ", title: "イル＝ハン国滅亡後の\nイランを支配下へ。",
-    body: ["一方、<strong>イル＝ハン国</strong>が滅亡したあとの、<strong>カスピ海</strong>南方の<strong>イラン</strong>では、各地の勢力が分立していた。", "<strong>ティムール</strong>は都<strong>サマルカンド</strong>からそこへ攻め込み、各地の勢力を倒してイランを支配下に組み込んだ。イル＝ハン国は<strong>フレグ＝ウルス</strong>とも呼ばれる。"],
-    takeaway: "イル＝ハン国の滅亡後のイラン → ティムールの支配下へ。",
-    note: "北方への遠征と前後する出来事ですが、ここでは説明の流れに合わせて地域ごとに見ます。",
-    mapHeading: "イル＝ハン国（フレグ＝ウルス）滅亡後のイラン", mapDescription: "サマルカンドからカスピ海の南にあるイランへ向かい、ティムールが現地勢力を倒して支配下に組み込む動きを示します。",
-    regions: ["west", "iran"], places: ["iranCenter"], labels: ["iran"], seas: ["caspian"], routes: ["iran"], camera: [145, 120, 720, 480], mobileCamera: [265, 160, 510, 340],
-  },
-  {
-    id: "caucasus-expedition",
-    characters: "caucasus",
-    year: "二つの海の間へ", kicker: "遠征③ イランから北西へ", title: "アルメニアとグルジアへ、\n軍を進める。",
-    body: ["<strong>ティムール</strong>は<strong>イラン</strong>からさらに北西へ向かい、<strong>アルメニア</strong>や<strong>グルジア</strong>にも軍を進めた。", "二つの地域は、<strong>黒海</strong>と<strong>カスピ海</strong>の間に位置する。"],
-    takeaway: "黒海 ｜ グルジア・アルメニア ｜ カスピ海",
-    note: "この一帯をコーカサスと呼びます。グルジアの現在の日本語国名はジョージアです。",
-    mapHeading: "黒海とカスピ海の間｜アルメニア・グルジア", mapDescription: "西の黒海と東のカスピ海の間にアルメニアとグルジアを示し、イランから進むティムールの遠征路を結びます。",
-    regions: ["iran", "caucasus"], places: ["georgia", "armenia"], labels: ["iran"], seas: ["black", "caspian"], routes: ["caucasus"], camera: [40, 100, 730, 485], mobileCamera: [115, 155, 540, 360], showCapital: false,
-  },
-  {
-    id: "delhi-expedition",
-    characters: "delhi",
-    year: "西北インドへの遠征", kicker: "遠征④ さらに南東へ", title: "デリーを占領し、\nトゥグルク朝が衰退。",
-    body: ["さらに<strong>ティムール</strong>の軍は、<strong>サマルカンド</strong>のある中央アジアから<strong>西北インド</strong>へ侵入し、<strong>デリー</strong>を占領した。", "このときの略奪が大きな打撃となり、デリーを都とする<strong>トゥグルク朝</strong>は衰退した。"],
-    takeaway: "西北インドのデリー占領 → トゥグルク朝が衰退。",
-    note: "デリーを占領したことと、インド全体を継続して支配したことは区別します。",
-    mapHeading: "西北インド｜デリーとトゥグルク朝", mapDescription: "中央アジアから西北インドのデリーへ進むティムール軍と、占領によってトゥグルク朝が衰退する関係を示します。",
-    regions: ["west", "india"], places: ["delhi"], labels: ["northwestIndia"], seas: [], routes: ["india"], camera: [360, 175, 640, 425], mobileCamera: [460, 200, 440, 295],
-  },
-  {
-    id: "syria-baghdad-expedition",
-    characters: "syria",
-    year: "シリアからアナトリアへ", kicker: "遠征⑤ 西へ向きを変える", title: "ダマスクス、バグダード、\nそしてアナトリアへ。",
-    body: ["その後、都<strong>サマルカンド</strong>から西へ遠征した<strong>ティムール</strong>は、<strong>シリア</strong>の<strong>ダマスクス</strong>を占領した。続いて<strong>バグダード</strong>も占領した。", "さらに北西の<strong>アナトリア</strong>へ進撃し、次に<strong>オスマン朝</strong>と衝突する。"],
-    takeaway: "シリアのダマスクス → バグダード → アナトリアへ進撃。",
-    note: "地図上の人物はダマスクスで一度止まり、その後バグダードへ進みます。",
-    mapHeading: "シリアのダマスクス → バグダード → アナトリア", mapDescription: "ティムールがシリアのダマスクス、バグダードの順に占領し、アナトリアへ向かう遠征のつながりを示します。",
-    regions: ["iran", "syria"], places: ["damascus", "baghdad"], labels: ["syria", "anatolia", "ottoman"], seas: [], routes: ["syria", "baghdad"], camera: [75, 185, 680, 455], mobileCamera: [105, 240, 470, 315],
-  },
-  {
-    id: "battle-of-ankara",
-    characters: "ankara",
-    year: "1402年", kicker: "遠征⑥ アンカラの戦い", title: "オスマン朝の\nスルタンを捕らえる。",
-    body: ["<strong>アナトリア</strong>へ進んだ<strong>ティムール軍</strong>は、1402年の<strong>アンカラの戦い</strong>で<strong>オスマン朝</strong>を破った。", "オスマン朝の<strong>スルタン</strong>、<strong>バヤジット1世</strong>は捕虜となり、オスマン朝の統一は一時中断した。"],
-    takeaway: "1402年・アンカラの戦い → バヤジット1世を捕虜に。",
-    note: "オスマン朝が永久に滅んだわけではありません。内紛を経て再統一されます。",
-    mapHeading: "1402年 アンカラの戦い｜オスマン朝のスルタンを捕虜に", mapDescription: "アナトリアのアンカラでティムール軍がオスマン朝を破り、スルタンのバヤジット1世を捕虜としたことを人物と経路で示します。",
-    regions: ["anatolia"], places: ["ankara"], labels: ["anatolia", "ottoman"], seas: [], routes: ["ankara"], camera: [0, 125, 725, 480], mobileCamera: [35, 185, 480, 320], showCapital: false,
-  },
-  {
-    id: "anatolian-restoration",
-    characters: "return",
-    year: "アンカラの戦いの後", kicker: "勝利後も西へ進まず", title: "アナトリアを返し、\nバルカン半島へは向かわない。",
-    body: ["<strong>アンカラの戦い</strong>の後、<strong>ティムール</strong>は、<strong>オスマン朝</strong>に領地を奪われていた<strong>アナトリア</strong>の旧支配者たちへ、その領地を与えた。", "オスマン朝の本拠地<strong>バルカン半島</strong>には関心を示さず、遠征を広げなかった。関心はむしろ東へ向いていた。"],
-    takeaway: "アナトリアの領地は旧支配者へ。バルカン半島には進まない。",
-    note: "征服地をすべて本人が直接支配しない点にも、モンゴルの伝統が見えます。",
-    mapHeading: "アナトリアの旧支配者へ返還｜バルカン半島には進まず", mapDescription: "オスマン朝が領地を奪っていたアナトリアの旧支配者へ返す動きと、西のバルカン半島へ遠征しなかったことを示します。",
-    regions: ["anatolia", "balkans"], places: ["ankara"], labels: ["anatolia", "ottoman", "balkans"], seas: [], camera: [0, 110, 705, 470], mobileCamera: [0, 150, 490, 325], afterAnkara: true, showCapital: false,
-  },
-  {
-    id: "ming-expedition-plan",
-    characters: "ming",
-    year: "最後の目標は明", kicker: "関心はモンゴル宗家の仇敵へ", title: "元を北へ追った明を、\n中国へ攻めようとする。",
-    body: ["<strong>ティムール</strong>の関心は、<strong>モンゴル宗家</strong>の<strong>元</strong>を<strong>中国</strong>から北方へ追いやった仇敵、<strong>明</strong>に向いた。", "そこで都<strong>サマルカンド</strong>へ戻って軍を再編成し、明への遠征に出発した。"],
-    takeaway: "モンゴル宗家の元を北へ追った明が、最後の遠征目標になる。",
-    note: "青い破線は目標への方向で、明の領内まで到達した行軍路ではありません。",
-    mapHeading: "サマルカンドで再編成｜元を北へ追った明へ", mapDescription: "モンゴル宗家の元を中国から北方へ追った明を東に置き、サマルカンドから計画したティムールの遠征方向を破線で示します。",
-    regions: ["west", "ming"], places: [], labels: ["ming", "yuan"], seas: [], routes: ["china"], camera: [310, 0, 950, 635], mobileCamera: [450, 40, 810, 540],
-  },
-  {
-    id: "death-at-otrar",
-    characters: "death",
-    year: "中国遠征の途中", kicker: "明へ届く前に", title: "中央アジアのオトラルで、\nティムールは病死する。",
-    body: ["都<strong>サマルカンド</strong>を出発し、<strong>中国</strong>へ向かう遠征の途中、<strong>ティムール</strong>は<strong>中央アジア</strong>の<strong>オトラル</strong>で病死した。", "そのため<strong>明</strong>への遠征は実現せず、オトラルが実際の到達点になった。"],
-    takeaway: "中央アジアのオトラルで病死 → 明への遠征は実現しない。",
-    note: "ティムール本人の死後も、子孫によるティムール朝は続きます。",
-    mapHeading: "実際の到達点は中央アジアのオトラル｜明へは未到達", mapDescription: "サマルカンドからオトラルまでを実線、オトラルから中国の明へ向かう未実現の計画を破線で示し、病死した地点で止めます。",
-    regions: ["west", "ming"], places: ["otrar"], labels: ["central", "ming"], seas: [], routes: ["otrar", "chinaFromOtrar"], camera: [310, 0, 950, 635], mobileCamera: [450, 40, 810, 540], stop: true,
-  },
-  {
-    id: "development-map",
-    characters: "summary",
-    year: "ティムール朝の発展図", kicker: "最後に地名と勢力を結ぶ", title: "ティムールの遠征を、\n一枚の地図で振り返る。",
-    body: ["<strong>ティムール朝</strong>の都は<strong>サマルカンド</strong>、西方の主要都市が<strong>ヘラート</strong>。西には<strong>オスマン朝</strong>と、<strong>ビザンツ帝国</strong>の<strong>コンスタンティノープル</strong>があった。", "南西には<strong>マムルーク朝</strong>の<strong>カイロ</strong>、南東には<strong>トゥグルク朝</strong>のデリーが位置する。サマルカンドから伸びる<strong>ティムールの遠征</strong>のうち、オスマン朝との<strong>アンカラの戦い［1402］</strong>を地図上で確かめよう。"],
-    takeaway: "都サマルカンドから、北・西・南東へ広がったティムールの遠征。",
-    note: "色は位置関係、矢印は主な進行方向の模式です。厳密な国境や行軍路ではありません。",
-    mapHeading: "ティムール朝の発展｜ティムールの遠征", mapDescription: "ティムール朝の都サマルカンドとヘラート、ビザンツ帝国のコンスタンティノープル、オスマン朝、マムルーク朝のカイロ、トゥグルク朝のデリー、アンカラの戦い［1402］を一枚に示します。",
-    regions: ["timuridOverview", "anatolia", "india"], places: ["constantinople", "cairo", "herat", "delhi", "ankara"], labels: ["timurid", "byzantine", "ottoman", "mamluk", "tughluq"], seas: [], routes: ["north", "iran", "caucasus", "india", "summaryAnkara"], camera: [0, 0, 1260, 720], mobileCamera: [0, 0, 1260, 720], summary: true,
-  },
-];
+const scenes=sourceEdition.timur;
 
 const svgNamespace = "http://www.w3.org/2000/svg";
 const project = ([longitude, latitude]) => [(longitude - 20) * 12, (58 - latitude) * 15];
@@ -240,7 +110,7 @@ function drawPlace(key, scene) {
     : svgElement("circle", { cx: x, cy: y, r: 6, class: `place-dot${active ? " active" : ""}` }));
   const summaryAnkara = scene.summary && mobile.matches && key === "ankara";
   const scale = elements["story-map"].clientWidth / width;
-  const definition = characterScenes[scene.characters];
+  const definition = (scene.characterDefinition ?? characterScenes[scene.characters]);
   const hasPerson = definition.cast.some((item) => !item.travel && item.point[0] === place.point[0] && item.point[1] === place.point[1]) || definition.destination === key;
   const offset = hasPerson ? [0, (mobile.matches ? 45 : 48) / scale] : summaryAnkara ? [15, 30] : [...place.offset];
   if (scene.characters === "syria" && key === "damascus") offset[0] = -10 / scale;
@@ -271,7 +141,7 @@ function renderMap(scene) {
   const mapItems=[
     ...[...(scene.showCapital === false ? [] : ["samarkand"]),...scene.places].map(k=>({text:places[k].label,at:places[k].point})),
     ...scene.labels.map(k=>({text:labels[k].text,at:labels[k].point})),...scene.seas.map(k=>({text:seaLabels[k].text,at:seaLabels[k].point})),
-    ...characterScenes[scene.characters].cast.map(a=>({text:a.name,at:a.point}))
+    ...(scene.characterDefinition ?? characterScenes[scene.characters]).cast.map(a=>({text:a.name,at:a.point}))
   ];
   const names=mapNamePlan(scene,mapItems);
   scene={...scene,nameTags:names.tags};

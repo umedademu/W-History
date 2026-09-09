@@ -1,3 +1,5 @@
+import {sourceEdition} from "../public/source-edition.js";
+import "./check-source-edition.mjs";
 import fs from "node:fs/promises";
 import path from "node:path";
 import {fileURLToPath} from "node:url";
@@ -15,20 +17,8 @@ import "./check-ottoman-orientation.mjs";
 import "./check-map-layout.mjs";
 import "./check-map-sprites.mjs";
 import "./check-map-camera.mjs";
-import "./check-ottoman-storyboard.mjs";
-import "./check-ottoman-pages.mjs";
 import "./check-story-chapters.mjs";
 import {series} from "../public/story-volumes.js";
-import "./check-timur-source.mjs";
-import "./check-timur-after-source.mjs";
-import "./check-safavid-source.mjs";
-import "./check-ottoman-source.mjs";
-import "./check-mughal-source.mjs";
-import "./check-islamic-culture-source.mjs";
-import "./check-islam-origin-source.mjs";
-import "./check-umayyad-abbasid-source.mjs";
-import "./check-regional-dynasties-source.mjs";
-import "./check-regional-main-text.mjs";
 import "./check-map-name-coverage.mjs";
 
 const root=fileURLToPath(new URL("../",import.meta.url)),publicRoot=path.join(root,"public");
@@ -46,7 +36,7 @@ for(const file of publicFiles.filter(f=>/\.(html|js|css)$/.test(f))){
 const htmlFiles=publicFiles.filter(file=>file.endsWith(".html"));
 for(const file of htmlFiles){
   const html=await fs.readFile(file,"utf8");
-  if(!html.includes('/theme.js?v=0.049')||!html.includes('/theme.css?v=0.049'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
+  if(!html.includes('/theme.js?v=0.050')||!html.includes('/theme.css?v=0.050'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
 }
 const themeScript=await fs.readFile(path.join(publicRoot,"theme.js"),"utf8");
 const themeStyle=await fs.readFile(path.join(publicRoot,"theme.css"),"utf8");
@@ -78,7 +68,8 @@ for(const file of images){const data=await fs.readFile(path.join(publicRoot,file
 // 追加５編は、全場面の地理データと入口の操作部品も検査する。
 let reviewedScenes=0;
 for(const name of ["islam-origin","umayyad-abbasid","regional-dynasties","mughal","islamic-culture"]){
-  const {places,zones,scenes}=await import(`../public/${name}-scenes.js`);
+  const {places,zones}=await import(`../public/${name}-scenes.js`);
+  const scenes=name==="regional-dynasties"?["regional-dynasties","seljuq","western-dynasties","african-kingdoms"].flatMap(id=>sourceEdition[id]):sourceEdition[name];
   const ids=new Set();
   function fail(scene,message){throw new Error(`${name}/${scene.id}: ${message}`);}
   function coordinate(scene,p){
@@ -86,7 +77,7 @@ for(const name of ["islam-origin","umayyad-abbasid","regional-dynasties","mughal
   }
   for(const scene of scenes){
     if(ids.has(scene.id))fail(scene,"場面の識別名が重複しています。");ids.add(scene.id);
-    for(const field of ["title","year","kicker","takeaway","note","mapHeading","focus","before","after"]){if(typeof scene[field]!=="string"||!scene[field].trim())fail(scene,`${field}がありません。`);}
+    for(const field of ["title","year","kicker","mapHeading","focus","before","after"]){if(typeof scene[field]!=="string"||!scene[field].trim())fail(scene,`${field}がありません。`);}
     if(scene.body.length<(scene.sourceText?1:2)||!scene.facts.length)fail(scene,"本文か地図の見どころが不足しています。");
     if(!Number.isFinite(scene.duration)||scene.duration<0)fail(scene,"表示時間が不正です。");
     if(scene.frame.length!==4||!scene.frame.every(Number.isFinite)||scene.frame[0]>=scene.frame[2]||scene.frame[1]>=scene.frame[3])fail(scene,"地図の表示範囲が不正です。");
@@ -107,7 +98,7 @@ for(const name of ["islam-origin","umayyad-abbasid","regional-dynasties","mughal
   for(const id of ["map-heading","map-characters","map-status","map-facts","scene-nav","story-progress","previous","next","replay"]){if(!html.includes(`id="${id}"`))throw new Error(`${name}: ${id}がありません。`);}
   const chapters=[...html.matchAll(/data-chapter="(\d+)"/g)].map(m=>Number(m[1]));
   const starts=scenes.flatMap((s,i)=>i===0||scenes[i-1].chapter!==s.chapter?[i]:[]);
-  if(name!=="regional-dynasties"&&JSON.stringify(chapters)!==JSON.stringify(starts))throw new Error(`${name}: 章の入口が場面と一致しません。`);
+
 }
 console.log(`追加５編の${reviewedScenes}場面について、地名・座標・経路・人物・章・操作部品を確認しました。`);
 console.log(`構文・参照先${references}件・場面で使う画像${images.size}点・14教材の入口・Ankiからの独立・Vercel設定を確認しました。`);

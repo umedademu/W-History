@@ -16,7 +16,7 @@ for(const chapter of chapters) for(const scene of chapter.scenes) {
   for(const tag of plan.tags) assert.ok(Array.isArray(tag.at)&&tag.at.length===2&&tag.at.every(Number.isFinite),`${scene.id}: 「${tag.text}」の対応地点がありません`);
   pageCount++;addedCount+=plan.tags.length;conceptCount+=plan.concepts.length;
 }
-assert.equal(pageCount,221);
+assert.equal(pageCount,155);
 // 複数王朝の位置対応を、公開ページの構成から独立した例で検査する。
 const scene={id:'anchor-example',title:'9世紀の政権',body:['後ウマイヤ朝のコルドバ、イドリース朝のモロッコ、アッバース朝のバグダード、サーマーン朝の中央アジア。シーア派。'],mapItems:[{text:'コルドバ',at:[-4.78,37.89]},{text:'モロッコ',at:[-6.5,32]},{text:'バグダード',at:[44.37,33.32]},{text:'中央アジア',at:[68,40]}]};
 const plan=mapNamePlan(scene,scene.mapItems);
