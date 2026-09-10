@@ -1,6 +1,6 @@
-import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.052";
-import { maximumMapScale } from "./map-camera.js?v=0.052";
-import { createMapLayout } from "./map-layout.js?v=0.052";
+import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.053";
+import { maximumMapScale } from "./map-camera.js?v=0.053";
+import { createMapLayout } from "./map-layout.js?v=0.053";
 
 export function mountStory({ places, zones, scenes, imageDirectory, chapterNavigation }) {
 const NS = "http://www.w3.org/2000/svg";

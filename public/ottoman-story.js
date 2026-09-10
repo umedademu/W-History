@@ -1,13 +1,12 @@
-import { sourceEdition } from "./source-edition.js?v=0.052";
-import { mapNamePlan, renderMapNameConcepts, entityNameForNarrative } from "./map-name-coverage.js?v=0.052";
-import { maximumMapScale } from "./map-camera.js?v=0.052";
-import {createMapLayout} from "./map-layout.js?v=0.052";
-import {selectVolume,volumeNavigation} from "./story-volumes.js?v=0.052";
+import { sourceEdition } from "./source-edition.js?v=0.053";
+import { mapNamePlan, renderMapNameConcepts, entityNameForNarrative } from "./map-name-coverage.js?v=0.053";
+import { maximumMapScale } from "./map-camera.js?v=0.053";
+import {createMapLayout} from "./map-layout.js?v=0.053";
+import {selectVolume,volumeNavigation} from "./story-volumes.js?v=0.053";
 import {entities,positionFor} from "./ottoman-storyboard.js?v=0.031";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
-import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.052";
+import {project,worldMap} from "./ottoman-orientation.js?v=0.053";
 
-import {referencesIn} from "./ottoman-names.js?v=0.018";
 
 const pages=['ottoman','ottoman-expansion','ottoman-height'].flatMap(id=>sourceEdition[id]);
 const selection=selectVolume("ottoman",pages,location.pathname);
@@ -17,7 +16,7 @@ const reduced=matchMedia("(prefers-reduced-motion: reduce)"),clamp=n=>Math.max(0
 const colors={campaign:"#b5573f",rival:"#5c7886",move:"#54866b",trade:"#a57d27"};
 const resolveImg=key=>"/images/"+(key.includes("/")?key:"ottoman/"+key)+".png";
 let index=0,partIndex=0,elapsed=0,playing=!reduced.matches,stop=()=>{};
-let lastSize="",displayedScene=null,replayMode="none",pending=false,activeIntro="none";
+let lastSize="";
 const currentAnimation=()=>scenes[index].animation;
 // 動きを抑える設定では、ページ全体の結果を一枚の地図にまとめる。
 function overview(){
@@ -33,14 +32,6 @@ function overview(){
     grow:[],fades:[],afterImages:{},afterIcons:{},badges:{},labels:Object.assign({},...parts.map(p=>p.labels))};
 }
 const currentPart=()=>reduced.matches?overview():currentAnimation()[partIndex];
-const orientation=createOrientation({map,svg,onPending:value=>{
-  pending=value;
-  const hideNarrative=value&&activeIntro!=="nearby";
-  byId("narrative").classList.toggle("is-orienting",hideNarrative);
-  byId("narrative").setAttribute("aria-busy",String(value));
-  byId("scene-content").setAttribute("aria-hidden",String(hideNarrative));
-  byId("orientation-note").hidden=!hideNarrative;root.style.visibility=value?"hidden":"";updateControls();
-}});
 function svg(tag,attrs={},text){
   const node=document.createElementNS("http://www.w3.org/2000/svg",tag);
   for(const [k,v] of Object.entries(attrs))node.setAttribute(k,v);
@@ -57,21 +48,8 @@ function geometry(step,width,height){
   const x=width/2-(minX+maxX)/2*scale,y=(height-35)/2-(minY+maxY)/2*scale;
   return {scale,x,y,toScreen:p=>{const q=project(p);return [q[0]*scale+x,q[1]*scale+y];}};
 }
-function updateControls(){
-  const part=currentPart(),finished=reduced.matches||partIndex===currentAnimation().length-1&&elapsed>=part.duration;
-  byId("animation-play").disabled=pending||reduced.matches||finished;
-  byId("animation-play").textContent=reduced.matches?"静止表示":finished?"再生終了":playing?"一時停止":"再生を再開";
-  byId("animation-play").setAttribute("aria-pressed",String(playing));
-  byId("animation-state").textContent=pending?"場所を確認しています":finished?"読み終えたら「次のページ」へ":playing?"色の付いた文章を地図で表しています":"動きを一時停止しています";
-  document.querySelectorAll("[data-paragraph]").forEach((p,i)=>{
-    const active=reduced.matches||i===partIndex;p.classList.toggle("is-current",active);
-    if(active)p.setAttribute("aria-current","true");else p.removeAttribute("aria-current");
-  });
-  document.querySelectorAll("[data-mention]").forEach(n=>n.classList.toggle("is-map-active",part.ids.includes(n.dataset.mention)));
-}
-
-function drawMap(mode="none",restart=false){
-  stop();orientation.cancel();activeIntro=mode;
+function drawMap(){
+  stop();
   const scene=scenes[index], original=currentPart(), width=map.clientWidth,height=map.clientHeight;
   if(map.dataset.scene!==scene.id)map.style.minHeight="";
   const labels=Object.fromEntries(original.ids.map(id=>[id,entityNameForNarrative(entities[id],original.labels?.[id],scene)]));
@@ -197,51 +175,37 @@ function drawMap(mode="none",restart=false){
       node.classList.toggle("is-walking",Boolean(moving&&q>0&&q<1&&playing&&!reduced.matches));
     }
     // 名前は残し、図像や領域の弱まりで敗退・解体を示す。
-    for(const id of step.fades??[]){const n=labels.querySelector('[data-entity="'+id+'"]');if(n)n.style.fill=p>.5?"#777767":"";}
+    for(const id of step.fades??[]){const n=labelLayer.querySelector('[data-entity="'+id+'"]');if(n)n.style.fill=p>.5?"#777767":"";}
     const wall=map.querySelector("[data-wall]");if(wall)wall.style.opacity=step.fades?.includes("walls")?String(1-.65*p):"1";
-    placeContents();byId("animation-progress").value=reduced.matches?1:(partIndex+p)/currentAnimation().length;
+    placeContents();
   }
   stop=()=>{cancelled=true;cancelAnimationFrame(frame);};
   function start(){
-    if(cancelled)return;activeIntro="none";
-    if(reduced.matches){elapsed=step.duration;playing=false;update(1);updateControls();return;}
+    if(cancelled)return;
+    if(reduced.matches){elapsed=step.duration;playing=false;update(1);return;}
     update(clamp(elapsed/step.duration));if(!playing)return;
     let previous=performance.now();
     function tick(now){
       if(cancelled)return;elapsed+=Math.max(0,now-previous);previous=now;update(clamp(elapsed/step.duration));
-      // 同じ主題の動きを一続きに見せ、対応する文章も同時に強調する。
+      // 同じ主題の動きは一続きに見せ、本文は常に読める状態にする。
       if(elapsed>=step.duration){
-        if(partIndex===currentAnimation().length-1){playing=false;updateControls();return;}
-        if(elapsed>=step.duration+900){partIndex++;elapsed=0;drawMap("nearby");return;}
+        if(partIndex===currentAnimation().length-1){playing=false;return;}
+        if(elapsed>=step.duration+900){partIndex++;elapsed=0;drawMap();return;}
       }
       frame=requestAnimationFrame(tick);
     }
     frame=requestAnimationFrame(tick);
   }
-  updateControls();orientation.run({scene:{...scene,frame:step.frame??scene.frame},target:camera,mode,restart,stationary:reduced.matches,done:start});
+  start();
 }
-function markNames(scene){
-  const walker=document.createTreeWalker(byId("scene-body"),NodeFilter.SHOW_TEXT),nodes=[];
-  while(walker.nextNode())nodes.push(walker.currentNode);
-  for(const text of nodes){
-    const fragment=document.createDocumentFragment();let end=0;
-    for(const match of referencesIn(text.textContent)){
-      fragment.append(text.textContent.slice(end,match.index));
-      const name=document.createElement("span");name.className="map-mention";name.dataset.mention=match.id;name.textContent=match.term;
-      fragment.append(name);end=match.index+match.term.length;
-    }
-    fragment.append(text.textContent.slice(end));text.replaceWith(fragment);
-  }
-}
-
 function show(scroll=false){
   const scene=scenes[index];partIndex=0;elapsed=0;playing=!reduced.matches;
   for(const [id,value] of Object.entries({"scene-number":String(index+1).padStart(2,"0")+" / "+scenes.length,"scene-year":scene.year,"scene-kicker":scene.kicker,"scene-title":scene.title,"scene-note":scene.notes.join(" "),"progress-label":(index+1)+" / "+scenes.length}))byId(id).textContent=value;
-  byId("scene-body").replaceChildren(...scene.body.map((text,i)=>{const p=document.createElement("p");p.dataset.paragraph=i;p.innerHTML=text;return p;}));markNames(scene);
-  byId("previous").disabled=index===0;byId("next").textContent=index===scenes.length-1?chapterNavigation.nextLabel:"次のページ →";
+  byId("scene-body").replaceChildren(...scene.body.map(text=>{const p=document.createElement("p");p.innerHTML=text;return p;}));
+  byId("previous").disabled=index===0;byId("next").textContent=index===scenes.length-1?chapterNavigation.nextLabel:"次へ →";
   byId("story-progress").max=scenes.length;byId("story-progress").value=index+1;byId("story-progress").textContent=`${index+1} / ${scenes.length}`;
   document.querySelectorAll("button[data-scene]").forEach(b=>{if(+b.dataset.scene===index)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");});
-  const mode=transitionFor(scene,displayedScene);replayMode=mode==="nearby"?"none":mode;displayedScene=scene;drawMap(mode);
+  drawMap();
   if(scroll)document.querySelector(".story-stage").scrollIntoView({block:"start",behavior:"instant"});
 }
 
@@ -251,17 +215,12 @@ scenes.forEach((scene,i)=>{
 });
 byId("previous").addEventListener("click",()=>go(index-1));
 byId("next").addEventListener("click",()=>{if(index===scenes.length-1)chapterNavigation.finish();else go(index+1);});
-byId("replay").addEventListener("click",()=>{partIndex=0;elapsed=0;playing=!reduced.matches;drawMap(replayMode,true);});
-byId("show-location").addEventListener("click",()=>{replayMode="world";drawMap("world");});
-byId("animation-play").addEventListener("click",()=>{
-  if(pending||reduced.matches)return;playing=!playing;drawMap();
-});
-
+byId("replay").addEventListener("click",()=>{partIndex=0;elapsed=0;playing=!reduced.matches;drawMap();});
 document.addEventListener("keydown",event=>{
   if(event.altKey||event.ctrlKey||event.metaKey||event.shiftKey||event.repeat||event.target.closest("input,textarea,select,[contenteditable=true],details"))return;
   if(event.key==="ArrowRight"||event.key==="ArrowLeft"){event.preventDefault();go(index+(event.key==="ArrowRight"?1:-1), false);}
 });
-map.addEventListener("map-layout-resize",()=>drawMap(activeIntro));
-new ResizeObserver(()=>{const size=map.clientWidth+","+map.clientHeight;if(size===lastSize)return;drawMap(activeIntro);}).observe(map);
-reduced.addEventListener("change",()=>{playing=!reduced.matches;drawMap(activeIntro);});
+map.addEventListener("map-layout-resize",()=>drawMap());
+new ResizeObserver(()=>{const size=map.clientWidth+","+map.clientHeight;if(size===lastSize)return;drawMap();}).observe(map);
+reduced.addEventListener("change",()=>{playing=!reduced.matches;drawMap();});
 show();

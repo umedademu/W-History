@@ -7,18 +7,13 @@
   <title>オスマン帝国 — 最盛期とその後｜地図でたどる世界史</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="/timur-story.css?v=0.036" />
-  <link rel="stylesheet" href="/ottoman-story.css?v=0.036" />
+  <link rel="stylesheet" href="/ottoman-story.css?v=0.053" />
   <link rel="preload" href="/ottoman-world-map.svg?v=0.007" as="image" />
-  <script src="/ottoman-story.js?v=0.052" type="module"></script>
-<script src="/theme.js?v=0.052"></script><link rel="stylesheet" href="/theme.css?v=0.052"/><link rel="stylesheet" href="/story-layout.css?v=0.052"/><script type="module" src="/story-emphasis.js?v=0.038"></script><link rel="stylesheet" href="/source-decoration.css?v=0.052"/></head>
+  <script src="/ottoman-story.js?v=0.053" type="module"></script>
+<script src="/theme.js?v=0.053"></script><link rel="stylesheet" href="/theme.css?v=0.053"/><link rel="stylesheet" href="/story-layout.css?v=0.053"/><script type="module" src="/story-emphasis.js?v=0.038"></script><link rel="stylesheet" href="/source-decoration.css?v=0.053"/></head>
 <body class="ottoman-story">
   <main class="story-shell">
     <nav class="story-series-links" aria-label="ほかの紙芝居"><a href="/islam-origin-story.html">01 イスラーム成立</a><a href="/umayyad-abbasid-story.html">02 ウマイヤ・アッバース</a><a href="/regional-dynasties-story.html">03 イスラーム世界の分裂と三カリフ</a><a href="/seljuq-story.html">04 トルコ人の台頭とセルジューク朝</a><a href="/western-dynasties-story.html">05 西方・エジプト・北インドの諸王朝</a><a href="/african-kingdoms-story.html">06 アフリカの諸王国と交易</a><a href="/timur-story.html">07 ティムールの遠征とその後</a><a href="/safavid-story.html">08 サファヴィー</a><a href="/ottoman-story.html">09 オスマン帝国 — 建国とバルカン進出</a><a href="/ottoman-expansion-story.html">10 オスマン帝国 — 都の征服とイスラーム世界への拡大</a><a href="/ottoman-height-story.html" aria-current="page">11 オスマン帝国 — 最盛期とその後</a><a href="/mughal-story.html">12 ムガル</a><a href="/islamic-culture-story.html">13 イスラーム文化</a></nav>
-    <div id="page-controls" class="story-controls">
-      <button type="button" id="previous" class="previous-button" disabled>← 前のページ</button>
-      <div class="progress-block"><label for="story-progress" id="progress-label">1 / 10</label><progress id="story-progress" max="10" value="1">1 / 10</progress></div>
-      <button type="button" id="next" class="next-button">次のページ →</button>
-    </div>
     <section class="story-stage" aria-label="地図と物語">
       <div class="map-panel">
         <div class="map-heading" hidden>
@@ -27,7 +22,7 @@
         </div>
         <p id="map-focus" class="map-focus" hidden></p>
         <div class="map-viewport">
-          <button type="button" id="replay" class="map-replay-surface" aria-label="この場面の地図の拡大と人物の動きをもう一度見る"></button>
+          <button type="button" id="replay" class="map-replay-surface" aria-label="この場面の地図と人物の動きをもう一度見る"></button>
           <svg id="story-map" viewBox="0 0 800 680" role="img" aria-labelledby="map-title map-description">
             <title id="map-title">オスマン帝国の地図</title>
             <desc id="map-description">アナトリア、バルカン、地中海、中東地域と都市の位置を示します。</desc>
@@ -35,27 +30,6 @@
           <div id="map-characters" class="map-characters" role="group" aria-label="地図上の登場人物"></div>
           <span class="north-mark" aria-hidden="true">北<br />↑</span>
           <p id="map-status" class="map-action-status"></p>
-        </div>
-        <div class="animation-controls" aria-label="このページのアニメーション">
-          <div class="animation-toolbar"><span id="animation-state"></span><button type="button" id="animation-play" aria-pressed="true">一時停止</button></div>
-          <progress id="animation-progress" max="1" value="0" aria-label="このページの動きの進み具合"></progress>
-        </div>
-        <div class="map-location">
-          <div class="location-guide">
-            <p class="location-path">世界 <span aria-hidden="true">→</span> 地中海周辺 <span aria-hidden="true">→</span><br /><strong id="location-name">アナトリア西北部</strong></p>
-            <div class="location-actions">
-              <button type="button" id="show-location">広い地図で位置を確認</button>
-              <button type="button" id="skip-orientation" hidden>説明へ進む →</button>
-            </div>
-          </div>
-          <figure class="world-locator">
-            <figcaption>世界の中の位置</figcaption>
-            <svg id="world-locator" viewBox="0 0 1440 720" role="img" aria-label="枠は現在の表示範囲です">
-              <image href="/ottoman-world-map.svg?v=0.007" width="1440" height="720" />
-              <rect id="locator-frame" x="772" y="184" width="64" height="64" />
-            </svg>
-            <p>枠：いま表示している範囲</p>
-          </figure>
         </div>
         <div class="map-legend" aria-label="地図の凡例" hidden>
           <span><i class="legend-capital"></i>都</span>
@@ -68,13 +42,6 @@
         <p class="map-caption" hidden>印が位置の基準です。人物・建物は細い線で位置に結びます。範囲や矢印は概略、共通の人物・制度の絵は役割を示す記号です。</p>
       </div>
       <article id="narrative" class="narrative" aria-live="polite" aria-atomic="true">
-        <div id="orientation-note" class="orientation-note" hidden>
-          <p class="orientation-eyebrow">場所を確かめてから、物語へ</p>
-          <h2 id="orientation-heading">世界から、物語の舞台へ</h2>
-          <p id="orientation-description"></p>
-          <p id="orientation-hint" class="orientation-hint">地図が近づいたら、説明が始まります。</p>
-        </div>
-        <div id="scene-content" class="scene-content">
         <div class="scene-meta" hidden>
           <span id="scene-number">1 / 10</span>
           <span id="scene-year">1299年頃</span>
@@ -83,13 +50,17 @@
         <h2 id="scene-title"></h2>
         <div id="scene-body" class="scene-body"></div>
         <p id="scene-note" class="scene-note" hidden></p>
-        </div>
       </article>
     </section>
+    <div class="story-controls">
+      <button type="button" id="previous" class="previous-button" disabled>← 前へ</button>
+      <div class="progress-block"><label for="story-progress" id="progress-label">1 / 10</label><progress id="story-progress" max="10" value="1">1 / 10</progress></div>
+      <button type="button" id="next" class="next-button">次へ →</button>
+    </div>
     <nav id="scene-nav" class="scene-nav" aria-label="好きなページへ移動"></nav>
-    <p class="interaction-hint">色の付いた文章が、いま地図で表している内容です。ひと続きの動きが終わると待機します。次のページはボタンで進めてください。← → キーでもページを移動できます。音声はありません。</p>
+    <p class="interaction-hint">自分のペースで進めます。パソコンでは ← → キーでも移動できます。音声はありません。</p>
     <noscript><p class="no-script">この紙芝居を見るには、ブラウザーで JavaScript を有効にしてください。</p></noscript>
-    <footer class="story-footer"><div class="story-tools"><a href="/" class="home-link">← 教材一覧へ</a><span class="version">v0.052</span></div>
+    <footer class="story-footer"><div class="story-tools"><a href="/" class="home-link">← 教材一覧へ</a><span class="version">v0.053</span></div>
       <span>歴史の紙芝居・実験室</span>
       <details>
         <summary>地図と説明について</summary>
