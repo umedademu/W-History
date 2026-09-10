@@ -21,7 +21,7 @@ try{
  let inspected=0;
  for(const width of [1280,390]){
   await page.setViewportSize({width,height:900});
-  for(const [id,scenes] of Object.entries(sourceEdition)){
+  for(const [id,scenes] of Object.entries({...sourceEdition,timur:[...sourceEdition.timur,...sourceEdition["timur-after"]]}).filter(([id])=>id!=="timur-after")){
    await page.goto(`${base}/${id}-story.html`);await page.waitForSelector('button[data-scene]');
    for(let i=0;i<scenes.length;i++){
     await page.locator('button[data-scene]').nth(i).evaluate(b=>b.click());

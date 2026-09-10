@@ -1,6 +1,6 @@
 # W-History
 
-地図と物語で世界史の流れを学ぶ、クリックで進む紙芝居教材です。現在の版は **v0.051** です。
+地図と物語で世界史の流れを学ぶ、クリックで進む紙芝居教材です。現在の版は **v0.052** です。
 
 公開先：**https://w-history-one.vercel.app**
 
@@ -14,14 +14,13 @@
 | 04 | トルコ人の台頭とセルジューク朝 | 9 | /seljuq-story.html |
 | 05 | 西方・エジプト・北インドの諸王朝 | 13 | /western-dynasties-story.html |
 | 06 | アフリカの諸王国と交易 | 6 | /african-kingdoms-story.html |
-| 07 | ティムール遠征 | 5 | /timur-story.html |
-| 08 | その後 | 4 | /timur-after-story.html |
-| 09 | サファヴィー | 9 | /safavid-story.html |
-| 10 | オスマン帝国 — 建国とバルカン進出 | 9 | /ottoman-story.html |
-| 11 | オスマン帝国 — 都の征服とイスラーム世界への拡大 | 8 | /ottoman-expansion-story.html |
-| 12 | オスマン帝国 — 最盛期とその後 | 10 | /ottoman-height-story.html |
-| 13 | ムガル | 20 | /mughal-story.html |
-| 14 | イスラーム文化 | 14 | /islamic-culture-story.html |
+| 07 | ティムールの遠征とその後 | 9 | /timur-story.html |
+| 08 | サファヴィー | 9 | /safavid-story.html |
+| 09 | オスマン帝国 — 建国とバルカン進出 | 9 | /ottoman-story.html |
+| 10 | オスマン帝国 — 都の征服とイスラーム世界への拡大 | 8 | /ottoman-expansion-story.html |
+| 11 | オスマン帝国 — 最盛期とその後 | 10 | /ottoman-height-story.html |
+| 12 | ムガル | 20 | /mughal-story.html |
+| 13 | イスラーム文化 | 14 | /islamic-culture-story.html |
 
 入口は `/` の教材一覧です。前後ボタン、左右キー、場面番号から移動できます。音声と自動の場面送りはありません。全ページでライト・ダークを切り替えられ、選んだ表示は次回も引き継がれます。各教材のページ番号から直接移動できます。一時停止や本文の名前からの見直しもでき、端末の「動きを減らす」設定では結果を静止表示します。
 
@@ -51,6 +50,6 @@ node scripts/serve.mjs
 
 ## 原文本文と装飾
 
-全14教材の本文は原文の文章と順序を保ち、囲み・図表・年号まとめの文章化による重複を除いています。原画像の赤太字と黒太字を別の強調にし、画像で確認した読み仮名も表示します。
+全13教材の本文は原文の文章と順序を保ち、囲み・図表・年号まとめの文章化による重複を除いています。原画像の赤太字と黒太字を別の強調にし、画像で確認した読み仮名も表示します。
 
 本文と装飾の対応記録は [原文の再現方針](docs/source-edition/README.md)。再生成は `npm run build:source`、全文と装飾の画面確認は `npm run check:source:browser` です。`sources/` 内の資料は変更しません。

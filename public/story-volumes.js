@@ -153,43 +153,38 @@ export const series = [
   },
   {
     "id": "timur",
-    "label": "ティムール遠征",
+    "label": "ティムールの遠征とその後",
     "number": "07"
-  },
-  {
-    "id": "timur-after",
-    "label": "その後",
-    "number": "08"
   },
   {
     "id": "safavid",
     "label": "サファヴィー",
-    "number": "09"
+    "number": "08"
   },
   {
     "id": "ottoman",
     "label": "オスマン帝国 — 建国とバルカン進出",
-    "number": "10"
+    "number": "09"
   },
   {
     "id": "ottoman-expansion",
     "label": "オスマン帝国 — 都の征服とイスラーム世界への拡大",
-    "number": "11"
+    "number": "10"
   },
   {
     "id": "ottoman-height",
     "label": "オスマン帝国 — 最盛期とその後",
-    "number": "12"
+    "number": "11"
   },
   {
     "id": "mughal",
     "label": "ムガル",
-    "number": "13"
+    "number": "12"
   },
   {
     "id": "islamic-culture",
     "label": "イスラーム文化",
-    "number": "14"
+    "number": "13"
   }
 ];
 

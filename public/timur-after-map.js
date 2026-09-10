@@ -1,10 +1,9 @@
-import { sourceEdition } from "./source-edition.js?v=0.052";
 import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.052";
 import { maximumMapScale } from "./map-camera.js?v=0.052";
 import { createMapLayout } from "./map-layout.js?v=0.052";
 import { locations, zones } from "./timur-after-scenes.js?v=0.031";
 
-const scenes=sourceEdition["timur-after"];
+
 const NS = "http://www.w3.org/2000/svg";
 const project = ([lon, lat]) => [(lon - 20) * 12, (58 - lat) * 15];
 const pointOf = (place) => typeof place === "string" ? locations[place].point : place;
@@ -14,7 +13,7 @@ const ids = ["story-map","map-heading","map-title","map-description","map-region
 const el = Object.fromEntries(ids.map((id) => [id, document.getElementById(id)]));
 const small = matchMedia("(max-width: 740px)");
 const reduced = matchMedia("(prefers-reduced-motion: reduce)");
-let index = 0, stop = () => {}, lastSize = "";
+let stop = () => {};
 const loaded = new Map();
 function preload(name) {
   if (!loaded.has(name)) loaded.set(name, new Promise((resolve) => {
@@ -61,7 +60,7 @@ function camera(scene, width, height) {
   return [x,y,w,h];
 }
 
-function renderMap(scene) {
+export function renderAfterMap(scene) {
   if(el["story-map"].dataset.scene !== scene.id) el["story-map"].style.minHeight = "";
   el["story-map"].dataset.scene=scene.id;
   scene = withMapNames(scene, locations);
@@ -152,44 +151,5 @@ function renderMap(scene) {
   });
   stop=()=>{cancelled=true;cancelAnimationFrame(frame);};
 }
-function show({scroll=false}={}) {
-  const scene=scenes[index];
-  el["scene-number"].textContent=`${String(index+1).padStart(2,"0")} / ${scenes.length}`;
-  el["scene-year"].textContent=scene.year;
-  el["scene-kicker"].textContent=scene.kicker;
-  el["scene-title"].replaceChildren(...scene.title.split("\n").flatMap((line,i)=>i?[document.createElement("br"),document.createTextNode(line)]:[document.createTextNode(line)]));
-  // このファイルと場面定義にある固定本文だけを表示する。
-  el["scene-body"].innerHTML=scene.body.map(text=>`<p>${text}</p>`).join("");
-  el["scene-takeaway"].textContent=scene.takeaway; el["scene-note"].textContent=scene.note;
-  el.previous.disabled=index===0;
-  el.next.textContent=index===scenes.length-1?"最初から ↻":"次へ →";
-  el["story-progress"].value=index+1; el["story-progress"].textContent=`${index+1} / ${scenes.length}`;
-  el["progress-label"].textContent=`${index+1} / ${scenes.length}`;
-  document.querySelectorAll("[data-scene]").forEach(button=>{
-    if(button.tagName!=="BUTTON")return;
-    if(Number(button.dataset.scene)===index)button.setAttribute("aria-current","step");else button.removeAttribute("aria-current");
-  });
-  document.querySelectorAll("[data-chapter]").forEach(button=>{
-    if(scenes[Number(button.dataset.chapter)].chapter===scene.chapter)button.setAttribute("aria-current","step");else button.removeAttribute("aria-current");
-  });
-  renderMap(scene);
-  if(scroll)document.querySelector(".story-stage").scrollIntoView({block:"start",behavior:"instant"});
-}
-function go(next, scroll = true){next=clamp(next,0,scenes.length-1);if(next===index)return;index=next;show({scroll});}
-scenes.forEach((scene,i)=>{
-  const button=document.createElement("button");button.type="button";button.dataset.scene=i;button.textContent=String(i+1).padStart(2,"0");button.setAttribute("aria-label",`${i+1}. ${scene.title.replace("\n","")}`);button.title=button.getAttribute("aria-label");button.addEventListener("click",()=>go(i));el["scene-nav"].append(button);
-});
-el.previous.addEventListener("click",()=>go(index-1));el.next.addEventListener("click",()=>go(index===scenes.length-1?0:index+1));el.replay.addEventListener("click",()=>renderMap(scenes[index]));
-document.querySelectorAll("[data-chapter]").forEach(button=>button.addEventListener("click",()=>go(Number(button.dataset.chapter))));
-document.addEventListener("keydown",event=>{
-  if(event.altKey||event.ctrlKey||event.metaKey||event.shiftKey||event.repeat||event.target.closest("input,textarea,select,[contenteditable=true],details"))return;
-  if(["ArrowRight","ArrowLeft"].includes(event.key)){event.preventDefault();go(index+(event.key==="ArrowRight"?1:-1), false);}
-});
-el["story-map"].addEventListener("map-layout-resize",()=>renderMap(scenes[index]));
-new ResizeObserver(()=>{
-  const size=`${el["story-map"].clientWidth},${el["story-map"].clientHeight}`;
-  if(size===lastSize)return;lastSize=size;renderMap(scenes[index]);
-}).observe(el["story-map"]);
-reduced.addEventListener("change",()=>renderMap(scenes[index]));
-// 自動読み上げ・音声・動画・学習データの読み書きは行わない。
-show();
+
+export function stopAfterMap() { stop(); }

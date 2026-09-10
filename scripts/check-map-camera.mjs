@@ -17,8 +17,9 @@ for (const project of projectors) for (const [width, height] of [[320, 440], [72
 }
 
 const {sourceEdition}=await import('../public/source-edition.js');
-const chapters=Object.entries(sourceEdition).map(([name,scenes],i)=>({number:i+1,scenes:scenes.map(scene=>{
- if(name!=='timur')return {...scene,frame:scene.frame??scene.area};
+const {series}=await import('../public/story-volumes.js');
+const chapters=series.map(({id:name,number})=>({number:+number,scenes:(name==='timur'?[...sourceEdition.timur,...sourceEdition['timur-after']]:sourceEdition[name]).map(scene=>{
+ if(!scene.camera)return {...scene,frame:scene.frame??scene.area};
  const [x,y,w,h]=scene.camera;return {...scene,frame:[x/12+20,58-(y+h)/15,(x+w)/12+20,58-y/15]};
 })}));
 

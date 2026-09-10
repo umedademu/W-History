@@ -36,7 +36,7 @@ for(const file of publicFiles.filter(f=>/\.(html|js|css)$/.test(f))){
 const htmlFiles=publicFiles.filter(file=>file.endsWith(".html"));
 for(const file of htmlFiles){
   const html=await fs.readFile(file,"utf8");
-  if(!html.includes('/theme.js?v=0.051')||!html.includes('/theme.css?v=0.051'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
+  if(!html.includes('/theme.js?v=0.052')||!html.includes('/theme.css?v=0.052'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
 }
 const themeScript=await fs.readFile(path.join(publicRoot,"theme.js"),"utf8");
 const themeStyle=await fs.readFile(path.join(publicRoot,"theme.css"),"utf8");
@@ -101,4 +101,4 @@ for(const name of ["islam-origin","umayyad-abbasid","regional-dynasties","mughal
 
 }
 console.log(`追加５編の${reviewedScenes}場面について、地名・座標・経路・人物・章・操作部品を確認しました。`);
-console.log(`構文・参照先${references}件・場面で使う画像${images.size}点・14教材の入口・Ankiからの独立・Vercel設定を確認しました。`);
+console.log(`構文・参照先${references}件・場面で使う画像${images.size}点・13教材の入口・Ankiからの独立・Vercel設定を確認しました。`);

@@ -1,11 +1,11 @@
-import { sourceEdition } from "./source-edition.js?v=0.051";
-import { mapNamePlan, renderMapNameConcepts, entityNameForNarrative } from "./map-name-coverage.js?v=0.051";
-import { maximumMapScale } from "./map-camera.js?v=0.051";
-import {createMapLayout} from "./map-layout.js?v=0.051";
-import {selectVolume,volumeNavigation} from "./story-volumes.js?v=0.051";
+import { sourceEdition } from "./source-edition.js?v=0.052";
+import { mapNamePlan, renderMapNameConcepts, entityNameForNarrative } from "./map-name-coverage.js?v=0.052";
+import { maximumMapScale } from "./map-camera.js?v=0.052";
+import {createMapLayout} from "./map-layout.js?v=0.052";
+import {selectVolume,volumeNavigation} from "./story-volumes.js?v=0.052";
 import {entities,positionFor} from "./ottoman-storyboard.js?v=0.031";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
-import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.051";
+import {project,worldMap,createOrientation,transitionFor} from "./ottoman-orientation.js?v=0.052";
 
 import {referencesIn} from "./ottoman-names.js?v=0.018";
 

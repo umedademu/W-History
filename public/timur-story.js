@@ -1,8 +1,10 @@
-import { sourceEdition } from "./source-edition.js?v=0.051";
-import { mapNamePlan, renderMapNameConcepts } from "./map-name-coverage.js?v=0.051";
-import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.051";
+import { sourceEdition } from "./source-edition.js?v=0.052";
+import { mapNamePlan, renderMapNameConcepts } from "./map-name-coverage.js?v=0.052";
+import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.052";
 
-const scenes=sourceEdition.timur;
+import { renderAfterMap, stopAfterMap } from "./timur-after-map.js?v=0.052";
+
+const scenes=[...sourceEdition.timur,...sourceEdition["timur-after"]];
 
 const svgNamespace = "http://www.w3.org/2000/svg";
 const project = ([longitude, latitude]) => [(longitude - 20) * 12, (58 - latitude) * 15];
@@ -81,7 +83,7 @@ const elements = Object.fromEntries([
 ].map((id) => [id, document.getElementById(id)]));
 const mobile = window.matchMedia("(max-width: 740px)");
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-let sceneIndex = 0;
+let sceneIndex = location.hash === "#page-6" ? sourceEdition.timur.length : 0;
 let stopCharacters = () => {};
 
 function svgElement(tag, attributes = {}, text) {
@@ -136,6 +138,12 @@ function drawRoute(key, scene) {
 }
 
 function renderMap(scene) {
+  stopCharacters();
+  stopAfterMap();
+  const isAfter = scene.id.startsWith("timur-after-");
+  document.body.classList.toggle("after-story", isAfter);
+  elements["story-map"].classList.remove("fractured", "eastward", "overview");
+  if (isAfter) { renderAfterMap(scene); return; }
   if(elements["story-map"].dataset.scene!==scene.id) elements["story-map"].style.minHeight="";
   elements["story-map"].dataset.scene=scene.id;
   const mapItems=[

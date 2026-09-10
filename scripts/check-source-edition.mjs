@@ -50,4 +50,4 @@ for(const [id,scenes] of Object.entries(sourceEdition)){
 }
 const css=await fs.readFile(new URL('../public/source-decoration.css',import.meta.url),'utf8');
 assert.ok(css.includes('.source-bold')&&css.includes('.source-red-bold')&&css.includes('html[data-theme="dark"]'));
-console.log(`14教材155ページの原文本文${paragraphs.length}段落、画像ごとの装飾位置と読み仮名、掲載順・欠落・重複を確認しました。`);
+console.log(`13教材（原文対応14区分）155ページの原文本文${paragraphs.length}段落、画像ごとの装飾位置と読み仮名、掲載順・欠落・重複を確認しました。`);

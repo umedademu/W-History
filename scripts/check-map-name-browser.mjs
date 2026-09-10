@@ -19,7 +19,7 @@ const errors=[];page.on('pageerror',e=>errors.push(e.message));
 const results=[];
 for(const width of [1280,390]){
  await page.setViewportSize({width,height:900});
- for(const {name,chapter,expected} of ['islam-origin','umayyad-abbasid','regional-dynasties','timur','timur-after','safavid','ottoman','mughal','islamic-culture'].filter(name=>!process.argv[2]||name===process.argv[2]).flatMap(name=>splitVolumes.some(v=>v.source===name)?splitVolumes.filter(v=>v.source===name).map(v=>({name:v.id,chapter:0,expected:v.pages.length})):[{name,chapter:0,expected:sourceEdition[name].length}])){
+ for(const {name,chapter,expected} of ['islam-origin','umayyad-abbasid','regional-dynasties','timur','safavid','ottoman','mughal','islamic-culture'].filter(name=>!process.argv[2]||name===process.argv[2]).flatMap(name=>splitVolumes.some(v=>v.source===name)?splitVolumes.filter(v=>v.source===name).map(v=>({name:v.id,chapter:0,expected:v.pages.length})):[{name,chapter:0,expected:name==='timur'?9:sourceEdition[name].length}])){
   await page.goto('http://127.0.0.1:'+port+'/'+name+'-story.html'+(chapter?'?chapter='+chapter:''));
   // 地図本体にも data-scene があるため、移動ボタンだけ数える。
   const buttons=page.locator('button[data-scene]');const total=await buttons.count();

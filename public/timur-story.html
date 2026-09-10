@@ -3,15 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="中央アジアから各地へ広がったティムールの遠征を、地図と13場面の物語でたどる歴史教材。" />
-    <title>ティムールの遠征｜地図でたどる世界史</title>
+    <meta name="description" content="ティムールの遠征から死後の文化・交易、ウズベク三ハン国とロシアの進出まで、地図と全9ページの物語でたどる歴史教材。" />
+    <title>ティムールの遠征とその後｜地図でたどる世界史</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/timur-story.css?v=0.036" />
-    <script src="/timur-story.js?v=0.051" type="module"></script>
-  <script src="/theme.js?v=0.051"></script><link rel="stylesheet" href="/theme.css?v=0.051"/><link rel="stylesheet" href="/story-layout.css?v=0.051"/><script type="module" src="/story-emphasis.js?v=0.038"></script><link rel="stylesheet" href="/source-decoration.css?v=0.051"/></head>
+    <link rel="stylesheet" href="/timur-after-story.css?v=0.052" />
+    <script src="/timur-story.js?v=0.052" type="module"></script>
+  <script src="/theme.js?v=0.052"></script><link rel="stylesheet" href="/theme.css?v=0.052"/><link rel="stylesheet" href="/story-layout.css?v=0.052"/><script type="module" src="/story-emphasis.js?v=0.038"></script><link rel="stylesheet" href="/source-decoration.css?v=0.052"/></head>
   <body>
     <main class="story-shell">
-      <nav class="story-series-links" aria-label="ほかの紙芝居"><a href="/islam-origin-story.html">01 イスラーム成立</a><a href="/umayyad-abbasid-story.html">02 ウマイヤ・アッバース</a><a href="/regional-dynasties-story.html">03 イスラーム世界の分裂と三カリフ</a><a href="/seljuq-story.html">04 トルコ人の台頭とセルジューク朝</a><a href="/western-dynasties-story.html">05 西方・エジプト・北インドの諸王朝</a><a href="/african-kingdoms-story.html">06 アフリカの諸王国と交易</a><a href="/timur-story.html" aria-current="page">07 ティムール遠征</a><a href="/timur-after-story.html">08 その後</a><a href="/safavid-story.html">09 サファヴィー</a><a href="/ottoman-story.html">10 オスマン帝国 — 建国とバルカン進出</a><a href="/ottoman-expansion-story.html">11 オスマン帝国 — 都の征服とイスラーム世界への拡大</a><a href="/ottoman-height-story.html">12 オスマン帝国 — 最盛期とその後</a><a href="/mughal-story.html">13 ムガル</a><a href="/islamic-culture-story.html">14 イスラーム文化</a></nav>
+      <nav class="story-series-links" aria-label="ほかの紙芝居"><a href="/islam-origin-story.html">01 イスラーム成立</a><a href="/umayyad-abbasid-story.html">02 ウマイヤ・アッバース</a><a href="/regional-dynasties-story.html">03 イスラーム世界の分裂と三カリフ</a><a href="/seljuq-story.html">04 トルコ人の台頭とセルジューク朝</a><a href="/western-dynasties-story.html">05 西方・エジプト・北インドの諸王朝</a><a href="/african-kingdoms-story.html">06 アフリカの諸王国と交易</a><a href="/timur-story.html" aria-current="page">07 ティムールの遠征とその後</a><a href="/safavid-story.html">08 サファヴィー</a><a href="/ottoman-story.html">09 オスマン帝国 — 建国とバルカン進出</a><a href="/ottoman-expansion-story.html">10 オスマン帝国 — 都の征服とイスラーム世界への拡大</a><a href="/ottoman-height-story.html">11 オスマン帝国 — 最盛期とその後</a><a href="/mughal-story.html">12 ムガル</a><a href="/islamic-culture-story.html">13 イスラーム文化</a></nav>
 
       <nav class="chapter-nav" aria-label="物語の章" hidden>
 
@@ -31,6 +32,10 @@
               <title id="map-title">ティムールの遠征地図</title>
               <desc id="map-description">中央アジアのサマルカンドを中心に、各地への遠征を示します。</desc>
               <defs>
+<marker id="after-move" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1,1 L9,5 L1,9 Z" fill="#467b92" /></marker>
+                <marker id="after-campaign" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1,1 L9,5 L1,9 Z" fill="#b85434" /></marker>
+                <marker id="after-peace" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1,1 L9,5 L1,9 Z" fill="#428974" /></marker>
+                <marker id="after-trade" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1,1 L9,5 L1,9 Z" fill="#ac812e" /></marker>
                 <marker id="route-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
                   <path d="M 1 1 L 9 5 L 1 9 Z" fill="#b85434" />
                 </marker>
@@ -62,7 +67,7 @@
         </div>
 
         <article class="narrative" id="narrative" aria-live="polite" aria-atomic="true">
-          <div class="scene-meta" hidden><span id="scene-number">01 / 5</span><span id="scene-year">14世紀</span></div>
+          <div class="scene-meta" hidden><span id="scene-number">01 / 9</span><span id="scene-year">14世紀</span></div>
           <p id="scene-kicker" class="scene-kicker" hidden></p>
           <h2 id="scene-title"></h2>
           <div id="scene-body" class="scene-body"></div>
@@ -74,8 +79,8 @@
       <div class="story-controls">
         <button type="button" id="previous" class="previous-button" disabled>← 前へ</button>
         <div class="progress-block">
-          <label for="story-progress" id="progress-label">1 / 5</label>
-          <progress id="story-progress" max="5" value="1">1 / 5</progress>
+          <label for="story-progress" id="progress-label">1 / 9</label>
+          <progress id="story-progress" max="9" value="1">1 / 9</progress>
         </div>
         <button type="button" id="next" class="next-button">次へ <span aria-hidden="true">→</span></button>
       </div>
@@ -83,7 +88,7 @@
       <p class="interaction-hint">自分のペースで進めます。パソコンでは ← → キーでも移動できます。音声はありません。</p>
       <noscript><p class="no-script">この紙芝居を見るには、ブラウザーで JavaScript を有効にしてください。</p></noscript>
 
-      <footer class="story-footer"><div class="story-tools"><a href="/" class="home-link">← 教材一覧へ</a><span class="version">v0.051</span></div>
+      <footer class="story-footer"><div class="story-tools"><a href="/" class="home-link">← 教材一覧へ</a><span class="version">v0.052</span></div>
         <span>歴史の紙芝居・実験室</span>
         <details>
           <summary>地図と説明について</summary>
