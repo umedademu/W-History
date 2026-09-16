@@ -9,9 +9,9 @@ let pageCount=0, addedCount=0, conceptCount=0;
 for(const chapter of chapters) for(const scene of chapter.scenes) {
   const plan=mapNamePlan(scene,scene.mapItems);
   const body=normalizeMapName(scene.title+scene.body.join(""));
-  const displayed=[...scene.mapItems.map(item=>mapDisplayName(item.text,scene)),...plan.tags.map(tag=>tag.text),...plan.concepts];
+  const displayed=[...scene.mapItems.map(item=>mapDisplayName(item.text,scene)),...plan.tags.map(tag=>tag.text)];
   const map=displayed.map(normalizeMapName);
-  for(const name of plan.required) assert.ok(map.some(label=>label.includes(normalizeMapName(name))),`${chapter.name}/${scene.id}: 本文の「${name}」を地図に表示できません`);
+  for(const name of plan.required.filter(name=>!plan.concepts.includes(name))) assert.ok(map.some(label=>label.includes(normalizeMapName(name))),`${chapter.name}/${scene.id}: 本文の「${name}」を地図に表示できません`);
   for(const name of namesInText(displayed.join("。"))) assert.ok(body.includes(name.key),`${chapter.name}/${scene.id}: 地図の「${name.name}」が本文にありません`);
   for(const tag of plan.tags) assert.ok(Array.isArray(tag.at)&&tag.at.length===2&&tag.at.every(Number.isFinite),`${scene.id}: 「${tag.text}」の対応地点がありません`);
   pageCount++;addedCount+=plan.tags.length;conceptCount+=plan.concepts.length;
@@ -32,4 +32,4 @@ assert.deepEqual(namesInText("説明").map(e=>e.name),[],"説明の『明』を�
 const layout=await fs.readFile(new URL("../public/map-layout.js",import.meta.url),"utf8");
 assert.ok(layout.includes('createElementNS(NS,"tspan")'),"長い名前の折り返しがありません");
 assert.ok(mapNameCatalog.every(e=>e.kind==="concept"||e.points.length>0),"配置根拠のない名前があります");
-console.log(`全${pageCount}ページの表示用名称を双方向照合: 地理ラベル${addedCount}件・所在地を持たない語の凡例${conceptCount}件。非表示欄は照合対象外。`);
+console.log(`全${pageCount}ページの表示用名称を双方向照合: 地理ラベル${addedCount}件・所在地を持たない掲載対象外の語${conceptCount}件。非表示欄は照合対象外。`);

@@ -1,11 +1,11 @@
-import { sourceEdition } from "./source-edition.js?v=0.053";
-import { mapNamePlan, renderMapNameConcepts, entityNameForNarrative } from "./map-name-coverage.js?v=0.053";
-import { maximumMapScale } from "./map-camera.js?v=0.053";
-import {createMapLayout} from "./map-layout.js?v=0.053";
-import {selectVolume,volumeNavigation} from "./story-volumes.js?v=0.053";
+import { sourceEdition } from "./source-edition.js?v=0.054";
+import { mapNamePlan, entityNameForNarrative } from "./map-name-coverage.js?v=0.054";
+import { maximumMapScale } from "./map-camera.js?v=0.054";
+import {createMapLayout} from "./map-layout.js?v=0.054";
+import {selectVolume,volumeNavigation} from "./story-volumes.js?v=0.054";
 import {entities,positionFor} from "./ottoman-storyboard.js?v=0.031";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
-import {project,worldMap} from "./ottoman-orientation.js?v=0.053";
+import {project,worldMap} from "./ottoman-orientation.js?v=0.054";
 
 
 const pages=['ottoman','ottoman-expansion','ottoman-height'].flatMap(id=>sourceEdition[id]);
@@ -55,7 +55,6 @@ function drawMap(){
   const labels=Object.fromEntries(original.ids.map(id=>[id,entityNameForNarrative(entities[id],original.labels?.[id],scene)]));
   const names=mapNamePlan(scene,original.ids.map(id=>({text:labels[id],at:positionFor(id,original)})));
   const step={...original,labels,nameTags:names.tags};
-  renderMapNameConcepts(map,names.concepts);
   if(!width||!height)return;lastSize=width+","+height;
   const camera=geometry(step,width,height),{scale,x,y,toScreen}=camera;
   const polygon=points=>points.map(p=>toScreen(p).join(",")).join(" ");
@@ -139,7 +138,6 @@ function drawMap(){
   const placeContents=createMapLayout({map,root,items});let frame=0,cancelled=false;
   function update(p){
     map.dataset.progress=p.toFixed(3);map.dataset.phase=p>=1?"complete":"moving";root.dataset.phase=map.dataset.phase;
-    byId("map-status").textContent=reduced.matches?"このページ全体の位置と関係":step.text;
     areaNodes.forEach(({node,mode})=>{
       node.style.opacity=String(mode==="fade"||mode==="split"?.5*(1-p)+.06:mode==="locate"?.65+.35*p:.12+.3*p);
       if(mode==="transfer")node.setAttribute("fill",p<.5?"#b96544":"#5c8394");

@@ -27,6 +27,8 @@ try{
     await page.locator('button[data-scene]').nth(i).evaluate(b=>b.click());
     await page.waitForFunction(n=>Number(document.querySelector('#story-progress').value)===n,i+1);
     const actual=await page.locator('#scene-body').evaluate(body=>{const copy=body.cloneNode(true);copy.querySelectorAll('rt').forEach(n=>n.remove());return {text:copy.textContent,red:body.querySelectorAll('.source-red-bold').length,bold:body.querySelectorAll('.source-bold').length,ruby:body.querySelectorAll('ruby').length};});
+    assert.equal(await page.locator(".map-name-concepts").count(),0);
+    if(id.startsWith("ottoman"))assert.equal(await page.locator("#map-status").count(),0);
     const expected=scenes[i];assert.equal(actual.text,expected.plainBody.join(''),`${id}/${i+1}: 画面の本文と原文が不一致`);
     for(const type of ['red-bold','bold'])assert.equal(actual[type==='bold'?'bold':'red'],(expected.body.join('').match(new RegExp('class="[^"\\n]*\\bsource-'+type+'\\b','g'))??[]).length);
     assert.equal(actual.ruby,(expected.body.join('').match(/<ruby>/g)??[]).length);

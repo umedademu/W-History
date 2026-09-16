@@ -1,4 +1,4 @@
-import { mapNameCatalog } from "./map-name-catalog.js?v=0.053";
+import { mapNameCatalog } from "./map-name-catalog.js?v=0.054";
 
 export const plainText = value => String(value ?? "").replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g, "").replace(/<[^>]*>/g, "");
 export const normalizeMapName = value => plainText(value).replace(/[\s＝=・『』「」]/g, "");
@@ -47,16 +47,4 @@ export function sceneMapItems(scene, places) {
 export function withMapNames(scene, places) {
   const plan=mapNamePlan(scene,sceneMapItems(scene,places));
   return {...scene,tags:[...(scene.tags??[]),...plan.tags],mapNamePlan:plan};
-}
-// 信仰・言語は一点の所在地を示さず、地図内の凡例として明示する。
-export function renderMapNameConcepts(map, concepts) {
-  const panel=map.closest(".map-panel");
-  let key=panel.querySelector(".map-name-concepts");
-  if(!key){key=document.createElement("p");key.className="map-name-concepts";panel.querySelector(".map-viewport").after(key);}
-  key.hidden=concepts.length===0;
-  key.replaceChildren();
-  if(concepts.length){
-    const heading=document.createElement("span");heading.className="map-name-concepts-heading";heading.textContent="民族・信仰・制度・著作など";key.append(heading);
-    for(const concept of concepts){const name=document.createElement("span");name.className="map-concept-name";name.textContent=concept;key.append(name);}
-  }
 }

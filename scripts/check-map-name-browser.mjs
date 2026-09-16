@@ -47,7 +47,7 @@ for(const width of [1280,390]){
     return {text:document.querySelector('#scene-title').textContent+'。'+bodyCopy.textContent,shown,overflow,overlaps,height:map.clientHeight};
    });
    const required=namesInText(data.text),shown=data.shown.map(normalizeMapName),body=normalizeMapName(data.text);
-   const missing=required.filter(n=>!shown.some(s=>s.includes(n.key))).map(n=>n.name);
+   const missing=required.filter(n=>n.kind!=="concept"&&!/(?:人|語|教徒)$/.test(n.name)).filter(n=>!shown.some(s=>s.includes(n.key))).map(n=>n.name);
    const extra=namesInText(data.shown.join('。')).filter(n=>!body.includes(n.key)).map(n=>n.name);
    if(missing.length||extra.length||data.overflow.length||data.overlaps.length||errors.length)results.push({width,name,chapter,page:i+1,missing,extra,overflow:data.overflow,overlaps:data.overlaps,height:data.height,errors:errors.splice(0)});
   }

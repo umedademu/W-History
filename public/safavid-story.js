@@ -1,8 +1,8 @@
-import { sourceEdition } from "./source-edition.js?v=0.053";
-import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.053";
-import { maximumMapScale } from "./map-camera.js?v=0.053";
-import { createMapLayout } from "./map-layout.js?v=0.053";
-import {places,zones} from "./safavid-scenes.js?v=0.053";
+import { sourceEdition } from "./source-edition.js?v=0.054";
+import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.054";
+import { maximumMapScale } from "./map-camera.js?v=0.054";
+import { createMapLayout } from "./map-layout.js?v=0.054";
+import {places,zones} from "./safavid-scenes.js?v=0.054";
 
 const scenes=sourceEdition["safavid"];
 const NS="http://www.w3.org/2000/svg";
@@ -25,7 +25,6 @@ function geometry(scene,width,height){
 function drawMap(scene){
   if(map.dataset.scene !== scene.id) map.style.minHeight = "";
   scene = withMapNames(scene, places);
-  renderMapNameConcepts(map, scene.mapNamePlan.concepts);
   stop();
   const width=map.clientWidth,height=map.clientHeight;
   if(!width||!height)return;

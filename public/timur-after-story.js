@@ -1,7 +1,7 @@
-import { sourceEdition } from "./source-edition.js?v=0.053";
-import { withMapNames, renderMapNameConcepts, mapDisplayName } from "./map-name-coverage.js?v=0.053";
-import { maximumMapScale } from "./map-camera.js?v=0.053";
-import { createMapLayout } from "./map-layout.js?v=0.053";
+import { sourceEdition } from "./source-edition.js?v=0.054";
+import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.054";
+import { maximumMapScale } from "./map-camera.js?v=0.054";
+import { createMapLayout } from "./map-layout.js?v=0.054";
 import { locations, zones } from "./timur-after-scenes.js?v=0.031";
 
 const scenes=sourceEdition["timur-after"];
@@ -65,7 +65,6 @@ function renderMap(scene) {
   if(el["story-map"].dataset.scene !== scene.id) el["story-map"].style.minHeight = "";
   el["story-map"].dataset.scene=scene.id;
   scene = withMapNames(scene, locations);
-  renderMapNameConcepts(el["story-map"], scene.mapNamePlan.concepts);
   stop();
   const map = el["story-map"], width = map.clientWidth, height = map.clientHeight;
   const [left,top,w,h]=camera(scene,width,height), scale=width/w;
