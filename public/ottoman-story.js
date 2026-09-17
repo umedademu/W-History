@@ -1,11 +1,11 @@
-import { sourceEdition } from "./source-edition.js?v=0.057";
-import { mapNamePlan, entityNameForNarrative } from "./map-name-coverage.js?v=0.057";
-import { maximumMapScale } from "./map-camera.js?v=0.057";
-import {createMapLayout} from "./map-layout.js?v=0.057";
-import {selectVolume,volumeNavigation} from "./story-volumes.js?v=0.057";
+import { sourceEdition } from "./source-edition.js?v=0.058";
+import { mapNamePlan, entityNameForNarrative } from "./map-name-coverage.js?v=0.058";
+import { maximumMapScale } from "./map-camera.js?v=0.058";
+import {createMapLayout} from "./map-layout.js?v=0.058";
+import {selectVolume,volumeNavigation} from "./story-volumes.js?v=0.058";
 import {entities,positionFor} from "./ottoman-storyboard.js?v=0.031";
 import {symbolGraphic,symbolPaths} from "./ottoman-symbols.js?v=0.013";
-import {project,worldMap} from "./ottoman-orientation.js?v=0.057";
+import {project,worldMap} from "./ottoman-orientation.js?v=0.058";
 
 
 const pages=['ottoman','ottoman-expansion','ottoman-height'].flatMap(id=>sourceEdition[id]);

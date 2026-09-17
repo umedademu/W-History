@@ -1,8 +1,8 @@
-import { sourceEdition } from "./source-edition.js?v=0.057";
-import { mapNamePlan } from "./map-name-coverage.js?v=0.057";
-import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.057";
+import { sourceEdition } from "./source-edition.js?v=0.058";
+import { mapNamePlan } from "./map-name-coverage.js?v=0.058";
+import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.058";
 
-import { renderAfterMap, stopAfterMap } from "./timur-after-map.js?v=0.057";
+import { renderAfterMap, stopAfterMap } from "./timur-after-map.js?v=0.058";
 
 const scenes=[...sourceEdition.timur,...sourceEdition["timur-after"]];
 

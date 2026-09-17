@@ -1,8 +1,8 @@
-import { sourceEdition } from "./source-edition.js?v=0.057";
-import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.057";
-import { maximumMapScale } from "./map-camera.js?v=0.057";
-import { createMapLayout } from "./map-layout.js?v=0.057";
-import {places,zones} from "./safavid-scenes.js?v=0.057";
+import { sourceEdition } from "./source-edition.js?v=0.058";
+import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.058";
+import { maximumMapScale } from "./map-camera.js?v=0.058";
+import { createMapLayout } from "./map-layout.js?v=0.058";
+import {places,zones} from "./safavid-scenes.js?v=0.058";
 
 const scenes=sourceEdition["safavid"];
 const NS="http://www.w3.org/2000/svg";
