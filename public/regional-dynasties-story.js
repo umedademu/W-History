@@ -1,7 +1,7 @@
-import { sourceEdition } from "./source-edition.js?v=0.058";
-import { places, zones } from "./regional-dynasties-scenes.js?v=0.058";
-import { mountStory } from "./history-story.js?v=0.058";
-import { selectVolume, volumeNavigation } from "./story-volumes.js?v=0.058";
+import { sourceEdition } from "./source-edition.js?v=0.059";
+import { places, zones } from "./regional-dynasties-scenes.js?v=0.059";
+import { mountStory } from "./history-story.js?v=0.059";
+import { selectVolume, volumeNavigation } from "./story-volumes.js?v=0.059";
 
 const scenes=['regional-dynasties','seljuq','western-dynasties','african-kingdoms'].flatMap(id=>sourceEdition[id]);
 const selection = selectVolume("regional-dynasties", scenes, location.pathname);

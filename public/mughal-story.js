@@ -1,6 +1,6 @@
-import { sourceEdition } from "./source-edition.js?v=0.058";
-import { places, zones } from "./mughal-scenes.js?v=0.058";
-import { mountStory } from "./history-story.js?v=0.058";
+import { sourceEdition } from "./source-edition.js?v=0.059";
+import { places, zones } from "./mughal-scenes.js?v=0.059";
+import { mountStory } from "./history-story.js?v=0.059";
 
 const scenes=sourceEdition["mughal"];
 mountStory({ places, zones, scenes, imageDirectory: "mughal" });

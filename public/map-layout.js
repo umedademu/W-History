@@ -1,4 +1,4 @@
-import { fitMapSprite } from "./map-sprites.js?v=0.058";
+import { fitMapSprite } from "./map-sprites.js?v=0.059";
 
 const NS = "http://www.w3.org/2000/svg";
 const gap = 6;
