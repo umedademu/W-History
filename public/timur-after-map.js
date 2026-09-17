@@ -1,6 +1,6 @@
-import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.054";
-import { maximumMapScale } from "./map-camera.js?v=0.054";
-import { createMapLayout } from "./map-layout.js?v=0.054";
+import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.055";
+import { maximumMapScale } from "./map-camera.js?v=0.055";
+import { createMapLayout } from "./map-layout.js?v=0.055";
 import { locations, zones } from "./timur-after-scenes.js?v=0.031";
 
 

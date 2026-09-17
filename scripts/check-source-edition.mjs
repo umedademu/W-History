@@ -33,7 +33,7 @@ for(const p of paragraphs){
   }
   // 原文資料は公開管理の対象外。手元にある場合は直接比較する。
   try {
-    const source=await fs.readFile(new URL('../sources/'+p.file,import.meta.url),'utf8');
+    const source=await fs.readFile(new URL('../sources/chapter-06_islamic-world/'+p.file,import.meta.url),'utf8');
     assert.equal(source.split(/\r?\n/)[p.line-1].trim(),p.sourceTranscription??p.text,`${p.id}: 原文資料の本文と不一致`);
     if(p.sourceTranscription){
       const review=await read('docs/source-edition/cross-page-review.json');
