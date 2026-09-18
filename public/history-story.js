@@ -160,7 +160,7 @@ function drawMap(scene) {
     }
     for (const { item, node, figure, image, bubble, connector } of items) {
       let pos;
-      const r = item.route === undefined ? null : routeNodes[item.route].route;
+      const r = (item.route !== undefined && routeNodes[item.route]) ? routeNodes[item.route].route : null;
       const moving = r && p >= (r.start ?? 0) && p < (r.end ?? 1);
       if (item.route !== undefined && routeNodes[item.route]) {
         const { route, path, length } = routeNodes[item.route];

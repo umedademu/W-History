@@ -86,7 +86,18 @@ for(const s of all) {
   assert.deepEqual(mapNamePlan(s,items).tags,[],`${s.id}: 追加に頼らず必要な地名を収録`);
   assert.ok(s.frame.length===4&&s.frame.every(Number.isFinite)&&s.frame[0]<s.frame[2]&&s.frame[1]<s.frame[3]);
   for(const r of [...s.routes,...s.rivers]){assert.ok(r.points.length>=2);r.points.forEach(point);}
-  for(const item of s.props)assert.match(await read('public/images/'+item.image),/^<svg /);
+  for(const item of s.props){
+    const p = 'public/images/' + (item.image.includes('/') ? item.image : `ancient/${item.image}`) + (/\.(svg|png)$/.test(item.image) ? '' : '.png');
+    assert.ok(await read(p).then(()=>true, ()=>false), `${s.id}: props画像が存在しない ${item.image}`);
+  }
+  for(const actor of s.actors){
+    const p = 'public/images/' + (actor.image.includes('/') ? actor.image : `ancient/${actor.image}`) + (/\.(svg|png)$/.test(actor.image) ? '' : '.png');
+    assert.ok(await read(p).then(()=>true, ()=>false), `${s.id}: actor画像が存在しない ${actor.image}`);
+    if (actor.afterImage) {
+      const ap = 'public/images/' + (actor.afterImage.includes('/') ? actor.afterImage : `ancient/${actor.afterImage}`) + (/\.(svg|png)$/.test(actor.afterImage) ? '' : '.png');
+      assert.ok(await read(ap).then(()=>true, ()=>false), `${s.id}: afterImage画像が存在しない ${actor.afterImage}`);
+    }
+  }
   assert.ok(s.duration>=0);
 }
 // 同名の王を混ぜず、語の一部分を別の地名へ割り当てない。

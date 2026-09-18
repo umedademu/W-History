@@ -25,10 +25,10 @@ export const ancientEdition = {
         "page": 17
       },
       "frame": [
-        7.5,
-        20,
-        50,
-        54
+        4.5,
+        19,
+        53,
+        55
       ],
       "pins": [],
       "tags": [
@@ -104,7 +104,26 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "エジプト",
+          "at": [
+            30,
+            27
+          ],
+          "image": "egypt-farmer",
+          "bubble": "ナイル川の大河に恵まれる"
+        },
+        {
+          "name": "メソポタミア",
+          "at": [
+            43,
+            33
+          ],
+          "image": "sumer-citizen",
+          "bubble": "大河の灌漑農業で都市文明を形成"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [
@@ -236,7 +255,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "オリエントってどんなところだろう？"
       ],
@@ -285,10 +304,10 @@ export const ancientEdition = {
         "page": 17
       },
       "frame": [
-        25,
         22,
-        53,
-        38
+        21,
+        56,
+        39
       ],
       "pins": [],
       "tags": [
@@ -322,11 +341,30 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "エジプト",
+          "at": [
+            30,
+            27
+          ],
+          "image": "pharaoh-calm",
+          "bubble": "砂漠と海に囲まれ閉鎖的で安定"
+        },
+        {
+          "name": "メソポタミア",
+          "at": [
+            43,
+            33
+          ],
+          "image": "sumer-priest-calm",
+          "bubble": "開かれた地形で異民族の侵入が多い"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "オリエントってどんなところだろう？"
       ],
@@ -363,10 +401,10 @@ export const ancientEdition = {
         "page": 18
       },
       "frame": [
-        36,
-        25.96,
-        51.41,
-        40
+        33,
+        24.96,
+        54.41,
+        41
       ],
       "pins": [
         "ウル",
@@ -404,7 +442,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "シュメール人",
+          "at": [
+            46.06,
+            30.96
+          ],
+          "image": "sumer-priest-calm",
+          "bubble": "ウル・ウルクなどの都市国家を築く",
+          "offset": [
+            -28,
+            14
+          ]
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [
@@ -483,7 +535,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "まずはシュメール人の都市国家だ！"
       ],
@@ -518,10 +570,10 @@ export const ancientEdition = {
         "page": 18
       },
       "frame": [
-        38,
-        25.96,
-        51.1,
-        38
+        35,
+        24.96,
+        54.1,
+        39
       ],
       "pins": [
         "ウル"
@@ -551,9 +603,13 @@ export const ancientEdition = {
             46.1,
             30.96
           ],
-          "image": "ancient/ziggurat.svg",
+          "image": "ziggurat-temple",
           "kind": "prop",
-          "size": 42
+          "size": 76,
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
       "routes": [],
@@ -600,10 +656,10 @@ export const ancientEdition = {
         "page": 18
       },
       "frame": [
-        38,
-        25.96,
-        51.1,
-        38
+        35,
+        24.96,
+        54.1,
+        39
       ],
       "pins": [
         "ウル",
@@ -626,11 +682,25 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "シュメール人",
+          "at": [
+            46.06,
+            30.96
+          ],
+          "image": "ancient-scribe",
+          "bubble": "粘土板に絵文字や楔形文字を刻む",
+          "offset": [
+            28,
+            14
+          ]
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "まずはシュメール人の都市国家だ！"
       ],
@@ -665,10 +735,10 @@ export const ancientEdition = {
         "page": 19
       },
       "frame": [
-        33,
-        19,
-        53,
-        40
+        30,
+        18,
+        56,
+        41
       ],
       "pins": [
         "ウル"
@@ -725,17 +795,15 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "サルゴン1世",
           "at": [
             44,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "sargon-king",
+          "bubble": "メソポタミア最初の統一！"
         },
         {
           "name": "ウルナンム",
@@ -744,13 +812,30 @@ export const ancientEdition = {
             30.96
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
+        },
+        {
+          "name": "シュメール人",
+          "at": [
+            46.06,
+            30.96
+          ],
+          "image": "sumer-citizen",
+          "bubble": "六十進法や太陰暦など実用的な知識を創出",
+          "offset": [
+            28,
+            14
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "初めてメソポタミアを統一したのは？"
       ],
@@ -785,10 +870,10 @@ export const ancientEdition = {
         "page": 19
       },
       "frame": [
-        33,
-        27,
-        51,
-        40
+        30,
+        26,
+        54,
+        41
       ],
       "pins": [
         "バビロン"
@@ -831,8 +916,7 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ハンムラビ王",
           "at": [
@@ -840,13 +924,17 @@ export const ancientEdition = {
             32.54
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ハンムラビ王の登場。バビロン第1王朝がメソポタミア統一だ！"
       ],
@@ -881,10 +969,10 @@ export const ancientEdition = {
         "page": 19
       },
       "frame": [
-        38,
-        27,
-        51,
-        38
+        35,
+        26,
+        54,
+        39
       ],
       "pins": [],
       "tags": [
@@ -911,8 +999,7 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ハンムラビ王",
           "at": [
@@ -920,8 +1007,7 @@ export const ancientEdition = {
             32.54
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": ""
         },
         {
           "name": "ハンムラビ",
@@ -929,14 +1015,18 @@ export const ancientEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "hammurabi-king",
+          "bubble": "目には目を、歯には歯を！",
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ハンムラビ王の登場。バビロン第1王朝がメソポタミア統一だ！"
       ],
@@ -978,10 +1068,10 @@ export const ancientEdition = {
         "page": 20
       },
       "frame": [
-        18,
-        18,
-        83,
-        53
+        15,
+        17,
+        86,
+        54
       ],
       "pins": [],
       "tags": [
@@ -1096,10 +1186,10 @@ export const ancientEdition = {
         "page": 21
       },
       "frame": [
-        25,
-        21,
-        49.5,
-        45.02
+        22,
+        20,
+        52.5,
+        46.02
       ],
       "pins": [
         "ハットゥシャ",
@@ -1192,7 +1282,7 @@ export const ancientEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "インド＝ヨーロッパ語系民族が侵入してきた！"
       ],
@@ -1241,10 +1331,10 @@ export const ancientEdition = {
         "page": 21
       },
       "frame": [
-        25,
-        21,
-        53,
-        45
+        22,
+        20,
+        56,
+        46
       ],
       "pins": [],
       "tags": [
@@ -1334,11 +1424,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "カッシート",
+          "at": [
+            44.42,
+            32.54
+          ],
+          "image": "nomadic-rider",
+          "bubble": "バビロニアへ進出し長く支配する"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "インド＝ヨーロッパ語系民族が侵入してきた！"
       ],
@@ -1382,10 +1482,10 @@ export const ancientEdition = {
         "page": 21
       },
       "frame": [
-        18,
-        -6,
-        141,
-        43
+        15,
+        -7,
+        144,
+        44
       ],
       "pins": [
         "ハルトゥーム"
@@ -1463,8 +1563,7 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ヘロドトス",
           "at": [
@@ -1472,10 +1571,19 @@ export const ancientEdition = {
             37.04
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": ""
+        },
+        {
+          "name": "エジプト",
+          "at": [
+            31,
+            30
+          ],
+          "image": "egypt-farmer",
+          "bubble": "ヘロドトスいわく「ナイルのたまもの」"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -1532,7 +1640,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "まさに「エジプトはナイルのたまもの」！"
       ],
@@ -1581,10 +1689,10 @@ export const ancientEdition = {
         "page": 22
       },
       "frame": [
-        25,
-        20,
-        48,
-        38
+        22,
+        19,
+        51,
+        39
       ],
       "pins": [],
       "tags": [
@@ -1653,8 +1761,7 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "メネス王",
           "at": [
@@ -1662,8 +1769,8 @@ export const ancientEdition = {
             29.85
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "route": 0
         },
         {
           "name": "ナルメル王",
@@ -1672,10 +1779,14 @@ export const ancientEdition = {
             29.85
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -1752,7 +1863,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "まさに「エジプトはナイルのたまもの」！"
       ],
@@ -1801,10 +1912,10 @@ export const ancientEdition = {
         "page": 23
       },
       "frame": [
-        25,
         22,
-        36.25,
-        35.5
+        19.7,
+        40.6,
+        36.5
       ],
       "pins": [
         "メンフィス",
@@ -1842,28 +1953,7 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
-        {
-          "name": "ピラミッド",
-          "at": [
-            31.13,
-            29.98
-          ],
-          "image": "ancient/pyramid.svg",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "スフィンクス",
-          "at": [
-            31.13,
-            29.98
-          ],
-          "image": "ancient/pyramid.svg",
-          "kind": "prop",
-          "size": 42
-        },
+      "actors": [
         {
           "name": "クフ王",
           "at": [
@@ -1871,8 +1961,11 @@ export const ancientEdition = {
             29.98
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            -28,
+            14
+          ]
         },
         {
           "name": "カフラー",
@@ -1881,8 +1974,11 @@ export const ancientEdition = {
             29.98
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            25,
+            -24
+          ]
         },
         {
           "name": "メンカウラー",
@@ -1891,13 +1987,55 @@ export const ancientEdition = {
             29.98
           ],
           "image": "ancient/person.svg",
+          "bubble": "",
+          "offset": [
+            -25,
+            -24
+          ]
+        },
+        {
+          "name": "エジプト",
+          "at": [
+            32.6,
+            25.7
+          ],
+          "image": "pharaoh-calm",
+          "bubble": "テーベを都に中王国がエジプトを再統一"
+        }
+      ],
+      "props": [
+        {
+          "name": "ピラミッド",
+          "at": [
+            31.13,
+            29.98
+          ],
+          "image": "pyramid-giza",
           "kind": "prop",
-          "size": 42
+          "size": 84,
+          "offset": [
+            0,
+            -30
+          ]
+        },
+        {
+          "name": "スフィンクス",
+          "at": [
+            31.13,
+            29.98
+          ],
+          "image": "pyramid-giza",
+          "kind": "prop",
+          "size": 80,
+          "offset": [
+            28,
+            14
+          ]
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "古王国時代――ピラミッドの時代だ！"
       ],
@@ -1939,10 +2077,10 @@ export const ancientEdition = {
         "page": 23
       },
       "frame": [
-        25,
-        20,
-        37.61,
-        35
+        22,
+        19,
+        40.61,
+        36.8
       ],
       "pins": [
         "テーベ"
@@ -1985,11 +2123,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ヒクソス",
+          "at": [
+            31.5,
+            30.8
+          ],
+          "image": "hyksos-warrior",
+          "bubble": "馬と戦車を用いて下エジプトへ侵入！"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "中王国時代――末期には、異民族ヒクソスが攻めてきた！"
       ],
@@ -2031,10 +2179,10 @@ export const ancientEdition = {
         "page": 24
       },
       "frame": [
-        25,
-        20.72,
-        50,
-        40
+        22,
+        19.7,
+        53,
+        41
       ],
       "pins": [
         "テーベ"
@@ -2091,7 +2239,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "エジプト",
+          "at": [
+            32.6,
+            25.7
+          ],
+          "image": "thutmose-king",
+          "bubble": "ヒクソスを追放しオリエントの強国へと躍進",
+          "offset": [
+            0,
+            -30
+          ]
+        }
+      ],
       "props": [],
       "routes": [
         {
@@ -2119,7 +2281,7 @@ export const ancientEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "中王国時代――末期には、異民族ヒクソスが攻めてきた！"
       ],
@@ -2168,10 +2330,10 @@ export const ancientEdition = {
         "page": 24
       },
       "frame": [
-        25,
-        15,
-        43,
-        40
+        22,
+        14,
+        46,
+        41
       ],
       "pins": [],
       "tags": [
@@ -2212,17 +2374,16 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "トトメス3世",
           "at": [
             32.61,
             25.72
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "thutmose-king",
+          "bubble": "シリアへ遠征しエジプト最大の領土を築く！",
+          "route": 0
         },
         {
           "name": "アメンヘテプ4世",
@@ -2231,8 +2392,7 @@ export const ancientEdition = {
             27.65
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": ""
         },
         {
           "name": "アメンホテプ4世",
@@ -2240,11 +2400,15 @@ export const ancientEdition = {
             30.9,
             27.65
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "akhenaten-calm",
+          "bubble": "唯一神アテンのみを崇拝せよ",
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -2344,7 +2508,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "新王国時代①――いよいよエジプトも対外進出だ！"
       ],
@@ -2393,10 +2557,10 @@ export const ancientEdition = {
         "page": 24
       },
       "frame": [
-        25.9,
-        20.72,
-        37.61,
-        35
+        22.9,
+        19.72,
+        40.61,
+        36
       ],
       "pins": [
         "テーベ",
@@ -2421,8 +2585,7 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アメンヘテプ4世",
           "at": [
@@ -2430,8 +2593,11 @@ export const ancientEdition = {
             27.65
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            -28,
+            14
+          ]
         },
         {
           "name": "アクエンアテン",
@@ -2440,8 +2606,11 @@ export const ancientEdition = {
             27.65
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            25,
+            -24
+          ]
         },
         {
           "name": "イクナートン",
@@ -2450,13 +2619,17 @@ export const ancientEdition = {
             27.65
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            -25,
+            -24
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "新王国時代②――神を変えちゃったアメンヘテプ4世"
       ],
@@ -2498,10 +2671,10 @@ export const ancientEdition = {
         "page": 25
       },
       "frame": [
-        25,
-        20.72,
-        43,
-        40
+        22,
+        19.72,
+        46,
+        41
       ],
       "pins": [
         "テーベ",
@@ -2538,8 +2711,7 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アメンヘテプ4世",
           "at": [
@@ -2547,8 +2719,7 @@ export const ancientEdition = {
             27.65
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": ""
         },
         {
           "name": "アクエンアテン",
@@ -2557,8 +2728,11 @@ export const ancientEdition = {
             27.65
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
         },
         {
           "name": "ツタンカーメン",
@@ -2566,9 +2740,12 @@ export const ancientEdition = {
             31.25,
             29.85
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "tutankhamun-calm",
+          "bubble": "伝統的なアメン信仰へ復帰する",
+          "offset": [
+            0,
+            -30
+          ]
         },
         {
           "name": "ラメス2世",
@@ -2576,9 +2753,8 @@ export const ancientEdition = {
             31.83,
             30.8
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ramesses-warrior",
+          "bubble": "カデシュでヒッタイトと激突！"
         },
         {
           "name": "ラメセス2世",
@@ -2587,13 +2763,17 @@ export const ancientEdition = {
             30.8
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "新王国時代②――神を変えちゃったアメンヘテプ4世"
       ],
@@ -2628,10 +2808,10 @@ export const ancientEdition = {
         "page": 25
       },
       "frame": [
-        26,
-        17.34,
-        48.2,
-        45
+        23,
+        16.34,
+        51.2,
+        46.02
       ],
       "pins": [
         "カデシュ"
@@ -2688,25 +2868,36 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ラメス2世",
           "at": [
             31.83,
             30.8
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ramesses-warrior",
+          "bubble": "カデシュでヒッタイトと激突！",
+          "route": 0
         },
+        {
+          "name": "ヒッタイト",
+          "at": [
+            34.62,
+            40.02
+          ],
+          "route": 1,
+          "image": "hittite-warrior",
+          "bubble": "エジプト軍と互角に対峙する！"
+        }
+      ],
+      "props": [
         {
           "name": "アブシンベル神殿",
           "at": [
             31.63,
             22.34
           ],
-          "image": "ancient/temple.svg",
+          "image": "hindu-temple",
           "kind": "prop",
           "size": 42
         }
@@ -2752,7 +2943,7 @@ export const ancientEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "新王国時代③――ラメス2世が、再び対外進出！"
       ],
@@ -2761,7 +2952,8 @@ export const ancientEdition = {
       "before": "新王国時代③――ラメス2世が、再び対外進出！",
       "after": "新王国時代③――ラメス2世が、再び対外進出！",
       "note": "",
-      "takeaway": ""
+      "takeaway": "",
+      "battle": "カデシュ"
     },
     {
       "id": "ancient-egypt-010",
@@ -2787,10 +2979,10 @@ export const ancientEdition = {
         "page": 26
       },
       "frame": [
-        24.92,
-        21,
-        48.2,
-        41
+        21.92,
+        20,
+        51.2,
+        42
       ],
       "pins": [],
       "tags": [
@@ -2817,17 +3009,15 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ラメス2世",
           "at": [
             31.83,
             30.8
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ramesses-warrior",
+          "bubble": "カデシュでヒッタイトと激突！"
         },
         {
           "name": "クレオパトラ",
@@ -2836,13 +3026,13 @@ export const ancientEdition = {
             31.2
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": ""
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "新王国時代③――ラメス2世が、再び対外進出！"
       ],
@@ -2879,10 +3069,10 @@ export const ancientEdition = {
         "page": 26
       },
       "frame": [
-        25,
         22,
-        48,
-        38
+        21,
+        51,
+        39
       ],
       "pins": [],
       "tags": [
@@ -2909,11 +3099,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "オリエント",
+          "at": [
+            36,
+            32
+          ],
+          "image": "high-priest",
+          "bubble": "エジプトとメソポタミアで異なる文化が発達"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "エジプトとメソポタミアを比較してみよう！"
       ],
@@ -2957,10 +3157,10 @@ export const ancientEdition = {
         "page": 29
       },
       "frame": [
-        17,
-        21,
-        50,
-        47
+        14,
+        20,
+        53,
+        48
       ],
       "pins": [],
       "tags": [
@@ -3071,11 +3271,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "セム語系民族",
+          "at": [
+            35.5,
+            33
+          ],
+          "image": "aramean-merchant",
+          "bubble": "東西交易の要衝パレスチナで活動を展開"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "「海の民」が侵入！　大国の危機だけど……"
       ],
@@ -3110,10 +3320,10 @@ export const ancientEdition = {
         "page": 30
       },
       "frame": [
-        25,
         22,
-        50,
-        38.51
+        21,
+        53,
+        39.51
       ],
       "pins": [
         "ダマスクス",
@@ -3175,10 +3385,10 @@ export const ancientEdition = {
         "page": 30
       },
       "frame": [
-        -19,
-        22,
-        50,
-        54
+        -22,
+        21,
+        53,
+        55
       ],
       "pins": [
         "シドン",
@@ -3245,7 +3455,17 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "アラム人",
+          "at": [
+            36.29,
+            33.51
+          ],
+          "image": "aramean-merchant",
+          "bubble": "ダマスクスを中心に内陸中継貿易でアラム語を広める"
+        }
+      ],
       "props": [],
       "routes": [
         {
@@ -3277,7 +3497,7 @@ export const ancientEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "交易で発展したアラム人とフェニキア人"
       ],
@@ -3312,10 +3532,10 @@ export const ancientEdition = {
         "page": 31
       },
       "frame": [
-        25,
-        21,
-        46,
-        39
+        22,
+        20,
+        49,
+        40
       ],
       "pins": [],
       "tags": [
@@ -3370,17 +3590,15 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ラメス2世",
           "at": [
             31.83,
             30.8
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ramesses-warrior",
+          "bubble": "カデシュでヒッタイトと激突！"
         },
         {
           "name": "モーセ",
@@ -3388,11 +3606,11 @@ export const ancientEdition = {
             34,
             30
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "moses-prophet",
+          "bubble": "十戒を胸にカナンの地へ！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -3437,7 +3655,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "苦難が続くヘブライ人。やっとエジプトから脱出だ！"
       ],
@@ -3472,10 +3690,10 @@ export const ancientEdition = {
         "page": 31
       },
       "frame": [
-        25,
-        15,
-        44,
-        37.4
+        22,
+        14,
+        47,
+        38.4
       ],
       "pins": [
         "イェルサレム"
@@ -3525,17 +3743,16 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "モーセ",
           "at": [
             34,
             30
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "moses-prophet",
+          "bubble": "十戒を胸にカナンの地へ！",
+          "route": 0
         },
         {
           "name": "ダヴィデ",
@@ -3543,9 +3760,12 @@ export const ancientEdition = {
             35.23,
             31.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "solomon-king",
+          "bubble": "イェルサレムを都に国を固める",
+          "offset": [
+            -30,
+            0
+          ]
         },
         {
           "name": "ソロモン",
@@ -3553,11 +3773,15 @@ export const ancientEdition = {
             35.23,
             31.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "solomon-king",
+          "bubble": "エルサレムに壮麗な神殿を築く",
+          "offset": [
+            30,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "move",
@@ -3580,7 +3804,7 @@ export const ancientEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "苦難が続くヘブライ人。やっとエジプトから脱出だ！"
       ],
@@ -3615,10 +3839,10 @@ export const ancientEdition = {
         "page": 32
       },
       "frame": [
-        30.200000000000003,
-        26.6,
-        49.42,
-        41
+        27.200000000000003,
+        25.6,
+        52.42,
+        42
       ],
       "pins": [
         "バビロン"
@@ -3661,19 +3885,32 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ネブカドネザル2世",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "nebuchadnezzar-king",
+          "bubble": "ユダ王国の民をバビロンへ捕囚せよ",
+          "route": 0,
+          "offset": [
+            0,
+            -30
+          ]
+        },
+        {
+          "name": "ヘブライ人",
+          "at": [
+            35.2,
+            31.77
+          ],
+          "image": "aramean-merchant",
+          "bubble": "カナンの地へ移住し独自の歴史を刻む"
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "move",
@@ -3700,7 +3937,7 @@ export const ancientEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "さらなる苦難のなかからユダヤ教が生まれた！"
       ],
@@ -3735,10 +3972,10 @@ export const ancientEdition = {
         "page": 32
       },
       "frame": [
-        25,
         22,
-        58.18,
-        37.54
+        21,
+        61.18,
+        38.54
       ],
       "pins": [
         "バビロン",
@@ -3775,22 +4012,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "キュロス2世",
           "at": [
             53.18,
             30.2
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "cyrus-king",
+          "bubble": "バビロンを解放しユダヤ人を帰還させる"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "さらなる苦難のなかからユダヤ教が生まれた！"
       ],
@@ -3881,10 +4117,10 @@ export const ancientEdition = {
         "page": 33
       },
       "frame": [
-        25,
-        21,
-        59,
-        45
+        22,
+        20,
+        62,
+        46
       ],
       "pins": [
         "アッシュル"
@@ -3969,11 +4205,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "アッシリア",
+          "at": [
+            43.15,
+            36.35
+          ],
+          "image": "assyria-soldier",
+          "bubble": "鉄製武器と騎兵・戦車で強大な軍事力を誇る"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "強大な軍事国家アッシリアの登場！"
       ],
@@ -4008,10 +4254,10 @@ export const ancientEdition = {
         "page": 33
       },
       "frame": [
-        25,
         22,
-        48.2,
-        41.36
+        21,
+        51.2,
+        42.36
       ],
       "pins": [
         "ニネヴェ"
@@ -4040,8 +4286,7 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アッシュルバニバル",
           "at": [
@@ -4049,13 +4294,30 @@ export const ancientEdition = {
             36.36
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
+        },
+        {
+          "name": "アッシリア",
+          "at": [
+            43.15,
+            36.35
+          ],
+          "image": "assyria-cavalry",
+          "bubble": "前7世紀前半、オリエント史上初の全土統一！",
+          "offset": [
+            28,
+            14
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ついに「世界帝国」誕生！――アッシリアのオリエント統一"
       ],
@@ -4090,10 +4352,10 @@ export const ancientEdition = {
         "page": 33
       },
       "frame": [
-        25,
         22,
-        53.5,
-        41
+        21,
+        56.5,
+        42.35
       ],
       "pins": [],
       "tags": [
@@ -4134,11 +4396,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "アッシリア",
+          "at": [
+            43.15,
+            36.35
+          ],
+          "image": "royal-courier",
+          "bubble": "駅伝制で命令を伝え州総督を通じて強力に統治"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ついに「世界帝国」誕生！――アッシリアのオリエント統一"
       ],
@@ -4180,10 +4452,10 @@ export const ancientEdition = {
         "page": 34
       },
       "frame": [
-        17,
-        27,
-        53.5,
-        44
+        14,
+        26,
+        56.5,
+        45
       ],
       "pins": [],
       "tags": [
@@ -4298,10 +4570,10 @@ export const ancientEdition = {
         "page": 35
       },
       "frame": [
-        34,
-        27,
-        59,
-        47
+        31,
+        26,
+        62,
+        48
       ],
       "pins": [],
       "tags": [
@@ -4395,10 +4667,10 @@ export const ancientEdition = {
         "page": 35
       },
       "frame": [
-        23,
-        22,
-        53.5,
-        43.5
+        20,
+        21,
+        56.5,
+        44.5
       ],
       "pins": [
         "バビロン"
@@ -4462,32 +4734,58 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ネブカドネザル2世",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "nebuchadnezzar-king",
+          "bubble": "ユダ王国の民をバビロンへ捕囚せよ",
+          "offset": [
+            0,
+            -30
+          ]
         },
+        {
+          "name": "メディア",
+          "at": [
+            48.5,
+            35
+          ],
+          "image": "median-cavalry",
+          "bubble": "4国分立のなか勢力を拡大する！"
+        },
+        {
+          "name": "リディア",
+          "at": [
+            28.04,
+            38.49
+          ],
+          "offset": [
+            35,
+            -10
+          ],
+          "image": "lydia-merchant",
+          "bubble": "小アジア西部の富裕な王国"
+        }
+      ],
+      "props": [
         {
           "name": "ジッグラト",
           "at": [
             46.1,
             30.96
           ],
-          "image": "ancient/ziggurat.svg",
+          "image": "ziggurat-temple",
           "kind": "prop",
-          "size": 42
+          "size": 76
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "オリエントは、再び4王国分立へ……"
       ],
@@ -4531,10 +4829,10 @@ export const ancientEdition = {
         "page": 36
       },
       "frame": [
+        20,
         23,
-        24,
-        59,
-        54
+        62,
+        55
       ],
       "pins": [],
       "tags": [
@@ -4624,19 +4922,19 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "キュロス2世",
           "at": [
             53.18,
             30.2
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "cyrus-king",
+          "bubble": "バビロンを解放しユダヤ人を帰還させる",
+          "route": 0
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -4663,7 +4961,7 @@ export const ancientEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "一気にオリエントを統一したアケメネス朝"
       ],
@@ -4698,10 +4996,10 @@ export const ancientEdition = {
         "page": 36
       },
       "frame": [
-        25,
         22,
-        58.18,
-        38
+        21,
+        61.18,
+        39
       ],
       "pins": [
         "バビロン",
@@ -4738,17 +5036,15 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "キュロス2世",
           "at": [
             53.18,
             30.2
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "cyrus-king",
+          "bubble": "バビロンを解放しユダヤ人を帰還させる"
         },
         {
           "name": "カンビュセス2世",
@@ -4756,14 +5052,18 @@ export const ancientEdition = {
             52.89,
             29.93
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "cyrus-king",
+          "bubble": "エジプトを征服しオリエントを再統一",
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "一気にオリエントを統一したアケメネス朝"
       ],
@@ -4805,10 +5105,10 @@ export const ancientEdition = {
         "page": 36
       },
       "frame": [
-        20,
-        22,
-        75,
-        44
+        17,
+        21,
+        78,
+        45
       ],
       "pins": [
         "ペルセポリス",
@@ -4852,19 +5152,22 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ダレイオス1世",
           "at": [
             52.89,
             29.93
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "darius-king",
+          "bubble": "「王の道」と駅伝制で帝国を統治！",
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -4909,7 +5212,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "アケメネス朝の全盛期――ダレイオス1世の登場！"
       ],
@@ -4951,10 +5254,10 @@ export const ancientEdition = {
         "page": 37
       },
       "frame": [
-        18,
-        24.93,
-        59,
-        44
+        15,
+        23.93,
+        62,
+        45
       ],
       "pins": [
         "スサ",
@@ -4998,19 +5301,19 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ダレイオス1世",
           "at": [
             52.89,
             29.93
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "royal-courier",
+          "bubble": "スサからサルデスまで「王の道」を早馬が駆ける！",
+          "route": 0
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "trade",
@@ -5041,7 +5344,7 @@ export const ancientEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "アケメネス朝の全盛期――ダレイオス1世の登場！"
       ],
@@ -5083,10 +5386,10 @@ export const ancientEdition = {
         "page": 37
       },
       "frame": [
-        38.2,
-        25,
-        58.18,
-        41
+        35.2,
+        24,
+        61.18,
+        42
       ],
       "pins": [],
       "tags": [
@@ -5106,22 +5409,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "キュロス2世",
           "at": [
             53.18,
             30.2
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "cyrus-king",
+          "bubble": "バビロンを解放しユダヤ人を帰還させる"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "アッシリアとアケメネス朝を比べてみよう！"
       ],
@@ -5156,10 +5458,10 @@ export const ancientEdition = {
         "page": 38
       },
       "frame": [
-        43.5,
-        25,
-        113,
-        40
+        40.5,
+        24,
+        116,
+        41
       ],
       "pins": [],
       "tags": [
@@ -5232,10 +5534,10 @@ export const ancientEdition = {
         "page": 38
       },
       "frame": [
-        38.2,
-        25,
-        59,
-        41
+        35.2,
+        24,
+        62,
+        42
       ],
       "pins": [],
       "tags": [
@@ -5310,10 +5612,10 @@ export const ancientEdition = {
         "page": 39
       },
       "frame": [
-        17,
-        22,
-        83,
-        44
+        14,
+        21,
+        86,
+        45
       ],
       "pins": [
         "イッソス",
@@ -5399,17 +5701,17 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アレクサンドロス",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "alexander-march",
+          "bubble": "ペルシア全土を征服する！",
+          "afterImage": "alexander-happy",
+          "route": 0
         },
         {
           "name": "ダレイオス3世",
@@ -5417,11 +5719,11 @@ export const ancientEdition = {
             52.89,
             29.93
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "darius3-worried",
+          "bubble": "アレクサンドロスに敗れ去る…"
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -5519,7 +5821,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "アレクサンドロスが攻めてきて……アケメネス朝滅亡！"
       ],
@@ -5554,10 +5856,10 @@ export const ancientEdition = {
         "page": 39
       },
       "frame": [
-        18,
-        25,
-        113,
-        47
+        15,
+        24,
+        116,
+        48
       ],
       "pins": [],
       "tags": [
@@ -5626,8 +5928,7 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アルサケス",
           "at": [
@@ -5635,13 +5936,13 @@ export const ancientEdition = {
             38
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": ""
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "パルティアの成立——イラン系遊牧民が国をつくった！"
       ],
@@ -5676,10 +5977,10 @@ export const ancientEdition = {
         "page": 40
       },
       "frame": [
-        7.5,
-        28,
-        61,
-        46.9
+        4.5,
+        27,
+        64,
+        47.9
       ],
       "pins": [
         "セレウキア",
@@ -5745,17 +6046,19 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ミトラダテス1世",
           "at": [
             44.55,
             33.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "parthian-horseman",
+          "bubble": "東西交易路シルクロードで繁栄！",
+          "offset": [
+            28,
+            14
+          ]
         },
         {
           "name": "ポンペイウス",
@@ -5764,8 +6067,7 @@ export const ancientEdition = {
             35
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": ""
         },
         {
           "name": "クラッスス",
@@ -5774,10 +6076,23 @@ export const ancientEdition = {
             36.87
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
+        },
+        {
+          "name": "パルティア",
+          "at": [
+            52,
+            34
+          ],
+          "image": "parthian-horseman",
+          "bubble": "弓騎兵の機動力を生かしてローマ軍と激突！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -5814,7 +6129,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "パルティアの成立——イラン系遊牧民が国をつくった！"
       ],
@@ -5856,10 +6171,10 @@ export const ancientEdition = {
         "page": 40
       },
       "frame": [
-        7.5,
-        28,
-        113,
-        46.9
+        4.5,
+        27,
+        116,
+        47.9
       ],
       "pins": [],
       "tags": [
@@ -5953,10 +6268,10 @@ export const ancientEdition = {
         "page": 41
       },
       "frame": [
-        7.5,
-        24.93,
-        77,
-        46.9
+        4.5,
+        23.93,
+        80,
+        47.9
       ],
       "pins": [
         "クテシフォン"
@@ -6006,17 +6321,15 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ダレイオス1世",
           "at": [
             52.89,
             29.93
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "darius-king",
+          "bubble": "「王の道」と駅伝制で帝国を統治！"
         },
         {
           "name": "トラヤヌス",
@@ -6025,13 +6338,17 @@ export const ancientEdition = {
             33.09
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "パルティアの衰退"
       ],
@@ -6066,10 +6383,10 @@ export const ancientEdition = {
         "page": 41
       },
       "frame": [
-        39.58,
-        23.85,
-        61,
-        41
+        36.58,
+        22.85,
+        64,
+        42
       ],
       "pins": [
         "クテシフォン"
@@ -6112,17 +6429,15 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アルダシール1世",
           "at": [
             52.57,
             28.85
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "shapur-king",
+          "bubble": "ササン朝を開きペルシアを再興！"
         },
         {
           "name": "アルデシール1世",
@@ -6131,13 +6446,17 @@ export const ancientEdition = {
             28.85
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ササン朝の成立——今度はイラン系農耕民の国だ"
       ],
@@ -6172,10 +6491,10 @@ export const ancientEdition = {
         "page": 41
       },
       "frame": [
-        7.5,
-        4,
-        83,
-        46.9
+        4.5,
+        3,
+        86,
+        47.9
       ],
       "pins": [
         "エデッサ"
@@ -6288,17 +6607,15 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "シャープール1世",
           "at": [
             51.57,
             29.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "shapur-king",
+          "bubble": "ローマ皇帝ウァレリアヌスを捕縛！"
         },
         {
           "name": "ウァレリアヌス",
@@ -6306,11 +6623,24 @@ export const ancientEdition = {
             38.8,
             37.16
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "valerian-captive",
+          "bubble": "ササン朝の捕虜となってしまった…",
+          "offset": [
+            0,
+            -30
+          ]
+        },
+        {
+          "name": "ササン朝",
+          "at": [
+            52,
+            32
+          ],
+          "image": "zoroaster-priest",
+          "bubble": "ゾロアスター教を国教とし聖典アヴェスターを編纂"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -6355,7 +6685,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ササン朝の成立——今度はイラン系農耕民の国だ"
       ],
@@ -6397,10 +6727,10 @@ export const ancientEdition = {
         "page": 42
       },
       "frame": [
-        30,
-        18,
-        89,
-        47
+        27,
+        17,
+        92,
+        48
       ],
       "pins": [],
       "tags": [
@@ -6469,22 +6799,30 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ホスロー1世",
           "at": [
             44.58,
             33.09
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "shapur-king",
+          "bubble": "エフタルを挟撃滅亡させ全盛期を築く"
+        },
+        {
+          "name": "ササン朝",
+          "at": [
+            48.37,
+            34.19
+          ],
+          "image": "darius3-worried",
+          "bubble": "ニハーヴァンドの戦いでイスラーム軍に敗れ滅亡"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "中期に混乱したササン朝……でも勢力復活！"
       ],
@@ -6519,10 +6857,10 @@ export const ancientEdition = {
         "page": 42
       },
       "frame": [
-        7.5,
-        26,
-        73,
-        47
+        4.5,
+        25,
+        76,
+        48
       ],
       "pins": [],
       "tags": [
@@ -6577,17 +6915,15 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ホスロー1世",
           "at": [
             44.58,
             33.09
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "shapur-king",
+          "bubble": "エフタルを挟撃滅亡させ全盛期を築く"
         },
         {
           "name": "ユスティニアヌス",
@@ -6596,13 +6932,13 @@ export const ancientEdition = {
             41.01
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": ""
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "中期に混乱したササン朝……でも勢力復活！"
       ],
@@ -6637,10 +6973,10 @@ export const ancientEdition = {
         "page": 43
       },
       "frame": [
-        24,
-        19,
-        57,
-        46
+        21,
+        18,
+        60,
+        47
       ],
       "pins": [
         "ニハーヴァンド"
@@ -6676,17 +7012,15 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ホスロー1世",
           "at": [
             44.58,
             33.09
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "shapur-king",
+          "bubble": "エフタルを挟撃滅亡させ全盛期を築く"
         },
         {
           "name": "ホスロー2世",
@@ -6695,10 +7029,14 @@ export const ancientEdition = {
             33.09
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -6735,7 +7073,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ササン朝もついに力尽きた……"
       ],
@@ -6777,10 +7115,10 @@ export const ancientEdition = {
         "page": 43
       },
       "frame": [
-        7.5,
-        24.78,
-        141,
-        46.9
+        4.5,
+        23.78,
+        144,
+        47.9
       ],
       "pins": [],
       "tags": [
@@ -6828,22 +7166,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "シャープール1世",
           "at": [
             51.57,
             29.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "shapur-king",
+          "bubble": "ローマ皇帝ウァレリアヌスを捕縛！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ササン朝時代の文化をまとめておこう！"
       ],
@@ -6880,10 +7217,10 @@ export const ancientEdition = {
         "page": 45
       },
       "frame": [
-        64.5,
-        13,
-        88,
-        39.07
+        60.14,
+        12,
+        91,
+        40.07
       ],
       "pins": [
         "カイバル峠"
@@ -6947,7 +7284,17 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "インド",
+          "at": [
+            68.14,
+            27.32
+          ],
+          "image": "indus-priest",
+          "bubble": "インダス川とガンジス川の流域に文明が開花"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [
@@ -7038,7 +7385,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "インドの地形を見てみよう"
       ],
@@ -7073,10 +7420,10 @@ export const ancientEdition = {
         "page": 45
       },
       "frame": [
-        63.14,
-        17.52,
-        78.5,
-        36
+        60.14,
+        16.52,
+        81.5,
+        37
       ],
       "pins": [
         "ハラッパー",
@@ -7115,7 +7462,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "インダス文明",
+          "at": [
+            68.14,
+            27.32
+          ],
+          "image": "indus-priest",
+          "bubble": "計画的な道路と大浴場を持つ都市文明",
+          "offset": [
+            0,
+            -30
+          ]
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [
@@ -7161,7 +7522,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "インダス文明"
       ],
@@ -7196,10 +7557,10 @@ export const ancientEdition = {
         "page": 45
       },
       "frame": [
-        65,
-        24,
-        75,
-        34
+        60.14,
+        21.32,
+        78,
+        35
       ],
       "pins": [],
       "tags": [
@@ -7212,11 +7573,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "インダス文明",
+          "at": [
+            68.14,
+            27.32
+          ],
+          "image": "ancient-scribe",
+          "bubble": "印章に刻まれたインダス文字は今も未解読"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "インダス文明"
       ],
@@ -7251,10 +7622,10 @@ export const ancientEdition = {
         "page": 45
       },
       "frame": [
-        34,
-        24,
-        75,
-        38
+        31,
+        21.32,
+        78,
+        39
       ],
       "pins": [],
       "tags": [
@@ -7281,11 +7652,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "インダス文明",
+          "at": [
+            68.14,
+            27.32
+          ],
+          "image": "indus-priest",
+          "bubble": "気候変動や洪水の頻発により徐々に衰退していった"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "インダス文明"
       ],
@@ -7320,10 +7701,10 @@ export const ancientEdition = {
         "page": 46
       },
       "frame": [
-        65,
-        24,
-        75,
-        34
+        62,
+        23,
+        78,
+        35
       ],
       "pins": [],
       "tags": [
@@ -7426,10 +7807,10 @@ export const ancientEdition = {
         "page": 46
       },
       "frame": [
-        30,
-        18,
-        83,
-        45
+        27,
+        17,
+        86,
+        46
       ],
       "pins": [
         "カイバル峠"
@@ -7493,7 +7874,22 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "at": [
+            71.1,
+            34.07
+          ],
+          "name": "アーリヤ人",
+          "route": 0,
+          "image": "aryan-warrior",
+          "bubble": "カイバル峠を越えてパンジャーブへ進入！",
+          "offset": [
+            0,
+            -30
+          ]
+        }
+      ],
       "props": [],
       "routes": [
         {
@@ -7559,7 +7955,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "北方からアーリヤ人が侵入してきた！"
       ],
@@ -7601,10 +7997,10 @@ export const ancientEdition = {
         "page": 46
       },
       "frame": [
-        65,
-        18,
-        87,
-        34
+        62,
+        17,
+        90,
+        37
       ],
       "pins": [],
       "tags": [
@@ -7638,7 +8034,17 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "アーリヤ人",
+          "at": [
+            74,
+            31
+          ],
+          "image": "brahman-priest",
+          "bubble": "自然神への賛歌『リグ＝ヴェーダ』を口承する"
+        }
+      ],
       "props": [],
       "routes": [
         {
@@ -7712,7 +8118,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "北方からアーリヤ人が侵入してきた！"
       ],
@@ -7747,10 +8153,10 @@ export const ancientEdition = {
         "page": 46
       },
       "frame": [
-        73,
-        18,
-        83,
-        28
+        70,
+        17,
+        86,
+        29
       ],
       "pins": [],
       "tags": [
@@ -7802,10 +8208,10 @@ export const ancientEdition = {
         "page": 47
       },
       "frame": [
-        73,
-        18,
-        83,
-        28
+        70,
+        17,
+        86,
+        29
       ],
       "pins": [],
       "tags": [
@@ -7864,10 +8270,10 @@ export const ancientEdition = {
         "page": 47
       },
       "frame": [
-        73,
-        18,
-        83,
-        28
+        70,
+        17,
+        86,
+        33
       ],
       "pins": [],
       "tags": [
@@ -7880,11 +8286,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "バラモン",
+          "at": [
+            78,
+            27
+          ],
+          "image": "brahman-priest",
+          "bubble": "祭祀を独占しバラモン教の権威を確立"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "バラモン教の形成——これがインド思想の原点だ！"
       ],
@@ -7919,10 +8335,10 @@ export const ancientEdition = {
         "page": 48
       },
       "frame": [
-        73,
-        18,
-        83,
-        28
+        70,
+        17,
+        86,
+        33
       ],
       "pins": [],
       "tags": [
@@ -7935,11 +8351,21 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "バラモン",
+          "at": [
+            78,
+            27
+          ],
+          "image": "brahman-priest",
+          "bubble": "輪廻転生から脱し梵我一如をめざす哲学を探究"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "バラモン教の形成——これがインド思想の原点だ！"
       ],
@@ -7981,10 +8407,10 @@ export const ancientEdition = {
         "page": 48
       },
       "frame": [
-        73,
-        18,
-        83,
-        28
+        70,
+        17,
+        86,
+        29
       ],
       "pins": [],
       "tags": [
@@ -8043,10 +8469,10 @@ export const ancientEdition = {
         "page": 48
       },
       "frame": [
-        73,
-        18,
-        83,
-        28
+        70,
+        17,
+        86,
+        29
       ],
       "pins": [],
       "tags": [
@@ -8098,10 +8524,10 @@ export const ancientEdition = {
         "page": 49
       },
       "frame": [
-        73,
-        18,
-        83,
-        28
+        70,
+        17,
+        86,
+        29
       ],
       "pins": [],
       "tags": [
@@ -8167,10 +8593,10 @@ export const ancientEdition = {
         "page": 49
       },
       "frame": [
-        73,
-        18,
-        87,
-        30.5
+        70,
+        17,
+        90,
+        31.5
       ],
       "pins": [],
       "tags": [
@@ -8275,10 +8701,10 @@ export const ancientEdition = {
         "page": 49
       },
       "frame": [
-        77,
-        19.7,
-        89.99,
-        32.58
+        74,
+        18.7,
+        92.99,
+        33.58
       ],
       "pins": [
         "ブッダガヤ"
@@ -8300,17 +8726,19 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ガウタマ＝シッダールタ",
           "at": [
             84.99,
             24.7
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "buddha-calm",
+          "bubble": "四苦八苦を離れ菩提樹の下で悟りを開く",
+          "offset": [
+            0,
+            -30
+          ]
         },
         {
           "name": "ブッダ",
@@ -8319,8 +8747,11 @@ export const ancientEdition = {
             24.7
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            28,
+            14
+          ]
         },
         {
           "name": "釈迦牟尼",
@@ -8329,13 +8760,17 @@ export const ancientEdition = {
             24.7
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            -28,
+            14
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "新思想の誕生、仏教の成立だ！"
       ],
@@ -8370,18 +8805,17 @@ export const ancientEdition = {
         "page": 50
       },
       "frame": [
-        78.89,
-        19.7,
-        89.99,
-        31.74
+        75.89,
+        18.7,
+        92.99,
+        32.739999999999995
       ],
       "pins": [
         "クシナガラ"
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ブッダ",
           "at": [
@@ -8389,13 +8823,13 @@ export const ancientEdition = {
             24.7
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": ""
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "新思想の誕生、仏教の成立だ！"
       ],
@@ -8437,25 +8871,23 @@ export const ancientEdition = {
         "page": 50
       },
       "frame": [
-        80.13,
-        20.99,
-        90.13,
-        30.99
+        77.13,
+        19.99,
+        93.13,
+        31.99
       ],
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ヴァルダマーナ",
           "at": [
             85.13,
             25.99
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "mahavira-calm",
+          "bubble": "徹底した不殺生（アヒンサー）を説く"
         },
         {
           "name": "マハーヴィーラ",
@@ -8464,13 +8896,17 @@ export const ancientEdition = {
             25.99
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "もう一つの新思想、ジャイナ教って？"
       ],
@@ -8514,10 +8950,10 @@ export const ancientEdition = {
         "page": 51
       },
       "frame": [
-        18,
-        18,
-        90,
-        43
+        15,
+        17,
+        93.18,
+        44
       ],
       "pins": [],
       "tags": [
@@ -8600,17 +9036,15 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ダレイオス1世",
           "at": [
             52.89,
             29.93
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "darius-king",
+          "bubble": "「王の道」と駅伝制で帝国を統治！"
         },
         {
           "name": "アレクサンドロス",
@@ -8618,11 +9052,21 @@ export const ancientEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "alexander-march",
+          "bubble": "ペルシア全土を征服する！",
+          "afterImage": "alexander-happy"
+        },
+        {
+          "name": "マガダ国",
+          "at": [
+            85.18,
+            25.61
+          ],
+          "image": "kshatriya-warrior",
+          "bubble": "パータリプトラを都に北インドをリード"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -8712,7 +9156,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "統一前の混乱！　外から攻め込まれたインド"
       ],
@@ -8754,10 +9198,10 @@ export const ancientEdition = {
         "page": 51
       },
       "frame": [
-        18,
-        13,
-        90.18,
-        43
+        15,
+        12,
+        93.18,
+        44
       ],
       "pins": [
         "パータリプトラ"
@@ -8835,17 +9279,19 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "チャンドラグプタ",
           "at": [
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "chandragupta-king",
+          "bubble": "マウリヤ朝を開き北インドを統一！",
+          "offset": [
+            0,
+            -30
+          ]
         },
         {
           "name": "アレクサンドロス",
@@ -8853,11 +9299,12 @@ export const ancientEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "alexander-march",
+          "bubble": "ペルシア全土を征服する！",
+          "afterImage": "alexander-happy"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -8902,7 +9349,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ついに、チャンドラグプタが両大河流域を統一だ！"
       ],
@@ -8944,10 +9391,10 @@ export const ancientEdition = {
         "page": 52
       },
       "frame": [
-        72,
-        13,
-        90.18,
-        32
+        69,
+        12,
+        93.5,
+        33
       ],
       "pins": [],
       "tags": [
@@ -8988,17 +9435,17 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アショーカ王",
           "at": [
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ashoka-march",
+          "bubble": "ダルマ（法）による平和な統治を広めよう",
+          "afterImage": "ashoka-calm",
+          "route": 0
         },
         {
           "name": "阿育王",
@@ -9007,10 +9454,14 @@ export const ancientEdition = {
             25.61
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -9033,7 +9484,7 @@ export const ancientEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "広大な領域を支配したアショーカ王。支配の秘訣は？"
       ],
@@ -9068,10 +9519,10 @@ export const ancientEdition = {
         "page": 52
       },
       "frame": [
-        18,
         15,
-        90.18,
-        43
+        14,
+        93.18,
+        44
       ],
       "pins": [],
       "tags": [
@@ -9098,17 +9549,16 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アショーカ王",
           "at": [
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ashoka-march",
+          "bubble": "ダルマ（法）による平和な統治を広めよう",
+          "afterImage": "ashoka-calm"
         },
         {
           "name": "ブッダ",
@@ -9117,13 +9567,30 @@ export const ancientEdition = {
             24.7
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
+        },
+        {
+          "name": "カリンガ",
+          "at": [
+            85,
+            20
+          ],
+          "offset": [
+            -20,
+            15
+          ],
+          "image": "kalinga-king-worried",
+          "bubble": "甚大な戦禍に苦しむ…"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "広大な領域を支配したアショーカ王。支配の秘訣は？"
       ],
@@ -9132,7 +9599,8 @@ export const ancientEdition = {
       "before": "広大な領域を支配したアショーカ王。支配の秘訣は？",
       "after": "広大な領域を支配したアショーカ王。支配の秘訣は？",
       "note": "",
-      "takeaway": ""
+      "takeaway": "",
+      "battle": "カリンガ"
     },
     {
       "id": "north-india-005",
@@ -9165,10 +9633,10 @@ export const ancientEdition = {
         "page": 52
       },
       "frame": [
-        72.74,
-        2.5999999999999996,
-        90.18,
-        30.61
+        69.74,
+        1.5999999999999996,
+        93.18,
+        31.61
       ],
       "pins": [
         "サーンチー"
@@ -9197,17 +9665,17 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アショーカ王",
           "at": [
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ashoka-march",
+          "bubble": "ダルマ（法）による平和な統治を広めよう",
+          "afterImage": "ashoka-calm",
+          "route": 0
         },
         {
           "name": "ブッダ",
@@ -9216,18 +9684,11 @@ export const ancientEdition = {
             24.7
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "ストゥーパ",
-          "at": [
-            77.74,
-            23.48
-          ],
-          "image": "ancient/stupa.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
         },
         {
           "name": "マヒンダ",
@@ -9236,8 +9697,23 @@ export const ancientEdition = {
             8.3
           ],
           "image": "ancient/person.svg",
+          "bubble": ""
+        }
+      ],
+      "props": [
+        {
+          "name": "ストゥーパ",
+          "at": [
+            77.74,
+            23.48
+          ],
+          "image": "ancient/stupa.svg",
           "kind": "prop",
-          "size": 42
+          "size": 42,
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
       "routes": [
@@ -9266,7 +9742,7 @@ export const ancientEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "広大な領域を支配したアショーカ王。支配の秘訣は？"
       ],
@@ -9308,10 +9784,10 @@ export const ancientEdition = {
         "page": 53
       },
       "frame": [
-        18,
-        13,
-        90.18,
-        45
+        15,
+        12,
+        93.18,
+        46
       ],
       "pins": [],
       "tags": [
@@ -9366,22 +9842,22 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アショーカ王",
           "at": [
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ashoka-march",
+          "bubble": "ダルマ（法）による平和な統治を広めよう",
+          "afterImage": "ashoka-calm"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "マウリヤ朝の衰退"
       ],
@@ -9416,10 +9892,10 @@ export const ancientEdition = {
         "page": 53
       },
       "frame": [
-        49,
-        18,
-        113,
-        45
+        46,
+        17,
+        116,
+        46
       ],
       "pins": [
         "カイバル峠"
@@ -9529,10 +10005,10 @@ export const ancientEdition = {
         "page": 53
       },
       "frame": [
-        7.5,
-        20.5,
-        113,
-        54
+        4.5,
+        19.5,
+        116,
+        55
       ],
       "pins": [],
       "tags": [
@@ -9714,10 +10190,10 @@ export const ancientEdition = {
         "page": 54
       },
       "frame": [
-        7.5,
-        5,
-        113,
-        46.9
+        4.5,
+        4,
+        116,
+        47.9
       ],
       "pins": [],
       "tags": [
@@ -9834,7 +10310,7 @@ export const ancientEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "同時代の南部ではサータヴァーハナ朝が繁栄！"
       ],
@@ -9883,10 +10359,10 @@ export const ancientEdition = {
         "page": 54
       },
       "frame": [
-        63,
-        18,
-        90.18,
-        45
+        60,
+        17,
+        93.18,
+        46
       ],
       "pins": [
         "プルシャプラ"
@@ -9929,17 +10405,19 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "カニシカ王",
           "at": [
             71.58,
             34.01
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "kanishka-king",
+          "bubble": "クシャーナ朝の全盛期を築く！",
+          "offset": [
+            0,
+            -30
+          ]
         },
         {
           "name": "アショーカ王",
@@ -9947,11 +10425,12 @@ export const ancientEdition = {
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ashoka-march",
+          "bubble": "ダルマ（法）による平和な統治を広めよう",
+          "afterImage": "ashoka-calm"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -10000,7 +10479,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "クシャーナ朝のインド支配――カニシカ王が登場！"
       ],
@@ -10042,10 +10521,10 @@ export const ancientEdition = {
         "page": 55
       },
       "frame": [
-        18,
-        31,
-        141,
-        43
+        15,
+        30,
+        144,
+        44
       ],
       "pins": [],
       "tags": [
@@ -10104,30 +10583,29 @@ export const ancientEdition = {
         "page": 55
       },
       "frame": [
-        74.24,
-        11.52,
-        84.24,
-        21.52
+        71.24,
+        10.52,
+        87.24,
+        22.52
       ],
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ナーガールジュナ",
           "at": [
             79.24,
             16.52
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "nagarjuna-monk",
+          "bubble": "すべての執着を離れる「空」の思想を大成"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "大乗仏教って何？　みんなが救われる新しい仏教だ！"
       ],
@@ -10176,10 +10654,10 @@ export const ancientEdition = {
         "page": 56
       },
       "frame": [
-        18,
-        18,
-        83,
-        43
+        15,
+        17,
+        86,
+        44
       ],
       "pins": [],
       "tags": [
@@ -10287,10 +10765,10 @@ export const ancientEdition = {
         "page": 57
       },
       "frame": [
-        55,
-        -12,
-        141,
-        45
+        52,
+        -13,
+        144,
+        48
       ],
       "pins": [],
       "tags": [
@@ -10380,19 +10858,20 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アショーカ王",
           "at": [
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ashoka-march",
+          "bubble": "ダルマ（法）による平和な統治を広めよう",
+          "afterImage": "ashoka-calm",
+          "route": 0
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "move",
@@ -10450,7 +10929,7 @@ export const ancientEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "仏教が各地に拡大！　北伝仏教と南伝仏教って何？"
       ],
@@ -10485,10 +10964,10 @@ export const ancientEdition = {
         "page": 57
       },
       "frame": [
-        7.5,
-        26,
-        113,
-        46.9
+        4.5,
+        25,
+        116,
+        47.9
       ],
       "pins": [],
       "tags": [
@@ -10575,10 +11054,10 @@ export const ancientEdition = {
         "page": 57
       },
       "frame": [
-        67,
-        18,
-        90.18,
-        38
+        64,
+        17,
+        93.18,
+        39
       ],
       "pins": [
         "パータリプトラ"
@@ -10628,17 +11107,19 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "チャンドラグプタ",
           "at": [
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "chandragupta-king",
+          "bubble": "マウリヤ朝を開き北インドを統一！",
+          "offset": [
+            0,
+            -30
+          ]
         },
         {
           "name": "チャンドラグプタ1世",
@@ -10647,10 +11128,14 @@ export const ancientEdition = {
             25.61
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            28,
+            14
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -10699,7 +11184,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ついにインド人王朝が復活！　英雄チャンドラグプタも復活？"
       ],
@@ -10741,10 +11226,10 @@ export const ancientEdition = {
         "page": 57
       },
       "frame": [
-        65,
-        7,
-        123.8,
-        39
+        62,
+        6,
+        126.8,
+        40
       ],
       "pins": [
         "パータリプトラ",
@@ -10838,17 +11323,19 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "チャンドラグプタ",
           "at": [
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "chandragupta-king",
+          "bubble": "マウリヤ朝を開き北インドを統一！",
+          "offset": [
+            -28,
+            14
+          ]
         },
         {
           "name": "サムドラグプタ",
@@ -10857,8 +11344,11 @@ export const ancientEdition = {
             25.61
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            25,
+            -24
+          ]
         },
         {
           "name": "チャンドラグプタ2世",
@@ -10866,9 +11356,8 @@ export const ancientEdition = {
             75.78,
             23.18
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "gupta-chandragupta2",
+          "bubble": "グプタ朝の全盛期、古典文化が花開く"
         },
         {
           "name": "法顕",
@@ -10877,8 +11366,11 @@ export const ancientEdition = {
             25.61
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            -25,
+            -24
+          ]
         },
         {
           "name": "超日王",
@@ -10887,10 +11379,14 @@ export const ancientEdition = {
             23.18
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -10980,7 +11476,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ついにインド人王朝が復活！　英雄チャンドラグプタも復活？"
       ],
@@ -11022,10 +11518,10 @@ export const ancientEdition = {
         "page": 58
       },
       "frame": [
-        49,
-        18,
-        89,
-        38
+        46,
+        17,
+        92,
+        39
       ],
       "pins": [],
       "tags": [
@@ -11059,17 +11555,15 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "チャンドラグプタ2世",
           "at": [
             75.78,
             23.18
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "gupta-chandragupta2",
+          "bubble": "グプタ朝の全盛期、古典文化が花開く"
         },
         {
           "name": "カーリダーサ",
@@ -11077,14 +11571,18 @@ export const ancientEdition = {
             75.78,
             23.18
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient-scribe",
+          "bubble": "戯曲『シャクンタラー』を著す",
+          "offset": [
+            -35,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "イラン人支配が終わって……インド伝統の文化が大盛り上がり！"
       ],
@@ -11119,10 +11617,10 @@ export const ancientEdition = {
         "page": 59
       },
       "frame": [
-        73,
-        18,
-        89.99,
-        31
+        70,
+        17,
+        92.99,
+        32
       ],
       "pins": [],
       "tags": [
@@ -11142,8 +11640,7 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ブッダ",
           "at": [
@@ -11151,13 +11648,13 @@ export const ancientEdition = {
             24.7
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": ""
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ヒンドゥー教の形成。現在のインド社会の基盤だ！"
       ],
@@ -11192,10 +11689,10 @@ export const ancientEdition = {
         "page": 59
       },
       "frame": [
-        73,
-        18,
-        90.18,
-        30.61
+        70,
+        17,
+        93.18,
+        31.61
       ],
       "pins": [],
       "tags": [
@@ -11208,22 +11705,22 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アショーカ王",
           "at": [
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ashoka-march",
+          "bubble": "ダルマ（法）による平和な統治を広めよう",
+          "afterImage": "ashoka-calm"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ヒンドゥー教の形成。現在のインド社会の基盤だ！"
       ],
@@ -11258,10 +11755,10 @@ export const ancientEdition = {
         "page": 59
       },
       "frame": [
-        73,
-        18,
-        113,
-        39
+        70,
+        17,
+        116,
+        40
       ],
       "pins": [],
       "tags": [
@@ -11288,27 +11785,19 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
-        {
-          "name": "ナーランダー僧院",
-          "at": [
-            85.45,
-            25.14
-          ],
-          "image": "ancient/temple.svg",
-          "kind": "prop",
-          "size": 42
-        },
+      "actors": [
         {
           "name": "玄奘",
           "at": [
             85.45,
             25.14
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "xuanzang-monk",
+          "bubble": "経典を求めて長安から参りました",
+          "offset": [
+            38,
+            0
+          ]
         },
         {
           "name": "義浄",
@@ -11317,13 +11806,32 @@ export const ancientEdition = {
             25.14
           ],
           "image": "ancient/person.svg",
+          "bubble": "",
+          "offset": [
+            0,
+            -30
+          ]
+        }
+      ],
+      "props": [
+        {
+          "name": "ナーランダー僧院",
+          "at": [
+            85.45,
+            25.14
+          ],
+          "image": "hindu-temple",
           "kind": "prop",
-          "size": 42
+          "size": 42,
+          "offset": [
+            28,
+            14
+          ]
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "仏教の研究は発展！　仏教美術の様式も変化した"
       ],
@@ -11365,10 +11873,10 @@ export const ancientEdition = {
         "page": 59
       },
       "frame": [
-        70.18,
-        15.030000000000001,
-        89,
-        32.489999999999995
+        67.18,
+        14.030000000000001,
+        92,
+        33.489999999999995
       ],
       "pins": [
         "マトゥラー",
@@ -11406,7 +11914,7 @@ export const ancientEdition = {
             75.7,
             20.55
           ],
-          "image": "ancient/temple.svg",
+          "image": "hindu-temple",
           "kind": "prop",
           "size": 42
         },
@@ -11416,9 +11924,13 @@ export const ancientEdition = {
             75.18,
             20.03
           ],
-          "image": "ancient/temple.svg",
+          "image": "hindu-temple",
           "kind": "prop",
-          "size": 42
+          "size": 42,
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
       "routes": [],
@@ -11458,10 +11970,10 @@ export const ancientEdition = {
         "page": 59
       },
       "frame": [
-        7.5,
-        21,
-        113,
-        46.9
+        4.5,
+        20,
+        116,
+        47.9
       ],
       "pins": [],
       "tags": [
@@ -11555,10 +12067,10 @@ export const ancientEdition = {
         "page": 60
       },
       "frame": [
-        65,
-        13,
-        89,
-        34
+        62,
+        12,
+        92,
+        35
       ],
       "pins": [
         "カナウジ"
@@ -11608,17 +12120,19 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ハルシャ＝ヴァルダナ",
           "at": [
             79.93,
             27.05
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "harsha-king",
+          "bubble": "北インドを再統一し仏教を厚く保護",
+          "offset": [
+            0,
+            -30
+          ]
         },
         {
           "name": "ハルシャ王",
@@ -11627,10 +12141,14 @@ export const ancientEdition = {
             27.05
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": "",
+          "offset": [
+            28,
+            14
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -11720,7 +12238,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ハルシャ＝ヴァルダナが登場！　北インドを統一しかけたんだけど……"
       ],
@@ -11755,10 +12273,10 @@ export const ancientEdition = {
         "page": 60
       },
       "frame": [
-        73,
-        18,
-        113.94,
-        39.27
+        70,
+        17,
+        116.94,
+        40.27
       ],
       "pins": [
         "カナウジ"
@@ -11787,17 +12305,19 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "玄奘",
           "at": [
             85.45,
             25.14
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "xuanzang-monk",
+          "bubble": "経典を求めて長安から参りました",
+          "offset": [
+            38,
+            0
+          ]
         },
         {
           "name": "ハルシャ＝ヴァルダナ",
@@ -11805,19 +12325,12 @@ export const ancientEdition = {
             79.93,
             27.05
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "ナーランダー僧院",
-          "at": [
-            85.45,
-            25.14
-          ],
-          "image": "ancient/temple.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "harsha-king",
+          "bubble": "北インドを再統一し仏教を厚く保護",
+          "offset": [
+            0,
+            -30
+          ]
         },
         {
           "name": "太宗",
@@ -11826,13 +12339,28 @@ export const ancientEdition = {
             34.27
           ],
           "image": "ancient/person.svg",
+          "bubble": ""
+        }
+      ],
+      "props": [
+        {
+          "name": "ナーランダー僧院",
+          "at": [
+            85.45,
+            25.14
+          ],
+          "image": "hindu-temple",
           "kind": "prop",
-          "size": 42
+          "size": 42,
+          "offset": [
+            0,
+            -30
+          ]
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "中国の有名人、玄奘がやってきた！"
       ],
@@ -11874,10 +12402,10 @@ export const ancientEdition = {
         "page": 60
       },
       "frame": [
-        73,
-        18,
-        93,
-        32.05
+        70,
+        17,
+        96,
+        33.05
       ],
       "pins": [],
       "tags": [
@@ -11925,19 +12453,18 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ハルシャ＝ヴァルダナ",
           "at": [
             79.93,
             27.05
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "harsha-king",
+          "bubble": "北インドを再統一し仏教を厚く保護"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -11986,7 +12513,7 @@ export const ancientEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "ヴァルダナ朝が滅亡しちゃうと……インドは長い混乱期だ"
       ],
@@ -12021,10 +12548,10 @@ export const ancientEdition = {
         "page": 61
       },
       "frame": [
-        63,
-        18,
-        86,
-        45
+        60,
+        17,
+        89,
+        46
       ],
       "pins": [
         "カナウジ",
@@ -12130,10 +12657,10 @@ export const ancientEdition = {
         "page": 61
       },
       "frame": [
-        70.68,
-        7,
-        86,
-        32.05
+        67.68,
+        6,
+        89,
+        33.05
       ],
       "pins": [],
       "tags": [
@@ -12174,22 +12701,30 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ハルシャ＝ヴァルダナ",
           "at": [
             79.93,
             27.05
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "harsha-king",
+          "bubble": "北インドを再統一し仏教を厚く保護"
+        },
+        {
+          "name": "南インド",
+          "at": [
+            78,
+            12
+          ],
+          "image": "tamil-king",
+          "bubble": "ドラヴィダ系タミル文化が豊かに花開く"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "チャールキヤ朝とヒンドゥー教の新展開！　バクティ運動って何？"
       ],
@@ -12224,10 +12759,10 @@ export const ancientEdition = {
         "page": 61
       },
       "frame": [
-        70.68,
-        7,
-        89.99,
-        32
+        67.68,
+        6,
+        92.99,
+        33
       ],
       "pins": [],
       "tags": [
@@ -12254,8 +12789,7 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ブッダ",
           "at": [
@@ -12263,13 +12797,13 @@ export const ancientEdition = {
             24.7
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": ""
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "チャールキヤ朝とヒンドゥー教の新展開！　バクティ運動って何？"
       ],
@@ -12332,10 +12866,10 @@ export const ancientEdition = {
         "page": 62
       },
       "frame": [
-        70,
-        4.9,
-        90.18,
-        32
+        67,
+        3.9000000000000004,
+        93.18,
+        33
       ],
       "pins": [],
       "tags": [
@@ -12425,22 +12959,31 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アショーカ王",
           "at": [
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ashoka-march",
+          "bubble": "ダルマ（法）による平和な統治を広めよう",
+          "afterImage": "ashoka-calm"
+        },
+        {
+          "name": "チョーラ朝",
+          "at": [
+            79.13,
+            10.78
+          ],
+          "image": "chola-warrior",
+          "bubble": "強力な海軍でシュリーヴィジャヤ王国へ遠征！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 1800,
       "facts": [
         "その他の南インドの王朝"
       ],
@@ -12482,10 +13025,10 @@ export const ancientEdition = {
         "page": 62
       },
       "frame": [
-        70.8,
-        -6,
-        113,
-        39
+        67.8,
+        -7,
+        116,
+        40
       ],
       "pins": [],
       "tags": [
@@ -12561,17 +13104,17 @@ export const ancientEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アショーカ王",
           "at": [
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ashoka-march",
+          "bubble": "ダルマ（法）による平和な統治を広めよう",
+          "afterImage": "ashoka-calm",
+          "route": 0
         },
         {
           "name": "ヴァスコ＝ダ＝ガマ",
@@ -12580,10 +13123,10 @@ export const ancientEdition = {
             11.3
           ],
           "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "bubble": ""
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -12614,7 +13157,7 @@ export const ancientEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 2400,
       "facts": [
         "その他の南インドの王朝"
       ],
