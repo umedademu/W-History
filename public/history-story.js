@@ -1,6 +1,7 @@
-import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.063";
-import { maximumMapScale } from "./map-camera.js?v=0.063";
-import { createMapLayout } from "./map-layout.js?v=0.063";
+import { initialPageIndex } from "./story-volumes.js?v=0.064";
+import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.064";
+import { maximumMapScale } from "./map-camera.js?v=0.064";
+import { createMapLayout } from "./map-layout.js?v=0.064";
 
 export function mountStory({ places, zones, scenes, imageDirectory, chapterNavigation }) {
 const NS = "http://www.w3.org/2000/svg";
@@ -9,7 +10,7 @@ const clamp = (n, a = 0, b = 1) => Math.max(a, Math.min(b, n));
 const byId = id => document.getElementById(id);
 const map = byId("story-map"), reduced = matchMedia("(prefers-reduced-motion: reduce)");
 const colors = { campaign: "#b5573f", rival: "#5c7886", move: "#54866b", trade: "#b0882f" };
-let index = 0, stop = () => {}, lastSize = "";
+let index = initialPageIndex(scenes.length, location.hash), stop = () => {}, lastSize = "";
 
 function svg(tag, attrs = {}, text) {
   const node = document.createElementNS(NS, tag);

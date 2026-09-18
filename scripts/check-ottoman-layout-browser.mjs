@@ -7,6 +7,8 @@ import os from 'node:os';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {sourceEdition} from '../public/source-edition.js';
+import {volumeScenes} from '../public/story-volumes.js';
+const scenes=volumeScenes(sourceEdition,'ottoman');
 const base='http://127.0.0.1:18769';
 const server=spawn(process.execPath,['scripts/serve.mjs'],{cwd:fileURLToPath(new URL('../',import.meta.url)),env:{...process.env,PORT:'18769'},windowsHide:true,stdio:'pipe'});
 let browser;
@@ -27,7 +29,7 @@ try {
   await page.goto(base+'/safavid-story.html');await page.waitForSelector('button[data-scene]');
   await page.evaluate(t=>{document.documentElement.dataset.theme=t;},theme);
   const expectedStyle=await page.evaluate(styles);
-  for(const id of ['ottoman','ottoman-expansion','ottoman-height']){
+  for(const id of ['ottoman']){
    await page.goto(base+'/'+id+'-story.html');await page.waitForSelector('button[data-scene]');
    await page.evaluate(t=>{document.documentElement.dataset.theme=t;},theme);
    assert.deepEqual(await page.evaluate(styles),expectedStyle,id+': 本文の余白・背景を共通化');
@@ -40,11 +42,11 @@ try {
    assert.deepEqual(order,{mapBeforeText:true,textBeforePages:true,controls:'fixed',overflow:false});
    assert.equal(await page.locator('#next').textContent(),'次へ →');
    assert.equal(await page.locator('#previous').textContent(),'← 前へ');
-   for(let i=0;i<sourceEdition[id].length;i++){
+   for(let i=0;i<scenes.length;i++){
     await page.locator('button[data-scene]').nth(i).evaluate(b=>b.click());
     const body=await page.locator('#scene-body').evaluate(n=>{const copy=n.cloneNode(true);copy.querySelectorAll('rt').forEach(n=>n.remove());return copy.textContent;});
-    assert.equal(body,sourceEdition[id][i].plainBody.join(''));
-    assert.equal(await page.locator('#story-map').getAttribute('data-scene'),sourceEdition[id][i].id);
+    assert.equal(body,scenes[i].plainBody.join(''));
+    assert.equal(await page.locator('#story-map').getAttribute('data-scene'),scenes[i].id);
    }
    await page.locator('button[data-scene]').first().click();
    await page.screenshot({path:path.join(output,id+'-'+width+'-'+theme+'.png'),fullPage:true});
@@ -52,7 +54,7 @@ try {
  }
  // 通常の動きでも本文は直ちに表示し、地図の押し直しで動きをやり直す。
  await page.emulateMedia({reducedMotion:'no-preference'});
- for(const id of ['ottoman','ottoman-expansion','ottoman-height']){
+ for(const id of ['ottoman']){
   await page.goto(base+'/'+id+'-story.html');await page.waitForSelector('button[data-scene]');
   assert.ok(await page.locator('#scene-body').isVisible());
   await page.waitForFunction(()=>Number(document.querySelector('#story-map').dataset.progress)>.08);
@@ -63,6 +65,6 @@ try {
   await page.keyboard.press('ArrowLeft');assert.equal(await page.locator('#story-progress').getAttribute('value'),'1');
  }
  assert.deepEqual(errors,[]);
- console.log('09〜11の27ページを明暗・幅1280と390で確認。地図→本文の順、共通の本文書式、操作、通常再生と押し直しも確認しました。');
+ console.log('07の27ページを明暗・幅1280と390で確認。地図→本文の順、共通の本文書式、操作、通常再生と押し直しも確認しました。');
  console.log('確認画像: '+output);
 } finally {await browser?.close();server.kill();}

@@ -1,72 +1,7 @@
 <!doctype html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="コンスタンティノープル征服と多宗教の統治から、セリム1世の東方・エジプト征服へ進みます。 全8ページ。" />
-  <title>オスマン帝国 — 都の征服とイスラーム世界への拡大｜地図でたどる世界史</title>
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="/timur-story.css?v=0.036" />
-  <link rel="stylesheet" href="/ottoman-story.css?v=0.063" />
-  <link rel="preload" href="/ottoman-world-map.svg?v=0.007" as="image" />
-  <script src="/ottoman-story.js?v=0.063" type="module"></script>
-<script src="/theme.js?v=0.063"></script><link rel="stylesheet" href="/theme.css?v=0.063"/><link rel="stylesheet" href="/story-layout.css?v=0.063"/><script type="module" src="/story-emphasis.js?v=0.038"></script><link rel="stylesheet" href="/source-decoration.css?v=0.063"/></head>
-<body class="ottoman-story">
-  <main class="story-shell">
-    <nav class="story-series-links" aria-label="ほかの紙芝居"><a href="/islam-origin-story.html">01 イスラーム成立</a><a href="/umayyad-abbasid-story.html">02 ウマイヤ・アッバース</a><a href="/regional-dynasties-story.html">03 イスラーム世界の分裂と三カリフ</a><a href="/seljuq-story.html">04 トルコ人の台頭とセルジューク朝</a><a href="/western-dynasties-story.html">05 西方・エジプト・北インドの諸王朝</a><a href="/african-kingdoms-story.html">06 アフリカの諸王国と交易</a><a href="/timur-story.html">07 ティムールの遠征とその後</a><a href="/safavid-story.html">08 サファヴィー</a><a href="/ottoman-story.html">09 オスマン帝国 — 建国とバルカン進出</a><a href="/ottoman-expansion-story.html" aria-current="page">10 オスマン帝国 — 都の征服とイスラーム世界への拡大</a><a href="/ottoman-height-story.html">11 オスマン帝国 — 最盛期とその後</a><a href="/mughal-story.html">12 ムガル</a><a href="/islamic-culture-story.html">13 イスラーム文化</a></nav>
-    <section class="story-stage" aria-label="地図と物語">
-      <div class="map-panel">
-        <div class="map-heading" hidden>
-          <p id="map-heading">アナトリア北西部に注目</p>
-
-        </div>
-        <p id="map-focus" class="map-focus" hidden></p>
-        <div class="map-viewport">
-          <button type="button" id="replay" class="map-replay-surface" aria-label="この場面の地図と人物の動きをもう一度見る"></button>
-          <svg id="story-map" viewBox="0 0 800 680" role="img" aria-labelledby="map-title map-description">
-            <title id="map-title">オスマン帝国の地図</title>
-            <desc id="map-description">アナトリア、バルカン、地中海、中東地域と都市の位置を示します。</desc>
-          </svg>
-          <div id="map-characters" class="map-characters" role="group" aria-label="地図上の登場人物"></div>
-          <span class="north-mark" aria-hidden="true">北<br />↑</span>
-        </div>
-        <div class="map-legend" aria-label="地図の凡例" hidden>
-          <span><i class="legend-capital"></i>都</span>
-          <span><i class="legend-region"></i>注目地域</span>
-          <span><i class="legend-route"></i>進軍</span>
-          <span><i class="legend-rival"></i>相手の進軍</span>
-          <span><i class="legend-move"></i>移動</span>
-          <span><i class="legend-trade"></i>交易・要請・制度上の関係</span>
-        </div>
-        <p class="map-caption" hidden>印が位置の基準です。人物・建物は細い線で位置に結びます。範囲や矢印は概略、共通の人物・制度の絵は役割を示す記号です。</p>
-      </div>
-      <article id="narrative" class="narrative" aria-live="polite" aria-atomic="true">
-        <div class="scene-meta" hidden>
-          <span id="scene-number">1 / 8</span>
-          <span id="scene-year">1299年頃</span>
-        </div>
-        <p id="scene-kicker" class="scene-kicker" hidden></p>
-        <h2 id="scene-title"></h2>
-        <div id="scene-body" class="scene-body"></div>
-        <p id="scene-note" class="scene-note" hidden></p>
-      </article>
-    </section>
-    <div class="story-controls">
-      <button type="button" id="previous" class="previous-button" disabled>← 前へ</button>
-      <div class="progress-block"><label for="story-progress" id="progress-label">1 / 8</label><progress id="story-progress" max="8" value="1">1 / 8</progress></div>
-      <button type="button" id="next" class="next-button">次へ →</button>
-    </div>
-    <nav id="scene-nav" class="scene-nav" aria-label="好きなページへ移動"></nav>
-    <p class="interaction-hint">自分のペースで進めます。パソコンでは ← → キーでも移動できます。音声はありません。</p>
-    <noscript><p class="no-script">この紙芝居を見るには、ブラウザーで JavaScript を有効にしてください。</p></noscript>
-    <footer class="story-footer"><div class="story-tools"><a href="/" class="home-link">← 教材一覧へ</a><span class="version">v0.063</span></div>
-      <span>歴史の紙芝居・実験室</span>
-      <details>
-        <summary>地図と説明について</summary>
-        <p>オスマン帝国 — 都の征服とイスラーム世界への拡大を学ぶ全8ページの教材です。アナトリア西北部の小集団から、バルカン進出、コンスタンティノープル征服、スレイマン1世の全盛期、そしてカルロヴィッツ条約やチューリップ時代までの盛衰をたどります。</p>
-        <p>色は注目地域の模式図です。現在の国境や各時点の確定した最大領域ではありません。基図は<a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noreferrer">Natural Earth の公開地図</a>を使用しています。</p>
-      </details>
-    </footer>
-  </main>
-</body>
-</html>
+<html lang="ja"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>オスマン帝国へ移動</title>
+<meta http-equiv="refresh" content="0;url=/ottoman-story.html#page-10" />
+<link rel="canonical" href="/ottoman-story.html" />
+<script src="/theme.js?v=0.064"></script><link rel="stylesheet" href="/theme.css?v=0.064" />
+</head><body><p><a href="/ottoman-story.html#page-10">07「オスマン帝国」の10ページ目へ進む</a></p></body></html>

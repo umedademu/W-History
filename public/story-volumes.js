@@ -1,201 +1,44 @@
-// 共有の場面データから、独立した各教材の読む順番を定義する。
-export const splitVolumes = [
-  {
-    "title": "イスラーム世界の分裂と三カリフ",
-    "pages": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
-    "description": "西方での三カリフの並立から、東方のイラン人政権とイクター制へ。原文の本文に沿ってたどります。",
-    "source": "regional-dynasties",
-    "id": "regional-dynasties"
-  },
-  {
-    "title": "トルコ人の台頭とセルジューク朝",
-    "pages": [
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15
-    ],
-    "description": "トルコ人のイスラーム化から、セルジューク朝の成立・統治・分裂までを原文の本文でたどります。",
-    "source": "regional-dynasties",
-    "id": "seljuq"
-  },
-  {
-    "title": "西方・エジプト・北インドの諸王朝",
-    "pages": [
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28
-    ],
-    "description": "北アフリカとイベリア半島、エジプト、北インドの順に、各地の王朝をたどります。",
-    "source": "regional-dynasties",
-    "id": "western-dynasties"
-  },
-  {
-    "title": "アフリカの諸王国と交易",
-    "pages": [
-      29,
-      30,
-      31,
-      32,
-      33,
-      34
-    ],
-    "description": "古代のナイル流域から、西・東・南部アフリカの王国と交易へ進みます。",
-    "source": "regional-dynasties",
-    "id": "african-kingdoms"
-  },
-  {
-    "title": "オスマン帝国 — 建国とバルカン進出",
-    "pages": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8
-    ],
-    "description": "アナトリアの小国家からバルカンへ。軍制の整備、アンカラの敗北と復活をたどります。",
-    "source": "ottoman",
-    "id": "ottoman"
-  },
-  {
-    "title": "オスマン帝国 — 都の征服とイスラーム世界への拡大",
-    "pages": [
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16
-    ],
-    "description": "コンスタンティノープル征服と多宗教の統治から、セリム1世の東方・エジプト征服へ進みます。",
-    "source": "ottoman",
-    "id": "ottoman-expansion"
-  },
-  {
-    "title": "オスマン帝国 — 最盛期とその後",
-    "pages": [
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26
-    ],
-    "description": "スレイマン1世の最盛期から、軍制・国際関係の変化とチューリップ時代をたどります。",
-    "source": "ottoman",
-    "id": "ottoman-height"
-  }
+// 書籍の第6章・第20回と第21回の目次に合わせた公開教材。
+// 原文照合用の区分と場面は保持し、表示時に同じ節の内容をつなぐ。
+export const series = [
+  { id: "islam-origin", label: "イスラーム教の成立〜正統カリフ時代", number: "01", lesson: 20, part: 1, sections: ["islam-origin"] },
+  { id: "umayyad-abbasid", label: "ウマイヤ朝とアッバース朝", number: "02", lesson: 20, part: 2, sections: ["umayyad-abbasid"] },
+  { id: "regional-dynasties", label: "3カリフの並立とイスラーム世界の変容", number: "03", lesson: 20, part: 3, sections: ["regional-dynasties", "seljuq"] },
+  { id: "western-dynasties", label: "地方政権の興亡", number: "04", lesson: 20, part: 4, sections: ["western-dynasties", "african-kingdoms"] },
+  { id: "timur", label: "ティムール朝", number: "05", lesson: 21, part: 1, sections: ["timur", "timur-after"] },
+  { id: "safavid", label: "サファヴィー朝", number: "06", lesson: 21, part: 2, sections: ["safavid"] },
+  { id: "ottoman", label: "オスマン帝国", number: "07", lesson: 21, part: 3, sections: ["ottoman", "ottoman-expansion", "ottoman-height"] },
+  { id: "mughal", label: "ムガル帝国", number: "08", lesson: 21, part: 4, sections: ["mughal"] },
+  { id: "islamic-culture", label: "イスラーム文化", number: "09", lesson: 21, part: 5, sections: ["islamic-culture"] }
 ];
 
-export const series = [
-  {
-    "id": "islam-origin",
-    "label": "イスラーム成立",
-    "number": "01"
-  },
-  {
-    "id": "umayyad-abbasid",
-    "label": "ウマイヤ・アッバース",
-    "number": "02"
-  },
-  {
-    "id": "regional-dynasties",
-    "label": "イスラーム世界の分裂と三カリフ",
-    "number": "03"
-  },
-  {
-    "id": "seljuq",
-    "label": "トルコ人の台頭とセルジューク朝",
-    "number": "04"
-  },
-  {
-    "id": "western-dynasties",
-    "label": "西方・エジプト・北インドの諸王朝",
-    "number": "05"
-  },
-  {
-    "id": "african-kingdoms",
-    "label": "アフリカの諸王国と交易",
-    "number": "06"
-  },
-  {
-    "id": "timur",
-    "label": "ティムールの遠征とその後",
-    "number": "07"
-  },
-  {
-    "id": "safavid",
-    "label": "サファヴィー",
-    "number": "08"
-  },
-  {
-    "id": "ottoman",
-    "label": "オスマン帝国 — 建国とバルカン進出",
-    "number": "09"
-  },
-  {
-    "id": "ottoman-expansion",
-    "label": "オスマン帝国 — 都の征服とイスラーム世界への拡大",
-    "number": "10"
-  },
-  {
-    "id": "ottoman-height",
-    "label": "オスマン帝国 — 最盛期とその後",
-    "number": "11"
-  },
-  {
-    "id": "mughal",
-    "label": "ムガル",
-    "number": "12"
-  },
-  {
-    "id": "islamic-culture",
-    "label": "イスラーム文化",
-    "number": "13"
-  }
-];
+const pageRange = (start, length) => Array.from({ length }, (_, i) => start + i);
+export const splitVolumes = [
+  { id: "regional-dynasties", source: "regional-dynasties", pages: pageRange(0, 16) },
+  { id: "western-dynasties", source: "regional-dynasties", pages: pageRange(16, 19) },
+  { id: "ottoman", source: "ottoman", pages: pageRange(0, 27) }
+].map(volume => ({ ...volume, title: series.find(item => item.id === volume.id).label }));
+
+export function volumeScenes(edition, id) {
+  const volume = series.find(item => item.id === id);
+  if (!volume) throw new Error('教材が見つかりません: ' + id);
+  return volume.sections.flatMap(section => edition[section]);
+}
 
 export function selectVolume(source, scenes, pathname) {
   const id = pathname.split('/').pop().replace(/-story\.html$/, '');
   const volume = splitVolumes.find(v => v.id === id && v.source === source);
   if (!volume) throw new Error('教材が見つかりません: ' + id);
-  return {...volume, scenes:volume.pages.map(i => scenes[i])};
+  return { ...volume, scenes: volume.pages.map(i => scenes[i]) };
+}
+
+// 旧教材の入口から、統合後も同じ本文へ移動できるようにする。
+export function initialPageIndex(length, hash) {
+  const page = Number(/^#page-(\d+)$/.exec(hash)?.[1]);
+  return Number.isSafeInteger(page) && page >= 1 && page <= length ? page - 1 : 0;
 }
 
 export function volumeNavigation(volume) {
-  const next = series[series.findIndex(v => v.id === volume.id)+1];
-  return {nextLabel:next ? '次の教材へ →' : '教材一覧へ →', finish:() => location.assign(next ? '/' + next.id + '-story.html' : '/')};
+  const next = series[series.findIndex(v => v.id === volume.id) + 1];
+  return { nextLabel: next ? '次の教材へ →' : '教材一覧へ →', finish: () => location.assign(next ? '/' + next.id + '-story.html' : '/') };
 }

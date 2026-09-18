@@ -7,6 +7,7 @@ import os from 'node:os';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {sourceEdition} from '../public/source-edition.js';
+import {series,volumeScenes} from '../public/story-volumes.js';
 const base='http://127.0.0.1:18768';
 const server=spawn(process.execPath,['scripts/serve.mjs'],{cwd:fileURLToPath(new URL('../',import.meta.url)),env:{...process.env,PORT:'18768'},windowsHide:true,stdio:'pipe'});
 let browser;
@@ -21,7 +22,7 @@ try{
  let inspected=0;
  for(const width of [1280,390]){
   await page.setViewportSize({width,height:900});
-  for(const [id,scenes] of Object.entries({...sourceEdition,timur:[...sourceEdition.timur,...sourceEdition["timur-after"]]}).filter(([id])=>id!=="timur-after")){
+  for(const [id,scenes] of series.map(v=>[v.id,volumeScenes(sourceEdition,v.id)])){
    await page.goto(`${base}/${id}-story.html`);await page.waitForSelector('button[data-scene]');
    for(let i=0;i<scenes.length;i++){
     await page.locator('button[data-scene]').nth(i).evaluate(b=>b.click());
