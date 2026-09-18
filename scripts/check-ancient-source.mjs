@@ -87,13 +87,16 @@ for(const s of all) {
   assert.ok(s.frame.length===4&&s.frame.every(Number.isFinite)&&s.frame[0]<s.frame[2]&&s.frame[1]<s.frame[3]);
   for(const r of [...s.routes,...s.rivers]){assert.ok(r.points.length>=2);r.points.forEach(point);}
   for(const item of s.props){
+    assert.ok(!item.image.endsWith('.svg'), `${s.id}: props画像がSVGのままです ${item.image}`);
     const p = 'public/images/' + (item.image.includes('/') ? item.image : `ancient/${item.image}`) + (/\.(svg|png)$/.test(item.image) ? '' : '.png');
     assert.ok(await read(p).then(()=>true, ()=>false), `${s.id}: props画像が存在しない ${item.image}`);
   }
   for(const actor of s.actors){
+    assert.ok(!actor.image.endsWith('.svg'), `${s.id}: actor画像がSVGのままです ${actor.image}`);
     const p = 'public/images/' + (actor.image.includes('/') ? actor.image : `ancient/${actor.image}`) + (/\.(svg|png)$/.test(actor.image) ? '' : '.png');
     assert.ok(await read(p).then(()=>true, ()=>false), `${s.id}: actor画像が存在しない ${actor.image}`);
     if (actor.afterImage) {
+      assert.ok(!actor.afterImage.endsWith('.svg'), `${s.id}: afterImage画像がSVGのままです ${actor.afterImage}`);
       const ap = 'public/images/' + (actor.afterImage.includes('/') ? actor.afterImage : `ancient/${actor.afterImage}`) + (/\.(svg|png)$/.test(actor.afterImage) ? '' : '.png');
       assert.ok(await read(ap).then(()=>true, ()=>false), `${s.id}: afterImage画像が存在しない ${actor.afterImage}`);
     }

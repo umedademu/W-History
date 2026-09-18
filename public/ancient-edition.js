@@ -811,8 +811,8 @@ export const ancientEdition = {
             46.1,
             30.96
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "sumer-priest-calm",
+          "bubble": "ウル第3王朝を開きウルナンム法典を制定！",
           "offset": [
             0,
             -30
@@ -923,8 +923,8 @@ export const ancientEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "hammurabi-king",
+          "bubble": "目には目を、歯には歯を！",
           "offset": [
             0,
             -30
@@ -1006,8 +1006,8 @@ export const ancientEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "hammurabi-king",
+          "bubble": "目には目を、歯には歯を！"
         },
         {
           "name": "ハンムラビ",
@@ -1570,8 +1570,8 @@ export const ancientEdition = {
             27.42,
             37.04
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "ancient-scribe",
+          "bubble": "エジプトはナイルのたまものである"
         },
         {
           "name": "エジプト",
@@ -1768,8 +1768,8 @@ export const ancientEdition = {
             31.25,
             29.85
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "pharaoh-calm",
+          "bubble": "上下エジプトを統一し第1王朝を開く！",
           "route": 0
         },
         {
@@ -1778,8 +1778,8 @@ export const ancientEdition = {
             31.25,
             29.85
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "pharaoh-calm",
+          "bubble": "上下エジプトを統合した最初のファラオ",
           "offset": [
             0,
             -30
@@ -1960,8 +1960,8 @@ export const ancientEdition = {
             31.13,
             29.98
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "pharaoh-calm",
+          "bubble": "ギザに大ピラミッドを建設",
           "offset": [
             -28,
             14
@@ -1973,8 +1973,8 @@ export const ancientEdition = {
             31.13,
             29.98
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "pharaoh-calm",
+          "bubble": "ギザ第2のピラミッドとスフィンクスを建設",
           "offset": [
             25,
             -24
@@ -1986,8 +1986,8 @@ export const ancientEdition = {
             31.13,
             29.98
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "pharaoh-calm",
+          "bubble": "ギザ第3のピラミッドを建設",
           "offset": [
             -25,
             -24
@@ -2391,8 +2391,8 @@ export const ancientEdition = {
             30.9,
             27.65
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "akhenaten-calm",
+          "bubble": "唯一神アテンのみを崇拝せよ"
         },
         {
           "name": "アメンホテプ4世",
@@ -2592,8 +2592,8 @@ export const ancientEdition = {
             30.9,
             27.65
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "akhenaten-calm",
+          "bubble": "唯一神アテンのみを崇拝せよ",
           "offset": [
             -28,
             14
@@ -2605,8 +2605,8 @@ export const ancientEdition = {
             30.9,
             27.65
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "akhenaten-calm",
+          "bubble": "アテン神に愛される者として改革を断行！",
           "offset": [
             25,
             -24
@@ -2618,8 +2618,8 @@ export const ancientEdition = {
             30.9,
             27.65
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "akhenaten-calm",
+          "bubble": "アマルナへ遷都し唯一神信仰を強制！",
           "offset": [
             -25,
             -24
@@ -2718,8 +2718,8 @@ export const ancientEdition = {
             30.9,
             27.65
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "akhenaten-calm",
+          "bubble": "唯一神アテンのみを崇拝せよ"
         },
         {
           "name": "アクエンアテン",
@@ -2727,8 +2727,8 @@ export const ancientEdition = {
             30.9,
             27.65
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "akhenaten-calm",
+          "bubble": "アテン神に愛される者として改革を断行！",
           "offset": [
             0,
             -30
@@ -2762,8 +2762,8 @@ export const ancientEdition = {
             31.83,
             30.8
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "ramesses-warrior",
+          "bubble": "カデシュでヒッタイトと激突！",
           "offset": [
             0,
             -30
@@ -2897,9 +2897,9 @@ export const ancientEdition = {
             31.63,
             22.34
           ],
-          "image": "hindu-temple",
+          "image": "pyramid-giza",
           "kind": "prop",
-          "size": 42
+          "size": 80
         }
       ],
       "routes": [
@@ -3025,8 +3025,8 @@ export const ancientEdition = {
             29.92,
             31.2
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "pharaoh-calm",
+          "bubble": "プトレマイオス朝最後の女王"
         }
       ],
       "props": [],
@@ -4293,8 +4293,8 @@ export const ancientEdition = {
             43.15,
             36.36
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "ashurbanipal-king",
+          "bubble": "大図書館に粘土板を収集せよ",
           "offset": [
             0,
             -30
@@ -5935,8 +5935,8 @@ export const ancientEdition = {
             58.2,
             38
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "parthian-horseman",
+          "bubble": "遊牧民を率いてパルティアを建国！"
         }
       ],
       "props": [],
@@ -6066,8 +6066,8 @@ export const ancientEdition = {
             36,
             35
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "greek-hoplite",
+          "bubble": "セレウコス朝シリアを滅ぼし属州化"
         },
         {
           "name": "クラッスス",
@@ -6075,8 +6075,8 @@ export const ancientEdition = {
             39.03,
             36.87
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "greek-hoplite",
+          "bubble": "パルティア遠征でカルラエの戦いに敗れる",
           "offset": [
             0,
             -30
@@ -6337,8 +6337,8 @@ export const ancientEdition = {
             44.58,
             33.09
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "roman-merchant",
+          "bubble": "メソポタミアまで進出しローマ最大領土を実現",
           "offset": [
             0,
             -30
@@ -6445,8 +6445,8 @@ export const ancientEdition = {
             52.57,
             28.85
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "shapur-king",
+          "bubble": "ササン朝を開きペルシアを再興！",
           "offset": [
             0,
             -30
@@ -6931,8 +6931,8 @@ export const ancientEdition = {
             28.98,
             41.01
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "shapur-king",
+          "bubble": "ホスロー1世と平和条約を結ぶ"
         }
       ],
       "props": [],
@@ -7028,8 +7028,8 @@ export const ancientEdition = {
             44.58,
             33.09
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "shapur-king",
+          "bubble": "ビザンツ帝国と激しく抗争",
           "offset": [
             0,
             -30
@@ -8746,8 +8746,8 @@ export const ancientEdition = {
             84.99,
             24.7
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "buddha-calm",
+          "bubble": "四苦八苦を離れ菩提樹の下で悟りを開く",
           "offset": [
             28,
             14
@@ -8759,8 +8759,8 @@ export const ancientEdition = {
             84.99,
             24.7
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "buddha-calm",
+          "bubble": "四苦八苦を離れ菩提樹の下で悟りを開く",
           "offset": [
             -28,
             14
@@ -8822,8 +8822,8 @@ export const ancientEdition = {
             84.99,
             24.7
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "buddha-calm",
+          "bubble": "四苦八苦を離れ菩提樹の下で悟りを開く"
         }
       ],
       "props": [],
@@ -8895,8 +8895,8 @@ export const ancientEdition = {
             85.13,
             25.99
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "mahavira-calm",
+          "bubble": "徹底した不殺生（アヒンサー）を説く",
           "offset": [
             0,
             -30
@@ -9453,8 +9453,9 @@ export const ancientEdition = {
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "ashoka-march",
+          "bubble": "ダルマ（法）による平和な統治を広めよう",
+          "afterImage": "ashoka-calm",
           "offset": [
             0,
             -30
@@ -9566,8 +9567,8 @@ export const ancientEdition = {
             84.99,
             24.7
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "buddha-calm",
+          "bubble": "四苦八苦を離れ菩提樹の下で悟りを開く",
           "offset": [
             0,
             -30
@@ -9683,8 +9684,8 @@ export const ancientEdition = {
             84.99,
             24.7
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "buddha-calm",
+          "bubble": "四苦八苦を離れ菩提樹の下で悟りを開く",
           "offset": [
             0,
             -30
@@ -9696,8 +9697,8 @@ export const ancientEdition = {
             80.4,
             8.3
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "buddhist-monk",
+          "bubble": "セイロン島（スリランカ）へ仏教を伝える"
         }
       ],
       "props": [
@@ -9707,9 +9708,9 @@ export const ancientEdition = {
             77.74,
             23.48
           ],
-          "image": "ancient/stupa.svg",
+          "image": "sanchi-stupa",
           "kind": "prop",
-          "size": 42,
+          "size": 80,
           "offset": [
             0,
             -30
@@ -11127,8 +11128,8 @@ export const ancientEdition = {
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "gupta-chandragupta2",
+          "bubble": "グプタ朝を創始しマガダ地方を領有",
           "offset": [
             28,
             14
@@ -11343,8 +11344,8 @@ export const ancientEdition = {
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "gupta-chandragupta2",
+          "bubble": "北インドを統一しデカン高原まで遠征！",
           "offset": [
             25,
             -24
@@ -11365,8 +11366,8 @@ export const ancientEdition = {
             85.18,
             25.61
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "xuanzang-monk",
+          "bubble": "『仏国記』にグプタ朝の繁栄を記録",
           "offset": [
             -25,
             -24
@@ -11378,8 +11379,8 @@ export const ancientEdition = {
             75.78,
             23.18
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "gupta-chandragupta2",
+          "bubble": "「ヴィクラマーディティヤ」と称し全盛期を築く",
           "offset": [
             0,
             -30
@@ -11647,8 +11648,8 @@ export const ancientEdition = {
             84.99,
             24.7
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "buddha-calm",
+          "bubble": "四苦八苦を離れ菩提樹の下で悟りを開く"
         }
       ],
       "props": [],
@@ -11805,8 +11806,8 @@ export const ancientEdition = {
             85.45,
             25.14
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "xuanzang-monk",
+          "bubble": "『南海寄帰内法伝』を著しナーランダーで学ぶ",
           "offset": [
             0,
             -30
@@ -11822,7 +11823,7 @@ export const ancientEdition = {
           ],
           "image": "hindu-temple",
           "kind": "prop",
-          "size": 42,
+          "size": 80,
           "offset": [
             28,
             14
@@ -11916,7 +11917,7 @@ export const ancientEdition = {
           ],
           "image": "hindu-temple",
           "kind": "prop",
-          "size": 42
+          "size": 80
         },
         {
           "name": "エローラ",
@@ -11926,7 +11927,7 @@ export const ancientEdition = {
           ],
           "image": "hindu-temple",
           "kind": "prop",
-          "size": 42,
+          "size": 80,
           "offset": [
             0,
             -30
@@ -12140,8 +12141,8 @@ export const ancientEdition = {
             79.93,
             27.05
           ],
-          "image": "ancient/person.svg",
-          "bubble": "",
+          "image": "harsha-king",
+          "bubble": "北インドを再統一し仏教を厚く保護",
           "offset": [
             28,
             14
@@ -12338,8 +12339,8 @@ export const ancientEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "sargon-king",
+          "bubble": "玄奘を厚く迎え大唐西域記を献上させる"
         }
       ],
       "props": [
@@ -12351,7 +12352,7 @@ export const ancientEdition = {
           ],
           "image": "hindu-temple",
           "kind": "prop",
-          "size": 42,
+          "size": 80,
           "offset": [
             0,
             -30
@@ -12796,8 +12797,8 @@ export const ancientEdition = {
             84.99,
             24.7
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "buddha-calm",
+          "bubble": "四苦八苦を離れ菩提樹の下で悟りを開く"
         }
       ],
       "props": [],
@@ -13122,8 +13123,8 @@ export const ancientEdition = {
             75.8,
             11.3
           ],
-          "image": "ancient/person.svg",
-          "bubble": ""
+          "image": "phoenician-merchant",
+          "bubble": "喜望峰を回りカリカットへ到達！"
         }
       ],
       "props": [],

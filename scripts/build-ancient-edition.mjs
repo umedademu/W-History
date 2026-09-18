@@ -81,19 +81,42 @@ const routes = [
 
 // 人物・勢力ごとのドット絵画像と吹き出し
 const personInfo = {
+  // メソポタミア
   'サルゴン1世': { image: 'sargon-king', bubble: 'メソポタミア最初の統一！' },
+  'ウルナンム': { image: 'sumer-priest-calm', bubble: 'ウル第3王朝を開きウルナンム法典を制定！' },
   'ハンムラビ': { image: 'hammurabi-king', bubble: '目には目を、歯には歯を！' },
+  'ハンムラビ王': { image: 'hammurabi-king', bubble: '目には目を、歯には歯を！' },
+
+  // エジプト
+  'メネス王': { image: 'pharaoh-calm', bubble: '上下エジプトを統一し第1王朝を開く！' },
+  'ナルメル王': { image: 'pharaoh-calm', bubble: '上下エジプトを統合した最初のファラオ' },
   'クフ': { image: 'pharaoh-calm', bubble: 'ギザに大ピラミッドを建設' },
+  'クフ王': { image: 'pharaoh-calm', bubble: 'ギザに大ピラミッドを建設' },
+  'カフラー': { image: 'pharaoh-calm', bubble: 'ギザ第2のピラミッドとスフィンクスを建設' },
+  'メンカウラー': { image: 'pharaoh-calm', bubble: 'ギザ第3のピラミッドを建設' },
+  'ヘロドトス': { image: 'ancient-scribe', bubble: 'エジプトはナイルのたまものである' },
   'トトメス3世': { image: 'thutmose-king', bubble: 'シリアへ遠征し領土を拡大！' },
   'アメンホテプ4世': { image: 'akhenaten-calm', bubble: '唯一神アテンのみを崇拝せよ' },
+  'アメンヘテプ4世': { image: 'akhenaten-calm', bubble: '唯一神アテンのみを崇拝せよ' },
+  'アクエンアテン': { image: 'akhenaten-calm', bubble: 'アテン神に愛される者として改革を断行！' },
+  'イクナートン': { image: 'akhenaten-calm', bubble: 'アマルナへ遷都し唯一神信仰を強制！' },
   'ツタンカーメン': { image: 'tutankhamun-calm', bubble: '伝統的なアメン信仰へ復帰する' },
   'ラメス2世': { image: 'ramesses-warrior', bubble: 'カデシュでヒッタイトと激突！' },
+  'ラメセス2世': { image: 'ramesses-warrior', bubble: 'カデシュでヒッタイトと激突！' },
+  'クレオパトラ': { image: 'pharaoh-calm', bubble: 'プトレマイオス朝最後の女王' },
   'オシリス': { image: 'high-priest', bubble: '死者の生前の行いを審問する' },
+
+  // 地中海東岸・ヘブライ
   'モーセ': { image: 'moses-prophet', bubble: '十戒を胸にカナンの地へ！' },
   'ダヴィデ': { image: 'solomon-king', bubble: 'イェルサレムを都に国を固める', offset: [-30, 0] },
   'ソロモン': { image: 'solomon-king', bubble: 'エルサレムに壮麗な神殿を築く', offset: [30, 0] },
-  'ネブカドネザル2世': { image: 'nebuchadnezzar-king', bubble: 'ユダ王国の民をバビロンへ捕囚せよ' },
+
+  // 西アジア・アッシリア・バビロニア
   'アッシュルバニパル': { image: 'ashurbanipal-king', bubble: '大図書館に粘土板を収集せよ' },
+  'アッシュルバニバル': { image: 'ashurbanipal-king', bubble: '大図書館に粘土板を収集せよ' },
+  'ネブカドネザル2世': { image: 'nebuchadnezzar-king', bubble: 'ユダ王国の民をバビロンへ捕囚せよ' },
+
+  // ペルシア・西アジア
   'キュロス2世': { image: 'cyrus-king', bubble: 'バビロンを解放しユダヤ人を帰還させる' },
   'カンビュセス2世': { image: 'cyrus-king', bubble: 'エジプトを征服しオリエントを再統一' },
   'ダレイオス1世': { image: 'darius-king', bubble: '「王の道」と駅伝制で帝国を統治！' },
@@ -101,32 +124,65 @@ const personInfo = {
   'ゾロアスター': { image: 'zoroaster-priest', bubble: '善神アフラ＝マズダの光を拝め' },
   'アレクサンドロス': { image: 'alexander-march', afterImage: 'alexander-happy', bubble: 'ペルシア全土を征服する！' },
   'ダレイオス3世': { image: 'darius3-worried', bubble: 'アレクサンドロスに敗れ去る…' },
+
+  // パルティア・ササン朝・ローマ
+  'アルサケス': { image: 'parthian-horseman', bubble: '遊牧民を率いてパルティアを建国！' },
   'ミトラダテス1世': { image: 'parthian-horseman', bubble: '東西交易路シルクロードで繁栄！' },
+  'クラッスス': { image: 'greek-hoplite', bubble: 'パルティア遠征でカルラエの戦いに敗れる' },
+  'ポンペイウス': { image: 'greek-hoplite', bubble: 'セレウコス朝シリアを滅ぼし属州化' },
+  'トラヤヌス': { image: 'roman-merchant', bubble: 'メソポタミアまで進出しローマ最大領土を実現' },
   'アルダシール1世': { image: 'shapur-king', bubble: 'ササン朝を開きペルシアを再興！' },
+  'アルデシール1世': { image: 'shapur-king', bubble: 'ササン朝を開きペルシアを再興！' },
   'シャープール1世': { image: 'shapur-king', bubble: 'ローマ皇帝ウァレリアヌスを捕縛！' },
   'ウァレリアヌス': { image: 'valerian-captive', bubble: 'ササン朝の捕虜となってしまった…' },
   'ホスロー1世': { image: 'shapur-king', bubble: 'エフタルを挟撃滅亡させ全盛期を築く' },
+  'ホスロー2世': { image: 'shapur-king', bubble: 'ビザンツ帝国と激しく抗争' },
+  'ユスティニアヌス': { image: 'shapur-king', bubble: 'ホスロー1世と平和条約を結ぶ' },
+
+  // インド
   'ガウタマ＝シッダールタ': { image: 'buddha-calm', bubble: '四苦八苦を離れ菩提樹の下で悟りを開く' },
+  'ブッダ': { image: 'buddha-calm', bubble: '四苦八苦を離れ菩提樹の下で悟りを開く' },
+  '釈迦牟尼': { image: 'buddha-calm', bubble: '四苦八苦を離れ菩提樹の下で悟りを開く' },
   'ヴァルダマーナ': { image: 'mahavira-calm', bubble: '徹底した不殺生（アヒンサー）を説く' },
+  'マハーヴィーラ': { image: 'mahavira-calm', bubble: '徹底した不殺生（アヒンサー）を説く' },
   'チャンドラグプタ': { image: 'chandragupta-king', bubble: 'マウリヤ朝を開き北インドを統一！' },
+  'アショーカ': { image: 'ashoka-march', afterImage: 'ashoka-calm', bubble: 'ダルマ（法）による平和な統治を広めよう' },
   'アショーカ王': { image: 'ashoka-march', afterImage: 'ashoka-calm', bubble: 'ダルマ（法）による平和な統治を広めよう' },
+  '阿育王': { image: 'ashoka-march', afterImage: 'ashoka-calm', bubble: 'ダルマ（法）による平和な統治を広めよう' },
+  'マヒンダ': { image: 'buddhist-monk', bubble: 'セイロン島（スリランカ）へ仏教を伝える' },
+  'カニシカ': { image: 'kanishka-king', bubble: 'クシャーナ朝の全盛期を築く！' },
   'カニシカ王': { image: 'kanishka-king', bubble: 'クシャーナ朝の全盛期を築く！' },
   'ナーガールジュナ': { image: 'nagarjuna-monk', bubble: 'すべての執着を離れる「空」の思想を大成' },
+  '竜樹': { image: 'nagarjuna-monk', bubble: 'すべての執着を離れる「空」の思想を大成' },
+  'チャンドラグプタ1世': { image: 'gupta-chandragupta2', bubble: 'グプタ朝を創始しマガダ地方を領有' },
+  'サムドラグプタ': { image: 'gupta-chandragupta2', bubble: '北インドを統一しデカン高原まで遠征！' },
   'チャンドラグプタ2世': { image: 'gupta-chandragupta2', bubble: 'グプタ朝の全盛期、古典文化が花開く' },
+  '超日王': { image: 'gupta-chandragupta2', bubble: '「ヴィクラマーディティヤ」と称し全盛期を築く' },
   'カーリダーサ': { image: 'ancient-scribe', bubble: '戯曲『シャクンタラー』を著す', offset: [-35, 0] },
+  '法顕': { image: 'xuanzang-monk', bubble: '『仏国記』にグプタ朝の繁栄を記録' },
+  '義浄': { image: 'xuanzang-monk', bubble: '『南海寄帰内法伝』を著しナーランダーで学ぶ' },
   'ハルシャ＝ヴァルダナ': { image: 'harsha-king', bubble: '北インドを再統一し仏教を厚く保護' },
-  '玄奘': { image: 'xuanzang-monk', bubble: '経典を求めて長安から参りました', offset: [38, 0] }
+  'ハルシャ王': { image: 'harsha-king', bubble: '北インドを再統一し仏教を厚く保護' },
+  '玄奘': { image: 'xuanzang-monk', bubble: '経典を求めて長安から参りました', offset: [38, 0] },
+  '太宗': { image: 'sargon-king', bubble: '玄奘を厚く迎え大唐西域記を献上させる' },
+  'ヴァスコ＝ダ＝ガマ': { image: 'phoenician-merchant', bubble: '喜望峰を回りカリカットへ到達！' }
 };
 
 // 建造物・遺物・道具ごとのドット絵
 const propInfo = {
   'ピラミッド': { image: 'pyramid-giza', size: 84 },
   'スフィンクス': { image: 'pyramid-giza', size: 80 },
+  'アブシンベル神殿': { image: 'pyramid-giza', size: 80 },
   'ジッグラト': { image: 'ziggurat-temple', size: 76 },
   '死者の書': { image: 'book-of-the-dead', size: 80 },
   'ガンダーラ美術': { image: 'gandhara-buddha', size: 80 },
   'ペルセポリス': { image: 'persepolis-gate', size: 84 },
-  'モエンジョ＝ダーロ': { image: 'indus-great-bath', size: 80 }
+  'モエンジョ＝ダーロ': { image: 'indus-great-bath', size: 80 },
+  'ストゥーパ': { image: 'sanchi-stupa', size: 80 },
+  'ナーランダー僧院': { image: 'hindu-temple', size: 80 },
+  'ナーランダー': { image: 'hindu-temple', size: 80 },
+  'アジャンター': { image: 'hindu-temple', size: 80 },
+  'エローラ': { image: 'hindu-temple', size: 80 }
 };
 
 // 各シーンごとのカスタム演出定義
@@ -512,10 +568,11 @@ for(const volume of ancientSeries) {
     for(const entry of names) {
       if(entry.kind==='person') {
         const p = personInfo[entry.name];
+        const defaultImage = /エジプト|ファラオ|ピラミッド|ナイル/.test(fullText) ? 'pharaoh-calm' : /インド|仏|ヴェーダ|ガンジス/.test(fullText) ? 'buddha-calm' : 'sargon-king';
         const actor = {
           name: entry.name,
           at: entry.points[0],
-          image: p?.image ?? 'ancient/person.svg',
+          image: p?.image ?? defaultImage,
           bubble: p?.bubble ?? ''
         };
         if(p?.offset) actor.offset = p.offset;
@@ -526,9 +583,8 @@ for(const volume of ancientSeries) {
         if(b) {
           props.push({name:entry.name, at:entry.points[0], image: b.image, kind:'prop', size: b.size});
         } else {
-          const symbol=/ピラミッド|スフィンクス/.test(entry.name)?'pyramid-giza':/ジッグラト/.test(entry.name)?'ziggurat-temple':/ストゥーパ/.test(entry.name)?'stupa':'hindu-temple';
-          const isSvg = symbol === 'stupa';
-          props.push({name:entry.name, at:entry.points[0], image: isSvg ? `ancient/${symbol}.svg` : symbol, kind:'prop', size:42});
+          const symbol=/ピラミッド|スフィンクス|神殿/.test(entry.name)?'pyramid-giza':/ジッグラト/.test(entry.name)?'ziggurat-temple':/ストゥーパ/.test(entry.name)?'sanchi-stupa':'hindu-temple';
+          props.push({name:entry.name, at:entry.points[0], image: symbol, kind:'prop', size:42});
         }
       } else if(entry.kind==='place') {
         pins[entry.name]={name:entry.name,point:entry.points[0]};
