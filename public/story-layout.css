@@ -83,3 +83,6 @@ body .story-shell .map-sprite-art img[data-sprite-fitted] {
 /* 固有名詞は実際の地図ラベルと、所在地を持たない語の凡例で示す。 */
 .map-name-label { fill:#294f60; font-weight:700; paint-order:stroke; stroke:#fff9ec; stroke-width:3px; stroke-linejoin:round; }
 html[data-theme="dark"] .map-name-label { fill:#e4ebe7; stroke:#13201e; }
+
+/* 教材の目次は場面番号と操作案内の後に置く。 */
+body .story-shell .story-series-links { margin:24px 0; }

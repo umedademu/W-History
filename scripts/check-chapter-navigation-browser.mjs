@@ -105,6 +105,6 @@ try{
   }
  }
  assert.deepEqual(errors,[]);
- console.log('9教材の一覧・専用ページ・上部の番号と移動先、統合箇所の前後移動・旧入口からの転送・再読込・末尾を幅1280と390で確認しました。');
+ console.log('9教材の一覧・専用ページ・下部の番号と移動先、統合箇所の前後移動・旧入口からの転送・再読込・末尾を幅1280と390で確認しました。');
  console.log('確認画像: '+output);
 }finally{await browser?.close();server.kill();}
