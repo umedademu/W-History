@@ -26,21 +26,17 @@ async function checkTranscriptions() {
   assert.equal(manifest.lessons.length, 30);
   assert.equal(new Set(manifest.lessons.map(lesson => lesson.file)).size, 30);
   const pages = [], lessons = [];
-  let emptyLegacyCount = 0;
+  const folders = (await fs.readdir(path.join(root, 'sources'), {withFileTypes: true})).filter(entry => entry.isDirectory()).map(entry => entry.name).sort();
+  assert.deepEqual(folders, manifest.chapters.map(chapter => path.basename(chapter.folder)).sort(), '章フォルダの構成が記録と不一致');
   for (const chapter of manifest.chapters) {
     const folder = chapter.folder;
+    assert.equal(folder, `sources/${String(chapter.chapter).padStart(2, '0')}_${chapter.title}`, '章フォルダは番号と書籍の日本語の章名にします');
     const chapterLessons = manifest.lessons.filter(lesson => lesson.chapter === chapter.chapter);
     assert.deepEqual(chapterLessons.map(lesson => lesson.lesson), chapter.lessons);
     assert.deepEqual(chapterLessons.map(lesson => lesson.file), chapter.files);
     const markdownFiles = (await fs.readdir(path.join(root, folder))).filter(name => name.endsWith('.md'));
     assert.deepEqual(markdownFiles.sort(), chapter.files.map(file => path.basename(file)).sort(), `${folder}: 各回1本のファイル構成と不一致`);
-    try {
-      const legacyFiles = await fs.readdir(path.join(root, folder, 'legacy'));
-      assert.deepEqual(legacyFiles, [], `${folder}: 削除した旧資料が残っています`);
-      emptyLegacyCount++;
-    } catch (error) {
-      if (error.code !== 'ENOENT') throw error;
-    }
+    await assert.rejects(fs.access(path.join(root, folder, 'legacy')), {code: 'ENOENT'}, `${folder}: 削除済みのlegacyフォルダが残っています`);
     const chapterImages = [];
     for (const [index, lesson] of chapterLessons.entries()) {
       const tocLesson = tocLessons.find(item => item.lesson === lesson.lesson);
@@ -85,7 +81,7 @@ async function checkTranscriptions() {
     await assert.rejects(read(original.archived), {code: 'ENOENT'}, `${original.archived}: 削除対象の旧資料が残っています`);
   }
   console.log('全30回を番号・書籍の題名付きの30ファイルに分割し、本文465ページと目次由来の章扉1ページ、各回の見出し・埋め込み画像が分割前と一致することを確認しました。');
-  if (emptyLegacyCount) console.log(`空のlegacyフォルダが${emptyLegacyCount}個残っています（中の資料は削除済み）。`);
+  console.log('章フォルダ7個の日本語名と、legacyフォルダが残っていないことを確認しました。');
 }
 
 await checkTranscriptions();
