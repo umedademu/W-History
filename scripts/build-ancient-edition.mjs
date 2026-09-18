@@ -10,6 +10,8 @@ const write = async (p,text)=>{
   else await fs.writeFile(new URL(p,root),text);
 };
 const {paragraphs} = JSON.parse(await read('docs/ancient-orient/source-selection.json'));
+const readingPlan = JSON.parse(await read('docs/ancient-orient/reading-plan.json'));
+const paragraphById = new Map(paragraphs.map(p=>[p.id,p]));
 const version=JSON.parse(await read('package.json')).version;
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 
@@ -31,16 +33,23 @@ function decorate(text,spans,start,end) {
     return spans.some(([x,y])=>x<=a&&y>=b)?`<span class="source-bold">${value}</span>`:value;
   }).join('');
 }
-const sentences=new Intl.Segmenter('ja',{granularity:'sentence'});
-function pageRanges(text) {
-  const ranges=[];let start=0,end=0;
-  for(const sentence of sentences.segment(text)) {
-    if(end>start&&sentence.index+sentence.segment.length-start>330) {ranges.push([start,end]);start=end;}
-    end=sentence.index+sentence.segment.length;
+// 改ページは通読済みの構成表に従う。段落ごとの文字数では再分割しない。
+assert.deepEqual([...new Set(readingPlan.map(p=>p.volume))],ancientSeries.map(v=>v.id));
+let paragraphIndex=0,offset=0;
+for(const page of readingPlan) {
+  assert.ok(page.title&&page.passages.length);
+  for(const passage of page.passages) {
+    const p=paragraphs[paragraphIndex];
+    assert.ok(p&&page.volume===p.volume&&passage.paragraph===p.id,'本文の掲載順');
+    assert.ok(Number.isInteger(passage.start)&&Number.isInteger(passage.end));
+    assert.equal(passage.start,offset,'本文の欠落・重複');
+    assert.ok(passage.end>offset&&passage.end<=p.text.length);
+    offset=passage.end;
+    if(offset===p.text.length){paragraphIndex++;offset=0;}
   }
-  if(end>start)ranges.push([start,end]);
-  return ranges;
 }
+assert.equal(paragraphIndex,paragraphs.length,'本文の掲載漏れ');
+assert.equal(offset,0);
 
 // 原文の移動・征服・交易の記述に対応する概略経路。
 // 一つの表示ページに両端の名前がある場合に限って描く。
@@ -72,31 +81,31 @@ const routes = [
 const edition={},plans=[];
 for(const volume of ancientSeries) {
   edition[volume.id]=[];
-  for(const p of paragraphs.filter(p=>p.volume===volume.id)) {
-    const spans=boldSpans(p.markdown);
-    for(const [start,end] of pageRanges(p.text)) {
-      const text=p.text.slice(start,end),title=p.heading;
-      const names=ancientNamesInText(title+'。'+text);
-      const pins={},tags=[],props=[];
-      for(const entry of names) {
-        if(entry.kind==='person'||entry.kind==='building') {
-          const symbol=entry.kind==='person'?'person':/ピラミッド|スフィンクス/.test(entry.name)?'pyramid':/ジッグラト/.test(entry.name)?'ziggurat':/ストゥーパ/.test(entry.name)?'stupa':'temple';
-          props.push({name:entry.name,at:entry.points[0],image:`ancient/${symbol}.svg`,kind:'prop',size:42});
-        }else if(entry.kind==='place')pins[entry.name]={name:entry.name,point:entry.points[0]};
-        else tags.push({text:entry.name,at:entry.points[0]});
-      }
-      const activeRoutes=routes.filter(([lesson,line,from,to])=>p.lesson===lesson&&p.source[0].line===line&&text.includes(from)&&text.includes(to))
-        .map(([,,,,kind,points])=>({kind,points,start:0.08,end:0.95}));
-      const points=names.flatMap(n=>n.points);
-      const fallback=volume.lesson===3?[60,4,94,36]:[23,18,60,43];
-      const frame=points.length?[Math.min(...points.map(p=>p[0]))-5,Math.min(...points.map(p=>p[1]))-5,Math.max(...points.map(p=>p[0]))+5,Math.max(...points.map(p=>p[1]))+5]:fallback;
-      const id=`${volume.id}-${String(edition[volume.id].length+1).padStart(3,'0')}`;
-      const s={id,title,body:[decorate(p.text,spans,start,end)],plainBody:[text],year:volume.period,chapter:0,kicker:volume.label,
-        sourceText:{chapter:1,paragraph:p.id,start,end,page:p.page},frame,pins:Object.keys(pins),tags,zones:[],actors:[],props,
-        routes:activeRoutes,rivers:ancientRivers.filter(r=>text.includes(r.name)),duration:activeRoutes.length?2200:0,
-        facts:[title],mapHeading:title,focus:title,before:title,after:title,note:'',takeaway:''};
-      edition[volume.id].push(s);plans.push({id,volume:volume.id,paragraph:p.id,start,end});
+  for(const page of readingPlan.filter(p=>p.volume===volume.id)) {
+    const selected=page.passages.map(({paragraph,start,end})=>({p:paragraphById.get(paragraph),start,end}));
+    const plainBody=selected.map(({p,start,end})=>p.text.slice(start,end));
+    const body=selected.map(({p,start,end})=>decorate(p.text,boldSpans(p.markdown),start,end));
+    const text=plainBody.join(''),title=page.title;
+    const names=ancientNamesInText(title+'。'+text);
+    const pins={},tags=[],props=[];
+    for(const entry of names) {
+      if(entry.kind==='person'||entry.kind==='building') {
+        const symbol=entry.kind==='person'?'person':/ピラミッド|スフィンクス/.test(entry.name)?'pyramid':/ジッグラト/.test(entry.name)?'ziggurat':/ストゥーパ/.test(entry.name)?'stupa':'temple';
+        props.push({name:entry.name,at:entry.points[0],image:`ancient/${symbol}.svg`,kind:'prop',size:42});
+      }else if(entry.kind==='place')pins[entry.name]={name:entry.name,point:entry.points[0]};
+      else tags.push({text:entry.name,at:entry.points[0]});
     }
+    const activeRoutes=routes.filter(([lesson,line,from,to])=>selected.some(({p})=>p.lesson===lesson&&p.source[0].line===line)&&text.includes(from)&&text.includes(to))
+      .map(([,,,,kind,points])=>({kind,points,start:0.08,end:0.95}));
+    const points=names.flatMap(n=>n.points);
+    const fallback=volume.lesson===3?[60,4,94,36]:[23,18,60,43];
+    const frame=points.length?[Math.min(...points.map(p=>p[0]))-5,Math.min(...points.map(p=>p[1]))-5,Math.max(...points.map(p=>p[0]))+5,Math.max(...points.map(p=>p[1]))+5]:fallback;
+    const id=`${volume.id}-${String(edition[volume.id].length+1).padStart(3,'0')}`;
+    const s={id,title,body,plainBody,year:volume.period,chapter:0,kicker:volume.label,
+      sourceText:{chapter:1,passages:page.passages,page:selected[0].p.page},frame,pins:Object.keys(pins),tags,zones:[],actors:[],props,
+      routes:activeRoutes,rivers:ancientRivers.filter(r=>text.includes(r.name)),duration:activeRoutes.length?2200:0,
+      facts:[title],mapHeading:title,focus:title,before:title,after:title,note:'',takeaway:''};
+    edition[volume.id].push(s);plans.push({id,...page});
   }
 }
 const places=Object.fromEntries(Object.values(edition).flat().flatMap(s=>s.pins.map(name=>[name,{name,point:ancientNamesInText(name)[0].points[0]}])));

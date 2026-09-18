@@ -11,7 +11,7 @@ assert.equal(series.length,21);
 assert.deepEqual(series.map(s=>s.label),expectedTitles);
 assert.deepEqual(series.map(s=>s.number),[...ancientSeries.map(v=>v.number),...Array.from({length:9},(_,i)=>String(i+1).padStart(2,'0'))]);
 assert.deepEqual(series.map(s=>[s.lesson,s.part]),[...ancientSeries.map(v=>[v.lesson,v.part]),[20,1],[20,2],[20,3],[20,4],[21,1],[21,2],[21,3],[21,4],[21,5]]);
-assert.deepEqual(series.map(s=>volumeScenes(sourceEdition,s.id).length),[4,14,24,2,13,10,13,15,5,22,48,12,22,19,16,19,9,9,27,20,14]);
+assert.deepEqual(series.map(s=>volumeScenes(sourceEdition,s.id).length),[2,9,10,1,8,6,7,11,5,13,27,4,22,19,16,19,9,9,27,20,14]);
 // 第1章と第6章の本文が、同じ順番で一度ずつ掲載される。
 assert.deepEqual(series.flatMap(s=>volumeScenes(sourceEdition,s.id)),Object.values(sourceEdition).flat());
 if(!process.argv.includes('--published')){
@@ -50,4 +50,4 @@ for(const [from,to,page] of [['seljuq','regional-dynasties',8],['african-kingdom
  assert.equal(volumeScenes(sourceEdition,to)[page-1],sourceEdition[from][0]);
 }
 for(const [hash,index] of [['',0],['#page-8',7],['#page-16',15],['#page-0',0],['#page-17',0],['#page-foo',0],['#page-1.5',0]])assert.equal(initialPageIndex(16,hash),index);
-console.log('目次と同じ全21パート（第1〜3回各4・第20回4・第21回5）、337場面の順序・欠落・重複なし、旧入口の転送先を確認しました。');
+console.log('目次と同じ全21パート（第1〜3回各4・第20回4・第21回5）、258場面の順序・欠落・重複なし、旧入口の転送先を確認しました。');

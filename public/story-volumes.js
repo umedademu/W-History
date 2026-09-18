@@ -1,4 +1,4 @@
-import {ancientSeries} from './ancient-volumes.js?v=0.066';
+import {ancientSeries} from './ancient-volumes.js?v=0.067';
 // 書籍の第1章・第6章の目次に合わせた公開教材。
 // 原文照合用の区分と場面は保持し、表示時に同じ節の内容をつなぐ。
 export const series = [

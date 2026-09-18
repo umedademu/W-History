@@ -42,6 +42,6 @@ npm run build:source でpublic/source-edition.jsを再生成する。scripts/sou
 05のナスル朝は、グラナダ（西経3.59度・北緯37.18度）を基準位置とする。旧設定の西経1度・北緯34度は北アフリカ側の誤配置だったため、再生成元の地図設定から修正した。本文・装飾・地図の拡大上限は変更していない。
 名称はグラナダの北西側を優先して配置し、重なりを避けて離す場合は引き出し線で基準位置と結ぶ。パソコン幅・スマートフォン幅で対象の2ページを画像確認した。
 
-## v0.066の第1章追加
+## v0.067の第1章のページ構成
 
-第1章の12パート182ページは、独立した[原文対応記録](../ancient-orient/README.md)とancient-edition.jsで管理する。source-edition.jsからは両章合わせた21パート337ページを参照できる。第6章の104段落・155ページ・画像照合済み装飾は維持する。npm run build:sourceは両章を再生成し、npm run check:source:browserは両章の全337ページを照合する。
+第1章の12パート103ページは、独立した[原文対応記録](../ancient-orient/README.md)とancient-edition.jsで管理する。source-edition.jsからは両章合わせた21パート258ページを参照できる。第6章の104段落・155ページ・画像照合済み装飾は維持する。npm run build:sourceは両章を再生成し、npm run check:source:browserは両章の全258ページを照合する。

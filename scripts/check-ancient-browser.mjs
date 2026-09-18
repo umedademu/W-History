@@ -67,12 +67,14 @@ try {
         const missing=names.filter(n=>!shown.some(s=>s.includes(n.key))).map(n=>n.name);
         const extra=actual.shown.filter(n=>!normalizeMapName(actual.title+'。'+actual.text).includes(normalizeMapName(n)));
         if(missing.length||extra.length||actual.overflow.length||actual.overlaps.length||actual.viewportOverflow)issues.push({width,id:expected.id,missing,extra,overflow:actual.overflow,overlaps:actual.overlaps,viewportOverflow:actual.viewportOverflow});
-        if(['ancient-egypt-022','north-india-029','indus-002'].includes(expected.id))await page.screenshot({path:path.join(output,`${expected.id}-${width}.png`),fullPage:true});
+        if(['ancient-egypt-003','north-india-013','south-india-003','indus-002'].includes(expected.id))await page.screenshot({path:path.join(output,`${expected.id}-${width}.png`),fullPage:true});
         inspected++;
       }
       await page.locator('button[data-scene]').first().click();
-      await page.keyboard.press('ArrowRight');assert.equal(await page.locator('#story-progress').getAttribute('value'),'2');
-      await page.locator('#previous').click();assert.equal(await page.locator('#story-progress').getAttribute('value'),'1');
+      if(scenes.length>1) {
+        await page.keyboard.press('ArrowRight');assert.equal(await page.locator('#story-progress').getAttribute('value'),'2');
+        await page.locator('#previous').click();assert.equal(await page.locator('#story-progress').getAttribute('value'),'1');
+      }else assert.equal(await page.locator('#previous').isDisabled(),true);
       await page.goto('about:blank');
       await page.goto(`${base}/${v.id}-story.html#page-${scenes.length}`);await page.waitForSelector('button[data-scene]');
       assert.equal(await page.locator('#story-progress').getAttribute('value'),String(scenes.length));

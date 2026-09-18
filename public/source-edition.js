@@ -1,5 +1,5 @@
 // 原文本文と画像で確認した装飾。scripts/build-source-edition.mjs から生成。
-import {ancientEdition} from "./ancient-edition.js?v=0.066";
+import {ancientEdition} from "./ancient-edition.js?v=0.067";
 const islamicEdition = {
   "islam-origin": [
     {
