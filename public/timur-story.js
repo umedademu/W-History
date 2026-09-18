@@ -1,9 +1,11 @@
 import { sourceEdition } from "./source-edition.js?v=0.064";
-import { mapNamePlan } from "./map-name-coverage.js?v=0.067";
+import { mapNamePlan } from "./map-name-coverage.js?v=0.068";
 import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.064";
 
 import { renderAfterMap, stopAfterMap } from "./timur-after-map.js?v=0.064";
 
+import {volumeNavigation} from './story-volumes.js?v=0.068';
+const chapterNavigation=volumeNavigation({id:'timur'});
 const scenes=[...sourceEdition.timur,...sourceEdition["timur-after"]];
 
 const svgNamespace = "http://www.w3.org/2000/svg";
@@ -202,7 +204,7 @@ function renderScene({ moveToStage = false } = {}) {
   elements["scene-takeaway"].textContent = scene.takeaway;
   elements["scene-note"].textContent = scene.note;
   elements.previous.disabled = sceneIndex === 0;
-  elements.next.replaceChildren(document.createTextNode(sceneIndex === scenes.length - 1 ? "最初から" : "次へ"), Object.assign(document.createElement("span"), { textContent: sceneIndex === scenes.length - 1 ? "↻" : "→" }));
+  elements.next.textContent = sceneIndex === scenes.length - 1 ? chapterNavigation.nextLabel : "次へ →";
   elements["story-progress"].value = sceneIndex + 1;
   elements["story-progress"].textContent = `${sceneIndex + 1} / ${scenes.length}`;
   elements["progress-label"].textContent = `${sceneIndex + 1} / ${scenes.length}`;
@@ -240,7 +242,7 @@ scenes.forEach((scene, index) => {
   elements["scene-nav"].append(button);
 });
 elements.previous.addEventListener("click", () => goTo(sceneIndex - 1));
-elements.next.addEventListener("click", () => goTo(sceneIndex === scenes.length - 1 ? 0 : sceneIndex + 1));
+elements.next.addEventListener("click", () => {if(sceneIndex === scenes.length - 1)chapterNavigation.finish();else goTo(sceneIndex + 1);});
 elements.replay.addEventListener("click", () => {
   renderMap(scenes[sceneIndex]);
 });

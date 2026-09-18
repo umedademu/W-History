@@ -1,9 +1,11 @@
 import { sourceEdition } from "./source-edition.js?v=0.064";
-import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.067";
+import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.068";
 import { maximumMapScale } from "./map-camera.js?v=0.064";
 import { createMapLayout } from "./map-layout.js?v=0.064";
 import {places,zones} from "./safavid-scenes.js?v=0.064";
 
+import {volumeNavigation} from './story-volumes.js?v=0.068';
+const chapterNavigation=volumeNavigation({id:'safavid'});
 const scenes=sourceEdition["safavid"];
 const NS="http://www.w3.org/2000/svg";
 const project=([lon,lat])=>[(lon-20)*12,(58-lat)*15];
@@ -157,7 +159,7 @@ function show(scroll=false){
   for(const [id,value] of Object.entries({"scene-number":`${String(index+1).padStart(2,"0")} / ${scenes.length}`,"scene-year":scene.year,"scene-kicker":scene.kicker,"scene-title":scene.title,"scene-takeaway":scene.takeaway,"scene-note":scene.note,"map-heading":scene.mapHeading,"map-focus":scene.focus,"progress-label":`${index+1} / ${scenes.length}`}))byId(id).textContent=value;
   byId("scene-body").innerHTML=scene.body.map(text=>`<p>${text}</p>`).join("");
   byId("map-facts").replaceChildren(...scene.facts.map(text=>{const item=document.createElement("li");item.textContent=text;return item;}));
-  byId("previous").disabled=index===0;byId("next").textContent=index===scenes.length-1?"最初から ↻":"次へ →";
+  byId("previous").disabled=index===0;byId("next").textContent=index===scenes.length-1?chapterNavigation.nextLabel:"次へ →";
   byId("story-progress").value=index+1;byId("story-progress").textContent=`${index+1} / ${scenes.length}`;
   document.querySelectorAll("button[data-scene]").forEach(b=>{if(Number(b.dataset.scene)===index)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");});
   document.querySelectorAll("[data-chapter]").forEach(b=>{if(scenes[Number(b.dataset.chapter)].chapter===scene.chapter)b.setAttribute("aria-current","step");else b.removeAttribute("aria-current");});
@@ -166,7 +168,7 @@ function show(scroll=false){
 }
 function go(next, scroll = true){next=clamp(next,0,scenes.length-1);if(next===index)return;index=next;show(scroll);}
 scenes.forEach((scene,i)=>{const b=document.createElement("button");b.type="button";b.dataset.scene=i;b.textContent=String(i+1).padStart(2,"0");b.setAttribute("aria-label",`${i+1}. ${scene.title.replace("\n","")}`);b.title=b.getAttribute("aria-label");b.addEventListener("click",()=>go(i));byId("scene-nav").append(b);});
-byId("previous").addEventListener("click",()=>go(index-1));byId("next").addEventListener("click",()=>go(index===scenes.length-1?0:index+1));
+byId("previous").addEventListener("click",()=>go(index-1));byId("next").addEventListener("click",()=>{if(index===scenes.length-1)chapterNavigation.finish();else go(index+1);});
 byId("replay").addEventListener("click",()=>drawMap(scenes[index]));
 document.querySelectorAll("[data-chapter]").forEach(b=>b.addEventListener("click",()=>go(Number(b.dataset.chapter))));
 document.addEventListener("keydown",event=>{if(event.altKey||event.ctrlKey||event.metaKey||event.shiftKey||event.repeat||event.target.closest("input,textarea,select,[contenteditable=true],details"))return;if(event.key==="ArrowRight"||event.key==="ArrowLeft"){event.preventDefault();go(index+(event.key==="ArrowRight"?1:-1), false);}});

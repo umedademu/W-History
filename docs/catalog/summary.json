@@ -1,0 +1,1207 @@
+{
+  "version": "0.068",
+  "parts": 128,
+  "pages": 1013,
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "オリエント・インドの古代文明",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "古代オリエント世界の成立"
+        },
+        {
+          "lesson": 2,
+          "title": "古代オリエント世界の統一"
+        },
+        {
+          "lesson": 3,
+          "title": "古代インド"
+        }
+      ],
+      "volumes": [
+        {
+          "id": "orient-geography",
+          "label": "古代オリエント世界の特徴",
+          "number": "01",
+          "lesson": 1,
+          "part": 1,
+          "pages": 2
+        },
+        {
+          "id": "mesopotamia",
+          "label": "メソポタミア文明",
+          "number": "02",
+          "lesson": 1,
+          "part": 2,
+          "pages": 9
+        },
+        {
+          "id": "ancient-egypt",
+          "label": "エジプト文明",
+          "number": "03",
+          "lesson": 1,
+          "part": 3,
+          "pages": 10
+        },
+        {
+          "id": "orient-culture",
+          "label": "オリエントの文化",
+          "number": "04",
+          "lesson": 1,
+          "part": 4,
+          "pages": 1
+        },
+        {
+          "id": "levant-peoples",
+          "label": "地中海東岸のセム語系民族",
+          "number": "05",
+          "lesson": 2,
+          "part": 1,
+          "pages": 8
+        },
+        {
+          "id": "assyria",
+          "label": "アッシリアと4国分立時代",
+          "number": "06",
+          "lesson": 2,
+          "part": 2,
+          "pages": 6
+        },
+        {
+          "id": "achaemenid",
+          "label": "アケメネス朝ペルシアのオリエント統一",
+          "number": "07",
+          "lesson": 2,
+          "part": 3,
+          "pages": 7
+        },
+        {
+          "id": "parthia-sasanian",
+          "label": "パルティアとササン朝",
+          "number": "08",
+          "lesson": 2,
+          "part": 4,
+          "pages": 11
+        },
+        {
+          "id": "indus",
+          "label": "インダス文明",
+          "number": "09",
+          "lesson": 3,
+          "part": 1,
+          "pages": 5
+        },
+        {
+          "id": "vedic-india",
+          "label": "古代インド世界の形成",
+          "number": "10",
+          "lesson": 3,
+          "part": 2,
+          "pages": 13
+        },
+        {
+          "id": "north-india",
+          "label": "北インドの王朝の変遷",
+          "number": "11",
+          "lesson": 3,
+          "part": 3,
+          "pages": 27
+        },
+        {
+          "id": "south-india",
+          "label": "南インドの展開",
+          "number": "12",
+          "lesson": 3,
+          "part": 4,
+          "pages": 4
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "title": "古代の地中海世界",
+      "lessons": [
+        {
+          "lesson": 4,
+          "title": "古代ギリシア世界の成立"
+        },
+        {
+          "lesson": 5,
+          "title": "ポリス社会の崩壊とヘレニズム"
+        },
+        {
+          "lesson": 6,
+          "title": "ローマ共和政"
+        },
+        {
+          "lesson": 7,
+          "title": "ローマ帝国とキリスト教"
+        }
+      ],
+      "volumes": [
+        {
+          "id": "c02-l04-p01",
+          "label": "エーゲ文明",
+          "number": "01",
+          "lesson": 4,
+          "part": 1,
+          "pages": 7
+        },
+        {
+          "id": "c02-l04-p02",
+          "label": "ギリシア世界の誕生",
+          "number": "02",
+          "lesson": 4,
+          "part": 2,
+          "pages": 8
+        },
+        {
+          "id": "c02-l04-p03",
+          "label": "スパルタの国制",
+          "number": "03",
+          "lesson": 4,
+          "part": 3,
+          "pages": 3
+        },
+        {
+          "id": "c02-l04-p04",
+          "label": "アテネ民主政の発展",
+          "number": "04",
+          "lesson": 4,
+          "part": 4,
+          "pages": 8
+        },
+        {
+          "id": "c02-l04-p05",
+          "label": "ペルシア戦争",
+          "number": "05",
+          "lesson": 4,
+          "part": 5,
+          "pages": 7
+        },
+        {
+          "id": "c02-l05-p01",
+          "label": "アテネ民主政の完成",
+          "number": "06",
+          "lesson": 5,
+          "part": 1,
+          "pages": 4
+        },
+        {
+          "id": "c02-l05-p02",
+          "label": "ポリス社会の崩壊",
+          "number": "07",
+          "lesson": 5,
+          "part": 2,
+          "pages": 7
+        },
+        {
+          "id": "c02-l05-p03",
+          "label": "ヘレニズム時代",
+          "number": "08",
+          "lesson": 5,
+          "part": 3,
+          "pages": 11
+        },
+        {
+          "id": "c02-l05-p04",
+          "label": "ギリシア文化",
+          "number": "09",
+          "lesson": 5,
+          "part": 4,
+          "pages": 11
+        },
+        {
+          "id": "c02-l05-p05",
+          "label": "ヘレニズム文化",
+          "number": "10",
+          "lesson": 5,
+          "part": 5,
+          "pages": 3
+        },
+        {
+          "id": "c02-l06-p01",
+          "label": "都市国家ローマ",
+          "number": "11",
+          "lesson": 6,
+          "part": 1,
+          "pages": 2
+        },
+        {
+          "id": "c02-l06-p02",
+          "label": "身分闘争",
+          "number": "12",
+          "lesson": 6,
+          "part": 2,
+          "pages": 4
+        },
+        {
+          "id": "c02-l06-p03",
+          "label": "イタリア半島の統一",
+          "number": "13",
+          "lesson": 6,
+          "part": 3,
+          "pages": 2
+        },
+        {
+          "id": "c02-l06-p04",
+          "label": "ポエニ戦争とローマ社会の変化",
+          "number": "14",
+          "lesson": 6,
+          "part": 4,
+          "pages": 12
+        },
+        {
+          "id": "c02-l06-p05",
+          "label": "「内乱の1世紀」",
+          "number": "15",
+          "lesson": 6,
+          "part": 5,
+          "pages": 7
+        },
+        {
+          "id": "c02-l07-p01",
+          "label": "元首政と「ローマの平和」",
+          "number": "16",
+          "lesson": 7,
+          "part": 1,
+          "pages": 10
+        },
+        {
+          "id": "c02-l07-p02",
+          "label": "「3世紀の危機」",
+          "number": "17",
+          "lesson": 7,
+          "part": 2,
+          "pages": 6
+        },
+        {
+          "id": "c02-l07-p03",
+          "label": "専制君主政とローマの東西分裂",
+          "number": "18",
+          "lesson": 7,
+          "part": 3,
+          "pages": 8
+        },
+        {
+          "id": "c02-l07-p04",
+          "label": "キリスト教の成立と発展",
+          "number": "19",
+          "lesson": 7,
+          "part": 4,
+          "pages": 10
+        },
+        {
+          "id": "c02-l07-p05",
+          "label": "ローマ文化",
+          "number": "20",
+          "lesson": 7,
+          "part": 5,
+          "pages": 6
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "古代の東アジア",
+      "lessons": [
+        {
+          "lesson": 8,
+          "title": "古代中国①（中国文明〜秦）"
+        },
+        {
+          "lesson": 9,
+          "title": "古代中国②（漢〜魏晋南北朝時代）"
+        },
+        {
+          "lesson": 10,
+          "title": "古代中国③（隋〜唐）"
+        }
+      ],
+      "volumes": [
+        {
+          "id": "c03-l08-p01",
+          "label": "中国文明の形成",
+          "number": "01",
+          "lesson": 8,
+          "part": 1,
+          "pages": 5
+        },
+        {
+          "id": "c03-l08-p02",
+          "label": "殷と周",
+          "number": "02",
+          "lesson": 8,
+          "part": 2,
+          "pages": 5
+        },
+        {
+          "id": "c03-l08-p03",
+          "label": "春秋戦国時代",
+          "number": "03",
+          "lesson": 8,
+          "part": 3,
+          "pages": 7
+        },
+        {
+          "id": "c03-l08-p04",
+          "label": "諸子百家の登場",
+          "number": "04",
+          "lesson": 8,
+          "part": 4,
+          "pages": 6
+        },
+        {
+          "id": "c03-l08-p05",
+          "label": "秦の中国統一",
+          "number": "05",
+          "lesson": 8,
+          "part": 5,
+          "pages": 8
+        },
+        {
+          "id": "c03-l09-p01",
+          "label": "前漢",
+          "number": "06",
+          "lesson": 9,
+          "part": 1,
+          "pages": 11
+        },
+        {
+          "id": "c03-l09-p02",
+          "label": "新〜後漢",
+          "number": "07",
+          "lesson": 9,
+          "part": 2,
+          "pages": 8
+        },
+        {
+          "id": "c03-l09-p03",
+          "label": "三国時代〜西晋",
+          "number": "08",
+          "lesson": 9,
+          "part": 3,
+          "pages": 8
+        },
+        {
+          "id": "c03-l09-p04",
+          "label": "五胡十六国時代と東晋",
+          "number": "09",
+          "lesson": 9,
+          "part": 4,
+          "pages": 2
+        },
+        {
+          "id": "c03-l09-p05",
+          "label": "南北朝時代",
+          "number": "10",
+          "lesson": 9,
+          "part": 5,
+          "pages": 7
+        },
+        {
+          "id": "c03-l10-p01",
+          "label": "隋の中国統一",
+          "number": "11",
+          "lesson": 10,
+          "part": 1,
+          "pages": 7
+        },
+        {
+          "id": "c03-l10-p02",
+          "label": "唐の建国と律令国家の完成",
+          "number": "12",
+          "lesson": 10,
+          "part": 2,
+          "pages": 5
+        },
+        {
+          "id": "c03-l10-p03",
+          "label": "唐と東アジア世界 〜羈縻政策と冊封体制〜",
+          "number": "13",
+          "lesson": 10,
+          "part": 3,
+          "pages": 7
+        },
+        {
+          "id": "c03-l10-p04",
+          "label": "武韋の禍と玄宗の時代",
+          "number": "14",
+          "lesson": 10,
+          "part": 4,
+          "pages": 7
+        },
+        {
+          "id": "c03-l10-p05",
+          "label": "唐の衰退と滅亡",
+          "number": "15",
+          "lesson": 10,
+          "part": 5,
+          "pages": 5
+        },
+        {
+          "id": "c03-l10-p06",
+          "label": "唐の経済・社会史",
+          "number": "16",
+          "lesson": 10,
+          "part": 6,
+          "pages": 9
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "title": "中世ヨーロッパ",
+      "lessons": [
+        {
+          "lesson": 11,
+          "title": "ゲルマン人の移動とフランク王国"
+        },
+        {
+          "lesson": 12,
+          "title": "封建社会の形成とカトリック教会の発展"
+        },
+        {
+          "lesson": 13,
+          "title": "ビザンツ帝国と中世の東欧"
+        },
+        {
+          "lesson": 14,
+          "title": "十字軍と封建社会の変容"
+        },
+        {
+          "lesson": 15,
+          "title": "中世の西ヨーロッパ諸国"
+        }
+      ],
+      "volumes": [
+        {
+          "id": "c04-l11-p01",
+          "label": "ゲルマン人の移動と西ローマ帝国の滅亡",
+          "number": "01",
+          "lesson": 11,
+          "part": 1,
+          "pages": 8
+        },
+        {
+          "id": "c04-l11-p02",
+          "label": "東西教会の対立とフランク王国の発展",
+          "number": "02",
+          "lesson": 11,
+          "part": 2,
+          "pages": 13
+        },
+        {
+          "id": "c04-l11-p03",
+          "label": "フランク王国の分裂と神聖ローマ帝国の成立",
+          "number": "03",
+          "lesson": 11,
+          "part": 3,
+          "pages": 4
+        },
+        {
+          "id": "c04-l12-p01",
+          "label": "ノルマン人の移動",
+          "number": "04",
+          "lesson": 12,
+          "part": 1,
+          "pages": 8
+        },
+        {
+          "id": "c04-l12-p02",
+          "label": "封建社会の形成",
+          "number": "05",
+          "lesson": 12,
+          "part": 2,
+          "pages": 8
+        },
+        {
+          "id": "c04-l12-p03",
+          "label": "カトリック教会の発展と教皇権の確立",
+          "number": "06",
+          "lesson": 12,
+          "part": 3,
+          "pages": 8
+        },
+        {
+          "id": "c04-l13-p01",
+          "label": "初期ビザンツ帝国 〜東ローマ帝国からビザンツ帝国へ〜",
+          "number": "07",
+          "lesson": 13,
+          "part": 1,
+          "pages": 7
+        },
+        {
+          "id": "c04-l13-p02",
+          "label": "中期ビザンツ帝国 〜イスラームの圧迫と西欧との対立〜",
+          "number": "08",
+          "lesson": 13,
+          "part": 2,
+          "pages": 4
+        },
+        {
+          "id": "c04-l13-p03",
+          "label": "後期ビザンツ帝国 〜ビザンツ帝国の衰退〜",
+          "number": "09",
+          "lesson": 13,
+          "part": 3,
+          "pages": 4
+        },
+        {
+          "id": "c04-l13-p04",
+          "label": "中世の東欧 〜スラヴ人の動向〜",
+          "number": "10",
+          "lesson": 13,
+          "part": 4,
+          "pages": 13
+        },
+        {
+          "id": "c04-l14-p01",
+          "label": "西欧世界の拡大と十字軍遠征",
+          "number": "11",
+          "lesson": 14,
+          "part": 1,
+          "pages": 10
+        },
+        {
+          "id": "c04-l14-p02",
+          "label": "商業ルネサンスと中世都市の発展",
+          "number": "12",
+          "lesson": 14,
+          "part": 2,
+          "pages": 8
+        },
+        {
+          "id": "c04-l14-p03",
+          "label": "封建制の危機と教皇権の失墜",
+          "number": "13",
+          "lesson": 14,
+          "part": 3,
+          "pages": 9
+        },
+        {
+          "id": "c04-l14-p04",
+          "label": "中世西ヨーロッパ文化",
+          "number": "14",
+          "lesson": 14,
+          "part": 4,
+          "pages": 10
+        },
+        {
+          "id": "c04-l15-p01",
+          "label": "中世のイングランドとフランス",
+          "number": "15",
+          "lesson": 15,
+          "part": 1,
+          "pages": 9
+        },
+        {
+          "id": "c04-l15-p02",
+          "label": "英仏百年戦争とバラ戦争",
+          "number": "16",
+          "lesson": 15,
+          "part": 2,
+          "pages": 6
+        },
+        {
+          "id": "c04-l15-p03",
+          "label": "中世のドイツとイタリア・北欧",
+          "number": "17",
+          "lesson": 15,
+          "part": 3,
+          "pages": 9
+        },
+        {
+          "id": "c04-l15-p04",
+          "label": "レコンキスタとスペイン王国の成立",
+          "number": "18",
+          "lesson": 15,
+          "part": 4,
+          "pages": 3
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "title": "東アジア世界の変容",
+      "lessons": [
+        {
+          "lesson": 16,
+          "title": "中華世界の変容（五代十国〜宋）"
+        },
+        {
+          "lesson": 17,
+          "title": "モンゴル帝国の時代"
+        },
+        {
+          "lesson": 18,
+          "title": "中華帝国の繁栄（明・清）"
+        },
+        {
+          "lesson": 19,
+          "title": "東南アジア世界"
+        }
+      ],
+      "volumes": [
+        {
+          "id": "c05-l16-p01",
+          "label": "五代十国と社会の変動",
+          "number": "01",
+          "lesson": 16,
+          "part": 1,
+          "pages": 4
+        },
+        {
+          "id": "c05-l16-p02",
+          "label": "北宋",
+          "number": "02",
+          "lesson": 16,
+          "part": 2,
+          "pages": 11
+        },
+        {
+          "id": "c05-l16-p03",
+          "label": "北宋の滅亡と南宋の成立",
+          "number": "03",
+          "lesson": 16,
+          "part": 3,
+          "pages": 4
+        },
+        {
+          "id": "c05-l16-p04",
+          "label": "宋代の北方民族",
+          "number": "04",
+          "lesson": 16,
+          "part": 4,
+          "pages": 5
+        },
+        {
+          "id": "c05-l16-p05",
+          "label": "宋代の社会経済史",
+          "number": "05",
+          "lesson": 16,
+          "part": 5,
+          "pages": 7
+        },
+        {
+          "id": "c05-l17-p01",
+          "label": "モンゴル帝国の成立",
+          "number": "06",
+          "lesson": 17,
+          "part": 1,
+          "pages": 9
+        },
+        {
+          "id": "c05-l17-p02",
+          "label": "元の中国支配",
+          "number": "07",
+          "lesson": 17,
+          "part": 2,
+          "pages": 6
+        },
+        {
+          "id": "c05-l17-p03",
+          "label": "世界の一体化と東西交易の発展",
+          "number": "08",
+          "lesson": 17,
+          "part": 3,
+          "pages": 5
+        },
+        {
+          "id": "c05-l17-p04",
+          "label": "元の衰退と明の成立",
+          "number": "09",
+          "lesson": 17,
+          "part": 4,
+          "pages": 3
+        },
+        {
+          "id": "c05-l18-p01",
+          "label": "中華王朝の復活 〜明〜",
+          "number": "10",
+          "lesson": 18,
+          "part": 1,
+          "pages": 5
+        },
+        {
+          "id": "c05-l18-p02",
+          "label": "交易の時代とアジア海域世界",
+          "number": "11",
+          "lesson": 18,
+          "part": 2,
+          "pages": 8
+        },
+        {
+          "id": "c05-l18-p03",
+          "label": "明の衰退",
+          "number": "12",
+          "lesson": 18,
+          "part": 3,
+          "pages": 4
+        },
+        {
+          "id": "c05-l18-p04",
+          "label": "中華帝国の完成 〜明の滅亡と清の中国支配〜",
+          "number": "13",
+          "lesson": 18,
+          "part": 4,
+          "pages": 20
+        },
+        {
+          "id": "c05-l18-p05",
+          "label": "明・清の社会経済史",
+          "number": "14",
+          "lesson": 18,
+          "part": 5,
+          "pages": 5
+        },
+        {
+          "id": "c05-l19-p01",
+          "label": "海の道の始まりと港市国家の誕生（紀元前後〜）",
+          "number": "15",
+          "lesson": 19,
+          "part": 1,
+          "pages": 5
+        },
+        {
+          "id": "c05-l19-p02",
+          "label": "海上交易の発展と東南アジア世界（7世紀〜）",
+          "number": "16",
+          "lesson": 19,
+          "part": 2,
+          "pages": 7
+        },
+        {
+          "id": "c05-l19-p03",
+          "label": "モンゴル帝国と東南アジア（13世紀〜）",
+          "number": "17",
+          "lesson": 19,
+          "part": 3,
+          "pages": 3
+        },
+        {
+          "id": "c05-l19-p04",
+          "label": "アジア海域のなかの東南アジア（15世紀〜）",
+          "number": "18",
+          "lesson": 19,
+          "part": 4,
+          "pages": 7
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "title": "イスラーム世界",
+      "lessons": [
+        {
+          "lesson": 20,
+          "title": "イスラーム世界の形成"
+        },
+        {
+          "lesson": 21,
+          "title": "イスラーム専制帝国の繁栄"
+        }
+      ],
+      "volumes": [
+        {
+          "id": "islam-origin",
+          "label": "イスラーム教の成立〜正統カリフ時代",
+          "number": "01",
+          "lesson": 20,
+          "part": 1,
+          "pages": 22
+        },
+        {
+          "id": "umayyad-abbasid",
+          "label": "ウマイヤ朝とアッバース朝",
+          "number": "02",
+          "lesson": 20,
+          "part": 2,
+          "pages": 19
+        },
+        {
+          "id": "regional-dynasties",
+          "label": "3カリフの並立とイスラーム世界の変容",
+          "number": "03",
+          "lesson": 20,
+          "part": 3,
+          "pages": 16
+        },
+        {
+          "id": "western-dynasties",
+          "label": "地方政権の興亡",
+          "number": "04",
+          "lesson": 20,
+          "part": 4,
+          "pages": 19
+        },
+        {
+          "id": "timur",
+          "label": "ティムール朝",
+          "number": "05",
+          "lesson": 21,
+          "part": 1,
+          "pages": 9
+        },
+        {
+          "id": "safavid",
+          "label": "サファヴィー朝",
+          "number": "06",
+          "lesson": 21,
+          "part": 2,
+          "pages": 9
+        },
+        {
+          "id": "ottoman",
+          "label": "オスマン帝国",
+          "number": "07",
+          "lesson": 21,
+          "part": 3,
+          "pages": 27
+        },
+        {
+          "id": "mughal",
+          "label": "ムガル帝国",
+          "number": "08",
+          "lesson": 21,
+          "part": 4,
+          "pages": 20
+        },
+        {
+          "id": "islamic-culture",
+          "label": "イスラーム文化",
+          "number": "09",
+          "lesson": 21,
+          "part": 5,
+          "pages": 14
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "title": "近代ヨーロッパの幕開け",
+      "lessons": [
+        {
+          "lesson": 22,
+          "title": "ルネサンスと大航海時代"
+        },
+        {
+          "lesson": 23,
+          "title": "宗教改革"
+        },
+        {
+          "lesson": 24,
+          "title": "近世のヨーロッパ①（スペイン・オランダ）"
+        },
+        {
+          "lesson": 25,
+          "title": "近世のヨーロッパ②（イギリス・フランス）"
+        },
+        {
+          "lesson": 26,
+          "title": "近世のヨーロッパ③（ドイツ・ロシア）"
+        },
+        {
+          "lesson": 27,
+          "title": "産業革命とアメリカ独立革命"
+        },
+        {
+          "lesson": 28,
+          "title": "フランス革命"
+        },
+        {
+          "lesson": 29,
+          "title": "ナポレオンの時代"
+        },
+        {
+          "lesson": 30,
+          "title": "17〜18世紀のヨーロッパ文化"
+        }
+      ],
+      "volumes": [
+        {
+          "id": "c07-l22-p01",
+          "label": "イタリア＝ルネサンス",
+          "number": "01",
+          "lesson": 22,
+          "part": 1,
+          "pages": 6
+        },
+        {
+          "id": "c07-l22-p02",
+          "label": "西ヨーロッパ諸国のルネサンス",
+          "number": "02",
+          "lesson": 22,
+          "part": 2,
+          "pages": 7
+        },
+        {
+          "id": "c07-l22-p03",
+          "label": "新航路の発見と大航海時代",
+          "number": "03",
+          "lesson": 22,
+          "part": 3,
+          "pages": 14
+        },
+        {
+          "id": "c07-l22-p04",
+          "label": "ヨーロッパ世界の変容 〜商業革命と価格革命〜",
+          "number": "04",
+          "lesson": 22,
+          "part": 4,
+          "pages": 6
+        },
+        {
+          "id": "c07-l23-p01",
+          "label": "ルターの宗教改革とカール5世の時代",
+          "number": "05",
+          "lesson": 23,
+          "part": 1,
+          "pages": 12
+        },
+        {
+          "id": "c07-l23-p02",
+          "label": "カルヴァンの宗教改革",
+          "number": "06",
+          "lesson": 23,
+          "part": 2,
+          "pages": 5
+        },
+        {
+          "id": "c07-l23-p03",
+          "label": "イギリス国教会とイギリスの絶対王政",
+          "number": "07",
+          "lesson": 23,
+          "part": 3,
+          "pages": 10
+        },
+        {
+          "id": "c07-l23-p04",
+          "label": "対抗宗教改革 〜カトリックの改革〜",
+          "number": "08",
+          "lesson": 23,
+          "part": 4,
+          "pages": 3
+        },
+        {
+          "id": "c07-l24-p01",
+          "label": "イタリア戦争と主権国家の形成",
+          "number": "09",
+          "lesson": 24,
+          "part": 1,
+          "pages": 7
+        },
+        {
+          "id": "c07-l24-p02",
+          "label": "スペインの絶対王政",
+          "number": "10",
+          "lesson": 24,
+          "part": 2,
+          "pages": 4
+        },
+        {
+          "id": "c07-l24-p03",
+          "label": "オランダの独立",
+          "number": "11",
+          "lesson": 24,
+          "part": 3,
+          "pages": 5
+        },
+        {
+          "id": "c07-l24-p04",
+          "label": "覇権国家オランダ",
+          "number": "12",
+          "lesson": 24,
+          "part": 4,
+          "pages": 6
+        },
+        {
+          "id": "c07-l25-p01",
+          "label": "ピューリタン革命",
+          "number": "13",
+          "lesson": 25,
+          "part": 1,
+          "pages": 9
+        },
+        {
+          "id": "c07-l25-p02",
+          "label": "名誉革命と立憲王政の確立",
+          "number": "14",
+          "lesson": 25,
+          "part": 2,
+          "pages": 8
+        },
+        {
+          "id": "c07-l25-p03",
+          "label": "ユグノー戦争 〜フランスの宗教戦争〜",
+          "number": "15",
+          "lesson": 25,
+          "part": 3,
+          "pages": 4
+        },
+        {
+          "id": "c07-l25-p04",
+          "label": "フランスの絶対王政",
+          "number": "16",
+          "lesson": 25,
+          "part": 4,
+          "pages": 9
+        },
+        {
+          "id": "c07-l26-p01",
+          "label": "ドイツ三十年戦争",
+          "number": "17",
+          "lesson": 26,
+          "part": 1,
+          "pages": 9
+        },
+        {
+          "id": "c07-l26-p02",
+          "label": "プロイセンとオーストリアの国内統治",
+          "number": "18",
+          "lesson": 26,
+          "part": 2,
+          "pages": 6
+        },
+        {
+          "id": "c07-l26-p03",
+          "label": "オーストリア継承戦争と七年戦争",
+          "number": "19",
+          "lesson": 26,
+          "part": 3,
+          "pages": 5
+        },
+        {
+          "id": "c07-l26-p04",
+          "label": "ロシア帝国の台頭",
+          "number": "20",
+          "lesson": 26,
+          "part": 4,
+          "pages": 14
+        },
+        {
+          "id": "c07-l27-p01",
+          "label": "商業覇権の推移と第2次英仏百年戦争",
+          "number": "21",
+          "lesson": 27,
+          "part": 1,
+          "pages": 8
+        },
+        {
+          "id": "c07-l27-p02",
+          "label": "イギリスの産業革命",
+          "number": "22",
+          "lesson": 27,
+          "part": 2,
+          "pages": 8
+        },
+        {
+          "id": "c07-l27-p03",
+          "label": "資本主義の確立と社会主義の出現",
+          "number": "23",
+          "lesson": 27,
+          "part": 3,
+          "pages": 4
+        },
+        {
+          "id": "c07-l27-p04",
+          "label": "アメリカ独立革命",
+          "number": "24",
+          "lesson": 27,
+          "part": 4,
+          "pages": 17
+        },
+        {
+          "id": "c07-l28-p01",
+          "label": "革命の勃発",
+          "number": "25",
+          "lesson": 28,
+          "part": 1,
+          "pages": 6
+        },
+        {
+          "id": "c07-l28-p02",
+          "label": "国民議会の時代",
+          "number": "26",
+          "lesson": 28,
+          "part": 2,
+          "pages": 7
+        },
+        {
+          "id": "c07-l28-p03",
+          "label": "立法議会の時代",
+          "number": "27",
+          "lesson": 28,
+          "part": 3,
+          "pages": 4
+        },
+        {
+          "id": "c07-l28-p04",
+          "label": "国民公会の時代",
+          "number": "28",
+          "lesson": 28,
+          "part": 4,
+          "pages": 8
+        },
+        {
+          "id": "c07-l29-p01",
+          "label": "ナポレオンの登場",
+          "number": "29",
+          "lesson": 29,
+          "part": 1,
+          "pages": 10
+        },
+        {
+          "id": "c07-l29-p02",
+          "label": "ナポレオンの大陸制覇",
+          "number": "30",
+          "lesson": 29,
+          "part": 2,
+          "pages": 6
+        },
+        {
+          "id": "c07-l29-p03",
+          "label": "ナポレオンの没落",
+          "number": "31",
+          "lesson": 29,
+          "part": 3,
+          "pages": 6
+        },
+        {
+          "id": "c07-l30-p01",
+          "label": "文学・芸術",
+          "number": "32",
+          "lesson": 30,
+          "part": 1,
+          "pages": 5
+        },
+        {
+          "id": "c07-l30-p02",
+          "label": "政治思想",
+          "number": "33",
+          "lesson": 30,
+          "part": 2,
+          "pages": 6
+        },
+        {
+          "id": "c07-l30-p03",
+          "label": "自然科学・科学技術",
+          "number": "34",
+          "lesson": 30,
+          "part": 3,
+          "pages": 3
+        },
+        {
+          "id": "c07-l30-p04",
+          "label": "哲学",
+          "number": "35",
+          "lesson": 30,
+          "part": 4,
+          "pages": 6
+        }
+      ]
+    }
+  ]
+}

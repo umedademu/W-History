@@ -6,7 +6,7 @@ import {mkdtemp} from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {sourceEdition} from '../public/source-edition.js';
+import {allEditions as sourceEdition} from '../public/all-editions.js';
 import {series,volumeScenes} from '../public/story-volumes.js';
 const base='http://127.0.0.1:18768';
 const server=spawn(process.execPath,['scripts/serve.mjs'],{cwd:fileURLToPath(new URL('../',import.meta.url)),env:{...process.env,PORT:'18768'},windowsHide:true,stdio:'pipe'});

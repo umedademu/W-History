@@ -1,5 +1,6 @@
 import { mapNameCatalog } from "./map-name-catalog.js?v=0.064";
-import { ancientNamesInText } from "./ancient-geography.js?v=0.067";
+import { ancientNamesInText } from "./ancient-geography.js?v=0.068";
+import { chapterNameFinders } from "./chapter-geography.js?v=0.068";
 
 export const plainText = value => String(value ?? "").replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g, "").replace(/<[^>]*>/g, "");
 export const normalizeMapName = value => plainText(value).replace(/[\s＝=・『』「」]/g, "");
@@ -10,6 +11,10 @@ const pattern = new RegExp([...byKey.keys()].map(key=>key.length===1?`(?<![一-�
 export function namesInText(text) {
   return [...new Map([...normalizeMapName(text).matchAll(pattern)].map(match=>[match[0],byKey.get(match[0])])).values()];
 }
+export function namesForScene(scene,text) {
+  const chapter=scene.sourceText?.chapter;
+  return (chapter===1?ancientNamesInText:chapterNameFinders[chapter]??namesInText)(text);
+}
 const localAnchors={
  "後ウマイヤ朝":["コルドバ"],"イドリース朝":["モロッコ"],"アッバース朝":["バグダード","クーファ"],"ファーティマ朝":["カイロ","チュニジア"],
  "サーマーン朝":["ブハラ","中央アジア"],"ブワイフ朝":["バグダード","カスピ海南西"],"ムラービト朝":["マラケシュ","マグリブ地方"],
@@ -19,7 +24,7 @@ const localAnchors={
 };
 export function mapNamePlan(scene, mapItems) {
   const narrative = plainText([scene.title,...(scene.plainBody??scene.body)].join("。"));
-  const required = scene.sourceText?.chapter === 1 ? ancientNamesInText(narrative) : namesInText(narrative);
+  const required = namesForScene(scene,narrative);
   // title・desc・非表示の見どころ欄は、地図上の表示には数えない。
   const shown = mapItems.map(item=>normalizeMapName(mapDisplayName(item.text,scene)));
   const missing = required.filter(entry=>!shown.some(text=>text.includes(entry.key)));
@@ -39,7 +44,7 @@ export function mapDisplayName(text, scene) {
   if(scene.nameOverrides?.[text])return scene.nameOverrides[text];
   const narrative=normalizeMapName(scene.title+scene.body.join(""));
   return text.replace(/[【（]([^】）]*)[】）]/g,(all,inside)=>
-    namesInText(inside).some(entry=>!narrative.includes(entry.key)) ? "" : all);
+    namesForScene(scene,inside).some(entry=>!narrative.includes(entry.key)) ? "" : all);
 }
 export function sceneMapItems(scene, places) {
   return [...(scene.pins??[]).map(key=>({text:places[key].name,at:places[key].point})),...(scene.tags??[]),

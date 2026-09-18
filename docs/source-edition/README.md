@@ -45,3 +45,7 @@ npm run build:source でpublic/source-edition.jsを再生成する。scripts/sou
 ## v0.067の第1章のページ構成
 
 第1章の12パート103ページは、独立した[原文対応記録](../ancient-orient/README.md)とancient-edition.jsで管理する。source-edition.jsからは両章合わせた21パート258ページを参照できる。第6章の104段落・155ページ・画像照合済み装飾は維持する。npm run build:sourceは両章を再生成し、npm run check:source:browserは両章の全258ページを照合する。
+
+## v0.068の全章追加
+
+第2・3・4・5・7章の107パート755ページは章別の本文・原文対応記録で管理する。全体は7章128パート1013ページ。全章の生成・検査には `all-editions.js`、第1章・第6章の既存画面には従来どおり `source-edition.js` を使い、新章の画面では選んだ章の本文だけを読み込む。詳細は[全7章の構成](../book-chapters.md)。

@@ -107,5 +107,5 @@ for(const item of plan){
   (edition[item.volume]??=[]).push(s);
 }
 if(errors.length)throw Error('装飾位置の照合失敗:\n'+[...new Set(errors)].join('\n'));
-await fs.writeFile(new URL('public/source-edition.js',root),'// 原文本文と画像で確認した装飾。scripts/build-source-edition.mjs から生成。\nimport {ancientEdition} from "./ancient-edition.js?v=0.067";\nconst islamicEdition = '+JSON.stringify(edition,null,2)+';\nexport const sourceEdition = {...ancientEdition,...islamicEdition};\n');
+await fs.writeFile(new URL('public/source-edition.js',root),'// 原文本文と画像で確認した装飾。scripts/build-source-edition.mjs から生成。\nimport {ancientEdition} from "./ancient-edition.js?v=0.068";\nconst islamicEdition = '+JSON.stringify(edition,null,2)+';\nexport const sourceEdition = {...ancientEdition,...islamicEdition};\n');
 console.log(`原文本文${paragraphs.length}段落・${plan.length}ページ、装飾確認済み${paragraphs.filter(p=>formatting.has(p.id)).length}段落。`);

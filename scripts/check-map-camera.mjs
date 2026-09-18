@@ -16,15 +16,15 @@ for (const project of projectors) for (const [width, height] of [[320, 440], [72
   assert.ok(height / (limit * Math.abs(north[1] - origin[1])) >= minimumMapSpan.latitude - 1e-8, '横長画面でも南北の位置関係を保つ');
 }
 
-const {sourceEdition}=await import('../public/source-edition.js');
+const {allEditions:sourceEdition}=await import('../public/all-editions.js');
 const {series,volumeScenes}=await import('../public/story-volumes.js');
-const chapters=series.map(({id:name,number})=>({number:+number,scenes:volumeScenes(sourceEdition,name).map(scene=>{
+const chapters=series.map(({id:name,number,chapter})=>({number:+number,chapter:chapter??6,scenes:volumeScenes(sourceEdition,name).map(scene=>{
  if(!scene.camera)return {...scene,frame:scene.frame??scene.area};
  const [x,y,w,h]=scene.camera;return {...scene,frame:[x/12+20,58-(y+h)/15,(x+w)/12+20,58-y/15]};
 })}));
 
 let total = 0, details = 0;
-for (const chapter of chapters.sort((a, b) => a.number - b.number)) {
+for (const chapter of chapters) {
   let narrow = 0;
   for (const scene of chapter.scenes) {
     total++;
@@ -41,7 +41,7 @@ for (const chapter of chapters.sort((a, b) => a.number - b.number)) {
       }
     }
   }
-  console.log(`${String(chapter.number).padStart(2, '0')}章：${chapter.scenes.length}ページの範囲を確認（東西・南北とも基準より狭い指定：${narrow}ページ）。`);
+  console.log(`第${chapter.chapter}章・${String(chapter.number).padStart(2, '0')}：${chapter.scenes.length}ページの範囲を確認（東西・南北とも基準より狭い指定：${narrow}ページ）。`);
 }
-assert.equal(total, 258, '全章の確認漏れ');
+assert.equal(total, Object.values(sourceEdition).flat().length, '全章の確認漏れ');
 console.log(`全${total}ページ・内部${details}シーン、3種類の投影と画面寸法で地理図の拡大上限を確認しました。`);

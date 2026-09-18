@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
-import {ancientSeries,ancientLessons} from '../public/ancient-volumes.js';
+import {ancientSeries} from '../public/ancient-volumes.js';
 import {ancientNamesInText,ancientRivers} from '../public/ancient-geography.js';
 
 const root = new URL('../',import.meta.url);
@@ -12,7 +12,6 @@ const write = async (p,text)=>{
 const {paragraphs} = JSON.parse(await read('docs/ancient-orient/source-selection.json'));
 const readingPlan = JSON.parse(await read('docs/ancient-orient/reading-plan.json'));
 const paragraphById = new Map(paragraphs.map(p=>[p.id,p]));
-const version=JSON.parse(await read('package.json')).version;
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 
 function boldSpans(markdown) {
@@ -112,33 +111,4 @@ const places=Object.fromEntries(Object.values(edition).flat().flatMap(s=>s.pins.
 await write('public/ancient-edition.js',`// 原文の対応記録から生成。編集は docs/ancient-orient と生成処理へ。\nexport const ancientEdition = ${JSON.stringify(edition,null,2)};\nexport const ancientPlaces = ${JSON.stringify(places,null,2)};\n`);
 await write('docs/ancient-orient/page-plan.json',JSON.stringify(plans,null,2)+'\n');
 
-const base=await read('public/islam-origin-story.html');
-const total=Object.values(edition).flat().length;
-for(const v of ancientSeries) {
-  const count=edition[v.id].length;
-  const navigation=ancientSeries.map(o=>`<a href="/${o.id}-story.html"${o.id===v.id?' aria-current="page"':''}>${o.number} ${o.label}</a>`).join('');
-  const html=base
-    .replace(/<title>[\s\S]*?<\/title>/,`<title>${v.label}｜第${v.lesson}回 ${v.part}｜地図でたどる世界史</title>`)
-    .replace(/<meta name="description"[^>]*>/,`<meta name="description" content="第1章・${v.label}。${escape(v.description)}原文に沿う全${count}ページ。" />`)
-    .replace(/\s*<link rel="stylesheet" href="\/islam-origin-story.css[^>]*>/,'')
-    .replace(/<script src="\/islam-origin-story.js[^>]*><\/script>/,`<script src="/ancient-story.js?v=${version}" type="module"></script>`)
-    .replace('restored-story islam-origin-story','restored-story ancient-story')
-    .replaceAll('アラビア半島の隊商ルート',v.label)
-    .replaceAll('イスラーム教の成立と正統カリフの地図',v.label+'の地図')
-    .replaceAll('6世紀後半',v.period)
-    .replaceAll('01 / 22',`01 / ${count}`).replaceAll('1 / 22',`1 / ${count}`).replaceAll('max="22"',`max="${count}"`)
-    .replace(/<nav class="story-series-links"[\s\S]*?<\/nav>/,`<nav class="story-series-links" aria-label="第1章の教材">${navigation}</nav>`)
-    .replace(/<details>[\s\S]*?<\/details>/,`<details><summary>地図と説明について</summary><p>第${v.lesson}回「${ancientLessons.find(l=>l.lesson===v.lesson).title}」の第${v.part}節を、原文の順番に${count}ページでたどります。まとめ・比較表・年号欄などは省いています。</p><p>都市は遺跡や現在地に、王朝・人物は本文に関係する拠点に示します。人物や建物は説明用の記号です。肖像や復元図ではありません。矢印と川は大まかな位置・方向を表します。</p><p>基図は<a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noreferrer">Natural Earth の公開地図</a>を使用しています。</p></details>`);
-  await write(`public/${v.id}-story.html`,html);
-}
-
-const cards=v=>`<a class="story-card" href="/${v.id}-story.html"><div class="cover cover-ancient${v.lesson===3?' cover-ancient-india':''}"><span class="cover-number">${v.number}</span><span class="cover-place">第1章・第${v.lesson}回</span><img src="/images/ancient/${v.symbol}.svg" alt="" width="192" height="192" /><span class="cover-caption">${v.label}</span></div><div class="card-body"><p class="lesson-part">第${v.lesson}回・${v.part}</p><p class="period">${v.period} <span>${edition[v.id].length}ページ</span></p><h3>${v.label}</h3><p>${v.description}</p><span class="card-action">物語を開く <span aria-hidden="true">↗</span></span></div></a>`;
-const collection=`<!-- ancient-collection:start -->\n<section aria-labelledby="ancient-collection-title"><div class="section-heading"><h2 id="ancient-collection-title">第1章 オリエント・インドの古代文明</h2><p>第1〜3回、各4パート。全${total}ページ。</p></div>${ancientLessons.map(l=>`\n<section class="lesson-group" aria-labelledby="lesson-${l.lesson}"><div class="section-heading"><h2 id="lesson-${l.lesson}">第${l.lesson}回 ${l.title}</h2><p>全4パート</p></div><div class="story-grid">${ancientSeries.filter(v=>v.lesson===l.lesson).map(cards).join('\n')}</div></section>`).join('')}\n</section>\n<!-- ancient-collection:end -->\n`;
-let catalog=await read('public/index.html');
-catalog=catalog.replace(/<!-- ancient-collection:start -->[\s\S]*?<!-- ancient-collection:end -->\s*/,'');
-catalog=catalog.replace(/<section aria-labelledby="collection-title">/,collection+'<section aria-labelledby="collection-title">')
-  .replace(/収録中の教材 <b>\d+<\/b>/,'収録中の教材 <b>21</b>')
-  .replace(/全 <b>\d+<\/b> 場面/,`全 <b>${155+total}</b> 場面`);
-await write('public/index.html',catalog);
-console.log(`第1章を12パート・${total}ページとして生成しました。全体は21パート・${155+total}ページです。`);
-console.log(ancientSeries.map(v=>`${v.label}: ${edition[v.id].length}`).join('\n'));
+console.log(`第1章の本文を${Object.values(edition).flat().length}ページとして生成しました。`);

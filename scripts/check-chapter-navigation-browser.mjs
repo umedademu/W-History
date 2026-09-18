@@ -1,4 +1,4 @@
-import {sourceEdition} from "../public/source-edition.js";
+import {allEditions as sourceEdition} from "../public/all-editions.js";
 import assert from 'node:assert/strict';
 import {chromium} from 'playwright';
 import {spawn} from 'node:child_process';
@@ -24,18 +24,18 @@ try{
  for(const width of [1280,390]){
   await page.setViewportSize({width,height:900});
   await page.goto(base);
-  assert.equal(await page.locator('.story-card').count(),21);
+  assert.equal(await page.locator('.story-card').count(),series.length);
   assert.equal(await page.locator('.lesson-group[aria-labelledby=lesson-20] .story-card').count(),4);
   assert.equal(await page.locator('.lesson-group[aria-labelledby=lesson-21] .story-card').count(),5);
   assert.deepEqual(await page.locator('.card-body h3').allTextContents(),series.map(s=>s.label));
   assert.deepEqual(await page.locator('.cover-number').allTextContents(),series.map(s=>s.number));
-  await page.screenshot({path:path.join(output,`catalog-${width}.png`),fullPage:true});
+  await page.screenshot({path:path.join(output,`catalog-${width}.png`),fullPage:false});
   for(const s of series){
    await page.goto(base);
    await page.locator(`.story-card[href="/${s.id}-story.html"]`).click();
    await page.waitForSelector('button[data-scene]');
    assert.equal(new URL(page.url()).search,'');
-   assert.equal(await page.locator('.story-series-links a').count(),s.chapter===1?12:9);
+   assert.equal(await page.locator('.story-series-links a').count(),series.filter(v=>v.chapter===s.chapter).length);
    assert.equal(await page.locator('.story-series-links [aria-current=page]').textContent(),`${s.number} ${s.label}`);
    assert.equal(await page.locator('.reading-chapter,.chapter-end').count(),0);
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
@@ -50,6 +50,8 @@ try{
      assert.equal(await page.locator('#progress-label').textContent(),(i+1)+' / 9');
     }
     await page.locator('#next').click();
+    await page.waitForURL(base+'/safavid-story.html');
+    await page.goto(base+'/timur-story.html');await page.waitForSelector('button[data-scene]');
     assert.equal(await page.locator('#story-progress').getAttribute('value'),'1');
     await page.locator('button[data-scene]').nth(4).click();
     await page.locator('#next').click();
@@ -66,7 +68,14 @@ try{
     await page.reload();await page.waitForSelector('button[data-scene]');
     assert.equal(await page.locator('#story-progress').getAttribute('value'),'6');
    }
-   const v=splitVolumes.find(v=>v.id===s.id);if(!v)continue;
+   const v=splitVolumes.find(v=>v.id===s.id);
+   if(!v){
+    await page.locator('button[data-scene]').last().click();
+    await page.locator('#next').click();
+    const next=series[series.indexOf(s)+1];
+    await page.waitForURL(next?base+'/'+next.id+'-story.html':base+'/');
+    continue;
+   }
    const data=v.source==='ottoman'?pages:scenes;
    assert.equal(await page.locator('button[data-scene]').count(),v.pages.length);
    assert.equal(await page.locator('#scene-title').textContent(),data[v.pages[0]].title);
@@ -105,6 +114,6 @@ try{
   }
  }
  assert.deepEqual(errors,[]);
- console.log('21教材の一覧・専用ページ・下部の番号と移動先、統合箇所の前後移動・旧入口からの転送・再読込・末尾を幅1280と390で確認しました。');
+ console.log('全128教材の一覧・専用ページ・下部の番号と移動先、統合箇所の前後移動・旧入口からの転送・再読込・末尾を幅1280と390で確認しました。');
  console.log('確認画像: '+output);
 }finally{await browser?.close();server.kill();}

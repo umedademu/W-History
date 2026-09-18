@@ -26,9 +26,9 @@ try {
   let inspected=0;
   for(const width of [1280,390]) {
     await page.setViewportSize({width,height:900});await page.goto(base);
-    assert.equal(await page.locator('.story-card').count(),21);
+    assert.equal(await page.locator('.story-card').count(),128);
     for(const lesson of [1,2,3])assert.equal(await page.locator(`[aria-labelledby="lesson-${lesson}"] .story-card`).count(),4);
-    await page.screenshot({path:path.join(output,`catalog-${width}.png`),fullPage:true});
+    await page.screenshot({path:path.join(output,`catalog-${width}.png`),fullPage:false});
     for(const v of ancientSeries) {
       const scenes=ancientEdition[v.id];
       await page.goto(`${base}/${v.id}-story.html`);await page.waitForSelector('button[data-scene]');
@@ -81,7 +81,7 @@ try {
       await page.reload();await page.waitForSelector('button[data-scene]');
       assert.equal(await page.locator('#story-progress').getAttribute('value'),String(scenes.length));
       await page.locator('#next').click();
-      const next=ancientSeries[ancientSeries.indexOf(v)+1]?.id??'islam-origin';
+      const next=ancientSeries[ancientSeries.indexOf(v)+1]?.id??'c02-l04-p01';
       await page.waitForURL(`${base}/${next}-story.html`);
       console.log(`${width}: ${v.label} ${scenes.length}ページ確認`);
     }

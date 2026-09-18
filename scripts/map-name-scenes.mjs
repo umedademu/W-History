@@ -25,5 +25,9 @@ export async function loadMapNameScenes() {
     ...scene.characterDefinition.cast.map(a=>({text:a.name,at:a.point,kind:'figure'}))
   ]}))});
   chapters.push({name:"ottoman", scenes:['ottoman','ottoman-expansion','ottoman-height'].flatMap(id=>sourceEdition[id]).map(scene=>({...scene,mapItems:scene.animation.flatMap(part=>part.ids.map(id=>({text:entityNameForNarrative(entities[id],part.labels?.[id],scene),at:positionFor(id,part),kind:entities[id].kind}))) }))});
+  for(const number of [2,3,4,5,7]) {
+    const {chapterEdition,chapterPlaces}=await import('../public/chapter-0'+number+'-edition.js');
+    chapters.push(...Object.entries(chapterEdition).map(([name,scenes])=>({name,scenes:scenes.map(scene=>({...scene,mapItems:sceneMapItems(scene,chapterPlaces)}))})));
+  }
   return chapters;
 }

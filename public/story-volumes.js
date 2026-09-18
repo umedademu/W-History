@@ -1,18 +1,6 @@
-import {ancientSeries} from './ancient-volumes.js?v=0.067';
-// 書籍の第1章・第6章の目次に合わせた公開教材。
-// 原文照合用の区分と場面は保持し、表示時に同じ節の内容をつなぐ。
-export const series = [
-  ...ancientSeries,
-  { id: "islam-origin", label: "イスラーム教の成立〜正統カリフ時代", number: "01", lesson: 20, part: 1, sections: ["islam-origin"] },
-  { id: "umayyad-abbasid", label: "ウマイヤ朝とアッバース朝", number: "02", lesson: 20, part: 2, sections: ["umayyad-abbasid"] },
-  { id: "regional-dynasties", label: "3カリフの並立とイスラーム世界の変容", number: "03", lesson: 20, part: 3, sections: ["regional-dynasties", "seljuq"] },
-  { id: "western-dynasties", label: "地方政権の興亡", number: "04", lesson: 20, part: 4, sections: ["western-dynasties", "african-kingdoms"] },
-  { id: "timur", label: "ティムール朝", number: "05", lesson: 21, part: 1, sections: ["timur", "timur-after"] },
-  { id: "safavid", label: "サファヴィー朝", number: "06", lesson: 21, part: 2, sections: ["safavid"] },
-  { id: "ottoman", label: "オスマン帝国", number: "07", lesson: 21, part: 3, sections: ["ottoman", "ottoman-expansion", "ottoman-height"] },
-  { id: "mughal", label: "ムガル帝国", number: "08", lesson: 21, part: 4, sections: ["mughal"] },
-  { id: "islamic-culture", label: "イスラーム文化", number: "09", lesson: 21, part: 5, sections: ["islamic-culture"] }
-];
+import {bookChapters} from './book-chapters.js?v=0.068';
+// 書籍の章・回・節の順に並べる。章内の番号は章ごとに振り直す。
+export const series=bookChapters.flatMap(chapter=>chapter.volumes);
 
 const pageRange = (start, length) => Array.from({ length }, (_, i) => start + i);
 export const splitVolumes = [

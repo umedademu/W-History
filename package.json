@@ -1,6 +1,6 @@
 {
   "name": "w-history",
-  "version": "0.067",
+  "version": "0.068",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,10 +10,12 @@
     "build": "node scripts/check.mjs --published",
     "build:map": "node scripts/build-timur-map.mjs",
     "check:browser": "node scripts/check-map-name-browser.mjs",
-    "build:source": "node scripts/build-ancient-edition.mjs && node scripts/build-source-edition.mjs",
+    "build:source": "node scripts/build-ancient-edition.mjs && node scripts/build-source-edition.mjs && node scripts/build-chapter-02.mjs && node scripts/build-chapter-03.mjs && node scripts/build-chapter-04.mjs && node scripts/build-chapter-05.mjs && node scripts/build-chapter-07.mjs && node scripts/build-book-library.mjs",
     "check:ancient": "node scripts/check-ancient-source.mjs",
     "check:ancient:browser": "node scripts/check-ancient-browser.mjs",
-    "check:source:browser": "node scripts/check-source-browser.mjs"
+    "check:source:browser": "node scripts/check-source-browser.mjs",
+    "check:chapters": "node scripts/check-book-chapters.mjs",
+    "check:chapters:browser": "node scripts/check-book-browser.mjs"
   },
   "devDependencies": {
     "playwright": "1.63.0"
