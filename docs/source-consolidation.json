@@ -5,7 +5,6 @@
     {
       "chapter": 1,
       "title": "オリエント・インドの古代文明",
-      "file": "sources/chapter-01_orient-india/transcription.md",
       "base": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
       "page_start": 15,
       "page_end": 62,
@@ -15,8 +14,6 @@
         2,
         3
       ],
-      "characters_without_embedded_image": 50783,
-      "sha256": "1ae939243dbe1deda58f80ed584498e5035578c3cab7c1048660e2534bf75944",
       "pages": [
         {
           "page": 15,
@@ -308,12 +305,19 @@
         }
       ],
       "base_before_archive": "sources/chapter-01_orient-india/transcription_pages_17-62_merged.md",
-      "embedded_image_sha256": []
+      "embedded_image_sha256": [],
+      "folder": "sources/chapter-01_orient-india",
+      "previous_file": "sources/chapter-01_orient-india/transcription.md",
+      "previous_sha256": "1ae939243dbe1deda58f80ed584498e5035578c3cab7c1048660e2534bf75944",
+      "files": [
+        "sources/chapter-01_orient-india/01_古代オリエント世界の成立.md",
+        "sources/chapter-01_orient-india/02_古代オリエント世界の統一.md",
+        "sources/chapter-01_orient-india/03_古代インド.md"
+      ]
     },
     {
       "chapter": 2,
       "title": "古代の地中海世界",
-      "file": "sources/chapter-02_mediterranean/transcription.md",
       "base": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
       "page_start": 63,
       "page_end": 128,
@@ -324,8 +328,6 @@
         6,
         7
       ],
-      "characters_without_embedded_image": 74523,
-      "sha256": "565d81566a81f93c71739df6e0ea7929647a7c6cdef37d673bfe496211301f40",
       "pages": [
         {
           "page": 63,
@@ -725,12 +727,20 @@
         }
       ],
       "base_before_archive": "sources/chapter-02_mediterranean/2_transcription_pages_64-128_complete.md",
-      "embedded_image_sha256": []
+      "embedded_image_sha256": [],
+      "folder": "sources/chapter-02_mediterranean",
+      "previous_file": "sources/chapter-02_mediterranean/transcription.md",
+      "previous_sha256": "565d81566a81f93c71739df6e0ea7929647a7c6cdef37d673bfe496211301f40",
+      "files": [
+        "sources/chapter-02_mediterranean/04_古代ギリシア世界の成立.md",
+        "sources/chapter-02_mediterranean/05_ポリス社会の崩壊とヘレニズム.md",
+        "sources/chapter-02_mediterranean/06_ローマ共和政.md",
+        "sources/chapter-02_mediterranean/07_ローマ帝国とキリスト教.md"
+      ]
     },
     {
       "chapter": 3,
       "title": "古代の東アジア",
-      "file": "sources/chapter-03_ancient-east-asia/transcription.md",
       "base": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
       "page_start": 129,
       "page_end": 180,
@@ -740,8 +750,6 @@
         9,
         10
       ],
-      "characters_without_embedded_image": 54974,
-      "sha256": "fe0107bb2d5e48bc288249420484f75a7204914ed7724faadf73ed24284a8ddd",
       "pages": [
         {
           "page": 129,
@@ -1057,12 +1065,19 @@
         }
       ],
       "base_before_archive": "sources/chapter-03_ancient-east-asia/china_ancient_130-183_complete.md",
-      "embedded_image_sha256": []
+      "embedded_image_sha256": [],
+      "folder": "sources/chapter-03_ancient-east-asia",
+      "previous_file": "sources/chapter-03_ancient-east-asia/transcription.md",
+      "previous_sha256": "fe0107bb2d5e48bc288249420484f75a7204914ed7724faadf73ed24284a8ddd",
+      "files": [
+        "sources/chapter-03_ancient-east-asia/08_古代中国①（中国文明〜秦）.md",
+        "sources/chapter-03_ancient-east-asia/09_古代中国②（漢〜魏晋南北朝時代）.md",
+        "sources/chapter-03_ancient-east-asia/10_古代中国③（隋〜唐）.md"
+      ]
     },
     {
       "chapter": 4,
       "title": "中世ヨーロッパ",
-      "file": "sources/chapter-04_medieval-europe/transcription.md",
       "base": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
       "page_start": 181,
       "page_end": 252,
@@ -1074,8 +1089,6 @@
         14,
         15
       ],
-      "characters_without_embedded_image": 83914,
-      "sha256": "e1486f29e7c0ae2c49aa9adb81191e46d936a95d800d59995d517742ca85de62",
       "pages": [
         {
           "page": 181,
@@ -1511,12 +1524,21 @@
         }
       ],
       "base_before_archive": "sources/chapter-04_medieval-europe/IMG_3762_transcription_181-252_verified_merged.md",
-      "embedded_image_sha256": []
+      "embedded_image_sha256": [],
+      "folder": "sources/chapter-04_medieval-europe",
+      "previous_file": "sources/chapter-04_medieval-europe/transcription.md",
+      "previous_sha256": "e1486f29e7c0ae2c49aa9adb81191e46d936a95d800d59995d517742ca85de62",
+      "files": [
+        "sources/chapter-04_medieval-europe/11_ゲルマン人の移動とフランク王国.md",
+        "sources/chapter-04_medieval-europe/12_封建社会の形成とカトリック教会の発展.md",
+        "sources/chapter-04_medieval-europe/13_ビザンツ帝国と中世の東欧.md",
+        "sources/chapter-04_medieval-europe/14_十字軍と封建社会の変容.md",
+        "sources/chapter-04_medieval-europe/15_中世の西ヨーロッパ諸国.md"
+      ]
     },
     {
       "chapter": 5,
       "title": "東アジア世界の変容",
-      "file": "sources/chapter-05_east-asia/transcription.md",
       "base": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
       "page_start": 253,
       "page_end": 314,
@@ -1527,8 +1549,6 @@
         18,
         19
       ],
-      "characters_without_embedded_image": 72881,
-      "sha256": "971afc3eb1da092df2b703a4c51bfb92c14f16b3cdb0741d3d04a8ec2194b047",
       "pages": [
         {
           "page": 253,
@@ -1906,12 +1926,20 @@
       "base_before_archive": "sources/chapter-05_east-asia/5_transcription_p253-314_merged.md",
       "embedded_image_sha256": [
         "c2b2387e6a5d37424e5260f4fc8fbd242fae718cf61071fbbe98d1cfa94e3d96"
+      ],
+      "folder": "sources/chapter-05_east-asia",
+      "previous_file": "sources/chapter-05_east-asia/transcription.md",
+      "previous_sha256": "971afc3eb1da092df2b703a4c51bfb92c14f16b3cdb0741d3d04a8ec2194b047",
+      "files": [
+        "sources/chapter-05_east-asia/16_中華世界の変容（五代十国〜宋）.md",
+        "sources/chapter-05_east-asia/17_モンゴル帝国の時代.md",
+        "sources/chapter-05_east-asia/18_中華帝国の繁栄（明・清）.md",
+        "sources/chapter-05_east-asia/19_東南アジア世界.md"
       ]
     },
     {
       "chapter": 6,
       "title": "イスラーム世界",
-      "file": "sources/chapter-06_islamic-world/transcription.md",
       "base": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
       "page_start": 315,
       "page_end": 348,
@@ -1920,8 +1948,6 @@
         20,
         21
       ],
-      "characters_without_embedded_image": 37173,
-      "sha256": "9c9bd9d7a35776c62c40bd43fefef24db80b108c768587ac7fa09bbd98ad99bc",
       "pages": [
         {
           "page": 315,
@@ -2129,12 +2155,18 @@
         }
       ],
       "base_before_archive": "sources/chapter-06_islamic-world/islam_world_transcription_317-348_merged.md",
-      "embedded_image_sha256": []
+      "embedded_image_sha256": [],
+      "folder": "sources/chapter-06_islamic-world",
+      "previous_file": "sources/chapter-06_islamic-world/transcription.md",
+      "previous_sha256": "9c9bd9d7a35776c62c40bd43fefef24db80b108c768587ac7fa09bbd98ad99bc",
+      "files": [
+        "sources/chapter-06_islamic-world/20_イスラーム世界の形成.md",
+        "sources/chapter-06_islamic-world/21_イスラーム専制帝国の繁栄.md"
+      ]
     },
     {
       "chapter": 7,
       "title": "近代ヨーロッパの幕開け",
-      "file": "sources/chapter-07_modern-europe/transcription.md",
       "base": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
       "page_start": 349,
       "page_end": 480,
@@ -2150,8 +2182,6 @@
         29,
         30
       ],
-      "characters_without_embedded_image": 155837,
-      "sha256": "e40785ec527615e02074c79eed9209d645d1fdee2c6c117716047b1e8ecc9927",
       "pages": [
         {
           "page": 349,
@@ -2947,7 +2977,21 @@
         }
       ],
       "base_before_archive": "sources/chapter-07_modern-europe/世界史_350-480_完全文字起こし_統合版.md",
-      "embedded_image_sha256": []
+      "embedded_image_sha256": [],
+      "folder": "sources/chapter-07_modern-europe",
+      "previous_file": "sources/chapter-07_modern-europe/transcription.md",
+      "previous_sha256": "e40785ec527615e02074c79eed9209d645d1fdee2c6c117716047b1e8ecc9927",
+      "files": [
+        "sources/chapter-07_modern-europe/22_ルネサンスと大航海時代.md",
+        "sources/chapter-07_modern-europe/23_宗教改革.md",
+        "sources/chapter-07_modern-europe/24_近世のヨーロッパ①（スペイン・オランダ）.md",
+        "sources/chapter-07_modern-europe/25_近世のヨーロッパ②（イギリス・フランス）.md",
+        "sources/chapter-07_modern-europe/26_近世のヨーロッパ③（ドイツ・ロシア）.md",
+        "sources/chapter-07_modern-europe/27_産業革命とアメリカ独立革命.md",
+        "sources/chapter-07_modern-europe/28_フランス革命.md",
+        "sources/chapter-07_modern-europe/29_ナポレオンの時代.md",
+        "sources/chapter-07_modern-europe/30_17〜18世紀のヨーロッパ文化.md"
+      ]
     }
   ],
   "originals": [
@@ -3223,8 +3267,374 @@
   "original_count": 24,
   "book_page_count": 465,
   "cover_page_from_toc": 15,
-  "version": "0.061",
+  "version": "0.062",
   "editorial_notes_removed": true,
   "legacy_files_deleted": true,
-  "empty_legacy_directories": 7
+  "empty_legacy_directories": 7,
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "古代オリエント世界の成立",
+      "lesson_start": 16,
+      "chapter": 1,
+      "page_start": 15,
+      "page_end": 27,
+      "page_count": 13,
+      "file": "sources/chapter-01_orient-india/01_古代オリエント世界の成立.md",
+      "sha256": "f9024578a68f55bd9c978e6050b753e6668daf004b6b1f5c003b79293351c511",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 2,
+      "title": "古代オリエント世界の統一",
+      "lesson_start": 28,
+      "chapter": 1,
+      "page_start": 28,
+      "page_end": 43,
+      "page_count": 16,
+      "file": "sources/chapter-01_orient-india/02_古代オリエント世界の統一.md",
+      "sha256": "21719e63443aff70618fe3dbc98e62a720724bfdaac0617890069916a628876d",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 3,
+      "title": "古代インド",
+      "lesson_start": 44,
+      "chapter": 1,
+      "page_start": 44,
+      "page_end": 62,
+      "page_count": 19,
+      "file": "sources/chapter-01_orient-india/03_古代インド.md",
+      "sha256": "ea929ebcb3bd84e693788cffacd07ca44e7d7971f9af136e73a9efc0270a2463",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 4,
+      "title": "古代ギリシア世界の成立",
+      "lesson_start": 64,
+      "chapter": 2,
+      "page_start": 63,
+      "page_end": 78,
+      "page_count": 16,
+      "file": "sources/chapter-02_mediterranean/04_古代ギリシア世界の成立.md",
+      "sha256": "be16e648bfaab3c69e9173a7af17045d48f11ae01a5f51c1aaa520b97cdeeaa8",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 5,
+      "title": "ポリス社会の崩壊とヘレニズム",
+      "lesson_start": 79,
+      "chapter": 2,
+      "page_start": 79,
+      "page_end": 94,
+      "page_count": 16,
+      "file": "sources/chapter-02_mediterranean/05_ポリス社会の崩壊とヘレニズム.md",
+      "sha256": "20c99a00c21be93f3587cae0e30e81a3fca5392a83c1ac7079d90c5ab2ac94ec",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 6,
+      "title": "ローマ共和政",
+      "lesson_start": 95,
+      "chapter": 2,
+      "page_start": 95,
+      "page_end": 109,
+      "page_count": 15,
+      "file": "sources/chapter-02_mediterranean/06_ローマ共和政.md",
+      "sha256": "ed45db4cea5eb6a895d56f5c7269080de5b182fbba3fe549bffa809160b46c07",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 7,
+      "title": "ローマ帝国とキリスト教",
+      "lesson_start": 110,
+      "chapter": 2,
+      "page_start": 110,
+      "page_end": 128,
+      "page_count": 19,
+      "file": "sources/chapter-02_mediterranean/07_ローマ帝国とキリスト教.md",
+      "sha256": "a885ff13c6979125822b3156d526d72fff1cadc30a3c2a85a6488ecf006e6178",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 8,
+      "title": "古代中国①（中国文明〜秦）",
+      "lesson_start": 130,
+      "chapter": 3,
+      "page_start": 129,
+      "page_end": 143,
+      "page_count": 15,
+      "file": "sources/chapter-03_ancient-east-asia/08_古代中国①（中国文明〜秦）.md",
+      "sha256": "1ad91d67c3d7df94e6c20240a7afb3a714218cd41ebe4fd7ac5ac5922035c358",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 9,
+      "title": "古代中国②（漢〜魏晋南北朝時代）",
+      "lesson_start": 144,
+      "chapter": 3,
+      "page_start": 144,
+      "page_end": 160,
+      "page_count": 17,
+      "file": "sources/chapter-03_ancient-east-asia/09_古代中国②（漢〜魏晋南北朝時代）.md",
+      "sha256": "9f798bbe2b4ce8a7bede47a6b433699951c413785f7760fd9dfc80f09174d45a",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 10,
+      "title": "古代中国③（隋〜唐）",
+      "lesson_start": 161,
+      "chapter": 3,
+      "page_start": 161,
+      "page_end": 180,
+      "page_count": 20,
+      "file": "sources/chapter-03_ancient-east-asia/10_古代中国③（隋〜唐）.md",
+      "sha256": "3db1c6d9c12adcb8b06d2b7d087858c644b425824b66d1ddca6b2bf70126ebcb",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 11,
+      "title": "ゲルマン人の移動とフランク王国",
+      "lesson_start": 182,
+      "chapter": 4,
+      "page_start": 181,
+      "page_end": 196,
+      "page_count": 16,
+      "file": "sources/chapter-04_medieval-europe/11_ゲルマン人の移動とフランク王国.md",
+      "sha256": "ec3676c9f4862f62ef1d674ddcd4194a5e1a1fc6cbf2dffcdb5234cbc1523aec",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 12,
+      "title": "封建社会の形成とカトリック教会の発展",
+      "lesson_start": 197,
+      "chapter": 4,
+      "page_start": 197,
+      "page_end": 209,
+      "page_count": 13,
+      "file": "sources/chapter-04_medieval-europe/12_封建社会の形成とカトリック教会の発展.md",
+      "sha256": "3890bafd22ffb7424c78bed641efea8a33510bb002f7fc03fd484b693f040dc8",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 13,
+      "title": "ビザンツ帝国と中世の東欧",
+      "lesson_start": 210,
+      "chapter": 4,
+      "page_start": 210,
+      "page_end": 222,
+      "page_count": 13,
+      "file": "sources/chapter-04_medieval-europe/13_ビザンツ帝国と中世の東欧.md",
+      "sha256": "f11fc57de9688ba60149815f419dd9a046fb3aec87095d34d7aa64acac99fc45",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 14,
+      "title": "十字軍と封建社会の変容",
+      "lesson_start": 223,
+      "chapter": 4,
+      "page_start": 223,
+      "page_end": 239,
+      "page_count": 17,
+      "file": "sources/chapter-04_medieval-europe/14_十字軍と封建社会の変容.md",
+      "sha256": "4b61d500da44985ee2038e894bdda94f8b07c26724c0f56b452d6a5f03369ac0",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 15,
+      "title": "中世の西ヨーロッパ諸国",
+      "lesson_start": 240,
+      "chapter": 4,
+      "page_start": 240,
+      "page_end": 252,
+      "page_count": 13,
+      "file": "sources/chapter-04_medieval-europe/15_中世の西ヨーロッパ諸国.md",
+      "sha256": "96ec4b05542cc97e86e9075dcb66d849a4fc4d9f9ebf9683c127d04152b25df3",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 16,
+      "title": "中華世界の変容（五代十国〜宋）",
+      "lesson_start": 254,
+      "chapter": 5,
+      "page_start": 253,
+      "page_end": 268,
+      "page_count": 16,
+      "file": "sources/chapter-05_east-asia/16_中華世界の変容（五代十国〜宋）.md",
+      "sha256": "c964833191e1b30a0e9a1891e3a1b48a690d70456d45712039d6771c5aad7ba9",
+      "embedded_image_sha256": [
+        "c2b2387e6a5d37424e5260f4fc8fbd242fae718cf61071fbbe98d1cfa94e3d96"
+      ]
+    },
+    {
+      "lesson": 17,
+      "title": "モンゴル帝国の時代",
+      "lesson_start": 269,
+      "chapter": 5,
+      "page_start": 269,
+      "page_end": 280,
+      "page_count": 12,
+      "file": "sources/chapter-05_east-asia/17_モンゴル帝国の時代.md",
+      "sha256": "6d7d7728c89213c6195ec7d0c97deda789a47b87a3dd5f8462af4610e225e2ec",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 18,
+      "title": "中華帝国の繁栄（明・清）",
+      "lesson_start": 281,
+      "chapter": 5,
+      "page_start": 281,
+      "page_end": 301,
+      "page_count": 21,
+      "file": "sources/chapter-05_east-asia/18_中華帝国の繁栄（明・清）.md",
+      "sha256": "7893c644440a9975278b1d74f851d3981521482d5679dfd2a00b1023db23aa08",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 19,
+      "title": "東南アジア世界",
+      "lesson_start": 302,
+      "chapter": 5,
+      "page_start": 302,
+      "page_end": 314,
+      "page_count": 13,
+      "file": "sources/chapter-05_east-asia/19_東南アジア世界.md",
+      "sha256": "49d4bd12ef5c2b6c2fc8899057f39398100f6abedbf12f611f934396ce68604a",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 20,
+      "title": "イスラーム世界の形成",
+      "lesson_start": 316,
+      "chapter": 6,
+      "page_start": 315,
+      "page_end": 332,
+      "page_count": 18,
+      "file": "sources/chapter-06_islamic-world/20_イスラーム世界の形成.md",
+      "sha256": "18bd3156f93c4ce96bc0911087a6a6963677888b45e08f2e5c76b534cd9de116",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 21,
+      "title": "イスラーム専制帝国の繁栄",
+      "lesson_start": 333,
+      "chapter": 6,
+      "page_start": 333,
+      "page_end": 348,
+      "page_count": 16,
+      "file": "sources/chapter-06_islamic-world/21_イスラーム専制帝国の繁栄.md",
+      "sha256": "db5cfc267ecb6fa1fe5f0d816d705a46a235b0d04f301dad39320e3d0da6e96b",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 22,
+      "title": "ルネサンスと大航海時代",
+      "lesson_start": 350,
+      "chapter": 7,
+      "page_start": 349,
+      "page_end": 364,
+      "page_count": 16,
+      "file": "sources/chapter-07_modern-europe/22_ルネサンスと大航海時代.md",
+      "sha256": "09f70077edde0d572520c38428b70326db06284c5a6b114fb09e649df95928e6",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 23,
+      "title": "宗教改革",
+      "lesson_start": 365,
+      "chapter": 7,
+      "page_start": 365,
+      "page_end": 380,
+      "page_count": 16,
+      "file": "sources/chapter-07_modern-europe/23_宗教改革.md",
+      "sha256": "19022d9c8737d6168fd7031032ca610eb4fc1c83d824693dd08260dc22b669a5",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 24,
+      "title": "近世のヨーロッパ①（スペイン・オランダ）",
+      "lesson_start": 381,
+      "chapter": 7,
+      "page_start": 381,
+      "page_end": 392,
+      "page_count": 12,
+      "file": "sources/chapter-07_modern-europe/24_近世のヨーロッパ①（スペイン・オランダ）.md",
+      "sha256": "c7eec2d9ded4ce34e96bfe55e32516d426c1ac8e1c5d9c740f34286df8771341",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 25,
+      "title": "近世のヨーロッパ②（イギリス・フランス）",
+      "lesson_start": 393,
+      "chapter": 7,
+      "page_start": 393,
+      "page_end": 409,
+      "page_count": 17,
+      "file": "sources/chapter-07_modern-europe/25_近世のヨーロッパ②（イギリス・フランス）.md",
+      "sha256": "f253084f54c6e39df1fee2d7e648a7b5be42ebe5d4eec27ff6847db16591811d",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 26,
+      "title": "近世のヨーロッパ③（ドイツ・ロシア）",
+      "lesson_start": 410,
+      "chapter": 7,
+      "page_start": 410,
+      "page_end": 427,
+      "page_count": 18,
+      "file": "sources/chapter-07_modern-europe/26_近世のヨーロッパ③（ドイツ・ロシア）.md",
+      "sha256": "b4a1238a4f5bc5cbf955b68706c4dd88d3e32b7dc50d1f4233ab356508540e2c",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 27,
+      "title": "産業革命とアメリカ独立革命",
+      "lesson_start": 428,
+      "chapter": 7,
+      "page_start": 428,
+      "page_end": 444,
+      "page_count": 17,
+      "file": "sources/chapter-07_modern-europe/27_産業革命とアメリカ独立革命.md",
+      "sha256": "9f0b6c49716753f012caa205cd1174d7bb0778d56158507802cddc7c88cd3900",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 28,
+      "title": "フランス革命",
+      "lesson_start": 445,
+      "chapter": 7,
+      "page_start": 445,
+      "page_end": 458,
+      "page_count": 14,
+      "file": "sources/chapter-07_modern-europe/28_フランス革命.md",
+      "sha256": "e68ec2d8e00ebc5e958edd524bb822702408d5fadbb07f7913f8ef2485e217f7",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 29,
+      "title": "ナポレオンの時代",
+      "lesson_start": 459,
+      "chapter": 7,
+      "page_start": 459,
+      "page_end": 471,
+      "page_count": 13,
+      "file": "sources/chapter-07_modern-europe/29_ナポレオンの時代.md",
+      "sha256": "ff758ca021ea934556aa5284644ef7a79deb4d8df2f58bca7e0166603c020828",
+      "embedded_image_sha256": []
+    },
+    {
+      "lesson": 30,
+      "title": "17〜18世紀のヨーロッパ文化",
+      "lesson_start": 472,
+      "chapter": 7,
+      "page_start": 472,
+      "page_end": 480,
+      "page_count": 9,
+      "file": "sources/chapter-07_modern-europe/30_17〜18世紀のヨーロッパ文化.md",
+      "sha256": "d9fac3ba70c7211c292cb9669f361c7072fc09431fd2d70d1f1b17bb927e259d",
+      "embedded_image_sha256": []
+    }
+  ],
+  "lesson_file_count": 30,
+  "layout": "one_file_per_lesson"
 }

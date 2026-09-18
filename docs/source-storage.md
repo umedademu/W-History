@@ -1,33 +1,33 @@
 # 参考書の原文資料の保管方針
 
-2026年9月18日、v0.061。参考書は全7章で構成される。参考書の章番号とアプリ内の教材番号は別の番号である。
+2026年9月18日、v0.062。参考書の全7章・全30回を、1回につき1ファイルで保管する。参考書の章・講義回と、アプリの教材番号は別の番号である。
 
 ## 現在の構成
 
-| 参考書の章 | 統合版 | 範囲 | 回 |
+| 参考書の章 | フォルダ | 回 | ファイル数 |
 | --- | --- | --- | --- |
-| 第1章 オリエント・インドの古代文明 | [transcription.md](../sources/chapter-01_orient-india/transcription.md) | 15〜62 | 第1〜3回 |
-| 第2章 古代の地中海世界 | [transcription.md](../sources/chapter-02_mediterranean/transcription.md) | 63〜128 | 第4〜7回 |
-| 第3章 古代の東アジア | [transcription.md](../sources/chapter-03_ancient-east-asia/transcription.md) | 129〜180 | 第8〜10回 |
-| 第4章 中世ヨーロッパ | [transcription.md](../sources/chapter-04_medieval-europe/transcription.md) | 181〜252 | 第11〜15回 |
-| 第5章 東アジア世界の変容 | [transcription.md](../sources/chapter-05_east-asia/transcription.md) | 253〜314 | 第16〜19回 |
-| 第6章 イスラーム世界 | [transcription.md](../sources/chapter-06_islamic-world/transcription.md) | 315〜348 | 第20〜21回 |
-| 第7章 近代ヨーロッパの幕開け | [transcription.md](../sources/chapter-07_modern-europe/transcription.md) | 349〜480 | 第22〜30回 |
+| 第1章 オリエント・インドの古代文明 | [chapter-01_orient-india](../sources/chapter-01_orient-india/) | 第1〜3回 | 3本 |
+| 第2章 古代の地中海世界 | [chapter-02_mediterranean](../sources/chapter-02_mediterranean/) | 第4〜7回 | 4本 |
+| 第3章 古代の東アジア | [chapter-03_ancient-east-asia](../sources/chapter-03_ancient-east-asia/) | 第8〜10回 | 3本 |
+| 第4章 中世ヨーロッパ | [chapter-04_medieval-europe](../sources/chapter-04_medieval-europe/) | 第11〜15回 | 5本 |
+| 第5章 東アジア世界の変容 | [chapter-05_east-asia](../sources/chapter-05_east-asia/) | 第16〜19回 | 4本 |
+| 第6章 イスラーム世界 | [chapter-06_islamic-world](../sources/chapter-06_islamic-world/) | 第20〜21回 | 2本 |
+| 第7章 近代ヨーロッパの幕開け | [chapter-07_modern-europe](../sources/chapter-07_modern-europe/) | 第22〜30回 | 9本 |
 
-各章の直下に transcription.md を1本ずつ置く。共通の目次は sources/sekai_shi_tankyu_mokuji.md。資料と画像は公開管理の対象外とする。
+ファイル名は「01_古代オリエント世界の成立.md」のように、2桁の通し番号、日本語の正式な題名の順とする。題名は共通の目次 sources/sekai_shi_tankyu_mokuji.md の記載に合わせる。全30本の一覧は[統合・分割記録](source-consolidation.md)にある。
 
-第1章の15ページは目次由来の章名のみ。統合本文の作成方法と確認範囲は[統合記録](source-consolidation.md)を参照する。
+各章の最初の回には章扉を含める。第1章の15ページは目次由来の章名・番号のみ。元のページ番号と第何回の小見出し、図表、埋め込み画像を保持する。章別の transcription.md は分割完了後に取り除いた。
+
+共通の目次は書き起こし30本とは別に残す。資料と画像は公開管理の対象外。教材作成時の本文の補足や対照情報は、アプリ側または docs に記録する。
 
 ## 旧資料の扱い
 
-統合時に保管した旧資料24本は、利用者の明示的な指示によりすべて削除した。空の legacy フォルダ7個だけは自動承認審査によって削除を拒否され、残っている。資料の複製は入っていない。
-
-統合版から編集注・照合保留・出典案内を除いた。今後の教材作成では統合版を参照し、本文の補足や対照情報はアプリ側または docs に記録する。
+統合前の旧資料24本は利用者の指示により削除済み。空の legacy フォルダ7個は前回の自動承認審査で削除を拒否され、残っている。中に資料はない。統合時の編集注・照合保留・出典案内も削除済みで、分割版へは収録しない。
 
 ## 既存アプリの照合記録
 
-既存アプリが参照していた第6章の旧5資料も削除済み。docs/source-edition 内のファイル名・行番号・内容識別値は旧版の記録であり、現在の統合版の行番号には読み替えない。本文・装飾・画像の照合記録に基づく検査は継続する。
+既存アプリが参照していた第6章の旧5資料も削除済み。docs/source-edition 内のファイル名・行番号・内容識別値は旧版の記録であり、現在の第20回・第21回の行番号には読み替えない。本文・装飾・画像の照合記録に基づく検査は継続する。
 
 ## 整理の経緯
 
-2026年9月17〜18日に章別の保管先へ整理した。同18日に全7章を各1本へ統合し、元資料24本を内容を変えず legacy に保管した。その後、利用者の依頼で編集時の追記と旧資料24本を削除した。
+2026年9月17〜18日に章別の保管先へ整理した。同18日に全7章を各1本へ統合し、元資料24本を保管した。その後、利用者の依頼で編集時の追記と旧資料24本を削除し、今回、本文を全30回のファイルへ分割した。
