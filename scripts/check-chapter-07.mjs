@@ -7,6 +7,7 @@ import {chapterSeries,chapterLessons} from '../public/chapter-07-volumes.js';
 import {chapterEdition,chapterPlaces} from '../public/chapter-07-edition.js';
 import {chapterNamesInText,chapterNameCatalog} from '../public/chapter-07-geography.js';
 import {sceneMapItems,normalizeMapName} from '../public/map-name-coverage.js';
+import {pageTitles} from '../docs/chapter-07/capture-plan.mjs';
 const root=new URL('../',import.meta.url),read=p=>fs.readFile(new URL(p,root),'utf8');
 const {files,paragraphs}=JSON.parse(await read('docs/chapter-07/source-selection.json'));
 const plan=JSON.parse(await read('docs/chapter-07/reading-plan.json'));
@@ -71,6 +72,8 @@ for(const v of chapterSeries){
    offset=passage.end;if(offset===p.text.length){paragraphIndex++;offset=0;}
   }
   const narrative=s.plainBody.join('');assert.ok(narrative.length>=100,`${s.id}: 導入・断片だけのページ`);assert.ok(narrative.length<800,`${s.id}: 読み進めるまとまりを再確認`);
+  assert.ok(!/^[〈①②③④]|クローズアップ|図表|地図内|年号のツボ|復習のツボ/.test(s.title),`${s.id}: 省略した整理欄の見出し`);
+  const reviewedTitle=pageTitles[s.sourceText.passages[0].paragraph];if(reviewedTitle)assert.equal(s.title,reviewedTitle);
   assert.ok(!/クローズアップ|年号check|年号のツボ|復習のツボ/.test(narrative));
   const required=chapterNamesInText(s.title+'。'+narrative),items=sceneMapItems(s,chapterPlaces);
   for(const entry of required){const item=items.find(item=>normalizeMapName(item.text)===entry.key);assert.ok(item,`${s.id}: 地図に ${entry.name} がありません`);assert.deepEqual(item.at,entry.points[0]);}

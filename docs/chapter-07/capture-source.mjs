@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
-import {pageGroups,sidebars} from './capture-plan.mjs';
+import {pageGroups,sidebars,pageTitles} from './capture-plan.mjs';
 const root=new URL('../../',import.meta.url);
 const dir='sources/07_近代ヨーロッパの幕開け/';
 const names=await fs.readdir(new URL(dir,root));
@@ -70,6 +70,7 @@ for(const [paragraph,anchor,titles] of [
   plan[index].passages.unshift(...previous.passages);plan.splice(index-1,1);
  }
 }
+for(const page of plan){const title=pageTitles[page.passages[0].paragraph];if(title)page.title=title;}
 await fs.writeFile(new URL('public/chapter-07-volumes.js',root),`// 第7章は目次の第22〜30回・35節に対応する。\nexport const chapterLessons = ${JSON.stringify(lessons,null,2)};\nexport const chapterSeries = ${JSON.stringify(series,null,2)};\n`);
 await fs.writeFile(new URL('docs/chapter-07/source-selection.json',root),JSON.stringify({chapter:7,files,paragraphs},null,2)+'\n');
 await fs.writeFile(new URL('docs/chapter-07/reading-plan.json',root),JSON.stringify(plan,null,2)+'\n');
