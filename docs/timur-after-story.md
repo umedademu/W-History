@@ -6,7 +6,7 @@
 
 ## 入口と目的
 
-`sources/chapter-06_islamic-world/02_timur_and_safavid.md` の p.335 上部「ティムールの死後、各地に封じられた一族が権力を争った」の内容を、地図と人物・建物・道具の画像で理解する全16場面の続編。
+`sources/chapter-06_islamic-world/legacy/02_timur_and_safavid.md` の p.335 上部「ティムールの死後、各地に封じられた一族が権力を争った」の内容を、地図と人物・建物・道具の画像で理解する全16場面の続編。
 
 - 科目選択の下の小さなリンクから `/timur-after-story.html` を開く
 - 前編 `/timur-story.html` と相互に移動できる

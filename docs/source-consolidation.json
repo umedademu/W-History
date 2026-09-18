@@ -1,0 +1,3420 @@
+{
+  "date": "2026-09-18",
+  "scope": "書き起こし相互照合。画像は紙面構成の参考としてのみ使用。原書全ページとの照合は行っていない。",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "オリエント・インドの古代文明",
+      "file": "sources/chapter-01_orient-india/transcription.md",
+      "base": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+      "page_start": 15,
+      "page_end": 62,
+      "page_count": 48,
+      "lessons": [
+        1,
+        2,
+        3
+      ],
+      "characters_without_embedded_image": 52280,
+      "sha256": "3f6dd14cb88bb954984ce2f7ae7dc49d8fbc184ddafd319d4cafddb5c24053dd",
+      "pending_review": [
+        {
+          "page": 47,
+          "title": "ヴェーダの説明",
+          "source": "sources/chapter-01_orient-india/legacy/pages_016-062.md",
+          "excerpt_sha256": "9f93074bda1ab2fd2be6ae282e9a6b3279f643cade558b7794454ffab72c8fc3"
+        },
+        {
+          "page": 58,
+          "title": "叙事詩の説明",
+          "source": "sources/chapter-01_orient-india/legacy/pages_016-062.md",
+          "excerpt_sha256": "56d8e8fda152b66fd6bbe50c21b532ad6d1f238056ca2c7a7d40cf32635283e0"
+        },
+        {
+          "page": 60,
+          "title": "ヴァルダナ朝の南進",
+          "source": "sources/chapter-01_orient-india/legacy/pages_016-062.md",
+          "excerpt_sha256": "17a90c09ebd23eae1f346daf4e78d5d71b3e8a2a46867833bfc46f3391012383"
+        }
+      ],
+      "pages": [
+        {
+          "page": 15,
+          "source": "sources/sekai_shi_tankyu_mokuji.md",
+          "body_sha256": "41a5b0a56920dcd40609a4c588c46fb45f4f1392cff51975223fb6a58399cd55",
+          "characters": 78
+        },
+        {
+          "page": 16,
+          "source": "sources/chapter-01_orient-india/legacy/pages_016-062.md",
+          "body_sha256": "bc34c84724e36a9f083e8f84007d25eafe7f9555a7ec5446dd89319e7ac04a4c",
+          "characters": 451
+        },
+        {
+          "page": 17,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "59702f99d70ecd33bd2b10b9f3aaa888ea9e42f536a9d1e288e3ca1657c5a13f",
+          "characters": 1004
+        },
+        {
+          "page": 18,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "f3e4dd45e92b5d83e38c7784e94a7c07fc93d4009bbd87e479973dfc29839b33",
+          "characters": 1132
+        },
+        {
+          "page": 19,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "b63d5540e2bfbd7d15f06210422b59976eb22eb38abd83565a5df210786c61c2",
+          "characters": 931
+        },
+        {
+          "page": 20,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "e9553fd9c99c0f214a8454f67d6390a1fe453e03f9e99df4943424379e9d6a59",
+          "characters": 817
+        },
+        {
+          "page": 21,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "35d549eb1b14bd3cdeb7c45c01916aaff077111f0632b5e4d8764150a6a4b53b",
+          "characters": 1235
+        },
+        {
+          "page": 22,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "dbe6b3c9a6b5612bf25f1226ded8efc3c8b2bea4f60618dba239ce15aef2b108",
+          "characters": 784
+        },
+        {
+          "page": 23,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "d5a4831f6401899196f2761574deb6eb040123911be90c62092fea35f01c2362",
+          "characters": 1140
+        },
+        {
+          "page": 24,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "dc827eeb87aa8b07a8653800fea942dc72a36360082b636bb32c99438f2e1145",
+          "characters": 1123
+        },
+        {
+          "page": 25,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "7af0e379d8c1f7469570101c79aa6e453e77ff34dc8acd72eb20705a59d3092a",
+          "characters": 1252
+        },
+        {
+          "page": 26,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "bdcfa0660c72324d3892c07f085a855e3d72f340e9a089269f5e8008a1a282c3",
+          "characters": 686
+        },
+        {
+          "page": 27,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "95350343db4d0f2558063b604b26125c48dde07d5acb785c1b6c7e801839a95e",
+          "characters": 850
+        },
+        {
+          "page": 28,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "ff6e5fdbdad8ee8646e2665b12dca2a2c7404ad63d2a64ce303527024cc32fed",
+          "characters": 522
+        },
+        {
+          "page": 29,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "dabb0e99e2ebeb923fa338b58cc765b20086c62909f59686ea1e670046016dac",
+          "characters": 1143
+        },
+        {
+          "page": 30,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "98bc8917b2e56382756d5d9f15a75b57d14316ded152302ae17863cbc1486ddb",
+          "characters": 879
+        },
+        {
+          "page": 31,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "6b7c58199edd830a34e7afabfb1a3b6583ba02c229c516e2cc580dbe8f535096",
+          "characters": 1145
+        },
+        {
+          "page": 32,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "77e3468047d637b80da443629a93fc5bcbb27ed153bd0888c24781de4afd35ad",
+          "characters": 968
+        },
+        {
+          "page": 33,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "13c82b17f2dc7b09e6865392223c2e88f0fad888e1c44d571d6e35ac45b5a5a3",
+          "characters": 1128
+        },
+        {
+          "page": 34,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "576e9d1b3e48de64d0ed12832071bf1d8c805c7c7fa155b3a6f8f986ae17ed79",
+          "characters": 774
+        },
+        {
+          "page": 35,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "e096a685d9f1dff3a348e7963aeb95697166fde9a61fa25c28f8ac13a74bf0d0",
+          "characters": 796
+        },
+        {
+          "page": 36,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "96eaa00261a8e825db9a55744667891f51690162d0b2b4b30a04bb99c388ab5e",
+          "characters": 1017
+        },
+        {
+          "page": 37,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "3192d65a41fc008b77edd87763e35054dabe07bdaf2aff3aac315213ad8a8b89",
+          "characters": 991
+        },
+        {
+          "page": 38,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "2bc557fa92d13edab5ac83674ed9eda4a5c92a1e70c05e9726624e356c2fdd80",
+          "characters": 1217
+        },
+        {
+          "page": 39,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "a5dc38e7412462d2d72d6861f21bcd0c0453881337ca2f1f8acd1413170641d7",
+          "characters": 1157
+        },
+        {
+          "page": 40,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "709facd85d0372d9bbcc5dce672e3c58b5c71ad2f890e11308196c98997ec3b1",
+          "characters": 746
+        },
+        {
+          "page": 41,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "70976624284d0a5ceda459a457623ab1ef041fa291189d0451691faa5ff5cdc1",
+          "characters": 1317
+        },
+        {
+          "page": 42,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "031640143051cf849018cc4f51327403d2ba66a046c30868b8282b40114db3bb",
+          "characters": 840
+        },
+        {
+          "page": 43,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "77c2f84bb44a84235f0c623f15bd6814d8913ac9f97a214b1580e9a3a26b2682",
+          "characters": 1246
+        },
+        {
+          "page": 44,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "93ed234c9d1cbd0353bf57a2208104dddf4fe262dd2a60c922b5e8d8771482e4",
+          "characters": 521
+        },
+        {
+          "page": 45,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "7ada41dc13c1422cbbb390357e563e19c3f0aef35af8784ace2d769408393d17",
+          "characters": 1303
+        },
+        {
+          "page": 46,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "b546c139e67ef09757ca26311b0c1271e1da09a261731f76165c788291d1f8fe",
+          "characters": 1110
+        },
+        {
+          "page": 47,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "be869a7f446b0cbc67fa368b4767dad477c0e6df232e1d3fd8e9c1b3ea0b21f9",
+          "characters": 1299
+        },
+        {
+          "page": 48,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "ceb58a1a530138b19dd89086fe12997dfaf9558c69d9c804bc23ec28696ea977",
+          "characters": 1104
+        },
+        {
+          "page": 49,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "0db7e25b080527bb298a62e02d4a061e4b7bdc2283cc7b2efd732acb63f9006b",
+          "characters": 1486
+        },
+        {
+          "page": 50,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "1565351dde487736b441ad861a34908dd78b659ab34a2795f92c902ae1f2c2aa",
+          "characters": 1187
+        },
+        {
+          "page": 51,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "a1a48aee80d012d39b48a33c33f17db375afb29247225bef88f495a68acceb7a",
+          "characters": 1232
+        },
+        {
+          "page": 52,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "90c2e0ac3ed49d78b999a91aee65aa30652a31411dfc5e7728ba75c070b5772f",
+          "characters": 1215
+        },
+        {
+          "page": 53,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "1664c458cd0cced0b50b044f7fc2df37b6f118b70c75f20970645b640cd8a8ed",
+          "characters": 1402
+        },
+        {
+          "page": 54,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "74f17778ab4caa412cf49a2f3842a3c42899d08311661f3a5bb5c5b60a2a0577",
+          "characters": 912
+        },
+        {
+          "page": 55,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "cc8f064f5dad719e2b4b4f67d03b81ee5d211cb1a22a5ba43109288e991df5b5",
+          "characters": 1372
+        },
+        {
+          "page": 56,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "d85503953b87c3c15e42d27f1af1800f83605d41443ea7fe7c1f61fe84a3387d",
+          "characters": 923
+        },
+        {
+          "page": 57,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "52a89fd723a942dc63e3b68f405ed97d4a1c953d0a1025a891c35f3454344d54",
+          "characters": 1345
+        },
+        {
+          "page": 58,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "1cf667381819cb6793372770d1af6c780a452a70db0cd32753be83fef372a7e2",
+          "characters": 1217
+        },
+        {
+          "page": 59,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "60ad37107bc13484e92c8353f746904f304e628ef3f3db319888e8c6521515e4",
+          "characters": 1511
+        },
+        {
+          "page": 60,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "7ac5d14759485deb9996f094fb02e8ef013002cbe2eb6755feadf78d88f2e407",
+          "characters": 1164
+        },
+        {
+          "page": 61,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "615b7b9e2a22f3b4101c4a93be07e98190dc205b3319d9bad71959ec83f92bf3",
+          "characters": 1349
+        },
+        {
+          "page": 62,
+          "source": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+          "body_sha256": "99fdf02e16c8bfe29d826b8f291ab3102eb44d876f6f0cea4e8a70f6b77fdae3",
+          "characters": 1130
+        }
+      ],
+      "base_before_archive": "sources/chapter-01_orient-india/transcription_pages_17-62_merged.md",
+      "embedded_image_sha256": []
+    },
+    {
+      "chapter": 2,
+      "title": "古代の地中海世界",
+      "file": "sources/chapter-02_mediterranean/transcription.md",
+      "base": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+      "page_start": 63,
+      "page_end": 128,
+      "page_count": 66,
+      "lessons": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "characters_without_embedded_image": 74740,
+      "sha256": "a3636ebd12c230f9871ae3c9fbb38b9da92ec2cf32f799d3e923234c0d06f46f",
+      "pending_review": [],
+      "pages": [
+        {
+          "page": 63,
+          "source": "sources/chapter-02_mediterranean/legacy/pages_064-128.md",
+          "body_sha256": "146e6feb503f60ef84b4a05ae4b1c7c02e9eacf4686e8f754fc35fb2c8895416",
+          "characters": 16
+        },
+        {
+          "page": 64,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "7be40c9ff7ef8f5b586b29020403e66bfa4f90cfd4d864a648ff7824751ce62f",
+          "characters": 562
+        },
+        {
+          "page": 65,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "0223db4722f175dee6acbcfba6ee8e7f961ad60699bd1114d201454c8bb58577",
+          "characters": 1015
+        },
+        {
+          "page": 66,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "a2419412bdbc7ae021bccc455e3cf7962673c42454ddceb9f81ae0190d89fa50",
+          "characters": 1239
+        },
+        {
+          "page": 67,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "3698fe3df6445420e3998691a64fa9255a484cadefc25920253e64c5054738c1",
+          "characters": 1266
+        },
+        {
+          "page": 68,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "0c4e7d2fdd2af6e99b275939418490eb52f5af38c17da9defe9b4d013233134f",
+          "characters": 1014
+        },
+        {
+          "page": 69,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "dae7278edceef69a143ad40040365710e47c8cd55fd8b807ed118cd08d92d599",
+          "characters": 1397
+        },
+        {
+          "page": 70,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "ed35595d78b65c988c9804d32b2b2c265aaf0275a434fe625d5567ff98541e07",
+          "characters": 956
+        },
+        {
+          "page": 71,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "2feb70eb5ccbb92f76e91c4fb88d66d4407f83691775e470c012e7ec68794694",
+          "characters": 1293
+        },
+        {
+          "page": 72,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "be846deed6a1ea39bcf972c0cd60258ee3f0a4cc9d95a0d58cd78dadf2baaa05",
+          "characters": 1191
+        },
+        {
+          "page": 73,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "2164842ee162920144a8614ae389be6b4bb849e051d49985e5eab3090341733e",
+          "characters": 1246
+        },
+        {
+          "page": 74,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "c1ae396e39614f89b6bf10b5e6de10ea54a7698a638de7e5c9f41f3da4fc546f",
+          "characters": 1185
+        },
+        {
+          "page": 75,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "563685fea0362aa22da0c05616d17aa6fe1abbc3f686421587720f52dc9adb0c",
+          "characters": 1230
+        },
+        {
+          "page": 76,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "c0cbd619161729a105627a890c5c2399493771d293f977d1b54a35a34ec34924",
+          "characters": 859
+        },
+        {
+          "page": 77,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "de24dbc62fd5e7526b4a0b64ffcab45a426d5b0cff01bda085526abfc19b92dd",
+          "characters": 1271
+        },
+        {
+          "page": 78,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "effa300610f4841c462f33e4c15916df58f4cc9077269fbaa7a42c1ab186cb1e",
+          "characters": 1267
+        },
+        {
+          "page": 79,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "6c07b80de87fa67e5ef6770549820c32a311d66a29d05ce4031339292c8558a6",
+          "characters": 584
+        },
+        {
+          "page": 80,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "258dff342ac7638cf960a4d7a9bf7e0e8e7605567c2aca0a93b8692a29b29851",
+          "characters": 1239
+        },
+        {
+          "page": 81,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "898cb90967423835ae8635ffc9479cbe55e9a8d5d4bc8e78664738514e31728c",
+          "characters": 1155
+        },
+        {
+          "page": 82,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "38c1fe317e608985be374a2b45ae002743abcb784cc57ffbfb21fb0a450dceea",
+          "characters": 1145
+        },
+        {
+          "page": 83,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "13ace0f8885a9f9c5a2dbe9a45e99d7d2f7a3fffe215eb5cff448e9a306e9a64",
+          "characters": 1008
+        },
+        {
+          "page": 84,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "ada94db3342ca8f00760a3f2d8f77308f9993aa53048d6c6a06d9f04bb30e6dc",
+          "characters": 999
+        },
+        {
+          "page": 85,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "560dffe8f7b06665a4a30336c56e58ec63d5ced676363b6c18a758ae6c117e8c",
+          "characters": 1435
+        },
+        {
+          "page": 86,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "78615df223568dcd52c146bc2394a8bccd5ce3b7b9beaa7659a10e841d53821d",
+          "characters": 630
+        },
+        {
+          "page": 87,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "456ffb1ad3a2c491fad8e017ed73d9e10e3824641f26307dfe87246c749201ef",
+          "characters": 1434
+        },
+        {
+          "page": 88,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "9e6e791070f7cafd6e4c177e0b2782db97d2415cdcdbd1a8088daa5b85b66ff2",
+          "characters": 966
+        },
+        {
+          "page": 89,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "2ef1901ddf52be70ab50daef7a67a19e17ae6203328c186a05b7760bd8c75f07",
+          "characters": 1189
+        },
+        {
+          "page": 90,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "48f6b7220ca817ca164dbdd14cdd651f50469e53c8290efa74d464724844517e",
+          "characters": 1299
+        },
+        {
+          "page": 91,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "5aab6305483ac49c4f516c32e584bfc9e7e649ce84a4c183baafc466466d7f3b",
+          "characters": 1369
+        },
+        {
+          "page": 92,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "f62f02daa13c8f0553bd67dd72e49abf98bbf43f70419c81b49f96787faaff95",
+          "characters": 1308
+        },
+        {
+          "page": 93,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "f5a2815cce92cce24a8c0b1aadd70e965d48378b464b107e126048663d154343",
+          "characters": 1155
+        },
+        {
+          "page": 94,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "7e84aff7a73b168802fb0d65d922e7e4400e0d6e1c2ab0d2d075b567210807be",
+          "characters": 1089
+        },
+        {
+          "page": 95,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "7bd0d3882522c031d7b92529ddbc65d7396426842f6d5f6e7913a0f0cd41834e",
+          "characters": 527
+        },
+        {
+          "page": 96,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "95f0e570561d718254ac51cebfddb83a5d3aff6843fa71de6beae74368000b02",
+          "characters": 1284
+        },
+        {
+          "page": 97,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "e586033f01aecf237855963bf560be39c521835bb398f797092be74808b12a18",
+          "characters": 1187
+        },
+        {
+          "page": 98,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "fc69d899062376669e87fce5ee3fea6f9dc48b761a605623964970981ced80f4",
+          "characters": 1160
+        },
+        {
+          "page": 99,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "4801e2e5ebe6cff475e8b57d5901116e6a9b0a7912737b94f4e3572242950c7d",
+          "characters": 1117
+        },
+        {
+          "page": 100,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "611322fc33ed8a3a52edd0b3ef6d8d0df62f54f1be973c46c4e47c374f036689",
+          "characters": 1219
+        },
+        {
+          "page": 101,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "5c31ede7e9b1c4b96ceaf8557ceeeb28570fc9d32e2c9e179d939ae06d26fd7f",
+          "characters": 1007
+        },
+        {
+          "page": 102,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "f5e552b3e73eeed841029f0525ecfac313c0807a761ed7652b15aff3cc6809e1",
+          "characters": 1287
+        },
+        {
+          "page": 103,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "060eebb922b178b9a146867c4fa41930d808a535be1be7d56675f7d8946afd18",
+          "characters": 1307
+        },
+        {
+          "page": 104,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "19fea5c040c43b96c132a7396ce687b99485ffd726fb1bf50d076c6ba18c7601",
+          "characters": 1353
+        },
+        {
+          "page": 105,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "8cf5a6aa827986057a101e4ee7eb76fadadcd532fc6ed83ef6c623e583db0170",
+          "characters": 971
+        },
+        {
+          "page": 106,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "a6a0ff77d41d939ebad22dce3d31fa681b3a6a88f3cecba61e4d64515e681383",
+          "characters": 1141
+        },
+        {
+          "page": 107,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "95b15b78911f51da95d3496dcfb434c31d33972d01ac40a33d2b8a5b43fa591c",
+          "characters": 982
+        },
+        {
+          "page": 108,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "6ae4bc05d89988a0db85f07f8f49c69b1c0a4a30a336685a00c80365d47d005c",
+          "characters": 907
+        },
+        {
+          "page": 109,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "2fc60758337b14f0739e62f26ac9ef3f19cb88a2af8c470c971bc9d77eddec65",
+          "characters": 1144
+        },
+        {
+          "page": 110,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "9e26f9744635da452aca29afcaf4c58135d44793bf472310cef1862e1228c0a7",
+          "characters": 510
+        },
+        {
+          "page": 111,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "9b12ca332f7eb2bae66a91b771891f3cffe03b294b831fb52cb71ae455bf6daa",
+          "characters": 1221
+        },
+        {
+          "page": 112,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "e768bbe9dacfab87b912f60b3b1ab3211f85748ca3179fa532d7c93efe1d7e56",
+          "characters": 1293
+        },
+        {
+          "page": 113,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "aafa4602a9b4974ad30640a3e505f79e4b229ccd3192dbc99c5e044ae9eca7b4",
+          "characters": 1386
+        },
+        {
+          "page": 114,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "9ee1c2d5498859cd0cad11676f9ffd32b2ad1c918730b1bbee8f6b0e803f9f4c",
+          "characters": 1215
+        },
+        {
+          "page": 115,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "0a7a630e45a8fe36e3525c5d8efb5c386341b8266418ed471772c8a64f93e1e3",
+          "characters": 946
+        },
+        {
+          "page": 116,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "1db94622270667195ec236c1e7c6e86099d1544713a48089ce2ecb5e1e194d89",
+          "characters": 1134
+        },
+        {
+          "page": 117,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "76f3e155ee365d879e32575be97bdc09a0823973b2ff8d8af2f2fb5665f3d207",
+          "characters": 1284
+        },
+        {
+          "page": 118,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "f438a1352faa8a0d441c5fbd0ea534f38ab014f2cb824709a9d253d7c909af8e",
+          "characters": 1064
+        },
+        {
+          "page": 119,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "f3cabc2883744a1f93c5b6dcf1c0147ad9c27e2deab7a62de409b69f4c81d199",
+          "characters": 1463
+        },
+        {
+          "page": 120,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "1c0fad67bdb9db3859af432ff6376c81cb78e9c98fb3c29aa399e481f0a4d731",
+          "characters": 1195
+        },
+        {
+          "page": 121,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "76229838590ebd5a7b6246d48af42869631be5509da88f74f5c328fcd4c27117",
+          "characters": 1249
+        },
+        {
+          "page": 122,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "3d72e88499a2e153b8d260316464e20bbee5501a2e288e673e70e128a3aab6c1",
+          "characters": 820
+        },
+        {
+          "page": 123,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "7d4e9b6e6a9b5a75fc2d13f0631b93c017121ba5555fb3a5af16f969ffdfa105",
+          "characters": 1373
+        },
+        {
+          "page": 124,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "94aa34858eb6ede8f80b622695ab48a0ac4470beaecb6f40d8e77e772c3333e2",
+          "characters": 1222
+        },
+        {
+          "page": 125,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "5a5edfc9454335eaff30c6fd17d434873de4e13ea8330a9be89031ad3bd46ade",
+          "characters": 1189
+        },
+        {
+          "page": 126,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "a2a4e9a37d9374755fd8f5c2a03e019e373a0c7906e9331c2ece67ff1be595b8",
+          "characters": 1027
+        },
+        {
+          "page": 127,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "26e091c104655e08d3d42d0619689a2381ccc2d9402bc7899ababaf72636d033",
+          "characters": 1261
+        },
+        {
+          "page": 128,
+          "source": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+          "body_sha256": "5c2617c44635d792dc8650b18ea98a2dd05a235d57f2e6e79c271297314af48e",
+          "characters": 1104
+        }
+      ],
+      "base_before_archive": "sources/chapter-02_mediterranean/2_transcription_pages_64-128_complete.md",
+      "embedded_image_sha256": []
+    },
+    {
+      "chapter": 3,
+      "title": "古代の東アジア",
+      "file": "sources/chapter-03_ancient-east-asia/transcription.md",
+      "base": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+      "page_start": 129,
+      "page_end": 180,
+      "page_count": 52,
+      "lessons": [
+        8,
+        9,
+        10
+      ],
+      "characters_without_embedded_image": 56597,
+      "sha256": "1247efd7d85c5fd8148922fbca64247b25424137c158cb6acd6b8b73259632af",
+      "pending_review": [
+        {
+          "page": 132,
+          "title": "夏王朝と二里頭遺跡",
+          "source": "sources/chapter-03_ancient-east-asia/legacy/pages_129-180.md",
+          "excerpt_sha256": "8233044041372936394c6b5202e0430af9058262f3477893805790f7c86f1fa2"
+        },
+        {
+          "page": 159,
+          "title": "六朝文化の人物・作品",
+          "source": "sources/chapter-03_ancient-east-asia/legacy/pages_129-180.md",
+          "excerpt_sha256": "92d179e50538d2c10e960c975c82ace2f2d0af7286f811acce9fa65a18132325"
+        },
+        {
+          "page": 179,
+          "title": "唐代の文学・古文復興",
+          "source": "sources/chapter-03_ancient-east-asia/legacy/pages_129-180.md",
+          "excerpt_sha256": "7609f6106ff33f4ea33d9054c01005f32de8b7056f53eb48dad58fd85ee2f7d5"
+        }
+      ],
+      "pages": [
+        {
+          "page": 129,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/pages_129-180.md",
+          "body_sha256": "657a0db10a718e629f5c6d35012cadda21c45253e2490062bbb0a3a57d4d42f4",
+          "characters": 15
+        },
+        {
+          "page": 130,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "c3001bda13f25be2864cae1726782472f42e13b84158eaa1ed31c63772e21b93",
+          "characters": 561
+        },
+        {
+          "page": 131,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "9b22d2444f05b661e72e800e5a84aae69773315abe53f4d134a98ad492bf9a24",
+          "characters": 1123
+        },
+        {
+          "page": 132,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "f9d3ac25ac5178e514bc84bdcab7155fafae4411306b37e26bc3675beee9adf9",
+          "characters": 878
+        },
+        {
+          "page": 133,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "d25050f1e9b3dd7011385245022e2a5f68d9e18105129e88067b7560bcc9c4a6",
+          "characters": 1143
+        },
+        {
+          "page": 134,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "d11ffcb7b823d91d73ea83e6455df47fd19f76dd3b22d1bf9ba8fcd541e380ff",
+          "characters": 1112
+        },
+        {
+          "page": 135,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "cdc44b9c0b1e972b81734aebf57761a114fc3c863a185b5760e97ffa04cfaceb",
+          "characters": 1120
+        },
+        {
+          "page": 136,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "c2e2afd12d91a5d99461f4c2c1f11cb920f0f488798277bccbfc206824813990",
+          "characters": 881
+        },
+        {
+          "page": 137,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "cb2db4fb1be17ff1a17d5b90baec1934c9b10face61953c63bb5dbeeccfe51f8",
+          "characters": 874
+        },
+        {
+          "page": 138,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "4d245de7aca74f96d341db9158217725c6a656c4814fac4c565a524d73ebcfcb",
+          "characters": 1092
+        },
+        {
+          "page": 139,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "b2440f1e4eb53fcee3072ac3db2d6faea213d41445998f9962519838d53b5973",
+          "characters": 1256
+        },
+        {
+          "page": 140,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "e1b65435e7ffd7e7c6f0917b7a8733918d1ee4400a86fbbf7b25024589cb5db9",
+          "characters": 1027
+        },
+        {
+          "page": 141,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "a67c34f7e7368306d88dc7a0a998134b56243571e8ba1fd37beae3d2759b2fe3",
+          "characters": 1330
+        },
+        {
+          "page": 142,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "7d5582d5643d2cfdb1bb307109f18eddf2592ab7172e19ed07f9c5b0b927c039",
+          "characters": 814
+        },
+        {
+          "page": 143,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "72ea441fb71c524816c36a530d76953d2d0336be6e3a97bf254d6b6d5afea3a4",
+          "characters": 1126
+        },
+        {
+          "page": 144,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "c47cf1f9e241296cb7843f4833a6d4b222a84f7cabc3dc22f9839259a489913e",
+          "characters": 595
+        },
+        {
+          "page": 145,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "d7e96f24f7116aff747e45d9b5d1178e51f8362d5d7503aea625ad2c7378b5e8",
+          "characters": 1026
+        },
+        {
+          "page": 146,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "96bb8f86815009cd44c0d202928b11233af5e5d9a1e0806d205e4bb5d959b3c7",
+          "characters": 985
+        },
+        {
+          "page": 147,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "b075c30e16041ff3979be626be686cb7f69f05c55bf2955ae3e7ee7584e41de4",
+          "characters": 1222
+        },
+        {
+          "page": 148,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "48e5d1ddd52cb080a813bf86006788d34a7512524439833194a10680d481a1b4",
+          "characters": 849
+        },
+        {
+          "page": 149,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "49a94bf1a57229b7360d4c5dd29bd9a68a159d4a70b98771da7eaf63fb7eb338",
+          "characters": 1132
+        },
+        {
+          "page": 150,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "5bc1d3021adb3d1d157df8f096f3b3801a025ed9e33d804a785ae04e9d2c765b",
+          "characters": 1050
+        },
+        {
+          "page": 151,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "f14f43090715bc3d6b0fbc6e5fc6302f8e513520e95a56d24b76696dc3eef6a9",
+          "characters": 853
+        },
+        {
+          "page": 152,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "9165ec6c2fdb66dc075f39e9e966bd2398084aebb84a527f0221021579fb669e",
+          "characters": 1136
+        },
+        {
+          "page": 153,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "8e795e68cef496cb503fd443a9e44acceeff4d678e8d61639544fb20d7bdd7ed",
+          "characters": 1159
+        },
+        {
+          "page": 154,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "2e5d4672fc4c6bbb1a77436202359d50bf537fe0d7c7f3e214e0d906043630d5",
+          "characters": 1036
+        },
+        {
+          "page": 155,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "f3a6c962b9563440193bbe6b92dab4285a66b73b8e78ba2c94dfcf580969b99c",
+          "characters": 1087
+        },
+        {
+          "page": 156,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "7008f57883eaff194ab186597ed6f20021f30be26b1e85eb2b5fd71a57ef041b",
+          "characters": 1109
+        },
+        {
+          "page": 157,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "1f88802ca511f3d70a4ffb20e86f2adae2be23d9b784f320f9653de6ea53ec2d",
+          "characters": 1192
+        },
+        {
+          "page": 158,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "4fe0f326497765309c2d413a37a39fea3268d555595fa4ff815f878f551351c1",
+          "characters": 1162
+        },
+        {
+          "page": 159,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "294ba2c66f963c131716f6ca0750ee9866bf8bc75f3e4e8c57f4468d87739c7c",
+          "characters": 1245
+        },
+        {
+          "page": 160,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "f1b8b039b094c1d63c99aefe80d105ec0306567423173a3c5564dafb280deba0",
+          "characters": 702
+        },
+        {
+          "page": 161,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "deec38e954f20b53f300de4a425488ff3a5daf9587f9d058d1e832b7f59a3de4",
+          "characters": 644
+        },
+        {
+          "page": 162,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "3359758e53797eaf21b0ea44516f8ed5602da092c6320fc5335f3e1b2a9280d4",
+          "characters": 1110
+        },
+        {
+          "page": 163,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "8ab92d73b5ac3563d1da30f1e09deead9e38c4135acdab400f2e2a4ce7f2a3bf",
+          "characters": 1122
+        },
+        {
+          "page": 164,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "6ec3df2b2b4ecbcee64e6e57a90efbb945dfa98c31fac1c04eb72bd2501b2185",
+          "characters": 1090
+        },
+        {
+          "page": 165,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "74aa61cecb9041379b69ceac7a1bc64b1f14e12c8fd525b25a87292feded83b3",
+          "characters": 1146
+        },
+        {
+          "page": 166,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "702ac2e27bb92eaaa9af79ed3a2703deb7f41950d1a278c16839806488b21d0a",
+          "characters": 1255
+        },
+        {
+          "page": 167,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "8d2312c9db7524f1d196d80e4de6a454331fa10096c7d8e92be71931d60a7e3b",
+          "characters": 1316
+        },
+        {
+          "page": 168,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "e2c7e54f73cbb56a9a802a8fe9e666cb8e90b92099a0863b2f306d2198194a5f",
+          "characters": 1123
+        },
+        {
+          "page": 169,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "0f4c5ff5f299d259c02726fe48b7896427c1d69064bf9891fbb45e9a495ba07c",
+          "characters": 841
+        },
+        {
+          "page": 170,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "967299e67a863aedb7059624d47b8148e97ade1d207a888a4ab198f808d82f4d",
+          "characters": 1215
+        },
+        {
+          "page": 171,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "e209571fd9aba2a0e7d5d25249fb8b847cbe1b152812435a643a2a02da21a148",
+          "characters": 1205
+        },
+        {
+          "page": 172,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "2409756b405b432cc3972629b7c11a554e7844afa7cb9971037f9ce9da55000b",
+          "characters": 1224
+        },
+        {
+          "page": 173,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "48b1a1503e984d54c131ec1234783df78072aafef96db5a23a758ec330d3efac",
+          "characters": 1283
+        },
+        {
+          "page": 174,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "8509e48cf526937d9f6159c6847e338934650195d9d48355c1bb45f09ddddbd5",
+          "characters": 951
+        },
+        {
+          "page": 175,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "15a5aa6b717fe749192fff8784fcb9cede43007453f1db82602cd4f9e7ac0c93",
+          "characters": 792
+        },
+        {
+          "page": 176,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "509e64cabd78a73fe8f3078ceba37ad8c929e2f209cf7ddfadd37e61be127158",
+          "characters": 1251
+        },
+        {
+          "page": 177,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "729e846ef738b52d3d3c176283ab6c82b9ba43aaf4e9cf10aa54e2793e828493",
+          "characters": 1234
+        },
+        {
+          "page": 178,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "f4a67eaa07e1848f1bdd080baadacbc4607be893cefd276f182bd8d99438f6d1",
+          "characters": 1272
+        },
+        {
+          "page": 179,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "3042cb3f6f9c4a3738d499f1a9fa10a02081a8c0b09bf42baad34d952eac14d5",
+          "characters": 1153
+        },
+        {
+          "page": 180,
+          "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+          "body_sha256": "8c4f1467bed504a8356bcf6dd5b8ac10dea24d0151203384b4bc366f0899b8e0",
+          "characters": 1066
+        }
+      ],
+      "base_before_archive": "sources/chapter-03_ancient-east-asia/china_ancient_130-183_complete.md",
+      "embedded_image_sha256": []
+    },
+    {
+      "chapter": 4,
+      "title": "中世ヨーロッパ",
+      "file": "sources/chapter-04_medieval-europe/transcription.md",
+      "base": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+      "page_start": 181,
+      "page_end": 252,
+      "page_count": 72,
+      "lessons": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "characters_without_embedded_image": 85573,
+      "sha256": "1f394b0ae2fa3d5f02210e6024097a1744fb4120c6a0916e14c146e834cb3472",
+      "pending_review": [
+        {
+          "page": 212,
+          "title": "ユスティニアヌス帝の遠征と将軍",
+          "source": "sources/chapter-04_medieval-europe/legacy/pages_181-252.md",
+          "excerpt_sha256": "21049dacc5853798b3de4a85d667f1af29eae0ad6f6f1b9e19201933ebe878b5"
+        },
+        {
+          "page": 214,
+          "title": "軍管区の司令官",
+          "source": "sources/chapter-04_medieval-europe/legacy/pages_181-252.md",
+          "excerpt_sha256": "7e313a29eefd004bf78a82c76dfd9efd6387b293598411e901e0060caa69cc3d"
+        },
+        {
+          "page": 218,
+          "title": "スラヴ人の区分とポーランドの建国",
+          "source": "sources/chapter-04_medieval-europe/legacy/pages_181-252.md",
+          "excerpt_sha256": "63a6462c88a265db1569fb9eb05784df0147983ecf751c509c5645713f0c3f47"
+        },
+        {
+          "page": 219,
+          "title": "ポーランド女王の名前",
+          "source": "sources/chapter-04_medieval-europe/legacy/pages_181-252.md",
+          "excerpt_sha256": "e5408277ca7b0ca351e62adbfa2301b709f3da407a2097d8b6aa97886b5deb4b"
+        },
+        {
+          "page": 235,
+          "title": "コンスタンツ公会議の新教皇",
+          "source": "sources/chapter-04_medieval-europe/legacy/pages_181-252.md",
+          "excerpt_sha256": "f766c989c5a3183155372432980e0719da9a3a9fa15af67bca6bd8de4f54d33a"
+        },
+        {
+          "page": 236,
+          "title": "普遍論争の人物",
+          "source": "sources/chapter-04_medieval-europe/legacy/pages_181-252.md",
+          "excerpt_sha256": "da3ad7acc58d02f8f077198b05c952a6c49216335c8ae24f44c33796983a6904"
+        }
+      ],
+      "pages": [
+        {
+          "page": 181,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "d5fc81c339e75d8a7a4555b51101138cac4d934eea2ce4637fdf7de45eaff5de",
+          "characters": 20
+        },
+        {
+          "page": 182,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "46838eb2cff183e6ae49be6f64d069ce2117f67a5254e13dd61824c1ae94e01b",
+          "characters": 635
+        },
+        {
+          "page": 183,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "a9cf3edfea5dbc34ef6b3553a054e39a5e7728444c50084836dbf51ebe879568",
+          "characters": 1204
+        },
+        {
+          "page": 184,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "8d1b80671b0fe8ca2253873b75507499f16a1d3d476f64b0a5ab360e997793bd",
+          "characters": 943
+        },
+        {
+          "page": 185,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "6490912358e2778af3199fda6be18f8050d2b0a8a82bcbf3cacd6814f2bb47da",
+          "characters": 1361
+        },
+        {
+          "page": 186,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "d8d5d01d3097d5d7f8f1211e4a07ab210a543d241a58faa4f2ca9f946e8c6fb9",
+          "characters": 1359
+        },
+        {
+          "page": 187,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "fb34b231486e76ecbab0f4b20c94541b34e8bdf1e4af150b8a9b3e628f118e93",
+          "characters": 1428
+        },
+        {
+          "page": 188,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "db8609e2cce4ad64e657c5445fdb7d40d813396413e9f28b148f77d8a5f637e8",
+          "characters": 1245
+        },
+        {
+          "page": 189,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "feee026c349d7d022f181c559ae05485c27ce3cb98b413626844066b19cb1767",
+          "characters": 1072
+        },
+        {
+          "page": 190,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "23183760aad60256034f37b230120652e57374aff9d04b4ae20fc4c14284b208",
+          "characters": 895
+        },
+        {
+          "page": 191,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "91228f08668d17d7d305809cd14173b1daa4d9e17e32168bf89dd02c24d8dea7",
+          "characters": 1270
+        },
+        {
+          "page": 192,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "729d68f3e31b94cfeff85e4e6e1d8f10b15740c12ae054a16083cb3037ab0d99",
+          "characters": 1295
+        },
+        {
+          "page": 193,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "e62826223ef18241ef221e9c701cf744f7bccb1e928778d599e9518e2aef4747",
+          "characters": 1098
+        },
+        {
+          "page": 194,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "8d2496af79f9c0a65634df7fe886e6608d92cf1ed3c14dd6428eb9708857cf58",
+          "characters": 763
+        },
+        {
+          "page": 195,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "9d9bfab434a8188ef27277fea0ba608008387832c1dc93918db3e09e892eb855",
+          "characters": 1313
+        },
+        {
+          "page": 196,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "f934e62a7ce8b7cf48a282ab225b61233297c3fbd0ab49e8f2b7429bfba12146",
+          "characters": 920
+        },
+        {
+          "page": 197,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "cca4e4cf8ceca3e3067527eb7e923e9cbd8b2a7596070a5ab12ba1d477c77d2e",
+          "characters": 530
+        },
+        {
+          "page": 198,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "eca9506c46f46cdf2a2e438d64d9d6aadf522428e9f2b28526ef4afeb96cce33",
+          "characters": 796
+        },
+        {
+          "page": 199,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "5beb3395078ced2c49e89623f219097ac0ba79dd5e266aed403fa6198d031fa6",
+          "characters": 1161
+        },
+        {
+          "page": 200,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "ccfc5332f5496dc260b418f005d0e84fc230df56edd26bf243c28e04a520f96b",
+          "characters": 1443
+        },
+        {
+          "page": 201,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "07c4eb6f8b8a2ed09c359a7578df0f1b416ef3e9a7d2c75e2a08211370fcbd3f",
+          "characters": 1131
+        },
+        {
+          "page": 202,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "995b80d05ecf09ff65646a4a87bdc2ad4db033cf192ef8c807523bf3fd22bfd9",
+          "characters": 1325
+        },
+        {
+          "page": 203,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "f54319d73f5bca2f38190f035a89af673e57d804307055e9a427e6ad79bafde4",
+          "characters": 1213
+        },
+        {
+          "page": 204,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "b7a2b90d59d00b0e4dfa930b8118e1ab00cbd8a5a500b192dd7f25cc1a9a61aa",
+          "characters": 1170
+        },
+        {
+          "page": 205,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "af7958467c33703aafc6e2c0d8f1e664a728fcd3b8cfb3d84eb34dd39ddce8f3",
+          "characters": 1137
+        },
+        {
+          "page": 206,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "3d68eea91665e7a51f9eb6d157d8059c1c017485b2c31b5e3899a42155ea0cd0",
+          "characters": 1190
+        },
+        {
+          "page": 207,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "40f4bd2222b0e2813f34bf9ab0c2a54dfa8055cebe86a11798794a2814c282d0",
+          "characters": 1154
+        },
+        {
+          "page": 208,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "bd63cd61af64febc46525ab6a7dd5f087298c9fc70457e4af3eba97bec4f680a",
+          "characters": 1133
+        },
+        {
+          "page": 209,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "21ab1bff4e74843fff6d692e4ddec04701c41aa3688e25b26180e7456385e0db",
+          "characters": 1127
+        },
+        {
+          "page": 210,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "e0b10d6eb8b774fedc6685f43b56cf3c81630fdde3fcc8ec924d70dd0b8068ec",
+          "characters": 626
+        },
+        {
+          "page": 211,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "8ffae506b2f955cd7f2e5f1e675cc92d4d7ca5f22c656f742ca4eab6c0132ad8",
+          "characters": 1127
+        },
+        {
+          "page": 212,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "6c4c81212bc9090d82788cebe6030a4fa04a247e243490ac63e0ee19037be533",
+          "characters": 1327
+        },
+        {
+          "page": 213,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "559acd768f1f6d43ce04507ffe09023cf85beeb5cc20251a6083cd1bc2ce383c",
+          "characters": 717
+        },
+        {
+          "page": 214,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "42a33e20026192683e626de71482075ff83eb8b93e04fe66bb5df11556ef4963",
+          "characters": 1209
+        },
+        {
+          "page": 215,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "3e5a4f08fbce151b87e0df30007cc525c86b7e6f1d3cfd59579a8e2f00308b1a",
+          "characters": 1206
+        },
+        {
+          "page": 216,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "9302119d964e8d10d6decf698f0d908fa019a1548c5e178df51bcdc86bbb3e95",
+          "characters": 1190
+        },
+        {
+          "page": 217,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "9939ae05bad5bdc3468d9e28d849ce6ba5bb8942b4fb66a731894bafc7fcecfe",
+          "characters": 1025
+        },
+        {
+          "page": 218,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "8b37b496ad20967479f30d29272f41fb560f946a3db8fa19ff881545ad899d3d",
+          "characters": 1173
+        },
+        {
+          "page": 219,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "96b04f00c67bd2d62dc1e2f593e763b1fb551f5286b75c15542b9eea1fdf7488",
+          "characters": 1088
+        },
+        {
+          "page": 220,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "ef8c50a3f8e220f022474dd34c4c64562c24f06743ca358e0e4aa2044dd5045a",
+          "characters": 1403
+        },
+        {
+          "page": 221,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "07ad6caf55bf72ad2d0d8e38cd9b1702bb650b62e5822a27b34a4cb31dad2b32",
+          "characters": 1395
+        },
+        {
+          "page": 222,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "c4e7536a2369b3c26f6149559e284819cfa32d867c258d4c7649d19e420f9617",
+          "characters": 1300
+        },
+        {
+          "page": 223,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "d98a9fcaab24eed45cb01e7cc18dd836d17aaf98c753d7a934d2fcccf4e7bf21",
+          "characters": 542
+        },
+        {
+          "page": 224,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "91c4761341f533ecc9c749660f9d1c5abe04d2ed32d493f9e38a7a054cf2eec0",
+          "characters": 1359
+        },
+        {
+          "page": 225,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "7e5ff06bc8722564cdb878c308d882abdd18e5d7a3782541543708bfcfa510c4",
+          "characters": 1127
+        },
+        {
+          "page": 226,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "dbaf3d0f33baf235c9149d91801822d2c5a357a57c556a0a9ffdb7663066e3a9",
+          "characters": 992
+        },
+        {
+          "page": 227,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "5eb1611e65b65ea21fd26e75623b5ca4c27d9d55ea88cce4a024eb0f60900e36",
+          "characters": 1462
+        },
+        {
+          "page": 228,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "4d4c67052e74ca5300466bd153a9cbfe882790195fe6c0318711223479c17ab5",
+          "characters": 1333
+        },
+        {
+          "page": 229,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "9babe0144a513ac7a5835b0c349262f5915271fd694cf9a6180e8889efe6d1a0",
+          "characters": 1392
+        },
+        {
+          "page": 230,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "3e5d44538db03825d8972a59d7e464f5ab8bac72f3beb9527534452c7e7e081e",
+          "characters": 1294
+        },
+        {
+          "page": 231,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "154c6074a7b0deeab75c9b3ca3a0449ee07e539e6217250b15041698731c0bfe",
+          "characters": 1259
+        },
+        {
+          "page": 232,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "593daa411c5a56919edf7b7e9651b8d11d51e1c49232dbfa46753366e5a446c7",
+          "characters": 1108
+        },
+        {
+          "page": 233,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "8db51ef521ce03872e4cc1fdf68deba555fee887a3a061ed1d1f301e65fb1856",
+          "characters": 1291
+        },
+        {
+          "page": 234,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "25ec4b92ad007ec41a865f87db51f8e64d5c8c92a2c0c5a260d6e6e9f089f1c0",
+          "characters": 1441
+        },
+        {
+          "page": 235,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "6df27302aeb8cad2323ab585761559f0d2f059e52742c01bdbdfcb28dc777cef",
+          "characters": 1131
+        },
+        {
+          "page": 236,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "d3f0a6ebd659ce6dbb8d17a27b4c659f1ee9622cf77786daad78707e2beffd30",
+          "characters": 1195
+        },
+        {
+          "page": 237,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "cda387e2944682a5ab8c0eafed95fe5208d66403bac5e2df33b74f5ce3f96d3b",
+          "characters": 1235
+        },
+        {
+          "page": 238,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "e7c7dce396f34e94fea9c6bcf47f7ddf886d6c34438f07563b0656890dcdb868",
+          "characters": 1138
+        },
+        {
+          "page": 239,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "ef13bfaefd35dc8a5194be1f89fa10f6378ab6aa068a2c573dec438faa0dd4c9",
+          "characters": 1307
+        },
+        {
+          "page": 240,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "432433e431f0c1351a6d1e1c610ed2fb0d86fd4f5d9638352ee38b58b65827cd",
+          "characters": 658
+        },
+        {
+          "page": 241,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "71ac9b3321ca9396652654f38fe91065b8773e9ff056456959da5963aceda0a5",
+          "characters": 1127
+        },
+        {
+          "page": 242,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "5eac2eacd9b2650727dafbd89f528c16a39ce0c974bd010974e18f3a5656d8b8",
+          "characters": 1393
+        },
+        {
+          "page": 243,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "0d948d79733d7bb8be08db80362782a06eac34300fbb105c69c685db3167ee65",
+          "characters": 1364
+        },
+        {
+          "page": 244,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "1759da01f9205597d810aaf54264d0580264d9c74109bd4d6b16f1f861498cd7",
+          "characters": 1282
+        },
+        {
+          "page": 245,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "b9aeef0c187edafc92edd3f5046065f1568bc794d4dfa9ef311e345bf928da84",
+          "characters": 1418
+        },
+        {
+          "page": 246,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "c77b8900117825778d169a7d9ca3dd2794d68a11b2933f83499a27d62b8c000a",
+          "characters": 1306
+        },
+        {
+          "page": 247,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "6a6ad3ec8c8dd007d067ef18831fc0278141aeeed770ca0ebda7a21393119dba",
+          "characters": 1162
+        },
+        {
+          "page": 248,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "87e6f7f296d6dc8de1277f40c634f888a914f8e52ac8dd7d3e34b29f9b4c4450",
+          "characters": 1028
+        },
+        {
+          "page": 249,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "3a94a2bfa56dac201954f15f2b1a3644b5da133191132e44508d1e700fa6a327",
+          "characters": 1292
+        },
+        {
+          "page": 250,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "0a14677acb720a1d2d3126f73081e30f2450f42c89d61f0338171c74d60c5575",
+          "characters": 1296
+        },
+        {
+          "page": 251,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "12b6e05c8c13f91016b0e72c2b74b62c0d2b4b7fbc6e7dee3eaf9119ac8fbb1b",
+          "characters": 1393
+        },
+        {
+          "page": 252,
+          "source": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+          "body_sha256": "2aff5b1bc2d756e8e4df9f5168a4ddf623a183075978e3e2041415d8df10129b",
+          "characters": 1383
+        }
+      ],
+      "base_before_archive": "sources/chapter-04_medieval-europe/IMG_3762_transcription_181-252_verified_merged.md",
+      "embedded_image_sha256": []
+    },
+    {
+      "chapter": 5,
+      "title": "東アジア世界の変容",
+      "file": "sources/chapter-05_east-asia/transcription.md",
+      "base": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+      "page_start": 253,
+      "page_end": 314,
+      "page_count": 62,
+      "lessons": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "characters_without_embedded_image": 74023,
+      "sha256": "d2e506dd0939854800030f775c49b51feb72d00a86ee12d448672f00e17fdfd5",
+      "pending_review": [
+        {
+          "page": 264,
+          "title": "女真族の系統",
+          "source": "sources/chapter-05_east-asia/legacy/pages_253-314.md",
+          "excerpt_sha256": "f84a5fae8985e87c782491d34d3c40f69bc06fd9159d5e0f79c9d6ea0ec7a120"
+        },
+        {
+          "page": 291,
+          "title": "清軍の指揮者",
+          "source": "sources/chapter-05_east-asia/legacy/pages_253-314.md",
+          "excerpt_sha256": "ec82d754960f9ebd126cdc11537cca4d967796927271d44d0f3b9b1e90776b4f"
+        },
+        {
+          "page": 294,
+          "title": "藩部の首長",
+          "source": "sources/chapter-05_east-asia/legacy/pages_253-314.md",
+          "excerpt_sha256": "cf7fa65824a1a3be2b2e778f23c76ffff01a45b08bdb6d40ca186af87b022676"
+        },
+        {
+          "page": 307,
+          "title": "陳朝による元軍の撃退",
+          "source": "sources/chapter-05_east-asia/legacy/pages_253-314.md",
+          "excerpt_sha256": "ec54d0c35755ef48de115679496792c80746665c52a30260d0adb87640d84437"
+        }
+      ],
+      "pages": [
+        {
+          "page": 253,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "60c28bc15ed0e7a079e09489bdc8bb89fffa2bd481328fb7d459e76ccf9aea71",
+          "characters": 21
+        },
+        {
+          "page": 254,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "e048909f1f46cd6df135b758b164cd00e86d4c8801c13e9b542c2f865086f953",
+          "characters": 611
+        },
+        {
+          "page": 255,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "5319284aa52f4fd68fef680afe360c34a15c8a0c835c2a095b14113a4ac45f86",
+          "characters": 952
+        },
+        {
+          "page": 256,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "9061874e5db024fa1e1af6b3dcb990e9b42f0e51788416eff0da7f2b61d32be3",
+          "characters": 1281
+        },
+        {
+          "page": 257,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "1abb3dad666123065be72351d14f2c9747db065d3024036f81ce5dfc380f5e1f",
+          "characters": 1295
+        },
+        {
+          "page": 258,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "a3d47b58c1a8b8fbbc6dea8cda3019c016e5961d56aae9d6a74bf8748509f46d",
+          "characters": 1135
+        },
+        {
+          "page": 259,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "984adc3f90a199e6f06a39794eb232275a7d9470d51f408527f13a372aeea056",
+          "characters": 1008
+        },
+        {
+          "page": 260,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "f85074ee2aba86674f66c58d4aba042815d45f77b6fd73429087b2537694f968",
+          "characters": 1390
+        },
+        {
+          "page": 261,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "384c84a367e79a20b8430cac9cef818c8f4fc7cb524c141ec273e2da63f55927",
+          "characters": 1246
+        },
+        {
+          "page": 262,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "78644b6c348906b16b7a4832de844aa22a86359b7fe02175f88b33014de1121b",
+          "characters": 1313
+        },
+        {
+          "page": 263,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "2f58980016c14c9941251babbb122ca63162c292f8f9b873c26cf000c89eff31",
+          "characters": 1089
+        },
+        {
+          "page": 264,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "1b7a8e76ca20770b3c52fc335a49d2b54205501161603c7cab6a6dd908e70689",
+          "characters": 1195
+        },
+        {
+          "page": 265,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "7446eb7d54f9b83b802c157b8d7cac2d8cd72a6db92ac906857a153a2182ddfb",
+          "characters": 1293
+        },
+        {
+          "page": 266,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "103f8c51f89ea01efad9ea4619008b3d514ff794c5f45ab0c0a948413e0a0986",
+          "characters": 1303
+        },
+        {
+          "page": 267,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "1ece51aeb8230838111a9f3c8b7ad1165d188f2a8db334884ef07aaf95db4a8e",
+          "characters": 1297
+        },
+        {
+          "page": 268,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "66f8b6fcc37af900abe199a3a2d7e07bb62fa6a4fbd90381632cf4d785db4cd2",
+          "characters": 1254
+        },
+        {
+          "page": 269,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "8c74d647fc65eef1da99a9ab6f2d2a1af50400b0ad976420a8892081e6b632af",
+          "characters": 620
+        },
+        {
+          "page": 270,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "77e970f662b240b8f6ff7244718ce9d86b269d2146ea81b08878174956a8be19",
+          "characters": 1197
+        },
+        {
+          "page": 271,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "5e64edd2944414f55330ecaf96b105c358e11b9f25809e0713946b4bdc20c3b8",
+          "characters": 1283
+        },
+        {
+          "page": 272,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "d146c12f75f6ff740ced162fe4b978f5ff62e8be3870436da989b0adad91b737",
+          "characters": 878
+        },
+        {
+          "page": 273,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "df50c136aef5b131ad95af34b83436f8e90b1145d02412952ab4d54c08885dbe",
+          "characters": 1336
+        },
+        {
+          "page": 274,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "668815b361e33602ab70edcff0bd89575794042784e4353c14f35688cdcf4cc3",
+          "characters": 1204
+        },
+        {
+          "page": 275,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "709c475ff8057834c5bbfdb354f25cb7c8299d4544ec9cd4585143db1c83dcce",
+          "characters": 1056
+        },
+        {
+          "page": 276,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "a354805aef2318779b960fff0450ba9ed26092a3e0300e4ec07321f0cfc20c75",
+          "characters": 1208
+        },
+        {
+          "page": 277,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "52bc4fe53dd2c8be4fa413634a1a3a753a3fea378f5d430dfb3832c3aa2b3044",
+          "characters": 1297
+        },
+        {
+          "page": 278,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "99e3f5c554440862201303d1834a1511104f9dec642790971778a09334395361",
+          "characters": 1314
+        },
+        {
+          "page": 279,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "20cca64896d34bf7c91e861776028c9f19ddb703fab19629774f95bc15e85173",
+          "characters": 1223
+        },
+        {
+          "page": 280,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "2e3a40690df19ca8a20b6914af29e836d926b76566be4843ea2f915a2b19dcac",
+          "characters": 1114
+        },
+        {
+          "page": 281,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "ada99d40ca7a5c23ef82139b8908f97023da3d5094475625ef8cfd5417070c4a",
+          "characters": 602
+        },
+        {
+          "page": 282,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "ca1b834697cd7875c672c19acf6dab3c0ca7fcd819a54f18e81ca6beceb2ef66",
+          "characters": 1257
+        },
+        {
+          "page": 283,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "b24546559dc86fda2a447ec920d22b93f4a2c9837eeb9dbdda8dd0a9839c2dfd",
+          "characters": 1459
+        },
+        {
+          "page": 284,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "3ffca56f60934968725cd8b03e55c7bc3ea02bf6f9e3deec5666fbad6019160a",
+          "characters": 1245
+        },
+        {
+          "page": 285,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "0701566a71d00e72eb3c1d026312d2fc859d6f33dbce395818d45e24e31ad2e2",
+          "characters": 1040
+        },
+        {
+          "page": 286,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "1e939c469e5773e691f9d0936f820833d7d19ab2d330f7f3c50fecf5c120a728",
+          "characters": 1292
+        },
+        {
+          "page": 287,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "ecee2d6f63e3822c2350e4fc98889111cd426cd04c7a15fc69ad0ebd8de2ba45",
+          "characters": 1501
+        },
+        {
+          "page": 288,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "8b720635ed5ea5f2d3d7a09c7c3e28007884a8404cf1d399c9b88b71d90ef337",
+          "characters": 1063
+        },
+        {
+          "page": 289,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "d00de7a75aedbeefe9fa8c00a5612383857c782b84b79bb619080768865071d4",
+          "characters": 1307
+        },
+        {
+          "page": 290,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "780875f92cfb54095b36dbb995abe3b0024d89b2e0914b265e6916a94ba2712b",
+          "characters": 1185
+        },
+        {
+          "page": 291,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "f263ae1aeaa30959ae500556ebe4703f559f65c26d6d60ddaa4b4c812c9a65b6",
+          "characters": 1435
+        },
+        {
+          "page": 292,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "385654f8e05d7116fd009ea4ef61d518ff5a9d7f4ed222e0490180df980bcad7",
+          "characters": 1294
+        },
+        {
+          "page": 293,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "1520176c589e1530f978b752811004756cfe45749b6a1f44b3e4ec7ebb39e361",
+          "characters": 1009
+        },
+        {
+          "page": 294,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "6be74acff7a490fc89f3552bc18bd32ce45b0b25af98bfe781ec06af99494c2d",
+          "characters": 1317
+        },
+        {
+          "page": 295,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "610544b023dd4d3c6770884bbc7e1b4f19a462898d6f347a109f94d0bcb5bb16",
+          "characters": 1438
+        },
+        {
+          "page": 296,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "3b69f863634bcacc6bc443001615447ef355dc7f6413eaceaa53871ad0a69020",
+          "characters": 1453
+        },
+        {
+          "page": 297,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "f0dad4ad27454b728df281d250f552ab4fc712d71bd2b96436f453b21e25cb63",
+          "characters": 1478
+        },
+        {
+          "page": 298,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "c1bb7c1c4c7139539d7bb166d40ff3dedd183f85a8e588fbd6f268c85859527b",
+          "characters": 1214
+        },
+        {
+          "page": 299,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "c7f979c20751f92330688b9ebc83cd76513afd81a535b9f4e2bcc6e1bbfb3e33",
+          "characters": 1287
+        },
+        {
+          "page": 300,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "53521e27323494f3259613d83a1bd0ec5f4900f2f9e4fb7f28550d27c8e702ff",
+          "characters": 1278
+        },
+        {
+          "page": 301,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "50125caaeee47ed01ea12d903c789ecb3bcb6e2f15705e637e486771260a0375",
+          "characters": 977
+        },
+        {
+          "page": 302,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "b2abecd60def2e56923f85b8c9ff587e10f7aa44d297b2ba5b63b2119e4b96cb",
+          "characters": 606
+        },
+        {
+          "page": 303,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "078642e828d1ab548e1a86c41bde3bb5c4e040fdc0287872faa69050702f0d82",
+          "characters": 1293
+        },
+        {
+          "page": 304,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "720b69d04a8ce788eb6a8078fc9e02a09a3eee198f8ff826d7691f2d52b538d4",
+          "characters": 1125
+        },
+        {
+          "page": 305,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "a97abecb51baee5980ad78517c147bfa7a1a02e31f3656a8a1ad375fa5bc422d",
+          "characters": 1182
+        },
+        {
+          "page": 306,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "1eacd3046b7ec5fb962f8a8e750c58b94cfd40f135f62b4091819b5ed1d9f11a",
+          "characters": 1298
+        },
+        {
+          "page": 307,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "5fa4ae57920e7f1439530d80db673b4461bee33ff8b16eb2377309d4b4278f80",
+          "characters": 1121
+        },
+        {
+          "page": 308,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "d3983836bb9d1cba6d9dc74fe552146e8f2a832e99ed83b2ddf4c51c7c8f3456",
+          "characters": 1033
+        },
+        {
+          "page": 309,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "00673e6b1aaffe85dfb968744555beafee546819c962f5946f7e6f77ccade37c",
+          "characters": 1447
+        },
+        {
+          "page": 310,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "5d2d549fb6176842270fc53964c1a6280e719b88ac8ea2a4af1fb5fb75bcbe86",
+          "characters": 1143
+        },
+        {
+          "page": 311,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "b38e04c901cf66f42f1c1a97a61aa5e7f2c29c32cf2f6d5b5134d7f894004145",
+          "characters": 916
+        },
+        {
+          "page": 312,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "556ccedaefdc70cb2feded4eef3521c46316f17abfe38cb8594e999b2c19cbd3",
+          "characters": 1148
+        },
+        {
+          "page": 313,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "9581ca3210f18acabdeff8b4b176cf6e3957a9bbe38b9de1889d5cd7b1ca2c89",
+          "characters": 1241
+        },
+        {
+          "page": 314,
+          "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+          "body_sha256": "84816248593ab2a4468e92b13878f5a32cfabf9ebff9d081864fea3208731c1a",
+          "characters": 843
+        }
+      ],
+      "base_before_archive": "sources/chapter-05_east-asia/5_transcription_p253-314_merged.md",
+      "embedded_image_sha256": [
+        "c2b2387e6a5d37424e5260f4fc8fbd242fae718cf61071fbbe98d1cfa94e3d96"
+      ]
+    },
+    {
+      "chapter": 6,
+      "title": "イスラーム世界",
+      "file": "sources/chapter-06_islamic-world/transcription.md",
+      "base": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+      "page_start": 315,
+      "page_end": 348,
+      "page_count": 34,
+      "lessons": [
+        20,
+        21
+      ],
+      "characters_without_embedded_image": 38891,
+      "sha256": "30e0082e3ba81cbe039161b04df7f2afb74aeee590b6eb64de0574a07e0fb899",
+      "pending_review": [
+        {
+          "page": 318,
+          "title": "五行の呼び方",
+          "source": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
+          "excerpt_sha256": "6c3269f03dfb8db0120a1d03c51df7610525de3506bd8dd2a598df0c0267a399"
+        },
+        {
+          "page": 322,
+          "title": "公用語と貨幣の統一を進めた君主",
+          "source": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
+          "excerpt_sha256": "1768f4d92da222ee72af18954d63d3d2986a2c4d826ef9c51cc47c170808a3db"
+        },
+        {
+          "page": 323,
+          "title": "アッバース朝の官僚",
+          "source": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
+          "excerpt_sha256": "24a41639f2a63e10e31bd9b09ee6137ed38a483579ac23bddc2ee2b0036555fa"
+        },
+        {
+          "page": 331,
+          "title": "東アフリカの港市",
+          "source": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
+          "excerpt_sha256": "690d3e312a842a035c070630c69bcb02cc1dd6f7eb00c41b0276a3a4edeb8b4d"
+        },
+        {
+          "page": 347,
+          "title": "天文学・光学・錬金術",
+          "source": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
+          "excerpt_sha256": "1d3428dcbd8ac321eb96446f93a09413513cdb95127e15105fa1e7690117c533"
+        },
+        {
+          "page": 348,
+          "title": "建築の例と設計者",
+          "source": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
+          "excerpt_sha256": "047778a6bd03bb4309b41f02ba430a175e091ca3383c705824c231bf7ae5a7cc"
+        }
+      ],
+      "pages": [
+        {
+          "page": 315,
+          "source": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
+          "body_sha256": "002a7033f6d23f4228ccce4665353e7a531f5d69279e7a412334452e17389d1f",
+          "characters": 15
+        },
+        {
+          "page": 316,
+          "source": "sources/chapter-06_islamic-world/legacy/01_islamic_world_formation.md",
+          "body_sha256": "af2625f021f6f52baee10c33a8a66b231a2086c48a22e569abf2cb2fec45dd1a",
+          "characters": 525
+        },
+        {
+          "page": 317,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "56ffa7ce7d26720a1715f3996babecb16f980d51e5d0230fea5a883b23bb47a0",
+          "characters": 1179
+        },
+        {
+          "page": 318,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "4fd5519e8f32cfefdada0718bf023790160c1504fc1ea3157242edbf3f32f3b2",
+          "characters": 1193
+        },
+        {
+          "page": 319,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "327014486f74661e51781fa3b656598bc64a18fdca929feb8823ca6ba44f76e2",
+          "characters": 1206
+        },
+        {
+          "page": 320,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "9d210287cf6010a71e0c79e16e864c9650f676ca09d21e7ba5fcfbe11f1f3742",
+          "characters": 871
+        },
+        {
+          "page": 321,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "960a949cd10c5f21c28ede6e3cbe26092e615657238112c76de0b0309db93bce",
+          "characters": 1196
+        },
+        {
+          "page": 322,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "51ad7993f5e87bfed767ea0fdb78542926f7cedca25ced525e57a598ec69728a",
+          "characters": 1145
+        },
+        {
+          "page": 323,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "d494ddbb545dc53e89beac72be40c4306b7cbbc9c7f8da07261dc4857f87995a",
+          "characters": 1312
+        },
+        {
+          "page": 324,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "a8d1a51653b439dea82a91ec45cc9d851625ce95934df4a4498959f14f54e439",
+          "characters": 1175
+        },
+        {
+          "page": 325,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "350490f52b6b9cd46a488ed47809e78d5e6639e74bb7263aa0cd5e09d2e24651",
+          "characters": 1217
+        },
+        {
+          "page": 326,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "b2c2b73615b3715d8f8b5c3e8313f31a2bd03e0cfb687b6af3b9dd6678fd2db6",
+          "characters": 714
+        },
+        {
+          "page": 327,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "f01c6f8e77fc4523fd86ae5197d6acd8e0f2a603ed1fc84e5f0dd3d4ddacaee1",
+          "characters": 1173
+        },
+        {
+          "page": 328,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "ba36ee355671b800af97ef16cf55c1a4e8295b950426d1771b8988536a347e48",
+          "characters": 1036
+        },
+        {
+          "page": 329,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "82403b84d8cfe8ba0e69b91c051e34247af3cdc4ba4db0edc1f35c476c874a67",
+          "characters": 1162
+        },
+        {
+          "page": 330,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "bf5fdc0fd1d900d0ccfae5f80989765d2f5bbb97d2bf17739b2edb0ab20f1a7d",
+          "characters": 1141
+        },
+        {
+          "page": 331,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "9cb42eed348d659af7ec4cb9d323a75c4ed17df8cb6405fe653792edd5bf8d23",
+          "characters": 1191
+        },
+        {
+          "page": 332,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "55efb94a97ad1db0484fd57980fc74a87e88854bfc7b7b0c38d034d55642fdf9",
+          "characters": 1095
+        },
+        {
+          "page": 333,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "2167396c865a687a1db5c1a55e52e6ec47d3472e88041465c46ad57a1a2a76d4",
+          "characters": 614
+        },
+        {
+          "page": 334,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "8a1f9156b668676e59f49dbe8079fd29e6a0151c648a3c71991a9e3f4f004326",
+          "characters": 1057
+        },
+        {
+          "page": 335,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "0e1ce70654d5cea85262fff95e6ca24adca56e857df0772502628add01e6019f",
+          "characters": 1157
+        },
+        {
+          "page": 336,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "48a68799cfdb8dbf4abdb9f608feba1988c776df9c92f4c826894b9f92d13137",
+          "characters": 1101
+        },
+        {
+          "page": 337,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "a75d534a7b27f1e308340eb43166444319507c057c25f42d5309f5a505536e13",
+          "characters": 1124
+        },
+        {
+          "page": 338,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "33934f9a90f590c2ee5d3ca6623cd77e03c6beac1fa99b011d9c77dee9ef41bd",
+          "characters": 1062
+        },
+        {
+          "page": 339,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "c437ff6e1985634161b92a7513975c94edb106225ff281dd2db4dc7348146716",
+          "characters": 1240
+        },
+        {
+          "page": 340,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "1f2b4f82fc9d41724da963f20f76ad0660eccda505e2255ba52428945a3b9504",
+          "characters": 1227
+        },
+        {
+          "page": 341,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "5cd3dd264c6e2d9ee73c468c882abd290a279570d230cfcf0f0f00f42dcc870b",
+          "characters": 826
+        },
+        {
+          "page": 342,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "3895e5543eaa2e15a9c0cd745a9b48462df5751769c4b6b5cd38016885c0644e",
+          "characters": 1391
+        },
+        {
+          "page": 343,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "7374066fd6d3960abe709d8ebb80a1e4b6af659230fd86d40f6d3203cd43f1ff",
+          "characters": 1129
+        },
+        {
+          "page": 344,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "72ba88f43aa7dd3e723764f0d27e32dfe1fd0b07d1ba34486cecbc84b69dec43",
+          "characters": 1135
+        },
+        {
+          "page": 345,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "924a09b4a966e1c217d1a3002435e5a30d19b2fa5f81578279418f5ac76a8068",
+          "characters": 1256
+        },
+        {
+          "page": 346,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "55e1115186d8eb65e5bbfd2c0ab583b1ca9d78ef5d5b2dc621d829183bfaa2c9",
+          "characters": 1280
+        },
+        {
+          "page": 347,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "f97a0d790ea59272bdb44662b6d80513c36887fb0cbd4e65af877a1acd2961d0",
+          "characters": 1281
+        },
+        {
+          "page": 348,
+          "source": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+          "body_sha256": "9d8ae675951f8381966126ab8fbc4420914ff1d071cc674c2ee09d62e8af4cbf",
+          "characters": 1228
+        }
+      ],
+      "base_before_archive": "sources/chapter-06_islamic-world/islam_world_transcription_317-348_merged.md",
+      "embedded_image_sha256": []
+    },
+    {
+      "chapter": 7,
+      "title": "近代ヨーロッパの幕開け",
+      "file": "sources/chapter-07_modern-europe/transcription.md",
+      "base": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+      "page_start": 349,
+      "page_end": 480,
+      "page_count": 132,
+      "lessons": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "characters_without_embedded_image": 157927,
+      "sha256": "e17eb6a67ff220827a88042a030eeaf84d878496d39f44393217e525e5f7e575",
+      "pending_review": [
+        {
+          "page": 352,
+          "title": "ミケランジェロの作品と礼拝堂",
+          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
+          "excerpt_sha256": "83e9dedcaaa2754d72256dbbaca7778c5d34fc1bf6be9a61518b980e5741a8dc"
+        },
+        {
+          "page": 359,
+          "title": "マゼラン航海の人物と戦死地",
+          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
+          "excerpt_sha256": "9e6887d6e025d131182ab24e1b2232ec23e61d94cbbe83f28fbff0a2e970d88f"
+        },
+        {
+          "page": 373,
+          "title": "スコットランドの宗教改革",
+          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
+          "excerpt_sha256": "458fd53c4ab809b7909aa9969a0d7f0dd4dbca027c1b6e76fb6d0c71687530bf"
+        },
+        {
+          "page": 435,
+          "title": "社会主義の著作",
+          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
+          "excerpt_sha256": "72f430b01ab8e9511831ebb102892deddf0946da9d6e4d849ea374c4b950a486"
+        },
+        {
+          "page": 473,
+          "title": "絵画・音楽の人物",
+          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
+          "excerpt_sha256": "81db7a85c47058ec4e254d83d0e93610138a3300bde36afb2a765f416f6ecc51"
+        },
+        {
+          "page": 475,
+          "title": "ルソーの一般意志",
+          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
+          "excerpt_sha256": "28e57000f1891390e243419bbcc24bc6d853cab4fcba3e32b11d46f788d7efa0"
+        },
+        {
+          "page": 477,
+          "title": "経済学の記述",
+          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
+          "excerpt_sha256": "b42ecb7c3f280d1c1f9175dcc714aabd2069b8e6494938de6761954f09cb0851"
+        },
+        {
+          "page": 478,
+          "title": "ロックの白紙説",
+          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
+          "excerpt_sha256": "802a940e7d5869538a2903d7cf198bae9f0a413c88ac77d9e1ba05d86cbd75b7"
+        }
+      ],
+      "pages": [
+        {
+          "page": 349,
+          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
+          "body_sha256": "d03ab61c4cc51e76e062b9a1f5c79f52499f956e29c6a3aa35a4bc9c0cbeb6e9",
+          "characters": 19
+        },
+        {
+          "page": 350,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "d0f9b632e92e434f18f55028d5b4a26e205a183f80d8348110a85e759503c798",
+          "characters": 715
+        },
+        {
+          "page": 351,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "a87f03ec1748f31a2d0d4ca112d3635dccd9faa011e870383977f9006ecf6a79",
+          "characters": 1169
+        },
+        {
+          "page": 352,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "e77a91dc2aaffe49b1c5a4a08da14b8786a751ddd96af937d7531202b687f558",
+          "characters": 1219
+        },
+        {
+          "page": 353,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "3db80a2cb4139e0c70d4d1ae71d6331769d019bd76c9d9f61256bd6a47cfea9e",
+          "characters": 1112
+        },
+        {
+          "page": 354,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "17558f380b466e8376356527fbaba35454d944ed797a7da154052e1520beabca",
+          "characters": 1292
+        },
+        {
+          "page": 355,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "20fa08571f3cb6e054b47b763399fd6a90b5a83b73733be437231cbdf947294c",
+          "characters": 1313
+        },
+        {
+          "page": 356,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "8980aef9e7b4fbbb6eff4b02793e6c187516dc3b721c5565ab38e1b8acfbcfce",
+          "characters": 1128
+        },
+        {
+          "page": 357,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "30e7eeb9513471b994e203be9dab913d8fdb259a3dd3a23ba71769657c7d2a1f",
+          "characters": 1133
+        },
+        {
+          "page": 358,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "cda79d4d0b1fb3d66317b4255e38937cdb6c06d16e3b078598cb67221c92754e",
+          "characters": 1234
+        },
+        {
+          "page": 359,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "23a7e8319ed47cb29ce75117c4dda118b50fb0c1755b1532e706b91e6977c6c8",
+          "characters": 1245
+        },
+        {
+          "page": 360,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "933782f7dd98c0e83ec5cbecd2d1c3443c9333831a90e90f8d56d542ada68ad2",
+          "characters": 1158
+        },
+        {
+          "page": 361,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "a4dc3356f89f9cf7dc5ec85bc6bc798da554f9a609c64f090fd35e8f9e9ab3d8",
+          "characters": 1274
+        },
+        {
+          "page": 362,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "c37b937ff710920303734c948fa2c6184602c774a358dc0423faac046f9fbe73",
+          "characters": 1087
+        },
+        {
+          "page": 363,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "f937e8f3e0058be7e3eb653c6bddccae4824a3bd89debe63891a5cf62150f09f",
+          "characters": 1362
+        },
+        {
+          "page": 364,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "a5992d69914debabfb0b85e0ee124b2a3173c89131d451dc64bed91050fd9cc8",
+          "characters": 1048
+        },
+        {
+          "page": 365,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "9a380754e5441cbc59e8bd2f394c57b9c8719e014533af54f6db8fe01e52f3dd",
+          "characters": 613
+        },
+        {
+          "page": 366,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "67f088d85f2b5b308b8dcf36a5dd5a54d53db924d119ce35a433493aa8b8d7d7",
+          "characters": 1094
+        },
+        {
+          "page": 367,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "eb4f81d28d3c6b9a56f86d780e92f79452571799c8a68436400a0c63a88b6f14",
+          "characters": 1238
+        },
+        {
+          "page": 368,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "b82b066cb46c5b2de49aa6d88a6694b07b3cd1f5b67f5d4b28fbfd990c4a4c38",
+          "characters": 1225
+        },
+        {
+          "page": 369,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "f482781d925467323086fa7696cf4e6e5f7607ba5d5b6fb69dc7915acb88cdf3",
+          "characters": 1195
+        },
+        {
+          "page": 370,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "adc924750e87141ce24056598c3be741250cb67c1f6ee0e47cde48eea5625ce0",
+          "characters": 1007
+        },
+        {
+          "page": 371,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "85cdb67e4a0d449ad251c9536b6a1414990b8bb71394308caf35a05df5a2e834",
+          "characters": 1205
+        },
+        {
+          "page": 372,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "ee42d928110997eadc9061a49d4e13bcde13f5f238bd64b1b35c74268cd44b40",
+          "characters": 1242
+        },
+        {
+          "page": 373,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "e95797cbe67a1af5606e9ffcef32ac77bfad26d1ff8ccf5eaec2f6430f36d574",
+          "characters": 1118
+        },
+        {
+          "page": 374,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "ded5568083be6738f82355e949c61818fa99eee130df414c4ee50bdf50b08e18",
+          "characters": 1059
+        },
+        {
+          "page": 375,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "34c63290d122767e058d4d1c64cd0141fc1fa0a473538995f02e34e935d91687",
+          "characters": 1144
+        },
+        {
+          "page": 376,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "7134de16f73e244aea751f028903dc30c3f14101c6ee26c9ccac34c46f15d979",
+          "characters": 1198
+        },
+        {
+          "page": 377,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "b5bbdc26981c9df964709ae15b7eb9a0ade0bcd85474da270830c80834928ea8",
+          "characters": 1249
+        },
+        {
+          "page": 378,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "c520ab9c57ca9f5e26b7c2c18fa4f7302cbe824ef28f1d35a1475fc1bd52ec58",
+          "characters": 1262
+        },
+        {
+          "page": 379,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "83207019585417a3480e45ca5a7da965014ce7fe6a07bd338689e3597f8a7cdf",
+          "characters": 1104
+        },
+        {
+          "page": 380,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "81071737cff7ff71509f6ef7776792bed0213d9cefb893dc1e0f1f03809bd575",
+          "characters": 1123
+        },
+        {
+          "page": 381,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "26fa1a92f377e1f34d6ce8fbae5b9f70824fa332fb47fdb0d77df1008a9c1d7a",
+          "characters": 586
+        },
+        {
+          "page": 382,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "d19131630d4256f37f2102fd4392dd840db80be7f19d0a78f3b48a699c5770bf",
+          "characters": 1083
+        },
+        {
+          "page": 383,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "6ed16c9652878584a7f0579e59196fad50e8f30adfd0d99ddeace1e2b271a783",
+          "characters": 1177
+        },
+        {
+          "page": 384,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "57f505e34eccb880e1b56be97ed5d0faac86ed8651523f85fbddc605739cacdd",
+          "characters": 1340
+        },
+        {
+          "page": 385,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "9d6ffa97a252b220fd49d78470d36afc786ff2fd7b65a84313b4f130916a4714",
+          "characters": 1283
+        },
+        {
+          "page": 386,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "1f4bdd5dd14799cd93d0a80238978d1d5abb56cb80ec77a99cae621836339eda",
+          "characters": 1221
+        },
+        {
+          "page": 387,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "04a861f7f2f5cd2d19e44237ab02ed3958aa0268b00068116cd2f9985244ac12",
+          "characters": 1258
+        },
+        {
+          "page": 388,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "5913b98914dc361e8d90a0a1e8333295b4f14157935f0a8ba481a67ca359be39",
+          "characters": 1320
+        },
+        {
+          "page": 389,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "4269ff199f79745d5c976b5bc2d4ccd452c4672292ef8fad74dec164572490e8",
+          "characters": 1273
+        },
+        {
+          "page": 390,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "391ed2d88a050cbf5286d3f07083c14e88b086bcb8dd96d4b98846cd728a7695",
+          "characters": 1232
+        },
+        {
+          "page": 391,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "a05eeb9e4543153d677f09e0415a1e7cfa0c263b17265983a8bc4a8f9ca53afd",
+          "characters": 1454
+        },
+        {
+          "page": 392,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "2cc987fb75b02f03b8a089ac604773c2bcd68d9e02af2157adbcc112a41f4c2b",
+          "characters": 622
+        },
+        {
+          "page": 393,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "57e118f5cf13b486096d5b979c14676679489c52fea2c4aa1ae8785371e455db",
+          "characters": 582
+        },
+        {
+          "page": 394,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "039365ed399f1c58ea31d2ebff570c45e5280ee68959768266eecb006b4efe6e",
+          "characters": 1174
+        },
+        {
+          "page": 395,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "f3f0210c481f95ed74335df7ae1f1289ee3a7cf5b3247b6924011b80b70d2491",
+          "characters": 1248
+        },
+        {
+          "page": 396,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "abd21bf21db31f838f88e4f72c53b2af879237bbfa339108e3b9c1dddf5bf009",
+          "characters": 1230
+        },
+        {
+          "page": 397,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "5af65d136e64927c02fbc61013f3fc662009032ffc73d9c51cf1ccdaa82670c6",
+          "characters": 1323
+        },
+        {
+          "page": 398,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "82aa2107de4bad2b8c56d9c15aebcf8f8ce9c6b6310cdb3e96b1ecb6f8d92020",
+          "characters": 981
+        },
+        {
+          "page": 399,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "8c9cb0feaacdd8ca61a8c50dafed276f16e5d51fe11c151d51bb76844c018153",
+          "characters": 1238
+        },
+        {
+          "page": 400,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "4f15b0c95d91d6c0c0c1ebe8e28f7fc0124b965925edf374fb4c3c6ac0bc7611",
+          "characters": 1251
+        },
+        {
+          "page": 401,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "da1d4729832ffddcaaac22b78a66d098c7aafe12f871dcf919c319b2bb82c6e0",
+          "characters": 1221
+        },
+        {
+          "page": 402,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "2122420cccef08b410f3fbf72d973f5f3622fa000b10ef464680164283dca25e",
+          "characters": 1081
+        },
+        {
+          "page": 403,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "8aec6d9fdb666cb9219922b861f116c96554574a5b052af1c093076c2722e2c3",
+          "characters": 1173
+        },
+        {
+          "page": 404,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "22442af2d65230b387a98515e6e56c7864a7daead34171f9a019fc602a246449",
+          "characters": 1279
+        },
+        {
+          "page": 405,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "b6a72557907a8d2989c35b193ca094f9fe90ab93e93257f2945181916e9b3c4f",
+          "characters": 1462
+        },
+        {
+          "page": 406,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "3d0a8db4ef3a681296ffc77e35067f4c1d8498705bdfa81fee0e78a7d8c85507",
+          "characters": 1364
+        },
+        {
+          "page": 407,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "c8e0dec1d09c3e4ea47690cfd90a3c381f5150aa6c8adedb18aabaf99055bf4a",
+          "characters": 1399
+        },
+        {
+          "page": 408,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "6a769372c26a1b41ab99e5673cdef37c28f741e3aa377b721c980fb14037d732",
+          "characters": 1495
+        },
+        {
+          "page": 409,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "ba02ae64009fd34c557f5cb1c09c066e4451f42e375ac338b88a96ca26434c99",
+          "characters": 1254
+        },
+        {
+          "page": 410,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "f1a566f4d26354d83bddaf36a3c05cb7dcf56fbd547dc29fae0b413c0b51c568",
+          "characters": 562
+        },
+        {
+          "page": 411,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "1813179fea8f60745df82aa6e52009e436f6b70dda1783eefe3e25efe0fb4bd0",
+          "characters": 1319
+        },
+        {
+          "page": 412,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "cf327da1a5c7f7dbc89a8b6922aa2d979a495dca1e1535221ae9d770526353b9",
+          "characters": 1278
+        },
+        {
+          "page": 413,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "9e8665f68aa81bdfef117d893cf623546fcf435cc9f21a5bf7e42c9418669de4",
+          "characters": 1390
+        },
+        {
+          "page": 414,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "d876a08f92c3f2b34554cae6e81aa92bffeb98866bd8a79cdd294f26f61a4d41",
+          "characters": 1207
+        },
+        {
+          "page": 415,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "7ceabd2cc53c0e4fe1a21aff0e95460d9e5db6b779ae5e9c04b4d2810f9efde2",
+          "characters": 1335
+        },
+        {
+          "page": 416,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "dd9a3a2a5c0f94286962109f61e852df45b4cb33755b6e3bdb3a3abf534f86e4",
+          "characters": 1376
+        },
+        {
+          "page": 417,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "85ef6cc06b7fbebcaf9dfe409aacbe1a7819d7d51659ffbf0ab32778ede2874d",
+          "characters": 1387
+        },
+        {
+          "page": 418,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "cd1b66dbcc40feed8a5249f010e2c21d98dd089cf6297b5e86a44e5fe369945a",
+          "characters": 1135
+        },
+        {
+          "page": 419,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "00f367606e28f7eed98aa6be82a6d0a1222ef0af66d3e3a991ce4980d52928bf",
+          "characters": 1229
+        },
+        {
+          "page": 420,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "03012411385037a7a1d86fdd48ce91a59ff12261668ff937ce5ccf4b6e5ac547",
+          "characters": 1297
+        },
+        {
+          "page": 421,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "9de84c0211e6a9e6b81b67c33fbea3c93c108c559005add57337d669d4037031",
+          "characters": 1359
+        },
+        {
+          "page": 422,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "0f0f69fd14b68569008634c1227885e4cd3dd1994adfffab99308f50b567b1db",
+          "characters": 1238
+        },
+        {
+          "page": 423,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "932f27246d3753bc2bb77b5870f55620f6d2f0a29c4eaea94787ade1b1db79b6",
+          "characters": 1372
+        },
+        {
+          "page": 424,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "4320f3871515e98393d48a070d9ceecaaa09df32e8077a9678abe390e10ff075",
+          "characters": 1036
+        },
+        {
+          "page": 425,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "03025194415b68d65a59ab7e7d9fb9d8abf98796e70f22648e86d835a1dcea2c",
+          "characters": 1360
+        },
+        {
+          "page": 426,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "ca2e615f1f169cb00c8bf78ee2fc836d05289503c156ea42f4af1019b3e88600",
+          "characters": 1565
+        },
+        {
+          "page": 427,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "d2b7b6c5f81a79cd7144e3d73f7417c1bad26ad71d708a33055edcd1ce828302",
+          "characters": 914
+        },
+        {
+          "page": 428,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "64e85a363da199a2963d2acf1510ffbeec029c6bd3a14ab915f3b709ed64f5e3",
+          "characters": 625
+        },
+        {
+          "page": 429,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "6098ae426ec0d58ed6aef9264a1e12c883c2d85b1ab7bee0bf043ba69099fae4",
+          "characters": 1282
+        },
+        {
+          "page": 430,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "885832ea8e29d4bb96936e8d1b7fc0b37f1b1e53108aad5dbb74f5b6f21b9b8e",
+          "characters": 1180
+        },
+        {
+          "page": 431,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "63bdfd1375a73908eebc1e865452eb248355ad901b18087c1d678b58d41ae6b5",
+          "characters": 1130
+        },
+        {
+          "page": 432,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "de0f94be01823729c7f82615dee8f873475727122f15d1b3a4ad8c1f89a08c84",
+          "characters": 1241
+        },
+        {
+          "page": 433,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "1cf09a369842c9356cc9f61918e1c606aafbbb6b5d178b05bc1b99b34d435d76",
+          "characters": 1174
+        },
+        {
+          "page": 434,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "476a02799d44501b0a1dac5e708d940c09516f32586a6254411e9f681da3f481",
+          "characters": 1281
+        },
+        {
+          "page": 435,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "574f77535239ad91f4a7fd338db4a572d3d78585fa4dc232628f8121a97023ee",
+          "characters": 1258
+        },
+        {
+          "page": 436,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "def8a8f5fa1506c3de90fa4acff93486e4a4d330121fb64bf6a3ab6b9acf8ee0",
+          "characters": 1312
+        },
+        {
+          "page": 437,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "c879e3a00d739e4a742beddf40780b22d0c1291cef563fa1fcc3fd9de867b18e",
+          "characters": 1199
+        },
+        {
+          "page": 438,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "15b51ebeb8dc329a97631fd9c012b4aaf6307205d4cb1eb99bfa20f7e9ec1fa2",
+          "characters": 1369
+        },
+        {
+          "page": 439,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "a2a539ae5ddbfb82878e85ae4497bf5753a717607530883fe645ddabfe81aedc",
+          "characters": 1182
+        },
+        {
+          "page": 440,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "dca06e6a00921e23d352d5d77035f201f97fbdf5fdfb23f700ee7c9dfc8510c8",
+          "characters": 1325
+        },
+        {
+          "page": 441,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "210b6013bea5596bab2b750aacaf2a961a1f1410d9f8177aef2eabad77b1738b",
+          "characters": 1176
+        },
+        {
+          "page": 442,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "1afef4ebccb745bfbdced6cf39ec77551f693fe5bc1be4ec4c5fc43556958c02",
+          "characters": 1133
+        },
+        {
+          "page": 443,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "376dc7b11f0d8b16db1b59015a9a0df4a896dd452e2d71f8a1523d65ea46e8fb",
+          "characters": 1288
+        },
+        {
+          "page": 444,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "9330bb38d534324a7fe790ba31c353646448879f3ffb0eaad231717d199fb49a",
+          "characters": 1129
+        },
+        {
+          "page": 445,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "25f4698e9fe713b96a89a030f4fdbf7745db387e1d81a3001c41454f7f5c20be",
+          "characters": 552
+        },
+        {
+          "page": 446,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "8e60d91ed3335afdabd5669cf55f03998f68c1bd08f757656777d920167cf969",
+          "characters": 1192
+        },
+        {
+          "page": 447,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "383eb0b98a06485892aadbc5c23c938a30e1cc8192ab9a315ec81b0a09c6ecd2",
+          "characters": 1248
+        },
+        {
+          "page": 448,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "7bbda156ffc3309cb5f6bb4919c8f2f21dd5e51730baf675459721398c49d04f",
+          "characters": 1412
+        },
+        {
+          "page": 449,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "76076bf39c8d50838b6a6c4b646905f3c1fa8c6b8b1df0cc9d90b320aecc14e1",
+          "characters": 1016
+        },
+        {
+          "page": 450,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "4337b9eb8d8b8b24538e1d9862dc0bb16117ca25f3f841539f56d8f44d177ed6",
+          "characters": 1125
+        },
+        {
+          "page": 451,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "42d5f9f5e2c6ec91899638c7d4063b8010a8bc3afc003bece2684a16a59e077e",
+          "characters": 1318
+        },
+        {
+          "page": 452,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "e37ec44fb09f6aa8e9b7197b035a1472c1e937c6124b9e785d14c897fc8af1a6",
+          "characters": 1302
+        },
+        {
+          "page": 453,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "388d37821e74716775be3b23796798a3d32cea67f42f71ec5cb7809a9c26109c",
+          "characters": 1044
+        },
+        {
+          "page": 454,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "454c6f737f3744b3e4966161db336775d014a18f1a42f483de637fd854a75ca7",
+          "characters": 1254
+        },
+        {
+          "page": 455,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "9c04678ff2212b4a41bcdeac0b7535dfee6524ed6d081d3e90ff606bd829597b",
+          "characters": 1184
+        },
+        {
+          "page": 456,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "24573cd98e02edfcd1615cb0388c5ecc76035e4e91179726f4a33d189e36173e",
+          "characters": 1278
+        },
+        {
+          "page": 457,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "a48142f0502bf6ab2346f7f286e2b019b56b3f4a096b94d07a9f76d6ca5ea4ef",
+          "characters": 1217
+        },
+        {
+          "page": 458,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "9621e236dbae51f0c5613fc70cde8ac86394efe332ef73d305276a7c3210af0f",
+          "characters": 1095
+        },
+        {
+          "page": 459,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "d338879079fe2d13ef164d0b6cd402e110016bdb792cacf47a2018b8fce9fd51",
+          "characters": 477
+        },
+        {
+          "page": 460,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "832d2d9b085360bc3bdb248149800ab41176a8390d1142c10fb906b8202954a0",
+          "characters": 1115
+        },
+        {
+          "page": 461,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "3c6efa42967358ed0c27b568bd89d6eba8407888d3bf815552ac9417ffb0911a",
+          "characters": 1191
+        },
+        {
+          "page": 462,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "11d470a3e1c991cb0a757ee4542fd971a1ed73a1f46b378c06fedac0ca19fd11",
+          "characters": 1180
+        },
+        {
+          "page": 463,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "b4574b72b460d4510a6183d0b7f6631a4f1e9e749eb572a025c5d99df327af77",
+          "characters": 1242
+        },
+        {
+          "page": 464,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "cc8c48818250bd415b95ad5a53c187fcd988e9cf4271c1df57b5d791cac5dadb",
+          "characters": 1261
+        },
+        {
+          "page": 465,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "9dfd82fb6513262aaaf747316ca5d4d0769f3a3a29708d2932cbb9c24dd10f30",
+          "characters": 1035
+        },
+        {
+          "page": 466,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "ad709583aaa8d926909500b18397b139b35e9c54e674c6e5221684e4600dcc2d",
+          "characters": 796
+        },
+        {
+          "page": 467,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "d9e87147608e0ab32f0c2652366b9ef035b6b991b98bca35b8819af045429400",
+          "characters": 1012
+        },
+        {
+          "page": 468,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "d0cd0a07ab8445dace3e7defc2f15e92818ad1a2197ea43d977453e3593c0d29",
+          "characters": 1318
+        },
+        {
+          "page": 469,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "618b4deab650660caed29860bbe414503526fa13d70ec483434a64be35c58bee",
+          "characters": 1110
+        },
+        {
+          "page": 470,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "6b0fad89ff0b1313af385a0d41583b01539ab2e8ecf4f76fa76dd637c56f2cdc",
+          "characters": 1273
+        },
+        {
+          "page": 471,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "289f80df8ccedb791f8271d885dc8c1a012f010e1a9aee9bca03cefea2612cbc",
+          "characters": 976
+        },
+        {
+          "page": 472,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "21501bfe27ad30ff50a1d2ce945da918167f49092c9b34a4ef2e245d50b3b425",
+          "characters": 527
+        },
+        {
+          "page": 473,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "1b9a7ee23d81ad5f4a7d267649ac3f208f098547c4a2cd123e78b3f321c35264",
+          "characters": 1288
+        },
+        {
+          "page": 474,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "d8f7e5b4fcea0623ed0fcb724ea7b251e4aa1690a3a5afa147379c23ba3bbe99",
+          "characters": 1132
+        },
+        {
+          "page": 475,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "0504d0d9bbf155b0d89de9cfc6891d429aa1ef7e2c7cab92293d0fe6fe03bfc4",
+          "characters": 1317
+        },
+        {
+          "page": 476,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "43dffff59b675142a0e9c7d6734c5b5cd0fdbb1416cbe06a49e5c2888033dbfb",
+          "characters": 1415
+        },
+        {
+          "page": 477,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "62e8d37b6166a1373e41adb87d76ee1c552efa9cce8517ca450f3947b9565fd4",
+          "characters": 1297
+        },
+        {
+          "page": 478,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "34d209a01f1775ab643c50760b4ab769bb1ff2c9ed51dcdfff251338db98269d",
+          "characters": 1148
+        },
+        {
+          "page": 479,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "310288273613d6a566cd796f9f0e5b7851fca5f8abecd3e0a55a35b1a1c1994d",
+          "characters": 1432
+        },
+        {
+          "page": 480,
+          "source": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+          "body_sha256": "5c21309e29422e325f89ee0480c6f65217c6df14f5e5c2b165838dd2e7d3bb84",
+          "characters": 1234
+        }
+      ],
+      "base_before_archive": "sources/chapter-07_modern-europe/世界史_350-480_完全文字起こし_統合版.md",
+      "embedded_image_sha256": []
+    }
+  ],
+  "originals": [
+    {
+      "path": "sources/chapter-01_orient-india/pages_016-062.md",
+      "archived": "sources/chapter-01_orient-india/legacy/pages_016-062.md",
+      "sha256": "890b96868e8c75e81e8d2bf57b7a4146eaf95f01f5cb671cd6bd035279345840",
+      "bytes": 129871
+    },
+    {
+      "path": "sources/chapter-01_orient-india/transcription_pages_17-62_merged.md",
+      "archived": "sources/chapter-01_orient-india/legacy/transcription_pages_17-62_merged.md",
+      "sha256": "e8775137d145853f158e05a25fa5a274921efb8bfeec61f662ca033966ef56d8",
+      "bytes": 136737
+    },
+    {
+      "path": "sources/chapter-02_mediterranean/04_ancient_greece.md",
+      "archived": "sources/chapter-02_mediterranean/legacy/04_ancient_greece.md",
+      "sha256": "8252f8072f8b8738e513306c4468d033f00d5cc70a4868e579e8fdbc939a7a79",
+      "bytes": 47083
+    },
+    {
+      "path": "sources/chapter-02_mediterranean/05_polis_decline_and_hellenism.md",
+      "archived": "sources/chapter-02_mediterranean/legacy/05_polis_decline_and_hellenism.md",
+      "sha256": "63209116608193a4b2409c33029bd3d77cd0d3994457f7297a6e86e7b9f3c108",
+      "bytes": 53194
+    },
+    {
+      "path": "sources/chapter-02_mediterranean/06_ancient_rome_republic.md",
+      "archived": "sources/chapter-02_mediterranean/legacy/06_ancient_rome_republic.md",
+      "sha256": "fadc23906801ec107a4f38a8159b6cd4e8b8565f50d086d9cae379dd268c3822",
+      "bytes": 46092
+    },
+    {
+      "path": "sources/chapter-02_mediterranean/07_roman_empire.md",
+      "archived": "sources/chapter-02_mediterranean/legacy/07_roman_empire.md",
+      "sha256": "2e2b4198c7b745650a1992415b821d225df07a2a8b5766049726b00cc453836e",
+      "bytes": 62669
+    },
+    {
+      "path": "sources/chapter-02_mediterranean/2_transcription_pages_64-128_complete.md",
+      "archived": "sources/chapter-02_mediterranean/legacy/2_transcription_pages_64-128_complete.md",
+      "sha256": "f3fcbb72ef0d236c8cf9e252766a586207801410338c653eabfdf85b82f25cf8",
+      "bytes": 207610
+    },
+    {
+      "path": "sources/chapter-02_mediterranean/pages_064-128.md",
+      "archived": "sources/chapter-02_mediterranean/legacy/pages_064-128.md",
+      "sha256": "1664952c89211abf50765995e72bda053e98cac7995c0ebdc07797741c8737a2",
+      "bytes": 209065
+    },
+    {
+      "path": "sources/chapter-03_ancient-east-asia/china_ancient_130-183_complete.md",
+      "archived": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+      "sha256": "b9ab15a344efb3a9484a84c6f4bd0c8aedab4703af6fa2c92c1a096fe85df99a",
+      "bytes": 163575
+    },
+    {
+      "path": "sources/chapter-03_ancient-east-asia/pages_129-180.md",
+      "archived": "sources/chapter-03_ancient-east-asia/legacy/pages_129-180.md",
+      "sha256": "953e1e31d161a98ffed1a2f10b8e5f871e93601071e6dfca28fa54b2bc5da166",
+      "bytes": 48180
+    },
+    {
+      "path": "sources/chapter-04_medieval-europe/IMG_3762_transcription_181-252_verified_merged.md",
+      "archived": "sources/chapter-04_medieval-europe/legacy/IMG_3762_transcription_181-252_verified_merged.md",
+      "sha256": "b72e4a5eaaea0a48cf85d9b518e2f3a2336325e6adddd085ff2ab46da17d87b9",
+      "bytes": 228286
+    },
+    {
+      "path": "sources/chapter-04_medieval-europe/pages_181-252.md",
+      "archived": "sources/chapter-04_medieval-europe/legacy/pages_181-252.md",
+      "sha256": "e1090d9f9e3de13b038f484cac0728a3bb07cce8a2b58dcc5f8b9140caafcae7",
+      "bytes": 86167
+    },
+    {
+      "path": "sources/chapter-05_east-asia/5_transcription_p253-314_merged.md",
+      "archived": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
+      "sha256": "a817b6fd078c3e7689c89069b6b51dfb5bc08a97c6aeb55027a374bc4ca70458",
+      "bytes": 570492
+    },
+    {
+      "path": "sources/chapter-05_east-asia/pages_253-314.md",
+      "archived": "sources/chapter-05_east-asia/legacy/pages_253-314.md",
+      "sha256": "5b956dbcbf5912ab84c64edbdbd16b57affd4e54b541cfd4087677d88ae4e10a",
+      "bytes": 62525
+    },
+    {
+      "path": "sources/chapter-06_islamic-world/01_islamic_world_formation.md",
+      "archived": "sources/chapter-06_islamic-world/legacy/01_islamic_world_formation.md",
+      "sha256": "dab569ac66a91ba259b259577fc6f0e2a4fc9caf84d46509db94326b34ed736e",
+      "bytes": 50747
+    },
+    {
+      "path": "sources/chapter-06_islamic-world/02_timur_and_safavid.md",
+      "archived": "sources/chapter-06_islamic-world/legacy/02_timur_and_safavid.md",
+      "sha256": "2d575eb588a310d9a778ab5e536ce22a631b638d83ead5cd702d0679716d77df",
+      "bytes": 12635
+    },
+    {
+      "path": "sources/chapter-06_islamic-world/03_ottoman_empire.md",
+      "archived": "sources/chapter-06_islamic-world/legacy/03_ottoman_empire.md",
+      "sha256": "6600bf1e8af517cf76a08eaaad07d1686a13b58f0ae26b0e42c76c0a2bf8b9e8",
+      "bytes": 18889
+    },
+    {
+      "path": "sources/chapter-06_islamic-world/04_mughal_empire.md",
+      "archived": "sources/chapter-06_islamic-world/legacy/04_mughal_empire.md",
+      "sha256": "9a254b23fff33c4977fdc46cb43342db35a15b23c58ac3e9c4e3fe0729945dc4",
+      "bytes": 11507
+    },
+    {
+      "path": "sources/chapter-06_islamic-world/05_islamic_culture.md",
+      "archived": "sources/chapter-06_islamic-world/legacy/05_islamic_culture.md",
+      "sha256": "63f17af5c10bc5f803c4058f0db9a19d30a72a1b71ec2e51aebe4bd55154739c",
+      "bytes": 7817
+    },
+    {
+      "path": "sources/chapter-06_islamic-world/islam_world_transcription_317-348_merged.md",
+      "archived": "sources/chapter-06_islamic-world/legacy/islam_world_transcription_317-348_merged.md",
+      "sha256": "b13e95c81bad8aa43a3565b6a9e41ee38c973f35c869c570d810316dc0574db3",
+      "bytes": 101194
+    },
+    {
+      "path": "sources/chapter-06_islamic-world/README.md",
+      "archived": "sources/chapter-06_islamic-world/legacy/README.md",
+      "sha256": "de6019a69825dbc272fa4d26342f30310215ef2a4c0ea88ffa299507a2c5f608",
+      "bytes": 1842
+    },
+    {
+      "path": "sources/chapter-06_islamic-world/sekai_shi_tankyu_315_348.md",
+      "archived": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
+      "sha256": "f40f525941288ee10b17491da2f8836421a8357659fd6ebe40b15f75153077dd",
+      "bytes": 47829
+    },
+    {
+      "path": "sources/chapter-07_modern-europe/pages_349-480.md",
+      "archived": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
+      "sha256": "42b80e5b17e05e44eeff39a09cc0a99393fadd1a3e1784cdc364b34d8af07bc9",
+      "bytes": 63705
+    },
+    {
+      "path": "sources/chapter-07_modern-europe/世界史_350-480_完全文字起こし_統合版.md",
+      "archived": "sources/chapter-07_modern-europe/legacy/世界史_350-480_完全文字起こし_統合版.md",
+      "sha256": "50e173c9d1fa8c6eb7bd260f3c58f5c71335d983906de4cb01ac4627a904848e",
+      "bytes": 426066
+    }
+  ],
+  "changes": [
+    {
+      "chapter": 1,
+      "pages": [
+        15,
+        16
+      ],
+      "kind": "扉情報・導入ページの補完",
+      "source": "sources/chapter-01_orient-india/legacy/pages_016-062.md",
+      "note": "15ページは目次から章名のみ。"
+    },
+    {
+      "chapter": 1,
+      "pages": [
+        30
+      ],
+      "kind": "地図表記の補完",
+      "source": "sources/chapter-01_orient-india/legacy/pages_016-062.md",
+      "note": "カルケミシュ。"
+    },
+    {
+      "chapter": 1,
+      "pages": [
+        39
+      ],
+      "kind": "地図表記の補完",
+      "source": "sources/chapter-01_orient-india/legacy/pages_016-062.md",
+      "note": "旧版にある戦いの名称2件。"
+    },
+    {
+      "chapter": 2,
+      "pages": [
+        63
+      ],
+      "kind": "章扉の補完",
+      "source": "sources/chapter-02_mediterranean/legacy/pages_064-128.md"
+    },
+    {
+      "chapter": 2,
+      "pages": [
+        88,
+        115
+      ],
+      "kind": "地図表記の補完",
+      "source": "sources/chapter-02_mediterranean/legacy/pages_064-128.md",
+      "note": "インダス川・ライン川。"
+    },
+    {
+      "chapter": 2,
+      "pages": [
+        98
+      ],
+      "kind": "図の階層・矢印関係の補完",
+      "source": "sources/chapter-02_mediterranean/legacy/pages_064-128.md",
+      "note": "旧版のピラミッド上下段と括弧・矢印に基づき、ノビレスを構成する階層と騎士階級への分岐を明示。"
+    },
+    {
+      "chapter": 3,
+      "pages": [
+        129
+      ],
+      "kind": "章扉の補完",
+      "source": "sources/chapter-03_ancient-east-asia/legacy/pages_129-180.md"
+    },
+    {
+      "chapter": 3,
+      "pages": [
+        178,
+        179,
+        180
+      ],
+      "kind": "重複の整理",
+      "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
+      "note": "元の181〜183ページ表記は178〜180ページの重複。元番号と主な異同は統合版末尾に保存。"
+    },
+    {
+      "chapter": 6,
+      "pages": [
+        315,
+        316
+      ],
+      "kind": "章扉・導入ページの補完",
+      "source": [
+        "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
+        "sources/chapter-06_islamic-world/legacy/01_islamic_world_formation.md"
+      ]
+    },
+    {
+      "chapter": 6,
+      "pages": [
+        317
+      ],
+      "kind": "地図表記の補完",
+      "source": "sources/chapter-06_islamic-world/legacy/01_islamic_world_formation.md",
+      "note": "クテシフォン・ホルムズ・国境紛争の激化。"
+    },
+    {
+      "chapter": 6,
+      "pages": [
+        326
+      ],
+      "kind": "11世紀の地図表記の補完",
+      "source": "sources/chapter-06_islamic-world/legacy/01_islamic_world_formation.md",
+      "note": "ガズナ朝。"
+    },
+    {
+      "chapter": 6,
+      "pages": [
+        341
+      ],
+      "kind": "地図表記の補完",
+      "source": "sources/chapter-06_islamic-world/legacy/03_ottoman_empire.md",
+      "note": "コソヴォ。"
+    },
+    {
+      "chapter": 7,
+      "pages": [
+        349
+      ],
+      "kind": "章扉の補完",
+      "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md"
+    }
+  ],
+  "toc_sha256": "4710c02be0c1de8628b3c78cbd746a60564f35ac9f228a25b96f218048637697",
+  "original_count": 24,
+  "book_page_count": 465,
+  "cover_page_from_toc": 15,
+  "pending_review_count": 30
+}

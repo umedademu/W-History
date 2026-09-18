@@ -1,7 +1,7 @@
-import { sourceEdition } from "./source-edition.js?v=0.059";
-import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.059";
-import { maximumMapScale } from "./map-camera.js?v=0.059";
-import { createMapLayout } from "./map-layout.js?v=0.059";
+import { sourceEdition } from "./source-edition.js?v=0.060";
+import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.060";
+import { maximumMapScale } from "./map-camera.js?v=0.060";
+import { createMapLayout } from "./map-layout.js?v=0.060";
 import { locations, zones } from "./timur-after-scenes.js?v=0.031";
 
 const scenes=sourceEdition["timur-after"];

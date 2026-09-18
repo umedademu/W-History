@@ -52,6 +52,6 @@ node scripts/serve.mjs
 
 全13教材の本文は原文の文章と順序を保ち、囲み・図表・年号まとめの文章化による重複を除いています。原画像の赤太字と黒太字を別の強調にし、画像で確認した読み仮名も表示します。
 
-本文と装飾の対応記録は [原文の再現方針](docs/source-edition/README.md)。再生成は `npm run build:source`、全文と装飾の画面確認は `npm run check:source:browser` です。`sources/` 内の資料は変更しません。
+本文と装飾の対応記録は [原文の再現方針](docs/source-edition/README.md)。再生成は `npm run build:source`、全文と装飾の画面確認は `npm run check:source:browser` です。旧版は `sources/chapter-06_islamic-world/legacy/` で内容と行番号を保っています。全7章の統合版は各章の `transcription.md` にあり、[統合記録](docs/source-consolidation.md)から参照できます。
 
 原文資料の章別の保管先と命名方針は [原文資料の保管方針](docs/source-storage.md) を参照してください。
