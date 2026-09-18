@@ -62,7 +62,7 @@ export const chapterEdition = {
             22,
             38
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": ""
         }
       ],
@@ -176,7 +176,7 @@ export const chapterEdition = {
             25.16,
             35.3
           ],
-          "image": "ancient/roman-scholar.png",
+          "image": "ancient/thales-philosopher.png",
           "bubble": "クレタ島のクノッソス迷宮宮殿を発掘！"
         }
       ],
@@ -315,7 +315,7 @@ export const chapterEdition = {
             22.75,
             37.73
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/philip2-macedon.png",
           "bubble": "ミケーネの王としてトロイア遠征を率いる"
         },
         {
@@ -324,7 +324,7 @@ export const chapterEdition = {
             25.16,
             35.3
           ],
-          "image": "ancient/roman-scholar.png",
+          "image": "ancient/thales-philosopher.png",
           "bubble": "粘土板に刻まれた線文字Bの解読に成功！"
         }
       ],
@@ -421,7 +421,7 @@ export const chapterEdition = {
             22.75,
             37.73
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thales-philosopher.png",
           "bubble": ""
         }
       ],
@@ -527,7 +527,7 @@ export const chapterEdition = {
             22.75,
             37.73
           ],
-          "image": "ancient/roman-scholar.png",
+          "image": "ancient/thales-philosopher.png",
           "bubble": "ホメロスの叙事詩を信じトロイア遺跡を発掘！"
         },
         {
@@ -536,7 +536,7 @@ export const chapterEdition = {
             27.14,
             38.42
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/herodotus-historian.png",
           "bubble": "『イリアス』『オデュッセイア』を吟誦する"
         },
         {
@@ -545,7 +545,7 @@ export const chapterEdition = {
             22.75,
             37.73
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/philip2-macedon.png",
           "bubble": "ミケーネの王としてトロイア遠征を率いる",
           "offset": [
             -24,
@@ -628,7 +628,7 @@ export const chapterEdition = {
             22.75,
             37.73
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thales-philosopher.png",
           "bubble": ""
         }
       ],
@@ -749,7 +749,7 @@ export const chapterEdition = {
             22.75,
             37.73
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thales-philosopher.png",
           "bubble": ""
         }
       ],
@@ -833,7 +833,7 @@ export const chapterEdition = {
             22,
             38
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": ""
         }
       ],
@@ -935,7 +935,7 @@ export const chapterEdition = {
             22,
             38
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": ""
         }
       ],
@@ -1009,7 +1009,7 @@ export const chapterEdition = {
             22,
             38
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": ""
         }
       ],
@@ -1097,7 +1097,7 @@ export const chapterEdition = {
             22,
             38
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": ""
         }
       ],
@@ -1218,7 +1218,7 @@ export const chapterEdition = {
             22,
             35
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thales-philosopher.png",
           "bubble": ""
         }
       ],
@@ -1337,7 +1337,7 @@ export const chapterEdition = {
             22,
             35
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thales-philosopher.png",
           "bubble": ""
         }
       ],
@@ -1451,7 +1451,7 @@ export const chapterEdition = {
             22.431,
             37.075
           ],
-          "image": "ancient/spartan-warrior.png",
+          "image": "ancient/spartan-phalanx.png",
           "bubble": ""
         }
       ],
@@ -1541,7 +1541,7 @@ export const chapterEdition = {
             22.431,
             37.075
           ],
-          "image": "ancient/spartan-warrior.png",
+          "image": "ancient/lycurgus-spartan.png",
           "bubble": "厳格な規律と軍国主義の国制を定める"
         }
       ],
@@ -1689,7 +1689,7 @@ export const chapterEdition = {
             22.431,
             37.075
           ],
-          "image": "ancient/spartan-warrior.png",
+          "image": "ancient/spartan-phalanx.png",
           "bubble": ""
         }
       ],
@@ -1786,7 +1786,7 @@ export const chapterEdition = {
             22,
             38
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": ""
         }
       ],
@@ -1850,7 +1850,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/solon-reformer.png",
           "bubble": "従来の慣習法を成文化し公開する！"
         }
       ],
@@ -1914,7 +1914,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/solon-reformer.png",
           "bubble": "財産額に応じて参政権を与える財産政を導入！"
         }
       ],
@@ -1973,7 +1973,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/solon-reformer.png",
           "bubble": "財産額に応じて参政権を与える財産政を導入！"
         }
       ],
@@ -2040,7 +2040,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/peisistratos-tyrant.png",
           "bubble": "中小農民を保護し僭主として君臨！"
         },
         {
@@ -2049,7 +2049,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/hippias-exile.png",
           "bubble": "暴政を行いアテネ市民によって追放される",
           "offset": [
             -24,
@@ -2117,7 +2117,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/cleisthenes-democrat.png",
           "bubble": "陶片追放（オストラキスモス）で僭主の出現を防ぐ！"
         },
         {
@@ -2126,7 +2126,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/peisistratos-tyrant.png",
           "bubble": "中小農民を保護し僭主として君臨！",
           "offset": [
             -24,
@@ -2196,7 +2196,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/cleisthenes-democrat.png",
           "bubble": "陶片追放（オストラキスモス）で僭主の出現を防ぐ！"
         }
       ],
@@ -2260,7 +2260,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/cleisthenes-democrat.png",
           "bubble": "陶片追放（オストラキスモス）で僭主の出現を防ぐ！"
         },
         {
@@ -2269,7 +2269,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/peisistratos-tyrant.png",
           "bubble": "中小農民を保護し僭主として君臨！",
           "offset": [
             -24,
@@ -2650,7 +2650,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/miltiades-general.png",
           "bubble": "マラトンの戦いでペルシア軍を撃破！",
           "afterImage": "ancient/roman-victory.png"
         }
@@ -2747,7 +2747,7 @@ export const chapterEdition = {
             27.42,
             37.04
           ],
-          "image": "ancient/roman-scholar.png",
+          "image": "ancient/herodotus-historian.png",
           "bubble": "ペルシア戦争を物語る『歴史』を著す"
         }
       ],
@@ -2868,7 +2868,7 @@ export const chapterEdition = {
             22.431,
             37.075
           ],
-          "image": "ancient/spartan-warrior.png",
+          "image": "ancient/leonidas-spartan.png",
           "bubble": "テルモピレーで300名の兵と玉砕覚悟で奮戦！",
           "afterImage": "ancient/spartan-phalanx.png"
         }
@@ -2967,7 +2967,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/themistocles-naval.png",
           "bubble": "三段櫂船を建造しサラミスの海戦で勝利へ導く！",
           "afterImage": "ancient/roman-victory.png"
         },
@@ -3068,7 +3068,7 @@ export const chapterEdition = {
             54,
             33
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thales-philosopher.png",
           "bubble": ""
         }
       ],
@@ -3138,7 +3138,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": "民主政は少数のためでなく万人のためのもの！"
         },
         {
@@ -3147,7 +3147,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/cleisthenes-democrat.png",
           "bubble": "陶片追放（オストラキスモス）で僭主の出現を防ぐ！",
           "offset": [
             -24,
@@ -3236,7 +3236,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": "民主政は少数のためでなく万人のためのもの！"
         }
       ],
@@ -3310,7 +3310,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": "民主政は少数のためでなく万人のためのもの！"
         }
       ],
@@ -3388,7 +3388,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": "民主政は少数のためでなく万人のためのもの！"
         },
         {
@@ -3397,7 +3397,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/phidias-sculptor.png",
           "bubble": "パルテノン神殿のアテナ女神像を彫刻",
           "offset": [
             -24,
@@ -3500,7 +3500,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": "民主政は少数のためでなく万人のためのもの！"
         },
         {
@@ -3509,7 +3509,7 @@ export const chapterEdition = {
             23.73,
             37.98
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": "デロス同盟の盟主として海上帝国を維持",
           "offset": [
             -24,
@@ -3522,7 +3522,7 @@ export const chapterEdition = {
             22.43,
             37.08
           ],
-          "image": "ancient/spartan-warrior.png",
+          "image": "ancient/spartan-phalanx.png",
           "bubble": "ペロポネソス同盟を率いてアテネに挑戦！"
         }
       ],
@@ -3618,7 +3618,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": "民主政は少数のためでなく万人のためのもの！"
         }
       ],
@@ -3710,7 +3710,7 @@ export const chapterEdition = {
             23.32,
             38.32
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/miltiades-general.png",
           "bubble": "斜線陣でスパルタ軍を撃破し覇権を握る！",
           "afterImage": "ancient/roman-victory.png"
         }
@@ -3786,7 +3786,7 @@ export const chapterEdition = {
             22.431,
             37.075
           ],
-          "image": "ancient/spartan-warrior.png",
+          "image": "ancient/spartan-phalanx.png",
           "bubble": ""
         }
       ],
@@ -3881,7 +3881,7 @@ export const chapterEdition = {
             22.52,
             40.76
           ],
-          "image": "ancient/macedon-king.png",
+          "image": "ancient/philip2-macedon.png",
           "bubble": "カイロネイアの戦いで全ギリシアを制圧！",
           "afterImage": "ancient/roman-victory.png"
         },
@@ -3891,7 +3891,7 @@ export const chapterEdition = {
             23.32,
             38.32
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/miltiades-general.png",
           "bubble": "斜線陣でスパルタ軍を撃破し覇権を握る！",
           "afterImage": "ancient/roman-victory.png"
         }
@@ -3983,7 +3983,7 @@ export const chapterEdition = {
             22.52,
             40.76
           ],
-          "image": "ancient/macedon-king.png",
+          "image": "ancient/philip2-macedon.png",
           "bubble": "カイロネイアの戦いで全ギリシアを制圧！",
           "afterImage": "ancient/roman-victory.png"
         },
@@ -3993,8 +3993,8 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
-          "bubble": ""
+          "image": "ancient/demosthenes-orator.png",
+          "bubble": "全ギリシアの一致団結を説く"
         },
         {
           "name": "デモステネス",
@@ -4002,8 +4002,8 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
-          "bubble": "",
+          "image": "ancient/demosthenes-orator.png",
+          "bubble": "マケドニアの専制に屈するなと市民に訴える！",
           "offset": [
             -24,
             0
@@ -4095,7 +4095,7 @@ export const chapterEdition = {
             22.52,
             40.76
           ],
-          "image": "ancient/macedon-king.png",
+          "image": "ancient/philip2-macedon.png",
           "bubble": "カイロネイアの戦いで全ギリシアを制圧！",
           "afterImage": "ancient/roman-victory.png"
         }
@@ -4177,9 +4177,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/alexander-march.png",
+          "image": "ancient/alexander-conqueror.png",
           "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
-          "afterImage": "ancient/alexander-happy.png"
+          "afterImage": "ancient/alexander-triumph.png"
         },
         {
           "name": "フィリッポス2世",
@@ -4187,7 +4187,7 @@ export const chapterEdition = {
             22.52,
             40.76
           ],
-          "image": "ancient/macedon-king.png",
+          "image": "ancient/philip2-macedon.png",
           "bubble": "カイロネイアの戦いで全ギリシアを制圧！",
           "afterImage": "ancient/roman-victory.png"
         },
@@ -4197,7 +4197,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/aristotle-philosopher.png",
           "bubble": "人間はポリス的動物である（万学の祖）"
         }
       ],
@@ -4315,9 +4315,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/alexander-march.png",
+          "image": "ancient/alexander-conqueror.png",
           "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
-          "afterImage": "ancient/alexander-happy.png"
+          "afterImage": "ancient/alexander-triumph.png"
         },
         {
           "name": "フィリッポス2世",
@@ -4325,7 +4325,7 @@ export const chapterEdition = {
             22.52,
             40.76
           ],
-          "image": "ancient/macedon-king.png",
+          "image": "ancient/philip2-macedon.png",
           "bubble": "カイロネイアの戦いで全ギリシアを制圧！",
           "afterImage": "ancient/roman-victory.png"
         },
@@ -4346,7 +4346,7 @@ export const chapterEdition = {
           "name": "アナトリア",
           "route": 0,
           "image": "ancient/alexander-march.png",
-          "afterImage": "ancient/alexander-happy.png",
+          "afterImage": "ancient/alexander-triumph.png",
           "bubble": "イッソスの戦いでペルシア軍本隊を撃破！"
         }
       ],
@@ -4473,9 +4473,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/alexander-march.png",
+          "image": "ancient/alexander-conqueror.png",
           "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
-          "afterImage": "ancient/alexander-happy.png",
+          "afterImage": "ancient/alexander-triumph.png",
           "route": 0
         }
       ],
@@ -4626,9 +4626,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/alexander-march.png",
+          "image": "ancient/alexander-conqueror.png",
           "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
-          "afterImage": "ancient/alexander-happy.png"
+          "afterImage": "ancient/alexander-triumph.png"
         },
         {
           "name": "ダレイオス3世",
@@ -4761,9 +4761,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/alexander-march.png",
+          "image": "ancient/alexander-conqueror.png",
           "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
-          "afterImage": "ancient/alexander-happy.png"
+          "afterImage": "ancient/alexander-triumph.png"
         }
       ],
       "props": [
@@ -4896,9 +4896,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/alexander-march.png",
+          "image": "ancient/alexander-conqueror.png",
           "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
-          "afterImage": "ancient/alexander-happy.png",
+          "afterImage": "ancient/alexander-triumph.png",
           "route": 0
         }
       ],
@@ -5073,9 +5073,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/alexander-march.png",
+          "image": "ancient/alexander-conqueror.png",
           "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
-          "afterImage": "ancient/alexander-happy.png"
+          "afterImage": "ancient/alexander-triumph.png"
         },
         {
           "name": "ドロイゼン",
@@ -5083,7 +5083,7 @@ export const chapterEdition = {
             13.4,
             52.5
           ],
-          "image": "ancient/roman-scholar.png",
+          "image": "ancient/thucydides-historian.png",
           "bubble": "東西文化融合の時代を「ヘレニズム」と命名"
         }
       ],
@@ -5185,9 +5185,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/alexander-march.png",
+          "image": "ancient/alexander-conqueror.png",
           "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
-          "afterImage": "ancient/alexander-happy.png"
+          "afterImage": "ancient/alexander-triumph.png"
         },
         {
           "name": "カッサンドロス",
@@ -5195,7 +5195,7 @@ export const chapterEdition = {
             22.52,
             40.76
           ],
-          "image": "ancient/macedon-king.png",
+          "image": "ancient/philip2-macedon.png",
           "bubble": "アンティゴノス朝マケドニアの基礎を築く"
         },
         {
@@ -5204,7 +5204,7 @@ export const chapterEdition = {
             22.52,
             40.76
           ],
-          "image": "ancient/macedon-king.png",
+          "image": "ancient/philip2-macedon.png",
           "bubble": "マケドニアの支配を安定させる",
           "offset": [
             -24,
@@ -5361,7 +5361,7 @@ export const chapterEdition = {
             36,
             36
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thales-philosopher.png",
           "bubble": ""
         }
       ],
@@ -5631,7 +5631,7 @@ export const chapterEdition = {
             22,
             38
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": ""
         }
       ],
@@ -5696,7 +5696,7 @@ export const chapterEdition = {
             22,
             38
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": ""
         }
       ],
@@ -5779,7 +5779,7 @@ export const chapterEdition = {
             27.14,
             38.42
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/herodotus-historian.png",
           "bubble": "『イリアス』『オデュッセイア』を吟誦する"
         },
         {
@@ -5788,7 +5788,7 @@ export const chapterEdition = {
             23.05,
             38.4
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/herodotus-historian.png",
           "bubble": "『神統記』『労働と日々』を著す"
         },
         {
@@ -5797,7 +5797,7 @@ export const chapterEdition = {
             26.55,
             39.1
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/herodotus-historian.png",
           "bubble": "レスボス島で愛と情熱の抒情詩を歌う"
         }
       ],
@@ -5865,7 +5865,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thucydides-historian.png",
           "bubble": "悲劇『アガメムノン』を著す"
         },
         {
@@ -5874,7 +5874,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thucydides-historian.png",
           "bubble": "悲劇『オイディプス王』で運命の悲劇を描く",
           "offset": [
             -24,
@@ -5887,7 +5887,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thucydides-historian.png",
           "bubble": "悲劇『メディア』で人間の心理を鋭く描く",
           "offset": [
             24,
@@ -5900,7 +5900,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thucydides-historian.png",
           "bubble": "喜劇『女の平和』でペロポネソス戦争を風刺！",
           "offset": [
             -48,
@@ -5985,7 +5985,7 @@ export const chapterEdition = {
             27.28,
             37.53
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thales-philosopher.png",
           "bubble": "万物の根源（アルケー）は水である"
         },
         {
@@ -5994,7 +5994,7 @@ export const chapterEdition = {
             16.55,
             39.08
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/pythagoras-scholar.png",
           "bubble": "万物の根源は数であり調和である"
         },
         {
@@ -6003,7 +6003,7 @@ export const chapterEdition = {
             27.34,
             37.94
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thales-philosopher.png",
           "bubble": "万物は流転する（パンタ・レイ）"
         },
         {
@@ -6012,7 +6012,7 @@ export const chapterEdition = {
             24.97,
             40.94
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/thales-philosopher.png",
           "bubble": "万物はこれ以上分割できない原子（アトム）からなる"
         },
         {
@@ -6021,7 +6021,7 @@ export const chapterEdition = {
             27.29,
             36.89
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/hippocrates-doctor.png",
           "bubble": "迷信を排し臨床観察に基づく医学の父"
         }
       ],
@@ -6101,7 +6101,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/pericles-statesman.png",
           "bubble": "民主政は少数のためでなく万人のためのもの！"
         },
         {
@@ -6110,7 +6110,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/socrates-philosopher.png",
           "bubble": "人間は万物の尺度である（相対主義）",
           "offset": [
             -24,
@@ -6123,7 +6123,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/socrates-philosopher.png",
           "bubble": "無知の知を自覚し、魂の善美を求めよ",
           "offset": [
             24,
@@ -6186,7 +6186,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/socrates-philosopher.png",
           "bubble": "無知の知を自覚し、魂の善美を求めよ"
         },
         {
@@ -6195,7 +6195,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/plato-philosopher.png",
           "bubble": "真の実在は天上にあるイデアの世界である",
           "offset": [
             -24,
@@ -6208,7 +6208,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/aristotle-philosopher.png",
           "bubble": "人間はポリス的動物である（万学の祖）",
           "offset": [
             24,
@@ -6271,7 +6271,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/socrates-philosopher.png",
           "bubble": "無知の知を自覚し、魂の善美を求めよ"
         },
         {
@@ -6280,7 +6280,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/plato-philosopher.png",
           "bubble": "真の実在は天上にあるイデアの世界である",
           "offset": [
             -24,
@@ -6293,7 +6293,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/aristotle-philosopher.png",
           "bubble": "人間はポリス的動物である（万学の祖）",
           "offset": [
             24,
@@ -6374,7 +6374,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/socrates-philosopher.png",
           "bubble": "無知の知を自覚し、魂の善美を求めよ"
         },
         {
@@ -6383,7 +6383,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/plato-philosopher.png",
           "bubble": "真の実在は天上にあるイデアの世界である",
           "offset": [
             -24,
@@ -6396,7 +6396,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/aristotle-philosopher.png",
           "bubble": "人間はポリス的動物である（万学の祖）",
           "offset": [
             24,
@@ -6497,7 +6497,7 @@ export const chapterEdition = {
             27.42,
             37.04
           ],
-          "image": "ancient/roman-scholar.png",
+          "image": "ancient/herodotus-historian.png",
           "bubble": "ペルシア戦争を物語る『歴史』を著す"
         },
         {
@@ -6506,7 +6506,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/roman-scholar.png",
+          "image": "ancient/thucydides-historian.png",
           "bubble": "ペロポネソス戦争を批判的実証主義で記録"
         }
       ],
@@ -6587,7 +6587,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/phidias-sculptor.png",
           "bubble": "パルテノン神殿のアテナ女神像を彫刻"
         },
         {
@@ -6596,7 +6596,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/phidias-sculptor.png",
           "bubble": "優美なヘルメス像などの彫刻を手がける",
           "offset": [
             -24,
@@ -6702,9 +6702,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/alexander-march.png",
+          "image": "ancient/alexander-conqueror.png",
           "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
-          "afterImage": "ancient/alexander-happy.png"
+          "afterImage": "ancient/alexander-triumph.png"
         }
       ],
       "props": [],
@@ -6774,9 +6774,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/alexander-march.png",
+          "image": "ancient/alexander-conqueror.png",
           "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
-          "afterImage": "ancient/alexander-happy.png"
+          "afterImage": "ancient/alexander-triumph.png"
         },
         {
           "name": "ゼノン",
@@ -6784,7 +6784,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/zeno-stoic.png",
           "bubble": "情熱に動かされない不動心（アパテイア）を説く"
         },
         {
@@ -6793,7 +6793,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/epicurus-philosopher.png",
           "bubble": "心の平静（アタラクシア）こそ最高の快楽",
           "offset": [
             -24,
@@ -6879,7 +6879,7 @@ export const chapterEdition = {
             29.918,
             31.2
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/eratosthenes-geographer.png",
           "bubble": "太陽中心説（地動説）を先駆的に唱える"
         },
         {
@@ -6888,7 +6888,7 @@ export const chapterEdition = {
             29.918,
             31.2
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/eratosthenes-geographer.png",
           "bubble": "夏至の影から地球の全周を正確に計算！",
           "offset": [
             -24,
@@ -7227,7 +7227,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/athenian-general.png",
+          "image": "ancient/solon-reformer.png",
           "bubble": "従来の慣習法を成文化し公開する！"
         },
         {
@@ -7236,7 +7236,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-consul.png",
+          "image": "ancient/licinius-tribune.png",
           "bubble": "貴族と平民の通婚を認める法を可決！"
         }
       ],
@@ -7303,7 +7303,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-consul.png",
+          "image": "ancient/licinius-tribune.png",
           "bubble": "コンスルの1名を平民から選ぶ法を制定！"
         },
         {
@@ -7312,7 +7312,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-consul.png",
+          "image": "ancient/licinius-tribune.png",
           "bubble": "大土地所有を制限し平民の権利を拡充！",
           "offset": [
             -24,
@@ -7383,7 +7383,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-consul.png",
+          "image": "ancient/licinius-tribune.png",
           "bubble": "平民会の決議が元老院の承認なしに国法となる！"
         }
       ],
@@ -7844,9 +7844,9 @@ export const chapterEdition = {
             10.32,
             36.85
           ],
-          "image": "ancient/hannibal-general.png",
+          "image": "ancient/hannibal-barker.png",
           "bubble": "アルプスを越えカンネーでローマ軍を包囲殲滅！",
-          "afterImage": "ancient/roman-victory.png"
+          "afterImage": "ancient/soldier-retreat.png"
         },
         {
           "name": "スキピオ",
@@ -7854,7 +7854,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/scipio-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "ザマの戦いでハンニバルを破りポエニ戦争に勝利！",
           "afterImage": "ancient/roman-victory.png"
         },
@@ -7864,7 +7864,7 @@ export const chapterEdition = {
             10.32,
             36.85
           ],
-          "image": "ancient/hannibal-general.png",
+          "image": "ancient/hannibal-barker.png",
           "bubble": "スペインを拠点にカルタゴの再興を誓う",
           "offset": [
             -24,
@@ -7976,9 +7976,9 @@ export const chapterEdition = {
             10.32,
             36.85
           ],
-          "image": "ancient/hannibal-general.png",
+          "image": "ancient/hannibal-barker.png",
           "bubble": "アルプスを越えカンネーでローマ軍を包囲殲滅！",
-          "afterImage": "ancient/roman-victory.png"
+          "afterImage": "ancient/soldier-retreat.png"
         },
         {
           "name": "スキピオ",
@@ -7986,7 +7986,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/scipio-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "ザマの戦いでハンニバルを破りポエニ戦争に勝利！",
           "afterImage": "ancient/roman-victory.png"
         },
@@ -7997,7 +7997,7 @@ export const chapterEdition = {
           ],
           "name": "北アフリカ",
           "route": 0,
-          "image": "ancient/scipio-general.png",
+          "image": "ancient/scipio-africanus.png",
           "afterImage": "ancient/roman-victory.png",
           "bubble": "カルタゴ本土へ侵攻しザマでハンニバルを撃破！"
         },
@@ -8007,7 +8007,7 @@ export const chapterEdition = {
             9.3,
             36
           ],
-          "image": "ancient/hannibal-general.png",
+          "image": "ancient/hannibal-barker.png",
           "afterImage": "ancient/soldier-retreat.png",
           "bubble": "ザマの地でついに敗れ去る…"
         }
@@ -8145,7 +8145,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-consul.png",
+          "image": "ancient/cato-elder.png",
           "bubble": "カルタゴは滅ぼされるべきである！"
         },
         {
@@ -8154,7 +8154,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/scipio-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "ザマの戦いでハンニバルを破りポエニ戦争に勝利！",
           "afterImage": "ancient/roman-victory.png",
           "offset": [
@@ -8168,7 +8168,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/scipio-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "第3回ポエニ戦争でカルタゴを徹底破壊！",
           "afterImage": "ancient/roman-victory.png",
           "offset": [
@@ -8247,7 +8247,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/caesar-general.png",
+          "image": "ancient/sulla-dictator.png",
           "bubble": "同盟市戦争を鎮圧し閥族派の独裁官となる！"
         }
       ],
@@ -8469,7 +8469,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-plebeian.png",
+          "image": "ancient/tiberius-gracchus.png",
           "bubble": "没落農民を救い自作農を再建する土地改革を断行！"
         },
         {
@@ -8478,7 +8478,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-plebeian.png",
+          "image": "ancient/tiberius-gracchus.png",
           "bubble": "農民の没落を防ぐため公有地保有制限法を提案！",
           "offset": [
             -24,
@@ -8491,7 +8491,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-consul.png",
+          "image": "ancient/licinius-tribune.png",
           "bubble": "コンスルの1名を平民から選ぶ法を制定！",
           "offset": [
             24,
@@ -8504,7 +8504,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-consul.png",
+          "image": "ancient/licinius-tribune.png",
           "bubble": "大土地所有を制限し平民の権利を拡充！",
           "offset": [
             -48,
@@ -8517,7 +8517,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/scipio-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "ザマの戦いでハンニバルを破りポエニ戦争に勝利！",
           "afterImage": "ancient/roman-victory.png",
           "offset": [
@@ -8579,7 +8579,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-plebeian.png",
+          "image": "ancient/tiberius-gracchus.png",
           "bubble": "没落農民を救い自作農を再建する土地改革を断行！"
         },
         {
@@ -8588,7 +8588,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-plebeian.png",
+          "image": "ancient/gaius-gracchus.png",
           "bubble": "兄の意志を継ぎ改革を進めるも元老院派に倒れる…",
           "offset": [
             -24,
@@ -8666,7 +8666,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/caesar-general.png",
+          "image": "ancient/marius-general.png",
           "bubble": "無産市民を募兵して軍制改革を行い平民派を率いる！"
         },
         {
@@ -8824,7 +8824,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/caesar-general.png",
+          "image": "ancient/marius-general.png",
           "bubble": "無産市民を募兵して軍制改革を行い平民派を率いる！"
         },
         {
@@ -8833,7 +8833,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/caesar-general.png",
+          "image": "ancient/sulla-dictator.png",
           "bubble": "同盟市戦争を鎮圧し閥族派の独裁官となる！",
           "offset": [
             -24,
@@ -8953,7 +8953,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/caesar-general.png",
+          "image": "ancient/sulla-dictator.png",
           "bubble": "同盟市戦争を鎮圧し閥族派の独裁官となる！"
         },
         {
@@ -8962,7 +8962,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/caesar-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "東方を平定しセレウコス朝シリアを滅ぼす！",
           "offset": [
             -24,
@@ -8975,7 +8975,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-consul.png",
+          "image": "ancient/sulla-dictator.png",
           "bubble": "莫大な財力でスパルタクスの乱を鎮圧！",
           "offset": [
             24,
@@ -9108,7 +9108,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-consul.png",
+          "image": "ancient/sulla-dictator.png",
           "bubble": "莫大な財力でスパルタクスの乱を鎮圧！"
         },
         {
@@ -9131,7 +9131,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/caesar-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "東方を平定しセレウコス朝シリアを滅ぼす！",
           "offset": [
             24,
@@ -9231,7 +9231,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-consul.png",
+          "image": "ancient/sulla-dictator.png",
           "bubble": "莫大な財力でスパルタクスの乱を鎮圧！"
         },
         {
@@ -9254,7 +9254,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/caesar-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "東方を平定しセレウコス朝シリアを滅ぼす！",
           "offset": [
             24,
@@ -9493,7 +9493,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/caesar-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "クレオパトラと結び東方に勢力を張る",
           "offset": [
             -24,
@@ -9650,7 +9650,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/caesar-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "クレオパトラと結び東方に勢力を張る",
           "offset": [
             -24,
@@ -9672,9 +9672,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/alexander-march.png",
+          "image": "ancient/alexander-conqueror.png",
           "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
-          "afterImage": "ancient/alexander-happy.png"
+          "afterImage": "ancient/alexander-triumph.png"
         },
         {
           "name": "アウグストゥス",
@@ -9903,7 +9903,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/scipio-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "ザマの戦いでハンニバルを破りポエニ戦争に勝利！",
           "afterImage": "ancient/roman-victory.png",
           "offset": [
@@ -10020,7 +10020,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-plebeian.png",
+          "image": "ancient/tiberius-gracchus.png",
           "bubble": "農民の没落を防ぐため公有地保有制限法を提案！",
           "offset": [
             -24,
@@ -10055,7 +10055,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/scipio-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "海戦を勝利に導き万神殿（パンテオン）を建造",
           "offset": [
             -48,
@@ -11902,7 +11902,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-consul.png",
+          "image": "ancient/licinius-tribune.png",
           "bubble": "コンスルの1名を平民から選ぶ法を制定！"
         },
         {
@@ -11999,7 +11999,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/roman-consul.png",
+          "image": "ancient/licinius-tribune.png",
           "bubble": "コンスルの1名を平民から選ぶ法を制定！"
         }
       ],
@@ -12533,7 +12533,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/caesar-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "東方を平定しセレウコス朝シリアを滅ぼす！"
         },
         {
@@ -13473,7 +13473,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/plato-philosopher.png",
           "bubble": "真の実在は天上にあるイデアの世界である"
         }
       ],
@@ -13639,7 +13639,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/plato-philosopher.png",
           "bubble": "真の実在は天上にあるイデアの世界である"
         },
         {
@@ -13662,7 +13662,7 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/caesar-general.png",
+          "image": "ancient/scipio-africanus.png",
           "bubble": "クレオパトラと結び東方に勢力を張る",
           "offset": [
             24,
@@ -13846,7 +13846,7 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/greek-philosopher.png",
+          "image": "ancient/plato-philosopher.png",
           "bubble": "真の実在は天上にあるイデアの世界である"
         }
       ],
@@ -13988,9 +13988,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/alexander-march.png",
+          "image": "ancient/alexander-conqueror.png",
           "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
-          "afterImage": "ancient/alexander-happy.png"
+          "afterImage": "ancient/alexander-triumph.png"
         },
         {
           "name": "カエサル",

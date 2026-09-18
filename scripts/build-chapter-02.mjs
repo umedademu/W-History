@@ -53,100 +53,102 @@ assert.equal(offset,0);
 
 export const personInfo = {
   // 初期ギリシア・アテネ改革
-  'ドラコン': { image: 'athenian-general', bubble: '従来の慣習法を成文化し公開する！' },
-  'ソロン': { image: 'athenian-general', bubble: '財産額に応じて参政権を与える財産政を導入！' },
-  'ペイシストラトス': { image: 'athenian-general', bubble: '中小農民を保護し僭主として君臨！' },
-  'ヒッピアス': { image: 'athenian-general', bubble: '暴政を行いアテネ市民によって追放される' },
-  'クレイステネス': { image: 'athenian-general', bubble: '陶片追放（オストラキスモス）で僭主の出現を防ぐ！' },
+  'ドラコン': { image: 'solon-reformer', bubble: '従来の慣習法を成文化し公開する！' },
+  'ソロン': { image: 'solon-reformer', bubble: '財産額に応じて参政権を与える財産政を導入！' },
+  'ペイシストラトス': { image: 'peisistratos-tyrant', bubble: '中小農民を保護し僭主として君臨！' },
+  'ヒッピアス': { image: 'hippias-exile', bubble: '暴政を行いアテネ市民によって追放される' },
+  'クレイステネス': { image: 'cleisthenes-democrat', bubble: '陶片追放（オストラキスモス）で僭主の出現を防ぐ！' },
   
   // ペルシア戦争・将軍・王
-  'ミルティアデス': { image: 'athenian-general', afterImage: 'roman-victory', bubble: 'マラトンの戦いでペルシア軍を撃破！' },
-  'テミストクレス': { image: 'athenian-general', afterImage: 'roman-victory', bubble: '三段櫂船を建造しサラミスの海戦で勝利へ導く！' },
-  'レオニダス': { image: 'spartan-warrior', afterImage: 'spartan-phalanx', bubble: 'テルモピレーで300名の兵と玉砕覚悟で奮戦！' },
+  'ミルティアデス': { image: 'miltiades-general', afterImage: 'roman-victory', bubble: 'マラトンの戦いでペルシア軍を撃破！' },
+  'テミストクレス': { image: 'themistocles-naval', afterImage: 'roman-victory', bubble: '三段櫂船を建造しサラミスの海戦で勝利へ導く！' },
+  'レオニダス': { image: 'leonidas-spartan', afterImage: 'spartan-phalanx', bubble: 'テルモピレーで300名の兵と玉砕覚悟で奮戦！' },
   'クセルクセス1世': { image: 'persian-immortal', afterImage: 'darius3-worried', bubble: '大軍を率いてギリシア本土へ進軍せよ！' },
   
   // アテネ全盛期・ポリス社会崩壊
-  'ペリクレス': { image: 'athenian-general', bubble: '民主政は少数のためでなく万人のためのもの！' },
-  'リュクルゴス': { image: 'spartan-warrior', bubble: '厳格な規律と軍国主義の国制を定める' },
-  'エパメイノンダス': { image: 'athenian-general', afterImage: 'roman-victory', bubble: '斜線陣でスパルタ軍を撃破し覇権を握る！' },
-  'フィリッポス2世': { image: 'macedon-king', afterImage: 'roman-victory', bubble: 'カイロネイアの戦いで全ギリシアを制圧！' },
-  'カッサンドロス': { image: 'macedon-king', bubble: 'アンティゴノス朝マケドニアの基礎を築く' },
-  'アンティゴノス2世': { image: 'macedon-king', bubble: 'マケドニアの支配を安定させる' },
-  'アレクサンドロス': { image: 'alexander-march', afterImage: 'alexander-happy', bubble: 'ペルシアを滅ぼし世界帝国を建設する！' },
-  'アレクサンドロス大王': { image: 'alexander-march', afterImage: 'alexander-happy', bubble: 'ペルシアを滅ぼし世界帝国を建設する！' },
+  'ペリクレス': { image: 'pericles-statesman', bubble: '民主政は少数のためでなく万人のためのもの！' },
+  'リュクルゴス': { image: 'lycurgus-spartan', bubble: '厳格な規律と軍国主義の国制を定める' },
+  'エパメイノンダス': { image: 'miltiades-general', afterImage: 'roman-victory', bubble: '斜線陣でスパルタ軍を撃破し覇権を握る！' },
+  'フィリッポス2世': { image: 'philip2-macedon', afterImage: 'roman-victory', bubble: 'カイロネイアの戦いで全ギリシアを制圧！' },
+  'カッサンドロス': { image: 'philip2-macedon', bubble: 'アンティゴノス朝マケドニアの基礎を築く' },
+  'アンティゴノス2世': { image: 'philip2-macedon', bubble: 'マケドニアの支配を安定させる' },
+  'アレクサンドロス': { image: 'alexander-conqueror', afterImage: 'alexander-triumph', bubble: 'ペルシアを滅ぼし世界帝国を建設する！' },
+  'アレクサンドロス大王': { image: 'alexander-conqueror', afterImage: 'alexander-triumph', bubble: 'ペルシアを滅ぼし世界帝国を建設する！' },
   
   // ギリシア文学・芸術・考古学
-  'アガメムノン': { image: 'athenian-general', bubble: 'ミケーネの王としてトロイア遠征を率いる' },
-  'シュリーマン': { image: 'roman-scholar', bubble: 'ホメロスの叙事詩を信じトロイア遺跡を発掘！' },
-  'エヴァンズ': { image: 'roman-scholar', bubble: 'クレタ島のクノッソス迷宮宮殿を発掘！' },
-  'ヴェントリス': { image: 'roman-scholar', bubble: '粘土板に刻まれた線文字Bの解読に成功！' },
-  'ホメロス': { image: 'greek-philosopher', bubble: '『イリアス』『オデュッセイア』を吟誦する' },
-  'ヘシオドス': { image: 'greek-philosopher', bubble: '『神統記』『労働と日々』を著す' },
-  'サッフォー': { image: 'greek-philosopher', bubble: 'レスボス島で愛と情熱の抒情詩を歌う' },
-  'アイスキュロス': { image: 'greek-philosopher', bubble: '悲劇『アガメムノン』を著す' },
-  'ソフォクレス': { image: 'greek-philosopher', bubble: '悲劇『オイディプス王』で運命の悲劇を描く' },
-  'エウリピデス': { image: 'greek-philosopher', bubble: '悲劇『メディア』で人間の心理を鋭く描く' },
-  'アリストファネス': { image: 'greek-philosopher', bubble: '喜劇『女の平和』でペロポネソス戦争を風刺！' },
-  'フェイディアス': { image: 'greek-philosopher', bubble: 'パルテノン神殿のアテナ女神像を彫刻' },
-  'プラクシテレス': { image: 'greek-philosopher', bubble: '優美なヘルメス像などの彫刻を手がける' },
-  'ヘロドトス': { image: 'roman-scholar', bubble: 'ペルシア戦争を物語る『歴史』を著す' },
-  'トゥキディデス': { image: 'roman-scholar', bubble: 'ペロポネソス戦争を批判的実証主義で記録' },
+  'アガメムノン': { image: 'philip2-macedon', bubble: 'ミケーネの王としてトロイア遠征を率いる' },
+  'シュリーマン': { image: 'thales-philosopher', bubble: 'ホメロスの叙事詩を信じトロイア遺跡を発掘！' },
+  'エヴァンズ': { image: 'thales-philosopher', bubble: 'クレタ島のクノッソス迷宮宮殿を発掘！' },
+  'ヴェントリス': { image: 'thales-philosopher', bubble: '粘土板に刻まれた線文字Bの解読に成功！' },
+  'ホメロス': { image: 'herodotus-historian', bubble: '『イリアス』『オデュッセイア』を吟誦する' },
+  'ヘシオドス': { image: 'herodotus-historian', bubble: '『神統記』『労働と日々』を著す' },
+  'サッフォー': { image: 'herodotus-historian', bubble: 'レスボス島で愛と情熱の抒情詩を歌う' },
+  'アイスキュロス': { image: 'thucydides-historian', bubble: '悲劇『アガメムノン』を著す' },
+  'ソフォクレス': { image: 'thucydides-historian', bubble: '悲劇『オイディプス王』で運命の悲劇を描く' },
+  'エウリピデス': { image: 'thucydides-historian', bubble: '悲劇『メディア』で人間の心理を鋭く描く' },
+  'アリストファネス': { image: 'thucydides-historian', bubble: '喜劇『女の平和』でペロポネソス戦争を風刺！' },
+  'フェイディアス': { image: 'phidias-sculptor', bubble: 'パルテノン神殿のアテナ女神像を彫刻' },
+  'プラクシテレス': { image: 'phidias-sculptor', bubble: '優美なヘルメス像などの彫刻を手がける' },
+  'ヘロドトス': { image: 'herodotus-historian', bubble: 'ペルシア戦争を物語る『歴史』を著す' },
+  'トゥキディデス': { image: 'thucydides-historian', bubble: 'ペロポネソス戦争を批判的実証主義で記録' },
   
   // ギリシア・ヘレニズム哲学・自然科学
-  'タレス': { image: 'greek-philosopher', bubble: '万物の根源（アルケー）は水である' },
-  'ピタゴラス': { image: 'greek-philosopher', bubble: '万物の根源は数であり調和である' },
-  'ヘラクレイトス': { image: 'greek-philosopher', bubble: '万物は流転する（パンタ・レイ）' },
-  'デモクリトス': { image: 'greek-philosopher', bubble: '万物はこれ以上分割できない原子（アトム）からなる' },
-  'ヒッポクラテス': { image: 'greek-philosopher', bubble: '迷信を排し臨床観察に基づく医学の父' },
-  'プロタゴラス': { image: 'greek-philosopher', bubble: '人間は万物の尺度である（相対主義）' },
-  'ソクラテス': { image: 'greek-philosopher', bubble: '無知の知を自覚し、魂の善美を求めよ' },
-  'プラトン': { image: 'greek-philosopher', bubble: '真の実在は天上にあるイデアの世界である' },
-  'アリストテレス': { image: 'greek-philosopher', bubble: '人間はポリス的動物である（万学の祖）' },
-  'エピクロス': { image: 'greek-philosopher', bubble: '心の平静（アタラクシア）こそ最高の快楽' },
-  'ゼノン': { image: 'greek-philosopher', bubble: '情熱に動かされない不動心（アパテイア）を説く' },
-  'アリスタルコス': { image: 'greek-philosopher', bubble: '太陽中心説（地動説）を先駆的に唱える' },
-  'エラトステネス': { image: 'greek-philosopher', bubble: '夏至の影から地球の全周を正確に計算！' },
-  'アルキメデス': { image: 'greek-philosopher', bubble: '浮力の原理・てこの原理を発見！' },
-  'エウクレイデス': { image: 'greek-philosopher', bubble: '平面幾何学を大成し『幾何学原論』を著す' },
-  'ドロイゼン': { image: 'roman-scholar', bubble: '東西文化融合の時代を「ヘレニズム」と命名' },
+  'タレス': { image: 'thales-philosopher', bubble: '万物の根源（アルケー）は水である' },
+  'ピタゴラス': { image: 'pythagoras-scholar', bubble: '万物の根源は数であり調和である' },
+  'ヘラクレイトス': { image: 'thales-philosopher', bubble: '万物は流転する（パンタ・レイ）' },
+  'デモクリトス': { image: 'thales-philosopher', bubble: '万物はこれ以上分割できない原子（アトム）からなる' },
+  'ヒッポクラテス': { image: 'hippocrates-doctor', bubble: '迷信を排し臨床観察に基づく医学の父' },
+  'プロタゴラス': { image: 'socrates-philosopher', bubble: '人間は万物の尺度である（相対主義）' },
+  'ソクラテス': { image: 'socrates-philosopher', bubble: '無知の知を自覚し、魂の善美を求めよ' },
+  'プラトン': { image: 'plato-philosopher', bubble: '真の実在は天上にあるイデアの世界である' },
+  'アリストテレス': { image: 'aristotle-philosopher', bubble: '人間はポリス的動物である（万学の祖）' },
+  'エピクロス': { image: 'epicurus-philosopher', bubble: '心の平静（アタラクシア）こそ最高の快楽' },
+  'ゼノン': { image: 'zeno-stoic', bubble: '情熱に動かされない不動心（アパテイア）を説く' },
+  'アリスタルコス': { image: 'eratosthenes-geographer', bubble: '太陽中心説（地動説）を先駆的に唱える' },
+  'エラトステネス': { image: 'eratosthenes-geographer', bubble: '夏至の影から地球の全周を正確に計算！' },
+  'アルキメデス': { image: 'archimedes-scientist', bubble: '浮力の原理・てこの原理を発見！' },
+  'エウクレイデス': { image: 'pythagoras-scholar', bubble: '平面幾何学を大成し『幾何学原論』を著す' },
+  'ドロイゼン': { image: 'thucydides-historian', bubble: '東西文化融合の時代を「ヘレニズム」と命名' },
+  'デモステネス': { image: 'demosthenes-orator', bubble: 'マケドニアの専制に屈するなと市民に訴える！' },
+  'イソクラテス': { image: 'demosthenes-orator', bubble: '全ギリシアの一致団結を説く' },
   
   // ローマ共和政・身分闘争
-  'リキニウス': { image: 'roman-consul', bubble: 'コンスルの1名を平民から選ぶ法を制定！' },
-  'セクスティウス': { image: 'roman-consul', bubble: '大土地所有を制限し平民の権利を拡充！' },
-  'ホルテンシウス': { image: 'roman-consul', bubble: '平民会の決議が元老院の承認なしに国法となる！' },
-  'カヌレイウス': { image: 'roman-consul', bubble: '貴族と平民の通婚を認める法を可決！' },
-  'カトー': { image: 'roman-consul', bubble: 'カルタゴは滅ぼされるべきである！' },
+  'リキニウス': { image: 'licinius-tribune', bubble: 'コンスルの1名を平民から選ぶ法を制定！' },
+  'セクスティウス': { image: 'licinius-tribune', bubble: '大土地所有を制限し平民の権利を拡充！' },
+  'ホルテンシウス': { image: 'licinius-tribune', bubble: '平民会の決議が元老院の承認なしに国法となる！' },
+  'カヌレイウス': { image: 'licinius-tribune', bubble: '貴族と平民の通婚を認める法を可決！' },
+  'カトー': { image: 'cato-elder', bubble: 'カルタゴは滅ぼされるべきである！' },
   
   // ポエニ戦争・地中海統一
-  'ハンニバル': { image: 'hannibal-general', afterImage: 'roman-victory', bubble: 'アルプスを越えカンネーでローマ軍を包囲殲滅！' },
-  'ハミルカル': { image: 'hannibal-general', bubble: 'スペインを拠点にカルタゴの再興を誓う' },
-  'スキピオ': { image: 'scipio-general', afterImage: 'roman-victory', bubble: 'ザマの戦いでハンニバルを破りポエニ戦争に勝利！' },
-  '小スキピオ': { image: 'scipio-general', afterImage: 'roman-victory', bubble: '第3回ポエニ戦争でカルタゴを徹底破壊！' },
+  'ハンニバル': { image: 'hannibal-barker', afterImage: 'soldier-retreat', bubble: 'アルプスを越えカンネーでローマ軍を包囲殲滅！' },
+  'ハミルカル': { image: 'hannibal-barker', bubble: 'スペインを拠点にカルタゴの再興を誓う' },
+  'スキピオ': { image: 'scipio-africanus', afterImage: 'roman-victory', bubble: 'ザマの戦いでハンニバルを破りポエニ戦争に勝利！' },
+  '小スキピオ': { image: 'scipio-africanus', afterImage: 'roman-victory', bubble: '第3回ポエニ戦争でカルタゴを徹底破壊！' },
   
   // 共和政の動揺・内乱の1世紀
-  'ティベリウス': { image: 'roman-plebeian', bubble: '農民の没落を防ぐため公有地保有制限法を提案！' },
-  'ガイウス': { image: 'roman-plebeian', bubble: '兄の意志を継ぎ改革を進めるも元老院派に倒れる…' },
-  'グラックス兄弟': { image: 'roman-plebeian', bubble: '没落農民を救い自作農を再建する土地改革を断行！' },
-  'マリウス': { image: 'caesar-general', bubble: '無産市民を募兵して軍制改革を行い平民派を率いる！' },
-  'スラ': { image: 'caesar-general', bubble: '同盟市戦争を鎮圧し閥族派の独裁官となる！' },
+  'ティベリウス': { image: 'tiberius-gracchus', bubble: '農民の没落を防ぐため公有地保有制限法を提案！' },
+  'ガイウス': { image: 'gaius-gracchus', bubble: '兄の意志を継ぎ改革を進めるも元老院派に倒れる…' },
+  'グラックス兄弟': { image: 'tiberius-gracchus', bubble: '没落農民を救い自作農を再建する土地改革を断行！' },
+  'マリウス': { image: 'marius-general', bubble: '無産市民を募兵して軍制改革を行い平民派を率いる！' },
+  'スラ': { image: 'sulla-dictator', bubble: '同盟市戦争を鎮圧し閥族派の独裁官となる！' },
   'ユグルタ': { image: 'soldier-retreat', bubble: 'ヌミディアでローマに抵抗するも敗れる' },
   'スパルタクス': { image: 'spartacus-gladiator', afterImage: 'greek-defeated', bubble: '剣闘士の仲間とともに自由を求めて蜂起！' },
   'ミトリダテス6世': { image: 'soldier-retreat', bubble: '小アジアで反ローマの兵を挙げる' },
   
   // 三頭政治・カエサル
-  'ポンペイウス': { image: 'caesar-general', bubble: '東方を平定しセレウコス朝シリアを滅ぼす！' },
-  'クラッスス': { image: 'roman-consul', bubble: '莫大な財力でスパルタクスの乱を鎮圧！' },
+  'ポンペイウス': { image: 'scipio-africanus', bubble: '東方を平定しセレウコス朝シリアを滅ぼす！' },
+  'クラッスス': { image: 'sulla-dictator', bubble: '莫大な財力でスパルタクスの乱を鎮圧！' },
   'カエサル': { image: 'caesar-general', afterImage: 'roman-victory', bubble: '賽は投げられた！ルビコン川を渡りローマへ進軍！' },
   'ブルートゥス': { image: 'roman-consul', bubble: '共和政を守るため独裁者カエサルを討つ！' },
   'カッシウス': { image: 'roman-consul', bubble: '元老院共和派としてカエサル暗殺に加担' },
-  'アントニウス': { image: 'caesar-general', bubble: 'クレオパトラと結び東方に勢力を張る' },
+  'アントニウス': { image: 'scipio-africanus', bubble: 'クレオパトラと結び東方に勢力を張る' },
   'レピドゥス': { image: 'roman-consul', bubble: '第2回三頭政治の一角として西地中海を統治' },
   'クレオパトラ': { image: 'pharaoh-calm', bubble: 'アントニウスと組みアクティウムで激突！' },
   
   // 帝政ローマ・パクス＝ロマーナ・五賢帝
   'オクタウィアヌス': { image: 'augustus-princeps', afterImage: 'roman-victory', bubble: 'アクティウムの海戦に勝利し地中海世界を統一！' },
   'アウグストゥス': { image: 'augustus-princeps', bubble: '元首（プリンケプス）として元首政を創始！' },
-  'アグリッパ': { image: 'scipio-general', bubble: '海戦を勝利に導き万神殿（パンテオン）を建造' },
+  'アグリッパ': { image: 'scipio-africanus', bubble: '海戦を勝利に導き万神殿（パンテオン）を建造' },
   'ネロ': { image: 'emperor-severe', bubble: 'ローマ大火の責任をキリスト教徒に着せ迫害！' },
   'ネルウァ': { image: 'roman-emperor', bubble: '五賢帝の初代として善政を開始する' },
   'トラヤヌス': { image: 'roman-emperor', bubble: 'ダキアやメソポタミアを獲得しローマ領土最大！' },
@@ -228,17 +230,17 @@ export const customSceneRules = {
   // エーゲ文明
   'c02-l04-p01-002': {
     extraActors: [
-      { name: 'エヴァンズ', at: [25.16, 35.3], image: 'roman-scholar', bubble: 'クレタ島のクノッソス宮殿を発掘！' }
+      { name: 'エヴァンズ', at: [25.16, 35.3], image: 'thales-philosopher', bubble: 'クレタ島のクノッソス宮殿を発掘！' }
     ]
   },
   'c02-l04-p01-004': {
     extraActors: [
-      { name: 'シュリーマン', at: [22.75, 37.73], image: 'roman-scholar', bubble: 'ミケーネとトロイアの遺跡を発掘！' }
+      { name: 'シュリーマン', at: [22.75, 37.73], image: 'thales-philosopher', bubble: 'ミケーネとトロイアの遺跡を発掘！' }
     ]
   },
   'c02-l04-p01-006': {
     extraActors: [
-      { name: 'アガメムノン', at: [22.75, 37.73], image: 'athenian-general', bubble: 'ミケーネの王としてトロイアを攻め落とす！' }
+      { name: 'アガメムノン', at: [22.75, 37.73], image: 'philip2-macedon', bubble: 'ミケーネの王としてトロイアを攻め落とす！' }
     ]
   },
   // ギリシア世界の誕生・植民活動
@@ -250,7 +252,7 @@ export const customSceneRules = {
   // スパルタの国制
   'c02-l04-p03-001': {
     extraActors: [
-      { name: 'リュクルゴス', at: [22.43, 37.08], image: 'spartan-warrior', bubble: 'ヘイロータイを支配するため軍国主義の規律を定める！' }
+      { name: 'リュクルゴス', at: [22.43, 37.08], image: 'lycurgus-spartan', bubble: 'ヘイロータイを支配するため軍国主義の規律を定める！' }
     ]
   },
   'c02-l04-p03-002': {
@@ -261,12 +263,18 @@ export const customSceneRules = {
   // アテネ民主政の発展
   'c02-l04-p04-001': {
     extraActors: [
-      { name: 'ソロン', at: [23.73, 37.98], image: 'athenian-general', bubble: '借財を帳消しにし市民の債務奴隷化を禁止！' }
+      { name: 'ソロン', at: [23.73, 37.98], image: 'solon-reformer', bubble: '借財を帳消しにし市民の債務奴隷化を禁止！' }
+    ]
+  },
+  'c02-l04-p04-002': {
+    extraActors: [
+      { name: 'ペイシストラトス', at: [23.73, 37.98], image: 'peisistratos-tyrant', bubble: '中小農民を保護し僭主として君臨！' },
+      { name: 'ヒッピアス', at: [23.73, 37.98], image: 'hippias-exile', bubble: '暴政を行いアテネ市民によって追放される', offset: [-24, 0] }
     ]
   },
   'c02-l04-p04-003': {
     extraActors: [
-      { name: 'クレイステネス', at: [23.73, 37.98], image: 'athenian-general', bubble: '部族制を再編し陶片追放で独裁を防ぐ！' }
+      { name: 'クレイステネス', at: [23.73, 37.98], image: 'cleisthenes-democrat', bubble: '部族制を再編し陶片追放で独裁を防ぐ！' }
     ],
     extraProps: [
       { name: 'アテネ', at: [23.73, 37.98], image: 'ostrakon', kind: 'prop', size: 70 }
@@ -282,20 +290,20 @@ export const customSceneRules = {
     battle: 'マラトン',
     routeActor: { name: 'ペルシア', route: 0, image: 'persian-immortal', afterImage: 'darius3-worried', bubble: 'ギリシア本土への第2回遠征軍を出撃！' },
     extraActors: [
-      { name: 'ミルティアデス', at: [23.96, 38.15], image: 'athenian-general', afterImage: 'roman-victory', bubble: 'マラトンの平野で重装歩兵がペルシア軍を挟撃！', offset: [-25, -15] }
+      { name: 'ミルティアデス', at: [23.96, 38.15], image: 'miltiades-general', afterImage: 'roman-victory', bubble: 'マラトンの平野で重装歩兵がペルシア軍を挟撃！', offset: [-25, -15] }
     ]
   },
   'c02-l04-p05-004': {
     battle: 'テルモピレー',
     extraActors: [
-      { name: 'レオニダス', at: [22.53, 38.8], image: 'spartan-warrior', afterImage: 'greek-defeated', bubble: '狭隘の地テルモピレーで300名と死守する！' },
+      { name: 'レオニダス', at: [22.53, 38.8], image: 'leonidas-spartan', afterImage: 'greek-defeated', bubble: '狭隘の地テルモピレーで300名と死守する！' },
       { name: 'クセルクセス1世', at: [23.5, 39.2], image: 'persian-immortal', bubble: '大軍をもって突破しアテネを焼き払え！' }
     ]
   },
   'c02-l04-p05-005': {
     battle: 'サラミス',
     extraActors: [
-      { name: 'テミストクレス', at: [23.4, 37.95], image: 'athenian-general', afterImage: 'roman-victory', bubble: '狭いサラミス湾へ誘い込み敵艦隊を撃滅せよ！' }
+      { name: 'テミストクレス', at: [23.4, 37.95], image: 'themistocles-naval', afterImage: 'roman-victory', bubble: '狭いサラミス湾へ誘い込み敵艦隊を撃滅せよ！' }
     ],
     extraProps: [
       { name: 'サラミス湾', at: [23.4, 37.95], image: 'greek-trireme', kind: 'prop', size: 84 }
@@ -310,7 +318,7 @@ export const customSceneRules = {
   // アテネ民主政の完成
   'c02-l05-p01-001': {
     extraActors: [
-      { name: 'ペリクレス', at: [23.73, 37.98], image: 'athenian-general', bubble: '民会を最高機関とし、成年男性市民全員による直接民主政を実現！' }
+      { name: 'ペリクレス', at: [23.73, 37.98], image: 'pericles-statesman', bubble: '民会を最高機関とし、成年男性市民全員による直接民主政を実現！' }
     ],
     extraProps: [
       { name: 'アテネ', at: [23.73, 37.98], image: 'greek-temple', kind: 'prop', size: 80 }
@@ -319,26 +327,26 @@ export const customSceneRules = {
   // ペロポネソス戦争とポリス崩壊
   'c02-l05-p02-001': {
     extraActors: [
-      { name: 'アテネ', at: [23.73, 37.98], image: 'athenian-general', bubble: 'デロス同盟の盟主として海上帝国を維持' },
-      { name: 'スパルタ', at: [22.43, 37.08], image: 'spartan-warrior', bubble: 'ペロポネソス同盟を率いてアテネに挑戦！' }
+      { name: 'アテネ', at: [23.73, 37.98], image: 'pericles-statesman', bubble: 'デロス同盟の盟主として海上帝国を維持' },
+      { name: 'スパルタ', at: [22.43, 37.08], image: 'spartan-phalanx', bubble: 'ペロポネソス同盟を率いてアテネに挑戦！' }
     ]
   },
   'c02-l05-p02-005': {
     battle: 'レウクトラ',
     extraActors: [
-      { name: 'エパメイノンダス', at: [23.21, 38.32], image: 'athenian-general', afterImage: 'roman-victory', bubble: '革新的な斜線陣でスパルタの覇権を打破！' }
+      { name: 'エパメイノンダス', at: [23.21, 38.32], image: 'miltiades-general', afterImage: 'roman-victory', bubble: '革新的な斜線陣でスパルタの覇権を打破！' }
     ]
   },
   'c02-l05-p02-008': {
     battle: 'カイロネイア',
     extraActors: [
-      { name: 'フィリッポス2世', at: [22.84, 38.49], image: 'macedon-king', afterImage: 'roman-victory', bubble: 'カイロネイアの戦いに勝利しコリントス同盟を結成！' }
+      { name: 'フィリッポス2世', at: [22.84, 38.49], image: 'philip2-macedon', afterImage: 'roman-victory', bubble: 'カイロネイアの戦いに勝利しコリントス同盟を結成！' }
     ]
   },
   // アレクサンドロス大王の遠征
   'c02-l05-p03-002': {
     battle: 'イッソス',
-    routeActor: { name: 'アナトリア', route: 0, image: 'alexander-march', afterImage: 'alexander-happy', bubble: 'イッソスの戦いでペルシア軍本隊を撃破！' },
+    routeActor: { name: 'アナトリア', route: 0, image: 'alexander-march', afterImage: 'alexander-triumph', bubble: 'イッソスの戦いでペルシア軍本隊を撃破！' },
     extraActors: [
       { name: 'ダレイオス3世', at: [36.2, 36.84], image: 'darius3-worried', bubble: 'アレクサンドロスの突撃に退却を余儀なくされる…' }
     ]
@@ -346,30 +354,30 @@ export const customSceneRules = {
   'c02-l05-p03-003': {
     battle: 'ガウガメラ',
     extraActors: [
-      { name: 'アレクサンドロス', at: [43.44, 36.54], image: 'alexander-march', afterImage: 'alexander-happy', bubble: 'ガウガメラの決戦でペルシア帝国を完全に粉砕！' },
+      { name: 'アレクサンドロス', at: [43.44, 36.54], image: 'alexander-march', afterImage: 'alexander-triumph', bubble: 'ガウガメラの決戦でペルシア帝国を完全に粉砕！' },
       { name: 'ダレイオス3世', at: [44, 36], image: 'darius3-worried', bubble: '帝国崩壊…逃亡の果てに落命…' }
     ]
   },
   'c02-l05-p03-004': {
-    routeActor: { name: 'バビロン', route: 0, image: 'alexander-march', afterImage: 'alexander-happy', bubble: 'ペルセポリスの宮殿を焼き尽くし東方へ進軍！' }
+    routeActor: { name: 'バビロン', route: 0, image: 'alexander-march', afterImage: 'alexander-triumph', bubble: 'ペルセポリスの宮殿を焼き尽くし東方へ進軍！' }
   },
   'c02-l05-p03-005': {
-    routeActor: { name: 'バクトリア', route: 0, image: 'alexander-march', afterImage: 'alexander-happy', bubble: 'インダス川流域まで到達し世界帝国を建設！' }
+    routeActor: { name: 'バクトリア', route: 0, image: 'alexander-march', afterImage: 'alexander-triumph', bubble: 'インダス川流域まで到達し世界帝国を建設！' }
   },
   // ギリシア文化
   'c02-l05-p04-007': {
     extraActors: [
-      { name: 'ソクラテス', at: [23.73, 37.98], image: 'greek-philosopher', bubble: '無知の知――自分が何も知らないことを知れ' }
+      { name: 'ソクラテス', at: [23.73, 37.98], image: 'socrates-philosopher', bubble: '無知の知――自分が何も知らないことを知れ' }
     ]
   },
   'c02-l05-p04-008': {
     extraActors: [
-      { name: 'プラトン', at: [23.71, 38.0], image: 'greek-philosopher', bubble: 'アカデメイアを開き、イデア論と哲人政治を説く' }
+      { name: 'プラトン', at: [23.71, 38.0], image: 'plato-philosopher', bubble: 'アカデメイアを開き、イデア論と哲人政治を説く' }
     ]
   },
   'c02-l05-p04-009': {
     extraActors: [
-      { name: 'アリストテレス', at: [23.74, 37.97], image: 'greek-philosopher', bubble: 'リュケイオンを創設し万般の学問を体系化（万学の祖）' }
+      { name: 'アリストテレス', at: [23.74, 37.97], image: 'aristotle-philosopher', bubble: 'リュケイオンを創設し万般の学問を体系化（万学の祖）' }
     ]
   },
   // ローマ共和政の成立・身分闘争
@@ -386,21 +394,21 @@ export const customSceneRules = {
   // ポエニ戦争
   'c02-l06-p04-003': {
     battle: 'カンネー',
-    routeActor: { name: 'アルプス', route: 0, image: 'hannibal-march', afterImage: 'hannibal-general', bubble: '戦象を率いてアルプスを越えカンネーで大包囲殲滅！' },
+    routeActor: { name: 'アルプス', route: 0, image: 'hannibal-march', afterImage: 'hannibal-barker', bubble: '戦象を率いてアルプスを越えカンネーで大包囲殲滅！' },
     extraActors: [
       { name: 'ローマ', at: [16.15, 41.3], image: 'roman-legionary', afterImage: 'greek-defeated', bubble: 'ハンニバルの包囲戦術の前に大敗北を喫する…' }
     ]
   },
   'c02-l06-p04-004': {
     battle: 'ザマ',
-    routeActor: { name: '北アフリカ', route: 0, image: 'scipio-general', afterImage: 'roman-victory', bubble: 'カルタゴ本土へ侵攻しザマでハンニバルを撃破！' },
+    routeActor: { name: '北アフリカ', route: 0, image: 'scipio-africanus', afterImage: 'roman-victory', bubble: 'カルタゴ本土へ侵攻しザマでハンニバルを撃破！' },
     extraActors: [
-      { name: 'カルタゴ', at: [9.3, 36.0], image: 'hannibal-general', afterImage: 'soldier-retreat', bubble: 'ザマの地でついに敗れ去る…' }
+      { name: 'カルタゴ', at: [9.3, 36.0], image: 'hannibal-barker', afterImage: 'soldier-retreat', bubble: 'ザマの地でついに敗れ去る…' }
     ]
   },
   'c02-l06-p04-009': {
     extraActors: [
-      { name: 'グラックス兄弟', at: [12.5, 41.9], image: 'roman-plebeian', bubble: '中小農民の没落を救うため土地改革を訴える！' }
+      { name: 'グラックス兄弟', at: [12.5, 41.9], image: 'tiberius-gracchus', bubble: '中小農民の没落を救うため土地改革を訴える！' }
     ]
   },
   // 内乱の1世紀・カエサル
@@ -422,7 +430,7 @@ export const customSceneRules = {
     battle: 'アクティウム',
     extraActors: [
       { name: 'オクタウィアヌス', at: [20.77, 38.94], image: 'augustus-princeps', afterImage: 'roman-victory', bubble: 'アクティウムの海戦に勝利しエジプトを属州化！' },
-      { name: 'アントニウス', at: [21.5, 38.5], image: 'caesar-general', afterImage: 'soldier-retreat', bubble: '敗北しクレオパトラとともに自害…' }
+      { name: 'アントニウス', at: [21.5, 38.5], image: 'scipio-africanus', afterImage: 'soldier-retreat', bubble: '敗北しクレオパトラとともに自害…' }
     ],
     extraProps: [
       { name: 'アクティウム', at: [20.77, 38.94], image: 'greek-trireme', kind: 'prop', size: 80 }
@@ -749,13 +757,14 @@ const ensurePng = name => {
       const candidate = names.find(n => n.kind === 'region' || n.kind === 'place');
       if (candidate) {
         const cName = candidate.name;
-        const defaultImage = /スパルタ/.test(cName) ? 'spartan-warrior'
-          : /アテネ|ギリシア|マケドニア/.test(cName) ? 'athenian-general'
-          : /カルタゴ/.test(cName) ? 'hannibal-general'
+        const defaultImage = /スパルタ/.test(cName) ? 'spartan-phalanx'
+          : /アテネ|ギリシア/.test(cName) ? 'pericles-statesman'
+          : /マケドニア/.test(cName) ? 'philip2-macedon'
+          : /カルタゴ/.test(cName) ? 'hannibal-barker'
           : /ローマ|イタリア/.test(cName) ? (/皇帝|元首|パクス/.test(fullText) ? 'augustus-princeps' : 'roman-consul')
           : /キリスト|パレスチナ/.test(cName) ? 'christian-apostle'
           : /エジプト/.test(cName) ? 'pharaoh-calm'
-          : 'greek-philosopher';
+          : 'thales-philosopher';
         actors.push({
           name: candidate.name,
           at: candidate.points[0],
