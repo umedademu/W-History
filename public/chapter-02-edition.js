@@ -11,7 +11,7 @@ export const chapterEdition = {
         "まずギリシアの地形や気候の話をしておこう。ギリシアで最初に文明が興ったエーゲ海には小さな島がたくさんあって、しかも海岸からいきなり斜面になるところが多くて、平野が少ない。そして1年を通じて雨も少ないから、麦などの穀物栽培にはあまり向かないけど、果樹栽培には適しているから、オリーブやブドウなどの栽培が発達したよ。そして、オリーブは搾って油に、ブドウも搾ってワインにして、これじゃあギリシア人はオリーブ油とワインしか食べられない。それなら、オリーブ油やワインを輸出して穀物を輸入する交易をしよう、って海に進出するための造船技術を発達させて、交易を発展させたんだ。それに、ギリシアって平野と平野の間が山だから、比較的穏やかな地中海に出たほうが、移動も楽だからね。つまり海洋文明ってことだよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "エーゲ文明",
       "sourceText": {
         "chapter": 2,
@@ -55,7 +55,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ギリシア",
+          "at": [
+            22,
+            38
+          ],
+          "image": "ancient/athenian-general.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -86,7 +96,7 @@ export const chapterEdition = {
         "そして、クレタ文明を発掘したイギリスのエヴァンズは、出土した粘土板に記された文字をクレタ絵文字・線文字A・線文字Bって分類したんだけど、この時代に使用された線文字Aは未解読だから民族系統も不明……。これはばかりは今後の研究を待つしかないね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "エーゲ文明",
       "sourceText": {
         "chapter": 2,
@@ -159,7 +169,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "エヴァンズ",
+          "at": [
+            25.16,
+            35.3
+          ],
+          "image": "ancient/roman-scholar.png",
+          "bubble": "クレタ島のクノッソス迷宮宮殿を発掘！"
+        }
+      ],
       "props": [
         {
           "name": "クノッソス宮殿",
@@ -167,19 +187,9 @@ export const chapterEdition = {
             25.16,
             35.3
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/knossos-palace.png",
           "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "エヴァンズ",
-          "at": [
-            25.16,
-            35.3
-          ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "size": 84
         }
       ],
       "routes": [],
@@ -207,7 +217,7 @@ export const chapterEdition = {
         "ミケーネ文明はペロポネソス半島を中心に、クレタやオリエントの影響を受けて、前1600年ころから形成された青銅器文明で、青銅器のほか、陶器・武器・黄金製品などが出土している。アガメムノンの黄金のマスクは有名だね。そして、この時代に使用されていた線文字Bは、イギリス人のヴェントリスによって解読されているから、ミケーネ文明がどのような国家だったのかは、ある程度わかっているよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "エーゲ文明",
       "sourceText": {
         "chapter": 2,
@@ -298,17 +308,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アガメムノン",
           "at": [
             22.75,
             37.73
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "ミケーネの王としてトロイア遠征を率いる"
         },
         {
           "name": "ヴェントリス",
@@ -316,11 +324,11 @@ export const chapterEdition = {
             25.16,
             35.3
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "粘土板に刻まれた線文字Bの解読に成功！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -344,7 +352,7 @@ export const chapterEdition = {
         "アカイア人は、ミケーネやティリンス、ピュロスなどを中心に小国家を形成したんだけど、これらの国家では王の下に役人と軍人がいて、農民からは農産物を貢納として集めていたらしい（貢納王政）。国家機構はオリエントの専制国家とも似ているから、その影響もあったんだろうね。でも、オリエントと比べると国家の規模はずいぶん小さいから、ギリシア全体を統合するのは無理だった。さらに、遺跡として残る巨石城壁から、ミケーネ文明の小国家が戦争に悩まされたことがわかるよ。だからミケーネ文明はクレタ文明と比較して「戦闘的」っていわれることもあるよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "エーゲ文明",
       "sourceText": {
         "chapter": 2,
@@ -406,7 +414,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ミケーネ文明",
+          "at": [
+            22.75,
+            37.73
+          ],
+          "image": "ancient/greek-philosopher.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -433,7 +451,7 @@ export const chapterEdition = {
         "ホメロスの叙事詩に描かれているトロイア戦争は、トロイア王子に奪われたギリシアで一番の美女ヘレネを取り返すために、ミケーネ王アガメムノンを指揮官としてトロイアに攻め込み、10年間の包囲戦を経て、有名な「木馬（トロイの木馬）」作戦でトロイアを落城させたって話だ。トロイアにある9層の遺跡のうち、7層目がこの時期のトロイア文明だとされているよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "エーゲ文明",
       "sourceText": {
         "chapter": 2,
@@ -502,17 +520,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "シュリーマン",
           "at": [
             22.75,
             37.73
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "ホメロスの叙事詩を信じトロイア遺跡を発掘！"
         },
         {
           "name": "ホメロス",
@@ -520,9 +536,8 @@ export const chapterEdition = {
             27.14,
             38.42
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "『イリアス』『オデュッセイア』を吟誦する"
         },
         {
           "name": "アガメムノン",
@@ -530,11 +545,15 @@ export const chapterEdition = {
             22.75,
             37.73
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "ミケーネの王としてトロイア遠征を率いる",
+          "offset": [
+            -24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -558,7 +577,7 @@ export const chapterEdition = {
         "ではミケーネ文明に話を戻そう。ミケーネ文明の諸王国は前14〜13世紀を全盛期に、その後衰退して前1200年ころ滅亡したんだけど、その原因は明確にはわからない。一つの説として、前13世紀末からオリエント一帯を襲撃した「海の民」がギリシアも攻撃して破壊したともいわれている。あるいは諸国家の抗争や反乱、気候の変動・疫病なんかも重なって崩壊したんじゃないか、ともいわれているよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "エーゲ文明",
       "sourceText": {
         "chapter": 2,
@@ -602,7 +621,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ミケーネ文明",
+          "at": [
+            22.75,
+            37.73
+          ],
+          "image": "ancient/greek-philosopher.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -627,7 +656,7 @@ export const chapterEdition = {
         "さて、ミケーネ文明の崩壊から約400年間（前12〜前8世紀）は「暗黒時代」だ。「暗黒時代」っていうのは、文字による記録がほとんどなくて詳細が不明な時代だよ。ただその後の歴史から、この時代にギリシア人の第2波であるドーリア人が鉄器を持って南下して半島南部に定住したり、フェニキア文字を母体とするギリシア文字がつくられたことはわかっている。さらに、第1波のアカイア人はのちに方言によって、アナトリア西岸の北部に定住したアイオリス人や、バルカン半島東部やアナトリア西岸の中央部に定住したイオニア人などに分かれていったよ。イオニア人が定住した地域は、のちにイオニア地方って呼ばれるようになるね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "エーゲ文明",
       "sourceText": {
         "chapter": 2,
@@ -713,7 +742,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ミケーネ文明",
+          "at": [
+            22.75,
+            37.73
+          ],
+          "image": "ancient/greek-philosopher.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -742,7 +781,7 @@ export const chapterEdition = {
         "では「集住型ポリス」がどうやってできたか見てみよう！　まず、バラバラだったいくつかの村落の人びとが、有力な貴族の指導下で、アクロポリスを中心に集住――【シノイキスモス】した。アクロポリスを中心とする中心市は海岸に近い平野につくられ、アクロポリスには守護神を祭る神殿が建設されて、非常時には城塞になった。そのふもとにはアゴラと呼ばれる広場があって、ここでは集会や裁判を開いたり、商人が交易をおこなった。つまり「ポリスの政治・経済の中心」ってことだね。また中小農民の多くは城壁外の農村に住んでいて、「くじ」で割り当てられた農地（クレーロス）を所有していた。これで都市が農村を支配する都市国家の形態ができたんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア世界の誕生",
       "sourceText": {
         "chapter": 2,
@@ -787,7 +826,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ギリシア",
+          "at": [
+            22,
+            38
+          ],
+          "image": "ancient/athenian-general.png",
+          "bubble": ""
+        }
+      ],
       "props": [
         {
           "name": "アクロポリス",
@@ -795,9 +844,9 @@ export const chapterEdition = {
             23.726,
             37.971
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         },
         {
           "name": "アゴラ",
@@ -805,9 +854,9 @@ export const chapterEdition = {
             23.723,
             37.975
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         }
       ],
       "routes": [],
@@ -835,7 +884,7 @@ export const chapterEdition = {
         "ポリス意識が強い一方で、ギリシア人という意識も結構強かったよ。各ポリスの間ではたびたび戦争していても、経済的・文化的な交流も深かったから、同じギリシア語を話す人たちをヘレネスって呼んだ。伝説上の英雄ヘレンの子孫って意味だよ。ちなみに、ギリシア語を話さない異民族は、「聞き苦しい言葉を話す人」という意味でバルバロイと区別された。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア世界の誕生",
       "sourceText": {
         "chapter": 2,
@@ -879,7 +928,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ギリシア",
+          "at": [
+            22,
+            38
+          ],
+          "image": "ancient/athenian-general.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -904,7 +963,7 @@ export const chapterEdition = {
         "それから、ギリシア人に共通するのがオリンポス12神への信仰だ。当時ギリシア人は、ギリシアで一番高いオリンポス山に神々が住んでいると思ったんだね。主神ゼウスは天と雷の神ね。「旧約聖書」にあるノアの大洪水と同じよう――――うに、洪水で人間を滅ぼしたりする強い神だ。でも浮気男で、しょっちゅう人間界の美人に惚れちゃうの……。そして、奥さんのヘラは嫉妬の鬼！　こんな感じで、ギリシア神話では神々が生き生きとした感情を持って描かれている。入試用としては、太陽神アポロン、美の女神アフロディテ、それにアテネの守護神にもなった知恵の女神アテナくらいはおさえておこう。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア世界の誕生",
       "sourceText": {
         "chapter": 2,
@@ -919,8 +978,8 @@ export const chapterEdition = {
       },
       "frame": [
         17,
-        32.984,
-        28.728,
+        32.98,
+        28.73,
         45.08
       ],
       "pins": [
@@ -943,8 +1002,29 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [],
+      "actors": [
+        {
+          "name": "ギリシア",
+          "at": [
+            22,
+            38
+          ],
+          "image": "ancient/athenian-general.png",
+          "bubble": ""
+        }
+      ],
+      "props": [
+        {
+          "name": "アテネ",
+          "at": [
+            23.73,
+            37.98
+          ],
+          "image": "ancient/greek-trireme.png",
+          "kind": "prop",
+          "size": 76
+        }
+      ],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -970,7 +1050,7 @@ export const chapterEdition = {
         "あと、ゼウス神殿のあるオリンピアでは、4年ごとに祭典と競技会がおこなわれ、期間中はいっさいの戦いが中止された。これが古代オリンピックだよ。でも参加できたのは裕福な貴族の、しかも男性だけ。こんなふうに共通の信仰を持つギリシア人たちだけど、基本的に強い神は12神だから、同じ神を祭るポリスも結構ある。そこで、同一の神への信仰を持つポリスが結んだ宗教的同盟が隣保同盟だ。例えば、デルフォイの神託を中心とする同盟には、スパルタを除くほぼ全ギリシアのポリスが参加していたよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア世界の誕生",
       "sourceText": {
         "chapter": 2,
@@ -1010,7 +1090,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ギリシア",
+          "at": [
+            22,
+            38
+          ],
+          "image": "ancient/athenian-general.png",
+          "bubble": ""
+        }
+      ],
       "props": [
         {
           "name": "アポロン神殿",
@@ -1018,9 +1108,9 @@ export const chapterEdition = {
             22.503,
             38.482
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         },
         {
           "name": "ゼウス神殿",
@@ -1028,9 +1118,9 @@ export const chapterEdition = {
             21.63,
             37.64
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         }
       ],
       "routes": [],
@@ -1058,7 +1148,7 @@ export const chapterEdition = {
         "ギリシア人の植民活動の背景には、こうした経済活動の活発化だけではなく、人口の増加による土地不足や、貴族の間の権力闘争なども考えられるね。内部対立で危機に陥ったポリスが、対立を対外進出でうやむやにしてしまおうってことだよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア世界の誕生",
       "sourceText": {
         "chapter": 2,
@@ -1121,7 +1211,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "地中海",
+          "at": [
+            22,
+            35
+          ],
+          "image": "ancient/greek-philosopher.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -1148,7 +1248,7 @@ export const chapterEdition = {
         "それじゃあ、当時の地中海の状況を見ておこう。ギリシア人が進出する前には、フェニキア人が地中海交易を独占していたよね。例えば、北アフリカにティルスが建設した植民市カルタゴはめちゃくちゃ繁栄していた。そこにギリシア人が割り込んでいった。こうして地中海交易の覇権をめぐって、ギリシア人とフェニキア人がライバル関係になったんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア世界の誕生",
       "sourceText": {
         "chapter": 2,
@@ -1230,7 +1330,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "地中海",
+          "at": [
+            22,
+            35
+          ],
+          "image": "ancient/greek-philosopher.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -1255,7 +1365,7 @@ export const chapterEdition = {
         "交易活動の活発化は、ポリスの内部に大きな問題を引き起こした。それが貴族と平民の対立だよ。貨幣経済の普及や手工業の発展（交易のための陶器製造など）によって、平民のなかで貧富の差が拡大していった。最初は大土地所有者（金持ち）＝貴族、中小自作農民＝平民という階級だったから、金持ちが貧乏人を支配する体制だった。そして貴族は自分で武器を買って（難しい言葉だと武器自弁）戦争に参加し、それを背景に政治を独占していた。つまり「参政権＝軍役」ってことね。ところが富裕な平民層は、「武器なら買える」と思って、盾や槍、兜などを自分で買って重装歩兵として参戦し始めた。こうして重装歩兵が増えると、戦術も貴族の一騎打ちから重装歩兵密集戦術（ファランクス）に変わっていったよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア世界の誕生",
       "sourceText": {
         "chapter": 2,
@@ -1304,7 +1414,7 @@ export const chapterEdition = {
         "それじゃあ、ここからは個々のポリスについて見ていくよ。とはいっても、まさか約1500もあるポリスなんて全部見れない。ということで、代表的なポリスとしてスパルタとアテネについて見ていこう。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア世界の誕生",
       "sourceText": {
         "chapter": 2,
@@ -1334,7 +1444,17 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "スパルタ",
+          "at": [
+            22.431,
+            37.075
+          ],
+          "image": "ancient/spartan-warrior.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -1361,7 +1481,7 @@ export const chapterEdition = {
         "スパルタはドーリア人が建設した征服型ポリスの典型だよ。ペロポネソス半島のラコニア地方に鉄器を持って侵入したドーリア人は、先住民を征服して支配領域を広げたんだ。さっき、ギリシアって平野が少ないから穀物生産ができないって言ったけど、領域の広かったスパルタは、例外的に穀物の自給ができる。そして、1万人弱のドーリア人が、はるかに多数の被征服民を支配するために、厳しい支配体制をつくった。これは伝説の立法者の名前をとって、リュクルゴス制と呼ばれているよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "スパルタの国制",
       "sourceText": {
         "chapter": 2,
@@ -1414,19 +1534,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "リュクルゴス",
           "at": [
             22.431,
             37.075
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/spartan-warrior.png",
+          "bubble": "厳格な規律と軍国主義の国制を定める"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -1450,7 +1569,7 @@ export const chapterEdition = {
         "スパルタには完全市民・ペリオイコイ・ヘイロータイの三つの身分があった。まず政治・軍事を独占した完全市民（スパルティアタイ）ね。彼らは全員戦士となって、7歳からひたすら軍事訓練をやる。これがスパルタ教育だね。政治的には、形式的に二人の王がいたけど、30歳以上の市民で構成される民会もあって、市民の連帯感が崩れないように市民の平等を徹底したんだ。だから、貧富の差が生まれないように市民の商工業活動は禁止、貴金属貨幣の使用も禁止、娯楽も贅沢も禁止、厳しい軍団体制をとって他の国との交流や交易も禁止。もう何もできないじゃないか。て、だから毎日筋トレと軍事訓練。余談だけどスパルタって女性もみんな筋トレしていたよ。強い兵士は強い女性から産まれるって……極端だな。かといって、スパルタでも女性に参政権はないよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "スパルタの国制",
       "sourceText": {
         "chapter": 2,
@@ -1489,7 +1608,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "スパルタ",
+          "at": [
+            22.43,
+            37.08
+          ],
+          "image": "ancient/spartan-phalanx.png",
+          "bubble": "幼少期から過酷な訓練を受け無敵の重装歩兵へ！"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -1516,7 +1645,7 @@ export const chapterEdition = {
         "それから、入試では「身分階級と職業」がセットで聞かれることが多いから、「完全市民は政治・軍事」、「ペリオイコイはおもに商工業」、「ヘイロータイは農耕労働」っておさえておこう！"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "スパルタの国制",
       "sourceText": {
         "chapter": 2,
@@ -1553,7 +1682,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "スパルタ",
+          "at": [
+            22.431,
+            37.075
+          ],
+          "image": "ancient/spartan-warrior.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -1584,7 +1723,7 @@ export const chapterEdition = {
         "ではアテネの民主政の発展について見ていこう。民主政っていうのは「市民全員が平等に参政権を持っている政治体制」のことだから、「民主政の発展」っていうのは、貴族と平民の対立が解消されて、平民に参政権が拡大していくってことだよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "アテネ民主政の発展",
       "sourceText": {
         "chapter": 2,
@@ -1640,7 +1779,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ギリシア",
+          "at": [
+            22,
+            38
+          ],
+          "image": "ancient/athenian-general.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -1667,7 +1816,7 @@ export const chapterEdition = {
         "ただ、暗黙の了解で裁判などを進めることに対して、「いつも通り」を知らない平民が怒った。だからドラコンは、貴族の暗黙の了解になっていた法（これが慣習法）を平民にわかるように文章にして（これが成文化）、裁判の運営を公正で明確なものにした。でも、内容は個人的な復讐を禁止したり、厳しい刑罰を定めたりしただけで、平民の政治参加の要求に応えるものではなかったんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "アテネ民主政の発展",
       "sourceText": {
         "chapter": 2,
@@ -1694,19 +1843,18 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ドラコン",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "従来の慣習法を成文化し公開する！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -1732,7 +1880,7 @@ export const chapterEdition = {
         "前594年、アルコンとなったソロンは、一気に市民の負債を帳消しにすると、債務奴隷を禁止にしたよ。自作農民を保護して、市民が奴隷に転落するのを防いだんだね。さらに財産に応じて市民を4等級に分けて、その身分に応じて参政権と軍役を定めた。これが財産政治だ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "アテネ民主政の発展",
       "sourceText": {
         "chapter": 2,
@@ -1759,19 +1907,18 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ソロン",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "財産額に応じて参政権を与える財産政を導入！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -1795,7 +1942,7 @@ export const chapterEdition = {
         "市民は所有地の農業生産高によって4階級（500メディムノス級・騎士級・農民級・労働者級）に分けられたんだけど、役人になれるのは上級の3階級だけ。結局、金持ちだけしか政治には参加できなかった。一応、アテネ市民なら奴隷に転落することはなくなったから、多少の保護はされてるけど、これじゃあ根本的な解決になってない……。そして財産政治はアテネ市民の社会的な地位も固定したから、下層民衆の不満は解消されないよね。しかも、貴族には「平民を政治に入れるな！」って文句言われるし……みんなに不評だった。なかなか上手くいかないね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "アテネ民主政の発展",
       "sourceText": {
         "chapter": 2,
@@ -1819,19 +1966,18 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ソロン",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "財産額に応じて参政権を与える財産政を導入！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -1857,7 +2003,7 @@ export const chapterEdition = {
         "さらに、ペイシストラトスはラウレイオン銀山を開発し、そのお金でアテネの街を再開発した。壮大な神殿を建てたり、市民の愛国心を高める宗教儀式なんかもや――――ったんだね。つまり、このあとに進むアテネの民主化の土台は彼の時代にできたってことだ。だから独裁者とはいっても、民衆からの人気はかなり高く、30年近くも独裁が維持できたんだね。ところが、彼の息子ヒッピアスが暴君化したから追放されて、僭主政治は終わったんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "アテネ民主政の発展",
       "sourceText": {
         "chapter": 2,
@@ -1887,17 +2033,15 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ペイシストラトス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "中小農民を保護し僭主として君臨！"
         },
         {
           "name": "ヒッピアス",
@@ -1905,11 +2049,15 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "暴政を行いアテネ市民によって追放される",
+          "offset": [
+            -24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -1935,7 +2083,7 @@ export const chapterEdition = {
         "前508年、クレイステネスはまず、僭主の出現を防止するためにオストラキスモス【陶片追放】を創設した。これは、独裁者になりそうな人の名前を陶片【オストラコン】に書いて投票し、6000票を超えると10年間国外追放にする制度だよ。ただ、この制度はのちに権力闘争に利用されちゃう……。だってライバルの政治家を国外追放にできるんだよ。結局、いつの時代も権力闘争ってのはドロドロだな……。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "アテネ民主政の発展",
       "sourceText": {
         "chapter": 2,
@@ -1962,17 +2110,15 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "クレイステネス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "陶片追放（オストラキスモス）で僭主の出現を防ぐ！"
         },
         {
           "name": "ペイシストラトス",
@@ -1980,11 +2126,15 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "中小農民を保護し僭主として君臨！",
+          "offset": [
+            -24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2010,7 +2160,7 @@ export const chapterEdition = {
         "部族っていうのは、もともと貴族が中心になって支配していた共同体、要するにムラだ。アテネは集住によってできたポリスだから、集住する前のムラのなかでの身分階級が、そのままアテネの身分階級になった。つまり、もともとムラの支配――――者だった大土地所有者の貴族が、アテネの政治や軍事でもつねに指導権を持っていた。例えば軍隊だと、貴族が自分のムラの平民を集めてつくった軍団の指揮をする。こういった部族がアテネには四つあった。じゃあ「血縁的」ってなんだろう？　集住がおこなわれた前8世紀ころからすでに200年くらい経っているけど、軍隊の指揮権はずっと貴族が世襲し、しかもムラのなかで何組も結婚してるから、みんな親戚みたいなもんだ。だって、当時の農民はほとんど引っ越しとかしないからね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "アテネ民主政の発展",
       "sourceText": {
         "chapter": 2,
@@ -2039,19 +2189,18 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "クレイステネス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "陶片追放（オストラキスモス）で僭主の出現を防ぐ！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2077,7 +2226,7 @@ export const chapterEdition = {
         "新しくつくられた10部族は、市民を登録したデーモス（居住区）を組み合わせてつくったから、もともとのムラとは何も関係なくなった。つまり機械的に住所で決めるから「地縁的」ね。そして、各部族から抽選で50人ずつの代表を選んでつくった議会が、五百人評議会だ。これで、戦争にさえ参加していれば平等に参政権が持てる体制ができた。ってことは……大きな戦争があれば政治が変わるよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "アテネ民主政の発展",
       "sourceText": {
         "chapter": 2,
@@ -2104,17 +2253,15 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "クレイステネス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "陶片追放（オストラキスモス）で僭主の出現を防ぐ！"
         },
         {
           "name": "ペイシストラトス",
@@ -2122,11 +2269,15 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "中小農民を保護し僭主として君臨！",
+          "offset": [
+            -24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2154,7 +2305,7 @@ export const chapterEdition = {
         "オリエントを統一したアケメネス朝は、アナトリアにあったリディア王国を滅ぼしたよね。リディアは、アナトリア、特にイオニア地方のギリシア人と貿易をして貨幣の使用を伝えたくらいだから、ギリシア人と仲がよかった。さらに、アケメネス朝は地中海交易でギリシア人のライバルだったフェニキア人の地中海交易を保護――――して、しかもアナトリアのギリシア人諸都市を服属させて支配下に置いたんだよ。もはや、ギリシア人たちの我慢の限界。こうして起こったのが、ミレトスを中心とするイオニア植民市の反乱だ。イオニアは「イオニア地方」という地域名、中心の「都市」がミレトスなので、気をつけてね！"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ペルシア戦争",
       "sourceText": {
         "chapter": 2,
@@ -2268,19 +2419,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ダレイオス1世",
           "at": [
             52.89,
             29.93
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "",
+          "route": 0
+        },
+        {
+          "name": "アケメネス朝",
+          "at": [
+            27.28,
+            37.53
+          ],
+          "image": "ancient/persian-immortal.png",
+          "bubble": "イオニア植民市の反乱を鎮圧せよ！"
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -2330,7 +2490,7 @@ export const chapterEdition = {
         "第1回ペルシア戦争［前492］では、海路でいったん北上したペルシア軍が、アトス岬のあたりで暴風雨に流された……。天がギリシアに味方したんだね。でも、ダレイオス1世は、再び軍勢を整えて攻め込んできたんだよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ペルシア戦争",
       "sourceText": {
         "chapter": 2,
@@ -2397,19 +2557,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ダレイオス1世",
           "at": [
             52.89,
             29.93
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": ""
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2421,7 +2580,8 @@ export const chapterEdition = {
       "before": "第1回ペルシア戦争――暴風雨で救われたギリシア",
       "after": "第1回ペルシア戦争――暴風雨で救われたギリシア",
       "note": "",
-      "takeaway": ""
+      "takeaway": "",
+      "battle": "マラトン"
     },
     {
       "id": "c02-l04-p05-003",
@@ -2433,7 +2593,7 @@ export const chapterEdition = {
         "まさか暴風雨で船が流されるとは思ってなかったダレイオス1世は、前490年、今度こそギリシアを屈服させようと約2万5000人の軍勢で攻め込んできた。第2回ペルシア戦争の始まりだ。知らせを聞いたアテネ市民は震え上がった。だって、当時のアテネにそんな大軍は準備できない。このとき、市民を率いたミルティアデスは市民に呼びかけた。「この戦いは、君たちの家族を守り、財産を守り――――そしてアテネを守る戦いだ。市民よ、みな立ち上がれ！」ってね。昔の戦争では、負けたほうは奴隷として売られてしまうから、本当に自分たちを守る戦いだ！　こうして集まったアテネ陸軍（重装歩兵軍）約1万人がペルシア軍を迎え撃った。これが有名なマラトンの戦い［前490］だ。ここで、アテネ陸軍がペルシア軍に勝利したよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ペルシア戦争",
       "sourceText": {
         "chapter": 2,
@@ -2473,17 +2633,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ダレイオス1世",
           "at": [
             52.89,
             29.93
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "",
+          "route": 0
         },
         {
           "name": "ミルティアデス",
@@ -2491,11 +2650,12 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "マラトンの戦いでペルシア軍を撃破！",
+          "afterImage": "ancient/roman-victory.png"
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -2539,7 +2699,7 @@ export const chapterEdition = {
         "ヘロドトスの『歴史』（ペルシア戦争記）によれば、アテネ軍の死者は192人。対するペルシア軍の死者は6400人！　やむなくペルシア軍は撤退した。なんでペルシア軍がこんな大敗したかというと、アテネは市民自ら、ポリスを守るために参戦した市民軍だから、気合が違う！　「なんだ、気合かよ……」って思っちゃいけない。だって、当時の戦争では、盾と槍を持って戦う重装歩兵だから、気合はむちゃくちゃ重要だよ。ただ、この戦いには最強の陸軍国だったスパルタは参戦してない。到着したのが戦いの1日後だった……。そしてギリシア世界では、スパルタ陸軍を抜きにペルシアに勝利したアテネの評価が高まった。あっ、このときアテネに戦勝を伝えた伝令の兵士が、到着後に死亡したっていう伝説的な故事があって、これがマラソンの名前の由来っていわれているよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ペルシア戦争",
       "sourceText": {
         "chapter": 2,
@@ -2580,19 +2740,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ヘロドトス",
           "at": [
             27.42,
             37.04
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "ペルシア戦争を物語る『歴史』を著す"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2604,7 +2763,8 @@ export const chapterEdition = {
       "before": "第2回ペルシア戦争――壮絶なマラトンの戦いでアテネが勝利！",
       "after": "第2回ペルシア戦争――壮絶なマラトンの戦いでアテネが勝利！",
       "note": "",
-      "takeaway": ""
+      "takeaway": "",
+      "battle": "テルモピレー"
     },
     {
       "id": "c02-l04-p05-005",
@@ -2618,7 +2778,7 @@ export const chapterEdition = {
         "まず、ペルシア陸軍を迎え撃ったのがギリシア最強の陸軍国スパルタが率いるペロポネソス同盟軍だ。ついにスパルタ登場！　とはいっても、20万ものペルシア軍の前じゃ、さすがに勝ち目はない……。スパルタのレオニダス王は、撤退を望むものは帰国させ、残ったスパルタ軍300人とともに勇敢に戦った。これがテルモピレーの戦いだよ。このときスパルタ軍は、槍が折れれば刀で戦い、最後には素手で、あるいは歯でかみついて……でも、いくらかみついたところで、20万vs.300人じゃどうにもならない。結局スパルタ軍は全滅してしまった。その後ペルシア軍はアッティカ地方を占領し、アテネのアクロポリスも破壊した。ギリシア滅亡の危機だ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ペルシア戦争",
       "sourceText": {
         "chapter": 2,
@@ -2678,17 +2838,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ダレイオス1世",
           "at": [
             52.89,
             29.93
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": ""
         },
         {
           "name": "クセルクセス1世",
@@ -2696,9 +2854,13 @@ export const chapterEdition = {
             52.89,
             29.93
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/persian-immortal.png",
+          "bubble": "大軍を率いてギリシア本土へ進軍せよ！",
+          "afterImage": "ancient/darius3-worried.png",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "レオニダス",
@@ -2706,19 +2868,21 @@ export const chapterEdition = {
             22.431,
             37.075
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
+          "image": "ancient/spartan-warrior.png",
+          "bubble": "テルモピレーで300名の兵と玉砕覚悟で奮戦！",
+          "afterImage": "ancient/spartan-phalanx.png"
+        }
+      ],
+      "props": [
         {
           "name": "アクロポリス",
           "at": [
             23.726,
             37.971
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         }
       ],
       "routes": [],
@@ -2732,7 +2896,8 @@ export const chapterEdition = {
       "before": "第3回ペルシア戦争――まさに死闘、ペルシアの大軍が来襲！",
       "after": "第3回ペルシア戦争――まさに死闘、ペルシアの大軍が来襲！",
       "note": "",
-      "takeaway": ""
+      "takeaway": "",
+      "battle": "サラミス"
     },
     {
       "id": "c02-l04-p05-006",
@@ -2746,7 +2911,7 @@ export const chapterEdition = {
         "こうして、下層市民は三段櫂船の漕ぎ手となった。そして、ペルシア海軍をスパイの偽情報によって狭いサラミス湾に誘い込むことに成功し、テミストクレスが率いるギリシア艦隊（3分の2はアテネ海軍だ！）はペルシア艦隊と丸一日戦い勝利した。当時の海戦は、艦船と艦船をぶつけ合う壮絶な戦いだ！　そしてアテネ海軍では三段櫂船の漕ぎ手となった無産市民が活躍し、死闘の末にギリシア艦隊が勝利したんだ。これがペルシア戦争の勝敗を決定づけたサラミスの海戦［前480］だね。この勝利の影響で、アテネでは無産市民の発言力が強くなったわけだ。そして、サラミスの海戦に敗れたペルシア軍は撤退を開始し、翌年のプラタイアの戦いでアテネ・スパルタ連合軍がペルシア陸軍を破ると、ギリシアの勝利が確定したんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ペルシア戦争",
       "sourceText": {
         "chapter": 2,
@@ -2795,19 +2960,29 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "テミストクレス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "三段櫂船を建造しサラミスの海戦で勝利へ導く！",
+          "afterImage": "ancient/roman-victory.png"
+        },
+        {
+          "name": "プラタイア",
+          "at": [
+            23.27,
+            38.21
+          ],
+          "image": "ancient/spartan-phalanx.png",
+          "afterImage": "ancient/roman-victory.png",
+          "bubble": "スパルタとアテネの連合軍がペルシア陸軍を壊滅！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2819,7 +2994,8 @@ export const chapterEdition = {
       "before": "第3回ペルシア戦争――まさに死闘、ペルシアの大軍が来襲！",
       "after": "第3回ペルシア戦争――まさに死闘、ペルシアの大軍が来襲！",
       "note": "",
-      "takeaway": ""
+      "takeaway": "",
+      "battle": "プラタイア"
     },
     {
       "id": "c02-l04-p05-007",
@@ -2835,7 +3011,7 @@ export const chapterEdition = {
         "さて、ペルシア戦争が終わると、いよいよアテネの民主政が完成するんだけど、それもつかの間……ギリシアは再び混乱の時代を迎えるよ。続きは次回！"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ペルシア戦争",
       "sourceText": {
         "chapter": 2,
@@ -2885,7 +3061,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ペルシア",
+          "at": [
+            54,
+            33
+          ],
+          "image": "ancient/greek-philosopher.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -2912,7 +3098,7 @@ export const chapterEdition = {
         "アテネでは、クレイステネスの改革で戦争に参加さえすれば平等に参政権がもらえる体制ができたよね。そして、ペルシア戦争のサラミスの海戦で、無産市民が三段櫂船の漕ぎ手として活躍すると無産市民の発言力が高まり、貴族のなかでも「無産市民にも参政権をあげよう😆！」って主張が強まって、将軍として権力を握ったペリクレスが民主政を完成させたよ。彼がアテネを指導した期間がペリクレス時代［前443〜前429］だ。民主政とは「全市民が参政権を持っている体制」だよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "アテネ民主政の完成",
       "sourceText": {
         "chapter": 2,
@@ -2945,17 +3131,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ペリクレス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "民主政は少数のためでなく万人のためのもの！"
         },
         {
           "name": "クレイステネス",
@@ -2963,9 +3147,24 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/athenian-general.png",
+          "bubble": "陶片追放（オストラキスモス）で僭主の出現を防ぐ！",
+          "offset": [
+            -24,
+            0
+          ]
+        }
+      ],
+      "props": [
+        {
+          "name": "アテネ",
+          "at": [
+            23.73,
+            37.98
+          ],
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         }
       ],
       "routes": [],
@@ -2993,7 +3192,7 @@ export const chapterEdition = {
         "というか、役人をくじ引きで決めてる場合じゃない！　だって、今の日本に置き換えたら「総理大臣を決めるくじ引き」ってことでしょ。当たったら困る😆。だって、総理大臣になって忙しくなると、今の仕事ができなくなるから「飢え死に」だ😨。実際、当時は役職に就いても給料が出なかったから、無産市民は怒った！　そしたら、「役職に就いたら手当（給料）を払いましょう！」ってことになった。しかも、手当は役職だけじゃなく、民会や裁判に参加してももらえたよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "アテネ民主政の完成",
       "sourceText": {
         "chapter": 2,
@@ -3030,19 +3229,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ペリクレス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "民主政は少数のためでなく万人のためのもの！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -3068,7 +3266,7 @@ export const chapterEdition = {
         "それからアテネの民主政と現代との比較も考えておこう。アテネは、全市民が「直接」民会に参加できるから直接民主政で、現代は議員を選んで「間接的」に議会に参加するから間接民主政【代議制】だね。あとは、古代ギリシア社会は奴隷制を前提に形成されていたよ。現代とは違って、市民が奴隷を所有するのが当たり前だったんだね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "アテネ民主政の完成",
       "sourceText": {
         "chapter": 2,
@@ -3105,27 +3303,27 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ペリクレス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
+          "image": "ancient/athenian-general.png",
+          "bubble": "民主政は少数のためでなく万人のためのもの！"
+        }
+      ],
+      "props": [
         {
           "name": "アゴラ",
           "at": [
             23.723,
             37.975
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         }
       ],
       "routes": [],
@@ -3151,7 +3349,7 @@ export const chapterEdition = {
         "こうしてアテネは全盛期を迎えたよ。ペリクレスは、ペルシア戦争中に破壊されたアクロポリスの再建に努め、フェイディアスが壮大なパルテノン神殿を建設した。さらに、宗教的な儀式や演劇のコンクールも盛んにおこなわれたよ。でも、この繁栄を支えていたのは、ほとんどが「デロス同盟の資金」だったことを忘れちゃいけない！　搾取されたほかのポリスは、アテネへの反感を強めていったよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "アテネ民主政の完成",
       "sourceText": {
         "chapter": 2,
@@ -3183,27 +3381,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ペリクレス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "アクロポリス",
-          "at": [
-            23.726,
-            37.971
-          ],
-          "image": "ancient/temple.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "民主政は少数のためでなく万人のためのもの！"
         },
         {
           "name": "フェイディアス",
@@ -3211,9 +3397,24 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "パルテノン神殿のアテナ女神像を彫刻",
+          "offset": [
+            -24,
+            0
+          ]
+        }
+      ],
+      "props": [
+        {
+          "name": "アクロポリス",
+          "at": [
+            23.726,
+            37.971
+          ],
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         },
         {
           "name": "パルテノン神殿",
@@ -3221,9 +3422,9 @@ export const chapterEdition = {
             23.726,
             37.971
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         }
       ],
       "routes": [],
@@ -3253,7 +3454,7 @@ export const chapterEdition = {
         "ただね、当時のアテネはむちゃくちゃ強かったから、戦争の初期には、ペリクレスが指導するアテネが優勢だった。ただ、ペリクレスは市民を守ろうとして、全市民を城壁内の中心市に避難させたんだけど、この作戦が裏目に出てしまう……。開戦の翌年、アテネでは疫病が発生して、狭い空間に密集して住んでいた市民たちに、あっという間に広がった。この疫病でアテネでは全人口の3分の1が死亡し、なんとペリクレスも疫病にかかって死んでしまったんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポリス社会の崩壊",
       "sourceText": {
         "chapter": 2,
@@ -3274,7 +3475,7 @@ export const chapterEdition = {
       "frame": [
         17,
         32.075,
-        28.728,
+        28.73,
         43
       ],
       "pins": [
@@ -3292,19 +3493,40 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ペリクレス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "民主政は少数のためでなく万人のためのもの！"
+        },
+        {
+          "name": "アテネ",
+          "at": [
+            23.73,
+            37.98
+          ],
+          "image": "ancient/athenian-general.png",
+          "bubble": "デロス同盟の盟主として海上帝国を維持",
+          "offset": [
+            -24,
+            0
+          ]
+        },
+        {
+          "name": "スパルタ",
+          "at": [
+            22.43,
+            37.08
+          ],
+          "image": "ancient/spartan-warrior.png",
+          "bubble": "ペロポネソス同盟を率いてアテネに挑戦！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -3330,7 +3552,7 @@ export const chapterEdition = {
         "では、なんでアケメネス朝が介入してきたんだろう？　これってペルシア戦争で敗れたアケメネス側の作戦変更だよ。だって、20万人もの大軍を動員したのにペルシア戦争では勝てなかったから、自分が直接攻め込まずにギリシアを弱らせる方法を考えた。そして「ギリシアの戦争や混乱に介入する」って作戦にたどり着いた。「一番強いポリスを潰すために、2位のポリスを支援」というのを繰り返して、ギリシア全体が弱ったところでトドメを刺す🔨！　当時のギリシアでは1位がアテネ、2位がスパルタだから、スパルタを支援してアテネを潰そうとしたんだね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポリス社会の崩壊",
       "sourceText": {
         "chapter": 2,
@@ -3389,19 +3611,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ペリクレス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "民主政は少数のためでなく万人のためのもの！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -3427,7 +3648,7 @@ export const chapterEdition = {
         "さらに天才的な軍事指導者エパメイノンダスが登場したテーベが、ファランクス（重装歩兵密集陣形）による斜線陣形と騎兵を使う新戦術を導入して、一気に強大化した。そして、前371年にレウクトラの戦いでスパルタを破ると、今度はテーベがギリシアの覇権を握ったんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポリス社会の崩壊",
       "sourceText": {
         "chapter": 2,
@@ -3482,19 +3703,19 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "エパメイノンダス",
           "at": [
             23.32,
             38.32
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "斜線陣でスパルタ軍を撃破し覇権を握る！",
+          "afterImage": "ancient/roman-victory.png"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -3518,7 +3739,7 @@ export const chapterEdition = {
         "こんなふうに覇権を握る国が次々と変わったけど、これってただの潰し合いだよ。しかも、戦争の長期化によって中小農民が没落し、もはや重装歩兵になれなくなった。じゃあ、兵士が足りない分はどうしよう？……こうなったらお金で雇うしかないよ。こうしてギリシアでは傭兵が普及し、市民の共同体意識はどんどん薄れていった。さらに、ポリス間の対立が激化したことで、ギリシア人の同胞意識も無くなっていくよね。しかも、デマゴーゴスが現れて衆愚政治に陥っている。この、ポリス社会が崩壊し始めたギリシアに、北方から攻め込んできたのがマケドニアだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポリス社会の崩壊",
       "sourceText": {
         "chapter": 2,
@@ -3558,7 +3779,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "スパルタ",
+          "at": [
+            22.431,
+            37.075
+          ],
+          "image": "ancient/spartan-warrior.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -3587,7 +3818,7 @@ export const chapterEdition = {
         "フィリッポス2世は13歳から2年間、人質としてテーベに滞在したんだけど、当時のテーベにはエパメイノンダスがいたんだ。このとき、政治や軍事について多くのことを学んだに違いない。特に、テーベのファランクス戦術は若いフィリッポス2世に大きな影響を与え、帰国後に23歳の若さで国王に即位すると、財政改革と軍制改革をおこなった。特に軍制改革では、5m以上のむちゃくちゃ長い槍を持たせた密集隊を組織した。こうして強大化したマケドニアは、北方からギリシア本土へと勢力を伸ばしていった。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポリス社会の崩壊",
       "sourceText": {
         "chapter": 2,
@@ -3643,17 +3874,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "フィリッポス2世",
           "at": [
             22.52,
             40.76
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/macedon-king.png",
+          "bubble": "カイロネイアの戦いで全ギリシアを制圧！",
+          "afterImage": "ancient/roman-victory.png"
         },
         {
           "name": "エパメイノンダス",
@@ -3661,11 +3891,12 @@ export const chapterEdition = {
             23.32,
             38.32
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "斜線陣でスパルタ軍を撃破し覇権を握る！",
+          "afterImage": "ancient/roman-victory.png"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -3677,7 +3908,8 @@ export const chapterEdition = {
       "before": "マケドニアにフィリッポス2世が登場！",
       "after": "マケドニアにフィリッポス2世が登場！",
       "note": "",
-      "takeaway": ""
+      "takeaway": "",
+      "battle": "レウクトラ"
     },
     {
       "id": "c02-l05-p02-006",
@@ -3691,7 +3923,7 @@ export const chapterEdition = {
         "こうして市民は反マケドニアに傾き、アテネはデモステネスの提案によってマケドニアに宣戦、テーベと同盟してマケドニアと戦うことになった。これがカイロネイアの戦い［前338］だ。しかし、この戦いでは戦闘経験と戦術に勝るマケドニア軍がアテネ・テーベ連合軍に圧勝し、マケドニアがギリシアの覇権を握ったんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポリス社会の崩壊",
       "sourceText": {
         "chapter": 2,
@@ -3744,17 +3976,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "フィリッポス2世",
           "at": [
             22.52,
             40.76
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/macedon-king.png",
+          "bubble": "カイロネイアの戦いで全ギリシアを制圧！",
+          "afterImage": "ancient/roman-victory.png"
         },
         {
           "name": "イソクラテス",
@@ -3762,9 +3993,8 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": ""
         },
         {
           "name": "デモステネス",
@@ -3772,11 +4002,15 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "",
+          "offset": [
+            -24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -3802,7 +4036,7 @@ export const chapterEdition = {
         "こんなふうに遠征の準備を始めたフィリッポス2世だったけど、「いよいよ夢に見たペルシア遠征が現実になる！」って思った矢先に、マケドニアの貴族によって暗殺されたんだ😢。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポリス社会の崩壊",
       "sourceText": {
         "chapter": 2,
@@ -3854,19 +4088,19 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "フィリッポス2世",
           "at": [
             22.52,
             40.76
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/macedon-king.png",
+          "bubble": "カイロネイアの戦いで全ギリシアを制圧！",
+          "afterImage": "ancient/roman-victory.png"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -3894,7 +4128,7 @@ export const chapterEdition = {
         "さて、フィリッポス2世の暗殺によって、アレクサンドロスは若干20歳で突然国王に即位した。まず、父親の葬儀を盛大におこなって後継者であることを全ギリシアに示した。すでに王としての資質は十分備わっている。だって彼には、父が残してくれた強力な軍隊と教養がある🔨。アレクサンドロスは、反抗したポリスを抑えてギリシア連合軍を組織すると、前334年、東方遠征【ペルシア遠征】を開始したよ。彼には「父の遺志を継ぐ」こと、そして「ペルシアがギリシアへ介入したことに対する報復」という二つの大義名分があるからね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム時代",
       "sourceText": {
         "chapter": 2,
@@ -3936,17 +4170,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アレクサンドロス",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/alexander-march.png",
+          "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
+          "afterImage": "ancient/alexander-happy.png"
         },
         {
           "name": "フィリッポス2世",
@@ -3954,9 +4187,9 @@ export const chapterEdition = {
             22.52,
             40.76
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/macedon-king.png",
+          "bubble": "カイロネイアの戦いで全ギリシアを制圧！",
+          "afterImage": "ancient/roman-victory.png"
         },
         {
           "name": "アリストテレス",
@@ -3964,11 +4197,11 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "人間はポリス的動物である（万学の祖）"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -3996,7 +4229,7 @@ export const chapterEdition = {
         "この戦いではペルシア側が致命的な作戦ミスを犯して敗色が濃厚となり、アレクサンドロスの大攻勢の前にダレイオス3世は逃亡した。ていうか、国王が逃げちゃだめだろ😅。このとき、ダレイオス3世の奥さんや娘が戦場に置き去りにされたんだけど、アレクサンドロスは彼女たちを丁重に扱ったよ。そして、アケメネス朝の行政組織（サトラップ制）は変更せずに、その長官にはマケドニア人やギリシア人を配置しながら遠征を続けたんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム時代",
       "sourceText": {
         "chapter": 2,
@@ -4075,17 +4308,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アレクサンドロス",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/alexander-march.png",
+          "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
+          "afterImage": "ancient/alexander-happy.png"
         },
         {
           "name": "フィリッポス2世",
@@ -4093,9 +4325,9 @@ export const chapterEdition = {
             22.52,
             40.76
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/macedon-king.png",
+          "bubble": "カイロネイアの戦いで全ギリシアを制圧！",
+          "afterImage": "ancient/roman-victory.png"
         },
         {
           "name": "ダレイオス3世",
@@ -4103,11 +4335,22 @@ export const chapterEdition = {
             52.89,
             29.93
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": ""
+        },
+        {
+          "at": [
+            27.23,
+            40.32
+          ],
+          "name": "アナトリア",
+          "route": 0,
+          "image": "ancient/alexander-march.png",
+          "afterImage": "ancient/alexander-happy.png",
+          "bubble": "イッソスの戦いでペルシア軍本隊を撃破！"
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -4143,7 +4386,8 @@ export const chapterEdition = {
       "before": "いよいよアレクサンドロスが登場して、東方遠征に向かった！",
       "after": "いよいよアレクサンドロスが登場して、東方遠征に向かった！",
       "note": "",
-      "takeaway": ""
+      "takeaway": "",
+      "battle": "イッソス"
     },
     {
       "id": "c02-l05-p03-003",
@@ -4157,7 +4401,7 @@ export const chapterEdition = {
         "その後、アレクサンドロスの遠征軍がエジプトに到達すると、ペルシア人の総督は抵抗を放棄した。アレクサンドロスはペルシア支配に不満を持っていたエジプト人の歓迎を受けると、エジプトの神に生贄を捧げて、事実上のエジプト王、つまりファラオとなったんだ。さらにナイル・デルタに新都市を建設してアレクサンドリアと名づけた。ここは、のちにヘレニズム文化の中心となるよ。こうしてエジプト支配を固めると、いよいよペルシア本土への遠征を始めたんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム時代",
       "sourceText": {
         "chapter": 2,
@@ -4222,19 +4466,20 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アレクサンドロス",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/alexander-march.png",
+          "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
+          "afterImage": "ancient/alexander-happy.png",
+          "route": 0
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -4266,7 +4511,8 @@ export const chapterEdition = {
       "before": "いよいよアレクサンドロスが登場して、東方遠征に向かった！",
       "after": "いよいよアレクサンドロスが登場して、東方遠征に向かった！",
       "note": "",
-      "takeaway": ""
+      "takeaway": "",
+      "battle": "ガウガメラ"
     },
     {
       "id": "c02-l05-p03-004",
@@ -4280,7 +4526,7 @@ export const chapterEdition = {
         "ウソかホントかはわからないけど、こんな話も残っているよ。のちの遠征の際に、アレクサンドロスは殺されかけて死にそうになったダレイオス3世に出会って最期を看取ったことから、正式にペルシア王の後継者となったそうな。うーん……、いくらなんでもこの話はできすぎだよね😅。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム時代",
       "sourceText": {
         "chapter": 2,
@@ -4373,17 +4619,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アレクサンドロス",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/alexander-march.png",
+          "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
+          "afterImage": "ancient/alexander-happy.png"
         },
         {
           "name": "ダレイオス3世",
@@ -4391,11 +4636,11 @@ export const chapterEdition = {
             52.89,
             29.93
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": ""
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -4455,7 +4700,7 @@ export const chapterEdition = {
         "ただ、アレクサンドロスって、ペルセポリス以外の征服地はほとんど破壊していないんだよ。そればかりか、バビロン征服のあとは方針を転換して、降伏したペルシア人のサトラップをその地位に留まらせた。つまり、アケメネス朝の支配体制をそのまま継承して、重要な役職にはペルシア人を使うってことだ。さらに、アレクサンドロスはペルシア王の後継者として、自らを神格化していった。だんだんと、オリエント風の専制政治に近づいていったんだね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム時代",
       "sourceText": {
         "chapter": 2,
@@ -4509,27 +4754,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アレクサンドロス",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
+          "image": "ancient/alexander-march.png",
+          "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
+          "afterImage": "ancient/alexander-happy.png"
+        }
+      ],
+      "props": [
         {
           "name": "アクロポリス",
           "at": [
             23.726,
             37.971
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         }
       ],
       "routes": [
@@ -4575,7 +4821,7 @@ export const chapterEdition = {
         "その後も遠征は続き、バクトリアからソグディアナ（中央アジア）まで到達したのち北インドへと侵入した。そして、ガンジス流域の肥沃な大地やその先に広がる大海の話を聞くと、アレクサンドロスは胸を躍らせて、さらに進軍しようとしたんだけど、さすがに兵士達が進軍を拒否した。ここまでは、かつてのアラム人の交易圏やアケメネス朝の支配領域だったから人びとにも知られていたけど、ここから先は当時としては未知の世界だ😨。さすがに、兵士たちには精神的にも体力的にも限界だった。こうしてインダス川まで遠征したアレクサンドロスは、やむなくスサへと帰還し、次なるアラビア遠征を計画してバビロンに移動した矢先に、熱病のため33歳で急死したんだ。なんか、アレクサンドロスの生涯って、波乱万丈だね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム時代",
       "sourceText": {
         "chapter": 2,
@@ -4643,19 +4889,20 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アレクサンドロス",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/alexander-march.png",
+          "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
+          "afterImage": "ancient/alexander-happy.png",
+          "route": 0
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -4747,7 +4994,7 @@ export const chapterEdition = {
         "ヘレニズム文化が形成されたのは、アレクサンドロス大王の遠征でギリシア人がオリエントに流入したからだよ。大王は各地に新都市アレクサンドリアを建設したから、そこにギリシア人が入植してギリシア風の街を建設した。しかも、街のなかにはいろんなポリスの人やらペルシア人も住んでいるから、共通語としてコイネー（共通ギリシア語）を使うようになった。こうしてギリシア文化がオリエントへと拡大して、ヘレニズム文化へと発展していったんだね。ただ、同時にアレクサンドロスは君主崇拝などオリエント風の専制政治を導入したり、マケドニア兵とペルシア人女性を集団結婚させたりしたから、ギリシア文化にオリエントなど各地の文化の要素が加わったってことだよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム時代",
       "sourceText": {
         "chapter": 2,
@@ -4819,17 +5066,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アレクサンドロス",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/alexander-march.png",
+          "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
+          "afterImage": "ancient/alexander-happy.png"
         },
         {
           "name": "ドロイゼン",
@@ -4837,11 +5083,11 @@ export const chapterEdition = {
             13.4,
             52.5
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "東西文化融合の時代を「ヘレニズム」と命名"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -4867,7 +5113,7 @@ export const chapterEdition = {
         "まずは、ギリシア本土を中心とするマケドニア王国だ。都はペラだね。当初、カッサンドロスが支配していたけど、前276年にアンティゴノス2世が王位を奪って即位し、アンティゴノス朝（アンティゴノス朝マケドニア）が成立したよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム時代",
       "sourceText": {
         "chapter": 2,
@@ -4932,17 +5178,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アレクサンドロス",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/alexander-march.png",
+          "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
+          "afterImage": "ancient/alexander-happy.png"
         },
         {
           "name": "カッサンドロス",
@@ -4950,9 +5195,8 @@ export const chapterEdition = {
             22.52,
             40.76
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/macedon-king.png",
+          "bubble": "アンティゴノス朝マケドニアの基礎を築く"
         },
         {
           "name": "アンティゴノス2世",
@@ -4960,11 +5204,15 @@ export const chapterEdition = {
             22.52,
             40.76
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/macedon-king.png",
+          "bubble": "マケドニアの支配を安定させる",
+          "offset": [
+            -24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -4988,7 +5236,7 @@ export const chapterEdition = {
         "続いてシリア王国、王朝はセレウコス朝（セレウコス朝シリア）ね。最初の都は建国者の名前を取った都市セレウキアだったけど、のちにアンティオキアに遷されるよ。この国はイラン高原から中央アジア、さらに北インドまでの広大な地域を支配したんだけど、かといって強かったってわけじゃない。辺境の支配はあまり強くなかったから、すぐに各地の民族が自立し始め、前3世紀半ばには中央アジアでギリシア系のバクトリアが自立し、それに刺激されたイラン系遊牧民もカスピ海南東でパルティアを建て、勢力を拡大した。セレウコス朝はパルティアに次々と領土を奪われ、ついには都セレウキアも占領されてしまう。こうしてセレウコス朝が弱体化すると、自立の動きが加速するよ。アナトリアでもペルガモン王国が独立し、さらに前2世紀にはマカベア戦争を経てユダヤ人（ハスモン朝）が独立するしね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム時代",
       "sourceText": {
         "chapter": 2,
@@ -5106,7 +5354,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "シリア王国",
+          "at": [
+            36,
+            36
+          ],
+          "image": "ancient/greek-philosopher.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -5131,7 +5389,7 @@ export const chapterEdition = {
         "最後はエジプト王国だ。王朝はプトレマイオス朝（プトレマイオス朝エジプト）だね。この国は、豊かな穀物生産地だったエジプトを支配したから、かなり強かったよ。都のアレクサンドリアはヘレニズム世界の中心地として、最盛期には人口100万人😱！　そして、ここに建てられた大研究機関のムセイオンは、ヘレニズム文化の中心でもあったよ。ムセイオンっていうのは、英語の「museum（博物館・美術館）」の語源だね。それから、プトレマイオス朝は伝統的なエジプトの支配体制をそのまま継承したから、古代エジプト王国の最後の王朝なんだよ。つまり、国王はファラオってことだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム時代",
       "sourceText": {
         "chapter": 2,
@@ -5184,7 +5442,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "エジプト王国",
+          "at": [
+            29.9,
+            31.2
+          ],
+          "image": "ancient/pharaoh-calm.png",
+          "bubble": ""
+        }
+      ],
       "props": [
         {
           "name": "ムセイオン",
@@ -5192,9 +5460,9 @@ export const chapterEdition = {
             29.918,
             31.2
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/knossos-palace.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         }
       ],
       "routes": [],
@@ -5222,7 +5490,7 @@ export const chapterEdition = {
         "今回は年号をチェックしたあと、ギリシア文化とヘレニズム文化も確認しよう！"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム時代",
       "sourceText": {
         "chapter": 2,
@@ -5280,7 +5548,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ",
+          "at": [
+            12.496,
+            41.903
+          ],
+          "image": "ancient/roman-consul.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -5309,7 +5587,7 @@ export const chapterEdition = {
         "だから、ギリシアの文化って基本的に「自分が知っている相手に語り、自分が知っている人から見たり聞いたりする」っていう発想から生まれたんだ。それに、ポリスにはみんなが自由で対等に議論できる政治風土があったから、自由で人間中心の文化がつくられたんだね。この特徴は、特に宗教や文学に表れているよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア文化",
       "sourceText": {
         "chapter": 2,
@@ -5346,7 +5624,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ギリシア",
+          "at": [
+            22,
+            38
+          ],
+          "image": "ancient/athenian-general.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -5371,7 +5659,7 @@ export const chapterEdition = {
         "もう一つの特徴が「合理的」ってことね。ギリシア人には「労働は奴隷がやって、市民は政治や文化にかかわるのが理想！」って意識があったから、空いた時間はアゴラに集まって議論したり、体育場でトレーニングをしてたんだよ。つまり、文武両道！　さまざまな分野でバランスよく能力を発揮できる人がすごい！　難しい表現にすると「調和」だ。さらに、議論のなかから「さまざまなこと、神話や神ではなく根拠をもって論理的に説明しよう😆」っていう考え方が出てきた。これが「合理的」思考だね。だって、誰かに「これって何？」って聞いたときに、相手が「神に聞こう！」っていったらムカつくでしょ😅。ほら、「合理的」な思考って大事でしょ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア文化",
       "sourceText": {
         "chapter": 2,
@@ -5401,7 +5689,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ギリシア",
+          "at": [
+            22,
+            38
+          ],
+          "image": "ancient/athenian-general.png",
+          "bubble": ""
+        }
+      ],
       "props": [
         {
           "name": "アゴラ",
@@ -5409,9 +5707,9 @@ export const chapterEdition = {
             23.723,
             37.975
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         }
       ],
       "routes": [],
@@ -5439,7 +5737,7 @@ export const chapterEdition = {
         "そしてポリスが出現したあと、前7世紀になると人間の個性に目覚めた人びとは、個人の感情を詩に描き始めたんだ。これが叙情詩だね。恋愛詩で有名なサッフォーは、ギリシア唯一の女流詩人ってところを、しっかり覚えておいてね。叙情詩のテーマに多いのはズバリ「恋愛！」。こういうところは、現代と一緒だね😆。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア文化",
       "sourceText": {
         "chapter": 2,
@@ -5474,17 +5772,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ホメロス",
           "at": [
             27.14,
             38.42
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "『イリアス』『オデュッセイア』を吟誦する"
         },
         {
           "name": "ヘシオドス",
@@ -5492,9 +5788,8 @@ export const chapterEdition = {
             23.05,
             38.4
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "『神統記』『労働と日々』を著す"
         },
         {
           "name": "サッフォー",
@@ -5502,11 +5797,11 @@ export const chapterEdition = {
             26.55,
             39.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "レスボス島で愛と情熱の抒情詩を歌う"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -5530,7 +5825,7 @@ export const chapterEdition = {
         "古代ギリシアでは多くの優れた演劇がつくられ、ポリスの祭典で競演されて優勝が決められた。そりゃ作家も本気になる。しかもアテネでは演劇を見るのは市民の義務！　だって、市民の団結を図るのが目的だもん。この演劇コンクールで何度も優勝していたのが三大悲劇詩人と呼ばれるアイスキュロス、ソフォクレス、エウリピデスだよ。基本的に彼らの作品は神話を題材とするものが多いんだけど、内容はとんでもなくドロドロだったり、かなり激しい感情のぶつかり合いがあったりと、人間の感情を強く描いている。ほかには、現実のパロディみたいな喜劇を通じて当時の社会を風刺・批判したアリストファネスもいるよ。だって、彼の有名な喜劇「女の平和」は教科書だと反戦劇って書いてあるけど、中身はペロポネソス戦争にうんざりしたアテネとスパルタの女性たちが、戦争をやめるまではダンナと寝ない……うーん、はっきり言っちゃうとセックス・ストライキ戦術で男どもを屈服させて、戦争を終わらせるって話😅……ありそうでない話だね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア文化",
       "sourceText": {
         "chapter": 2,
@@ -5563,17 +5858,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アイスキュロス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "悲劇『アガメムノン』を著す"
         },
         {
           "name": "ソフォクレス",
@@ -5581,9 +5874,12 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "悲劇『オイディプス王』で運命の悲劇を描く",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "エウリピデス",
@@ -5591,9 +5887,12 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "悲劇『メディア』で人間の心理を鋭く描く",
+          "offset": [
+            24,
+            0
+          ]
         },
         {
           "name": "アリストファネス",
@@ -5601,11 +5900,15 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "喜劇『女の平和』でペロポネソス戦争を風刺！",
+          "offset": [
+            -48,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -5631,7 +5934,7 @@ export const chapterEdition = {
         "最初の自然哲学者（「哲学の父」）は、「万物の根源は水」と考えたタレスだ。ちょっと伝説的だけど、皆既日食を予言したり、ピラミッドの高さを測定したともいわれている。その後、万物の根源は数としたピタゴラスや「万物は流転する」の言葉で有名なヘラクレイトスなどを経て、デモクリトスの原子論が出てくるよ。最初はあくまでも「自然を神じゃないところ、つまり合理的に考えよう」っていう哲学だったけど、だんだん自然科学に向かっていくよ。あとは、西洋医学の父と呼ばれるヒッポクラテスも一緒におさえておこう。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア文化",
       "sourceText": {
         "chapter": 2,
@@ -5675,37 +5978,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
-        {
-          "name": "アゴラ",
-          "at": [
-            23.723,
-            37.975
-          ],
-          "image": "ancient/temple.svg",
-          "kind": "prop",
-          "size": 42
-        },
+      "actors": [
         {
           "name": "タレス",
           "at": [
             27.28,
             37.53
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "ピラミッド",
-          "at": [
-            31.13,
-            29.98
-          ],
-          "image": "ancient/pyramid.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "万物の根源（アルケー）は水である"
         },
         {
           "name": "ピタゴラス",
@@ -5713,9 +5994,8 @@ export const chapterEdition = {
             16.55,
             39.08
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "万物の根源は数であり調和である"
         },
         {
           "name": "ヘラクレイトス",
@@ -5723,9 +6003,8 @@ export const chapterEdition = {
             27.34,
             37.94
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "万物は流転する（パンタ・レイ）"
         },
         {
           "name": "デモクリトス",
@@ -5733,9 +6012,8 @@ export const chapterEdition = {
             24.97,
             40.94
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "万物はこれ以上分割できない原子（アトム）からなる"
         },
         {
           "name": "ヒッポクラテス",
@@ -5743,7 +6021,28 @@ export const chapterEdition = {
             27.29,
             36.89
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "迷信を排し臨床観察に基づく医学の父"
+        }
+      ],
+      "props": [
+        {
+          "name": "アゴラ",
+          "at": [
+            23.723,
+            37.975
+          ],
+          "image": "ancient/greek-temple.png",
+          "kind": "prop",
+          "size": 76
+        },
+        {
+          "name": "ピラミッド",
+          "at": [
+            31.13,
+            29.98
+          ],
+          "image": "ancient/pyramid-giza.png",
           "kind": "prop",
           "size": 42
         }
@@ -5771,7 +6070,7 @@ export const chapterEdition = {
         "前5世紀になると、アテネではペリクレスが登場して民主政が完成し、民会が最高議決機関になったね。でも、参加者の多い民会では演説が上手くないと誰も聞いてくれない。そこで登場したのがソフィストだ。彼らはポリスの市民としてどうしたら民会や法廷で上手に話せるかを教えた演説の先生たちだよ。でもね、相手を納得させるためには「こじつけ」でもなんでもOKってことになってきた😅。例えば有名なソフィストのプロタゴラスの言葉「万物の尺度は人間」っていうのは、どんなことでもみんな自分中心で判断する（相対主義）から、「真理に絶対はない」ってことだ。これを批判したのが哲学者のソクラテスだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア文化",
       "sourceText": {
         "chapter": 2,
@@ -5795,17 +6094,15 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ペリクレス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "民主政は少数のためでなく万人のためのもの！"
         },
         {
           "name": "プロタゴラス",
@@ -5813,9 +6110,12 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "人間は万物の尺度である（相対主義）",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "ソクラテス",
@@ -5823,11 +6123,15 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "無知の知を自覚し、魂の善美を求めよ",
+          "offset": [
+            24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -5851,7 +6155,7 @@ export const chapterEdition = {
         "続いて三大哲学者だよ。ペロポネソス戦争に突入してアテネが衰退し始めると、ソフィストのいうような相対主義だと市民がバラバラになって、ますます弱くなっちゃう。「これじゃあマズい」って思ったソクラテスは、市民の団結を図るためには「すべての人やモノに共通するような真理（普遍の真理）」を探り、よりよい生き方（徳）を目指さなきゃいけない（知徳合一）って主張した。彼は人びとに「無知の知」（自分の無知を知ること）を教えるための問答法を実践しながら、普遍的・客観的な真理を探ったんだけど、衆愚政治に陥ってしまう民主政治には反対だった。だから、市民を惑わしたとして民衆裁判で死刑にされたんだね😥。友人たちは脱走を勧めたんだけど、ソクラテスは「悪法も法なり」といって、死刑を受け入れた。そんなソクラテスの弟子がプラトンだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア文化",
       "sourceText": {
         "chapter": 2,
@@ -5875,17 +6179,15 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ソクラテス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "無知の知を自覚し、魂の善美を求めよ"
         },
         {
           "name": "プラトン",
@@ -5893,9 +6195,12 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "真の実在は天上にあるイデアの世界である",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "アリストテレス",
@@ -5903,11 +6208,15 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "人間はポリス的動物である（万学の祖）",
+          "offset": [
+            24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -5931,7 +6240,7 @@ export const chapterEdition = {
         "プラトンは、ソクラテスの思想を「対話篇」に残しつつ、自分が考えるイデア論に基づいて、理想的なポリスのあり方を「国家」に書いた。イデアとは簡単に言うと「理想」のことだよ。プラトンは、「人に“理想”があるように、国にも“理想”がある。今のアテネは衆愚政治で、まるで理想的じゃない。では、理想の国家にするにはどうすればいいのか？」って考え、「理想の哲学者が政治をやれば、理想の国家になる（哲人政治）」という結論にたどり着いた。うーん、理想の哲学者ってどんな人だろ😅。さらに、プラトンはアテネ郊外にアカデメイアっていう学校を開いて弟子たちに哲学を教えたよ。彼の弟子がアリストテレスだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア文化",
       "sourceText": {
         "chapter": 2,
@@ -5955,17 +6264,15 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ソクラテス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "無知の知を自覚し、魂の善美を求めよ"
         },
         {
           "name": "プラトン",
@@ -5973,9 +6280,12 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "真の実在は天上にあるイデアの世界である",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "アリストテレス",
@@ -5983,19 +6293,24 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "人間はポリス的動物である（万学の祖）",
+          "offset": [
+            24,
+            0
+          ]
+        }
+      ],
+      "props": [
         {
           "name": "アカデメイア",
           "at": [
             23.709,
             37.992
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         }
       ],
       "routes": [],
@@ -6023,7 +6338,7 @@ export const chapterEdition = {
         "彼の功績はすごすぎて入試でも全部を聞くのはとても無理😅。だからプラトンとの比較で、政治の分野だけはおさえておこう。アリストテレスは「イデア」ではなく「実体」を見た。だからいくつものポリスの政治体制を調べて（「アテナイ人の国制」）、それらを分類して長所や短所を分析し、どのような政治をおこなうべきかを「実体」から説いた（「政治学」）。ほら！　現代にも通じる政治学になってる。それから、彼もまたアテネにリュケイオンという学校をつくって、弟子たちに学問を教えたよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア文化",
       "sourceText": {
         "chapter": 2,
@@ -6052,17 +6367,15 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ソクラテス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "無知の知を自覚し、魂の善美を求めよ"
         },
         {
           "name": "プラトン",
@@ -6070,9 +6383,12 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "真の実在は天上にあるイデアの世界である",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "アリストテレス",
@@ -6080,19 +6396,24 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "人間はポリス的動物である（万学の祖）",
+          "offset": [
+            24,
+            0
+          ]
+        }
+      ],
+      "props": [
         {
           "name": "リュケイオン",
           "at": [
             23.744,
             37.974
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         }
       ],
       "routes": [],
@@ -6122,7 +6443,7 @@ export const chapterEdition = {
         "これに対して、ペロポネソス戦争を描いた「歴史」を書いたのがトゥキディデスだ。彼は開戦直後に、この戦争がこれまでにない大戦争になることを予感して、さまざまな史料を集めまくった。そして、それを分析しながら「なんでこんな戦争が起こったんだろう😳」って考えて、本にまとめたんだ。残念ながら未完に終わってしまったんだけど、彼の「歴史」は最初の科学的歴史記述といわれているよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア文化",
       "sourceText": {
         "chapter": 2,
@@ -6169,17 +6490,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ヘロドトス",
           "at": [
             27.42,
             37.04
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "ペルシア戦争を物語る『歴史』を著す"
         },
         {
           "name": "トゥキディデス",
@@ -6187,11 +6506,11 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "ペロポネソス戦争を批判的実証主義で記録"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -6217,7 +6536,7 @@ export const chapterEdition = {
         "それから、ギリシアの神殿建築もおさえておこう。神殿の建築様式は柱の形によって区別され、時代が進むにつれて細かい文様が彫られるようになった。最初はほとんど飾りのないドーリア式、次に渦巻き型の装飾がついたイオニア式、最後にアカンサスの葉をモチーフとする装飾がついたコリント式へと発展した。よく問題になるのはパルテノン神殿がドーリア式ってとこね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ギリシア文化",
       "sourceText": {
         "chapter": 2,
@@ -6261,37 +6580,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
-        {
-          "name": "アクロポリス",
-          "at": [
-            23.726,
-            37.971
-          ],
-          "image": "ancient/temple.svg",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "パルテノン神殿",
-          "at": [
-            23.726,
-            37.971
-          ],
-          "image": "ancient/temple.svg",
-          "kind": "prop",
-          "size": 42
-        },
+      "actors": [
         {
           "name": "フェイディアス",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "パルテノン神殿のアテナ女神像を彫刻"
         },
         {
           "name": "プラクシテレス",
@@ -6299,9 +6596,34 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "優美なヘルメス像などの彫刻を手がける",
+          "offset": [
+            -24,
+            0
+          ]
+        }
+      ],
+      "props": [
+        {
+          "name": "アクロポリス",
+          "at": [
+            23.726,
+            37.971
+          ],
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
+        },
+        {
+          "name": "パルテノン神殿",
+          "at": [
+            23.726,
+            37.971
+          ],
+          "image": "ancient/greek-temple.png",
+          "kind": "prop",
+          "size": 80
         }
       ],
       "routes": [],
@@ -6333,7 +6655,7 @@ export const chapterEdition = {
         "二つ目は個人主義だ。簡単に言うと「ポリスがデカすぎてわけわかんない」ってことだ。彼らは悩んだけど、最後は開き直った😅。「どっちにしても自分は自分だから、何も変わらん！」。つまり、ポリスよりも自分自身を優先するってことね。こうして現れたヘレニズム文化の思想的な潮流「世界市民主義」と「個人主義」から、新たな哲学が生まれたんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム文化",
       "sourceText": {
         "chapter": 2,
@@ -6373,19 +6695,19 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アレクサンドロス",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/alexander-march.png",
+          "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
+          "afterImage": "ancient/alexander-happy.png"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -6413,7 +6735,7 @@ export const chapterEdition = {
         "もう一方はエピクロスが創始したエピクロス派。エピクロス派は「快楽主義」がキーワードだよ。とはいっても、好き勝手に生きるって意味じゃない。彼は、死ぬことを恐れて苦しむのではなく、自分の感覚に従ってつつましく生きようって主張した。エピクロスは、「私たちが存在するときに死は存在しないし、死が存在するときに私たちは存在しない」、つまり死を実感することはないのだから恐れなくていい、って考えたんだよ。こうして心が落ち着いてくることを、最高の「快楽」って考えた。こっちは個人主義的だ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム文化",
       "sourceText": {
         "chapter": 2,
@@ -6445,17 +6767,16 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アレクサンドロス",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/alexander-march.png",
+          "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
+          "afterImage": "ancient/alexander-happy.png"
         },
         {
           "name": "ゼノン",
@@ -6463,9 +6784,8 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "情熱に動かされない不動心（アパテイア）を説く"
         },
         {
           "name": "エピクロス",
@@ -6473,11 +6793,15 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "心の平静（アタラクシア）こそ最高の快楽",
+          "offset": [
+            -24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -6503,7 +6827,7 @@ export const chapterEdition = {
         "さて、次回はローマだよ。「すべての道はローマに通じる（“All roads lead to Rome.”）」くらい重要な範囲だ！　ついでに英語のことわざも覚えちゃおう😆。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ヘレニズム文化",
       "sourceText": {
         "chapter": 2,
@@ -6548,27 +6872,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
-        {
-          "name": "ムセイオン",
-          "at": [
-            29.918,
-            31.2
-          ],
-          "image": "ancient/temple.svg",
-          "kind": "prop",
-          "size": 42
-        },
+      "actors": [
         {
           "name": "アリスタルコス",
           "at": [
             29.918,
             31.2
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "太陽中心説（地動説）を先駆的に唱える"
         },
         {
           "name": "エラトステネス",
@@ -6576,9 +6888,24 @@ export const chapterEdition = {
             29.918,
             31.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "夏至の影から地球の全周を正確に計算！",
+          "offset": [
+            -24,
+            0
+          ]
+        }
+      ],
+      "props": [
+        {
+          "name": "ムセイオン",
+          "at": [
+            29.918,
+            31.2
+          ],
+          "image": "ancient/knossos-palace.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         }
       ],
       "routes": [],
@@ -6608,7 +6935,7 @@ export const chapterEdition = {
         "当時の状況をもう少し補足しよう。西地中海では、北アフリカを拠点とするカルタゴ（フェニキア人）の勢力が強大で、さらにイタリア南部やシチリア島には、多数のギリシア人のポリスが建設された。そして、北イタリアを中心にエトルリア人の文明があって、そこに割りこんだラテン人が都市国家ローマを樹立したんだね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "都市国家ローマ",
       "sourceText": {
         "chapter": 2,
@@ -6695,7 +7022,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "イタリア",
+          "at": [
+            13,
+            42
+          ],
+          "image": "ancient/roman-consul.png",
+          "bubble": ""
+        }
+      ],
       "props": [
         {
           "name": "フォルム",
@@ -6703,9 +7040,9 @@ export const chapterEdition = {
             12.49,
             41.89
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/triumphal-arch.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         }
       ],
       "routes": [],
@@ -6731,7 +7068,7 @@ export const chapterEdition = {
         "貴族共和政とは、「貴族だけが政治を独占する状態」だよ。この時期のローマの政治の中心は元老院で、ここが最高立法機関だ。元老院には公職経験のある300名の貴族がいて絶大な権威を持ち、さらに貴族のなかから2名のコンスル【執政官】が兵員会（民会の一つ）で選ばれた。コンスルは、今で言う大統領。2人いるってことは、話し合い（合議）で政治や軍事を指揮するよ。コンスルは元老院で選ばれるわけではないから気をつけよう！　そして、戦争などの非常時にはディクタトル【独裁官】が指名され（元老院の提案でコンスルが指名）、全権を握った。でも任期はたったの半年！　貴族たちは独裁者がキライなんだ。ただ、圧倒的に人口が多いのは参政権のない平民だから、平民が貴族に文句を言いたくなる気持ちもわかる。こうして、参政権を求める平民と貴族の対立、いわゆる身分闘争が始まったよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "都市国家ローマ",
       "sourceText": {
         "chapter": 2,
@@ -6746,8 +7083,8 @@ export const chapterEdition = {
       },
       "frame": [
         7.496,
-        36.903,
-        17.496000000000002,
+        36.9,
+        17.5,
         46.903
       ],
       "pins": [
@@ -6755,7 +7092,17 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ",
+          "at": [
+            12.5,
+            41.9
+          ],
+          "image": "ancient/roman-consul.png",
+          "bubble": "貴族（パトリキ）が元老院とコンスルを独占"
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -6784,7 +7131,7 @@ export const chapterEdition = {
         "この事件は伝説なんだけど、このときに設置されたと伝えられるのが、護民官と平民会だ。護民官は平民を保護する官職だ。彼らは平民の代表として神聖不可侵なものと誓約されて、元老院やコンスルの決定に拒否権を持っていたから、これで貴族は勝手な法律をつくれなくなった。でも平民会ではローマ全体を規定する法（国法）はつくれない。貴族にも決定に従ってもらうためには、再度元老院で決議する必要があった。つまり、元老院が上、平民会が下っていう上下関係があったんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "身分闘争",
       "sourceText": {
         "chapter": 2,
@@ -6813,7 +7160,17 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ",
+          "at": [
+            12.496,
+            41.903
+          ],
+          "image": "ancient/roman-consul.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -6838,7 +7195,7 @@ export const chapterEdition = {
         "そうはいっても、制限付きながら平民の政治参加が拡大したから、平民にも政治の進め方がわからないとマズい！　だから平民にも法が公開された。これがローマ初の成文法である十二表法だ。アテネでいうとドラコンの立法と同じ「慣習法の成文化」だね。でも内容は貴族が優位だから平民は納得しないよ。例えば、貴族と平民の結婚は禁止！　その後、この条項はカヌレイウス法で撤廃されるけどね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "身分闘争",
       "sourceText": {
         "chapter": 2,
@@ -6863,17 +7220,15 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ドラコン",
           "at": [
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/athenian-general.png",
+          "bubble": "従来の慣習法を成文化し公開する！"
         },
         {
           "name": "カヌレイウス",
@@ -6881,11 +7236,11 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "貴族と平民の通婚を認める法を可決！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -6911,7 +7266,7 @@ export const chapterEdition = {
         "こうした問題を受けて、前367年にリキニウス・セクスティウス法が制定された。リキニウスとセクスティウスは護民官だ。内容は「2名いるコンスルのうち1名を平民から選出すること」と「公有地の占有制限」の2点だよ。なんか平民の政治参加が拡大したみたいに見えるよね。だって、コンスルだけを見たら「貴族が1名、平民が1名」。ほら平等でしょ？　でもね……騎士としての従軍経験がないとコンスルにはなれない……。騎士になるのって、現代なら高級外車を買うようなもんだ。しかも、コンスルは無給！　ほら、貧乏人はコンスルにはなれないでしょ😨。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "身分闘争",
       "sourceText": {
         "chapter": 2,
@@ -6941,17 +7296,15 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "リキニウス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "コンスルの1名を平民から選ぶ法を制定！"
         },
         {
           "name": "セクスティウス",
@@ -6959,11 +7312,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "大土地所有を制限し平民の権利を拡充！",
+          "offset": [
+            -24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -6989,7 +7346,7 @@ export const chapterEdition = {
         "これでローマの民主共和政が完成だ。ただ「やった〜、平等だ😆」って手放しでは喜べない😨。公職に就いても給料は出ないから、実際に平民会に入れたのは富裕な平民だけだ。なんだよ〜、結局は金持ちが貧乏人を支配するのか😨。しかも元老院が相変わらず権威を持ち続け、富裕な平民と一部の有力な貴族は手を組んで政権を独占した。こうして形成された階級がノビレス【新貴族】だ。この部分が、本当に全市民を平等に政治参加させたアテネとの違いだよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "身分闘争",
       "sourceText": {
         "chapter": 2,
@@ -7019,19 +7376,18 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ホルテンシウス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "平民会の決議が元老院の承認なしに国法となる！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -7059,7 +7415,7 @@ export const chapterEdition = {
         "ただ、ギリシア人を征服したローマは、文化的に最先端のギリシア人都市を見て「ギリシア人の文化には勝てない😨……だったら全部もらっちゃえ」って思った。だからローマ文化の多くはギリシアのパクリ、試験では「模倣」って書いてね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "イタリア半島の統一",
       "sourceText": {
         "chapter": 2,
@@ -7125,7 +7481,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ",
+          "at": [
+            12.496,
+            41.903
+          ],
+          "image": "ancient/roman-consul.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -7150,7 +7516,7 @@ export const chapterEdition = {
         "ローマは征服したイタリア半島の各都市を分割統治によって支配した。これは「半島全部の都市が団結したら勝てないかもしれないから、団結しないようにすればいい！」ってつくった制度だよ。征服された各都市はそれぞれ「植民市・自治市・同盟市」と区別されて、権利と義務に差がつけられた。差をつけることで団結を防ごう、って作戦だ。さらにこれらの都市を軍事で結んで、戦争や反乱のときはすぐに軍隊を送れるようにしたよ。有名なアッピア街道はサムニウム戦争の際に建設が始まり、全長540キロにもなった。きちんと石畳で舗装された道路だから、現在でも使えるところもあるよ😨。ローマの建築技術はすごいね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "イタリア半島の統一",
       "sourceText": {
         "chapter": 2,
@@ -7189,7 +7555,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ",
+          "at": [
+            12.496,
+            41.903
+          ],
+          "image": "ancient/roman-consul.png",
+          "bubble": ""
+        }
+      ],
       "props": [
         {
           "name": "アッピア街道",
@@ -7197,9 +7573,9 @@ export const chapterEdition = {
             12.52,
             41.86
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/appian-way.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         }
       ],
       "routes": [],
@@ -7229,7 +7605,7 @@ export const chapterEdition = {
         "カルタゴは、もともとティルスが建設した植民市だったけど、母市のティルスがアッシリアに征服されたあとは自立して、北アフリカを拠点に西地中海の海上交易で圧倒的な地位を占めていた。一方、カルタゴのライバルだった南イタリアのギリシア人諸都市を征服したローマが海上進出を目指すことになると、いよいよカルタゴとの対立は避けられなくなった。最初の対決の舞台はシチリア島だ。シチリア島の内紛をきっかけに、いち早く出兵したカルタゴに対し、「カルタゴにシチリア島を取られるわけにはいかない😡」と思ったローマもあとを追うように出兵した。こうしてポエニ戦争［前264〜前146］が勃発したんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポエニ戦争とローマ社会の変化",
       "sourceText": {
         "chapter": 2,
@@ -7310,7 +7686,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ",
+          "at": [
+            12.496,
+            41.903
+          ],
+          "image": "ancient/roman-consul.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -7335,7 +7721,7 @@ export const chapterEdition = {
         "さて、カルタゴと戦うといっても、当時ローマは海軍を持っていなかった。イタリア半島征服は全部陸続きだから、陸軍しか必要なかったからね。でもカルタゴは当時の地中海では最強の海軍国。うーん……、悩んでいても仕方ない。「よし！　みんなでお金を出し合って軍艦をつくろう😡」と、海軍を新設して出兵した。これが第1回ポエニ戦争だ。実はローマ軍の新設した軍艦には、相手の船に乗り移れる跳ね橋がついていたんだよ！　これ、秘密兵器😨。そして苦戦はしたものの、ローマはカルタゴに勝利してシチリア島を獲得し、最初の属州としたよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポエニ戦争とローマ社会の変化",
       "sourceText": {
         "chapter": 2,
@@ -7382,7 +7768,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ",
+          "at": [
+            12.496,
+            41.903
+          ],
+          "image": "ancient/roman-consul.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -7407,7 +7803,7 @@ export const chapterEdition = {
         "第1回ポエニ戦争で敗れたカルタゴには、ローマへの復讐を固く心に誓った将軍がいた。これがハンニバルだ。彼の父ハミルカルは第1回ポエニ戦争ののち、イベリア半島にカルタゴ＝ノヴァを建設し、ローマに復讐を果たすために軍事力を強化していた。そして息子ハンニバルに神殿で誓いをたてさせた。「お前はここで一生をかけてローマへの復讐をすると誓え」ってね😨。そして父の死後、司令官となったハンニバルはイベリア半島を征服して大軍を集め、ローマに進撃を始めたんだ。これが、第2回ポエニ戦争、別名ハンニバル戦争の始まりだよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポエニ戦争とローマ社会の変化",
       "sourceText": {
         "chapter": 2,
@@ -7423,7 +7819,7 @@ export const chapterEdition = {
       "frame": [
         -9,
         31.85,
-        17.496000000000002,
+        21.15,
         46.903
       ],
       "pins": [
@@ -7441,17 +7837,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ハンニバル",
           "at": [
             10.32,
             36.85
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/hannibal-general.png",
+          "bubble": "アルプスを越えカンネーでローマ軍を包囲殲滅！",
+          "afterImage": "ancient/roman-victory.png"
         },
         {
           "name": "スキピオ",
@@ -7459,9 +7854,9 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/scipio-general.png",
+          "bubble": "ザマの戦いでハンニバルを破りポエニ戦争に勝利！",
+          "afterImage": "ancient/roman-victory.png"
         },
         {
           "name": "ハミルカル",
@@ -7469,11 +7864,25 @@ export const chapterEdition = {
             10.32,
             36.85
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/hannibal-general.png",
+          "bubble": "スペインを拠点にカルタゴの再興を誓う",
+          "offset": [
+            -24,
+            0
+          ]
+        },
+        {
+          "name": "ローマ",
+          "at": [
+            16.15,
+            41.3
+          ],
+          "image": "ancient/roman-legionary.png",
+          "afterImage": "ancient/greek-defeated.png",
+          "bubble": "ハンニバルの包囲戦術の前に大敗北を喫する…"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -7485,7 +7894,8 @@ export const chapterEdition = {
       "before": "第2回［前218〜前201］――ハンニバルvs.スキピオ、宿命の対決！",
       "after": "第2回［前218〜前201］――ハンニバルvs.スキピオ、宿命の対決！",
       "note": "",
-      "takeaway": ""
+      "takeaway": "",
+      "battle": "カンネー"
     },
     {
       "id": "c02-l06-p04-004",
@@ -7499,7 +7909,7 @@ export const chapterEdition = {
         "しかし、この危機的状況がかえってローマ市民の愛国心を奮い立たせた。市民はすすんで徴兵に応じ、貴族たちは奴隷までも軍隊へと提供したよ。そして、若年ながら実力と人気のある（大）スキピオがコンスルに抜擢された。彼は「やられたら、やり返すまでだ！」と、ハンニバルの戦術を徹底的に研究して騎兵隊をつくり、カルタゴの本国である北アフリカへと逆襲！　対するハンニバルは慌てて帰国したんだけど、時すでに遅し😨。（大）スキピオ率いるローマがザマの戦いで決定的な勝利を収めた。この圧勝、ローマがハンニバルに大敗したのと同じ包囲戦術を使ったんだよ。この時点でポエニ戦争は事実上ローマが勝利したといってもOKだ。ただカルタゴは、全海外領土を奪われ、多額の賠償金を課せられたんだもん。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポエニ戦争とローマ社会の変化",
       "sourceText": {
         "chapter": 2,
@@ -7559,17 +7969,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ハンニバル",
           "at": [
             10.32,
             36.85
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/hannibal-general.png",
+          "bubble": "アルプスを越えカンネーでローマ軍を包囲殲滅！",
+          "afterImage": "ancient/roman-victory.png"
         },
         {
           "name": "スキピオ",
@@ -7577,11 +7986,33 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/scipio-general.png",
+          "bubble": "ザマの戦いでハンニバルを破りポエニ戦争に勝利！",
+          "afterImage": "ancient/roman-victory.png"
+        },
+        {
+          "at": [
+            6.5,
+            46.5
+          ],
+          "name": "北アフリカ",
+          "route": 0,
+          "image": "ancient/scipio-general.png",
+          "afterImage": "ancient/roman-victory.png",
+          "bubble": "カルタゴ本土へ侵攻しザマでハンニバルを撃破！"
+        },
+        {
+          "name": "カルタゴ",
+          "at": [
+            9.3,
+            36
+          ],
+          "image": "ancient/hannibal-general.png",
+          "afterImage": "ancient/soldier-retreat.png",
+          "bubble": "ザマの地でついに敗れ去る…"
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -7632,7 +8063,8 @@ export const chapterEdition = {
       "before": "第2回［前218〜前201］――ハンニバルvs.スキピオ、宿命の対決！",
       "after": "第2回［前218〜前201］――ハンニバルvs.スキピオ、宿命の対決！",
       "note": "",
-      "takeaway": ""
+      "takeaway": "",
+      "battle": "ザマ"
     },
     {
       "id": "c02-l06-p04-005",
@@ -7646,7 +8078,7 @@ export const chapterEdition = {
         "第2回ポエニ戦争ののち、カルタゴは事実上ローマの支配下に置かれたけど、実際は地中海貿易で繁栄して、復興が進んでいた。これを見た当時の元老院議員のカトーは「カルタゴは危ない！　滅ぼすべきだ😡」と強硬論を説いていた。そして、同じことを考えていたのが（大）スキピオの孫の小スキピオ。こうして前149年、第3回ポエニ戦争が始まり、小スキピオが率いるローマ軍が市街地を徹底的に破壊、前146年カルタゴを滅亡させた。これでローマは西地中海における覇権を確立し、いよいよ東地中海への進出を本格化させると、同じ年にギリシア人の商業都市コリントスも滅ぼした。いよいよ、ローマが地中海統一に向かうよ！"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポエニ戦争とローマ社会の変化",
       "sourceText": {
         "chapter": 2,
@@ -7706,17 +8138,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "カトー",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "カルタゴは滅ぼされるべきである！"
         },
         {
           "name": "スキピオ",
@@ -7724,9 +8154,13 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/scipio-general.png",
+          "bubble": "ザマの戦いでハンニバルを破りポエニ戦争に勝利！",
+          "afterImage": "ancient/roman-victory.png",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "小スキピオ",
@@ -7734,11 +8168,16 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/scipio-general.png",
+          "bubble": "第3回ポエニ戦争でカルタゴを徹底破壊！",
+          "afterImage": "ancient/roman-victory.png",
+          "offset": [
+            24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -7764,7 +8203,7 @@ export const chapterEdition = {
         "こうしてむちゃくちゃ金持ちになった有力者は、新たな支配階級を形成していった。すでに前4世紀ごろから富裕な平民は、古くからの大貴族【パトリキ】と組んでノビレス【新貴族】という支配階級を形成し、元老院にも進出していた。実は元老院議員の定員って「300人→600人（スラの時代p.106）」に増えるんだよ。また、同じころに徴税請負などでボロ儲けした新興の富裕平民は騎士階級【エクイテス】と呼ばれ、土木事業などの国家事業を請け負ってさらに富を蓄え、商人や資本家となって活躍した。そもそもローマでは元老院議員は商業活動を禁止されていたから、騎士階級が商業でボロ儲けできたんだね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポエニ戦争とローマ社会の変化",
       "sourceText": {
         "chapter": 2,
@@ -7801,19 +8240,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "スラ",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "同盟市戦争を鎮圧し閥族派の独裁官となる！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -7837,7 +8275,7 @@ export const chapterEdition = {
         "あの手この手で富裕となった有力者は、戦争続きで没落していた中小農民の土地を次々と買収した。彼らはイタリア半島の土地をどんどん買い占めて大土地所有者となると、前2世紀ごろには「大土地所有を背景に、奴隷を使用して商品作物を栽培（果樹栽培）する大土地経営」を始めた。これがラティフンディア【ラティフンディウム】だ。ここでポイントになるのは奴隷！　当時は戦争捕虜を奴隷にしていたから、戦争に勝っているローマには大量の奴隷が流入して価格も安くなった。有力者たちは「奴隷を使って商品作物をつくれば、もっと儲かる😄」って思った。ラティフンディアはおもにイタリア半島に広がり、栽培された商品作物は、具体的にはオリーブやブドウが多いよ。ではなんでイタリア半島のラティフンディアで栽培したのは穀物じゃなくて商品作物なんだろう？　それは、小麦などの穀物は「属州から買いとってくればいい」からだよ。ローマは穀物生産地のシチリア島を属州にしていたからね。おっ、だからシチリア島には、穀物を栽培するラティフンディアも拡大したんだけどね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポエニ戦争とローマ社会の変化",
       "sourceText": {
         "chapter": 2,
@@ -7876,7 +8314,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ",
+          "at": [
+            12.496,
+            41.903
+          ],
+          "image": "ancient/roman-consul.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -7903,7 +8351,7 @@ export const chapterEdition = {
         "財産を失った無産市民は、仕方なく大都市のローマに流入して建築現場などの労働者になった。これですべてを失った……と思いきや、彼らはローマ市民権を持っているから民会での投票権がある！　これに気づいた有力者は考えた。だって無産市民を見捨てると人気がなくなって権力が握れない！　だったら反感を買うより、彼らを上手く支持者に取り込もうと、無産市民に「パンと見世物（サーカス）」を提供した。有力者は食糧の配給や剣闘士奴隷（剣奴）のイベントをやって無産市民からの人気を取ろうとしたんだけど、無産市民もこれを逆手にとって、「食糧よこせー！　つまんないから、なんかイベントやれー😡」って要求するようになった。有力者たちも最初は「自分たちは儲かってるからいいか」と思っていたんだけど、実はローマにはとんでもない大問題が起こっていた。それは「ローマ軍の弱体化」だ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポエニ戦争とローマ社会の変化",
       "sourceText": {
         "chapter": 2,
@@ -7940,7 +8388,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ",
+          "at": [
+            12.496,
+            41.903
+          ],
+          "image": "ancient/roman-consul.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -7967,7 +8425,7 @@ export const chapterEdition = {
         "グラックス兄弟の改革は、まず前133年に兄のティベリウスが護民官になったところから始まった。内容は、もともとローマにあったリキニウス・セクスティウス法を復活して公有地の占有（大土地所有）を制限して無産市民に土地を再分配して、自作農を創設しようとするものだ。彼は有力者たちに言いたかったんだよ。「平民たちが武器を買えるくらいに戻そう。そのために、少しくらい土地が減っても我慢してくれ」ってね。こう言うと、グラックス兄弟は貧乏人？って思うかもしれないけど、実はポエニ戦争で活躍した大スキピオの孫にあたるから、名門中の名門で、自分も大土地所有者だ。だから有力者全員にちょっとだけ我慢してほしかった。でも元老院を中心とする有力者は我慢できなかった。結局ティベリウスは元老院と対立して殺害されたんだ😨。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポエニ戦争とローマ社会の変化",
       "sourceText": {
         "chapter": 2,
@@ -8004,17 +8462,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "グラックス兄弟",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-plebeian.png",
+          "bubble": "没落農民を救い自作農を再建する土地改革を断行！"
         },
         {
           "name": "ティベリウス",
@@ -8022,9 +8478,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-plebeian.png",
+          "bubble": "農民の没落を防ぐため公有地保有制限法を提案！",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "リキニウス",
@@ -8032,9 +8491,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "コンスルの1名を平民から選ぶ法を制定！",
+          "offset": [
+            24,
+            0
+          ]
         },
         {
           "name": "セクスティウス",
@@ -8042,9 +8504,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "大土地所有を制限し平民の権利を拡充！",
+          "offset": [
+            -48,
+            0
+          ]
         },
         {
           "name": "スキピオ",
@@ -8052,11 +8517,16 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/scipio-general.png",
+          "bubble": "ザマの戦いでハンニバルを破りポエニ戦争に勝利！",
+          "afterImage": "ancient/roman-victory.png",
+          "offset": [
+            48,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -8080,7 +8550,7 @@ export const chapterEdition = {
         "これですべてが終わったかと思いきや、弟のガイウスが護民官となり、兄の遺志を継いだ。でも、改革を始めるとすぐに元老院と対立し、混乱のなかで自殺に追い込まれてしまう。じゃあ、なぜ元老院は反対するのか？　そんなもん、ラティフンディア経営を続けたいからに決まってる。要は「このままボロ儲けしたい」っていうワガママだよね。結局、グラックス兄弟の改革は失敗に終わった。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポエニ戦争とローマ社会の変化",
       "sourceText": {
         "chapter": 2,
@@ -8102,17 +8572,15 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "グラックス兄弟",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-plebeian.png",
+          "bubble": "没落農民を救い自作農を再建する土地改革を断行！"
         },
         {
           "name": "ガイウス",
@@ -8120,11 +8588,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-plebeian.png",
+          "bubble": "兄の意志を継ぎ改革を進めるも元老院派に倒れる…",
+          "offset": [
+            -24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -8150,7 +8622,7 @@ export const chapterEdition = {
         "マリウスはヌミディア王ユグルタとの戦い（ユグルタ戦争）の際に、あまりにも軍団が弱すぎたので兵制改革を実施し、無産市民を志願兵とする職業軍人制を導入した。簡単に言うと「無産市民があふれてるなら、彼らを集めて国費で訓練すればいい！」ってことだ。マリウスは志願兵を集めて訓練すると長期の戦争を戦い、戦後の退役兵には土地を分配した。こうなると、将軍と兵士の個人的な関係が強まって、兵士たちは、自分たちを「ローマ軍だ！」って思わずに「マリウス様の軍団だ！」って思うようになったってわけ。これが有力者による「軍の私兵化」だ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポエニ戦争とローマ社会の変化",
       "sourceText": {
         "chapter": 2,
@@ -8187,17 +8659,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "マリウス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "無産市民を募兵して軍制改革を行い平民派を率いる！"
         },
         {
           "name": "ユグルタ",
@@ -8205,11 +8675,11 @@ export const chapterEdition = {
             7,
             36
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/soldier-retreat.png",
+          "bubble": "ヌミディアでローマに抵抗するも敗れる"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -8235,7 +8705,7 @@ export const chapterEdition = {
         "こうしてローマの有力者は大きく二つの派閥に分かれて抗争した。まず、閥族派【オプティマテス】。こいつらは元老院中心の保守派で、要するに伝統的な大貴族たちだ。もう一方が平民派【ポプラレス】。こっちは新貴族や騎士階級出身の反元老院派で、平民の人気を取って権力を握ろうとした連中だね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ポエニ戦争とローマ社会の変化",
       "sourceText": {
         "chapter": 2,
@@ -8264,7 +8734,17 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ",
+          "at": [
+            12.496,
+            41.903
+          ],
+          "image": "ancient/roman-consul.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -8293,7 +8773,7 @@ export const chapterEdition = {
         "これに対抗したのがもともとマリウスの副官で、閥族派のスラだよ。スラは同盟市が市民権を要求して起こした反乱、いわゆる同盟市戦争を鎮圧した……まあ、実際のところは、元老院と妥協してイタリア半島の全自由民に市民権を拡大することで同盟市に譲歩したんだけどさ。そしてマリウスの死後、スラがマリウス派を暴力で粛清し、無期限のディクタトルとして権力を握ると……これがとんでもない恐怖政治になった。だって、政敵の処刑や虐殺を繰り返すんだよ。スラに反対すると殺されちゃうの😨……うーん、イヤな時代だ。そして、スラの登場は、武力が強くてお金と才能があれば独裁者になれるっていう見本になったんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "「内乱の1世紀」",
       "sourceText": {
         "chapter": 2,
@@ -8337,17 +8817,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "マリウス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "無産市民を募兵して軍制改革を行い平民派を率いる！"
         },
         {
           "name": "スラ",
@@ -8355,11 +8833,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "同盟市戦争を鎮圧し閥族派の独裁官となる！",
+          "offset": [
+            -24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -8385,7 +8867,7 @@ export const chapterEdition = {
         "しかし、そうはいかない。ポンペイウスは元老院に警戒されて孤立してしまった。これを見た平民派のカエサルは思った。「誰かひとりが権力を握ろうとすると、元老院との対立で孤立してしまう。だったら、元老院をおさえこむ方法を考えよう！」ってね。彼自身も、市民にめちゃくちゃ人気があったからね。そこでポンペイウスとクラッススに「3人で手を組んで、元老院の権限をおさえこもうじゃないか」って持ちかけて、第1回三頭政治を成立させたよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "「内乱の1世紀」",
       "sourceText": {
         "chapter": 2,
@@ -8464,17 +8946,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "スラ",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "同盟市戦争を鎮圧し閥族派の独裁官となる！"
         },
         {
           "name": "ポンペイウス",
@@ -8482,9 +8962,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "東方を平定しセレウコス朝シリアを滅ぼす！",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "クラッスス",
@@ -8492,9 +8975,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "莫大な財力でスパルタクスの乱を鎮圧！",
+          "offset": [
+            24,
+            0
+          ]
         },
         {
           "name": "スパルタクス",
@@ -8502,9 +8988,9 @@ export const chapterEdition = {
             14.2,
             41.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/spartacus-gladiator.png",
+          "bubble": "剣闘士の仲間とともに自由を求めて蜂起！",
+          "afterImage": "ancient/greek-defeated.png"
         },
         {
           "name": "ミトリダテス6世",
@@ -8512,9 +8998,8 @@ export const chapterEdition = {
             36,
             41
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/soldier-retreat.png",
+          "bubble": "小アジアで反ローマの兵を挙げる"
         },
         {
           "name": "カエサル",
@@ -8522,11 +9007,16 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "賽は投げられた！ルビコン川を渡りローマへ進軍！",
+          "afterImage": "ancient/roman-victory.png",
+          "offset": [
+            -48,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -8550,7 +9040,7 @@ export const chapterEdition = {
         "第1回三頭政治が始まると、3人はお互いが対立しないように勢力範囲を分けた。カエサルはガリア、ポンペイウスはスペイン、クラッススはシリアをそれぞれ勢力圏として、カエサルはガリア遠征（ガリアはほぼ現在のフランス）へ、クラッススはパルティア遠征へ出発したまではよかったけど……クラッススが戦死！（カルラエの戦い）。これが勢力のバランスを大きく崩したんだ。だって、残ったのが2人ということは、勝ったほうがローマで一番の権力者になれるでしょ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "「内乱の1世紀」",
       "sourceText": {
         "chapter": 2,
@@ -8611,17 +9101,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "クラッスス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "莫大な財力でスパルタクスの乱を鎮圧！"
         },
         {
           "name": "カエサル",
@@ -8629,9 +9117,13 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "賽は投げられた！ルビコン川を渡りローマへ進軍！",
+          "afterImage": "ancient/roman-victory.png",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "ポンペイウス",
@@ -8639,11 +9131,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "東方を平定しセレウコス朝シリアを滅ぼす！",
+          "offset": [
+            24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -8667,7 +9163,7 @@ export const chapterEdition = {
         "ここで、カエサルを恐れたのがポンペイウスだ。彼は元老院と組んでカエサルを追放しようとした。だって、カエサルの人気は圧倒的だからね。この対応にカエサルは怒り狂った😡。大急ぎで軍隊を率いてガリアからローマへ引き返すと、ルビコン川の手前で「賽は投げられた」と一言……カエサルは覚悟を決めた！　カエサルが法的に軍事権を認められたのはルビコン川までだから、軍を解散せずに川を渡ったらローマへの反逆になる。しかし、絶大な人気を背景に兵士をまとめたカエサルは、そのままイタリアに攻め込んだ。びっくりしたのはポンペイウス😨。慌てて逃げても時すでに遅し……カエサル軍がポンペイウスを破ってエジプトまで進み、ポンペイウスはローマの侵攻に焦ったエジプト人に殺された。このとき、カエサルとエジプト女王クレオパトラが接近したよ。クレオパトラはエジプトの滅亡を阻止するためにローマの有力者への接近を狙い、カエサルはエジプトの富を狙っている。利害が一致したんだね。カエサルはエジプトの富で軍団を再編成すると、アナトリアや北アフリカも制圧してローマに凱旋し、独裁権を握ったんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "「内乱の1世紀」",
       "sourceText": {
         "chapter": 2,
@@ -8728,17 +9224,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "クラッスス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "莫大な財力でスパルタクスの乱を鎮圧！"
         },
         {
           "name": "カエサル",
@@ -8746,9 +9240,13 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "賽は投げられた！ルビコン川を渡りローマへ進軍！",
+          "afterImage": "ancient/roman-victory.png",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "ポンペイウス",
@@ -8756,9 +9254,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "東方を平定しセレウコス朝シリアを滅ぼす！",
+          "offset": [
+            24,
+            0
+          ]
         },
         {
           "name": "クレオパトラ",
@@ -8766,11 +9267,22 @@ export const chapterEdition = {
             29.92,
             31.2
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/pharaoh-calm.png",
+          "bubble": "アントニウスと組みアクティウムで激突！"
+        },
+        {
+          "at": [
+            3,
+            47
+          ],
+          "name": "ガリア",
+          "route": 0,
+          "image": "ancient/caesar-march.png",
+          "afterImage": "ancient/caesar-general.png",
+          "bubble": "賽は投げられた！ルビコン川を渡りローマへ進撃！"
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -8820,7 +9332,7 @@ export const chapterEdition = {
         "カエサルが終身ディクタトルとなり、さらに「王」の称号を得ようとしているとの噂から、もう我慢できなくなったブルートゥスやカッシウスらは、元老院会議の席上でカエサルを暗殺したんだ。ブルートゥスはローマで一番誠実な政治家といわれていたから、カエサルも信頼していたのに、彼に裏切られたカエサルは一言。「ブルートゥス、お前もか。ならば、カエサルよ、死ね」。これはシェークスピアの書いた戯曲『ジュリアス＝シーザー』のなかの名セリフ！　カエサルが本当に言ったかはともかく、臨場感あふれる作品だよ😨。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "「内乱の1世紀」",
       "sourceText": {
         "chapter": 2,
@@ -8871,17 +9383,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "カエサル",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "賽は投げられた！ルビコン川を渡りローマへ進軍！",
+          "afterImage": "ancient/roman-victory.png"
         },
         {
           "name": "ブルートゥス",
@@ -8889,9 +9400,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "共和政を守るため独裁者カエサルを討つ！",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "カッシウス",
@@ -8899,9 +9413,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "元老院共和派としてカエサル暗殺に加担",
+          "offset": [
+            24,
+            0
+          ]
         },
         {
           "name": "シェークスピア",
@@ -8909,11 +9426,11 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "『ジュリアス・シーザー』などを劇作"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -8937,7 +9454,7 @@ export const chapterEdition = {
         "カエサルの死を民衆も兵士もむちゃくちゃ悲しんだ。それを利用して権力を握ろうとしたのがカエサル派の武将アントニウスだ。そしてカエサルの部下レピドゥスの仲介で、カエサルの養子で18歳のオクタウィアヌスと手を組み、第2回三頭政治が成立した。彼らはブルートゥスらを追放すると、カエサルを神格化して権力を握り、やがてレピドゥスが政界から追放されると、戦争上手なアントニウスと、すごく頭がいいオクタウィアヌスの対立となった。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "「内乱の1世紀」",
       "sourceText": {
         "chapter": 2,
@@ -8959,17 +9476,16 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "カエサル",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "賽は投げられた！ルビコン川を渡りローマへ進軍！",
+          "afterImage": "ancient/roman-victory.png"
         },
         {
           "name": "アントニウス",
@@ -8977,9 +9493,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "クレオパトラと結び東方に勢力を張る",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "レピドゥス",
@@ -8987,9 +9506,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "第2回三頭政治の一角として西地中海を統治",
+          "offset": [
+            24,
+            0
+          ]
         },
         {
           "name": "オクタウィアヌス",
@@ -8997,9 +9519,13 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/augustus-princeps.png",
+          "bubble": "アクティウムの海戦に勝利し地中海世界を統一！",
+          "afterImage": "ancient/roman-victory.png",
+          "offset": [
+            -48,
+            0
+          ]
         },
         {
           "name": "ブルートゥス",
@@ -9007,11 +9533,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "共和政を守るため独裁者カエサルを討つ！",
+          "offset": [
+            48,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -9037,7 +9567,7 @@ export const chapterEdition = {
         "このあと、オクタウィアヌスはアウグストゥス帝となって「元首政（前期帝政）」を確立していくよ。次回はいよいよローマ帝国だ！"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "「内乱の1世紀」",
       "sourceText": {
         "chapter": 2,
@@ -9103,17 +9633,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "オクタウィアヌス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/augustus-princeps.png",
+          "bubble": "アクティウムの海戦に勝利し地中海世界を統一！",
+          "afterImage": "ancient/roman-victory.png"
         },
         {
           "name": "アントニウス",
@@ -9121,9 +9650,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "クレオパトラと結び東方に勢力を張る",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "クレオパトラ",
@@ -9131,9 +9663,8 @@ export const chapterEdition = {
             29.92,
             31.2
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/pharaoh-calm.png",
+          "bubble": "アントニウスと組みアクティウムで激突！"
         },
         {
           "name": "アレクサンドロス",
@@ -9141,9 +9672,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/alexander-march.png",
+          "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
+          "afterImage": "ancient/alexander-happy.png"
         },
         {
           "name": "アウグストゥス",
@@ -9151,9 +9682,24 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/augustus-princeps.png",
+          "bubble": "元首（プリンケプス）として元首政を創始！",
+          "offset": [
+            24,
+            0
+          ]
+        }
+      ],
+      "props": [
+        {
+          "name": "アクティウム",
+          "at": [
+            20.77,
+            38.94
+          ],
+          "image": "ancient/greek-trireme.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         }
       ],
       "routes": [],
@@ -9167,7 +9713,8 @@ export const chapterEdition = {
       "before": "第2回三頭政治が始まったけど……",
       "after": "第2回三頭政治が始まったけど……",
       "note": "",
-      "takeaway": ""
+      "takeaway": "",
+      "battle": "アクティウム"
     }
   ],
   "c02-l07-p01": [
@@ -9183,7 +9730,7 @@ export const chapterEdition = {
         "歴史的には、オクタウィアヌスが元老院からアウグストゥス称号を得た前27年に、ローマは帝政になったとされる。ここからが元首政【プリンキパトゥス】だ。でもね、元首政を教科書や用語集で調べると、「実態として」とか「事実上」って言葉が次々と出てくる。この“事実上”って言葉がポイントだよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "元首政と「ローマの平和」",
       "sourceText": {
         "chapter": 2,
@@ -9220,17 +9767,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "オクタウィアヌス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/augustus-princeps.png",
+          "bubble": "アクティウムの海戦に勝利し地中海世界を統一！",
+          "afterImage": "ancient/roman-victory.png"
         },
         {
           "name": "カエサル",
@@ -9238,9 +9784,13 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "賽は投げられた！ルビコン川を渡りローマへ進軍！",
+          "afterImage": "ancient/roman-victory.png",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "アウグストゥス",
@@ -9248,11 +9798,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/augustus-princeps.png",
+          "bubble": "元首（プリンケプス）として元首政を創始！",
+          "offset": [
+            24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -9278,7 +9832,7 @@ export const chapterEdition = {
         "具体的に話すと、彼はディクタトルにはならず、元老院にも出席して意見を聞き、民会にもちゃんと選挙をやらせたよ。さらに、アウグストゥス（尊厳者）の称号を得たのちも、本人はプリンケプス（市民のなかの第一人者）と称した。だって自分をアウグストゥスって呼んだら、それこそ「オレを尊敬しろ！」って言ってる「The 独裁者」😨。でも、プリンケプスと自称すれば、「あなた方も私も市民、たまたま私が一番ですね」って意味になる。プリンケプスって、本来は「元老院の第一人者」って意味だから、ポエニ戦争で活躍した（大）スキピオなんかもプリンケプスと呼ばれていた。ほら「昔と何も変わってませんよ」ってわけ。独裁者に見せない演出。さすがは天才オクタウィアヌスだ😆。これが元首政【プリンキパトゥス】だよ。教科書で、「名目上、共和政の伝統を維持しながら、実権を掌握」って説明される理由がわかったかな。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "元首政と「ローマの平和」",
       "sourceText": {
         "chapter": 2,
@@ -9305,17 +9859,16 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "オクタウィアヌス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/augustus-princeps.png",
+          "bubble": "アクティウムの海戦に勝利し地中海世界を統一！",
+          "afterImage": "ancient/roman-victory.png"
         },
         {
           "name": "カエサル",
@@ -9323,9 +9876,13 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "賽は投げられた！ルビコン川を渡りローマへ進軍！",
+          "afterImage": "ancient/roman-victory.png",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "アウグストゥス",
@@ -9333,9 +9890,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/augustus-princeps.png",
+          "bubble": "元首（プリンケプス）として元首政を創始！",
+          "offset": [
+            24,
+            0
+          ]
         },
         {
           "name": "スキピオ",
@@ -9343,11 +9903,16 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/scipio-general.png",
+          "bubble": "ザマの戦いでハンニバルを破りポエニ戦争に勝利！",
+          "afterImage": "ancient/roman-victory.png",
+          "offset": [
+            -48,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -9373,7 +9938,7 @@ export const chapterEdition = {
         "ただ、晩年のアウグストゥス（オクタウィアヌス）には、予期せぬ災いが降りかかってきた。ライン川を越えた現在の北ドイツあたりで、ローマ軍がゲルマン人に大敗して壊滅し（トイトブルクの森の戦い［後9］）、ローマはライン川以北の領土を放棄した。あんなに強かったのに……とはいっても、彼の親友で軍事的な天才だったアグリッパはすでに亡くなっている……😢。この結果、ローマとゲルマン人の国境はライン川・ドナウ川の線となったよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "元首政と「ローマの平和」",
       "sourceText": {
         "chapter": 2,
@@ -9438,17 +10003,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "オクタウィアヌス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/augustus-princeps.png",
+          "bubble": "アクティウムの海戦に勝利し地中海世界を統一！",
+          "afterImage": "ancient/roman-victory.png"
         },
         {
           "name": "ティベリウス",
@@ -9456,9 +10020,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-plebeian.png",
+          "bubble": "農民の没落を防ぐため公有地保有制限法を提案！",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "イエス",
@@ -9466,9 +10033,8 @@ export const chapterEdition = {
             35.23,
             31.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/jesus-calm.png",
+          "bubble": "神の愛と隣人愛を説き、心の貧しき者を救う"
         },
         {
           "name": "アウグストゥス",
@@ -9476,9 +10042,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/augustus-princeps.png",
+          "bubble": "元首（プリンケプス）として元首政を創始！",
+          "offset": [
+            24,
+            0
+          ]
         },
         {
           "name": "アグリッパ",
@@ -9486,11 +10055,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/scipio-general.png",
+          "bubble": "海戦を勝利に導き万神殿（パンテオン）を建造",
+          "offset": [
+            -48,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -9615,7 +10188,7 @@ export const chapterEdition = {
         "弱冠17歳で皇帝に就任したネロは、ストア派哲学者のセネカの補佐を受けて最初はよい皇帝だった。ところが、よかったのは最初の5年だけ😨。セネカを自殺させたり、母親や奥さんまで殺したり、政治はほったらかしで、趣味の歌や演劇のめりこんだりと、だんだん本性を現して暴君になった。そして、64年のローマの大火の際に、放火犯としてキリスト教徒を迫害した。このとき、ペテロやパウロが処刑されたといわれている。そんなネロも、最後は失脚して自殺に追い込まれた。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "元首政と「ローマの平和」",
       "sourceText": {
         "chapter": 2,
@@ -9659,17 +10232,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ネロ",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "ローマ大火の責任をキリスト教徒に着せ迫害！"
         },
         {
           "name": "セネカ",
@@ -9677,9 +10248,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "ストア派哲学者・ネロ帝の師として『幸福論』を著す",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "ペテロ",
@@ -9687,9 +10261,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/christian-apostle.png",
+          "bubble": "使徒の筆頭としてローマで殉教（初代教皇）",
+          "offset": [
+            24,
+            0
+          ]
         },
         {
           "name": "パウロ",
@@ -9697,11 +10274,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/christian-apostle.png",
+          "bubble": "異邦人への伝道を行い世界宗教への道を開く！",
+          "offset": [
+            -48,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -9727,7 +10308,7 @@ export const chapterEdition = {
         "まず、皇帝の持つ軍事力によって交通路の安全が確保された。地中海は「ローマの内海（地中海の周り全部がローマの領土）」となって、海賊が一掃され、陸上では、帝国全土に道路網が整備されるとともに山賊も討伐された。「すべての道はローマに通じる（All roads lead to Rome.）」っていわれるくらい道路がつくられて、しかも安全に行き来できる。こうして帝国全体で商業・交易が発達し始めた。だって、海賊や山賊が出るようなところで商売したくないでしょ😨。そして地方にも「交易で儲けたい😆」って人がいたから、属州では農業生産や手工業が発達、つくられたものがローマへと運ばれて消費された。こうして地方にも富裕な市民が現れ、各地で都市が建設されたよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "元首政と「ローマの平和」",
       "sourceText": {
         "chapter": 2,
@@ -9771,7 +10352,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ帝国",
+          "at": [
+            12.5,
+            41.9
+          ],
+          "image": "ancient/augustus-princeps.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -9796,7 +10387,7 @@ export const chapterEdition = {
         "多くの場合、属州の都市って最初は軍団駐屯地だったんだけど、それがだんだんとローマ風の都市に発展していくよ。だって、ローマは憧れの都市だもん、別格だ！　人口も余裕で100万人を超えて、大規模な建築事業によって、日々発展を続けている。だから、各地の富裕になった人びとは、みんなでお金を出し合って、憧れの都ローマみたいな都市をつくろうとしたんだね。この時期に建設された都市には、ロンディニウム（現：ロンドン）・ウィンドボナ（現：ウィーン）・ルテティア（現：パリ）・ルグドゥヌム（現：リヨン）・メディオラヌム（現：ミラノ）などがあるよ。こうして、帝国全土にギリシア・ローマ文化の融合した都市的な文化が広がったんだ。そして帝国政府の政策もあって、ラテン語が全国に普及したよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "元首政と「ローマの平和」",
       "sourceText": {
         "chapter": 2,
@@ -9845,7 +10436,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ帝国",
+          "at": [
+            12.5,
+            41.9
+          ],
+          "image": "ancient/augustus-princeps.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -9872,7 +10473,7 @@ export const chapterEdition = {
         "こうして、帝国全土で経済活動が活発になり、整備された交通網によって、各地を結ぶ盛んな交易がおこなわれるようになった。ちょっと難しい言い方をすると、「帝国全土が一つの広域経済圏」になった。そして、属州各地に建設された都市がこの繁栄を支えたから、帝国内での属州の地位が向上していくんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "元首政と「ローマの平和」",
       "sourceText": {
         "chapter": 2,
@@ -9986,19 +10587,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "マルクス＝アウレリウス＝アントニヌス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ストア派哲学者として『自省録』を記す（哲人皇帝）"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -10026,7 +10626,7 @@ export const chapterEdition = {
         "こうしてローマ帝国は、北はブリタニア、南はサハラ砂漠の北端、西は大西洋岸、東はメソポタミアに至る大領土を支配した。それだけじゃなくて、トラヤヌスはローマ市の整備や貧民の救済もやったから「最善の元首」って称賛されたんだよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "元首政と「ローマの平和」",
       "sourceText": {
         "chapter": 2,
@@ -10152,17 +10752,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ネロ",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "ローマ大火の責任をキリスト教徒に着せ迫害！"
         },
         {
           "name": "ネルウァ",
@@ -10170,9 +10768,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "五賢帝の初代として善政を開始する",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "トラヤヌス",
@@ -10180,11 +10781,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ダキアやメソポタミアを獲得しローマ領土最大！",
+          "offset": [
+            24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -10264,7 +10869,7 @@ export const chapterEdition = {
         "そして、ハドリアヌスが養子に選んだのは、温厚で誠実なアントニヌス＝ピウス帝だ。「ピウス」ってのは、「敬虔な人」とか「孝行者」って意味の称号ね。しかも、彼の時代は書くことがないくらい平和😆。だから内政を重視して、貧民の救済や属州の負担軽減などの社会政策をやったんだよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "元首政と「ローマの平和」",
       "sourceText": {
         "chapter": 2,
@@ -10308,17 +10913,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "トラヤヌス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ダキアやメソポタミアを獲得しローマ領土最大！"
         },
         {
           "name": "ハドリアヌス",
@@ -10326,19 +10929,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "ハドリアヌスの長城",
-          "at": [
-            -2.4,
-            55
-          ],
-          "image": "ancient/temple.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "防衛線を固めブリタニアに長城を築く！",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "アントニヌス＝ピウス",
@@ -10346,9 +10942,24 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/roman-emperor.png",
+          "bubble": "内政を整え平和な統治を継続する",
+          "offset": [
+            24,
+            0
+          ]
+        }
+      ],
+      "props": [
+        {
+          "name": "ハドリアヌスの長城",
+          "at": [
+            -2.4,
+            55
+          ],
+          "image": "ancient/hadrian-wall.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         }
       ],
       "routes": [],
@@ -10376,7 +10987,7 @@ export const chapterEdition = {
         "五賢帝のこれまでの4人は帝位を継ぐ息子がいなかったから養子相続になったけど、マルクス＝アウレリウス＝アントニヌスは自分の息子に帝位を継がせた。ただ、皇帝の器じゃなかったんだ。ここからローマは混迷の時代に入るよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "元首政と「ローマの平和」",
       "sourceText": {
         "chapter": 2,
@@ -10427,17 +11038,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アントニヌス＝ピウス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "内政を整え平和な統治を継続する"
         },
         {
           "name": "マルクス＝アウレリウス＝アントニヌス",
@@ -10445,11 +11054,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ストア派哲学者として『自省録』を記す（哲人皇帝）",
+          "offset": [
+            -24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -10479,7 +11092,7 @@ export const chapterEdition = {
         "でも、これだけ広い領土と長い国境線……金が掛かりすぎる😨。これは、どっかの軍団を削るしかない。「仕方ないから、ローマの皇帝軍を縮小しよう」ってことになった。だって、首都ローマの周りは全部帝国領だから、いきなり外敵には攻め込まれないでしょ。こうして皇帝の持つイタリアの軍団よりも辺境の軍団のほうが強くなっちゃったんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "「3世紀の危機」",
       "sourceText": {
         "chapter": 2,
@@ -10521,17 +11134,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "トラヤヌス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ダキアやメソポタミアを獲得しローマ領土最大！"
         },
         {
           "name": "マルクス＝アウレリウス＝アントニヌス",
@@ -10539,11 +11150,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ストア派哲学者として『自省録』を記す（哲人皇帝）",
+          "offset": [
+            -24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -10571,7 +11186,7 @@ export const chapterEdition = {
         "さて、ここで一つの問題が起こっている。それは「イタリア半島の経済的没落」だ。ラティフンディアはイタリア半島を中心に広がっていたから、ラティフンディアの崩壊は、そのままイタリア半島の農業の崩壊ってことになる。こうして、農業生産でもイタリアは辺境に逆転されたんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "「3世紀の危機」",
       "sourceText": {
         "chapter": 2,
@@ -10625,19 +11240,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "トラヤヌス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ダキアやメソポタミアを獲得しローマ領土最大！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -10663,7 +11277,7 @@ export const chapterEdition = {
         "セウェルス帝の跡を継いだ長男のカラカラ帝は、212年にアントニヌス勅令を出して、帝国内の全自由民に市民権を与えた。これでイタリア半島と属州の区別がなくなり、ローマは本当の意味での「世界帝国」として、今までローマ市民権を持つ人にしか適用されなかった法（市民法）は、すべての民族に適用される万民法になった。かといって、市民の地位は上がらない……。カラカラ帝は、属州に「市民権やるから税金上げても文句言うな」って言ったの😨。ちなみに勅令の名前にある「アントニヌス」は彼の本名ね。「カラカラ」は彼がよく着ていた上着からついたあだ名だ😨。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "「3世紀の危機」",
       "sourceText": {
         "chapter": 2,
@@ -10714,17 +11328,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "セプティミウス＝セウェルス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "軍人皇帝時代の先駆けとして軍隊を優遇"
         },
         {
           "name": "セウェルス帝",
@@ -10732,9 +11344,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "軍隊の支持を基盤に帝国を統制",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "カラカラ",
@@ -10742,11 +11357,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "アントニヌス勅令を発布し全自由民に市民権を付与！",
+          "offset": [
+            24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -10770,7 +11389,7 @@ export const chapterEdition = {
         "あと、カラカラ帝は市民の人気を集めるために、空前の規模の大浴場（カラカラ浴場）を建設したよ。大浴場ってのは、今で言うと「温泉＋スポーツジム＋ネットカフェ＋図書館」みたいな総合娯楽センターだ。今でもローマに残っている遺跡から、大げさな人気取り政策だとわかるよ。でも、そんなんじゃローマ史上随一の暴君といわれる彼の悪評は消えない😨。残忍な性格だったカラカラは、親衛隊の兵士によって殺されたんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "「3世紀の危機」",
       "sourceText": {
         "chapter": 2,
@@ -10802,27 +11421,27 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "カラカラ",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
+          "image": "ancient/emperor-severe.png",
+          "bubble": "アントニヌス勅令を発布し全自由民に市民権を付与！"
+        }
+      ],
+      "props": [
         {
           "name": "カラカラ浴場",
           "at": [
             12.493,
             41.879
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/colosseum.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         }
       ],
       "routes": [],
@@ -10850,7 +11469,7 @@ export const chapterEdition = {
         "軍人皇帝時代はマクシミヌス帝の即位［235］から始まり、彼が暗殺された238年には、5カ月で6人も皇帝が乱立した。正統な皇帝だけじゃなく、勝手に“皇帝”を名乗ったヤツも何人もいて、現れては消える、ひどい時代だ😨。こんなに皇帝いるけど、覚えておくべき皇帝は、ササン朝のシャープール1世と戦って捕虜になったウァレリアヌス帝［位253〜260］だけ。一人でOKだよ😆。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "「3世紀の危機」",
       "sourceText": {
         "chapter": 2,
@@ -10892,17 +11511,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "セウェルス帝",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "軍隊の支持を基盤に帝国を統制"
         },
         {
           "name": "カラカラ",
@@ -10910,9 +11527,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "アントニヌス勅令を発布し全自由民に市民権を付与！",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "マクシミヌス",
@@ -10920,9 +11540,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "軍人皇帝として辺境防衛に奔走",
+          "offset": [
+            24,
+            0
+          ]
         },
         {
           "name": "シャープール1世",
@@ -10930,9 +11553,8 @@ export const chapterEdition = {
             51.57,
             29.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": ""
         },
         {
           "name": "ウァレリアヌス",
@@ -10940,11 +11562,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/valerian-captive.png",
+          "bubble": "エデッサの戦いでササン朝の捕虜となってしまった…",
+          "offset": [
+            -48,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -10972,7 +11598,7 @@ export const chapterEdition = {
         "さて、「3世紀の危機」はわかったかな？　ここはローマ帝国内で起こっていた社会の変化だから、なかなかイメージしにくいところだね。少し難しいかもしれないけど、元首政が崩壊して専制君主政へと変わっていく背景だから、しっかりと流れをつかもう。それじゃあ、専制君主政に進むよ！"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "「3世紀の危機」",
       "sourceText": {
         "chapter": 2,
@@ -11028,7 +11654,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ",
+          "at": [
+            12.496,
+            41.903
+          ],
+          "image": "ancient/augustus-princeps.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -11057,7 +11693,7 @@ export const chapterEdition = {
         "さらにディオクレティアヌス帝はローマの伝統的な宗教（多神教）を再興して、自分をユピテル神（ゼウスのことね）の子として、ペルシア風に皇帝の前で跪く儀式（跪拝礼）を強制した。これが皇帝崇拝の強制だよ。もはや元老院なんて相手にしない。共和政の伝統なんて完全無視！　国民だって例外じゃない。もはや「ローマ市民」じゃなくて、「皇帝の臣民」だ。こうして、名実ともに皇帝の独裁体制ができあがった。この体制が専制君主政【ドミナトゥス】だよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "専制君主政とローマの東西分裂",
       "sourceText": {
         "chapter": 2,
@@ -11094,19 +11730,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ディオクレティアヌス",
           "at": [
             29.92,
             40.77
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "四分統治（テトラルキア）を敷き専制君主政を開始！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -11134,7 +11769,7 @@ export const chapterEdition = {
         "一説には、この時期のローマ帝国の全人口約6000万人のうち500万人前後はキリスト教徒だったといわれている。こりゃ、迫害はあきらめるしかないよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "専制君主政とローマの東西分裂",
       "sourceText": {
         "chapter": 2,
@@ -11176,19 +11811,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ディオクレティアヌス",
           "at": [
             29.92,
             40.77
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "四分統治（テトラルキア）を敷き専制君主政を開始！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -11214,7 +11848,7 @@ export const chapterEdition = {
         "そして、コンスタンティヌス帝は公認後のキリスト教徒を保護したから、急速にキリスト教徒が増えた。さらに迫害中に没収した財産も教会に返還した。これも、キリスト教迫害を再開した東のリキニウス帝より自分のほうがいい皇帝だ！って見せるためだよ。一方、キリスト教の側も皇帝に接近し、教会史家のエウセビオスは皇帝を神の代理人とする神権帝理念を打ち出しているよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "専制君主政とローマの東西分裂",
       "sourceText": {
         "chapter": 2,
@@ -11243,17 +11877,15 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "コンスタンティヌス",
           "at": [
             28.978,
             41.009
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ミラノ勅令でキリスト教を公認しコンスタンティノープルへ遷都！"
         },
         {
           "name": "ディオクレティアヌス",
@@ -11261,9 +11893,8 @@ export const chapterEdition = {
             29.92,
             40.77
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "四分統治（テトラルキア）を敷き専制君主政を開始！"
         },
         {
           "name": "リキニウス",
@@ -11271,9 +11902,8 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "コンスルの1名を平民から選ぶ法を制定！"
         },
         {
           "name": "エウセビオス",
@@ -11281,11 +11911,11 @@ export const chapterEdition = {
             34.89,
             32.5
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "キリスト教史観に基づく『教会史』を著す"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -11311,7 +11941,7 @@ export const chapterEdition = {
         "コンスタンティヌス帝は、帝国の首都をギリシア人の植民市だったビザンティウムに遷した。すでに帝国の中心が東方へと移り、しかも伝統的な多神教の影響が残るローマは、もはや名ばかりの首都にすぎなかったからね。彼はキリスト教色の強い新たな都をつくった。新都は「コンスタンティヌスのポリス（コンスタンティノポリス）」、一般的にはコンスタンティノープル、現在のイスタンブルだね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "専制君主政とローマの東西分裂",
       "sourceText": {
         "chapter": 2,
@@ -11353,17 +11983,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "コンスタンティヌス",
           "at": [
             28.978,
             41.009
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ミラノ勅令でキリスト教を公認しコンスタンティノープルへ遷都！"
         },
         {
           "name": "リキニウス",
@@ -11371,11 +11999,11 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "コンスルの1名を平民から選ぶ法を制定！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -11401,7 +12029,7 @@ export const chapterEdition = {
         "それから、コンスタンティヌスは非常に純度の高いソリドゥス金貨を発行して、安定した通貨制度をつくった。この金貨が以後の基軸通貨となって国際的に流通し、ビザンツ帝国でもノミスマの名で鋳造され続けたんだ。ドルの記号「＄」が「0」じゃなくて「S」を使っているのは、ソリドゥス金貨みたいに信用の高い通貨になるように、っていう願いからだよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "専制君主政とローマの東西分裂",
       "sourceText": {
         "chapter": 2,
@@ -11436,19 +12064,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "コンスタンティヌス",
           "at": [
             28.978,
             41.009
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ミラノ勅令でキリスト教を公認しコンスタンティノープルへ遷都！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -11472,7 +12099,7 @@ export const chapterEdition = {
         "キリスト教が公認されたあとも、すべての皇帝がキリスト教徒だったわけでもない。361年に登場したユリアヌス帝は、イラン経由で伝わった古代アーリヤ人の太陽神ミトラを信仰した。超まじめだったユリアヌスは、「正統だ、異端だ」とキリスト教徒同士が敵対し合い、権力と結びついた教会に嫌気が差していた😨。堕落した信仰を嫌ったユリアヌスが、一番純粋な信仰を持っていたんだね。そして、弾圧したわけでもないのに、教会は彼を裏切り者の「背教者」と呼んだ。そんな彼も、即位からわずか2年でササン朝への遠征中に戦死してしまったんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "専制君主政とローマの東西分裂",
       "sourceText": {
         "chapter": 2,
@@ -11509,19 +12136,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ユリアヌス",
           "at": [
             28.978,
             41.009
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "古来の多神教を復興しようと試みる（背教者）"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -11547,7 +12173,7 @@ export const chapterEdition = {
         "この危機の時代に皇帝となった軍人出身のテオドシウス帝は、帝国の統合をキリスト教に頼った。すでに、キリスト教徒は帝国内の全人口の半数にも達している。だったら、全国民をキリスト教徒にして、皇帝がキリスト教の支配者となり、帝国を再建しようとしたんだね。こうして、392年、すべての異端・異教への信仰が禁止され、キリスト教が国教化されたよ。これ以後、ローマ帝国内の人民は全員、正統派のキリスト教徒でなければ処罰されることになった。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "専制君主政とローマの東西分裂",
       "sourceText": {
         "chapter": 2,
@@ -11605,19 +12231,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "テオドシウス",
           "at": [
             28.978,
             41.009
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "キリスト教を国教化し、死後に帝国を東西に分割"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -11697,7 +12322,7 @@ export const chapterEdition = {
         "長子のアルカディウスが継いだ東ローマ帝国【ビザンツ帝国】は、東方が政治・経済・軍事の中心だったから再び勢力を盛り返し、ここから1000年以上も続くよ。これに対し、次子のホノリウスの継いだ西ローマ帝国は、次々と侵入してくるゲルマン人に悩まされ、分裂後100年も経たない476年、ゲルマン人傭兵隊長オドアケルに滅ぼされた。西ローマ帝国最後の皇帝の名前は「ロムルス（ロムルス＝アウグストゥルス）」。都市国家ローマの伝説上の建国者から取った名前だ！　歴史って皮肉だね😨。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "専制君主政とローマの東西分裂",
       "sourceText": {
         "chapter": 2,
@@ -11762,17 +12387,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "テオドシウス",
           "at": [
             28.978,
             41.009
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "キリスト教を国教化し、死後に帝国を東西に分割"
         },
         {
           "name": "アルカディウス",
@@ -11780,9 +12403,12 @@ export const chapterEdition = {
             28.978,
             41.009
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "東ローマ帝国の初代皇帝となる",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "ホノリウス",
@@ -11790,9 +12416,8 @@ export const chapterEdition = {
             12.2,
             44.42
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ラヴェンナへ逃れ西ローマ帝国を統治"
         },
         {
           "name": "オドアケル",
@@ -11800,9 +12425,12 @@ export const chapterEdition = {
             12.2,
             44.42
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/germanic-warrior.png",
+          "bubble": "西ローマ皇帝ロムルスを廃位し西ローマ帝国滅亡！",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "ロムルス",
@@ -11810,11 +12438,15 @@ export const chapterEdition = {
             12.2,
             44.42
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-defeated.png",
+          "bubble": "西ローマ最後の皇帝として廃位される…",
+          "offset": [
+            24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -11842,7 +12474,7 @@ export const chapterEdition = {
         "ローマが地中海統一を目指していたころ、ユダヤ人はパレスチナにユダヤ王国を復活していたんだけど（ハスモン朝）、ポンペイウスに征服され、その後ローマの属州とされた。ローマの支配下のユダヤ人はさまざまなグループに分かれ、「再び、神がわれわれに試練を与えている」と思い、ローマに抵抗しながら徹底的に戒律を守ろうとするパリサイ派や、ローマと友好的な関係を保って権力を維持したい上層司祭のサドカイ派などが対立していた。こうしたなか、ナザレにイエスが現れたんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "キリスト教の成立と発展",
       "sourceText": {
         "chapter": 2,
@@ -11894,17 +12526,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ポンペイウス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "東方を平定しセレウコス朝シリアを滅ぼす！"
         },
         {
           "name": "イエス",
@@ -11912,11 +12542,11 @@ export const chapterEdition = {
             35.23,
             31.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/jesus-calm.png",
+          "bubble": "神の愛と隣人愛を説き、心の貧しき者を救う"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -11942,7 +12572,7 @@ export const chapterEdition = {
         "ただ、この思想は、パリサイ派やサドカイ派にとっては自分たちの存在を否定するものだったから、司祭たちはイエスを捕らえ、ローマへの反逆者としてローマのユダヤ総督ピラト【ピラトゥス】に告発、イエスは十字架にかけられ処刑された。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "キリスト教の成立と発展",
       "sourceText": {
         "chapter": 2,
@@ -11971,17 +12601,15 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "イエス",
           "at": [
             35.23,
             31.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/jesus-calm.png",
+          "bubble": "神の愛と隣人愛を説き、心の貧しき者を救う"
         },
         {
           "name": "ピラト",
@@ -11989,9 +12617,12 @@ export const chapterEdition = {
             35.23,
             31.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "ユダヤの総督としてイエスの処刑を宣告",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "ピラトゥス",
@@ -11999,11 +12630,15 @@ export const chapterEdition = {
             35.23,
             31.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-consul.png",
+          "bubble": "ユダヤの総督としてイエスの処刑を宣告",
+          "offset": [
+            24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -12029,7 +12664,7 @@ export const chapterEdition = {
         "「そんなわけない😏」って思った？　それとも「もちろん、イエス様は復活する😆」って思った？　「どっちでもいいよ」かな😅。キリスト教の信仰って最初は「イエス様が復活したから、神はいる」ってとこから始まるんだ。でも、イエスが宣言した神の国はまだこない。自分たちがイエスの教えを守り、広げなければいけないと思った弟子たち（使徒）は伝道を始めたよ。12人の直弟子がいるから12使徒だね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "キリスト教の成立と発展",
       "sourceText": {
         "chapter": 2,
@@ -12056,19 +12691,18 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "イエス",
           "at": [
             35.23,
             31.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/jesus-calm.png",
+          "bubble": "神の愛と隣人愛を説き、心の貧しき者を救う"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -12094,7 +12728,7 @@ export const chapterEdition = {
         "それから、特にパウロの思想はのちのキリスト教の教義にも、大きな影響を与えたよ。例えば、「信仰によってのみ救われる」という言葉や、イエスの十字架刑によってすべての人間の罪が赦されたという思想は、パウロが説いたものだよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "キリスト教の成立と発展",
       "sourceText": {
         "chapter": 2,
@@ -12143,17 +12777,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "イエス",
           "at": [
             35.23,
             31.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/jesus-calm.png",
+          "bubble": "神の愛と隣人愛を説き、心の貧しき者を救う"
         },
         {
           "name": "ペテロ",
@@ -12161,9 +12793,8 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/christian-apostle.png",
+          "bubble": "使徒の筆頭としてローマで殉教（初代教皇）"
         },
         {
           "name": "パウロ",
@@ -12171,9 +12802,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/christian-apostle.png",
+          "bubble": "異邦人への伝道を行い世界宗教への道を開く！",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "ネロ",
@@ -12181,11 +12815,25 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "ローマ大火の責任をキリスト教徒に着せ迫害！",
+          "offset": [
+            24,
+            0
+          ]
+        },
+        {
+          "at": [
+            35.2,
+            31.8
+          ],
+          "name": "パレスチナ",
+          "route": 0,
+          "image": "ancient/christian-apostle.png",
+          "bubble": "異邦人への伝道旅行を行い世界宗教へ発展！"
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "move",
@@ -12235,7 +12883,7 @@ export const chapterEdition = {
         "その後、ユダヤ人が反乱を起こしてイェルサレムから追放され、各地に離散すると（ディアスポラ）、反乱に加わらなかったキリスト教徒がユダヤ人とは区別されるようになった。でも、キリスト教徒は危険！という認識は大して変わらなかったから、ディオクレティアヌス帝の大迫害まで、キリスト教徒は迫害されるんだ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "キリスト教の成立と発展",
       "sourceText": {
         "chapter": 2,
@@ -12280,17 +12928,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ネロ",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "ローマ大火の責任をキリスト教徒に着せ迫害！"
         },
         {
           "name": "ディオクレティアヌス",
@@ -12298,11 +12944,11 @@ export const chapterEdition = {
             29.92,
             40.77
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "四分統治（テトラルキア）を敷き専制君主政を開始！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -12326,7 +12972,7 @@ export const chapterEdition = {
         "こうした迫害のなかでもキリスト教徒は隠れて信仰を続けていたよ。カタコンベっていう地下墓所をつくり、そこを避難所や礼拝所として使いながら少しずつ仲間を増やした。実はローマの大規模なカタコンベ35カ所の回廊の長さを全部あわせると、なんと延べ500km以上！　もはや隠れてない😆。しかも、彼らは神の前での平等を唱えたから、下層民や女性、奴隷など、社会で差別された人びとに救いを与え、ギリシア人やユダヤ人を中心に信者が増加して、徐々に教会の組織もつくられていった。こうして、少しずつ帝国内での影響力が強まっていったんだね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "キリスト教の成立と発展",
       "sourceText": {
         "chapter": 2,
@@ -12358,7 +13004,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ",
+          "at": [
+            12.496,
+            41.903
+          ],
+          "image": "ancient/roman-consul.png",
+          "bubble": ""
+        }
+      ],
       "props": [
         {
           "name": "カタコンベ",
@@ -12366,9 +13022,19 @@ export const chapterEdition = {
             12.51,
             41.86
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/catacomb.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
+        },
+        {
+          "name": "ローマ",
+          "at": [
+            12.51,
+            41.86
+          ],
+          "image": "ancient/catacomb.png",
+          "kind": "prop",
+          "size": 84
         }
       ],
       "routes": [],
@@ -12394,7 +13060,7 @@ export const chapterEdition = {
         "コンスタンティヌス帝によってキリスト教が公認されたのち、ニケーア公会議が開かれアタナシウス派が正統、アリウス派が異端とされたよね。簡単に説明すると「イエスは神」とするアタナシウス派と、「イエスは人」とするアリウス派、という違いだ。アタナシウス派は、のちに「父なる神・子なるイエス・聖霊」を一つのものと信じる三位一体説として確立され、現在までカトリック教会やギリシア正教会では正統だよ。ということは、ここから先に新たな正統思想は出てこないから、覚えるのは異端だけね。アリウス派は、帝国の西方・北方のゲルマン人に広まったよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "キリスト教の成立と発展",
       "sourceText": {
         "chapter": 2,
@@ -12433,17 +13099,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "コンスタンティヌス",
           "at": [
             28.978,
             41.009
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ミラノ勅令でキリスト教を公認しコンスタンティノープルへ遷都！"
         },
         {
           "name": "イエス",
@@ -12451,11 +13115,11 @@ export const chapterEdition = {
             35.23,
             31.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/jesus-calm.png",
+          "bubble": "神の愛と隣人愛を説き、心の貧しき者を救う"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -12481,7 +13145,7 @@ export const chapterEdition = {
         "じゃあ、なんで異端となったあとも彼らが活動できるんだろう？　それは、異端とは「ローマ帝国（もちろん東西分裂したあともね）のなかでは異端」ということだから、ローマ帝国の外に出てしまえば異端もへったくれもない😅。だから、帝国外の各地域に拡大したんだよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "キリスト教の成立と発展",
       "sourceText": {
         "chapter": 2,
@@ -12569,17 +13233,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "テオドシウス",
           "at": [
             28.978,
             41.009
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "キリスト教を国教化し、死後に帝国を東西に分割"
         },
         {
           "name": "テオドシウス2世",
@@ -12587,9 +13249,12 @@ export const chapterEdition = {
             28.978,
             41.009
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "コンスタンティノープルに三重の大城壁を構築",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "イエス",
@@ -12597,9 +13262,8 @@ export const chapterEdition = {
             35.23,
             31.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/jesus-calm.png",
+          "bubble": "神の愛と隣人愛を説き、心の貧しき者を救う"
         },
         {
           "name": "マルキアヌス",
@@ -12607,11 +13271,15 @@ export const chapterEdition = {
             28.978,
             41.009
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "カルケドン公会議を招集",
+          "offset": [
+            24,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -12637,7 +13305,7 @@ export const chapterEdition = {
         "そして、教父（教会の学者）によって、徐々に教義が確立したよ。もともとギリシア語（コイネー）で書かれた『新約聖書』やヘブライ語で書かれた『旧約聖書』は、ヒエロニムスによってラテン語訳が完成された。ラテン語はローマの言葉だね。こうしてラテン語が教会における共通語となるよ。さらに、さっき話したコンスタンティヌスの側近エウセビオスは、『教会史』でイエス死後の使徒の時代から彼にとっての現代（コンスタンティヌス帝時代まで）の教会の歴史をつづり、『年代記』で『旧約聖書』に描かれた天地創造から4世紀初めまでの年表をつくった。てか、神の時代の年代を決めるってのは、ちょっと無理があるよね……😅。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "キリスト教の成立と発展",
       "sourceText": {
         "chapter": 2,
@@ -12674,17 +13342,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "イエス",
           "at": [
             35.23,
             31.78
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/jesus-calm.png",
+          "bubble": "神の愛と隣人愛を説き、心の貧しき者を救う"
         },
         {
           "name": "ヒエロニムス",
@@ -12692,9 +13358,8 @@ export const chapterEdition = {
             35.2,
             31.7
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/christian-apostle.png",
+          "bubble": "聖書をラテン語に翻訳（ヴルガータ訳）"
         },
         {
           "name": "コンスタンティヌス",
@@ -12702,9 +13367,8 @@ export const chapterEdition = {
             28.978,
             41.009
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ミラノ勅令でキリスト教を公認しコンスタンティノープルへ遷都！"
         },
         {
           "name": "エウセビオス",
@@ -12712,11 +13376,11 @@ export const chapterEdition = {
             34.89,
             32.5
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "キリスト教史観に基づく『教会史』を著す"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -12744,7 +13408,7 @@ export const chapterEdition = {
         "これでローマの政治史はおしまい！　年号checkに続いて、文化史も確認しよう😆。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "キリスト教の成立と発展",
       "sourceText": {
         "chapter": 2,
@@ -12793,17 +13457,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アウグスティヌス",
           "at": [
             7.76,
             36.89
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/christian-apostle.png",
+          "bubble": "『神の国』『告白録』を著し正統教義を確立"
         },
         {
           "name": "プラトン",
@@ -12811,11 +13473,11 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "真の実在は天上にあるイデアの世界である"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -12843,7 +13505,7 @@ export const chapterEdition = {
         "まずは文学だよ。ローマ人はギリシア文字からラテン文字（ローマ字）をつくり、ラテン語を帝国全土に普及させた。このローマ字が現在のヨーロッパ各国の文字に発展したわけだから、その功績は大きい。ただ、内容的にはギリシアの模倣だよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ローマ文化",
       "sourceText": {
         "chapter": 2,
@@ -12887,7 +13549,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ",
+          "at": [
+            12.496,
+            41.903
+          ],
+          "image": "ancient/roman-consul.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -12914,7 +13586,7 @@ export const chapterEdition = {
         "その後、アウグストゥス時代はラテン文学の黄金期だね。この時代に、古代ローマ最大の詩人といわれるウェルギリウスが出て、ローマの建国伝説を叙事詩『アエネイス』に描いた。ほかにも、平和な時代になったことを反映して、ホラティウスやオウィディウスなどの叙情詩人も現れたよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ローマ文化",
       "sourceText": {
         "chapter": 2,
@@ -12951,17 +13623,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "キケロ",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "雄弁家・哲学者としてラテン散文の完成者"
         },
         {
           "name": "プラトン",
@@ -12969,9 +13639,8 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "真の実在は天上にあるイデアの世界である"
         },
         {
           "name": "カエサル",
@@ -12979,9 +13648,13 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "賽は投げられた！ルビコン川を渡りローマへ進軍！",
+          "afterImage": "ancient/roman-victory.png",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "アントニウス",
@@ -12989,9 +13662,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "クレオパトラと結び東方に勢力を張る",
+          "offset": [
+            24,
+            0
+          ]
         },
         {
           "name": "アウグストゥス",
@@ -12999,9 +13675,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/augustus-princeps.png",
+          "bubble": "元首（プリンケプス）として元首政を創始！",
+          "offset": [
+            -48,
+            0
+          ]
         },
         {
           "name": "ウェルギリウス",
@@ -13009,9 +13688,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "ローマ建国叙事詩『アエネイス』を著す",
+          "offset": [
+            48,
+            0
+          ]
         },
         {
           "name": "ホラティウス",
@@ -13019,9 +13701,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "『叙情詩集』を著すローマ文学の黄金期",
+          "offset": [
+            -72,
+            0
+          ]
         },
         {
           "name": "オウィディウス",
@@ -13029,11 +13714,15 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "神話を集めた『変身物語』を著す",
+          "offset": [
+            72,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -13057,7 +13746,7 @@ export const chapterEdition = {
         "帝政に入るとストア派哲学が流行した。だって、世界帝国になったローマには「世界市民主義」のほうがあうよね。有名人をあげると、ネロ帝の教育係にもなったセネカ、ギリシア人奴隷出身のエピクテトス、五賢帝最後の皇帝マルクス＝アウレリウス＝アントニヌスがいるね。そして、3世紀になるとプロティノスがプラトン哲学を復興して、新プラトン主義をつくり、プラトンの唱えたイデアを絶対神の世界ってことにしたんだ。これがキリスト教神学と結びついていくよ。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ローマ文化",
       "sourceText": {
         "chapter": 2,
@@ -13089,17 +13778,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ネロ",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-severe.png",
+          "bubble": "ローマ大火の責任をキリスト教徒に着せ迫害！"
         },
         {
           "name": "セネカ",
@@ -13107,9 +13794,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "ストア派哲学者・ネロ帝の師として『幸福論』を著す",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "エピクテトス",
@@ -13117,9 +13807,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "奴隷出身のストア派哲学者",
+          "offset": [
+            24,
+            0
+          ]
         },
         {
           "name": "マルクス＝アウレリウス＝アントニヌス",
@@ -13127,9 +13820,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-emperor.png",
+          "bubble": "ストア派哲学者として『自省録』を記す（哲人皇帝）",
+          "offset": [
+            -48,
+            0
+          ]
         },
         {
           "name": "プロティノス",
@@ -13137,9 +13833,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "新プラトン主義を創始",
+          "offset": [
+            48,
+            0
+          ]
         },
         {
           "name": "プラトン",
@@ -13147,11 +13846,11 @@ export const chapterEdition = {
             23.728,
             37.984
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/greek-philosopher.png",
+          "bubble": "真の実在は天上にあるイデアの世界である"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -13177,7 +13876,7 @@ export const chapterEdition = {
         "その後、アウグストゥスの時代には、リウィウスが『ローマ（建国）史』を書いた。彼はアウグストゥスの側近だったから、「ローマはすごい！　アウグストゥス最高😆」って書き方だ。また、ギリシア人のストラボンは、ローマの支配する地中海各地の歴史や伝説を『地理誌』にまとめた。これは、地理的な特徴だけじゃなくて、歴史なども加えて各地域の特徴を著した「地誌」だ。その後2世紀には、ギリシア人のプルタルコスが『対比列伝【英雄伝】』を書いた。この本はギリシアとローマの似ている人物の伝記を並べて比較しているよ。とはいっても、有名な人物の組み合わせは「アレクサンドロスとカエサル」くらいかな。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ローマ文化",
       "sourceText": {
         "chapter": 2,
@@ -13221,17 +13920,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ポリビオス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "政体循環論を唱えローマの発展を分析"
         },
         {
           "name": "アウグストゥス",
@@ -13239,9 +13936,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/augustus-princeps.png",
+          "bubble": "元首（プリンケプス）として元首政を創始！",
+          "offset": [
+            -24,
+            0
+          ]
         },
         {
           "name": "リウィウス",
@@ -13249,9 +13949,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "ローマ建国からの歴史を描く『ローマ史』を著す",
+          "offset": [
+            24,
+            0
+          ]
         },
         {
           "name": "ストラボン",
@@ -13259,9 +13962,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "当時の地中海世界の地理を網羅した『地理誌』を著す",
+          "offset": [
+            -48,
+            0
+          ]
         },
         {
           "name": "プルタルコス",
@@ -13269,9 +13975,12 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "ギリシアとローマの英雄を比較した『対比列伝』を著す",
+          "offset": [
+            48,
+            0
+          ]
         },
         {
           "name": "アレクサンドロス",
@@ -13279,9 +13988,9 @@ export const chapterEdition = {
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/alexander-march.png",
+          "bubble": "ペルシアを滅ぼし世界帝国を建設する！",
+          "afterImage": "ancient/alexander-happy.png"
         },
         {
           "name": "カエサル",
@@ -13289,11 +13998,16 @@ export const chapterEdition = {
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caesar-general.png",
+          "bubble": "賽は投げられた！ルビコン川を渡りローマへ進軍！",
+          "afterImage": "ancient/roman-victory.png",
+          "offset": [
+            -72,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -13319,7 +14033,7 @@ export const chapterEdition = {
         "そして、ローマ時代には、これまでの世界観をひっくり返して、のちの世界観を規定してしまう人物が現れる。それがギリシア人のプトレマイオスだ。彼はこれまでの天文学をまとめて『天文学大全【アルマゲスト】』を著し、天動説を理論化して完成させた。これがキリスト教神学と結びついて正統とされ、こののちずっと天動説が宗教的にも正しい！ってことになったんだ。真正面からこれを否定して地動説を主張する人は、16世紀のコペルニクスまで現れないからね。"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ローマ文化",
       "sourceText": {
         "chapter": 2,
@@ -13363,17 +14077,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "プリニウス",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "古代の百科全書『博物誌』を著す"
         },
         {
           "name": "プトレマイオス",
@@ -13381,9 +14093,8 @@ export const chapterEdition = {
             29.918,
             31.2
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "天動説（地球中心説）を集大成した天文学者"
         },
         {
           "name": "コペルニクス",
@@ -13391,11 +14102,11 @@ export const chapterEdition = {
             19.68,
             54.36
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "近代地動説を提唱"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -13423,7 +14134,7 @@ export const chapterEdition = {
         "次回からは中国史だよ。頭を漢字モードに切り替えよう！"
       ],
       "year": "古代地中海世界",
-      "chapter": 0,
+      "chapter": 2,
       "kicker": "ローマ文化",
       "sourceText": {
         "chapter": 2,
@@ -13472,27 +14183,27 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "カラカラ",
           "at": [
             12.496,
             41.903
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
+          "image": "ancient/emperor-severe.png",
+          "bubble": "アントニヌス勅令を発布し全自由民に市民権を付与！"
+        }
+      ],
+      "props": [
         {
           "name": "フォルム",
           "at": [
             12.49,
             41.89
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/triumphal-arch.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         },
         {
           "name": "パンテオン",
@@ -13500,9 +14211,9 @@ export const chapterEdition = {
             12.476,
             41.899
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/pantheon.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         },
         {
           "name": "万神殿",
@@ -13510,9 +14221,9 @@ export const chapterEdition = {
             12.476,
             41.899
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/pantheon.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         },
         {
           "name": "元老院議事堂",
@@ -13520,9 +14231,9 @@ export const chapterEdition = {
             12.49,
             41.89
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/triumphal-arch.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         },
         {
           "name": "アゴラ",
@@ -13530,9 +14241,9 @@ export const chapterEdition = {
             23.723,
             37.975
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/greek-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         },
         {
           "name": "コロッセウム",
@@ -13540,9 +14251,9 @@ export const chapterEdition = {
             12.493,
             41.89
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/colosseum.png",
           "kind": "prop",
-          "size": 42
+          "size": 84
         },
         {
           "name": "ガール水道橋",
@@ -13550,9 +14261,9 @@ export const chapterEdition = {
             4.536,
             43.947
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/roman-aqueduct.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         },
         {
           "name": "アッピア街道",
@@ -13560,9 +14271,9 @@ export const chapterEdition = {
             12.52,
             41.86
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/appian-way.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
         },
         {
           "name": "凱旋門",
@@ -13570,9 +14281,9 @@ export const chapterEdition = {
             12.49,
             41.89
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/triumphal-arch.png",
           "kind": "prop",
-          "size": 42
+          "size": 76
         },
         {
           "name": "カラカラ浴場",
@@ -13580,9 +14291,19 @@ export const chapterEdition = {
             12.493,
             41.879
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/colosseum.png",
           "kind": "prop",
-          "size": 42
+          "size": 80
+        },
+        {
+          "name": "ローマ",
+          "at": [
+            12.49,
+            41.89
+          ],
+          "image": "ancient/colosseum.png",
+          "kind": "prop",
+          "size": 88
         }
       ],
       "routes": [],

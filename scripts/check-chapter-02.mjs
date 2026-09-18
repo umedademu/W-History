@@ -45,8 +45,25 @@ for(const [index,scene] of pages.entries()){
  for(const name of names)assert.ok(items.some(item=>normalizeMapName(item.text)===name.key),scene.id+': 地図に必要な名前 '+name.name);
  for(const item of items){assert.equal(item.at.length,2);assert.ok(item.at.every(Number.isFinite));assert.ok(Math.abs(item.at[0])<=180&&Math.abs(item.at[1])<=90);}
  assert.ok(scene.frame.every(Number.isFinite));
- for(const prop of scene.props)assert.ok(fs.existsSync(new URL('public/images/'+prop.image,root)));
- for(const route of scene.routes){assert.ok(route.points.length>=2);assert.ok(scene.duration>0);}
+  for(const prop of scene.props){
+    assert.ok(!prop.image.endsWith('.svg'), `${scene.id}: props画像がSVGのままです ${prop.image}`);
+    const imgPath = prop.image.includes('/') ? prop.image : `ancient/${prop.image}`;
+    const p = 'public/images/' + imgPath + (/\.(svg|png)$/.test(imgPath) ? '' : '.png');
+    assert.ok(fs.existsSync(new URL(p,root)), `${scene.id}: props画像が存在しない ${prop.image}`);
+  }
+  for(const actor of scene.actors){
+    assert.ok(!actor.image.endsWith('.svg'), `${scene.id}: actor画像がSVGのままです ${actor.image}`);
+    const imgPath = actor.image.includes('/') ? actor.image : `ancient/${actor.image}`;
+    const p = 'public/images/' + imgPath + (/\.(svg|png)$/.test(imgPath) ? '' : '.png');
+    assert.ok(fs.existsSync(new URL(p,root)), `${scene.id}: actor画像が存在しない ${actor.image}`);
+    if (actor.afterImage) {
+      assert.ok(!actor.afterImage.endsWith('.svg'), `${scene.id}: afterImage画像がSVGのままです ${actor.afterImage}`);
+      const aPath = actor.afterImage.includes('/') ? actor.afterImage : `ancient/${actor.afterImage}`;
+      const ap = 'public/images/' + aPath + (/\.(svg|png)$/.test(aPath) ? '' : '.png');
+      assert.ok(fs.existsSync(new URL(ap,root)), `${scene.id}: afterImage画像が存在しない ${actor.afterImage}`);
+    }
+  }
+  for(const route of scene.routes){assert.ok(route.points.length>=2);assert.ok(scene.duration>0);}
 }
 assert.deepEqual(minimumMapSpan,{longitude:32,latitude:24});assert.equal(maximumMapScale(([x,y])=>[(x+180)*4,(90-y)*4],1440,720),7.5);
 assert.deepEqual(chapterNamesInText('テーベ').find(n=>n.name==='テーベ').points[0],[23.32,38.32]);
