@@ -32,6 +32,7 @@ try{
   await page.screenshot({path:path.join(output,`catalog-${width}.png`),fullPage:false});
   for(const s of series){
    await page.goto(base);
+   await page.locator(`#chapter-${s.chapter}>summary`).click();
    await page.locator(`.part-link[href="/${s.id}-story.html"]`).click();
    await page.waitForSelector('button[data-scene]');
    assert.equal(new URL(page.url()).search,'');

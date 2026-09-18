@@ -41,10 +41,10 @@ for(const chapter of bookChapters)for(const v of chapter.volumes) {
 }
 
 const collection=bookChapters.map(c=>{
-  return `<section class="book-chapter" id="chapter-${c.number}" aria-labelledby="chapter-${c.number}-title">\n<h2 id="chapter-${c.number}-title">第${c.number}章 ${escape(c.title)}</h2>${c.lessons.map(l=>{
+  return `<details class="book-chapter" id="chapter-${c.number}">\n<summary><h2><span class="chapter-number">第${c.number}章</span> ${escape(c.title)}</h2></summary>\n<div class="chapter-lessons">${c.lessons.map(l=>{
     const volumes=c.volumes.filter(v=>v.lesson===l.lesson);
     return `\n<section class="lesson-group" aria-labelledby="lesson-${l.lesson}">\n<h3 id="lesson-${l.lesson}">第${l.lesson}回 ${escape(l.title)}</h3>\n<ol class="lesson-parts">\n${volumes.map(v=>`<li><a class="part-link" href="/${v.id}-story.html">${escape(v.label)}</a></li>`).join('\n')}\n</ol>\n</section>`;
-  }).join('')}\n</section>`;
+  }).join('')}\n</div>\n</details>`;
 }).join('\n');
 let catalog=await read('public/index.html');
 const block=`<!-- book-collection:start -->\n${collection}\n<!-- book-collection:end -->\n    `;
