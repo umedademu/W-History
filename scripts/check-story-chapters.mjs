@@ -21,11 +21,11 @@ if(!process.argv.includes('--published')){
  const ancient=toc.split('## 第1章 ')[1].split('## 第2章 ')[0];
  assert.deepEqual([...ancient.matchAll(/^\* \d+ (.*?) ……/gm)].map(m=>m[1]),ancientSeries.map(v=>v.label));
 }
-assert.equal([...catalog.matchAll(/class="story-card"/g)].length,128);
+assert.equal([...catalog.matchAll(/class="part-link"/g)].length,128);
 for(const [lesson,count] of outline.flatMap(c=>c.lessons.map(l=>[l.lesson,l.parts.length]))){
  const group=catalog.match(new RegExp('<section class="lesson-group" aria-labelledby="lesson-'+lesson+'">([\\s\\S]*?)</section>'));
  assert.ok(group);
- assert.equal([...group[1].matchAll(/class="story-card"/g)].length,count);
+ assert.equal([...group[1].matchAll(/class="part-link"/g)].length,count);
 }
 for(const [source,sections] of [['regional-dynasties',['regional-dynasties','seljuq','western-dynasties','african-kingdoms']],['ottoman',['ottoman','ottoman-expansion','ottoman-height']]]){
  const data=sections.flatMap(id=>sourceEdition[id]);

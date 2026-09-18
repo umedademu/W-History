@@ -11,7 +11,6 @@ const write=async(p,text)=>{
   else await fs.writeFile(new URL(p,root),text);
 };
 const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
-const originalCards=JSON.parse(await read('docs/catalog/islamic-cards.json'));
 const base=await read('public/islam-origin-story.html');
 const summary=bookChapters.map(c=>({chapter:c.number,title:c.title,lessons:c.lessons,volumes:c.volumes.map(v=>({id:v.id,label:v.label,number:v.number,lesson:v.lesson,part:v.part,pages:volumeScenes(allEditions,v.id).length}))}));
 const total=summary.flatMap(c=>c.volumes).reduce((n,v)=>n+v.pages,0);
@@ -41,26 +40,17 @@ for(const chapter of bookChapters)for(const v of chapter.volumes) {
   await write(`public/${v.id}-story.html`,html);
 }
 
-function card(v) {
-  const pages=volumeScenes(allEditions,v.id).length;
-  if(v.chapter===6)return originalCards[v.id].replace(/<span>\d+ページ<\/span>/,`<span>${pages}ページ</span>`);
-  return `<a class="story-card" href="/${v.id}-story.html"><div class="cover cover-ancient cover-chapter-${v.chapter}"><span class="cover-number">${v.number}</span><span class="cover-place">第${v.chapter}章・第${v.lesson}回</span><img src="/images/ancient/${v.symbol}.svg" alt="" width="192" height="192" loading="lazy" /><span class="cover-caption">${escape(v.label)}</span></div><div class="card-body"><p class="lesson-part">第${v.lesson}回・${v.part}</p><p class="period">${escape(v.period)} <span>${pages}ページ</span></p><h3>${escape(v.label)}</h3><p>${escape(v.description)}</p><span class="card-action">物語を開く <span aria-hidden="true">↗</span></span></div></a>`;
-}
-const jump=`<nav class="chapter-jump" aria-label="章を選ぶ">${bookChapters.map(c=>`<a href="#chapter-${c.number}">第${c.number}章 ${escape(c.title)}</a>`).join('')}</nav>`;
 const collection=bookChapters.map(c=>{
-  const pages=summary.find(s=>s.chapter===c.number).volumes.reduce((n,v)=>n+v.pages,0);
-  return `<section class="book-chapter" id="chapter-${c.number}" aria-labelledby="chapter-${c.number}-title"><div class="section-heading"><h2 id="chapter-${c.number}-title">第${c.number}章 ${escape(c.title)}</h2><p>全${c.volumes.length}パート・${pages}ページ</p></div>${c.lessons.map(l=>{
+  return `<section class="book-chapter" id="chapter-${c.number}" aria-labelledby="chapter-${c.number}-title">\n<h2 id="chapter-${c.number}-title">第${c.number}章 ${escape(c.title)}</h2>${c.lessons.map(l=>{
     const volumes=c.volumes.filter(v=>v.lesson===l.lesson);
-    return `\n<section class="lesson-group" aria-labelledby="lesson-${l.lesson}"><div class="section-heading"><h2 id="lesson-${l.lesson}">第${l.lesson}回 ${escape(l.title)}</h2><p>全${volumes.length}パート</p></div><div class="story-grid">${volumes.map(card).join('\n')}</div></section>`;
+    return `\n<section class="lesson-group" aria-labelledby="lesson-${l.lesson}">\n<h3 id="lesson-${l.lesson}">第${l.lesson}回 ${escape(l.title)}</h3>\n<ol class="lesson-parts">\n${volumes.map(v=>`<li><a class="part-link" href="/${v.id}-story.html">${escape(v.label)}</a></li>`).join('\n')}\n</ol>\n</section>`;
   }).join('')}\n</section>`;
 }).join('\n');
 let catalog=await read('public/index.html');
-const block=`<!-- book-collection:start -->\n${jump}\n${collection}\n<!-- book-collection:end -->\n    `;
-if(catalog.includes('<!-- book-collection:start -->'))catalog=catalog.replace(/<!-- book-collection:start -->[\s\S]*?<!-- book-collection:end -->\s*/,block);
-else catalog=catalog.replace(/<!-- ancient-collection:start -->[\s\S]*?(?=<section class="how-to")/,block);
-catalog=catalog.replace(/収録中の教材 <b>\d+<\/b>/,`収録中の教材 <b>${count}</b>`)
-  .replace(/全 <b>\d+<\/b> 場面/,`全 <b>${total}</b> 場面`)
-  .replace(/<meta name="description"[^>]*>/,`<meta name="description" content="地図と物語で世界史を学ぶW-History。古代・中世・近世の全7章30回、${count}パート・${total}ページを原文に沿ってたどる歴史教材。" />`);
+const block=`<!-- book-collection:start -->\n${collection}\n<!-- book-collection:end -->\n    `;
+assert.ok(catalog.includes('<!-- book-collection:start -->')&&catalog.includes('<!-- book-collection:end -->'),'目次の生成範囲が必要');
+catalog=catalog.replace(/<!-- book-collection:start -->[\s\S]*?<!-- book-collection:end -->\s*/,block);
+catalog=catalog.replace(/<meta name="description"[^>]*>/,`<meta name="description" content="W-Historyの教材目次。古代・中世・近世の全7章30回から、学びたい内容を選べます。" />`);
 await write('public/index.html',catalog);
 await write('docs/catalog/summary.json',JSON.stringify({version,parts:count,pages:total,chapters:summary},null,2)+'\n');
 console.log(`全${bookChapters.length}章・${count}パート・${total}ページの入口と一覧を生成しました。`);

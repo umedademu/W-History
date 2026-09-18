@@ -24,15 +24,15 @@ try{
  for(const width of [1280,390]){
   await page.setViewportSize({width,height:900});
   await page.goto(base);
-  assert.equal(await page.locator('.story-card').count(),series.length);
-  assert.equal(await page.locator('.lesson-group[aria-labelledby=lesson-20] .story-card').count(),4);
-  assert.equal(await page.locator('.lesson-group[aria-labelledby=lesson-21] .story-card').count(),5);
-  assert.deepEqual(await page.locator('.card-body h3').allTextContents(),series.map(s=>s.label));
-  assert.deepEqual(await page.locator('.cover-number').allTextContents(),series.map(s=>s.number));
+  assert.equal(await page.locator('.part-link').count(),series.length);
+  assert.equal(await page.locator('.lesson-group[aria-labelledby=lesson-20] .part-link').count(),4);
+  assert.equal(await page.locator('.lesson-group[aria-labelledby=lesson-21] .part-link').count(),5);
+  assert.deepEqual(await page.locator('.part-link').allTextContents(),series.map(s=>s.label));
+
   await page.screenshot({path:path.join(output,`catalog-${width}.png`),fullPage:false});
   for(const s of series){
    await page.goto(base);
-   await page.locator(`.story-card[href="/${s.id}-story.html"]`).click();
+   await page.locator(`.part-link[href="/${s.id}-story.html"]`).click();
    await page.waitForSelector('button[data-scene]');
    assert.equal(new URL(page.url()).search,'');
    assert.equal(await page.locator('.story-series-links a').count(),series.filter(v=>v.chapter===s.chapter).length);

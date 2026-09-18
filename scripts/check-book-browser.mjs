@@ -37,8 +37,8 @@ try {
   let inspected=0;
   for(const width of [1280,390]) {
     await page.setViewportSize({width,height:900});await page.goto(base);
-    assert.equal(await page.locator('.story-card').count(),128);
-    for(const c of bookChapters)for(const l of c.lessons)assert.equal(await page.locator(`[aria-labelledby="lesson-${l.lesson}"] .story-card`).count(),c.volumes.filter(v=>v.lesson===l.lesson).length);
+    assert.equal(await page.locator('.part-link').count(),128);
+    for(const c of bookChapters)for(const l of c.lessons)assert.equal(await page.locator(`[aria-labelledby="lesson-${l.lesson}"] .part-link`).count(),c.volumes.filter(v=>v.lesson===l.lesson).length);
     await page.screenshot({path:path.join(output,`catalog-${width}.png`),fullPage:false});
     for(const v of chapterVolumes) {
       const scenes=chapterEdition[v.id];
