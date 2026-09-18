@@ -1,7 +1,7 @@
-import {ancientEdition,ancientPlaces} from './ancient-edition.js?v=0.068';
-import {ancientSeries} from './ancient-volumes.js?v=0.068';
-import {mountStory} from './history-story.js?v=0.068';
-import {volumeNavigation} from './story-volumes.js?v=0.068';
+import {ancientEdition,ancientPlaces} from './ancient-edition.js?v=0.079';
+import {ancientSeries} from './ancient-volumes.js?v=0.079';
+import {mountStory} from './history-story.js?v=0.079';
+import {volumeNavigation} from './story-volumes.js?v=0.079';
 
 const id=location.pathname.split('/').pop().replace(/-story\.html$/,'');
 const volume=ancientSeries.find(v=>v.id===id);
