@@ -11,7 +11,7 @@ export const chapterEdition = {
         "中国って、ヨーロッパがすっぽり入ってしまうくらいの大きさだから、地域によって気候が全然違う。大きく分けると黄河流域の華北は雨が少ない乾燥地帯で冬は寒いから、農業は畑作が中心になる。現代では麦などが多いけど、古代文明の時代にはまだヒエやアワなどの雑穀が中心だね。一方、長江【揚子江】流域を中心とする華中、特に長江下流域の江南地方は雨が多くて温暖な気候だったから、農業は稲作が中心だ。そして、中国の南北はだいたい淮河を境目に分けられるんだ。中国史の舞台はおもに「華北」と「江南」が中心で、ときどき長江上流域の四川地方が出てくる、って感じだ。まずは中国で重要な川「黄河」「淮河」「長江」の位置と流域の気候を頭に入れておいてね。"
       ],
       "year": "前6000年ごろ〜",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "中国文明の形成",
       "sourceText": {
         "chapter": 3,
@@ -104,7 +104,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "中国",
+          "at": [
+            108,
+            35
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [
@@ -241,7 +251,7 @@ export const chapterEdition = {
         "北の黄河流域では、前6000年ごろまでに畑作をおこなう新石器時代となり、5000年ごろから気候の温暖化や農耕技術の発達で、数百人くらいが集まるムラが生まれた。黄河中流域を中心とするこの農耕文化は、スウェーデン人のアンダーソンが河南省で発見した代表的な遺跡の名前をとって、仰韶文化と呼ばれている。西安半坡遺跡などもこの時代の代表的な遺跡だ。彩陶（彩文土器）がたくさんつくられたから彩陶文化とも呼ばれる。彩陶は赤っぽい色の素焼きの土器に黒で模様をつけたもので、まだ焼く温度が低かったから厚手でもろいのが特徴だ。これは西アジアの文明でつくられた彩文土器と似ているね。また、東北の遼河流域でも狩猟・採集に加えて雑穀の栽培も始まり、前4000年ごろから紅山文化が栄えたよ。"
       ],
       "year": "前6000年ごろ〜",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "中国文明の形成",
       "sourceText": {
         "chapter": 3,
@@ -296,19 +306,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アンダーソン",
           "at": [
             111.81,
             34.77
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/roman-scholar.png",
+          "bubble": "仰韶文化の彩文土器を発見！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -378,7 +387,7 @@ export const chapterEdition = {
         "前2000年代に入ると各地で大規模なムラが現れるとともに、表面を磨いて仕上げた磨研土器の黒陶がつくられるようになった。高温で焼いた硬い土器だから表面を磨けるようになったんだね。さらに、この時代には、土器をつくるときにろくろが使われ始めたよ。これできれいに整った形の土器がつくれるね。黒陶は山東半島から長江流域まで広い範囲で見つかっているけど、最初に黒陶が見つかった山東省の遺跡の名前から竜山文化、土器の種類から黒陶文化と呼ばれているよ。ただ、黒陶は磨いて仕上げるのが大変！　だから、日常生活では作りの粗い灰陶が使われたんだ。普段はシンプルなものを使ったんだね。それから、仰韶文化のころから竜山文化の土器の特徴は、3本の足をつけた三足土器（鬲・鼎）だよ。三足という特徴は殷や周の時代につくられた青銅器にも見られるよ。"
       ],
       "year": "前6000年ごろ〜",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "中国文明の形成",
       "sourceText": {
         "chapter": 3,
@@ -439,7 +448,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "竜山",
+          "at": [
+            117.38,
+            36.72
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [
@@ -510,7 +529,7 @@ export const chapterEdition = {
         "一方、南の長江流域は温暖で雨が多い気候だったから、前5000年ころには稲作を中心とする文明が出現していた。長江下流域の浙江省にある河姆渡遺跡は、だいたい仰韶文化と同じ時代の遺跡だね。ほかにも、長江上流の四川省の三星堆遺跡では、目玉が飛び出た個性的（？）なデザインが特徴の青銅仮面などが発掘されている。三星堆文化は前2000年ころの青銅器文化だから、少し時代が新しいね。"
       ],
       "year": "前6000年ごろ〜",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "中国文明の形成",
       "sourceText": {
         "chapter": 3,
@@ -559,7 +578,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "長江",
+          "at": [
+            121,
+            31
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [
@@ -632,7 +661,7 @@ export const chapterEdition = {
         "中国の歴史書のなかに最初に出てくる王朝は夏だけど、その実在はまだ証明されていない。だって、中国の歴史書の最初に出てくる伝説上の帝王「三皇五帝」は、戦国時代以降に考えられた「神」で、三皇はどう見ても人間じゃない。例えば、人びとに漁猟を教えた伏羲は体が蛇で頭が人だし、農業を教えた神農は体が人で頭が牛。そのあとの五帝は、漢民族の始祖とされる黄帝から理想の君主とされる堯・舜だけど、彼らも暦をつくったとかなんとか、怪しい記述ばっかり。これも実在とはほど遠いね。そして、舜から位を譲られた禹が建てたとされるのが夏王朝だ。現在、殷の時代よりも古い遺跡の発掘が進んでるけど、文字の記録で夏王朝と証明できた遺跡はない。ということで「伝説上の最初の王朝」ってところだけおさえておけばOKだ！"
       ],
       "year": "前6000年ごろ〜",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "中国文明の形成",
       "sourceText": {
         "chapter": 3,
@@ -691,7 +720,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "仰韶",
+          "at": [
+            111.81,
+            34.77
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [
@@ -764,7 +803,7 @@ export const chapterEdition = {
         "実在が確認されている最初の王朝は殷【商】だよ。商は彼らの自称、殷はのちの周がつけた蔑称だ。殷は湯王が夏王朝最後の暴君桀王を滅ぼして建国したことになってるけど、これは伝説だから怪しい。ただ、殷後期の都とされる河南省安陽市小屯村で発見された殷墟からは、甲骨文字が刻まれた大量の獣骨や亀甲が見つかって、殷の実在が証明された。さらに青銅器や象牙細工、硬く精巧な白陶のほかに、西域産の玉器、お金として使われたタカラガイ（子安貝）なども発掘され、交易ネットワークの中心だったことがわかるんだ。特に殷の青銅器は、おもに儀式のときの酒器や食器として使われ、悪霊に中身をとられないように獣面の模様（饕餮文）で飾られていた。ほかに刀や矛などの武器もつくられたよ。"
       ],
       "year": "前2千年紀〜前8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "殷と周",
       "sourceText": {
         "chapter": 3,
@@ -826,19 +865,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "湯王",
           "at": [
             114.32,
             36.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/king-tang-shang.png",
+          "bubble": "殷（商）を建国！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -864,7 +902,7 @@ export const chapterEdition = {
         "じゃあ、殷王はどうやって他の邑を支配していたんだろう？　商は他の邑を神の序列で支配したんだよ。邑にはそれぞれ守護神が祭られていたから、殷王は「私の邑の神は、お前のところの神よりもエライ！」と言って服属させ、神をエライ順に並べて商の神を一番にした。そして、「一番エライ商の神のお告げに従うように」と言って、他の邑に命令を出したんだ。こんなふうに神を使って支配するから神権政治だよ。神を祭る祭祀と政治が一体になっているから祭政一致だね。そして、神のお告げを聞くために獣骨や亀甲を火であぶり、できたひび割れで神の意思を占い（占卜）、結果を文字で残した。これが甲骨文字だよ。ちなみに甲骨文字は19世紀末に発見されたのち、王国維らの研究で解読され、漢字の原型とされているよ。"
       ],
       "year": "前2千年紀〜前8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "殷と周",
       "sourceText": {
         "chapter": 3,
@@ -906,19 +944,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "王国維",
           "at": [
             114.32,
             36.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/dongzhongshu-scholar.png",
+          "bubble": "甲骨文字を解読し殷の実在を証明！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -944,7 +981,7 @@ export const chapterEdition = {
         "こうして周は渭水盆地の鎬京を都として、邑の連合の盟主になった。鎬京が置かれた時代が西周だよ。そして、殷から受け継いだ、青銅器に文字を刻み込む技術を独占したんだ。この青銅器に刻まれた文字が金文だよ。"
       ],
       "year": "前2千年紀〜前8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "殷と周",
       "sourceText": {
         "chapter": 3,
@@ -1010,17 +1047,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "武王",
           "at": [
             108.77,
             34.23
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/king-wu-zhou.png",
+          "bubble": "牧野の戦いで殷を討ち周を建国！"
         },
         {
           "name": "紂王",
@@ -1028,11 +1063,25 @@ export const chapterEdition = {
             114.32,
             36.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/king-zhou-shang.png",
+          "bubble": "酒池肉林の暴政"
+        },
+        {
+          "name": "紂王",
+          "at": [
+            114.32,
+            36.1
+          ],
+          "image": "ancient/king-zhou-shang.png",
+          "bubble": "牧野で周軍に敗北し自害！",
+          "afterImage": "ancient/chinese-defeated.png",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -1104,7 +1153,7 @@ export const chapterEdition = {
         "周王は鎬京周辺の強い邑を直接支配していたけど、それ以外にも王族が重要な役割を持った。例えば、武王の弟とされる周公旦は魯邑を支配して、武王の死後も幼い周王の統治を助けた。そして、一族の有力な族長や異姓の功臣を各地に送り込んで、封土（支配する邑）を与えて世襲の諸侯にしたんだ。さらに各地の有力者も諸侯にして（諸侯にするのが“封じる”って表現だ）、貢納や軍役を課した。そして、諸侯も世襲の家臣である卿・大夫・士に采邑を与えて、やはり軍役や貢納を課したよ。こんなふうに、封土を与えるかわりに軍役や貢納を負わせる主従関係が封建制だ。"
       ],
       "year": "前2千年紀〜前8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "殷と周",
       "sourceText": {
         "chapter": 3,
@@ -1149,17 +1198,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "武王",
           "at": [
             108.77,
             34.23
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/king-wu-zhou.png",
+          "bubble": "牧野の戦いで殷を討ち周を建国！"
         },
         {
           "name": "周公旦",
@@ -1167,11 +1214,15 @@ export const chapterEdition = {
             108.77,
             34.23
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/duke-of-zhou.png",
+          "bubble": "封建制と礼楽の基礎を整備",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -1197,7 +1248,7 @@ export const chapterEdition = {
         "また、同姓の一族（宗族）は祖先を祭る儀式を通じて団結し、宗法という秩序で強く結ばれて、例えば、本家（大宗）と分家（小宗）の上下関係や、秩序を維持するために長男が家を継ぐこと（嫡長子相続）、同じ姓の人とは結婚しないこと（同姓不婚）などが守られた。中国では今でも「同姓の人は同じ一族」という意識が強いね。こうした一族のなかでの秩序が「礼」だよ。そして、周王に封建された異姓の諸侯も、本当は親戚じゃないけど、タテマエでは「親戚のような関係」ということにして序列を決めたから、周辺諸侯では「家柄が大事」なんだよ。ここは西欧との比較のポイントだ。中世西欧の封建制は「個人の契約」で主従関係が結ばれるのに対して、周は「宗族という血縁集団を基盤」にした氏族的支配だね。"
       ],
       "year": "前2千年紀〜前8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "殷と周",
       "sourceText": {
         "chapter": 3,
@@ -1242,7 +1293,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "周",
+          "at": [
+            112,
+            35
+          ],
+          "image": "ancient/king-wu-zhou.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -1271,7 +1332,7 @@ export const chapterEdition = {
         "幽王が殺されて鎬京に新しい王が即位すると、反対した有力諸侯が洛邑に別の王を立て、周は一時分裂した。さらに辺境から侵入した勢力（犬戎）に鎬京を奪われると、東の洛邑が都になった（周の東遷）。西周が滅んだあとの東周で、東周時代の前半が春秋時代、後半が戦国時代だよ。"
       ],
       "year": "前8〜前3世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "春秋戦国時代",
       "sourceText": {
         "chapter": 3,
@@ -1337,19 +1398,19 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "幽王",
           "at": [
             108.77,
             34.23
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/king-you-zhou.png",
+          "bubble": "褒姒に溺れ西周滅亡",
+          "route": 0
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "move",
@@ -1395,7 +1456,7 @@ export const chapterEdition = {
         "春秋時代にはすでに諸侯が自立し始めていたから、周王より強い諸侯はたくさんいたけど、彼らは周王のように特別な存在じゃなく、ただ「強い」だけ。だから、周辺異民族を倒し、とりあえず周王を立てておいて「みんなで周王を守ろうぜ！」（尊王攘夷）と唱え、諸侯の同盟（会盟）をつくって自分が盟主になった。こうすれば「私の命令は周王の命令である！」として、全国を支配できるでしょ。こんなふうに諸侯の盟主となった諸侯が覇者だよ。"
       ],
       "year": "前8〜前3世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "春秋戦国時代",
       "sourceText": {
         "chapter": 3,
@@ -1439,7 +1500,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "周",
+          "at": [
+            112,
+            35
+          ],
+          "image": "ancient/king-wu-zhou.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -1464,7 +1535,7 @@ export const chapterEdition = {
         "ただ、諸侯たち全員が「周王を守ろう！」って思ってたわけじゃない。おもに中原（黄河中・下流域）の諸侯は、自分はあくまでも「周王の下でのまとめ役」と思っていたから公（諸侯、つまり家臣の称号）を名乗ったけど、南の楚や呉・越の支配者は「オレ様は周王と同じくらいエライ！」として王を名乗り、特に楚はたびたび中原にも侵攻してきた。最初に覇者に数えられる斉の桓公は、諸侯とともに楚を敗退させて会盟したし、次に出てくる晋の文公も周王室の内紛を収めたあと、楚を撃退して諸侯と会盟した。斉の桓公や晋の文公、ほかに楚の荘王、長江下流で抗争して「呉越同舟」や「臥薪嘗胆」の故事で知られる呉王闔閭（もしくは息子の夫差）、越王勾践などの有力諸侯は、まとめて春秋の五覇と呼ばれているよ。まあ、いろんな説があるから、全員入れると5人じゃ収まらないけどさ……。"
       ],
       "year": "前8〜前3世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "春秋戦国時代",
       "sourceText": {
         "chapter": 3,
@@ -1543,17 +1614,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "桓公",
           "at": [
             118.3,
             36.82
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/duke-huan-qi.png",
+          "bubble": "尊王攘夷！最初の覇者"
         },
         {
           "name": "晋の文公",
@@ -1561,9 +1630,8 @@ export const chapterEdition = {
             112,
             35
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/duke-wen-jin.png",
+          "bubble": "城濮の戦いで楚を破り覇者となる！"
         },
         {
           "name": "荘王",
@@ -1571,9 +1639,8 @@ export const chapterEdition = {
             112,
             30
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/king-zhuang-chu.png",
+          "bubble": "問鼎軽重！中原に覇を唱える"
         },
         {
           "name": "闔閭",
@@ -1581,9 +1648,8 @@ export const chapterEdition = {
             120.6,
             31.3
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/king-helu-wu.png",
+          "bubble": "伍子胥・孫武を用い強盛となる"
         },
         {
           "name": "夫差",
@@ -1591,9 +1657,12 @@ export const chapterEdition = {
             120.6,
             31.3
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/king-helu-wu.png",
+          "bubble": "臥薪嘗胆、越を破るも後に敗死",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "勾践",
@@ -1601,11 +1670,11 @@ export const chapterEdition = {
             120.6,
             30
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/king-goujian-yue.png",
+          "bubble": "会稽の恥を雪ぎ呉を滅ぼす！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -1722,7 +1791,7 @@ export const chapterEdition = {
         "すでに春秋時代には周王の実力はなくなっていたけど、王の権威だけは残っていたよね。だからみんな「主君と家臣の上下関係はひっくり返しちゃいけない」って思っていた。晋の家臣だった韓・魏・趙も、主君から領土を奪ったからといって「諸侯の家臣（卿）」だから諸侯にはなれない。諸侯とは周王に封建された「周王の家臣」だからね。ところが、周王が韓・魏・趙を諸侯にしたってことは、強い家臣が弱い主君を倒す「下剋上」を周王が認めたことになる。これで「じゃあ、弱い主君は倒していいんだな」ってみんなが思ったら……倒されるのは周王だよ。だってすでにむちゃくちゃ弱いでしょ！"
       ],
       "year": "前8〜前3世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "春秋戦国時代",
       "sourceText": {
         "chapter": 3,
@@ -1785,7 +1854,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "晋",
+          "at": [
+            112.45,
+            34.62
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -1810,7 +1889,7 @@ export const chapterEdition = {
         "こうして、「周王は特別な存在だ」という権威も無くなり、有力諸侯はみんな公然と王と名乗り始めた。戦国時代に強大化した秦・楚・斉・燕・趙・魏・韓の7国は、戦国の七雄と呼ばれているよ。ちなみに、韓・魏・趙だけじゃなく、斉も家臣の田氏が奪って下剋上でできた国だ。そして戦国時代には負けると領土を丸ごと併合されてしまう。春秋時代までは諸侯同士が戦っても「親戚だから滅ぼしちゃマズい……」って意識が多少はあったけど、もはやそんなものはない。勝ったら相手の領地を奪い、負けたら滅ぼされる。だから各国は領土拡大と富国強兵を進めて、征服地は王の直轄地にした。こうして春秋時代までは残っていた「邑制国家」の体制が崩れて「領域国家」へと変化し、王権強化が進んでいくんだ。"
       ],
       "year": "前8〜前3世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "春秋戦国時代",
       "sourceText": {
         "chapter": 3,
@@ -1889,7 +1968,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "周",
+          "at": [
+            112,
+            35
+          ],
+          "image": "ancient/king-wu-zhou.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -1914,7 +2003,7 @@ export const chapterEdition = {
         "この時代、中国の社会全体にも大きな変化が現れていたよ。それが、鉄製農具と牛耕農法だ。中国では春秋時代末期に鉄器の使用が始まったけど、鋳型でつくるもろい鋳鉄だったから、最初は武器には使わずに農具として使われた。鉄製農具を使うと、より広く、深く、速く畑を耕せるから、農業生産力が高まるよね。さらに開墾が簡単になるから耕地が拡大するし、大規模な治水や灌漑も進められた。ただ、耕地が拡大したことで、これまでみんなで助け合っていたムラ（共同体）のなかから、「我が家は助け合わなくても生きていけるから」と家族単位の農業経営を始める小農民が現れた。これがだんだんと大土地所有の進展と共同体の解体をもたらした。こうなると支配体制も、ムラ（邑）を単位とする支配から個々の「家」を単位とする支配に変えないとマズいよね。これが戸籍の作成や中央集権化につながっていくんだ。"
       ],
       "year": "前8〜前3世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "春秋戦国時代",
       "sourceText": {
         "chapter": 3,
@@ -1944,7 +2033,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "中国",
+          "at": [
+            108,
+            35
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -1969,7 +2068,7 @@ export const chapterEdition = {
         "そして、鉄製農具の普及は手工業の発達をもたらし、農業生産力の増大で余ったもの（余剰生産物）を交換する商業も盛んになり、商人層の活躍も目立つようになった。さらに、商工業の発達にともなって青銅貨幣がつくられて流通するようになったよ。例えば、北方の燕や斉では刀銭が、韓・魏・趙では布銭が、楚では蟻鼻銭が、秦などでは円銭（環銭）がおもに使われた。そして、戦国の七雄の都などは、市場や工房などが集まる経済都市としても発展したんだ。斉の都臨淄、趙の都邯鄲、秦の都咸陽などがその代表だよ。"
       ],
       "year": "前8〜前3世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "春秋戦国時代",
       "sourceText": {
         "chapter": 3,
@@ -2045,7 +2144,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "燕",
+          "at": [
+            115,
+            40
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -2074,7 +2183,7 @@ export const chapterEdition = {
         "まずは、今でも中国の思想の根本になっている儒家だよ。春秋末期に儒家を創始した孔子は、戦乱を目の前にして「平和だった周代の政治を復活させれば平和に戻せる！」と考えた。これを実践するために魯の政治改革に参加したんだけど失敗したので、諸国をめぐって自分が理想とする統治を説いた。孔子はね、本当なら周代の家族道徳に基づく封建制を復活したかった。でも、すでに「礼」が力を失っていたから、かわりに親に対する「孝」や兄弟に対する「悌」の実践を通じた「仁」（簡単に言うと家族愛）の完成によって、秩序を回復しようとした。彼の思想は「修身・斉家・治国・平天下」という言葉に表されているね。ちなみに、孔子の言葉が記されている『論語』は、孔子が書いたのではなく弟子が編集したものだから、正誤問題では注意！　あとは孔子による魯の年代記『春秋』が、春秋時代の語源だよ。"
       ],
       "year": "春秋・戦国時代",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "諸子百家の登場",
       "sourceText": {
         "chapter": 3,
@@ -2123,19 +2232,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "孔子",
           "at": [
             117,
             35.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/confucius-philosopher.png",
+          "bubble": "仁と礼による徳治政治を説く"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2159,7 +2267,7 @@ export const chapterEdition = {
         "そして、孔子の「仁」をさらに追及して、性善説に基づく徳治主義を主張したのが孟子だよ。性善説っていうのは、「人はみな本性（生まれたときから本来持っている心）は善」という意味で、孟子は「君主が人民を大切に思う道徳的な政治（王道）をすれば人びとは従う！」と主張した。じゃあ君主が悪政をおこなったら？　そのときは天命がかわって王朝が交代（易姓革命）する。だから国王は「道徳的に優れた人に王位を譲るのがいい」って言ったんだ。これが禅譲だね。逆に「武力で王位を奪い取る放伐はイカン！」と批判したよ。"
       ],
       "year": "春秋・戦国時代",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "諸子百家の登場",
       "sourceText": {
         "chapter": 3,
@@ -2181,17 +2289,15 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "孟子",
           "at": [
             117,
             35.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/mencius-philosopher.png",
+          "bubble": "性善説と王道政治を主張！"
         },
         {
           "name": "孔子",
@@ -2199,11 +2305,15 @@ export const chapterEdition = {
             117,
             35.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/confucius-philosopher.png",
+          "bubble": "仁と礼による徳治政治を説く",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2227,7 +2337,7 @@ export const chapterEdition = {
         "これに対し、戦国時代末期に登場した荀子は、孟子の性善説に対し性悪説に基づく礼治主義を主張した。これって「人間の本性が極悪人」って意味じゃない。そもそも、みんな「仁」が大事ってわかっているはずなのに、平和にならないのはなぜだろう？　要するに「わかっちゃいるけど……」。だから、社会の秩序を維持するには「君主が“礼”（道徳を決まりにする）を定め」、人びとにはそれを尊重して従うべき、と主張した。これを学んだ彼の弟子の韓非や李斯は「決まりをつくるなら、破った人間を罰するべき」と考え、もっと実践的な支配の仕方を展開した。この法家の理論は韓非が大成したよ。法家の重要なポイントは、単に「法が厳しい」ってだけじゃなく、「刑罰」を明らかにして人民を支配するってことだ。"
       ],
       "year": "春秋・戦国時代",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "諸子百家の登場",
       "sourceText": {
         "chapter": 3,
@@ -2249,17 +2359,15 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "荀子",
           "at": [
             117,
             35.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xunzi-philosopher.png",
+          "bubble": "性悪説を説き礼による矯正を重視"
         },
         {
           "name": "孟子",
@@ -2267,9 +2375,12 @@ export const chapterEdition = {
             117,
             35.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/mencius-philosopher.png",
+          "bubble": "性善説と王道政治を主張！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "韓非",
@@ -2277,9 +2388,8 @@ export const chapterEdition = {
             113.8,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/hanfeizi-philosopher.png",
+          "bubble": "法と術による信賞必罰の統治！"
         },
         {
           "name": "李斯",
@@ -2287,11 +2397,11 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/lisi-chancellor.png",
+          "bubble": "法家思想で郡県制と文字統一を推進！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2317,7 +2427,7 @@ export const chapterEdition = {
         "一方、儒家の「仁・礼」も墨家の「兼愛」も「そんなのワザとらしい！（人為的）」と批判したのが老子だよ。道家を始めた老子は「無為自然」を説き、学問や自然の秩序に従って生きることを主張した。これを政治に当てはめると、「君主が社会に干渉せず、ほったらかす」のが理想ってことになるんだ（のちの黄老思想）。一方で、乱世に政治闘争から逃れた人の主張にもなった。さらに、荘子は自然の変化に逆らわずに自由に生きる「遊」を説いた。こうした思想は老荘思想といわれ、のちに民間信仰と結びついて道教の源流になったよ。だって、自然の流れに逆らわずパワーを体内に取り込んで……とかやると、最後に到達するのは仙人……、こりゃ学問じゃなくて宗教だ。"
       ],
       "year": "春秋・戦国時代",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "諸子百家の登場",
       "sourceText": {
         "chapter": 3,
@@ -2344,17 +2454,15 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "墨子",
           "at": [
             117,
             35.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/mozi-philosopher.png",
+          "bubble": "兼愛・非攻と節倹を唱える！"
         },
         {
           "name": "孔子",
@@ -2362,9 +2470,12 @@ export const chapterEdition = {
             117,
             35.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/confucius-philosopher.png",
+          "bubble": "仁と礼による徳治政治を説く",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "老子",
@@ -2372,9 +2483,8 @@ export const chapterEdition = {
             112,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/laozi-philosopher.png",
+          "bubble": "無為自然と小国寡民"
         },
         {
           "name": "荘子",
@@ -2382,11 +2492,15 @@ export const chapterEdition = {
             112,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhuangzi-philosopher.png",
+          "bubble": "万物斉同・胡蝶の夢",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2410,7 +2524,7 @@ export const chapterEdition = {
         "まず、外交戦術を説いたのが縦横家で、彼らの謀術をまとめたのが『戦国策』だよ。この異名が戦国時代の語源だね。ここはまず、前提として「戦国時代に秦だけが圧倒的に強くなった！」というのを頭に入れておこう！　蘇秦は「秦以外の6国同盟を組んで秦に対抗する」という合従策を説いて、6国同盟に成功した。対する張儀は、秦に「6国それぞれに秦との個別同盟を持ちかければ合従策を潰せる」という連衡策を持ちかけ、秦に登用されて6国を分断した。でも、王と対立して、最後は秦を去ったんだ。"
       ],
       "year": "春秋・戦国時代",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "諸子百家の登場",
       "sourceText": {
         "chapter": 3,
@@ -2440,17 +2554,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "蘇秦",
           "at": [
             112.5,
             34.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/suqin-diplomat.png",
+          "bubble": "六国合従策で秦に対抗！"
         },
         {
           "name": "張儀",
@@ -2458,11 +2570,11 @@ export const chapterEdition = {
             108.7,
             34.3
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhangyi-diplomat.png",
+          "bubble": "連衡策で六国を各個撃破！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2488,7 +2600,7 @@ export const chapterEdition = {
         "孫子や呉子の説いた兵家は、「どうやったら戦いに勝てるか」という兵法や戦略だ。有名な言葉だと「彼を知り己を知れば、百戦して殆うからず」とか、武田信玄の軍旗で有名な「風林火山」も孫子の兵法の一部だよ。あとは、言葉と本質の関係を探る名家は、「白馬非馬論」で有名な公孫竜の名前はおさえておこう。最後に、農家は神農の教えを理想として、農民の立場から農耕の重要性を説いた人たちだ。代表的な思想家は許行だよ。"
       ],
       "year": "春秋・戦国時代",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "諸子百家の登場",
       "sourceText": {
         "chapter": 3,
@@ -2530,17 +2642,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "鄒衍",
           "at": [
             118.3,
             36.8
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zouyan-philosopher.png",
+          "bubble": "陰陽五行説を提唱"
         },
         {
           "name": "孫子",
@@ -2548,9 +2658,8 @@ export const chapterEdition = {
             120.6,
             31.3
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/sunzi-strategist.png",
+          "bubble": "敵を知り己を知れば百戦危うからず"
         },
         {
           "name": "呉子",
@@ -2558,9 +2667,8 @@ export const chapterEdition = {
             114,
             35
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wuzi-strategist.png",
+          "bubble": "内を修め外を治める兵法"
         },
         {
           "name": "公孫竜",
@@ -2568,9 +2676,12 @@ export const chapterEdition = {
             114,
             35
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/gongsunlong-logician.png",
+          "bubble": "白馬非馬の論を展開",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "許行",
@@ -2578,11 +2689,15 @@ export const chapterEdition = {
             114,
             35
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xuxing-agriculturist.png",
+          "bubble": "君民並耕の農家思想",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2610,7 +2725,7 @@ export const chapterEdition = {
         "前4世紀、秦の孝公は商鞅を登用して、法家に基づく中央集権化を進めたよ。商鞅がおこなった変法は、「国の隅々まで国王の命令がいきわたる」システムをつくることだ。新しく占領した邑を国王直轄にするために県を置き、県をいくつかまとめて郡を設置した。「小邑が県、大邑が郡」って感じだよ。これで秦は、「邑と邑を線で結ぶ」邑制国家から、郡県制によって「領域を面で支配」する領域国家にいち早く転換した。さらに農村では治安維持や徴税に連帯責任を負わせる什伍の制を導入したよ。また、出身氏族に関係なく手柄を立てれば出世できる制度（軍功爵）を取り入れた。もちろん失敗すれば左遷されるけどさ……。あと、孝公の時代に都が渭水盆地の咸陽に遷された。こうして、商鞅の改革が秦を強国に成長させたんだよ。"
       ],
       "year": "前4世紀〜前202年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "秦の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -2661,17 +2776,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "商鞅",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/shangyang-reformer.png",
+          "bubble": "変法を実施し秦を強国へ！"
         },
         {
           "name": "孝公",
@@ -2679,11 +2792,15 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/duke-xiao-qin.png",
+          "bubble": "商鞅を登用し秦の富国強兵を断行",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2707,7 +2824,7 @@ export const chapterEdition = {
         "強国となった秦は、韓・魏・趙や四川地方、さらに長江流域へと攻め込み、前256年には、洛邑近辺にかろうじて残っていた周を滅ぼして中原に進出した。その後、秦王の政が登場して東方の6国を次々と征服すると、前221年には斉を滅ぼして中国を統一した。そして、秦王の政が最初にやったのは、自分にふさわしい称号を考えることだった。「これまでの君主の称号“王”は、しょせん一地方の支配者に過ぎない。もっとすごい名前を！」と彼がたどり着いたのが「皇帝」の称号だよ。「煌々たる（光り輝く）帝王」って意味だけど、これって伝説上の君主「五帝」よりもすごいから、そこに神である三皇の「皇」をつけて「皇帝」ってことだ。もう「三皇五帝」をあわせちゃったくらいすごい名前だ。そして、自分は「始皇帝」と称し、その後は「二世皇帝、三世皇帝……」と続けることになった。"
       ],
       "year": "前4世紀〜前202年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "秦の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -2802,19 +2919,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "始皇帝",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/shihuangdi-emperor.png",
+          "bubble": "天下を統一し最初の「皇帝」となる！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -2886,7 +3002,7 @@ export const chapterEdition = {
         "始皇帝は法家の李斯の意見を取り入れて、まず全国に郡県制を施行した。全国を36郡に分けて郡の下の県を統括させ、各郡には守（行政）・尉（軍事）・監（監察）の3長官を置いた。そして、中央には丞相（最高行政官）、太尉（軍事の最高官）、御史大夫（監察の長官）を置き、その下にある官僚組織を手足のように使って皇帝が全国を直接支配したんだ。さらに中央の命令を全国に共通して送るために文字を小篆や隷書に統一し、車軌（馬車などの車輪の幅）を統一して交通の便をよくした。さらに、交易がスムーズに進むように度量衡（現在だと“メートル、グラム、リットル”などの単位）を統一し、貨幣も半両銭に統一したよ。"
       ],
       "year": "前4世紀〜前202年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "秦の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -2921,17 +3037,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "始皇帝",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/shihuangdi-emperor.png",
+          "bubble": "天下を統一し最初の「皇帝」となる！"
         },
         {
           "name": "李斯",
@@ -2939,11 +3053,15 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/lisi-chancellor.png",
+          "bubble": "法家思想で郡県制と文字統一を推進！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -2967,7 +3085,7 @@ export const chapterEdition = {
         "また、全国に皇帝のすごさを見せつけるために、咸陽の大改造をおこなったよ。まず、全国の富豪12万戸を咸陽に移住させると、東西約700m、南北約120m、宮殿内には12mの旗が立てられるほど巨大な阿房宮を建設した。東京ドーム2個分くらいだな。これ、現代に持ってきてもビックリするくらいの大宮殿だ。さらに即位した時点から自分のお墓である驪山陵の造営を始めているよ。ここには巨大な地下宮殿がつくられ、兵馬俑（陶製で実物大の人や馬の人形）も出土しているよ。"
       ],
       "year": "前4世紀〜前202年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "秦の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -2991,7 +3109,17 @@ export const chapterEdition = {
       ],
       "tags": [],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "咸陽",
+          "at": [
+            108.7,
+            34.33
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [
         {
           "name": "阿房宮",
@@ -2999,9 +3127,9 @@ export const chapterEdition = {
             108.82,
             34.26
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/epang-palace.png",
           "kind": "prop",
-          "size": 42
+          "size": 48
         },
         {
           "name": "驪山陵",
@@ -3009,9 +3137,9 @@ export const chapterEdition = {
             109.25,
             34.38
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/terracotta-army.png",
           "kind": "prop",
-          "size": 42
+          "size": 44
         },
         {
           "name": "兵馬俑",
@@ -3019,9 +3147,9 @@ export const chapterEdition = {
             109.25,
             34.38
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/terracotta-army.png",
           "kind": "prop",
-          "size": 42
+          "size": 44
         }
       ],
       "routes": [],
@@ -3047,7 +3175,7 @@ export const chapterEdition = {
         "こんなふうにさまざまな統一政策をおこなった始皇帝は、さらに言論や思想の統一、焚書・坑儒をやった。これは、皇帝の前で郡県制を批判された李斯の反撃がきっかけだとか、不老不死の仙薬を求めた始皇帝が学者にだまされたのに激怒して、見せしめに殺したとか、理由はいろいろいわれているけど、皇帝の政策に対する批判の根拠になるような書物を一掃するのが目的だよ。そこで、農業・医学・占い（卜筮）以外の書物を焼かせ、翌年、儒者を中心に皇帝を非難した460人余りの学者を生き埋めにしたとされている。「坑」の字は「土に埋めるから“土（つちへん）”」ね。漢字に気をつけよう！　これが、のちの儒学者たちに「焚書・坑儒」と呼ばれるようになった事件だ。"
       ],
       "year": "前4世紀〜前202年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "秦の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -3069,17 +3197,15 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "始皇帝",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/shihuangdi-emperor.png",
+          "bubble": "天下を統一し最初の「皇帝」となる！"
         },
         {
           "name": "李斯",
@@ -3087,11 +3213,15 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/lisi-chancellor.png",
+          "bubble": "法家思想で郡県制と文字統一を推進！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -3117,7 +3247,7 @@ export const chapterEdition = {
         "さらに、南にも50万もの軍を送って百越（たくさんの民族の総称）を征服し、南海郡（現在の広州だよ）のほか桂林郡、象郡の3郡を設置したよ。ここは、華南からベトナム北部に至る地域で、現在だと半分以上が“中国のなか”だね。"
       ],
       "year": "前4世紀〜前202年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "秦の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -3259,17 +3389,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "始皇帝",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/shihuangdi-emperor.png",
+          "bubble": "天下を統一し最初の「皇帝」となる！",
+          "route": 0
         },
         {
           "name": "蒙恬",
@@ -3277,19 +3406,24 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
+          "image": "ancient/mengtian-general.png",
+          "bubble": "匈奴を撃退し万里の長城を修築！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
+        }
+      ],
+      "props": [
         {
           "name": "万里の長城",
           "at": [
             116,
             40.4
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/great-wall-china.png",
           "kind": "prop",
-          "size": 42
+          "size": 48
         }
       ],
       "routes": [
@@ -3387,7 +3521,7 @@ export const chapterEdition = {
         "前209年、長城防衛の兵士として徴発された農民たちによる陳勝・呉広の乱が起きると、生活に苦しんだ農民がどんどん集まり、中国史上初の大農民反乱になった。陳勝が反乱を起こしたときの言葉「王侯将相いずくんぞ種あらんや」は、「エライ地位だって生まれとは関係ない！　力で奪い取って何が悪い！」ってことだよね。まあ、この反乱は約半年で崩壊しちゃったんだけど、これにあわせるように各地で次々と秦の打倒を唱える反乱が起きた。"
       ],
       "year": "前4世紀〜前202年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "秦の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -3429,37 +3563,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "始皇帝",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "驪山",
-          "at": [
-            109.25,
-            34.38
-          ],
-          "image": "ancient/temple.svg",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "阿房宮",
-          "at": [
-            108.82,
-            34.26
-          ],
-          "image": "ancient/temple.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/shihuangdi-emperor.png",
+          "bubble": "天下を統一し最初の「皇帝」となる！"
         },
         {
           "name": "胡亥",
@@ -3467,9 +3579,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/huhai-emperor.png",
+          "bubble": "二世皇帝として即位",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "陳勝",
@@ -3477,9 +3592,8 @@ export const chapterEdition = {
             116.5,
             33.7
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/chensheng-rebel.png",
+          "bubble": "王侯将相いずくんぞ種あらんや！"
         },
         {
           "name": "呉広",
@@ -3487,9 +3601,34 @@ export const chapterEdition = {
             116.5,
             33.7
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wuguang-rebel.png",
+          "bubble": "大沢郷で陳勝とともに蜂起！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
+        }
+      ],
+      "props": [
+        {
+          "name": "驪山",
+          "at": [
+            109.25,
+            34.38
+          ],
+          "image": "ancient/terracotta-army.png",
           "kind": "prop",
-          "size": 42
+          "size": 44
+        },
+        {
+          "name": "阿房宮",
+          "at": [
+            108.82,
+            34.26
+          ],
+          "image": "ancient/epang-palace.png",
+          "kind": "prop",
+          "size": 48
         }
       ],
       "routes": [],
@@ -3515,7 +3654,7 @@ export const chapterEdition = {
         "このなかから有力となったのが、項羽と劉邦だ。もともとは二人ともかつての楚の末裔を立ててつくった「楚軍」にいたんだ。項羽は秦に殺された楚の名将の一族出身で、上将軍として権力を握ると各地で秦軍を破った。ただ、項羽は秦に対する恨みが深すぎたのかな……敵の秦兵20万人を穴埋めにするなど、極端なこともやってるよ。一方、沛（現在の江蘇省）の農民の家に生まれた劉邦は、もともとムラの警察官（亭長）だったけど逃亡し、そこから群盗の親分になって子分を集めまくった。下級の役人から商人・職人から、それこそチンピラまでみんな子分にするの。こりゃ、趣味「子分集め」だ。さらに「法家による厳しい支配をやめて、法三章（殺人、窃盗、傷害は罰せられる）のみにする」と約束して各地に味方を増やし、前206年、ついに項羽よりも早く咸陽に到達して秦を降伏させた。遅れて咸陽に着いた項羽は「鴻門の会」で一度は劉邦を従えたんだけど、その後二人の直接戦争になって、最後は垓下の戦いで劉邦が勝利！　これ、四面楚歌の故事で有名だね。「騅逝かざるを　奈何すべき　虞や、虞や汝を奈何せん……」って知ってる？　そして前202年、劉邦が皇帝に即位して漢（前漢）ができたんだ。"
       ],
       "year": "前4世紀〜前202年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "秦の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -3578,17 +3717,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "項羽",
           "at": [
             117.2,
             34.2
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xiangyu-overlord.png",
+          "bubble": "力抜山兮気蓋世！西楚の覇王"
         },
         {
           "name": "劉邦",
@@ -3596,11 +3733,11 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/liubang-emperor.png",
+          "bubble": "漢を建国！大風起きて雲飛揚す"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -3628,7 +3765,7 @@ export const chapterEdition = {
         "まず劉邦は、秦がつくった「皇帝」の称号に加えて、周が使っていた伝統的な「天子」の称号を復活させると、郡国制を採用したよ。これは秦がつくった郡県制を土台にしつつ、長安周辺は直轄地（ここは郡県制だ）としたうえで、地方では皇帝の一族や功臣に封土を与える封建制を併用したんだよ。郡単位の領土を与えられたのが「王国」で、王には劉氏一族（同姓諸侯王）と功臣（異姓諸侯王）が封じられる。「功臣」っていうのは劉邦の子分たちに褒美をあげた、ってことだよ。ってことは、どういうことかというと、郡国制は「郡県制と封建制の併用」だ。そのうえ、中国では「国王」っていうのは地方の支配者だから、皇帝の臣下だよ。名前にだまされないでね！　そして、農村でも秦のような厳しい統治はやめて、県の下に郷・亭・里を置いてムラの有力者（父老）に支配を任せたんだ（郷里制）。"
       ],
       "year": "前202年〜後8年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "前漢",
       "sourceText": {
         "chapter": 3,
@@ -3694,19 +3831,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "劉邦",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/liubang-emperor.png",
+          "bubble": "漢を建国！大風起きて雲飛揚す"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -3730,7 +3866,7 @@ export const chapterEdition = {
         "こんなふうに国内の支配を固めた劉邦だったけど、北方では匈奴全盛期の冒頓単于に白登山の戦い［前200］で負けたから、毎年の贈り物（歳貢）と皇女を単于の奥さんとして送る屈辱的な和約を結んだよ。これ以後、前漢が匈奴に攻め込むことは当分ない。だって、また負けたらどうしようもないもんね。"
       ],
       "year": "前202年〜後8年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "前漢",
       "sourceText": {
         "chapter": 3,
@@ -3769,17 +3905,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "劉邦",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/liubang-emperor.png",
+          "bubble": "漢を建国！大風起きて雲飛揚す"
         },
         {
           "name": "冒頓単于",
@@ -3787,11 +3921,20 @@ export const chapterEdition = {
             110,
             46
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/modu-chanyu.png",
+          "bubble": "草原を統一し漢軍を白登山に包囲！"
+        },
+        {
+          "name": "冒頓単于",
+          "at": [
+            113.4,
+            40.15
+          ],
+          "image": "ancient/modu-chanyu.png",
+          "bubble": "漢の高祖を白登山に7日間包囲！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -3817,7 +3960,7 @@ export const chapterEdition = {
         "第6代の景帝は残っていた諸侯を潰しにかかった。これに対し劉氏一族の7人の王（同姓諸侯王）たちは「そっちが潰す気なら、その前にこっちから皇帝を倒すぞ」とばかりに、呉王を中心に反乱を起こした。これが呉楚七国の乱だ。景帝はわずか3カ月でこれを武力鎮圧すると、地方（王国）の支配権を中央から派遣した官僚に置き換え、生き残った諸侯たちも都に移したから、この時点で前漢は実質的に郡県制になったんだよ。"
       ],
       "year": "前202年〜後8年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "前漢",
       "sourceText": {
         "chapter": 3,
@@ -3859,17 +4002,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "劉邦",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/liubang-emperor.png",
+          "bubble": "漢を建国！大風起きて雲飛揚す"
         },
         {
           "name": "呂后",
@@ -3877,9 +4018,12 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/empress-lu.png",
+          "bubble": "劉氏一族を抑え政権を掌握",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "景帝",
@@ -3887,11 +4031,15 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-jing-han.png",
+          "bubble": "呉楚七国の乱を鎮圧し中央集権化！",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -3919,7 +4067,7 @@ export const chapterEdition = {
         "さらに、地方の有能な人材を皇帝の周辺に集めるために、郷挙里選を採用した。これは、地方長官が有能な人物を中央に推薦する官吏登用制度だよ。さらに董仲舒の意見を採用して、秦代の法家にかえて儒学を重視した。これって「子どもが親に従うように、官僚は皇帝に従う」って感じに、儒学を皇帝の専制政治と矛盾しないようにして、官僚たちに学ばせようってことだ。だから仁（＝愛）よりも礼（＝秩序）が、さらに君臣関係での「忠」が重視された。だって、皇帝と官僚に愛が芽生えてもしようがない。そして五経博士が設置され（五経それぞれの博士がいるってことね）、皇帝支配にあうような儒学を普及させたんだよ。ちなみに、五経とは「詩経」「書経」「易経」「春秋」「礼記」の五つ。ほら、「礼」が入ってるでしょ！"
       ],
       "year": "前202年〜後8年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "前漢",
       "sourceText": {
         "chapter": 3,
@@ -3966,17 +4114,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "武帝",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wudi-emperor.png",
+          "bubble": "前漢の全盛期！塩鉄専売と積極的外征"
         },
         {
           "name": "董仲舒",
@@ -3984,11 +4130,15 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/dongzhongshu-scholar.png",
+          "bubble": "儒教を官学として国教化することを提案！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -4012,7 +4162,7 @@ export const chapterEdition = {
         "以後、中国では秦の焚書・坑儒で失われた経典を復元するために、字句の解釈を研究する訓詁学が発達したよ。それに、「この漢字の意味は何だ？？」って考えている限り、皇帝に反逆するようなことにはならないもんね。漢字研究の完成形は、後漢の許慎が著した『説文解字』だ。こうして、前漢末ころには儒学が官学化されたといわれているよ（新の王莽期などの異説もある）。"
       ],
       "year": "前202年〜後8年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "前漢",
       "sourceText": {
         "chapter": 3,
@@ -4070,17 +4220,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "許慎",
           "at": [
             113.8,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xushen-scholar.png",
+          "bubble": "『説文解字』で漢字を体系化"
         },
         {
           "name": "王莽",
@@ -4088,11 +4236,11 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wangmang-usurper.png",
+          "bubble": "新を建て周代の礼制を復古！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -4116,7 +4264,7 @@ export const chapterEdition = {
         "高祖以来ずっと、前漢は匈奴に和親策をとっていたけど、国内の支配を確立した武帝は、いよいよ匈奴に対して反撃に出るよ！　まず武帝は、かつて匈奴に敗れて西方に逃げていった大月氏との同盟を狙って、張騫を派遣した。しかし、張騫は大月氏に行く途中で匈奴に捕まった。匈奴は張騫に「こっちの味方になれ！」って誘ったんだけど、張騫は10年以上もチャンスを狙ってやっと脱出！　ついに大月氏にたどり着いた。ただ、状況は変わっていたよ。大月氏は中央アジアで勢力を拡大して匈奴への恨みなんか忘れていたから「軍事同盟なんか結ぶ気はありません」と断られ、張騫は同盟を断念して帰国したんだ。この情報を耳にしたのか、ほぼ同じころに武帝は衛青（武帝の義弟）・霍去病（武帝の后の甥）に命じて匈奴遠征を開始すると、オルドスから河西回廊（甘粛地方）に至る地域から匈奴を追い出した。そして、この地域に烏孫を招き入れて匈奴に対抗しようと、再び張騫を派遣して烏孫との同盟を狙ったんだ。でも、やっぱり上手くいかなかったから、武帝は敦煌を中心とする河西4郡を設置して防衛を固めた。ただ、武帝に何度も攻め込まれた匈奴も衰退して、ついに東西に分裂したよ（東匈奴・西匈奴）。"
       ],
       "year": "前202年〜後8年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "前漢",
       "sourceText": {
         "chapter": 3,
@@ -4204,17 +4352,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "張騫",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhangqian-explorer.png",
+          "bubble": "大月氏へ使節として西域を開拓！",
+          "route": 0
         },
         {
           "name": "高祖",
@@ -4222,9 +4369,12 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/liubang-emperor.png",
+          "bubble": "郡国制を敷き天下を平定！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "武帝",
@@ -4232,9 +4382,12 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wudi-emperor.png",
+          "bubble": "前漢の全盛期！塩鉄専売と積極的外征",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         },
         {
           "name": "衛青",
@@ -4242,9 +4395,12 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/weiging-general.png",
+          "bubble": "大将軍として匈奴を北方に追撃！",
+          "offset": [
+            -2.755455298081545e-16,
+            -1.5
+          ]
         },
         {
           "name": "霍去病",
@@ -4252,11 +4408,15 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/huoqubing-general.png",
+          "bubble": "若き名将、河西回廊を制圧！",
+          "offset": [
+            1.5,
+            -3.6739403974420594e-16
+          ]
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "move",
@@ -4312,7 +4472,7 @@ export const chapterEdition = {
         "また、張騫が西域からもたらした情報のなかで、特に武帝が心を惹かれたのが大宛の名馬、いわゆる「汗血馬」だ。これまで匈奴の「騎馬」軍団に悩まされてきた武帝は、この「天馬（天を駆けるほどの名馬）」を奪い取るため、李広利に命じて6万人もの大軍で小国大宛【フェルガナ】を攻撃すると、3000頭以上の馬を得た。ここまでくると、大国の意地だよね。この遠征で漢の力を実感した西域諸国が次々と漢に服属し、前漢の西域支配はタリム盆地まで拡大したんだ。"
       ],
       "year": "前202年〜後8年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "前漢",
       "sourceText": {
         "chapter": 3,
@@ -4366,17 +4526,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "張騫",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhangqian-explorer.png",
+          "bubble": "大月氏へ使節として西域を開拓！"
         },
         {
           "name": "武帝",
@@ -4384,9 +4542,12 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wudi-emperor.png",
+          "bubble": "前漢の全盛期！塩鉄専売と積極的外征",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "李広利",
@@ -4394,11 +4555,15 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/liguangli-general.png",
+          "bubble": "大宛（フェルガナ）に遠征し汗血馬を獲得！",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -4422,7 +4587,7 @@ export const chapterEdition = {
         "武帝の遠征は北や西ばかりじゃない！　南では秦末に南海郡尉（秦の官僚だから中国人だ）の趙佗が独立して南越国を建て、漢に対抗していた。武帝は10万の軍勢を送って南越国を降伏させ、南海郡など9郡を設置（南海9郡）し、現在のベトナム中部までを支配した。南海9郡のうち、交趾郡は現在のハノイ、最南に位置する日南郡は現在のフエ【ユエ】だね。一方、東の朝鮮では高祖【劉邦】の時代に燕から亡命した衛満が衛氏朝鮮を建てていたんだけど、武帝のころには漢に従うこともなく、さらに周辺諸国の漢への入朝を妨害したりしていたんだ。これに怒った武帝は朝鮮を攻撃して征服し、楽浪郡など朝鮮4郡（楽浪、玄菟、臨屯、真番）を設置したよ。武帝は中国から見ると東西南北すべてに遠征したことになるね。"
       ],
       "year": "前202年〜後8年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "前漢",
       "sourceText": {
         "chapter": 3,
@@ -4570,17 +4735,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "武帝",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wudi-emperor.png",
+          "bubble": "前漢の全盛期！塩鉄専売と積極的外征",
+          "route": 0
         },
         {
           "name": "趙佗",
@@ -4588,9 +4752,8 @@ export const chapterEdition = {
             113.26,
             23.13
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhaotuo-king.png",
+          "bubble": "南越国を建国"
         },
         {
           "name": "高祖",
@@ -4598,9 +4761,12 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/liubang-emperor.png",
+          "bubble": "郡国制を敷き天下を平定！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "劉邦",
@@ -4608,9 +4774,12 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/liubang-emperor.png",
+          "bubble": "漢を建国！大風起きて雲飛揚す",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         },
         {
           "name": "衛満",
@@ -4618,11 +4787,11 @@ export const chapterEdition = {
             126,
             39
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/weiman-king.png",
+          "bubble": "衛氏朝鮮を建国"
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -4699,7 +4868,7 @@ export const chapterEdition = {
         "こうした政策は商人たちの利益を奪うものだった。反発した商人たちは「どうせ儲からないから、今あるお金で土地を買おう！」と、大土地所有者になったんだよ。"
       ],
       "year": "前202年〜後8年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "前漢",
       "sourceText": {
         "chapter": 3,
@@ -4741,19 +4910,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "桑弘羊",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/sanghongyang-official.png",
+          "bubble": "均輸法・平準法・専売制を推進！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -4779,7 +4947,7 @@ export const chapterEdition = {
         "さらに宮廷内部は、外戚や宦官の権力闘争で混乱を極めた。宦官というのは、もともとは後宮に仕える去勢した側近のことね。中国は一夫多妻制だから、後宮の女性はみんな皇帝の奥さんになる。だから世話をするのは男なんだけど、その側近が皇后と浮気して子どもができたらマズい！　だって、次の皇帝になるかもしれないでしょ……。そこで、去勢した宦官が後宮に仕えた。宦官は、自分の跡継ぎができないから、とにかく自分が権力を握ることばかり考えて、次の皇帝になりそうな子を、幼いときから手なずけたんだよ。"
       ],
       "year": "前202年〜後8年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "前漢",
       "sourceText": {
         "chapter": 3,
@@ -4814,19 +4982,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "哀帝",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-ai-han.png",
+          "bubble": "限田策を試みるも挫折"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -4852,7 +5019,7 @@ export const chapterEdition = {
         "さて話を漢に戻すと、わずか9歳の平帝が即位すると、王莽が娘を皇后にして外戚となり、西周の周公旦の話をなぞって権力を握った。さらに平帝を謀殺！　未来を予言するお告げ（讖緯説）を使って漢を乗っ取り「新」を建国して、前漢は滅亡したんだ。"
       ],
       "year": "前202年〜後8年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "前漢",
       "sourceText": {
         "chapter": 3,
@@ -4908,17 +5075,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "王莽",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wangmang-usurper.png",
+          "bubble": "新を建て周代の礼制を復古！"
         },
         {
           "name": "周公旦",
@@ -4926,11 +5091,11 @@ export const chapterEdition = {
             108.77,
             34.23
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/duke-of-zhou.png",
+          "bubble": "封建制と礼楽の基礎を整備"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -4960,7 +5125,7 @@ export const chapterEdition = {
         "そして、山東では大規模な農民反乱が起きた。反乱軍の者たちが眉を赤く染めていたから赤眉の乱だよ。敗れた王莽は、長安に侵入した反乱軍に殺され、新はあっけなく滅んでしまった。"
       ],
       "year": "8〜220年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "新〜後漢",
       "sourceText": {
         "chapter": 3,
@@ -5023,19 +5188,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "王莽",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wangmang-usurper.png",
+          "bubble": "新を建て周代の礼制を復古！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -5061,7 +5225,7 @@ export const chapterEdition = {
         "光武帝はまず長安で赤眉軍を滅ぼし、前漢の制度をもとにしつつ、行政や財政を大改革したよ。複雑になりすぎた官僚の数を減らして皇帝に権力を集中し、儒学を学んだ官僚を中心に統治の安定に努めた。ただ、光武帝は豪族たちの協力で頼りだから、地方豪族の力は抑えられないよね。だから、後漢は豪族連合政権ともいわれ、地方では彼らの大土地所有が進んでいった。結局、中国の統一を完全に回復するまでに10年以上、さらに周辺の諸民族との関係が安定するまでには20年もかかった。光武帝が即位してから30年、やっと漢の支配が安定を取り戻したんだ。"
       ],
       "year": "8〜220年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "新〜後漢",
       "sourceText": {
         "chapter": 3,
@@ -5134,17 +5298,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "光武帝",
           "at": [
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/guangwudi-emperor.png",
+          "bubble": "後漢を創建！洛陽を都とし漢を中興"
         },
         {
           "name": "景帝",
@@ -5152,9 +5314,8 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-jing-han.png",
+          "bubble": "呉楚七国の乱を鎮圧し中央集権化！"
         },
         {
           "name": "劉秀",
@@ -5162,11 +5323,15 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/guangwudi-emperor.png",
+          "bubble": "豪族の支持を得て赤眉の乱を収拾！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -5236,7 +5401,7 @@ export const chapterEdition = {
         "光武帝は国内の安定を優先し対外政策には消極的だったから、大規模な遠征はやらないよ。ベトナム（交趾郡）で起きた徴姉妹の反乱を鎮圧したり、倭（日本）の奴国の朝貢に対して「漢委奴国王印」を授けたくらいかな。福岡県で見つかった金印は、光武帝からもらったものだね。こんなふうに、周辺諸国が中国の皇帝に貢物を贈った（これが朝貢）、かわりに皇帝から国王などの中国の官爵を授かる（こっちが冊封）ことで、中国を中心とした国際関係ができた。この冊封体制は歴代の王朝によって完成され、清朝まで続くよ。"
       ],
       "year": "8〜220年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "新〜後漢",
       "sourceText": {
         "chapter": 3,
@@ -5304,19 +5469,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "光武帝",
           "at": [
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/guangwudi-emperor.png",
+          "bubble": "後漢を創建！洛陽を都とし漢を中興"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -5342,7 +5506,7 @@ export const chapterEdition = {
         "和帝時代になると、後漢は西域支配を回復するよ。91年には班超が西域都護に任命されて亀茲【クチャ】に都護府を置くと、西域のオアシス都市を次々に服属させた。さらに、部下の甘英を大秦国（ローマ帝国）に派遣したけど、甘英は条支国（シリアらしい）まで行ったところで「この先の海は危ないぞ」と聞いて、仕方なく引き返したと『後漢書』西域伝には書いてある。パルティアの妨害ともいわれているね。"
       ],
       "year": "8〜220年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "新〜後漢",
       "sourceText": {
         "chapter": 3,
@@ -5450,17 +5614,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "武帝",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wudi-emperor.png",
+          "bubble": "前漢の全盛期！塩鉄専売と積極的外征",
+          "route": 0
         },
         {
           "name": "王莽",
@@ -5468,9 +5631,12 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wangmang-usurper.png",
+          "bubble": "新を建て周代の礼制を復古！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "班超",
@@ -5478,9 +5644,8 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/banchao-protector.png",
+          "bubble": "西域都護として50余国を服属させる！"
         },
         {
           "name": "甘英",
@@ -5488,11 +5653,15 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/ganying-envoy.png",
+          "bubble": "大秦国（ローマ）を目指し条支国へ！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "move",
@@ -5550,7 +5719,7 @@ export const chapterEdition = {
         "まず、内陸ではアラム人の交易やアレクサンドロスの東方遠征で、西アジアからアラル海に流れ込むシル川・アム川の流域（ソグディアナ）まで交易圏が広がっていた。そしてこの地域に前漢の武帝が進出してきて、交易圏が中国までつながった。これが一般的に「シルクロード」と呼ばれている「オアシスの道」だよ。この交易路を西へと向かったのが甘英だ。班超が甘英に「大秦国まで行ってこい」と命じたのは、それだけ東西交易が盛んにおこなわれていたからだ。この時代に繁栄した国が、西アジアのパルティア、そして中央アジアから北インドを支配したクシャーナ朝だから、両国の全盛期は後漢・ローマ帝国と同じ2世紀だ。"
       ],
       "year": "8〜220年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "新〜後漢",
       "sourceText": {
         "chapter": 3,
@@ -5697,17 +5866,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "アレクサンドロス",
           "at": [
             44.42,
             32.54
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/alexander-conqueror.png",
+          "bubble": "大宛の起源に関わるギリシア大王"
         },
         {
           "name": "武帝",
@@ -5715,9 +5882,8 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wudi-emperor.png",
+          "bubble": "前漢の全盛期！塩鉄専売と積極的外征"
         },
         {
           "name": "甘英",
@@ -5725,9 +5891,8 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/ganying-envoy.png",
+          "bubble": "大秦国（ローマ）を目指し条支国へ！"
         },
         {
           "name": "班超",
@@ -5735,11 +5900,15 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/banchao-protector.png",
+          "bubble": "西域都護として50余国を服属させる！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -5765,7 +5934,7 @@ export const chapterEdition = {
         "東西交易路に位置する国は、ローマと後漢の全盛期（2世紀）に交易の繁栄を受けて発展したけど、3世紀になるとまとめて衰退してしまう。それは、後漢とローマが衰退したからだよ。ここは同時代を意識しながら確認してね。"
       ],
       "year": "8〜220年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "新〜後漢",
       "sourceText": {
         "chapter": 3,
@@ -5915,7 +6084,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "インド洋",
+          "at": [
+            60,
+            10
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -5942,7 +6121,7 @@ export const chapterEdition = {
         "2世紀後半には外戚と宦官の権力闘争から、外戚を追放して爵位と財産を没収した宦官の力がむちゃくちゃ強くなった。これに対して儒学を学んだ官僚たちは宦官政治（濁流）を批判して、政治の正常化（清流）を主張し始めた。でもね、宦官はいつも皇帝のそばにいるから、皇帝を動かせる。結局、宦官にそそのかされた皇帝が儒学派官僚（「党人」）を一斉に逮捕し、公職追放にしたんだ。これが党錮の禁だよ。その後、宦官たちによる官僚弾圧がさらに激しくなると、3年後には再び弾圧が起こって、今度は100人以上が処刑されてしまった。もはや、乱れた政治を正す人がいなくなっちゃったよ。ちなみに、党錮の禁でクビになった官僚のなかには、「もう政治の世界はまっぴらだ」と思って学問に専念した人もいたよ。訓詁学を大成した鄭玄もその一人だね。"
       ],
       "year": "8〜220年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "新〜後漢",
       "sourceText": {
         "chapter": 3,
@@ -5984,19 +6163,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "鄭玄",
           "at": [
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhengxuan-scholar.png",
+          "bubble": "今文学と古文学を統合し訓詁学を大成！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -6020,7 +6198,7 @@ export const chapterEdition = {
         "こうした政治の犠牲になったのは、貧しい農民たちだよ。重税と豪族の圧迫に苦しんだ農民たちは、癒しを求めて新興の宗教教団に集まった。張角が始めた太平道や張陵が始めた五斗米道【天師道】は、もともとは病気治しの宗教だったはずなのに、困窮した農民たちを吸収して数十万人にまで膨らんだ。そして、184年には、頭に黄色い布を巻いた太平道の信者が華北で黄巾の乱を起こした。「蒼天已に死す、黄天当に立つべし（青の世が終わり、黄色の世がくる、って意味だ）」をスローガンに、頭に黄色い頭巾をかぶっていたから黄巾の乱だよ。反乱に驚いた宦官たちは、公職追放にしたはずの「党人」を再び官僚に戻し、曹操や孫堅などの漢末軍閥を使って反乱を鎮圧したけど、挙兵した官僚や豪族たちは自立して軍閥となり、後漢政府の言うことを全く聞かなくなった。例えば、遼東半島の軍閥公孫氏は独立政権をつくって、楽浪郡の南に勝手に帯方郡を設置しちゃうしさ。こうして中国内部はバラバラになり、後漢の滅亡が決定的になったんだよ。"
       ],
       "year": "8〜220年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "新〜後漢",
       "sourceText": {
         "chapter": 3,
@@ -6092,17 +6270,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "張角",
           "at": [
             114.5,
             37
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhangjiao-taiping.png",
+          "bubble": "蒼天已死黄天当立！太平道を率い蜂起"
         },
         {
           "name": "張陵",
@@ -6110,9 +6286,8 @@ export const chapterEdition = {
             104,
             30
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhangling-daoist.png",
+          "bubble": "五斗米道（天師道）を創始"
         },
         {
           "name": "曹操",
@@ -6120,9 +6295,8 @@ export const chapterEdition = {
             113,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caocao-warlord.png",
+          "bubble": "唯才是挙！屯田制で中原を統一"
         },
         {
           "name": "孫堅",
@@ -6130,9 +6304,8 @@ export const chapterEdition = {
             118.8,
             32.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/sunjian-warlord.png",
+          "bubble": "江東の虎として挙兵"
         },
         {
           "name": "公孫氏",
@@ -6140,11 +6313,11 @@ export const chapterEdition = {
             122,
             40
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/sunjian-warlord.png",
+          "bubble": "遼東に拠点を置く豪族"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -6172,7 +6345,7 @@ export const chapterEdition = {
         "戦乱だから、家柄や地位に関係なく実力さえあれば活躍できる英雄たちの時代だ！　まず、黄巾の乱を鎮圧する途中で、長安と洛陽の間をさまよっていた献帝（後漢の皇帝）を保護した曹操は、華北の大部分を統一した。同じころ、孫権は長江下流域の物流をおさえて勢力を固め、前漢の末裔を名乗った貧民の劉備は、軍師の諸葛亮や武人の関羽や張飛とともに長江中流の荊州に身を寄せていた。そして、華北を統一して圧倒的な勢力となった曹操が20万人の軍勢を率いて南へと侵攻！　「もはやこれまで……」と思いきや、劉備と孫権の連合軍約5万が、長江を下ってきた曹操の大船団を奇策で焼き払い、壊滅させた。これが赤壁の戦いだ。曹操は中国統一に失敗し、しばらく攻めてこなかった。この間に、孫権は江南地方（長江中流〜下流域）を、劉備は四川地方（長江上流域）を固めたんだね。"
       ],
       "year": "3〜4世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "三国時代〜西晋",
       "sourceText": {
         "chapter": 3,
@@ -6261,17 +6434,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "献帝",
           "at": [
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-xian-han.png",
+          "bubble": "後漢最後の皇帝"
         },
         {
           "name": "曹操",
@@ -6279,9 +6450,8 @@ export const chapterEdition = {
             113,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caocao-warlord.png",
+          "bubble": "唯才是挙！屯田制で中原を統一"
         },
         {
           "name": "孫権",
@@ -6289,9 +6459,8 @@ export const chapterEdition = {
             118.8,
             32.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/sunquan-warlord.png",
+          "bubble": "赤壁の戦いで曹操を破り呉を建国！"
         },
         {
           "name": "劉備",
@@ -6299,9 +6468,8 @@ export const chapterEdition = {
             104,
             30.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/liubei-warlord.png",
+          "bubble": "三顧の礼で諸葛亮を迎え蜀を建国！"
         },
         {
           "name": "諸葛亮",
@@ -6309,9 +6477,12 @@ export const chapterEdition = {
             104,
             30.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhugeliang-strategist.png",
+          "bubble": "天下三分の計！出師表を掲げ北伐",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "関羽",
@@ -6319,9 +6490,12 @@ export const chapterEdition = {
             104,
             30.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/guanyu-general.png",
+          "bubble": "義勇の武将、荊州を守る",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         },
         {
           "name": "張飛",
@@ -6329,11 +6503,15 @@ export const chapterEdition = {
             104,
             30.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhangfei-general.png",
+          "bubble": "長坂橋で曹操軍を一喝！",
+          "offset": [
+            -2.755455298081545e-16,
+            -1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -6405,7 +6583,7 @@ export const chapterEdition = {
         "曹丕が即位すると、劉備や孫権も黙ってなかった！　劉備も成都で皇帝に即位して蜀を建国し、孫権も皇帝に即位して呉を建国し、建業を都とした。こうして、魏・蜀・呉の3国がそれぞれ皇帝を称して対立したから、この時代を三国時代と呼ぶんだ。魏以外の2国は建国者と都がちゃんと書ければ、ほぼOKだからね。あとは、曹丕【文帝】の死後、倭の邪馬台国の女王卑弥呼が魏に朝貢して「親魏倭王」の称号と金印を授かったことが、『魏志倭人伝』『魏書　東夷伝倭人条』に記されている。日本史ガラミだけど、このくらいはおさえておこう！"
       ],
       "year": "3〜4世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "三国時代〜西晋",
       "sourceText": {
         "chapter": 3,
@@ -6479,17 +6657,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "曹操",
           "at": [
             113,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caocao-warlord.png",
+          "bubble": "唯才是挙！屯田制で中原を統一"
         },
         {
           "name": "曹丕",
@@ -6497,9 +6673,8 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caopi-emperor.png",
+          "bubble": "九品官人法を制定し魏を建国（文帝）！"
         },
         {
           "name": "献帝",
@@ -6507,9 +6682,12 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-xian-han.png",
+          "bubble": "後漢最後の皇帝",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "文帝",
@@ -6517,9 +6695,12 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caopi-emperor.png",
+          "bubble": "禅譲を受け魏の初代皇帝となる",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         },
         {
           "name": "孟子",
@@ -6527,9 +6708,8 @@ export const chapterEdition = {
             117,
             35.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/mencius-philosopher.png",
+          "bubble": "性善説と王道政治を主張！"
         },
         {
           "name": "劉備",
@@ -6537,9 +6717,8 @@ export const chapterEdition = {
             104,
             30.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/liubei-warlord.png",
+          "bubble": "三顧の礼で諸葛亮を迎え蜀を建国！"
         },
         {
           "name": "孫権",
@@ -6547,11 +6726,21 @@ export const chapterEdition = {
             118.8,
             32.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/sunquan-warlord.png",
+          "bubble": "赤壁の戦いで曹操を破り呉を建国！"
+        },
+        {
+          "name": "曹操",
+          "at": [
+            114.13,
+            29.86
+          ],
+          "image": "ancient/caocao-warlord.png",
+          "bubble": "水軍が全滅……北へ撤退！",
+          "afterImage": "ancient/chinese-retreat.png"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -6575,7 +6764,7 @@ export const chapterEdition = {
         "ここで、魏のつくった政治制度に注目しよう。まずは土地制度からだ。曹操は流民や兵士に土地を支給する屯田制を施行したよ。これは、漢代にもあった兵士に土地を与えて食糧を自給させる「軍屯」に加えて、新たに没落した農民を集めて荒れ地を耕作させる「民屯」をつくって、兵士の補給と税収の確保を狙った制度だ。戦乱で荒れ地が増えていた華北の実態をふまえた制度だね。「土地を分配して課税する」という制度は、このあとの王朝にも受け継がれていくよ。"
       ],
       "year": "3〜4世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "三国時代〜西晋",
       "sourceText": {
         "chapter": 3,
@@ -6619,19 +6808,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "曹操",
           "at": [
             113,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caocao-warlord.png",
+          "bubble": "唯才是挙！屯田制で中原を統一"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -6655,7 +6843,7 @@ export const chapterEdition = {
         "もう一つが官吏登用制度だ。曹丕は郷挙里選にかえて九品中正【九品官人法】を始めたよ。九品中正は、地方の郡に中央が任命する中正官を置き、各地の有能な人物を一品から九品の9段階に分けて中央に推薦する制度だ。九品中正ってホントは「才能のある人物を登用したい！」って思ってつくった制度なのに、いろいろ問題があるよ。だって、郷挙里選と何が変わると思う？　ワイロを贈る相手が中正官に変わっただけでしょ。結局、有力な豪族たちは代々中央政界の高官を独占して、しかも有力な家同士が結婚して親戚になり、家柄の高さを誇った。これが門閥貴族だよ。別に曹丕は門閥貴族をつくりたかったわけじゃないのに、中国は貴族社会になるんだ。この状況を嘆いた言葉が「上品に寒門なく、下品に勢族なし」だよ。"
       ],
       "year": "3〜4世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "三国時代〜西晋",
       "sourceText": {
         "chapter": 3,
@@ -6685,19 +6873,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "曹丕",
           "at": [
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caopi-emperor.png",
+          "bubble": "九品官人法を制定し魏を建国（文帝）！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -6721,7 +6908,7 @@ export const chapterEdition = {
         "魏は華北で勢力を拡大し「よし！　いよいよ中国統一だ〜」とばかりに、まずは蜀との戦いが始まった。『三国志演義』のなかでは、司馬懿と諸葛亮の戦いは名場面の一つ！　といいつつ、入試ではあまり出ない。そして、五丈原の戦いの陣中で諸葛亮が亡くなったのち、息子の司馬昭が蜀を滅ぼした。こんなふうに、魏の国内では軍閥をまとめる司馬一族が、着々と力をつけて権力を握ると、ついに司馬昭の息子司馬炎が魏からの禅譲で、晋を建国した（西晋）。またまた、「無理やり禅譲」で乗っ取られたね。これで、一番強かったはずの魏も滅んじゃったね。そして280年、呉が滅んじゃったから、晋が中国を統一したよ。"
       ],
       "year": "3〜4世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "三国時代〜西晋",
       "sourceText": {
         "chapter": 3,
@@ -6795,17 +6982,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "司馬懿",
           "at": [
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/simayi-strategist.png",
+          "bubble": "魏の政権を握り晋の基礎を築く"
         },
         {
           "name": "諸葛亮",
@@ -6813,9 +6998,8 @@ export const chapterEdition = {
             104,
             30.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhugeliang-strategist.png",
+          "bubble": "天下三分の計！出師表を掲げ北伐"
         },
         {
           "name": "司馬昭",
@@ -6823,9 +7007,12 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/simazhao-general.png",
+          "bubble": "蜀を滅ぼす",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "司馬炎",
@@ -6833,11 +7020,15 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/sima-yan-emperor.png",
+          "bubble": "三国を統一し西晋を建国（武帝）！",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -6861,7 +7052,7 @@ export const chapterEdition = {
         "中国統一を果たした司馬炎（武帝）は、三国の抗争で疲れ切っていた人びとの生活を再建するために軍備を削減し、さらに占田・課田法を定めて、身分に応じて大土地所有を制限（占田法）するとともに、農民に土地を割り当てて課税（課田法）した。税制は戸調式という家族（戸）ごとに絹や綿を収めさせる制度だよ。魏代では一人ずつに課される人頭税だったから、課税の仕方が変わったね。さらに、官僚には儒学的な教養を求め、一族を各地の王に封じて帝室の友愛に基づく政治を目指し、長男を皇太子にした。こんなふうに、司馬炎は三国時代にずっと戦争向けだった政治体制を、平和な時代にあうように戻そうとしたんだ。"
       ],
       "year": "3〜4世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "三国時代〜西晋",
       "sourceText": {
         "chapter": 3,
@@ -6905,17 +7096,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "司馬炎",
           "at": [
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/sima-yan-emperor.png",
+          "bubble": "三国を統一し西晋を建国（武帝）！"
         },
         {
           "name": "武帝",
@@ -6923,11 +7112,15 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wudi-emperor.png",
+          "bubble": "前漢の全盛期！塩鉄専売と積極的外征",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -6951,7 +7144,7 @@ export const chapterEdition = {
         "ただ、晋の政治は司馬炎の死後、状況が大きく変わるよ……。即位した恵帝は、政治を外戚に任せて何もせず、宮廷は権力闘争で混乱した。そしたら、司馬炎の弟たちが「このボンクラ兄貴め」と怒ったから、一族の諸王が帝位を狙って次々と挙兵する八王の乱が起きた。この反乱では、各地の王たちが周辺民族に兵力を借りたんだよ。そしたら、「晋はショボいな……」と気づいた異民族が次々に侵入して、晋は急速に衰退した。そして、ついに匈奴（南匈奴）が都の洛陽、さらに長安を占領した。この永嘉の乱で晋はあっけなく滅亡したよ。"
       ],
       "year": "3〜4世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "三国時代〜西晋",
       "sourceText": {
         "chapter": 3,
@@ -7005,17 +7198,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "司馬炎",
           "at": [
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/sima-yan-emperor.png",
+          "bubble": "三国を統一し西晋を建国（武帝）！"
         },
         {
           "name": "恵帝",
@@ -7023,11 +7214,15 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-hui-jin.png",
+          "bubble": "八王の乱で西晋が大混乱",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -7051,7 +7246,7 @@ export const chapterEdition = {
         "最後に、ちょっとだけ魏・晋時代の文化史ね。三国時代以来ずっと戦乱だったから、知識人たちは現実から逃避して田舎に引きこもった。そして「聖人に感情はあるのか、ないのか？」とか、「酒と茶はどっちがエライ？」みたいな、「そんなん、どうでもいいじゃん」みたいな議論をするのが流行った。これが清談だよ。議論そのものを楽しむのが目的だから、ウィットを交えたりとか、場の雰囲気とか、そういうのが大事にされたよ。教科書的に言うと「老荘思想に基づく哲学的議論」って説明するけど、簡単に言うと「（酒でも飲みながら）結論はどうでもいいことを好き勝手に議論する」って感じね。清談で有名な人たちをまとめて竹林の七賢と呼んでいるよ。"
       ],
       "year": "3〜4世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "三国時代〜西晋",
       "sourceText": {
         "chapter": 3,
@@ -7081,7 +7276,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "魏",
+          "at": [
+            112.45,
+            34.62
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -7114,7 +7319,7 @@ export const chapterEdition = {
         "4世紀半ばに氐の苻健が建てた前秦は、第3代苻堅の時代に一時華北を統一して、なんと100万もの兵を送り込んで江南に攻め込んだ。「よっしゃ、中国統一」と思ったら、南の東晋に淝水の戦いで敗れ、前秦は崩壊して華北はまたバラバラになった……。そして、中国の南北分裂も決定的になったんだ。"
       ],
       "year": "4〜5世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "五胡十六国時代と東晋",
       "sourceText": {
         "chapter": 3,
@@ -7266,17 +7471,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "劉淵",
           "at": [
             112,
             36
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/liuyuan-xiongnu.png",
+          "bubble": "南匈奴を率い前趙を建国！永嘉の乱"
         },
         {
           "name": "苻健",
@@ -7284,9 +7487,8 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/fujian-ruler.png",
+          "bubble": "氐族を率いて前秦を建国"
         },
         {
           "name": "苻堅",
@@ -7294,11 +7496,15 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/fujian-ruler.png",
+          "bubble": "華北を統一し淝水の戦いで南下！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -7322,7 +7528,7 @@ export const chapterEdition = {
         "じゃあ、同じ時代の南はどうなっていたんだろう？　晋が滅んだとき、江南の軍司令官だった皇族の司馬睿は、建康（もとは呉の都建業）を都に皇帝となり晋を再興した。ここからが東晋だ。「南に移ったのに名前が“東”晋？」と思っちゃいけない。地図を見てごらん。もとの都洛陽と比べたら建康は東でしょ。そして、東晋には異民族の支配を嫌った貴族が北から逃げてきたんだけど、彼らは税金なんか払う気ゼロ。さらに、貧乏な農民も集団で南に移住して（これが流民だね）勝手に村をつくり、「オレたちは、いつかもとのムラに帰るから、税金払わない！」と開き直った。そして、もっと貧乏なヤツらは江南の豪族や貴族の大土地所有（荘園）の下に支配されるようになった。有力者は政界の重要な官職を独占して門閥貴族となったから、当然税金なんか払わない。こうして税収不足になった東晋は、戸籍をつくって北から移住してきた人たちからも税を集めようとした。この戸籍作成が土断法だ。ただ、この政策で華北からの移住者と江南に住んでいた人の区別がなくなり、南北王朝による中国の分断が進む結果になったんだ。"
       ],
       "year": "4〜5世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "五胡十六国時代と東晋",
       "sourceText": {
         "chapter": 3,
@@ -7391,19 +7597,19 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "司馬睿",
           "at": [
             118.8,
             32.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/simarui-emperor.png",
+          "bubble": "江南の建康に逃れ東晋を建国！",
+          "route": 0
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "move",
@@ -7451,7 +7657,7 @@ export const chapterEdition = {
         "一方、華北では五胡十六国の混乱を統一する国が現れた。鮮卑を統一した拓跋珪【道武帝】が平城を都に北魏を建国し、遊牧民の部族制を解体しながら、ちょっとずつ中国の制度を取り入れて漢民族への支配も拡大した。こうして強くなった北魏は、439年に太武帝が華北を統一したよ。これで中国には北と南に二人の皇帝が立つことになった。これが南北朝時代だよ。"
       ],
       "year": "5〜6世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "南北朝時代",
       "sourceText": {
         "chapter": 3,
@@ -7559,17 +7765,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "拓跋珪",
           "at": [
             113.3,
             40.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/tuobagui-emperor.png",
+          "bubble": "鮮卑拓跋部を率いて北魏を建国（道武帝）"
         },
         {
           "name": "道武帝",
@@ -7577,9 +7781,12 @@ export const chapterEdition = {
             113.3,
             40.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/tuobagui-emperor.png",
+          "bubble": "平城を都とし北魏の基盤を確立",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "太武帝",
@@ -7587,11 +7794,15 @@ export const chapterEdition = {
             113.3,
             40.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taiwudi-emperor.png",
+          "bubble": "華北を統一！寇謙之の道教を国教化し廃仏",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -7615,7 +7826,7 @@ export const chapterEdition = {
         "華北を統一した太武帝は、遊牧民の伝統を残しながら中国風の制度や文化を導入していった。例えば、道教教団（新天師道）をつくった寇謙之を登用して道教を国教化すると、道教の神を使って皇帝の権威を示そうとしたんだ。これって「夷狄（野蛮人）は皇帝になれない」っていう儒学の考え方に対抗したんだよ。こうして太武帝と道教の関係が強くなったんだ。"
       ],
       "year": "5〜6世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "南北朝時代",
       "sourceText": {
         "chapter": 3,
@@ -7652,17 +7863,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "太武帝",
           "at": [
             113.3,
             40.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taiwudi-emperor.png",
+          "bubble": "華北を統一！寇謙之の道教を国教化し廃仏"
         },
         {
           "name": "寇謙之",
@@ -7670,11 +7879,15 @@ export const chapterEdition = {
             113.3,
             40.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/kouqianzhi-daoist.png",
+          "bubble": "新天師道を大成し太武帝を補佐",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -7700,7 +7913,7 @@ export const chapterEdition = {
         "こうして、少しずつ教団の形が整ってきた仏教に対抗して、寇謙之は五斗米道【天師道】をもとに、神仙思想や老荘思想を取り込み、仏教の儀礼などの影響を受けて道教教団（新天師道）を形成し、仏教に対抗するために、太武帝に接近した。道教を国教にした太武帝は仏教を弾圧したんだよ。この太武帝の廃仏が、中国史上有名な「三武一宗の法難」の最初だよ。"
       ],
       "year": "5〜6世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "南北朝時代",
       "sourceText": {
         "chapter": 3,
@@ -7773,17 +7986,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "仏図澄",
           "at": [
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/fotudeng-monk.png",
+          "bubble": "西域から後趙に来朝し仏教を布教"
         },
         {
           "name": "ブドチンガ",
@@ -7791,9 +8002,12 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/fotudeng-monk.png",
+          "bubble": "後趙の王に重用された高僧",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "鳩摩羅什",
@@ -7801,9 +8015,8 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/kumarajiva-monk.png",
+          "bubble": "長安で数多くの仏典を漢訳！"
         },
         {
           "name": "クマラジーヴァ",
@@ -7811,9 +8024,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/kumarajiva-monk.png",
+          "bubble": "大乗仏教の経典を美しく漢訳",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "道安",
@@ -7821,9 +8037,8 @@ export const chapterEdition = {
             112,
             32
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/daoan-monk.png",
+          "bubble": "仏典目録を作り釈姓を提唱"
         },
         {
           "name": "慧遠",
@@ -7831,9 +8046,8 @@ export const chapterEdition = {
             116,
             29.5
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/huiyuan-monk.png",
+          "bubble": "白蓮社を結び浄土信仰を提唱"
         },
         {
           "name": "法顕",
@@ -7841,9 +8055,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/faxian-monk.png",
+          "bubble": "グプタ朝インドへ往還し『仏国記』を著す！",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         },
         {
           "name": "寇謙之",
@@ -7851,9 +8068,8 @@ export const chapterEdition = {
             113.3,
             40.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/kouqianzhi-daoist.png",
+          "bubble": "新天師道を大成し太武帝を補佐"
         },
         {
           "name": "太武帝",
@@ -7861,11 +8077,15 @@ export const chapterEdition = {
             113.3,
             40.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taiwudi-emperor.png",
+          "bubble": "華北を統一！寇謙之の道教を国教化し廃仏",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -7891,7 +8111,7 @@ export const chapterEdition = {
         "まず、農耕民支配を固めるために均田制を実施した。これは、農民に露田や桑田などの土地を支給するかわりに課税する制度で、タテマエでは「均等」に「田」を分配して、一人分の土地の広さを同じにした。ただ、この時代は豪族が強いから「みんな同じ広さなら、私たちから土地を取り上げるのか」と怒った。だから、豪族に妥協して妻・奴婢・耕牛にも給田したよ。これなら奴婢や耕牛を持ってる豪族も大土地所有ができる。さらに、農村では戸籍を整備して三長制を施行し、村の有力者が徴税や治安維持をおこなった。均田制や三長制は国家が農民を直接支配するための制度だ。"
       ],
       "year": "5〜6世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "南北朝時代",
       "sourceText": {
         "chapter": 3,
@@ -7947,17 +8167,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "孝文帝",
           "at": [
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xiaowendi-emperor.png",
+          "bubble": "洛陽遷都・均田制・漢化政策を断行！"
         },
         {
           "name": "太武帝",
@@ -7965,11 +8183,11 @@ export const chapterEdition = {
             113.3,
             40.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taiwudi-emperor.png",
+          "bubble": "華北を統一！寇謙之の道教を国教化し廃仏"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -7993,7 +8211,7 @@ export const chapterEdition = {
         "そして、孝文帝は五胡十六国時代と北魏を切り離して、北魏を正統な中国王朝にするために、制度や文化・風習などの中国化を積極的に進めたんだ。まず、中国歴代の都である洛陽へ遷都して「後漢→西晋→北魏」を連続する中国王朝だと示し、さらに遊牧民の伝統だった胡服・胡語・胡姓も禁止した。胡服は馬に乗るためのズボン、胡語は北方民族の言葉、胡姓は鮮卑族が使っていた「2文字以上の名字」だから、これらを全部捨てて「中国風の服、漢語、中国風の『1文字の名字』に変えなさい！」って決めた。だから皇帝の姓も拓跋氏から元氏になったんだ。この漢化政策は、「異民族の五胡十六国と北魏は違う！　北魏は中国王朝だ」ってことを、制度や風俗から示そうとしたんだ。だから、この時代につくられた仏像は、見た目まで変わったよ。太武帝の死後、北魏は仏教保護に変わっていたから、かつての都平城の近郊には、西域から伝わったガンダーラ様式・グプタ様式の影響を受けて雲岡に石窟寺院が建立されていた。それが、洛陽に遷都してから、その近郊につくられた竜門の石窟寺院では中国化しているんだ。要はギリシア顔、インド人顔から中国人顔に変わったってことだよ。"
       ],
       "year": "5〜6世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "南北朝時代",
       "sourceText": {
         "chapter": 3,
@@ -8075,17 +8293,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "孝文帝",
           "at": [
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xiaowendi-emperor.png",
+          "bubble": "洛陽遷都・均田制・漢化政策を断行！"
         },
         {
           "name": "太武帝",
@@ -8093,19 +8309,20 @@ export const chapterEdition = {
             113.3,
             40.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
+          "image": "ancient/taiwudi-emperor.png",
+          "bubble": "華北を統一！寇謙之の道教を国教化し廃仏"
+        }
+      ],
+      "props": [
         {
           "name": "雲岡",
           "at": [
             113.12,
             40.11
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/yungang-grottoes.png",
           "kind": "prop",
-          "size": 42
+          "size": 46
         },
         {
           "name": "竜門",
@@ -8113,9 +8330,9 @@ export const chapterEdition = {
             112.48,
             34.56
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/yungang-grottoes.png",
           "kind": "prop",
-          "size": 42
+          "size": 46
         }
       ],
       "routes": [],
@@ -8143,7 +8360,7 @@ export const chapterEdition = {
         "まず、辺境防衛軍（北鎮）の将軍高歓が、北魏の皇族（孝静帝）を立てて北魏から分裂した（東魏）。これに対抗して別の北鎮の将軍宇文泰も、別の皇族（文帝）を立て（西魏）、東魏に対抗するために、漢民族からも徴兵する府兵制で軍を強化した。そして、東魏、西魏はそれぞれ高歓、宇文泰の子に帝位を奪われ、北斉と北周になったんだ。そして、北周が北斉を滅ぼして華北を統一すると、北周の禅譲を受けた隋が南朝の陳を滅ぼして中国を再統一するよ。"
       ],
       "year": "5〜6世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "南北朝時代",
       "sourceText": {
         "chapter": 3,
@@ -8250,17 +8467,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "孝文帝",
           "at": [
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xiaowendi-emperor.png",
+          "bubble": "洛陽遷都・均田制・漢化政策を断行！"
         },
         {
           "name": "高歓",
@@ -8268,9 +8483,8 @@ export const chapterEdition = {
             114.5,
             36.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/gaohuan-warlord.png",
+          "bubble": "東魏の実権を掌握"
         },
         {
           "name": "孝静帝",
@@ -8278,9 +8492,12 @@ export const chapterEdition = {
             114.5,
             36.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xiaojingdi-emperor.png",
+          "bubble": "東魏の皇帝",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "宇文泰",
@@ -8288,9 +8505,8 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/yuwentai-warlord.png",
+          "bubble": "西魏を動かし府兵制を創始"
         },
         {
           "name": "文帝",
@@ -8298,11 +8514,11 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caopi-emperor.png",
+          "bubble": "禅譲を受け魏の初代皇帝となる"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -8328,7 +8544,7 @@ export const chapterEdition = {
         "さらに、内陸アジアではエフタルが強大化して周辺諸国を圧迫し、西方との交易が打撃を受けたインドではグプタ朝が衰退した。一方、柔然の支配下から離れたモンゴル高原のトルコ系民族（鉄勒）が自立して勢力を広げ、そのなかから突厥が台頭した。突厥はササン朝と同盟してエフタルを滅ぼすと、隋が中国を統一するころまでには中国北方に勢力を拡大するね。"
       ],
       "year": "5〜6世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "南北朝時代",
       "sourceText": {
         "chapter": 3,
@@ -8468,7 +8684,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ローマ帝国",
+          "at": [
+            12.5,
+            41.9
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -8497,7 +8723,7 @@ export const chapterEdition = {
         "建国後の隋にとって一番の問題は、「北朝系（異民族）vs.南朝系（漢民族）」の対立だったから、文帝は政治制度の確立と中央集権化を急いだ。だって、隋は北朝出身だから南朝で力を持っていた門閥貴族は抑えたいけど、漢民族を全部敵にまわすわけにもいかない😨。この「ねじれ」状態を解消するのが、隋の内政だよ。"
       ],
       "year": "581〜618年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "隋の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -8577,17 +8803,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "楊堅",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/yangjian-emperor.png",
+          "bubble": "南北朝を統一し隋を建国（文帝）！科挙創始"
         },
         {
           "name": "文帝",
@@ -8595,11 +8819,11 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caopi-emperor.png",
+          "bubble": "禅譲を受け魏の初代皇帝となる"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -8623,7 +8847,7 @@ export const chapterEdition = {
         "まず、律令（律が刑法、令が行政法・民法）をつくって、北朝の制度を基本に南朝の制度もちょっと取り入れて、唐に続く三省六部の原型をつくった。地方は「州」「県」の2段階にして、人事はすべて中央で決めることにしたよ。郡県制とほぼ同じだけど、隋以降は州県制と呼ぶんだ。また、中央の官僚機構も整えられて、官吏任用制度として科挙（選挙）を採用した。これまでの九品中正では中正官が身内ばかりを優遇して門閥貴族が台頭したよね。この反省から、有能な人材を幅広く登用するために儒学の知識を問う学科試験に変えたんだ。"
       ],
       "year": "581〜618年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "隋の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -8667,7 +8891,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "北朝",
+          "at": [
+            113,
+            37
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -8692,7 +8926,7 @@ export const chapterEdition = {
         "農村では国家が小農民を直接支配するシステムを確立したよ。これは、北朝がつくったさまざまな制度を組み合わせたものだ。まず、北魏で始まった均田制で農民に土地を支給したけど、北魏よりは皇帝の力が強くなってきたから、文帝は耕牛への給田を停止し、煬帝は妻・奴婢への給田もやめた。これで、土地（露田・永業田）を支給されるのは成人男性（丁男）だけになったね。そして、土地を支給された農民には、租庸調の税を課した。全員が同じ広さの土地をもらう均田制を基礎にした税制だから、丁男に一律に課税されるよ。租は穀物（粟2石）、調は絹・綿・麻などの布、庸は年20日の労役だ。もちろん税だからタダ働きだよ😨。ほかに臨時の労働として雑徭【徭役】も課された。さらに、農民は税を負担するだけじゃなくて、府兵制で徴兵された。これは西魏に始まる兵農一致の制度で、もちろんタダで兵士にされちゃう😨。一応、徴兵期間中は租庸調が免除されたけど、税と軍役を両方負担するのは、かなりツラいよね。"
       ],
       "year": "581〜618年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "隋の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -8736,17 +8970,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "文帝",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caopi-emperor.png",
+          "bubble": "禅譲を受け魏の初代皇帝となる"
         },
         {
           "name": "煬帝",
@@ -8754,11 +8986,11 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/yangdi-emperor.png",
+          "bubble": "大運河を完成させ高句麗遠征を強行！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -8784,7 +9016,7 @@ export const chapterEdition = {
         "煬帝はこれまでの北方中心の政治から、江南を重視する政治に変えようとしたんだ。彼は江南の中国的な文化が好きだったから、まわりにも南朝系の人も多く、奥さんも旧南朝の皇女だ……😨！　ただ、煬帝はなんでも自分でやらないと気が済まない性格だったから、やりたい政策を自分中心に全部やっちゃった。こうして始まったのが華北と江南を結びつける大運河の建設だよ。"
       ],
       "year": "581〜618年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "隋の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -8854,17 +9086,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "煬帝",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/yangdi-emperor.png",
+          "bubble": "大運河を完成させ高句麗遠征を強行！"
         },
         {
           "name": "文帝",
@@ -8872,11 +9102,11 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caopi-emperor.png",
+          "bubble": "禅譲を受け魏の初代皇帝となる"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -8942,7 +9172,7 @@ export const chapterEdition = {
         "乾燥地帯の華北では農業生産を増やそうにも限界があるけど、温暖で雨も多い江南は南北朝時代に開発が進んでいたから、煬帝は「北で増える人口を支えるには、江南の穀物を持ってくればいい！」と考えた。「じゃあ、大量の穀物を運ぶ方法は？」って考えると、一番いい方法は船だ。馬車とか牛車じゃ大変だもんね😨。ここで大問題！　船を使うなら海より川のほうが安全なのに、中国って南北をつなぐ大きな川はないよね……😨。「それなら人工の川を掘ってしまえ」と考えて、大運河の建設が始まった。考えることがデカいね。文帝の時代にも黄河と長安を結ぶ広通渠が建設されていたけど、煬帝は「黄河と長江を結ぶ！」という超巨大プロジェクトを開始😨。通済渠（黄河〜淮河）と山陽瀆【邗溝】（淮河〜長江）の建設に、あわせて100万人以上の農民を動員した。さらに3年後には永済渠（涿郡〔北京の近く〕〜黄河）の建設に100万人を集め、その2年後には江南河（長江〜杭州）も建設！　完成した大運河は中国の南北を結ぶ物流の幹線になって、このあとの王朝も大運河の恩恵を受けるよ。ただね……煬帝はよほど嬉しかったのか、開通直後に4階建ての龍舟で江南の江都【揚州】までの船旅を楽しんだ😨。これを見た農民は「オレたちをさんざん働かせといて、遊んでるのかよ！」と怒った。しかも、洛陽に新都を建設しようと、さらに200万人も集めたから……もはや農民の負担は限界を超えてるよ。"
       ],
       "year": "581〜618年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "隋の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -9071,17 +9301,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "煬帝",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/yangdi-emperor.png",
+          "bubble": "大運河を完成させ高句麗遠征を強行！"
         },
         {
           "name": "文帝",
@@ -9089,11 +9317,11 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caopi-emperor.png",
+          "bubble": "禅譲を受け魏の初代皇帝となる"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -9272,7 +9500,7 @@ export const chapterEdition = {
         "こうして、残すは朝鮮半島の高句麗だけになった。6世紀後半の朝鮮半島は三国時代で、南には馬韓を統一した百済、辰韓を統一した新羅の2国が、北にはツングース系の高句麗があった。このなかで一番強かった高句麗も含め、三国とも隋が建国するとすぐに朝貢の使者を送って友好関係になったんだけど、隋が高句麗を直接支配しようとすると状況が変わるんだ。"
       ],
       "year": "581〜618年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "隋の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -9398,17 +9626,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "文帝",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/caopi-emperor.png",
+          "bubble": "禅譲を受け魏の初代皇帝となる"
         },
         {
           "name": "煬帝",
@@ -9416,9 +9642,8 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/yangdi-emperor.png",
+          "bubble": "大運河を完成させ高句麗遠征を強行！"
         },
         {
           "name": "聖徳太子",
@@ -9426,9 +9651,8 @@ export const chapterEdition = {
             135.7,
             34.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/shotoku-taishi.png",
+          "bubble": "遣隋使を派遣し律令国家を目指す"
         },
         {
           "name": "小野妹子",
@@ -9436,11 +9660,15 @@ export const chapterEdition = {
             135.7,
             34.6
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/onono-imoko.png",
+          "bubble": "「日出づる処の天子」の国書を隋に届ける",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -9464,7 +9692,7 @@ export const chapterEdition = {
         "隋に反抗した高句麗が、突厥に接近して中国東北部を攻撃すると、煬帝は高句麗遠征を始めた。ただ、この遠征が隋の命とりになるんだ……😨。煬帝は3年連続3回の遠征をやったんだけど、最初の遠征は100万人以上……😨。でも、永済渠には兵があふれて身動きが取れない。結局、高句麗に攻め込んだ30万以上の兵のうち、戻ってきたのはたった2700人……こりゃ惨敗だ😨。高句麗は自分の国を守るのに必死だもん。城壁を固め伏兵を仕込んで、気合も十分😄。これじゃあ勝てない。2回目の遠征は、今度は隋の内部で反乱が起き、3回目は高句麗の降伏ですぐに遠征をやめたんだけど、時すでに遅し……。各地で反乱が多発！　なんと200以上も反乱集団があって、それらが20くらいにまとまるんだけど、もはや隋の命運は尽きたよ😨。最後は、江都【揚州】に逃れた煬帝を部下が殺害した。まあ、煬帝は江南好きだったから、江南で死んだのがせめてもの救いかな。"
       ],
       "year": "581〜618年",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "隋の中国統一",
       "sourceText": {
         "chapter": 3,
@@ -9532,19 +9760,19 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "煬帝",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/yangdi-emperor.png",
+          "bubble": "大運河を完成させ高句麗遠征を強行！",
+          "route": 0
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -9596,7 +9824,7 @@ export const chapterEdition = {
         "ただ、李淵【高祖】が即位したとき、中国全土にはまだ20近くの反乱集団がいたから、統一にはほど遠い状態だった。全土を統一したのは、次男の李世民だよ。父の李淵と皇太子の兄が長安にいる間、李世民は洛陽や山東などの対抗勢力を倒した。でも弟ばっかり活躍すると兄弟の関係はギクシャクし始め、ついに李世民が兄と弟を殺害するクーデタ（玄武門の変）を決行😨、父親からも実権を奪った。こうして唐の支配を確立した名君といわれる太宗【李世民】が即位したんだ。彼の治世は、理想の君主政治として「貞観の治」と呼ばれているよ。"
       ],
       "year": "7世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の建国と律令国家の完成",
       "sourceText": {
         "chapter": 3,
@@ -9684,17 +9912,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "李淵",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/liyuan-emperor.png",
+          "bubble": "長安に入り唐を建国（高祖）！"
         },
         {
           "name": "李世民",
@@ -9702,9 +9928,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taizong-liximin.png",
+          "bubble": "貞観の治！東突厥を破り天可汗と称される",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "煬帝",
@@ -9712,9 +9941,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/yangdi-emperor.png",
+          "bubble": "大運河を完成させ高句麗遠征を強行！",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         },
         {
           "name": "高祖",
@@ -9722,9 +9954,8 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/liubang-emperor.png",
+          "bubble": "郡国制を敷き天下を平定！"
         },
         {
           "name": "太宗",
@@ -9732,11 +9963,15 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taizong-liximin.png",
+          "bubble": "律令制を整備し唐の最盛期の礎を築く！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -9760,7 +9995,7 @@ export const chapterEdition = {
         "太宗は基本的には隋の制度を受け継ぎ、律（刑法）・令（行政法・民法）・格（改正・補充規定）・式（施行細目）の法制を整えて、それに基づく統治をおこなった。これが律令国家だ。そして、中央には三省六部を中心とする官僚機構を整備したよ。三省とは、詔勅（皇帝の命令）を起草する中書省、審議をする門下省、それに基づいて実際に政治をおこなう尚書省のことで、尚書省の下には、個別の業務をおこなう六部（吏部、戸部、礼部、兵部、刑部、工部）が属していた。六部は現在の内閣みたいなもんだね。入試では、見た瞬間に何を司ってるかがわかりそうなもの（「兵部は軍事」「工部は土木工事」など）を除いて、パッと見てわからないやつが要注意だ！　「戸」（戸籍）を管理して税を集める戸部は財政担当、「礼」に従って儀式や教育をやる礼部は科挙試験を実施するよ。ほかに、特定の業務をやる専門官庁が九寺（外務官庁の鴻臚寺など）、役人を監察する機関が御史台だ。また、地方では隋以来の州県制が施行され、全国を10道に分けて州をまとめたんだ。だから地方は広い順に「道・州・県」だよ。"
       ],
       "year": "7世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の建国と律令国家の完成",
       "sourceText": {
         "chapter": 3,
@@ -9790,19 +10025,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "太宗",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taizong-liximin.png",
+          "bubble": "律令制を整備し唐の最盛期の礎を築く！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -9828,7 +10062,7 @@ export const chapterEdition = {
         "まず官僚の登用制度は、隋で始まった科挙が整備された。科目は秀才（時事策問）、明経（儒教の教義）、進士（詩文の創作）など6科がつくられ、地方試験（郷試）から始まって、礼部の試験（貢挙）で選抜され、合格してもさらに厳しい、吏部の採用試験が待っていたんだ。科挙では儒学の教養が問われるから、解釈を統一しないとマズいよね。そこで、太宗は孔穎達らに科挙のテキストとして『五経正義』を編纂させたよ（完成したのは高宗時代だ）。こうなると官僚になるには『五経正義』を丸暗記しなきゃいけないし、ルールの多い漢詩もスラスラつくらないといけない😨。こりゃ、相当優秀じゃないと合格できないね。つまり、科挙は才能のある人を登用するための制度だよ。ただ、そう簡単にはいかないんだ😨。貴族は家柄も強くて、父親などの官位によって、科挙を受けずに登用される蔭位の制が官吏登用の主流で、科挙による登用は一部にとどまったんだよ。だから貴族の息子は黙ってても高級官僚になれる。しかも、三省のうち門下省は皇帝の命令（詔勅）に対する拒否権（封駁）を持っていたから、貴族が皇帝権を牽制できたんだ。うーん、貴族の権力を抑えるのはなかなか難しいね😨。そうはいっても、家柄が低い人でも官僚になる道が開けたことは確かだね。"
       ],
       "year": "7世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の建国と律令国家の完成",
       "sourceText": {
         "chapter": 3,
@@ -9884,17 +10118,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "太宗",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taizong-liximin.png",
+          "bubble": "律令制を整備し唐の最盛期の礎を築く！"
         },
         {
           "name": "孔穎達",
@@ -9902,9 +10134,8 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/kongyingda-scholar.png",
+          "bubble": "『五経正義』を編纂し科挙の基準を確立"
         },
         {
           "name": "高宗",
@@ -9912,11 +10143,15 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/gaozong-emperor.png",
+          "bubble": "百済・高句麗を滅ぼし唐の最大領域を実現！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -9942,7 +10177,7 @@ export const chapterEdition = {
         "農民支配は隋を継承して、均田制を基礎に租庸調と府兵制を組み合わせて国家が農民を直接支配する体制を完成したよ。まず、均田制では土地国有を原則に、男性（丁男・中男）に口分田80畝（死後返還するのがタテマエ）と永業田20畝（世襲できるよ）を支給した。そして、隋の時代を引き継いで、妻・奴婢・耕牛への給田は停止したから、貴族や地主の大土地所有は抑えられそうに見えるよね。でも、この制度にはウラがある😨。官僚には官人永業田、要は役人にボーナスが支給されて、高級官僚だとなんと口分田の100倍😨。つまり、高級官僚になれば大土地所有者のままだったから、貴族の勢力はほとんど残るんだ。"
       ],
       "year": "7世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の建国と律令国家の完成",
       "sourceText": {
         "chapter": 3,
@@ -9977,7 +10212,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "隋",
+          "at": [
+            109,
+            34
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -10002,7 +10247,7 @@ export const chapterEdition = {
         "そして、税制は隋から始まった租庸調制だけど、隋とは微妙に違うからね。まず、丁男に一律に課税するのは同じで、租が穀物（粟2石）、調が布（絁・絹・綿・麻）っていうのもほぼ同じなんだけど、庸がビミョーに変わる。庸は年20日の労役、または絹で納めるんだ。「または絹」ってなんだろう？　庸は中央の労働役【正役】なので、都に行かなきゃいけなくなったから、遠い人は「絹で代納してもいいですよ」ってことだ。ちなみに、地方の労働が雑徭（年40日）ね。隋の時代には単なる「臨時の労働」だったよね。さらに、農民は府兵制によって3年に1度は徴兵されたから、いくら徴兵期間は租庸調が免除されるとはいっても、負担はかなり重いね。府兵制では、州ごとに置かれた折衝府が農民を徴兵して訓練し、その上にいくつかの州の軍制を統括する都督府も置かれた。この時代には都の警備をする兵士は衛士、辺境防衛をする兵士は防人と呼ばれたんだ。"
       ],
       "year": "7世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の建国と律令国家の完成",
       "sourceText": {
         "chapter": 3,
@@ -10032,7 +10277,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "隋",
+          "at": [
+            109,
+            34
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -10061,7 +10316,7 @@ export const chapterEdition = {
         "李世民が中国をほとんど統一すると、華北では東突厥と唐が対立する状況になった。李世民兄弟の対立をチャンスと考えた東突厥は、10万の騎馬集団で唐に攻め込んできた。しかし、皇帝に即位した直後の太宗は、自ら軍を率いて東突厥を破って滅ぼした。これで、突厥は一時滅亡したよ（突厥第一帝国）。唐が突厥を破ると、「こりゃ唐には勝てん😨」と思った突厥支配下の遊牧民は、太宗に遊牧諸民族の上に立つ「天可汗」の称号を贈ったんだ。"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐と東アジア世界 〜羈縻政策と冊封体制〜",
       "sourceText": {
         "chapter": 3,
@@ -10145,17 +10400,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "太宗",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taizong-liximin.png",
+          "bubble": "律令制を整備し唐の最盛期の礎を築く！"
         },
         {
           "name": "李世民",
@@ -10163,11 +10416,11 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taizong-liximin.png",
+          "bubble": "貞観の治！東突厥を破り天可汗と称される"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -10191,7 +10444,7 @@ export const chapterEdition = {
         "ただ、太宗は突厥に対抗するため、チベットを統合した吐蕃と友好関係を持った。「突厥がヤバいから、仲良くしましょう」って、愛が芽生えたわけだ😨。だから、吐蕃の建国者ソンツェン＝ガンポの奥さんは、唐から嫁いできた文成公主だ。唐だけじゃなくて、中国王朝は周辺民族と友好関係を結ぶときに奥さんを嫁がせることが多いよ（和蕃公主）。そして高宗時代になると、唐は西突厥も破って服属させ、西域（中央アジア）にまで勢力を拡大したんだ。"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐と東アジア世界 〜羈縻政策と冊封体制〜",
       "sourceText": {
         "chapter": 3,
@@ -10263,17 +10516,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "太宗",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taizong-liximin.png",
+          "bubble": "律令制を整備し唐の最盛期の礎を築く！"
         },
         {
           "name": "ソンツェン＝ガンポ",
@@ -10281,9 +10532,8 @@ export const chapterEdition = {
             91.1,
             29.65
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/songtsen-gampo.png",
+          "bubble": "吐蕃を統一しラサに都を置く！"
         },
         {
           "name": "文成公主",
@@ -10291,9 +10541,12 @@ export const chapterEdition = {
             91.1,
             29.65
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wenchang-princess.png",
+          "bubble": "吐蕃のソンツェン＝ガンポに降嫁し仏教を伝える",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "高宗",
@@ -10301,11 +10554,15 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/gaozong-emperor.png",
+          "bubble": "百済・高句麗を滅ぼし唐の最大領域を実現！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -10329,7 +10586,7 @@ export const chapterEdition = {
         "朝鮮半島で唐が頭を悩ましていたのは高句麗だよ。当時、朝鮮半島では南の百済と新羅が加耶【伽耶】諸国をめぐって争い、新羅が加耶を手に入れると、北方の高句麗とあわせて三国時代になった。3国はそれぞれ中国の北朝・南朝への朝貢や倭（日本）との関係を通じて他の2国を牽制したんだけど、隋が中国を統一すると3国とも隋に朝貢したので、いったん朝鮮半島は落ち着いたように見えた。ただ、高句麗が隋の遠征を撃退して、しかも隋が滅んじゃった😨。唐にとっては「高句麗をどう抑えるか」が大問題だったんだ。"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐と東アジア世界 〜羈縻政策と冊封体制〜",
       "sourceText": {
         "chapter": 3,
@@ -10443,7 +10700,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "朝鮮半島",
+          "at": [
+            127.5,
+            38
+          ],
+          "image": "ancient/dazuorong-bohai.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -10468,7 +10735,7 @@ export const chapterEdition = {
         "唐の初期には朝鮮半島の3国がすべて唐に朝貢したから「ひと安心」と思ったら、すぐにこの安定は崩れた😨。東突厥を滅ぼした太宗が高句麗に圧力をかけると高句麗は百済と結び、さらに百済は以前から倭（日本）とも友好関係だったから、新羅は周りが敵ばかり！　どうしようもなくなった新羅は唐に接近して支援を求め、唐と新羅の連合ができた。こうして新羅と連合した唐の高宗は、まず百済を攻撃して滅ぼすと、百済を救援にきた倭（日本）の水軍にも白村江の戦いで勝ったんだ。勢いに乗った唐軍は北上して、新羅とともに高句麗を攻撃した。高句麗も1年にわたって抗戦したものの、持ちこたえられずに滅亡したんだ😨。こうして、隋・唐を悩ませていた高句麗を滅ぼして、唐が朝鮮半島へと支配を拡大したよ😄。"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐と東アジア世界 〜羈縻政策と冊封体制〜",
       "sourceText": {
         "chapter": 3,
@@ -10556,17 +10823,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "太宗",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taizong-liximin.png",
+          "bubble": "律令制を整備し唐の最盛期の礎を築く！",
+          "route": 0
         },
         {
           "name": "高宗",
@@ -10574,11 +10840,15 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/gaozong-emperor.png",
+          "bubble": "百済・高句麗を滅ぼし唐の最大領域を実現！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -10630,7 +10900,7 @@ export const chapterEdition = {
         "あと、文化史だけど、新羅は仏教を保護したからたくさんお寺が建てられた！　なかでも金城にある仏国寺の石造多宝塔や石窟庵の仏教美術は有名だよ😄。"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐と東アジア世界 〜羈縻政策と冊封体制〜",
       "sourceText": {
         "chapter": 3,
@@ -10731,27 +11001,27 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "大祚栄",
           "at": [
             127.6,
             44.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
+          "image": "ancient/dazuorong-bohai.png",
+          "bubble": "靺鞨族と高句麗遺民を率いて渤海を建国！"
+        }
+      ],
+      "props": [
         {
           "name": "仏国寺",
           "at": [
             129.33,
             35.79
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/bulguksa-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 44
         },
         {
           "name": "石窟庵",
@@ -10759,9 +11029,9 @@ export const chapterEdition = {
             129.33,
             35.79
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/bulguksa-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 44
         }
       ],
       "routes": [],
@@ -10787,7 +11057,7 @@ export const chapterEdition = {
         "突厥や朝鮮半島、ベトナムにまで支配を拡大した唐は、高宗時代に最大領域を実現したよ。そして新たに征服した地域には六つの都護府を置き、服属した民族の族長を羈縻州の長官（刺史）に任命して、自治を認めて監視する間接統治をおこなった。これが羈縻政策だよ。「羈縻」というのは馬や牛をつないでおく手綱という意味だから、「家畜の頭を（＝族長を）つないでおけば（＝監視すれば）、胴体は（＝周辺民族は）逃げない（＝支配できる）」ってことだよ。都護府が設置されたのは、ベトナムの安南都護府（ハノイ）、朝鮮の安東都護府（平壌）、西域の安西都護府（高昌→亀茲）、外モンゴルの安北都護府、内モンゴルの単于都護府、ジュンガリアの北庭都護府の六つだ。"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐と東アジア世界 〜羈縻政策と冊封体制〜",
       "sourceText": {
         "chapter": 3,
@@ -10889,19 +11159,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "高宗",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/gaozong-emperor.png",
+          "bubble": "百済・高句麗を滅ぼし唐の最大領域を実現！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -10927,7 +11196,7 @@ export const chapterEdition = {
         "こんなふうに唐の支配は内側から「州県制で直接統治した中国内部」「羈縻政策で間接統治した征服地」「冊封体制に組み込まれた朝貢国」の三つに分かれていて、その中心に唐の皇帝が君臨する「世界帝国」だった。そして、これらの地域には唐の政治や文化が大きく影響したよ。例えば、朝鮮や日本のように律令体制や仏教、漢字などを導入したり、朝貢国の間でも使節の交流や貿易をおこなったりしながら、東アジア文化圏が形成されたんだ。"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐と東アジア世界 〜羈縻政策と冊封体制〜",
       "sourceText": {
         "chapter": 3,
@@ -11095,7 +11364,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "東アジア文化圏",
+          "at": [
+            120,
+            35
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -11124,7 +11403,7 @@ export const chapterEdition = {
         "武后はもともと太宗の後宮（皇帝の奥さんのいる宮殿）にいたから、本来は太宗の奥さんなんだけど、晩年の太宗を看病するうちに高宗が武后に惚れちゃって、今度は高宗の皇后になった。むちゃくちゃ頭のよかった武后は、平凡な高宗の後ろから簾越しにあれこれ指図して政治を動かし、高宗が亡くなったあとは、息子の中宗をわずか2カ月で退位させ、さらに弟の睿宗の時代にも権力を握り続けると、ついに皇帝に即位して国号を「周」とした。彼女は中国史上唯一の女帝だよ。"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "武韋の禍と玄宗の時代",
       "sourceText": {
         "chapter": 3,
@@ -11173,17 +11452,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "則天武后",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wuzetien-empress.png",
+          "bubble": "国号を周に改め中国唯一の女帝となる！"
         },
         {
           "name": "高宗",
@@ -11191,9 +11468,8 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/gaozong-emperor.png",
+          "bubble": "百済・高句麗を滅ぼし唐の最大領域を実現！"
         },
         {
           "name": "武則天",
@@ -11201,9 +11477,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wuzetien-empress.png",
+          "bubble": "科挙官僚を登用し貴族勢力を抑制",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "太宗",
@@ -11211,9 +11490,12 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taizong-liximin.png",
+          "bubble": "律令制を整備し唐の最盛期の礎を築く！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "中宗",
@@ -11221,9 +11503,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhongzong-emperor.png",
+          "bubble": "唐を復興するも韋后に毒殺される",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         },
         {
           "name": "睿宗",
@@ -11231,11 +11516,15 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/ruizong-emperor.png",
+          "bubble": "玄宗の父、帝位を譲る",
+          "offset": [
+            -2.755455298081545e-16,
+            -1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -11261,7 +11550,7 @@ export const chapterEdition = {
         "そして武后の一番の功績は、唐の政治を新興の科挙官僚中心に変えたことだ。彼女は、仕事がデキる男が好きなんだよ😅。逆に家柄ばかりにこだわる貴族のダメ息子どもが大キライ😨。抵抗する貴族たちは恐怖政治でバッサリ切り捨てて、科挙に合格した優秀な官僚で政権を固めた。こうして唐の政治・社会の中心にいた門閥貴族は排除され、科挙官僚を中心に中央集権体制が強化されたんだ。"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "武韋の禍と玄宗の時代",
       "sourceText": {
         "chapter": 3,
@@ -11303,27 +11592,27 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "則天武后",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
+          "image": "ancient/wuzetien-empress.png",
+          "bubble": "国号を周に改め中国唯一の女帝となる！"
+        }
+      ],
+      "props": [
         {
           "name": "大雲寺",
           "at": [
             112.45,
             34.62
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/dayun-temple.png",
           "kind": "prop",
-          "size": 42
+          "size": 44
         }
       ],
       "routes": [],
@@ -11349,7 +11638,7 @@ export const chapterEdition = {
         "ただ、さすがの武后も年齢には勝てず、クーデタで幽閉されて息子の中宗が再び皇帝に即位した。でも、中宗も頼りない男だった😨。そしたら、権力欲のかたまりだった奥さんの韋后が、「ワタシも則天武后のように権力を握りたい！」と、邪魔になった中宗を毒殺して権力を握ろうとしたんだ。でも、韋后は則天武后ほど能力がなかったの😨。身勝手な韋后に対する不満が爆発して、中宗の甥だった李隆基（のちの玄宗）が挙兵して韋后らを殺害すると、中宗の弟だった父の睿宗を復位させ、父に禅譲を迫って皇帝に即位した。これが玄宗だ。"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "武韋の禍と玄宗の時代",
       "sourceText": {
         "chapter": 3,
@@ -11371,17 +11660,15 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "韋后",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/empress-wei.png",
+          "bubble": "第二の武則天を目指すも李隆基に討たれる"
         },
         {
           "name": "玄宗",
@@ -11389,9 +11676,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xuanzong-emperor.png",
+          "bubble": "開元の治！募兵制・節度使を設置",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "中宗",
@@ -11399,9 +11689,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhongzong-emperor.png",
+          "bubble": "唐を復興するも韋后に毒殺される",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         },
         {
           "name": "則天武后",
@@ -11409,9 +11702,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wuzetien-empress.png",
+          "bubble": "国号を周に改め中国唯一の女帝となる！",
+          "offset": [
+            -2.755455298081545e-16,
+            -1.5
+          ]
         },
         {
           "name": "李隆基",
@@ -11419,9 +11715,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xuanzong-emperor.png",
+          "bubble": "楊貴妃を寵愛し政治を乱す",
+          "offset": [
+            1.5,
+            -3.6739403974420594e-16
+          ]
         },
         {
           "name": "睿宗",
@@ -11429,11 +11728,15 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/ruizong-emperor.png",
+          "bubble": "玄宗の父、帝位を譲る",
+          "offset": [
+            4.592425496802575e-16,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -11461,7 +11764,7 @@ export const chapterEdition = {
         "また、節度使以外にもこれまでになかった官庁がいくつかつくられたよ。南海貿易の繁栄を背景に、広州には海上貿易を管理する市舶司が設置された。さらに律令には定められていない官職（令外の官）として、専売制を管理する塩鉄使などもつくられた。こんなふうに「開元の治」はさまざまな改革が進められた時代だ。"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "武韋の禍と玄宗の時代",
       "sourceText": {
         "chapter": 3,
@@ -11545,17 +11848,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "玄宗",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xuanzong-emperor.png",
+          "bubble": "開元の治！募兵制・節度使を設置"
         },
         {
           "name": "則天武后",
@@ -11563,9 +11864,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wuzetien-empress.png",
+          "bubble": "国号を周に改め中国唯一の女帝となる！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "高宗",
@@ -11573,11 +11877,11 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/gaozong-emperor.png",
+          "bubble": "百済・高句麗を滅ぼし唐の最大領域を実現！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -11601,7 +11905,7 @@ export const chapterEdition = {
         "即位してから約30年、すでに玄宗は60歳になっていた。愛妃の死ですっかり心が折れていた玄宗は、息子の嫁だった楊貴妃にすっかり心を奪われ、ついには自分の妻にしちゃった！　ていうか、息子の奥さんを取っちゃったのかよ……😨。以来、楊貴妃にのめり込んだ玄宗は政治のことなどホッタラカシ。そのころ、辺境では唐軍がアッバース朝のイスラーム軍にタラス河畔の戦いで敗れるなど、辺境支配にほころびが見え始め、政界でも楊貴妃一族から出た宰相の楊国忠と節度使の安禄山の権力闘争が始まった。楊国忠は大した家柄でもないただの遊び人だったけど、楊貴妃の一族ってだけで玄宗に気に入られて宰相となった。一方の安禄山は突厥人とソグド人の混血で、節度使になったのをきっかけに玄宗と楊貴妃に取り入ると、なんと楊貴妃の養子にしてもらい、3節度使を兼任するまでになった。これを警戒した楊国忠が安禄山の追い落としを狙うと、怒った安禄山は「宮廷を牛耳る奸臣、楊国忠を討つ😡」と宣言してついに挙兵、安史の乱が始まったんだ！"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "武韋の禍と玄宗の時代",
       "sourceText": {
         "chapter": 3,
@@ -11654,17 +11958,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "楊貴妃",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/yangguifei-consort.png",
+          "bubble": "玄宗の寵愛を一身に受ける"
         },
         {
           "name": "玄宗",
@@ -11672,9 +11974,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xuanzong-emperor.png",
+          "bubble": "開元の治！募兵制・節度使を設置",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "楊国忠",
@@ -11682,9 +11987,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/chinese-official.png",
+          "bubble": "楊貴妃の従兄として宰相となり専権を振るう",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         },
         {
           "name": "安禄山",
@@ -11692,11 +12000,11 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/anlushan-rebel.png",
+          "bubble": "三節度使を兼ね安史の乱を起こす！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -11722,7 +12030,7 @@ export const chapterEdition = {
         "その後、安禄山は息子の安慶緒に殺され、さらに安慶緒を殺した史思明が皇帝を称したけど、彼も息子に殺されるなど反乱軍の足並みが乱れるなか、唐はトルコ系遊牧民のウイグル【回紇】の援軍を得て長安を奪還し、ついに反乱を鎮圧した。"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "武韋の禍と玄宗の時代",
       "sourceText": {
         "chapter": 3,
@@ -11789,17 +12097,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "安禄山",
           "at": [
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/anlushan-rebel.png",
+          "bubble": "三節度使を兼ね安史の乱を起こす！",
+          "route": 0
         },
         {
           "name": "玄宗",
@@ -11807,9 +12114,8 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xuanzong-emperor.png",
+          "bubble": "開元の治！募兵制・節度使を設置"
         },
         {
           "name": "楊貴妃",
@@ -11817,9 +12123,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/yangguifei-consort.png",
+          "bubble": "玄宗の寵愛を一身に受ける",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "楊国忠",
@@ -11827,9 +12136,12 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/chinese-official.png",
+          "bubble": "楊貴妃の従兄として宰相となり専権を振るう",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         },
         {
           "name": "白居易",
@@ -11837,9 +12149,8 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/ancient-scribe.png",
+          "bubble": "『長恨歌』で玄宗と楊貴妃の悲劇を詠む"
         },
         {
           "name": "白楽天",
@@ -11847,9 +12158,12 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/ancient-scribe.png",
+          "bubble": "平易な表現で社会詩を数多く詠む",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "安慶緒",
@@ -11857,9 +12171,12 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/chinese-soldier.png",
+          "bubble": "安禄山の子",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "史思明",
@@ -11867,11 +12184,15 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/nomadic-rider.png",
+          "bubble": "安禄山とともに乱を継続",
+          "offset": [
+            -1.5,
+            1.8369701987210297e-16
+          ]
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "move",
@@ -11919,7 +12240,7 @@ export const chapterEdition = {
         "安史の乱は唐の政治や社会を大きく変えてしまった。もう反乱前のような統治には戻れないよ😨。反乱鎮圧のために、唐は内地にも節度使を設置したんだけど、彼らは中央政府の言うことをまるで聞かない。特に、反乱軍から寝返って鎮圧に協力した連中は、節度使の地位を世襲して半独立の藩鎮になった。彼らは集めた税金を中央に送らなかったから、唐は財政難にも苦しんだ。さらに、周辺異民族の侵入も激化したよ。チベットの吐蕃は、乱に乗じて長安を占領したし、反乱鎮圧を支援したウイグルは、見返りに絹馬貿易の利益を得て強くなったんだけど、ときどき唐への反抗を援助する場合もあったんだよ。そのたびに唐はウイグルに金品を贈ってなだめた。そして、則天武后の時代から進んでいた貴族の没落が安史の乱で決定的になった。だって、戦乱で活躍するのは軍人だもん、軍が強いほうがエライ！　こうして唐は支配体制を転換する必要に迫られたってわけね。"
       ],
       "year": "7〜8世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "武韋の禍と玄宗の時代",
       "sourceText": {
         "chapter": 3,
@@ -11972,19 +12293,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "則天武后",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wuzetien-empress.png",
+          "bubble": "国号を周に改め中国唯一の女帝となる！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -12014,7 +12334,7 @@ export const chapterEdition = {
         "戸籍に登録されたらどうしようもない……と思ったら、一つだけ抜け道があった！　戸籍に登録されてる土地（本籍地）から逃げるんだよ😨。要は「夜逃げ」。この農民の逃亡（逃戸）が均田制の崩壊だよ。これは支配を揺るがす大問題だ。だって、農民が逃げちゃうと兵士が集められないから府兵制が崩壊し、税も集められないから租庸調も崩壊しちゃう。しかし、逃亡した農民の土地を奪って大土地所有をするヤツも出てきて、彼らの私有地（荘園）に逃亡した農民が吸収されちゃった😨。もはや土地国有の原則はどこかにすっ飛んでしまったんだよ。こうした事態に対して、唐は逃亡した農民を現住地で戸籍に再登録する括戸政策をとったけど、まるで追いつかなかったんだ。"
       ],
       "year": "8〜10世紀初め",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の衰退と滅亡",
       "sourceText": {
         "chapter": 3,
@@ -12054,19 +12374,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "則天武后",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/wuzetien-empress.png",
+          "bubble": "国号を周に改め中国唯一の女帝となる！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -12094,7 +12413,7 @@ export const chapterEdition = {
         "そして、両税法の施行をきっかけに、藩鎮勢力から財政権を奪って弱らせようとしたんだけど、両税法施行の翌年に藩鎮の反乱が起きたから、藩鎮の抑制はなかなかうまくいかなかったのが現実だよ……😨。"
       ],
       "year": "8〜10世紀初め",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の衰退と滅亡",
       "sourceText": {
         "chapter": 3,
@@ -12126,17 +12445,15 @@ export const chapterEdition = {
       "pins": [],
       "tags": [],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "徳宗",
           "at": [
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taizong-liximin.png",
+          "bubble": "両税法を施行"
         },
         {
           "name": "楊炎",
@@ -12144,11 +12461,11 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/chinese-official.png",
+          "bubble": "夏秋二回課税する両税法を建策！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -12172,7 +12489,7 @@ export const chapterEdition = {
         "安史の乱を鎮圧した後も、国内では40〜50の藩鎮が自立してバラバラだから、もはや皇帝が全国を統一してるなんていえないような状況だった。しかし、中央の政界では皇帝の親衛隊をあやつる宦官が権力を握って、ついに勝手に皇帝をかえるところまできたんだ。しかも、官僚たちも熾烈な権力闘争を繰り返し、特に9世紀半ばの派閥抗争は、代表的な人物の姓を並べて牛李の党争なんて呼ばれているよ。こんな状態のまま、唐は100年以上も続いたよ。安史の乱が起きた755年は唐の建国から滅亡まで（618〜907）のほぼ真ん中だからね。"
       ],
       "year": "8〜10世紀初め",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の衰退と滅亡",
       "sourceText": {
         "chapter": 3,
@@ -12202,7 +12519,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "唐",
+          "at": [
+            109,
+            34
+          ],
+          "image": "ancient/taizong-liximin.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -12229,7 +12556,7 @@ export const chapterEdition = {
         "それは、唐が生産力の高まった江南地方からの収入と塩の専売によって国家財政を維持して、お金で雇った官僚と兵士で国家を運営したからだよ（財政国家）。ただ、塩の専売に頼れば頼るほど民衆の生活は苦しくなった。だって、10銭の塩に100銭の税を上乗せしたんだよ。これって、消費税1000％じゃん😨。しかも、どんどん税が上がり、しまいには370銭😨。これじゃあ飢え死にしちゃうよ……。そして、専売の塩があまりも高いから、塩の密売が横行したんだ。密売って悪くないよ！　だって、本来なら10銭なんだから、50銭くらいで売っても大儲けでしょ。しかも「政府はイジワルだから300銭もとるけど、ワタシらは優しいから50銭でいいよ〜😄」って言って売れば、民衆には「安い塩をどうもありがとうございました😄」と感謝までされる。そして、塩の密売人（塩賊）が唐に不満を持っている人びとを吸収して、ついに王仙芝や黄巣が挙兵して巨大な民衆反乱、黄巣の乱が起きたよ。黄巣は長安にまで攻め込んで、国号を大斉として新たな王朝を建てたんだ。"
       ],
       "year": "8〜10世紀初め",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の衰退と滅亡",
       "sourceText": {
         "chapter": 3,
@@ -12280,17 +12607,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "黄巣",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/huangchao-rebel.png",
+          "bubble": "塩の密売から大反乱を起こし長安を占領！"
         },
         {
           "name": "王仙芝",
@@ -12298,11 +12623,15 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/chensheng-rebel.png",
+          "bubble": "黄巣とともに反乱の口火を切る",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -12326,7 +12655,7 @@ export const chapterEdition = {
         "ただ、黄巣軍はしょせん塩賊、つまりは盗賊集団みたいなもんだ。結局は略奪に走って人びとの支持を失い、反乱軍から朱温（のちの朱全忠）が寝返って足並みが乱れ、唐が招き入れた突厥の援軍に負けて黄巣は自殺、反乱は終わったんだ。朱温は反乱を崩壊させた功績で、皇帝から「全忠（全くの忠義者）」という名前と節度使の地位をもらったんだけど、もはや唐に従う気などまるでなし😅。結局、節度使となった朱全忠は唐の残党を殺害し、さらに最後の皇帝哀帝から帝位を奪って即位して、後梁を建てた。こうして290年も続いた唐は滅亡したよ。"
       ],
       "year": "8〜10世紀初め",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の衰退と滅亡",
       "sourceText": {
         "chapter": 3,
@@ -12370,17 +12699,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "朱全忠",
           "at": [
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhuhuanchong-warlord.png",
+          "bubble": "黄巣を裏切り唐を滅ぼして後梁を建国！"
         },
         {
           "name": "黄巣",
@@ -12388,9 +12715,8 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/huangchao-rebel.png",
+          "bubble": "塩の密売から大反乱を起こし長安を占領！"
         },
         {
           "name": "朱温",
@@ -12398,9 +12724,12 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhuhuanchong-warlord.png",
+          "bubble": "宣武節度使として開封を拠点に自立",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "全忠",
@@ -12408,9 +12737,8 @@ export const chapterEdition = {
             114.31,
             34.8
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/zhuhuanchong-warlord.png",
+          "bubble": "哀帝を廃して五代十国時代の幕を開ける"
         },
         {
           "name": "哀帝",
@@ -12418,11 +12746,24 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/emperor-ai-han.png",
+          "bubble": "限田策を試みるも挫折"
+        },
+        {
+          "name": "黄巣",
+          "at": [
+            108.94,
+            34.27
+          ],
+          "image": "ancient/huangchao-rebel.png",
+          "bubble": "長安を占領し大斉皇帝と号す！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -12450,7 +12791,7 @@ export const chapterEdition = {
         "まずは農業の発展からだ。唐の中期になると麦作が普及して、華北で粟などの雑穀に加えて冬小麦を裏作にした二毛作（あるいは二年三毛作）が普及し、江南でも田植え農法などの稲作の技術が発達したから、農業生産が向上したよ。特に、開発が進んだ江南から華北に穀物を輸送しなきゃいけない！　このときに重要だったのが大運河だ。煬帝の政策はここでいきるんだね😅。こうした交通網の整備によって各地を結ぶ物流や交易も盛んとなり、都市のなかには交易の場所として市（長安の西市・東市など）がつくられた。ただ、市は都市の城壁内部にあったため、場所や営業時間などが規制され、税も取られたから、なかなか自由な取引はできなかった。"
       ],
       "year": "7〜9世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の経済・社会史",
       "sourceText": {
         "chapter": 3,
@@ -12508,19 +12849,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "煬帝",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/yangdi-emperor.png",
+          "bubble": "大運河を完成させ高句麗遠征を強行！"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [
         {
@@ -12586,7 +12926,7 @@ export const chapterEdition = {
         "唐末期になると支配がゆるんで市の制度が崩れたから、市以外でも勝手に商売をする人や、城壁の外の非公認の市場（草市）も現れた。また、商業の発展や、銅銭で納税（銭納）する両税法など、大量の銅銭を送る必要が出てきたので、遠隔地への送金手形制度として飛銭が生まれたよ。"
       ],
       "year": "7〜9世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の経済・社会史",
       "sourceText": {
         "chapter": 3,
@@ -12616,7 +12956,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "唐",
+          "at": [
+            109,
+            34
+          ],
+          "image": "ancient/taizong-liximin.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -12641,7 +12991,7 @@ export const chapterEdition = {
         "唐が西域まで支配を広げ、イスラーム勢力（ウマイヤ朝やアッバース朝）が西アジアから中央アジアまで進出すると、政治的な安定によって陸・海の交通路が安全となり、東西交易がむちゃくちゃ発展したよ。海上交易ではインド洋から東南アジアを経て中国の沿岸まで進出したムスリム商人（アラブ商人）が活躍し、華南の海港都市である広州や泉州までやってきた。アラブ人は大食と呼ばれ、彼らがくる都市には蕃坊という外国人居住地も設置されたし、イスラーム教も中国に伝わって清真教【回教】と呼ばれた。こうした交易の発展を受けて、広州には海上交易の事務機関として市舶司が設置されたんだ。"
       ],
       "year": "7〜9世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の経済・社会史",
       "sourceText": {
         "chapter": 3,
@@ -12737,7 +13087,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "唐",
+          "at": [
+            109,
+            34
+          ],
+          "image": "ancient/taizong-liximin.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -12762,7 +13122,7 @@ export const chapterEdition = {
         "一方、内陸ではアラル海に注ぐシル川・アム川に挟まれた地域（ここがソグド人の地「ソグディアナ」だ➡p.174地図）を拠点に、イラン系の商業民族ソグド人【商人】が活躍したよ。ソグド人は自分たちの国はないけど、中国の歴史書だと、『後漢書』西域伝にはすでにソグド人の交易の記録がある。そして、6世紀にはトルコ系遊牧騎馬民族の突厥やウイグルに保護されて、トルコ人の軍事力とソグド人の経済力が結びついた。さらに、ソグド人は交易だけじゃなく多くの馬を持っていて、強大な騎馬部隊を編成した。馬は重要な国際商品であると同時に、強力な武器だよ。これも、突厥やウイグルが強かった理由の一つだよ。そして、中国との間では、おもに中国からの絹と北方からの馬を取引する絹馬貿易がおこなわれたんだ。"
       ],
       "year": "7〜9世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の経済・社会史",
       "sourceText": {
         "chapter": 3,
@@ -12862,7 +13222,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ソグド人",
+          "at": [
+            64,
+            40
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -12887,7 +13257,7 @@ export const chapterEdition = {
         "東西交易の発展によって、唐の都長安は国際都市として繁栄し、人口は100万人を超えたよ。碁盤の目のように区画され（坊）、周囲を城壁で囲んだ大都市の形（都城制）は、周辺諸国の都のモデルにもなった。日本の平城京（奈良）や平安京（京都）も長安がモデルだ。また、ソグド人などの西域商人やインドの僧、東アジア諸国からの留学生など、多くの人びとが長安を訪れた。例えば、遣唐使の一員として唐に渡った日本の留学生阿倍仲麻呂は、漢詩が上手かったことで玄宗に気に入られて官僚となり、安南都護府にまでなった。ただ、帰国のときに暴風雨にあたりして帰国できなかったんだよ。ツラいな……😢。"
       ],
       "year": "7〜9世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の経済・社会史",
       "sourceText": {
         "chapter": 3,
@@ -12953,17 +13323,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "阿倍仲麻呂",
           "at": [
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/abeno-nakamaro.png",
+          "bubble": "遣唐使として渡り唐の朝廷で高官に就く"
         },
         {
           "name": "玄宗",
@@ -12971,11 +13339,15 @@ export const chapterEdition = {
             109,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xuanzong-emperor.png",
+          "bubble": "開元の治！募兵制・節度使を設置",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,
@@ -12999,7 +13371,7 @@ export const chapterEdition = {
         "さらに、西方の宗教も中国まで伝わったよ。イランの民族宗教だったゾロアスター教は、イスラーム勢力に滅ぼされたササン朝から逃げてきたイラン人が中国に伝え、祆教と呼ばれた。ちなみに、ソグド人はゾロアスター教徒だ。日本では「拝火教」って呼んだりするけど、「中国語は？」と聞かれたら「祆教」と答えてね。また、431年のエフェソス公会議で異端となったネストリウス派キリスト教は、シリアやイランを経てイラン人商業民が中国に伝え、各地に教会（中国では波斯寺）が建てられた。ネストリウス派は唐では景教と呼ばれ、長安の大秦寺で景教の流行を伝える大秦景教流行中国碑が建立されたよ。さらに、ウイグル人が多く信仰していたマニ教【摩尼教】も長安で流行した。祆教・景教・摩尼教は、まとめて三夷教ともいわれるんだ。"
       ],
       "year": "7〜9世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の経済・社会史",
       "sourceText": {
         "chapter": 3,
@@ -13080,7 +13452,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "中国",
+          "at": [
+            108,
+            35
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [
         {
           "name": "大秦寺",
@@ -13088,9 +13470,9 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/daqin-nestorian-stele.png",
           "kind": "prop",
-          "size": 42
+          "size": 44
         },
         {
           "name": "大秦景教流行中国碑",
@@ -13098,9 +13480,9 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/daqin-nestorian-stele.png",
           "kind": "prop",
-          "size": 42
+          "size": 44
         }
       ],
       "routes": [],
@@ -13128,7 +13510,7 @@ export const chapterEdition = {
         "玄奘は、太宗時代に国禁を犯して命がけで西域に出国し、陸路を経由してハルシャ＝ヴァルダナ王【戒日王】時代のインドを訪れ、ナーランダー僧院で学んだ。ハルシャ＝ヴァルダナは仏教を保護していたから、優秀な留学僧がいると聞いて、玄奘の講義を受けたらしいよ😨。そして、たくさんの経典を手に入れた玄奘は、再び陸路を経由して帰国し、帰国後は仏典の翻訳に励み、法相宗を開いた。彼が書いた旅行記が『大唐西域記』だね。その後、高宗時代の僧義浄が、すでに交易で発展し始めていた海路を通ってインドを訪れ、同じようにナーランダー僧院で学んだよ。残念ながら、義浄のころにはすでにインドが混乱期になってたんだ😨。そして、帰りも海路を通ってシュリーヴィジャヤに立ち寄り、そこで『南海寄帰内法伝』を著したよ。さらに唐中期には、インド僧が伝えた密教（真言宗）が急速に普及したり、中国独自の仏教として、より実践的に宗教的修行（座禅）をおこなう禅宗や、阿弥陀仏にすがって極楽浄土を願う浄土宗なども生まれた。こうした仏教の発展は中国の思想界にも影響していくんだ。"
       ],
       "year": "7〜9世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の経済・社会史",
       "sourceText": {
         "chapter": 3,
@@ -13198,17 +13580,16 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "智顗",
           "at": [
             121,
             29
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/fotudeng-monk.png",
+          "bubble": "天台宗を開く",
+          "route": 0
         },
         {
           "name": "最澄",
@@ -13216,9 +13597,8 @@ export const chapterEdition = {
             135.85,
             35.1
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/buddhist-monk.png",
+          "bubble": "唐に渡り天台宗を日本に伝える"
         },
         {
           "name": "玄奘",
@@ -13226,9 +13606,8 @@ export const chapterEdition = {
             85.45,
             25.14
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/xuanzang-monk.png",
+          "bubble": "陸路インドへ旅立ち『大唐西域記』を著す！"
         },
         {
           "name": "義浄",
@@ -13236,9 +13615,12 @@ export const chapterEdition = {
             85.45,
             25.14
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/faxian-monk.png",
+          "bubble": "海路インドへ赴き『南海寄帰内法伝』を著す！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
         },
         {
           "name": "太宗",
@@ -13246,9 +13628,8 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/taizong-liximin.png",
+          "bubble": "律令制を整備し唐の最盛期の礎を築く！"
         },
         {
           "name": "ハルシャ＝ヴァルダナ",
@@ -13256,19 +13637,8 @@ export const chapterEdition = {
             79.93,
             27.05
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "ナーランダー僧院",
-          "at": [
-            85.45,
-            25.14
-          ],
-          "image": "ancient/temple.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/harsha-king.png",
+          "bubble": "ヴァルダナ朝の王、玄奘を厚遇"
         },
         {
           "name": "高宗",
@@ -13276,9 +13646,24 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/gaozong-emperor.png",
+          "bubble": "百済・高句麗を滅ぼし唐の最大領域を実現！",
+          "offset": [
+            9.184850993605148e-17,
+            1.5
+          ]
+        }
+      ],
+      "props": [
+        {
+          "name": "ナーランダー僧院",
+          "at": [
+            85.45,
+            25.14
+          ],
+          "image": "ancient/nalanda-monastery.png",
           "kind": "prop",
-          "size": 42
+          "size": 46
         }
       ],
       "routes": [
@@ -13383,7 +13768,7 @@ export const chapterEdition = {
         "中国では前漢以来、儒学が皇帝の専制政治や異民族に対する優位（華夷思想）を裏づける思想だった。もちろん、唐代の中国でも儒学が官学なんだけど、『五経正義』が完成しちゃうと「皇帝の決めた内容はコレ！」っていうふうに解釈が固定され、思想的には停滞した。もはや、儒学は「覚えたらオシマイ」で、新しい議論は発展しなくなった。だから、貴族や頭のいいエリートは「儒学はツマらん😅」と思ったんだ。エリートって今の日本で例えると、東大にトップで合格するような人だから、「趣味が勉強」みたいな優秀な人だもん、難しい内容ほど燃える🔥。だから、仏教の整然とした経典に興味を持ち、「儒学は皇帝が決めた政治思想、仏教は研究する学問」と考えた。こうして、中国では仏教の研究が盛んになったんだ。"
       ],
       "year": "7〜9世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の経済・社会史",
       "sourceText": {
         "chapter": 3,
@@ -13434,7 +13819,17 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "中国",
+          "at": [
+            108,
+            35
+          ],
+          "image": "ancient/chinese-official.png",
+          "bubble": ""
+        }
+      ],
       "props": [],
       "routes": [],
       "rivers": [],
@@ -13459,7 +13854,7 @@ export const chapterEdition = {
         "でもね、貴族が仏教を保護するようになると仏教の腐敗が始まり、お寺が大土地所有や税金逃れを始めて、しまいには逃亡農民をかくまったりしたから、唐の財政難をさらに悪化させていた。しかも、唐朝は老子の姓が帝室と同じ「李」だったこともあって、道教を保護していたから（「道先仏後」）、仏教とライバル関係だった道教教団が「仏教を滅ぼしたほうがいい！」って皇帝を動かした。こうして、第15代皇帝の武宗によって中国史上最大の仏教弾圧、会昌の廃仏がおこなわれて仏教は壊滅的な打撃を受け、外来の三夷教（祆教・景教・摩尼教）も一緒に弾圧された。このうち、中国で復興した仏教は、士大夫に流行した禅宗と、庶民に流行した浄土宗くらいだね。そして、禅宗の影響を受けた士大夫が、新しい儒学をつくるよ！"
       ],
       "year": "7〜9世紀",
-      "chapter": 0,
+      "chapter": 3,
       "kicker": "唐の経済・社会史",
       "sourceText": {
         "chapter": 3,
@@ -13496,17 +13891,15 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "老子",
           "at": [
             112,
             34
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/laozi-philosopher.png",
+          "bubble": "無為自然と小国寡民"
         },
         {
           "name": "武宗",
@@ -13514,11 +13907,11 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
-          "kind": "prop",
-          "size": 42
+          "image": "ancient/yangdi-emperor.png",
+          "bubble": "会昌の廃仏を断行"
         }
       ],
+      "props": [],
       "routes": [],
       "rivers": [],
       "duration": 0,

@@ -46,7 +46,24 @@ for(const v of chapterSeries){assert.equal(v.chapter,3);assert.match(v.id,/^c03-
   const text=s.plainBody.join('');assert.ok(text.length>=100,'導入や結論の一文だけのページにしない');assert.ok(!/[（「『]$/.test(text),'括弧の途中で改ページしない');
   const items=sceneMapItems(s,chapterPlaces),required=chapterNamesInText(s.title+'。'+text);for(const e of required){const item=items.find(x=>x.text===e.name);assert.ok(item,s.id+': '+e.name);assert.deepEqual(item.at,e.points[0]);}
   assert.ok(s.frame.every(Number.isFinite));assert.ok(s.frame[2]>s.frame[0]&&s.frame[3]>s.frame[1]);for(const item of items)assert.ok(item.at.length===2&&item.at.every(Number.isFinite));
-  for(const prop of s.props)assert.ok(fs.existsSync(path.join(root,'public/images',prop.image)));
+   for(const prop of s.props){
+     assert.ok(!prop.image.endsWith('.svg'), `${s.id}: props画像がSVGのままです ${prop.image}`);
+     const imgPath = prop.image.includes('/') ? prop.image : `ancient/${prop.image}`;
+     const p = path.join(root, 'public/images', imgPath + (/\.(svg|png)$/.test(imgPath) ? '' : '.png'));
+     assert.ok(fs.existsSync(p), `${s.id}: props画像が存在しない ${prop.image}`);
+   }
+   for(const actor of s.actors){
+     assert.ok(!actor.image.endsWith('.svg'), `${s.id}: actor画像がSVGのままです ${actor.image}`);
+     const imgPath = actor.image.includes('/') ? actor.image : `ancient/${actor.image}`;
+     const p = path.join(root, 'public/images', imgPath + (/\.(svg|png)$/.test(imgPath) ? '' : '.png'));
+     assert.ok(fs.existsSync(p), `${s.id}: actor画像が存在しない ${actor.image}`);
+     if (actor.afterImage) {
+       assert.ok(!actor.afterImage.endsWith('.svg'), `${s.id}: afterImage画像がSVGのままです ${actor.afterImage}`);
+       const aPath = actor.afterImage.includes('/') ? actor.afterImage : `ancient/${actor.afterImage}`;
+       const ap = path.join(root, 'public/images', aPath + (/\.(svg|png)$/.test(aPath) ? '' : '.png'));
+       assert.ok(fs.existsSync(ap), `${s.id}: afterImage画像が存在しない ${actor.afterImage}`);
+     }
+   }
  }
 }
 assert.equal(paragraphIndex,paragraphs.length);assert.equal(offset,0);assert.equal(pageIndex,reading.length);
