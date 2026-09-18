@@ -159,7 +159,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-be87c8.png",
+          "bubble": "メディチ家",
           "kind": "prop",
           "size": 42
         },
@@ -169,7 +170,8 @@ export const chapterEdition = {
             9.19,
             45.46
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-48af2c.png",
+          "bubble": "ヴィスコンティ家",
           "kind": "prop",
           "size": 42
         }
@@ -266,7 +268,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-be87c8.png",
+          "bubble": "メディチ家",
           "kind": "prop",
           "size": 42
         },
@@ -276,7 +279,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/dante-alighieri.png",
+          "bubble": "『神曲』でトスカナ語による文学の道を開く！",
           "kind": "prop",
           "size": 42
         },
@@ -286,7 +290,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-4e18f6.png",
+          "bubble": "ウェルギリウス",
           "kind": "prop",
           "size": 42
         },
@@ -296,7 +301,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/francesco-petrarca.png",
+          "bubble": "古代ローマ古典を愛好し叙情詩集を著す！",
           "kind": "prop",
           "size": 42
         },
@@ -306,7 +312,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/giovanni-boccaccio.png",
+          "bubble": "ペスト下の人間群像をユーモラスに描く『デカメロン』！",
           "kind": "prop",
           "size": 42
         }
@@ -395,7 +402,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-9e89a6.png",
+          "bubble": "ジョット",
           "kind": "prop",
           "size": 42
         },
@@ -405,7 +413,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/donatello-sculptor.png",
+          "bubble": "ドナテルロ",
           "kind": "prop",
           "size": 42
         },
@@ -415,7 +424,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-be87c8.png",
+          "bubble": "メディチ家",
           "kind": "prop",
           "size": 42
         },
@@ -425,7 +435,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cosimo-de-medici.png",
+          "bubble": "コジモ＝デ＝メディチ",
           "kind": "prop",
           "size": 42
         },
@@ -435,7 +446,8 @@ export const chapterEdition = {
             23.73,
             37.98
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/plato-philosopher.png",
+          "bubble": "プラトン",
           "kind": "prop",
           "size": 42
         },
@@ -445,7 +457,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/filippo-brunelleschi.png",
+          "bubble": "フィレンツェのサンタ・マリア大聖堂のドームを設計！",
           "kind": "prop",
           "size": 42
         },
@@ -455,7 +468,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/sandro-botticelli.png",
+          "bubble": "『春』『ヴィーナスの誕生』で優美な人文美を描く！",
           "kind": "prop",
           "size": 42
         },
@@ -465,7 +479,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/girolamo-savonarola.png",
+          "bubble": "サヴォナローラ",
           "kind": "prop",
           "size": 42
         },
@@ -475,7 +490,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/niccolo-machiavelli.png",
+          "bubble": "『君主論』で政治と宗教倫理の分離を提唱！",
           "kind": "prop",
           "size": 42
         }
@@ -560,7 +576,8 @@ export const chapterEdition = {
             9.19,
             45.46
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/leonardo-da-vinci.png",
+          "bubble": "万能の天才！『モナ・リザ』『最後の晩餐』を描く！",
           "kind": "prop",
           "size": 42
         },
@@ -570,9 +587,10 @@ export const chapterEdition = {
             9.17,
             45.47
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/santa-maria-grazie.png",
+          "bubble": "ダ＝ヴィンチの壁画『最後の晩餐』が描かれた修道院！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "フランソワ1世",
@@ -580,7 +598,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a3351c.png",
+          "bubble": "フランソワ1世",
           "kind": "prop",
           "size": 42
         },
@@ -590,9 +609,10 @@ export const chapterEdition = {
             2.34,
             48.86
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/louvre-palace.png",
+          "bubble": "歴代フランス王の宮殿から世界最大級の美術館へ！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ミケランジェロ",
@@ -600,7 +620,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/michelangelo-buonarroti.png",
+          "bubble": "『ダヴィデ像』『最後の審判』で圧倒的な造形美を表現！",
           "kind": "prop",
           "size": 42
         },
@@ -610,7 +631,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-4211ae.png",
+          "bubble": "ユリウス2世",
           "kind": "prop",
           "size": 42
         },
@@ -620,9 +642,10 @@ export const chapterEdition = {
             12.45,
             41.9
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/vatican-palace.png",
+          "bubble": "ローマ教皇の公邸でありルネサンス芸術の殿堂！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "システィナ礼拝堂",
@@ -630,9 +653,10 @@ export const chapterEdition = {
             12.45,
             41.9
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/sistine-chapel.png",
+          "bubble": "ミケランジェロが天井画と『最後の審判』を描いた教皇礼拝堂！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ラファエロ",
@@ -640,7 +664,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/raphael-sanzio.png",
+          "bubble": "聖母子像や『アテネの学堂』で調和ある美を完成！",
           "kind": "prop",
           "size": 42
         },
@@ -650,7 +675,8 @@ export const chapterEdition = {
             23.73,
             37.98
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/plato-philosopher.png",
+          "bubble": "プラトン",
           "kind": "prop",
           "size": 42
         },
@@ -660,7 +686,8 @@ export const chapterEdition = {
             9.19,
             45.46
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/leonardo-da-vinci.png",
+          "bubble": "万能の天才！『モナ・リザ』『最後の晩餐』を描く！",
           "kind": "prop",
           "size": 42
         },
@@ -670,7 +697,8 @@ export const chapterEdition = {
             27.34,
             37.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-83f859.png",
+          "bubble": "ヘラクレイトス",
           "kind": "prop",
           "size": 42
         }
@@ -745,9 +773,10 @@ export const chapterEdition = {
             12.45,
             41.9
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/st-peters-basilica.png",
+          "bubble": "ルネサンスの巨匠たちが集結して築いたカトリック総本山！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ユリウス2世",
@@ -755,7 +784,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-4211ae.png",
+          "bubble": "ユリウス2世",
           "kind": "prop",
           "size": 42
         },
@@ -765,7 +795,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-06473b.png",
+          "bubble": "ブラマンテ",
           "kind": "prop",
           "size": 42
         },
@@ -775,7 +806,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/raphael-sanzio.png",
+          "bubble": "聖母子像や『アテネの学堂』で調和ある美を完成！",
           "kind": "prop",
           "size": 42
         },
@@ -785,7 +817,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/michelangelo-buonarroti.png",
+          "bubble": "『ダヴィデ像』『最後の審判』で圧倒的な造形美を表現！",
           "kind": "prop",
           "size": 42
         },
@@ -795,7 +828,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-3ad43f.png",
+          "bubble": "レオ10世",
           "kind": "prop",
           "size": 42
         }
@@ -901,7 +935,8 @@ export const chapterEdition = {
             4.4,
             51.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-94d8df.png",
+          "bubble": "ファン＝アイク兄弟",
           "kind": "prop",
           "size": 42
         },
@@ -911,7 +946,8 @@ export const chapterEdition = {
             4.4,
             51.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-29546f.png",
+          "bubble": "ブリューゲル",
           "kind": "prop",
           "size": 42
         },
@@ -921,7 +957,8 @@ export const chapterEdition = {
             4.4,
             51.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/desiderius-erasmus.png",
+          "bubble": "『愚神礼賛』で教会の腐敗を痛烈に風刺！",
           "kind": "prop",
           "size": 42
         },
@@ -931,7 +968,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/thomas-more.png",
+          "bubble": "『ユートピア』で囲い込み運動を批判！",
           "kind": "prop",
           "size": 42
         }
@@ -1020,7 +1058,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -1030,7 +1069,8 @@ export const chapterEdition = {
             8.7,
             48.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-12868a.png",
+          "bubble": "ロイヒリン",
           "kind": "prop",
           "size": 42
         },
@@ -1040,7 +1080,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-afcdd1.png",
+          "bubble": "メランヒトン",
           "kind": "prop",
           "size": 42
         },
@@ -1050,7 +1091,8 @@ export const chapterEdition = {
             11.08,
             49.45
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/albrecht-durer.png",
+          "bubble": "デューラー",
           "kind": "prop",
           "size": 42
         },
@@ -1060,7 +1102,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hans-holbein.png",
+          "bubble": "ホルバイン",
           "kind": "prop",
           "size": 42
         },
@@ -1070,7 +1113,8 @@ export const chapterEdition = {
             4.4,
             51.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/desiderius-erasmus.png",
+          "bubble": "『愚神礼賛』で教会の腐敗を痛烈に風刺！",
           "kind": "prop",
           "size": 42
         },
@@ -1080,7 +1124,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/henry8-king.png",
+          "bubble": "首長法を発布しイギリス国教会を成立させる！",
           "kind": "prop",
           "size": 42
         }
@@ -1170,7 +1215,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-caf0ef.png",
+          "bubble": "チョーサー",
           "kind": "prop",
           "size": 42
         },
@@ -1180,7 +1226,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/giovanni-boccaccio.png",
+          "bubble": "ペスト下の人間群像をユーモラスに描く『デカメロン』！",
           "kind": "prop",
           "size": 42
         },
@@ -1190,9 +1237,10 @@ export const chapterEdition = {
             1.08,
             51.28
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/canterbury-cathedral.png",
+          "bubble": "イギリス国教会の総本山！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "エラスムス",
@@ -1200,7 +1248,8 @@ export const chapterEdition = {
             4.4,
             51.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/desiderius-erasmus.png",
+          "bubble": "『愚神礼賛』で教会の腐敗を痛烈に風刺！",
           "kind": "prop",
           "size": 42
         },
@@ -1210,7 +1259,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/thomas-more.png",
+          "bubble": "『ユートピア』で囲い込み運動を批判！",
           "kind": "prop",
           "size": 42
         },
@@ -1220,7 +1270,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth1-tudor.png",
+          "bubble": "統一法でイギリス国教会を確立しアルマダを撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -1230,7 +1281,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william-shakespeare.png",
+          "bubble": "『ハムレット』『ロミオとジュリエット』など不朽の名作劇！",
           "kind": "prop",
           "size": 42
         },
@@ -1240,7 +1292,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/caesar-general.png",
+          "bubble": "カエサル",
           "kind": "prop",
           "size": 42
         },
@@ -1250,7 +1303,8 @@ export const chapterEdition = {
             31.2,
             30
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cleopatra-queen.png",
+          "bubble": "クレオパトラ",
           "kind": "prop",
           "size": 42
         }
@@ -1318,7 +1372,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a3351c.png",
+          "bubble": "フランソワ1世",
           "kind": "prop",
           "size": 42
         },
@@ -1328,7 +1383,8 @@ export const chapterEdition = {
             9.19,
             45.46
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/leonardo-da-vinci.png",
+          "bubble": "万能の天才！『モナ・リザ』『最後の晩餐』を描く！",
           "kind": "prop",
           "size": 42
         },
@@ -1338,7 +1394,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/francois-rabelais.png",
+          "bubble": "ラブレー",
           "kind": "prop",
           "size": 42
         },
@@ -1348,7 +1405,8 @@ export const chapterEdition = {
             -0.58,
             44.84
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/michel-montaigne.png",
+          "bubble": "モンテーニュ",
           "kind": "prop",
           "size": 42
         }
@@ -1437,7 +1495,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/miguel-cervantes.png",
+          "bubble": "騎士道小説をパロディ化した名作『ドン・キホーテ』！",
           "kind": "prop",
           "size": 42
         },
@@ -1447,7 +1506,8 @@ export const chapterEdition = {
             -4.03,
             39.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-feb692.png",
+          "bubble": "エル＝グレコ",
           "kind": "prop",
           "size": 42
         }
@@ -1534,7 +1594,8 @@ export const chapterEdition = {
             8.27,
             50
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-e4d386.png",
+          "bubble": "グーテンベルク",
           "kind": "prop",
           "size": 42
         }
@@ -1616,7 +1677,8 @@ export const chapterEdition = {
             26.97,
             37.75
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-ba0d82.png",
+          "bubble": "アリスタルコス",
           "kind": "prop",
           "size": 42
         },
@@ -1626,7 +1688,8 @@ export const chapterEdition = {
             19.68,
             54.36
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/nicolaus-copernicus.png",
+          "bubble": "『天球の回転について』で地動説を唱える！",
           "kind": "prop",
           "size": 42
         },
@@ -1636,7 +1699,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-cacf6f.png",
+          "bubble": "ジョルダーノ＝ブルーノ",
           "kind": "prop",
           "size": 42
         },
@@ -1646,7 +1710,8 @@ export const chapterEdition = {
             10.4,
             43.72
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/galileo-galilei.png",
+          "bubble": "望遠鏡で天体を観測！「それでも地球は動く」",
           "kind": "prop",
           "size": 42
         },
@@ -1656,7 +1721,8 @@ export const chapterEdition = {
             10.4,
             43.72
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/galileo-galilei.png",
+          "bubble": "望遠鏡で天体を観測！「それでも地球は動く」",
           "kind": "prop",
           "size": 42
         },
@@ -1666,7 +1732,8 @@ export const chapterEdition = {
             14.29,
             48.31
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/johannes-kepler.png",
+          "bubble": "惑星運動の三法則を発見し近代天文学の礎を築く！",
           "kind": "prop",
           "size": 42
         }
@@ -1832,7 +1899,8 @@ export const chapterEdition = {
             12.32,
             45.44
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marco-polo.png",
+          "bubble": "マルコ＝ポーロ",
           "kind": "prop",
           "size": 42
         }
@@ -1957,7 +2025,8 @@ export const chapterEdition = {
             -9.14,
             38.72
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/henry-navigator.png",
+          "bubble": "航海王子！ポルトガルのアフリカ西岸探検を支援！",
           "kind": "prop",
           "size": 42
         }
@@ -2055,7 +2124,8 @@ export const chapterEdition = {
             -9.14,
             38.72
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-fff577.png",
+          "bubble": "ジョアン2世",
           "kind": "prop",
           "size": 42
         },
@@ -2065,7 +2135,8 @@ export const chapterEdition = {
             -9.14,
             38.72
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/bartolomeu-dias.png",
+          "bubble": "アフリカ南端の喜望峰に到達！",
           "kind": "prop",
           "size": 42
         },
@@ -2075,7 +2146,8 @@ export const chapterEdition = {
             -9.14,
             38.72
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-7bb746.png",
+          "bubble": "マヌエル1世",
           "kind": "prop",
           "size": 42
         },
@@ -2085,7 +2157,8 @@ export const chapterEdition = {
             75.78,
             11.26
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/vasco-da-gama.png",
+          "bubble": "インド洋を越えてカリカットへ到達！インド航路を開拓！",
           "kind": "prop",
           "size": 42
         }
@@ -2300,7 +2373,8 @@ export const chapterEdition = {
             73.83,
             15.49
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-bae59d.png",
+          "bubble": "アルメイダ",
           "kind": "prop",
           "size": 42
         },
@@ -2310,7 +2384,8 @@ export const chapterEdition = {
             73.83,
             15.49
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/albuquerque-conqueror.png",
+          "bubble": "アルブケルケ",
           "kind": "prop",
           "size": 42
         }
@@ -2713,7 +2788,8 @@ export const chapterEdition = {
             -6.89,
             37.23
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/columbus-explorer.png",
+          "bubble": "大西洋を西航しサンサルバドル島に到達！",
           "kind": "prop",
           "size": 42
         },
@@ -2723,7 +2799,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-7fbe59.png",
+          "bubble": "トスカネリ",
           "kind": "prop",
           "size": 42
         },
@@ -2733,7 +2810,8 @@ export const chapterEdition = {
             -3.6,
             37.18
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/isabella-castile.png",
+          "bubble": "イサベル",
           "kind": "prop",
           "size": 42
         }
@@ -2895,7 +2973,8 @@ export const chapterEdition = {
             -6.89,
             37.23
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/columbus-explorer.png",
+          "bubble": "大西洋を西航しサンサルバドル島に到達！",
           "kind": "prop",
           "size": 42
         },
@@ -2905,7 +2984,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/henry7-tudor.png",
+          "bubble": "ヘンリ7世",
           "kind": "prop",
           "size": 42
         },
@@ -2915,7 +2995,8 @@ export const chapterEdition = {
             -56,
             49
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-1130d3.png",
+          "bubble": "カボット",
           "kind": "prop",
           "size": 42
         },
@@ -2925,7 +3006,8 @@ export const chapterEdition = {
             -71.21,
             46.81
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-f22efe.png",
+          "bubble": "カルティエ",
           "kind": "prop",
           "size": 42
         }
@@ -3057,7 +3139,8 @@ export const chapterEdition = {
             -6.89,
             37.23
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/columbus-explorer.png",
+          "bubble": "大西洋を西航しサンサルバドル島に到達！",
           "kind": "prop",
           "size": 42
         },
@@ -3067,7 +3150,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-b7fd8d.png",
+          "bubble": "アレクサンデル6世",
           "kind": "prop",
           "size": 42
         },
@@ -3077,7 +3161,8 @@ export const chapterEdition = {
             -9.14,
             38.72
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/pedro-cabral.png",
+          "bubble": "カブラル",
           "kind": "prop",
           "size": 42
         }
@@ -3206,7 +3291,8 @@ export const chapterEdition = {
             -52,
             -12
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-84e108.png",
+          "bubble": "アメリゴ＝ヴェスプッチ",
           "kind": "prop",
           "size": 42
         },
@@ -3216,7 +3302,8 @@ export const chapterEdition = {
             -6.89,
             37.23
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/columbus-explorer.png",
+          "bubble": "大西洋を西航しサンサルバドル島に到達！",
           "kind": "prop",
           "size": 42
         },
@@ -3226,7 +3313,8 @@ export const chapterEdition = {
             6.95,
             48.28
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-5c1e8d.png",
+          "bubble": "ヴァルトゼーミュラー",
           "kind": "prop",
           "size": 42
         },
@@ -3236,7 +3324,8 @@ export const chapterEdition = {
             -80,
             9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-e757b0.png",
+          "bubble": "バルボア",
           "kind": "prop",
           "size": 42
         }
@@ -3396,7 +3485,8 @@ export const chapterEdition = {
             -5.98,
             37.39
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ferdinand-magellan.png",
+          "bubble": "世界周航艦隊を率いて大西洋から太平洋を横断！",
           "kind": "prop",
           "size": 42
         },
@@ -3406,7 +3496,8 @@ export const chapterEdition = {
             -5.98,
             37.39
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ferdinand-magellan.png",
+          "bubble": "世界周航艦隊を率いて大西洋から太平洋を横断！",
           "kind": "prop",
           "size": 42
         },
@@ -3416,7 +3507,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         }
@@ -3528,7 +3620,8 @@ export const chapterEdition = {
             -6.89,
             37.23
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/columbus-explorer.png",
+          "bubble": "大西洋を西航しサンサルバドル島に到達！",
           "kind": "prop",
           "size": 42
         },
@@ -3538,7 +3631,8 @@ export const chapterEdition = {
             -99.13,
             19.43
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hernan-cortes.png",
+          "bubble": "アステカ帝国を滅ぼしたスペインの征服者！",
           "kind": "prop",
           "size": 42
         },
@@ -3548,7 +3642,8 @@ export const chapterEdition = {
             -78.5,
             -7.16
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/francisco-pizarro.png",
+          "bubble": "インカ帝国を滅ぼしたスペインの征服者！",
           "kind": "prop",
           "size": 42
         },
@@ -3558,7 +3653,8 @@ export const chapterEdition = {
             -78.5,
             -7.16
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/atahualpa-inca.png",
+          "bubble": "アタワルパ",
           "kind": "prop",
           "size": 42
         }
@@ -3687,7 +3783,8 @@ export const chapterEdition = {
             -69.9,
             18.5
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/bartolome-las-casas.png",
+          "bubble": "ラス＝カサス",
           "kind": "prop",
           "size": 42
         },
@@ -3697,7 +3794,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         }
@@ -4321,7 +4419,8 @@ export const chapterEdition = {
             10.88,
             48.37
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a61385.png",
+          "bubble": "フッガー家",
           "kind": "prop",
           "size": 42
         }
@@ -4772,7 +4871,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         }
@@ -4847,7 +4947,8 @@ export const chapterEdition = {
             -1.2,
             51.75
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-wycliffe.png",
+          "bubble": "ウィクリフ",
           "kind": "prop",
           "size": 42
         },
@@ -4857,7 +4958,8 @@ export const chapterEdition = {
             14.42,
             50.08
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jan-hus-reformer.png",
+          "bubble": "フス",
           "kind": "prop",
           "size": 42
         },
@@ -4867,7 +4969,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-4211ae.png",
+          "bubble": "ユリウス2世",
           "kind": "prop",
           "size": 42
         },
@@ -4877,9 +4980,10 @@ export const chapterEdition = {
             12.45,
             41.9
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/st-peters-basilica.png",
+          "bubble": "ルネサンスの巨匠たちが集結して築いたカトリック総本山！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "レオ10世",
@@ -4887,7 +4991,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-3ad43f.png",
+          "bubble": "レオ10世",
           "kind": "prop",
           "size": 42
         },
@@ -4897,7 +5002,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-be87c8.png",
+          "bubble": "メディチ家",
           "kind": "prop",
           "size": 42
         },
@@ -4907,7 +5013,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/lorenzo-de-medici.png",
+          "bubble": "ロレンツォ＝デ＝メディチ",
           "kind": "prop",
           "size": 42
         },
@@ -4917,7 +5024,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/raphael-sanzio.png",
+          "bubble": "聖母子像や『アテネの学堂』で調和ある美を完成！",
           "kind": "prop",
           "size": 42
         }
@@ -4985,7 +5093,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -4995,7 +5104,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         }
@@ -5070,7 +5180,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -5080,7 +5191,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-3ad43f.png",
+          "bubble": "レオ10世",
           "kind": "prop",
           "size": 42
         },
@@ -5090,7 +5202,8 @@ export const chapterEdition = {
             11.42,
             48.76
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-2a8cde.png",
+          "bubble": "ヨハン＝エック",
           "kind": "prop",
           "size": 42
         },
@@ -5100,7 +5213,8 @@ export const chapterEdition = {
             14.42,
             50.08
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jan-hus-reformer.png",
+          "bubble": "フス",
           "kind": "prop",
           "size": 42
         }
@@ -5183,7 +5297,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -5193,7 +5308,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         }
@@ -5290,7 +5406,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         },
@@ -5300,7 +5417,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -5310,9 +5428,10 @@ export const chapterEdition = {
             10.31,
             50.97
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/wartburg-castle.png",
+          "bubble": "ルターが新約聖書をドイツ語に翻訳した歴史的古城！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "カルロス1世",
@@ -5320,7 +5439,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         }
@@ -5402,7 +5522,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         },
@@ -5412,7 +5533,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         },
@@ -5422,7 +5544,8 @@ export const chapterEdition = {
             -3.6,
             37.18
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/isabella-castile.png",
+          "bubble": "イサベル",
           "kind": "prop",
           "size": 42
         },
@@ -5432,7 +5555,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-83488c.png",
+          "bubble": "フェルナンド5世",
           "kind": "prop",
           "size": 42
         },
@@ -5442,7 +5566,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-2bbe85.png",
+          "bubble": "マクシミリアン1世",
           "kind": "prop",
           "size": 42
         },
@@ -5452,7 +5577,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a3351c.png",
+          "bubble": "フランソワ1世",
           "kind": "prop",
           "size": 42
         }
@@ -5616,7 +5742,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         },
@@ -5626,7 +5753,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         },
@@ -5636,7 +5764,8 @@ export const chapterEdition = {
             -99.13,
             19.43
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hernan-cortes.png",
+          "bubble": "アステカ帝国を滅ぼしたスペインの征服者！",
           "kind": "prop",
           "size": 42
         },
@@ -5646,7 +5775,8 @@ export const chapterEdition = {
             -78.5,
             -7.16
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/francisco-pizarro.png",
+          "bubble": "インカ帝国を滅ぼしたスペインの征服者！",
           "kind": "prop",
           "size": 42
         },
@@ -5656,7 +5786,8 @@ export const chapterEdition = {
             -5.98,
             37.39
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ferdinand-magellan.png",
+          "bubble": "世界周航艦隊を率いて大西洋から太平洋を横断！",
           "kind": "prop",
           "size": 42
         },
@@ -5666,7 +5797,8 @@ export const chapterEdition = {
             29,
             41
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/suleyman1-magnificent.png",
+          "bubble": "スレイマン1世",
           "kind": "prop",
           "size": 42
         },
@@ -5676,7 +5808,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a3351c.png",
+          "bubble": "フランソワ1世",
           "kind": "prop",
           "size": 42
         },
@@ -5686,7 +5819,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         }
@@ -5768,7 +5902,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -5778,9 +5913,10 @@ export const chapterEdition = {
             10.31,
             50.97
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/wartburg-castle.png",
+          "bubble": "ルターが新約聖書をドイツ語に翻訳した歴史的古城！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ミュンツァー",
@@ -5788,7 +5924,8 @@ export const chapterEdition = {
             10.45,
             51.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a25ab8.png",
+          "bubble": "ミュンツァー",
           "kind": "prop",
           "size": 42
         }
@@ -5891,7 +6028,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -5901,7 +6039,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         }
@@ -5977,7 +6116,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -5987,7 +6127,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         }
@@ -6090,7 +6231,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -6100,7 +6242,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -6185,7 +6328,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         },
@@ -6195,7 +6339,8 @@ export const chapterEdition = {
             8.54,
             47.38
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-b1db09.png",
+          "bubble": "ツヴィングリ",
           "kind": "prop",
           "size": 42
         },
@@ -6205,7 +6350,8 @@ export const chapterEdition = {
             4.4,
             51.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/desiderius-erasmus.png",
+          "bubble": "『愚神礼賛』で教会の腐敗を痛烈に風刺！",
           "kind": "prop",
           "size": 42
         },
@@ -6215,7 +6361,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         }
@@ -6299,7 +6446,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -6357,7 +6505,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         },
@@ -6367,7 +6516,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         }
@@ -6425,7 +6575,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -6483,7 +6634,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         },
@@ -6493,7 +6645,8 @@ export const chapterEdition = {
             8.69,
             49.4
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-bfa2f2.png",
+          "bubble": "マックス＝ヴェーバー",
           "kind": "prop",
           "size": 42
         }
@@ -6589,7 +6742,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/henry8-king.png",
+          "bubble": "首長法を発布しイギリス国教会を成立させる！",
           "kind": "prop",
           "size": 42
         },
@@ -6599,7 +6753,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/henry7-tudor.png",
+          "bubble": "ヘンリ7世",
           "kind": "prop",
           "size": 42
         },
@@ -6609,7 +6764,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-f18d2d.png",
+          "bubble": "アーサー",
           "kind": "prop",
           "size": 42
         },
@@ -6619,7 +6775,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-8c851d.png",
+          "bubble": "カサリン",
           "kind": "prop",
           "size": 42
         }
@@ -6687,7 +6844,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/henry8-king.png",
+          "bubble": "首長法を発布しイギリス国教会を成立させる！",
           "kind": "prop",
           "size": 42
         },
@@ -6697,7 +6855,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -6707,7 +6866,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-3ad43f.png",
+          "bubble": "レオ10世",
           "kind": "prop",
           "size": 42
         },
@@ -6717,7 +6877,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-8c851d.png",
+          "bubble": "カサリン",
           "kind": "prop",
           "size": 42
         },
@@ -6727,7 +6888,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-10f564.png",
+          "bubble": "アン＝ブーリン",
           "kind": "prop",
           "size": 42
         },
@@ -6737,7 +6899,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         }
@@ -6826,7 +6989,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/henry8-king.png",
+          "bubble": "首長法を発布しイギリス国教会を成立させる！",
           "kind": "prop",
           "size": 42
         },
@@ -6836,7 +7000,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/thomas-more.png",
+          "bubble": "『ユートピア』で囲い込み運動を批判！",
           "kind": "prop",
           "size": 42
         },
@@ -6846,7 +7011,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-10f564.png",
+          "bubble": "アン＝ブーリン",
           "kind": "prop",
           "size": 42
         },
@@ -6856,7 +7022,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-b31198.png",
+          "bubble": "エドワード",
           "kind": "prop",
           "size": 42
         }
@@ -6931,7 +7098,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/thomas-more.png",
+          "bubble": "『ユートピア』で囲い込み運動を批判！",
           "kind": "prop",
           "size": 42
         }
@@ -7020,7 +7188,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/henry8-king.png",
+          "bubble": "首長法を発布しイギリス国教会を成立させる！",
           "kind": "prop",
           "size": 42
         },
@@ -7030,7 +7199,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-b31198.png",
+          "bubble": "エドワード6世",
           "kind": "prop",
           "size": 42
         },
@@ -7040,7 +7210,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         },
@@ -7050,7 +7221,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-c367ab.png",
+          "bubble": "メアリ1世",
           "kind": "prop",
           "size": 42
         },
@@ -7060,7 +7232,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-8c851d.png",
+          "bubble": "カサリン",
           "kind": "prop",
           "size": 42
         },
@@ -7070,7 +7243,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         }
@@ -7152,7 +7326,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth1-tudor.png",
+          "bubble": "統一法でイギリス国教会を確立しアルマダを撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -7162,7 +7337,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-c367ab.png",
+          "bubble": "メアリ1世",
           "kind": "prop",
           "size": 42
         },
@@ -7172,7 +7348,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/henry8-king.png",
+          "bubble": "首長法を発布しイギリス国教会を成立させる！",
           "kind": "prop",
           "size": 42
         },
@@ -7182,7 +7359,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-10f564.png",
+          "bubble": "アン＝ブーリン",
           "kind": "prop",
           "size": 42
         },
@@ -7192,7 +7370,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth1-tudor.png",
+          "bubble": "統一法でイギリス国教会を確立しアルマダを撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -7202,7 +7381,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -7284,7 +7464,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth1-tudor.png",
+          "bubble": "統一法でイギリス国教会を確立しアルマダを撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -7294,7 +7475,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-7a56f3.png",
+          "bubble": "グレシャム",
           "kind": "prop",
           "size": 42
         }
@@ -7402,7 +7584,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth1-tudor.png",
+          "bubble": "統一法でイギリス国教会を確立しアルマダを撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -7412,7 +7595,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         },
@@ -7422,7 +7606,8 @@ export const chapterEdition = {
             -3.19,
             55.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-801831.png",
+          "bubble": "メアリ＝ステュアート",
           "kind": "prop",
           "size": 42
         },
@@ -7432,7 +7617,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-0f461c.png",
+          "bubble": "ドレーク",
           "kind": "prop",
           "size": 42
         },
@@ -7442,7 +7628,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-cf6d06.png",
+          "bubble": "ホーキンズ",
           "kind": "prop",
           "size": 42
         }
@@ -7563,7 +7750,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "エリザベス1世",
+          "at": [
+            -0.13,
+            51.51
+          ],
+          "image": "ancient/elizabeth1-tudor.png",
+          "bubble": "私は国と結婚した。無敵艦隊を打ち破れ！",
+          "action": "cheer"
+        }
+      ],
       "props": [
         {
           "name": "エリザベス1世",
@@ -7571,7 +7769,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth1-tudor.png",
+          "bubble": "統一法でイギリス国教会を確立しアルマダを撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -7581,7 +7780,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-0f461c.png",
+          "bubble": "ドレーク",
           "kind": "prop",
           "size": 42
         },
@@ -7591,21 +7791,22 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-cf6d06.png",
+          "bubble": "ホーキンズ",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3400,
       "facts": [
         "エリザベス1世の対外政策——基本政策は反スペインだ！"
       ],
       "mapHeading": "エリザベス1世の対外政策——基本政策は反スペインだ！",
       "focus": "エリザベス1世の対外政策——基本政策は反スペインだ！",
       "before": "エリザベス1世の対外政策——基本政策は反スペインだ！",
-      "after": "エリザベス1世の対外政策——基本政策は反スペインだ！",
+      "after": "アルマダの海戦（スペイン無敵艦隊の壊滅）",
       "note": "",
       "takeaway": ""
     },
@@ -7657,7 +7858,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth1-tudor.png",
+          "bubble": "統一法でイギリス国教会を確立しアルマダを撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -7667,7 +7869,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth1-tudor.png",
+          "bubble": "統一法でイギリス国教会を確立しアルマダを撃破！",
           "kind": "prop",
           "size": 42
         }
@@ -7758,7 +7961,8 @@ export const chapterEdition = {
             4.4,
             51.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/desiderius-erasmus.png",
+          "bubble": "『愚神礼賛』で教会の腐敗を痛烈に風刺！",
           "kind": "prop",
           "size": 42
         },
@@ -7768,7 +7972,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -7778,7 +7983,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -7861,7 +8067,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         },
@@ -7871,7 +8078,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -7881,7 +8089,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/niccolo-machiavelli.png",
+          "bubble": "『君主論』で政治と宗教倫理の分離を提唱！",
           "kind": "prop",
           "size": 42
         },
@@ -7891,7 +8100,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         }
@@ -8036,7 +8246,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/henry8-king.png",
+          "bubble": "首長法を発布しイギリス国教会を成立させる！",
           "kind": "prop",
           "size": 42
         },
@@ -8046,7 +8257,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ignatius-loyola.png",
+          "bubble": "イエズス会を結成し世界へカトリック布教を展開！",
           "kind": "prop",
           "size": 42
         },
@@ -8056,7 +8268,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ignatius-loyola.png",
+          "bubble": "イエズス会を結成し世界へカトリック布教を展開！",
           "kind": "prop",
           "size": 42
         },
@@ -8066,7 +8279,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-ba1163.png",
+          "bubble": "パウルス3世",
           "kind": "prop",
           "size": 42
         },
@@ -8076,7 +8290,8 @@ export const chapterEdition = {
             73.83,
             15.49
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-9f387c.png",
+          "bubble": "フランシスコ＝ザビエル",
           "kind": "prop",
           "size": 42
         },
@@ -8086,7 +8301,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/matteo-ricci.png",
+          "bubble": "マテオ＝リッチ",
           "kind": "prop",
           "size": 42
         },
@@ -8096,7 +8312,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/adam-schall.png",
+          "bubble": "アダム＝シャール",
           "kind": "prop",
           "size": 42
         }
@@ -8343,7 +8560,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles8-king.png",
+          "bubble": "シャルル8世",
           "kind": "prop",
           "size": 42
         },
@@ -8353,7 +8571,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis9-saint.png",
+          "bubble": "ルイ9世",
           "kind": "prop",
           "size": 42
         },
@@ -8363,7 +8582,8 @@ export const chapterEdition = {
             14.27,
             40.85
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles-anjou.png",
+          "bubble": "シャルル＝ダンジュー",
           "kind": "prop",
           "size": 42
         },
@@ -8373,7 +8593,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         },
@@ -8383,7 +8604,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a3351c.png",
+          "bubble": "フランソワ1世",
           "kind": "prop",
           "size": 42
         }
@@ -8552,7 +8774,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         },
@@ -8562,7 +8785,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a3351c.png",
+          "bubble": "フランソワ1世",
           "kind": "prop",
           "size": 42
         },
@@ -8572,7 +8796,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         },
@@ -8582,7 +8807,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -8592,7 +8818,8 @@ export const chapterEdition = {
             29,
             41
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/suleyman1-magnificent.png",
+          "bubble": "スレイマン1世",
           "kind": "prop",
           "size": 42
         },
@@ -8602,7 +8829,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/henry8-king.png",
+          "bubble": "首長法を発布しイギリス国教会を成立させる！",
           "kind": "prop",
           "size": 42
         },
@@ -8612,7 +8840,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         },
@@ -8622,7 +8851,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-444044.png",
+          "bubble": "フェルディナント",
           "kind": "prop",
           "size": 42
         }
@@ -8868,7 +9098,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles1-stuart.png",
+          "bubble": "チャールズ1世",
           "kind": "prop",
           "size": 42
         },
@@ -8878,7 +9109,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-c10e26.png",
+          "bubble": "フィルマー",
           "kind": "prop",
           "size": 42
         },
@@ -8888,7 +9120,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -8898,7 +9131,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-03bc13.png",
+          "bubble": "ボシュエ",
           "kind": "prop",
           "size": 42
         }
@@ -9018,7 +9252,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         },
@@ -9028,7 +9263,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         },
@@ -9038,7 +9274,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         },
@@ -9048,7 +9285,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-c367ab.png",
+          "bubble": "メアリ1世",
           "kind": "prop",
           "size": 42
         },
@@ -9058,7 +9296,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         },
@@ -9068,7 +9307,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -9151,7 +9391,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "フェリペ2世",
+          "at": [
+            -3.7,
+            40.42
+          ],
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！カトリックを守護する！",
+          "action": "command"
+        }
+      ],
       "props": [
         {
           "name": "フェリペ2世",
@@ -9159,7 +9410,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         },
@@ -9169,7 +9421,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         },
@@ -9179,21 +9432,22 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "対抗宗教改革を進めたフェリペ2世は、父の敵を討った！"
       ],
       "mapHeading": "対抗宗教改革を進めたフェリペ2世は、父の敵を討った！",
       "focus": "対抗宗教改革を進めたフェリペ2世は、父の敵を討った！",
       "before": "対抗宗教改革を進めたフェリペ2世は、父の敵を討った！",
-      "after": "対抗宗教改革を進めたフェリペ2世は、父の敵を討った！",
+      "after": "レパントの海戦（オスマン海軍を撃破）",
       "note": "",
       "takeaway": ""
     },
@@ -9356,7 +9610,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         },
@@ -9366,7 +9621,8 @@ export const chapterEdition = {
             -5.98,
             37.39
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ferdinand-magellan.png",
+          "bubble": "世界周航艦隊を率いて大西洋から太平洋を横断！",
           "kind": "prop",
           "size": 42
         }
@@ -9460,7 +9716,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         }
@@ -9587,7 +9844,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles5-habsburg.png",
+          "bubble": "ハプスブルク帝国を統治！ヴォルムス帝国議会でルターを追放！",
           "kind": "prop",
           "size": 42
         },
@@ -9597,7 +9855,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -9705,7 +9964,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         },
@@ -9715,7 +9975,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -9811,7 +10072,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         },
@@ -9821,7 +10083,8 @@ export const chapterEdition = {
             4.9,
             52.37
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william-silent-orange.png",
+          "bubble": "ユトレヒト同盟を結びオランダ独立戦争を指導！",
           "kind": "prop",
           "size": 42
         },
@@ -9831,7 +10094,8 @@ export const chapterEdition = {
             4.9,
             52.37
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william-silent-orange.png",
+          "bubble": "ユトレヒト同盟を結びオランダ独立戦争を指導！",
           "kind": "prop",
           "size": 42
         }
@@ -9920,7 +10184,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         },
@@ -9930,7 +10195,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth1-tudor.png",
+          "bubble": "統一法でイギリス国教会を確立しアルマダを撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -9940,7 +10206,8 @@ export const chapterEdition = {
             -3.19,
             55.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-801831.png",
+          "bubble": "メアリ＝ステュアート",
           "kind": "prop",
           "size": 42
         },
@@ -9950,7 +10217,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth1-tudor.png",
+          "bubble": "統一法でイギリス国教会を確立しアルマダを撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -9960,7 +10228,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-0f461c.png",
+          "bubble": "ドレーク",
           "kind": "prop",
           "size": 42
         },
@@ -9970,7 +10239,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-cf6d06.png",
+          "bubble": "ホーキンズ",
           "kind": "prop",
           "size": 42
         }
@@ -10050,7 +10320,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         }
@@ -10522,9 +10793,10 @@ export const chapterEdition = {
             120.16,
             22.99
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/zeelandia-fort.png",
+          "bubble": "台湾にオランダ東インド会社が築き鄭成功に奪還された要塞！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         }
       ],
       "routes": [],
@@ -10897,7 +11169,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -11021,7 +11294,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth1-tudor.png",
+          "bubble": "統一法でイギリス国教会を確立しアルマダを撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -11031,7 +11305,8 @@ export const chapterEdition = {
             -3.19,
             55.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/james1-stuart.png",
+          "bubble": "ジェームズ6世",
           "kind": "prop",
           "size": 42
         },
@@ -11041,7 +11316,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/james1-stuart.png",
+          "bubble": "ジェームズ1世",
           "kind": "prop",
           "size": 42
         }
@@ -11129,7 +11405,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles1-stuart.png",
+          "bubble": "チャールズ1世",
           "kind": "prop",
           "size": 42
         },
@@ -11139,7 +11416,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/james1-stuart.png",
+          "bubble": "ジェームズ1世",
           "kind": "prop",
           "size": 42
         }
@@ -11228,7 +11506,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles1-stuart.png",
+          "bubble": "チャールズ1世",
           "kind": "prop",
           "size": 42
         },
@@ -11238,7 +11517,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -11305,7 +11585,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/oliver-cromwell.png",
+          "bubble": "鉄騎隊を率いピューリタン革命を主導、共和政を樹立！",
           "kind": "prop",
           "size": 42
         }
@@ -11366,7 +11647,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "クロムウェル",
+          "at": [
+            -0.13,
+            51.51
+          ],
+          "image": "ancient/oliver-cromwell.png",
+          "bubble": "神のために戦え！議会派の勝利を！",
+          "action": "command"
+        }
+      ],
       "props": [
         {
           "name": "クロムウェル",
@@ -11374,7 +11666,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/oliver-cromwell.png",
+          "bubble": "鉄騎隊を率いピューリタン革命を主導、共和政を樹立！",
           "kind": "prop",
           "size": 42
         },
@@ -11384,21 +11677,22 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles1-stuart.png",
+          "bubble": "チャールズ1世",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "ピューリタン革命は、対立関係をしっかりおさえよう！"
       ],
       "mapHeading": "ピューリタン革命は、対立関係をしっかりおさえよう！",
       "focus": "ピューリタン革命は、対立関係をしっかりおさえよう！",
       "before": "ピューリタン革命は、対立関係をしっかりおさえよう！",
-      "after": "ピューリタン革命は、対立関係をしっかりおさえよう！",
+      "after": "ネーズビーの戦い（新型軍・鉄騎隊の決定的勝利）",
       "note": "",
       "takeaway": ""
     },
@@ -11457,7 +11751,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/oliver-cromwell.png",
+          "bubble": "鉄騎隊を率いピューリタン革命を主導、共和政を樹立！",
           "kind": "prop",
           "size": 42
         },
@@ -11467,7 +11762,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-4ede7c.png",
+          "bubble": "プライド",
           "kind": "prop",
           "size": 42
         },
@@ -11477,7 +11773,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles1-stuart.png",
+          "bubble": "チャールズ1世",
           "kind": "prop",
           "size": 42
         }
@@ -11587,7 +11884,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/oliver-cromwell.png",
+          "bubble": "鉄騎隊を率いピューリタン革命を主導、共和政を樹立！",
           "kind": "prop",
           "size": 42
         },
@@ -11597,7 +11895,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles1-stuart.png",
+          "bubble": "チャールズ1世",
           "kind": "prop",
           "size": 42
         },
@@ -11607,7 +11906,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles2-stuart.png",
+          "bubble": "チャールズ2世",
           "kind": "prop",
           "size": 42
         },
@@ -11617,7 +11917,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -11697,7 +11998,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/oliver-cromwell.png",
+          "bubble": "鉄騎隊を率いピューリタン革命を主導、共和政を樹立！",
           "kind": "prop",
           "size": 42
         },
@@ -11707,7 +12009,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-e3ba8d.png",
+          "bubble": "リチャード",
           "kind": "prop",
           "size": 42
         },
@@ -11717,7 +12020,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles2-stuart.png",
+          "bubble": "チャールズ2世",
           "kind": "prop",
           "size": 42
         }
@@ -11803,7 +12107,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/oliver-cromwell.png",
+          "bubble": "鉄騎隊を率いピューリタン革命を主導、共和政を樹立！",
           "kind": "prop",
           "size": 42
         },
@@ -11813,7 +12118,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles2-stuart.png",
+          "bubble": "チャールズ2世",
           "kind": "prop",
           "size": 42
         },
@@ -11823,7 +12129,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         }
@@ -11979,7 +12286,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles2-stuart.png",
+          "bubble": "チャールズ2世",
           "kind": "prop",
           "size": 42
         },
@@ -11989,7 +12297,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/james2-stuart.png",
+          "bubble": "ジェームズ2世",
           "kind": "prop",
           "size": 42
         },
@@ -11999,7 +12308,8 @@ export const chapterEdition = {
             4.9,
             52.37
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william3-orange.png",
+          "bubble": "オラニエ公ウィレム3世",
           "kind": "prop",
           "size": 42
         },
@@ -12009,7 +12319,8 @@ export const chapterEdition = {
             4.9,
             52.37
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william-silent-orange.png",
+          "bubble": "ユトレヒト同盟を結びオランダ独立戦争を指導！",
           "kind": "prop",
           "size": 42
         }
@@ -12091,7 +12402,8 @@ export const chapterEdition = {
             4.9,
             52.37
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william-silent-orange.png",
+          "bubble": "ユトレヒト同盟を結びオランダ独立戦争を指導！",
           "kind": "prop",
           "size": 42
         },
@@ -12101,7 +12413,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-b1535d.png",
+          "bubble": "メアリ2世",
           "kind": "prop",
           "size": 42
         },
@@ -12111,7 +12424,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william3-orange.png",
+          "bubble": "ウィリアム3世",
           "kind": "prop",
           "size": 42
         }
@@ -12212,7 +12526,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william3-orange.png",
+          "bubble": "ウィリアム3世",
           "kind": "prop",
           "size": 42
         },
@@ -12222,7 +12537,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -12232,7 +12548,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/james2-stuart.png",
+          "bubble": "ジェームズ2世",
           "kind": "prop",
           "size": 42
         }
@@ -12333,7 +12650,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/queen-anne-britain.png",
+          "bubble": "アン女王",
           "kind": "prop",
           "size": 42
         },
@@ -12343,7 +12661,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william3-orange.png",
+          "bubble": "ウィリアム3世",
           "kind": "prop",
           "size": 42
         }
@@ -12453,7 +12772,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/james1-stuart.png",
+          "bubble": "ジェームズ1世",
           "kind": "prop",
           "size": 42
         },
@@ -12463,7 +12783,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/george1-hanover.png",
+          "bubble": "ジョージ1世",
           "kind": "prop",
           "size": 42
         }
@@ -12529,7 +12850,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/robert-walpole.png",
+          "bubble": "ウォルポール",
           "kind": "prop",
           "size": 42
         }
@@ -12662,7 +12984,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         },
@@ -12672,7 +12995,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-9743e4.png",
+          "bubble": "シャルル9世",
           "kind": "prop",
           "size": 42
         },
@@ -12682,7 +13006,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-106dfe.png",
+          "bubble": "カトリーヌ＝ド＝メディシス",
           "kind": "prop",
           "size": 42
         },
@@ -12692,7 +13017,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-be87c8.png",
+          "bubble": "メディチ家",
           "kind": "prop",
           "size": 42
         }
@@ -12831,7 +13157,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-6b0b16.png",
+          "bubble": "ナントの王令を発布してユグノー戦争を終結！",
           "kind": "prop",
           "size": 42
         },
@@ -12841,7 +13168,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-c31007.png",
+          "bubble": "マルグリート",
           "kind": "prop",
           "size": 42
         },
@@ -12851,7 +13179,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         },
@@ -12861,7 +13190,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-9743e4.png",
+          "bubble": "シャルル9世",
           "kind": "prop",
           "size": 42
         },
@@ -12871,7 +13201,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-686f7b.png",
+          "bubble": "アンリ3世",
           "kind": "prop",
           "size": 42
         }
@@ -12961,7 +13292,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-6b0b16.png",
+          "bubble": "ナントの王令を発布してユグノー戦争を終結！",
           "kind": "prop",
           "size": 42
         }
@@ -13044,7 +13376,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-6b0b16.png",
+          "bubble": "ナントの王令を発布してユグノー戦争を終結！",
           "kind": "prop",
           "size": 42
         },
@@ -13054,7 +13387,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-9e95e9.png",
+          "bubble": "シュリ",
           "kind": "prop",
           "size": 42
         },
@@ -13064,7 +13398,8 @@ export const chapterEdition = {
             -71.21,
             46.81
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-95b590.png",
+          "bubble": "シャンプラン",
           "kind": "prop",
           "size": 42
         }
@@ -13139,7 +13474,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis13-france.png",
+          "bubble": "ルイ13世",
           "kind": "prop",
           "size": 42
         },
@@ -13149,7 +13485,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cardinal-richelieu.png",
+          "bubble": "三十年戦争に介入しフランスの絶対王政の基礎を確立！",
           "kind": "prop",
           "size": 42
         },
@@ -13159,7 +13496,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-6b0b16.png",
+          "bubble": "ナントの王令を発布してユグノー戦争を終結！",
           "kind": "prop",
           "size": 42
         },
@@ -13169,7 +13507,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-713921.png",
+          "bubble": "マリ＝ド＝メディシス",
           "kind": "prop",
           "size": 42
         },
@@ -13179,7 +13518,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-be87c8.png",
+          "bubble": "メディチ家",
           "kind": "prop",
           "size": 42
         }
@@ -13301,7 +13641,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis13-france.png",
+          "bubble": "ルイ13世",
           "kind": "prop",
           "size": 42
         },
@@ -13311,7 +13652,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cardinal-richelieu.png",
+          "bubble": "三十年戦争に介入しフランスの絶対王政の基礎を確立！",
           "kind": "prop",
           "size": 42
         },
@@ -13321,7 +13663,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         }
@@ -13401,7 +13744,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis13-france.png",
+          "bubble": "ルイ13世",
           "kind": "prop",
           "size": 42
         },
@@ -13411,7 +13755,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cardinal-richelieu.png",
+          "bubble": "三十年戦争に介入しフランスの絶対王政の基礎を確立！",
           "kind": "prop",
           "size": 42
         },
@@ -13421,7 +13766,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/niccolo-machiavelli.png",
+          "bubble": "『君主論』で政治と宗教倫理の分離を提唱！",
           "kind": "prop",
           "size": 42
         }
@@ -13524,7 +13870,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -13534,7 +13881,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cardinal-mazarin.png",
+          "bubble": "フロンドの乱を鎮圧し幼少のルイ14世を補佐！",
           "kind": "prop",
           "size": 42
         },
@@ -13544,7 +13892,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cardinal-richelieu.png",
+          "bubble": "三十年戦争に介入しフランスの絶対王政の基礎を確立！",
           "kind": "prop",
           "size": 42
         },
@@ -13554,7 +13903,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis13-france.png",
+          "bubble": "ルイ13世",
           "kind": "prop",
           "size": 42
         }
@@ -13655,7 +14005,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -13665,7 +14016,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cardinal-mazarin.png",
+          "bubble": "フロンドの乱を鎮圧し幼少のルイ14世を補佐！",
           "kind": "prop",
           "size": 42
         },
@@ -13675,7 +14027,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-03bc13.png",
+          "bubble": "ボシュエ",
           "kind": "prop",
           "size": 42
         },
@@ -13685,7 +14038,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jean-colbert.png",
+          "bubble": "重商主義政策を推進しフランスの商工業を育成！",
           "kind": "prop",
           "size": 42
         }
@@ -13783,7 +14137,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -13793,9 +14148,10 @@ export const chapterEdition = {
             2.12,
             48.8
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/versailles-palace.png",
+          "bubble": "ルイ14世が造営したバロック様式の豪壮な宮殿！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ルイ13世",
@@ -13803,7 +14159,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis13-france.png",
+          "bubble": "ルイ13世",
           "kind": "prop",
           "size": 42
         },
@@ -13813,7 +14170,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-locke.png",
+          "bubble": "『統治二論』で抵抗権・社会契約説を唱える！",
           "kind": "prop",
           "size": 42
         },
@@ -13823,7 +14181,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jean-colbert.png",
+          "bubble": "重商主義政策を推進しフランスの商工業を育成！",
           "kind": "prop",
           "size": 42
         },
@@ -13833,7 +14192,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -13979,7 +14339,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -13989,7 +14350,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-6065a2.png",
+          "bubble": "ルーヴォワ",
           "kind": "prop",
           "size": 42
         },
@@ -13999,7 +14361,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles2-stuart.png",
+          "bubble": "チャールズ2世",
           "kind": "prop",
           "size": 42
         }
@@ -14166,7 +14529,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -14176,7 +14540,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         }
@@ -14354,7 +14719,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -14364,7 +14730,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-55320e.png",
+          "bubble": "カルロス2世",
           "kind": "prop",
           "size": 42
         },
@@ -14374,7 +14741,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cardinal-mazarin.png",
+          "bubble": "フロンドの乱を鎮圧し幼少のルイ14世を補佐！",
           "kind": "prop",
           "size": 42
         },
@@ -14384,7 +14752,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-085758.png",
+          "bubble": "フェリペ5世",
           "kind": "prop",
           "size": 42
         },
@@ -14394,7 +14763,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/queen-anne-britain.png",
+          "bubble": "アン女王",
           "kind": "prop",
           "size": 42
         }
@@ -14506,7 +14876,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -14516,7 +14887,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -14634,7 +15006,8 @@ export const chapterEdition = {
             14.42,
             50.08
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jan-hus-reformer.png",
+          "bubble": "フス",
           "kind": "prop",
           "size": 42
         },
@@ -14644,7 +15017,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         },
@@ -14654,7 +15028,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-444044.png",
+          "bubble": "フェルディナント",
           "kind": "prop",
           "size": 42
         },
@@ -14664,9 +15039,10 @@ export const chapterEdition = {
             14.4,
             50.09
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/prague-castle.png",
+          "bubble": "三十年戦争の契機となったプラハ窓外投擲事件の舞台！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "フェルディナント2世",
@@ -14674,7 +15050,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-444044.png",
+          "bubble": "フェルディナント2世",
           "kind": "prop",
           "size": 42
         }
@@ -14796,7 +15173,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cardinal-richelieu.png",
+          "bubble": "三十年戦争に介入しフランスの絶対王政の基礎を確立！",
           "kind": "prop",
           "size": 42
         },
@@ -14806,7 +15184,8 @@ export const chapterEdition = {
             14.42,
             50.08
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/albrecht-wallenstein.png",
+          "bubble": "ヴァレンシュタイン",
           "kind": "prop",
           "size": 42
         },
@@ -14816,7 +15195,8 @@ export const chapterEdition = {
             12.57,
             55.68
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/christian4-denmark.png",
+          "bubble": "クリスチャン4世",
           "kind": "prop",
           "size": 42
         }
@@ -14926,7 +15306,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cardinal-richelieu.png",
+          "bubble": "三十年戦争に介入しフランスの絶対王政の基礎を確立！",
           "kind": "prop",
           "size": 42
         },
@@ -14936,7 +15317,8 @@ export const chapterEdition = {
             18.07,
             59.33
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/gustavus-adolphus.png",
+          "bubble": "グスタフ＝アドルフ",
           "kind": "prop",
           "size": 42
         },
@@ -14946,7 +15328,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -14956,7 +15339,8 @@ export const chapterEdition = {
             14.42,
             50.08
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/albrecht-wallenstein.png",
+          "bubble": "ヴァレンシュタイン",
           "kind": "prop",
           "size": 42
         }
@@ -15064,7 +15448,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cardinal-richelieu.png",
+          "bubble": "三十年戦争に介入しフランスの絶対王政の基礎を確立！",
           "kind": "prop",
           "size": 42
         }
@@ -15162,7 +15547,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-calvin.png",
+          "bubble": "『キリスト教綱要』を著しジュネーヴで予定説を推進！",
           "kind": "prop",
           "size": 42
         }
@@ -15534,7 +15920,8 @@ export const chapterEdition = {
             4.9,
             52.37
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-2b06c3.png",
+          "bubble": "グロティウス",
           "kind": "prop",
           "size": 42
         }
@@ -15792,7 +16179,8 @@ export const chapterEdition = {
             12.65,
             51.87
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/martin-luther.png",
+          "bubble": "九十五箇条の論題で贖宥状を批判！「信仰のみ」「聖書のみ」！",
           "kind": "prop",
           "size": 42
         },
@@ -15802,7 +16190,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/great-elector.png",
+          "bubble": "フリードリヒ＝ヴィルヘルム大選帝侯",
           "kind": "prop",
           "size": 42
         }
@@ -15889,7 +16278,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/frederick1-prussia.png",
+          "bubble": "フリードリヒ1世",
           "kind": "prop",
           "size": 42
         },
@@ -15899,7 +16289,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/frederick-wilhelm1.png",
+          "bubble": "フリードリヒ＝ヴィルヘルム1世",
           "kind": "prop",
           "size": 42
         }
@@ -15988,7 +16379,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/frederick2-great.png",
+          "bubble": "「君主は国家第一の僕」、オーストリア継承戦争でシュレジエン獲得！",
           "kind": "prop",
           "size": 42
         },
@@ -15998,7 +16390,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/voltaire-philosopher.png",
+          "bubble": "言論・信教の自由を訴え啓蒙思想を広める！",
           "kind": "prop",
           "size": 42
         },
@@ -16008,7 +16401,8 @@ export const chapterEdition = {
             11.26,
             43.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/niccolo-machiavelli.png",
+          "bubble": "『君主論』で政治と宗教倫理の分離を提唱！",
           "kind": "prop",
           "size": 42
         }
@@ -16205,7 +16599,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maria-theresa.png",
+          "bubble": "ハプスブルク家を継承し国力再建と改革に邁進！",
           "kind": "prop",
           "size": 42
         },
@@ -16215,7 +16610,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-3c7388.png",
+          "bubble": "カール6世",
           "kind": "prop",
           "size": 42
         },
@@ -16225,7 +16621,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-5e7e3e.png",
+          "bubble": "フランツ1世",
           "kind": "prop",
           "size": 42
         }
@@ -16321,7 +16718,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-eafa03.png",
+          "bubble": "ヨーゼフ2世",
           "kind": "prop",
           "size": 42
         },
@@ -16331,7 +16729,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/frederick2-great.png",
+          "bubble": "「君主は国家第一の僕」、オーストリア継承戦争でシュレジエン獲得！",
           "kind": "prop",
           "size": 42
         },
@@ -16341,7 +16740,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-5e7e3e.png",
+          "bubble": "フランツ1世",
           "kind": "prop",
           "size": 42
         },
@@ -16351,7 +16751,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maria-theresa.png",
+          "bubble": "ハプスブルク家を継承し国力再建と改革に邁進！",
           "kind": "prop",
           "size": 42
         },
@@ -16361,7 +16762,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-ee2815.png",
+          "bubble": "モーツァルト",
           "kind": "prop",
           "size": 42
         }
@@ -16506,7 +16908,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maria-theresa.png",
+          "bubble": "ハプスブルク家を継承し国力再建と改革に邁進！",
           "kind": "prop",
           "size": 42
         },
@@ -16516,7 +16919,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/frederick2-great.png",
+          "bubble": "「君主は国家第一の僕」、オーストリア継承戦争でシュレジエン獲得！",
           "kind": "prop",
           "size": 42
         }
@@ -16654,7 +17058,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maria-theresa.png",
+          "bubble": "ハプスブルク家を継承し国力再建と改革に邁進！",
           "kind": "prop",
           "size": 42
         },
@@ -16664,7 +17069,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-5e7e3e.png",
+          "bubble": "フランツ1世",
           "kind": "prop",
           "size": 42
         }
@@ -16800,7 +17206,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maria-theresa.png",
+          "bubble": "ハプスブルク家を継承し国力再建と改革に邁進！",
           "kind": "prop",
           "size": 42
         },
@@ -16810,7 +17217,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-f4da86.png",
+          "bubble": "カウニッツ",
           "kind": "prop",
           "size": 42
         },
@@ -16820,7 +17228,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis15-france.png",
+          "bubble": "ルイ15世",
           "kind": "prop",
           "size": 42
         },
@@ -16830,7 +17239,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-07004b.png",
+          "bubble": "ポンパドゥール夫人",
           "kind": "prop",
           "size": 42
         },
@@ -16840,7 +17250,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth-russia.png",
+          "bubble": "エリザヴェータ",
           "kind": "prop",
           "size": 42
         },
@@ -16850,7 +17261,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/frederick2-great.png",
+          "bubble": "「君主は国家第一の僕」、オーストリア継承戦争でシュレジエン獲得！",
           "kind": "prop",
           "size": 42
         }
@@ -16980,7 +17392,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "フリードリヒ2世",
+          "at": [
+            13.41,
+            52.52
+          ],
+          "image": "ancient/frederick2-great.png",
+          "bubble": "君主は国家第一の僕である！孤軍奮闘！",
+          "action": "command"
+        }
+      ],
       "props": [
         {
           "name": "フリードリヒ2世",
@@ -16988,7 +17411,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/frederick2-great.png",
+          "bubble": "「君主は国家第一の僕」、オーストリア継承戦争でシュレジエン獲得！",
           "kind": "prop",
           "size": 42
         },
@@ -16998,7 +17422,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth-russia.png",
+          "bubble": "エリザヴェータ",
           "kind": "prop",
           "size": 42
         },
@@ -17008,21 +17433,22 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/peter3-russia.png",
+          "bubble": "ピョートル3世",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "「ドイツの戦争」と「英仏植民地戦争」、七年戦争はどちらも壮絶だ！"
       ],
       "mapHeading": "「ドイツの戦争」と「英仏植民地戦争」、七年戦争はどちらも壮絶だ！",
       "focus": "「ドイツの戦争」と「英仏植民地戦争」、七年戦争はどちらも壮絶だ！",
       "before": "「ドイツの戦争」と「英仏植民地戦争」、七年戦争はどちらも壮絶だ！",
-      "after": "「ドイツの戦争」と「英仏植民地戦争」、七年戦争はどちらも壮絶だ！",
+      "after": "七年戦争（奇跡の戦局逆転とプロイセンの領土確保）",
       "note": "",
       "takeaway": ""
     },
@@ -17140,7 +17566,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maria-theresa.png",
+          "bubble": "ハプスブルク家を継承し国力再建と改革に邁進！",
           "kind": "prop",
           "size": 42
         }
@@ -17260,7 +17687,8 @@ export const chapterEdition = {
             37.62,
             55.75
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-921645.png",
+          "bubble": "イヴァン1世",
           "kind": "prop",
           "size": 42
         },
@@ -17270,7 +17698,8 @@ export const chapterEdition = {
             37.62,
             55.75
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-c3c38e.png",
+          "bubble": "イヴァン3世",
           "kind": "prop",
           "size": 42
         },
@@ -17280,7 +17709,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/caesar-general.png",
+          "bubble": "カエサル",
           "kind": "prop",
           "size": 42
         }
@@ -17395,7 +17825,8 @@ export const chapterEdition = {
             37.62,
             55.75
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-2071d4.png",
+          "bubble": "イヴァン4世",
           "kind": "prop",
           "size": 42
         }
@@ -17524,7 +17955,8 @@ export const chapterEdition = {
             37.62,
             55.75
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-2071d4.png",
+          "bubble": "イヴァン4世",
           "kind": "prop",
           "size": 42
         },
@@ -17534,7 +17966,8 @@ export const chapterEdition = {
             68,
             58
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-27cdb0.png",
+          "bubble": "イェルマーク",
           "kind": "prop",
           "size": 42
         }
@@ -17637,7 +18070,8 @@ export const chapterEdition = {
             37.62,
             55.75
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-2071d4.png",
+          "bubble": "イヴァン4世",
           "kind": "prop",
           "size": 42
         },
@@ -17647,7 +18081,8 @@ export const chapterEdition = {
             37.62,
             55.75
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-35aa4b.png",
+          "bubble": "ミハイル＝ロマノフ",
           "kind": "prop",
           "size": 42
         },
@@ -17657,7 +18092,8 @@ export const chapterEdition = {
             48,
             46
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-620974.png",
+          "bubble": "ステンカ＝ラージン",
           "kind": "prop",
           "size": 42
         }
@@ -17816,7 +18252,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/peter-great.png",
+          "bubble": "西欧化政策を進め北方戦争でバルト海への出口を獲得！",
           "kind": "prop",
           "size": 42
         }
@@ -17889,7 +18326,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/peter-great.png",
+          "bubble": "西欧化政策を進め北方戦争でバルト海への出口を獲得！",
           "kind": "prop",
           "size": 42
         }
@@ -18006,7 +18444,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/peter-great.png",
+          "bubble": "西欧化政策を進め北方戦争でバルト海への出口を獲得！",
           "kind": "prop",
           "size": 42
         },
@@ -18016,7 +18455,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kangxi-emperor.png",
+          "bubble": "康熙帝",
           "kind": "prop",
           "size": 42
         },
@@ -18026,7 +18466,8 @@ export const chapterEdition = {
             159,
             56
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-324f34.png",
+          "bubble": "ベーリング",
           "kind": "prop",
           "size": 42
         }
@@ -18184,7 +18625,8 @@ export const chapterEdition = {
             18.07,
             59.33
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles12-sweden.png",
+          "bubble": "カール12世",
           "kind": "prop",
           "size": 42
         },
@@ -18194,7 +18636,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/peter-great.png",
+          "bubble": "西欧化政策を進め北方戦争でバルト海への出口を獲得！",
           "kind": "prop",
           "size": 42
         }
@@ -18314,7 +18757,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/catherine2-great.png",
+          "bubble": "啓蒙専制君主としてクリミア併合・ポーランド分割を実施！",
           "kind": "prop",
           "size": 42
         },
@@ -18324,7 +18768,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/peter-great.png",
+          "bubble": "西欧化政策を進め北方戦争でバルト海への出口を獲得！",
           "kind": "prop",
           "size": 42
         },
@@ -18334,7 +18779,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/peter3-russia.png",
+          "bubble": "ピョートル3世",
           "kind": "prop",
           "size": 42
         },
@@ -18344,7 +18790,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/voltaire-philosopher.png",
+          "bubble": "言論・信教の自由を訴え啓蒙思想を広める！",
           "kind": "prop",
           "size": 42
         },
@@ -18354,7 +18801,8 @@ export const chapterEdition = {
             -0.58,
             44.84
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/montesquieu-philosopher.png",
+          "bubble": "『法の精神』で三権分立を主張！",
           "kind": "prop",
           "size": 42
         }
@@ -18434,7 +18882,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/catherine2-great.png",
+          "bubble": "啓蒙専制君主としてクリミア併合・ポーランド分割を実施！",
           "kind": "prop",
           "size": 42
         },
@@ -18444,9 +18893,10 @@ export const chapterEdition = {
             30.31,
             59.94
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/hermitage-museum.png",
+          "bubble": "エカチェリーナ2世のコレクションから始まった冬宮殿！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         }
       ],
       "routes": [],
@@ -18510,7 +18960,8 @@ export const chapterEdition = {
             49,
             55.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-122807.png",
+          "bubble": "プガチョフ",
           "kind": "prop",
           "size": 42
         },
@@ -18520,7 +18971,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/peter3-russia.png",
+          "bubble": "ピョートル3世",
           "kind": "prop",
           "size": 42
         },
@@ -18530,7 +18982,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/catherine2-great.png",
+          "bubble": "啓蒙専制君主としてクリミア併合・ポーランド分割を実施！",
           "kind": "prop",
           "size": 42
         }
@@ -18641,7 +19094,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/catherine2-great.png",
+          "bubble": "啓蒙専制君主としてクリミア併合・ポーランド分割を実施！",
           "kind": "prop",
           "size": 42
         },
@@ -18651,7 +19105,8 @@ export const chapterEdition = {
             145.58,
             43.33
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-5fcdd2.png",
+          "bubble": "大黒屋光太夫",
           "kind": "prop",
           "size": 42
         },
@@ -18661,7 +19116,8 @@ export const chapterEdition = {
             145.58,
             43.33
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-277982.png",
+          "bubble": "ラクスマン",
           "kind": "prop",
           "size": 42
         },
@@ -18671,7 +19127,8 @@ export const chapterEdition = {
             129.87,
             32.75
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-19c14e.png",
+          "bubble": "レザノフ",
           "kind": "prop",
           "size": 42
         }
@@ -18828,7 +19285,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/frederick2-great.png",
+          "bubble": "「君主は国家第一の僕」、オーストリア継承戦争でシュレジエン獲得！",
           "kind": "prop",
           "size": 42
         },
@@ -18838,7 +19296,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/catherine2-great.png",
+          "bubble": "啓蒙専制君主としてクリミア併合・ポーランド分割を実施！",
           "kind": "prop",
           "size": 42
         },
@@ -18848,7 +19307,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maria-theresa.png",
+          "bubble": "ハプスブルク家を継承し国力再建と改革に邁進！",
           "kind": "prop",
           "size": 42
         },
@@ -18858,7 +19318,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-eafa03.png",
+          "bubble": "ヨーゼフ2世",
           "kind": "prop",
           "size": 42
         }
@@ -18966,7 +19427,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         },
@@ -18976,7 +19438,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-86ba21.png",
+          "bubble": "フランツ2世",
           "kind": "prop",
           "size": 42
         },
@@ -18986,7 +19449,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marie-antoinette.png",
+          "bubble": "オーストリア皇女からフランス王妃となった悲劇の女性",
           "kind": "prop",
           "size": 42
         },
@@ -18996,7 +19460,8 @@ export const chapterEdition = {
             -73.64,
             43
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-bd8393.png",
+          "bubble": "コシューシコ",
           "kind": "prop",
           "size": 42
         }
@@ -19199,7 +19664,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -19209,7 +19675,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jean-colbert.png",
+          "bubble": "重商主義政策を推進しフランスの商工業を育成！",
           "kind": "prop",
           "size": 42
         }
@@ -19372,7 +19839,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/elizabeth1-tudor.png",
+          "bubble": "統一法でイギリス国教会を確立しアルマダを撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -19382,7 +19850,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-6b0b16.png",
+          "bubble": "ナントの王令を発布してユグノー戦争を終結！",
           "kind": "prop",
           "size": 42
         },
@@ -19392,7 +19861,8 @@ export const chapterEdition = {
             -71.21,
             46.81
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-95b590.png",
+          "bubble": "シャンプラン",
           "kind": "prop",
           "size": 42
         },
@@ -19402,7 +19872,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         }
@@ -19600,7 +20071,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william3-orange.png",
+          "bubble": "ウィリアム3世",
           "kind": "prop",
           "size": 42
         },
@@ -19610,7 +20082,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -19620,7 +20093,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -19630,7 +20104,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/queen-anne-britain.png",
+          "bubble": "アン女王",
           "kind": "prop",
           "size": 42
         }
@@ -20065,7 +20540,8 @@ export const chapterEdition = {
             79.83,
             11.93
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-40d834.png",
+          "bubble": "デュプレクス",
           "kind": "prop",
           "size": 42
         }
@@ -20225,7 +20701,8 @@ export const chapterEdition = {
             88.36,
             22.57
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-21b5a2.png",
+          "bubble": "クライヴ",
           "kind": "prop",
           "size": 42
         }
@@ -20545,7 +21022,8 @@ export const chapterEdition = {
             8.69,
             49.4
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-bfa2f2.png",
+          "bubble": "マックス＝ヴェーバー",
           "kind": "prop",
           "size": 42
         }
@@ -20697,7 +21175,8 @@ export const chapterEdition = {
             -2.25,
             53.48
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-0d4aa8.png",
+          "bubble": "ジョン＝ケイ",
           "kind": "prop",
           "size": 42
         },
@@ -20707,7 +21186,8 @@ export const chapterEdition = {
             -2.25,
             53.48
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-d6dd46.png",
+          "bubble": "ハーグリーヴズ",
           "kind": "prop",
           "size": 42
         },
@@ -20717,7 +21197,8 @@ export const chapterEdition = {
             -2.25,
             53.48
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-83eb52.png",
+          "bubble": "アークライト",
           "kind": "prop",
           "size": 42
         },
@@ -20727,7 +21208,8 @@ export const chapterEdition = {
             -2.25,
             53.48
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-7e1f8f.png",
+          "bubble": "クロンプトン",
           "kind": "prop",
           "size": 42
         },
@@ -20737,7 +21219,8 @@ export const chapterEdition = {
             -2.25,
             53.48
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a3ba80.png",
+          "bubble": "カートライト",
           "kind": "prop",
           "size": 42
         },
@@ -20747,7 +21230,8 @@ export const chapterEdition = {
             -72.93,
             41.31
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-f18f87.png",
+          "bubble": "ホイットニー",
           "kind": "prop",
           "size": 42
         }
@@ -20813,7 +21297,8 @@ export const chapterEdition = {
             -3.58,
             50.35
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-706ad8.png",
+          "bubble": "ニューコメン",
           "kind": "prop",
           "size": 42
         },
@@ -20823,7 +21308,8 @@ export const chapterEdition = {
             -1.89,
             52.49
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/james-watt.png",
+          "bubble": "ワット",
           "kind": "prop",
           "size": 42
         },
@@ -20833,7 +21319,8 @@ export const chapterEdition = {
             -1.89,
             52.49
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a2186e.png",
+          "bubble": "ダービー父子",
           "kind": "prop",
           "size": 42
         }
@@ -20926,7 +21413,8 @@ export const chapterEdition = {
             -5.08,
             50.26
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-3dd068.png",
+          "bubble": "トレヴィシック",
           "kind": "prop",
           "size": 42
         },
@@ -20936,7 +21424,8 @@ export const chapterEdition = {
             -1.61,
             54.97
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/george-stephenson.png",
+          "bubble": "スティーヴンソン",
           "kind": "prop",
           "size": 42
         },
@@ -20946,7 +21435,8 @@ export const chapterEdition = {
             -74.01,
             40.71
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-275a4d.png",
+          "bubble": "フルトン",
           "kind": "prop",
           "size": 42
         }
@@ -21081,7 +21571,8 @@ export const chapterEdition = {
             -2.25,
             53.48
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/friedrich-engels.png",
+          "bubble": "エンゲルス",
           "kind": "prop",
           "size": 42
         }
@@ -21163,7 +21654,8 @@ export const chapterEdition = {
             -87.94,
             38.13
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-ca29a2.png",
+          "bubble": "ロバート＝オーウェン",
           "kind": "prop",
           "size": 42
         }
@@ -21236,7 +21728,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-18bb55.png",
+          "bubble": "サン＝シモン",
           "kind": "prop",
           "size": 42
         },
@@ -21246,7 +21739,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-d8f8e6.png",
+          "bubble": "フーリエ",
           "kind": "prop",
           "size": 42
         },
@@ -21256,7 +21750,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-731e4b.png",
+          "bubble": "ブランキ",
           "kind": "prop",
           "size": 42
         },
@@ -21266,7 +21761,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-20af54.png",
+          "bubble": "プルードン",
           "kind": "prop",
           "size": 42
         },
@@ -21276,7 +21772,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-b1cc39.png",
+          "bubble": "ルイ＝ブラン",
           "kind": "prop",
           "size": 42
         },
@@ -21286,7 +21783,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/karl-marx.png",
+          "bubble": "マルクス",
           "kind": "prop",
           "size": 42
         }
@@ -21754,7 +22252,8 @@ export const chapterEdition = {
             -71.06,
             42.36
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-ac8e31.png",
+          "bubble": "サミュエル＝アダムズ",
           "kind": "prop",
           "size": 42
         }
@@ -21917,7 +22416,8 @@ export const chapterEdition = {
             -77.44,
             37.54
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-cf6fb2.png",
+          "bubble": "パトリック＝ヘンリ",
           "kind": "prop",
           "size": 42
         }
@@ -22011,7 +22511,8 @@ export const chapterEdition = {
             -75.17,
             39.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/george-washington.png",
+          "bubble": "大陸軍総司令官として独立戦争を指揮、アメリカ初代大統領！",
           "kind": "prop",
           "size": 42
         },
@@ -22021,7 +22522,8 @@ export const chapterEdition = {
             -75.17,
             39.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-288b6e.png",
+          "bubble": "ペイン",
           "kind": "prop",
           "size": 42
         },
@@ -22031,7 +22533,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/george3-hanover.png",
+          "bubble": "ジョージ3世",
           "kind": "prop",
           "size": 42
         }
@@ -22118,7 +22621,8 @@ export const chapterEdition = {
             -75.17,
             39.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/thomas-jefferson.png",
+          "bubble": "アメリカ独立宣言を起草した第3代大統領！",
           "kind": "prop",
           "size": 42
         },
@@ -22128,7 +22632,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-locke.png",
+          "bubble": "『統治二論』で抵抗権・社会契約説を唱える！",
           "kind": "prop",
           "size": 42
         },
@@ -22138,7 +22643,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/george3-hanover.png",
+          "bubble": "ジョージ3世",
           "kind": "prop",
           "size": 42
         },
@@ -22148,7 +22654,8 @@ export const chapterEdition = {
             -75.17,
             39.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-288b6e.png",
+          "bubble": "ペイン",
           "kind": "prop",
           "size": 42
         }
@@ -22252,7 +22759,8 @@ export const chapterEdition = {
             -76.51,
             37.24
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marquis-lafayette.png",
+          "bubble": "人権宣言を起草しフランス・アメリカ両国の革命に参加！",
           "kind": "prop",
           "size": 42
         },
@@ -22262,7 +22770,8 @@ export const chapterEdition = {
             -73.64,
             43
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-bd8393.png",
+          "bubble": "コシューシコ",
           "kind": "prop",
           "size": 42
         },
@@ -22272,7 +22781,8 @@ export const chapterEdition = {
             -75.17,
             39.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/george-washington.png",
+          "bubble": "大陸軍総司令官として独立戦争を指揮、アメリカ初代大統領！",
           "kind": "prop",
           "size": 42
         },
@@ -22282,7 +22792,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-18bb55.png",
+          "bubble": "サン＝シモン",
           "kind": "prop",
           "size": 42
         },
@@ -22292,7 +22803,8 @@ export const chapterEdition = {
             -76.51,
             37.24
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-0897a4.png",
+          "bubble": "シュトイベン",
           "kind": "prop",
           "size": 42
         }
@@ -22423,7 +22935,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "フランクリン",
+          "at": [
+            -75.17,
+            39.95
+          ],
+          "image": "ancient/benjamin-franklin.png",
+          "bubble": "パリでフランスとの同盟条約に調印成功！",
+          "action": "negotiate"
+        },
+        {
+          "name": "ルイ16世",
+          "at": [
+            2.35,
+            48.86
+          ],
+          "image": "ancient/louis16-france.png",
+          "bubble": "イギリスに対抗しアメリカの独立を支援する！",
+          "action": "command"
+        }
+      ],
       "props": [
         {
           "name": "フランクリン",
@@ -22431,7 +22964,8 @@ export const chapterEdition = {
             -75.17,
             39.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/benjamin-franklin.png",
+          "bubble": "米仏同盟を結実させた外交官にして避雷針の発明者！",
           "kind": "prop",
           "size": 42
         },
@@ -22441,7 +22975,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         },
@@ -22451,21 +22986,22 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/catherine2-great.png",
+          "bubble": "啓蒙専制君主としてクリミア併合・ポーランド分割を実施！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "イギリスが国際的に孤立。ついにアメリカが勝利した！"
       ],
       "mapHeading": "イギリスが国際的に孤立。ついにアメリカが勝利した！",
       "focus": "イギリスが国際的に孤立。ついにアメリカが勝利した！",
       "before": "イギリスが国際的に孤立。ついにアメリカが勝利した！",
-      "after": "イギリスが国際的に孤立。ついにアメリカが勝利した！",
+      "after": "サラトガの戦勝と米仏同盟成立",
       "note": "",
       "takeaway": ""
     },
@@ -22722,7 +23258,8 @@ export const chapterEdition = {
             -75.17,
             39.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/george-washington.png",
+          "bubble": "大陸軍総司令官として独立戦争を指揮、アメリカ初代大統領！",
           "kind": "prop",
           "size": 42
         }
@@ -22835,7 +23372,8 @@ export const chapterEdition = {
             -0.58,
             44.84
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/montesquieu-philosopher.png",
+          "bubble": "『法の精神』で三権分立を主張！",
           "kind": "prop",
           "size": 42
         },
@@ -22845,7 +23383,8 @@ export const chapterEdition = {
             -75.17,
             39.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/george-washington.png",
+          "bubble": "大陸軍総司令官として独立戦争を指揮、アメリカ初代大統領！",
           "kind": "prop",
           "size": 42
         }
@@ -22903,7 +23442,8 @@ export const chapterEdition = {
             -75.17,
             39.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/george-washington.png",
+          "bubble": "大陸軍総司令官として独立戦争を指揮、アメリカ初代大統領！",
           "kind": "prop",
           "size": 42
         },
@@ -22913,7 +23453,8 @@ export const chapterEdition = {
             -75.17,
             39.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/thomas-jefferson.png",
+          "bubble": "アメリカ独立宣言を起草した第3代大統領！",
           "kind": "prop",
           "size": 42
         },
@@ -22923,7 +23464,8 @@ export const chapterEdition = {
             -75.17,
             39.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/alexander-hamilton.png",
+          "bubble": "ハミルトン",
           "kind": "prop",
           "size": 42
         }
@@ -23012,7 +23554,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -23022,9 +23565,10 @@ export const chapterEdition = {
             2.12,
             48.8
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/versailles-palace.png",
+          "bubble": "ルイ14世が造営したバロック様式の豪壮な宮殿！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ルイ15世",
@@ -23032,7 +23576,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis15-france.png",
+          "bubble": "ルイ15世",
           "kind": "prop",
           "size": 42
         },
@@ -23042,7 +23587,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         }
@@ -23115,7 +23661,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         }
@@ -23195,7 +23742,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         },
@@ -23205,7 +23753,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/anne-turgot.png",
+          "bubble": "テュルゴ",
           "kind": "prop",
           "size": 42
         },
@@ -23215,7 +23764,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jacques-necker.png",
+          "bubble": "ネッケル",
           "kind": "prop",
           "size": 42
         },
@@ -23225,7 +23775,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-f804f4.png",
+          "bubble": "カロンヌ",
           "kind": "prop",
           "size": 42
         }
@@ -23298,7 +23849,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         },
@@ -23308,7 +23860,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jacques-necker.png",
+          "bubble": "ネッケル",
           "kind": "prop",
           "size": 42
         },
@@ -23318,7 +23871,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis13-france.png",
+          "bubble": "ルイ13世",
           "kind": "prop",
           "size": 42
         },
@@ -23328,9 +23882,10 @@ export const chapterEdition = {
             2.12,
             48.8
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/versailles-palace.png",
+          "bubble": "ルイ14世が造営したバロック様式の豪壮な宮殿！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ミラボー",
@@ -23338,7 +23893,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/comte-mirabeau.png",
+          "bubble": "ミラボー",
           "kind": "prop",
           "size": 42
         },
@@ -23348,7 +23904,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/abbe-sieyes.png",
+          "bubble": "シェイエス",
           "kind": "prop",
           "size": 42
         }
@@ -23406,7 +23963,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/comte-mirabeau.png",
+          "bubble": "ミラボー",
           "kind": "prop",
           "size": 42
         }
@@ -23482,7 +24040,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         }
@@ -23551,7 +24110,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ルイ16世",
+          "at": [
+            2.35,
+            48.86
+          ],
+          "image": "ancient/louis16-france.png",
+          "bubble": "なに、暴動か？……いや、これは革命です！",
+          "action": "panic"
+        }
+      ],
       "props": [
         {
           "name": "バスティーユ",
@@ -23559,9 +24129,10 @@ export const chapterEdition = {
             2.37,
             48.85
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/bastille-fortress.png",
+          "bubble": "民衆の襲撃によってフランス革命の幕が上がった要塞牢獄！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ミラボー",
@@ -23569,7 +24140,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/comte-mirabeau.png",
+          "bubble": "ミラボー",
           "kind": "prop",
           "size": 42
         },
@@ -23579,7 +24151,8 @@ export const chapterEdition = {
             -76.51,
             37.24
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marquis-lafayette.png",
+          "bubble": "人権宣言を起草しフランス・アメリカ両国の革命に参加！",
           "kind": "prop",
           "size": 42
         },
@@ -23589,7 +24162,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         },
@@ -23599,7 +24173,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jacques-necker.png",
+          "bubble": "ネッケル",
           "kind": "prop",
           "size": 42
         },
@@ -23609,21 +24184,22 @@ export const chapterEdition = {
             2.34,
             48.86
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/palais-royal.png",
+          "bubble": "革命派市民が熱弁を振るいバスティーユ襲撃の拠点となった館！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "パリの民衆がバスティーユを襲撃！　焦った貴族は改革を進めた"
       ],
       "mapHeading": "パリの民衆がバスティーユを襲撃！　焦った貴族は改革を進めた",
       "focus": "パリの民衆がバスティーユを襲撃！　焦った貴族は改革を進めた",
       "before": "パリの民衆がバスティーユを襲撃！　焦った貴族は改革を進めた",
-      "after": "パリの民衆がバスティーユを襲撃！　焦った貴族は改革を進めた",
+      "after": "バスティーユ襲撃（フランス革命の勃発）",
       "note": "",
       "takeaway": ""
     },
@@ -23677,9 +24253,10 @@ export const chapterEdition = {
             2.37,
             48.85
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/bastille-fortress.png",
+          "bubble": "民衆の襲撃によってフランス革命の幕が上がった要塞牢獄！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "廃兵院",
@@ -23687,9 +24264,10 @@ export const chapterEdition = {
             2.31,
             48.86
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/les-invalides.png",
+          "bubble": "傷病兵のためにルイ14世が創設、ナポレオンの墓所がある！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "バスティーユ牢獄",
@@ -23697,9 +24275,10 @@ export const chapterEdition = {
             2.37,
             48.85
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/bastille-fortress.png",
+          "bubble": "民衆の襲撃によってフランス革命の幕が上がった要塞牢獄！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ルイ16世",
@@ -23707,7 +24286,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         }
@@ -23774,9 +24354,10 @@ export const chapterEdition = {
             2.37,
             48.85
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/bastille-fortress.png",
+          "bubble": "民衆の襲撃によってフランス革命の幕が上がった要塞牢獄！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ラファイエット",
@@ -23784,7 +24365,8 @@ export const chapterEdition = {
             -76.51,
             37.24
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marquis-lafayette.png",
+          "bubble": "人権宣言を起草しフランス・アメリカ両国の革命に参加！",
           "kind": "prop",
           "size": 42
         },
@@ -23794,7 +24376,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jean-jacques-rousseau.png",
+          "bubble": "『社会契約論』で人民主権と一般意思を説く！",
           "kind": "prop",
           "size": 42
         }
@@ -23870,9 +24453,10 @@ export const chapterEdition = {
             2.37,
             48.85
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/bastille-fortress.png",
+          "bubble": "民衆の襲撃によってフランス革命の幕が上がった要塞牢獄！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ルイ16世",
@@ -23880,7 +24464,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         },
@@ -23890,7 +24475,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maria-theresa.png",
+          "bubble": "ハプスブルク家を継承し国力再建と改革に邁進！",
           "kind": "prop",
           "size": 42
         },
@@ -23900,7 +24486,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marie-antoinette.png",
+          "bubble": "オーストリア皇女からフランス王妃となった悲劇の女性",
           "kind": "prop",
           "size": 42
         },
@@ -23910,7 +24497,8 @@ export const chapterEdition = {
             -76.51,
             37.24
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marquis-lafayette.png",
+          "bubble": "人権宣言を起草しフランス・アメリカ両国の革命に参加！",
           "kind": "prop",
           "size": 42
         },
@@ -23920,9 +24508,10 @@ export const chapterEdition = {
             2.12,
             48.8
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/versailles-palace.png",
+          "bubble": "ルイ14世が造営したバロック様式の豪壮な宮殿！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "テュイルリー宮殿",
@@ -23930,9 +24519,10 @@ export const chapterEdition = {
             2.33,
             48.86
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/tuileries-palace.png",
+          "bubble": "革命期に国王一家が幽閉され8月10日事件の舞台となった宮殿！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         }
       ],
       "routes": [],
@@ -24068,7 +24658,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/comte-mirabeau.png",
+          "bubble": "ミラボー",
           "kind": "prop",
           "size": 42
         },
@@ -24078,7 +24669,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         },
@@ -24088,7 +24680,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marie-antoinette.png",
+          "bubble": "オーストリア皇女からフランス王妃となった悲劇の女性",
           "kind": "prop",
           "size": 42
         },
@@ -24098,7 +24691,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-2c6b00.png",
+          "bubble": "フェルセン",
           "kind": "prop",
           "size": 42
         }
@@ -24196,7 +24790,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-f12d93.png",
+          "bubble": "レオポルト2世",
           "kind": "prop",
           "size": 42
         },
@@ -24206,7 +24801,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/frederick-wilhelm2.png",
+          "bubble": "フリードリヒ＝ヴィルヘルム2世",
           "kind": "prop",
           "size": 42
         },
@@ -24216,7 +24812,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         },
@@ -24226,7 +24823,8 @@ export const chapterEdition = {
             -76.51,
             37.24
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marquis-lafayette.png",
+          "bubble": "人権宣言を起草しフランス・アメリカ両国の革命に参加！",
           "kind": "prop",
           "size": 42
         },
@@ -24236,7 +24834,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-633ca4.png",
+          "bubble": "オランプ＝ド＝グージュ",
           "kind": "prop",
           "size": 42
         }
@@ -24346,7 +24945,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maximilien-robespierre.png",
+          "bubble": "公安委員会を率いて恐怖政治を敷いたジャコバン派指導者！",
           "kind": "prop",
           "size": 42
         },
@@ -24356,7 +24956,8 @@ export const chapterEdition = {
             -76.51,
             37.24
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marquis-lafayette.png",
+          "bubble": "人権宣言を起草しフランス・アメリカ両国の革命に参加！",
           "kind": "prop",
           "size": 42
         },
@@ -24366,7 +24967,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         }
@@ -24456,7 +25058,8 @@ export const chapterEdition = {
             -76.51,
             37.24
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marquis-lafayette.png",
+          "bubble": "人権宣言を起草しフランス・アメリカ両国の革命に参加！",
           "kind": "prop",
           "size": 42
         },
@@ -24466,9 +25069,10 @@ export const chapterEdition = {
             2.37,
             48.85
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/bastille-fortress.png",
+          "bubble": "民衆の襲撃によってフランス革命の幕が上がった要塞牢獄！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ルイ16世",
@@ -24476,7 +25080,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         }
@@ -24558,9 +25163,10 @@ export const chapterEdition = {
             2.33,
             48.86
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/tuileries-palace.png",
+          "bubble": "革命期に国王一家が幽閉され8月10日事件の舞台となった宮殿！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "タンプル塔",
@@ -24568,9 +25174,10 @@ export const chapterEdition = {
             2.36,
             48.86
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/temple-tower.png",
+          "bubble": "革命期にルイ16世と国王一家が幽閉された中世の塔！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ラファイエット",
@@ -24578,7 +25185,8 @@ export const chapterEdition = {
             -76.51,
             37.24
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marquis-lafayette.png",
+          "bubble": "人権宣言を起草しフランス・アメリカ両国の革命に参加！",
           "kind": "prop",
           "size": 42
         }
@@ -24646,7 +25254,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ゲーテ",
+          "at": [
+            11.33,
+            50.98
+          ],
+          "image": "ancient/johann-wolfgang-goethe.png",
+          "bubble": "ここから、そしてこの日から世界史の新しい時代が始まる！",
+          "action": "speak"
+        }
+      ],
       "props": [
         {
           "name": "テュイルリー宮殿",
@@ -24654,9 +25273,10 @@ export const chapterEdition = {
             2.33,
             48.86
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/tuileries-palace.png",
+          "bubble": "革命期に国王一家が幽閉され8月10日事件の舞台となった宮殿！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ゲーテ",
@@ -24664,21 +25284,22 @@ export const chapterEdition = {
             11.33,
             50.98
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/johann-wolfgang-goethe.png",
+          "bubble": "ゲーテ",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3400,
       "facts": [
         "パリ民衆と義勇兵がテュイルリー宮殿を襲撃し、ついに王権停止！"
       ],
       "mapHeading": "パリ民衆と義勇兵がテュイルリー宮殿を襲撃し、ついに王権停止！",
       "focus": "パリ民衆と義勇兵がテュイルリー宮殿を襲撃し、ついに王権停止！",
       "before": "パリ民衆と義勇兵がテュイルリー宮殿を襲撃し、ついに王権停止！",
-      "after": "パリ民衆と義勇兵がテュイルリー宮殿を襲撃し、ついに王権停止！",
+      "after": "ヴァルミーの戦い（義勇軍がプロイセン軍を撃退）",
       "note": "",
       "takeaway": ""
     }
@@ -24739,7 +25360,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         },
@@ -24749,9 +25371,10 @@ export const chapterEdition = {
             2.36,
             48.86
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/temple-tower.png",
+          "bubble": "革命期にルイ16世と国王一家が幽閉された中世の塔！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ルイ＝カペー",
@@ -24759,7 +25382,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         }
@@ -24832,7 +25456,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         },
@@ -24842,7 +25467,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/saint-just.png",
+          "bubble": "サン＝ジュスト",
           "kind": "prop",
           "size": 42
         },
@@ -24852,7 +25478,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maximilien-robespierre.png",
+          "bubble": "公安委員会を率いて恐怖政治を敷いたジャコバン派指導者！",
           "kind": "prop",
           "size": 42
         }
@@ -24983,7 +25610,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         },
@@ -24993,7 +25621,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william-pitt.png",
+          "bubble": "ピット",
           "kind": "prop",
           "size": 42
         }
@@ -25122,7 +25751,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-ae2295.png",
+          "bubble": "エベール",
           "kind": "prop",
           "size": 42
         }
@@ -25198,7 +25828,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jean-paul-marat.png",
+          "bubble": "マラー",
           "kind": "prop",
           "size": 42
         },
@@ -25208,7 +25839,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-efdcb3.png",
+          "bubble": "シャルロット＝コルデ",
           "kind": "prop",
           "size": 42
         },
@@ -25218,7 +25850,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maximilien-robespierre.png",
+          "bubble": "公安委員会を率いて恐怖政治を敷いたジャコバン派指導者！",
           "kind": "prop",
           "size": 42
         },
@@ -25228,7 +25861,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marie-antoinette.png",
+          "bubble": "オーストリア皇女からフランス王妃となった悲劇の女性",
           "kind": "prop",
           "size": 42
         },
@@ -25238,7 +25872,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-f80adb.png",
+          "bubble": "ラヴォワジェ",
           "kind": "prop",
           "size": 42
         }
@@ -25298,7 +25933,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maximilien-robespierre.png",
+          "bubble": "公安委員会を率いて恐怖政治を敷いたジャコバン派指導者！",
           "kind": "prop",
           "size": 42
         },
@@ -25308,7 +25944,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-ae2295.png",
+          "bubble": "エベール",
           "kind": "prop",
           "size": 42
         },
@@ -25318,7 +25955,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/georges-danton.png",
+          "bubble": "「祖国は危機にあり！」と叫んだ革命指導者！",
           "kind": "prop",
           "size": 42
         }
@@ -25394,7 +26032,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/georges-danton.png",
+          "bubble": "「祖国は危機にあり！」と叫んだ革命指導者！",
           "kind": "prop",
           "size": 42
         },
@@ -25404,7 +26043,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maximilien-robespierre.png",
+          "bubble": "公安委員会を率いて恐怖政治を敷いたジャコバン派指導者！",
           "kind": "prop",
           "size": 42
         }
@@ -25488,7 +26128,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/maximilien-robespierre.png",
+          "bubble": "公安委員会を率いて恐怖政治を敷いたジャコバン派指導者！",
           "kind": "prop",
           "size": 42
         }
@@ -25568,7 +26209,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -25578,7 +26220,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-cfa884.png",
+          "bubble": "バブーフ",
           "kind": "prop",
           "size": 42
         }
@@ -25695,7 +26338,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-cfa884.png",
+          "bubble": "バブーフ",
           "kind": "prop",
           "size": 42
         },
@@ -25705,7 +26349,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -25715,7 +26360,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -25725,7 +26371,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-ce34f7.png",
+          "bubble": "ダヴィド",
           "kind": "prop",
           "size": 42
         }
@@ -25826,7 +26473,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -25836,7 +26484,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william-pitt.png",
+          "bubble": "ピット",
           "kind": "prop",
           "size": 42
         },
@@ -25846,7 +26495,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis16-france.png",
+          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
           "kind": "prop",
           "size": 42
         },
@@ -25856,7 +26506,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marie-antoinette.png",
+          "bubble": "オーストリア皇女からフランス王妃となった悲劇の女性",
           "kind": "prop",
           "size": 42
         }
@@ -25966,7 +26617,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -25976,9 +26628,10 @@ export const chapterEdition = {
             31.13,
             29.98
           ],
-          "image": "ancient/pyramid.svg",
+          "image": "ancient/pyramid-giza.png",
+          "bubble": "ピラミッド",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ネルソン",
@@ -25986,7 +26639,8 @@ export const chapterEdition = {
             -6.03,
             36.18
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-fb6522.png",
+          "bubble": "トラファルガー海戦でフランス連合艦隊を撃滅した英国の英雄！",
           "kind": "prop",
           "size": 42
         },
@@ -25996,7 +26650,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william-pitt.png",
+          "bubble": "ピット",
           "kind": "prop",
           "size": 42
         }
@@ -26111,7 +26766,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         }
@@ -26177,7 +26833,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -26187,7 +26844,8 @@ export const chapterEdition = {
             12.49,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-b333d4.png",
+          "bubble": "ピウス7世",
           "kind": "prop",
           "size": 42
         }
@@ -26277,7 +26935,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         }
@@ -26357,7 +27016,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -26367,7 +27027,8 @@ export const chapterEdition = {
             -76.51,
             37.24
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marquis-lafayette.png",
+          "bubble": "人権宣言を起草しフランス・アメリカ両国の革命に参加！",
           "kind": "prop",
           "size": 42
         }
@@ -26447,7 +27108,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -26457,7 +27119,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -26467,7 +27130,8 @@ export const chapterEdition = {
             6.08,
             50.78
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charlemagne-emperor.png",
+          "bubble": "シャルルマーニュ",
           "kind": "prop",
           "size": 42
         }
@@ -26622,7 +27286,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -26632,7 +27297,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william-pitt.png",
+          "bubble": "ピット",
           "kind": "prop",
           "size": 42
         }
@@ -26752,7 +27418,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ネルソン",
+          "at": [
+            -6.03,
+            36.18
+          ],
+          "image": "ancient/ch7-p-fb6522.png",
+          "bubble": "英国は各員がその義務を尽くすことを期待する！",
+          "action": "command"
+        },
+        {
+          "name": "ナポレオン",
+          "at": [
+            2.35,
+            48.86
+          ],
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "トラファルガーで敗れるも、大陸で制覇を果たす！",
+          "action": "command"
+        }
+      ],
       "props": [
         {
           "name": "ナポレオン",
@@ -26760,7 +27447,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -26770,21 +27458,22 @@ export const chapterEdition = {
             -6.03,
             36.18
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-fb6522.png",
+          "bubble": "トラファルガー海戦でフランス連合艦隊を撃滅した英国の英雄！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3400,
       "facts": [
         "皇帝になったナポレオンを待っていたのは……またまた対仏大同盟！"
       ],
       "mapHeading": "皇帝になったナポレオンを待っていたのは……またまた対仏大同盟！",
       "focus": "皇帝になったナポレオンを待っていたのは……またまた対仏大同盟！",
       "before": "皇帝になったナポレオンを待っていたのは……またまた対仏大同盟！",
-      "after": "皇帝になったナポレオンを待っていたのは……またまた対仏大同盟！",
+      "after": "トラファルガーの海戦（イギリス海軍の制海権掌握）",
       "note": "",
       "takeaway": ""
     },
@@ -26875,7 +27564,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ナポレオン",
+          "at": [
+            2.35,
+            48.86
+          ],
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "余の辞書に不可能という言葉はない！三帝会戦に大勝利！",
+          "action": "command"
+        },
+        {
+          "name": "フランツ2世",
+          "at": [
+            16.37,
+            48.21
+          ],
+          "image": "ancient/ch7-p-86ba21.png",
+          "bubble": "アウステルリッツで敗北、神聖ローマ帝国解体へ……",
+          "action": "lament"
+        }
+      ],
       "props": [
         {
           "name": "ナポレオン",
@@ -26883,7 +27593,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -26893,7 +27604,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -26903,7 +27615,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-86ba21.png",
+          "bubble": "フランツ2世",
           "kind": "prop",
           "size": 42
         },
@@ -26913,7 +27626,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-cd4bd2.png",
+          "bubble": "アレクサンドル1世",
           "kind": "prop",
           "size": 42
         },
@@ -26923,7 +27637,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/william-pitt.png",
+          "bubble": "ピット",
           "kind": "prop",
           "size": 42
         },
@@ -26933,21 +27648,22 @@ export const chapterEdition = {
             -6.03,
             36.18
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-fb6522.png",
+          "bubble": "トラファルガー海戦でフランス連合艦隊を撃滅した英国の英雄！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3400,
       "facts": [
         "ナポレオンが連戦連勝！　いよいよ大陸制覇だ"
       ],
       "mapHeading": "ナポレオンが連戦連勝！　いよいよ大陸制覇だ",
       "focus": "ナポレオンが連戦連勝！　いよいよ大陸制覇だ",
       "before": "ナポレオンが連戦連勝！　いよいよ大陸制覇だ",
-      "after": "ナポレオンが連戦連勝！　いよいよ大陸制覇だ",
+      "after": "アウステルリッツの戦い（三帝会戦でのナポレオンの圧勝）",
       "note": "",
       "takeaway": ""
     },
@@ -27054,7 +27770,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -27064,7 +27781,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-86ba21.png",
+          "bubble": "フランツ2世",
           "kind": "prop",
           "size": 42
         },
@@ -27074,7 +27792,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-5e7e3e.png",
+          "bubble": "フランツ1世",
           "kind": "prop",
           "size": 42
         }
@@ -27204,7 +27923,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         }
@@ -27343,7 +28063,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -27353,7 +28074,8 @@ export const chapterEdition = {
             14.27,
             40.85
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a47bb0.png",
+          "bubble": "ジョゼフ",
           "kind": "prop",
           "size": 42
         },
@@ -27363,7 +28085,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-e72697.png",
+          "bubble": "ジョゼフィーヌ",
           "kind": "prop",
           "size": 42
         },
@@ -27373,7 +28096,8 @@ export const chapterEdition = {
             16.37,
             48.21
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-8c3e6f.png",
+          "bubble": "マリ＝ルイーズ",
           "kind": "prop",
           "size": 42
         }
@@ -27514,7 +28238,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         }
@@ -27610,7 +28335,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -27620,7 +28346,8 @@ export const chapterEdition = {
             14.27,
             40.85
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a47bb0.png",
+          "bubble": "ジョゼフ",
           "kind": "prop",
           "size": 42
         },
@@ -27630,7 +28357,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-551275.png",
+          "bubble": "ゴヤ",
           "kind": "prop",
           "size": 42
         },
@@ -27640,7 +28368,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-ce34f7.png",
+          "bubble": "ダヴィド",
           "kind": "prop",
           "size": 42
         },
@@ -27650,7 +28379,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-516afe.png",
+          "bubble": "シュタイン",
           "kind": "prop",
           "size": 42
         },
@@ -27660,7 +28390,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-976a7a.png",
+          "bubble": "ハルデンベルク",
           "kind": "prop",
           "size": 42
         },
@@ -27670,7 +28401,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a963f5.png",
+          "bubble": "フンボルト",
           "kind": "prop",
           "size": 42
         },
@@ -27680,7 +28412,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-23080a.png",
+          "bubble": "フィヒテ",
           "kind": "prop",
           "size": 42
         }
@@ -27773,7 +28506,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ナポレオン",
+          "at": [
+            2.35,
+            48.86
+          ],
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ロシア遠征の失敗……大陸軍の壊滅……",
+          "action": "lament"
+        }
+      ],
       "props": [
         {
           "name": "ナポレオン",
@@ -27781,21 +28525,22 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3400,
       "facts": [
         "ロシアの冬に負けて、ついにナポレオン帝国が崩壊！"
       ],
       "mapHeading": "ロシアの冬に負けて、ついにナポレオン帝国が崩壊！",
       "focus": "ロシアの冬に負けて、ついにナポレオン帝国が崩壊！",
       "before": "ロシアの冬に負けて、ついにナポレオン帝国が崩壊！",
-      "after": "ロシアの冬に負けて、ついにナポレオン帝国が崩壊！",
+      "after": "ナポレオンのロシア遠征崩壊と退却戦",
       "note": "",
       "takeaway": ""
     },
@@ -27864,7 +28609,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -27874,7 +28620,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-915f34.png",
+          "bubble": "クトゥーゾフ",
           "kind": "prop",
           "size": 42
         },
@@ -27884,7 +28631,8 @@ export const chapterEdition = {
             37.62,
             55.75
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-bc3682.png",
+          "bubble": "トルストイ",
           "kind": "prop",
           "size": 42
         }
@@ -28016,7 +28764,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -28026,7 +28775,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-61185d.png",
+          "bubble": "タレーラン",
           "kind": "prop",
           "size": 42
         }
@@ -28175,7 +28925,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ナポレオン",
+          "at": [
+            2.35,
+            48.86
+          ],
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "百日天下……最後の決戦ワーテルロー！",
+          "action": "charge"
+        },
+        {
+          "name": "ウェリントン",
+          "at": [
+            -0.13,
+            51.51
+          ],
+          "image": "ancient/ch7-p-c9182d.png",
+          "bubble": "連合軍とプロイセン軍の合流によりワーテルローで勝利！",
+          "action": "command"
+        }
+      ],
       "props": [
         {
           "name": "ナポレオン",
@@ -28183,7 +28954,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -28193,7 +28965,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-c9182d.png",
+          "bubble": "ワーテルローの戦いでナポレオンを最終的に破ったイギリス将軍！",
           "kind": "prop",
           "size": 42
         },
@@ -28203,9 +28976,10 @@ export const chapterEdition = {
             2.37,
             48.85
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/bastille-fortress.png",
+          "bubble": "民衆の襲撃によってフランス革命の幕が上がった要塞牢獄！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "廃兵院",
@@ -28213,21 +28987,22 @@ export const chapterEdition = {
             2.31,
             48.86
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/les-invalides.png",
+          "bubble": "傷病兵のためにルイ14世が創設、ナポレオンの墓所がある！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3400,
       "facts": [
         "ロシアの冬に負けて、ついにナポレオン帝国が崩壊！"
       ],
       "mapHeading": "ロシアの冬に負けて、ついにナポレオン帝国が崩壊！",
       "focus": "ロシアの冬に負けて、ついにナポレオン帝国が崩壊！",
       "before": "ロシアの冬に負けて、ついにナポレオン帝国が崩壊！",
-      "after": "ロシアの冬に負けて、ついにナポレオン帝国が崩壊！",
+      "after": "ワーテルローの戦い（ナポレオン帝政の完全終焉）",
       "note": "",
       "takeaway": ""
     }
@@ -28309,7 +29084,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-759d3f.png",
+          "bubble": "ミルトン",
           "kind": "prop",
           "size": 42
         },
@@ -28319,7 +29095,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-21e28f.png",
+          "bubble": "バンヤン",
           "kind": "prop",
           "size": 42
         },
@@ -28329,7 +29106,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-ad96ff.png",
+          "bubble": "デフォー",
           "kind": "prop",
           "size": 42
         },
@@ -28339,7 +29117,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-6367c4.png",
+          "bubble": "スウィフト",
           "kind": "prop",
           "size": 42
         }
@@ -28433,7 +29212,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis13-france.png",
+          "bubble": "ルイ13世",
           "kind": "prop",
           "size": 42
         },
@@ -28443,7 +29223,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a3bb52.png",
+          "bubble": "コルネイユ",
           "kind": "prop",
           "size": 42
         },
@@ -28453,7 +29234,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -28463,7 +29245,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-12b413.png",
+          "bubble": "ラシーヌ",
           "kind": "prop",
           "size": 42
         },
@@ -28473,7 +29256,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-6dd161.png",
+          "bubble": "モリエール",
           "kind": "prop",
           "size": 42
         },
@@ -28483,7 +29267,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cardinal-richelieu.png",
+          "bubble": "三十年戦争に介入しフランスの絶対王政の基礎を確立！",
           "kind": "prop",
           "size": 42
         }
@@ -28565,7 +29350,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-locke.png",
+          "bubble": "『統治二論』で抵抗権・社会契約説を唱える！",
           "kind": "prop",
           "size": 42
         },
@@ -28575,7 +29361,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -28585,9 +29372,10 @@ export const chapterEdition = {
             2.12,
             48.8
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/versailles-palace.png",
+          "bubble": "ルイ14世が造営したバロック様式の豪壮な宮殿！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "フェリペ2世",
@@ -28595,7 +29383,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/philip2-spain.png",
+          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
           "kind": "prop",
           "size": 42
         },
@@ -28605,9 +29394,10 @@ export const chapterEdition = {
             -4.15,
             40.59
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/el-escorial.png",
+          "bubble": "フェリペ2世が築いた厳格なグリッド状の王宮修道院！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ベラスケス",
@@ -28615,7 +29405,8 @@ export const chapterEdition = {
             -3.7,
             40.42
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-8450b0.png",
+          "bubble": "ベラスケス",
           "kind": "prop",
           "size": 42
         },
@@ -28625,7 +29416,8 @@ export const chapterEdition = {
             -5.99,
             37.39
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-d95cfd.png",
+          "bubble": "ムリリョ",
           "kind": "prop",
           "size": 42
         },
@@ -28635,7 +29427,8 @@ export const chapterEdition = {
             4.4,
             51.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-3eded0.png",
+          "bubble": "ルーベンス",
           "kind": "prop",
           "size": 42
         },
@@ -28645,7 +29438,8 @@ export const chapterEdition = {
             4.9,
             52.37
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-c744d1.png",
+          "bubble": "レンブラント",
           "kind": "prop",
           "size": 42
         }
@@ -28741,7 +29535,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-locke.png",
+          "bubble": "『統治二論』で抵抗権・社会契約説を唱える！",
           "kind": "prop",
           "size": 42
         },
@@ -28751,7 +29546,8 @@ export const chapterEdition = {
             4.4,
             51.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-3eded0.png",
+          "bubble": "ルーベンス",
           "kind": "prop",
           "size": 42
         },
@@ -28761,7 +29557,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis13-france.png",
+          "bubble": "ルイ13世",
           "kind": "prop",
           "size": 42
         },
@@ -28771,7 +29568,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-713921.png",
+          "bubble": "マリー＝ド＝メディシス",
           "kind": "prop",
           "size": 42
         },
@@ -28781,7 +29579,8 @@ export const chapterEdition = {
             4.9,
             52.37
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-c744d1.png",
+          "bubble": "レンブラント",
           "kind": "prop",
           "size": 42
         },
@@ -28791,7 +29590,8 @@ export const chapterEdition = {
             4.36,
             52.01
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-b259ca.png",
+          "bubble": "フェルメール",
           "kind": "prop",
           "size": 42
         }
@@ -28904,7 +29704,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-locke.png",
+          "bubble": "『統治二論』で抵抗権・社会契約説を唱える！",
           "kind": "prop",
           "size": 42
         },
@@ -28914,9 +29715,10 @@ export const chapterEdition = {
             2.12,
             48.8
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/versailles-palace.png",
+          "bubble": "ルイ14世が造営したバロック様式の豪壮な宮殿！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "フリードリヒ2世",
@@ -28924,7 +29726,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/frederick2-great.png",
+          "bubble": "「君主は国家第一の僕」、オーストリア継承戦争でシュレジエン獲得！",
           "kind": "prop",
           "size": 42
         },
@@ -28934,9 +29737,10 @@ export const chapterEdition = {
             13.04,
             52.4
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/sanssouci-palace.png",
+          "bubble": "フリードリヒ2世がポツダムに築いたロココ様式の離宮！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "シェーンブルン宮殿",
@@ -28944,9 +29748,10 @@ export const chapterEdition = {
             16.31,
             48.18
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/schonbrunn-palace.png",
+          "bubble": "マリア＝テレジアが完成させたハプスブルク家の夏の離宮！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "ワトー",
@@ -28954,7 +29759,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-aa7f36.png",
+          "bubble": "ワトー",
           "kind": "prop",
           "size": 42
         }
@@ -29036,7 +29842,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/charles1-stuart.png",
+          "bubble": "チャールズ1世",
           "kind": "prop",
           "size": 42
         },
@@ -29046,7 +29853,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-c10e26.png",
+          "bubble": "フィルマー",
           "kind": "prop",
           "size": 42
         },
@@ -29056,7 +29864,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "太陽王！「朕は国家なり」、ヴェルサイユ宮殿を造営！",
           "kind": "prop",
           "size": 42
         },
@@ -29066,7 +29875,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-03bc13.png",
+          "bubble": "ボシュエ",
           "kind": "prop",
           "size": 42
         }
@@ -29153,7 +29963,8 @@ export const chapterEdition = {
             4.9,
             52.37
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-2b06c3.png",
+          "bubble": "グロティウス",
           "kind": "prop",
           "size": 42
         }
@@ -29211,7 +30022,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/thomas-hobbes.png",
+          "bubble": "ホッブズ",
           "kind": "prop",
           "size": 42
         }
@@ -29284,7 +30096,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-locke.png",
+          "bubble": "『統治二論』で抵抗権・社会契約説を唱える！",
           "kind": "prop",
           "size": 42
         },
@@ -29294,7 +30107,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/thomas-hobbes.png",
+          "bubble": "ホッブズ",
           "kind": "prop",
           "size": 42
         }
@@ -29395,7 +30209,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/voltaire-philosopher.png",
+          "bubble": "言論・信教の自由を訴え啓蒙思想を広める！",
           "kind": "prop",
           "size": 42
         },
@@ -29405,7 +30220,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/frederick2-great.png",
+          "bubble": "「君主は国家第一の僕」、オーストリア継承戦争でシュレジエン獲得！",
           "kind": "prop",
           "size": 42
         },
@@ -29415,7 +30231,8 @@ export const chapterEdition = {
             30.34,
             59.94
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/catherine2-great.png",
+          "bubble": "啓蒙専制君主としてクリミア併合・ポーランド分割を実施！",
           "kind": "prop",
           "size": 42
         },
@@ -29425,7 +30242,8 @@ export const chapterEdition = {
             -0.58,
             44.84
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/montesquieu-philosopher.png",
+          "bubble": "『法の精神』で三権分立を主張！",
           "kind": "prop",
           "size": 42
         },
@@ -29435,7 +30253,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-locke.png",
+          "bubble": "『統治二論』で抵抗権・社会契約説を唱える！",
           "kind": "prop",
           "size": 42
         }
@@ -29517,7 +30336,8 @@ export const chapterEdition = {
             6.14,
             46.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jean-jacques-rousseau.png",
+          "bubble": "『社会契約論』で人民主権と一般意思を説く！",
           "kind": "prop",
           "size": 42
         },
@@ -29527,7 +30347,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/denis-diderot.png",
+          "bubble": "ディドロ",
           "kind": "prop",
           "size": 42
         },
@@ -29537,7 +30358,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a66e39.png",
+          "bubble": "ダランベール",
           "kind": "prop",
           "size": 42
         },
@@ -29547,7 +30369,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/voltaire-philosopher.png",
+          "bubble": "言論・信教の自由を訴え啓蒙思想を広める！",
           "kind": "prop",
           "size": 42
         },
@@ -29557,7 +30380,8 @@ export const chapterEdition = {
             -0.58,
             44.84
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/montesquieu-philosopher.png",
+          "bubble": "『法の精神』で三権分立を主張！",
           "kind": "prop",
           "size": 42
         },
@@ -29567,7 +30391,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-b42c2a.png",
+          "bubble": "ビュフォン",
           "kind": "prop",
           "size": 42
         }
@@ -29651,7 +30476,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-61ec97.png",
+          "bubble": "ボイル",
           "kind": "prop",
           "size": 42
         },
@@ -29661,7 +30487,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/isaac-newton.png",
+          "bubble": "万有引力の法則を発見し『プリンキピア』を著す！",
           "kind": "prop",
           "size": 42
         },
@@ -29671,7 +30498,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jean-colbert.png",
+          "bubble": "重商主義政策を推進しフランスの商工業を育成！",
           "kind": "prop",
           "size": 42
         }
@@ -29772,7 +30600,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-61ec97.png",
+          "bubble": "ボイル",
           "kind": "prop",
           "size": 42
         },
@@ -29782,7 +30611,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/isaac-newton.png",
+          "bubble": "万有引力の法則を発見し『プリンキピア』を著す！",
           "kind": "prop",
           "size": 42
         },
@@ -29792,7 +30622,8 @@ export const chapterEdition = {
             9.73,
             52.38
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/gottfried-leibniz.png",
+          "bubble": "ライプニッツ",
           "kind": "prop",
           "size": 42
         },
@@ -29802,7 +30633,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/blaise-pascal.png",
+          "bubble": "パスカル",
           "kind": "prop",
           "size": 42
         },
@@ -29812,7 +30644,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-f80adb.png",
+          "bubble": "ラヴォワジェ",
           "kind": "prop",
           "size": 42
         },
@@ -29822,7 +30655,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-49e586.png",
+          "bubble": "ラプラース",
           "kind": "prop",
           "size": 42
         },
@@ -29832,7 +30666,8 @@ export const chapterEdition = {
             9.09,
             45.81
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-99b2c3.png",
+          "bubble": "ヴォルタ",
           "kind": "prop",
           "size": 42
         },
@@ -29842,7 +30677,8 @@ export const chapterEdition = {
             17.64,
             59.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-fe7b1b.png",
+          "bubble": "リンネ",
           "kind": "prop",
           "size": 42
         },
@@ -29852,7 +30688,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-b42c2a.png",
+          "bubble": "ビュフォン",
           "kind": "prop",
           "size": 42
         }
@@ -29925,7 +30762,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-a6c68e.png",
+          "bubble": "ハーヴェー",
           "kind": "prop",
           "size": 42
         },
@@ -29935,7 +30773,8 @@ export const chapterEdition = {
             -2.46,
             51.69
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-5414fa.png",
+          "bubble": "ジェンナー",
           "kind": "prop",
           "size": 42
         }
@@ -30072,7 +30911,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-06cdb0.png",
+          "bubble": "フランシス＝ベーコン",
           "kind": "prop",
           "size": 42
         },
@@ -30082,7 +30922,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/thomas-hobbes.png",
+          "bubble": "ホッブズ",
           "kind": "prop",
           "size": 42
         },
@@ -30092,7 +30933,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/john-locke.png",
+          "bubble": "『統治二論』で抵抗権・社会契約説を唱える！",
           "kind": "prop",
           "size": 42
         },
@@ -30102,7 +30944,8 @@ export const chapterEdition = {
             -3.19,
             55.95
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-b435d1.png",
+          "bubble": "ヒューム",
           "kind": "prop",
           "size": 42
         }
@@ -30237,7 +31080,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/rene-descartes.png",
+          "bubble": "合理論の祖！「我思う、ゆえに我あり」演繹法を提唱！",
           "kind": "prop",
           "size": 42
         },
@@ -30247,7 +31091,8 @@ export const chapterEdition = {
             4.9,
             52.37
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/baruch-spinoza.png",
+          "bubble": "スピノザ",
           "kind": "prop",
           "size": 42
         },
@@ -30257,7 +31102,8 @@ export const chapterEdition = {
             9.73,
             52.38
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/gottfried-leibniz.png",
+          "bubble": "ライプニッツ",
           "kind": "prop",
           "size": 42
         }
@@ -30401,7 +31247,8 @@ export const chapterEdition = {
             20.5,
             54.71
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/immanuel-kant.png",
+          "bubble": "批判哲学を大成し純粋理性批判・永久平和論を著す！",
           "kind": "prop",
           "size": 42
         },
@@ -30411,7 +31258,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-23080a.png",
+          "bubble": "フィヒテ",
           "kind": "prop",
           "size": 42
         },
@@ -30421,7 +31269,8 @@ export const chapterEdition = {
             2.35,
             48.86
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/napoleon-bonaparte.png",
+          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -30431,7 +31280,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-ebbe55.png",
+          "bubble": "シェリング",
           "kind": "prop",
           "size": 42
         },
@@ -30441,7 +31291,8 @@ export const chapterEdition = {
             13.41,
             52.52
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ch7-p-8fd12f.png",
+          "bubble": "ヘーゲル",
           "kind": "prop",
           "size": 42
         },
@@ -30451,7 +31302,8 @@ export const chapterEdition = {
             -0.13,
             51.51
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/karl-marx.png",
+          "bubble": "マルクス",
           "kind": "prop",
           "size": 42
         }

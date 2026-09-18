@@ -78,7 +78,8 @@ for(const v of chapterSeries){
   const required=chapterNamesInText(s.title+'。'+narrative),items=sceneMapItems(s,chapterPlaces);
   for(const entry of required){const item=items.find(item=>normalizeMapName(item.text)===entry.key);assert.ok(item,`${s.id}: 地図に ${entry.name} がありません`);assert.deepEqual(item.at,entry.points[0]);}
   for(const item of items){assert.equal(item.at.length,2);assert.ok(item.at.every(Number.isFinite));assert.ok(Math.abs(item.at[0])<=180&&Math.abs(item.at[1])<=90);}
-  for(const prop of s.props)await fs.access(new URL('public/images/'+prop.image,root));
+  for(const prop of s.props){await fs.access(new URL('public/images/'+prop.image,root));assert.ok(!prop.image.endsWith('.svg'),`${s.id}: prop にSVG画像が使用されています (${prop.image})`);}
+  for(const actor of s.actors){await fs.access(new URL('public/images/'+actor.image,root));assert.ok(!actor.image.endsWith('.svg'),`${s.id}: actor にSVG画像が使用されています (${actor.image})`);}
   pageCount++;
  }
 }
