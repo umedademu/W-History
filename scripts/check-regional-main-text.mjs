@@ -9,7 +9,7 @@ import {places} from '../public/regional-dynasties-scenes.js';
 const reference=JSON.parse(await fs.readFile(new URL('./regional-main-text-reference.json',import.meta.url),'utf8'));
 const hash=text=>createHash('sha256').update(text).digest('hex');
 let source;
-try { source=await fs.readFile(new URL('../'+reference.file,import.meta.url),'utf8'); }
+try { if (!reference.sourceDeleted) source=await fs.readFile(new URL('../'+reference.file,import.meta.url),'utf8'); }
 catch(error) { if(error.code!=='ENOENT')throw error; }
 const actualIds=[];
 for(const expected of reference.volumes){

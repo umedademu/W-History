@@ -31,15 +31,11 @@ for(const p of paragraphs){
     assert.ok(['bold','red-bold','underline','italic'].includes(span.style));
     assert.ok(pages.some(s=>s.body.join('').includes('source-'+span.style)),`${p.id}: 装飾が表示されません`);
   }
-  // 原文資料は公開管理の対象外。手元にある場合は直接比較する。
-  try {
-    const source=await fs.readFile(new URL('../sources/chapter-06_islamic-world/legacy/'+p.file,import.meta.url),'utf8');
-    assert.equal(source.split(/\r?\n/)[p.line-1].trim(),p.sourceTranscription??p.text,`${p.id}: 原文資料の本文と不一致`);
-    if(p.sourceTranscription){
-      const review=await read('docs/source-edition/cross-page-review.json');
-      assert.equal(review.paragraphs.find(x=>x.id===p.id)?.transcription,p.text);
-    }
-  } catch(error) { if(error.code!=='ENOENT')throw error; }
+  // 旧資料は利用者の依頼により削除済み。保存した本文・画像照合記録で検査する。
+  if(p.sourceTranscription){
+    const review=await read('docs/source-edition/cross-page-review.json');
+    assert.equal(review.paragraphs.find(x=>x.id===p.id)?.transcription,p.text);
+  }
 }
 for(const [id,scenes] of Object.entries(sourceEdition)){
   assert.deepEqual(scenes.map(s=>s.id),plans.filter(p=>p.volume===id).map(p=>p.id));

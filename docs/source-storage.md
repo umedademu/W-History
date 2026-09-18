@@ -1,68 +1,33 @@
 # 参考書の原文資料の保管方針
 
-参考書は全7章で構成される。参考書の章番号とアプリ内の教材番号は別の番号である。
-資料は `sources/` に章ごとに保管し、公開管理の対象外とする。元の書き起こしは内容を変更しない。2026年9月18日は利用者の依頼によって新しい統合版を作成し、元資料24本は章別の `legacy` に内容を変えず保管した。
+2026年9月18日、v0.061。参考書は全7章で構成される。参考書の章番号とアプリ内の教材番号は別の番号である。
 
 ## 現在の構成
 
-| 参考書の章 | 統合版 | 範囲 |
-| --- | --- | --- |
-| 第1章 オリエント・インドの古代文明 | `sources/chapter-01_orient-india/transcription.md` | 15〜62ページ |
-| 第2章 古代の地中海世界 | `sources/chapter-02_mediterranean/transcription.md` | 63〜128ページ |
-| 第3章 古代の東アジア | `sources/chapter-03_ancient-east-asia/transcription.md` | 129〜180ページ |
-| 第4章 中世ヨーロッパ | `sources/chapter-04_medieval-europe/transcription.md` | 181〜252ページ |
-| 第5章 東アジア世界の変容 | `sources/chapter-05_east-asia/transcription.md` | 253〜314ページ |
-| 第6章 イスラーム世界 | `sources/chapter-06_islamic-world/transcription.md` | 315〜348ページ |
-| 第7章 近代ヨーロッパの幕開け | `sources/chapter-07_modern-europe/transcription.md` | 349〜480ページ |
+| 参考書の章 | 統合版 | 範囲 | 回 |
+| --- | --- | --- | --- |
+| 第1章 オリエント・インドの古代文明 | [transcription.md](../sources/chapter-01_orient-india/transcription.md) | 15〜62 | 第1〜3回 |
+| 第2章 古代の地中海世界 | [transcription.md](../sources/chapter-02_mediterranean/transcription.md) | 63〜128 | 第4〜7回 |
+| 第3章 古代の東アジア | [transcription.md](../sources/chapter-03_ancient-east-asia/transcription.md) | 129〜180 | 第8〜10回 |
+| 第4章 中世ヨーロッパ | [transcription.md](../sources/chapter-04_medieval-europe/transcription.md) | 181〜252 | 第11〜15回 |
+| 第5章 東アジア世界の変容 | [transcription.md](../sources/chapter-05_east-asia/transcription.md) | 253〜314 | 第16〜19回 |
+| 第6章 イスラーム世界 | [transcription.md](../sources/chapter-06_islamic-world/transcription.md) | 315〜348 | 第20〜21回 |
+| 第7章 近代ヨーロッパの幕開け | [transcription.md](../sources/chapter-07_modern-europe/transcription.md) | 349〜480 | 第22〜30回 |
 
-目次は `sources/sekai_shi_tankyu_mokuji.md`。第1章の15ページは目次由来の章名のみで、紙面の書き起こしは未提供。章扉は順に15・63・129・181・253・315・349ページ。本文の統合方法、保留事項、検査方法は [統合記録](source-consolidation.md)を参照する。
+各章の直下に transcription.md を1本ずつ置く。共通の目次は sources/sekai_shi_tankyu_mokuji.md。資料と画像は公開管理の対象外とする。
 
-## 元資料の保管
+第1章の15ページは目次由来の章名のみ。統合本文の作成方法と確認範囲は[統合記録](source-consolidation.md)を参照する。
 
-各章の `legacy` には、統合前のファイルを名前・内容ともに変えず保管している。統合前後の内容を識別する値は [照合記録](source-consolidation.json)にある。各章の直下には `transcription.md` だけを置く。
+## 旧資料の扱い
 
-旧版の削除は利用者が目視確認したあとに行う。今回の作業では削除していない。統合版も教材作成時は参照資料として扱い、本文への補足や対照情報はアプリ側または `docs` に記録する。
+統合時に保管した旧資料24本は、利用者の明示的な指示によりすべて削除した。空の legacy フォルダ7個だけは自動承認審査によって削除を拒否され、残っている。資料の複製は入っていない。
 
-## 既存アプリが参照する第6章の旧版
+統合版から編集注・照合保留・出典案内を除いた。今後の教材作成では統合版を参照し、本文の補足や対照情報はアプリ側または docs に記録する。
 
-既存アプリの原文照合には `sources/chapter-06_islamic-world/legacy/` にある次のファイルを使う。今回の統合版へ本文や行番号を切り替えてはいない。
+## 既存アプリの照合記録
 
-| ファイル名 | 内容 |
-| --- | --- |
-| `01_islamic_world_formation.md` | イスラーム世界の形成 |
-| `02_timur_and_safavid.md` | ティムール朝・サファヴィー朝 |
-| `03_ottoman_empire.md` | オスマン帝国 |
-| `04_mughal_empire.md` | ムガル帝国 |
-| `05_islamic_culture.md` | イスラーム文化 |
-| `README.md` | 従来の画像・紙面対応表 |
+既存アプリが参照していた第6章の旧5資料も削除済み。docs/source-edition 内のファイル名・行番号・内容識別値は旧版の記録であり、現在の統合版の行番号には読み替えない。本文・装飾・画像の照合記録に基づく検査は継続する。
 
-先頭の01〜05は第6章内の旧資料番号であり、参考書の章番号ではない。旧案内文の保管場所に関する記載は当時の構成を指す。
+## 整理の経緯
 
-以下は過去の整理記録であり、現在の場所は上表および `legacy` を参照する。
-
-## 2026年9月17日の整理
-
-- `sekai_shi_16_62.md` を第1章の `pages_016-062.md` に改名して移動。
-- 従来の5資料と案内文を第6章のフォルダへ移動。
-- 全7ファイルについて移動前後のSHA256が一致することを確認。原文の加筆・修正・整形は行っていない。
-- 原文照合の検査と関連文書の参照先を更新。
-- `docs/source-edition/paragraphs.json` の `file` は第6章フォルダ内のファイル名として扱う。
-- 原文自体は従来どおり公開管理の対象外。別の端末では同じ構成で手元の原文を配置する。
-
-新しい資料は、章番号を2桁で付けた章専用フォルダへ保管する。章全体をまとめた資料はページ範囲を付け、分割資料は章内の番号と題名を付ける。
-
-## 2026年9月18日の整理
-
-追加された第2〜5章と第7章の5資料を、上記の章別フォルダへ移動した。
-旧名は順に `sekai_shi_tankyu_64_128.md`、`sekai_shi_tankyu_129_180.md`、`sekai_shi_tankyu_181_252.md`、`sekai_shi_tankyu_253_314.md`、`sekai_shi_tankyu_349_480.md`。
-ファイル名は第1章と同じく、3桁のページ範囲を付けた形式に統一した。
-第3章と第5章はともに東アジアを扱うため、第3章には古代を示す語を残した。
-第1章・第6章と目次の配置は維持。目次は全章共通の資料として sources 直下に置く。
-整理前後で、既存資料と目次を含む全13ファイルのSHA256が一致することを確認した。
-この確認は原文を変更していないことの確認であり、書き起こしの正確さや完全性を再検査したものではない。
-
-## 2026年9月18日の完全書き起こし（第2章）
-
-参考書の撮影動画 `811330312.899012.mp4` を基に、第2章「古代の地中海世界」（63〜128ページ）の全66ページを高精度で読み取り、完全書き起こしを実施した。
-本文の地の文、口調、見出し、箇条書き、吹き出し、図解内の文字、注釈、年表、ルビに至るまで一切の省略を行わず、完全版として `sources/chapter-02_mediterranean/pages_064-128.md` を更新した。
-また、第6章の形式に倣い、講義回ごとの分割資料（`04_ancient_greece.md`、`05_polis_decline_and_hellenism.md`、`06_ancient_rome_republic.md`、`07_roman_empire.md`）も同フォルダ内に配置した。
+2026年9月17〜18日に章別の保管先へ整理した。同18日に全7章を各1本へ統合し、元資料24本を内容を変えず legacy に保管した。その後、利用者の依頼で編集時の追記と旧資料24本を削除した。

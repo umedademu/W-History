@@ -15,34 +15,14 @@
         2,
         3
       ],
-      "characters_without_embedded_image": 52280,
-      "sha256": "3f6dd14cb88bb954984ce2f7ae7dc49d8fbc184ddafd319d4cafddb5c24053dd",
-      "pending_review": [
-        {
-          "page": 47,
-          "title": "ヴェーダの説明",
-          "source": "sources/chapter-01_orient-india/legacy/pages_016-062.md",
-          "excerpt_sha256": "9f93074bda1ab2fd2be6ae282e9a6b3279f643cade558b7794454ffab72c8fc3"
-        },
-        {
-          "page": 58,
-          "title": "叙事詩の説明",
-          "source": "sources/chapter-01_orient-india/legacy/pages_016-062.md",
-          "excerpt_sha256": "56d8e8fda152b66fd6bbe50c21b532ad6d1f238056ca2c7a7d40cf32635283e0"
-        },
-        {
-          "page": 60,
-          "title": "ヴァルダナ朝の南進",
-          "source": "sources/chapter-01_orient-india/legacy/pages_016-062.md",
-          "excerpt_sha256": "17a90c09ebd23eae1f346daf4e78d5d71b3e8a2a46867833bfc46f3391012383"
-        }
-      ],
+      "characters_without_embedded_image": 50783,
+      "sha256": "1ae939243dbe1deda58f80ed584498e5035578c3cab7c1048660e2534bf75944",
       "pages": [
         {
           "page": 15,
           "source": "sources/sekai_shi_tankyu_mokuji.md",
-          "body_sha256": "41a5b0a56920dcd40609a4c588c46fb45f4f1392cff51975223fb6a58399cd55",
-          "characters": 78
+          "body_sha256": "d146e38d514e6bea884763f89c6497f76e01eacc0b0b0723b464092f683babfc",
+          "characters": 22
         },
         {
           "page": 16,
@@ -344,9 +324,8 @@
         6,
         7
       ],
-      "characters_without_embedded_image": 74740,
-      "sha256": "a3636ebd12c230f9871ae3c9fbb38b9da92ec2cf32f799d3e923234c0d06f46f",
-      "pending_review": [],
+      "characters_without_embedded_image": 74523,
+      "sha256": "565d81566a81f93c71739df6e0ea7929647a7c6cdef37d673bfe496211301f40",
       "pages": [
         {
           "page": 63,
@@ -761,28 +740,8 @@
         9,
         10
       ],
-      "characters_without_embedded_image": 56597,
-      "sha256": "1247efd7d85c5fd8148922fbca64247b25424137c158cb6acd6b8b73259632af",
-      "pending_review": [
-        {
-          "page": 132,
-          "title": "夏王朝と二里頭遺跡",
-          "source": "sources/chapter-03_ancient-east-asia/legacy/pages_129-180.md",
-          "excerpt_sha256": "8233044041372936394c6b5202e0430af9058262f3477893805790f7c86f1fa2"
-        },
-        {
-          "page": 159,
-          "title": "六朝文化の人物・作品",
-          "source": "sources/chapter-03_ancient-east-asia/legacy/pages_129-180.md",
-          "excerpt_sha256": "92d179e50538d2c10e960c975c82ace2f2d0af7286f811acce9fa65a18132325"
-        },
-        {
-          "page": 179,
-          "title": "唐代の文学・古文復興",
-          "source": "sources/chapter-03_ancient-east-asia/legacy/pages_129-180.md",
-          "excerpt_sha256": "7609f6106ff33f4ea33d9054c01005f32de8b7056f53eb48dad58fd85ee2f7d5"
-        }
-      ],
+      "characters_without_embedded_image": 54974,
+      "sha256": "fe0107bb2d5e48bc288249420484f75a7204914ed7724faadf73ed24284a8ddd",
       "pages": [
         {
           "page": 129,
@@ -1115,46 +1074,8 @@
         14,
         15
       ],
-      "characters_without_embedded_image": 85573,
-      "sha256": "1f394b0ae2fa3d5f02210e6024097a1744fb4120c6a0916e14c146e834cb3472",
-      "pending_review": [
-        {
-          "page": 212,
-          "title": "ユスティニアヌス帝の遠征と将軍",
-          "source": "sources/chapter-04_medieval-europe/legacy/pages_181-252.md",
-          "excerpt_sha256": "21049dacc5853798b3de4a85d667f1af29eae0ad6f6f1b9e19201933ebe878b5"
-        },
-        {
-          "page": 214,
-          "title": "軍管区の司令官",
-          "source": "sources/chapter-04_medieval-europe/legacy/pages_181-252.md",
-          "excerpt_sha256": "7e313a29eefd004bf78a82c76dfd9efd6387b293598411e901e0060caa69cc3d"
-        },
-        {
-          "page": 218,
-          "title": "スラヴ人の区分とポーランドの建国",
-          "source": "sources/chapter-04_medieval-europe/legacy/pages_181-252.md",
-          "excerpt_sha256": "63a6462c88a265db1569fb9eb05784df0147983ecf751c509c5645713f0c3f47"
-        },
-        {
-          "page": 219,
-          "title": "ポーランド女王の名前",
-          "source": "sources/chapter-04_medieval-europe/legacy/pages_181-252.md",
-          "excerpt_sha256": "e5408277ca7b0ca351e62adbfa2301b709f3da407a2097d8b6aa97886b5deb4b"
-        },
-        {
-          "page": 235,
-          "title": "コンスタンツ公会議の新教皇",
-          "source": "sources/chapter-04_medieval-europe/legacy/pages_181-252.md",
-          "excerpt_sha256": "f766c989c5a3183155372432980e0719da9a3a9fa15af67bca6bd8de4f54d33a"
-        },
-        {
-          "page": 236,
-          "title": "普遍論争の人物",
-          "source": "sources/chapter-04_medieval-europe/legacy/pages_181-252.md",
-          "excerpt_sha256": "da3ad7acc58d02f8f077198b05c952a6c49216335c8ae24f44c33796983a6904"
-        }
-      ],
+      "characters_without_embedded_image": 83914,
+      "sha256": "e1486f29e7c0ae2c49aa9adb81191e46d936a95d800d59995d517742ca85de62",
       "pages": [
         {
           "page": 181,
@@ -1606,34 +1527,8 @@
         18,
         19
       ],
-      "characters_without_embedded_image": 74023,
-      "sha256": "d2e506dd0939854800030f775c49b51feb72d00a86ee12d448672f00e17fdfd5",
-      "pending_review": [
-        {
-          "page": 264,
-          "title": "女真族の系統",
-          "source": "sources/chapter-05_east-asia/legacy/pages_253-314.md",
-          "excerpt_sha256": "f84a5fae8985e87c782491d34d3c40f69bc06fd9159d5e0f79c9d6ea0ec7a120"
-        },
-        {
-          "page": 291,
-          "title": "清軍の指揮者",
-          "source": "sources/chapter-05_east-asia/legacy/pages_253-314.md",
-          "excerpt_sha256": "ec82d754960f9ebd126cdc11537cca4d967796927271d44d0f3b9b1e90776b4f"
-        },
-        {
-          "page": 294,
-          "title": "藩部の首長",
-          "source": "sources/chapter-05_east-asia/legacy/pages_253-314.md",
-          "excerpt_sha256": "cf7fa65824a1a3be2b2e778f23c76ffff01a45b08bdb6d40ca186af87b022676"
-        },
-        {
-          "page": 307,
-          "title": "陳朝による元軍の撃退",
-          "source": "sources/chapter-05_east-asia/legacy/pages_253-314.md",
-          "excerpt_sha256": "ec54d0c35755ef48de115679496792c80746665c52a30260d0adb87640d84437"
-        }
-      ],
+      "characters_without_embedded_image": 72881,
+      "sha256": "971afc3eb1da092df2b703a4c51bfb92c14f16b3cdb0741d3d04a8ec2194b047",
       "pages": [
         {
           "page": 253,
@@ -1705,7 +1600,7 @@
           "page": 264,
           "source": "sources/chapter-05_east-asia/legacy/5_transcription_p253-314_merged.md",
           "body_sha256": "1b7a8e76ca20770b3c52fc335a49d2b54205501161603c7cab6a6dd908e70689",
-          "characters": 1195
+          "characters": 374710
         },
         {
           "page": 265,
@@ -2025,46 +1920,8 @@
         20,
         21
       ],
-      "characters_without_embedded_image": 38891,
-      "sha256": "30e0082e3ba81cbe039161b04df7f2afb74aeee590b6eb64de0574a07e0fb899",
-      "pending_review": [
-        {
-          "page": 318,
-          "title": "五行の呼び方",
-          "source": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
-          "excerpt_sha256": "6c3269f03dfb8db0120a1d03c51df7610525de3506bd8dd2a598df0c0267a399"
-        },
-        {
-          "page": 322,
-          "title": "公用語と貨幣の統一を進めた君主",
-          "source": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
-          "excerpt_sha256": "1768f4d92da222ee72af18954d63d3d2986a2c4d826ef9c51cc47c170808a3db"
-        },
-        {
-          "page": 323,
-          "title": "アッバース朝の官僚",
-          "source": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
-          "excerpt_sha256": "24a41639f2a63e10e31bd9b09ee6137ed38a483579ac23bddc2ee2b0036555fa"
-        },
-        {
-          "page": 331,
-          "title": "東アフリカの港市",
-          "source": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
-          "excerpt_sha256": "690d3e312a842a035c070630c69bcb02cc1dd6f7eb00c41b0276a3a4edeb8b4d"
-        },
-        {
-          "page": 347,
-          "title": "天文学・光学・錬金術",
-          "source": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
-          "excerpt_sha256": "1d3428dcbd8ac321eb96446f93a09413513cdb95127e15105fa1e7690117c533"
-        },
-        {
-          "page": 348,
-          "title": "建築の例と設計者",
-          "source": "sources/chapter-06_islamic-world/legacy/sekai_shi_tankyu_315_348.md",
-          "excerpt_sha256": "047778a6bd03bb4309b41f02ba430a175e091ca3383c705824c231bf7ae5a7cc"
-        }
-      ],
+      "characters_without_embedded_image": 37173,
+      "sha256": "9c9bd9d7a35776c62c40bd43fefef24db80b108c768587ac7fa09bbd98ad99bc",
       "pages": [
         {
           "page": 315,
@@ -2293,58 +2150,8 @@
         29,
         30
       ],
-      "characters_without_embedded_image": 157927,
-      "sha256": "e17eb6a67ff220827a88042a030eeaf84d878496d39f44393217e525e5f7e575",
-      "pending_review": [
-        {
-          "page": 352,
-          "title": "ミケランジェロの作品と礼拝堂",
-          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
-          "excerpt_sha256": "83e9dedcaaa2754d72256dbbaca7778c5d34fc1bf6be9a61518b980e5741a8dc"
-        },
-        {
-          "page": 359,
-          "title": "マゼラン航海の人物と戦死地",
-          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
-          "excerpt_sha256": "9e6887d6e025d131182ab24e1b2232ec23e61d94cbbe83f28fbff0a2e970d88f"
-        },
-        {
-          "page": 373,
-          "title": "スコットランドの宗教改革",
-          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
-          "excerpt_sha256": "458fd53c4ab809b7909aa9969a0d7f0dd4dbca027c1b6e76fb6d0c71687530bf"
-        },
-        {
-          "page": 435,
-          "title": "社会主義の著作",
-          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
-          "excerpt_sha256": "72f430b01ab8e9511831ebb102892deddf0946da9d6e4d849ea374c4b950a486"
-        },
-        {
-          "page": 473,
-          "title": "絵画・音楽の人物",
-          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
-          "excerpt_sha256": "81db7a85c47058ec4e254d83d0e93610138a3300bde36afb2a765f416f6ecc51"
-        },
-        {
-          "page": 475,
-          "title": "ルソーの一般意志",
-          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
-          "excerpt_sha256": "28e57000f1891390e243419bbcc24bc6d853cab4fcba3e32b11d46f788d7efa0"
-        },
-        {
-          "page": 477,
-          "title": "経済学の記述",
-          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
-          "excerpt_sha256": "b42ecb7c3f280d1c1f9175dcc714aabd2069b8e6494938de6761954f09cb0851"
-        },
-        {
-          "page": 478,
-          "title": "ロックの白紙説",
-          "source": "sources/chapter-07_modern-europe/legacy/pages_349-480.md",
-          "excerpt_sha256": "802a940e7d5869538a2903d7cf198bae9f0a413c88ac77d9e1ba05d86cbd75b7"
-        }
-      ],
+      "characters_without_embedded_image": 155837,
+      "sha256": "e40785ec527615e02074c79eed9209d645d1fdee2c6c117716047b1e8ecc9927",
       "pages": [
         {
           "page": 349,
@@ -3362,7 +3169,7 @@
       ],
       "kind": "重複の整理",
       "source": "sources/chapter-03_ancient-east-asia/legacy/china_ancient_130-183_complete.md",
-      "note": "元の181〜183ページ表記は178〜180ページの重複。元番号と主な異同は統合版末尾に保存。"
+      "note": "元の181〜183ページ表記は178〜180ページの重複として整理。"
     },
     {
       "chapter": 6,
@@ -3416,5 +3223,8 @@
   "original_count": 24,
   "book_page_count": 465,
   "cover_page_from_toc": 15,
-  "pending_review_count": 30
+  "version": "0.061",
+  "editorial_notes_removed": true,
+  "legacy_files_deleted": true,
+  "empty_legacy_directories": 7
 }

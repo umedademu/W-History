@@ -8,21 +8,22 @@ const repository = path.resolve(scriptDirectory, "..");
 const manifest = JSON.parse(await fs.readFile(path.join(scriptDirectory, "timur-source-names.json"), "utf8"));
 const published = process.argv.includes("--published");
 const sourceArgument = process.argv.slice(2).find(argument => !argument.startsWith("--"));
+const checkOriginal = !published && (Boolean(sourceArgument) || !manifest.sourceDeleted);
 const sourcePath = sourceArgument ? path.resolve(sourceArgument) : path.join(repository, manifest.source);
 const [source, story, characters] = await Promise.all([
-  published ? null : fs.readFile(sourcePath, "utf8"),
+  checkOriginal ? fs.readFile(sourcePath, "utf8") : null,
   fs.readFile(path.join(repository, "public", "timur-story.js"), "utf8"),
   fs.readFile(path.join(repository, "public", "timur-characters.js"), "utf8"),
 ]);
 
 let sourceSection = null;
-if (!published) {
+if (checkOriginal) {
 const hash = createHash("sha256").update(source).digest("hex").toUpperCase();
 if (hash !== manifest.sourceSha256) throw new Error(`04章の原資料のハッシュ値が記録と異なります: ${hash}`);
 sourceSection = source.match(/### p\.334（[\s\S]*?(?=### p\.335)/)?.[0];
 if (!sourceSection) throw new Error("04章が参照するp.334の範囲を原資料から取り出せませんでした。");
 } else {
-  console.log("公開用検査：原文ファイル自体の照合は手元の npm run check で行います。");
+  console.log("旧資料ファイルの直接照合を省略し、保存済みの対応表を使用します。");
 }
 
 const plain = value => String(value ?? "").replace(/<[^>]*>/g, "");
@@ -67,7 +68,7 @@ for (const group of manifest.scenes) {
   const map = plain([mapPart, characterBlock(characterKey), referencedDefinitions].join("\n"));
 
   for (const term of group.sourceTerms) {
-    if (!published && !sourceSection.includes(term)) throw new Error(`04章の原資料範囲に「${term}」がありません。`);
+    if (checkOriginal && !sourceSection.includes(term)) throw new Error(`04章の原資料範囲に「${term}」がありません。`);
   }
   for (const term of group.terms) {
     if (!narrative.includes(term)) throw new Error(`04章 ${group.scene}: 本文に「${term}」がありません。`);
