@@ -3,65 +3,72 @@ import path from 'node:path';
 
 const baseDir = path.resolve('c:/Users/USER/Desktop/W-History');
 
+// Read current version from package.json
+const pkgPath = path.join(baseDir, 'package.json');
+const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf8'));
+const currentVersionStr = pkg.version;
+const currentNum = parseFloat(currentVersionStr);
+const nextNum = (Math.round((currentNum + 0.001) * 1000) / 1000);
+const nextVersionStr = nextNum.toFixed(3);
+
+console.log(`Bumping version: ${currentVersionStr} -> ${nextVersionStr}`);
+
 // 1. package.json
-let p = path.join(baseDir, 'package.json');
-let c = fs.readFileSync(p, 'utf8');
-fs.writeFileSync(p, c.replace('"version": "0.078"', '"version": "0.079"'));
+pkg.version = nextVersionStr;
+fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2) + '\n');
 
 // 2. package-lock.json
-let pLock = path.join(baseDir, 'package-lock.json');
+const pLock = path.join(baseDir, 'package-lock.json');
 let cLock = fs.readFileSync(pLock, 'utf8');
-fs.writeFileSync(pLock, cLock.replaceAll('"version": "0.078"', '"version": "0.079"'));
+cLock = cLock.replaceAll(`"version": "${currentVersionStr}"`, `"version": "${nextVersionStr}"`);
+fs.writeFileSync(pLock, cLock);
 
 // 3. README.md
-p = path.join(baseDir, 'README.md');
-c = fs.readFileSync(p, 'utf8');
-fs.writeFileSync(p, c.replace('**v0.078**', '**v0.079**'));
+const pReadme = path.join(baseDir, 'README.md');
+let cReadme = fs.readFileSync(pReadme, 'utf8');
+cReadme = cReadme.replaceAll(`**v${currentVersionStr}**`, `**v${nextVersionStr}**`);
+fs.writeFileSync(pReadme, cReadme);
 
 // 4. docs/specification.md
-p = path.join(baseDir, 'docs/specification.md');
-c = fs.readFileSync(p, 'utf8');
-fs.writeFileSync(p, c.replace('現在の版は v0.078（2026年9月19日）。', '現在の版は v0.079（2026年9月19日）。'));
+const pSpec = path.join(baseDir, 'docs/specification.md');
+let cSpec = fs.readFileSync(pSpec, 'utf8');
+cSpec = cSpec.replaceAll(`v${currentVersionStr}`, `v${nextVersionStr}`);
+fs.writeFileSync(pSpec, cSpec);
 
 // 5. docs/catalog/summary.json
-p = path.join(baseDir, 'docs/catalog/summary.json');
-c = fs.readFileSync(p, 'utf8');
-fs.writeFileSync(p, c.replace('"version": "0.078"', '"version": "0.079"'));
+const pSum = path.join(baseDir, 'docs/catalog/summary.json');
+let cSum = fs.readFileSync(pSum, 'utf8');
+cSum = cSum.replaceAll(`"version": "${currentVersionStr}"`, `"version": "${nextVersionStr}"`);
+fs.writeFileSync(pSum, cSum);
 
 // 6. scripts/check.mjs
-p = path.join(baseDir, 'scripts/check.mjs');
-c = fs.readFileSync(p, 'utf8');
-fs.writeFileSync(p, c.replaceAll('/theme.js?v=0.078', '/theme.js?v=0.079').replaceAll('/theme.css?v=0.078', '/theme.css?v=0.079'));
+const pCheck = path.join(baseDir, 'scripts/check.mjs');
+let cCheck = fs.readFileSync(pCheck, 'utf8');
+cCheck = cCheck.replaceAll(`v=${currentVersionStr}`, `v=${nextVersionStr}`);
+fs.writeFileSync(pCheck, cCheck);
 
 // 7. public/chapter-story.js
-p = path.join(baseDir, 'public/chapter-story.js');
-c = fs.readFileSync(p, 'utf8');
-c = c.replace(/edition\.js\?v=[0-9.]+/g, 'edition.js?v=0.079')
-     .replace(/story-volumes\.js\?v=[0-9.]+/g, 'story-volumes.js?v=0.079')
-     .replace(/history-story\.js\?v=[0-9.]+/g, 'history-story.js?v=0.079');
-fs.writeFileSync(p, c);
+const pChStory = path.join(baseDir, 'public/chapter-story.js');
+let cChStory = fs.readFileSync(pChStory, 'utf8');
+cChStory = cChStory.replace(/edition\.js\?v=[0-9.]+/g, `edition.js?v=${nextVersionStr}`)
+                   .replace(/story-volumes\.js\?v=[0-9.]+/g, `story-volumes.js?v=${nextVersionStr}`)
+                   .replace(/history-story\.js\?v=[0-9.]+/g, `history-story.js?v=${nextVersionStr}`);
+fs.writeFileSync(pChStory, cChStory);
 
-// 8. public/ancient-story.js
-p = path.join(baseDir, 'public/ancient-story.js');
-c = fs.readFileSync(p, 'utf8');
-c = c.replace(/ancient-edition\.js\?v=[0-9.]+/g, 'ancient-edition.js?v=0.079')
-     .replace(/ancient-volumes\.js\?v=[0-9.]+/g, 'ancient-volumes.js?v=0.079')
-     .replace(/history-story\.js\?v=[0-9.]+/g, 'history-story.js?v=0.079')
-     .replace(/story-volumes\.js\?v=[0-9.]+/g, 'story-volumes.js?v=0.079');
-fs.writeFileSync(p, c);
-
-// 9. public/*.html
-const publicDir = path.join(baseDir, 'public');
-let updatedCount = 0;
-for (const file of fs.readdirSync(publicDir)) {
-  if (file.endsWith('.html')) {
-    const fp = path.join(publicDir, file);
-    let html = fs.readFileSync(fp, 'utf8');
-    let updated = html.replaceAll('?v=0.078', '?v=0.079').replaceAll('v0.078', 'v0.079');
-    if (updated !== html) {
-      fs.writeFileSync(fp, updated);
-      updatedCount++;
+// 8. Update all HTML files in public/
+const pubDir = path.join(baseDir, 'public');
+let htmlCount = 0;
+for (const f of fs.readdirSync(pubDir)) {
+  if (f.endsWith('.html')) {
+    const hp = path.join(pubDir, f);
+    let hc = fs.readFileSync(hp, 'utf8');
+    const orig = hc;
+    hc = hc.replaceAll(`v=${currentVersionStr}`, `v=${nextVersionStr}`);
+    if (hc !== orig) {
+      fs.writeFileSync(hp, hc);
+      htmlCount++;
     }
   }
 }
-console.log(`Version bump done: 0.078 -> 0.079. Updated ${updatedCount} HTML files and JS entrypoints.`);
+
+console.log(`Version bump done: ${currentVersionStr} -> ${nextVersionStr}. Updated ${htmlCount} HTML files and JS entrypoints.`);

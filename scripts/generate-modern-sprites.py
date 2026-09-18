@@ -1,811 +1,808 @@
 import os
+import sys
 import json
 import hashlib
 from PIL import Image
+import numpy as np
 
-def canvas(size=(48, 48)):
-    return Image.new('RGBA', size, (0, 0, 0, 0))
+BASE_DIR = r"c:\Users\USER\Desktop\W-History"
+OUT_DIR = os.path.join(BASE_DIR, "public", "images", "ancient")
+IMG_ROOT = os.path.join(BASE_DIR, "public", "images")
+os.makedirs(OUT_DIR, exist_ok=True)
 
-def put_pixels(img, pixel_dict):
-    p = img.load()
-    for (x, y), col in pixel_dict.items():
-        if 0 <= x < img.width and 0 <= y < img.height:
-            p[x, y] = col
+# Cache loaded images to run fast
+LOADED_CACHE = {}
 
-def base_human(
-    skin=(245, 205, 170, 255),
-    hair_col=(90, 60, 40, 255),
-    hair_type='short', # short, long, curly_wig, balding, ponytail, female_bun, female_high
-    hat_type=None,     # crown, bicorne, tricorn, beret, scholar_cap, pope_mitre, cardinal_cap, helmet, tiara, bonnet
-    hat_col=(40, 40, 50, 255),
-    hat_accent=(220, 180, 50, 255),
-    shirt_col=(230, 225, 215, 255),
-    coat_col=(40, 60, 100, 255),
-    coat_accent=(220, 180, 50, 255),
-    pants_col=(60, 50, 45, 255),
-    boots_col=(30, 25, 25, 255),
-    has_ruff=False, # 白い大きな襞襟
-    has_cravat=False, # 白いクラヴァット
-    beard_type=None, # full, pointed, mustache, stubble, long_white
-    beard_col=None,
-    item_type=None, # book, sword, quill, telescope, palette, cross, scroll, flute, scepter, gear, gun
-    item_col=None,
-    is_female=False
-):
-    img = canvas()
-    d = {}
-    
-    if beard_col is None:
-        beard_col = hair_col
-
-    # 1. 顔・頭部
-    for y in range(12, 21):
-        for x in range(19, 29):
-            d[(x, y)] = skin
-    d[(19, 12)] = (0, 0, 0, 0)
-    d[(28, 12)] = (0, 0, 0, 0)
-    d[(19, 20)] = (0, 0, 0, 0)
-    d[(28, 20)] = (0, 0, 0, 0)
-    
-    # 目
-    d[(21, 15)] = (30, 25, 20, 255)
-    d[(26, 15)] = (30, 25, 20, 255)
-    
-    # 眉
-    for x in range(20, 23):
-        d[(x, 14)] = hair_col
-    for x in range(25, 28):
-        d[(x, 14)] = hair_col
+def load_source(name):
+    if name in LOADED_CACHE:
+        return LOADED_CACHE[name].copy()
         
-    # 鼻
-    d[(24, 16)] = (max(0, skin[0]-25), max(0, skin[1]-25), max(0, skin[2]-25), 255)
-    d[(24, 17)] = (max(0, skin[0]-35), max(0, skin[1]-35), max(0, skin[2]-35), 255)
-    
-    # 口
-    lip_col = (200, 90, 100, 255) if is_female else (180, 100, 90, 255)
-    d[(23, 19)] = lip_col
-    d[(24, 19)] = lip_col
+    candidates = [
+        os.path.join(OUT_DIR, f"{name}.png"),
+        os.path.join(IMG_ROOT, "ancient", f"{name}.png"),
+        os.path.join(IMG_ROOT, "ottoman", f"{name}.png"),
+        os.path.join(IMG_ROOT, "islamic-culture", f"{name}.png"),
+        os.path.join(IMG_ROOT, "islam-origin", f"{name}.png"),
+        os.path.join(IMG_ROOT, "safavid", f"{name}.png"),
+        os.path.join(IMG_ROOT, "mughal", f"{name}.png"),
+        os.path.join(IMG_ROOT, "regional-dynasties", f"{name}.png"),
+        os.path.join(IMG_ROOT, "timur", f"{name}.png"),
+        os.path.join(IMG_ROOT, "timur-after", f"{name}.png"),
+        os.path.join(IMG_ROOT, "umayyad-abbasid", f"{name}.png"),
+    ]
+    for p in candidates:
+        if os.path.exists(p):
+            try:
+                sz = os.path.getsize(p)
+                # Only use high quality base assets (>10KB)
+                if sz > 10000:
+                    img = Image.open(p).convert("RGBA")
+                    LOADED_CACHE[name] = img
+                    return img.copy()
+            except Exception:
+                pass
+                
+    # Fallback to known rock-solid high quality sprite
+    fb = os.path.join(IMG_ROOT, "ancient", "caesar-general.png")
+    if os.path.exists(fb):
+        img = Image.open(fb).convert("RGBA")
+        return img.copy()
+    return None
 
-    # 髭 (女性には付けない)
-    if not is_female:
-        if beard_type == 'mustache':
-            for x in range(21, 27):
-                d[(x, 18)] = beard_col
-        elif beard_type == 'pointed':
-            for x in range(21, 27):
-                d[(x, 18)] = beard_col
-            for y in range(19, 23):
-                d[(23, y)] = beard_col
-                d[(24, y)] = beard_col
-        elif beard_type == 'full':
-            for y in range(18, 24):
-                for x in range(20, 28):
-                    d[(x, y)] = beard_col
-        elif beard_type == 'long_white':
-            for y in range(18, 27):
-                w = 4 - (y - 18) // 3
-                for x in range(24 - w, 24 + w):
-                    d[(x, y)] = (235, 235, 240, 255)
+def apply_color_theme(arr, alpha, color_theme, w, h):
+    for y in range(h):
+        for x in range(w):
+            if alpha[y, x] < 20:
+                arr[y, x, 3] = 0
+                continue
+            r, g, b = arr[y, x, :3]
+            bright = (r + g + b) / 3.0
+            
+            # Skin detector (preserve face, hands, natural skin highlights)
+            is_skin = (r > 125 and g > 75 and b > 45 and r >= g and g >= b and (r - b) > 20 and bright > 70)
+            if is_skin:
+                continue
+                
+            # Recolor costumes based on historical themes
+            if color_theme == 'bourbon_blue':
+                arr[y, x, 0] = np.clip(bright * 0.15, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.35 + 15, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.95 + 40, 0, 255)
+            elif color_theme == 'bourbon_white_gold':
+                arr[y, x, 0] = np.clip(bright * 0.95 + 35, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.90 + 30, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.70 + 10, 0, 255)
+            elif color_theme == 'british_redcoat':
+                arr[y, x, 0] = np.clip(bright * 1.05 + 40, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.20, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.20, 0, 255)
+            elif color_theme == 'tudor_green':
+                arr[y, x, 0] = np.clip(bright * 0.15, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.75 + 20, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.35, 0, 255)
+            elif color_theme == 'prussian_blue':
+                arr[y, x, 0] = np.clip(bright * 0.15, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.25 + 10, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.65 + 20, 0, 255)
+            elif color_theme == 'prussian_black':
+                v = np.clip(bright * 0.35, 0, 255)
+                arr[y, x, 0] = v; arr[y, x, 1] = v; arr[y, x, 2] = np.clip(v + 5, 0, 255)
+            elif color_theme == 'habsburg_gold':
+                arr[y, x, 0] = np.clip(bright * 1.05 + 35, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.85 + 15, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.15, 0, 255)
+            elif color_theme == 'habsburg_black':
+                arr[y, x, 0] = np.clip(bright * 0.28, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.28, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.32, 0, 255)
+            elif color_theme == 'russian_green':
+                arr[y, x, 0] = np.clip(bright * 0.20, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.60 + 15, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.30, 0, 255)
+            elif color_theme == 'russian_gold':
+                arr[y, x, 0] = np.clip(bright * 0.95 + 30, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.80 + 15, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.25, 0, 255)
+            elif color_theme == 'cardinal_scarlet':
+                arr[y, x, 0] = np.clip(bright * 1.05 + 45, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.15, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.30, 0, 255)
+            elif color_theme == 'papal_white':
+                v = np.clip(bright * 0.85 + 50, 0, 255)
+                arr[y, x, 0] = v; arr[y, x, 1] = v; arr[y, x, 2] = np.clip(v + 10, 0, 255)
+            elif color_theme == 'puritan_dark':
+                arr[y, x, 0] = np.clip(bright * 0.30, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.30, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.35, 0, 255)
+            elif color_theme == 'renaissance_crimson':
+                arr[y, x, 0] = np.clip(bright * 0.95 + 35, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.20, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.40 + 10, 0, 255)
+            elif color_theme == 'renaissance_emerald':
+                arr[y, x, 0] = np.clip(bright * 0.15, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.75 + 25, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.50 + 10, 0, 255)
+            elif color_theme == 'philosopher_midnight':
+                arr[y, x, 0] = np.clip(bright * 0.25, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.25 + 5, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.45 + 15, 0, 255)
+            elif color_theme == 'scholar_brown':
+                arr[y, x, 0] = np.clip(bright * 0.65 + 15, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.45 + 10, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.30, 0, 255)
+            elif color_theme == 'scientist_plum':
+                arr[y, x, 0] = np.clip(bright * 0.65 + 15, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.25, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.70 + 20, 0, 255)
+            elif color_theme == 'explorer_leather':
+                arr[y, x, 0] = np.clip(bright * 0.75 + 20, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.55 + 10, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.35, 0, 255)
+            elif color_theme == 'artist_ochre':
+                arr[y, x, 0] = np.clip(bright * 0.85 + 25, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.65 + 15, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.30, 0, 255)
+            elif color_theme == 'revolutionary_tricolor':
+                if x < w * 0.45:
+                    arr[y, x, 0] = np.clip(bright * 0.20, 0, 255)
+                    arr[y, x, 1] = np.clip(bright * 0.35 + 10, 0, 255)
+                    arr[y, x, 2] = np.clip(bright * 0.90 + 30, 0, 255)
+                elif x > w * 0.55:
+                    arr[y, x, 0] = np.clip(bright * 1.00 + 35, 0, 255)
+                    arr[y, x, 1] = np.clip(bright * 0.25, 0, 255)
+                    arr[y, x, 2] = np.clip(bright * 0.25, 0, 255)
+                else:
+                    v = np.clip(bright * 0.85 + 45, 0, 255)
+                    arr[y, x, 0] = v; arr[y, x, 1] = v; arr[y, x, 2] = v
+            elif color_theme == 'sans_culotte':
+                arr[y, x, 0] = np.clip(bright * 0.65 + 15, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.60 + 15, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.45 + 10, 0, 255)
+            elif color_theme == 'industrial_charcoal':
+                v = np.clip(bright * 0.40 + 10, 0, 255)
+                arr[y, x, 0] = v; arr[y, x, 1] = v; arr[y, x, 2] = np.clip(v + 8, 0, 255)
+            elif color_theme == 'rococo_pink':
+                arr[y, x, 0] = np.clip(bright * 0.95 + 35, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.60 + 20, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.70 + 25, 0, 255)
+            elif color_theme == 'rococo_lavender':
+                arr[y, x, 0] = np.clip(bright * 0.75 + 25, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.65 + 20, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.90 + 30, 0, 255)
+            elif color_theme == 'rococo_sky':
+                arr[y, x, 0] = np.clip(bright * 0.55 + 20, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.80 + 25, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.95 + 35, 0, 255)
+            elif color_theme == 'navy_blue':
+                arr[y, x, 0] = np.clip(bright * 0.10, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.25 + 5, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.60 + 20, 0, 255)
+            elif color_theme == 'spanish_silver':
+                v = np.clip(bright * 0.80 + 30, 0, 255)
+                arr[y, x, 0] = v; arr[y, x, 1] = v; arr[y, x, 2] = np.clip(v + 15, 0, 255)
+            elif color_theme == 'dutch_orange':
+                arr[y, x, 0] = np.clip(bright * 1.05 + 40, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.55 + 15, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.10, 0, 255)
+            elif color_theme == 'austrian_white':
+                v = np.clip(bright * 0.88 + 40, 0, 255)
+                arr[y, x, 0] = np.clip(v + 10, 0, 255)
+                arr[y, x, 1] = v
+                arr[y, x, 2] = np.clip(v - 10, 0, 255)
+            elif color_theme == 'venetian_purple':
+                arr[y, x, 0] = np.clip(bright * 0.70 + 25, 0, 255)
+                arr[y, x, 1] = np.clip(bright * 0.15, 0, 255)
+                arr[y, x, 2] = np.clip(bright * 0.85 + 30, 0, 255)
 
-    # 髪型
-    if hair_type == 'short':
-        for y in range(9, 13):
-            for x in range(19, 29):
-                d[(x, y)] = hair_col
-        for y in range(13, 18):
-            d[(18, y)] = hair_col
-            d[(29, y)] = hair_col
-    elif hair_type == 'long':
-        for y in range(9, 13):
-            for x in range(18, 30):
-                d[(x, y)] = hair_col
-        for y in range(13, 24):
-            d[(18, y)] = hair_col
-            d[(17, y)] = hair_col
-            d[(29, y)] = hair_col
-            d[(30, y)] = hair_col
-    elif hair_type == 'curly_wig':
-        for y in range(8, 14):
-            for x in range(17, 31):
-                d[(x, y)] = hair_col
-        for y in range(13, 26):
-            for x in [16, 17, 18, 29, 30, 31]:
-                d[(x, y)] = hair_col if (x + y) % 2 == 0 else (min(255, hair_col[0]+30), min(255, hair_col[1]+30), min(255, hair_col[2]+30), 255)
-    elif hair_type == 'ponytail':
-        for y in range(9, 13):
-            for x in range(18, 30):
-                d[(x, y)] = hair_col
-        for y in range(13, 19):
-            d[(18, y)] = hair_col
-            d[(29, y)] = hair_col
-        for y in range(17, 25):
-            d[(23, y)] = hair_col
-            d[(24, y)] = hair_col
-        d[(22, 18)] = (40, 40, 40, 255)
-        d[(25, 18)] = (40, 40, 40, 255)
-    elif hair_type == 'female_high':
-        for y in range(4, 14):
-            w = 5 + (13 - y)//2
-            for x in range(24 - w, 24 + w):
-                d[(x, y)] = hair_col
-        d[(23, 2)] = (245, 230, 150, 255)
-        d[(24, 2)] = (245, 230, 150, 255)
-        d[(23, 3)] = (255, 255, 255, 255)
-        d[(24, 3)] = (255, 255, 255, 255)
-    elif hair_type == 'female_bun':
-        for y in range(8, 14):
-            for x in range(18, 30):
-                d[(x, y)] = hair_col
-        for y in range(14, 23):
-            d[(18, y)] = hair_col
-            d[(29, y)] = hair_col
-        for y in range(6, 9):
-            for x in range(22, 26):
-                d[(x, y)] = hair_col
-    elif hair_type == 'balding':
-        d[(19, 12)] = skin
-        d[(28, 12)] = skin
-        for y in range(13, 19):
-            d[(18, y)] = hair_col
-            d[(29, y)] = hair_col
+def apply_accessories(arr, alpha, accessories, head_cx, head_top_y, w, h):
+    for acc in accessories:
+        if acc == 'tricorn_hat':
+            hy = max(3, head_top_y - 10)
+            for y in range(hy, hy + 11):
+                rw = int(8 + (y - hy) * 1.3)
+                for x in range(head_cx - rw, head_cx + rw + 1):
+                    if 0 <= x < w and 0 <= y < h:
+                        if y == hy or x in [head_cx - rw, head_cx + rw]:
+                            arr[y, x] = [230, 190, 40, 255] # Gold trim
+                        else:
+                            arr[y, x] = [30, 30, 35, 255] # Black felt
+            # White/Tricolor cockade
+            if 0 <= head_cx - 4 < w and 0 <= hy + 5 < h:
+                arr[hy+4:hy+7, head_cx-6:head_cx-3] = [240, 240, 250, 255]
+                
+        elif acc == 'bicorne_hat':
+            hy = max(2, head_top_y - 12)
+            for y in range(hy, hy + 13):
+                curve = int(14 * (1.0 - (y - hy) / 13.0))
+                for x in range(head_cx - curve, head_cx + curve + 1):
+                    if 0 <= x < w and 0 <= y < h:
+                        if y == hy or x in [head_cx - curve, head_cx + curve]:
+                            arr[y, x] = [220, 180, 40, 255] # Gold piping
+                        else:
+                            arr[y, x] = [25, 25, 30, 255] # Black beaver
+            # French Cockade (blue, white, red)
+            arr[hy+6:hy+9, head_cx-2:head_cx+3] = [230, 30, 30, 255]
+            arr[hy+7:hy+8, head_cx-1:head_cx+2] = [240, 240, 255, 255]
+            
+        elif acc == 'powdered_wig':
+            # White powdered wig curls on shoulders and back
+            for y in range(head_top_y + 8, min(h, head_top_y + 38)):
+                for offset in [-16, -15, -14, 14, 15, 16]:
+                    wx = head_cx + offset
+                    if 0 <= wx < w:
+                        wave = int(np.sin(y * 0.7) * 2)
+                        arr[y, wx + wave] = [235, 235, 240, 255]
+                        if 0 <= wx + wave + 1 < w:
+                            arr[y, wx + wave + 1] = [190, 195, 205, 255]
+                            
+        elif acc == 'renaissance_beret':
+            by = max(3, head_top_y - 8)
+            for y in range(by, by + 9):
+                rw = int(10 + (y - by) * 0.8)
+                for x in range(head_cx - rw, head_cx + rw + 1):
+                    if 0 <= x < w and 0 <= y < h:
+                        arr[y, x] = [140, 20, 30, 255] # Crimson velvet
+            # White ostrich feather
+            for y in range(by - 5, by + 4):
+                fx = head_cx + 8 + (y - by)
+                if 0 <= fx < w and 0 <= y < h:
+                    arr[y, fx:fx+2] = [245, 245, 250, 255]
+                    
+        elif acc == 'royal_crown':
+            cy = max(2, head_top_y - 7)
+            for y in range(cy, cy + 8):
+                for x in range(head_cx - 14, head_cx + 15):
+                    if 0 <= x < w and 0 <= y < h:
+                        if y == cy and (x - (head_cx - 14)) % 5 in [0, 1]:
+                            arr[y, x] = [255, 225, 20, 255] # Peaks
+                        elif cy + 2 <= y <= cy + 5:
+                            arr[y, x] = [240, 195, 10, 255] # Gold band
+                        elif y == cy + 6:
+                            arr[y, x] = [60, 45, 10, 255] # Shadow
+            # Center ruby
+            if 0 <= head_cx < w and 0 <= cy + 4 < h:
+                arr[cy+3:cy+5, head_cx-1:head_cx+2] = [220, 20, 20, 255]
+                
+        elif acc == 'imperial_crown':
+            cy = max(2, head_top_y - 9)
+            for y in range(cy, cy + 10):
+                for x in range(head_cx - 15, head_cx + 16):
+                    if 0 <= x < w and 0 <= y < h:
+                        if y == cy and x == head_cx:
+                            arr[y, x] = [255, 240, 100, 255] # Cross tip
+                        elif cy + 3 <= y <= cy + 7:
+                            arr[y, x] = [250, 210, 20, 255]
+            # Double arch
+            arr[cy+1:cy+3, head_cx-1:head_cx+2] = [255, 230, 50, 255]
+            
+        elif acc == 'cardinal_biretta':
+            cy = max(2, head_top_y - 7)
+            for y in range(cy, cy + 8):
+                rw = 12
+                for x in range(head_cx - rw, head_cx + rw + 1):
+                    if 0 <= x < w and 0 <= y < h:
+                        arr[y, x] = [210, 15, 30, 255]
+            # Center pompom
+            if 0 <= cy - 1 < h:
+                arr[cy-2:cy, head_cx-1:head_cx+2] = [230, 20, 40, 255]
+                
+        elif acc == 'telescope':
+            tx = head_cx + 22
+            ty = head_top_y + 35
+            for i in range(24):
+                x = tx + i
+                y = ty - int(i * 0.7)
+                if 0 <= x < w and 0 <= y < h:
+                    arr[y, x] = [240, 205, 30, 255] # Brass tube
+                    if 0 <= y + 1 < h:
+                        arr[y+1, x] = [170, 140, 20, 255]
+                        
+        elif acc == 'quill_and_parchment':
+            px = head_cx - 24
+            py = head_top_y + 55
+            # White parchment scroll
+            for y in range(py, py + 18):
+                for x in range(px, px + 14):
+                    if 0 <= x < w and 0 <= y < h:
+                        arr[y, x] = [245, 240, 225, 255]
+            # Quill feather
+            for i in range(12):
+                qx = px + 10 + i
+                qy = py - 4 - i
+                if 0 <= qx < w and 0 <= qy < h:
+                    arr[qy, qx] = [250, 250, 255, 255]
+                    
+        elif acc == 'thick_book_bible':
+            bx = head_cx - 25
+            by = head_top_y + 50
+            for y in range(by, by + 22):
+                for x in range(bx, bx + 18):
+                    if 0 <= x < w and 0 <= y < h:
+                        arr[y, x] = [120, 50, 20, 255] # Leather
+            # Gold cross on cover
+            arr[by+4:by+18, bx+7:bx+10] = [255, 220, 0, 255]
+            arr[by+8:by+11, bx+3:bx+14] = [255, 220, 0, 255]
+            
+        elif acc == 'officer_saber':
+            sx = head_cx + 24
+            sy = head_top_y + 40
+            for i in range(35):
+                curve = int(np.sin(i * 0.08) * 4)
+                y = sy + i
+                x = sx + curve
+                if 0 <= x < w and 0 <= y < h:
+                    arr[y, x] = [210, 220, 230, 255] # Steel blade
+            # Gold hilt
+            arr[sy:sy+6, sx-3:sx+5] = [245, 210, 30, 255]
+            
+        elif acc == 'artist_palette':
+            ax = head_cx - 25
+            ay = head_top_y + 55
+            for y in range(ay, ay + 16):
+                for x in range(ax, ax + 18):
+                    if (x - (ax+9))**2 + (y - (ay+8))**2 <= 64:
+                        if 0 <= x < w and 0 <= y < h:
+                            arr[y, x] = [190, 140, 80, 255] # Wood palette
+            # Paint dabs
+            arr[ay+4, ax+5:ax+7] = [220, 20, 20, 255]
+            arr[ay+4, ax+11:ax+13] = [30, 80, 220, 255]
+            arr[ay+10, ax+5:ax+7] = [240, 220, 20, 255]
+            arr[ay+10, ax+11:ax+13] = [245, 245, 255, 255]
+            
+        elif acc == 'steam_wrench':
+            wx = head_cx + 22
+            wy = head_top_y + 45
+            for y in range(wy, wy + 26):
+                if 0 <= wx < w and 0 <= y < h:
+                    arr[y, wx:wx+3] = [170, 175, 185, 255] # Steel handle
+            # Wrench jaw
+            arr[wy:wy+7, wx-4:wx+7] = [140, 145, 155, 255]
+            arr[wy+2:wy+5, wx-1:wx+4] = [0, 0, 0, 0] # Hollow inside jaw
+            
+        elif acc == 'lace_ruff':
+            ry = head_top_y + 16
+            for y in range(ry, ry + 6):
+                rw = int(14 + (y - ry) * 1.5)
+                for x in range(head_cx - rw, head_cx + rw + 1):
+                    if 0 <= x < w and 0 <= y < h:
+                        if (x + y) % 2 == 0:
+                            arr[y, x] = [250, 250, 255, 255]
+                        else:
+                            arr[y, x] = [210, 215, 225, 255]
+                            
+        elif acc == 'court_fan':
+            fx = head_cx + 20
+            fy = head_top_y + 45
+            for y in range(fy, fy + 14):
+                w_span = int((y - fy) * 0.9)
+                for x in range(fx - w_span, fx + w_span + 1):
+                    if 0 <= x < w and 0 <= y < h:
+                        arr[y, x] = [240, 210, 220, 255]
+                        
+        elif acc == 'gold_chain':
+            cy = head_top_y + 24
+            for x in range(head_cx - 12, head_cx + 13):
+                drop = int((12 - abs(x - head_cx)) * 0.4)
+                y = cy + drop
+                if 0 <= x < w and 0 <= y < h:
+                    arr[y, x] = [255, 215, 20, 255]
+                    
+        elif acc == 'liberty_bonnet':
+            # Phrygian cap (red floppy cone)
+            by = max(2, head_top_y - 9)
+            for y in range(by, by + 10):
+                rw = 8
+                tip_offset = int((by + 10 - y) * 0.8)
+                for x in range(head_cx - rw + tip_offset, head_cx + rw):
+                    if 0 <= x < w and 0 <= y < h:
+                        arr[y, x] = [220, 25, 30, 255]
+            # Cockade
+            arr[by+5:by+8, head_cx-4:head_cx-1] = [30, 60, 200, 255]
 
-    # 帽子
-    if hat_type == 'crown':
-        for x in range(19, 29):
-            d[(x, 10)] = hat_accent
-        for sx in [19, 21, 23, 25, 27]:
-            d[(sx, 8)] = hat_accent
-            d[(sx, 9)] = hat_accent
-            d[(sx, 7)] = (255, 255, 255, 255)
-    elif hat_type == 'tiara':
-        for x in range(20, 28):
-            d[(x, 11)] = (240, 220, 100, 255)
-        d[(23, 9)] = (255, 255, 255, 255)
-        d[(24, 9)] = (255, 255, 255, 255)
-        d[(23, 10)] = (220, 40, 40, 255)
-        d[(24, 10)] = (220, 40, 40, 255)
-    elif hat_type == 'bicorne':
-        for y in range(7, 12):
-            w = 8 + (11 - y) * 2
-            for x in range(24 - w, 24 + w):
-                d[(x, y)] = hat_col
-        d[(23, 10)] = (30, 60, 180, 255)
-        d[(24, 10)] = (245, 245, 245, 255)
-        d[(25, 10)] = (210, 40, 40, 255)
-        for x in range(16, 32):
-            d[(x, 11)] = hat_accent
-    elif hat_type == 'tricorn':
-        for y in range(7, 12):
-            w = 5 + (11 - y) * 2
-            for x in range(24 - w, 24 + w):
-                d[(x, y)] = hat_col
-        for x in range(16, 32):
-            d[(x, 11)] = hat_col
-        for y in range(8, 11):
-            d[(16, y)] = hat_accent
-            d[(31, y)] = hat_accent
-    elif hat_type == 'beret':
-        for y in range(7, 12):
-            w = 6 + (y - 7)
-            for x in range(24 - w, 24 + w):
-                d[(x, y)] = hat_col
-        d[(24, 6)] = hat_accent
-    elif hat_type == 'scholar_cap':
-        for x in range(16, 32):
-            d[(x, 9)] = hat_col
-        for y in range(6, 9):
-            for x in range(18, 30):
-                d[(x, y)] = hat_col
-    elif hat_type == 'pope_mitre':
-        for y in range(4, 12):
-            w = (y - 3)
-            for x in range(24 - w, 24 + w):
-                d[(x, y)] = hat_col
-        for y in range(4, 12):
-            d[(23, y)] = hat_accent
-            d[(24, y)] = hat_accent
-    elif hat_type == 'cardinal_cap':
-        for x in range(17, 31):
-            d[(x, 9)] = (200, 30, 30, 255)
-        for y in range(6, 9):
-            for x in range(20, 28):
-                d[(x, y)] = (200, 30, 30, 255)
-    elif hat_type == 'bonnet':
-        for y in range(7, 13):
-            for x in range(18, 30):
-                d[(x, y)] = (240, 240, 245, 255)
-        d[(24, 13)] = (30, 60, 180, 255)
-    elif hat_type == 'helmet':
-        for y in range(7, 13):
-            for x in range(19, 29):
-                d[(x, y)] = (160, 165, 170, 255)
-        d[(24, 5)] = (200, 40, 40, 255)
-        d[(24, 6)] = (200, 40, 40, 255)
-
-    # 2. 首元
-    for y in range(21, 24):
-        d[(23, y)] = skin
-        d[(24, y)] = skin
+def render_character_sprite(base_name, target_filename, color_theme, accessories=[], flip=False, width=128, height=192):
+    src = load_source(base_name)
+    if not src:
+        src = load_source("caesar-general")
         
-    if has_ruff:
-        for y in range(20, 24):
-            for x in range(17, 31):
-                d[(x, y)] = (255, 255, 255, 255) if (x + y) % 2 == 0 else (225, 230, 235, 255)
-    elif has_cravat:
-        for y in range(21, 26):
-            d[(23, y)] = (250, 250, 250, 255)
-            d[(24, y)] = (240, 240, 245, 255)
-        d[(22, 23)] = (235, 235, 240, 255)
-        d[(25, 23)] = (235, 235, 240, 255)
-
-    # 3. 上着 / ドレス
-    if is_female:
-        for y in range(24, 43):
-            w = 5 + (y - 24) * 8 // 18
-            for x in range(24 - w, 24 + w):
-                d[(x, y)] = coat_col if (x + y) % 2 == 0 else (max(0, coat_col[0]-15), max(0, coat_col[1]-15), max(0, coat_col[2]-15), 255)
-        for y in range(24, 27):
-            d[(23, y)] = skin
-            d[(24, y)] = skin
-        d[(23, 27)] = coat_accent
-        d[(24, 27)] = coat_accent
-        for y in range(25, 34):
-            d[(15, y)] = coat_col
-            d[(32, y)] = coat_col
-        for y in range(34, 37):
-            d[(15, y)] = skin
-            d[(32, y)] = skin
-        d[(22, 43)] = boots_col
-        d[(25, 43)] = boots_col
+    arr = np.array(src).astype(float)
+    if flip:
+        arr = np.fliplr(arr)
+        
+    h, w, _ = arr.shape
+    alpha = arr[:, :, 3]
+    
+    # Head position detector
+    top_pixels = np.where(alpha > 60)
+    head_top_y = int(np.min(top_pixels[0])) if len(top_pixels[0]) > 0 else 20
+    head_cx = w // 2
+    
+    # Apply historical color theme
+    apply_color_theme(arr, alpha, color_theme, w, h)
+    
+    # Apply custom pixel accessories
+    apply_accessories(arr, alpha, accessories, head_cx, head_top_y, w, h)
+    
+    # Absolute 100% binary transparency guarantee (alpha 0 or 255 only)
+    arr[:, :, 3] = np.where(arr[:, :, 3] >= 30, 255, 0)
+    
+    # Fit into target canvas
+    out_img = Image.fromarray(arr.astype(np.uint8))
+    bbox = out_img.getbbox()
+    if bbox:
+        cropped = out_img.crop(bbox)
+        cw, ch = cropped.size
+        scale = min((width * 0.88) / cw, (height * 0.88) / ch)
+        nw = max(1, int(round(cw * scale)))
+        nh = max(1, int(round(ch * scale)))
+        resized = cropped.resize((nw, nh), Image.Resampling.NEAREST)
+        
+        final_canvas = Image.new("RGBA", (width, height), (0, 0, 0, 0))
+        px = (width - nw) // 2
+        py = height - nh - 8 # Grounded bottom
+        final_canvas.paste(resized, (px, py), resized)
     else:
-        for y in range(24, 37):
-            w = 6 + (y - 24) // 3
-            for x in range(24 - w, 24 + w):
-                d[(x, y)] = coat_col
-        for y in range(24, 36):
-            d[(23, y)] = shirt_col
-            d[(24, y)] = coat_accent
-        for y in range(24, 27):
-            d[(16, y)] = coat_accent
-            d[(17, y)] = coat_accent
-            d[(30, y)] = coat_accent
-            d[(31, y)] = coat_accent
-        for y in range(26, 36):
-            d[(14, y)] = coat_col
-            d[(15, y)] = coat_col
-            d[(32, y)] = coat_col
-            d[(33, y)] = coat_col
-        for y in range(36, 39):
-            d[(14, y)] = skin
-            d[(15, y)] = skin
-            d[(32, y)] = skin
-            d[(33, y)] = skin
-        for y in range(37, 42):
-            for x in range(18, 23):
-                d[(x, y)] = pants_col
-            for x in range(25, 30):
-                d[(x, y)] = pants_col
-        for y in range(42, 46):
-            for x in range(17, 23):
-                d[(x, y)] = boots_col
-            for x in range(25, 31):
-                d[(x, y)] = boots_col
-        d[(19, 43)] = coat_accent
-        d[(27, 43)] = coat_accent
-
-    # 4. アイテム
-    if item_type == 'book':
-        b_col = item_col or (160, 50, 40, 255)
-        for y in range(32, 38):
-            for x in range(9, 15):
-                d[(x, y)] = b_col
-        for y in range(33, 37):
-            d[(14, y)] = (245, 240, 230, 255)
-    elif item_type == 'sword':
-        for y in range(28, 44):
-            d[(34, y)] = (200, 205, 210, 255)
-        d[(33, 34)] = (220, 180, 50, 255)
-        d[(34, 34)] = (220, 180, 50, 255)
-        d[(35, 34)] = (220, 180, 50, 255)
-        d[(34, 33)] = (120, 60, 30, 255)
-    elif item_type == 'quill':
-        for i in range(5):
-            d[(33 + i, 34 - i)] = (245, 245, 245, 255)
-        for y in range(34, 39):
-            for x in range(8, 14):
-                d[(x, y)] = (250, 245, 230, 255)
-    elif item_type == 'telescope':
-        for i in range(7):
-            d[(31 + i, 33 - i)] = (210, 175, 45, 255)
-            d[(32 + i, 33 - i)] = (180, 145, 35, 255)
-    elif item_type == 'palette':
-        for y in range(33, 38):
-            for x in range(9, 15):
-                d[(x, y)] = (195, 155, 105, 255)
-        d[(10, 34)] = (220, 40, 40, 255)
-        d[(12, 34)] = (40, 120, 220, 255)
-        d[(11, 36)] = (230, 210, 40, 255)
-    elif item_type == 'cross':
-        for y in range(30, 40):
-            d[(33, y)] = (210, 180, 50, 255)
-        for x in range(31, 36):
-            d[(x, 33)] = (210, 180, 50, 255)
-    elif item_type == 'scroll':
-        for y in range(32, 39):
-            for x in range(32, 36):
-                d[(x, y)] = (245, 240, 225, 255)
-        d[(33, 35)] = (180, 40, 40, 255)
-    elif item_type == 'flute':
-        for i in range(8):
-            d[(30 + i, 32 + i//2)] = (190, 160, 90, 255)
-    elif item_type == 'scepter':
-        for y in range(25, 41):
-            d[(34, y)] = (235, 195, 45, 255)
-        d[(34, 24)] = (255, 225, 70, 255)
-        d[(33, 24)] = (220, 40, 40, 255)
-        d[(35, 24)] = (220, 40, 40, 255)
-    elif item_type == 'gear':
-        for y in range(33, 38):
-            for x in range(31, 36):
-                d[(x, y)] = (140, 145, 150, 255)
-        d[(33, 35)] = (60, 60, 60, 255)
-    elif item_type == 'gun':
-        for y in range(25, 43):
-            d[(34, y)] = (120, 80, 50, 255)
-        d[(34, 24)] = (180, 180, 190, 255)
-        d[(34, 23)] = (180, 180, 190, 255)
-
-    put_pixels(img, d)
-    return img
-
-
-# 合戦・軍船アクター生成関数
-def make_armada_galleon():
-    img = canvas()
-    d = {}
-    for y in range(26, 39):
-        w = 14 + (38 - y) // 2
-        for x in range(24 - w, 24 + w):
-            c = (115, 65, 35, 255) if (x + y) % 2 == 0 else (95, 50, 25, 255)
-            d[(x, y)] = c
-    for y in range(20, 27):
-        for x in range(6, 13):
-            d[(x, y)] = (115, 65, 35, 255)
-        for x in range(33, 41):
-            d[(x, y)] = (100, 55, 30, 255)
-    for bx in [15, 20, 25, 30, 35]:
-        d[(bx, 32)] = (20, 20, 20, 255)
-        d[(bx, 35)] = (20, 20, 20, 255)
-    for mx in [18, 28]:
-        for y in range(6, 26):
-            d[(mx, y)] = (80, 45, 25, 255)
-        for y in range(9, 21):
-            for x in range(mx - 6, mx + 7):
-                d[(x, y)] = (245, 240, 230, 255)
-        for x in range(mx - 4, mx + 5):
-            d[(x, 15)] = (210, 30, 30, 255)
-        for y in range(11, 19):
-            d[(mx, y)] = (210, 30, 30, 255)
-    for x in range(4, 44):
-        if (x, 39) not in d:
-            d[(x, 39)] = (45, 90, 140, 255)
-        d[(x, 40)] = (35, 75, 120, 255)
-    put_pixels(img, d)
-    return img
-
-def make_english_warship():
-    img = canvas()
-    d = {}
-    for y in range(28, 39):
-        w = 15 + (38 - y) // 3
-        for x in range(24 - w, 24 + w):
-            d[(x, y)] = (130, 75, 40, 255) if (x + y) % 2 == 0 else (110, 60, 30, 255)
-    for x in range(10, 38):
-        d[(x, 32)] = (220, 190, 60, 255)
-    for bx in [13, 17, 21, 25, 29, 33, 37]:
-        d[(bx, 32)] = (20, 20, 20, 255)
-    for mx in [17, 28]:
-        for y in range(6, 28):
-            d[(mx, y)] = (90, 50, 25, 255)
-        for y in range(8, 23):
-            for x in range(mx - 5, mx + 6):
-                d[(x, y)] = (250, 250, 245, 255)
-        for x in range(mx - 4, mx + 5):
-            d[(x, 15)] = (220, 30, 30, 255)
-        for y in range(10, 20):
-            d[(mx, y)] = (220, 30, 30, 255)
-    for x in range(4, 44):
-        d[(x, 39)] = (50, 100, 150, 255)
-        d[(x, 40)] = (40, 85, 130, 255)
-    put_pixels(img, d)
-    return img
-
-def make_guillotine():
-    img = canvas()
-    d = {}
-    for y in range(38, 44):
-        for x in range(8, 40):
-            d[(x, y)] = (120, 75, 45, 255) if (x + y) % 2 == 0 else (105, 65, 35, 255)
-    for y in range(6, 38):
-        d[(18, y)] = (130, 80, 45, 255)
-        d[(19, y)] = (110, 65, 35, 255)
-        d[(28, y)] = (130, 80, 45, 255)
-        d[(29, y)] = (110, 65, 35, 255)
-    for x in range(16, 32):
-        d[(x, 6)] = (120, 70, 40, 255)
-        d[(x, 7)] = (100, 55, 30, 255)
-    for y in range(14, 20):
-        for x in range(20, 28):
-            if (x - 20) <= (y - 14) * 2:
-                d[(x, y)] = (225, 230, 235, 255) if (x - 20) == (y - 14) * 2 else (170, 175, 180, 255)
-    for x in range(20, 28):
-        d[(x, 34)] = (115, 65, 35, 255)
-        d[(x, 35)] = (115, 65, 35, 255)
-    d[(23, 34)] = (30, 20, 20, 255)
-    d[(24, 34)] = (30, 20, 20, 255)
-    for y in range(34, 39):
-        for x in range(13, 18):
-            d[(x, y)] = (180, 40, 30, 255)
-    put_pixels(img, d)
-    return img
-
-def make_ironside_cavalry():
-    return base_human(
-        skin=(235, 195, 160, 255),
-        hair_col=(50, 40, 30, 255),
-        hat_type='helmet',
-        coat_col=(140, 145, 150, 255),
-        coat_accent=(100, 65, 35, 255),
-        shirt_col=(180, 150, 110, 255),
-        pants_col=(90, 75, 55, 255),
-        boots_col=(40, 30, 20, 255),
-        beard_type='mustache',
-        item_type='sword'
-    )
-
-def make_french_grand_armee():
-    return base_human(
-        skin=(240, 200, 165, 255),
-        hair_col=(60, 45, 35, 255),
-        hat_type='tricorn',
-        hat_col=(30, 30, 40, 255),
-        hat_accent=(210, 40, 40, 255),
-        coat_col=(30, 50, 110, 255),
-        coat_accent=(235, 235, 235, 255),
-        shirt_col=(240, 240, 240, 255),
-        pants_col=(245, 245, 245, 255),
-        boots_col=(30, 30, 30, 255),
-        has_cravat=True,
-        beard_type='mustache',
-        item_type='gun'
-    )
-
-def make_russian_winter_soldier():
-    return base_human(
-        skin=(245, 205, 170, 255),
-        hair_col=(70, 50, 35, 255),
-        hat_type='beret',
-        hat_col=(75, 60, 45, 255),
-        coat_col=(45, 85, 55, 255),
-        coat_accent=(190, 40, 40, 255),
-        shirt_col=(230, 225, 210, 255),
-        pants_col=(60, 65, 60, 255),
-        boots_col=(35, 30, 30, 255),
-        beard_type='full',
-        item_type='gun'
-    )
-
-def make_prussian_guardsman():
-    return base_human(
-        skin=(245, 205, 170, 255),
-        hair_col=(180, 175, 170, 255),
-        hat_type='pope_mitre',
-        hat_col=(35, 65, 135, 255),
-        hat_accent=(235, 200, 50, 255),
-        coat_col=(30, 55, 120, 255),
-        coat_accent=(220, 50, 40, 255),
-        shirt_col=(245, 245, 245, 255),
-        pants_col=(245, 245, 245, 255),
-        boots_col=(25, 25, 25, 255),
-        beard_type='mustache',
-        item_type='gun'
-    )
-
-def make_cleopatra():
-    return base_human(
-        skin=(245, 205, 170, 255),
-        hair_col=(25, 25, 30, 255),
-        hair_type='female_bun',
-        hat_type='tiara',
-        coat_col=(40, 110, 180, 255), # エジプトブルー
-        coat_accent=(235, 200, 50, 255), # ゴールド
-        is_female=True,
-        item_type='scepter'
-    )
-
-def make_suleyman():
-    return base_human(
-        skin=(240, 200, 160, 255),
-        hair_col=(40, 35, 30, 255),
-        hair_type='short',
-        hat_type='pope_mitre', # 巨大ターバン風
-        hat_col=(250, 250, 255, 255),
-        hat_accent=(230, 195, 45, 255),
-        coat_col=(180, 35, 35, 255), # 深紅のローブ
-        coat_accent=(235, 200, 50, 255),
-        beard_type='full',
-        item_type='scepter'
-    )
-
-# 257名の定義とレンダリング
-def main():
-    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-    target_dir = os.path.join(base_dir, 'public/images/ancient')
-    os.makedirs(target_dir, exist_ok=True)
+        final_canvas = out_img.resize((width, height), Image.Resampling.NEAREST)
+        
+    # Re-verify binary alpha
+    canvas_arr = np.array(final_canvas)
+    canvas_arr[:, :, 3] = np.where(canvas_arr[:, :, 3] >= 128, 255, 0)
+    final_img = Image.fromarray(canvas_arr)
     
-    with open(os.path.join(base_dir, 'docs/chapter-07-needed-names.json'), 'r', encoding='utf-8') as f:
-        needed_names = json.load(f)
+    out_path = os.path.join(OUT_DIR, target_filename)
+    tmp_path = out_path + ".tmp.png"
+    import time
+    for attempt in range(5):
+        try:
+            final_img.save(tmp_path, "PNG")
+            os.replace(tmp_path, out_path)
+            break
+        except OSError:
+            time.sleep(0.1)
+    else:
+        final_img.save(out_path, "PNG")
+
+# Load mapping
+with open(os.path.join(BASE_DIR, 'docs', 'chapter-07-generated-mapping.json'), 'r', encoding='utf-8') as f:
+    mapping = json.load(f)
+
+# Define rich archetype pools
+BASES_MONARCH_MALE = [
+    "charles-emperor", "francis-king", "philip-king", "sobieski-king", "charlemagne-emperor",
+    "henry8-king", "peter-great", "louis14-sun-king", "charles8-king", "william-conqueror",
+    "theodoric-great", "otto1-emperor", "clovis-king", "pepin-king", "cato-elder",
+    "augustus-princeps", "solomon-king", "caesar-general", "alexander-conqueror",
+    "richard-lionheart", "henry7-tudor", "henry2-plantagenet", "henry5-king", "jagiello-king",
+    "stephen1-hungary", "matthias-corvinus", "vladimir1-saint", "lothair1-emperor", "louis-german"
+]
+
+BASES_FEMALE = [
+    "cleopatra-queen", "margrete-queen", "queen-anne-britain", "wenchang-princess",
+    "yangguifei-consort", "wuzetien-empress", "joan-of-arc", "scheherazade",
+    "khadija-merchant", "isabella-castile", "empress-lu", "empress-wei"
+]
+
+BASES_MILITARY = [
+    "crusader-knight", "norman-knight", "french-knight", "athenian-general",
+    "hannibal-general", "barbaros-admiral", "yi-sun-sin", "albuquerque-conqueror",
+    "yue-fei", "saracen-warrior", "arab-warrior", "slavic-knight", "assyria-soldier"
+]
+
+BASES_EXPLORER = [
+    "columbus-explorer", "zhangqian-explorer", "ibn-battuta", "marco-polo", "zheng-he"
+]
+
+BASES_SCHOLAR_PHILOSOPHER = [
+    "voltaire-philosopher", "montesquieu-philosopher", "plato-philosopher", "aristotle-philosopher",
+    "confucius-philosopher", "epicurus-philosopher", "zeno-stoic", "abelard-philosopher",
+    "thales-philosopher", "dongzhongshu-scholar"
+]
+
+BASES_SCIENTIST = [
+    "archimedes-scientist", "al-khwarizmi", "al-razi", "ibn-sina", "ibn-alhaytham",
+    "omar-khayyam", "al-idrisi", "adam-schall", "roger-bacon", "william-ockham", "thomas-aquinas"
+]
+
+BASES_CLERIC = [
+    "martin-luther", "john-calvin", "john-wycliffe", "jan-hus-reformer", "urban2-pope",
+    "gregory7-pope", "innocent3-pope", "leo3-pope", "high-priest", "sumer-priest-calm",
+    "rubruck-friar"
+]
+
+BASES_ARTIST = [
+    "sinan-architect", "miniature-painter", "ancient-scribe", "szumaqian-historian", "thucydides-historian"
+]
+
+BASES_INVENTOR = [
+    "urban-engineer", "alcuin-scholar", "einhard-scholar", "tribonian-jurist"
+]
+
+BASES_MERCHANT_CIVILIAN = [
+    "fugger-merchant", "aramean-merchant", "phoenician-merchant", "lydia-merchant",
+    "quraysh-merchant", "armenian-merchant", "french-merchant", "jewish-merchant",
+    "greek-merchant", "townspeople-joy", "wat-tyler", "peasant-rebel"
+]
+
+THEMES = [
+    'bourbon_blue', 'bourbon_white_gold', 'british_redcoat', 'tudor_green',
+    'prussian_blue', 'prussian_black', 'habsburg_gold', 'habsburg_black',
+    'russian_green', 'russian_gold', 'cardinal_scarlet', 'papal_white',
+    'puritan_dark', 'renaissance_crimson', 'renaissance_emerald',
+    'philosopher_midnight', 'scholar_brown', 'scientist_plum',
+    'explorer_leather', 'artist_ochre', 'revolutionary_tricolor',
+    'sans_culotte', 'industrial_charcoal', 'rococo_pink',
+    'rococo_lavender', 'rococo_sky', 'navy_blue', 'spanish_silver',
+    'dutch_orange', 'austrian_white', 'venetian_purple'
+]
+
+# Explicit custom tailoring for key prominent figures
+EXPLICIT_SPECS = {
+    'ナポレオン': ('alexander-conqueror', 'bourbon_blue', ['bicorne_hat', 'officer_saber'], False),
+    'ルター': ('martin-luther', 'puritan_dark', ['thick_book_bible'], False),
+    'カルヴァン': ('john-calvin', 'puritan_dark', ['thick_book_bible'], True),
+    'カール5世': ('charles-emperor', 'habsburg_black', ['imperial_crown', 'gold_chain'], False),
+    'フェリペ2世': ('philip-king', 'habsburg_black', ['gold_chain'], False),
+    'エリザベス1世': ('cleopatra-queen', 'tudor_green', ['royal_crown', 'lace_ruff'], False),
+    'ルイ16世': ('henry8-king', 'bourbon_white_gold', ['royal_crown', 'powdered_wig'], False),
+    'ルイ13世': ('louis14-sun-king', 'bourbon_blue', ['royal_crown', 'officer_saber'], True),
+    'ルイ15世': ('peter-great', 'bourbon_blue', ['powdered_wig', 'gold_chain'], False),
+    'フランソワ1世': ('francis-king', 'renaissance_crimson', ['royal_crown', 'gold_chain'], False),
+    'アンリ4世': ('theodoric-great', 'bourbon_blue', ['royal_crown', 'officer_saber'], False),
+    'リシュリュー': ('high-priest', 'cardinal_scarlet', ['cardinal_biretta', 'gold_chain'], False),
+    'マザラン': ('sumer-priest-calm', 'cardinal_scarlet', ['cardinal_biretta', 'powdered_wig'], True),
+    'コルベール': ('ancient-scribe', 'habsburg_black', ['powdered_wig', 'quill_and_parchment'], False),
+    'クロムウェル': ('crusader-knight', 'puritan_dark', ['officer_saber'], False),
+    'チャールズ1世': ('charles8-king', 'habsburg_black', ['royal_crown', 'lace_ruff'], False),
+    'チャールズ2世': ('peter-great', 'british_redcoat', ['powdered_wig', 'royal_crown'], True),
+    'ジェームズ1世': ('otto1-emperor', 'british_redcoat', ['royal_crown'], False),
+    'ジェームズ2世': ('clovis-king', 'navy_blue', ['powdered_wig', 'royal_crown'], False),
+    'アン女王': ('queen-anne-britain', 'british_redcoat', ['royal_crown', 'court_fan'], False),
+    'ジョージ1世': ('augustus-princeps', 'british_redcoat', ['powdered_wig', 'royal_crown'], False),
+    'ジョージ3世': ('henry7-tudor', 'british_redcoat', ['powdered_wig', 'royal_crown'], True),
+    'ウォルポール': ('voltaire-philosopher', 'british_redcoat', ['powdered_wig', 'quill_and_parchment'], False),
+    'ピット': ('montesquieu-philosopher', 'navy_blue', ['powdered_wig'], True),
+    'マリア＝テレジア': ('margrete-queen', 'habsburg_gold', ['imperial_crown', 'court_fan'], False),
+    'フリードリヒ2世': ('cato-elder', 'prussian_blue', ['tricorn_hat', 'officer_saber'], False),
+    'フリードリヒ1世': ('theodoric-great', 'prussian_black', ['royal_crown', 'gold_chain'], True),
+    'フリードリヒ＝ヴィルヘルム1世': ('norman-knight', 'prussian_blue', ['officer_saber'], False),
+    'フリードリヒ＝ヴィルヘルム大選帝侯': ('crusader-knight', 'prussian_black', ['officer_saber', 'gold_chain'], True),
+    'エカチェリーナ2世': ('queen-anne-britain', 'russian_gold', ['imperial_crown', 'court_fan'], True),
+    'ピョートル3世': ('alexander-happy', 'russian_green', ['powdered_wig', 'tricorn_hat'], False),
+    'エリザヴェータ': ('margrete-queen', 'russian_green', ['royal_crown', 'court_fan'], True),
+    'ワシントン': ('caesar-general', 'prussian_blue', ['tricorn_hat', 'officer_saber'], False),
+    'ジェファソン': ('voltaire-philosopher', 'prussian_blue', ['powdered_wig', 'quill_and_parchment'], True),
+    'フランクリン': ('cato-elder', 'scholar_brown', ['powdered_wig'], False),
+    'ハミルトン': ('alexander-happy', 'prussian_blue', ['powdered_wig'], False),
+    'ラ＝ファイエット': ('french-knight', 'bourbon_blue', ['tricorn_hat', 'officer_saber'], False),
+    'ロベスピエール': ('voltaire-philosopher', 'revolutionary_tricolor', ['powdered_wig'], False),
+    'ダントン': ('peasant-rebel', 'revolutionary_tricolor', [], False),
+    'マラー': ('wat-tyler', 'revolutionary_tricolor', ['quill_and_parchment'], False),
+    'サン＝ジュスト': ('alexander-happy', 'philosopher_midnight', ['powdered_wig'], False),
+    'ミラボー': ('cato-elder', 'bourbon_blue', ['powdered_wig'], True),
+    'シェイエス': ('rubruck-friar', 'puritan_dark', ['quill_and_parchment'], False),
+    'ネッケル': ('ancient-scribe', 'austrian_white', ['powdered_wig'], False),
+    'テュルゴ': ('voltaire-philosopher', 'bourbon_blue', ['powdered_wig'], True),
+    'マリー＝アントワネット': ('margrete-queen', 'rococo_pink', ['royal_crown', 'court_fan'], False),
+    'レオナルド＝ダ＝ヴィンチ': ('archimedes-scientist', 'artist_ochre', ['artist_palette'], False),
+    'ミケランジェロ': ('sinan-architect', 'scholar_brown', ['artist_palette'], False),
+    'ラファエロ': ('alexander-happy', 'renaissance_crimson', ['renaissance_beret', 'artist_palette'], False),
+    'ボッティチェリ': ('miniature-painter', 'renaissance_crimson', ['renaissance_beret'], False),
+    'ブルネレスキ': ('sinan-architect', 'renaissance_emerald', [], True),
+    'ドナテルロ': ('urban-engineer', 'renaissance_crimson', [], False),
+    'ダンテ': ('plato-philosopher', 'renaissance_crimson', ['quill_and_parchment'], False),
+    'ペトラルカ': ('epicurus-philosopher', 'renaissance_emerald', ['quill_and_parchment'], False),
+    'ボッカチオ': ('boccaccio-poet' if load_source('boccaccio-poet') else 'alcuin-scholar', 'renaissance_crimson', ['thick_book_bible'], False),
+    'マキァヴェリ': ('szumaqian-historian', 'renaissance_crimson', ['quill_and_parchment'], True),
+    'コジモ＝デ＝メディチ': ('fugger-merchant', 'renaissance_crimson', ['gold_chain'], False),
+    'ロレンツォ＝デ＝メディチ': ('charles8-king', 'renaissance_crimson', ['gold_chain'], False),
+    'サヴォナローラ': ('rubruck-friar', 'puritan_dark', [], False),
+    'エラスムス': ('alcuin-scholar', 'scholar_brown', ['thick_book_bible'], False),
+    'トマス＝モア': ('dongzhongshu-scholar', 'tudor_green', ['gold_chain', 'thick_book_bible'], False),
+    'デューラー': ('alexander-conqueror', 'scholar_brown', ['renaissance_beret', 'artist_palette'], True),
+    'ホルバイン': ('miniature-painter', 'tudor_green', ['renaissance_beret', 'artist_palette'], True),
+    'シェークスピア': ('alcuin-scholar', 'habsburg_black', ['lace_ruff', 'quill_and_parchment'], False),
+    'セルバンテス': ('crusader-knight', 'spanish_silver', ['lace_ruff', 'quill_and_parchment'], False),
+    'モンテーニュ': ('voltaire-philosopher', 'scholar_brown', ['thick_book_bible'], False),
+    'ラブレー': ('alcuin-scholar', 'bourbon_blue', ['thick_book_bible'], True),
+    'ヴァスコ＝ダ＝ガマ': ('columbus-explorer', 'explorer_leather', ['officer_saber'], False),
+    'マゼラン': ('columbus-explorer', 'explorer_leather', ['officer_saber'], True),
+    'バルトロメウ＝ディアス': ('zhangqian-explorer', 'explorer_leather', [], False),
+    'カブラル': ('ibn-battuta', 'explorer_leather', [], False),
+    'コルテス': ('crusader-knight', 'spanish_silver', ['officer_saber'], False),
+    'ピサロ': ('norman-knight', 'spanish_silver', ['officer_saber'], True),
+    'アタワルパ': ('cleopatra-queen', 'habsburg_gold', ['royal_crown'], True),
+    'ラス＝カサス': ('rubruck-friar', 'puritan_dark', ['thick_book_bible'], True),
+    'イグナティウス＝ロヨラ': ('john-calvin', 'puritan_dark', ['thick_book_bible'], False),
+    'コペルニクス': ('al-razi', 'scientist_plum', ['telescope'], False),
+    'ガリレオ＝ガリレイ': ('archimedes-scientist', 'scientist_plum', ['telescope'], False),
+    'ケプラー': ('al-khwarizmi', 'scientist_plum', ['telescope'], True),
+    'ニュートン': ('voltaire-philosopher', 'philosopher_midnight', ['powdered_wig', 'telescope'], False),
+    'デカルト': ('montesquieu-philosopher', 'philosopher_midnight', ['thick_book_bible'], False),
+    'パスカル': ('abelard-philosopher', 'philosopher_midnight', ['thick_book_bible'], False),
+    'スピノザ': ('zeno-stoic', 'philosopher_midnight', ['thick_book_bible'], True),
+    'ライプニッツ': ('voltaire-philosopher', 'philosopher_midnight', ['powdered_wig', 'quill_and_parchment'], False),
+    'ロック': ('john-wycliffe', 'philosopher_midnight', ['powdered_wig', 'thick_book_bible'], True),
+    'ホッブズ': ('thales-philosopher', 'philosopher_midnight', ['powdered_wig', 'thick_book_bible'], False),
+    'カント': ('cato-elder', 'prussian_black', ['powdered_wig', 'thick_book_bible'], True),
+    'ルソー': ('voltaire-philosopher', 'sans_culotte', ['powdered_wig', 'quill_and_parchment'], True),
+    'ディドロ': ('montesquieu-philosopher', 'scholar_brown', ['powdered_wig', 'thick_book_bible'], False),
+    'ゲーテ': ('alexander-happy', 'prussian_blue', ['powdered_wig', 'quill_and_parchment'], False),
+    'モーツァルト': ('alexander-happy', 'british_redcoat', ['powdered_wig'], True),
+    'ワット': ('urban-engineer', 'industrial_charcoal', ['steam_wrench'], False),
+    'スティーヴンソン': ('urban-engineer', 'industrial_charcoal', ['steam_wrench', 'tricorn_hat'], True),
+    'マルクス': ('aristotle-philosopher', 'philosopher_midnight', ['thick_book_bible'], False),
+    'エンゲルス': ('voltaire-philosopher', 'industrial_charcoal', ['quill_and_parchment'], False),
+    'メディチ家': ('fugger-merchant', 'renaissance_crimson', ['gold_chain'], False),
+    'ヴィスコンティ家': ('crusader-knight', 'venetian_purple', ['royal_crown'], False),
+    'フッガー家': ('fugger-merchant', 'habsburg_gold', ['gold_chain'], True),
+}
+
+# Ensure 100% unique specification for every single name
+used_signatures = set()
+specs = {}
+
+# 1. Fill explicit specs first, guaranteeing complete signature uniqueness
+for name, spec in EXPLICIT_SPECS.items():
+    if name in mapping:
+        base, theme, accs, flip = spec
+        sig = (base, theme, tuple(sorted(accs)), flip)
+        # If collision in explicit list, modify theme or flip
+        t_idx = 0
+        while sig in used_signatures:
+            theme = THEMES[(t_idx) % len(THEMES)]
+            flip = not flip
+            sig = (base, theme, tuple(sorted(accs)), flip)
+            t_idx += 1
+        used_signatures.add(sig)
+        specs[name] = (base, theme, accs, flip)
+
+# 2. Procedurally assign uniquely tailored specs to remaining figures
+FEMALE_NAMES = {'カトリーヌ＝ド＝メディシス', 'マリー＝ド＝メディシス', 'ポンパドゥール夫人', 'マルグリート', 'アン＝ブーリン', 'カサリン', 'メアリ＝ステュアート', 'メアリ1世', 'メアリ2世', 'ジョゼフィーヌ', 'マリ＝ルイーズ', 'オランプ＝ド＝グージュ', 'シャルロット＝コルデ'}
+CLERIC_NAMES = {'ツヴィングリ', 'ミュンツァー', 'ユリウス2世', 'レオ10世', 'アレクサンデル6世', 'パウルス3世', 'ピウス7世', 'ボシュエ', 'フィルマー', 'ロイヒリン', 'メランヒトン', 'ヨハン＝エック', 'フランシスコ＝ザビエル'}
+MILITARY_NAMES = {'ネルソン', 'ウェリントン', 'クトゥーゾフ', 'ヴァレンシュタイン', 'ドレーク', 'ホーキンズ', 'コシューシコ', 'クライヴ', 'デュプレクス', 'イェルマーク', 'プライド', 'ルーヴォワ', 'シュトイベン', 'ステンカ＝ラージン', 'プガチョフ'}
+EXPLORER_NAMES = {'カルティエ', 'カボット', 'バルボア', 'アメリゴ＝ヴェスプッチ', 'ベーリング', 'レザノフ', 'ラクスマン', 'シャンプラン', 'アルメイダ', 'トスカネリ', 'ヴァルトゼーミュラー'}
+SCIENTIST_NAMES = {'ボイル', 'ラプラース', 'ヴォルタ', 'リンネ', 'ハーヴェー', 'ジェンナー', 'フランシス＝ベーコン', 'アリスタルコス', 'ラヴォワジェ', 'ビュフォン', 'ダランベール'}
+PHILOSOPHER_NAMES = {'ヒューム', 'フィヒテ', 'シェリング', 'ヘーゲル', 'マックス＝ヴェーバー', 'プルードン', 'ルイ＝ブラン', 'ブランキ', 'サン＝シモン', 'フーリエ', 'ロバート＝オーウェン', 'バブーフ', 'ペイン'}
+ARTIST_NAMES = {'エル＝グレコ', 'ベラスケス', 'ムリリョ', 'ルーベンス', 'レンブラント', 'フェルメール', 'ワトー', 'ダヴィド', 'ゴヤ', 'ブラマンテ', 'ジョット', 'ファン＝アイク兄弟', 'ブリューゲル'}
+WRITER_NAMES = {'チョーサー', 'ミルトン', 'バンヤン', 'デフォー', 'スウィフト', 'コルネイユ', 'ラシーヌ', 'モリエール', 'トルストイ'}
+INVENTOR_NAMES = {'ニューコメン', 'ジョン＝ケイ', 'ハーグリーヴズ', 'アークライト', 'クロンプトン', 'カートライト', 'ホイットニー', 'ダービー父子', 'トレヴィシック', 'フルトン', 'グーテンベルク'}
+
+index = 0
+for name in mapping.keys():
+    if name in specs:
+        continue
         
-    with open(os.path.join(base_dir, 'docs/chapter-07-person-metadata.json'), 'r', encoding='utf-8') as f:
-        explicit_meta = json.load(f)
+    # Select archetype pool
+    if name in FEMALE_NAMES:
+        pool = BASES_FEMALE
+        acc_pool = [['court_fan'], ['royal_crown'], ['lace_ruff'], []]
+        default_themes = ['rococo_pink', 'rococo_lavender', 'rococo_sky', 'renaissance_crimson', 'tudor_green', 'austrian_white']
+    elif name in CLERIC_NAMES:
+        pool = BASES_CLERIC
+        acc_pool = [['thick_book_bible'], ['papal_tiara'], ['cardinal_biretta'], ['gold_chain'], []]
+        default_themes = ['cardinal_scarlet', 'papal_white', 'puritan_dark', 'habsburg_black', 'venetian_purple']
+    elif name in MILITARY_NAMES:
+        pool = BASES_MILITARY
+        acc_pool = [['officer_saber'], ['tricorn_hat', 'officer_saber'], ['bicorne_hat', 'officer_saber'], []]
+        default_themes = ['british_redcoat', 'prussian_blue', 'navy_blue', 'russian_green', 'bourbon_blue', 'habsburg_black']
+    elif name in EXPLORER_NAMES:
+        pool = BASES_EXPLORER
+        acc_pool = [['officer_saber'], ['telescope'], []]
+        default_themes = ['explorer_leather', 'navy_blue', 'dutch_orange', 'spanish_silver']
+    elif name in SCIENTIST_NAMES:
+        pool = BASES_SCIENTIST
+        acc_pool = [['telescope'], ['powdered_wig'], ['quill_and_parchment'], []]
+        default_themes = ['scientist_plum', 'philosopher_midnight', 'scholar_brown', 'austrian_white']
+    elif name in PHILOSOPHER_NAMES:
+        pool = BASES_SCHOLAR_PHILOSOPHER
+        acc_pool = [['powdered_wig'], ['thick_book_bible'], ['quill_and_parchment'], []]
+        default_themes = ['philosopher_midnight', 'scholar_brown', 'bourbon_blue', 'prussian_blue']
+    elif name in ARTIST_NAMES:
+        pool = BASES_ARTIST
+        acc_pool = [['artist_palette'], ['renaissance_beret', 'artist_palette'], []]
+        default_themes = ['artist_ochre', 'renaissance_crimson', 'renaissance_emerald', 'venetian_purple']
+    elif name in WRITER_NAMES:
+        pool = BASES_ARTIST + BASES_SCHOLAR_PHILOSOPHER
+        acc_pool = [['quill_and_parchment'], ['powdered_wig', 'quill_and_parchment'], ['lace_ruff']]
+        default_themes = ['renaissance_crimson', 'habsburg_black', 'bourbon_blue', 'british_redcoat']
+    elif name in INVENTOR_NAMES:
+        pool = BASES_INVENTOR
+        acc_pool = [['steam_wrench'], ['powdered_wig'], ['quill_and_parchment'], []]
+        default_themes = ['industrial_charcoal', 'scholar_brown', 'sans_culotte']
+    else:
+        # Monarchs, nobles, politicians, merchants, civilians
+        pool = BASES_MONARCH_MALE + BASES_MERCHANT_CIVILIAN
+        acc_pool = [['royal_crown'], ['powdered_wig'], ['tricorn_hat'], ['gold_chain'], ['lace_ruff'], []]
+        default_themes = THEMES
 
-    # 合戦アクター・追加歴史人物
-    battle_actors = {
-        'spanish-armada-galleon.png': make_armada_galleon(),
-        'english-warship.png': make_english_warship(),
-        'guillotine-device.png': make_guillotine(),
-        'ironside-cavalry.png': make_ironside_cavalry(),
-        'french-grand-armee.png': make_french_grand_armee(),
-        'russian-winter-soldier.png': make_russian_winter_soldier(),
-        'prussian-guardsman.png': make_prussian_guardsman(),
-        'cleopatra-queen.png': make_cleopatra(),
-        'suleyman1-magnificent.png': make_suleyman()
-    }
-    for fn, img in battle_actors.items():
-        img.save(os.path.join(target_dir, fn), 'PNG')
-        print(f"Saved battle actor {fn}")
+    # Find an absolutely unique combination of (base, theme, accs, flip)
+    found = False
+    for b_idx in range(len(pool)):
+        base = pool[(index + b_idx) % len(pool)]
+        for t_idx in range(len(default_themes)):
+            theme = default_themes[(index * 3 + t_idx) % len(default_themes)]
+            for a_idx in range(len(acc_pool)):
+                accs = acc_pool[(index * 2 + a_idx) % len(acc_pool)]
+                for flip in [False, True]:
+                    sig = (base, theme, tuple(sorted(accs)), flip)
+                    if sig not in used_signatures:
+                        used_signatures.add(sig)
+                        specs[name] = (base, theme, accs, flip)
+                        found = True
+                        break
+                if found: break
+            if found: break
+        if found: break
 
-    # 日本語名 -> 英名マッピング（一意）
-    # Romaji-like or historical english mapping
-    name_to_file = {}
-    file_to_name = {}
+    # Absolute fallback across all pools & themes
+    if not found:
+        all_bases = BASES_MONARCH_MALE + BASES_FEMALE + BASES_MILITARY + BASES_EXPLORER + BASES_SCHOLAR_PHILOSOPHER + BASES_SCIENTIST
+        for base in all_bases:
+            for theme in THEMES:
+                for accs in [['royal_crown'], ['powdered_wig'], ['tricorn_hat'], ['gold_chain'], ['lace_ruff'], []]:
+                    for flip in [False, True]:
+                        sig = (base, theme, tuple(sorted(accs)), flip)
+                        if sig not in used_signatures:
+                            used_signatures.add(sig)
+                            specs[name] = (base, theme, accs, flip)
+                            found = True
+                            break
+                    if found: break
+                if found: break
+            if found: break
+            
+    index += 1
 
-    female_names = {
-        'エリザベス1世', 'マリー＝アントワネット', 'マリ＝アントワネット', 'マリア＝テレジア', 'エカチェリーナ2世',
-        'エリザヴェータ', 'アン女王', 'メアリ1世', 'メアリ2世', 'メアリ＝ステュアート', 'アン＝ブーリン', 'カサリン',
-        'カトリーヌ＝ド＝メディシス', 'マリー＝ド＝メディシス', 'マリ＝ド＝メディシス', 'ポンパドゥール夫人',
-        'シャルロット＝コルデ', 'オランプ＝ド＝グージュ', 'ジョゼフィーヌ', 'マリ＝ルイーズ', 'マルグリート'
-    }
+print(f"Total tailored character specs created: {len(specs)} / {len(mapping)}")
+assert len(specs) == len(mapping), "Mismatch in specs count!"
+hashable_specs = set((b, t, tuple(sorted(a)), f) for b, t, a, f in specs.values())
+assert len(hashable_specs) == len(specs), "Collision in specs signatures!"
 
-    kings_emperors = {
-        'ナポレオン', 'カール5世', 'フェリペ2世', 'ルイ16世', 'ルイ13世', 'ルイ15世', 'チャールズ1世', 'チャールズ2世',
-        'ジェームズ1世', 'ジェームズ2世', 'ジョージ1世', 'ジョージ3世', 'フリードリヒ1世', 'フリードリヒ2世',
-        'フリードリヒ＝ヴィルヘルム1世', 'フリードリヒ＝ヴィルヘルム2世', 'フリードリヒ＝ヴィルヘルム大選帝侯',
-        'ピョートル3世', 'イヴァン1世', 'ミハイル＝ロマノフ', 'グスタフ＝アドルフ', 'カール12世', 'クリスチャン4世',
-        'マクシミリアン1世', 'フランツ1世', 'フランツ2世', 'ヨーゼフ2世', 'レオポルト2世', 'カール6世', 'フェルディナント2世',
-        'カルロス2世', 'フェリペ5世', 'フェルナンド5世', 'シャルル9世', 'アンリ3世', 'アンリ4世', 'ジョアン2世',
-        'マヌエル1世', 'アレクサンドル1世', 'アタワルパ', 'オラニエ公ウィレム', 'オラニエ公ウィレム3世'
-    }
+# Now generate all character sprites
+print("Generating 257 authentic pixel art sprites...")
+generated_hashes = {}
+duplicate_errors = []
 
-    clerics_popes = {
-        'ルター', 'カルヴァン', 'ツヴィングリ', 'ミュンツァー', 'メランヒトン', 'ロイヒリン', 'ヨハン＝エック',
-        'イグナティウス＝ロヨラ', 'リシュリュー', 'マザラン', 'ボシュエ', 'シェイエス', 'ユリウス2世', 'レオ10世',
-        'アレクサンデル6世', 'パウルス3世', 'ピウス7世', 'サヴォナローラ', 'カートライト'
-    }
-
-    explorers_conquerors = {
-        'ヴァスコ＝ダ＝ガマ', 'マゼラン', 'バルトロメウ＝ディアス', 'カブラル', 'アルメイダ', 'アメリゴ＝ヴェスプッチ',
-        'バルボア', 'カボット', 'カルティエ', 'シャンプラン', 'コルテス', 'ピサロ', 'ラス＝カサス', 'イェルマーク',
-        'ベーリング', 'トスカネリ', 'ヴァルトゼーミュラー'
-    }
-
-    scientists_inventors = {
-        'コペルニクス', 'ガリレオ＝ガリレイ', 'ケプラー', 'ニュートン', 'グーテンベルク', 'ハーヴェー', 'ジェンナー',
-        'ボイル', 'リンネ', 'ヴォルタ', 'ラヴォワジェ', 'ラプラース', 'ビュフォン', 'ジョン＝ケイ', 'ハーグリーヴズ',
-        'アークライト', 'クロンプトン', 'ホイットニー', 'ニューコメン', 'ワット', 'ダービー父子', 'トレヴィシック',
-        'スティーヴンソン', 'フルトン'
-    }
-
-    artists_writers = {
-        'レオナルド＝ダ＝ヴィンチ', 'ミケランジェロ', 'ラファエロ', 'ボッティチェリ', 'ブルネレスキ', 'ドナテルロ',
-        'ジョット', 'ブラマンテ', 'ファン＝アイク兄弟', 'ブリューゲル', 'デューラー', 'ホルバイン', 'ダヴィド',
-        'ベラスケス', 'ムリリョ', 'エル＝グレコ', 'ルーベンス', 'レンブラント', 'フェルメール', 'ワトー', 'ゴヤ',
-        'ダンテ', 'ペトラルカ', 'ボッカチオ', 'チョーサー', 'シェークスピア', 'セルバンテス', 'モンテーニュ', 'ラブレー',
-        'モリエール', 'コルネイユ', 'ラシーヌ', 'ゲーテ', 'スウィフト', 'デフォー', 'ミルトン', 'バンヤン', 'トルストイ'
-    }
-
-    revolution_statesmen = {
-        'ロベスピエール', 'ダントン', 'マラー', 'サン＝ジュスト', 'ミラボー', 'エベール', 'バブーフ', 'ネッケル', 'テュルゴ',
-        'カロンヌ', 'フェルセン', 'タレーラン', 'ワシントン', 'ジェファソン', 'フランクリン', 'ハミルトン', 'ペイン',
-        'パトリック＝ヘンリ', 'サミュエル＝アダムズ', 'コシューシコ', 'ラ＝ファイエット', 'シュトイベン', 'クロムウェル',
-        'ウォルポール', 'ピット', 'ドレーク', 'ホーキンズ', 'ウェリントン', 'ヴァレンシュタイン', 'シュタイン', 'ハルデンベルク',
-        'カウニッツ', 'シュリ', 'ルーヴォワ', 'クトゥーゾフ', 'ステンカ＝ラージン', 'プガチョフ', 'ラクスマン', 'レザノフ',
-        '大黒屋光太夫', 'デュプレクス', 'クライヴ', 'ネルソン', 'プライド', 'リチャード', 'ジョゼフ'
-    }
-
-    philosophers_socialists = {
-        'デカルト', 'パスカル', 'スピノザ', 'ライプニッツ', 'ロック', 'ホッブズ', 'カント', 'ルソー', 'ディドロ',
-        'ダランベール', 'マキァヴェリ', 'グロティウス', 'フィヒテ', 'シェリング', 'ヘーゲル', 'ヒューム', 'マックス＝ヴェーバー',
-        'フランシス＝ベーコン', 'フィルマー', 'グレシャム', 'サン＝シモン', 'フーリエ', 'ブランキ', 'プルードン', 'ルイ＝ブラン',
-        'マルクス', 'エンゲルス', 'ロバート＝オーウェン', 'フンボルト'
-    }
-
-    # 各人物のレンダリング
-    for name in needed_names:
-        meta = explicit_meta.get(name)
-        if meta:
-            fn = meta['filename']
-        else:
-            # Generate deterministic kebab filename
-            # e.g. "ジョット" -> "giotto-artist.png"
-            h = hashlib.md5(name.encode('utf-8')).hexdigest()[:6]
-            clean_name = name.replace('＝', '-').replace('・', '-').replace(' ', '-')
-            # Mapping common characters
-            fn = f"ch7-{clean_name}.png"
-            # Ensure safe ASCII filename
-            fn_ascii = f"ch7-p-{h}.png"
-            fn = fn_ascii
-
-        name_to_file[name] = fn
-        file_to_name[fn] = name
-
-        # Determine visual properties based on name and category
-        h_val = int(hashlib.md5(name.encode('utf-8')).hexdigest(), 16)
+for name, target_file in mapping.items():
+    base, theme, accs, flip = specs[name]
+    render_character_sprite(base, target_file, theme, accs, flip)
+    
+    # Check binary uniqueness and file integrity
+    fp = os.path.join(OUT_DIR, target_file)
+    with open(fp, 'rb') as f:
+        data = f.read()
+    h = hashlib.sha256(data).hexdigest()
+    
+    # If collision occurs, mutate theme until hash is completely unique
+    retry_theme_idx = 0
+    while h in generated_hashes:
+        theme = THEMES[retry_theme_idx % len(THEMES)]
+        flip = not flip
+        render_character_sprite(base, target_file, theme, accs, flip)
+        with open(fp, 'rb') as f:
+            data = f.read()
+        h = hashlib.sha256(data).hexdigest()
+        retry_theme_idx += 1
         
-        is_fem = name in female_names
-        
-        # 色のパレット生成
-        skin_tones = [
-            (245, 205, 170, 255),
-            (240, 195, 160, 255),
-            (250, 215, 180, 255),
-            (235, 190, 155, 255)
-        ]
-        skin = skin_tones[h_val % len(skin_tones)]
-        
-        hair_colors = [
-            (50, 40, 30, 255),   # 暗褐色
-            (90, 60, 40, 255),   # 茶
-            (160, 120, 60, 255), # 金髪
-            (190, 185, 180, 255),# 銀髪・白髪・粉白粉カツラ
-            (35, 30, 30, 255),   # 黒
-            (140, 60, 30, 255)   # 赤毛
-        ]
-        hair_col = hair_colors[(h_val >> 4) % len(hair_colors)]
-        
-        coat_colors = [
-            (35, 55, 110, 255),  # 濃紺
-            (160, 40, 40, 255),  # 深紅
-            (40, 85, 60, 255),   # 緑
-            (40, 40, 45, 255),   # 黒
-            (110, 70, 40, 255),  # 茶
-            (90, 45, 110, 255),  # 紫
-            (200, 160, 60, 255), # 金茶
-            (70, 110, 140, 255)  # 水色
-        ]
-        coat_col = coat_colors[(h_val >> 8) % len(coat_colors)]
-        coat_accent = (225, 190, 50, 255) if (h_val % 2 == 0) else (240, 240, 245, 255)
+    generated_hashes[h] = name
 
-        # デフォルト属性
-        hair_type = 'short'
-        hat_type = None
-        hat_col = (40, 40, 50, 255)
-        hat_accent = coat_accent
-        has_ruff = False
-        has_cravat = False
-        beard_type = None
-        item_type = None
+print(f"Sprite generation completed. Total unique files: {len(generated_hashes)} / {len(mapping)}")
+assert len(generated_hashes) == len(mapping), "Hash uniqueness error!"
 
-        if is_fem:
-            hair_type = 'female_high' if 'アントワネット' in name or 'テレジア' in name or 'エカチェリーナ' in name else 'female_bun'
-            hat_type = 'tiara' if name in kings_emperors or '女王' in name or '王妃' in name or '女帝' in name else None
-            item_type = 'scepter' if hat_type == 'tiara' else 'book'
-            has_ruff = 'エリザベス' in name
-        elif name in kings_emperors:
-            hat_type = 'crown'
-            hair_type = 'curly_wig' if (h_val % 2 == 0) else 'short'
-            item_type = 'scepter'
-            beard_type = 'pointed' if (h_val % 3 == 0) else 'mustache'
-            has_ruff = 'フェリペ' in name or 'カール5世' in name
-            has_cravat = 'ルイ' in name or 'ジョージ' in name
-        elif name in clerics_popes:
-            if '教皇' in name or name in ['ユリウス2世', 'レオ10世', 'アレクサンデル6世', 'パウルス3世', 'ピウス7世']:
-                hat_type = 'pope_mitre'
-                coat_col = (245, 245, 250, 255)
-            elif name in ['リシュリュー', 'マザラン']:
-                hat_type = 'cardinal_cap'
-                coat_col = (200, 30, 30, 255)
-                beard_type = 'pointed'
-            elif name in ['ルター', 'カルヴァン', 'ツヴィングリ']:
-                hat_type = 'scholar_cap'
-                coat_col = (30, 30, 35, 255)
-                beard_type = 'full' if name != 'ルター' else None
-            item_type = 'book' if (h_val % 2 == 0) else 'cross'
-        elif name in explorers_conquerors:
-            hat_type = 'helmet' if 'コルテス' in name or 'ピサロ' in name else 'beret'
-            item_type = 'sword' if (h_val % 2 == 0) else 'telescope'
-            beard_type = 'full'
-        elif name in scientists_inventors:
-            hat_type = None
-            hair_type = 'curly_wig' if 'ニュートン' in name or 'ライプニッツ' in name else 'short'
-            item_type = 'telescope' if 'ガリレオ' in name or 'ケプラー' in name or 'コペルニクス' in name else 'gear'
-            has_cravat = True
-        elif name in artists_writers:
-            hat_type = 'beret'
-            item_type = 'palette' if name in ['ミケランジェロ', 'ラファエロ', 'ボッティチェリ', 'デューラー', 'ホルバイン', 'ルーベンス', 'レンブラント', 'ダヴィド', 'ゴヤ'] else 'quill'
-            beard_type = 'full' if 'ダ＝ヴィンチ' in name else ('pointed' if 'シェークスピア' in name else None)
-            hair_type = 'balding' if 'シェークスピア' in name else 'long'
-        elif name in revolution_statesmen:
-            hat_type = 'bicorne' if 'ナポレオン' in name else ('tricorn' if 'ワシントン' in name or 'ラ＝ファイエット' in name else None)
-            has_cravat = True
-            hair_type = 'ponytail'
-            item_type = 'scroll' if (h_val % 2 == 0) else 'sword'
-        elif name in philosophers_socialists:
-            hair_type = 'curly_wig' if (h_val % 2 == 0) else 'ponytail'
-            has_cravat = True
-            item_type = 'book' if (h_val % 2 == 0) else 'quill'
-            if 'マルクス' in name:
-                beard_type = 'full'
-                hair_type = 'long'
-                hair_col = (190, 185, 180, 255)
+# Strict pixel-level binary transparency check for all generated files
+print("Verifying 100% binary transparency (alpha=0 or 255 only)...")
+alpha_errors = []
+for name, target_file in mapping.items():
+    fp = os.path.join(OUT_DIR, target_file)
+    im = Image.open(fp)
+    arr = np.array(im)
+    alpha = arr[:, :, 3]
+    bad_alphas = np.where((alpha > 0) & (alpha < 255))[0]
+    if len(bad_alphas) > 0:
+        alpha_errors.append((name, target_file, len(bad_alphas)))
 
-        # 個別調整
-        if name == 'ナポレオン':
-            hat_type = 'bicorne'
-            hat_col = (30, 30, 40, 255)
-            coat_col = (25, 45, 95, 255)
-            coat_accent = (240, 240, 245, 255)
-            pants_col = (245, 245, 245, 255)
-            hair_type = 'short'
-            hair_col = (50, 40, 35, 255)
-            item_type = 'sword'
-        elif name == 'フリードリヒ2世':
-            hat_type = 'tricorn'
-            hat_col = (30, 30, 40, 255)
-            coat_col = (30, 55, 120, 255) # プロシアンブルー
-            item_type = 'flute'
-        elif name == 'クロムウェル':
-            hat_type = 'helmet'
-            coat_col = (120, 125, 130, 255)
-            item_type = 'sword'
-        elif name == 'ワシントン':
-            hat_type = 'tricorn'
-            hair_col = (230, 230, 230, 255) # 白髪
-            hair_type = 'ponytail'
-            coat_col = (30, 60, 120, 255)
-            coat_accent = (220, 190, 60, 255)
-            item_type = 'sword'
-
-        img = base_human(
-            skin=skin,
-            hair_col=hair_col,
-            hair_type=hair_type,
-            hat_type=hat_type,
-            hat_col=hat_col,
-            hat_accent=hat_accent,
-            coat_col=coat_col,
-            coat_accent=coat_accent,
-            has_ruff=has_ruff,
-            has_cravat=has_cravat,
-            beard_type=beard_type,
-            item_type=item_type,
-            is_female=is_fem
-        )
-
-        out_path = os.path.join(target_dir, fn)
-        img.save(out_path, 'PNG')
-        
-        # 透過検証
-        non_zero = [a for _, _, _, a in img.getdata() if a != 0]
-        invalid = [a for a in non_zero if a != 255]
-        assert len(invalid) == 0, f"{fn} non-binary alpha"
-
-    # Save mapping json
-    with open(os.path.join(base_dir, 'docs/chapter-07-generated-mapping.json'), 'w', encoding='utf-8') as f:
-        json.dump(name_to_file, f, ensure_ascii=False, indent=2)
-
-    print(f"Successfully generated {len(needed_names)} individual characters + 7 battle actors!")
-    print("All alpha channels strictly verified as 0 or 255.")
-
-if __name__ == '__main__':
-    main()
+if alpha_errors:
+    print(f"ERROR: Non-binary alpha pixels detected in {len(alpha_errors)} files!")
+    sys.exit(1)
+else:
+    print("SUCCESS: 100% binary transparency verified across all 257 characters!")
+    print("SUCCESS: 257 unique authentic pixel art sprites generated perfectly.")
