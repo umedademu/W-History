@@ -123,7 +123,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhu-quanzhong.png",
+          "bubble": "黄巣の乱を鎮圧後に唐を滅ぼし後梁を開く！",
           "kind": "prop",
           "size": 42
         }
@@ -224,7 +225,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/shi-jingtang.png",
+          "bubble": "キタイの援軍で後唐を滅ぼし燕雲十六州を割譲！",
           "kind": "prop",
           "size": 42
         },
@@ -234,9 +236,10 @@ export const chapterEdition = {
             116,
             40.4
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/great-wall-china.png",
+          "bubble": "北方騎馬民族の侵入を防ぐため修築された長大な城壁！",
           "kind": "prop",
-          "size": 42
+          "size": 52
         },
         {
           "name": "世宗",
@@ -244,7 +247,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/taizong-liximin.png",
+          "bubble": "後周の世宗！五代随一の名君として統一を進める！",
           "kind": "prop",
           "size": 42
         }
@@ -345,7 +349,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/feng-dao.png",
+          "bubble": "五代の激動期に4王朝10人の君主に仕えた老練宰相！",
           "kind": "prop",
           "size": 42
         }
@@ -701,7 +706,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-taizu.png",
+          "bubble": "陳橋の変で擁立され宋を建国！文治主義で藩鎮を抑える！",
           "kind": "prop",
           "size": 42
         },
@@ -711,7 +717,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/taizong-liximin.png",
+          "bubble": "後周の世宗！五代随一の名君として統一を進める！",
           "kind": "prop",
           "size": 42
         },
@@ -721,7 +728,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/gongdi-zhou.png",
+          "bubble": "後周最後の幼帝、陳橋の変で趙匡胤に禅譲",
           "kind": "prop",
           "size": 42
         },
@@ -731,7 +739,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-taizong.png",
+          "bubble": "宋の太宗！中国統一を完成！",
           "kind": "prop",
           "size": 42
         },
@@ -741,7 +750,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-taizu.png",
+          "bubble": "宋の太祖！文治主義で武人の横暴を防ぐ！",
           "kind": "prop",
           "size": 42
         }
@@ -907,7 +917,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-taizu.png",
+          "bubble": "宋の太祖！文治主義で武人の横暴を防ぐ！",
           "kind": "prop",
           "size": 42
         }
@@ -1093,7 +1104,8 @@ export const chapterEdition = {
             126.55,
             37.97
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wang-geon.png",
+          "bubble": "後三国を統一し高麗を建国！開京を都と定める",
           "kind": "prop",
           "size": 42
         }
@@ -1390,7 +1402,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "真宗",
+          "at": [
+            114.3,
+            34.8
+          ],
+          "image": "ancient/song-zhenzong.png",
+          "bubble": "キタイ（遼）と澶淵の盟を結び毎年銀・絹を贈る",
+          "action": "face_north"
+        },
+        {
+          "name": "聖宗",
+          "at": [
+            118.85,
+            43.98
+          ],
+          "image": "ancient/liao-shengzong.png",
+          "bubble": "北宋と澶淵の盟を結び遼の最盛期を統治！",
+          "action": "face_south"
+        }
+      ],
       "props": [
         {
           "name": "真宗",
@@ -1398,7 +1431,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-zhenzong.png",
+          "bubble": "キタイ（遼）と澶淵の盟を結び毎年銀・絹を贈る",
           "kind": "prop",
           "size": 42
         },
@@ -1408,21 +1442,22 @@ export const chapterEdition = {
             118.85,
             43.98
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/liao-shengzong.png",
+          "bubble": "北宋と澶淵の盟を結び遼の最盛期を統治！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "キタイの南下と宋の和約"
       ],
       "mapHeading": "キタイの南下と宋の和約",
       "focus": "キタイの南下と宋の和約",
       "before": "キタイの南下と宋の和約",
-      "after": "キタイの南下と宋の和約",
+      "after": "澶淵の盟（銀・絹の贈与による和平）",
       "note": "",
       "takeaway": ""
     },
@@ -1495,7 +1530,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wang-anshi.png",
+          "bubble": "青苗法・市易法・保甲法など新法を実施し富国強兵を推進！",
           "kind": "prop",
           "size": 42
         },
@@ -1505,7 +1541,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-shenzong.png",
+          "bubble": "王安石を宰相に抜擢し新法改革を強力に支援！",
           "kind": "prop",
           "size": 42
         }
@@ -1695,7 +1732,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wang-anshi.png",
+          "bubble": "青苗法・市易法・保甲法など新法を実施し富国強兵を推進！",
           "kind": "prop",
           "size": 42
         },
@@ -1705,7 +1743,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-shenzong.png",
+          "bubble": "王安石を宰相に抜擢し新法改革を強力に支援！",
           "kind": "prop",
           "size": 42
         },
@@ -1715,7 +1754,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/sima-guang.png",
+          "bubble": "旧法党の領袖！年代記『資治通鑑』を編纂！",
           "kind": "prop",
           "size": 42
         },
@@ -1725,7 +1765,8 @@ export const chapterEdition = {
             120.1,
             30
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/su-shi.png",
+          "bubble": "蘇東坡！赤壁賦を詠み旧法党として新法に反対",
           "kind": "prop",
           "size": 42
         },
@@ -1735,7 +1776,8 @@ export const chapterEdition = {
             120.1,
             30
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/su-zhe.png",
+          "bubble": "蘇軾の弟、唐宋八大家の一角として官界で活躍",
           "kind": "prop",
           "size": 42
         },
@@ -1745,7 +1787,8 @@ export const chapterEdition = {
             120.1,
             30
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zeng-gong.png",
+          "bubble": "唐宋八大家の一人、名文家として後進を育成",
           "kind": "prop",
           "size": 42
         },
@@ -1755,7 +1798,8 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cheng-hao.png",
+          "bubble": "明道先生、天理の自然と仁を説く",
           "kind": "prop",
           "size": 42
         },
@@ -1765,7 +1809,8 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cheng-yi.png",
+          "bubble": "「性即理」を唱え北宋二程子として道学を確立！",
           "kind": "prop",
           "size": 42
         }
@@ -1891,7 +1936,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-huizong.png",
+          "bubble": "風流天子！痩金体の書と花鳥画を究めるも靖康の変で北去",
           "kind": "prop",
           "size": 42
         }
@@ -1972,7 +2018,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "徽宗",
+          "at": [
+            114.3,
+            34.8
+          ],
+          "image": "ancient/song-huizong.png",
+          "bubble": "風流天子！痩金体の書と花鳥画を究めるも靖康の変で北去",
+          "action": "battle"
+        },
+        {
+          "name": "欽宗",
+          "at": [
+            114.3,
+            34.8
+          ],
+          "image": "ancient/song-qinzong.png",
+          "bubble": "北宋最後の皇帝、金軍の侵攻を受け開封陥落",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "徽宗",
@@ -1980,7 +2047,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-huizong.png",
+          "bubble": "風流天子！痩金体の書と花鳥画を究めるも靖康の変で北去",
           "kind": "prop",
           "size": 42
         },
@@ -1990,21 +2058,22 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-qinzong.png",
+          "bubble": "北宋最後の皇帝、金軍の侵攻を受け開封陥落",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "靖康の変と北宋の滅亡"
       ],
       "mapHeading": "靖康の変と北宋の滅亡",
       "focus": "靖康の変と北宋の滅亡",
       "before": "靖康の変と北宋の滅亡",
-      "after": "靖康の変と北宋の滅亡",
+      "after": "靖康の変（北宋の滅亡と二帝北去）",
       "note": "",
       "takeaway": ""
     },
@@ -2102,7 +2171,38 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "岳飛",
+          "at": [
+            120.15,
+            30.25
+          ],
+          "image": "ancient/yue-fei.png",
+          "bubble": "「尽忠報国」！金軍を連破した南宋不滅の英雄！",
+          "action": "battle"
+        },
+        {
+          "name": "秦檜",
+          "at": [
+            120.15,
+            30.25
+          ],
+          "image": "ancient/qin-hui.png",
+          "bubble": "金との和平を主導し紹興の和議を成立させる",
+          "action": "battle"
+        },
+        {
+          "name": "趙構",
+          "at": [
+            120.15,
+            30.25
+          ],
+          "image": "ancient/song-gaozong.png",
+          "bubble": "南宋初代皇帝、臨安（杭州）に都を置き政権を再興！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "欽宗",
@@ -2110,7 +2210,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-qinzong.png",
+          "bubble": "北宋最後の皇帝、金軍の侵攻を受け開封陥落",
           "kind": "prop",
           "size": 42
         },
@@ -2120,7 +2221,8 @@ export const chapterEdition = {
             120.15,
             30.25
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-gaozong.png",
+          "bubble": "南宋の高宗！臨安に都を再興！",
           "kind": "prop",
           "size": 42
         },
@@ -2130,7 +2232,8 @@ export const chapterEdition = {
             120.15,
             30.25
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-gaozong.png",
+          "bubble": "南宋初代皇帝、臨安（杭州）に都を置き政権を再興！",
           "kind": "prop",
           "size": 42
         },
@@ -2140,7 +2243,8 @@ export const chapterEdition = {
             120.15,
             30.25
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yue-fei.png",
+          "bubble": "「尽忠報国」！金軍を連破した南宋不滅の英雄！",
           "kind": "prop",
           "size": 42
         },
@@ -2150,7 +2254,8 @@ export const chapterEdition = {
             120.15,
             30.25
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/qin-hui.png",
+          "bubble": "金との和平を主導し紹興の和議を成立させる",
           "kind": "prop",
           "size": 42
         }
@@ -2224,14 +2329,14 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 3400,
       "facts": [
         "南宋の再興と紹興の和議"
       ],
       "mapHeading": "南宋の再興と紹興の和議",
       "focus": "南宋の再興と紹興の和議",
       "before": "南宋の再興と紹興の和議",
-      "after": "南宋の再興と紹興の和議",
+      "after": "紹興の和議（淮河を境とする南北対峙）",
       "note": "",
       "takeaway": ""
     },
@@ -2472,7 +2577,8 @@ export const chapterEdition = {
             118.85,
             43.98
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yelu-abaoji.png",
+          "bubble": "契丹諸部を統一し遼（キタイ）を建国！",
           "kind": "prop",
           "size": 42
         },
@@ -2482,7 +2588,8 @@ export const chapterEdition = {
             118.85,
             43.98
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yelu-abaoji.png",
+          "bubble": "契丹の太祖！草原を統一し大遼を建設！",
           "kind": "prop",
           "size": 42
         },
@@ -2492,9 +2599,10 @@ export const chapterEdition = {
             116,
             40.4
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/great-wall-china.png",
+          "bubble": "北方騎馬民族の侵入を防ぐため修築された長大な城壁！",
           "kind": "prop",
-          "size": 42
+          "size": 52
         },
         {
           "name": "太宗",
@@ -2502,7 +2610,8 @@ export const chapterEdition = {
             118.85,
             43.98
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yelu-deguang.png",
+          "bubble": "遼の太宗！燕雲十六州を獲得！",
           "kind": "prop",
           "size": 42
         },
@@ -2512,7 +2621,8 @@ export const chapterEdition = {
             118.85,
             43.98
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yelu-deguang.png",
+          "bubble": "後晋から燕雲十六州を獲得し国号を「大遼」と改称！",
           "kind": "prop",
           "size": 42
         },
@@ -2522,7 +2632,8 @@ export const chapterEdition = {
             118.85,
             43.98
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/liao-shengzong.png",
+          "bubble": "北宋と澶淵の盟を結び遼の最盛期を統治！",
           "kind": "prop",
           "size": 42
         }
@@ -2720,7 +2831,8 @@ export const chapterEdition = {
             127,
             45.55
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wanyan-aguda.png",
+          "bubble": "女真諸部を統合し金を建国、遼を撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -2730,7 +2842,8 @@ export const chapterEdition = {
             75,
             43
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yelu-dashi.png",
+          "bubble": "中央アジアへ逃れて西遼（カラ・キタイ）を建設！",
           "kind": "prop",
           "size": 42
         }
@@ -2903,7 +3016,8 @@ export const chapterEdition = {
             106.23,
             38.49
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/li-yuanhao.png",
+          "bubble": "西夏文字を制定し西夏（大夏）の皇帝として即位！",
           "kind": "prop",
           "size": 42
         },
@@ -2913,7 +3027,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/genghis-khan.png",
+          "bubble": "モンゴル諸部族を統一し世界帝国の礎を築く！",
           "kind": "prop",
           "size": 42
         }
@@ -3069,7 +3184,8 @@ export const chapterEdition = {
             127,
             45.55
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wanyan-aguda.png",
+          "bubble": "女真諸部を統合し金を建国、遼を撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -3079,7 +3195,8 @@ export const chapterEdition = {
             127,
             45.55
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wanyan-aguda.png",
+          "bubble": "女真諸部を統合し金を建国、遼を撃破！",
           "kind": "prop",
           "size": 42
         },
@@ -3089,7 +3206,8 @@ export const chapterEdition = {
             126.99,
             45.55
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jin-taizong.png",
+          "bubble": "金の太宗！北宋を滅ぼし紹興の和議を結ぶ！",
           "kind": "prop",
           "size": 42
         },
@@ -3099,7 +3217,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/prince-hailing.png",
+          "bubble": "金の首都を上京会寧府から燕京（中都）へ遷都！",
           "kind": "prop",
           "size": 42
         }
@@ -3828,7 +3947,8 @@ export const chapterEdition = {
             116,
             29.5
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhu-xi.png",
+          "bubble": "理気二元論と性即理を説き朱子学を大成！四書集注を著す",
           "kind": "prop",
           "size": 42
         },
@@ -3838,7 +3958,8 @@ export const chapterEdition = {
             116,
             29.5
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhou-dunyi.png",
+          "bubble": "『太極図説』を著し宋学・新儒学の先駆を開く！",
           "kind": "prop",
           "size": 42
         },
@@ -3848,7 +3969,8 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cheng-hao.png",
+          "bubble": "明道先生、天理の自然と仁を説く",
           "kind": "prop",
           "size": 42
         },
@@ -3858,7 +3980,8 @@ export const chapterEdition = {
             112.45,
             34.62
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/cheng-yi.png",
+          "bubble": "「性即理」を唱え北宋二程子として道学を確立！",
           "kind": "prop",
           "size": 42
         },
@@ -3868,7 +3991,8 @@ export const chapterEdition = {
             116,
             29.5
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhu-xi.png",
+          "bubble": "理気二元論と性即理を説き朱子学を大成！四書集注を著す",
           "kind": "prop",
           "size": 42
         }
@@ -3962,7 +4086,8 @@ export const chapterEdition = {
             116,
             29.5
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhu-xi.png",
+          "bubble": "理気二元論と性即理を説き朱子学を大成！四書集注を著す",
           "kind": "prop",
           "size": 42
         },
@@ -3972,7 +4097,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/sima-guang.png",
+          "bubble": "旧法党の領袖！年代記『資治通鑑』を編纂！",
           "kind": "prop",
           "size": 42
         },
@@ -3982,7 +4108,8 @@ export const chapterEdition = {
             116,
             29.5
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/lu-jiuyuan.png",
+          "bubble": "「心即理」を唱え朱熹と鵝湖の会で論争！",
           "kind": "prop",
           "size": 42
         },
@@ -3992,7 +4119,8 @@ export const chapterEdition = {
             120.6,
             30
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wang-yangming.png",
+          "bubble": "「心即理」「知行合一」「致良知」を唱え陽明学を開く！",
           "kind": "prop",
           "size": 42
         },
@@ -4002,7 +4130,8 @@ export const chapterEdition = {
             120.6,
             30
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wang-yangming.png",
+          "bubble": "「心即理」「知行合一」「致良知」を唱え陽明学を開く！",
           "kind": "prop",
           "size": 42
         }
@@ -4224,7 +4353,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "チンギス＝ハン",
+          "at": [
+            103,
+            47
+          ],
+          "image": "ancient/genghis-khan.png",
+          "bubble": "モンゴル諸部族を統一し世界帝国の礎を築く！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "チンギス＝ハン",
@@ -4232,7 +4372,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/genghis-khan.png",
+          "bubble": "モンゴル諸部族を統一し世界帝国の礎を築く！",
           "kind": "prop",
           "size": 42
         },
@@ -4242,21 +4383,22 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/genghis-khan.png",
+          "bubble": "モンゴル諸部族を統一し世界帝国の礎を築く！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3000,
       "facts": [
         "チンギス＝ハンと千戸制"
       ],
       "mapHeading": "チンギス＝ハンと千戸制",
       "focus": "チンギス＝ハンと千戸制",
       "before": "チンギス＝ハンと千戸制",
-      "after": "チンギス＝ハンと千戸制",
+      "after": "大モンゴル国（千戸制と遊牧軍団）",
       "note": "",
       "takeaway": ""
     },
@@ -4406,7 +4548,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/genghis-khan.png",
+          "bubble": "モンゴル諸部族を統一し世界帝国の礎を築く！",
           "kind": "prop",
           "size": 42
         }
@@ -4581,7 +4724,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ogedei-khan.png",
+          "bubble": "第2代ハーン！金を滅ぼしカラコルムを建設！",
           "kind": "prop",
           "size": 42
         },
@@ -4591,7 +4735,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/genghis-khan.png",
+          "bubble": "モンゴル諸部族を統一し世界帝国の礎を築く！",
           "kind": "prop",
           "size": 42
         },
@@ -4601,7 +4746,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/tolui-noyan.png",
+          "bubble": "チンギス＝ハンの末子、モンケ・クビライ・フラグの父",
           "kind": "prop",
           "size": 42
         },
@@ -4611,7 +4757,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ogedei-khan.png",
+          "bubble": "第2代ハーン！金を滅ぼしカラコルムを建設！",
           "kind": "prop",
           "size": 42
         }
@@ -4744,7 +4891,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "バトゥ",
+          "at": [
+            46,
+            47
+          ],
+          "image": "ancient/batu-khan.png",
+          "bubble": "ロシア・東欧へ大遠征しキプチャク＝ハン国を建国！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "バトゥ",
@@ -4752,7 +4910,8 @@ export const chapterEdition = {
             46,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/batu-khan.png",
+          "bubble": "ロシア・東欧へ大遠征しキプチャク＝ハン国を建国！",
           "kind": "prop",
           "size": 42
         },
@@ -4762,7 +4921,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/genghis-khan.png",
+          "bubble": "モンゴル諸部族を統一し世界帝国の礎を築く！",
           "kind": "prop",
           "size": 42
         },
@@ -4772,7 +4932,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ogedei-khan.png",
+          "bubble": "第2代ハーン！金を滅ぼしカラコルムを建設！",
           "kind": "prop",
           "size": 42
         }
@@ -4815,14 +4976,14 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3200,
       "facts": [
         "バトゥの遠征と草原の道"
       ],
       "mapHeading": "バトゥの遠征と草原の道",
       "focus": "バトゥの遠征と草原の道",
       "before": "バトゥの遠征と草原の道",
-      "after": "バトゥの遠征と草原の道",
+      "after": "バトゥの西征（ワールシュタットの戦い）",
       "note": "",
       "takeaway": ""
     },
@@ -4982,7 +5143,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/mongke-khan.png",
+          "bubble": "第4代ハーン！東西への大遠征を命じる",
           "kind": "prop",
           "size": 42
         },
@@ -4992,7 +5154,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ogedei-khan.png",
+          "bubble": "第2代ハーン！金を滅ぼしカラコルムを建設！",
           "kind": "prop",
           "size": 42
         },
@@ -5002,7 +5165,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/guyuk-khan.png",
+          "bubble": "第3代ハーン！ローマ教皇の使節カルピニと引見",
           "kind": "prop",
           "size": 42
         },
@@ -5012,7 +5176,8 @@ export const chapterEdition = {
             46,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/batu-khan.png",
+          "bubble": "ロシア・東欧へ大遠征しキプチャク＝ハン国を建国！",
           "kind": "prop",
           "size": 42
         },
@@ -5022,7 +5187,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/tolui-noyan.png",
+          "bubble": "チンギス＝ハンの末子、モンケ・クビライ・フラグの父",
           "kind": "prop",
           "size": 42
         },
@@ -5032,7 +5198,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         },
@@ -5042,7 +5209,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         },
@@ -5052,7 +5220,8 @@ export const chapterEdition = {
             46,
             38
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hulagu-khan.png",
+          "bubble": "西アジア遠征でバグダードを攻略、イル＝ハン国を樹立！",
           "kind": "prop",
           "size": 42
         },
@@ -5062,7 +5231,8 @@ export const chapterEdition = {
             46,
             38
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hulagu-khan.png",
+          "bubble": "西アジア遠征でバグダードを攻略、イル＝ハン国を樹立！",
           "kind": "prop",
           "size": 42
         }
@@ -5225,7 +5395,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "クビライ",
+          "at": [
+            116.4,
+            39.9
+          ],
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
+          "action": "battle"
+        },
+        {
+          "name": "カイドゥ",
+          "at": [
+            85,
+            44
+          ],
+          "image": "ancient/qaidu-khan.png",
+          "bubble": "中央アジアでクビライに叛旗を翻す（カイドゥの乱）！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "クビライ",
@@ -5233,7 +5424,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         },
@@ -5243,7 +5435,8 @@ export const chapterEdition = {
             85,
             44
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/qaidu-khan.png",
+          "bubble": "中央アジアでクビライに叛旗を翻す（カイドゥの乱）！",
           "kind": "prop",
           "size": 42
         },
@@ -5253,7 +5446,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/mongke-khan.png",
+          "bubble": "第4代ハーン！東西への大遠征を命じる",
           "kind": "prop",
           "size": 42
         },
@@ -5263,7 +5457,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ariq-boke.png",
+          "bubble": "カラコルムを拠点にクビライと大ハーン位を争う！",
           "kind": "prop",
           "size": 42
         },
@@ -5273,7 +5468,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ogedei-khan.png",
+          "bubble": "第2代ハーン！金を滅ぼしカラコルムを建設！",
           "kind": "prop",
           "size": 42
         },
@@ -5283,7 +5479,8 @@ export const chapterEdition = {
             85,
             44
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/qaidu-khan.png",
+          "bubble": "中央アジアでクビライに叛旗を翻す（カイドゥの乱）！",
           "kind": "prop",
           "size": 42
         }
@@ -5336,14 +5533,14 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "クビライの即位とカイドゥの乱"
       ],
       "mapHeading": "クビライの即位とカイドゥの乱",
       "focus": "クビライの即位とカイドゥの乱",
       "before": "クビライの即位とカイドゥの乱",
-      "after": "クビライの即位とカイドゥの乱",
+      "after": "カイドゥの乱（大ハーン vs 遊牧諸王）",
       "note": "",
       "takeaway": ""
     },
@@ -5413,7 +5610,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/genghis-khan.png",
+          "bubble": "モンゴル諸部族を統一し世界帝国の礎を築く！",
           "kind": "prop",
           "size": 42
         },
@@ -5423,7 +5621,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         },
@@ -5433,7 +5632,8 @@ export const chapterEdition = {
             85,
             44
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/qaidu-khan.png",
+          "bubble": "中央アジアでクビライに叛旗を翻す（カイドゥの乱）！",
           "kind": "prop",
           "size": 42
         }
@@ -5621,7 +5821,8 @@ export const chapterEdition = {
             85,
             44
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/qaidu-khan.png",
+          "bubble": "中央アジアでクビライに叛旗を翻す（カイドゥの乱）！",
           "kind": "prop",
           "size": 42
         },
@@ -5631,7 +5832,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ogedei-khan.png",
+          "bubble": "第2代ハーン！金を滅ぼしカラコルムを建設！",
           "kind": "prop",
           "size": 42
         },
@@ -5641,7 +5843,8 @@ export const chapterEdition = {
             46,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/batu-khan.png",
+          "bubble": "ロシア・東欧へ大遠征しキプチャク＝ハン国を建国！",
           "kind": "prop",
           "size": 42
         },
@@ -5651,7 +5854,8 @@ export const chapterEdition = {
             46,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/uzbeg-khan.png",
+          "bubble": "キプチャク＝ハン国をイスラーム化し最盛期を築く！",
           "kind": "prop",
           "size": 42
         },
@@ -5661,7 +5865,8 @@ export const chapterEdition = {
             46,
             38
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hulagu-khan.png",
+          "bubble": "西アジア遠征でバグダードを攻略、イル＝ハン国を樹立！",
           "kind": "prop",
           "size": 42
         },
@@ -5671,7 +5876,8 @@ export const chapterEdition = {
             46,
             38
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ghazan-khan.png",
+          "bubble": "イル＝ハン国でイスラーム教を国教化！",
           "kind": "prop",
           "size": 42
         },
@@ -5681,7 +5887,8 @@ export const chapterEdition = {
             46,
             38
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/rashid-al-din.png",
+          "bubble": "ガザン＝ハンの宰相として世界史『集史』を編纂！",
           "kind": "prop",
           "size": 42
         },
@@ -5691,7 +5898,8 @@ export const chapterEdition = {
             46,
             38
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/rashid-al-din.png",
+          "bubble": "ガザン＝ハンの宰相として世界史『集史』を編纂！",
           "kind": "prop",
           "size": 42
         }
@@ -5764,7 +5972,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "クビライ",
+          "at": [
+            116.4,
+            39.9
+          ],
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "クビライ",
@@ -5772,7 +5991,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         },
@@ -5782,21 +6002,22 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "南宋の滅亡"
       ],
       "mapHeading": "南宋の滅亡",
       "focus": "南宋の滅亡",
       "before": "南宋の滅亡",
-      "after": "南宋の滅亡",
+      "after": "崖山の戦い（南宋滅亡・元による中国再統一）",
       "note": "",
       "takeaway": ""
     },
@@ -5875,7 +6096,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "クビライ",
+          "at": [
+            116.4,
+            39.9
+          ],
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
+          "action": "battle"
+        },
+        {
+          "name": "北条時宗",
+          "at": [
+            139.6,
+            35.3
+          ],
+          "image": "ancient/hojo-tokimune.png",
+          "bubble": "鎌倉幕府第8代執権！元軍の蒙古襲来を退ける！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "クビライ",
@@ -5883,7 +6125,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         },
@@ -5893,7 +6136,8 @@ export const chapterEdition = {
             139.6,
             35.3
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hojo-tokimune.png",
+          "bubble": "鎌倉幕府第8代執権！元軍の蒙古襲来を退ける！",
           "kind": "prop",
           "size": 42
         }
@@ -5920,14 +6164,14 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3200,
       "facts": [
         "高麗と日本への遠征"
       ],
       "mapHeading": "高麗と日本への遠征",
       "focus": "高麗と日本への遠征",
       "before": "高麗と日本への遠征",
-      "after": "高麗と日本への遠征",
+      "after": "元寇（文永・弘安の役）",
       "note": "",
       "takeaway": ""
     },
@@ -6049,7 +6293,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         }
@@ -6261,7 +6506,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/guo-shoujing.png",
+          "bubble": "大都の治水と精密な授時暦を作成した科学者！",
           "kind": "prop",
           "size": 42
         }
@@ -6470,7 +6716,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/genghis-khan.png",
+          "bubble": "モンゴル諸部族を統一し世界帝国の礎を築く！",
           "kind": "prop",
           "size": 42
         },
@@ -6480,7 +6727,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         }
@@ -6672,7 +6920,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         }
@@ -6857,7 +7106,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         }
@@ -6947,7 +7197,8 @@ export const chapterEdition = {
             12.5,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/innocent4-pope.png",
+          "bubble": "プラノ・カルピニをモンゴル帝国へ派遣！",
           "kind": "prop",
           "size": 42
         },
@@ -6957,7 +7208,8 @@ export const chapterEdition = {
             102.82,
             47.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/plano-carpini.png",
+          "bubble": "教皇の使節としてカラコルムのグユクに謁見！",
           "kind": "prop",
           "size": 42
         },
@@ -6967,7 +7219,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/guyuk-khan.png",
+          "bubble": "第3代ハーン！ローマ教皇の使節カルピニと引見",
           "kind": "prop",
           "size": 42
         },
@@ -6977,7 +7230,8 @@ export const chapterEdition = {
             2.35,
             48.85
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis9-saint.png",
+          "bubble": "フランス聖王！ルブルックをモンゴル宮廷へ派遣",
           "kind": "prop",
           "size": 42
         },
@@ -6987,7 +7241,8 @@ export const chapterEdition = {
             102.82,
             47.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/rubruck-friar.png",
+          "bubble": "カラコルムを訪れモンケ＝ハンに謁見した修道士",
           "kind": "prop",
           "size": 42
         },
@@ -6997,7 +7252,8 @@ export const chapterEdition = {
             103,
             47
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/mongke-khan.png",
+          "bubble": "第4代ハーン！東西への大遠征を命じる",
           "kind": "prop",
           "size": 42
         },
@@ -7007,7 +7263,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/montecorvino-bishop.png",
+          "bubble": "大都にカトリックの大司教座を設置！",
           "kind": "prop",
           "size": 42
         }
@@ -7076,7 +7333,8 @@ export const chapterEdition = {
             12.34,
             45.44
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/marco-polo.png",
+          "bubble": "クビライに仕え『世界の記述（東方見聞録）』を口述！",
           "kind": "prop",
           "size": 42
         },
@@ -7086,7 +7344,8 @@ export const chapterEdition = {
             -5.8,
             35.77
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ibn-battuta.png",
+          "bubble": "モロッコから大都・東南アジアを歴訪！",
           "kind": "prop",
           "size": 42
         },
@@ -7096,7 +7355,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         }
@@ -7206,7 +7466,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         },
@@ -7216,7 +7477,8 @@ export const chapterEdition = {
             91.1,
             29.65
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/phagpa-lama.png",
+          "bubble": "チベット仏教サキャ派の座主、パスパ文字を制定！",
           "kind": "prop",
           "size": 42
         },
@@ -7226,7 +7488,8 @@ export const chapterEdition = {
             91.1,
             29.65
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/phagpa-lama.png",
+          "bubble": "チベット仏教サキャ派の座主、パスパ文字を制定！",
           "kind": "prop",
           "size": 42
         }
@@ -7360,7 +7623,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "朱元璋",
+          "at": [
+            118.8,
+            32
+          ],
+          "image": "ancient/hongwu-emperor.png",
+          "bubble": "紅巾の乱から身を起こし明を建国！六諭を発布！",
+          "action": "battle"
+        },
+        {
+          "name": "韓山童",
+          "at": [
+            117,
+            33
+          ],
+          "image": "ancient/han-shantong.png",
+          "bubble": "白蓮教徒を率いて「弥勒下生」を唱え紅巾の乱を起こす！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "朱元璋",
@@ -7368,7 +7652,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hongwu-emperor.png",
+          "bubble": "紅巾の乱から身を起こし明を建国！六諭を発布！",
           "kind": "prop",
           "size": 42
         },
@@ -7378,7 +7663,8 @@ export const chapterEdition = {
             117,
             33
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/han-shantong.png",
+          "bubble": "白蓮教徒を率いて「弥勒下生」を唱え紅巾の乱を起こす！",
           "kind": "prop",
           "size": 42
         },
@@ -7388,7 +7674,8 @@ export const chapterEdition = {
             117,
             33
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/han-liner.png",
+          "bubble": "小明王として擁立された紅巾軍の最高指導者！",
           "kind": "prop",
           "size": 42
         },
@@ -7398,7 +7685,8 @@ export const chapterEdition = {
             116,
             29.5
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhu-xi.png",
+          "bubble": "理気二元論と性即理を説き朱子学を大成！四書集注を著す",
           "kind": "prop",
           "size": 42
         },
@@ -7408,21 +7696,22 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hongwu-emperor.png",
+          "bubble": "紅巾の乱から身を起こし明を建国！六諭を発布！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "紅巾の乱と朱元璋"
       ],
       "mapHeading": "紅巾の乱と朱元璋",
       "focus": "紅巾の乱と朱元璋",
       "before": "紅巾の乱と朱元璋",
-      "after": "紅巾の乱と朱元璋",
+      "after": "紅巾の乱（朱元璋の蜂起）",
       "note": "",
       "takeaway": ""
     },
@@ -7518,7 +7807,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hongwu-emperor.png",
+          "bubble": "紅巾の乱から身を起こし明を建国！六諭を発布！",
           "kind": "prop",
           "size": 42
         },
@@ -7528,7 +7818,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hongwu-emperor.png",
+          "bubble": "紅巾の乱から身を起こし明を建国！六諭を発布！",
           "kind": "prop",
           "size": 42
         }
@@ -7652,7 +7943,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hongwu-emperor.png",
+          "bubble": "紅巾の乱から身を起こし明を建国！六諭を発布！",
           "kind": "prop",
           "size": 42
         },
@@ -7662,7 +7954,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hongwu-emperor.png",
+          "bubble": "紅巾の乱から身を起こし明を建国！六諭を発布！",
           "kind": "prop",
           "size": 42
         },
@@ -7672,7 +7965,8 @@ export const chapterEdition = {
             118.8,
             32.06
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hongwu-emperor.png",
+          "bubble": "明の太祖！皇帝独裁体制を確立！",
           "kind": "prop",
           "size": 42
         }
@@ -7737,7 +8031,8 @@ export const chapterEdition = {
             116,
             29.5
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhu-xi.png",
+          "bubble": "理気二元論と性即理を説き朱子学を大成！四書集注を著す",
           "kind": "prop",
           "size": 42
         }
@@ -7815,7 +8110,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "朱棣",
+          "at": [
+            116.4,
+            39.9
+          ],
+          "image": "ancient/yongle-emperor.png",
+          "bubble": "北京へ遷都し紫禁城を造営！鄭和の南海遠征を断行！",
+          "action": "battle"
+        },
+        {
+          "name": "建文帝",
+          "at": [
+            118.8,
+            32
+          ],
+          "image": "ancient/jianwen-emperor.png",
+          "bubble": "削藩政策を進めるも叔父の燕王に倒される（靖難の役）",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "洪武帝",
@@ -7823,7 +8139,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hongwu-emperor.png",
+          "bubble": "紅巾の乱から身を起こし明を建国！六諭を発布！",
           "kind": "prop",
           "size": 42
         },
@@ -7833,7 +8150,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongle-emperor.png",
+          "bubble": "北京へ遷都し紫禁城を造営！鄭和の南海遠征を断行！",
           "kind": "prop",
           "size": 42
         },
@@ -7843,7 +8161,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongle-emperor.png",
+          "bubble": "北京へ遷都し紫禁城を造営！鄭和の南海遠征を断行！",
           "kind": "prop",
           "size": 42
         },
@@ -7853,7 +8172,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhu-biao.png",
+          "bubble": "洪武帝の長子、懿文太子として仁政を志すも早逝",
           "kind": "prop",
           "size": 42
         },
@@ -7863,7 +8183,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jianwen-emperor.png",
+          "bubble": "削藩政策を進めるも叔父の燕王に倒される（靖難の役）",
           "kind": "prop",
           "size": 42
         },
@@ -7873,21 +8194,22 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongle-emperor.png",
+          "bubble": "北京へ遷都し紫禁城を造営！鄭和の南海遠征を断行！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3400,
       "facts": [
         "皇子の勢力と靖難の役"
       ],
       "mapHeading": "皇子の勢力と靖難の役",
       "focus": "皇子の勢力と靖難の役",
       "before": "皇子の勢力と靖難の役",
-      "after": "皇子の勢力と靖難の役",
+      "after": "靖難の役（燕王の南進と永楽帝即位）",
       "note": "",
       "takeaway": ""
     },
@@ -7992,7 +8314,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongle-emperor.png",
+          "bubble": "北京へ遷都し紫禁城を造営！鄭和の南海遠征を断行！",
           "kind": "prop",
           "size": 42
         },
@@ -8002,7 +8325,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jianwen-emperor.png",
+          "bubble": "削藩政策を進めるも叔父の燕王に倒される（靖難の役）",
           "kind": "prop",
           "size": 42
         },
@@ -8012,9 +8336,10 @@ export const chapterEdition = {
             116,
             40.4
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/great-wall-china.png",
+          "bubble": "北方騎馬民族の侵入を防ぐため修築された長大な城壁！",
           "kind": "prop",
-          "size": 42
+          "size": 52
         },
         {
           "name": "鄭和",
@@ -8022,7 +8347,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zheng-he.png",
+          "bubble": "大宝船隊を率い南海・インド洋・アフリカへ7度の大遠征！",
           "kind": "prop",
           "size": 42
         }
@@ -8080,7 +8406,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jianwen-emperor.png",
+          "bubble": "削藩政策を進めるも叔父の燕王に倒される（靖難の役）",
           "kind": "prop",
           "size": 42
         },
@@ -8090,7 +8417,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongle-emperor.png",
+          "bubble": "北京へ遷都し紫禁城を造営！鄭和の南海遠征を断行！",
           "kind": "prop",
           "size": 42
         }
@@ -8214,7 +8542,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hongwu-emperor.png",
+          "bubble": "紅巾の乱から身を起こし明を建国！六諭を発布！",
           "kind": "prop",
           "size": 42
         }
@@ -8364,7 +8693,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "鄭和",
+          "at": [
+            118.8,
+            32
+          ],
+          "image": "ancient/zheng-he.png",
+          "bubble": "大宝船隊を率い南海・インド洋・アフリカへ7度の大遠征！",
+          "action": "battle"
+        },
+        {
+          "name": "永楽帝",
+          "at": [
+            116.4,
+            39.9
+          ],
+          "image": "ancient/yongle-emperor.png",
+          "bubble": "北京へ遷都し紫禁城を造営！鄭和の南海遠征を断行！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "鄭和",
@@ -8372,7 +8722,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zheng-he.png",
+          "bubble": "大宝船隊を率い南海・インド洋・アフリカへ7度の大遠征！",
           "kind": "prop",
           "size": 42
         },
@@ -8382,7 +8733,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongle-emperor.png",
+          "bubble": "北京へ遷都し紫禁城を造営！鄭和の南海遠征を断行！",
           "kind": "prop",
           "size": 42
         }
@@ -8445,14 +8797,14 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3400,
       "facts": [
         "鄭和の南海諸国遠征"
       ],
       "mapHeading": "鄭和の南海諸国遠征",
       "focus": "鄭和の南海諸国遠征",
       "before": "鄭和の南海諸国遠征",
-      "after": "鄭和の南海諸国遠征",
+      "after": "鄭和の大航海（南海諸国への威風）",
       "note": "",
       "takeaway": ""
     },
@@ -8604,7 +8956,8 @@ export const chapterEdition = {
             127.7,
             26.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/sho-hashi.png",
+          "bubble": "三山を統一して琉球王国を建国！首里城を築く",
           "kind": "prop",
           "size": 42
         },
@@ -8614,7 +8967,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zheng-he.png",
+          "bubble": "大宝船隊を率い南海・インド洋・アフリカへ7度の大遠征！",
           "kind": "prop",
           "size": 42
         }
@@ -8782,7 +9136,8 @@ export const chapterEdition = {
             135.7,
             35
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ashikaga-yoshimitsu.png",
+          "bubble": "「日本国王」として明と勘合貿易を開始！",
           "kind": "prop",
           "size": 42
         },
@@ -8792,7 +9147,8 @@ export const chapterEdition = {
             117,
             24
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wang-zhi.png",
+          "bubble": "東シナ海を席巻した後期倭寇（大船団）の頭目！",
           "kind": "prop",
           "size": 42
         }
@@ -8915,7 +9271,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "エセン＝ハン",
+          "at": [
+            91,
+            46
+          ],
+          "image": "ancient/attila-hun.png",
+          "bubble": "オイラトを率いて土木の変で明の正統帝を捕縛！",
+          "action": "battle"
+        },
+        {
+          "name": "正統帝",
+          "at": [
+            116.4,
+            39.9
+          ],
+          "image": "ancient/zhengtong-emperor.png",
+          "bubble": "オイラト親征を試みるも土木堡で捕虜となる（土木の変）",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "エセン＝ハン",
@@ -8923,7 +9300,8 @@ export const chapterEdition = {
             91,
             46
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/attila-hun.png",
+          "bubble": "オイラトを率いて土木の変で明の正統帝を捕縛！",
           "kind": "prop",
           "size": 42
         },
@@ -8933,7 +9311,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhengtong-emperor.png",
+          "bubble": "オイラト親征を試みるも土木堡で捕虜となる（土木の変）",
           "kind": "prop",
           "size": 42
         },
@@ -8943,21 +9322,22 @@ export const chapterEdition = {
             110,
             41
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/modu-chanyu.png",
+          "bubble": "タタールを率いて北京を包囲（庚戌の変）！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "北方民族と北虜南倭"
       ],
       "mapHeading": "北方民族と北虜南倭",
       "focus": "北方民族と北虜南倭",
       "before": "北方民族と北虜南倭",
-      "after": "北方民族と北虜南倭",
+      "after": "土木の変（正統帝の捕縛）",
       "note": "",
       "takeaway": ""
     },
@@ -9037,7 +9417,8 @@ export const chapterEdition = {
             139.75,
             35.7
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/tokugawa-ieyasu.png",
+          "bubble": "江戸幕府を開き朱印船貿易を展開！",
           "kind": "prop",
           "size": 42
         }
@@ -9119,7 +9500,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhang-juzheng.png",
+          "bubble": "一条鞭法を実施し明の財政を立て直した辣腕首輔！",
           "kind": "prop",
           "size": 42
         },
@@ -9129,7 +9511,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wanli-emperor.png",
+          "bubble": "明の衰退期、張居正を信任するも後半は親政放棄",
           "kind": "prop",
           "size": 42
         },
@@ -9139,7 +9522,8 @@ export const chapterEdition = {
             114.3,
             34.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/song-shenzong.png",
+          "bubble": "王安石を宰相に抜擢し新法改革を強力に支援！",
           "kind": "prop",
           "size": 42
         },
@@ -9149,7 +9533,8 @@ export const chapterEdition = {
             110,
             41
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/modu-chanyu.png",
+          "bubble": "タタールを率いて北京を包囲（庚戌の変）！",
           "kind": "prop",
           "size": 42
         }
@@ -9267,7 +9652,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hongwu-emperor.png",
+          "bubble": "紅巾の乱から身を起こし明を建国！六諭を発布！",
           "kind": "prop",
           "size": 42
         }
@@ -9390,7 +9776,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "豊臣秀吉",
+          "at": [
+            135.5,
+            34.7
+          ],
+          "image": "ancient/toyotomi-hideyoshi.png",
+          "bubble": "天下統一を成し遂げ朝鮮へ二度の大出兵を命じる！",
+          "action": "battle"
+        },
+        {
+          "name": "李舜臣",
+          "at": [
+            127.7,
+            34.7
+          ],
+          "image": "ancient/yi-sun-sin.png",
+          "bubble": "亀甲船を率いて閑山島・鳴梁で日本の水軍を撃滅！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "張居正",
@@ -9398,7 +9805,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhang-juzheng.png",
+          "bubble": "一条鞭法を実施し明の財政を立て直した辣腕首輔！",
           "kind": "prop",
           "size": 42
         },
@@ -9408,7 +9816,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wanli-emperor.png",
+          "bubble": "明の衰退期、張居正を信任するも後半は親政放棄",
           "kind": "prop",
           "size": 42
         },
@@ -9418,7 +9827,8 @@ export const chapterEdition = {
             106.9,
             27.7
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yang-yinglong.png",
+          "bubble": "播州の土司として明朝に大規模反乱を起こす！",
           "kind": "prop",
           "size": 42
         },
@@ -9428,7 +9838,8 @@ export const chapterEdition = {
             135.5,
             34.7
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/toyotomi-hideyoshi.png",
+          "bubble": "天下統一を成し遂げ朝鮮へ二度の大出兵を命じる！",
           "kind": "prop",
           "size": 42
         },
@@ -9438,21 +9849,22 @@ export const chapterEdition = {
             127.7,
             34.7
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yi-sun-sin.png",
+          "bubble": "亀甲船を率いて閑山島・鳴梁で日本の水軍を撃滅！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3400,
       "facts": [
         "改革の反発と朝鮮侵略"
       ],
       "mapHeading": "改革の反発と朝鮮侵略",
       "focus": "改革の反発と朝鮮侵略",
       "before": "改革の反発と朝鮮侵略",
-      "after": "改革の反発と朝鮮侵略",
+      "after": "閑山島・鳴梁海戦（李舜臣の亀甲船）",
       "note": "",
       "takeaway": ""
     },
@@ -9504,7 +9916,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhang-juzheng.png",
+          "bubble": "一条鞭法を実施し明の財政を立て直した辣腕首輔！",
           "kind": "prop",
           "size": 42
         },
@@ -9514,7 +9927,8 @@ export const chapterEdition = {
             120.3,
             31.6
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/gu-xiancheng.png",
+          "bubble": "東林書院を再興し政治批判を展開（東林派）！",
           "kind": "prop",
           "size": 42
         },
@@ -9524,9 +9938,10 @@ export const chapterEdition = {
             120.3,
             31.6
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/donglin-academy.png",
+          "bubble": "顧憲成らが再興し正義を論じた江南の学問所！",
           "kind": "prop",
-          "size": 42
+          "size": 48
         },
         {
           "name": "朱子",
@@ -9534,7 +9949,8 @@ export const chapterEdition = {
             116,
             29.5
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhu-xi.png",
+          "bubble": "理気二元論と性即理を説き朱子学を大成！四書集注を著す",
           "kind": "prop",
           "size": 42
         },
@@ -9544,7 +9960,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wei-zhongxian.png",
+          "bubble": "宦官として専権を極め東林派官僚を徹底弾圧！",
           "kind": "prop",
           "size": 42
         }
@@ -9658,7 +10075,8 @@ export const chapterEdition = {
             123.43,
             41.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/nurhaci-emperor.png",
+          "bubble": "女真を統一し八旗を創設、後金を建国！",
           "kind": "prop",
           "size": 42
         }
@@ -9801,7 +10219,8 @@ export const chapterEdition = {
             123.43,
             41.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hong-taiji.png",
+          "bubble": "国号を「清」に改め、部族名を「満洲」と改称！",
           "kind": "prop",
           "size": 42
         },
@@ -9811,7 +10230,8 @@ export const chapterEdition = {
             123.43,
             41.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/nurhaci-emperor.png",
+          "bubble": "女真を統一し八旗を創設、後金を建国！",
           "kind": "prop",
           "size": 42
         },
@@ -9821,7 +10241,8 @@ export const chapterEdition = {
             123.43,
             41.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hong-taiji.png",
+          "bubble": "清の太宗！国号を大清と改称！",
           "kind": "prop",
           "size": 42
         },
@@ -9831,7 +10252,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         }
@@ -9907,7 +10329,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "李自成",
+          "at": [
+            108.94,
+            34.27
+          ],
+          "image": "ancient/li-zicheng.png",
+          "bubble": "「均田免賦」を掲げ北京を占領、順朝を樹立！",
+          "action": "battle"
+        },
+        {
+          "name": "崇禎帝",
+          "at": [
+            116.4,
+            39.9
+          ],
+          "image": "ancient/chongzhen-emperor.png",
+          "bubble": "李自成軍の北京突入に際し景山で自害した明最後の皇帝",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "李自成",
@@ -9915,7 +10358,8 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/li-zicheng.png",
+          "bubble": "「均田免賦」を掲げ北京を占領、順朝を樹立！",
           "kind": "prop",
           "size": 42
         },
@@ -9925,7 +10369,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/chongzhen-emperor.png",
+          "bubble": "李自成軍の北京突入に際し景山で自害した明最後の皇帝",
           "kind": "prop",
           "size": 42
         },
@@ -9935,7 +10380,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wei-zhongxian.png",
+          "bubble": "宦官として専権を極め東林派官僚を徹底弾圧！",
           "kind": "prop",
           "size": 42
         },
@@ -9945,21 +10391,22 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/xu-guangqi.png",
+          "bubble": "マテオ・リッチと交友し『幾何原本』『農政全書』を著述！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "李自成の反乱と明の滅亡"
       ],
       "mapHeading": "李自成の反乱と明の滅亡",
       "focus": "李自成の反乱と明の滅亡",
       "before": "李自成の反乱と明の滅亡",
-      "after": "李自成の反乱と明の滅亡",
+      "after": "北京陥落と明の滅亡",
       "note": "",
       "takeaway": ""
     },
@@ -10020,7 +10467,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "呉三桂",
+          "at": [
+            102,
+            25
+          ],
+          "image": "ancient/wu-sangui.png",
+          "bubble": "山海関を開いて清軍を招き入れ、後に三藩の乱を起こす！",
+          "action": "battle"
+        },
+        {
+          "name": "李自成",
+          "at": [
+            108.94,
+            34.27
+          ],
+          "image": "ancient/li-zicheng.png",
+          "bubble": "「均田免賦」を掲げ北京を占領、順朝を樹立！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "呉三桂",
@@ -10028,7 +10496,8 @@ export const chapterEdition = {
             102,
             25
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wu-sangui.png",
+          "bubble": "山海関を開いて清軍を招き入れ、後に三藩の乱を起こす！",
           "kind": "prop",
           "size": 42
         },
@@ -10038,7 +10507,8 @@ export const chapterEdition = {
             123.43,
             41.8
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hong-taiji.png",
+          "bubble": "国号を「清」に改め、部族名を「満洲」と改称！",
           "kind": "prop",
           "size": 42
         },
@@ -10048,7 +10518,8 @@ export const chapterEdition = {
             108.94,
             34.27
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/li-zicheng.png",
+          "bubble": "「均田免賦」を掲げ北京を占領、順朝を樹立！",
           "kind": "prop",
           "size": 42
         }
@@ -10075,14 +10546,14 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3200,
       "facts": [
         "呉三桂の投降と北京入城"
       ],
       "mapHeading": "呉三桂の投降と北京入城",
       "focus": "呉三桂の投降と北京入城",
       "before": "呉三桂の投降と北京入城",
-      "after": "呉三桂の投降と北京入城",
+      "after": "山海関開門（清軍の中国本土侵入）",
       "note": "",
       "takeaway": ""
     },
@@ -10199,7 +10670,18 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "鄭成功",
+          "at": [
+            120.2,
+            23
+          ],
+          "image": "ancient/zheng-chenggong.png",
+          "bubble": "オランダ人を台湾から駆逐し「滅満興漢」の拠点を築く！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "順治帝",
@@ -10207,7 +10689,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/shunzhi-emperor.png",
+          "bubble": "山海関を越えて北京に入城した清の中国初代皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -10217,7 +10700,8 @@ export const chapterEdition = {
             102,
             25
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wu-sangui.png",
+          "bubble": "山海関を開いて清軍を招き入れ、後に三藩の乱を起こす！",
           "kind": "prop",
           "size": 42
         },
@@ -10227,7 +10711,8 @@ export const chapterEdition = {
             120.2,
             23
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zheng-chenggong.png",
+          "bubble": "オランダ人を台湾から駆逐し「滅満興漢」の拠点を築く！",
           "kind": "prop",
           "size": 42
         }
@@ -10254,14 +10739,14 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3200,
       "facts": [
         "三藩と鄭氏台湾"
       ],
       "mapHeading": "三藩と鄭氏台湾",
       "focus": "三藩と鄭氏台湾",
       "before": "三藩と鄭氏台湾",
-      "after": "三藩と鄭氏台湾",
+      "after": "ゼーランディア城包囲と反清復明",
       "note": "",
       "takeaway": ""
     },
@@ -10376,7 +10861,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kangxi-emperor.png",
+          "bubble": "三藩の乱を平定し台湾・外モンゴルを統治した名君！",
           "kind": "prop",
           "size": 42
         },
@@ -10386,7 +10872,8 @@ export const chapterEdition = {
             102,
             25
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/wu-sangui.png",
+          "bubble": "山海関を開いて清軍を招き入れ、後に三藩の乱を起こす！",
           "kind": "prop",
           "size": 42
         }
@@ -10509,7 +10996,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "康熙帝",
+          "at": [
+            116.4,
+            39.9
+          ],
+          "image": "ancient/kangxi-emperor.png",
+          "bubble": "三藩の乱を平定し台湾・外モンゴルを統治した名君！",
+          "action": "battle"
+        },
+        {
+          "name": "ピョートル1世",
+          "at": [
+            30.3,
+            59.9
+          ],
+          "image": "ancient/peter-great.png",
+          "bubble": "ロシア皇帝！康熙帝とネルチンスク条約を締結！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "順治帝",
@@ -10517,7 +11025,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/shunzhi-emperor.png",
+          "bubble": "山海関を越えて北京に入城した清の中国初代皇帝！",
           "kind": "prop",
           "size": 42
         },
@@ -10527,7 +11036,8 @@ export const chapterEdition = {
             30.3,
             59.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/peter-great.png",
+          "bubble": "ロシア皇帝！康熙帝とネルチンスク条約を締結！",
           "kind": "prop",
           "size": 42
         },
@@ -10537,21 +11047,22 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kangxi-emperor.png",
+          "bubble": "三藩の乱を平定し台湾・外モンゴルを統治した名君！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "ロシアとネルチンスク条約"
       ],
       "mapHeading": "ロシアとネルチンスク条約",
       "focus": "ロシアとネルチンスク条約",
       "before": "ロシアとネルチンスク条約",
-      "after": "ロシアとネルチンスク条約",
+      "after": "ネルチンスク条約（スタノヴォイ山脈を境界に画定）",
       "note": "",
       "takeaway": ""
     },
@@ -10630,7 +11141,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "康熙帝",
+          "at": [
+            116.4,
+            39.9
+          ],
+          "image": "ancient/kangxi-emperor.png",
+          "bubble": "三藩の乱を平定し台湾・外モンゴルを統治した名君！",
+          "action": "battle"
+        },
+        {
+          "name": "ガルダン＝ハン",
+          "at": [
+            91,
+            44
+          ],
+          "image": "ancient/galdan-khan.png",
+          "bubble": "ジュンガルを率いてチベット・内モンゴルへ進出！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "ダライ＝ラマ",
@@ -10638,7 +11170,8 @@ export const chapterEdition = {
             91.1,
             29.65
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/dalai-lama.png",
+          "bubble": "チベット仏教ゲルク派の最高指導者！",
           "kind": "prop",
           "size": 42
         },
@@ -10648,7 +11181,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kangxi-emperor.png",
+          "bubble": "三藩の乱を平定し台湾・外モンゴルを統治した名君！",
           "kind": "prop",
           "size": 42
         },
@@ -10658,21 +11192,22 @@ export const chapterEdition = {
             91,
             44
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/galdan-khan.png",
+          "bubble": "ジュンガルを率いてチベット・内モンゴルへ進出！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "ジュンガルとチベット"
       ],
       "mapHeading": "ジュンガルとチベット",
       "focus": "ジュンガルとチベット",
       "before": "ジュンガルとチベット",
-      "after": "ジュンガルとチベット",
+      "after": "ジュンガル親征（昭莫多の戦い）",
       "note": "",
       "takeaway": ""
     },
@@ -10901,7 +11436,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongzheng-emperor.png",
+          "bubble": "軍機処を設置し文字の獄を強化、独裁体制を確立！",
           "kind": "prop",
           "size": 42
         },
@@ -10911,7 +11447,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/qianlong-emperor.png",
+          "bubble": "十全武功で領土最大！『四庫全書』を編纂！",
           "kind": "prop",
           "size": 42
         },
@@ -10921,7 +11458,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kangxi-emperor.png",
+          "bubble": "三藩の乱を平定し台湾・外モンゴルを統治した名君！",
           "kind": "prop",
           "size": 42
         },
@@ -10931,7 +11469,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongzheng-emperor.png",
+          "bubble": "清の世宗！軍機処を置き独裁を固める！",
           "kind": "prop",
           "size": 42
         },
@@ -10941,7 +11480,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/qianlong-emperor.png",
+          "bubble": "清の高宗！十全武功で最大版図を実現！",
           "kind": "prop",
           "size": 42
         },
@@ -10951,7 +11491,8 @@ export const chapterEdition = {
             91.1,
             29.65
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/dalai-lama.png",
+          "bubble": "チベット仏教ゲルク派の最高指導者！",
           "kind": "prop",
           "size": 42
         }
@@ -11045,7 +11586,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kangxi-emperor.png",
+          "bubble": "三藩の乱を平定し台湾・外モンゴルを統治した名君！",
           "kind": "prop",
           "size": 42
         },
@@ -11055,7 +11597,8 @@ export const chapterEdition = {
             116,
             29.5
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhu-xi.png",
+          "bubble": "理気二元論と性即理を説き朱子学を大成！四書集注を著す",
           "kind": "prop",
           "size": 42
         },
@@ -11065,7 +11608,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongzheng-emperor.png",
+          "bubble": "軍機処を設置し文字の獄を強化、独裁体制を確立！",
           "kind": "prop",
           "size": 42
         },
@@ -11075,7 +11619,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/qianlong-emperor.png",
+          "bubble": "十全武功で領土最大！『四庫全書』を編纂！",
           "kind": "prop",
           "size": 42
         }
@@ -11238,7 +11783,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongzheng-emperor.png",
+          "bubble": "軍機処を設置し文字の獄を強化、独裁体制を確立！",
           "kind": "prop",
           "size": 42
         }
@@ -11325,7 +11871,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kangxi-emperor.png",
+          "bubble": "三藩の乱を平定し台湾・外モンゴルを統治した名君！",
           "kind": "prop",
           "size": 42
         }
@@ -11490,7 +12037,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/matteo-ricci.png",
+          "bubble": "『坤輿万国全図』を刊行し幾何原本を訳出！",
           "kind": "prop",
           "size": 42
         },
@@ -11500,7 +12048,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/matteo-ricci.png",
+          "bubble": "『坤輿万国全図』を刊行し幾何原本を訳出！",
           "kind": "prop",
           "size": 42
         },
@@ -11510,7 +12059,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/adam-schall.png",
+          "bubble": "西洋天文学で時憲暦を作成！",
           "kind": "prop",
           "size": 42
         },
@@ -11520,7 +12070,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/adam-schall.png",
+          "bubble": "西洋天文学で時憲暦を作成！",
           "kind": "prop",
           "size": 42
         },
@@ -11530,7 +12081,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/xu-guangqi.png",
+          "bubble": "マテオ・リッチと交友し『幾何原本』『農政全書』を著述！",
           "kind": "prop",
           "size": 42
         },
@@ -11540,7 +12092,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ferdinand-verbiest.png",
+          "bubble": "康熙帝に仕え天体観測儀や大砲を製造！",
           "kind": "prop",
           "size": 42
         },
@@ -11550,7 +12103,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ferdinand-verbiest.png",
+          "bubble": "康熙帝に仕え天体観測儀や大砲を製造！",
           "kind": "prop",
           "size": 42
         },
@@ -11560,7 +12114,8 @@ export const chapterEdition = {
             2.35,
             48.85
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/louis14-sun-king.png",
+          "bubble": "フランス絶対王政の太陽王、中国へ宣教師使節を派遣！",
           "kind": "prop",
           "size": 42
         },
@@ -11570,7 +12125,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/joachim-bouvet.png",
+          "bubble": "ルイ14世の命で派遣され『康熙帝伝』を著す！",
           "kind": "prop",
           "size": 42
         },
@@ -11580,7 +12136,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/joachim-bouvet.png",
+          "bubble": "ルイ14世の命で派遣され『康熙帝伝』を著す！",
           "kind": "prop",
           "size": 42
         },
@@ -11590,7 +12147,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kangxi-emperor.png",
+          "bubble": "三藩の乱を平定し台湾・外モンゴルを統治した名君！",
           "kind": "prop",
           "size": 42
         },
@@ -11600,7 +12158,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jean-regis.png",
+          "bubble": "最新測量術で中国全土の実測地図『皇輿全覧図』を作成！",
           "kind": "prop",
           "size": 42
         },
@@ -11610,7 +12169,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/giuseppe-castiglione.png",
+          "bubble": "円明園の西洋楼を設計し西洋画法を宮廷に伝える！",
           "kind": "prop",
           "size": 42
         },
@@ -11620,7 +12180,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/giuseppe-castiglione.png",
+          "bubble": "円明園の西洋楼を設計し西洋画法を宮廷に伝える！",
           "kind": "prop",
           "size": 42
         },
@@ -11630,9 +12191,10 @@ export const chapterEdition = {
             116.3,
             40.01
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/yuanmingyuan-palace.png",
+          "bubble": "カスティリオーネらが設計したバロック様式の離宮！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         }
       ],
       "routes": [],
@@ -11733,7 +12295,8 @@ export const chapterEdition = {
             12.5,
             41.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/clement11-pope.png",
+          "bubble": "教皇教書で中国の典礼受容を厳禁！",
           "kind": "prop",
           "size": 42
         },
@@ -11743,7 +12306,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kangxi-emperor.png",
+          "bubble": "三藩の乱を平定し台湾・外モンゴルを統治した名君！",
           "kind": "prop",
           "size": 42
         },
@@ -11753,7 +12317,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongzheng-emperor.png",
+          "bubble": "軍機処を設置し文字の獄を強化、独裁体制を確立！",
           "kind": "prop",
           "size": 42
         },
@@ -11763,7 +12328,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/giuseppe-castiglione.png",
+          "bubble": "円明園の西洋楼を設計し西洋画法を宮廷に伝える！",
           "kind": "prop",
           "size": 42
         },
@@ -11773,7 +12339,8 @@ export const chapterEdition = {
             2.35,
             48.85
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/voltaire-philosopher.png",
+          "bubble": "啓蒙思想家、中国の道徳・合理主義的統治を称賛！",
           "kind": "prop",
           "size": 42
         },
@@ -11783,7 +12350,8 @@ export const chapterEdition = {
             116,
             29.5
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zhu-xi.png",
+          "bubble": "理気二元論と性即理を説き朱子学を大成！四書集注を著す",
           "kind": "prop",
           "size": 42
         },
@@ -11793,7 +12361,8 @@ export const chapterEdition = {
             2.35,
             48.85
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/montesquieu-philosopher.png",
+          "bubble": "『法の精神』で三権分立と中国専制政治を論評",
           "kind": "prop",
           "size": 42
         }
@@ -11953,7 +12522,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongle-emperor.png",
+          "bubble": "北京へ遷都し紫禁城を造営！鄭和の南海遠征を断行！",
           "kind": "prop",
           "size": 42
         },
@@ -11963,7 +12533,8 @@ export const chapterEdition = {
             135.5,
             34.7
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/toyotomi-hideyoshi.png",
+          "bubble": "天下統一を成し遂げ朝鮮へ二度の大出兵を命じる！",
           "kind": "prop",
           "size": 42
         }
@@ -12078,7 +12649,8 @@ export const chapterEdition = {
             135.5,
             34.7
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/toyotomi-hideyoshi.png",
+          "bubble": "天下統一を成し遂げ朝鮮へ二度の大出兵を命じる！",
           "kind": "prop",
           "size": 42
         }
@@ -12216,7 +12788,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/qianlong-emperor.png",
+          "bubble": "十全武功で領土最大！『四庫全書』を編纂！",
           "kind": "prop",
           "size": 42
         }
@@ -12326,7 +12899,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/qianlong-emperor.png",
+          "bubble": "十全武功で領土最大！『四庫全書』を編纂！",
           "kind": "prop",
           "size": 42
         },
@@ -12336,7 +12910,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/jiaqing-emperor.png",
+          "bubble": "和珅を処刑し白蓮教徒の乱を鎮圧するも清は衰退へ",
           "kind": "prop",
           "size": 42
         },
@@ -12346,9 +12921,10 @@ export const chapterEdition = {
             116.4,
             39.92
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/forbidden-city.png",
+          "bubble": "明・清の皇帝が君臨した世界最大の宮殿群！",
           "kind": "prop",
-          "size": 42
+          "size": 54
         }
       ],
       "routes": [],
@@ -12470,7 +13046,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/hongwu-emperor.png",
+          "bubble": "紅巾の乱から身を起こし明を建国！六諭を発布！",
           "kind": "prop",
           "size": 42
         }
@@ -12686,7 +13263,8 @@ export const chapterEdition = {
             117.6,
             26.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/deng-maoqi.png",
+          "bubble": "福建で抗租運動を起こし明朝を震撼させた農民指導者！",
           "kind": "prop",
           "size": 42
         }
@@ -12847,9 +13425,10 @@ export const chapterEdition = {
             116,
             40.4
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/great-wall-china.png",
+          "bubble": "北方騎馬民族の侵入を防ぐため修築された長大な城壁！",
           "kind": "prop",
-          "size": 42
+          "size": 52
         }
       ],
       "routes": [],
@@ -12983,7 +13562,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kangxi-emperor.png",
+          "bubble": "三藩の乱を平定し台湾・外モンゴルを統治した名君！",
           "kind": "prop",
           "size": 42
         },
@@ -12993,7 +13573,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/qianlong-emperor.png",
+          "bubble": "十全武功で領土最大！『四庫全書』を編纂！",
           "kind": "prop",
           "size": 42
         }
@@ -14299,7 +14880,8 @@ export const chapterEdition = {
             104.75,
             -2.99
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yijing-monk.png",
+          "bubble": "海路でインド・シュリーヴィジャヤへ渡り『南海寄帰内法伝』を著す！",
           "kind": "prop",
           "size": 42
         },
@@ -14309,9 +14891,10 @@ export const chapterEdition = {
             110.2,
             -7.61
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/borobudur-temple.png",
+          "bubble": "シャイレーンドラ朝が築いた世界最大級の仏教石造遺跡！",
           "kind": "prop",
-          "size": 42
+          "size": 52
         },
         {
           "name": "プランバナン寺院群",
@@ -14319,9 +14902,10 @@ export const chapterEdition = {
             110.49,
             -7.75
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/prambanan-temple.png",
+          "bubble": "シヴァ神を祀る尖塔群が天を突く古マタラムのヒンドゥー寺院！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         }
       ],
       "routes": [],
@@ -14580,9 +15164,10 @@ export const chapterEdition = {
             103.86,
             13.44
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/angkor-thom.png",
+          "bubble": "微笑む観音菩薩の巨顔塔がそびえる王都バイヨン！",
           "kind": "prop",
-          "size": 42
+          "size": 50
         },
         {
           "name": "スールヤヴァルマン2世",
@@ -14590,7 +15175,8 @@ export const chapterEdition = {
             103.87,
             13.41
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/suryavarman2.png",
+          "bubble": "アンコール＝ワットを造営したアンコール朝の偉大な王！",
           "kind": "prop",
           "size": 42
         },
@@ -14600,9 +15186,10 @@ export const chapterEdition = {
             103.87,
             13.41
           ],
-          "image": "ancient/temple.svg",
+          "image": "ancient/angkor-wat.png",
+          "bubble": "スールヤヴァルマン2世が建立したヒンドゥー教大寺院！",
           "kind": "prop",
-          "size": 42
+          "size": 52
         }
       ],
       "routes": [],
@@ -15040,7 +15627,8 @@ export const chapterEdition = {
             105.85,
             21.03
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ly-thai-to.png",
+          "bubble": "大越国李朝を開き都を昇竜（ハノイ）へ遷都！",
           "kind": "prop",
           "size": 42
         }
@@ -15225,7 +15813,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         },
@@ -15235,7 +15824,8 @@ export const chapterEdition = {
             99.71,
             17.01
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ram-khamhaeng.png",
+          "bubble": "タイ文字を制定しスコータイ朝の最盛期を現出！",
           "kind": "prop",
           "size": 42
         },
@@ -15245,7 +15835,8 @@ export const chapterEdition = {
             99.71,
             17.01
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/ram-khamhaeng.png",
+          "bubble": "タイ文字を制定しスコータイ朝の最盛期を現出！",
           "kind": "prop",
           "size": 42
         }
@@ -15367,7 +15958,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         }
@@ -15493,7 +16085,28 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "クビライ",
+          "at": [
+            116.4,
+            39.9
+          ],
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
+          "action": "battle"
+        },
+        {
+          "name": "ウィジャヤ",
+          "at": [
+            112.38,
+            -7.55
+          ],
+          "image": "ancient/raden-wijaya.png",
+          "bubble": "元の侵略軍を撃退しマジャパヒト王国を創始！",
+          "action": "battle"
+        }
+      ],
       "props": [
         {
           "name": "クビライ",
@@ -15501,7 +16114,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/kublai-khan.png",
+          "bubble": "大元ウルスを創始し大都へ遷都！南宋を滅ぼす！",
           "kind": "prop",
           "size": 42
         },
@@ -15511,21 +16125,22 @@ export const chapterEdition = {
             112.38,
             -7.55
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/raden-wijaya.png",
+          "bubble": "元の侵略軍を撃退しマジャパヒト王国を創始！",
           "kind": "prop",
           "size": 42
         }
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 3200,
       "facts": [
         "ジャワ遠征とマジャパヒト王国"
       ],
       "mapHeading": "ジャワ遠征とマジャパヒト王国",
       "focus": "ジャワ遠征とマジャパヒト王国",
       "before": "ジャワ遠征とマジャパヒト王国",
-      "after": "ジャワ遠征とマジャパヒト王国",
+      "after": "元軍撃退とマジャパヒト王国建国",
       "note": "",
       "takeaway": ""
     }
@@ -15679,7 +16294,8 @@ export const chapterEdition = {
             118.8,
             32
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zheng-he.png",
+          "bubble": "大宝船隊を率い南海・インド洋・アフリカへ7度の大遠征！",
           "kind": "prop",
           "size": 42
         },
@@ -15689,7 +16305,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongle-emperor.png",
+          "bubble": "北京へ遷都し紫禁城を造営！鄭和の南海遠征を断行！",
           "kind": "prop",
           "size": 42
         }
@@ -15852,7 +16469,8 @@ export const chapterEdition = {
             102.25,
             2.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/albuquerque-conqueror.png",
+          "bubble": "ポルトガル艦隊を率いてマラッカを占領！",
           "kind": "prop",
           "size": 42
         }
@@ -16020,7 +16638,8 @@ export const chapterEdition = {
             99.96,
             8.43
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yamada-nagamasa.png",
+          "bubble": "アユタヤ朝の日本人町頭領として王室で重用される！",
           "kind": "prop",
           "size": 42
         }
@@ -16278,7 +16897,8 @@ export const chapterEdition = {
             95.9,
             22.2
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/alaungpaya-king.png",
+          "bubble": "コンバウン朝を開きビルマを再統一！",
           "kind": "prop",
           "size": 42
         },
@@ -16288,7 +16908,8 @@ export const chapterEdition = {
             100.5,
             13.76
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/rama1-king.png",
+          "bubble": "バンコクを都としラタナコーシン朝を開く！",
           "kind": "prop",
           "size": 42
         },
@@ -16298,7 +16919,8 @@ export const chapterEdition = {
             100.5,
             13.76
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/rama1-king.png",
+          "bubble": "バンコクを都としラタナコーシン朝を開く！",
           "kind": "prop",
           "size": 42
         }
@@ -16458,7 +17080,8 @@ export const chapterEdition = {
             116.4,
             39.9
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/yongle-emperor.png",
+          "bubble": "北京へ遷都し紫禁城を造営！鄭和の南海遠征を断行！",
           "kind": "prop",
           "size": 42
         },
@@ -16468,7 +17091,8 @@ export const chapterEdition = {
             105.85,
             21.03
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/le-loi.png",
+          "bubble": "明軍をベトナムから撃退し黎朝を創始！",
           "kind": "prop",
           "size": 42
         },
@@ -16478,7 +17102,8 @@ export const chapterEdition = {
             120.2,
             23
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/zheng-chenggong.png",
+          "bubble": "オランダ人を台湾から駆逐し「滅満興漢」の拠点を築く！",
           "kind": "prop",
           "size": 42
         }
@@ -16618,7 +17243,8 @@ export const chapterEdition = {
             107.59,
             16.46
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/nguyen-phuc-anh.png",
+          "bubble": "西山の乱を平定しベトナム全土を統一、阮朝を開く！",
           "kind": "prop",
           "size": 42
         },
@@ -16628,7 +17254,8 @@ export const chapterEdition = {
             100.5,
             13.76
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/rama1-king.png",
+          "bubble": "バンコクを都としラタナコーシン朝を開く！",
           "kind": "prop",
           "size": 42
         },
@@ -16638,7 +17265,8 @@ export const chapterEdition = {
             107.59,
             16.46
           ],
-          "image": "ancient/person.svg",
+          "image": "ancient/pigneaux-bishop.png",
+          "bubble": "フランス宣教師、阮福映のベトナム統一を援助！",
           "kind": "prop",
           "size": 42
         }

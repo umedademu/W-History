@@ -46,7 +46,18 @@ for(const v of chapterSeries){assert.equal(v.chapter,5);assert.match(v.id,/^c05-
   const text=s.plainBody.join('');assert.ok(text.length>=100,'導入や結論の一文だけのページにしない');assert.ok(!/[（「『]$/.test(text),'括弧の途中で改ページしない');
   const items=sceneMapItems(s,chapterPlaces),required=chapterNamesInText(s.title+'。'+text);for(const e of required){const item=items.find(x=>x.text===e.name);assert.ok(item,s.id+': '+e.name);assert.deepEqual(item.at,e.points[0]);}
   assert.ok(s.frame.every(Number.isFinite));assert.ok(s.frame[2]>s.frame[0]&&s.frame[3]>s.frame[1]);for(const item of items)assert.ok(item.at.length===2&&item.at.every(Number.isFinite));
-  for(const prop of s.props)assert.ok(fs.existsSync(path.join(root,'public/images',prop.image)));
+  for(const prop of s.props){
+    assert.ok(!prop.image.endsWith('.svg'), s.id + ': prop using SVG: ' + prop.image);
+    assert.ok(prop.image.endsWith('.png'), s.id + ': prop not PNG: ' + prop.image);
+    assert.ok(prop.bubble, s.id + ': prop missing bubble: ' + prop.name);
+    assert.ok(fs.existsSync(path.join(root,'public/images',prop.image)), s.id + ': prop image not found: ' + prop.image);
+  }
+  for(const act of s.actors){
+    assert.ok(!act.image.endsWith('.svg'), s.id + ': actor using SVG: ' + act.image);
+    assert.ok(act.image.endsWith('.png'), s.id + ': actor not PNG: ' + act.image);
+    assert.ok(fs.existsSync(path.join(root,'public/images',act.image)), s.id + ': actor image not found: ' + act.image);
+    assert.ok(text.includes(act.name), s.id + ': actor name not in text: ' + act.name);
+  }
  }
 }
 assert.equal(paragraphIndex,paragraphs.length);assert.equal(offset,0);assert.equal(pageIndex,reading.length);
