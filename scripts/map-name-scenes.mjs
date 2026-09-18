@@ -6,7 +6,9 @@ import { characterScenes } from "../public/timur-characters.js";
 import { pages } from "../public/ottoman-pages.js";
 import { entities, positionFor } from "../public/ottoman-storyboard.js";
 export async function loadMapNameScenes() {
-  const chapters = [];
+  const {ancientEdition,ancientPlaces}=await import('../public/ancient-edition.js');
+  const {sceneMapItems}=await import('../public/map-name-coverage.js');
+  const chapters = Object.entries(ancientEdition).map(([name,scenes])=>({name,scenes:scenes.map(scene=>({...scene,mapItems:sceneMapItems(scene,ancientPlaces)}))}));
   for (const name of ["islam-origin", "umayyad-abbasid", "regional-dynasties", "timur-after", "safavid", "mughal", "islamic-culture"]) {
     const m = await import(`../public/${name}-scenes.js`);
     const places = m.places ?? m.locations;

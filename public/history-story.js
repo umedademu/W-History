@@ -1,11 +1,11 @@
-import { initialPageIndex } from "./story-volumes.js?v=0.064";
-import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.064";
+import { initialPageIndex } from "./story-volumes.js?v=0.066";
+import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.066";
 import { maximumMapScale } from "./map-camera.js?v=0.064";
 import { createMapLayout } from "./map-layout.js?v=0.064";
 
-export function mountStory({ places, zones, scenes, imageDirectory, chapterNavigation }) {
+export function mountStory({ places, zones, scenes, imageDirectory, chapterNavigation, baseMap }) {
 const NS = "http://www.w3.org/2000/svg";
-const project = ([lon, lat]) => [(lon + 18) * 14, (55 - lat) * 14];
+const project = baseMap?.project ?? (([lon, lat]) => [(lon + 18) * 14, (55 - lat) * 14]);
 const clamp = (n, a = 0, b = 1) => Math.max(a, Math.min(b, n));
 const byId = id => document.getElementById(id);
 const map = byId("story-map"), reduced = matchMedia("(prefers-reduced-motion: reduce)");
@@ -29,7 +29,7 @@ function geometry(scene, width, height) {
   return { scale, x, y, toScreen: p => { const q = project(p); return [q[0] * scale + x, q[1] * scale + y]; } };
 }
 
-const resolveImg = key => key.includes("/") ? `/images/${key}.png` : `/images/${imageDirectory}/${key}.png`;
+const resolveImg = key => `/images/${key.includes('/') ? key : `${imageDirectory}/${key}`}${/\.(svg|png)$/.test(key) ? '' : '.png'}`;
 
 function drawMap(scene) {
   if(map.dataset.scene !== scene.id) map.style.minHeight = "";
@@ -45,8 +45,13 @@ function drawMap(scene) {
     svg("desc", { id: "map-description" }, `${scene.before}。${scene.after}。${scene.pins.map(k => places[k].name).join("、")}を地図で示します。`)
   );
 
-  const base = svg("image", { href: "/islamic-world-map.svg?v=0.006", x, y, width: 1960 * scale, height: 1134 * scale });
+  const base = svg("image", { href: baseMap?.href ?? "/islamic-world-map.svg?v=0.006", x, y, width: (baseMap?.width ?? 1960) * scale, height: (baseMap?.height ?? 1134) * scale });
   map.append(base);
+
+  for (const river of scene.rivers ?? []) {
+    map.append(svg('polyline', {points:river.points.map(p=>toScreen(p).join(',')).join(' '),
+      fill:'none',stroke:'#52869b','stroke-width':1.5,'stroke-linejoin':'round',class:'history-river'}));
+  }
 
   const regions = svg("g", { class: "history-regions" });
   map.append(regions);
@@ -57,6 +62,7 @@ function drawMap(scene) {
   }
 
   for (const [p, text] of [[[24, 34.5], "地中海"], [[35, 43.5], "黒海"], [[37.5, 23.5], "紅海"], [[50, 27], "ペルシア湾"]]) {
+    if (scene.tags.some(tag=>tag.text===text)) continue;
     if (!(scene.title + scene.body.join("")).includes(text)) continue;
     const [sx, sy] = toScreen(p);
     if (sx > 40 && sx < width - 40 && sy > 32 && sy < height - 40) {

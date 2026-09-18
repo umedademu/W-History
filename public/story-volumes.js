@@ -1,6 +1,8 @@
-// 書籍の第6章・第20回と第21回の目次に合わせた公開教材。
+import {ancientSeries} from './ancient-volumes.js?v=0.066';
+// 書籍の第1章・第6章の目次に合わせた公開教材。
 // 原文照合用の区分と場面は保持し、表示時に同じ節の内容をつなぐ。
 export const series = [
+  ...ancientSeries,
   { id: "islam-origin", label: "イスラーム教の成立〜正統カリフ時代", number: "01", lesson: 20, part: 1, sections: ["islam-origin"] },
   { id: "umayyad-abbasid", label: "ウマイヤ朝とアッバース朝", number: "02", lesson: 20, part: 2, sections: ["umayyad-abbasid"] },
   { id: "regional-dynasties", label: "3カリフの並立とイスラーム世界の変容", number: "03", lesson: 20, part: 3, sections: ["regional-dynasties", "seljuq"] },

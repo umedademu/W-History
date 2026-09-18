@@ -1,5 +1,6 @@
 // 原文本文と画像で確認した装飾。scripts/build-source-edition.mjs から生成。
-export const sourceEdition = {
+import {ancientEdition} from "./ancient-edition.js?v=0.066";
+const islamicEdition = {
   "islam-origin": [
     {
       "zones": [
@@ -11670,3 +11671,4 @@ export const sourceEdition = {
     }
   ]
 };
+export const sourceEdition = {...ancientEdition,...islamicEdition};

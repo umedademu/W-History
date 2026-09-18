@@ -1,13 +1,27 @@
 # W-History
 
-地図と物語で世界史の流れを学ぶ、クリックで進む紙芝居教材です。現在の版は **v0.065** です。
+地図と物語で世界史の流れを学ぶ、クリックで進む紙芝居教材です。現在の版は **v0.066** です。
 
 公開先：**https://w-history-one.vercel.app**
 
 保存先：https://github.com/umedademu/W-History
 
+番号は章ごとに付けています。第1〜3回が第1章、第20〜21回が第6章です。
+
 | 番号 | 回・節 | 教材 | ページ数 | ページ |
 | --- | --- | --- | ---: | --- |
+| 01 | 第1回・1 | 古代オリエント世界の特徴 | 4 | /orient-geography-story.html |
+| 02 | 第1回・2 | メソポタミア文明 | 14 | /mesopotamia-story.html |
+| 03 | 第1回・3 | エジプト文明 | 24 | /ancient-egypt-story.html |
+| 04 | 第1回・4 | オリエントの文化 | 2 | /orient-culture-story.html |
+| 05 | 第2回・1 | 地中海東岸のセム語系民族 | 13 | /levant-peoples-story.html |
+| 06 | 第2回・2 | アッシリアと4国分立時代 | 10 | /assyria-story.html |
+| 07 | 第2回・3 | アケメネス朝ペルシアのオリエント統一 | 13 | /achaemenid-story.html |
+| 08 | 第2回・4 | パルティアとササン朝 | 15 | /parthia-sasanian-story.html |
+| 09 | 第3回・1 | インダス文明 | 5 | /indus-story.html |
+| 10 | 第3回・2 | 古代インド世界の形成 | 22 | /vedic-india-story.html |
+| 11 | 第3回・3 | 北インドの王朝の変遷 | 48 | /north-india-story.html |
+| 12 | 第3回・4 | 南インドの展開 | 12 | /south-india-story.html |
 | 01 | 第20回・1 | イスラーム教の成立〜正統カリフ時代 | 22 | /islam-origin-story.html |
 | 02 | 第20回・2 | ウマイヤ朝とアッバース朝 | 19 | /umayyad-abbasid-story.html |
 | 03 | 第20回・3 | 3カリフの並立とイスラーム世界の変容 | 16 | /regional-dynasties-story.html |
@@ -42,11 +56,13 @@ node scripts/serve.mjs
 
 ## 地図の名称を確認する
 
-`npm ci` 後、`npm run check:browser` で全155ページをパソコン幅と携帯幅で確認します。インストール済みのChromeまたはEdgeを使用します。他の場所の実行ファイルは `W_HISTORY_BROWSER` で指定できます。音声の再生は検査開始前に無効化します。詳しくは [名称の表示確認](docs/map-name-coverage.md) を参照してください。
+`npm ci` 後、`npm run check:browser` で第6章の全155ページをパソコン幅と携帯幅で確認します。第1章の全182ページは `npm run check:ancient:browser` で確認します。インストール済みのChromeまたはEdgeを使用します。他の場所の実行ファイルは `W_HISTORY_BROWSER` で指定できます。音声の再生は検査開始前に無効化します。詳しくは [名称の表示確認](docs/map-name-coverage.md) を参照してください。
 
 ## 原文本文と装飾
 
-全9教材の本文は原文の文章と順序を保ち、囲み・図表・年号まとめの文章化による重複を除いています。原画像の赤太字と黒太字を別の強調にし、画像で確認した読み仮名も表示します。
+第1章「オリエント・インドの古代文明」を目次どおり第1〜3回各4パート、合計182ページで収録しました。第6章と合わせて全21パート・337ページです。第1章は原文本文161段落をそのまま掲載し、独立したまとめ・比較表・年号欄などを省いています。書き起こしにある太字を再現し、色と読み仮名は追加していません。掲載範囲・地図・検査については [第1章の対応記録](docs/ancient-orient/README.md) を参照してください。
+
+第6章の全9教材の本文は原文の文章と順序を保ち、囲み・図表・年号まとめの文章化による重複を除いています。原画像の赤太字と黒太字を別の強調にし、画像で確認した読み仮名も表示します。
 
 本文と装飾の対応記録は [原文の再現方針](docs/source-edition/README.md)。再生成は `npm run build:source`、全文と装飾の画面確認は `npm run check:source:browser` です。旧版は利用者の指示により削除済みで、既存の本文・画像照合記録を使って検査します。書き起こしは全30回を各回1ファイルで、番号と日本語の章名を付けたフォルダに保管しています。番号と書籍の日本語の題名で整理した[全30ファイルの一覧](docs/source-consolidation.md)から参照できます。
 

@@ -10,9 +10,10 @@ const audits=[];
 for(const file of await fs.readdir(new URL('../docs/source-edition/',import.meta.url)))if(/^decoration-\d+\.json$/.test(file))audits.push(await read('docs/source-edition/'+file));
 const annotations=audits.flatMap(a=>a.paragraphs);
 const decode=s=>plainText(s).replaceAll('&quot;','"').replaceAll('&gt;','>').replaceAll('&lt;','<').replaceAll('&amp;','&');
-assert.equal(Object.keys(sourceEdition).length,14);
-assert.equal(Object.values(sourceEdition).flat().length,155);
-assert.equal(new Set(Object.values(sourceEdition).flat().map(s=>s.id)).size,155);
+const islamicEdition=Object.fromEntries(Object.entries(sourceEdition).filter(([,scenes])=>scenes[0].sourceText.chapter!==1));
+assert.equal(Object.keys(islamicEdition).length,14);
+assert.equal(Object.values(islamicEdition).flat().length,155);
+assert.equal(new Set(Object.values(islamicEdition).flat().map(s=>s.id)).size,155);
 for(const p of paragraphs){
   const pages=sourceEdition[p.volume].filter(s=>s.sourceText.paragraph===p.id);
   let offset=0;
@@ -37,7 +38,7 @@ for(const p of paragraphs){
     assert.equal(review.paragraphs.find(x=>x.id===p.id)?.transcription,p.text);
   }
 }
-for(const [id,scenes] of Object.entries(sourceEdition)){
+for(const [id,scenes] of Object.entries(islamicEdition)){
   assert.deepEqual(scenes.map(s=>s.id),plans.filter(p=>p.volume===id).map(p=>p.id));
   for(const s of scenes){
     assert.ok(s.body.length&&s.title&&s.sourceText);

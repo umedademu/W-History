@@ -24,7 +24,7 @@ try{
  for(const width of [1280,390]){
   await page.setViewportSize({width,height:900});
   await page.goto(base);
-  assert.equal(await page.locator('.story-card').count(),9);
+  assert.equal(await page.locator('.story-card').count(),21);
   assert.equal(await page.locator('.lesson-group[aria-labelledby=lesson-20] .story-card').count(),4);
   assert.equal(await page.locator('.lesson-group[aria-labelledby=lesson-21] .story-card').count(),5);
   assert.deepEqual(await page.locator('.card-body h3').allTextContents(),series.map(s=>s.label));
@@ -35,7 +35,7 @@ try{
    await page.locator(`.story-card[href="/${s.id}-story.html"]`).click();
    await page.waitForSelector('button[data-scene]');
    assert.equal(new URL(page.url()).search,'');
-   assert.equal(await page.locator('.story-series-links a').count(),9);
+   assert.equal(await page.locator('.story-series-links a').count(),s.chapter===1?12:9);
    assert.equal(await page.locator('.story-series-links [aria-current=page]').textContent(),`${s.number} ${s.label}`);
    assert.equal(await page.locator('.reading-chapter,.chapter-end').count(),0);
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
@@ -105,6 +105,6 @@ try{
   }
  }
  assert.deepEqual(errors,[]);
- console.log('9教材の一覧・専用ページ・下部の番号と移動先、統合箇所の前後移動・旧入口からの転送・再読込・末尾を幅1280と390で確認しました。');
+ console.log('21教材の一覧・専用ページ・下部の番号と移動先、統合箇所の前後移動・旧入口からの転送・再読込・末尾を幅1280と390で確認しました。');
  console.log('確認画像: '+output);
 }finally{await browser?.close();server.kill();}

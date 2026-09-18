@@ -1,4 +1,5 @@
 import { mapNameCatalog } from "./map-name-catalog.js?v=0.064";
+import { ancientNamesInText } from "./ancient-geography.js?v=0.066";
 
 export const plainText = value => String(value ?? "").replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g, "").replace(/<[^>]*>/g, "");
 export const normalizeMapName = value => plainText(value).replace(/[\s＝=・『』「」]/g, "");
@@ -18,7 +19,7 @@ const localAnchors={
 };
 export function mapNamePlan(scene, mapItems) {
   const narrative = plainText([scene.title,...(scene.plainBody??scene.body)].join("。"));
-  const required = namesInText(narrative);
+  const required = scene.sourceText?.chapter === 1 ? ancientNamesInText(narrative) : namesInText(narrative);
   // title・desc・非表示の見どころ欄は、地図上の表示には数えない。
   const shown = mapItems.map(item=>normalizeMapName(mapDisplayName(item.text,scene)));
   const missing = required.filter(entry=>!shown.some(text=>text.includes(entry.key)));
