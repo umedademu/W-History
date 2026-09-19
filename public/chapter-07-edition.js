@@ -82,7 +82,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "そもそも「ルネサンス」ってなんだろう？"
       ],
@@ -178,7 +178,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "そもそも「ルネサンス」ってなんだろう？"
       ],
@@ -320,7 +320,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "いち早くルネサンスが花開いたフィレンツェ！"
       ],
@@ -498,7 +498,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "いち早くルネサンスが花開いたフィレンツェ！"
       ],
@@ -705,7 +705,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イタリア＝ルネサンスの最盛期と、その終焉"
       ],
@@ -836,7 +836,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イタリア＝ルネサンスの最盛期と、その終焉"
       ],
@@ -976,7 +976,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "経済力を背景に、ネーデルラントでもルネサンスが始まった！"
       ],
@@ -1132,7 +1132,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ドイツでは、宗教改革の影響もあって聖書の原典研究が進んだ！"
       ],
@@ -1311,7 +1311,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イングランドでは国民文学が発達！"
       ],
@@ -1413,7 +1413,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "フランスでは、宮廷を中心にルネサンスが発展！"
       ],
@@ -1514,7 +1514,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "スペインのルネサンス"
       ],
@@ -1602,7 +1602,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "教会の権威が揺らぎ、新しい世界観や科学技術が現れた！"
       ],
@@ -1740,7 +1740,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "教会の権威が揺らぎ、新しい世界観や科学技術が現れた！"
       ],
@@ -1907,7 +1907,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "アジアへの関心が高まり、ヨーロッパが新たな海外進出を開始！"
       ],
@@ -2033,7 +2033,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "東回りでインドを目指したポルトガルが、いち早くインドに到達！"
       ],
@@ -2116,7 +2116,38 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
+      "actors": [
+        {
+          "name": "ヴァスコ＝ダ＝ガマ",
+          "at": [
+            75.78,
+            11.26
+          ],
+          "image": "ancient/vasco-da-gama.png",
+          "bubble": "インド洋を越えてカリカットへ到達！インド航路を開拓！",
+          "action": "sail",
+          "route": 1,
+          "offset": [
+            25,
+            0
+          ]
+        },
+        {
+          "name": "バルトロメウ＝ディアス",
+          "at": [
+            -9.14,
+            38.72
+          ],
+          "image": "ancient/bartolomeu-dias.png",
+          "bubble": "アフリカ南端の喜望峰に到達！",
+          "action": "sail",
+          "route": 0,
+          "offset": [
+            -25,
+            0
+          ]
+        }
+      ],
       "props": [
         {
           "name": "ジョアン2世",
@@ -2130,17 +2161,6 @@ export const chapterEdition = {
           "size": 42
         },
         {
-          "name": "バルトロメウ＝ディアス",
-          "at": [
-            -9.14,
-            38.72
-          ],
-          "image": "ancient/bartolomeu-dias.png",
-          "bubble": "アフリカ南端の喜望峰に到達！",
-          "kind": "prop",
-          "size": 42
-        },
-        {
           "name": "マヌエル1世",
           "at": [
             -9.14,
@@ -2148,17 +2168,6 @@ export const chapterEdition = {
           ],
           "image": "ancient/ch7-p-7bb746.png",
           "bubble": "マヌエル1世",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "ヴァスコ＝ダ＝ガマ",
-          "at": [
-            75.78,
-            11.26
-          ],
-          "image": "ancient/vasco-da-gama.png",
-          "bubble": "インド洋を越えてカリカットへ到達！インド航路を開拓！",
           "kind": "prop",
           "size": 42
         }
@@ -2232,7 +2241,7 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3400,
       "facts": [
         "東回りでインドを目指したポルトガルが、いち早くインドに到達！"
       ],
@@ -2416,7 +2425,7 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3200,
       "facts": [
         "東回りでインドを目指したポルトガルが、いち早くインドに到達！"
       ],
@@ -2597,7 +2606,7 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3200,
       "facts": [
         "ポルトガルは、さらに南シナ海・東シナ海にまで進出！"
       ],
@@ -2684,7 +2693,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "ポルトガルは、さらに南シナ海・東シナ海にまで進出！"
       ],
@@ -2818,7 +2827,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "スペインのアメリカ大陸進出は、コロンブスの「発見？」からだ！"
       ],
@@ -2965,8 +2974,7 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "コロンブス",
           "at": [
@@ -2975,9 +2983,15 @@ export const chapterEdition = {
           ],
           "image": "ancient/columbus-explorer.png",
           "bubble": "大西洋を西航しサンサルバドル島に到達！",
-          "kind": "prop",
-          "size": 42
-        },
+          "action": "sail",
+          "route": 0,
+          "offset": [
+            20,
+            0
+          ]
+        }
+      ],
+      "props": [
         {
           "name": "ヘンリ7世",
           "at": [
@@ -3042,7 +3056,7 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3400,
       "facts": [
         "スペインのアメリカ大陸進出は、コロンブスの「発見？」からだ！"
       ],
@@ -3169,7 +3183,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "「この大陸はアジアではない！」。そして、世界周航も実現"
       ],
@@ -3332,7 +3346,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "「この大陸はアジアではない！」。そして、世界周航も実現"
       ],
@@ -3515,7 +3529,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "「この大陸はアジアではない！」。そして、世界周航も実現"
       ],
@@ -3661,7 +3675,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "スペインの征服者たちが、アメリカ大陸の社会を破壊した！"
       ],
@@ -3802,7 +3816,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "スペインの征服者たちが、アメリカ大陸の社会を破壊した！"
       ],
@@ -3896,7 +3910,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "スペインの征服者たちが、アメリカ大陸の社会を破壊した！"
       ],
@@ -4037,7 +4051,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "商業革命——ヨーロッパの国際商業の中心が大西洋沿岸へ"
       ],
@@ -4231,7 +4245,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "商業革命——ヨーロッパの国際商業の中心が大西洋沿岸へ"
       ],
@@ -4309,7 +4323,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "価格革命——物価の上昇で封建領主は没落、市民階級は成長！"
       ],
@@ -4427,7 +4441,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "価格革命——物価の上昇で封建領主は没落、市民階級は成長！"
       ],
@@ -4617,7 +4631,7 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3200,
       "facts": [
         "価格革命——物価の上昇で封建領主は没落、市民階級は成長！"
       ],
@@ -4794,7 +4808,7 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "商工業が衰退した東欧では、領主たちがグーツヘルシャフトを拡大！"
       ],
@@ -4879,7 +4893,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "宗教改革前夜のドイツ。教会に搾取される「ローマの乳牛」だ！"
       ],
@@ -5032,7 +5046,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "宗教改革前夜のドイツ。教会に搾取される「ローマの乳牛」だ！"
       ],
@@ -5112,7 +5126,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ルターが「95か条の論題」で贖宥状販売を批判！"
       ],
@@ -5221,7 +5235,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ルターが「95か条の論題」で贖宥状販売を批判！"
       ],
@@ -5316,7 +5330,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ルターが「95か条の論題」で贖宥状販売を批判！"
       ],
@@ -5447,7 +5461,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "皇帝カール5世がルターを弾圧し、宗教改革は政治問題に発展！"
       ],
@@ -5585,7 +5599,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "さまざまな敵が皇帝カール5世を悩ませた！"
       ],
@@ -5827,7 +5841,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "さまざまな敵が皇帝カール5世を悩ませた！"
       ],
@@ -5932,7 +5946,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "騎士戦争、ドイツ農民戦争……次々と起こる国内問題"
       ],
@@ -6047,7 +6061,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ルター派諸侯と皇帝の対立は、内戦にまで発展！"
       ],
@@ -6135,7 +6149,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ルター派諸侯と皇帝の対立は、内戦にまで発展！"
       ],
@@ -6250,7 +6264,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ルター派諸侯と皇帝の対立は、内戦にまで発展！"
       ],
@@ -6369,7 +6383,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "カルヴァンよりも前に、チューリヒでツヴィングリが改革を開始！"
       ],
@@ -6454,7 +6468,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ジュネーヴの改革運動にカルヴァンが招かれた！"
       ],
@@ -6524,7 +6538,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "カルヴァンの予定説"
       ],
@@ -6583,7 +6597,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "予定説と禁欲的な職業倫理"
       ],
@@ -6653,7 +6667,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "カルヴァン派と資本主義"
       ],
@@ -6783,7 +6797,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "国王ヘンリ8世の離婚問題から、イギリス国教会成立！"
       ],
@@ -6907,7 +6921,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "国王ヘンリ8世の離婚問題から、イギリス国教会成立！"
       ],
@@ -7030,7 +7044,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "修道院の解散と王権の強化"
       ],
@@ -7106,7 +7120,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "もっと儲けたいジェントリたちが、「囲い込み」を進めた！"
       ],
@@ -7251,7 +7265,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イギリスの宗教的混乱。“血のメアリ”がカトリックを復活！"
       ],
@@ -7389,7 +7403,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "エリザベス1世がイギリス国教会を再建し、絶対王政を確立！"
       ],
@@ -7483,7 +7497,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "エリザベス1世の経済政策"
       ],
@@ -7636,7 +7650,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "エリザベス1世の対外政策——基本政策は反スペインだ！"
       ],
@@ -7759,21 +7773,15 @@ export const chapterEdition = {
           ],
           "image": "ancient/elizabeth1-tudor.png",
           "bubble": "私は国と結婚した。無敵艦隊を打ち破れ！",
-          "action": "cheer"
+          "action": "cheer",
+          "route": 1,
+          "offset": [
+            28,
+            0
+          ]
         }
       ],
       "props": [
-        {
-          "name": "エリザベス1世",
-          "at": [
-            -0.13,
-            51.51
-          ],
-          "image": "ancient/elizabeth1-tudor.png",
-          "bubble": "統一法でイギリス国教会を確立しアルマダを撃破！",
-          "kind": "prop",
-          "size": 42
-        },
         {
           "name": "ドレーク",
           "at": [
@@ -7797,7 +7805,50 @@ export const chapterEdition = {
           "size": 42
         }
       ],
-      "routes": [],
+      "routes": [
+        {
+          "kind": "rival",
+          "points": [
+            [
+              -8.5,
+              43.5
+            ],
+            [
+              -5,
+              48.5
+            ],
+            [
+              -1.5,
+              50.2
+            ],
+            [
+              1.5,
+              51
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        },
+        {
+          "kind": "campaign",
+          "points": [
+            [
+              -4.1,
+              50.4
+            ],
+            [
+              -1,
+              50.6
+            ],
+            [
+              1.2,
+              51.1
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        }
+      ],
       "rivers": [],
       "duration": 3400,
       "facts": [
@@ -7877,7 +7928,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "最後に、イギリスの絶対王政の特徴をまとめておこう！"
       ],
@@ -7991,7 +8042,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "新教の拡大って、歴史的にどんな意味があるんだろう？"
       ],
@@ -8108,7 +8159,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "カトリックの内部改革と新教への反撃、「対抗宗教改革」が始まった！"
       ],
@@ -8320,7 +8371,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "異端への攻撃と海外伝道……厳格な規律のイエズス会が活躍した！"
       ],
@@ -8379,7 +8430,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "近世ヨーロッパで形成された「主権国家」ってなんだろう？"
       ],
@@ -8448,7 +8499,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "近世ヨーロッパで形成された「主権国家」ってなんだろう？"
       ],
@@ -8612,7 +8663,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イタリア戦争は、ハプスブルク家とヴァロワ家の壮絶な覇権争い！"
       ],
@@ -8859,7 +8910,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イタリア戦争は、ハプスブルク家とヴァロワ家の壮絶な覇権争い！（続き）"
       ],
@@ -8949,7 +9000,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "イタリア戦争は主権国家体制が形成されるきっかけだ！"
       ],
@@ -9018,7 +9069,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "「主権国家体制」がつくられるなかで、絶対王政が出現した！"
       ],
@@ -9139,7 +9190,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "「主権国家体制」がつくられるなかで、絶対王政が出現した！"
       ],
@@ -9315,7 +9366,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "対抗宗教改革を進めたフェリペ2世は、父の敵を討った！"
       ],
@@ -9400,21 +9451,15 @@ export const chapterEdition = {
           ],
           "image": "ancient/philip2-spain.png",
           "bubble": "太陽の沈まぬ帝国！カトリックを守護する！",
-          "action": "command"
+          "action": "command",
+          "route": 0,
+          "offset": [
+            -28,
+            0
+          ]
         }
       ],
       "props": [
-        {
-          "name": "フェリペ2世",
-          "at": [
-            -3.7,
-            40.42
-          ],
-          "image": "ancient/philip2-spain.png",
-          "bubble": "太陽の沈まぬ帝国！レパント海戦に勝利しポルトガルを併合！",
-          "kind": "prop",
-          "size": 42
-        },
         {
           "name": "カルロス1世",
           "at": [
@@ -9438,9 +9483,44 @@ export const chapterEdition = {
           "size": 42
         }
       ],
-      "routes": [],
+      "routes": [
+        {
+          "kind": "campaign",
+          "points": [
+            [
+              15.5,
+              38.2
+            ],
+            [
+              18,
+              38.3
+            ],
+            [
+              21.3,
+              38.35
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        },
+        {
+          "kind": "rival",
+          "points": [
+            [
+              23,
+              38.4
+            ],
+            [
+              21.8,
+              38.39
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        }
+      ],
       "rivers": [],
-      "duration": 3200,
+      "duration": 3400,
       "facts": [
         "対抗宗教改革を進めたフェリペ2世は、父の敵を討った！"
       ],
@@ -9629,7 +9709,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "フェリペ2世時代のスペインは「太陽の沈まぬ国」になった！"
       ],
@@ -9724,7 +9804,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "フェリペ2世時代のスペインは「太陽の沈まぬ国」になった！"
       ],
@@ -9905,7 +9985,7 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "いろいろな面で異なるネーデルラントの「北部」と「南部」"
       ],
@@ -9983,7 +10063,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "フェリペ2世の「対抗宗教改革」と「重税」に反発、独立戦争が始まった！"
       ],
@@ -10102,7 +10182,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "フェリペ2世の「対抗宗教改革」と「重税」に反発、独立戦争が始まった！"
       ],
@@ -10247,7 +10327,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "フェリペ2世の「対抗宗教改革」と「重税」に反発、独立戦争が始まった！"
       ],
@@ -10328,7 +10408,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "フェリペ2世の「対抗宗教改革」と「重税」に反発、独立戦争が始まった！"
       ],
@@ -10417,7 +10497,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "17世紀初めには事実上独立して、対外進出を開始！"
       ],
@@ -10486,7 +10566,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "17世紀初めには事実上独立して、対外進出を開始！"
       ],
@@ -10681,7 +10761,7 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3200,
       "facts": [
         "香辛料貿易、中国貿易、日本貿易……アジア貿易を固めたオランダ！"
       ],
@@ -10801,7 +10881,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "香辛料貿易、中国貿易、日本貿易……アジア貿易を固めたオランダ！"
       ],
@@ -10952,7 +11032,7 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3200,
       "facts": [
         "香辛料貿易、中国貿易、日本貿易……アジア貿易を固めたオランダ！"
       ],
@@ -11108,7 +11188,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "オランダは南北アメリカ大陸にも進出し、大西洋貿易でも繁栄！"
       ],
@@ -11177,7 +11257,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イギリスの革命は「国王と議会の対立」から起こった！"
       ],
@@ -11354,7 +11434,7 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ステュアート朝が成立すると、国王と議会の対立が始まる！"
       ],
@@ -11424,7 +11504,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "チャールズ1世が専制を強めると、ついにピューリタン革命が勃発！"
       ],
@@ -11525,7 +11605,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "チャールズ1世が専制を強めると、ついにピューリタン革命が勃発！"
       ],
@@ -11593,7 +11673,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ピューリタン革命は、対立関係をしっかりおさえよう！"
       ],
@@ -11656,21 +11736,15 @@ export const chapterEdition = {
           ],
           "image": "ancient/oliver-cromwell.png",
           "bubble": "神のために戦え！議会派の勝利を！",
-          "action": "command"
+          "action": "command",
+          "route": 0,
+          "offset": [
+            20,
+            0
+          ]
         }
       ],
       "props": [
-        {
-          "name": "クロムウェル",
-          "at": [
-            -0.13,
-            51.51
-          ],
-          "image": "ancient/oliver-cromwell.png",
-          "bubble": "鉄騎隊を率いピューリタン革命を主導、共和政を樹立！",
-          "kind": "prop",
-          "size": 42
-        },
         {
           "name": "チャールズ1世",
           "at": [
@@ -11683,7 +11757,27 @@ export const chapterEdition = {
           "size": 42
         }
       ],
-      "routes": [],
+      "routes": [
+        {
+          "kind": "campaign",
+          "points": [
+            [
+              -0.13,
+              51.51
+            ],
+            [
+              -0.5,
+              52
+            ],
+            [
+              -0.99,
+              52.41
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        }
+      ],
       "rivers": [],
       "duration": 3200,
       "facts": [
@@ -11781,7 +11875,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ピューリタン革命は、対立関係をしっかりおさえよう！"
       ],
@@ -11925,7 +12019,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "共和政にはなったものの……クロムウェルの軍事独裁となる！"
       ],
@@ -12028,7 +12122,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "共和政にはなったものの……クロムウェルの軍事独裁となる！"
       ],
@@ -12137,7 +12231,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "王政復古したものの……今度は国王がカトリック政策をとる！"
       ],
@@ -12206,7 +12300,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "王政復古したものの……今度は国王がカトリック政策をとる！"
       ],
@@ -12327,7 +12421,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ついに議会が国王の廃位を決定。無血で名誉革命が成功した！"
       ],
@@ -12432,7 +12526,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ついに議会が国王の廃位を決定。無血で名誉革命が成功した！"
       ],
@@ -12556,7 +12650,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ウィリアム3世のもとで、英仏植民地抗争が始まった！"
       ],
@@ -12669,7 +12763,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "アン女王とグレートブリテン王国"
       ],
@@ -12791,7 +12885,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ハノーヴァー朝と国王の役割"
       ],
@@ -12858,7 +12952,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ウォルポールと責任内閣制"
       ],
@@ -13025,7 +13119,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "フランスでもユグノー（カルヴァン派）が増加し、ユグノー戦争が勃発！"
       ],
@@ -13209,7 +13303,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "サンバルテルミの虐殺で内戦が激化し、しかも……ヴァロワ朝も断絶！"
       ],
@@ -13300,7 +13394,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "アンリ4世がナントの王令で宗教対立を収め、ユグノー戦争終結！"
       ],
@@ -13406,7 +13500,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "アンリ4世がナントの王令で宗教対立を収め、ユグノー戦争終結！"
       ],
@@ -13526,7 +13620,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ルイ13世を助けた宰相リシュリューが、フランスの王権を強化した！"
       ],
@@ -13671,7 +13765,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ルイ13世を助けた宰相リシュリューが、フランスの王権を強化した！"
       ],
@@ -13774,7 +13868,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ルイ13世を助けた宰相リシュリューが、フランスの王権を強化した！"
       ],
@@ -13911,7 +14005,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "幼いルイ14世を助けたマザランは、リシュリュー路線を継承！"
       ],
@@ -14046,7 +14140,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "「太陽王」ルイ14世時代が、フランス絶対王政の全盛期だ！"
       ],
@@ -14200,7 +14294,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "「太陽王」ルイ14世時代が、フランス絶対王政の全盛期だ！"
       ],
@@ -14411,7 +14505,7 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "「自然国境説」による侵略戦争が、さらにフランスの財政を圧迫！"
       ],
@@ -14548,7 +14642,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "「自然国境説」による侵略戦争が、さらにフランスの財政を圧迫！"
       ],
@@ -14771,7 +14865,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "スペイン継承戦争とユトレヒト条約"
       ],
@@ -14895,7 +14989,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ドイツでは諸侯 vs. 住民の宗教対立が続いた！"
       ],
@@ -15058,7 +15152,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ベーメンの反乱が神聖ローマ帝国全体に拡大！"
       ],
@@ -15203,7 +15297,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "三十年戦争は、ヨーロッパの覇権をめぐる国際戦争に発展！"
       ],
@@ -15347,7 +15441,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "スウェーデンの介入とリュッツェンの戦い"
       ],
@@ -15456,7 +15550,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "フランスの参戦と三十年戦争の終結"
       ],
@@ -15555,7 +15649,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "多国間の国際条約、ウェストファリア条約が結ばれた！"
       ],
@@ -15798,7 +15892,7 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "多国間の国際条約、ウェストファリア条約が結ばれた！"
       ],
@@ -15928,7 +16022,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "三十年戦争のあと、ヨーロッパはどうなったんだろう？"
       ],
@@ -16041,7 +16135,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "三十年戦争のあと、ヨーロッパはどうなったんだろう？"
       ],
@@ -16198,7 +16292,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "プロイセンは軍国的な絶対王政を築いた！"
       ],
@@ -16297,7 +16391,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "プロイセンは軍国的な絶対王政を築いた！"
       ],
@@ -16409,7 +16503,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "プロイセンを近代化したフリードリヒ2世は、啓蒙専制君主の代表だ！"
       ],
@@ -16524,7 +16618,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "三十年戦争のあと、オーストリアは東方の支配を強化した！"
       ],
@@ -16629,7 +16723,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "「女帝」ともいわれるマリア＝テレジアが、オーストリアの国力を維持！"
       ],
@@ -16770,7 +16864,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "息子ヨーゼフ2世は、あこがれのフリードリヒ2世を超えた？"
       ],
@@ -16927,7 +17021,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "マリア＝テレジアとフリードリヒ2世……宿命の対決の始まりだ！"
       ],
@@ -17077,7 +17171,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "オーストリア継承戦争で、絶体絶命のマリア＝テレジアは？"
       ],
@@ -17269,7 +17363,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "シュレジェン奪還を狙うマリア＝テレジアの秘策は「外交革命」だ！"
       ],
@@ -17401,21 +17495,15 @@ export const chapterEdition = {
           ],
           "image": "ancient/frederick2-great.png",
           "bubble": "君主は国家第一の僕である！孤軍奮闘！",
-          "action": "command"
+          "action": "command",
+          "route": 0,
+          "offset": [
+            -28,
+            0
+          ]
         }
       ],
       "props": [
-        {
-          "name": "フリードリヒ2世",
-          "at": [
-            13.41,
-            52.52
-          ],
-          "image": "ancient/frederick2-great.png",
-          "bubble": "「君主は国家第一の僕」、オーストリア継承戦争でシュレジエン獲得！",
-          "kind": "prop",
-          "size": 42
-        },
         {
           "name": "エリザヴェータ",
           "at": [
@@ -17439,9 +17527,48 @@ export const chapterEdition = {
           "size": 42
         }
       ],
-      "routes": [],
+      "routes": [
+        {
+          "kind": "campaign",
+          "points": [
+            [
+              13.41,
+              52.52
+            ],
+            [
+              15,
+              51.5
+            ],
+            [
+              16.5,
+              51
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        },
+        {
+          "kind": "rival",
+          "points": [
+            [
+              19,
+              50
+            ],
+            [
+              17.5,
+              50.8
+            ],
+            [
+              16.7,
+              51
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        }
+      ],
       "rivers": [],
-      "duration": 3200,
+      "duration": 3400,
       "facts": [
         "「ドイツの戦争」と「英仏植民地戦争」、七年戦争はどちらも壮絶だ！"
       ],
@@ -17574,7 +17701,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "七年戦争の「普 vs. 墺」と「英 vs. 仏」、それぞれの結末は？"
       ],
@@ -17717,7 +17844,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "モンゴル支配からモスクワ大公国が自立した！"
       ],
@@ -17875,7 +18002,7 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "モンゴル支配からモスクワ大公国が自立した！"
       ],
@@ -17974,7 +18101,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "モンゴル支配からモスクワ大公国が自立した！"
       ],
@@ -18142,7 +18269,7 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イヴァン4世死後の「動乱」を経て、ロマノフ朝が成立！"
       ],
@@ -18260,7 +18387,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "西欧化を進めたピョートル1世が、ロシアの絶対主義を確立！"
       ],
@@ -18334,7 +18461,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "西欧化を進めたピョートル1世が、ロシアの絶対主義を確立！"
       ],
@@ -18504,7 +18631,7 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ロシアの東方進出とネルチンスク条約"
       ],
@@ -18617,8 +18744,7 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "カール12世",
           "at": [
@@ -18626,9 +18752,13 @@ export const chapterEdition = {
             59.33
           ],
           "image": "ancient/charles12-sweden.png",
-          "bubble": "カール12世",
-          "kind": "prop",
-          "size": 42
+          "bubble": "ロシア南部に攻め入るもポルタヴァで敗北！",
+          "action": "charge",
+          "route": 0,
+          "offset": [
+            -28,
+            0
+          ]
         },
         {
           "name": "ピョートル1世",
@@ -18637,11 +18767,15 @@ export const chapterEdition = {
             59.94
           ],
           "image": "ancient/peter-great.png",
-          "bubble": "西欧化政策を進め北方戦争でバルト海への出口を獲得！",
-          "kind": "prop",
-          "size": 42
+          "bubble": "北方戦争に勝利しバルト海への出口を確保！",
+          "action": "command",
+          "offset": [
+            28,
+            0
+          ]
         }
       ],
+      "props": [],
       "routes": [
         {
           "kind": "campaign",
@@ -18668,7 +18802,7 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3400,
       "facts": [
         "北方戦争とロシア帝国の成立"
       ],
@@ -18809,7 +18943,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "クーデタで女帝エカチェリーナ2世が誕生！"
       ],
@@ -18901,7 +19035,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "啓蒙専制君主エカチェリーナ2世"
       ],
@@ -18990,7 +19124,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "プガチョフの農民反乱と農奴制"
       ],
@@ -19135,7 +19269,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "エカチェリーナ2世の対外進出"
       ],
@@ -19326,7 +19460,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ロシア・プロイセン・オーストリアのポーランド分割で、ポーランドが消滅！"
       ],
@@ -19468,7 +19602,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ロシア・プロイセン・オーストリアのポーランド分割で、ポーランドが消滅！"
       ],
@@ -19560,7 +19694,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "オランダの商業覇権が傾くと、イギリスとフランスの抗争が始まった！"
       ],
@@ -19683,7 +19817,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "オランダの商業覇権が傾くと、イギリスとフランスの抗争が始まった！"
       ],
@@ -19918,7 +20052,7 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "オランダの商業覇権が傾くと、イギリスとフランスの抗争が始まった！"
       ],
@@ -20112,7 +20246,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ヨーロッパの戦争に連動して、英仏が植民地でも戦った！"
       ],
@@ -20325,7 +20459,7 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3200,
       "facts": [
         "大西洋三角貿易が形成され、イギリスには奴隷貿易で富が蓄えられた！"
       ],
@@ -20439,7 +20573,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "大西洋三角貿易が形成され、イギリスには奴隷貿易で富が蓄えられた！"
       ],
@@ -20548,7 +20682,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "七年戦争と連動した英仏植民地戦争は、イギリスの完全勝利だ！"
       ],
@@ -20747,7 +20881,7 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "七年戦争と連動した英仏植民地戦争は、イギリスの完全勝利だ！"
       ],
@@ -20811,7 +20945,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "イギリスで最初に産業革命が始まったのはなぜだろう？"
       ],
@@ -20866,7 +21000,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "イギリスで最初に産業革命が始まったのはなぜだろう？"
       ],
@@ -20963,7 +21097,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "イギリスで最初に産業革命が始まったのはなぜだろう？"
       ],
@@ -21030,7 +21164,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イギリスで最初に産業革命が始まったのはなぜだろう？"
       ],
@@ -21109,7 +21243,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "木綿工業からイギリスの産業革命が始まった！"
       ],
@@ -21238,7 +21372,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "木綿工業からイギリスの産業革命が始まった！"
       ],
@@ -21327,7 +21461,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "木綿工業以外の分野でも、技術革新が進んだ！"
       ],
@@ -21443,7 +21577,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "木綿工業以外の分野でも、技術革新が進んだ！"
       ],
@@ -21505,7 +21639,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "産業革命によって資本主義が成立！　しかし、さまざまな問題が……"
       ],
@@ -21579,7 +21713,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "産業革命によって資本主義が成立！　しかし、さまざまな問題が……"
       ],
@@ -21662,7 +21796,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "労働問題のなかから社会主義思想も生まれた！"
       ],
@@ -21791,7 +21925,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "労働問題のなかから社会主義思想も生まれた！"
       ],
@@ -21880,7 +22014,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "北米13植民地の北部と中部"
       ],
@@ -21956,7 +22090,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "南部植民地と奴隷制プランテーション"
       ],
@@ -22032,7 +22166,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "植民地自治と有益なる怠慢"
       ],
@@ -22108,7 +22242,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "植民地戦争の勝利と本国との対立"
       ],
@@ -22184,7 +22318,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "イギリス本国は植民地に次々と課税。植民地の反発が強まった！"
       ],
@@ -22260,7 +22394,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イギリス本国は植民地に次々と課税。植民地の反発が強まった！"
       ],
@@ -22317,7 +22451,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "ボストン茶会事件をきっかけに事態は急展開。独立戦争が勃発した！"
       ],
@@ -22424,7 +22558,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ボストン茶会事件をきっかけに事態は急展開。独立戦争が勃発した！"
       ],
@@ -22541,7 +22675,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "独立宣言の発表で、イギリスとの戦いは「反乱」から「独立戦争」へ！"
       ],
@@ -22662,7 +22796,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "独立宣言の発表で、イギリスとの戦いは「反乱」から「独立戦争」へ！"
       ],
@@ -22811,7 +22945,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イギリスが国際的に孤立。ついにアメリカが勝利した！"
       ],
@@ -22944,7 +23078,12 @@ export const chapterEdition = {
           ],
           "image": "ancient/benjamin-franklin.png",
           "bubble": "パリでフランスとの同盟条約に調印成功！",
-          "action": "negotiate"
+          "action": "negotiate",
+          "route": 0,
+          "offset": [
+            -30,
+            0
+          ]
         },
         {
           "name": "ルイ16世",
@@ -22954,32 +23093,14 @@ export const chapterEdition = {
           ],
           "image": "ancient/louis16-france.png",
           "bubble": "イギリスに対抗しアメリカの独立を支援する！",
-          "action": "command"
+          "action": "command",
+          "offset": [
+            30,
+            0
+          ]
         }
       ],
       "props": [
-        {
-          "name": "フランクリン",
-          "at": [
-            -75.17,
-            39.95
-          ],
-          "image": "ancient/benjamin-franklin.png",
-          "bubble": "米仏同盟を結実させた外交官にして避雷針の発明者！",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "ルイ16世",
-          "at": [
-            2.35,
-            48.86
-          ],
-          "image": "ancient/louis16-france.png",
-          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
-          "kind": "prop",
-          "size": 42
-        },
         {
           "name": "エカチェリーナ2世",
           "at": [
@@ -22992,9 +23113,29 @@ export const chapterEdition = {
           "size": 42
         }
       ],
-      "routes": [],
+      "routes": [
+        {
+          "kind": "move",
+          "points": [
+            [
+              -75.17,
+              39.95
+            ],
+            [
+              -40,
+              44
+            ],
+            [
+              2.35,
+              48.86
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        }
+      ],
       "rivers": [],
-      "duration": 3200,
+      "duration": 3400,
       "facts": [
         "イギリスが国際的に孤立。ついにアメリカが勝利した！"
       ],
@@ -23175,7 +23316,7 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "イギリスが国際的に孤立。ついにアメリカが勝利した！"
       ],
@@ -23266,7 +23407,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "合衆国憲法を制定する際に、すでに各州の利害が対立し始めた！"
       ],
@@ -23321,7 +23462,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "合衆国憲法を制定する際に、すでに各州の利害が対立し始めた！"
       ],
@@ -23391,7 +23532,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "合衆国憲法を制定する際に、すでに各州の利害が対立し始めた！"
       ],
@@ -23472,7 +23613,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "合衆国憲法を制定する際に、すでに各州の利害が対立し始めた！"
       ],
@@ -23595,7 +23736,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "旧体制の危機。絶対王政が行き詰まり、フランスは破産寸前だ！"
       ],
@@ -23669,7 +23810,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "旧体制の危機。絶対王政が行き詰まり、フランスは破産寸前だ！"
       ],
@@ -23783,7 +23924,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ルイ16世時代の財政改革。必要なのは「特権身分への課税」だ！"
       ],
@@ -23912,7 +24053,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ついに全国三部会を招集。しかし、身分間の対立から国民議会が成立！"
       ],
@@ -23971,7 +24112,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ついに全国三部会を招集。しかし、身分間の対立から国民議会が成立！"
       ],
@@ -24048,7 +24189,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ついに全国三部会を招集。しかし、身分間の対立から国民議会が成立！"
       ],
@@ -24119,7 +24260,11 @@ export const chapterEdition = {
           ],
           "image": "ancient/louis16-france.png",
           "bubble": "なに、暴動か？……いや、これは革命です！",
-          "action": "panic"
+          "action": "panic",
+          "offset": [
+            30,
+            0
+          ]
         }
       ],
       "props": [
@@ -24157,17 +24302,6 @@ export const chapterEdition = {
           "size": 42
         },
         {
-          "name": "ルイ16世",
-          "at": [
-            2.35,
-            48.86
-          ],
-          "image": "ancient/louis16-france.png",
-          "bubble": "フランス革命の激動の中で断頭台の露と消えた国王",
-          "kind": "prop",
-          "size": 42
-        },
-        {
           "name": "ネッケル",
           "at": [
             2.35,
@@ -24190,7 +24324,27 @@ export const chapterEdition = {
           "size": 50
         }
       ],
-      "routes": [],
+      "routes": [
+        {
+          "kind": "campaign",
+          "points": [
+            [
+              2.33,
+              48.86
+            ],
+            [
+              2.35,
+              48.855
+            ],
+            [
+              2.37,
+              48.853
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        }
+      ],
       "rivers": [],
       "duration": 3200,
       "facts": [
@@ -24294,7 +24448,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "パリの民衆がバスティーユを襲撃！　焦った貴族は改革を進めた"
       ],
@@ -24384,7 +24538,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "パリの民衆がバスティーユを襲撃！　焦った貴族は改革を進めた"
       ],
@@ -24527,7 +24681,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "食糧難からパリの奥さんが立ち上がり、ヴェルサイユに殺到！"
       ],
@@ -24582,7 +24736,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "国民議会の改革と教会財産の国有化"
       ],
@@ -24699,7 +24853,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "国王一家が逃亡未遂。民衆の国王への不信感が高まり、共和派が台頭！"
       ],
@@ -24842,7 +24996,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "国王一家が逃亡未遂。民衆の国王への不信感が高まり、共和派が台頭！"
       ],
@@ -24975,7 +25129,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ジロンド派内閣がオーストリアに宣戦。しかし……「祖国は危機にあり！」"
       ],
@@ -25088,7 +25242,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "祖国の危機と義勇兵"
       ],
@@ -25193,7 +25347,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "パリ民衆と義勇兵がテュイルリー宮殿を襲撃し、ついに王権停止！"
       ],
@@ -25263,7 +25417,11 @@ export const chapterEdition = {
           ],
           "image": "ancient/johann-wolfgang-goethe.png",
           "bubble": "ここから、そしてこの日から世界史の新しい時代が始まる！",
-          "action": "speak"
+          "action": "speak",
+          "offset": [
+            -25,
+            0
+          ]
         }
       ],
       "props": [
@@ -25277,20 +25435,48 @@ export const chapterEdition = {
           "bubble": "革命期に国王一家が幽閉され8月10日事件の舞台となった宮殿！",
           "kind": "prop",
           "size": 50
-        },
-        {
-          "name": "ゲーテ",
-          "at": [
-            11.33,
-            50.98
-          ],
-          "image": "ancient/johann-wolfgang-goethe.png",
-          "bubble": "ゲーテ",
-          "kind": "prop",
-          "size": 42
         }
       ],
-      "routes": [],
+      "routes": [
+        {
+          "kind": "campaign",
+          "points": [
+            [
+              2.35,
+              48.86
+            ],
+            [
+              3.5,
+              48.9
+            ],
+            [
+              4.9,
+              49.08
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        },
+        {
+          "kind": "rival",
+          "points": [
+            [
+              6.5,
+              49.3
+            ],
+            [
+              5.5,
+              49.2
+            ],
+            [
+              5,
+              49.1
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        }
+      ],
       "rivers": [],
       "duration": 3400,
       "facts": [
@@ -25390,7 +25576,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ついにルイ16世を処刑！　衝撃を受けた各国は対仏大同盟を結成"
       ],
@@ -25486,7 +25672,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ついにルイ16世を処刑！　衝撃を受けた各国は対仏大同盟を結成"
       ],
@@ -25629,7 +25815,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ついにルイ16世を処刑！　衝撃を受けた各国は対仏大同盟を結成"
       ],
@@ -25676,7 +25862,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "ついにジロンド派を追放。恐怖政治（ジャコバン独裁）が始まった！"
       ],
@@ -25759,7 +25945,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ついにジロンド派を追放。恐怖政治（ジャコバン独裁）が始まった！"
       ],
@@ -25880,7 +26066,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "エスカレートする「恐怖政治」は、ついに山岳派内部にまで……"
       ],
@@ -25963,7 +26149,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "エスカレートする「恐怖政治」は、ついに山岳派内部にまで……"
       ],
@@ -26051,7 +26237,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "エスカレートする「恐怖政治」は、ついに山岳派内部にまで……"
       ],
@@ -26136,7 +26322,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "山岳派の恐怖政治が終わって……でも、フランスは大混乱！"
       ],
@@ -26228,7 +26414,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "山岳派の恐怖政治が終わって……でも、フランスは大混乱！"
       ],
@@ -26379,7 +26565,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "山岳派の恐怖政治が終わって……でも、フランスは大混乱！"
       ],
@@ -26514,7 +26700,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ナポレオンが登場して、一躍、革命の風雲児に！"
       ],
@@ -26609,8 +26795,7 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ナポレオン",
           "at": [
@@ -26618,10 +26803,30 @@ export const chapterEdition = {
             48.86
           ],
           "image": "ancient/napoleon-bonaparte.png",
-          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
-          "kind": "prop",
-          "size": 42
+          "bubble": "ピラミッドの戦い！兵士たちよ、四千年の歴史が諸君を見下ろしている！",
+          "action": "command",
+          "route": 0,
+          "offset": [
+            -28,
+            0
+          ]
         },
+        {
+          "name": "ネルソン",
+          "at": [
+            -6.03,
+            36.18
+          ],
+          "image": "ancient/ch7-p-fb6522.png",
+          "bubble": "アブキール湾でフランス艦隊を壊滅させる！",
+          "action": "attack",
+          "offset": [
+            28,
+            0
+          ]
+        }
+      ],
+      "props": [
         {
           "name": "ピラミッド",
           "at": [
@@ -26632,17 +26837,6 @@ export const chapterEdition = {
           "bubble": "ピラミッド",
           "kind": "prop",
           "size": 50
-        },
-        {
-          "name": "ネルソン",
-          "at": [
-            -6.03,
-            36.18
-          ],
-          "image": "ancient/ch7-p-fb6522.png",
-          "bubble": "トラファルガー海戦でフランス連合艦隊を撃滅した英国の英雄！",
-          "kind": "prop",
-          "size": 42
         },
         {
           "name": "ピット",
@@ -26686,7 +26880,7 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3400,
       "facts": [
         "ナポレオンが登場して、一躍、革命の風雲児に！"
       ],
@@ -26774,7 +26968,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "統領政府が成立して、ナポレオンの独裁開始！"
       ],
@@ -26852,7 +27046,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "統領政府が成立して、ナポレオンの独裁開始！"
       ],
@@ -26943,7 +27137,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "統領政府が成立して、ナポレオンの独裁開始！"
       ],
@@ -27035,7 +27229,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "もはや並ぶ者のいない英雄。ナポレオンが皇帝になった！"
       ],
@@ -27138,7 +27332,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "もはや並ぶ者のいない英雄。ナポレオンが皇帝になった！"
       ],
@@ -27335,7 +27529,7 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "皇帝になったナポレオンを待っていたのは……またまた対仏大同盟！"
       ],
@@ -27427,7 +27621,12 @@ export const chapterEdition = {
           ],
           "image": "ancient/ch7-p-fb6522.png",
           "bubble": "英国は各員がその義務を尽くすことを期待する！",
-          "action": "command"
+          "action": "command",
+          "route": 0,
+          "offset": [
+            -28,
+            0
+          ]
         },
         {
           "name": "ナポレオン",
@@ -27437,34 +27636,54 @@ export const chapterEdition = {
           ],
           "image": "ancient/napoleon-bonaparte.png",
           "bubble": "トラファルガーで敗れるも、大陸で制覇を果たす！",
-          "action": "command"
+          "action": "command",
+          "offset": [
+            28,
+            0
+          ]
         }
       ],
-      "props": [
+      "props": [],
+      "routes": [
         {
-          "name": "ナポレオン",
-          "at": [
-            2.35,
-            48.86
+          "kind": "campaign",
+          "points": [
+            [
+              -8,
+              36.5
+            ],
+            [
+              -6.8,
+              36.3
+            ],
+            [
+              -6.03,
+              36.18
+            ]
           ],
-          "image": "ancient/napoleon-bonaparte.png",
-          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
-          "kind": "prop",
-          "size": 42
+          "start": 0.08,
+          "end": 0.95
         },
         {
-          "name": "ネルソン",
-          "at": [
-            -6.03,
-            36.18
+          "kind": "rival",
+          "points": [
+            [
+              -6.3,
+              36.53
+            ],
+            [
+              -6.15,
+              36.3
+            ],
+            [
+              -6.03,
+              36.18
+            ]
           ],
-          "image": "ancient/ch7-p-fb6522.png",
-          "bubble": "トラファルガー海戦でフランス連合艦隊を撃滅した英国の英雄！",
-          "kind": "prop",
-          "size": 42
+          "start": 0.08,
+          "end": 0.95
         }
       ],
-      "routes": [],
       "rivers": [],
       "duration": 3400,
       "facts": [
@@ -27573,7 +27792,12 @@ export const chapterEdition = {
           ],
           "image": "ancient/napoleon-bonaparte.png",
           "bubble": "余の辞書に不可能という言葉はない！三帝会戦に大勝利！",
-          "action": "command"
+          "action": "command",
+          "route": 0,
+          "offset": [
+            -28,
+            0
+          ]
         },
         {
           "name": "フランツ2世",
@@ -27583,21 +27807,14 @@ export const chapterEdition = {
           ],
           "image": "ancient/ch7-p-86ba21.png",
           "bubble": "アウステルリッツで敗北、神聖ローマ帝国解体へ……",
-          "action": "lament"
+          "action": "lament",
+          "offset": [
+            28,
+            0
+          ]
         }
       ],
       "props": [
-        {
-          "name": "ナポレオン",
-          "at": [
-            2.35,
-            48.86
-          ],
-          "image": "ancient/napoleon-bonaparte.png",
-          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
-          "kind": "prop",
-          "size": 42
-        },
         {
           "name": "ナポレオン1世",
           "at": [
@@ -27606,17 +27823,6 @@ export const chapterEdition = {
           ],
           "image": "ancient/napoleon-bonaparte.png",
           "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "フランツ2世",
-          "at": [
-            16.37,
-            48.21
-          ],
-          "image": "ancient/ch7-p-86ba21.png",
-          "bubble": "フランツ2世",
           "kind": "prop",
           "size": 42
         },
@@ -27654,7 +27860,46 @@ export const chapterEdition = {
           "size": 42
         }
       ],
-      "routes": [],
+      "routes": [
+        {
+          "kind": "campaign",
+          "points": [
+            [
+              16.37,
+              48.21
+            ],
+            [
+              16.6,
+              48.8
+            ],
+            [
+              16.76,
+              49.13
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        },
+        {
+          "kind": "rival",
+          "points": [
+            [
+              17.5,
+              49.3
+            ],
+            [
+              17,
+              49.2
+            ],
+            [
+              16.8,
+              49.15
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        }
+      ],
       "rivers": [],
       "duration": 3400,
       "facts": [
@@ -27820,7 +28065,7 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3200,
       "facts": [
         "ナポレオンが連戦連勝！　いよいよ大陸制覇だ"
       ],
@@ -27931,7 +28176,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ナポレオンが連戦連勝！　いよいよ大陸制覇だ"
       ],
@@ -28142,7 +28387,7 @@ export const chapterEdition = {
           ]
         }
       ],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ナポレオンが連戦連勝！　いよいよ大陸制覇だ"
       ],
@@ -28246,7 +28491,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "自分で広めた自由主義・ナショナリズムで、ナポレオン支配が動揺！"
       ],
@@ -28420,7 +28665,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "自分で広めた自由主義・ナショナリズムで、ナポレオン支配が動揺！"
       ],
@@ -28515,23 +28760,40 @@ export const chapterEdition = {
           ],
           "image": "ancient/napoleon-bonaparte.png",
           "bubble": "ロシア遠征の失敗……大陸軍の壊滅……",
-          "action": "lament"
+          "action": "lament",
+          "route": 0,
+          "offset": [
+            0,
+            0
+          ]
         }
       ],
-      "props": [
+      "props": [],
+      "routes": [
         {
-          "name": "ナポレオン",
-          "at": [
-            2.35,
-            48.86
+          "kind": "campaign",
+          "points": [
+            [
+              2.35,
+              48.86
+            ],
+            [
+              15,
+              52
+            ],
+            [
+              25,
+              54
+            ],
+            [
+              37.62,
+              55.75
+            ]
           ],
-          "image": "ancient/napoleon-bonaparte.png",
-          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
-          "kind": "prop",
-          "size": 42
+          "start": 0.08,
+          "end": 0.95
         }
       ],
-      "routes": [],
       "rivers": [],
       "duration": 3400,
       "facts": [
@@ -28601,8 +28863,7 @@ export const chapterEdition = {
         }
       ],
       "zones": [],
-      "actors": [],
-      "props": [
+      "actors": [
         {
           "name": "ナポレオン",
           "at": [
@@ -28610,9 +28871,13 @@ export const chapterEdition = {
             48.86
           ],
           "image": "ancient/napoleon-bonaparte.png",
-          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
-          "kind": "prop",
-          "size": 42
+          "bubble": "冬将軍と焦土作戦に阻まれ壊滅的打撃……",
+          "action": "lament",
+          "route": 0,
+          "offset": [
+            -28,
+            0
+          ]
         },
         {
           "name": "クトゥーゾフ",
@@ -28621,10 +28886,15 @@ export const chapterEdition = {
             59.94
           ],
           "image": "ancient/ch7-p-915f34.png",
-          "bubble": "クトゥーゾフ",
-          "kind": "prop",
-          "size": 42
-        },
+          "bubble": "祖国防衛戦争の勝利！ロシア軍の総反撃！",
+          "action": "command",
+          "offset": [
+            28,
+            0
+          ]
+        }
+      ],
+      "props": [
         {
           "name": "トルストイ",
           "at": [
@@ -28667,7 +28937,7 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3400,
       "facts": [
         "ロシアの冬に負けて、ついにナポレオン帝国が崩壊！"
       ],
@@ -28807,7 +29077,7 @@ export const chapterEdition = {
         }
       ],
       "rivers": [],
-      "duration": 2200,
+      "duration": 3200,
       "facts": [
         "ロシアの冬に負けて、ついにナポレオン帝国が崩壊！"
       ],
@@ -28934,7 +29204,12 @@ export const chapterEdition = {
           ],
           "image": "ancient/napoleon-bonaparte.png",
           "bubble": "百日天下……最後の決戦ワーテルロー！",
-          "action": "charge"
+          "action": "charge",
+          "route": 0,
+          "offset": [
+            -28,
+            0
+          ]
         },
         {
           "name": "ウェリントン",
@@ -28944,32 +29219,15 @@ export const chapterEdition = {
           ],
           "image": "ancient/ch7-p-c9182d.png",
           "bubble": "連合軍とプロイセン軍の合流によりワーテルローで勝利！",
-          "action": "command"
+          "action": "command",
+          "route": 1,
+          "offset": [
+            28,
+            0
+          ]
         }
       ],
       "props": [
-        {
-          "name": "ナポレオン",
-          "at": [
-            2.35,
-            48.86
-          ],
-          "image": "ancient/napoleon-bonaparte.png",
-          "bubble": "ナポレオン法典を制定しヨーロッパ全土を制覇したフランス皇帝！",
-          "kind": "prop",
-          "size": 42
-        },
-        {
-          "name": "ウェリントン",
-          "at": [
-            -0.13,
-            51.51
-          ],
-          "image": "ancient/ch7-p-c9182d.png",
-          "bubble": "ワーテルローの戦いでナポレオンを最終的に破ったイギリス将軍！",
-          "kind": "prop",
-          "size": 42
-        },
         {
           "name": "バスティーユ",
           "at": [
@@ -28993,7 +29251,46 @@ export const chapterEdition = {
           "size": 50
         }
       ],
-      "routes": [],
+      "routes": [
+        {
+          "kind": "campaign",
+          "points": [
+            [
+              2.35,
+              48.86
+            ],
+            [
+              3.5,
+              49.8
+            ],
+            [
+              4.4,
+              50.7
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        },
+        {
+          "kind": "rival",
+          "points": [
+            [
+              -0.13,
+              51.51
+            ],
+            [
+              2,
+              51.2
+            ],
+            [
+              4.42,
+              50.71
+            ]
+          ],
+          "start": 0.08,
+          "end": 0.95
+        }
+      ],
       "rivers": [],
       "duration": 3400,
       "facts": [
@@ -29125,7 +29422,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イギリスは市民向けの文学、フランスは国王が保護！"
       ],
@@ -29275,7 +29572,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イギリスは市民向けの文学、フランスは国王が保護！"
       ],
@@ -29446,7 +29743,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "17世紀には豪華な「バロック様式」が流行！"
       ],
@@ -29598,7 +29895,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "17世紀には豪華な「バロック様式」が流行！"
       ],
@@ -29767,7 +30064,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "絶対王政の衰退期になって、繊細・優美な芸術「ロココ様式」が誕生！"
       ],
@@ -29883,7 +30180,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "王権神授説に対抗して、王権を抑えるための自然法思想が生まれた！"
       ],
@@ -29971,7 +30268,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "王権神授説に対抗して、王権を抑えるための自然法思想が生まれた！"
       ],
@@ -30030,7 +30327,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "王権神授説にかわって王権の根拠になった「社会契約説」は、両刃の剣だ！"
       ],
@@ -30115,7 +30412,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "王権神授説にかわって王権の根拠になった「社会契約説」は、両刃の剣だ！"
       ],
@@ -30261,7 +30558,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "フランスでは理性を絶対とする啓蒙思想ができた！"
       ],
@@ -30399,7 +30696,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "フランスでは理性を絶対とする啓蒙思想ができた！"
       ],
@@ -30506,7 +30803,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "キリスト教的な世界観を超えた「科学革命」"
       ],
@@ -30696,7 +30993,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "キリスト教的な世界観を超えた「科学革命」"
       ],
@@ -30781,7 +31078,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "キリスト教的な世界観を超えた「科学革命」"
       ],
@@ -30852,7 +31149,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "イギリス人は、とにかく実際の経験から知識を得る「経験論」だ！"
       ],
@@ -30952,7 +31249,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "イギリス人は、とにかく実際の経験から知識を得る「経験論」だ！"
       ],
@@ -31007,7 +31304,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "フランスなど大陸では、全部を頭のなかで考える「合理論」だ！"
       ],
@@ -31110,7 +31407,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "フランスなど大陸では、全部を頭のなかで考える「合理論」だ！"
       ],
@@ -31179,7 +31476,7 @@ export const chapterEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2000,
       "facts": [
         "ドイツ人は「理性」と「経験」をあわせた「観念論」だ！"
       ],
@@ -31310,7 +31607,7 @@ export const chapterEdition = {
       ],
       "routes": [],
       "rivers": [],
-      "duration": 0,
+      "duration": 2200,
       "facts": [
         "ドイツ人は「理性」と「経験」をあわせた「観念論」だ！"
       ],

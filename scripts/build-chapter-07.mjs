@@ -188,94 +188,173 @@ const BUBBLES = {
 };
 
 const customSceneRules = {
+  'c07-l22-p03-003': {
+    // ヴァスコ・ダ・ガマのインド航路到達
+    actors: [
+      { name: 'ヴァスコ＝ダ＝ガマ', at: [75.78, 11.26], route: 1, offset: [25, 0], bubble: 'インド洋を越えてカリカットへ到達！インド航路を開拓！', action: 'sail' },
+      { name: 'バルトロメウ＝ディアス', at: [-9.14, 38.72], route: 0, offset: [-25, 0], bubble: 'アフリカ南端の喜望峰に到達！', action: 'sail' }
+    ],
+    duration: 3400
+  },
+  'c07-l22-p03-008': {
+    // コロンブスの新大陸到達
+    actors: [
+      { name: 'コロンブス', at: [-6.89, 37.23], route: 0, offset: [20, 0], bubble: '大西洋を西航しサンサルバドル島に到達！', action: 'sail' }
+    ],
+    duration: 3400
+  },
   'c07-l24-p02-002': {
     // レパントの海戦
+    routes: [
+      { kind: 'campaign', points: [[15.5, 38.2], [18.0, 38.3], [21.3, 38.35]], start: 0.08, end: 0.95 },
+      { kind: 'rival', points: [[23.0, 38.4], [21.8, 38.39]], start: 0.08, end: 0.95 }
+    ],
     actors: [
-      { name: 'フェリペ2世', at: [-3.7, 40.42], bubble: '太陽の沈まぬ帝国！カトリックを守護する！', action: 'command' }
+      { name: 'フェリペ2世', at: [-3.7, 40.42], route: 0, offset: [-28, 0], bubble: '太陽の沈まぬ帝国！カトリックを守護する！', action: 'command' }
     ],
     afterImage: 'レパントの海戦（オスマン海軍を撃破）',
-    duration: 3200
+    duration: 3400
   },
   'c07-l23-p03-009': {
     // アルマダ海戦
+    routes: [
+      { kind: 'rival', points: [[-8.5, 43.5], [-5.0, 48.5], [-1.5, 50.2], [1.5, 51.0]], start: 0.08, end: 0.95 },
+      { kind: 'campaign', points: [[-4.1, 50.4], [-1.0, 50.6], [1.2, 51.1]], start: 0.08, end: 0.95 }
+    ],
     actors: [
-      { name: 'エリザベス1世', at: [-0.13, 51.51], bubble: '私は国と結婚した。無敵艦隊を打ち破れ！', action: 'cheer' }
+      { name: 'エリザベス1世', at: [-0.13, 51.51], route: 1, offset: [28, 0], bubble: '私は国と結婚した。無敵艦隊を打ち破れ！', action: 'cheer' }
     ],
     afterImage: 'アルマダの海戦（スペイン無敵艦隊の壊滅）',
     duration: 3400
   },
   'c07-l25-p01-006': {
     // ネーズビーの戦い・鉄騎隊
+    routes: [
+      { kind: 'campaign', points: [[-0.13, 51.51], [-0.5, 52.0], [-0.99, 52.41]], start: 0.08, end: 0.95 }
+    ],
     actors: [
-      { name: 'クロムウェル', at: [-0.13, 51.51], bubble: '神のために戦え！議会派の勝利を！', action: 'command' }
+      { name: 'クロムウェル', at: [-0.13, 51.51], route: 0, offset: [20, 0], bubble: '神のために戦え！議会派の勝利を！', action: 'command' }
     ],
     afterImage: 'ネーズビーの戦い（新型軍・鉄騎隊の決定的勝利）',
     duration: 3200
   },
   'c07-l26-p03-004': {
     // 七年戦争・プロイセン
+    routes: [
+      { kind: 'campaign', points: [[13.41, 52.52], [15.0, 51.5], [16.5, 51.0]], start: 0.08, end: 0.95 },
+      { kind: 'rival', points: [[19.0, 50.0], [17.5, 50.8], [16.7, 51.0]], start: 0.08, end: 0.95 }
+    ],
     actors: [
-      { name: 'フリードリヒ2世', at: [13.41, 52.52], bubble: '君主は国家第一の僕である！孤軍奮闘！', action: 'command' }
+      { name: 'フリードリヒ2世', at: [13.41, 52.52], route: 0, offset: [-28, 0], bubble: '君主は国家第一の僕である！孤軍奮闘！', action: 'command' }
     ],
     afterImage: '七年戦争（奇跡の戦局逆転とプロイセンの領土確保）',
-    duration: 3200
+    duration: 3400
+  },
+  'c07-l26-p04-008': {
+    // 北方戦争・ポルタヴァの戦い
+    actors: [
+      { name: 'カール12世', at: [18.07, 59.33], route: 0, offset: [-28, 0], bubble: 'ロシア南部に攻め入るもポルタヴァで敗北！', action: 'charge' },
+      { name: 'ピョートル1世', at: [30.34, 59.94], offset: [28, 0], bubble: '北方戦争に勝利しバルト海への出口を確保！', action: 'command' }
+    ],
+    duration: 3400
   },
   'c07-l27-p04-012': {
     // サラトガの戦勝と米仏同盟
+    routes: [
+      { kind: 'move', points: [[-75.17, 39.95], [-40.0, 44.0], [2.35, 48.86]], start: 0.08, end: 0.95 }
+    ],
     actors: [
-      { name: 'フランクリン', at: [-75.17, 39.95], bubble: 'パリでフランスとの同盟条約に調印成功！', action: 'negotiate' },
-      { name: 'ルイ16世', at: [2.35, 48.86], bubble: 'イギリスに対抗しアメリカの独立を支援する！', action: 'command' }
+      { name: 'フランクリン', at: [-75.17, 39.95], route: 0, offset: [-30, 0], bubble: 'パリでフランスとの同盟条約に調印成功！', action: 'negotiate' },
+      { name: 'ルイ16世', at: [2.35, 48.86], offset: [30, 0], bubble: 'イギリスに対抗しアメリカの独立を支援する！', action: 'command' }
     ],
     afterImage: 'サラトガの戦勝と米仏同盟成立',
-    duration: 3200
+    duration: 3400
   },
   'c07-l28-p02-001': {
     // バスティーユ襲撃
+    routes: [
+      { kind: 'campaign', points: [[2.33, 48.86], [2.35, 48.855], [2.37, 48.853]], start: 0.08, end: 0.95 }
+    ],
     actors: [
-      { name: 'ルイ16世', at: [2.35, 48.86], bubble: 'なに、暴動か？……いや、これは革命です！', action: 'panic' }
+      { name: 'ルイ16世', at: [2.35, 48.86], offset: [30, 0], bubble: 'なに、暴動か？……いや、これは革命です！', action: 'panic' }
     ],
     afterImage: 'バスティーユ襲撃（フランス革命の勃発）',
     duration: 3200
   },
   'c07-l28-p03-004': {
     // ヴァルミーの戦い
+    routes: [
+      { kind: 'campaign', points: [[2.35, 48.86], [3.5, 48.9], [4.9, 49.08]], start: 0.08, end: 0.95 },
+      { kind: 'rival', points: [[6.5, 49.3], [5.5, 49.2], [5.0, 49.1]], start: 0.08, end: 0.95 }
+    ],
     actors: [
-      { name: 'ゲーテ', at: [11.33, 50.98], bubble: 'ここから、そしてこの日から世界史の新しい時代が始まる！', action: 'speak' }
+      { name: 'ゲーテ', at: [11.33, 50.98], offset: [-25, 0], bubble: 'ここから、そしてこの日から世界史の新しい時代が始まる！', action: 'speak' }
     ],
     afterImage: 'ヴァルミーの戦い（義勇軍がプロイセン軍を撃退）',
     duration: 3400
   },
+  'c07-l29-p01-005': {
+    // ナポレオンのエジプト遠征
+    actors: [
+      { name: 'ナポレオン', at: [2.35, 48.86], route: 0, offset: [-28, 0], bubble: 'ピラミッドの戦い！兵士たちよ、四千年の歴史が諸君を見下ろしている！', action: 'command' },
+      { name: 'ネルソン', at: [-6.03, 36.18], offset: [28, 0], bubble: 'アブキール湾でフランス艦隊を壊滅させる！', action: 'attack' }
+    ],
+    duration: 3400
+  },
   'c07-l29-p02-002': {
     // トラファルガー海戦
+    routes: [
+      { kind: 'campaign', points: [[-8.0, 36.5], [-6.8, 36.3], [-6.03, 36.18]], start: 0.08, end: 0.95 },
+      { kind: 'rival', points: [[-6.3, 36.53], [-6.15, 36.3], [-6.03, 36.18]], start: 0.08, end: 0.95 }
+    ],
     actors: [
-      { name: 'ネルソン', at: [-6.03, 36.18], bubble: '英国は各員がその義務を尽くすことを期待する！', action: 'command' },
-      { name: 'ナポレオン', at: [2.35, 48.86], bubble: 'トラファルガーで敗れるも、大陸で制覇を果たす！', action: 'command' }
+      { name: 'ネルソン', at: [-6.03, 36.18], route: 0, offset: [-28, 0], bubble: '英国は各員がその義務を尽くすことを期待する！', action: 'command' },
+      { name: 'ナポレオン', at: [2.35, 48.86], offset: [28, 0], bubble: 'トラファルガーで敗れるも、大陸で制覇を果たす！', action: 'command' }
     ],
     afterImage: 'トラファルガーの海戦（イギリス海軍の制海権掌握）',
     duration: 3400
   },
   'c07-l29-p02-003': {
     // アウステルリッツ三帝会戦
+    routes: [
+      { kind: 'campaign', points: [[16.37, 48.21], [16.6, 48.8], [16.76, 49.13]], start: 0.08, end: 0.95 },
+      { kind: 'rival', points: [[17.5, 49.3], [17.0, 49.2], [16.8, 49.15]], start: 0.08, end: 0.95 }
+    ],
     actors: [
-      { name: 'ナポレオン', at: [2.35, 48.86], bubble: '余の辞書に不可能という言葉はない！三帝会戦に大勝利！', action: 'command' },
-      { name: 'フランツ2世', at: [16.37, 48.21], bubble: 'アウステルリッツで敗北、神聖ローマ帝国解体へ……', action: 'lament' }
+      { name: 'ナポレオン', at: [2.35, 48.86], route: 0, offset: [-28, 0], bubble: '余の辞書に不可能という言葉はない！三帝会戦に大勝利！', action: 'command' },
+      { name: 'フランツ2世', at: [16.37, 48.21], offset: [28, 0], bubble: 'アウステルリッツで敗北、神聖ローマ帝国解体へ……', action: 'lament' }
     ],
     afterImage: 'アウステルリッツの戦い（三帝会戦でのナポレオンの圧勝）',
     duration: 3400
   },
   'c07-l29-p03-003': {
     // ナポレオンのロシア遠征
+    routes: [
+      { kind: 'campaign', points: [[2.35, 48.86], [15.0, 52.0], [25.0, 54.0], [37.62, 55.75]], start: 0.08, end: 0.95 }
+    ],
     actors: [
-      { name: 'ナポレオン', at: [2.35, 48.86], bubble: 'ロシア遠征の失敗……大陸軍の壊滅……', action: 'lament' }
+      { name: 'ナポレオン', at: [2.35, 48.86], route: 0, offset: [0, 0], bubble: 'ロシア遠征の失敗……大陸軍の壊滅……', action: 'lament' }
     ],
     afterImage: 'ナポレオンのロシア遠征崩壊と退却戦',
     duration: 3400
   },
+  'c07-l29-p03-004': {
+    // ロシア遠征崩壊
+    actors: [
+      { name: 'ナポレオン', at: [2.35, 48.86], route: 0, offset: [-28, 0], bubble: '冬将軍と焦土作戦に阻まれ壊滅的打撃……', action: 'lament' },
+      { name: 'クトゥーゾフ', at: [30.34, 59.94], offset: [28, 0], bubble: '祖国防衛戦争の勝利！ロシア軍の総反撃！', action: 'command' }
+    ],
+    duration: 3400
+  },
   'c07-l29-p03-006': {
     // ワーテルローの戦い
+    routes: [
+      { kind: 'campaign', points: [[2.35, 48.86], [3.5, 49.8], [4.4, 50.7]], start: 0.08, end: 0.95 },
+      { kind: 'rival', points: [[-0.13, 51.51], [2.0, 51.2], [4.42, 50.71]], start: 0.08, end: 0.95 }
+    ],
     actors: [
-      { name: 'ナポレオン', at: [2.35, 48.86], bubble: '百日天下……最後の決戦ワーテルロー！', action: 'charge' },
-      { name: 'ウェリントン', at: [-0.13, 51.51], bubble: '連合軍とプロイセン軍の合流によりワーテルローで勝利！', action: 'command' }
+      { name: 'ナポレオン', at: [2.35, 48.86], route: 0, offset: [-28, 0], bubble: '百日天下……最後の決戦ワーテルロー！', action: 'charge' },
+      { name: 'ウェリントン', at: [-0.13, 51.51], route: 1, offset: [28, 0], bubble: '連合軍とプロイセン軍の合流によりワーテルローで勝利！', action: 'command' }
     ],
     afterImage: 'ワーテルローの戦い（ナポレオン帝政の完全終焉）',
     duration: 3400
@@ -362,13 +441,16 @@ for(const volume of ancientSeries) {
       }else if(entry.kind==='place')pins[entry.name]={name:entry.name,point:entry.points[0]};
       else tags.push({text:entry.name,at:entry.points[0]});
     }
-    const activeRoutes=routes.filter(([lesson,line,from,to])=>selected.some(({p})=>p.lesson===lesson&&p.source[0].line===line)&&text.includes(from)&&text.includes(to))
-      .map(([,,,,kind,points])=>({kind,points,start:0.08,end:0.95}));
+    const id=`${volume.id}-${String(edition[volume.id].length+1).padStart(3,'0')}`;
+    const rule = customSceneRules[id];
+    const activeRoutes = [
+      ...routes.filter(([lesson,line,from,to])=>selected.some(({p})=>p.lesson===lesson&&p.source[0].line===line)&&text.includes(from)&&text.includes(to))
+        .map(([,,,,kind,points])=>({kind,points,start:0.08,end:0.95})),
+      ...(rule?.routes || [])
+    ];
     const points=names.flatMap(n=>n.points);
     const fallback=[-12,34,35,64];
     const frame=points.length?[Math.min(...points.map(p=>p[0]))-5,Math.min(...points.map(p=>p[1]))-5,Math.max(...points.map(p=>p[0]))+5,Math.max(...points.map(p=>p[1]))+5]:fallback;
-    const id=`${volume.id}-${String(edition[volume.id].length+1).padStart(3,'0')}`;
-    const rule = customSceneRules[id];
     let sceneActors = [];
     if (rule && rule.actors) {
       sceneActors = rule.actors.map(act => ({
@@ -376,14 +458,18 @@ for(const volume of ancientSeries) {
         at: act.at,
         image: act.image || ('ancient/' + resolveEntityImage(act.name, 'person')),
         bubble: act.bubble || BUBBLES[act.name] || act.name,
-        action: act.action || 'battle'
+        action: act.action || 'battle',
+        ...(act.route !== undefined ? { route: act.route } : {}),
+        ...(act.offset ? { offset: act.offset } : {})
       }));
     }
-    const sceneDuration = rule?.duration || (activeRoutes.length ? 2200 : (sceneActors.length ? 3200 : 0));
+    const actorNames = new Set(sceneActors.map(a => a.name));
+    const sceneProps = props.filter(p => !actorNames.has(p.name));
+    const sceneDuration = rule?.duration || (activeRoutes.length ? 3200 : (sceneActors.length ? 3200 : (props.length ? 2200 : 2000)));
     const afterImage = rule?.afterImage || title;
 
     const s={id,title,body,plainBody,year:volume.period,chapter:0,kicker:volume.label,
-      sourceText:{chapter:7,passages:page.passages,page:selected[0].p.page},frame,pins:Object.keys(pins),tags,zones:[],actors:sceneActors,props,
+      sourceText:{chapter:7,passages:page.passages,page:selected[0].p.page},frame,pins:Object.keys(pins),tags,zones:[],actors:sceneActors,props:sceneProps,
       routes:activeRoutes,rivers:ancientRivers.filter(r=>text.includes(r.name)),duration:sceneDuration,
       facts:[title],mapHeading:title,focus:title,before:title,after:afterImage,note:'',takeaway:''};
     edition[volume.id].push(s);plans.push({id,...page});
