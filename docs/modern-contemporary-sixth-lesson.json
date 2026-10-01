@@ -1,0 +1,1235 @@
+{
+  "date": "2026-10-02",
+  "version": "0.089",
+  "volume": "近代・現代",
+  "chapter": 1,
+  "chapter_title": "国民国家の形成",
+  "lesson": 6,
+  "lesson_title": "19世紀のヨーロッパ文化",
+  "source_file": "sources/近代・現代/01_国民国家の形成/06_19世紀のヨーロッパ文化.md",
+  "source_sha256": "af46239545496b762e50752e37b8e0088e105bb2530e343282e0faff0338cf24",
+  "source_bytes": 82057,
+  "pages": [
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124
+  ],
+  "page_count": 17,
+  "blank_pages": [
+    124
+  ],
+  "pages_with_printed_text": 16,
+  "section_start_pages": [
+    109,
+    110,
+    112,
+    115,
+    117,
+    121
+  ],
+  "next_chapter_start_page": 125,
+  "next_lesson_start_page": 126,
+  "next_lesson_boundary_image": {
+    "index": 59,
+    "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_T2kQxrG87s.png",
+    "filename": "Kindle_T2kQxrG87s.png",
+    "bytes": 732862,
+    "sha256": "7b16bb1964a8b641f5f350bb07612d4fdc2c426b22065595441d0de02edd6b1c",
+    "spreadPages": [
+      124,
+      125
+    ],
+    "selectedPages": [
+      124
+    ],
+    "creationTime": "2026-10-02T02:50:45.0848383+09:00"
+  },
+  "boundary_page": 125,
+  "boundary_image_also_used_for_blank_page": 124,
+  "next_source_includes_chapter_cover": true,
+  "image_count": 9,
+  "reader": "担当の原画像読み取り、Antigravity CLI経由のGemini 3.8 Flashによる独立した本文読み取り、原画像による相違と装飾の照合",
+  "authorization": "第5回に続く利用者の「続けて」に従い、第6回を新規作成。",
+  "rules_document": "docs/source-transcription-rules.md",
+  "comparison_document": "docs/source-transcription-comparison.md",
+  "proofreading": "108〜123ページの全文と124ページの白紙を確認。図版の題名・比較表・革命理論の図・吹き出し・欄外目次、太字・色・下線・背景・枠・斜体・取り消し印・読み仮名を原画像で照合。保存前の草稿だけを修正。",
+  "independently_compared_pages": [
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124
+  ],
+  "comparison_trials": [
+    {
+      "name": "text-a",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113
+      ],
+      "duration_seconds": 136.16778499999782,
+      "request_sha256": "01a0c1cf748b679ea7883566432103608132e038275729dd6adbc929473d4049",
+      "response_sha256": "c1987717bd2cc60e279163fd865e7d69ce6f5a0eb16423a26a25f2a47ee5b8d3",
+      "reported_uncertainties": {
+        "108": [],
+        "109": [],
+        "110": [],
+        "111": [],
+        "112": [],
+        "113": []
+      }
+    },
+    {
+      "name": "text-b",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "duration_seconds": 127.19442230000277,
+      "request_sha256": "6fcc32938e36266e1409f853eda7f42b7905a36d40dc171390e40682793ad46c",
+      "response_sha256": "4020c4bd282174c2cc8aafced2da678b8efa4054b00f5f47d51b8a936adf6365",
+      "reported_uncertainties": {
+        "114": [],
+        "115": [],
+        "116": [],
+        "117": [],
+        "118": [],
+        "119": []
+      }
+    },
+    {
+      "name": "text-c",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "duration_seconds": 133.84256910000113,
+      "request_sha256": "041ae23df2bed486624156c12e62a3b4fec30ec9e306c09b025dcc405b47dc79",
+      "response_sha256": "8991c463bb7d62e8bfd419c1a4977c72466ff52fef3612bf441ab74e53ecddf6",
+      "reported_uncertainties": {
+        "120": [],
+        "121": [],
+        "122": [],
+        "123": [],
+        "124": []
+      }
+    }
+  ],
+  "own_draft_corrections": [
+    {
+      "page": 109,
+      "before": "ウント＝ドラング",
+      "after": "ウント＝ドランク",
+      "reason": "部分拡大で末尾に濁点がないことを確認。原画像の表記を保持。"
+    },
+    {
+      "page": 109,
+      "before": "晩年は古典主義に傾いた",
+      "after": "晩年は**古典主義**に傾いた",
+      "reason": "本文の古典主義の太字を再確認。"
+    },
+    {
+      "page": 110,
+      "before": "マリアン＝トワネット",
+      "after": "マリアントワネット",
+      "reason": "独立した読み取り同士も異なる表記だった。部分拡大では人名の途中に等号がない。"
+    },
+    {
+      "page": 114,
+      "before": "「悪の華」",
+      "after": "『悪の華』",
+      "reason": "部分拡大で二重のかぎ括弧を確認。"
+    },
+    {
+      "page": 114,
+      "before": "「サロメ」",
+      "after": "『サロメ』",
+      "reason": "部分拡大で二重のかぎ括弧を確認。"
+    },
+    {
+      "page": 114,
+      "before": "「秋の歌」",
+      "after": "『秋の歌』",
+      "reason": "部分拡大で二重のかぎ括弧を確認。"
+    },
+    {
+      "page": 118,
+      "before": "どうすればいいんだろう？",
+      "after": "どうすればいいんだろ？",
+      "reason": "部分拡大で語尾にうがないことを確認。"
+    },
+    {
+      "page": 122,
+      "before": "インターネット上で世界に",
+      "after": "インターネット上で全世界に",
+      "reason": "全の1文字を部分拡大で確認。"
+    },
+    {
+      "page": 118,
+      "before": "data-source-cancellation=\"cross\" style=\"text-decoration:line-through\"",
+      "after": "data-source-cancellation=\"cross\" data-source-cancellation-color=\"brown\" style=\"text-decoration:line-through;text-decoration-color:#a43725\"",
+      "reason": "図の貴族・資本家に重なる茶色の斜めの取り消し印を属性で区別。表示上は取り消し線に置き換える。"
+    },
+    {
+      "page": 109,
+      "before": "**18世紀まで**のヨーロッパは絶対王政",
+      "after": "**18世紀**までのヨーロッパは**絶対王政**",
+      "reason": "部分拡大で18世紀と絶対王政の太字の範囲を確認。"
+    },
+    {
+      "page": 109,
+      "before": "ヨーロッパで古典（classic）",
+      "after": "ヨーロッパで**古典**（**classic**）",
+      "reason": "古典とclassicの太字を部分拡大で確認。"
+    },
+    {
+      "page": 110,
+      "before": "**交響曲第3番「英雄」**",
+      "after": "**交響曲第3番**「英雄」",
+      "reason": "交響曲第3番の太字と英雄の通常文字を区別。"
+    },
+    {
+      "page": 110,
+      "before": "『<ruby>群盗<rt>ぐんとう</rt></ruby>』",
+      "after": "『**<ruby>群盗<rt>ぐんとう</rt></ruby>**』",
+      "reason": "群盗の太字を比較欄の部分拡大で確認。"
+    },
+    {
+      "page": 115,
+      "before": "「<ruby>晩鐘<rt>ばんしょう</rt></ruby>」",
+      "after": "「**<ruby>晩鐘<rt>ばんしょう</rt></ruby>**」",
+      "reason": "自然主義絵画の表の晩鐘の太字を確認。"
+    },
+    {
+      "page": 112,
+      "before": "**ノヴァーリス**",
+      "after": "<em data-source-italic=\"true\" style=\"font-style:italic\">**ノヴァーリス**</em>",
+      "reason": "部分拡大で斜体による強調を確認。色と太字に重ねて記録。"
+    },
+    {
+      "page": 114,
+      "before": "**ノルウェー**",
+      "after": "<em data-source-italic=\"true\" style=\"font-style:italic\">**ノルウェー**</em>",
+      "reason": "部分拡大で斜体による強調を確認。色と太字に重ねて記録。"
+    },
+    {
+      "page": 115,
+      "before": "**ノルウェー**",
+      "after": "<em data-source-italic=\"true\" style=\"font-style:italic\">**ノルウェー**</em>",
+      "reason": "部分拡大で斜体による強調を確認。色と太字に重ねて記録。"
+    },
+    {
+      "page": 117,
+      "before": "<茶太>経済学</茶太>",
+      "after": "<em data-source-italic=\"true\" style=\"font-style:italic\"><茶太>経済学</茶太></em>",
+      "reason": "部分拡大で斜体による強調を確認。色と太字に重ねて記録。"
+    },
+    {
+      "page": 119,
+      "before": "<茶太>その他の社会科学</茶太>",
+      "after": "<em data-source-italic=\"true\" style=\"font-style:italic\"><茶太>その他の社会科学</茶太></em>",
+      "reason": "部分拡大で斜体による強調を確認。色と太字に重ねて記録。"
+    },
+    {
+      "page": 120,
+      "before": "<茶太>哲学</茶太>",
+      "after": "<em data-source-italic=\"true\" style=\"font-style:italic\"><茶太>哲学</茶太></em>",
+      "reason": "部分拡大で斜体による強調を確認。色と太字に重ねて記録。"
+    },
+    {
+      "page": 123,
+      "before": "**スウェーデン人**",
+      "after": "<em data-source-italic=\"true\" style=\"font-style:italic\">**スウェーデン人**</em>",
+      "reason": "部分拡大で斜体による強調を確認。色と太字に重ねて記録。"
+    }
+  ],
+  "original_spelling_notes": [
+    {
+      "page": 109,
+      "note": "シュトゥルム＝ウント＝ドランクという印字。末尾をグへ置き換えない。"
+    },
+    {
+      "page": 110,
+      "note": "人名はマリアントワネットで、途中に等号がない。担当とGeminiの両方の異なる草稿表記を原画像にそろえた。"
+    },
+    {
+      "page": 111,
+      "note": "音楽の表ではショパンが墺の結合欄、スメタナが独の結合欄に置かれている。本文のポーランド、チェコの文字とともに原画像の記載を保持する。"
+    },
+    {
+      "page": 120,
+      "note": "盲目的な生への意思という印字。Geminiの意志への置換は採用しない。"
+    },
+    {
+      "page": 121,
+      "note": "本文と哲学の表は力への意思。一般的な表記へ置換しない。"
+    },
+    {
+      "page": 123,
+      "note": "ノーベルは英の結合欄に置かれ、説明はスウェーデン人。原画像どおり保存する。"
+    },
+    {
+      "page": 123,
+      "note": "コッホの説明のツベルクリンを創設を原画像どおり保持する。"
+    }
+  ],
+  "comparison_resolution_notes": [
+    {
+      "page": 108,
+      "note": "顔の絵を文字へ置き換えない。直後に印刷された句点は保存。"
+    },
+    {
+      "page": 109,
+      "note": "上部の節見出しを含めた。なったんだけどは原画像のまま保持し、Geminiのなったけどには合わせない。"
+    },
+    {
+      "page": 113,
+      "note": "話なんだけどを原画像で確認し、Geminiの話だけどは採用しない。ミレーの図版の題名も収録。"
+    },
+    {
+      "page": 114,
+      "note": "救いようのないを保持。悪の華・サロメ・秋の歌は部分拡大で二重かぎ括弧と確認して修正。"
+    },
+    {
+      "page": 115,
+      "note": "原画像の絵画の表には一重かぎ括弧を保存。国の略字は結合欄に印刷された回数だけ収録し、各行へ重複させない。"
+    },
+    {
+      "page": 118,
+      "note": "どうすればいいんだろ？を原画像にそろえた。図の矢印から独自の文章や括弧付きの×を創作しない。"
+    },
+    {
+      "page": 121,
+      "note": "上部の第6節の表示も原画像に従い収録。本文が哲学の続きでも見出しを第5節へ変更しない。"
+    },
+    {
+      "page": 122,
+      "note": "全世界にの全を部分拡大で確認して修正。"
+    },
+    {
+      "page": 123,
+      "note": "年号checkはなしだよの本文を収録。年号欄や語呂合わせを補わない。"
+    },
+    {
+      "page": 124,
+      "note": "左ページは白紙。数字のページ見出しだけを残し、柱・欄外目次・白紙との注記は原文へ追加しない。右ページは125ページの第2章扉で、次回の資料に含める。"
+    }
+  ],
+  "source_occlusion_notes": [
+    {
+      "page": 109,
+      "region": "晩年は古典主義に傾いたんだの傾の一部",
+      "treatment": "指示矢印の重なる左側を含め部分拡大し、見えている字形と独立した本文を照合。"
+    },
+    {
+      "page": 123,
+      "region": "年号checkの一部",
+      "treatment": "指示矢印の周辺の字形と独立した本文の一致を確認。指示矢印を文字に置き換えない。"
+    }
+  ],
+  "ruby_details": [
+    {
+      "page": 108,
+      "text": "流行",
+      "ruby_text": "はや",
+      "ruby_target": "流行"
+    },
+    {
+      "page": 110,
+      "text": "虐殺",
+      "note": "改行の位置に従い虐のぎゃくと殺のさつを別に保持。"
+    },
+    {
+      "page": 111,
+      "text": "亡命",
+      "note": "改行に従い亡のぼうと命のめいを別に保持。"
+    },
+    {
+      "page": 113,
+      "text": "二都物語",
+      "note": "改行に従い二のにと都のとを別に保持。115ページの表では二都ににとを付ける。"
+    },
+    {
+      "page": 114,
+      "text": "耽美主義",
+      "note": "改行に従い耽のたんと美のびを別に保持。"
+    },
+    {
+      "page": 118,
+      "text": "弁証法",
+      "note": "改行に従い弁のべんと証法のしょうほうを別に保持。"
+    },
+    {
+      "page": 121,
+      "text": "永劫回帰",
+      "note": "改行に従い永劫回のえいごうかいと帰のきを別に保持。"
+    }
+  ],
+  "new_emphasis_notation": {
+    "italic": "emにdata-source-italic=trueを指定し、既存の色・太字と重ねる。",
+    "cross_cancellation": "spanにdata-source-cancellation=cross、data-source-cancellation-color=brownを指定。印刷された斜めの交差線は表示上の取り消し線へ置き換え、元の形と色は属性に残す。"
+  },
+  "source_images": [
+    {
+      "index": 51,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_KT61Vdqepp.png",
+      "filename": "Kindle_KT61Vdqepp.png",
+      "bytes": 1665415,
+      "sha256": "7f713e4a82dc41e2b69fc16826118f68a39a495e561fae26fa30f89d2443f91d",
+      "spreadPages": [
+        108,
+        109
+      ],
+      "selectedPages": [
+        108,
+        109
+      ],
+      "creationTime": "2026-10-02T02:50:31.3783868+09:00"
+    },
+    {
+      "index": 52,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_NvFyGMhIVZ.png",
+      "filename": "Kindle_NvFyGMhIVZ.png",
+      "bytes": 1419690,
+      "sha256": "d9422d77d15bf08268b676232cc3f07233e1d9e94092dc98210e299a0b5855e7",
+      "spreadPages": [
+        110,
+        111
+      ],
+      "selectedPages": [
+        110,
+        111
+      ],
+      "creationTime": "2026-10-02T02:50:33.0185145+09:00"
+    },
+    {
+      "index": 53,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_od9O0GcjIU.png",
+      "filename": "Kindle_od9O0GcjIU.png",
+      "bytes": 1491288,
+      "sha256": "c4d569d6264cb421a3e8564b34cdcb5a996b80cd6397efe7d4d95024bf64ffb1",
+      "spreadPages": [
+        112,
+        113
+      ],
+      "selectedPages": [
+        112,
+        113
+      ],
+      "creationTime": "2026-10-02T02:50:34.7401442+09:00"
+    },
+    {
+      "index": 54,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_HQWlAA0RTz.png",
+      "filename": "Kindle_HQWlAA0RTz.png",
+      "bytes": 1352151,
+      "sha256": "b42b204e9b00f8350103474bdf92489c1a176aa4b54f07bee3f424968e476754",
+      "spreadPages": [
+        114,
+        115
+      ],
+      "selectedPages": [
+        114,
+        115
+      ],
+      "creationTime": "2026-10-02T02:50:36.4872344+09:00"
+    },
+    {
+      "index": 55,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_BeiQg6c0l6.png",
+      "filename": "Kindle_BeiQg6c0l6.png",
+      "bytes": 1509837,
+      "sha256": "c52d2bdcbf21c1feadd576459547d964eb2f880a8b3cbb25846418a38780227a",
+      "spreadPages": [
+        116,
+        117
+      ],
+      "selectedPages": [
+        116,
+        117
+      ],
+      "creationTime": "2026-10-02T02:50:38.0917973+09:00"
+    },
+    {
+      "index": 56,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_qmoCJLVxyd.png",
+      "filename": "Kindle_qmoCJLVxyd.png",
+      "bytes": 1273345,
+      "sha256": "44665dc6c435d866dffd21001f1293f4a36e3daabf944e3094eb657d56b78006",
+      "spreadPages": [
+        118,
+        119
+      ],
+      "selectedPages": [
+        118,
+        119
+      ],
+      "creationTime": "2026-10-02T02:50:39.8311036+09:00"
+    },
+    {
+      "index": 57,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_XtoTJmi499.png",
+      "filename": "Kindle_XtoTJmi499.png",
+      "bytes": 1467565,
+      "sha256": "80b66e61e6bd1ca6a653eb7ba6f20563452f5a58d19113c0b49754d103eb0835",
+      "spreadPages": [
+        120,
+        121
+      ],
+      "selectedPages": [
+        120,
+        121
+      ],
+      "creationTime": "2026-10-02T02:50:41.5820874+09:00"
+    },
+    {
+      "index": 58,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_i0QNYHVKRH.png",
+      "filename": "Kindle_i0QNYHVKRH.png",
+      "bytes": 1122221,
+      "sha256": "aaf793620571d48830bb5c2d6596492747f1d60b00eacf774f4eeab752f35677",
+      "spreadPages": [
+        122,
+        123
+      ],
+      "selectedPages": [
+        122,
+        123
+      ],
+      "creationTime": "2026-10-02T02:50:43.2890277+09:00"
+    },
+    {
+      "index": 59,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_T2kQxrG87s.png",
+      "filename": "Kindle_T2kQxrG87s.png",
+      "bytes": 732862,
+      "sha256": "7b16bb1964a8b641f5f350bb07612d4fdc2c426b22065595441d0de02edd6b1c",
+      "spreadPages": [
+        124,
+        125
+      ],
+      "selectedPages": [
+        124
+      ],
+      "creationTime": "2026-10-02T02:50:45.0848383+09:00"
+    }
+  ],
+  "page_checks": [
+    {
+      "page": 108,
+      "ruby_count": 1,
+      "bold_range_count": 25,
+      "source_styles": {
+        "data-source-color:white": 15,
+        "data-source-background:black": 7,
+        "data-source-background:red": 8,
+        "data-source-underline-color:red": 8,
+        "data-source-color:red": 2
+      },
+      "sidebar_included": false,
+      "sha256": "928ec9689c9194b39d6e0dd08c074e8ae0efbf54fe4df7dcb80ca758063c0c74",
+      "visually_checked_regions": [
+        "回の扉",
+        "本文",
+        "概観図の全項目とページ範囲",
+        "吹き出し"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": false
+    },
+    {
+      "page": 109,
+      "ruby_count": 4,
+      "bold_range_count": 43,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 7,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4,
+        "data-source-border:red": 1,
+        "data-source-color:green": 2
+      },
+      "sidebar_included": true,
+      "sha256": "724e514f75e1bd8161c0458d9b7ac7b6133ec94f769f609a7c0225e17225d28b",
+      "visually_checked_regions": [
+        "節見出し",
+        "小見出し",
+        "本文",
+        "ゲーテの吹き出し",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 110,
+      "ruby_count": 10,
+      "bold_range_count": 47,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-color:red": 8,
+        "data-source-background:red": 1,
+        "data-source-border:red": 1,
+        "data-source-color:green": 2
+      },
+      "sidebar_included": false,
+      "sha256": "63ddbf3d3c88eadbb16d746d8d7d035d18189f27f63ff30fdb400666ddecc828",
+      "visually_checked_regions": [
+        "本文",
+        "疾風怒濤運動と古典主義文学の表",
+        "古典主義絵画の表",
+        "節見出し",
+        "小見出し",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 111,
+      "ruby_count": 6,
+      "bold_range_count": 60,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 13,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": true,
+      "sha256": "145ab3d06da887ce115436917c19b022267b39b62b923ca2cd0607ba5060ed1c",
+      "visually_checked_regions": [
+        "本文",
+        "小見出し",
+        "ロマン主義絵画の表",
+        "ロマン主義音楽の表",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 112,
+      "ruby_count": 7,
+      "bold_range_count": 39,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-italic:true": 1,
+        "data-source-color:red": 11,
+        "data-source-background:red": 1,
+        "data-source-border:red": 1,
+        "data-source-color:green": 2
+      },
+      "sidebar_included": false,
+      "sha256": "6078f2329a26ffd0498579c17370d85c03e33ba9c23a822549bfcaa860642b56",
+      "visually_checked_regions": [
+        "ロマン主義文学の表",
+        "節見出し",
+        "小見出し",
+        "本文",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 113,
+      "ruby_count": 5,
+      "bold_range_count": 36,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 10,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": true,
+      "sha256": "8c330101ad8853e6ed4fb44d88277b16649a07f2f4d91285afb05d53ef78bdc8",
+      "visually_checked_regions": [
+        "本文",
+        "小見出し",
+        "ミレーの図版の題名",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 114,
+      "ruby_count": 8,
+      "bold_range_count": 43,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 11,
+        "data-source-color:green": 1,
+        "data-source-italic:true": 1
+      },
+      "sidebar_included": false,
+      "sha256": "384f5cc529ee6c673a30aef11a1848800580fdf3f6a92e753feda8637551e6fa",
+      "visually_checked_regions": [
+        "本文",
+        "小見出し",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 115,
+      "ruby_count": 5,
+      "bold_range_count": 56,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 19,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 5,
+        "data-source-italic:true": 1,
+        "data-source-border:red": 1
+      },
+      "sidebar_included": true,
+      "sha256": "393a6d4f56849a671fb0dcbe5cfe7fc825ca73560129b50420935bc99f8ea9c3",
+      "visually_checked_regions": [
+        "自然主義絵画の表",
+        "写実主義絵画の表",
+        "写実主義文学の表",
+        "自然主義文学の表",
+        "節見出し",
+        "小見出し",
+        "本文",
+        "マネの図版の題名",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 116,
+      "ruby_count": 7,
+      "bold_range_count": 44,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 12,
+        "data-source-color:gray": 1
+      },
+      "sidebar_included": false,
+      "sha256": "32c114eefcd6efc88d9b3a9b0b25756e45322cfee2fc02621a9de09d84f6d202",
+      "visually_checked_regions": [
+        "本文",
+        "小見出し",
+        "印象派絵画の表",
+        "ポスト印象派絵画の表",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 117,
+      "ruby_count": 3,
+      "bold_range_count": 45,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 15,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4,
+        "data-source-border:red": 1,
+        "data-source-italic:true": 1,
+        "data-source-color:brown": 1,
+        "data-source-color:green": 2
+      },
+      "sidebar_included": true,
+      "sha256": "463dbcc9d88dc3a4cde6ddf6de559227d8c29885a9a90a3f99bd67d8d700cea9",
+      "visually_checked_regions": [
+        "節見出し",
+        "経済学の区分見出し",
+        "小見出し",
+        "本文",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 118,
+      "ruby_count": 6,
+      "bold_range_count": 33,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 7,
+        "data-source-color:green": 2,
+        "data-source-cancellation:cross": 2,
+        "data-source-cancellation-color:brown": 2,
+        "data-source-border:red": 2
+      },
+      "sidebar_included": false,
+      "sha256": "8bf4741311b5ecf4462c615b5393682f10737c9994a4124e5f2ed7f2c66a537c",
+      "visually_checked_regions": [
+        "本文",
+        "マルクスの革命理論の図の全ラベルと取り消し印",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 119,
+      "ruby_count": 3,
+      "bold_range_count": 47,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 14,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4,
+        "data-source-italic:true": 1,
+        "data-source-color:brown": 1,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": true,
+      "sha256": "b976306c1b199d3be978309d50eea596063d7121bd671f24761a3ce35d204b30",
+      "visually_checked_regions": [
+        "本文",
+        "古典派経済学の表",
+        "歴史学派経済学の表",
+        "マルクス経済学の表",
+        "その他の社会科学の区分見出し",
+        "小見出し",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 120,
+      "ruby_count": 1,
+      "bold_range_count": 32,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 12,
+        "data-source-italic:true": 1,
+        "data-source-color:brown": 1,
+        "data-source-color:green": 2
+      },
+      "sidebar_included": false,
+      "sha256": "f902aba83e599a9366f627bad8719cc4417287550c15d6e86203dbafdf7b4997",
+      "visually_checked_regions": [
+        "本文",
+        "その他社会科学の表",
+        "哲学の区分見出し",
+        "小見出し",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 121,
+      "ruby_count": 4,
+      "bold_range_count": 66,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 19,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4,
+        "data-source-border:red": 1,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": true,
+      "sha256": "0bfbbc34da586a3abb423789fb32ccb91c64d6a2380b99f24ece4646f84cd10a",
+      "visually_checked_regions": [
+        "本文",
+        "哲学の表",
+        "節見出し",
+        "小見出し",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 122,
+      "ruby_count": 4,
+      "bold_range_count": 45,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 15
+      },
+      "sidebar_included": false,
+      "sha256": "3b5aa951e2b274204497e77a746d9085b38b126d7cdd2f89528400d49f1deb51",
+      "visually_checked_regions": [
+        "本文",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 123,
+      "ruby_count": 3,
+      "bold_range_count": 53,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 24,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4,
+        "data-source-italic:true": 1
+      },
+      "sidebar_included": true,
+      "sha256": "c94744d2be8b8f33e10788c745520aea6f8c07cdcb17bfce6431bf2d3d882f44",
+      "visually_checked_regions": [
+        "物理学・化学の表",
+        "生物学・医学の表",
+        "科学技術の表",
+        "結びの本文",
+        "年号欄を設けない旨の本文",
+        "次回の予告",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 124,
+      "ruby_count": 0,
+      "bold_range_count": 0,
+      "source_styles": {},
+      "sidebar_included": false,
+      "sha256": "7398f0159abe71d9012e34fb1a5af2d53b0125f2565deac1600255eb547f2c0a",
+      "visually_checked_regions": [
+        "白紙であることと125ページの章扉との境界"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": true,
+      "printed_page_number_visible": false
+    }
+  ],
+  "preserved_existing_sources": [
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/01_ウィーン体制とその崩壊.md",
+      "bytes": 125641,
+      "sha256": "165ddb691e4973afe09973efed87ac688207227b196b29359b37b716976e6cad"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/02_イギリスの自由主義とフランス第二帝政.md",
+      "bytes": 73476,
+      "sha256": "146b4662b580b1e418a0372071d1cb058d328086d671f0af9918d192c08f7d95"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/03_アメリカ合衆国の発展.md",
+      "bytes": 83961,
+      "sha256": "72fca4fe17c9b56f4a384f31d1f88792332f5ae71ddde72902fd2d5483353741"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/04_イタリア・ドイツの統一.md",
+      "bytes": 103926,
+      "sha256": "5222e5c09e3975b68718e5e2046deb9788a09d032cee080b35d94ee0840b8fbd"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/05_ロシアと東方問題.md",
+      "bytes": 72669,
+      "sha256": "f061a5cc959ed1869062f43104dc31a5d221133a2c7a5c21675607723abd52d1"
+    },
+    {
+      "file": "sources/近代・現代/sekai_shi_tankyu_mokuji.md",
+      "bytes": 7892,
+      "sha256": "766d34236036053f9847d1128cc98151b8f359baf91503c173a62b8699f11c10"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/01_古代オリエント世界の成立.md",
+      "bytes": 31817,
+      "sha256": "f9024578a68f55bd9c978e6050b753e6668daf004b6b1f5c003b79293351c511"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/02_古代オリエント世界の統一.md",
+      "bytes": 44059,
+      "sha256": "21719e63443aff70618fe3dbc98e62a720724bfdaac0617890069916a628876d"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/03_古代インド.md",
+      "bytes": 62621,
+      "sha256": "ea929ebcb3bd84e693788cffacd07ca44e7d7971f9af136e73a9efc0270a2463"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/04_古代ギリシア世界の成立.md",
+      "bytes": 48262,
+      "sha256": "be16e648bfaab3c69e9173a7af17045d48f11ae01a5f51c1aaa520b97cdeeaa8"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/05_ポリス社会の崩壊とヘレニズム.md",
+      "bytes": 51840,
+      "sha256": "20c99a00c21be93f3587cae0e30e81a3fca5392a83c1ac7079d90c5ab2ac94ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/06_ローマ共和政.md",
+      "bytes": 46581,
+      "sha256": "ed45db4cea5eb6a895d56f5c7269080de5b182fbba3fe549bffa809160b46c07"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/07_ローマ帝国とキリスト教.md",
+      "bytes": 61612,
+      "sha256": "a885ff13c6979125822b3156d526d72fff1cadc30a3c2a85a6488ecf006e6178"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/08_古代中国①（中国文明〜秦）.md",
+      "bytes": 41532,
+      "sha256": "1ad91d67c3d7df94e6c20240a7afb3a714218cd41ebe4fd7ac5ac5922035c358"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/09_古代中国②（漢〜魏晋南北朝時代）.md",
+      "bytes": 50515,
+      "sha256": "9f798bbe2b4ce8a7bede47a6b433699951c413785f7760fd9dfc80f09174d45a"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/10_古代中国③（隋〜唐）.md",
+      "bytes": 62280,
+      "sha256": "3db1c6d9c12adcb8b06d2b7d087858c644b425824b66d1ddca6b2bf70126ebcb"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/11_ゲルマン人の移動とフランク王国.md",
+      "bytes": 46598,
+      "sha256": "ec3676c9f4862f62ef1d674ddcd4194a5e1a1fc6cbf2dffcdb5234cbc1523aec"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/12_封建社会の形成とカトリック教会の発展.md",
+      "bytes": 40801,
+      "sha256": "3890bafd22ffb7424c78bed641efea8a33510bb002f7fc03fd484b693f040dc8"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/13_ビザンツ帝国と中世の東欧.md",
+      "bytes": 40182,
+      "sha256": "f11fc57de9688ba60149815f419dd9a046fb3aec87095d34d7aa64acac99fc45"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/14_十字軍と封建社会の変容.md",
+      "bytes": 57077,
+      "sha256": "4b61d500da44985ee2038e894bdda94f8b07c26724c0f56b452d6a5f03369ac0"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/15_中世の西ヨーロッパ諸国.md",
+      "bytes": 44028,
+      "sha256": "96ec4b05542cc97e86e9075dcb66d849a4fc4d9f9ebf9683c127d04152b25df3"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/16_中華世界の変容（五代十国〜宋）.md",
+      "bytes": 422577,
+      "sha256": "c964833191e1b30a0e9a1891e3a1b48a690d70456d45712039d6771c5aad7ba9"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/17_モンゴル帝国の時代.md",
+      "bytes": 38140,
+      "sha256": "6d7d7728c89213c6195ec7d0c97deda789a47b87a3dd5f8462af4610e225e2ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/18_中華帝国の繁栄（明・清）.md",
+      "bytes": 70513,
+      "sha256": "7893c644440a9975278b1d74f851d3981521482d5679dfd2a00b1023db23aa08"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/19_東南アジア世界.md",
+      "bytes": 39685,
+      "sha256": "49d4bd12ef5c2b6c2fc8899057f39398100f6abedbf12f611f934396ce68604a"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/20_イスラーム世界の形成.md",
+      "bytes": 51846,
+      "sha256": "18bd3156f93c4ce96bc0911087a6a6963677888b45e08f2e5c76b534cd9de116"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/21_イスラーム専制帝国の繁栄.md",
+      "bytes": 51340,
+      "sha256": "db5cfc267ecb6fa1fe5f0d816d705a46a235b0d04f301dad39320e3d0da6e96b"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/22_ルネサンスと大航海時代.md",
+      "bytes": 50219,
+      "sha256": "09f70077edde0d572520c38428b70326db06284c5a6b114fb09e649df95928e6"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/23_宗教改革.md",
+      "bytes": 51001,
+      "sha256": "19022d9c8737d6168fd7031032ca610eb4fc1c83d824693dd08260dc22b669a5"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/24_近世のヨーロッパ①（スペイン・オランダ）.md",
+      "bytes": 38926,
+      "sha256": "c7eec2d9ded4ce34e96bfe55e32516d426c1ac8e1c5d9c740f34286df8771341"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/25_近世のヨーロッパ②（イギリス・フランス）.md",
+      "bytes": 56162,
+      "sha256": "f253084f54c6e39df1fee2d7e648a7b5be42ebe5d4eec27ff6847db16591811d"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/26_近世のヨーロッパ③（ドイツ・ロシア）.md",
+      "bytes": 61143,
+      "sha256": "b4a1238a4f5bc5cbf955b68706c4dd88d3e32b7dc50d1f4233ab356508540e2c"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/27_産業革命とアメリカ独立革命.md",
+      "bytes": 55751,
+      "sha256": "9f0b6c49716753f012caa205cd1174d7bb0778d56158507802cddc7c88cd3900"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/28_フランス革命.md",
+      "bytes": 45082,
+      "sha256": "e68ec2d8e00ebc5e958edd524bb822702408d5fadbb07f7913f8ef2485e217f7"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/29_ナポレオンの時代.md",
+      "bytes": 38983,
+      "sha256": "ff758ca021ea934556aa5284644ef7a79deb4d8df2f58bca7e0166603c020828"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/30_17〜18世紀のヨーロッパ文化.md",
+      "bytes": 30315,
+      "sha256": "d9fac3ba70c7211c292cb9669f361c7072fc09431fd2d70d1f1b17bb927e259d"
+    },
+    {
+      "file": "sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md",
+      "bytes": 8697,
+      "sha256": "4710c02be0c1de8628b3c78cbd746a60564f35ac9f228a25b96f218048637697"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-so-question-types.md",
+      "bytes": 50157,
+      "sha256": "0f20e1404f95f5b39cf60881593939a22e44338f0c419d39976d9be3cc6a0a93"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-source-md-csv-generation.md",
+      "bytes": 47688,
+      "sha256": "f6c7e28c8e1f512b12a698ce97167c65865060dbb7697a8c89d6cf3bb96f6160"
+    }
+  ],
+  "validation": {
+    "consecutive_pages": true,
+    "source_emphasis_tags_balanced": true,
+    "all_existing_source_hashes_unchanged": true,
+    "all_original_image_hashes_unchanged": true,
+    "user_changes_unchanged": true,
+    "source_and_images_git_ignored": true,
+    "web_lessons_added": false,
+    "regression_checks": [
+      {
+        "command": "npm run check:transcriptions",
+        "exit_code": 0,
+        "duration_seconds": 0.9823736999969697,
+        "log_sha256": "987b4c81faacc900669b7f3b2f59334b842edbe0896114f1ca7a5969962aa879"
+      },
+      {
+        "command": "npm run check",
+        "exit_code": 0,
+        "duration_seconds": 17.47600539999985,
+        "log_sha256": "4dca7f0f7fe79945f37f02e661862fb236a87ab1beed3c2449ec69f1a235a405"
+      },
+      {
+        "command": "npm run build",
+        "exit_code": 0,
+        "duration_seconds": 17.083383299999696,
+        "log_sha256": "837d07c97d1f54d164e7b81c8e7c220c8bcc6ca18c20cb72218c84290b374b98"
+      }
+    ],
+    "integrity_checks": {
+      "new_source_unchanged": true,
+      "consecutive_pages": 17,
+      "protected_sources": 39,
+      "source_images": 9,
+      "boundary_image": 1,
+      "user_changes_unchanged": true,
+      "public_version_only_files": 139,
+      "previous_release_history_unchanged": true,
+      "published_catalog_unchanged_except_version": true,
+      "diff_check_exit_code": 0
+    },
+    "ruby_count": 77,
+    "bold_range_count": 714
+  }
+}
