@@ -46,11 +46,6 @@ html[data-theme="dark"] body .story-shell .narrative { color:#e4ebe7; }
   body .story-shell .narrative #scene-title { font-size:17px; }
 }
 
-body .story-shell .scene-body strong.key-term,
-body .story-shell .scene-body strong.key-term .map-mention { color:#805514 !important; }
-html[data-theme="dark"] body .story-shell .scene-body strong.key-term,
-html[data-theme="dark"] body .story-shell .scene-body strong.key-term .map-mention { color:#ead28a !important; }
-
 /* 地図文字は画面上の大きさで読み、ドット絵の縮小処理と分離する。 */
 body .story-shell #story-map text:not(.city-plan text):not(.orientation-layer text) {
   font-family:"Meiryo","Hiragino Kaku Gothic ProN",sans-serif;

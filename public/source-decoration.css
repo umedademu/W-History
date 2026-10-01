@@ -1,12 +1,17 @@
-/* 原画像の赤太字・黒太字を、出現箇所ごとに区別する。 */
+/* 原画像の赤太字・黒太字と、アプリで補った装飾を区別して管理する。 */
+body .story-shell .narrative { --story-emphasis-color:#9d3825; }
+html[data-theme="dark"] body .story-shell .narrative { --story-emphasis-color:#ffb49f; }
 body .story-shell .narrative .source-bold,
-body .story-shell .narrative .source-red-bold { font-weight:700; }
+body .story-shell .narrative .source-red-bold,
+body .story-shell .narrative .story-bold,
+body .story-shell .narrative .story-key-term { font-weight:700; }
 body .story-shell .narrative .source-bold,
 body .story-shell .narrative .source-bold .map-mention { color:inherit !important; }
 body .story-shell .narrative .source-red-bold,
-body .story-shell .narrative .source-red-bold .map-mention { color:#9d3825 !important; }
-html[data-theme="dark"] body .story-shell .narrative .source-red-bold,
-html[data-theme="dark"] body .story-shell .narrative .source-red-bold .map-mention { color:#ffb49f !important; }
+body .story-shell .narrative .source-red-bold .map-mention,
+body .story-shell .narrative .story-key-term,
+body .story-shell .narrative .story-key-term .map-mention { color:var(--story-emphasis-color) !important; }
+body .story-shell .narrative .story-bold { color:inherit; }
 body .story-shell .narrative .source-underline { text-decoration:underline; text-underline-offset:.18em; }
 body .story-shell .narrative .source-italic { font-style:italic; }
 body .story-shell .narrative ruby { ruby-position:over; }

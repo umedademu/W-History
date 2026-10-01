@@ -2,6 +2,7 @@ import { initialPageIndex } from "./story-volumes.js?v=0.068";
 import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.068";
 import { maximumMapScale } from "./map-camera.js?v=0.064";
 import { createMapLayout } from "./map-layout.js?v=0.064";
+import { decorateStoryBody } from "./story-emphasis.js?v=0.082";
 
 export function mountStory({ places, zones, scenes, imageDirectory, chapterNavigation, baseMap }) {
 const NS = "http://www.w3.org/2000/svg";
@@ -219,6 +220,7 @@ function show(scroll = false) {
   })) byId(id).textContent = value;
 
   byId("scene-body").innerHTML = scene.body.map(text => `<p>${text}</p>`).join("");
+  decorateStoryBody(byId("scene-body"), scene);
   byId("map-facts").replaceChildren(...scene.facts.map(text => { const item = document.createElement("li"); item.textContent = text; return item; }));
   byId("previous").disabled = index === 0;
   byId("next").textContent = index === scenes.length - 1 ? (chapterNavigation?.nextLabel ?? "最初から ↻") : "次へ →";
