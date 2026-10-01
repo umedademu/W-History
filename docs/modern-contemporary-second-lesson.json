@@ -1,0 +1,752 @@
+{
+  "date": "2026-10-02",
+  "version": "0.085",
+  "volume": "近代・現代",
+  "chapter": 1,
+  "chapter_title": "国民国家の形成",
+  "lesson": 2,
+  "lesson_title": "イギリスの自由主義とフランス第二帝政",
+  "source_file": "sources/近代・現代/01_国民国家の形成/02_イギリスの自由主義とフランス第二帝政.md",
+  "source_sha256": "146b4662b580b1e418a0372071d1cb058d328086d671f0af9918d192c08f7d95",
+  "source_bytes": 73476,
+  "pages": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54
+  ],
+  "page_count": 14,
+  "section_start_pages": [
+    42,
+    47,
+    51
+  ],
+  "next_lesson_start_page": 55,
+  "image_count": 8,
+  "reader": "担当の原画像読み取り、Antigravity CLI経由のGemini 3.8 Flashによる独立した本文読み取り、原画像による相違と装飾の照合",
+  "authorization": "利用者の「ベストな方法を模索しながら次の回の書き起こしを作成して」に従い、読み取り方法の比較と第2回の新規作成を実施。",
+  "rules_document": "docs/source-transcription-rules.md",
+  "comparison_document": "docs/source-transcription-comparison.md",
+  "proofreading": "全14ページの本文を別々に読み、結果の違いを原画像の部分拡大で確認。図表・吹き出し・コラム・年号欄・欄外目次、太字・色・下線・読み仮名は原画像から確認。修正は保存前の作業用草稿で実施。",
+  "independently_compared_pages": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54
+  ],
+  "comparison_trials": [
+    {
+      "name": "comparison",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "duration_seconds": 152.8781624,
+      "request_sha256": "2f61d169c32931112b576a113f859ef49a4e1b33bf838cebbd24109bb3b3c9f1",
+      "response_sha256": "e0121f659da2eda6db616ecefce6e3b32dfb82ced158f7f247fa6c1ef0f35b17"
+    },
+    {
+      "name": "focused",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "duration_seconds": 92.0733098,
+      "request_sha256": "66b9188485a3edb060d005bdf2c67dec528680e51676777a6c8c45ac37884f11",
+      "response_sha256": "e8494ffba57a9caa67111cee39dc2804a73717596b7987d289f3adb4f2e1ea56"
+    },
+    {
+      "name": "text-a",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "duration_seconds": 88.7995935,
+      "request_sha256": "89138306c4ebbc1f683a945ed6fc13d031410dd38052a4dcf468bfd856b3ee27",
+      "response_sha256": "813f26c002031f43971091c3df5f6b155c9772a20691178087c5054c30daddf2"
+    },
+    {
+      "name": "text-b",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "duration_seconds": 111.1674751,
+      "request_sha256": "e29165b0e3af1fda53f55fc8d17aab8730fe2f36392ff24280502bcfc5fa2aec",
+      "response_sha256": "2ce79271cc2af2cbb5ecf45bdbf806cbd109cacfdfa689b1c4edb02919925ccc"
+    }
+  ],
+  "own_draft_corrections": [
+    {
+      "page": 42,
+      "before": "何が起こるんだろう？",
+      "after": "何が起こるんだろ？"
+    },
+    {
+      "page": 51,
+      "before": "普通に生活できる",
+      "after": "普通に生活できてる"
+    },
+    {
+      "page": 51,
+      "before": "ずいぶん違うね",
+      "after": "ずいぶん違うよね"
+    },
+    {
+      "page": 54,
+      "before": "結ぶんだけど",
+      "after": "結んだんだけど"
+    }
+  ],
+  "original_spelling_notes": [
+    {
+      "page": 53,
+      "note": "コラムの印刷された題名は「ちょっと寄り耳」。"
+    },
+    {
+      "page": 53,
+      "note": "末尾の「ナ」と54ページ冒頭の「ポレオン3世」は原画像のページ区切りを保存。"
+    }
+  ],
+  "pointer_overlap_checks": [
+    49,
+    51,
+    53
+  ],
+  "uncertainties": [],
+  "source_images": [
+    {
+      "filename": "Kindle_lsfX96TQsD.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_lsfX96TQsD.png",
+      "creationTime": "2026-10-02T02:49:33.6327823+09:00",
+      "sha256": "4682d23224147c221eb62b0e49d3b45a164419292a65240c51ee42dc94c310c2",
+      "spreadPages": [
+        40,
+        41
+      ],
+      "selectedPages": [
+        41
+      ]
+    },
+    {
+      "filename": "Kindle_RRMAcj1PEG.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_RRMAcj1PEG.png",
+      "creationTime": "2026-10-02T02:49:35.3502635+09:00",
+      "sha256": "3decdfbcc040fbc993eb282e04af21be7909fb8d913ef9d9265b9db2da6b9039",
+      "spreadPages": [
+        42,
+        43
+      ],
+      "selectedPages": [
+        42,
+        43
+      ]
+    },
+    {
+      "filename": "Kindle_dABjXk64tl.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_dABjXk64tl.png",
+      "creationTime": "2026-10-02T02:49:36.9719457+09:00",
+      "sha256": "e7849dfec1b3cf8f677c3a735521283c482cd3d14b35bfe2b3ef533bc1f8dd7b",
+      "spreadPages": [
+        44,
+        45
+      ],
+      "selectedPages": [
+        44,
+        45
+      ]
+    },
+    {
+      "filename": "Kindle_uVs40rIkIM.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_uVs40rIkIM.png",
+      "creationTime": "2026-10-02T02:49:38.7339427+09:00",
+      "sha256": "1c82206a0545a49ea7dd02ca1cdafce07f7068c1ffa2d3f5b32bf3144d6bb9b1",
+      "spreadPages": [
+        46,
+        47
+      ],
+      "selectedPages": [
+        46,
+        47
+      ]
+    },
+    {
+      "filename": "Kindle_pJLFCpUgjd.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_pJLFCpUgjd.png",
+      "creationTime": "2026-10-02T02:49:40.3966584+09:00",
+      "sha256": "580eafc7e3ae47c197884c481cd74faa1b37a2a7a3b5ffe1e1e60b3fbe4e5656",
+      "spreadPages": [
+        48,
+        49
+      ],
+      "selectedPages": [
+        48,
+        49
+      ]
+    },
+    {
+      "filename": "Kindle_x82B3qG9l1.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_x82B3qG9l1.png",
+      "creationTime": "2026-10-02T02:49:42.1323769+09:00",
+      "sha256": "b283ba6aa3baa13b049647235b129eed5de5f03be2344d86856683feecd8b7bb",
+      "spreadPages": [
+        50,
+        51
+      ],
+      "selectedPages": [
+        50,
+        51
+      ]
+    },
+    {
+      "filename": "Kindle_iQvYhcBhS4.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_iQvYhcBhS4.png",
+      "creationTime": "2026-10-02T02:49:43.8274617+09:00",
+      "sha256": "a5681e8c9b1aebdddf5f3f27a64fbafe786cda7dba4c73a568ae8fca9dd44af1",
+      "spreadPages": [
+        52,
+        53
+      ],
+      "selectedPages": [
+        52,
+        53
+      ]
+    },
+    {
+      "filename": "Kindle_4NOdAiXwBJ.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_4NOdAiXwBJ.png",
+      "creationTime": "2026-10-02T02:49:45.5408972+09:00",
+      "sha256": "bef524ff5491cf1dcd4d7273265e8397d6c7213fb367a5ccdc5c941d165777f4",
+      "spreadPages": [
+        54,
+        55
+      ],
+      "selectedPages": [
+        54
+      ]
+    }
+  ],
+  "page_checks": [
+    {
+      "page": 41,
+      "ruby_count": 0,
+      "bold_range_count": 14,
+      "source_styles": {
+        "data-source-color:white": 11,
+        "data-source-background:black": 6,
+        "data-source-background:red": 5,
+        "data-source-underline-color:red": 8,
+        "data-source-border:red": 4,
+        "data-source-color:red": 8
+      },
+      "sidebar_included": false,
+      "sha256": "7aa68d9f7e574b5f4150a1e616782818c6a7cd98744f56c55be8c36ab82e72f9",
+      "visually_checked_regions": [
+        "回の扉",
+        "概観図",
+        "吹き出し",
+        "本文"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 42,
+      "ruby_count": 1,
+      "bold_range_count": 28,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-background:red": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 4
+      },
+      "sidebar_included": false,
+      "sha256": "b237ba9544a56a859bbef6454999d68f5ff65e44667c44b5b237b3781eed7e73",
+      "visually_checked_regions": [
+        "本文",
+        "節見出し",
+        "吹き出し",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 43,
+      "ruby_count": 4,
+      "bold_range_count": 36,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 8,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "59b9fe677a99225f107b49c7972c2b8fb2e72fd6e95312f3b4fb5c8c0337575f",
+      "visually_checked_regions": [
+        "本文",
+        "吹き出し",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 44,
+      "ruby_count": 6,
+      "bold_range_count": 33,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 12,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "ca90eb00f890d891a594225a81904185352f6c09cc604553c1d2542b0300d071",
+      "visually_checked_regions": [
+        "本文",
+        "1833年の改革の表",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 45,
+      "ruby_count": 3,
+      "bold_range_count": 32,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 4,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "80c2921e4613d31f1cd8d9004ea1ad4761b52b5c0c5c9611069267288a2a8f54",
+      "visually_checked_regions": [
+        "本文",
+        "吹き出し",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 46,
+      "ruby_count": 5,
+      "bold_range_count": 46,
+      "source_styles": {
+        "data-source-color:white": 3,
+        "data-source-background:black": 1,
+        "data-source-color:green": 5,
+        "data-source-color:red": 18,
+        "data-source-background:red": 1,
+        "data-source-background:brown": 1
+      },
+      "sidebar_included": false,
+      "sha256": "d0f0b2d8ff7c46f7426ca636f1f9eb11a36412e54f53b0c79eb7c0f3464ef13b",
+      "visually_checked_regions": [
+        "本文",
+        "合否の分かれ目",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 47,
+      "ruby_count": 5,
+      "bold_range_count": 52,
+      "source_styles": {
+        "data-source-color:white": 8,
+        "data-source-background:red": 4,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 25,
+        "data-source-color:gray": 20,
+        "data-source-background:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "3780f94521334e4db981dbf76a6d6df4e5357f444e04ea528f1adeaf5f3844b7",
+      "visually_checked_regions": [
+        "本文",
+        "選挙法改正の表",
+        "クローズアップ",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 48,
+      "ruby_count": 2,
+      "bold_range_count": 35,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 5
+      },
+      "sidebar_included": false,
+      "sha256": "5df6ecf7153f60f275c567b6d848a32ac4cffa3808f5b59d2477d2634c436e99",
+      "visually_checked_regions": [
+        "本文",
+        "吹き出し",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 49,
+      "ruby_count": 7,
+      "bold_range_count": 35,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:green": 5,
+        "data-source-color:red": 6,
+        "data-source-color:brown": 6,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "807f089f7b18a4233ef276d9168e8a90d09aedb07154d0b6abb63ae5efac8981",
+      "visually_checked_regions": [
+        "本文",
+        "ジャガイモ飢饉の図",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 50,
+      "ruby_count": 4,
+      "bold_range_count": 31,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 5
+      },
+      "sidebar_included": false,
+      "sha256": "f45db4e723f5cb7fba71365c51fafa4859c00c48d6d8616c4122b044eca701e0",
+      "visually_checked_regions": [
+        "本文",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 51,
+      "ruby_count": 0,
+      "bold_range_count": 33,
+      "source_styles": {
+        "data-source-color:white": 8,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 8,
+        "data-source-color:green": 1,
+        "data-source-background:black": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "54a7990e8b2390e423c97fd9f67c1f25687393a5ee303bc8b9461546d390b4e6",
+      "visually_checked_regions": [
+        "本文",
+        "地図の文字",
+        "吹き出し",
+        "節見出し",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 52,
+      "ruby_count": 5,
+      "bold_range_count": 48,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-background:red": 1,
+        "data-source-color:red": 15,
+        "data-source-color:green": 14
+      },
+      "sidebar_included": false,
+      "sha256": "32dddc7e718e55a2e7de10467f59a3337d96a5cc34608a27b94b172f00a91bf7",
+      "visually_checked_regions": [
+        "本文",
+        "クローズアップ",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 53,
+      "ruby_count": 6,
+      "bold_range_count": 41,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 10,
+        "data-source-underline-color:black": 1,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "1d8e01ec6ef9a435357511196cede0db9f7e53a7e272483d9c53e8cc5513228c",
+      "visually_checked_regions": [
+        "本文",
+        "＋α ちょっと寄り耳",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 54,
+      "ruby_count": 36,
+      "bold_range_count": 55,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-color:red": 29,
+        "data-source-color:green": 2,
+        "data-source-background:red": 1
+      },
+      "sidebar_included": false,
+      "sha256": "d842b780b31e9a5d3d41bd3cc55cc3dbd3ab11d40a4c24789e51b1fbde030092",
+      "visually_checked_regions": [
+        "本文",
+        "年号のツボ",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    }
+  ],
+  "preserved_existing_sources": [
+    {
+      "file": "sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md",
+      "bytes": 8697,
+      "sha256": "4710c02be0c1de8628b3c78cbd746a60564f35ac9f228a25b96f218048637697"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-so-question-types.md",
+      "bytes": 50157,
+      "sha256": "0f20e1404f95f5b39cf60881593939a22e44338f0c419d39976d9be3cc6a0a93"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-source-md-csv-generation.md",
+      "bytes": 47688,
+      "sha256": "f6c7e28c8e1f512b12a698ce97167c65865060dbb7697a8c89d6cf3bb96f6160"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/01_古代オリエント世界の成立.md",
+      "bytes": 31817,
+      "sha256": "f9024578a68f55bd9c978e6050b753e6668daf004b6b1f5c003b79293351c511"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/02_古代オリエント世界の統一.md",
+      "bytes": 44059,
+      "sha256": "21719e63443aff70618fe3dbc98e62a720724bfdaac0617890069916a628876d"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/03_古代インド.md",
+      "bytes": 62621,
+      "sha256": "ea929ebcb3bd84e693788cffacd07ca44e7d7971f9af136e73a9efc0270a2463"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/04_古代ギリシア世界の成立.md",
+      "bytes": 48262,
+      "sha256": "be16e648bfaab3c69e9173a7af17045d48f11ae01a5f51c1aaa520b97cdeeaa8"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/05_ポリス社会の崩壊とヘレニズム.md",
+      "bytes": 51840,
+      "sha256": "20c99a00c21be93f3587cae0e30e81a3fca5392a83c1ac7079d90c5ab2ac94ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/06_ローマ共和政.md",
+      "bytes": 46581,
+      "sha256": "ed45db4cea5eb6a895d56f5c7269080de5b182fbba3fe549bffa809160b46c07"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/07_ローマ帝国とキリスト教.md",
+      "bytes": 61612,
+      "sha256": "a885ff13c6979125822b3156d526d72fff1cadc30a3c2a85a6488ecf006e6178"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/08_古代中国①（中国文明〜秦）.md",
+      "bytes": 41532,
+      "sha256": "1ad91d67c3d7df94e6c20240a7afb3a714218cd41ebe4fd7ac5ac5922035c358"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/09_古代中国②（漢〜魏晋南北朝時代）.md",
+      "bytes": 50515,
+      "sha256": "9f798bbe2b4ce8a7bede47a6b433699951c413785f7760fd9dfc80f09174d45a"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/10_古代中国③（隋〜唐）.md",
+      "bytes": 62280,
+      "sha256": "3db1c6d9c12adcb8b06d2b7d087858c644b425824b66d1ddca6b2bf70126ebcb"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/11_ゲルマン人の移動とフランク王国.md",
+      "bytes": 46598,
+      "sha256": "ec3676c9f4862f62ef1d674ddcd4194a5e1a1fc6cbf2dffcdb5234cbc1523aec"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/12_封建社会の形成とカトリック教会の発展.md",
+      "bytes": 40801,
+      "sha256": "3890bafd22ffb7424c78bed641efea8a33510bb002f7fc03fd484b693f040dc8"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/13_ビザンツ帝国と中世の東欧.md",
+      "bytes": 40182,
+      "sha256": "f11fc57de9688ba60149815f419dd9a046fb3aec87095d34d7aa64acac99fc45"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/14_十字軍と封建社会の変容.md",
+      "bytes": 57077,
+      "sha256": "4b61d500da44985ee2038e894bdda94f8b07c26724c0f56b452d6a5f03369ac0"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/15_中世の西ヨーロッパ諸国.md",
+      "bytes": 44028,
+      "sha256": "96ec4b05542cc97e86e9075dcb66d849a4fc4d9f9ebf9683c127d04152b25df3"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/16_中華世界の変容（五代十国〜宋）.md",
+      "bytes": 422577,
+      "sha256": "c964833191e1b30a0e9a1891e3a1b48a690d70456d45712039d6771c5aad7ba9"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/17_モンゴル帝国の時代.md",
+      "bytes": 38140,
+      "sha256": "6d7d7728c89213c6195ec7d0c97deda789a47b87a3dd5f8462af4610e225e2ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/18_中華帝国の繁栄（明・清）.md",
+      "bytes": 70513,
+      "sha256": "7893c644440a9975278b1d74f851d3981521482d5679dfd2a00b1023db23aa08"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/19_東南アジア世界.md",
+      "bytes": 39685,
+      "sha256": "49d4bd12ef5c2b6c2fc8899057f39398100f6abedbf12f611f934396ce68604a"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/20_イスラーム世界の形成.md",
+      "bytes": 51846,
+      "sha256": "18bd3156f93c4ce96bc0911087a6a6963677888b45e08f2e5c76b534cd9de116"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/21_イスラーム専制帝国の繁栄.md",
+      "bytes": 51340,
+      "sha256": "db5cfc267ecb6fa1fe5f0d816d705a46a235b0d04f301dad39320e3d0da6e96b"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/22_ルネサンスと大航海時代.md",
+      "bytes": 50219,
+      "sha256": "09f70077edde0d572520c38428b70326db06284c5a6b114fb09e649df95928e6"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/23_宗教改革.md",
+      "bytes": 51001,
+      "sha256": "19022d9c8737d6168fd7031032ca610eb4fc1c83d824693dd08260dc22b669a5"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/24_近世のヨーロッパ①（スペイン・オランダ）.md",
+      "bytes": 38926,
+      "sha256": "c7eec2d9ded4ce34e96bfe55e32516d426c1ac8e1c5d9c740f34286df8771341"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/25_近世のヨーロッパ②（イギリス・フランス）.md",
+      "bytes": 56162,
+      "sha256": "f253084f54c6e39df1fee2d7e648a7b5be42ebe5d4eec27ff6847db16591811d"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/26_近世のヨーロッパ③（ドイツ・ロシア）.md",
+      "bytes": 61143,
+      "sha256": "b4a1238a4f5bc5cbf955b68706c4dd88d3e32b7dc50d1f4233ab356508540e2c"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/27_産業革命とアメリカ独立革命.md",
+      "bytes": 55751,
+      "sha256": "9f0b6c49716753f012caa205cd1174d7bb0778d56158507802cddc7c88cd3900"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/28_フランス革命.md",
+      "bytes": 45082,
+      "sha256": "e68ec2d8e00ebc5e958edd524bb822702408d5fadbb07f7913f8ef2485e217f7"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/29_ナポレオンの時代.md",
+      "bytes": 38983,
+      "sha256": "ff758ca021ea934556aa5284644ef7a79deb4d8df2f58bca7e0166603c020828"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/30_17〜18世紀のヨーロッパ文化.md",
+      "bytes": 30315,
+      "sha256": "d9fac3ba70c7211c292cb9669f361c7072fc09431fd2d70d1f1b17bb927e259d"
+    },
+    {
+      "file": "sources/近代・現代/sekai_shi_tankyu_mokuji.md",
+      "bytes": 7892,
+      "sha256": "766d34236036053f9847d1128cc98151b8f359baf91503c173a62b8699f11c10"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/01_ウィーン体制とその崩壊.md",
+      "bytes": 125641,
+      "sha256": "165ddb691e4973afe09973efed87ac688207227b196b29359b37b716976e6cad"
+    }
+  ],
+  "validation": {
+    "consecutive_pages": true,
+    "source_emphasis_tags_balanced": true,
+    "all_existing_source_hashes_unchanged": true,
+    "all_original_image_hashes_unchanged": true,
+    "user_changes_unchanged": true,
+    "source_and_images_git_ignored": true,
+    "web_lessons_added": false,
+    "public_files_changed_only_for_current_version": 139,
+    "previous_release_history_unchanged": true,
+    "published_catalog_unchanged_except_version": true,
+    "regression_checks": [
+      {
+        "command": "npm run check:transcriptions",
+        "exit_code": 0
+      },
+      {
+        "command": "npm run check",
+        "exit_code": 0
+      },
+      {
+        "command": "npm run build",
+        "exit_code": 0
+      },
+      {
+        "command": "git diff --check",
+        "exit_code": 0
+      }
+    ]
+  }
+}
