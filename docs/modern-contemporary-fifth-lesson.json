@@ -1,0 +1,1218 @@
+{
+  "date": "2026-10-02",
+  "version": "0.088",
+  "volume": "近代・現代",
+  "chapter": 1,
+  "chapter_title": "国民国家の形成",
+  "lesson": 5,
+  "lesson_title": "ロシアと東方問題",
+  "source_file": "sources/近代・現代/01_国民国家の形成/05_ロシアと東方問題.md",
+  "source_sha256": "f061a5cc959ed1869062f43104dc31a5d221133a2c7a5c21675607723abd52d1",
+  "source_bytes": 72669,
+  "pages": [
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "page_count": 15,
+  "section_start_pages": [
+    94,
+    95,
+    102,
+    105
+  ],
+  "next_lesson_start_page": 108,
+  "next_lesson_boundary_image": {
+    "filename": "Kindle_KT61Vdqepp.png",
+    "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_KT61Vdqepp.png",
+    "creationTime": "2026-10-02T02:50:31.3783868+09:00",
+    "spreadPages": [
+      108,
+      109
+    ],
+    "selectedPages": [],
+    "sha256": "7f713e4a82dc41e2b69fc16826118f68a39a495e561fae26fa30f89d2443f91d",
+    "bytes": 1665415
+  },
+  "image_count": 8,
+  "reader": "担当の原画像読み取り、Antigravity CLI経由のGemini 3.8 Flashによる独立した本文読み取り、原画像による相違と装飾の照合",
+  "authorization": "第4回に続く利用者の「続けて」に従い、第5回を新規作成。",
+  "rules_document": "docs/source-transcription-rules.md",
+  "comparison_document": "docs/source-transcription-comparison.md",
+  "proofreading": "全15ページの本文を独立した読み取りと照合。図表・地図・吹き出し・クローズアップ・年号欄・欄外目次、太字・色・下線・読み仮名を原画像で確認。保存前の草稿だけを修正。",
+  "independently_compared_pages": [
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "comparison_trials": [
+    {
+      "name": "text-a",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "duration_seconds": 120.36390820000088,
+      "request_sha256": "38975bda9a856763673b028ea8b60adbe26bdeaee80dfc98aacbc227326f88ac",
+      "response_sha256": "8cb50412e5fe555dd4b02b7594c9d70c61193587cccc3d3c2cf8fa847532fe65",
+      "reported_uncertainties": {
+        "93": [],
+        "94": [],
+        "95": [],
+        "96": [],
+        "97": [],
+        "98": []
+      }
+    },
+    {
+      "name": "text-b",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "duration_seconds": 87.23740169999655,
+      "request_sha256": "ab76df0ede627abac16d7a00d4b922eb6420dd04a004c19b60652b9e52ca0efb",
+      "response_sha256": "4f4dba6bc8e88e3aa0e04c380fdbc98dfdd7ef3e05d9793082c6614255a862bf",
+      "reported_uncertainties": {
+        "99": [],
+        "100": [],
+        "101": [],
+        "102": [],
+        "103": [],
+        "104": []
+      }
+    },
+    {
+      "name": "text-c",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        105,
+        106,
+        107
+      ],
+      "duration_seconds": 107.00593120000121,
+      "request_sha256": "714f9fa9331322a0b1f947cd007af0eb6a5760a226d55fd9f85e3b5ff2761130",
+      "response_sha256": "f0e254dfb4cf558008c73979634863bee0643653b20645d1a0bed11f213e103c",
+      "reported_uncertainties": {
+        "105": [],
+        "106": [
+          "p.106の下から2行目「そのままだたけど」は画像上の印字通りの転記ですが、「そのままだったけど」の脱字（促音「っ」抜け）の可能性があります。"
+        ],
+        "107": []
+      }
+    }
+  ],
+  "own_draft_corrections": [
+    {
+      "page": 94,
+      "before": "ロシアを近代化しよ〜！",
+      "after": "ロシアを近代化しよ〜",
+      "reason": "感嘆符に見えた図案は顔と手の挿絵で、文字として追加しない。"
+    },
+    {
+      "page": 94,
+      "before": "ヨーロッパの一番東にあるロシアは",
+      "after": "ヨーロッパの一番東にある**ロシア**は",
+      "reason": "原画像で黒い太字を確認。"
+    },
+    {
+      "page": 94,
+      "before": "ピョートル1世やエカチェリーナ2世が",
+      "after": "**ピョートル1世**や**エカチェリーナ2世**が",
+      "reason": "原画像で黒い太字の範囲を確認。"
+    },
+    {
+      "page": 96,
+      "before": "**ミッレト**",
+      "after": "**ミッレット**",
+      "reason": "部分拡大でレの後ろの小さいッを確認。"
+    },
+    {
+      "page": 96,
+      "before": "を助けろ〜！",
+      "after": "を助けろ〜",
+      "reason": "顔と手の図案を感嘆符として追加しない。"
+    },
+    {
+      "page": 98,
+      "before": "ロシアと敵対することになったんだ",
+      "after": "ロシアと敵対することになるんだ",
+      "reason": "独立した本文との相違を拡大画像で確認。"
+    },
+    {
+      "page": 98,
+      "before": "全部阻止",
+      "after": "全部<ruby>阻止<rt>そし</rt></ruby>",
+      "reason": "印刷された読み仮名を確認。"
+    },
+    {
+      "page": 98,
+      "before": "なんでエジプトの味方するんだ！",
+      "after": "なんでエジプトの味方するんだよ！",
+      "reason": "本文の抜けたよを拡大で確認。"
+    },
+    {
+      "page": 101,
+      "before": "VS.（4箇所）",
+      "after": "vs.（4箇所）",
+      "reason": "まとめ欄の小文字表記を拡大で確認。"
+    },
+    {
+      "page": 101,
+      "before": "**露・英・仏**",
+      "after": "**露・英**・仏",
+      "reason": "黒い太字と通常の文字の境界を確認。"
+    },
+    {
+      "page": 101,
+      "before": "**英・仏・墺**",
+      "after": "**英**・仏・墺",
+      "reason": "黒い太字は英だけに付いている。"
+    },
+    {
+      "page": 101,
+      "before": "**露・英・墺・普**",
+      "after": "**露・英**・墺・普",
+      "reason": "黒い太字の範囲を確認。"
+    },
+    {
+      "page": 101,
+      "before": "**英・仏・サルデーニャ**",
+      "after": "**英**・仏・サルデーニャ",
+      "reason": "黒い太字の範囲を確認。"
+    },
+    {
+      "page": 101,
+      "before": "**ロシアとオスマン帝国の相互援助条約**",
+      "after": "**ロシアとオスマン帝国の**相互援助条約",
+      "reason": "2行目の相互援助条約は通常の文字。"
+    },
+    {
+      "page": 101,
+      "before": "<赤太>ブルガリア</赤太>の領土を拡大",
+      "after": "<赤太>ブルガリア</赤太>の**領土を拡大**",
+      "reason": "黒い太字の範囲を確認。"
+    },
+    {
+      "page": 101,
+      "before": "の<ruby>統治<rt>とうち</rt></ruby>権を獲得",
+      "after": "の**<ruby>統治<rt>とうち</rt></ruby>権**を獲得",
+      "reason": "黒い太字の統治権の範囲を確認。"
+    },
+    {
+      "page": 101,
+      "before": "**キプロス島の行政権**",
+      "after": "キプロス島の**行政権**",
+      "reason": "黒い太字の範囲を確認。"
+    },
+    {
+      "page": 103,
+      "before": "それじゃあ<ruby>大砲",
+      "after": "これじゃあ<ruby>大砲",
+      "reason": "原画像はこれじゃあ。独立した本文との相違を確認。"
+    },
+    {
+      "page": 106,
+      "before": "ギリシア正教徒を助けろ〜！",
+      "after": "ギリシア正教徒を助けろ〜",
+      "reason": "顔と手の挿絵を感嘆符へ置き換えない。"
+    },
+    {
+      "page": 106,
+      "before": "それがロシアの保護下",
+      "after": "これがロシアの保護下",
+      "reason": "原画像はこれが。独立した本文との相違を確認。"
+    },
+    {
+      "page": 107,
+      "before": "東ルメリヤ",
+      "after": "東ルメリア",
+      "reason": "地図の最後の文字はア。部分拡大で確認。"
+    },
+    {
+      "page": 107,
+      "before": "| 東ルメリア |",
+      "after": "| **東ルメリア** |",
+      "reason": "地図の黒い太字を確認。"
+    },
+    {
+      "page": 107,
+      "before": "| マケドニア |",
+      "after": "| **マケドニア** |",
+      "reason": "地図の黒い太字を確認。"
+    },
+    {
+      "page": 107,
+      "before": "| モンテネグロ |",
+      "after": "| **モンテネグロ** |",
+      "reason": "地図の黒い太字を確認。"
+    },
+    {
+      "page": 107,
+      "before": "| オスマン帝国（トルコ） |",
+      "after": "| **オスマン帝国（トルコ）** |",
+      "reason": "地図の黒い太字を確認。"
+    },
+    {
+      "page": 107,
+      "before": "| ギリシア |",
+      "after": "| **ギリシア** |",
+      "reason": "地図の黒い太字を確認。"
+    },
+    {
+      "page": 107,
+      "before": "| キプロス島 |",
+      "after": "| **キプロス島** |",
+      "reason": "地図の黒い太字を確認。"
+    },
+    {
+      "page": 107,
+      "before": "**社会主義者<ruby>鎮圧<rt>ちんあつ</rt></ruby>法**",
+      "after": "社会主義者<ruby>鎮圧<rt>ちんあつ</rt></ruby>法",
+      "reason": "年号欄の補足行は通常の字の太さ。"
+    },
+    {
+      "page": 95,
+      "before": "**ロシアはピョートル1世がアゾフ海に進出**",
+      "after": "**ロシア**は**ピョートル1世がアゾフ海に進出**",
+      "reason": "黒い太字と通常の助詞の境界を確認。"
+    },
+    {
+      "page": 97,
+      "before": "だからイギリスはなんとか",
+      "after": "だから**イギリス**はなんとか",
+      "reason": "黒い太字の再出現箇所を確認。"
+    },
+    {
+      "page": 101,
+      "before": "<ruby>仲介<rt>ちゅうかい</rt></ruby>人",
+      "after": "<ruby>仲介人<rt>ちゅうかいにん</rt></ruby>",
+      "reason": "読み仮名は人のにんまで印刷されている。再拡大で確認。"
+    },
+    {
+      "page": 107,
+      "before": "（社会主義者<ruby>鎮圧<rt>ちんあつ</rt></ruby>法",
+      "after": "（**社会主義者<ruby>鎮圧<rt>ちんあつ</rt></ruby>法**",
+      "reason": "再拡大で黒い太字の範囲を確認し、初回の草稿の装飾へ戻す。"
+    },
+    {
+      "page": 94,
+      "before": "覚えてるかなあ",
+      "after": "覚えてるかなぁ",
+      "reason": "部分拡大で小さい文字と通常の文字の大きさを比較し、原画像の字形を保持。"
+    },
+    {
+      "page": 95,
+      "before": "まあロシア",
+      "after": "まぁロシア",
+      "reason": "部分拡大で小さい文字と通常の文字の大きさを比較し、原画像の字形を保持。"
+    },
+    {
+      "page": 102,
+      "before": "まあ人気取り",
+      "after": "まぁ人気取り",
+      "reason": "部分拡大で小さい文字と通常の文字の大きさを比較し、原画像の字形を保持。"
+    },
+    {
+      "page": 104,
+      "before": "ただねえ",
+      "after": "ただねぇ",
+      "reason": "部分拡大で小さい文字と通常の文字の大きさを比較し、原画像の字形を保持。"
+    },
+    {
+      "page": 104,
+      "before": "ロシア皇帝だよなあ",
+      "after": "ロシア皇帝だよなぁ",
+      "reason": "部分拡大で小さい文字と通常の文字の大きさを比較し、原画像の字形を保持。"
+    },
+    {
+      "page": 105,
+      "before": "まあ時が過ぎ去る",
+      "after": "まぁ時が過ぎ去る",
+      "reason": "部分拡大で小さい文字と通常の文字の大きさを比較し、原画像の字形を保持。"
+    },
+    {
+      "page": 102,
+      "before": "ではないかあ。許せん",
+      "after": "ではないかぁ、許せん",
+      "reason": "小さいぁと読点を部分拡大で確認。"
+    },
+    {
+      "page": 103,
+      "before": "ロシアVS.オスマン帝国のはずが",
+      "after": "ロシアvs.オスマン帝国のはずが",
+      "reason": "見出しの小文字表記を部分拡大で確認。"
+    },
+    {
+      "page": 97,
+      "before": "イギリスは強い！　といっても",
+      "after": "イギリスは強い！。といっても",
+      "reason": "感嘆符と顔の絵の後ろの句点を両方保存。顔の絵は文字として置き換えない。"
+    }
+  ],
+  "original_spelling_notes": [
+    {
+      "page": 103,
+      "note": "吹き出しはナイティンゲールという印字。一般的な表記への置換をしない。"
+    },
+    {
+      "page": 104,
+      "note": "短編小説集の題名は猟人日記という印字を保持。"
+    },
+    {
+      "page": 105,
+      "note": "エスエルの結成年は原画像の1901年を保持。"
+    },
+    {
+      "page": 107,
+      "note": "ロンドン会議の語呂は一番弱れという印字。弱に上の4を対応させ、Geminiの溺は採用しない。"
+    }
+  ],
+  "comparison_resolution_notes": [
+    {
+      "page": 94,
+      "note": "こんなことばっかりの小さいっを確認し、Geminiのばかりは採用しない。"
+    },
+    {
+      "page": 96,
+      "note": "原画像はわかんない、ってのは、ミッレット。独立した本文との相違を部分拡大で確認。"
+    },
+    {
+      "page": 97,
+      "note": "全部勝ちの後ろの顔の図案に文字を追加しない。強い！の後ろの顔の図案は置き換えず、その後ろに印刷された句点を保持。"
+    },
+    {
+      "page": 98,
+      "note": "なるんだと味方するんだよ！を原画像にそろえた。なんかもらえばいいのもらは平仮名を保持。"
+    },
+    {
+      "page": 101,
+      "note": "4箇所のvs.は小文字。国の略字や統治権・行政権の太字、仲介人のちゅうかいにんの読みの範囲を確認。"
+    },
+    {
+      "page": 102,
+      "note": "ではないかぁ、許せんの小さいぁと読点を保持。"
+    },
+    {
+      "page": 103,
+      "note": "見出しのvs.は小文字。本文はこれじゃあ大砲1発を保持。"
+    },
+    {
+      "page": 106,
+      "note": "これがロシアの保護下を確認。Geminiがそのままだたけどと報告した箇所は、原画像の小さいっを部分拡大で確認し、そのままだったけどを保持。"
+    },
+    {
+      "page": 107,
+      "note": "地図の東ルメリアのア、細い等号、赤黒の文字と数字の対応を確認。"
+    }
+  ],
+  "source_occlusion_notes": [
+    {
+      "page": 95,
+      "region": "ピョートル1世がアゾフ海に進出の一部",
+      "treatment": "指示矢印が重なる箇所を拡大し、残る印字と独立した本文の一致を照合。矢印を本文へ追加しない。"
+    },
+    {
+      "page": 103,
+      "region": "見出しのアレクサンドル2世の一部",
+      "treatment": "周囲の字形と同じページの複数の人物名表示を照合。指示矢印を本文へ追加しない。"
+    },
+    {
+      "page": 101,
+      "region": "ボスニア・ヘルツェゴヴィナの一部",
+      "treatment": "拡大画像と同回の別の印字を照合。"
+    },
+    {
+      "page": 107,
+      "region": "年号欄のロシアにも",
+      "treatment": "拡大画像で周囲の文字を確認。指示矢印は除外。"
+    }
+  ],
+  "ruby_details": [
+    {
+      "page": 94,
+      "text": "神聖同盟",
+      "note": "改行の位置に従い、神のしんと聖のせいを別に保持。"
+    },
+    {
+      "page": 101,
+      "text": "仲介人",
+      "ruby_text": "ちゅうかいにん",
+      "ruby_target": "仲介人"
+    },
+    {
+      "page": 107,
+      "text": "一番弱れ",
+      "numbers_above": {
+        "一": "1",
+        "番": "8",
+        "弱": "4",
+        "れ": "0"
+      }
+    },
+    {
+      "page": 107,
+      "text": "いや無理言うな",
+      "note": "い・や・無・言と数字1・8・6・1は赤。理と末尾のうなは黒。"
+    },
+    {
+      "page": 107,
+      "text": "いやなんなんだ",
+      "note": "い・や・2つのなに1・8・7・7。2つのんとだは黒。"
+    }
+  ],
+  "source_images": [
+    {
+      "filename": "Kindle_jHBJTrUT2E.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_jHBJTrUT2E.png",
+      "creationTime": "2026-10-02T02:50:17.6881186+09:00",
+      "spreadPages": [
+        92,
+        93
+      ],
+      "selectedPages": [
+        93
+      ],
+      "sha256": "184532b563749b60aab90f0348b0a69bd63cbd92417a604badb785d735382926",
+      "bytes": 1378531
+    },
+    {
+      "filename": "Kindle_TeR5dnYGUF.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_TeR5dnYGUF.png",
+      "creationTime": "2026-10-02T02:50:19.3012015+09:00",
+      "spreadPages": [
+        94,
+        95
+      ],
+      "selectedPages": [
+        94,
+        95
+      ],
+      "sha256": "fd811de8d2a68985365452cc17939a833c6ff6030299f489795d3ece9b5d43f5",
+      "bytes": 1411481
+    },
+    {
+      "filename": "Kindle_c2wsV7fupW.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_c2wsV7fupW.png",
+      "creationTime": "2026-10-02T02:50:21.0089852+09:00",
+      "spreadPages": [
+        96,
+        97
+      ],
+      "selectedPages": [
+        96,
+        97
+      ],
+      "sha256": "9d01aa7170a84ad1be8c44ef88a5188948aba2469ee51f162aadf4db11c1480d",
+      "bytes": 1413038
+    },
+    {
+      "filename": "Kindle_PbNrWeqx3A.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_PbNrWeqx3A.png",
+      "creationTime": "2026-10-02T02:50:22.6968623+09:00",
+      "spreadPages": [
+        98,
+        99
+      ],
+      "selectedPages": [
+        98,
+        99
+      ],
+      "sha256": "0568dd0f8da3ffe8f6a3c05cc7c8cf0ab5c1201182bd2bea3d3429fb24c70135",
+      "bytes": 1287578
+    },
+    {
+      "filename": "Kindle_dJrn7a6Sr4.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_dJrn7a6Sr4.png",
+      "creationTime": "2026-10-02T02:50:24.4714427+09:00",
+      "spreadPages": [
+        100,
+        101
+      ],
+      "selectedPages": [
+        100,
+        101
+      ],
+      "sha256": "0288d89cbfb280eaaed1923dafb0e461fee590cc1cec9694a310e0e17d1a973e",
+      "bytes": 1394783
+    },
+    {
+      "filename": "Kindle_G1a8wbhu7h.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_G1a8wbhu7h.png",
+      "creationTime": "2026-10-02T02:50:26.1416300+09:00",
+      "spreadPages": [
+        102,
+        103
+      ],
+      "selectedPages": [
+        102,
+        103
+      ],
+      "sha256": "bdeda889d447eb36dc827b6ec4723681bfa6152eb0def2289ab7f82df169ed39",
+      "bytes": 1462639
+    },
+    {
+      "filename": "Kindle_Z3yBJLaU4a.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_Z3yBJLaU4a.png",
+      "creationTime": "2026-10-02T02:50:27.9224960+09:00",
+      "spreadPages": [
+        104,
+        105
+      ],
+      "selectedPages": [
+        104,
+        105
+      ],
+      "sha256": "cb1d44050c2170debb002c88f04d2bdbe8ebf44cfb097f9da8d759e1a813925c",
+      "bytes": 1508196
+    },
+    {
+      "filename": "Kindle_MaRRxunsP2.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_MaRRxunsP2.png",
+      "creationTime": "2026-10-02T02:50:29.5549542+09:00",
+      "spreadPages": [
+        106,
+        107
+      ],
+      "selectedPages": [
+        106,
+        107
+      ],
+      "sha256": "844c55a6e81540cb32e3842070e04ec24f5b379b3f2a8008c6247f56b2976802",
+      "bytes": 1307837
+    }
+  ],
+  "page_checks": [
+    {
+      "page": 93,
+      "ruby_count": 0,
+      "bold_range_count": 11,
+      "source_styles": {
+        "data-source-color:white": 11,
+        "data-source-background:black": 5,
+        "data-source-background:red": 6,
+        "data-source-underline-color:red": 10
+      },
+      "sidebar_included": false,
+      "sha256": "4522b98a32583d14cd3a0518cc4d81f6c7dc3f965def5e26cbdfa07c2550a391",
+      "visually_checked_regions": [
+        "回の扉",
+        "概観図",
+        "吹き出し",
+        "本文"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 94,
+      "ruby_count": 10,
+      "bold_range_count": 38,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-background:red": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 8
+      },
+      "sidebar_included": false,
+      "sha256": "f189277235d8326b50ffd2a2e8c63a18ff49766239f7967f822ea81fa00cc1f1",
+      "visually_checked_regions": [
+        "節見出し",
+        "小見出し",
+        "本文",
+        "吹き出し",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 95,
+      "ruby_count": 1,
+      "bold_range_count": 34,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-border:red": 1,
+        "data-source-marker:dashed-arrow": 1,
+        "data-source-marker:arrow": 1,
+        "data-source-color:green": 1,
+        "data-source-color:red": 3,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "01b3fb0f56ccf42647b20a56f2615bdd4226dc2fec3129bd59f9b586f60b5e1b",
+      "visually_checked_regions": [
+        "節見出し",
+        "小見出し",
+        "本文",
+        "南下政策と列強の対立の地図と凡例",
+        "吹き出し",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 96,
+      "ruby_count": 5,
+      "bold_range_count": 30,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-background:gray": 1,
+        "data-source-color:gray": 1,
+        "data-source-color:red": 3
+      },
+      "sidebar_included": false,
+      "sha256": "4f180e0b4b5a8d769c70d5b3607857dd5749328a4aa2dd3e4f0e342a4e11d85b",
+      "visually_checked_regions": [
+        "小見出し",
+        "本文",
+        "吹き出し",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 97,
+      "ruby_count": 4,
+      "bold_range_count": 41,
+      "source_styles": {
+        "data-source-color:white": 8,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 12,
+        "data-source-color:green": 1,
+        "data-source-background:black": 1,
+        "data-source-background:green": 1,
+        "data-source-border:red": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "978238cf9441788b5e6c58afd8ae071dd4f482a81240024833b3f182d6e3e079",
+      "visually_checked_regions": [
+        "小見出し",
+        "本文",
+        "ギリシア独立戦争の図",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 98,
+      "ruby_count": 4,
+      "bold_range_count": 31,
+      "source_styles": {
+        "data-source-color:white": 3,
+        "data-source-background:black": 1,
+        "data-source-color:green": 1,
+        "data-source-color:red": 2,
+        "data-source-background:green": 1,
+        "data-source-border:red": 1,
+        "data-source-background:brown": 1
+      },
+      "sidebar_included": false,
+      "sha256": "5b6aa49749ff586eb17ed21931fa5abc8cf839ad86dc40537b4ab9416916404c",
+      "visually_checked_regions": [
+        "小見出し",
+        "本文",
+        "第1次エジプト＝トルコ戦争の図",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 99,
+      "ruby_count": 2,
+      "bold_range_count": 31,
+      "source_styles": {
+        "data-source-color:white": 8,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:green": 1,
+        "data-source-color:red": 3,
+        "data-source-background:green": 1,
+        "data-source-border:red": 1,
+        "data-source-background:brown": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "aaaae1f2b4f96160ed9d5845242d597282b9cfaddee07cdb88f42935e1ae6205",
+      "visually_checked_regions": [
+        "小見出し",
+        "本文",
+        "第2次エジプト＝トルコ戦争の図",
+        "吹き出し",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 100,
+      "ruby_count": 8,
+      "bold_range_count": 26,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 1,
+        "data-source-border:red": 1,
+        "data-source-marker:area": 1,
+        "data-source-marker:arrow": 1
+      },
+      "sidebar_included": false,
+      "sha256": "b45481c3d0700491352d67b722b2e8e07007bd4ce9ef2615fdd961710714f98c",
+      "visually_checked_regions": [
+        "本文",
+        "東方問題の地図と凡例",
+        "吹き出し",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 101,
+      "ruby_count": 9,
+      "bold_range_count": 73,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 24,
+        "data-source-color:green": 30,
+        "data-source-border:gray": 8,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "de4f5b9b82425cbdc55e176571b1af40bd5567c5f044face7b0963c20ea36cad",
+      "visually_checked_regions": [
+        "クローズアップの全文",
+        "条約と戦争の全項目",
+        "吹き出し",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 102,
+      "ruby_count": 5,
+      "bold_range_count": 28,
+      "source_styles": {
+        "data-source-color:white": 3,
+        "data-source-background:black": 1,
+        "data-source-background:red": 1,
+        "data-source-color:green": 1,
+        "data-source-color:red": 5,
+        "data-source-border:red": 1,
+        "data-source-background:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "0231b4cccb62ad62fc3dcaeb338801cea50283a57ad58689f1dbbaae45cb4c24",
+      "visually_checked_regions": [
+        "節見出し",
+        "小見出し",
+        "本文",
+        "クリミア戦争の図",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 103,
+      "ruby_count": 10,
+      "bold_range_count": 35,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 7,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "d7267307809b12d5517f09129a76d1c3fff7b73ab0293c5b4411168935420f28",
+      "visually_checked_regions": [
+        "小見出し",
+        "本文",
+        "ナイティンゲールの吹き出し",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 104,
+      "ruby_count": 6,
+      "bold_range_count": 23,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 2,
+        "data-source-color:gray": 1
+      },
+      "sidebar_included": false,
+      "sha256": "d729359f494db5bd7af5869cd34689a8e47f54b1efd9d97d679b9067d09cb04b",
+      "visually_checked_regions": [
+        "小見出し",
+        "本文",
+        "吹き出し",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 105,
+      "ruby_count": 6,
+      "bold_range_count": 34,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 8,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "4ebda1b3b0ff46929107b328c430271349609ad6855488416d2df816c47d01c8",
+      "visually_checked_regions": [
+        "節見出し",
+        "小見出し",
+        "本文",
+        "吹き出し",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 106,
+      "ruby_count": 8,
+      "bold_range_count": 45,
+      "source_styles": {
+        "data-source-color:white": 3,
+        "data-source-background:black": 1,
+        "data-source-color:red": 15,
+        "data-source-background:green": 2,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "44ff9f0aa82b8c9d550b0746890e65e98ff88ce1c934337f5fd14f14e9a6acc3",
+      "visually_checked_regions": [
+        "小見出し",
+        "本文",
+        "露土戦争の図",
+        "吹き出し",
+        "上部の回"
+      ],
+      "independent_text_comparison": true
+    },
+    {
+      "page": 107,
+      "ruby_count": 28,
+      "bold_range_count": 49,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 21,
+        "data-source-marker:boundary": 1,
+        "data-source-marker:area": 1,
+        "data-source-marker:hatch": 1,
+        "data-source-color:gray": 6,
+        "data-source-background:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "cb3c8f34b170bed57ad63bad41a92f655ef4660f804d222856369428967ed0f6",
+      "visually_checked_regions": [
+        "本文",
+        "サン＝ステファノ条約とベルリン条約の地図と凡例",
+        "年号のツボの全文",
+        "次回の予告",
+        "上部の節",
+        "欄外目次"
+      ],
+      "independent_text_comparison": true
+    }
+  ],
+  "preserved_existing_sources": [
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/01_ウィーン体制とその崩壊.md",
+      "bytes": 125641,
+      "sha256": "165ddb691e4973afe09973efed87ac688207227b196b29359b37b716976e6cad"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/02_イギリスの自由主義とフランス第二帝政.md",
+      "bytes": 73476,
+      "sha256": "146b4662b580b1e418a0372071d1cb058d328086d671f0af9918d192c08f7d95"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/03_アメリカ合衆国の発展.md",
+      "bytes": 83961,
+      "sha256": "72fca4fe17c9b56f4a384f31d1f88792332f5ae71ddde72902fd2d5483353741"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/04_イタリア・ドイツの統一.md",
+      "bytes": 103926,
+      "sha256": "5222e5c09e3975b68718e5e2046deb9788a09d032cee080b35d94ee0840b8fbd"
+    },
+    {
+      "file": "sources/近代・現代/sekai_shi_tankyu_mokuji.md",
+      "bytes": 7892,
+      "sha256": "766d34236036053f9847d1128cc98151b8f359baf91503c173a62b8699f11c10"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/01_古代オリエント世界の成立.md",
+      "bytes": 31817,
+      "sha256": "f9024578a68f55bd9c978e6050b753e6668daf004b6b1f5c003b79293351c511"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/02_古代オリエント世界の統一.md",
+      "bytes": 44059,
+      "sha256": "21719e63443aff70618fe3dbc98e62a720724bfdaac0617890069916a628876d"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/03_古代インド.md",
+      "bytes": 62621,
+      "sha256": "ea929ebcb3bd84e693788cffacd07ca44e7d7971f9af136e73a9efc0270a2463"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/04_古代ギリシア世界の成立.md",
+      "bytes": 48262,
+      "sha256": "be16e648bfaab3c69e9173a7af17045d48f11ae01a5f51c1aaa520b97cdeeaa8"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/05_ポリス社会の崩壊とヘレニズム.md",
+      "bytes": 51840,
+      "sha256": "20c99a00c21be93f3587cae0e30e81a3fca5392a83c1ac7079d90c5ab2ac94ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/06_ローマ共和政.md",
+      "bytes": 46581,
+      "sha256": "ed45db4cea5eb6a895d56f5c7269080de5b182fbba3fe549bffa809160b46c07"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/07_ローマ帝国とキリスト教.md",
+      "bytes": 61612,
+      "sha256": "a885ff13c6979125822b3156d526d72fff1cadc30a3c2a85a6488ecf006e6178"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/08_古代中国①（中国文明〜秦）.md",
+      "bytes": 41532,
+      "sha256": "1ad91d67c3d7df94e6c20240a7afb3a714218cd41ebe4fd7ac5ac5922035c358"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/09_古代中国②（漢〜魏晋南北朝時代）.md",
+      "bytes": 50515,
+      "sha256": "9f798bbe2b4ce8a7bede47a6b433699951c413785f7760fd9dfc80f09174d45a"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/10_古代中国③（隋〜唐）.md",
+      "bytes": 62280,
+      "sha256": "3db1c6d9c12adcb8b06d2b7d087858c644b425824b66d1ddca6b2bf70126ebcb"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/11_ゲルマン人の移動とフランク王国.md",
+      "bytes": 46598,
+      "sha256": "ec3676c9f4862f62ef1d674ddcd4194a5e1a1fc6cbf2dffcdb5234cbc1523aec"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/12_封建社会の形成とカトリック教会の発展.md",
+      "bytes": 40801,
+      "sha256": "3890bafd22ffb7424c78bed641efea8a33510bb002f7fc03fd484b693f040dc8"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/13_ビザンツ帝国と中世の東欧.md",
+      "bytes": 40182,
+      "sha256": "f11fc57de9688ba60149815f419dd9a046fb3aec87095d34d7aa64acac99fc45"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/14_十字軍と封建社会の変容.md",
+      "bytes": 57077,
+      "sha256": "4b61d500da44985ee2038e894bdda94f8b07c26724c0f56b452d6a5f03369ac0"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/15_中世の西ヨーロッパ諸国.md",
+      "bytes": 44028,
+      "sha256": "96ec4b05542cc97e86e9075dcb66d849a4fc4d9f9ebf9683c127d04152b25df3"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/16_中華世界の変容（五代十国〜宋）.md",
+      "bytes": 422577,
+      "sha256": "c964833191e1b30a0e9a1891e3a1b48a690d70456d45712039d6771c5aad7ba9"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/17_モンゴル帝国の時代.md",
+      "bytes": 38140,
+      "sha256": "6d7d7728c89213c6195ec7d0c97deda789a47b87a3dd5f8462af4610e225e2ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/18_中華帝国の繁栄（明・清）.md",
+      "bytes": 70513,
+      "sha256": "7893c644440a9975278b1d74f851d3981521482d5679dfd2a00b1023db23aa08"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/19_東南アジア世界.md",
+      "bytes": 39685,
+      "sha256": "49d4bd12ef5c2b6c2fc8899057f39398100f6abedbf12f611f934396ce68604a"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/20_イスラーム世界の形成.md",
+      "bytes": 51846,
+      "sha256": "18bd3156f93c4ce96bc0911087a6a6963677888b45e08f2e5c76b534cd9de116"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/21_イスラーム専制帝国の繁栄.md",
+      "bytes": 51340,
+      "sha256": "db5cfc267ecb6fa1fe5f0d816d705a46a235b0d04f301dad39320e3d0da6e96b"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/22_ルネサンスと大航海時代.md",
+      "bytes": 50219,
+      "sha256": "09f70077edde0d572520c38428b70326db06284c5a6b114fb09e649df95928e6"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/23_宗教改革.md",
+      "bytes": 51001,
+      "sha256": "19022d9c8737d6168fd7031032ca610eb4fc1c83d824693dd08260dc22b669a5"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/24_近世のヨーロッパ①（スペイン・オランダ）.md",
+      "bytes": 38926,
+      "sha256": "c7eec2d9ded4ce34e96bfe55e32516d426c1ac8e1c5d9c740f34286df8771341"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/25_近世のヨーロッパ②（イギリス・フランス）.md",
+      "bytes": 56162,
+      "sha256": "f253084f54c6e39df1fee2d7e648a7b5be42ebe5d4eec27ff6847db16591811d"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/26_近世のヨーロッパ③（ドイツ・ロシア）.md",
+      "bytes": 61143,
+      "sha256": "b4a1238a4f5bc5cbf955b68706c4dd88d3e32b7dc50d1f4233ab356508540e2c"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/27_産業革命とアメリカ独立革命.md",
+      "bytes": 55751,
+      "sha256": "9f0b6c49716753f012caa205cd1174d7bb0778d56158507802cddc7c88cd3900"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/28_フランス革命.md",
+      "bytes": 45082,
+      "sha256": "e68ec2d8e00ebc5e958edd524bb822702408d5fadbb07f7913f8ef2485e217f7"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/29_ナポレオンの時代.md",
+      "bytes": 38983,
+      "sha256": "ff758ca021ea934556aa5284644ef7a79deb4d8df2f58bca7e0166603c020828"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/30_17〜18世紀のヨーロッパ文化.md",
+      "bytes": 30315,
+      "sha256": "d9fac3ba70c7211c292cb9669f361c7072fc09431fd2d70d1f1b17bb927e259d"
+    },
+    {
+      "file": "sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md",
+      "bytes": 8697,
+      "sha256": "4710c02be0c1de8628b3c78cbd746a60564f35ac9f228a25b96f218048637697"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-so-question-types.md",
+      "bytes": 50157,
+      "sha256": "0f20e1404f95f5b39cf60881593939a22e44338f0c419d39976d9be3cc6a0a93"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-source-md-csv-generation.md",
+      "bytes": 47688,
+      "sha256": "f6c7e28c8e1f512b12a698ce97167c65865060dbb7697a8c89d6cf3bb96f6160"
+    }
+  ],
+  "validation": {
+    "consecutive_pages": true,
+    "source_emphasis_tags_balanced": true,
+    "all_existing_source_hashes_unchanged": true,
+    "all_original_image_hashes_unchanged": true,
+    "user_changes_unchanged": true,
+    "source_and_images_git_ignored": true,
+    "web_lessons_added": false,
+    "regression_checks": [
+      {
+        "command": "npm run check:transcriptions",
+        "exit_code": 0,
+        "duration_seconds": 1.0309264000024996,
+        "log_sha256": "5a6fedbb8117ac7fd75eb96a89725092023a4bc3144ccad0dc89a625c538f3a4"
+      },
+      {
+        "command": "npm run check",
+        "exit_code": 0,
+        "duration_seconds": 18.54507449999801,
+        "log_sha256": "07d0ecb24d95dd61fc76594fdf58dd20bdd1a0089737577b1ab6e06f0c35c71b"
+      },
+      {
+        "command": "npm run build",
+        "exit_code": 0,
+        "duration_seconds": 17.55273429999943,
+        "log_sha256": "2fd1633a64e0b06416696f2ee33c9eaec13cb12154998f718cf091191bb99b6a"
+      }
+    ],
+    "integrity_checks": {
+      "new_source_unchanged": true,
+      "consecutive_pages": 15,
+      "protected_sources": 38,
+      "source_images": 8,
+      "boundary_image": 1,
+      "user_changes_unchanged": true,
+      "public_version_only_files": 139,
+      "previous_release_history_unchanged": true,
+      "published_catalog_unchanged_except_version": true,
+      "diff_check_exit_code": 0
+    },
+    "ruby_count": 106,
+    "bold_range_count": 529
+  }
+}
