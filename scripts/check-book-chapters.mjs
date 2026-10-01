@@ -17,7 +17,7 @@ for(const c of bookChapters) {
   assert.deepEqual(c.volumes.map(({label,lesson,part})=>({label,lesson,part})),expected.lessons.flatMap(l=>l.parts.map(p=>({label:p.label,lesson:l.lesson,part:p.part}))));
 }
 if(!process.argv.includes('--published')) {
-  const toc=await read('sources/sekai_shi_tankyu_mokuji.md');
+  const toc=await read('sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md');
   assert.deepEqual([...toc.matchAll(/^\* \d+ (.*?) ……/gm)].map(m=>m[1]),outline.flatMap(c=>c.lessons.flatMap(l=>l.parts.map(p=>p.label))));
 }
 const coordinate=p=>assert.ok(Array.isArray(p)&&p.length===2&&p.every(Number.isFinite)&&Math.abs(p[0])<=180&&Math.abs(p[1])<=90);

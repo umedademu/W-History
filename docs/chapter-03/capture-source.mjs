@@ -7,12 +7,12 @@ const here=path.dirname(fileURLToPath(import.meta.url));
 const root=path.resolve(here,'../..');
 const chapter=Number(path.basename(here).slice(-2));
 const pad=n=>String(n).padStart(2,'0');
-const folder=fs.readdirSync(path.join(root,'sources')).find(x=>x.startsWith(pad(chapter)+'_'));
+const folder=fs.readdirSync(path.join(root,'sources','古代・中世・近世')).find(x=>x.startsWith(pad(chapter)+'_'));
 const plan=JSON.parse(fs.readFileSync(path.join(here,'editorial-plan.json'),'utf8'));
 const paragraphs=[],files=[],reading=[],volumes=[],lessons=[];
 for(const [lessonNumber,parts] of Object.entries(plan)){
- const lesson=Number(lessonNumber),file=fs.readdirSync(path.join(root,'sources',folder)).find(x=>x.startsWith(pad(lesson)+'_'));
- const relative='sources/'+folder+'/'+file;
+ const lesson=Number(lessonNumber),file=fs.readdirSync(path.join(root,'sources','古代・中世・近世',folder)).find(x=>x.startsWith(pad(lesson)+'_'));
+ const relative='sources/古代・中世・近世/'+folder+'/'+file;
  const raw=fs.readFileSync(path.join(root,relative),'utf8');
  const lines=raw.split(/\r?\n/), selected=new Map();
  const lessonTitle=lines[0].replace(/^# 第\d+回[\s　]*/,'');

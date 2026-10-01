@@ -3,9 +3,9 @@ import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
 import {pageGroups,sidebars,pageTitles} from './capture-plan.mjs';
 const root=new URL('../../',import.meta.url);
-const dir='sources/07_近代ヨーロッパの幕開け/';
+const dir='sources/古代・中世・近世/07_近代ヨーロッパの幕開け/';
 const names=await fs.readdir(new URL(dir,root));
-const toc=await fs.readFile(new URL('sources/sekai_shi_tankyu_mokuji.md',root),'utf8');
+const toc=await fs.readFile(new URL('sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md',root),'utf8');
 const lessons=[],series=[],paragraphs=[],files=[],plan=[];
 const periods={22:'14〜16世紀',23:'16世紀',24:'16〜17世紀',25:'16〜18世紀',26:'16〜18世紀',27:'17〜19世紀',28:'1789〜1794年',29:'1794〜1815年',30:'17〜18世紀'};
 for(const [lessonString,parts] of Object.entries(pageGroups)){

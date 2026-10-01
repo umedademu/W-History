@@ -27,7 +27,7 @@ const selections = [
 ];
 const files = [], paragraphs = [];
 for (const {lesson,title} of ancientLessons) {
-  const file = `sources/01_オリエント・インドの古代文明/${String(lesson).padStart(2,'0')}_${title}.md`;
+  const file = `sources/古代・中世・近世/01_オリエント・インドの古代文明/${String(lesson).padStart(2,'0')}_${title}.md`;
   const raw = await fs.readFile(new URL(file,root),'utf8'), lines = raw.split(/\r?\n/);
   let page = 0, heading = '';
   const context = lines.map(line => {

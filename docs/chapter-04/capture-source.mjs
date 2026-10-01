@@ -5,9 +5,9 @@ const root=new URL('../../',import.meta.url);
 const chapter=4,prefix='04';
 const read=p=>fs.readFileSync(new URL(p,root),'utf8');
 const plan=JSON.parse(read('docs/chapter-04/editorial-plan.json'));
-const sourceDirectory=fs.readdirSync(new URL('sources/',root)).find(n=>n.startsWith(prefix+'_'));
-const sourceFiles=fs.readdirSync(new URL('sources/'+sourceDirectory+'/',root));
-const toc=read('sources/sekai_shi_tankyu_mokuji.md').split(/\r?\n/);
+const sourceDirectory=fs.readdirSync(new URL('sources/古代・中世・近世/',root)).find(n=>n.startsWith(prefix+'_'));
+const sourceFiles=fs.readdirSync(new URL('sources/古代・中世・近世/'+sourceDirectory+'/',root));
+const toc=read('sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md').split(/\r?\n/);
 let chapterNumber=0,currentLesson=0;const lessons=[],series=[];
 for(const line of toc){
 const c=line.match(/^## 第(\d+)章/);if(c)chapterNumber=Number(c[1]);
@@ -18,7 +18,7 @@ const p=line.match(/^\* (\d+) (.+?) ……/);if(p){const part=Number(p[1]),id='c
 const records=[],paragraphs=[],pages=[],unclassified=[];
 const excludedColumns={"11":[266],"12":[315,317],"13":[],"14":[],"15":[369]};
 for(const [lessonString,parts] of Object.entries(plan)){
- const lesson=Number(lessonString),file='sources/'+sourceDirectory+'/'+sourceFiles.find(n=>Number(n.slice(0,2))===lesson),raw=read(file),lines=raw.split(/\r?\n/),used=new Set();let sourcePage=0,heading='',part=0;const info=[];
+ const lesson=Number(lessonString),file='sources/古代・中世・近世/'+sourceDirectory+'/'+sourceFiles.find(n=>Number(n.slice(0,2))===lesson),raw=read(file),lines=raw.split(/\r?\n/),used=new Set();let sourcePage=0,heading='',part=0;const info=[];
  lines.forEach((markdown,i)=>{const pg=markdown.match(/^## (\d+)$/);if(pg)sourcePage=Number(pg[1]);const s=markdown.match(/^#### (\d+)[ 　]+(.+)/);if(s)part=Number(s[1]);if(/^#{3,5} /.test(markdown)&&!/^#### /.test(markdown)&&!(lesson===6&&i===177)&&!(lesson===14&&i===141)&&!/(地図|図内|図：|クローズ|Close-up|分かれ目|年号|ちょっと|〈|第\d+回　)/.test(markdown))heading=markdown.replace(/^#+ /,'').replace(/^◀ /,'');info.push({line:i+1,page:sourcePage,heading,part,markdown});});
  parts.forEach((pageText,index)=>{
  const volume=series.find(v=>v.lesson===lesson&&v.part===index+1);assert.ok(volume);

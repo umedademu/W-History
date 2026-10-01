@@ -8,17 +8,18 @@ const root = fileURLToPath(new URL('../', import.meta.url));
 const read = relative => fs.readFile(path.join(root, relative));
 const hash = data => createHash('sha256').update(data).digest('hex');
 const manifest = JSON.parse(await read('docs/source-consolidation.json'));
+const sourceRoot = manifest.source_root;
 
 async function checkTranscriptions() {
   try {
-    await fs.access(path.join(root, 'sources'));
+    await fs.access(path.join(root, sourceRoot));
   } catch (error) {
     if (error.code !== 'ENOENT') throw error;
     console.log('書き起こし資料は公開管理の対象外のため、資料の直接検査を省略しました。');
     return;
   }
 
-  const toc = (await read('sources/sekai_shi_tankyu_mokuji.md')).toString('utf8');
+  const toc = (await read(manifest.toc_file)).toString('utf8');
   assert.equal(hash(toc), manifest.toc_sha256, '目次が変更されています');
   const tocLessons = [...toc.matchAll(/^### 第(\d+)回\s+(.+?)\s+……\s+(\d+)\s*$/gm)]
     .map(match => ({lesson: Number(match[1]), title: match[2], start: Number(match[3])}));
@@ -26,11 +27,11 @@ async function checkTranscriptions() {
   assert.equal(manifest.lessons.length, 30);
   assert.equal(new Set(manifest.lessons.map(lesson => lesson.file)).size, 30);
   const pages = [], lessons = [];
-  const folders = (await fs.readdir(path.join(root, 'sources'), {withFileTypes: true})).filter(entry => entry.isDirectory()).map(entry => entry.name).sort();
+  const folders = (await fs.readdir(path.join(root, sourceRoot), {withFileTypes: true})).filter(entry => entry.isDirectory()).map(entry => entry.name).sort();
   assert.deepEqual(folders, manifest.chapters.map(chapter => path.basename(chapter.folder)).sort(), '章フォルダの構成が記録と不一致');
   for (const chapter of manifest.chapters) {
     const folder = chapter.folder;
-    assert.equal(folder, `sources/${String(chapter.chapter).padStart(2, '0')}_${chapter.title}`, '章フォルダは番号と書籍の日本語の章名にします');
+    assert.equal(folder, `${sourceRoot}/${String(chapter.chapter).padStart(2, '0')}_${chapter.title}`, '章フォルダは番号と書籍の日本語の章名にします');
     const chapterLessons = manifest.lessons.filter(lesson => lesson.chapter === chapter.chapter);
     assert.deepEqual(chapterLessons.map(lesson => lesson.lesson), chapter.lessons);
     assert.deepEqual(chapterLessons.map(lesson => lesson.file), chapter.files);

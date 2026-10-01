@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-02",
+  "version": "0.083",
+  "volume": "近代・現代",
+  "toc_file": "sources/近代・現代/sekai_shi_tankyu_mokuji.md",
+  "toc_sha256": "766d34236036053f9847d1128cc98151b8f359baf91503c173a62b8699f11c10",
+  "reader": "Antigravity CLI / Gemini 3.8 Flash",
+  "model": "gemini-3.8-flash-high",
+  "image_selection": "作成日時が最も古い画像と、直後の3画像にある目次の続き",
+  "toc_pages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "chapter_count": 5,
+  "lesson_count": 26,
+  "part_count": 104,
+  "japan_related_item_count": 10,
+  "preface_item_count": 2,
+  "index_page": 498,
+  "chapter_lesson_counts": [
+    6,
+    4,
+    3,
+    6,
+    7
+  ],
+  "uncertainties": [],
+  "proofreading": "Geminiの読み取り結果を4画像と照合してから新規保存。第22回第2節の「世界的多極化」は原画像の「世界の多極化」にそろえた。",
+  "source_images": [
+    {
+      "filename": "Kindle_HnmneVQgHD.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_HnmneVQgHD.png",
+      "creationTime": "2026-10-02T02:49:01.374+09:00",
+      "imageSHA256": "0095797f7e33c1d7c3169947b6bfff7a0b6192a413b4510715d7bef0050af1a5",
+      "toc_pages": [
+        4,
+        5
+      ]
+    },
+    {
+      "creationTime": "2026-10-02T02:49:03.136+09:00",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_5wa8lcvaUU.png",
+      "imageSHA256": "a46078d02f26075391247e9e08249f03fb350a618ec0b1efba3446ee53dfa16d",
+      "toc_pages": [
+        6,
+        7
+      ],
+      "filename": "Kindle_5wa8lcvaUU.png"
+    },
+    {
+      "creationTime": "2026-10-02T02:49:07.140+09:00",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_PgK7BMpL3Z.png",
+      "imageSHA256": "1e45a4be79c4adb9c64c16a58587d7d75bd0ef62f0a1a7be1cc13f914e642383",
+      "toc_pages": [
+        8,
+        9
+      ],
+      "filename": "Kindle_PgK7BMpL3Z.png"
+    },
+    {
+      "creationTime": "2026-10-02T02:49:08.694+09:00",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_uqjHwR8VRo.png",
+      "imageSHA256": "10adb4fbd348cd7aad1146eac1b3e2d71ffd6d5226e1802b67309192830e99d5",
+      "toc_pages": [
+        10,
+        11
+      ],
+      "filename": "Kindle_uqjHwR8VRo.png"
+    }
+  ]
+}

@@ -15,7 +15,7 @@ assert.deepEqual(series.filter(v=>v.chapter===1||v.chapter===6).map(s=>volumeSce
 // 全7章の本文が、同じ順番で一度ずつ掲載される。
 assert.deepEqual(series.flatMap(s=>volumeScenes(sourceEdition,s.id)),Object.values(sourceEdition).flat());
 if(!process.argv.includes('--published')){
- const toc=await fs.readFile(new URL('../sources/sekai_shi_tankyu_mokuji.md',import.meta.url),'utf8');
+ const toc=await fs.readFile(new URL('../sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md',import.meta.url),'utf8');
  const chapter=toc.split('## 第6章 ')[1].split('## 第7章 ')[0];
  assert.deepEqual([...chapter.matchAll(/^\* \d+ (.*?) ……/gm)].map(m=>m[1]),islamicTitles);
  const ancient=toc.split('## 第1章 ')[1].split('## 第2章 ')[0];
