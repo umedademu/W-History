@@ -1,6 +1,6 @@
 import {ancientEdition,ancientPlaces} from './ancient-edition.js?v=0.079';
 import {ancientSeries} from './ancient-volumes.js?v=0.079';
-import {mountStory} from './history-story.js?v=0.090';
+import {mountStory} from './history-story.js?v=0.091';
 import {volumeNavigation} from './story-volumes.js?v=0.079';
 
 const id=location.pathname.split('/').pop().replace(/-story\.html$/,'');
