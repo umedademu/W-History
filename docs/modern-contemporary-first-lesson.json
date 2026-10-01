@@ -1,0 +1,1003 @@
+{
+  "date": "2026-10-02",
+  "version": "0.084",
+  "volume": "近代・現代",
+  "chapter": 1,
+  "chapter_title": "国民国家の形成",
+  "lesson": 1,
+  "lesson_title": "ウィーン体制とその崩壊",
+  "source_file": "sources/近代・現代/01_国民国家の形成/01_ウィーン体制とその崩壊.md",
+  "source_sha256": "165ddb691e4973afe09973efed87ac688207227b196b29359b37b716976e6cad",
+  "source_bytes": 125641,
+  "pages": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "page_count": 26,
+  "chapter_cover_page": 15,
+  "section_start_pages": [
+    17,
+    20,
+    22,
+    26,
+    32
+  ],
+  "next_lesson_start_page": 41,
+  "image_count": 14,
+  "reader": "担当による原画像の直接読み取り",
+  "authorization": "利用者の「別にGeminiにやらせなくて自分でやってもいいよ」に従い、今回の書き起こしは外部モデルへ依頼せず作成。",
+  "rules_document": "docs/source-transcription-rules.md",
+  "proofreading": "全対象ページを拡大表示して読み取り。小さい読み仮名、強調の範囲、年号の覚え方に印刷された数字は部分拡大も使用し、新規保存前の草稿で確認。",
+  "original_spelling_notes": [
+    {
+      "page": 32,
+      "note": "コラムの印刷された題名は「ちょっと寄り耳」。"
+    },
+    {
+      "page": 38,
+      "note": "「男子普通選挙が演出されて」の「演出」は原画像にある表記をそのまま保存。"
+    }
+  ],
+  "uncertainties": [],
+  "source_images": [
+    {
+      "filename": "Kindle_QpfBnGF9YR.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_QpfBnGF9YR.png",
+      "creationTime": "2026-10-02T02:49:12.035+09:00",
+      "sha256": "434b603405a76ad6f40ed5349b8e16836396d88860625eaf4475de035329fefe",
+      "spreadPages": [
+        14,
+        15
+      ],
+      "selectedPages": [
+        15
+      ]
+    },
+    {
+      "filename": "Kindle_zLoIDmNMt3.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_zLoIDmNMt3.png",
+      "creationTime": "2026-10-02T02:49:13.481+09:00",
+      "sha256": "bf7ed9f4376e7b3d30766ecb7e1c1e4d1eacc1afdbf3ab8221d8ba4eb36dc488",
+      "spreadPages": [
+        16,
+        17
+      ],
+      "selectedPages": [
+        16,
+        17
+      ]
+    },
+    {
+      "filename": "Kindle_GDXZoFDyLH.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_GDXZoFDyLH.png",
+      "creationTime": "2026-10-02T02:49:15.309+09:00",
+      "sha256": "553748d056ec4ef98616fa2fa18797ca19607f9d981786a410a42342b613de24",
+      "spreadPages": [
+        18,
+        19
+      ],
+      "selectedPages": [
+        18,
+        19
+      ]
+    },
+    {
+      "filename": "Kindle_cbI9TfeaKd.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_cbI9TfeaKd.png",
+      "creationTime": "2026-10-02T02:49:16.748+09:00",
+      "sha256": "4663cbba1c1a4ae8a1832f9fa7d791cedde464ba9111b6f7c4d397ff9162d907",
+      "spreadPages": [
+        20,
+        21
+      ],
+      "selectedPages": [
+        20,
+        21
+      ]
+    },
+    {
+      "filename": "Kindle_8BY29Jwdgv.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_8BY29Jwdgv.png",
+      "creationTime": "2026-10-02T02:49:18.212+09:00",
+      "sha256": "35cd1100879fa0c8149262cf5fea0a3de2cb21e19f4c426e10ca4ad31a299502",
+      "spreadPages": [
+        22,
+        23
+      ],
+      "selectedPages": [
+        22,
+        23
+      ]
+    },
+    {
+      "filename": "Kindle_CAhVlZhKvL.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_CAhVlZhKvL.png",
+      "creationTime": "2026-10-02T02:49:19.935+09:00",
+      "sha256": "0c33db42c89cf5f4d7bcffdd41f1d2d4cd73c54c039f71b93ae7289cbe1c98a2",
+      "spreadPages": [
+        24,
+        25
+      ],
+      "selectedPages": [
+        24,
+        25
+      ]
+    },
+    {
+      "filename": "Kindle_tNrHx1pfq0.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_tNrHx1pfq0.png",
+      "creationTime": "2026-10-02T02:49:21.762+09:00",
+      "sha256": "68d88e2bba0554cca0acb87b8adb0f4a8a5a45f1270dd22faed0a1bf693f3fad",
+      "spreadPages": [
+        26,
+        27
+      ],
+      "selectedPages": [
+        26,
+        27
+      ]
+    },
+    {
+      "filename": "Kindle_SF7HPwlPYP.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_SF7HPwlPYP.png",
+      "creationTime": "2026-10-02T02:49:23.515+09:00",
+      "sha256": "03b31870773826e210cf7a19076d442b14865abc793d70916fdc072006d31409",
+      "spreadPages": [
+        28,
+        29
+      ],
+      "selectedPages": [
+        28,
+        29
+      ]
+    },
+    {
+      "filename": "Kindle_CTr6lA7KS2.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_CTr6lA7KS2.png",
+      "creationTime": "2026-10-02T02:49:24.974+09:00",
+      "sha256": "a25b8bd8f821c48c0fe889b7e87117c97c0767daaa6fa79371dfcee671ee3bff",
+      "spreadPages": [
+        30,
+        31
+      ],
+      "selectedPages": [
+        30,
+        31
+      ]
+    },
+    {
+      "filename": "Kindle_pK6e2yRbJX.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_pK6e2yRbJX.png",
+      "creationTime": "2026-10-02T02:49:26.792+09:00",
+      "sha256": "3efc6e7798773cef3580796c0ee1b5a430bb0acadfe048d2050db633a7d3a6ba",
+      "spreadPages": [
+        32,
+        33
+      ],
+      "selectedPages": [
+        32,
+        33
+      ]
+    },
+    {
+      "filename": "Kindle_hczqV5LdFf.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_hczqV5LdFf.png",
+      "creationTime": "2026-10-02T02:49:28.554+09:00",
+      "sha256": "d2a5094aa5d6d33723f5e668f7fcfa4333276c1cf2823d85eda3ed7b38a4e10d",
+      "spreadPages": [
+        34,
+        35
+      ],
+      "selectedPages": [
+        34,
+        35
+      ]
+    },
+    {
+      "filename": "Kindle_VEspKEhNvs.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_VEspKEhNvs.png",
+      "creationTime": "2026-10-02T02:49:30.367+09:00",
+      "sha256": "95d7685f079311674abc47b867d56115c4093843b547650a6937fb28a84a2335",
+      "spreadPages": [
+        36,
+        37
+      ],
+      "selectedPages": [
+        36,
+        37
+      ]
+    },
+    {
+      "filename": "Kindle_rc2i1tRVdt.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_rc2i1tRVdt.png",
+      "creationTime": "2026-10-02T02:49:32.058+09:00",
+      "sha256": "e381890b35441314e04d2bc17e32e300212449862fca305e1248c83c4e121667",
+      "spreadPages": [
+        38,
+        39
+      ],
+      "selectedPages": [
+        38,
+        39
+      ]
+    },
+    {
+      "filename": "Kindle_lsfX96TQsD.png",
+      "sourceImage": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_lsfX96TQsD.png",
+      "creationTime": "2026-10-02T02:49:33.632+09:00",
+      "sha256": "4682d23224147c221eb62b0e49d3b45a164419292a65240c51ee42dc94c310c2",
+      "spreadPages": [
+        40,
+        41
+      ],
+      "selectedPages": [
+        40
+      ]
+    }
+  ],
+  "page_checks": [
+    {
+      "page": 15,
+      "ruby_count": 0,
+      "bold_range_count": 2,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:brown": 1,
+        "data-source-background:pink": 1
+      },
+      "sidebar_included": false,
+      "sha256": "849bdcdc37590f7af1a69b69f0ed7173f96067515dee051169200b69110ce363",
+      "visually_checked_regions": [
+        "章扉"
+      ]
+    },
+    {
+      "page": 16,
+      "ruby_count": 3,
+      "bold_range_count": 13,
+      "source_styles": {
+        "data-source-color:white": 13,
+        "data-source-background:black": 6,
+        "data-source-background:red": 7,
+        "data-source-underline-color:red": 5,
+        "data-source-color:red": 2
+      },
+      "sidebar_included": false,
+      "sha256": "790d06527f117c2ae36214df70b48096c3f939e3575831da32fccadb0bc6c57d",
+      "visually_checked_regions": [
+        "本文",
+        "図・地図・表",
+        "吹き出し"
+      ]
+    },
+    {
+      "page": 17,
+      "ruby_count": 4,
+      "bold_range_count": 37,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:gray": 5,
+        "data-source-color:red": 10,
+        "data-source-background:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "ae0e1a176dc77c43d0b2fb60d107284301037c1740e55550e0624aa72f6eeb46",
+      "visually_checked_regions": [
+        "本文",
+        "吹き出し",
+        "ページ上部の回・節",
+        "欄外目次"
+      ]
+    },
+    {
+      "page": 18,
+      "ruby_count": 6,
+      "bold_range_count": 58,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-color:red": 26,
+        "data-source-color:gray": 5,
+        "data-source-background:red": 1
+      },
+      "sidebar_included": false,
+      "sha256": "e1bc1a1b4e195d832d416478a4663792dd0f1e8bce16c7454559802151ef561f",
+      "visually_checked_regions": [
+        "本文",
+        "クローズアップ",
+        "ページ上部の回・節"
+      ]
+    },
+    {
+      "page": 19,
+      "ruby_count": 1,
+      "bold_range_count": 44,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 12,
+        "data-source-marker:pink-fill": 1,
+        "data-source-marker:red-line": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "07875ee23313fe7bdcbb258d77088e82cd73c71b3eda8ead971ab6e7674e3f50",
+      "visually_checked_regions": [
+        "本文",
+        "図・地図・表",
+        "吹き出し",
+        "ページ上部の回・節",
+        "欄外目次"
+      ]
+    },
+    {
+      "page": 20,
+      "ruby_count": 3,
+      "bold_range_count": 46,
+      "source_styles": {
+        "data-source-color:white": 4,
+        "data-source-background:black": 1,
+        "data-source-color:red": 14,
+        "data-source-background:red": 2,
+        "data-source-background:brown": 1,
+        "data-source-color:gray": 5,
+        "data-source-underline-color:gray": 2
+      },
+      "sidebar_included": false,
+      "sha256": "7d86693cb8ff49e59bca7b421a5cab1ccbc02ecd873da572541b9227aea9cffc",
+      "visually_checked_regions": [
+        "本文",
+        "合否の分かれ目",
+        "吹き出し",
+        "ページ上部の回・節"
+      ]
+    },
+    {
+      "page": 21,
+      "ruby_count": 7,
+      "bold_range_count": 50,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 10,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "41c2a61cae954a4be37fed9be5cf3c4a20c15e3c39ca1a8790c6256b1489d5be",
+      "visually_checked_regions": [
+        "本文",
+        "ページ上部の回・節",
+        "欄外目次"
+      ]
+    },
+    {
+      "page": 22,
+      "ruby_count": 5,
+      "bold_range_count": 48,
+      "source_styles": {
+        "data-source-color:white": 3,
+        "data-source-background:black": 1,
+        "data-source-background:red": 2,
+        "data-source-color:red": 11,
+        "data-source-color:green": 13,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": false,
+      "sha256": "755d4d2f6504f6b82c88e42ab6c6c79b063fdf48a371f0beaaf7ac1fce7b644f",
+      "visually_checked_regions": [
+        "本文",
+        "クローズアップ",
+        "吹き出し",
+        "ページ上部の回・節"
+      ]
+    },
+    {
+      "page": 23,
+      "ruby_count": 1,
+      "bold_range_count": 39,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 13,
+        "data-source-border:red": 2,
+        "data-source-marker:pink-fill": 1,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "1ce7ddcbf7f66fc7c34aab76bb6cdcaf40dba4319947b172c105d371807a3202",
+      "visually_checked_regions": [
+        "本文",
+        "図・地図・表",
+        "吹き出し",
+        "ページ上部の回・節",
+        "欄外目次"
+      ]
+    },
+    {
+      "page": 24,
+      "ruby_count": 2,
+      "bold_range_count": 42,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 11,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "461d76896da5448a0f78723dfc4de0dffcc72801bea1e64b660cd00a22d4d6b1",
+      "visually_checked_regions": [
+        "本文",
+        "ページ上部の回・節"
+      ]
+    },
+    {
+      "page": 25,
+      "ruby_count": 4,
+      "bold_range_count": 35,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 5,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "e6e9daa05fbbe0b05e551eea8545019d5d27f57656ec80e18aca3441be0626e9",
+      "visually_checked_regions": [
+        "本文",
+        "吹き出し",
+        "ページ上部の回・節",
+        "欄外目次"
+      ]
+    },
+    {
+      "page": 26,
+      "ruby_count": 7,
+      "bold_range_count": 26,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-background:red": 1,
+        "data-source-color:green": 1,
+        "data-source-color:red": 2
+      },
+      "sidebar_included": false,
+      "sha256": "e20bb4ba83c9e2205882973d383bea0e24db6194fef28309eca98af0934f8314",
+      "visually_checked_regions": [
+        "本文",
+        "吹き出し",
+        "ページ上部の回・節"
+      ]
+    },
+    {
+      "page": 27,
+      "ruby_count": 5,
+      "bold_range_count": 35,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 6,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "370242ac4073f7b95c3981cf4354c1668550bdbbc1e050e70409b12bb40567c9",
+      "visually_checked_regions": [
+        "本文",
+        "図版の題名・説明",
+        "吹き出し",
+        "ページ上部の回・節",
+        "欄外目次"
+      ]
+    },
+    {
+      "page": 28,
+      "ruby_count": 6,
+      "bold_range_count": 38,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-background:red": 1,
+        "data-source-color:red": 16,
+        "data-source-color:green": 8,
+        "data-source-color:gray": 2
+      },
+      "sidebar_included": false,
+      "sha256": "3de79e6327dfdfd48ccdd547c2daedd468741f0df394b6b7b2622d49f6629fa7",
+      "visually_checked_regions": [
+        "本文",
+        "クローズアップ",
+        "ページ上部の回・節"
+      ]
+    },
+    {
+      "page": 29,
+      "ruby_count": 5,
+      "bold_range_count": 35,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 6,
+        "data-source-color:green": 1,
+        "data-source-background:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "6c82acf316c632898273772a4c1c773962523b97c2d2a4576080f585fb234a1b",
+      "visually_checked_regions": [
+        "本文",
+        "図版の題名・説明",
+        "ページ上部の回・節",
+        "欄外目次"
+      ]
+    },
+    {
+      "page": 30,
+      "ruby_count": 7,
+      "bold_range_count": 37,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:brown": 4,
+        "data-source-color:red": 11,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "e1956be4694f5b1ea1540447fb760175c881c9cf48c8ba13ef69fda4d1131e70",
+      "visually_checked_regions": [
+        "本文",
+        "図・地図・表",
+        "ページ上部の回・節"
+      ]
+    },
+    {
+      "page": 31,
+      "ruby_count": 3,
+      "bold_range_count": 39,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-border:red": 6,
+        "data-source-marker:red-fill": 1,
+        "data-source-marker:pink-fill": 1,
+        "data-source-marker:black-line": 1,
+        "data-source-color:red": 7,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "03a9c11a4098e283499c96f4b700ff15692f030bcc5ce2913093f9f56f70b403",
+      "visually_checked_regions": [
+        "本文",
+        "図・地図・表",
+        "吹き出し",
+        "ページ上部の回・節",
+        "欄外目次"
+      ]
+    },
+    {
+      "page": 32,
+      "ruby_count": 10,
+      "bold_range_count": 26,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-color:red": 6,
+        "data-source-underline-color:black": 1,
+        "data-source-background:red": 1,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "73b252971972d333c12111431a641ad586a82fd34fa262d53a8eb3e7e16e4e16",
+      "visually_checked_regions": [
+        "本文",
+        "＋α ちょっと寄り耳",
+        "ページ上部の回・節"
+      ]
+    },
+    {
+      "page": 33,
+      "ruby_count": 3,
+      "bold_range_count": 64,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 30,
+        "data-source-color:green": 18,
+        "data-source-color:gray": 5,
+        "data-source-background:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "a61c45e4d169ae4bb65b16ba74fb0243b1cd5b242d432dc23890386c7ae84968",
+      "visually_checked_regions": [
+        "本文",
+        "クローズアップ",
+        "ページ上部の回・節",
+        "欄外目次"
+      ]
+    },
+    {
+      "page": 34,
+      "ruby_count": 10,
+      "bold_range_count": 25,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 14,
+        "data-source-color:green": 1,
+        "data-source-color:brown": 2
+      },
+      "sidebar_included": false,
+      "sha256": "f64daba1c7eaa15ca2f38565159502e94008269347b1e88908bc5e5d91c0fb37",
+      "visually_checked_regions": [
+        "本文",
+        "図・地図・表",
+        "ページ上部の回・節"
+      ]
+    },
+    {
+      "page": 35,
+      "ruby_count": 2,
+      "bold_range_count": 33,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 5,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "d89789f1244043eaa8e6cae6853bdf76d6c51f52642d11b410eaa46358cfbbb1",
+      "visually_checked_regions": [
+        "本文",
+        "吹き出し",
+        "ページ上部の回・節",
+        "欄外目次"
+      ]
+    },
+    {
+      "page": 36,
+      "ruby_count": 4,
+      "bold_range_count": 28,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 6,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "1c3854125c17256682c597f169215dbec75a669e59aa96d6c761251c07850f92",
+      "visually_checked_regions": [
+        "本文",
+        "吹き出し",
+        "ページ上部の回・節"
+      ]
+    },
+    {
+      "page": 37,
+      "ruby_count": 3,
+      "bold_range_count": 37,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-border:red": 11,
+        "data-source-marker:pink-fill": 1,
+        "data-source-color:red": 5,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "42f3254e15e0fb8c747ee8e07cd29c3ee1af0936ea4bb7bd4619ce84933435f6",
+      "visually_checked_regions": [
+        "本文",
+        "図・地図・表",
+        "ページ上部の回・節",
+        "欄外目次"
+      ]
+    },
+    {
+      "page": 38,
+      "ruby_count": 5,
+      "bold_range_count": 40,
+      "source_styles": {
+        "data-source-color:white": 3,
+        "data-source-background:black": 1,
+        "data-source-color:red": 12,
+        "data-source-background:red": 1,
+        "data-source-background:brown": 1,
+        "data-source-color:gray": 3,
+        "data-source-color:green": 7,
+        "data-source-color:brown": 1
+      },
+      "sidebar_included": false,
+      "sha256": "8adf18cdf954bb196cc82815c4b2c18f57a978a0df7f301235faf94a7019b676",
+      "visually_checked_regions": [
+        "本文",
+        "図・地図・表",
+        "合否の分かれ目",
+        "吹き出し",
+        "ページ上部の回・節"
+      ]
+    },
+    {
+      "page": 39,
+      "ruby_count": 4,
+      "bold_range_count": 40,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 10,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "c6a6f312666545dec9d7a72306c0e7c6812c6b450f65177e6b3766966c5f4d70",
+      "visually_checked_regions": [
+        "本文",
+        "吹き出し",
+        "ページ上部の回・節",
+        "欄外目次"
+      ]
+    },
+    {
+      "page": 40,
+      "ruby_count": 21,
+      "bold_range_count": 29,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-color:red": 18,
+        "data-source-color:green": 3,
+        "data-source-background:red": 1
+      },
+      "sidebar_included": false,
+      "sha256": "f2271244f6364b39575d0a3a723d1cd6ca5eda5f42efe7f24de12529f6d91e03",
+      "visually_checked_regions": [
+        "本文",
+        "年号のツボ",
+        "吹き出し",
+        "ページ上部の回・節"
+      ]
+    }
+  ],
+  "preserved_existing_sources": [
+    {
+      "file": "古代・中世・近世/sekai_shi_tankyu_mokuji.md",
+      "bytes": 8697,
+      "sha256": "4710c02be0c1de8628b3c78cbd746a60564f35ac9f228a25b96f218048637697"
+    },
+    {
+      "file": "古代・中世・近世/world-history-so-question-types.md",
+      "bytes": 50157,
+      "sha256": "0f20e1404f95f5b39cf60881593939a22e44338f0c419d39976d9be3cc6a0a93"
+    },
+    {
+      "file": "古代・中世・近世/world-history-source-md-csv-generation.md",
+      "bytes": 47688,
+      "sha256": "f6c7e28c8e1f512b12a698ce97167c65865060dbb7697a8c89d6cf3bb96f6160"
+    },
+    {
+      "file": "古代・中世・近世/01_オリエント・インドの古代文明/01_古代オリエント世界の成立.md",
+      "bytes": 31817,
+      "sha256": "f9024578a68f55bd9c978e6050b753e6668daf004b6b1f5c003b79293351c511"
+    },
+    {
+      "file": "古代・中世・近世/01_オリエント・インドの古代文明/02_古代オリエント世界の統一.md",
+      "bytes": 44059,
+      "sha256": "21719e63443aff70618fe3dbc98e62a720724bfdaac0617890069916a628876d"
+    },
+    {
+      "file": "古代・中世・近世/01_オリエント・インドの古代文明/03_古代インド.md",
+      "bytes": 62621,
+      "sha256": "ea929ebcb3bd84e693788cffacd07ca44e7d7971f9af136e73a9efc0270a2463"
+    },
+    {
+      "file": "古代・中世・近世/02_古代の地中海世界/04_古代ギリシア世界の成立.md",
+      "bytes": 48262,
+      "sha256": "be16e648bfaab3c69e9173a7af17045d48f11ae01a5f51c1aaa520b97cdeeaa8"
+    },
+    {
+      "file": "古代・中世・近世/02_古代の地中海世界/05_ポリス社会の崩壊とヘレニズム.md",
+      "bytes": 51840,
+      "sha256": "20c99a00c21be93f3587cae0e30e81a3fca5392a83c1ac7079d90c5ab2ac94ec"
+    },
+    {
+      "file": "古代・中世・近世/02_古代の地中海世界/06_ローマ共和政.md",
+      "bytes": 46581,
+      "sha256": "ed45db4cea5eb6a895d56f5c7269080de5b182fbba3fe549bffa809160b46c07"
+    },
+    {
+      "file": "古代・中世・近世/02_古代の地中海世界/07_ローマ帝国とキリスト教.md",
+      "bytes": 61612,
+      "sha256": "a885ff13c6979125822b3156d526d72fff1cadc30a3c2a85a6488ecf006e6178"
+    },
+    {
+      "file": "古代・中世・近世/03_古代の東アジア/08_古代中国①（中国文明〜秦）.md",
+      "bytes": 41532,
+      "sha256": "1ad91d67c3d7df94e6c20240a7afb3a714218cd41ebe4fd7ac5ac5922035c358"
+    },
+    {
+      "file": "古代・中世・近世/03_古代の東アジア/09_古代中国②（漢〜魏晋南北朝時代）.md",
+      "bytes": 50515,
+      "sha256": "9f798bbe2b4ce8a7bede47a6b433699951c413785f7760fd9dfc80f09174d45a"
+    },
+    {
+      "file": "古代・中世・近世/03_古代の東アジア/10_古代中国③（隋〜唐）.md",
+      "bytes": 62280,
+      "sha256": "3db1c6d9c12adcb8b06d2b7d087858c644b425824b66d1ddca6b2bf70126ebcb"
+    },
+    {
+      "file": "古代・中世・近世/04_中世ヨーロッパ/11_ゲルマン人の移動とフランク王国.md",
+      "bytes": 46598,
+      "sha256": "ec3676c9f4862f62ef1d674ddcd4194a5e1a1fc6cbf2dffcdb5234cbc1523aec"
+    },
+    {
+      "file": "古代・中世・近世/04_中世ヨーロッパ/12_封建社会の形成とカトリック教会の発展.md",
+      "bytes": 40801,
+      "sha256": "3890bafd22ffb7424c78bed641efea8a33510bb002f7fc03fd484b693f040dc8"
+    },
+    {
+      "file": "古代・中世・近世/04_中世ヨーロッパ/13_ビザンツ帝国と中世の東欧.md",
+      "bytes": 40182,
+      "sha256": "f11fc57de9688ba60149815f419dd9a046fb3aec87095d34d7aa64acac99fc45"
+    },
+    {
+      "file": "古代・中世・近世/04_中世ヨーロッパ/14_十字軍と封建社会の変容.md",
+      "bytes": 57077,
+      "sha256": "4b61d500da44985ee2038e894bdda94f8b07c26724c0f56b452d6a5f03369ac0"
+    },
+    {
+      "file": "古代・中世・近世/04_中世ヨーロッパ/15_中世の西ヨーロッパ諸国.md",
+      "bytes": 44028,
+      "sha256": "96ec4b05542cc97e86e9075dcb66d849a4fc4d9f9ebf9683c127d04152b25df3"
+    },
+    {
+      "file": "古代・中世・近世/05_東アジア世界の変容/16_中華世界の変容（五代十国〜宋）.md",
+      "bytes": 422577,
+      "sha256": "c964833191e1b30a0e9a1891e3a1b48a690d70456d45712039d6771c5aad7ba9"
+    },
+    {
+      "file": "古代・中世・近世/05_東アジア世界の変容/17_モンゴル帝国の時代.md",
+      "bytes": 38140,
+      "sha256": "6d7d7728c89213c6195ec7d0c97deda789a47b87a3dd5f8462af4610e225e2ec"
+    },
+    {
+      "file": "古代・中世・近世/05_東アジア世界の変容/18_中華帝国の繁栄（明・清）.md",
+      "bytes": 70513,
+      "sha256": "7893c644440a9975278b1d74f851d3981521482d5679dfd2a00b1023db23aa08"
+    },
+    {
+      "file": "古代・中世・近世/05_東アジア世界の変容/19_東南アジア世界.md",
+      "bytes": 39685,
+      "sha256": "49d4bd12ef5c2b6c2fc8899057f39398100f6abedbf12f611f934396ce68604a"
+    },
+    {
+      "file": "古代・中世・近世/06_イスラーム世界/20_イスラーム世界の形成.md",
+      "bytes": 51846,
+      "sha256": "18bd3156f93c4ce96bc0911087a6a6963677888b45e08f2e5c76b534cd9de116"
+    },
+    {
+      "file": "古代・中世・近世/06_イスラーム世界/21_イスラーム専制帝国の繁栄.md",
+      "bytes": 51340,
+      "sha256": "db5cfc267ecb6fa1fe5f0d816d705a46a235b0d04f301dad39320e3d0da6e96b"
+    },
+    {
+      "file": "古代・中世・近世/07_近代ヨーロッパの幕開け/22_ルネサンスと大航海時代.md",
+      "bytes": 50219,
+      "sha256": "09f70077edde0d572520c38428b70326db06284c5a6b114fb09e649df95928e6"
+    },
+    {
+      "file": "古代・中世・近世/07_近代ヨーロッパの幕開け/23_宗教改革.md",
+      "bytes": 51001,
+      "sha256": "19022d9c8737d6168fd7031032ca610eb4fc1c83d824693dd08260dc22b669a5"
+    },
+    {
+      "file": "古代・中世・近世/07_近代ヨーロッパの幕開け/24_近世のヨーロッパ①（スペイン・オランダ）.md",
+      "bytes": 38926,
+      "sha256": "c7eec2d9ded4ce34e96bfe55e32516d426c1ac8e1c5d9c740f34286df8771341"
+    },
+    {
+      "file": "古代・中世・近世/07_近代ヨーロッパの幕開け/25_近世のヨーロッパ②（イギリス・フランス）.md",
+      "bytes": 56162,
+      "sha256": "f253084f54c6e39df1fee2d7e648a7b5be42ebe5d4eec27ff6847db16591811d"
+    },
+    {
+      "file": "古代・中世・近世/07_近代ヨーロッパの幕開け/26_近世のヨーロッパ③（ドイツ・ロシア）.md",
+      "bytes": 61143,
+      "sha256": "b4a1238a4f5bc5cbf955b68706c4dd88d3e32b7dc50d1f4233ab356508540e2c"
+    },
+    {
+      "file": "古代・中世・近世/07_近代ヨーロッパの幕開け/27_産業革命とアメリカ独立革命.md",
+      "bytes": 55751,
+      "sha256": "9f0b6c49716753f012caa205cd1174d7bb0778d56158507802cddc7c88cd3900"
+    },
+    {
+      "file": "古代・中世・近世/07_近代ヨーロッパの幕開け/28_フランス革命.md",
+      "bytes": 45082,
+      "sha256": "e68ec2d8e00ebc5e958edd524bb822702408d5fadbb07f7913f8ef2485e217f7"
+    },
+    {
+      "file": "古代・中世・近世/07_近代ヨーロッパの幕開け/29_ナポレオンの時代.md",
+      "bytes": 38983,
+      "sha256": "ff758ca021ea934556aa5284644ef7a79deb4d8df2f58bca7e0166603c020828"
+    },
+    {
+      "file": "古代・中世・近世/07_近代ヨーロッパの幕開け/30_17〜18世紀のヨーロッパ文化.md",
+      "bytes": 30315,
+      "sha256": "d9fac3ba70c7211c292cb9669f361c7072fc09431fd2d70d1f1b17bb927e259d"
+    },
+    {
+      "file": "近代・現代/sekai_shi_tankyu_mokuji.md",
+      "bytes": 7892,
+      "sha256": "766d34236036053f9847d1128cc98151b8f359baf91503c173a62b8699f11c10"
+    }
+  ],
+  "validation": {
+    "consecutive_pages": true,
+    "source_emphasis_tags_balanced": true,
+    "all_existing_source_hashes_unchanged": true,
+    "all_original_image_hashes_unchanged": true,
+    "user_changes_unchanged": true,
+    "source_and_images_git_ignored": true,
+    "web_lessons_added": false,
+    "regression_checks": [
+      {
+        "command": "npm run check:transcriptions",
+        "exit_code": 0
+      },
+      {
+        "command": "npm run check",
+        "exit_code": 0
+      },
+      {
+        "command": "npm run build",
+        "exit_code": 0
+      }
+    ]
+  }
+}
