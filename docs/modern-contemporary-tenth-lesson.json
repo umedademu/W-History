@@ -1,0 +1,1775 @@
+{
+  "date": "2026-10-02",
+  "version": "0.093",
+  "volume": "近代・現代",
+  "chapter": 2,
+  "chapter_title": "列強の侵略とアジアの変革",
+  "chapter_cover_included": false,
+  "lesson": 10,
+  "lesson_title": "近代の東アジア②",
+  "lesson_cover_page": 179,
+  "source_file": "sources/近代・現代/02_列強の侵略とアジアの変革/10_近代の東アジア②.md",
+  "source_sha256": "4caf2efbb5c8255cf49d39c16da69db58ba4e447e222ed0bfc2224cfd5725d9f",
+  "source_bytes": 112823,
+  "pages": [
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198
+  ],
+  "page_count": 20,
+  "blank_pages": [],
+  "pages_with_printed_text": 20,
+  "section_start_pages": [
+    180,
+    184,
+    191,
+    193
+  ],
+  "japanese_history_approach_page": 190,
+  "next_lesson_start_page": 200,
+  "next_lesson_title": "帝国主義とアフリカ分割",
+  "next_chapter_cover_page": 199,
+  "next_chapter_title": "帝国主義と第一次世界大戦",
+  "next_lesson_boundary_image": {
+    "index": 96,
+    "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_vOJBpmPsin.png",
+    "bytes": 1495225,
+    "sha256": "4ac60a833a2285b50ac7dcbcc6c93cd1ba17085f48bbf42fc4e87e99fd7d6f72",
+    "spreadPages": [
+      198,
+      199
+    ],
+    "selectedPages": [
+      198
+    ],
+    "filename": "Kindle_vOJBpmPsin.png",
+    "creationTime": "2026-10-02T02:53:25.6011345+09:00"
+  },
+  "boundary_page": 199,
+  "boundary_image_shared_with_source_page": 198,
+  "image_count": 11,
+  "unique_original_image_count": 11,
+  "first_image_shared_with_previous_lesson_page": 178,
+  "reader": "担当の原画像読み取り、Antigravity CLI経由のGemini 3.8 Flashによる独立した本文読み取り、原画像による相違と装飾の照合",
+  "authorization": "第9回に続く利用者の続けてに従い、第2章第10回を新規作成。",
+  "rules_document": "docs/source-transcription-rules.md",
+  "comparison_document": "docs/source-transcription-comparison.md",
+  "proofreading": "179〜198ページの全文を確認。回の扉、地図3枚と香港の拡大図、凡例5項目、表2つ、クローズアップ3つ、合否の分かれ目2つ、改革派・革命派の変遷の図、コラム、近現代日本へのアプローチ4、吹き出し、年号欄6項目、欄外目次9ページ、太字・色・下線・背景・枠・斜体・読み仮名を原画像で照合。保存前の草稿だけを修正。",
+  "independently_compared_pages": [
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198
+  ],
+  "comparison_trials": [
+    {
+      "name": "text-a",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        179,
+        180,
+        181,
+        182,
+        183
+      ],
+      "duration_seconds": 104.93309769999905,
+      "request_sha256": "77cb5294289ad44b508be41a3f501600df2ae74d2eda42324bc8a7b9be4dd41b",
+      "response_sha256": "01491c4d834029f7b9ea3761f4fca6dfaf797c546e70fa4b84bafb67a8cd974b",
+      "reported_uncertainties": {
+        "179": [],
+        "180": [],
+        "181": [],
+        "182": [],
+        "183": []
+      }
+    },
+    {
+      "name": "text-b",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        184,
+        185,
+        186,
+        187,
+        188
+      ],
+      "duration_seconds": 104.2371364999999,
+      "request_sha256": "d26c4bb591973241f0f94170de292b9ea6f77f38045885504e8ac3bd7a9c68c3",
+      "response_sha256": "bf63cc6b8259f0630ab251f7c4db7c62ecdb1188155e210a256ee6bda146376b",
+      "reported_uncertainties": {
+        "184": [],
+        "185": [],
+        "186": [],
+        "187": [],
+        "188": []
+      }
+    },
+    {
+      "name": "text-c",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        189,
+        190,
+        191,
+        192,
+        193
+      ],
+      "duration_seconds": 100.468658400001,
+      "request_sha256": "da62dd27674d7044bbeeb90fbcd34b649bf39407bec29fbe576627857cb9aeb9",
+      "response_sha256": "50ecb0604df14749fa764505bf0e9ea447693ae514fd581980dceae96ce30cc3",
+      "reported_uncertainties": {
+        "189": [],
+        "190": [],
+        "191": [],
+        "192": [],
+        "193": []
+      }
+    },
+    {
+      "name": "text-d",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        194,
+        195,
+        196,
+        197,
+        198
+      ],
+      "duration_seconds": 107.31303299999854,
+      "request_sha256": "fbbad8b5cb11a5b3bfcf6cbd0eda6afab561b5c24557dbbe8470ec6b66e17cbb",
+      "response_sha256": "dc824d684c91046a9852a956f8ddd2e086bf85faa7994a6786fdbc979ef5d061",
+      "reported_uncertainties": {
+        "194": [],
+        "195": [],
+        "196": [],
+        "197": [],
+        "198": []
+      }
+    }
+  ],
+  "unsuccessful_comparison_attempts": [
+    {
+      "batch": "text-c",
+      "status": "SUCCESS",
+      "duration_seconds": 43.2139486,
+      "conversation_id": "f55c0b1e-af36-4cd9-9169-6343a386fa3c",
+      "denied_actions": [
+        {
+          "action": "command",
+          "display_name": "RunCommand"
+        }
+      ],
+      "reason": "画像閲覧時にコマンド実行が要求され、許可されず本文が空だった。権限を追加せず、画像閲覧のみを指定して再依頼。",
+      "request_sha256": "f3c5387ad9ad847e39f483478250001e654961bfc0f0540cd6526457443a99ac",
+      "response_sha256": "b7eab2b4856f52b433fd188712d58c16b0501d76bd797681ca741a463df75c35"
+    }
+  ],
+  "own_draft_corrections": [
+    {
+      "page": 180,
+      "before": "明らかになった**んだよね",
+      "after": "明らかになった**よね",
+      "reason": "原画像の語尾はなったよね。",
+      "type": "本文"
+    },
+    {
+      "page": 180,
+      "before": "反撃を始めた。",
+      "after": "反撃を始めたよ。",
+      "reason": "原画像の語尾のよを追加。",
+      "type": "本文"
+    },
+    {
+      "page": 180,
+      "before": "**<ruby>北洋<rt>ほくよう</rt></ruby>軍**",
+      "after": "**<ruby>北洋軍<rt>ほくようぐん</rt></ruby>**",
+      "reason": "印刷された読みはぐんまで。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 180,
+      "before": "いる<ruby>袁世凱<rt>えんせいがい</rt></ruby>を",
+      "after": "いる**<ruby>袁世凱<rt>えんせいがい</rt></ruby>**を",
+      "reason": "袁世凱は黒い太字。",
+      "type": "強調"
+    },
+    {
+      "page": 182,
+      "before": "の対岸にある",
+      "after": "の対岸にあたる",
+      "reason": "原画像はあたる。",
+      "type": "本文"
+    },
+    {
+      "page": 182,
+      "before": "<ruby>列<rt>れっ</rt></ruby>強によって",
+      "after": "<ruby>列<rt>れっ</rt></ruby><ruby>強<rt>きょう</rt></ruby>によって",
+      "reason": "行をまたぐ列強の読みを分けて収録。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 184,
+      "before": "そうは言っても",
+      "after": "そうはいっても",
+      "reason": "原画像のいは平仮名。",
+      "type": "本文"
+    },
+    {
+      "page": 184,
+      "before": "反発した農民や下層労働者が一斉に<ruby>武装蜂起<rt>ぶそうほうき</rt></ruby>したんだ",
+      "after": "反発した貧農や下層労働者が一斉に武装<ruby>蜂起<rt>ほうき</rt></ruby>をしたんだ",
+      "reason": "原画像は貧農と蜂起をした。読みは蜂起だけ。",
+      "type": "本文"
+    },
+    {
+      "page": 184,
+      "before": "**清朝を助けてヨーロッパを倒す**",
+      "after": "**<ruby>清<rt>シン</rt></ruby>朝を助けてヨーロッパを倒す**",
+      "reason": "清の片仮名の読みを確認。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 187,
+      "before": "たちまちにこれを奪う",
+      "after": "ただちにこれを奪う",
+      "reason": "引用文の原画像はただちに。",
+      "type": "本文"
+    },
+    {
+      "page": 187,
+      "before": "古人曰く",
+      "after": "古人<ruby>曰<rt>いわ</rt></ruby>く",
+      "reason": "曰に印刷された読みを追加。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 188,
+      "before": "そうは言っても",
+      "after": "そうはいっても",
+      "reason": "原画像のいは平仮名。",
+      "type": "本文"
+    },
+    {
+      "page": 188,
+      "before": "いるんだもん！ さすが",
+      "after": "いるんだもん！。さすが",
+      "reason": "顔の外の感嘆符と句点はどちらも印刷。",
+      "type": "句読点"
+    },
+    {
+      "page": 194,
+      "before": "革命団体ができたけど",
+      "after": "革命団体がでてきたけど",
+      "reason": "吹き出しの原画像はでてきた。",
+      "type": "本文"
+    },
+    {
+      "page": 195,
+      "before": "（土地所有の平等）の",
+      "after": "（土地所有の平等）」の",
+      "reason": "原画像には閉じかぎ括弧だけがある。対応する開き括弧は補わない。",
+      "type": "句読点"
+    },
+    {
+      "page": 195,
+      "before": "「**<ruby>民報<rt>みんぽう</rt></ruby>**」",
+      "after": "『**<ruby>民報<rt>みんぽう</rt></ruby>**』",
+      "reason": "原画像の書名は二重かぎ括弧。",
+      "type": "句読点"
+    },
+    {
+      "page": 195,
+      "before": "中国同盟会の「民報」",
+      "after": "中国同盟会の『民報』",
+      "reason": "書名の二重かぎ括弧を確認。",
+      "type": "句読点"
+    },
+    {
+      "page": 195,
+      "before": "「<ruby>新民叢報<rt>しんみんそうほう</rt></ruby>」",
+      "after": "『<ruby>新民叢報<rt>しんみんそうほう</rt></ruby>』",
+      "reason": "書名の二重かぎ括弧を確認。",
+      "type": "句読点"
+    },
+    {
+      "page": 195,
+      "before": "機関紙「民報」の発行",
+      "after": "機関紙『民報』の発行",
+      "reason": "囲み内も二重かぎ括弧。",
+      "type": "句読点"
+    },
+    {
+      "page": 197,
+      "before": "独裁を合法化した",
+      "after": "独裁を合法にした",
+      "reason": "原画像の表現は合法にした。",
+      "type": "本文"
+    },
+    {
+      "page": 197,
+      "before": "<ruby>北洋<rt>ほくよう</rt></ruby>軍",
+      "after": "<ruby>北洋軍<rt>ほくようぐん</rt></ruby>",
+      "reason": "原画像の読みは軍まで。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 198,
+      "before": "<ruby>北洋<rt>ほくよう</rt></ruby>軍",
+      "after": "<ruby>北洋軍<rt>ほくようぐん</rt></ruby>",
+      "reason": "原画像の読みは軍まで。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 198,
+      "before": "ショックだったんだね。",
+      "after": "ショックだったんだね！。",
+      "reason": "顔の外の感嘆符と句点を両方保持。",
+      "type": "句読点"
+    },
+    {
+      "page": 198,
+      "before": "<ruby>恐<rt>0</rt></ruby></赤太>ろし",
+      "after": "<ruby>恐<rt>0</rt><rt data-source-position=\"below\">オ<span data-source-color=\"black\" style=\"color:#001000\">ソ</span></rt></ruby></赤太>ろし",
+      "reason": "原画像の恐には上に0、下にオソも印刷され、2つとも保存。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 182,
+      "before": "| **ロシア帝国** | <em data-source-italic=\"true\" style=\"font-style:italic\">東清鉄道</em>、ウラジヴォストーク、大連（露）、旅順（露） |",
+      "after": "| **ロシア帝国** | <em data-source-italic=\"true\" style=\"font-style:italic\">東清鉄道</em><br>ウラジヴォストーク<br>大連（露）<br>旅順（露） |",
+      "reason": "地図のラベルを区切るために草稿で追加した読点を削除し、改行で並べる。",
+      "type": "図表の構造"
+    },
+    {
+      "page": 182,
+      "before": "| | 膠州湾（独）、威海衛（英）、南京、上海、九竜半島（英）、台湾（日）、広州湾（仏）、香港島（英）［1842］ |",
+      "after": "| | 膠州湾（独）<br>威海衛（英）<br>南京<br>上海<br>九竜半島（英）<br>台湾（日）<br>広州湾（仏）<br>香港島（英）［1842］ |",
+      "reason": "地図のラベルを区切るために草稿で追加した読点を削除し、改行で並べる。",
+      "type": "図表の構造"
+    },
+    {
+      "page": 182,
+      "before": "| **九竜半島全域［1898］** | 九竜半島南部［1860］、香港島［1842］ |",
+      "after": "| **九竜半島全域［1898］** | 九竜半島南部［1860］<br>香港島［1842］ |",
+      "reason": "地図のラベルを区切るために草稿で追加した読点を削除し、改行で並べる。",
+      "type": "図表の構造"
+    },
+    {
+      "page": 188,
+      "before": "| | ハルビン、東清鉄道、長春、ウラジヴォストーク、南満洲鉄道、大連、旅順、漢城［ソウル］、威海衛（英） |",
+      "after": "| | ハルビン<br>東清鉄道<br>長春<br>ウラジヴォストーク<br>南満洲鉄道<br>大連<br>旅順<br>漢城［ソウル］<br>威海衛（英） |",
+      "reason": "地図のラベルを区切るために草稿で追加した読点を削除し、改行で並べる。",
+      "type": "図表の構造"
+    },
+    {
+      "page": 193,
+      "before": "<赤枠><赤太>革命派</赤太></赤枠>",
+      "after": "<span data-source-border=\"black\" style=\"border:1px solid #222222;padding:0 0.2em\"><赤>革命派</赤></span>",
+      "reason": "革命派の内枠は黒、文字は赤。",
+      "type": "強調"
+    },
+    {
+      "page": 180,
+      "before": "<ruby>明治<rt>めいじ</rt></ruby>維新",
+      "after": "明治<ruby>維新<rt>いしん</rt></ruby>",
+      "reason": "印刷された読みは維新のいしんだけ。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 181,
+      "before": "<ruby>三国干渉<rt>さんごくかんしょう</rt></ruby>",
+      "after": "三国<ruby>干渉<rt>かんしょう</rt></ruby>",
+      "reason": "三国の読みは補わず、干渉の読みだけ保存。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 182,
+      "before": "<ruby>三国干渉<rt>さんごくかんしょう</rt></ruby>",
+      "after": "三国<ruby>干渉<rt>かんしょう</rt></ruby>",
+      "reason": "三国の読みは補わず、干渉の読みだけ保存。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 191,
+      "before": "<ruby>三国干渉<rt>さんごくかんしょう</rt></ruby>",
+      "after": "三国<ruby>干渉<rt>かんしょう</rt></ruby>",
+      "reason": "三国の読みは補わず、干渉の読みだけ保存。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 181,
+      "before": "<ruby>賠償<rt>ばいしょう</rt></ruby>金",
+      "after": "<ruby>賠償金<rt>ばいしょうきん</rt></ruby>",
+      "reason": "読みは賠償金のきんまで印刷。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 185,
+      "before": "<ruby>賠償<rt>ばいしょう</rt></ruby>金",
+      "after": "<ruby>賠償金<rt>ばいしょうきん</rt></ruby>",
+      "reason": "読みは賠償金のきんまで印刷。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 189,
+      "before": "<ruby>賠償<rt>ばいしょう</rt></ruby>金",
+      "after": "<ruby>賠償金<rt>ばいしょうきん</rt></ruby>",
+      "reason": "読みは賠償金のきんまで印刷。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 190,
+      "before": "<ruby>賠償<rt>ばいしょう</rt></ruby>金",
+      "after": "<ruby>賠償金<rt>ばいしょうきん</rt></ruby>",
+      "reason": "読みは賠償金のきんまで印刷。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 186,
+      "before": "<ruby>南樺太<rt>みなみからふと</rt></ruby>",
+      "after": "南<ruby>樺太<rt>からふと</rt></ruby>",
+      "reason": "樺太のからふとのみを保存し、南の読みは補わない。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 189,
+      "before": "<ruby>南樺太<rt>みなみからふと</rt></ruby>",
+      "after": "南<ruby>樺太<rt>からふと</rt></ruby>",
+      "reason": "樺太のからふとのみを保存し、南の読みは補わない。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 186,
+      "before": "**膨大な<ruby>賠償<rt>ばいしょう</rt></ruby>金の支払い**",
+      "after": "**<ruby>膨大<rt>ぼうだい</rt></ruby>な<ruby>賠償金<rt>ばいしょうきん</rt></ruby>の支払い**",
+      "reason": "膨大と賠償金の印刷された読みを保存。",
+      "type": "読み仮名"
+    },
+    {
+      "page": 186,
+      "before": "を<ruby>放棄<rt>ほうき</rt></ruby>",
+      "after": "を**<ruby>放棄<rt>ほうき</rt></ruby>**",
+      "reason": "放棄は黒い太字。",
+      "type": "強調"
+    },
+    {
+      "page": 193,
+      "before": "<赤太><ruby>新軍<rt>しんぐん</rt></ruby>【新建陸軍】</赤太>",
+      "after": "<赤太><ruby>新軍<rt>しんぐん</rt></ruby></赤太> **【新建陸軍】**",
+      "reason": "新軍は赤い太字、別表記は黒い太字。",
+      "type": "強調"
+    },
+    {
+      "page": 180,
+      "before": "<赤太><ruby>曾国藩<rt>そうこくはん</rt></ruby>【曽国藩】</赤太>",
+      "after": "<赤太><ruby>曾国藩<rt>そうこくはん</rt></ruby></赤太> **【**<赤太>曽国藩</赤太>**】**",
+      "reason": "別表記の括弧は黒、語句は赤。",
+      "type": "強調"
+    },
+    {
+      "page": 181,
+      "before": "<赤太>曾国藩【曽国藩】</赤太>",
+      "after": "<赤太>曾国藩</赤太>**【**<赤太>曽国藩</赤太>**】**",
+      "reason": "別表記の括弧は黒、語句は赤。",
+      "type": "強調"
+    },
+    {
+      "page": 179,
+      "before": "| <白太赤>2</白太赤>",
+      "after": "| <赤>⬇</赤> | | |\n| <白太赤>2</白太赤>",
+      "reason": "概観図の赤い下向き矢印を保存。",
+      "type": "図表の構造"
+    },
+    {
+      "page": 179,
+      "before": "| <白太赤>3</白太赤>",
+      "after": "| <赤>⬇</赤> | | |\n| <白太赤>3</白太赤>",
+      "reason": "概観図の赤い下向き矢印を保存。",
+      "type": "図表の構造"
+    },
+    {
+      "page": 179,
+      "before": "| <白太赤>4</白太赤>",
+      "after": "| <赤>⬇</赤> | | |\n| <白太赤>4</白太赤>",
+      "reason": "概観図の赤い下向き矢印を保存。",
+      "type": "図表の構造"
+    },
+    {
+      "page": 182,
+      "before": "> 拡大図はこちら！",
+      "after": "> 拡大図はこちら！ <span data-source-marker=\"arrow\" data-source-color=\"black\" style=\"color:#001000\">➡</span>",
+      "reason": "香港の拡大図を指す矢印を保存。",
+      "type": "図表の構造"
+    }
+  ],
+  "original_spelling_notes": [
+    {
+      "page": 181,
+      "note": "西洋技術のみ導入にをを補わない。賠償金の読みはきんまで。三国干渉の読みは干渉のかんしょうだけ。末尾の大連の大と次ページの連は分ける。"
+    },
+    {
+      "page": 183,
+      "note": "租借期間の表記はカ年。ハワイ→グアム→フィリピンの矢印は細い黒い右向き矢印。表の全6か国を収録。"
+    },
+    {
+      "page": 184,
+      "note": "そうはいっても、貧農、武装蜂起をしたを確認。反感が向かった先の語尾にGeminiが加えたよは採用しない。教会も彼らをかくまったのくは保持。"
+    },
+    {
+      "page": 187,
+      "note": "コラム名はちょっと寄り耳と末尾の上向き矢印。案出、航行、引用中のコノ一戦ニ在リを保持。引用のただちにと曰のいわを確認。"
+    },
+    {
+      "page": 192,
+      "note": "文化運動を通したを通じたへ変えない。協約の全3行と統監府・総督府の比較欄を保存。"
+    },
+    {
+      "page": 195,
+      "note": "四大綱領の説明の末尾は閉じかぎ括弧だけが印刷されているため、開き括弧を補わない。民報と新民叢報は二重かぎ括弧。クローズアップの年号と項目を全て収録。"
+    },
+    {
+      "page": 197,
+      "note": "独裁を合法にしたを確認。認めるしかなくなったはGeminiのなかったへ変えない。次ページに続く日本のを保持。"
+    }
+  ],
+  "comparison_resolution_notes": [
+    {
+      "page": 179,
+      "note": "回の扉・概観4項目・矢印3本と吹き出しを収録。顔の絵を絵文字に置き換えず、句点を保持。"
+    },
+    {
+      "page": 180,
+      "note": "なったよねと始めたよを原画像で確認。曾国藩【曽国藩】の字体の順序を保持。明治維新の読みは維新のいしんだけ、北洋軍の読みはぐんまで。"
+    },
+    {
+      "page": 181,
+      "note": "西洋技術のみ導入にをを補わない。賠償金の読みはきんまで。三国干渉の読みは干渉のかんしょうだけ。末尾の大連の大と次ページの連は分ける。"
+    },
+    {
+      "page": 182,
+      "note": "対岸にあたるを確認。地図のウラジヴォストークの字体を保持。凡例5項目、拡大図の地名と年号も保存。"
+    },
+    {
+      "page": 183,
+      "note": "租借期間の表記はカ年。ハワイ→グアム→フィリピンの矢印は細い黒い右向き矢印。表の全6か国を収録。"
+    },
+    {
+      "page": 184,
+      "note": "そうはいっても、貧農、武装蜂起をしたを確認。反感が向かった先の語尾にGeminiが加えたよは採用しない。教会も彼らをかくまったのくは保持。"
+    },
+    {
+      "page": 185,
+      "note": "吹き出しの読み順の差を欠落と分ける。賠償金の読みはきんまで。北京議定書の内容と領土に関する説明を原文のまま保持。"
+    },
+    {
+      "page": 186,
+      "note": "クローズアップの全項目と沿海州の前の三角印を保存。南樺太の読みは樺太のからふとだけ。膨大と賠償金の読みを収録。"
+    },
+    {
+      "page": 187,
+      "note": "コラム名はちょっと寄り耳と末尾の上向き矢印。案出、航行、引用中のコノ一戦ニ在リを保持。引用のただちにと曰のいわを確認。"
+    },
+    {
+      "page": 188,
+      "note": "地図のウラジヴォストークにオを加えない。そうはいってもを保持。借金しているんだもんの後は顔の外の感嘆符と句点を両方保存。"
+    },
+    {
+      "page": 189,
+      "note": "日本側全権の小村寿太郎とロシア側全権のウィッテを保持。南樺太の読みは樺太だけ。日露戦争の影響の吹き出しも保存。"
+    },
+    {
+      "page": 190,
+      "note": "日本の補足欄も全文収録。上部には第10回の柱が印刷されている。金本位制への移行の年号1897も保持。"
+    },
+    {
+      "page": 191,
+      "note": "上部の節名と本文の節見出しは2か所とも保存。自主外交権の自主は指示矢印の残る字形と同じ表の項目で確認。"
+    },
+    {
+      "page": 192,
+      "note": "文化運動を通したを通じたへ変えない。協約の全3行と統監府・総督府の比較欄を保存。"
+    },
+    {
+      "page": 193,
+      "note": "新軍は赤い太字、【新建陸軍】は黒い太字。図の改革を主導は2か所、赤い対立の矢印と説明文も収録。192ページからの本文の続きはなく、新しい節が始まる。"
+    },
+    {
+      "page": 194,
+      "note": "吹き出しは革命団体がでてきたけど。出身地別の団体の名前と会長の読みを原画像で確認。"
+    },
+    {
+      "page": 195,
+      "note": "四大綱領の説明の末尾は閉じかぎ括弧だけが印刷されているため、開き括弧を補わない。民報と新民叢報は二重かぎ括弧。クローズアップの年号と項目を全て収録。"
+    },
+    {
+      "page": 196,
+      "note": "湖広鉄道、粤漢鉄道、川漢鉄道の字体と読みを保持。地図の北京・南京・武昌、第三革命の枠も収録。"
+    },
+    {
+      "page": 197,
+      "note": "独裁を合法にしたを確認。認めるしかなくなったはGeminiのなかったへ変えない。次ページに続く日本のを保持。"
+    },
+    {
+      "page": 198,
+      "note": "年号欄の全6項目を保存。恐の上の0と下のオソも収録。得の19はまとめて対応。顔の外の感嘆符と句点を両方保持。"
+    },
+    {
+      "page": 199,
+      "note": "第3章帝国主義と第一次世界大戦の章扉を境界として確認。今回には含めない。第11回は目次で200ページ開始を確認。"
+    }
+  ],
+  "source_occlusion_notes": [
+    {
+      "page": 179,
+      "region": "侵略の一部",
+      "treatment": "残る字形、同じ紙面・表の語句、独立した本文読み取りを原画像で照合。判読用の指示矢印を本文に置き換えない。"
+    },
+    {
+      "page": 181,
+      "region": "獲得したよの一部",
+      "treatment": "残る字形、同じ紙面・表の語句、独立した本文読み取りを原画像で照合。判読用の指示矢印を本文に置き換えない。"
+    },
+    {
+      "page": 183,
+      "region": "青島市建設の後の余白",
+      "treatment": "残る字形、同じ紙面・表の語句、独立した本文読み取りを原画像で照合。判読用の指示矢印を本文に置き換えない。"
+    },
+    {
+      "page": 187,
+      "region": "航行はの一部",
+      "treatment": "残る字形、同じ紙面・表の語句、独立した本文読み取りを原画像で照合。判読用の指示矢印を本文に置き換えない。"
+    },
+    {
+      "page": 189,
+      "region": "インドではの一部",
+      "treatment": "残る字形、同じ紙面・表の語句、独立した本文読み取りを原画像で照合。判読用の指示矢印を本文に置き換えない。"
+    },
+    {
+      "page": 191,
+      "region": "自主外交権の自の一部",
+      "treatment": "残る字形、同じ紙面・表の語句、独立した本文読み取りを原画像で照合。判読用の指示矢印を本文に置き換えない。"
+    },
+    {
+      "page": 193,
+      "region": "図の康有為の一部",
+      "treatment": "残る字形、同じ紙面・表の語句、独立した本文読み取りを原画像で照合。判読用の指示矢印を本文に置き換えない。"
+    },
+    {
+      "page": 195,
+      "region": "首都の直前の点線",
+      "treatment": "残る字形、同じ紙面・表の語句、独立した本文読み取りを原画像で照合。判読用の指示矢印を本文に置き換えない。"
+    },
+    {
+      "page": 197,
+      "region": "正式なの一部",
+      "treatment": "残る字形、同じ紙面・表の語句、独立した本文読み取りを原画像で照合。判読用の指示矢印を本文に置き換えない。"
+    }
+  ],
+  "ruby_details": [
+    {
+      "page": 180,
+      "text": "明治維新",
+      "ruby_target": "維新",
+      "ruby_text": "いしん",
+      "note": "明治の読みは補わない。"
+    },
+    {
+      "page": 180,
+      "text": "北洋軍",
+      "ruby_text": "ほくようぐん",
+      "note": "197・198ページも軍まで読む。"
+    },
+    {
+      "page": 181,
+      "text": "大連",
+      "ruby_text": {
+        "大": "だい",
+        "連": "れん"
+      },
+      "note": "大は181ページ末、連は182ページ冒頭。"
+    },
+    {
+      "page": 181,
+      "text": "三国干渉",
+      "ruby_target": "干渉",
+      "ruby_text": "かんしょう",
+      "note": "182・191ページも三国の読みを補わない。"
+    },
+    {
+      "page": 186,
+      "text": "南樺太",
+      "ruby_target": "樺太",
+      "ruby_text": "からふと",
+      "note": "189ページも南の読みを補わない。"
+    },
+    {
+      "page": 198,
+      "text": "遠くは恐ろし",
+      "numeric_ruby": {
+        "遠": "1",
+        "く": "9",
+        "は": "0",
+        "恐": "0"
+      },
+      "additional_ruby": {
+        "恐": "オソ"
+      },
+      "note": "恐の下のオソも収録。オは赤、ソは黒。"
+    },
+    {
+      "page": 198,
+      "text": "日暮れに",
+      "numeric_ruby": {
+        "日": "1",
+        "暮": "9",
+        "れ": "0",
+        "に": "2"
+      }
+    },
+    {
+      "page": 198,
+      "text": "行くぞ連勝",
+      "numeric_ruby": {
+        "行": "1",
+        "く": "9",
+        "連": "0",
+        "勝": "4"
+      },
+      "note": "ぞは黒い通常文字。"
+    },
+    {
+      "page": 198,
+      "text": "行く人多い",
+      "numeric_ruby": {
+        "行": "1",
+        "く": "9",
+        "人": "1",
+        "多": "0"
+      },
+      "note": "最後のいは黒い通常文字。"
+    },
+    {
+      "page": 198,
+      "text": "行く人いない",
+      "numeric_ruby": {
+        "行": "1",
+        "く": "9",
+        "人": "1",
+        "い": "1"
+      },
+      "note": "ないは黒い通常文字。"
+    },
+    {
+      "page": 198,
+      "text": "得意に",
+      "numeric_ruby": {
+        "得": "19",
+        "意": "1",
+        "に": "2"
+      },
+      "note": "得の19は分割しない。"
+    }
+  ],
+  "source_images": [
+    {
+      "index": 86,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_XPq1ma774R.png",
+      "bytes": 1478499,
+      "sha256": "1949eb03c77dd4b5704a430faee86b64a3bc6488c223d32f864570ddfae54e43",
+      "spreadPages": [
+        178,
+        179
+      ],
+      "selectedPages": [
+        179
+      ],
+      "filename": "Kindle_XPq1ma774R.png",
+      "creationTime": "2026-10-02T02:53:17.5404141+09:00"
+    },
+    {
+      "index": 87,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_RCPswew1qc.png",
+      "bytes": 1643451,
+      "sha256": "e0bcfd656acc6389183c7dfa57c63e8a96cff5b9543112d63f3a9f4be84929e1",
+      "spreadPages": [
+        180,
+        181
+      ],
+      "selectedPages": [
+        180,
+        181
+      ],
+      "filename": "Kindle_RCPswew1qc.png",
+      "creationTime": "2026-10-02T02:53:18.3904205+09:00"
+    },
+    {
+      "index": 88,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_585tMlD0Fc.png",
+      "bytes": 1537230,
+      "sha256": "456bb8ee9c5b867129fcccf4d3bd869bebd62a36bc422a6528cc96930c83cc57",
+      "spreadPages": [
+        182,
+        183
+      ],
+      "selectedPages": [
+        182,
+        183
+      ],
+      "filename": "Kindle_585tMlD0Fc.png",
+      "creationTime": "2026-10-02T02:53:19.1894136+09:00"
+    },
+    {
+      "index": 89,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_PG3mt7IbQz.png",
+      "bytes": 1676418,
+      "sha256": "b138eda047b12ac9d2cdda9bc9a92839ec7e977d7b42a9c77897377c719898ea",
+      "spreadPages": [
+        184,
+        185
+      ],
+      "selectedPages": [
+        184,
+        185
+      ],
+      "filename": "Kindle_PG3mt7IbQz.png",
+      "creationTime": "2026-10-02T02:53:19.9874898+09:00"
+    },
+    {
+      "index": 90,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_oUKhKoLc9a.png",
+      "bytes": 1726110,
+      "sha256": "5b18da590d949c128eff0b5d15fec846651770ac03860e7dc7df677f3fdf4b5b",
+      "spreadPages": [
+        186,
+        187
+      ],
+      "selectedPages": [
+        186,
+        187
+      ],
+      "filename": "Kindle_oUKhKoLc9a.png",
+      "creationTime": "2026-10-02T02:53:20.7782322+09:00"
+    },
+    {
+      "index": 91,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_hxrRKVMow5.png",
+      "bytes": 1504675,
+      "sha256": "b42f0a29656a34332fe801f12d2e4b5dae722e1707739738676aa946af55814b",
+      "spreadPages": [
+        188,
+        189
+      ],
+      "selectedPages": [
+        188,
+        189
+      ],
+      "filename": "Kindle_hxrRKVMow5.png",
+      "creationTime": "2026-10-02T02:53:21.5958442+09:00"
+    },
+    {
+      "index": 92,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_yM74KkZuO3.png",
+      "bytes": 1549888,
+      "sha256": "7aa789726696bc8569fdba67f27cf39b234934cea743c52cd8f6ebe003f55a7b",
+      "spreadPages": [
+        190,
+        191
+      ],
+      "selectedPages": [
+        190,
+        191
+      ],
+      "filename": "Kindle_yM74KkZuO3.png",
+      "creationTime": "2026-10-02T02:53:22.3956042+09:00"
+    },
+    {
+      "index": 93,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_K08gH8TvDi.png",
+      "bytes": 1241034,
+      "sha256": "0fed95d4a2b89ac3e2e99463d98c185a694822ad93b712fe88e2f6b5537824d9",
+      "spreadPages": [
+        192,
+        193
+      ],
+      "selectedPages": [
+        192,
+        193
+      ],
+      "filename": "Kindle_K08gH8TvDi.png",
+      "creationTime": "2026-10-02T02:53:23.2534644+09:00"
+    },
+    {
+      "index": 94,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_wJLWuVbwKg.png",
+      "bytes": 1638752,
+      "sha256": "261e48c4ab5a8f016b0ada76de7619532420cafe433ad1805c0a5fe2cec12709",
+      "spreadPages": [
+        194,
+        195
+      ],
+      "selectedPages": [
+        194,
+        195
+      ],
+      "filename": "Kindle_wJLWuVbwKg.png",
+      "creationTime": "2026-10-02T02:53:23.9563780+09:00"
+    },
+    {
+      "index": 95,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_C0zdBJyvhn.png",
+      "bytes": 1494265,
+      "sha256": "f0923e0012268d93db29b9d4d5dcf29dfebe1927cb355e7963d1d67d1712e886",
+      "spreadPages": [
+        196,
+        197
+      ],
+      "selectedPages": [
+        196,
+        197
+      ],
+      "filename": "Kindle_C0zdBJyvhn.png",
+      "creationTime": "2026-10-02T02:53:24.7553783+09:00"
+    },
+    {
+      "index": 96,
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_vOJBpmPsin.png",
+      "bytes": 1495225,
+      "sha256": "4ac60a833a2285b50ac7dcbcc6c93cd1ba17085f48bbf42fc4e87e99fd7d6f72",
+      "spreadPages": [
+        198,
+        199
+      ],
+      "selectedPages": [
+        198
+      ],
+      "filename": "Kindle_vOJBpmPsin.png",
+      "creationTime": "2026-10-02T02:53:25.6011345+09:00"
+    }
+  ],
+  "page_checks": [
+    {
+      "page": 179,
+      "ruby_count": 6,
+      "bold_range_count": 19,
+      "source_styles": {
+        "data-source-color:white": 11,
+        "data-source-background:black": 5,
+        "data-source-background:red": 6,
+        "data-source-underline-color:red": 8,
+        "data-source-color:red": 3
+      },
+      "sidebar_included": false,
+      "sha256": "769b7832e5aec3dc3b0afe49cf2be32bf2250c8cdde0db9811641af3cb9fd965",
+      "visually_checked_regions": [
+        "回の扉",
+        "導入・本文全文",
+        "概観図の全4項目・ページ範囲・赤い矢印3本",
+        "吹き出し"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": false
+    },
+    {
+      "page": 180,
+      "ruby_count": 23,
+      "bold_range_count": 39,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-background:red": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 11
+      },
+      "sidebar_included": false,
+      "sha256": "355522105ee5c6415d28bf8a924040f4d89398995eeb0db6da51f64140d3d8a9",
+      "visually_checked_regions": [
+        "節見出し",
+        "小見出し2つ",
+        "本文全文",
+        "憲法と議会の吹き出し",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 181,
+      "ruby_count": 20,
+      "bold_range_count": 68,
+      "source_styles": {
+        "data-source-color:white": 9,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-background:brown": 1,
+        "data-source-color:brown": 2,
+        "data-source-color:red": 23,
+        "data-source-color:green": 7,
+        "data-source-background:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "74fe64f7a8e4f92052e7877b09509894b605b63dc6c42c951325ed9cdd6fa683",
+      "visually_checked_regions": [
+        "前ページからの本文",
+        "清朝の近代化の合否の分かれ目の全項目",
+        "小見出し",
+        "本文全文",
+        "ページ参照",
+        "次ページに続く大連の大",
+        "上部の節名",
+        "第2章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 182,
+      "ruby_count": 27,
+      "bold_range_count": 32,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-color:red": 12,
+        "data-source-italic:true": 1,
+        "data-source-marker:fill": 5,
+        "data-source-color:gray": 2,
+        "data-source-color:pink": 2,
+        "data-source-marker:arrow": 1,
+        "data-source-color:black": 1,
+        "data-source-background:red": 1,
+        "data-source-color:brown": 3,
+        "data-source-color:green": 3
+      },
+      "sidebar_included": false,
+      "sha256": "30e866cec07c3cf9d254355e1590ebf9afe10b4adac08a1b97edc3284c333967",
+      "visually_checked_regions": [
+        "前ページからの大連の連",
+        "本文全文",
+        "中国分割の地図の全地名・鉄道・凡例5項目",
+        "吹き出し",
+        "拡大図の案内と矢印",
+        "香港の拡大図の全3地名・年号",
+        "イギリス領香港の形成のクローズアップ全3項目",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 183,
+      "ruby_count": 16,
+      "bold_range_count": 53,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 26,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "412235a9573f0cffe598136db758d871f46366958353b3bd689c441a1ce094de",
+      "visually_checked_regions": [
+        "本文全文",
+        "列強の中国分割の表の全6か国・全セル",
+        "上部の節名",
+        "第2章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 184,
+      "ruby_count": 25,
+      "bold_range_count": 34,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-background:red": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 4
+      },
+      "sidebar_included": false,
+      "sha256": "2e177cab53d3a7c666297ef64ca7592c2aedfcc4f4e74dcfef19b9211b79483d",
+      "visually_checked_regions": [
+        "節見出し",
+        "小見出し2つ",
+        "本文全文",
+        "次ページに続く文末",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 185,
+      "ruby_count": 15,
+      "bold_range_count": 36,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 6,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "fea9ef28d36e3e6a82423b4d8dfde869aea35fde9e706ef4449e88d7e8813f02",
+      "visually_checked_regions": [
+        "前ページからの本文",
+        "本文全文",
+        "義和団戦争の吹き出し",
+        "小見出し",
+        "次ページに続く文末",
+        "上部の節名",
+        "第2章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 186,
+      "ruby_count": 24,
+      "bold_range_count": 50,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-background:red": 1,
+        "data-source-color:brown": 4,
+        "data-source-color:red": 20,
+        "data-source-color:green": 14
+      },
+      "sidebar_included": false,
+      "sha256": "c193b16ec0aa688012c7ae8e9207792dbf1d0ebfae69771a6ed00d79ccc24221",
+      "visually_checked_regions": [
+        "前ページからの本文",
+        "義和団戦争から日露戦争までのクローズアップの全項目・矢印",
+        "小見出し",
+        "本文全文",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 187,
+      "ruby_count": 11,
+      "bold_range_count": 17,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 4,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "9dd31b026336d651f3c96b227f1dd0246a4d9fad4d711fd7b06183c6af67c247",
+      "visually_checked_regions": [
+        "前ページからの本文",
+        "本文全文",
+        "ちょっと寄り耳のコラム全文・末尾の上向き矢印",
+        "東郷平八郎の引用全文",
+        "上部の節名",
+        "第2章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 188,
+      "ruby_count": 5,
+      "bold_range_count": 20,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-border:red": 3,
+        "data-source-marker:dashed-arrow": 1,
+        "data-source-color:black": 1,
+        "data-source-color:green": 1,
+        "data-source-color:red": 5
+      },
+      "sidebar_included": false,
+      "sha256": "8dcf9c5142188617a9b4bc2d13d376304fff39f5ff39cf24e3708cabec4d3876",
+      "visually_checked_regions": [
+        "日露戦争と韓国併合の地図の全地名・鉄道2本・戦場2か所・艦隊の進路の注記",
+        "吹き出し",
+        "小見出し",
+        "本文全文",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 189,
+      "ruby_count": 21,
+      "bold_range_count": 48,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 17,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "dbe24a6ae37bca3720cc96ecbaf2529f3e7afea2aaa2b38fe5070235393a0b25",
+      "visually_checked_regions": [
+        "前ページからの本文",
+        "小見出し2つ",
+        "本文全文",
+        "日露戦争のアジアへの影響の吹き出し",
+        "上部の節名",
+        "第2章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 190,
+      "ruby_count": 17,
+      "bold_range_count": 35,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-color:brown": 1,
+        "data-source-background:brown": 1,
+        "data-source-color:red": 4
+      },
+      "sidebar_included": false,
+      "sha256": "3756636cd43b879dd590811f23738ccbe38a93780b87f05a1f4f79bf8606157c",
+      "visually_checked_regions": [
+        "近現代日本へのアプローチ4の見出し・副題・本文全文",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 191,
+      "ruby_count": 10,
+      "bold_range_count": 47,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 7,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "aaa7b7367708bf6dab7bc85da7cd0c75b58616f186d2f62c7cf554e619c22aab",
+      "visually_checked_regions": [
+        "節見出し",
+        "小見出し2つ",
+        "本文全文",
+        "開化派と守旧派の吹き出し",
+        "次ページに続く文末",
+        "上部の節名",
+        "第2章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 192,
+      "ruby_count": 15,
+      "bold_range_count": 43,
+      "source_styles": {
+        "data-source-color:white": 3,
+        "data-source-background:black": 1,
+        "data-source-color:red": 13,
+        "data-source-color:green": 6,
+        "data-source-background:red": 1,
+        "data-source-background:brown": 1,
+        "data-source-color:brown": 2
+      },
+      "sidebar_included": false,
+      "sha256": "2223c101a26ab5d8ba888d079e90bdcd980442b395c18fe06063eeebc1eee1d0",
+      "visually_checked_regions": [
+        "前ページからの本文",
+        "本文全文",
+        "日韓協約の内容の表の全3行・全セル",
+        "朝鮮半島を支配した官庁の合否の分かれ目の全項目",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 193,
+      "ruby_count": 18,
+      "bold_range_count": 35,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:green": 1,
+        "data-source-color:red": 12,
+        "data-source-border:black": 3,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "f1582b2fd427ffc1c5305e7f4d480330206e5e24eee91c5993c8051e48f8735e",
+      "visually_checked_regions": [
+        "節見出し",
+        "小見出し",
+        "本文全文",
+        "清朝の近代化と改革派・革命派の変遷の図の全3欄・説明文・対立の矢印",
+        "吹き出し",
+        "上部の節名",
+        "第2章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 194,
+      "ruby_count": 24,
+      "bold_range_count": 31,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 5,
+        "data-source-color:green": 2
+      },
+      "sidebar_included": false,
+      "sha256": "8e0f9c15d6e6d79d0f61fe33fc63ba147fe84ef15f9a2fbcb781b27b63f2b898",
+      "visually_checked_regions": [
+        "前ページからの本文",
+        "小見出し2つ",
+        "本文全文",
+        "出身地別の革命団体の吹き出し",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 195,
+      "ruby_count": 14,
+      "bold_range_count": 75,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 32,
+        "data-source-color:brown": 5,
+        "data-source-color:green": 15,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "7e72e1d173eca5eabbba2ecde6b0c74ae1e0958e46194425df1051a02233d9bd",
+      "visually_checked_regions": [
+        "前ページからの本文",
+        "本文全文",
+        "辛亥革命までの流れのクローズアップの全項目・数字・矢印",
+        "上部の節名",
+        "第2章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 196,
+      "ruby_count": 16,
+      "bold_range_count": 16,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:green": 1,
+        "data-source-color:red": 5,
+        "data-source-border:red": 6
+      },
+      "sidebar_included": false,
+      "sha256": "779f3719e400eba688b45f6b2c105f7be41c091bd26a254a8f9075446d21a7d3",
+      "visually_checked_regions": [
+        "小見出し",
+        "本文全文",
+        "辛亥革命の地図の全地名・事件名・鉄道名・説明文",
+        "吹き出し",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 197,
+      "ruby_count": 12,
+      "bold_range_count": 49,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 13,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "b19819ed0f4ea7cf82677aa747b5e1a47516a227a121f8e85226d97c8449096f",
+      "visually_checked_regions": [
+        "小見出し2つ",
+        "本文全文",
+        "次ページに続く文末",
+        "上部の節名",
+        "第2章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 198,
+      "ruby_count": 45,
+      "bold_range_count": 60,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-color:red": 16,
+        "data-source-color:green": 2,
+        "data-source-background:red": 1,
+        "data-source-color:brown": 6,
+        "data-source-position:below": 1,
+        "data-source-color:black": 1
+      },
+      "sidebar_included": false,
+      "sha256": "45ae30e01b6d2145f0bb6de5099cb59fbe717b6b5b3b8060504a123deddb71bb",
+      "visually_checked_regions": [
+        "前ページからの本文",
+        "小見出し",
+        "本文全文",
+        "年号欄の全6項目・語呂・数字・読み仮名",
+        "次回の予告と末尾の感嘆符",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    }
+  ],
+  "preserved_existing_sources": [
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/01_ウィーン体制とその崩壊.md",
+      "bytes": 125641,
+      "sha256": "165ddb691e4973afe09973efed87ac688207227b196b29359b37b716976e6cad"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/02_イギリスの自由主義とフランス第二帝政.md",
+      "bytes": 73476,
+      "sha256": "146b4662b580b1e418a0372071d1cb058d328086d671f0af9918d192c08f7d95"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/03_アメリカ合衆国の発展.md",
+      "bytes": 83961,
+      "sha256": "72fca4fe17c9b56f4a384f31d1f88792332f5ae71ddde72902fd2d5483353741"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/04_イタリア・ドイツの統一.md",
+      "bytes": 103926,
+      "sha256": "5222e5c09e3975b68718e5e2046deb9788a09d032cee080b35d94ee0840b8fbd"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/05_ロシアと東方問題.md",
+      "bytes": 72669,
+      "sha256": "f061a5cc959ed1869062f43104dc31a5d221133a2c7a5c21675607723abd52d1"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/06_19世紀のヨーロッパ文化.md",
+      "bytes": 82057,
+      "sha256": "af46239545496b762e50752e37b8e0088e105bb2530e343282e0faff0338cf24"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/07_近代の西アジア.md",
+      "bytes": 70572,
+      "sha256": "c088d4763a1afc9d04d628565e3be75bd9ea4b905fe4357a8fdd45233268384e"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/08_近代のインド・東南アジア.md",
+      "bytes": 98667,
+      "sha256": "e7632b36c6e6aacbca0f061ed5609a393fb16bc945f9d77bcd0f2329033f7c8d"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/09_近代の東アジア①.md",
+      "bytes": 110806,
+      "sha256": "298ad2bac1aa8824ecac56a7816497b46efda2cc72de85bdf29c293c96004018"
+    },
+    {
+      "file": "sources/近代・現代/sekai_shi_tankyu_mokuji.md",
+      "bytes": 7892,
+      "sha256": "766d34236036053f9847d1128cc98151b8f359baf91503c173a62b8699f11c10"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/01_古代オリエント世界の成立.md",
+      "bytes": 31817,
+      "sha256": "f9024578a68f55bd9c978e6050b753e6668daf004b6b1f5c003b79293351c511"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/02_古代オリエント世界の統一.md",
+      "bytes": 44059,
+      "sha256": "21719e63443aff70618fe3dbc98e62a720724bfdaac0617890069916a628876d"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/03_古代インド.md",
+      "bytes": 62621,
+      "sha256": "ea929ebcb3bd84e693788cffacd07ca44e7d7971f9af136e73a9efc0270a2463"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/04_古代ギリシア世界の成立.md",
+      "bytes": 48262,
+      "sha256": "be16e648bfaab3c69e9173a7af17045d48f11ae01a5f51c1aaa520b97cdeeaa8"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/05_ポリス社会の崩壊とヘレニズム.md",
+      "bytes": 51840,
+      "sha256": "20c99a00c21be93f3587cae0e30e81a3fca5392a83c1ac7079d90c5ab2ac94ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/06_ローマ共和政.md",
+      "bytes": 46581,
+      "sha256": "ed45db4cea5eb6a895d56f5c7269080de5b182fbba3fe549bffa809160b46c07"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/07_ローマ帝国とキリスト教.md",
+      "bytes": 61612,
+      "sha256": "a885ff13c6979125822b3156d526d72fff1cadc30a3c2a85a6488ecf006e6178"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/08_古代中国①（中国文明〜秦）.md",
+      "bytes": 41532,
+      "sha256": "1ad91d67c3d7df94e6c20240a7afb3a714218cd41ebe4fd7ac5ac5922035c358"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/09_古代中国②（漢〜魏晋南北朝時代）.md",
+      "bytes": 50515,
+      "sha256": "9f798bbe2b4ce8a7bede47a6b433699951c413785f7760fd9dfc80f09174d45a"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/10_古代中国③（隋〜唐）.md",
+      "bytes": 62280,
+      "sha256": "3db1c6d9c12adcb8b06d2b7d087858c644b425824b66d1ddca6b2bf70126ebcb"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/11_ゲルマン人の移動とフランク王国.md",
+      "bytes": 46598,
+      "sha256": "ec3676c9f4862f62ef1d674ddcd4194a5e1a1fc6cbf2dffcdb5234cbc1523aec"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/12_封建社会の形成とカトリック教会の発展.md",
+      "bytes": 40801,
+      "sha256": "3890bafd22ffb7424c78bed641efea8a33510bb002f7fc03fd484b693f040dc8"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/13_ビザンツ帝国と中世の東欧.md",
+      "bytes": 40182,
+      "sha256": "f11fc57de9688ba60149815f419dd9a046fb3aec87095d34d7aa64acac99fc45"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/14_十字軍と封建社会の変容.md",
+      "bytes": 57077,
+      "sha256": "4b61d500da44985ee2038e894bdda94f8b07c26724c0f56b452d6a5f03369ac0"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/15_中世の西ヨーロッパ諸国.md",
+      "bytes": 44028,
+      "sha256": "96ec4b05542cc97e86e9075dcb66d849a4fc4d9f9ebf9683c127d04152b25df3"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/16_中華世界の変容（五代十国〜宋）.md",
+      "bytes": 422577,
+      "sha256": "c964833191e1b30a0e9a1891e3a1b48a690d70456d45712039d6771c5aad7ba9"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/17_モンゴル帝国の時代.md",
+      "bytes": 38140,
+      "sha256": "6d7d7728c89213c6195ec7d0c97deda789a47b87a3dd5f8462af4610e225e2ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/18_中華帝国の繁栄（明・清）.md",
+      "bytes": 70513,
+      "sha256": "7893c644440a9975278b1d74f851d3981521482d5679dfd2a00b1023db23aa08"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/19_東南アジア世界.md",
+      "bytes": 39685,
+      "sha256": "49d4bd12ef5c2b6c2fc8899057f39398100f6abedbf12f611f934396ce68604a"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/20_イスラーム世界の形成.md",
+      "bytes": 51846,
+      "sha256": "18bd3156f93c4ce96bc0911087a6a6963677888b45e08f2e5c76b534cd9de116"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/21_イスラーム専制帝国の繁栄.md",
+      "bytes": 51340,
+      "sha256": "db5cfc267ecb6fa1fe5f0d816d705a46a235b0d04f301dad39320e3d0da6e96b"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/22_ルネサンスと大航海時代.md",
+      "bytes": 50219,
+      "sha256": "09f70077edde0d572520c38428b70326db06284c5a6b114fb09e649df95928e6"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/23_宗教改革.md",
+      "bytes": 51001,
+      "sha256": "19022d9c8737d6168fd7031032ca610eb4fc1c83d824693dd08260dc22b669a5"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/24_近世のヨーロッパ①（スペイン・オランダ）.md",
+      "bytes": 38926,
+      "sha256": "c7eec2d9ded4ce34e96bfe55e32516d426c1ac8e1c5d9c740f34286df8771341"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/25_近世のヨーロッパ②（イギリス・フランス）.md",
+      "bytes": 56162,
+      "sha256": "f253084f54c6e39df1fee2d7e648a7b5be42ebe5d4eec27ff6847db16591811d"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/26_近世のヨーロッパ③（ドイツ・ロシア）.md",
+      "bytes": 61143,
+      "sha256": "b4a1238a4f5bc5cbf955b68706c4dd88d3e32b7dc50d1f4233ab356508540e2c"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/27_産業革命とアメリカ独立革命.md",
+      "bytes": 55751,
+      "sha256": "9f0b6c49716753f012caa205cd1174d7bb0778d56158507802cddc7c88cd3900"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/28_フランス革命.md",
+      "bytes": 45082,
+      "sha256": "e68ec2d8e00ebc5e958edd524bb822702408d5fadbb07f7913f8ef2485e217f7"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/29_ナポレオンの時代.md",
+      "bytes": 38983,
+      "sha256": "ff758ca021ea934556aa5284644ef7a79deb4d8df2f58bca7e0166603c020828"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/30_17〜18世紀のヨーロッパ文化.md",
+      "bytes": 30315,
+      "sha256": "d9fac3ba70c7211c292cb9669f361c7072fc09431fd2d70d1f1b17bb927e259d"
+    },
+    {
+      "file": "sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md",
+      "bytes": 8697,
+      "sha256": "4710c02be0c1de8628b3c78cbd746a60564f35ac9f228a25b96f218048637697"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-so-question-types.md",
+      "bytes": 50157,
+      "sha256": "0f20e1404f95f5b39cf60881593939a22e44338f0c419d39976d9be3cc6a0a93"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-source-md-csv-generation.md",
+      "bytes": 47688,
+      "sha256": "f6c7e28c8e1f512b12a698ce97167c65865060dbb7697a8c89d6cf3bb96f6160"
+    }
+  ],
+  "validation": {
+    "consecutive_pages": true,
+    "source_emphasis_tags_balanced": true,
+    "all_existing_source_hashes_unchanged": true,
+    "all_original_image_hashes_unchanged": true,
+    "user_changes_unchanged": true,
+    "source_and_images_git_ignored": true,
+    "web_lessons_added": false,
+    "regression_checks": [
+      {
+        "command": "npm run check:transcriptions",
+        "exit_code": 0,
+        "duration_seconds": 1.0400569000048563,
+        "log_sha256": "84c29ee36caab52ff0a54438884e8de2c8e0bd142f5a05aaad420249280da642"
+      },
+      {
+        "command": "npm run check",
+        "exit_code": 0,
+        "duration_seconds": 17.76793550000002,
+        "log_sha256": "52db9088945cf9c53825d5805927199dec3cd0998e81b2143fb4ec84b456fbe8"
+      },
+      {
+        "command": "npm run build",
+        "exit_code": 0,
+        "duration_seconds": 18.123259100000723,
+        "log_sha256": "6a3aad6c85fa25bce56807a7b4eb17aad8eabbb78cbaf85205fb689e8ff25be4"
+      }
+    ],
+    "integrity_checks": {
+      "new_source_unchanged": true,
+      "consecutive_pages": 20,
+      "protected_sources": 43,
+      "source_images": 11,
+      "boundary_image": 1,
+      "unique_original_images": 11,
+      "user_changes_unchanged": true,
+      "public_version_only_files": 139,
+      "previous_release_history_unchanged": true,
+      "published_catalog_unchanged_except_version": true,
+      "diff_check_exit_code": 0
+    },
+    "ruby_count": 364,
+    "bold_range_count": 807
+  }
+}
