@@ -1,0 +1,2516 @@
+{
+  "date": "2026-10-02",
+  "version": "0.107",
+  "volume": "近代・現代",
+  "chapter": 5,
+  "chapter_title": "戦後の世界",
+  "chapter_cover_included": false,
+  "chapter_cover_page": null,
+  "lesson": 24,
+  "lesson_title": "戦後のインド・東南アジア",
+  "lesson_cover_page": 436,
+  "source_file": "sources/近代・現代/05_戦後の世界/24_戦後のインド・東南アジア.md",
+  "source_sha256": "380760ad9acb574a100fbd7ad3b8dbdc9067babb3d403958f82631a622df86d6",
+  "source_bytes": 95967,
+  "pages": [
+    436,
+    437,
+    438,
+    439,
+    440,
+    441,
+    442,
+    443,
+    444,
+    445,
+    446,
+    447,
+    448,
+    449,
+    450,
+    451,
+    452,
+    453
+  ],
+  "page_count": 18,
+  "blank_pages": [],
+  "pages_with_printed_text": 18,
+  "section_start_pages": [
+    437,
+    441,
+    447
+  ],
+  "cover_printed_section_ranges": [
+    [
+      437,
+      440
+    ],
+    [
+      441,
+      447
+    ],
+    [
+      447,
+      453
+    ]
+  ],
+  "cover_printed_section_ranges_note": "第2節の終端447と第3節の始端447の重なりは原画像の印刷どおり保持する。",
+  "japanese_history_approach_page": null,
+  "next_chapter_cover_page": null,
+  "next_chapter_title": null,
+  "next_chapter_boundary_image": null,
+  "next_lesson_start_page": 454,
+  "next_lesson_title": "戦後の西アジア・アフリカ",
+  "next_lesson_start_page_evidence": "目次 sources/近代・現代/sekai_shi_tankyu_mokuji.md と454ページの原画像",
+  "next_lesson_boundary_image": {
+    "index": 224,
+    "filename": "Kindle_OqNPGsYEpI.png",
+    "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_OqNPGsYEpI.png",
+    "creationTime": "2026-10-02T02:55:48.727644+09:00",
+    "bytes": 1557616,
+    "sha256": "305ad1575df4fb7ccc6bf7a528c58cfc35ce1e176cc9e46730afd59ad81bf178",
+    "spreadPages": [
+      454,
+      455
+    ],
+    "selectedPages": []
+  },
+  "next_source_start_page": 454,
+  "boundary_page": 454,
+  "boundary_image_shared_with_source_page": null,
+  "image_count": 9,
+  "unique_original_image_count": 10,
+  "first_image_shared_with_previous_lesson_page": null,
+  "reader": "担当の原画像読み取り、Antigravity CLI経由のGemini 3.8 Flashによる独立した本文・読み仮名・装飾の確認、原画像による相違の照合",
+  "authorization": "第23回に続く利用者の続けてに従い、第24回を新規作成。",
+  "rules_document": "docs/source-transcription-rules.md",
+  "comparison_document": "docs/source-transcription-comparison.md",
+  "proofreading": "436〜453ページ全18ページの全体と各ページ上・中・下の拡大54画像、17ページの柱と奇数9ページの欄外目次、小字・数字・重なりを追加で拡大確認。部分拡大と追加の確認画像は69ファイル。本文・図・地図・吹き出し・年号・読み仮名・太字・色・線・背景を照合し、保存前の草稿だけを修正。",
+  "independently_compared_pages": [
+    436,
+    437,
+    438,
+    439,
+    440,
+    441,
+    442,
+    443,
+    444,
+    445,
+    446,
+    447,
+    448,
+    449,
+    450,
+    451,
+    452,
+    453
+  ],
+  "comparison_trials": [
+    {
+      "name": "text-a",
+      "purpose": "独立した本文読み取り",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        436,
+        437,
+        438,
+        439
+      ],
+      "duration_seconds": 101.70328060000611,
+      "started_at": "2026-10-02T13:03:08.167701+00:00",
+      "conversation_id": "73c4fec0-fe06-4560-b1e9-0ee90311de8c",
+      "num_turns": 1,
+      "request_sha256": "16e88979fdec888722b154a71dadd2c6afd84c5bfca868fdc61dfe290c386815",
+      "response_sha256": "6c27cccfab40441a7188aee1505e3619e00e058b0dfc49d55218324f633913a1",
+      "reported_uncertainties": {
+        "436": [],
+        "437": [],
+        "438": [],
+        "439": []
+      }
+    },
+    {
+      "name": "text-b",
+      "purpose": "独立した本文読み取り",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        440,
+        441,
+        442,
+        443
+      ],
+      "duration_seconds": 121.92647930000385,
+      "started_at": "2026-10-02T13:04:49.878058+00:00",
+      "conversation_id": "fafbc7fd-d212-41fd-b58a-9311a67c0475",
+      "num_turns": 1,
+      "request_sha256": "33b103a64aa1a3d9a74d205f1445ea96cb7d8b99111dd7cd55290ff2c1117302",
+      "response_sha256": "f225b295f9093de8c98258bc2f7b10672576d9c78817650f4f3c102ed6daafa3",
+      "reported_uncertainties": {
+        "440": [],
+        "441": [],
+        "442": [],
+        "443": []
+      }
+    },
+    {
+      "name": "text-c",
+      "purpose": "独立した本文読み取り",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        444,
+        445,
+        446,
+        447
+      ],
+      "duration_seconds": 90.44064970000181,
+      "started_at": "2026-10-02T13:06:51.812113+00:00",
+      "conversation_id": "cc34b7f5-a6ae-4df2-9d5d-ee9f5643ef8f",
+      "num_turns": 1,
+      "request_sha256": "d6c64d2198029d08758aa9fc96c8851eb002356957f1f12ce21278bde53c66ee",
+      "response_sha256": "59d626f70a2437803b9daad6bd0177650f771ff72556ab2bd0f4beb4060e1d66",
+      "reported_uncertainties": {
+        "444": [],
+        "445": [
+          "小見出し「反戦運動の拡大と財政難で、ついにアメリカ軍が撤退！」において、「で、」と「いに」の間の文字「つ」の上にマウスポインタの画像が重なっています（文脈および露出している字形から「つ」と判読）。"
+        ],
+        "446": [],
+        "447": [
+          "本文「第1回アジア・アフリカ会議では、」の「会」の左下部分にマウスポインタの画像が重なっています（文字の判読には支障ありません）。"
+        ]
+      }
+    },
+    {
+      "name": "text-d",
+      "purpose": "独立した本文読み取り",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        448,
+        449,
+        450,
+        451
+      ],
+      "duration_seconds": 109.12619120000454,
+      "started_at": "2026-10-02T13:08:22.263226+00:00",
+      "conversation_id": "ed2ff6e5-dd58-4919-8a7d-80b1c93fb586",
+      "num_turns": 1,
+      "request_sha256": "581a0ad92b82c6690b785c28b609c663b6dde76874b51190913f81d2088a373d",
+      "response_sha256": "afdaf3693ba0272827c0ac84f5d5ee0aed3a06dfe8142de21fc2dff893a90b17",
+      "reported_uncertainties": {
+        "448": [],
+        "449": [],
+        "450": [],
+        "451": []
+      }
+    },
+    {
+      "name": "text-e",
+      "purpose": "独立した本文読み取り",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        452,
+        453
+      ],
+      "duration_seconds": 65.61523250000027,
+      "started_at": "2026-10-02T13:10:11.398576+00:00",
+      "conversation_id": "b506cdd2-3efa-4a14-9ea3-a2e849bd1432",
+      "num_turns": 1,
+      "request_sha256": "9c8ced740c26a6c73b30d072e441a29874c89a1598a49629f700e4b73c7f68d0",
+      "response_sha256": "db9a6a33e004f0e6e9f767bc462c139d1c277a852dc03492ed2561c19e66ac86",
+      "reported_uncertainties": {
+        "452": [],
+        "453": []
+      }
+    },
+    {
+      "name": "format-a",
+      "purpose": "独立した読み仮名・装飾の読み取り",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        436,
+        437,
+        438,
+        439
+      ],
+      "duration_seconds": 153.20568050000293,
+      "started_at": "2026-10-02T13:21:41.155538+00:00",
+      "conversation_id": "69de6618-76c6-4620-95d5-82e7f116f593",
+      "num_turns": 1,
+      "request_sha256": "f3efc2a052bfcd071566995299dbb8a04205f692858fce4fd93d05ad1956460d",
+      "response_sha256": "a7911ddeaeeeb79c763453f116dd222e0786afbcb529b9e5340c90549330f0e3",
+      "reported_uncertainties": {
+        "436": [],
+        "437": [],
+        "438": [],
+        "439": []
+      }
+    },
+    {
+      "name": "format-b",
+      "purpose": "独立した読み仮名・装飾の読み取り",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        440,
+        441,
+        442,
+        443
+      ],
+      "duration_seconds": 144.7995544000005,
+      "started_at": "2026-10-02T13:24:14.371637+00:00",
+      "conversation_id": "7d646452-c631-41ef-ba68-434c2b2e77d4",
+      "num_turns": 1,
+      "request_sha256": "ab31abc3f75ecac7dc8ba834ff26119f917176ae645a1c1b5d5951ccccf87fc0",
+      "response_sha256": "cc779b755d42dd1bd5476eb013d777973154f16833cb4bade71b8d3c7f30b032",
+      "reported_uncertainties": {
+        "440": [],
+        "441": [
+          "本文1行目「ホー＝チ＝ミンはベトナム」の「ン」から「は」の文字上付近に、白い矢印マウスポインタの画像が意図せず重なって印刷されている"
+        ],
+        "442": [],
+        "443": [
+          "クローズアップ囲み内下部の角丸点線枠の下線中央左寄り（「サイゴン陥落」の左上付近）に、白い矢印マウスポインタの画像が意図せず重なって印刷されている"
+        ]
+      }
+    },
+    {
+      "name": "format-c",
+      "purpose": "独立した読み仮名・装飾の読み取り",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        444,
+        445,
+        446,
+        447
+      ],
+      "duration_seconds": 135.04928500000096,
+      "started_at": "2026-10-02T13:26:39.179881+00:00",
+      "conversation_id": "1ef2d8fa-2ca4-49d1-aa1c-52a3dde573be",
+      "num_turns": 1,
+      "request_sha256": "d9e2745fa5f89b01b8ca02bc8e6fe5184888b83276233241f38532c04c3ed95e",
+      "response_sha256": "9b0626251b8c41f7ea7f4f7ee150af0f28d559926b80be2c1c546b624fc327a6",
+      "reported_uncertainties": {
+        "444": [],
+        "445": [
+          "見出しの「反戦運動の拡大と財政難で、」と「いにアメリカ軍が撤退！」の境界部分にマウスポインタ（白い矢印カーソル）が重なっており、「つ」の文字が部分的に隠れている"
+        ],
+        "446": [],
+        "447": []
+      }
+    },
+    {
+      "name": "format-d",
+      "purpose": "独立した読み仮名・装飾の読み取り",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        448,
+        449,
+        450,
+        451
+      ],
+      "duration_seconds": 120.20857579998847,
+      "started_at": "2026-10-02T13:28:54.239948+00:00",
+      "conversation_id": "6c03593b-3f32-4684-941f-acca04425bad",
+      "num_turns": 1,
+      "request_sha256": "72286eadeb41825d6d79983b566b1afe5dc9e80c2f1a6ecc4d1a77da497590db",
+      "response_sha256": "88a48df82be8252bf874c2090b496bb438057694a600b9ea666e2d313d9f887d",
+      "reported_uncertainties": {
+        "448": [],
+        "449": [
+          "本文4行目「情勢」の「情」の左上に、画面キャプチャ時の白いマウスポインタ（矢印カーソル）が重なって写り込んでいます（印刷物本来の要素ではありません）。"
+        ],
+        "450": [],
+        "451": [
+          "本文中段落1の5行目「中国系」と「インド系」の間に、画面キャプチャ時の白いマウスポインタ（矢印カーソル）が重なって写り込んでいます（印刷物本来の要素ではありません）。"
+        ]
+      }
+    },
+    {
+      "name": "format-e",
+      "purpose": "独立した読み仮名・装飾の読み取り",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        452,
+        453
+      ],
+      "duration_seconds": 113.78157130000181,
+      "started_at": "2026-10-02T13:30:54.460432+00:00",
+      "conversation_id": "813d6ae0-1a26-48a3-9046-cc100c477fe2",
+      "num_turns": 1,
+      "request_sha256": "ccad36657293e432f67b839e9e96b6545472208ee9adb89451e1d5f8f2eef5e5",
+      "response_sha256": "618c8380d9084cbf82f2ea523c8a9305016e29ac8857a1c10cd30dfa732a00c3",
+      "reported_uncertainties": {
+        "452": [
+          "本文下部5行目の「九・三〇事件」において、「九」に対するルビ「く」が文字の上部ではなく、文字の右下に赤色の小さな添え字のように印刷されている。"
+        ],
+        "453": [
+          "年号欄3項目目「1955年」の語呂合わせ「（行くぞGOGO　バンドン会議）」において、赤数字「1」が「行」の上ではなく「く」の上に、赤数字「9」が黒字の「ぞ」の上に印刷されており、語呂本来の意図（行く＝19）に対して印刷位置が右に1文字分ずれている。",
+          "本文20行目末尾「包括的及び先進的な」において、ルビ「ほうかつ」は「包括」の2文字にかかっているが、行末の文字ピッチにより「包」から「括」の頭にかけて印刷されている。"
+        ]
+      }
+    }
+  ],
+  "unsuccessful_comparison_attempts": [],
+  "own_draft_corrections": [
+    {
+      "page": 436,
+      "before": "<白赤>戦後のインド・東南アジア</白赤>",
+      "after": "<白赤>**戦後の**インド・東南アジア</白赤>",
+      "reason": "拡大画像で表紙題名の「戦後の」のみ太字を確認"
+    },
+    {
+      "page": 437,
+      "before": "<ruby>総統<rt>そうとう</rt></ruby>",
+      "after": "<ruby>総督<rt>そうとく</rt></ruby>",
+      "reason": "拡大画像で「総督」と読み「そうとく」を確認"
+    },
+    {
+      "page": 437,
+      "before": "**融和を説き続けた**",
+      "after": "**<ruby>融和<rt>ゆうわ</rt></ruby>を説き続けた**",
+      "reason": "拡大画像で融和の読み仮名を確認"
+    },
+    {
+      "page": 437,
+      "before": "「王冠への忠誠」",
+      "after": "「<ruby>王冠<rt>おうかん</rt></ruby>への忠誠」",
+      "reason": "拡大画像で王冠の読み仮名を確認"
+    },
+    {
+      "page": 437,
+      "before": "**カーストによる身分差別**・**<ruby>不可触賤民<rt>ふかしょくせんみん</rt></ruby>も禁止**",
+      "after": "**カーストによる身分差別・<ruby>不可触民制<rt>ふかしょくみんせい</rt></ruby>も禁止**",
+      "reason": "拡大画像で不可触民制と読み仮名、中黒を含む連続した太字を確認"
+    },
+    {
+      "page": 438,
+      "before": "そうは言っても",
+      "after": "そうはいっても",
+      "reason": "本文はひらがなの「いって」と印刷"
+    },
+    {
+      "page": 438,
+      "before": "敵が一緒だと愛が生まれる",
+      "after": "敵が一緒だと愛が芽生える",
+      "reason": "本文の「芽生える」を拡大画像で確認"
+    },
+    {
+      "page": 438,
+      "before": "開催で第三世界が形成された！",
+      "after": "開催で、第三世界が形成された！",
+      "reason": "緑見出しの「で、」の読点を確認"
+    },
+    {
+      "page": 438,
+      "before": "**アジア・アフリカ会議の開催を決定**",
+      "after": "**アジア＝アフリカ会議の開催を決定**",
+      "reason": "コロンボ会議に続く太字は中黒でなく等号を印刷"
+    },
+    {
+      "page": 438,
+      "before": "<赤太>第1回アジア・アフリカ会議</赤太>",
+      "after": "<赤太>第1回アジア＝アフリカ会議</赤太>",
+      "reason": "赤字の正式名は等号を印刷"
+    },
+    {
+      "page": 438,
+      "before": "**人権と国家間の平等**",
+      "after": "**人種と国家間の平等**",
+      "reason": "拡大画像で「人種」を確認"
+    },
+    {
+      "page": 438,
+      "before": "<ruby>宗主<rt>そうしゅ</rt></ruby>国",
+      "after": "<ruby>宗主国<rt>そうしゅこく</rt></ruby>",
+      "reason": "宗主国の全三字に「そうしゅこく」の読み仮名を確認"
+    },
+    {
+      "page": 439,
+      "before": "49カ国の民間代表",
+      "after": "49カ国の**民間代表**",
+      "reason": "民間代表の太字を確認"
+    },
+    {
+      "page": 439,
+      "before": "アジア・アフリカに加えてラテンアメリカなど",
+      "after": "アジア・アフリカに加えて**ラテンアメリカ**など",
+      "reason": "ラテンアメリカの太字を確認"
+    },
+    {
+      "page": 439,
+      "before": "が中心になり、",
+      "after": "が中心となり、",
+      "reason": "本文の「中心となり」を確認"
+    },
+    {
+      "page": 439,
+      "before": "ベオグラード</赤太>で第1回",
+      "after": "ベオグラード</赤太>で**第1回**",
+      "reason": "第1回の黒い太字を確認"
+    },
+    {
+      "page": 439,
+      "before": "のカシミール<ruby>帰属",
+      "after": "の**カシミール**<ruby>帰属",
+      "reason": "下段本文のカシミールの太字を確認"
+    },
+    {
+      "page": 440,
+      "before": "**ラジヴ＝ガンディー**",
+      "after": "**ラジブ＝ガンディー**",
+      "reason": "画像の姓名表記はラジブ"
+    },
+    {
+      "page": 440,
+      "before": "**ラジヴも暗殺**",
+      "after": "**ラジブも暗殺**",
+      "reason": "画像の二度目の表記もラジブ"
+    },
+    {
+      "page": 440,
+      "before": "**バジパイ【ヴァージペーイ】**",
+      "after": "**バジパイ【**ヴァージペーイ**】**",
+      "reason": "別名の語句は通常字、バジパイと括弧は太字"
+    },
+    {
+      "page": 440,
+      "before": "| <二重線灰>╲</二重線灰>",
+      "after": "| <曲線灰>⌒</曲線灰> |  | <曲線黒>⌒</曲線黒> |\n| <二重線灰>╲</二重線灰>",
+      "reason": "ソ連側と中国側の曲線で囲む記号を追加"
+    },
+    {
+      "page": 440,
+      "before": "| <灰>━</灰> |",
+      "after": "| <二重線灰>═</二重線灰> |",
+      "reason": "インドとバングラデシュを結ぶ線は矢印でなく灰色の二重線"
+    },
+    {
+      "page": 440,
+      "before": "**ベナジル＝ブット**元首相が暗殺",
+      "after": "**ベナジル＝ブット** **元首相が暗殺**",
+      "reason": "元首相が暗殺の太字を確認"
+    },
+    {
+      "page": 441,
+      "before": "敗戦直後の八月革命で",
+      "after": "敗戦直後の**八月革命**で",
+      "reason": "本文の八月革命は黒太字"
+    },
+    {
+      "page": 442,
+      "before": "**ホー＝チ＝ミン**ら共産勢力",
+      "after": "**ホー＝チ＝ミンら共産勢力**",
+      "reason": "黒太字の範囲は「ら共産勢力」まで"
+    },
+    {
+      "page": 442,
+      "before": "<赤太>ベトナム国</赤太>を建てて、",
+      "after": "<赤太>ベトナム国</赤太>を建て、",
+      "reason": "本文に「建て、」と印刷"
+    },
+    {
+      "page": 442,
+      "before": "「資本主義 vs. 社会主義」",
+      "after": "「**資本主義 vs. 社会主義**」",
+      "reason": "資本主義と社会主義の対比全体が黒太字"
+    },
+    {
+      "page": 442,
+      "before": "<ruby>破綻<rt>はたん</rt></ruby>",
+      "after": "<ruby>破<rt>は</rt></ruby><ruby>綻<rt>たん</rt></ruby>",
+      "reason": "原画像の行替えに伴い破と綻の読みを分割"
+    },
+    {
+      "page": 442,
+      "before": "**フランスはベトナムからの撤退を決めた**。",
+      "after": "**フランスはベトナムからの撤退を決めた**んだ。",
+      "reason": "原文末尾「決めたんだ。」を確認"
+    },
+    {
+      "page": 442,
+      "before": "を<ruby>暫定<rt>ざんてい</rt></ruby>軍事境界線として",
+      "after": "を**<ruby>暫定<rt>ざんてい</rt></ruby>軍事境界線**として",
+      "reason": "暫定軍事境界線の黒太字を確認"
+    },
+    {
+      "page": 442,
+      "before": "**ANZUS加盟国と英仏、フィリピン、タイ、パキスタン**",
+      "after": "<ruby>ANZUS<rt>アンザス</rt></ruby> **加盟国と英仏、フィリピン、タイ、パキスタン**",
+      "reason": "ANZUSの読みと通常字、続く各国名の太字を確認"
+    },
+    {
+      "page": 442,
+      "before": "1955年には南部に、",
+      "after": "1955年には**南部**に、",
+      "reason": "南部の黒太字を確認"
+    },
+    {
+      "page": 443,
+      "before": "**ゴ＝ディン＝ジエム**暗殺",
+      "after": "**ゴ＝ディン＝ジエム暗殺**",
+      "reason": "クローズアップの太字は暗殺まで連続"
+    },
+    {
+      "page": 444,
+      "before": "**アメリカは本格的<ruby>介入",
+      "after": "**アメリカは本格的な<ruby>介入",
+      "reason": "拡大画像で「本格的な介入」のなを確認"
+    },
+    {
+      "page": 444,
+      "before": "| **ラオス** | ベトナム |",
+      "after": "| **ラオス** | **ベトナム** |",
+      "reason": "地図内のベトナムもラオス・カンボジアと同じ太字"
+    },
+    {
+      "page": 445,
+      "before": "作戦なんだもん……。",
+      "after": "作戦なんだもん……！。",
+      "reason": "表情の右に独立して印刷された感嘆符と句点を確認"
+    },
+    {
+      "page": 445,
+      "before": "<黒枠>**南ベトナム政府**</黒枠><br>",
+      "after": "<黒枠>**南ベトナム政府**</黒枠><黒>━</黒><br>",
+      "reason": "南ベトナム政府とアメリカをつなぐ黒い実線を追加"
+    },
+    {
+      "page": 445,
+      "before": "<茶>ホー＝チ＝ミン＝ルート</茶>",
+      "after": "<茶太>ホー＝チ＝ミン＝ルート</茶太>",
+      "reason": "図の経路名は茶色の太字"
+    },
+    {
+      "page": 446,
+      "before": "だってさぁ……",
+      "after": "たださぁ……",
+      "reason": "原文に「たださぁ」と印刷"
+    },
+    {
+      "page": 446,
+      "before": "「**ソ連・ベトナム vs. 中国・アメリカ**」",
+      "after": "「**ソ連・ベトナム** vs. **中国・アメリカ**」",
+      "reason": "対比のvs.は通常字、国の組合せのみ太字"
+    },
+    {
+      "page": 447,
+      "before": "建設を進めたベトナムは、",
+      "after": "建設を進めたベトナムでは、",
+      "reason": "原文の「ベトナムでは」を確認"
+    },
+    {
+      "page": 447,
+      "before": "**ベトナム版**の「改革・開放」政策",
+      "after": "**ベトナム版の「改革・開放」政策**",
+      "reason": "黒太字の範囲は政策まで連続"
+    },
+    {
+      "page": 448,
+      "before": "「容共（共産主義を容認）」",
+      "after": "「**容共**（共産主義を容認）」",
+      "reason": "容共のみ黒太字"
+    },
+    {
+      "page": 448,
+      "before": "<ruby>三〇事件<rt>さんじゅうじけん</rt></ruby>",
+      "after": "<ruby>三〇<rt>さんじゅう</rt></ruby>事件",
+      "reason": "三〇のみに読み仮名を印刷"
+    },
+    {
+      "page": 448,
+      "before": "積極的な経済発展を図った。",
+      "after": "積極的な経済発展を図ったよ。",
+      "reason": "原文末尾のよを確認"
+    },
+    {
+      "page": 448,
+      "before": "**東ティモールは正式に独立を達成**",
+      "after": "**東ティモールは正式に独立**を達成",
+      "reason": "最後の太字は独立まで、を達成は通常字"
+    },
+    {
+      "page": 449,
+      "before": "**中国に接近して農村を基盤とする極端な社会主義政策を進めた**",
+      "after": "**中国に接近して農村を基盤とする極端な社会主義政策**を進めた",
+      "reason": "太字は社会主義政策まで、を進めたは通常字"
+    },
+    {
+      "page": 450,
+      "before": "農村への強制移住や",
+      "after": "農村への**強制移住**や",
+      "reason": "冒頭の強制移住の太字を確認"
+    },
+    {
+      "page": 450,
+      "before": "国際社会への復帰と内戦からの復興も",
+      "after": "国際社会への復帰と内戦からの<ruby>復興<rt>ふっこう</rt></ruby>が",
+      "reason": "原文の「復興が」と読み仮名を確認"
+    },
+    {
+      "page": 450,
+      "before": "**ゴルバチョフ**は「新思考外交」",
+      "after": "**ゴルバチョフは「新思考外交」**",
+      "reason": "黒太字の範囲を新思考外交まで確認"
+    },
+    {
+      "page": 450,
+      "before": "| **ソ連** | 中ソ対立<灰>↔</灰> | **中国** |",
+      "after": "| **ソ連** | **中ソ対立**<灰>↔</灰> | **中国** |\n| <曲線赤>⌒</曲線赤> |  | <曲線桃>⌒</曲線桃> |",
+      "reason": "中ソ対立の太字と上側の赤・桃色の曲線を確認"
+    },
+    {
+      "page": 450,
+      "before": "<灰>↕</灰>中越戦争",
+      "after": "<灰>↕</灰>**中越戦争**",
+      "reason": "図の中越戦争の黒太字を確認"
+    },
+    {
+      "page": 451,
+      "before": "</赤太>が**暗殺**された",
+      "after": "</赤太>**が暗殺**された",
+      "reason": "原文の黒太字は「が暗殺」"
+    },
+    {
+      "page": 451,
+      "before": "しかし、1948年",
+      "after": "しかも、1948年",
+      "reason": "原文のしかもを確認"
+    },
+    {
+      "page": 451,
+      "before": "軍部クーデタでソ＝マウン",
+      "after": "軍部クーデタでソウ＝マウン",
+      "reason": "人物名はソウ＝マウン"
+    },
+    {
+      "page": 451,
+      "before": "そして、ソ＝マウンは",
+      "after": "そして、ソウ＝マウンは",
+      "reason": "二度目の人物名もソウ＝マウン"
+    },
+    {
+      "page": 451,
+      "before": "**【SLORC】**",
+      "after": "**【**SLORC**】**",
+      "reason": "括弧のみ太字、SLORCは通常字"
+    },
+    {
+      "page": 451,
+      "before": "再び**軍事クーデタが起きてしまった**",
+      "after": "**再び軍事クーデタが起きてしまった**",
+      "reason": "太字は再びから連続"
+    },
+    {
+      "page": 451,
+      "before": "**マハティール**政権",
+      "after": "**マハティール政権**",
+      "reason": "太字は政権まで連続"
+    },
+    {
+      "page": 451,
+      "before": "**ルック・イースト政策**",
+      "after": "**ルック＝イースト政策**",
+      "reason": "原文には等号を印刷"
+    },
+    {
+      "page": 452,
+      "before": "<ruby>戒厳<rt>かいげん</rt></ruby>令",
+      "after": "<ruby>戒厳令<rt>かいげんれい</rt></ruby>",
+      "reason": "戒厳令の全三字に読み仮名"
+    },
+    {
+      "page": 452,
+      "before": "こうした迷走から、",
+      "after": "こうした低迷から、",
+      "reason": "原文の低迷を確認"
+    },
+    {
+      "page": 452,
+      "before": "「反米・<ruby>容共<rt>ようきょう</rt></ruby>」",
+      "after": "「**反米・<ruby>容<rt>よう</rt></ruby><ruby>共<rt>きょう</rt></ruby>**」",
+      "reason": "語句全体の黒太字と行替えをまたぐ読み仮名を確認"
+    },
+    {
+      "page": 452,
+      "before": "「親米・反共」の<赤太>スハルト</赤太>政府",
+      "after": "「**親米・反共**」の<赤太>スハルト</赤太>政権",
+      "reason": "原文の政権と親米・反共の太字を確認"
+    },
+    {
+      "page": 452,
+      "before": "**アメリカがベトナムからの撤退**を",
+      "after": "**アメリカがベトナムからの撤退を**",
+      "reason": "太字は助詞をまで連続"
+    },
+    {
+      "page": 453,
+      "before": "1991年には中国・台湾",
+      "after": "1991年に中国・台湾",
+      "reason": "本文は1991年にと印刷"
+    },
+    {
+      "page": 453,
+      "before": "あと一歩だよ〜。",
+      "after": "あと一歩だよ。",
+      "reason": "末尾には波線を印刷していない"
+    },
+    {
+      "page": 453,
+      "before": "**ブルネイ、ベトナム、ミャンマー**（ビルマ）、",
+      "after": "**ブルネイ、ベトナム、ミャンマー（ビルマ）**、",
+      "reason": "ビルマの括弧も前の国名と同じ黒太字"
+    },
+    {
+      "page": 453,
+      "before": "<赤白>年号</赤白><白赤>のツボ</白赤>",
+      "after": "<赤白>**年号**</赤白><白赤>**のツボ**</白赤>",
+      "reason": "年号欄の題名は赤字・白字ともに太字"
+    },
+    {
+      "page": 437,
+      "before": "イギリス領インド帝国は、イギリスの<ruby>直轄地",
+      "after": "イギリス領インド帝国は、**イギリスの**<ruby>直轄地",
+      "reason": "拡大画像で「イギリスの」の黒太字範囲を確認"
+    },
+    {
+      "page": 441,
+      "before": "<緑>➡</緑>**フランスからの独立を宣言**",
+      "after": "<緑>➡</緑>フランスからの独立を宣言",
+      "reason": "拡大画像では独立宣言の説明は通常の黒文字で、直下の敗戦・撤退の黒太字とは区別される"
+    },
+    {
+      "page": 453,
+      "before": "<ruby>拘束<rt>こうそく</rt></ruby>力",
+      "after": "<ruby>拘束力<rt>こうそくりょく</rt></ruby>",
+      "reason": "拘束力の拡大画像で三文字全体に「こうそくりょく」のふりがなを確認"
+    }
+  ],
+  "comparison_resolution_notes": [
+    {
+      "page": 436,
+      "note": "回扉と3節の概観を収録。引き続いてと文末のいってみよう〜。を保持。第2節の範囲は紙面の441〜447ページのままとし、第3節の開始447と重なっても修正しない。題名の戦後ののみ白太字で、後半は白の通常文字。"
+    },
+    {
+      "page": 437,
+      "note": "地図のパキスタン・インド・バングラデシュ、1971独立、赤枠のカシミール帰属問題・中印国境紛争と戦闘印2つを保持。総督のそうとく、融和・王冠の読みを保持し、印刷のない首相の読みを補わない。本文の融和を解くは解くの字形を保持。"
+    },
+    {
+      "page": 438,
+      "note": "そうはいっても・芽生える・選挙はやってる・開催で・第三世界を保持。第1回アジア＝アフリカ会議と他の箇所のアジア・アフリカ会議の区切りを区別。不侵略のふしんりゃくを保持し、不可侵へ置き換えない。"
+    },
+    {
+      "page": 439,
+      "note": "民間代表・ラテンアメリカ・第1回の黒太字を保持。インディラ＝ガンディーは本文の黒太字。核保有国に関する吹き出し全文を残す。"
+    },
+    {
+      "page": 440,
+      "note": "本文のラジブ＝ガンディー・パンジャーブ・ヴァージペーイを保持。図の中ソ国境紛争は印刷のままで、知識から中印へ変更しない。3本の赤い双方向矢印、2本の灰色の二重線、黒の二重線、曲線と赤の破線矢印、3国の円枠を区別。"
+    },
+    {
+      "page": 441,
+      "note": "クローズアップの両陣営、名称・年・注記と国際関係を収録。フランスからの独立を宣言は通常文字。暫定軍事境界線の図の暫定にざんてい。八月革命の黒太字と冷戦・熱い戦争の吹き出しを保持。丸印・矢印を赤色に一括変更しない。"
+    },
+    {
+      "page": 442,
+      "note": "ベトナム国を建て・フランスはベトナムからの撤退を決めたんだを保持。ANZUSのアンザス、SEATOのシアトーを保持。南北統一選挙の1957年の原文の年を修正しない。大敗したの顔の外の感嘆符と句点を保持。"
+    },
+    {
+      "page": 443,
+      "note": "クローズアップの広義1960〜75・狭義1965〜73、名称・年・説明を保持。サイゴン陥落は黒太字で緑へ変えない。左右の列による順序の違いを本文の欠落と混同しない。"
+    },
+    {
+      "page": 444,
+      "note": "ベトナム戦争関連の地図の国名・都市、戦闘印2、北緯17°、戦い・事件の2年号、ホー＝チ＝ミン＝ルートと赤い破線の矢印5つを保持。本格的な介入のなを落とさず、異常事態の顔の外の感嘆符と句点を保持。"
+    },
+    {
+      "page": 445,
+      "note": "作戦なんだもん……の顔の外の感嘆符と句点を保持。図はベトナム共和国の大枠内に南ベトナム政府と解放民族戦線を置き、アメリカとの黒線、4本の赤い双方向矢印、茶のホー＝チ＝ミン＝ルートと灰色の二重線を区別。見出しのついには指示矢印の重なりを別記。"
+    },
+    {
+      "page": 446,
+      "note": "たださぁとソ連・ベトナム vs. 中国・アメリカの黒太字範囲を保持。中国軍くらい撃退できるの顔の絵から感嘆符を補わない。P.404〜405の白文字・緑背景の参照矢印を保持。"
+    },
+    {
+      "page": 447,
+      "note": "ベトナムではとベトナム版の「改革・開放」政策の太字範囲を保持。第3節の見出し、インドネシアの小見出し、NASAKOMとイスラーム同盟の括弧、スカルノとスハルトの方針の吹き出しを収録。"
+    },
+    {
+      "page": 448,
+      "note": "容共・図ったよ・東ティモールは正式に独立の太字範囲を保持。九・三〇の数字と読みを区別。併合の読みはへいごうで、へいこうを採用しない。国連東ティモール暫定統治機構の読みの対象を保持。"
+    },
+    {
+      "page": 449,
+      "note": "戦後の東南アジアの地図は全14名称と2つの凡例を収録。タイ・サバは黒で赤へ変更しない。シンガポールは桃色の点。民主カンプチアとシハヌーク【シアヌーク】を原文どおりに保持。"
+    },
+    {
+      "page": 450,
+      "note": "強制移住・復興が・ゴルバチョフは「新思考外交」を保持。図の3つの時代別説明と※数字は時代順を収録。対立の赤矢印、米中接近の黒破線、ソ越の赤二重線、中国とカンボジアの桃色の矢印、アメリカからの茶色の曲線矢印を区別。"
+    },
+    {
+      "page": 451,
+      "note": "しかも、1948年・ソウ＝マウン・再び軍事クーデタが起きてしまった・マハティール政権・ルック＝イーストを保持。SLORCは通常文字で括弧だけ黒太字。NIESの大文字Sとニーズの読みを保持。中国系やインド系のやは重なりの残存字形を別記。"
+    },
+    {
+      "page": 452,
+      "note": "戒厳令のかいげんれいを全3字に付ける。こうした低迷から・スハルト政権・撤退をを保持。九のくは原画像で上の読みを確認。反米・容共と親米・反共の黒太字、容と共に分かれた読みを保持。"
+    },
+    {
+      "page": 453,
+      "note": "1991年に中国の前へはを補わない。拘束力にこうそくりょくを全3字へ付け、包括のほうかつを保持。年号4項目は全桁赤字で括弧は黒。語呂の行1・く9、GO5・GO5などの対象を拡大で確認し、装飾回答の数字のずれ・ハート形枠の解釈を採用しない。次回予告のあと一歩だよ。へ波線を補わない。"
+    }
+  ],
+  "source_occlusion_notes": [
+    {
+      "page": 441,
+      "region": "ホー＝チ＝ミンはベトナム付近",
+      "treatment": "指示矢印がンからは付近に重なる。残る字形と同じ紙面の名称、前後を照合。印刷物にある図形と区別する。"
+    },
+    {
+      "page": 443,
+      "region": "クローズアップ下部の点線枠付近",
+      "treatment": "指示矢印は印刷文字ではないため文字を補わない。サイゴン陥落を含む下部の全テキストを別に確認。"
+    },
+    {
+      "page": 445,
+      "region": "ついにアメリカ軍が撤退のつ付近",
+      "treatment": "指示矢印に隠れる部分があり、残る字形と前後によりつと読む。全字形が直接見える根拠と同じ扱いにはしない。追加拡大で位置を記録。"
+    },
+    {
+      "page": 447,
+      "region": "第1回アジア・アフリカ会議の会付近",
+      "treatment": "指示矢印が会の左下に重なるが、残る字形と同じ名称を照合。"
+    },
+    {
+      "page": 449,
+      "region": "情勢の情付近",
+      "treatment": "指示矢印が情の左上に重なる。残る字形と前後で照合。"
+    },
+    {
+      "page": 451,
+      "region": "中国系やインド系のや付近",
+      "treatment": "指示矢印が一部を隠す。残る下部の字形と前後を拡大で照合し、やを保持。Gemini本文回答の中点を採用しない。全字形が直接見える箇所とは区別。"
+    }
+  ],
+  "gemini_uncertainty_adjudications": [
+    {
+      "trial": "text-c",
+      "page": 445,
+      "verdict": "つの重なりは実在。残る字形と前後に基づくついにの判読として保持。"
+    },
+    {
+      "trial": "text-c",
+      "page": 447,
+      "verdict": "会の重なりは実在。文字の残る部分を原画像で確認。"
+    },
+    {
+      "trial": "format-b",
+      "page": 441,
+      "verdict": "ンからは付近の重なりは実在。指示矢印を印刷文字として保存しない。"
+    },
+    {
+      "trial": "format-b",
+      "page": 443,
+      "verdict": "点線枠付近の指示矢印は実在。下部の文字の確認と区別。"
+    },
+    {
+      "trial": "format-c",
+      "page": 445,
+      "verdict": "つ付近の重なりは実在。追加拡大でついにを保持。"
+    },
+    {
+      "trial": "format-d",
+      "page": 449,
+      "verdict": "情付近の重なりは実在。残る字形と前後により情勢を保持。"
+    },
+    {
+      "trial": "format-d",
+      "page": 451,
+      "verdict": "中国系とインド系の間の重なりは実在。残る字形からやを保持。"
+    },
+    {
+      "trial": "format-e",
+      "page": 452,
+      "verdict": "九のくが右下という報告は不採用。原画像の追加拡大では九の上にくを確認。"
+    },
+    {
+      "trial": "format-e",
+      "page": 453,
+      "verdict": "1955の1と9がくとぞへずれるという報告は不採用。数字の追加拡大で行に1、くに9、GOの各組に5を確認。"
+    },
+    {
+      "trial": "format-e",
+      "page": 453,
+      "verdict": "包括の読みは包括の二文字にほうかつを付ける。読みが包から括にかかることを保持し、対象を別の語へ移さない。"
+    }
+  ],
+  "graphics": {
+    "geographic_map_pages": [
+      437,
+      444,
+      449
+    ],
+    "geographic_map_count": 3,
+    "relationship_diagram_pages": [
+      440,
+      445,
+      450
+    ],
+    "relationship_diagram_count": 3,
+    "close_up_pages": [
+      441,
+      443
+    ],
+    "outline": {
+      "page": 436,
+      "items": 3,
+      "layout": "3節の番号・題名・印刷範囲を表で保持。第2節と第3節の範囲の重なりを修正しない。"
+    },
+    "year_mnemonic": {
+      "page": 453,
+      "items": 4,
+      "years": [
+        1946,
+        1954,
+        1955,
+        1965
+      ]
+    },
+    "sidebar_pages": [
+      437,
+      439,
+      441,
+      443,
+      445,
+      447,
+      449,
+      451,
+      453
+    ],
+    "map_relation_notes": [
+      {
+        "page": 437,
+        "note": "地図のパキスタン・インド・バングラデシュ、1971独立、赤枠のカシミール帰属問題・中印国境紛争と戦闘印2つを保持。総督のそうとく、融和・王冠の読みを保持し、印刷のない首相の読みを補わない。本文の融和を解くは解くの字形を保持。"
+      },
+      {
+        "page": 444,
+        "note": "ベトナム戦争関連の地図の国名・都市、戦闘印2、北緯17°、戦い・事件の2年号、ホー＝チ＝ミン＝ルートと赤い破線の矢印5つを保持。本格的な介入のなを落とさず、異常事態の顔の外の感嘆符と句点を保持。"
+      },
+      {
+        "page": 449,
+        "names": [
+          "ビルマ（ミャンマー）",
+          "ラオス",
+          "ベトナム",
+          "タイ",
+          "カンボジア",
+          "フィリピン",
+          "ブルネイ＝ダルサラーム",
+          "サバ",
+          "サラワク",
+          "マレーシア",
+          "シンガポール",
+          "カリマンタン（ボルネオ）島",
+          "インドネシア",
+          "東ティモール"
+        ],
+        "legends": [
+          "ASEANの原加盟国",
+          "あとからASEANに加盟した国"
+        ],
+        "note": "戦後の東南アジアの地図は全14名称と2つの凡例を収録。タイ・サバは黒で赤へ変更しない。シンガポールは桃色の点。民主カンプチアとシハヌーク【シアヌーク】を原文どおりに保持。"
+      }
+    ],
+    "diagram_relation_notes": [
+      {
+        "page": 440,
+        "note": "本文のラジブ＝ガンディー・パンジャーブ・ヴァージペーイを保持。図の中ソ国境紛争は印刷のままで、知識から中印へ変更しない。3本の赤い双方向矢印、2本の灰色の二重線、黒の二重線、曲線と赤の破線矢印、3国の円枠を区別。"
+      },
+      {
+        "page": 445,
+        "note": "作戦なんだもん……の顔の外の感嘆符と句点を保持。図はベトナム共和国の大枠内に南ベトナム政府と解放民族戦線を置き、アメリカとの黒線、4本の赤い双方向矢印、茶のホー＝チ＝ミン＝ルートと灰色の二重線を区別。見出しのついには指示矢印の重なりを別記。"
+      },
+      {
+        "page": 450,
+        "note": "強制移住・復興が・ゴルバチョフは「新思考外交」を保持。図の3つの時代別説明と※数字は時代順を収録。ベトナムからカンボジアへの赤い片方向の矢印、米中接近の黒破線、ソ越の赤二重線、中国とカンボジアの桃色の矢印、アメリカからの茶色の曲線矢印を区別。"
+      }
+    ],
+    "decorative_graphics_note": "人物・顔・模様を文字として補わない。顔の外の独立した感嘆符・句読点は保持する。表と文字記号による線の形・地理配置は近似表示で、正確な位置と接続は原画像を参照する。"
+  },
+  "ruby_details": [
+    {
+      "page": 437,
+      "ruby_target": "総督",
+      "ruby_text": "そうとく"
+    },
+    {
+      "page": 438,
+      "ruby_target": "不侵略",
+      "ruby_text": "ふしんりゃく",
+      "note": "不可侵のふかしんへ変更しない"
+    },
+    {
+      "page": 441,
+      "ruby_target": "暫定",
+      "ruby_text": "ざんてい"
+    },
+    {
+      "page": 442,
+      "ruby_target": "SEATO",
+      "ruby_text": "シアトー",
+      "note": "語尾の長音を落とさない"
+    },
+    {
+      "page": 448,
+      "ruby_target": "併合",
+      "ruby_text": "へいごう",
+      "note": "ごの濁点を保持"
+    },
+    {
+      "page": 451,
+      "ruby_target": "NIES",
+      "ruby_text": "ニーズ",
+      "note": "大文字Sを保持"
+    },
+    {
+      "page": 452,
+      "ruby_target": "戒厳令",
+      "ruby_text": "かいげんれい",
+      "note": "全3字を対象とする"
+    },
+    {
+      "page": 452,
+      "ruby_target": "九・三〇",
+      "ruby_text": "く・さんじゅう",
+      "note": "数字の各範囲ごとに保存。九の上のくを保持。"
+    },
+    {
+      "page": 453,
+      "ruby_target": "拘束力",
+      "ruby_text": "こうそくりょく",
+      "note": "全3字を対象とする"
+    },
+    {
+      "page": 453,
+      "ruby_target": "包括",
+      "ruby_text": "ほうかつ"
+    },
+    {
+      "page": 453,
+      "ruby_target": "行・く・よ・無",
+      "ruby_text": "1・9・4・6"
+    },
+    {
+      "page": 453,
+      "ruby_target": "届・く・いつ・し",
+      "ruby_text": "1・9・5・4",
+      "note": "いつの2文字に5"
+    },
+    {
+      "page": 453,
+      "ruby_target": "行・く・GO・GO",
+      "ruby_text": "1・9・5・5",
+      "note": "ぞは黒字、GOの各2文字に5。1と9を右へ移さない。"
+    },
+    {
+      "page": 453,
+      "ruby_target": "ひど・く・む・ご",
+      "ruby_text": "1・9・6・5",
+      "note": "ひどの2文字に1。いには数字を補わない。"
+    }
+  ],
+  "independent_draft_snapshot_sha256": "be845f335882236b177064dae9af87ed575307831a7d4898923326c50bc05d2b",
+  "initial_text_comparison_sha256": "5dcf2b455296354e27c546bd79c4d110570ad090183a54581b797dc45c18d3c8",
+  "final_text_comparison_sha256": "d97860feb86159c6fcfd47fea10c01c3db8c1b018b1308ad8119f793b2820382",
+  "own_draft_completed_before_reading_comparison_text": true,
+  "proof_image_checks": [
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p436-bottom.png",
+      "bytes": 1087491,
+      "sha256": "010939bb4ce10198a26c75fc2ee296dfae12f8a4a5404e7b47edd2972059f929",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p436-middle.png",
+      "bytes": 1031744,
+      "sha256": "140a295926ea198eb37f392db643dfe11327083570d2783a3234068352abbfaf",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p436-top.png",
+      "bytes": 968529,
+      "sha256": "5758d7f1ed64fb9f2a472d90697ec7eb396e6b3562f67df0fc5703a3c917ccb5",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p437-bottom.png",
+      "bytes": 1514910,
+      "sha256": "862ba4c7d77dfa7459e9084716aca20e860c0a71c0c0dd8c8822c5ed63aaecbb",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p437-middle.png",
+      "bytes": 1572847,
+      "sha256": "fe9cb054886948d82d7b27f9d583bd08ba5d4f53a7f3ba2825e6a00d4699e16d",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p437-ruby.png",
+      "bytes": 1678891,
+      "sha256": "badcdf21442858cc9aabf19d9b5d13e013710e08297ee039d9b862848c3c693f",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p437-top.png",
+      "bytes": 1307047,
+      "sha256": "39d46885a4c1f4a4444ae70d9c463dc71865e841dbd8af2a6af619d4940bda09",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p438-bottom.png",
+      "bytes": 1582981,
+      "sha256": "8071f790c3edc0e8f6ffaa7e8454d11e2ce0715ef4383a83757ced8ec096da72",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p438-five-principles.png",
+      "bytes": 1233802,
+      "sha256": "769ca3891345ef5ccbb4d4ce16b2ced99bb3fed0aefffb2e3dec0bc8e50215c9",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p438-middle.png",
+      "bytes": 1543067,
+      "sha256": "7203d5c58d68a27ed3445908d3e6be4db176655185743142f422dd9da6213a25",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p438-top.png",
+      "bytes": 1422305,
+      "sha256": "b1c8960df15e7cc038d0a8bd5657661a52a5a63bd518dfb8bac22545d16f51c2",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p439-bottom.png",
+      "bytes": 1458522,
+      "sha256": "49078332050f532dcef465f7529a64866f6329a26238c4e56dd5ca6cfd0dd3e4",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p439-middle.png",
+      "bytes": 1530858,
+      "sha256": "67976616c778422ff20ab7c834628d7249d21fa7921652f061c6314382b858e1",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p439-top.png",
+      "bytes": 1444091,
+      "sha256": "ccb93d30d287d77eed66765909b0b15935565ca1360bb847a6ff0ba56ed79514",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p440-bottom.png",
+      "bytes": 1488658,
+      "sha256": "442d3108fbc4f3b266d8d8b854e56bd345f9f49d0597e12af5c292a10c6d53f4",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p440-middle.png",
+      "bytes": 1555653,
+      "sha256": "c038848a68f8f04010de927bb2ce0d8598481b171bb22bd35af3bfc7de2f31b8",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p440-top.png",
+      "bytes": 1181723,
+      "sha256": "6011e7fb44dfe55f54f9d837b7a88e01fc4b638684995f7a54d07f966a368f50",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p441-bottom.png",
+      "bytes": 1541561,
+      "sha256": "a308a20e25f3d77643c6bd771103d3fe0c125eb70332be72ca457823e2fdea96",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p441-geneva.png",
+      "bytes": 1435408,
+      "sha256": "828b501feff7dc9883dfb86a322d5817ac45f18801b5a8c76d8980fcbfa39c96",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p441-middle.png",
+      "bytes": 1170035,
+      "sha256": "eec7759093c78a39c0c90cdd37b76dcfc0cb24bc1e273e400faa5975d1738958",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p441-top.png",
+      "bytes": 1000225,
+      "sha256": "a60b4eb264ece57569cdd4a4f06c435b3ec49eac137862a502568246be39f0e6",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p442-bottom.png",
+      "bytes": 1565293,
+      "sha256": "fc2fcdda0ccdeaa82ca9d20e64e6baffc6af2d18a4959eae3e7114ce4ae6aacd",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p442-middle.png",
+      "bytes": 1659623,
+      "sha256": "f8713b191ddd99a19ae276c0fd53404bc3e3d735c33e0602a913bdb3d47c0df4",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p442-seato.png",
+      "bytes": 1445543,
+      "sha256": "4acb9c87eef7a32bc0856d52ce266b3ee0091d1562bd190a97e547bc70b79953",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p442-top.png",
+      "bytes": 1454001,
+      "sha256": "f9d628210c68ee9e8842b837675a36b12b838313c1106952d761bbe5127747aa",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p443-bottom.png",
+      "bytes": 1353439,
+      "sha256": "221f3d5a73c382487d91fbeb8e735e72b8db324603c1a396104beebe61a9377f",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p443-middle.png",
+      "bytes": 1080177,
+      "sha256": "fd28e1fd622a78fb79f550ec77c55018ea0bf1cb34c0e21d5b59a869add67183",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p443-top.png",
+      "bytes": 1073489,
+      "sha256": "6925009a3da083fcef45b44356e7694f74e16c6c8c6da153fd4a828e4b60b91c",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p444-bottom.png",
+      "bytes": 1494783,
+      "sha256": "612c3dd02461390ec70aa1767fdd3ba866730cebaa731555e4c450eace068a4b",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p444-middle.png",
+      "bytes": 769973,
+      "sha256": "9985784fe9e8605a3047068e32046afa1d008d2ba7331cf137bc55f18d36c801",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p444-top.png",
+      "bytes": 1067275,
+      "sha256": "ce52aeea9badc3196dfb2e3275d065f365949fd042e5c028285a22c76bc6b8dd",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p445-bottom.png",
+      "bytes": 1386782,
+      "sha256": "06b988a84add1464a0d6728cddd2cdd82dfb408281d7c9d4d0e7f94de2729c48",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p445-heading.png",
+      "bytes": 320400,
+      "sha256": "51707be03e4fce61884c08bab56989ffdd99792f0eadcc90fb7b6272b20385ac",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p445-middle.png",
+      "bytes": 810698,
+      "sha256": "d93b612868ef8dc20600fb51289d38e8178a4f565381b0e27e99b26bbf2a230e",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p445-top.png",
+      "bytes": 1379641,
+      "sha256": "5a1424be82d81980530c008a4dec5853480f2a5202ffbf05583e61d7dc594fc3",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p446-bottom.png",
+      "bytes": 876534,
+      "sha256": "be2e7e918c02e5fd33836d6fca69b4974dc67a42d1d6fbdce3528634415e1c77",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p446-middle.png",
+      "bytes": 1456246,
+      "sha256": "544eaec9c8785fa37f67b77c8fc086784a2517365ee64f64a9afb2de3bac5cfb",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p446-top.png",
+      "bytes": 1335361,
+      "sha256": "4a95e2d91c7608118bae84d16fe799e72239d298993c73787f62d413d7cd0f02",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p447-bottom.png",
+      "bytes": 1516555,
+      "sha256": "a635d9b51f8f85dcf0ab79a5b93ac131e8bae9965fbe5469cd63e0328854ff42",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p447-middle.png",
+      "bytes": 1430730,
+      "sha256": "3fd14b65cca272a6db849eb8fc8e56646c354b7f0dd914c6c86872608f70a42e",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p447-top.png",
+      "bytes": 1447186,
+      "sha256": "328e8786ba0d3a95b040ef24cd36d2469ca1c07f6c17bf4337f8c0d676d57f52",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p448-annexation.png",
+      "bytes": 1901850,
+      "sha256": "c2871168fa0566fa0040b276fb1096097fe97be854025cd80940d97b4f1be424",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p448-bottom.png",
+      "bytes": 1450087,
+      "sha256": "b48972a49d1046ace2359185eedff5d595e73b52ccd9ec41c6b61ac2c0eafb82",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p448-middle.png",
+      "bytes": 1641919,
+      "sha256": "f19c80d9922d8e54a961b53b4eb4a7f9348da5f93016e4f7bb630b92d86f1e09",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p448-top.png",
+      "bytes": 1311824,
+      "sha256": "ec143e3bb89d1352d7c37368361a595dc24bc6842bf95cc22c07e540cd1ab05b",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p449-bottom.png",
+      "bytes": 1546758,
+      "sha256": "00a85faa3b455a021b227fd9742678758605a60beb9735c575ee9ac1456ea193",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p449-middle.png",
+      "bytes": 1366357,
+      "sha256": "0f4beeef4e6d27f06a28174fdbd16bc3c24c70b5ab786180208b15f1c1afe328",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p449-top.png",
+      "bytes": 796279,
+      "sha256": "b8c268b49cc314cf6adad45744ac3b3ec4bbe859d897c7cf03086796509353dd",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p450-bottom.png",
+      "bytes": 1599840,
+      "sha256": "da321a05cabead48cae262def7ebf79c2c5dd9dbe997126b32b05cb70653fb9d",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p450-middle.png",
+      "bytes": 1028403,
+      "sha256": "a91e8a50bcab935cc01b45e1a2baac3189fae3b3a6a39ce2e3c30bf428eccdbf",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p450-top.png",
+      "bytes": 1159527,
+      "sha256": "ce5790e82294c51e811865e25a71947822327e75677dbbf62b441dd25b16aac5",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p451-bottom.png",
+      "bytes": 1433964,
+      "sha256": "622836a8f9b254d4e9cca123a8914c6268b7b5c0b2c75f49508f0ee1dd3944ec",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p451-cursor-detail.png",
+      "bytes": 839977,
+      "sha256": "1e660d126ae51ebb2bb10c77d470865621a5e2a1f01ed30c7f9866c407e2c0db",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p451-cursor.png",
+      "bytes": 1744992,
+      "sha256": "aeb809e6ba235ddd527377516d7a20a9907051fe3bff9ae8f524ef345bbfb6df",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p451-middle.png",
+      "bytes": 1579872,
+      "sha256": "cb6051de99d6f6fe3bae96cd09adfd8cdd61ca4cb144403c227fb70afd15f097",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p451-top.png",
+      "bytes": 1329632,
+      "sha256": "57c0bfdb7f93978fad71982ae80c53addc5f39c7bd65fd1c823fa6ca0e05ab01",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p452-bottom.png",
+      "bytes": 1491390,
+      "sha256": "c6f1329ff567831e1febd3ea6779362a96ddfa3f76b8e35a329c6d1c6cfd3dfd",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p452-cursor-reading.png",
+      "bytes": 1529032,
+      "sha256": "edfb603232aa2185de0c6056c92fc7a16c8f48096318e209b410a1c0fcbc2838",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p452-middle.png",
+      "bytes": 1552325,
+      "sha256": "eb4ee107cc4917ecf6d0aa989bf3ed39ec34320ca023aef3fac62159a64b6530",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p452-top.png",
+      "bytes": 1384436,
+      "sha256": "a818e2a30b02277554181f9406ae3a362b63273935e90040f816358898d35f5e",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p453-binding-ruby-detail.png",
+      "bytes": 847213,
+      "sha256": "4abc7a159b90495cb69086de29bb35027bf4691f210fd8c55777910caf81cde2",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p453-binding-ruby.png",
+      "bytes": 817429,
+      "sha256": "46edbc808cc09f5f15ae18f928402cd773914408c789a435478567ce79352622",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p453-bottom.png",
+      "bytes": 1302189,
+      "sha256": "6b672ba1c469d9568c6b8a20805d30feab20cdb3d1d9e57bce6cad66c45e6077",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p453-middle.png",
+      "bytes": 1657498,
+      "sha256": "ce06e13229f5eb057b2416bf7080ae43c3b504df27ff70aaa6444854574545c7",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p453-top.png",
+      "bytes": 1394290,
+      "sha256": "0ed9f48a01bd2f2d9e714387443bb6fc206bf26419901a1b149246fffa2bd407",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\p453-year-digits.png",
+      "bytes": 1154912,
+      "sha256": "db5e2b7c5c7dd344b04fa4140a3a27b505fdd08d17fcaefb2e4f8192f35239d1",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\printed-headers-1.png",
+      "bytes": 276964,
+      "sha256": "4ad24a07b1c43881c0456fb73d2c58a00effcad502bc1c828dea203461942b35",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\printed-headers-2.png",
+      "bytes": 214048,
+      "sha256": "8083e64ab821b0d39139c2c92b5417b9514f02b7064a482374af8d6ea0ccc7f6",
+      "visually_checked": true
+    },
+    {
+      "file": "C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-l24-06c163215a4e4b5cb915493865a0386a\\proof\\sidebars.png",
+      "bytes": 664436,
+      "sha256": "c3ee3d3189785ad69fe8251510918a6317cdf8288262c5d979bb1dc5b6b7a246",
+      "visually_checked": true
+    }
+  ],
+  "source_images": [
+    {
+      "index": 215,
+      "filename": "Kindle_jN6UU1lq6J.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_jN6UU1lq6J.png",
+      "creationTime": "2026-10-02T02:55:34.596215+09:00",
+      "bytes": 1622525,
+      "sha256": "bea60ec180d31b4da25ca625cfcd2e81e9019cddcadec3e92f24a4e570aa17c4",
+      "spreadPages": [
+        436,
+        437
+      ],
+      "selectedPages": [
+        436,
+        437
+      ]
+    },
+    {
+      "index": 216,
+      "filename": "Kindle_C48nuUMYKh.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_C48nuUMYKh.png",
+      "creationTime": "2026-10-02T02:55:36.098215+09:00",
+      "bytes": 1638645,
+      "sha256": "9b281e0216d1077689da89685aa3a0edf353506572cf0d2614168c909c590011",
+      "spreadPages": [
+        438,
+        439
+      ],
+      "selectedPages": [
+        438,
+        439
+      ]
+    },
+    {
+      "index": 217,
+      "filename": "Kindle_laSX5l2eE0.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_laSX5l2eE0.png",
+      "creationTime": "2026-10-02T02:55:37.624219+09:00",
+      "bytes": 1467510,
+      "sha256": "0a08fac989df60f4906da90833d8dd7058134386eb2af81b3933a2bb426adf15",
+      "spreadPages": [
+        440,
+        441
+      ],
+      "selectedPages": [
+        440,
+        441
+      ]
+    },
+    {
+      "index": 218,
+      "filename": "Kindle_XcR5m3dcJf.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_XcR5m3dcJf.png",
+      "creationTime": "2026-10-02T02:55:39.187220+09:00",
+      "bytes": 1527945,
+      "sha256": "44d66ce352b26269542d8502b6f121af6947c4c25c3822fa358ccd1e7e4bb4cb",
+      "spreadPages": [
+        442,
+        443
+      ],
+      "selectedPages": [
+        442,
+        443
+      ]
+    },
+    {
+      "index": 219,
+      "filename": "Kindle_LhGTmYtN2m.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_LhGTmYtN2m.png",
+      "creationTime": "2026-10-02T02:55:40.759216+09:00",
+      "bytes": 1341906,
+      "sha256": "d4ead5859444552903673d393a227dd0a3d917e68c2e040489a22ed1379e9e16",
+      "spreadPages": [
+        444,
+        445
+      ],
+      "selectedPages": [
+        444,
+        445
+      ]
+    },
+    {
+      "index": 220,
+      "filename": "Kindle_P602rrnu7I.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_P602rrnu7I.png",
+      "creationTime": "2026-10-02T02:55:42.294214+09:00",
+      "bytes": 1469593,
+      "sha256": "80c7107993086e0dd46935e0b229ed2cbf489de0880b3779619f20b8d3bf5b85",
+      "spreadPages": [
+        446,
+        447
+      ],
+      "selectedPages": [
+        446,
+        447
+      ]
+    },
+    {
+      "index": 221,
+      "filename": "Kindle_2XSRPmHvnm.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_2XSRPmHvnm.png",
+      "creationTime": "2026-10-02T02:55:43.920042+09:00",
+      "bytes": 1499813,
+      "sha256": "8220cba5e3338ccfee248d46916e153ce22477131eaed7cbf1040c3d76f2a0c8",
+      "spreadPages": [
+        448,
+        449
+      ],
+      "selectedPages": [
+        448,
+        449
+      ]
+    },
+    {
+      "index": 222,
+      "filename": "Kindle_gUtVRSEzTw.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_gUtVRSEzTw.png",
+      "creationTime": "2026-10-02T02:55:45.512291+09:00",
+      "bytes": 1496855,
+      "sha256": "da3508d3c35ce46950523670c8be6b0e7245ecd506eabab547f3c6ba129fe980",
+      "spreadPages": [
+        450,
+        451
+      ],
+      "selectedPages": [
+        450,
+        451
+      ]
+    },
+    {
+      "index": 223,
+      "filename": "Kindle_ZuTuTy6aFn.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_ZuTuTy6aFn.png",
+      "creationTime": "2026-10-02T02:55:47.103582+09:00",
+      "bytes": 1594584,
+      "sha256": "6fa73d93e12a01dbdd5b46ee79bef6fa9fce7c6ab348f513c5faa46179422bc4",
+      "spreadPages": [
+        452,
+        453
+      ],
+      "selectedPages": [
+        452,
+        453
+      ]
+    }
+  ],
+  "page_checks": [
+    {
+      "page": 436,
+      "ruby_count": 0,
+      "bold_range_count": 5,
+      "source_styles": {
+        "data-source-color:white": 9,
+        "data-source-background:black": 4,
+        "data-source-background:red": 5,
+        "data-source-underline-color:red": 5
+      },
+      "sidebar_included": false,
+      "sha256": "02006d38d78e46800e202cb3b7660b0ed5e2521976a90881cb5caca18f0a5eb8",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "回扉と3節の概観を収録。引き続いてと文末のいってみよう〜。を保持。第2節の範囲は紙面の441〜447ページのままとし、第3節の開始447と重なっても修正しない。題名の戦後ののみ白太字で、後半は白の通常文字。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": false
+    },
+    {
+      "page": 437,
+      "ruby_count": 12,
+      "bold_range_count": 43,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-background:pink": 1,
+        "data-source-border:red": 3,
+        "data-source-color:green": 2,
+        "data-source-color:red": 14,
+        "data-source-marker:battle": 2,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "2de51f3fe4c7b3d217fe33e885e0fa367f547e766053215fdf1529bda77a12fa",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "地図のパキスタン・インド・バングラデシュ、1971独立、赤枠のカシミール帰属問題・中印国境紛争と戦闘印2つを保持。総督のそうとく、融和・王冠の読みを保持し、印刷のない首相の読みを補わない。本文の融和を解くは解くの字形を保持。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 438,
+      "ruby_count": 11,
+      "bold_range_count": 38,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 15,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "8f756f3c72e3fc6485eb722974ec4d008ec70d28c63d7f6786db97a1b1405856",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "そうはいっても・芽生える・選挙はやってる・開催で・第三世界を保持。第1回アジア＝アフリカ会議と他の箇所のアジア・アフリカ会議の区切りを区別。不侵略のふしんりゃくを保持し、不可侵へ置き換えない。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 439,
+      "ruby_count": 6,
+      "bold_range_count": 36,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 6,
+        "data-source-color:green": 2,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "f9358c5df3c5c871b45080ba31334c24a63542dc870bec6814a6b4c3cb776d58",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "民間代表・ラテンアメリカ・第1回の黒太字を保持。インディラ＝ガンディーは本文の黒太字。核保有国に関する吹き出し全文を残す。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 440,
+      "ruby_count": 3,
+      "bold_range_count": 35,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 11,
+        "data-source-color:gray": 3,
+        "data-source-marker:curved-line": 2,
+        "data-source-color:black": 2,
+        "data-source-marker:double-line": 3,
+        "data-source-border:black": 1,
+        "data-source-border-shape:circle": 3,
+        "data-source-border:gray": 2,
+        "data-source-marker:curved-arrow": 1,
+        "data-source-line-style:dashed": 1,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "e8a57e72c97f18e56a0ddd0f77c1e60f174c9f74c819e801135409f1bea6215a",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "本文のラジブ＝ガンディー・パンジャーブ・ヴァージペーイを保持。図の中ソ国境紛争は印刷のままで、知識から中印へ変更しない。3本の赤い双方向矢印、2本の灰色の二重線、黒の二重線、曲線と赤の破線矢印、3国の円枠を区別。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 441,
+      "ruby_count": 6,
+      "bold_range_count": 34,
+      "source_styles": {
+        "data-source-color:white": 8,
+        "data-source-background:red": 4,
+        "data-source-underline-color:red": 1,
+        "data-source-background:pink": 2,
+        "data-source-border:red": 1,
+        "data-source-color:black": 1,
+        "data-source-color:green": 9,
+        "data-source-color:red": 16,
+        "data-source-color:gray": 13,
+        "data-source-border:black": 8,
+        "data-source-background:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "54184700f9e6277a2554142417b1279f9e8704c173c4ae2793beaf1a492e5598",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "クローズアップの両陣営、名称・年・注記と国際関係を収録。フランスからの独立を宣言は通常文字。暫定軍事境界線の図の暫定にざんてい。八月革命の黒太字と冷戦・熱い戦争の吹き出しを保持。丸印・矢印を赤色に一括変更しない。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 442,
+      "ruby_count": 12,
+      "bold_range_count": 43,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 13,
+        "data-source-color:green": 2
+      },
+      "sidebar_included": false,
+      "sha256": "f5e72263ccbc0f9ff30381fb624b4f6a8f77612edf570f34ed7f768170a13032",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "ベトナム国を建て・フランスはベトナムからの撤退を決めたんだを保持。ANZUSのアンザス、SEATOのシアトーを保持。南北統一選挙の1957年の原文の年を修正しない。大敗したの顔の外の感嘆符と句点を保持。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 443,
+      "ruby_count": 3,
+      "bold_range_count": 40,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:black": 1,
+        "data-source-background:pink": 1,
+        "data-source-color:green": 14,
+        "data-source-color:red": 14,
+        "data-source-color:gray": 9,
+        "data-source-border:black": 2,
+        "data-source-background:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "7007738dc325f055ac6657c1efd35c787bc7d3e2fc645ffbdefbb94f8e5b5423",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "クローズアップの広義1960〜75・狭義1965〜73、名称・年・説明を保持。サイゴン陥落は黒太字で緑へ変えない。左右の列による順序の違いを本文の欠落と混同しない。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 444,
+      "ruby_count": 5,
+      "bold_range_count": 26,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 8,
+        "data-source-color:green": 3,
+        "data-source-marker:point": 2,
+        "data-source-outline-color:black": 2,
+        "data-source-color:brown": 1,
+        "data-source-border:red": 3,
+        "data-source-marker:battle": 2,
+        "data-source-marker:curved-arrow": 1,
+        "data-source-line-style:dashed": 1
+      },
+      "sidebar_included": false,
+      "sha256": "bdb9ebe082983013354d464ea77b07bda339f72f1a48249643b1efc1b6afbe26",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "ベトナム戦争関連の地図の国名・都市、戦闘印2、北緯17°、戦い・事件の2年号、ホー＝チ＝ミン＝ルートと赤い破線の矢印5つを保持。本格的な介入のなを落とさず、異常事態の顔の外の感嘆符と句点を保持。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 445,
+      "ruby_count": 6,
+      "bold_range_count": 32,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-border:brown": 3,
+        "data-source-border-width:thick": 5,
+        "data-source-color:brown": 3,
+        "data-source-color:gray": 5,
+        "data-source-border:pink": 1,
+        "data-source-color:pink": 1,
+        "data-source-color:red": 8,
+        "data-source-border:black": 3,
+        "data-source-border-style:solid": 3,
+        "data-source-color:black": 1,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "a76943aec09387fc6fbc7865c22fc1729c8d980298f165d824f7a328a597c90c",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "作戦なんだもん……の顔の外の感嘆符と句点を保持。図はベトナム共和国の大枠内に南ベトナム政府と解放民族戦線を置き、アメリカとの黒線、4本の赤い双方向矢印、茶のホー＝チ＝ミン＝ルートと灰色の二重線を区別。見出しのついには指示矢印の重なりを別記。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 446,
+      "ruby_count": 5,
+      "bold_range_count": 37,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-color:red": 6,
+        "data-source-background:green": 1,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "186f596d118f71161b9550d20601a157a0458e26f78c5b0e17b81fa28ae600f3",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "たださぁとソ連・ベトナム vs. 中国・アメリカの黒太字範囲を保持。中国軍くらい撃退できるの顔の絵から感嘆符を補わない。P.404〜405の白文字・緑背景の参照矢印を保持。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 447,
+      "ruby_count": 8,
+      "bold_range_count": 45,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 12,
+        "data-source-background:pink": 1,
+        "data-source-border:red": 1,
+        "data-source-color:brown": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "22b7cbcb3c4ac7fa530f60d904ded48d69661c0ebef618a72b7da99f5274f46e",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "ベトナムではとベトナム版の「改革・開放」政策の太字範囲を保持。第3節の見出し、インドネシアの小見出し、NASAKOMとイスラーム同盟の括弧、スカルノとスハルトの方針の吹き出しを収録。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 448,
+      "ruby_count": 13,
+      "bold_range_count": 36,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 5
+      },
+      "sidebar_included": false,
+      "sha256": "e32e5d0f2edac7450f00df2b2f83624ffe666fdb8943e64114c172dec44f28c1",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "容共・図ったよ・東ティモールは正式に独立の太字範囲を保持。九・三〇の数字と読みを区別。併合の読みはへいごうで、へいこうを採用しない。国連東ティモール暫定統治機構の読みの対象を保持。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 449,
+      "ruby_count": 2,
+      "bold_range_count": 25,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:pink": 2,
+        "data-source-marker:point": 1,
+        "data-source-outline-color:black": 3,
+        "data-source-marker:area": 2,
+        "data-source-color:gray": 5,
+        "data-source-color:brown": 1,
+        "data-source-color:green": 1,
+        "data-source-color:red": 2,
+        "data-source-background:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "a43bc02d392a95c9375e2053a605bc85b8dc04379e7785821df5f23f2d40b55c",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "戦後の東南アジアの地図は全14名称と2つの凡例を収録。タイ・サバは黒で赤へ変更しない。シンガポールは桃色の点。民主カンプチアとシハヌーク【シアヌーク】を原文どおりに保持。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 450,
+      "ruby_count": 7,
+      "bold_range_count": 43,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 4,
+        "data-source-color:gray": 2,
+        "data-source-marker:curved-line": 2,
+        "data-source-color:pink": 2,
+        "data-source-marker:double-line": 1,
+        "data-source-color:black": 1,
+        "data-source-line-style:dashed": 1,
+        "data-source-border:black": 1,
+        "data-source-border-shape:circle": 3,
+        "data-source-border:red": 2,
+        "data-source-color:brown": 1,
+        "data-source-border:brown": 2,
+        "data-source-border-style:solid": 2,
+        "data-source-border:pink": 1,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "02cf807d9baee8a49d32d89d2806e20ba3fe24522c17393ed26f0324512ceeb5",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "強制移住・復興が・ゴルバチョフは「新思考外交」を保持。図の3つの時代別説明と※数字は時代順を収録。対立の赤矢印、米中接近の黒破線、ソ越の赤二重線、中国とカンボジアの桃色の矢印、アメリカからの茶色の曲線矢印を区別。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 451,
+      "ruby_count": 5,
+      "bold_range_count": 51,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:brown": 3,
+        "data-source-color:green": 3,
+        "data-source-color:red": 8,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "8a678042ff2efa6d7c6c1ba07db1c4b808d165c6715028474966b62bf99b49bf",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "しかも、1948年・ソウ＝マウン・再び軍事クーデタが起きてしまった・マハティール政権・ルック＝イーストを保持。SLORCは通常文字で括弧だけ黒太字。NIESの大文字Sとニーズの読みを保持。中国系やインド系のやは重なりの残存字形を別記。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 452,
+      "ruby_count": 14,
+      "bold_range_count": 33,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 6,
+        "data-source-color:brown": 1,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "ba09a1e1eee5c5b91152e79dd956f766832fac950bb4445b66c0b886231470c5",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "戒厳令のかいげんれいを全3字に付ける。こうした低迷から・スハルト政権・撤退をを保持。九のくは原画像で上の読みを確認。反米・容共と親米・反共の黒太字、容と共に分かれた読みを保持。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 453,
+      "ruby_count": 22,
+      "bold_range_count": 45,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 17,
+        "data-source-color:green": 1,
+        "data-source-background:white": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "792706dc1236e5ff0c93ad40f4b79aa537407cd0de5fb388ff0fe2e75743cc8e",
+      "visually_checked_regions": [
+        "全体と上・中・下の部分拡大",
+        "1991年に中国の前へはを補わない。拘束力にこうそくりょくを全3字へ付け、包括のほうかつを保持。年号4項目は全桁赤字で括弧は黒。語呂の行1・く9、GO5・GO5などの対象を拡大で確認し、装飾回答の数字のずれ・ハート形枠の解釈を採用しない。次回予告のあと一歩だよ。へ波線を補わない。",
+        "印刷の柱・欄外目次は対応するページで拡大確認"
+      ],
+      "independent_text_comparison": true,
+      "independent_emphasis_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    }
+  ],
+  "preserved_existing_sources": [
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/01_古代オリエント世界の成立.md",
+      "bytes": 31817,
+      "sha256": "f9024578a68f55bd9c978e6050b753e6668daf004b6b1f5c003b79293351c511"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/02_古代オリエント世界の統一.md",
+      "bytes": 44059,
+      "sha256": "21719e63443aff70618fe3dbc98e62a720724bfdaac0617890069916a628876d"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/03_古代インド.md",
+      "bytes": 62621,
+      "sha256": "ea929ebcb3bd84e693788cffacd07ca44e7d7971f9af136e73a9efc0270a2463"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/04_古代ギリシア世界の成立.md",
+      "bytes": 48262,
+      "sha256": "be16e648bfaab3c69e9173a7af17045d48f11ae01a5f51c1aaa520b97cdeeaa8"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/05_ポリス社会の崩壊とヘレニズム.md",
+      "bytes": 51840,
+      "sha256": "20c99a00c21be93f3587cae0e30e81a3fca5392a83c1ac7079d90c5ab2ac94ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/06_ローマ共和政.md",
+      "bytes": 46581,
+      "sha256": "ed45db4cea5eb6a895d56f5c7269080de5b182fbba3fe549bffa809160b46c07"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/07_ローマ帝国とキリスト教.md",
+      "bytes": 61612,
+      "sha256": "a885ff13c6979125822b3156d526d72fff1cadc30a3c2a85a6488ecf006e6178"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/08_古代中国①（中国文明〜秦）.md",
+      "bytes": 41532,
+      "sha256": "1ad91d67c3d7df94e6c20240a7afb3a714218cd41ebe4fd7ac5ac5922035c358"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/09_古代中国②（漢〜魏晋南北朝時代）.md",
+      "bytes": 50515,
+      "sha256": "9f798bbe2b4ce8a7bede47a6b433699951c413785f7760fd9dfc80f09174d45a"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/10_古代中国③（隋〜唐）.md",
+      "bytes": 62280,
+      "sha256": "3db1c6d9c12adcb8b06d2b7d087858c644b425824b66d1ddca6b2bf70126ebcb"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/11_ゲルマン人の移動とフランク王国.md",
+      "bytes": 46598,
+      "sha256": "ec3676c9f4862f62ef1d674ddcd4194a5e1a1fc6cbf2dffcdb5234cbc1523aec"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/12_封建社会の形成とカトリック教会の発展.md",
+      "bytes": 40801,
+      "sha256": "3890bafd22ffb7424c78bed641efea8a33510bb002f7fc03fd484b693f040dc8"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/13_ビザンツ帝国と中世の東欧.md",
+      "bytes": 40182,
+      "sha256": "f11fc57de9688ba60149815f419dd9a046fb3aec87095d34d7aa64acac99fc45"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/14_十字軍と封建社会の変容.md",
+      "bytes": 57077,
+      "sha256": "4b61d500da44985ee2038e894bdda94f8b07c26724c0f56b452d6a5f03369ac0"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/15_中世の西ヨーロッパ諸国.md",
+      "bytes": 44028,
+      "sha256": "96ec4b05542cc97e86e9075dcb66d849a4fc4d9f9ebf9683c127d04152b25df3"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/16_中華世界の変容（五代十国〜宋）.md",
+      "bytes": 422577,
+      "sha256": "c964833191e1b30a0e9a1891e3a1b48a690d70456d45712039d6771c5aad7ba9"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/17_モンゴル帝国の時代.md",
+      "bytes": 38140,
+      "sha256": "6d7d7728c89213c6195ec7d0c97deda789a47b87a3dd5f8462af4610e225e2ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/18_中華帝国の繁栄（明・清）.md",
+      "bytes": 70513,
+      "sha256": "7893c644440a9975278b1d74f851d3981521482d5679dfd2a00b1023db23aa08"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/19_東南アジア世界.md",
+      "bytes": 39685,
+      "sha256": "49d4bd12ef5c2b6c2fc8899057f39398100f6abedbf12f611f934396ce68604a"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/20_イスラーム世界の形成.md",
+      "bytes": 51846,
+      "sha256": "18bd3156f93c4ce96bc0911087a6a6963677888b45e08f2e5c76b534cd9de116"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/21_イスラーム専制帝国の繁栄.md",
+      "bytes": 51340,
+      "sha256": "db5cfc267ecb6fa1fe5f0d816d705a46a235b0d04f301dad39320e3d0da6e96b"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/22_ルネサンスと大航海時代.md",
+      "bytes": 50219,
+      "sha256": "09f70077edde0d572520c38428b70326db06284c5a6b114fb09e649df95928e6"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/23_宗教改革.md",
+      "bytes": 51001,
+      "sha256": "19022d9c8737d6168fd7031032ca610eb4fc1c83d824693dd08260dc22b669a5"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/24_近世のヨーロッパ①（スペイン・オランダ）.md",
+      "bytes": 38926,
+      "sha256": "c7eec2d9ded4ce34e96bfe55e32516d426c1ac8e1c5d9c740f34286df8771341"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/25_近世のヨーロッパ②（イギリス・フランス）.md",
+      "bytes": 56162,
+      "sha256": "f253084f54c6e39df1fee2d7e648a7b5be42ebe5d4eec27ff6847db16591811d"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/26_近世のヨーロッパ③（ドイツ・ロシア）.md",
+      "bytes": 61143,
+      "sha256": "b4a1238a4f5bc5cbf955b68706c4dd88d3e32b7dc50d1f4233ab356508540e2c"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/27_産業革命とアメリカ独立革命.md",
+      "bytes": 55751,
+      "sha256": "9f0b6c49716753f012caa205cd1174d7bb0778d56158507802cddc7c88cd3900"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/28_フランス革命.md",
+      "bytes": 45082,
+      "sha256": "e68ec2d8e00ebc5e958edd524bb822702408d5fadbb07f7913f8ef2485e217f7"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/29_ナポレオンの時代.md",
+      "bytes": 38983,
+      "sha256": "ff758ca021ea934556aa5284644ef7a79deb4d8df2f58bca7e0166603c020828"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/30_17〜18世紀のヨーロッパ文化.md",
+      "bytes": 30315,
+      "sha256": "d9fac3ba70c7211c292cb9669f361c7072fc09431fd2d70d1f1b17bb927e259d"
+    },
+    {
+      "file": "sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md",
+      "bytes": 8697,
+      "sha256": "4710c02be0c1de8628b3c78cbd746a60564f35ac9f228a25b96f218048637697"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-so-question-types.md",
+      "bytes": 50157,
+      "sha256": "0f20e1404f95f5b39cf60881593939a22e44338f0c419d39976d9be3cc6a0a93"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-source-md-csv-generation.md",
+      "bytes": 47688,
+      "sha256": "f6c7e28c8e1f512b12a698ce97167c65865060dbb7697a8c89d6cf3bb96f6160"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/01_ウィーン体制とその崩壊.md",
+      "bytes": 125641,
+      "sha256": "165ddb691e4973afe09973efed87ac688207227b196b29359b37b716976e6cad"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/02_イギリスの自由主義とフランス第二帝政.md",
+      "bytes": 73476,
+      "sha256": "146b4662b580b1e418a0372071d1cb058d328086d671f0af9918d192c08f7d95"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/03_アメリカ合衆国の発展.md",
+      "bytes": 83961,
+      "sha256": "72fca4fe17c9b56f4a384f31d1f88792332f5ae71ddde72902fd2d5483353741"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/04_イタリア・ドイツの統一.md",
+      "bytes": 103926,
+      "sha256": "5222e5c09e3975b68718e5e2046deb9788a09d032cee080b35d94ee0840b8fbd"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/05_ロシアと東方問題.md",
+      "bytes": 72669,
+      "sha256": "f061a5cc959ed1869062f43104dc31a5d221133a2c7a5c21675607723abd52d1"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/06_19世紀のヨーロッパ文化.md",
+      "bytes": 82057,
+      "sha256": "af46239545496b762e50752e37b8e0088e105bb2530e343282e0faff0338cf24"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/07_近代の西アジア.md",
+      "bytes": 70572,
+      "sha256": "c088d4763a1afc9d04d628565e3be75bd9ea4b905fe4357a8fdd45233268384e"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/08_近代のインド・東南アジア.md",
+      "bytes": 98667,
+      "sha256": "e7632b36c6e6aacbca0f061ed5609a393fb16bc945f9d77bcd0f2329033f7c8d"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/09_近代の東アジア①.md",
+      "bytes": 110806,
+      "sha256": "298ad2bac1aa8824ecac56a7816497b46efda2cc72de85bdf29c293c96004018"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/10_近代の東アジア②.md",
+      "bytes": 112823,
+      "sha256": "4caf2efbb5c8255cf49d39c16da69db58ba4e447e222ed0bfc2224cfd5725d9f"
+    },
+    {
+      "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/11_帝国主義とアフリカ分割.md",
+      "bytes": 76533,
+      "sha256": "46274fb1eae774d30ce9d96d54c12a29e68200018eac6e68266811f5876f3f11"
+    },
+    {
+      "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/12_帝国主義時代の欧米諸国.md",
+      "bytes": 111971,
+      "sha256": "a081d0bbc3fd393b9f054213bf554bcc72ea6b2cf6f06263f72ca23589999215"
+    },
+    {
+      "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/13_第一次世界大戦とロシア革命.md",
+      "bytes": 123405,
+      "sha256": "2b7b296d9009370b4b3e728f910c668bff8a0fb82883de7c39e4b70e93b8b752"
+    },
+    {
+      "file": "sources/近代・現代/04_戦間期と第二次世界大戦/14_ヴェルサイユ体制とワシントン体制.md",
+      "bytes": 85437,
+      "sha256": "8d397d44e81b32b763d55534b612851c3fff91c30d7008ed4883567853bc17c2"
+    },
+    {
+      "file": "sources/近代・現代/04_戦間期と第二次世界大戦/15_戦間期の欧米諸国_世界恐慌以前.md",
+      "bytes": 96665,
+      "sha256": "a41691ce04c38fceb2e201e84821e8040ca88ac5442ff65bbc7b8a2a51fc52b8"
+    },
+    {
+      "file": "sources/近代・現代/04_戦間期と第二次世界大戦/16_戦間期の西アジア・南アジア・東南アジア.md",
+      "bytes": 90835,
+      "sha256": "d977f9ae1418f2c95aaa0c0c9f940bca434ad3acd6750e26503d53b88af1c3b6"
+    },
+    {
+      "file": "sources/近代・現代/04_戦間期と第二次世界大戦/17_戦間期の東アジア.md",
+      "bytes": 97735,
+      "sha256": "d5252e52f065e7536e9b252994f3fb299df39b1db8ceef306ba80b61a8434d6a"
+    },
+    {
+      "file": "sources/近代・現代/04_戦間期と第二次世界大戦/18_世界恐慌とその影響.md",
+      "bytes": 95223,
+      "sha256": "e033d17359d98c85e493d2788cb99edfbd5fd1e3a81db8545f18209c78178039"
+    },
+    {
+      "file": "sources/近代・現代/04_戦間期と第二次世界大戦/19_第二次世界大戦.md",
+      "bytes": 109306,
+      "sha256": "9de6907328392572718fccc9afd7da98cb1e7a881472dd4f34a99166d00c4e39"
+    },
+    {
+      "file": "sources/近代・現代/05_戦後の世界/20_冷戦の展開①（1945〜1955）.md",
+      "bytes": 108515,
+      "sha256": "10d88b3376071f5fb9859f8f563683900977b4b8c02f6d50428419283d90ee26"
+    },
+    {
+      "file": "sources/近代・現代/05_戦後の世界/21_冷戦の展開②（1956〜1969）.md",
+      "bytes": 99059,
+      "sha256": "119c28cea82ecea1f819921d5a45010d7fc4e9bb1f0f3cdfb71fd4e95cce8c34"
+    },
+    {
+      "file": "sources/近代・現代/05_戦後の世界/22_冷戦の展開③（1970〜1991）.md",
+      "bytes": 115351,
+      "sha256": "0da50964243b348d8aecd1dfb23f01d40d96f6ac7980d0ebf0d6f410017bd305"
+    },
+    {
+      "file": "sources/近代・現代/05_戦後の世界/23_戦後の東アジア.md",
+      "bytes": 70601,
+      "sha256": "e2e473a392bc6ca864581a1010d56baeb1d78c27001c69bc351f619f379afc47"
+    },
+    {
+      "file": "sources/近代・現代/sekai_shi_tankyu_mokuji.md",
+      "bytes": 7892,
+      "sha256": "766d34236036053f9847d1128cc98151b8f359baf91503c173a62b8699f11c10"
+    }
+  ],
+  "validation": {
+    "consecutive_pages": true,
+    "source_emphasis_tags_balanced": true,
+    "all_existing_source_hashes_unchanged": true,
+    "all_original_image_hashes_unchanged": true,
+    "next_boundary_image_hash_unchanged": true,
+    "user_changes_unchanged": true,
+    "web_lessons_added": false,
+    "source_git_ignored": true,
+    "original_images_outside_repository": true,
+    "ruby_count": 140,
+    "bold_range_count": 647,
+    "regression_checks": [
+      {
+        "command": "npm run check:transcriptions",
+        "exit_code": 0,
+        "duration_seconds": 1.0309669000125723,
+        "log_sha256": "b30dce747071b7be6c844f36ddfea4ae0484b2bf288ac1da77bdac83793fc20d"
+      },
+      {
+        "command": "npm run check",
+        "exit_code": 0,
+        "duration_seconds": 18.193740599992452,
+        "log_sha256": "f9ee7e997752029b5f3fd69e0feb828edab7e5ada3c5926230a283fbe320b875"
+      },
+      {
+        "command": "npm run build",
+        "exit_code": 0,
+        "duration_seconds": 18.593565100003616,
+        "log_sha256": "c45377ce07f014c96f32bb04dde0eea119df05f0a0d16a2256acd1a2ee400ab8"
+      }
+    ],
+    "integrity_checks": {
+      "new_source_unchanged": true,
+      "consecutive_pages": 18,
+      "source_emphasis_tags_balanced": true,
+      "chapter_cover_included": false,
+      "blank_pages": [],
+      "protected_sources": 57,
+      "source_images": 9,
+      "next_lesson_boundary_shared_with_source_page": null,
+      "unique_original_images": 10,
+      "user_changes_unchanged": true,
+      "public_version_only_files": 139,
+      "previous_release_history_unchanged": true,
+      "published_catalog_unchanged_except_version": true,
+      "diff_check_exit_code": 0
+    }
+  }
+}
