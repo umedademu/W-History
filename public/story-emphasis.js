@@ -1,4 +1,4 @@
-import { namesForScene } from "./map-name-coverage.js?v=0.109";
+import { namesForScene } from "./map-name-coverage.js?v=0.110";
 import { chapterKeyTerms } from "./story-emphasis-terms.js?v=0.109";
 
 const normalize = value => value.replace(/【[^】]*】|\[[^\]]*\]/g, "").replace(/[\s＝=・『』「」]/g, "").trim();
@@ -34,6 +34,7 @@ function occurrences(text, term) {
 }
 
 export function storyEmphasisPlan(scene) {
+  if (scene.sourceText?.book === 'modern') return [];
   const chapter = scene.sourceText?.chapter;
   // 第6章は画像照合済みの出現箇所ごとの指定をそのまま使う。
   if (!chapterKeyTerms[chapter]) return [];
@@ -74,6 +75,7 @@ export function storyEmphasisPlan(scene) {
 }
 
 export function decorateStoryBody(body, scene) {
+  if (scene.sourceText?.book === 'modern') return [];
   if (!chapterKeyTerms[scene.sourceText?.chapter]) return [];
   // 再表示しても追加装飾を重ねない。原資料の印と読み仮名は保持する。
   body.querySelectorAll(".story-key-term, .story-bold").forEach(node => node.replaceWith(...node.childNodes));

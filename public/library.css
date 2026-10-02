@@ -12,6 +12,13 @@ a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 .version{color:var(--muted);font-size:10px}
 .library{max-width:960px;padding:20px 28px 28px;margin:auto}
 .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.book-tabs{display:flex;gap:6px;margin:0 0 22px;border-bottom:1px solid var(--line)}
+.book-tabs[hidden],.book-panel[hidden]{display:none}
+.book-tabs button{flex:1;font:inherit;font-size:16px;font-weight:700;color:var(--muted);background:transparent;border:0;border-bottom:3px solid transparent;padding:16px 8px;cursor:pointer}
+.book-tabs button[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent)}
+.book-tabs button:hover{background:color-mix(in srgb,var(--accent) 5%,transparent)}
+.book-tabs button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.book-heading{font-size:21px;margin:0 0 4px;line-height:1.6}.book-description{font-size:12px;line-height:1.9;color:var(--muted);margin:0 0 14px}
 .book-chapter{scroll-margin-top:20px;margin:0;border-bottom:1px solid var(--line)}
 .book-chapter>summary{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 4px;list-style:none;cursor:pointer;touch-action:manipulation}
 .book-chapter>summary::-webkit-details-marker{display:none}

@@ -3,22 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="W-Historyの教材目次。古代・中世・近世の全7章30回から、学びたい内容を選べます。" />
+  <meta name="description" content="W-Historyの教材目次。古代・中世・近世と近代・現代を選び、章・回・節から学べます。近代・現代は第1回を収録。" />
   <title>W-History｜地図と物語で学ぶ世界史</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="/library.css?v=0.109" />
-<script src="/theme.js?v=0.109"></script><link rel="stylesheet" href="/theme.css?v=0.109"/></head>
+  <link rel="stylesheet" href="/library.css?v=0.110" />
+  <script src="/book-library.js?v=0.110" type="module"></script>
+<script src="/theme.js?v=0.110"></script><link rel="stylesheet" href="/theme.css?v=0.110"/></head>
 <body>
   <header class="site-header">
     <a class="brand" href="/">W-History<span>地図と物語で学ぶ世界史</span></a>
     <nav aria-label="サイトの案内">
       <a href="/changelog.html">更新情報</a>
-      <span class="version">v0.109</span>
+      <span class="version">v0.110</span>
     </nav>
   </header>
   <main class="library">
     <h1 class="visually-hidden">教材目次</h1>
 <!-- book-collection:start -->
+<div class="book-tabs" data-book-tabs role="tablist" aria-label="読む巻を選ぶ" hidden><button type="button" id="ancient-tab" role="tab" aria-selected="true" aria-controls="ancient-book" data-book-tab="ancient">古代・中世・近世</button><button type="button" id="modern-tab" role="tab" aria-selected="false" aria-controls="modern-book" data-book-tab="modern">近代・現代</button></div>
+<section class="book-panel" id="ancient-book" data-book-panel="ancient" role="tabpanel" aria-labelledby="ancient-tab">
+<h2 class="book-heading">古代・中世・近世</h2><p class="book-description">全7章・30回を収録しています。</p>
+<!-- collection:ancient:start -->
 <details class="book-chapter" id="chapter-1">
 <summary><h2><span class="chapter-number">第1章</span> オリエント・インドの古代文明</h2></summary>
 <div class="chapter-lessons">
@@ -332,6 +337,28 @@
 </section>
 </div>
 </details>
+<!-- collection:ancient:end -->
+</section>
+<section class="book-panel" id="modern-book" data-book-panel="modern" role="tabpanel" aria-labelledby="modern-tab">
+<h2 class="book-heading">近代・現代</h2><p class="book-description">第1回「ウィーン体制とその崩壊」を収録しています。</p>
+<!-- collection:modern:start -->
+<details class="book-chapter" id="modern-chapter-1">
+<summary><h2><span class="chapter-number">第1章</span> 国民国家の形成</h2></summary>
+<div class="chapter-lessons">
+<section class="lesson-group" aria-labelledby="modern-lesson-1">
+<h3 id="modern-lesson-1">第1回 ウィーン体制とその崩壊</h3>
+<ol class="lesson-parts">
+<li><a class="part-link" href="/modern-c01-l01-p01-story.html">ウィーン体制の成立</a></li>
+<li><a class="part-link" href="/modern-c01-l01-p02-story.html">ウィーン体制の動揺</a></li>
+<li><a class="part-link" href="/modern-c01-l01-p03-story.html">ラテンアメリカの独立</a></li>
+<li><a class="part-link" href="/modern-c01-l01-p04-story.html">七月革命とその影響</a></li>
+<li><a class="part-link" href="/modern-c01-l01-p05-story.html">1848年革命（二月革命とその影響）</a></li>
+</ol>
+</section>
+</div>
+</details>
+<!-- collection:modern:end -->
+</section>
 <!-- book-collection:end -->
     <footer class="site-footer">
       <span>W-History — 地図と物語で学ぶ世界史</span>

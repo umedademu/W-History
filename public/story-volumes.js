@@ -1,4 +1,5 @@
 import {bookChapters} from './book-chapters.js?v=0.068';
+import {modernSeries} from './modern-volumes.js?v=0.110';
 // 書籍の章・回・節の順に並べる。章内の番号は章ごとに振り直す。
 export const series=bookChapters.flatMap(chapter=>chapter.volumes);
 
@@ -29,6 +30,9 @@ export function initialPageIndex(length, hash) {
 }
 
 export function volumeNavigation(volume) {
-  const next = series[series.findIndex(v => v.id === volume.id) + 1];
-  return { nextLabel: next ? '次の教材へ →' : '教材一覧へ →', finish: () => location.assign(next ? '/' + next.id + '-story.html' : '/') };
+  const collection = volume.book === 'modern' ? modernSeries : series;
+  const position = collection.findIndex(v => v.id === volume.id);
+  if (position < 0) throw new Error('教材が見つかりません: ' + volume.id);
+  const next = collection[position + 1];
+  return { nextLabel: next ? '次の教材へ →' : '教材一覧へ →', finish: () => location.assign(next ? '/' + next.id + '-story.html' : volume.book === 'modern' ? '/?book=modern#modern-book' : '/?book=ancient#ancient-book') };
 }

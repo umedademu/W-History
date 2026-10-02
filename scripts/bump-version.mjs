@@ -64,6 +64,7 @@ for (const f of fs.readdirSync(pubDir)) {
     let hc = fs.readFileSync(hp, 'utf8');
     const orig = hc;
     hc = hc.replaceAll(`v=${currentVersionStr}`, `v=${nextVersionStr}`);
+    hc = hc.replaceAll(`>v${currentVersionStr}<`, `>v${nextVersionStr}<`);
     if (hc !== orig) {
       fs.writeFileSync(hp, hc);
       htmlCount++;

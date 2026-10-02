@@ -25,8 +25,8 @@ try {
   const output=await mkdtemp(path.join(os.tmpdir(),'w-history-ancient-'));
   let inspected=0;
   for(const width of [1280,390]) {
-    await page.setViewportSize({width,height:900});await page.goto(base);
-    assert.equal(await page.locator('.part-link').count(),128);
+    await page.setViewportSize({width,height:900});await page.goto(base+'/?book=ancient');
+    assert.equal(await page.locator('#ancient-book .part-link').count(),128);
     for(const lesson of [1,2,3])assert.equal(await page.locator(`[aria-labelledby="lesson-${lesson}"] .part-link`).count(),4);
     await page.screenshot({path:path.join(output,`catalog-${width}.png`),fullPage:false});
     for(const v of ancientSeries) {

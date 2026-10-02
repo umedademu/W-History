@@ -1,0 +1,23 @@
+.modern-story .source-page-label{font-size:12px;color:var(--muted,#657970);margin:14px 0 0}
+.modern-reference,.modern-diagram{max-width:45em;margin:24px auto;padding:18px 20px;border:1px solid var(--line,#d9d7ca);border-radius:6px}
+.modern-reference summary{cursor:pointer;font-weight:700;line-height:1.8}
+.modern-reference summary:focus-visible{outline:3px solid var(--accent,#a45538);outline-offset:5px}
+.modern-reference>p,.diagram-note{font-size:12px;line-height:1.9;color:var(--muted,#657970)}
+.modern-reference-body{font-size:15px;line-height:2;overflow-wrap:anywhere}
+.modern-reference-body>section+section{border-top:1px solid var(--line,#d9d7ca);margin-top:28px;padding-top:12px}
+.modern-reference-body table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse;margin:18px 0}
+.modern-reference-body th,.modern-reference-body td{border:1px solid var(--line,#d9d7ca);padding:6px 10px;min-width:5em;vertical-align:top}
+.modern-reference-body blockquote{margin:14px 0;padding-left:16px;border-left:2px solid var(--line,#d9d7ca)}
+.modern-reference-body h2{font-size:19px}.modern-reference-body h3,.modern-reference-body h4,.modern-reference-body h5{font-size:16px;line-height:1.9}
+.modern-diagram h3{font-size:16px;margin:0}.diagram-groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.diagram-groups section{border:1px solid var(--line,#d9d7ca);border-radius:4px;padding:14px}
+.diagram-groups h4{font-size:14px;line-height:1.8;margin:0 0 10px;color:var(--accent,#a45538)}
+.diagram-groups p{font-size:13px;line-height:1.8;margin:8px 0}
+.modern-story [data-source-color="black"]:not([data-source-background]){color:inherit!important}
+html[data-theme="dark"] .modern-story [data-source-color="red"]:not([data-source-background]){color:#ffb49f!important}
+html[data-theme="dark"] .modern-story [data-source-color="brown"]:not([data-source-background]){color:#edb195!important}
+html[data-theme="dark"] .modern-story [data-source-color="green"]:not([data-source-background]){color:#a7d3b4!important}
+html[data-theme="dark"] .modern-story [data-source-color="gray"]:not([data-source-background]){color:#b4c3bc!important}
+html[data-theme="dark"] .modern-story [data-source-underline-color="black"]{text-decoration-color:currentColor!important}
+html[data-theme="dark"] .modern-story [data-source-marker="black-line"]{color:inherit!important}
+@media(max-width:640px){.modern-reference,.modern-diagram{padding:16px;margin:18px 0}.modern-reference-body{font-size:14px}.diagram-groups{grid-template-columns:1fr}}

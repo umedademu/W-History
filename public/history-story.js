@@ -1,10 +1,10 @@
-import { initialPageIndex } from "./story-volumes.js?v=0.068";
-import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.068";
+import { initialPageIndex } from "./story-volumes.js?v=0.110";
+import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.110";
 import { maximumMapScale } from "./map-camera.js?v=0.064";
 import { createMapLayout } from "./map-layout.js?v=0.064";
-import { decorateStoryBody } from "./story-emphasis.js?v=0.109";
+import { decorateStoryBody } from "./story-emphasis.js?v=0.110";
 
-export function mountStory({ places, zones, scenes, imageDirectory, chapterNavigation, baseMap }) {
+export function mountStory({ places, zones, scenes, imageDirectory, chapterNavigation, baseMap, onSceneChange }) {
 const NS = "http://www.w3.org/2000/svg";
 const project = baseMap?.project ?? (([lon, lat]) => [(lon + 18) * 14, (55 - lat) * 14]);
 const clamp = (n, a = 0, b = 1) => Math.max(a, Math.min(b, n));
@@ -235,6 +235,7 @@ function show(scroll = false) {
     else b.removeAttribute("aria-current");
   });
   drawMap(scene);
+  onSceneChange?.(scene, index);
   if (scroll) {
     document.querySelector(".story-stage").scrollIntoView({ block: "start", behavior: "instant" });
   }

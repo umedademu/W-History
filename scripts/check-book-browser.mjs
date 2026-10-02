@@ -36,8 +36,8 @@ try {
   const output=await mkdtemp(path.join(os.tmpdir(),'w-history-book-'+selected.join('-')+'-'));
   let inspected=0;
   for(const width of [1280,390]) {
-    await page.setViewportSize({width,height:900});await page.goto(base);
-    assert.equal(await page.locator('.part-link').count(),128);
+    await page.setViewportSize({width,height:900});await page.goto(base+'/?book=ancient');
+    assert.equal(await page.locator('#ancient-book .part-link').count(),128);
     for(const c of bookChapters)for(const l of c.lessons)assert.equal(await page.locator(`[aria-labelledby="lesson-${l.lesson}"] .part-link`).count(),c.volumes.filter(v=>v.lesson===l.lesson).length);
     await page.screenshot({path:path.join(output,`catalog-${width}.png`),fullPage:false});
     for(const v of chapterVolumes) {
@@ -94,7 +94,7 @@ try {
       assert.equal(await page.locator('#story-progress').getAttribute('value'),String(scenes.length));
       await page.locator('#next').click();
       const next=allSeries[allSeries.findIndex(s=>s.id===v.id)+1]?.id;
-      await page.waitForURL(next?`${base}/${next}-story.html`:`${base}/`);
+      await page.waitForURL(next?`${base}/${next}-story.html`:`${base}/?book=ancient#ancient-book`);
       console.log(`${width}: ${v.label} ${scenes.length}ページ確認`);
     }
   }

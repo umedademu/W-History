@@ -23,15 +23,15 @@ try{
  const output=await mkdtemp(path.join(os.tmpdir(),'w-history-volumes-'));
  for(const width of [1280,390]){
   await page.setViewportSize({width,height:900});
-  await page.goto(base);
-  assert.equal(await page.locator('.part-link').count(),series.length);
+  await page.goto(base+'/?book=ancient');
+  assert.equal(await page.locator('#ancient-book .part-link').count(),series.length);
   assert.equal(await page.locator('.lesson-group[aria-labelledby=lesson-20] .part-link').count(),4);
   assert.equal(await page.locator('.lesson-group[aria-labelledby=lesson-21] .part-link').count(),5);
-  assert.deepEqual(await page.locator('.part-link').allTextContents(),series.map(s=>s.label));
+  assert.deepEqual(await page.locator('#ancient-book .part-link').allTextContents(),series.map(s=>s.label));
 
   await page.screenshot({path:path.join(output,`catalog-${width}.png`),fullPage:false});
   for(const s of series){
-   await page.goto(base);
+   await page.goto(base+'/?book=ancient');
    await page.locator(`#chapter-${s.chapter}>summary`).click();
    await page.locator(`.part-link[href="/${s.id}-story.html"]`).click();
    await page.waitForSelector('button[data-scene]');
@@ -74,7 +74,7 @@ try{
     await page.locator('button[data-scene]').last().click();
     await page.locator('#next').click();
     const next=series[series.indexOf(s)+1];
-    await page.waitForURL(next?base+'/'+next.id+'-story.html':base+'/');
+    await page.waitForURL(next?base+'/'+next.id+'-story.html':base+'/?book=ancient#ancient-book');
     continue;
    }
    const data=v.source==='ottoman'?pages:scenes;
