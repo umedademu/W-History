@@ -1,5 +1,5 @@
-import { namesForScene } from "./map-name-coverage.js?v=0.103";
-import { chapterKeyTerms } from "./story-emphasis-terms.js?v=0.103";
+import { namesForScene } from "./map-name-coverage.js?v=0.104";
+import { chapterKeyTerms } from "./story-emphasis-terms.js?v=0.104";
 
 const normalize = value => value.replace(/【[^】]*】|\[[^\]]*\]/g, "").replace(/[\s＝=・『』「」]/g, "").trim();
 const decode = value => value.replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g, "").replace(/<[^>]*>/g, "")
