@@ -1,0 +1,1529 @@
+{
+  "date": "2026-10-02",
+  "version": "0.097",
+  "volume": "近代・現代",
+  "chapter": 4,
+  "chapter_title": "戦間期と第二次世界大戦",
+  "chapter_cover_included": true,
+  "chapter_cover_page": 259,
+  "lesson": 14,
+  "lesson_title": "ヴェルサイユ体制とワシントン体制",
+  "lesson_cover_page": 260,
+  "source_file": "sources/近代・現代/04_戦間期と第二次世界大戦/14_ヴェルサイユ体制とワシントン体制.md",
+  "source_sha256": "8d397d44e81b32b763d55534b612851c3fff91c30d7008ed4883567853bc17c2",
+  "source_bytes": 85437,
+  "pages": [
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274
+  ],
+  "page_count": 16,
+  "blank_pages": [],
+  "pages_with_printed_text": 16,
+  "section_start_pages": [
+    261,
+    266,
+    267,
+    270
+  ],
+  "japanese_history_approach_page": null,
+  "next_chapter_cover_page": null,
+  "next_chapter_title": null,
+  "next_chapter_boundary_image": null,
+  "next_lesson_start_page": 275,
+  "next_lesson_title": "戦間期の欧米諸国 〜世界恐慌以前〜",
+  "next_lesson_boundary_image": {
+    "index": 134,
+    "filename": "Kindle_H6Cc3XBzhu.png",
+    "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_H6Cc3XBzhu.png",
+    "creationTime": "2026-10-02T02:53:55.778205+09:00",
+    "bytes": 1479183,
+    "sha256": "69bc91632fe607ef4e5dc8a5e3465f4a44609d09d733ce079fa76c19a6160063",
+    "spreadPages": [
+      274,
+      275
+    ],
+    "selectedPages": [
+      274
+    ]
+  },
+  "boundary_page": 275,
+  "boundary_image_shared_with_source_page": 274,
+  "image_count": 9,
+  "unique_original_image_count": 9,
+  "first_image_shared_with_previous_lesson_page": 258,
+  "reader": "担当の原画像読み取り、Antigravity CLI経由のGemini 3.8 Flashによる独立した本文読み取り、原画像による相違と装飾の照合",
+  "authorization": "第13回に続く利用者の続けてに従い、第4章第14回を章扉とともに新規作成。",
+  "rules_document": "docs/source-transcription-rules.md",
+  "comparison_document": "docs/source-transcription-comparison.md",
+  "proofreading": "259〜274ページの全16ページを確認。章扉・回の扉・概観4項目と矢印3本・地図1枚・関係図2つ・表2つ・クローズアップ3つ・合否の分かれ目・吹き出し・年号欄7項目・欄外目次7ページ・太字・色・下線・背景・枠・交差線・読み仮名を原画像で照合。保存前の草稿だけを修正。",
+  "independently_compared_pages": [
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274
+  ],
+  "comparison_trials": [
+    {
+      "name": "text-a",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        259,
+        260,
+        261,
+        262
+      ],
+      "duration_seconds": 86.58168360000127,
+      "request_sha256": "23bc1ca29327aebe51b7101968178238dd4e158fc32fc2383c0e5b4e0697c03b",
+      "response_sha256": "fb1bab48e059499034c3375d8cdfd8777cb4daddda97fe70da92ff387cf9e539",
+      "reported_uncertainties": {
+        "259": [],
+        "260": [],
+        "261": [],
+        "262": []
+      }
+    },
+    {
+      "name": "text-b",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        263,
+        264,
+        265,
+        266
+      ],
+      "duration_seconds": 86.41351230000146,
+      "request_sha256": "c2f69c001ae22588629a60420b26afc0065bcb4c7708917100cc11f4d0e0a70b",
+      "response_sha256": "ba23df111849737cd7d90a4d5d6018af9151b7ccefd9ab0f4f49aa73fd1f34c0",
+      "reported_uncertainties": {
+        "263": [],
+        "264": [],
+        "265": [],
+        "266": []
+      }
+    },
+    {
+      "name": "text-c",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        267,
+        268,
+        269,
+        270
+      ],
+      "duration_seconds": 93.96198770000046,
+      "request_sha256": "bf3ff665a840e870f13b8709dc073a80d7d63f80019c1cfc2f8b5df93dabc5b6",
+      "response_sha256": "732128d63b75339122860ca1625a2481132d07a1a0f47104499b7f27d1a7aa78",
+      "reported_uncertainties": {
+        "267": [],
+        "268": [],
+        "269": [],
+        "270": []
+      }
+    },
+    {
+      "name": "text-d",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        271,
+        272,
+        273,
+        274
+      ],
+      "duration_seconds": 86.444716900005,
+      "request_sha256": "3373911152d7cadc5a5d4d9e3e1fd757a114254bd998598b2659b3d748ac3fd5",
+      "response_sha256": "19d8486fbee868145a11424eb9913a18ceda7ce298a05a0ec89b449d40135b47",
+      "reported_uncertainties": {
+        "271": [],
+        "272": [],
+        "273": [],
+        "274": []
+      }
+    }
+  ],
+  "unsuccessful_comparison_attempts": [],
+  "own_draft_corrections": [
+    {
+      "page": 261,
+      "draft_before": "ほとんどバラバラ",
+      "source_after": "ほんとバラバラ",
+      "reason": "原画像の語尾を確認。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 261,
+      "draft_before": "<ruby>3巨頭<rt>きょとう</rt></ruby>",
+      "source_after": "3<ruby>巨頭<rt>きょとう</rt></ruby>",
+      "reason": "読みは巨頭だけに印刷されている。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 261,
+      "draft_before": "すべて共和国になった",
+      "source_after": "すべて**共和国**になった",
+      "reason": "共和国の黒い太字を保存。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 261,
+      "draft_before": "**国際連盟として形になる**",
+      "source_after": "**国際連盟として**形になる",
+      "reason": "黒い太字の終わりを印刷範囲に合わせた。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 262,
+      "draft_before": "<白太黒>否</白太黒>",
+      "source_after": "<白太茶>否</白太茶>",
+      "reason": "否の白抜きの背景は茶色。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 262,
+      "draft_before": "<赤太>十四カ条（の平和原則）</赤太>",
+      "source_after": "<赤太>十四カ条</赤太>（<赤太>の平和原則</赤太>）",
+      "reason": "括弧は黒、内側の文字は赤。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 262,
+      "draft_before": "ヨーロッパの問題は興味がない",
+      "source_after": "ヨーロッパの問題には興味がない",
+      "reason": "原画像の助詞にを保存。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 262,
+      "draft_before": "<ruby>鏡<rt>かがみ</rt></ruby>の間",
+      "source_after": "<ruby>鏡<rt>かがみ</rt></ruby>の<ruby>間<rt>ま</rt></ruby>",
+      "reason": "鏡と間に印刷された読みを個別に保持。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 263,
+      "draft_before": "**巨額の賠償金を課すことの決定**",
+      "source_after": "**巨額の賠償金を課すことのみ**決定",
+      "reason": "のみの欠落を修正し、黒い太字の終わりも確認。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 263,
+      "draft_before": "**港湾使用権はポーランドへ**",
+      "source_after": "**<ruby>港湾<rt>こうわん</rt></ruby>使用権はポーランドへ**",
+      "reason": "囲みの港湾に印刷された読みを保持。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 264,
+      "draft_before": "**ドイツのGNP（国民総生産）の約20年分**。",
+      "source_after": "**ドイツのGNP（国民総生産）の約20年分**！。",
+      "reason": "顔の外の感嘆符と句点を両方保存。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 264,
+      "draft_before": "<赤><span data-source-marker=\"arrow\">←</span></赤>",
+      "source_after": "",
+      "reason": "アルザス・ロレーヌの赤い色面は矢印ではない。元の図にない矢印を草稿から除いた。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 266,
+      "draft_before": "が発足した。",
+      "source_after": "が発足したよ。",
+      "reason": "原画像の語尾よを保存。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 266,
+      "draft_before": "設立当初は42カ国",
+      "source_after": "設立当初は42か国",
+      "reason": "囲みはカ国、本文はか国。表記をそろえない。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 266,
+      "draft_before": "が原則になった",
+      "source_after": "が原則となった",
+      "reason": "原画像の助詞とを保存。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 267,
+      "draft_before": "まあ、軍隊送ったら",
+      "source_after": "まぁ、軍隊送ったから",
+      "reason": "小さいぁと、送ったからのかを原画像で確認。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 268,
+      "draft_before": "しかし、大戦で協力",
+      "source_after": "しかも、大戦で協力",
+      "reason": "原画像の接続語しかもを保存。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 268,
+      "draft_before": "そのウラには「日本封じ」",
+      "source_after": "そのウラには「日本<ruby>封<rt>ふう</rt></ruby>じ」",
+      "reason": "封に印刷された読みふうだけを保存。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 269,
+      "draft_before": "この条約の内容はそののち",
+      "source_after": "この条約の内容はこののち",
+      "reason": "原画像のこののちを保存。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 269,
+      "draft_before": "（**<ruby>統帥<rt>とうすい</rt></ruby><ruby>権干犯<rt>けんかんぱん</rt></ruby>問題**）",
+      "source_after": "（「**<ruby>統帥<rt>とうすい</rt></ruby><ruby>権干犯<rt>けんかんぱん</rt></ruby>問題**」）",
+      "reason": "括弧内に印刷されたかぎ括弧を保持。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 270,
+      "draft_before": "**ドイツの<ruby>賠償<rt>ばいしょう</rt></ruby>問題にアメリカ**",
+      "source_after": "**ドイツの<ruby>賠償<rt>ばいしょう</rt></ruby>問題**にアメリカ",
+      "reason": "黒い太字はドイツの賠償問題だけ。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 270,
+      "draft_before": "<赤太>ケロッグ・ブリアン条約（協定）</赤太>",
+      "source_after": "<赤太>ケロッグ・ブリアン条約</赤太>（<赤太>協定</赤太>）",
+      "reason": "協定の丸括弧は黒、内側の文字は赤。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 274,
+      "draft_before": "<赤太>ケロッグ・ブリアン条約（協定）</赤太>",
+      "source_after": "<赤太>ケロッグ・ブリアン条約</赤太>（<赤太>協定</赤太>）",
+      "reason": "協定の丸括弧は黒、内側の文字は赤。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 273,
+      "draft_before": "シナリオが提案された。",
+      "source_after": "シナリオが提案されたよ。",
+      "reason": "原画像の語尾よを保存。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 273,
+      "draft_before": "**ドイツが払った賠償金を使って**",
+      "source_after": "**ドイツが払った賠償金**を使って",
+      "reason": "黒い太字の終わりを印刷範囲に合わせた。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 273,
+      "draft_before": "<赤太>ラインラント（独仏国境）の現状維持</赤太>",
+      "source_after": "<赤太>ラインラント</赤太>（<赤太>独仏国境</赤太>）<赤太>の現状維持</赤太>",
+      "reason": "独仏国境の丸括弧は黒、内側の文字は赤。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 273,
+      "draft_before": "<ruby>仲裁裁判<rt>ちゅうさいさいばん</rt></ruby>",
+      "source_after": "<ruby>仲裁<rt>ちゅうさい</rt></ruby>裁判",
+      "reason": "印刷されていないさいばんを補わず、仲裁の読みだけ保存。",
+      "changed_saved_source": false
+    },
+    {
+      "page": 274,
+      "draft_before": "**とが決められた**。",
+      "source_after": "とが決められた。",
+      "reason": "次ページ冒頭の続きは通常の黒い文字。前ページの太字を延長しない。",
+      "changed_saved_source": false
+    }
+  ],
+  "comparison_resolution_notes": [
+    {
+      "page": 259,
+      "note": "第4章の章扉を今回に含める。258ページと元画像を共用するが、前回の原文は変更しない。"
+    },
+    {
+      "page": 260,
+      "note": "概観は4項目と赤い下向き矢印3本。吹き出し・下線の印刷範囲を保存。"
+    },
+    {
+      "page": 261,
+      "note": "ほんとバラバラだったを採用。巨頭のきょとうを3に広げない。共和国の太字と国際連盟としての太字の終わりを確認。"
+    },
+    {
+      "page": 262,
+      "note": "日本はヨーロッパの問題には興味がないのにを保持。Geminiの十四ヵ条へそろえず、原画像の十四カ条を保持。鏡のかがみと間のまを個別に保存。吹き出しの読み順の違いは本文の欠落と分ける。"
+    },
+    {
+      "page": 263,
+      "note": "巨額の賠償金を課すことのみ決定ののみを保持。囲みは人民投票、本文は住民投票。奪っただけだよなのなを落とさない。"
+    },
+    {
+      "page": 264,
+      "note": "向かわせようを保持し、Geminiの向かわそうに変更しない。約20年分の後の！。を両方保存。地図の地名は全て1回ずつ、凡例の地名は別の印刷箇所として残す。アルザス・ロレーヌの赤い色面を矢印へ置き換えない。"
+    },
+    {
+      "page": 265,
+      "note": "結合されたバルト3国の説明は1回だけ収録。クロアティアを別の一般的表記へ直さない。"
+    },
+    {
+      "page": 266,
+      "note": "発足したよ、42か国、原則となったを採用。囲みの42カ国と本文の42か国を統一しない。ジュネーヴのヴを保持。"
+    },
+    {
+      "page": 267,
+      "note": "アメリカだったね、総会の議決はを保持。まぁと軍隊送ったからのかを保存。図の露・米・独・墺に黒い交差線の属性と表示用の取り消し線を付け、元にない×の文字を追加しない。"
+    },
+    {
+      "page": 268,
+      "note": "しかもを採用し、警戒感が強くなってきたをGeminiの高くへ変更しない。最初の日本封じの封に印刷されたふうだけを残す。条約表の比率と国の順番を原画像で確認。"
+    },
+    {
+      "page": 269,
+      "note": "こののちを採用。主張したんだけど、話し合われたんだけどのんだを落とさない。統帥権干犯問題のかぎ括弧と別々の読みを保持。冒頭と石井・ランシング協定の後の！。を両方保存。"
+    },
+    {
+      "page": 270,
+      "note": "不戦条約の別名の外側の【】は黒い太字、協定の丸括弧は黒で内側の文字は赤。ドイツの賠償問題とアメリカの太字の境界を確認。"
+    },
+    {
+      "page": 271,
+      "note": "ドイツの通と次ページの貨を原画像のページ境界で分ける。サボって抵抗する段落の後の感嘆符、吹き出し末尾の感嘆符を保存。"
+    },
+    {
+      "page": 272,
+      "note": "お金の流れはアメリカ資本をドイツに貸与、ドイツが賠償金支払い、英仏が戦債支払い。図の読み順の違いで文字を重複させない。パンの1兆マルクの後の！。を保持。"
+    },
+    {
+      "page": 273,
+      "note": "シナリオが提案されたよのよを保存。仲裁裁判の読みは仲裁に印刷されたちゅうさいだけ。さいばんを補わない。国際連盟加盟は翌年の吹き出しを全文収録。"
+    },
+    {
+      "page": 274,
+      "note": "ケロッグの小さいッとプープーの半濁点を保持。語呂の上の数字を本文に加えず対応する文字のrubyへ保存。1925は19が黒、25が赤で、都合の上は2・5だけ。世界恐慌だもんねの後の！。を保持。"
+    },
+    {
+      "page": 275,
+      "note": "第15回戦間期の欧米諸国〜世界恐慌以前〜の回の扉。274ページと元画像を共用し、今回の原文には含めない。"
+    }
+  ],
+  "source_occlusion_notes": [
+    {
+      "page": 259,
+      "region": "章扉の地球の挿絵",
+      "treatment": "章名の文字には重なっていない。"
+    },
+    {
+      "page": 261,
+      "region": "本文の形になるの一部",
+      "treatment": "残る字形と文脈を原画像で照合。"
+    },
+    {
+      "page": 263,
+      "region": "本文の帰属を決めるの一部",
+      "treatment": "残る字形と同じ囲みの帰属を照合。"
+    },
+    {
+      "page": 265,
+      "region": "本文の不完全の一部",
+      "treatment": "残る字形と前後の印刷を原画像で照合。"
+    },
+    {
+      "page": 267,
+      "region": "本文の起きるの一部",
+      "treatment": "残る字形と前後の印刷を原画像で照合。"
+    },
+    {
+      "page": 269,
+      "region": "主力艦の比率の米の一部",
+      "treatment": "残る字形と同じページの国の順番を照合。"
+    },
+    {
+      "page": 271,
+      "region": "本文の消極的抵抗の一部",
+      "treatment": "残る字形と同じページの複数の表記を照合。"
+    },
+    {
+      "page": 273,
+      "region": "本文のアメリカの一部",
+      "treatment": "残る字形と同じページの表記を照合。"
+    }
+  ],
+  "ruby_details": [
+    {
+      "page": 261,
+      "text": "3巨頭",
+      "ruby_target": "巨頭",
+      "ruby_text": "きょとう"
+    },
+    {
+      "page": 262,
+      "text": "復讐心",
+      "ruby_target": "復讐",
+      "ruby_text": "ふくしゅう"
+    },
+    {
+      "page": 262,
+      "text": "鏡の間",
+      "ruby_sequence": [
+        {
+          "text": "鏡",
+          "ruby": "かがみ"
+        },
+        {
+          "text": "間",
+          "ruby": "ま"
+        }
+      ]
+    },
+    {
+      "page": 263,
+      "text": "港湾使用権",
+      "ruby_target": "港湾",
+      "ruby_text": "こうわん"
+    },
+    {
+      "page": 268,
+      "text": "日本封じ",
+      "ruby_target": "封",
+      "ruby_text": "ふう"
+    },
+    {
+      "page": 269,
+      "text": "統帥権干犯問題",
+      "ruby_sequence": [
+        {
+          "text": "統帥",
+          "ruby": "とうすい"
+        },
+        {
+          "text": "権干犯",
+          "ruby": "けんかんぱん"
+        }
+      ]
+    },
+    {
+      "page": 271,
+      "text": "履行政策",
+      "ruby_target": "履行",
+      "ruby_text": "りこう"
+    },
+    {
+      "page": 271,
+      "text": "お札",
+      "ruby_target": "札",
+      "ruby_text": "さつ"
+    },
+    {
+      "page": 273,
+      "text": "仲裁裁判",
+      "ruby_target": "仲裁",
+      "ruby_text": "ちゅうさい"
+    },
+    {
+      "page": 274,
+      "text": "行く行く",
+      "numeric_ruby_sequence": [
+        {
+          "text": "行",
+          "ruby": "1"
+        },
+        {
+          "text": "く",
+          "ruby": "9"
+        },
+        {
+          "text": "行",
+          "ruby": "1"
+        },
+        {
+          "text": "く",
+          "ruby": "9"
+        }
+      ]
+    },
+    {
+      "page": 274,
+      "text": "引くに引けない",
+      "numeric_ruby": {
+        "引": "1",
+        "く": "9",
+        "に": "2"
+      },
+      "note": "末尾の引にも1が印刷されている。けないは黒。"
+    },
+    {
+      "page": 274,
+      "text": "弾くぞプープー",
+      "numeric_ruby_sequence": [
+        {
+          "text": "弾",
+          "ruby": "1"
+        },
+        {
+          "text": "く",
+          "ruby": "9"
+        },
+        {
+          "text": "プー",
+          "ruby": "2"
+        },
+        {
+          "text": "プー",
+          "ruby": "2"
+        }
+      ],
+      "note": "ぞは黒。プーは半濁点で長音まで2を対応させる。"
+    },
+    {
+      "page": 274,
+      "text": "特によかった",
+      "numeric_ruby": {
+        "特": "19",
+        "に": "2",
+        "よ": "4"
+      },
+      "note": "かったは黒。"
+    },
+    {
+      "page": 274,
+      "text": "都合つけてよ",
+      "numeric_ruby": {
+        "都": "2",
+        "合": "5"
+      },
+      "year": "1925",
+      "note": "年号の19は黒、25は赤。印刷されていない19の数字を語呂へ補わない。"
+    },
+    {
+      "page": 274,
+      "text": "とっくにやめた",
+      "numeric_ruby": {
+        "とっ": "1",
+        "く": "9",
+        "に": "2",
+        "や": "8"
+      },
+      "note": "めたは黒。"
+    },
+    {
+      "page": 274,
+      "text": "戦さゼロまで",
+      "numeric_ruby": {
+        "戦": "19",
+        "さ": "3",
+        "ゼロ": "0"
+      },
+      "note": "までは黒。"
+    }
+  ],
+  "source_images": [
+    {
+      "index": 126,
+      "filename": "Kindle_cEkuFZS6ph.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_cEkuFZS6ph.png",
+      "creationTime": "2026-10-02T02:53:49.228873+09:00",
+      "bytes": 1481024,
+      "sha256": "207b1395d9a087e164bd77724eab50f2c1cb2b50366696b500facb493fad56a7",
+      "spreadPages": [
+        258,
+        259
+      ],
+      "selectedPages": [
+        259
+      ]
+    },
+    {
+      "index": 127,
+      "filename": "Kindle_7GbU4TLSLb.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_7GbU4TLSLb.png",
+      "creationTime": "2026-10-02T02:53:50.068870+09:00",
+      "bytes": 1667518,
+      "sha256": "b7bb00527e206c9bc1f17b550db7aa37564c2bf5c84a6c747c8ebb4310e7cf8d",
+      "spreadPages": [
+        260,
+        261
+      ],
+      "selectedPages": [
+        260,
+        261
+      ]
+    },
+    {
+      "index": 128,
+      "filename": "Kindle_0d13utT2YC.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_0d13utT2YC.png",
+      "creationTime": "2026-10-02T02:53:50.820654+09:00",
+      "bytes": 1543657,
+      "sha256": "68670e2429502880bf16076e5facca833baeb4e6a8b5c565e4b5cdc7b73db847",
+      "spreadPages": [
+        262,
+        263
+      ],
+      "selectedPages": [
+        262,
+        263
+      ]
+    },
+    {
+      "index": 129,
+      "filename": "Kindle_9DhyvfxDCy.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_9DhyvfxDCy.png",
+      "creationTime": "2026-10-02T02:53:51.708654+09:00",
+      "bytes": 1339119,
+      "sha256": "be13d273ff95e638980233fc81d42ea9d4e351b8b11a35e47550becfabecbff0",
+      "spreadPages": [
+        264,
+        265
+      ],
+      "selectedPages": [
+        264,
+        265
+      ]
+    },
+    {
+      "index": 130,
+      "filename": "Kindle_9BzFMdDVsC.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_9BzFMdDVsC.png",
+      "creationTime": "2026-10-02T02:53:52.548654+09:00",
+      "bytes": 1490833,
+      "sha256": "537174629d31db8279c2bd6eb732bf76ffeff12321b71d00edd606f43501d4db",
+      "spreadPages": [
+        266,
+        267
+      ],
+      "selectedPages": [
+        266,
+        267
+      ]
+    },
+    {
+      "index": 131,
+      "filename": "Kindle_0T0ZSLvUJL.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_0T0ZSLvUJL.png",
+      "creationTime": "2026-10-02T02:53:53.348570+09:00",
+      "bytes": 1585524,
+      "sha256": "9cf5f68d3c5a5878b8acba32840d2d2c03ea293e11de89de94541f034a33dd09",
+      "spreadPages": [
+        268,
+        269
+      ],
+      "selectedPages": [
+        268,
+        269
+      ]
+    },
+    {
+      "index": 132,
+      "filename": "Kindle_QSOizmPuos.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_QSOizmPuos.png",
+      "creationTime": "2026-10-02T02:53:54.191204+09:00",
+      "bytes": 1590898,
+      "sha256": "ffff1bd0f3d30614185dff560ac0be4d344d18ff17ace515a7d42f4134254617",
+      "spreadPages": [
+        270,
+        271
+      ],
+      "selectedPages": [
+        270,
+        271
+      ]
+    },
+    {
+      "index": 133,
+      "filename": "Kindle_UwaH2LB6rr.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_UwaH2LB6rr.png",
+      "creationTime": "2026-10-02T02:53:54.960205+09:00",
+      "bytes": 1416977,
+      "sha256": "16535d2d598ed85b7f9ab7f479380e57f4fbd4dd109697c7693905e8710eeb26",
+      "spreadPages": [
+        272,
+        273
+      ],
+      "selectedPages": [
+        272,
+        273
+      ]
+    },
+    {
+      "index": 134,
+      "filename": "Kindle_H6Cc3XBzhu.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_H6Cc3XBzhu.png",
+      "creationTime": "2026-10-02T02:53:55.778205+09:00",
+      "bytes": 1479183,
+      "sha256": "69bc91632fe607ef4e5dc8a5e3465f4a44609d09d733ce079fa76c19a6160063",
+      "spreadPages": [
+        274,
+        275
+      ],
+      "selectedPages": [
+        274
+      ]
+    }
+  ],
+  "page_checks": [
+    {
+      "page": 259,
+      "ruby_count": 0,
+      "bold_range_count": 2,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:brown": 1,
+        "data-source-background:pink": 1
+      },
+      "sidebar_included": false,
+      "sha256": "9e0c0ce533e29480eaba83ba34e3c184589bd6fb709a4cdea8430f1a7cfe767d",
+      "visually_checked_regions": [
+        "第4章の章扉",
+        "章番号と章名",
+        "白い文字と茶・桃の背景"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": false
+    },
+    {
+      "page": 260,
+      "ruby_count": 0,
+      "bold_range_count": 19,
+      "source_styles": {
+        "data-source-color:white": 11,
+        "data-source-background:black": 5,
+        "data-source-background:red": 6,
+        "data-source-underline-color:red": 8,
+        "data-source-color:red": 3,
+        "data-source-marker:arrow": 3
+      },
+      "sidebar_included": false,
+      "sha256": "e0f16ab025c118e59b890c692b4d4430c411d193efc1523d6baa2b720a5cd8d0",
+      "visually_checked_regions": [
+        "回の扉",
+        "導入と本文全文",
+        "概観の全4項目・ページ範囲・赤い下向き矢印3本",
+        "縦書きの吹き出し",
+        "赤い下線"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": false
+    },
+    {
+      "page": 261,
+      "ruby_count": 8,
+      "bold_range_count": 52,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-border:red": 1,
+        "data-source-color:green": 4,
+        "data-source-color:red": 18,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "018a493a07d1c577d26b3f0e894501e1cc079ca9df262855600bfea5dfcdb1c8",
+      "visually_checked_regions": [
+        "節見出し",
+        "小見出し2つ",
+        "本文全文",
+        "社会主義国とアメリカの吹き出し",
+        "巨頭だけの読み",
+        "帝国名・王家名・別名の括弧と文字色",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 262,
+      "ruby_count": 12,
+      "bold_range_count": 46,
+      "source_styles": {
+        "data-source-color:white": 3,
+        "data-source-background:black": 1,
+        "data-source-background:red": 1,
+        "data-source-background:brown": 1,
+        "data-source-color:red": 15,
+        "data-source-color:gray": 6,
+        "data-source-marker:arrow": 1,
+        "data-source-color:green": 2
+      },
+      "sidebar_included": false,
+      "sha256": "dbb069d607a21e312a14973f3b3dfcd0c1992b20728151f552babad3c188c986",
+      "visually_checked_regions": [
+        "合否の分かれ目の全項目・年号・和平原則・矢印",
+        "本文全文",
+        "戦後処理の吹き出し",
+        "小見出し",
+        "鏡と間の読み",
+        "助詞には",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 263,
+      "ruby_count": 9,
+      "bold_range_count": 57,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 15,
+        "data-source-color:gray": 16,
+        "data-source-marker:arrow": 3,
+        "data-source-background:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "4f698d6741873de82e773fa3686688075d86fe8f8ec136b1f51fb664bb4147b5",
+      "visually_checked_regions": [
+        "ヴェルサイユ条約のクローズアップの全項目・年号・地名・軍備の人数・矢印",
+        "港湾の読み",
+        "人民投票と本文の住民投票の区別",
+        "本文全文",
+        "ことのみ決定",
+        "次ページに続く統治するこ",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 264,
+      "ruby_count": 4,
+      "bold_range_count": 39,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 10,
+        "data-source-border:black": 8,
+        "data-source-color:gray": 2,
+        "data-source-color:pink": 1,
+        "data-source-marker:fill": 1
+      },
+      "sidebar_included": false,
+      "sha256": "8eb24ed3114c4e4f5cd064737c8f502f0b1f5fd9402f925264bf7195955b6539",
+      "visually_checked_regions": [
+        "前ページからのとになったんだもん",
+        "本文全文",
+        "領土と人口の吹き出し",
+        "ヴェルサイユ体制の地図の全地名・国名・注記・凡例3項目・黒枠・色",
+        "顔の外の感嘆符と句点",
+        "赤い領域を矢印と誤認しない",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 265,
+      "ruby_count": 3,
+      "bold_range_count": 50,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 22,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "9ae1f5bd5eff52350aa77c3f597a68c258fc53b80e784f477e65012278983294",
+      "visually_checked_regions": [
+        "小見出し",
+        "本文全文",
+        "東欧の新興独立国の表の全8行・全セル",
+        "バルト3国の結合セルを1回だけ保存",
+        "クロアティアの原文表記",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 266,
+      "ruby_count": 1,
+      "bold_range_count": 46,
+      "source_styles": {
+        "data-source-color:white": 3,
+        "data-source-background:black": 1,
+        "data-source-background:red": 2,
+        "data-source-border:red": 1,
+        "data-source-color:red": 20,
+        "data-source-color:gray": 17,
+        "data-source-marker:arrow": 3,
+        "data-source-color:green": 2
+      },
+      "sidebar_included": false,
+      "sha256": "274a47aff57f8619fa1e3b6424e8c9bd6c98983feba7f579e5c84470fe1b1956",
+      "visually_checked_regions": [
+        "節見出し",
+        "国際連盟のクローズアップの全機関・説明・年号・矢印",
+        "本文全文",
+        "小見出し",
+        "本文の42か国と囲みの42カ国の区別",
+        "発足したよと原則となった",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 267,
+      "ruby_count": 1,
+      "bold_range_count": 47,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:green": 4,
+        "data-source-color:red": 13,
+        "data-source-border:dashed-black": 2,
+        "data-source-marker:dashed-line": 2,
+        "data-source-border:circle": 8,
+        "data-source-cancellation:cross": 4,
+        "data-source-cancellation-color:black": 4,
+        "data-source-marker:arrow": 3,
+        "data-source-border:red": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "349ad4a5aaa7d7d5759ac9cdf9ce0c90560cfabbf2cdb01702dcc8b985f4a9f1",
+      "visually_checked_regions": [
+        "本文全文",
+        "小見出し2つ",
+        "連合国と同盟国の関係図の全8略字・取り消し印4つ・矢印3本・説明3つ・丸枠・点線枠・点線",
+        "議決と小さいぁ",
+        "節見出し",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 268,
+      "ruby_count": 6,
+      "bold_range_count": 43,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 20,
+        "data-source-color:gray": 8,
+        "data-source-marker:arrow": 1,
+        "data-source-color:green": 2
+      },
+      "sidebar_included": false,
+      "sha256": "737422ba7d9f7587c0111d4a5da146161f051c685d8b61e5dc776eb1e0c90787",
+      "visually_checked_regions": [
+        "本文全文",
+        "日本封じの封だけの読み",
+        "ワシントン会議の条約の表の全3行・全セル・国名・比率・矢印",
+        "小見出し",
+        "次ページに続く特定の2カ国っ",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 269,
+      "ruby_count": 6,
+      "bold_range_count": 49,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 16,
+        "data-source-color:green": 4,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "eb0c3a81605278bcb650063d00a1f74a85cb57d9f65047c78595e5b79c7235a8",
+      "visually_checked_regions": [
+        "前ページからのていうのは",
+        "本文全文",
+        "小見出し2つ",
+        "日本の勢力拡大の吹き出し",
+        "主力艦と補助艦の比率",
+        "顔の外の感嘆符と句点",
+        "統帥権干犯問題のかぎ括弧と読み",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 270,
+      "ruby_count": 8,
+      "bold_range_count": 48,
+      "source_styles": {
+        "data-source-color:white": 3,
+        "data-source-background:black": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 20,
+        "data-source-background:red": 2,
+        "data-source-border:red": 1,
+        "data-source-color:gray": 10,
+        "data-source-marker:arrow": 3
+      },
+      "sidebar_included": false,
+      "sha256": "b6e4869db0fa8d8bb6d935acac516559bf80b57768e78bd02aeb06fa99284c73",
+      "visually_checked_regions": [
+        "本文全文",
+        "小見出し",
+        "節見出し",
+        "賠償問題と協調外交のクローズアップの全項目・年号・矢印・別名",
+        "黒い括弧と赤い文字の区別",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 271,
+      "ruby_count": 3,
+      "bold_range_count": 41,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:green": 4,
+        "data-source-color:red": 4,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "507c6b95055bb6e2310c87070a6c3f5fcebb75d162a1f78c07f4ece33d907bdb",
+      "visually_checked_regions": [
+        "本文全文",
+        "小見出し2つ",
+        "履行と札の読み",
+        "ルール占領の吹き出し",
+        "顔の外の感嘆符",
+        "次ページに続くドイツの通",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 272,
+      "ruby_count": 7,
+      "bold_range_count": 28,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 4,
+        "data-source-color:green": 2,
+        "data-source-border:circle": 4,
+        "data-source-marker:arrow": 3
+      },
+      "sidebar_included": false,
+      "sha256": "f2e46b6556461a30b22ae1fac7d97fff796352c1acde7ae131bd960e41843b4e",
+      "visually_checked_regions": [
+        "前ページからの貨",
+        "本文全文",
+        "小見出し",
+        "ドーズ案のお金の流れの図の全4国・説明・矢印3本・丸枠・色",
+        "吹き出し",
+        "顔の外の感嘆符と句点",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 273,
+      "ruby_count": 2,
+      "bold_range_count": 49,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 13,
+        "data-source-color:green": 2,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "1e512944283fb7ccacb0d6d51e8f275f5dcd700210ead06b9ff222bfb642bc4f",
+      "visually_checked_regions": [
+        "本文全文",
+        "小見出し",
+        "ドイツの国際連盟加盟の吹き出し",
+        "独仏国境の丸括弧と色",
+        "仲裁だけの読み",
+        "次ページに続くおこなうこ",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 274,
+      "ruby_count": 26,
+      "bold_range_count": 44,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-color:red": 29,
+        "data-source-color:green": 1,
+        "data-source-background:red": 1
+      },
+      "sidebar_included": false,
+      "sha256": "e7b8cfa385921d1a7bd8a72e49cb9ce4a0f6c7258e23fa3bea80b9f2483b9f29",
+      "visually_checked_regions": [
+        "前ページからのとが決められた",
+        "本文全文",
+        "ケロッグのッ",
+        "顔の外の感嘆符と句点",
+        "年号欄の全7項目・語呂・数字・色",
+        "1925の19は黒で25は赤",
+        "プープーの半濁点",
+        "次回の予告",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    }
+  ],
+  "preserved_existing_sources": [
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/01_古代オリエント世界の成立.md",
+      "bytes": 31817,
+      "sha256": "f9024578a68f55bd9c978e6050b753e6668daf004b6b1f5c003b79293351c511"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/02_古代オリエント世界の統一.md",
+      "bytes": 44059,
+      "sha256": "21719e63443aff70618fe3dbc98e62a720724bfdaac0617890069916a628876d"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/03_古代インド.md",
+      "bytes": 62621,
+      "sha256": "ea929ebcb3bd84e693788cffacd07ca44e7d7971f9af136e73a9efc0270a2463"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/04_古代ギリシア世界の成立.md",
+      "bytes": 48262,
+      "sha256": "be16e648bfaab3c69e9173a7af17045d48f11ae01a5f51c1aaa520b97cdeeaa8"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/05_ポリス社会の崩壊とヘレニズム.md",
+      "bytes": 51840,
+      "sha256": "20c99a00c21be93f3587cae0e30e81a3fca5392a83c1ac7079d90c5ab2ac94ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/06_ローマ共和政.md",
+      "bytes": 46581,
+      "sha256": "ed45db4cea5eb6a895d56f5c7269080de5b182fbba3fe549bffa809160b46c07"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/07_ローマ帝国とキリスト教.md",
+      "bytes": 61612,
+      "sha256": "a885ff13c6979125822b3156d526d72fff1cadc30a3c2a85a6488ecf006e6178"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/08_古代中国①（中国文明〜秦）.md",
+      "bytes": 41532,
+      "sha256": "1ad91d67c3d7df94e6c20240a7afb3a714218cd41ebe4fd7ac5ac5922035c358"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/09_古代中国②（漢〜魏晋南北朝時代）.md",
+      "bytes": 50515,
+      "sha256": "9f798bbe2b4ce8a7bede47a6b433699951c413785f7760fd9dfc80f09174d45a"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/10_古代中国③（隋〜唐）.md",
+      "bytes": 62280,
+      "sha256": "3db1c6d9c12adcb8b06d2b7d087858c644b425824b66d1ddca6b2bf70126ebcb"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/11_ゲルマン人の移動とフランク王国.md",
+      "bytes": 46598,
+      "sha256": "ec3676c9f4862f62ef1d674ddcd4194a5e1a1fc6cbf2dffcdb5234cbc1523aec"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/12_封建社会の形成とカトリック教会の発展.md",
+      "bytes": 40801,
+      "sha256": "3890bafd22ffb7424c78bed641efea8a33510bb002f7fc03fd484b693f040dc8"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/13_ビザンツ帝国と中世の東欧.md",
+      "bytes": 40182,
+      "sha256": "f11fc57de9688ba60149815f419dd9a046fb3aec87095d34d7aa64acac99fc45"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/14_十字軍と封建社会の変容.md",
+      "bytes": 57077,
+      "sha256": "4b61d500da44985ee2038e894bdda94f8b07c26724c0f56b452d6a5f03369ac0"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/15_中世の西ヨーロッパ諸国.md",
+      "bytes": 44028,
+      "sha256": "96ec4b05542cc97e86e9075dcb66d849a4fc4d9f9ebf9683c127d04152b25df3"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/16_中華世界の変容（五代十国〜宋）.md",
+      "bytes": 422577,
+      "sha256": "c964833191e1b30a0e9a1891e3a1b48a690d70456d45712039d6771c5aad7ba9"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/17_モンゴル帝国の時代.md",
+      "bytes": 38140,
+      "sha256": "6d7d7728c89213c6195ec7d0c97deda789a47b87a3dd5f8462af4610e225e2ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/18_中華帝国の繁栄（明・清）.md",
+      "bytes": 70513,
+      "sha256": "7893c644440a9975278b1d74f851d3981521482d5679dfd2a00b1023db23aa08"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/19_東南アジア世界.md",
+      "bytes": 39685,
+      "sha256": "49d4bd12ef5c2b6c2fc8899057f39398100f6abedbf12f611f934396ce68604a"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/20_イスラーム世界の形成.md",
+      "bytes": 51846,
+      "sha256": "18bd3156f93c4ce96bc0911087a6a6963677888b45e08f2e5c76b534cd9de116"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/21_イスラーム専制帝国の繁栄.md",
+      "bytes": 51340,
+      "sha256": "db5cfc267ecb6fa1fe5f0d816d705a46a235b0d04f301dad39320e3d0da6e96b"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/22_ルネサンスと大航海時代.md",
+      "bytes": 50219,
+      "sha256": "09f70077edde0d572520c38428b70326db06284c5a6b114fb09e649df95928e6"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/23_宗教改革.md",
+      "bytes": 51001,
+      "sha256": "19022d9c8737d6168fd7031032ca610eb4fc1c83d824693dd08260dc22b669a5"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/24_近世のヨーロッパ①（スペイン・オランダ）.md",
+      "bytes": 38926,
+      "sha256": "c7eec2d9ded4ce34e96bfe55e32516d426c1ac8e1c5d9c740f34286df8771341"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/25_近世のヨーロッパ②（イギリス・フランス）.md",
+      "bytes": 56162,
+      "sha256": "f253084f54c6e39df1fee2d7e648a7b5be42ebe5d4eec27ff6847db16591811d"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/26_近世のヨーロッパ③（ドイツ・ロシア）.md",
+      "bytes": 61143,
+      "sha256": "b4a1238a4f5bc5cbf955b68706c4dd88d3e32b7dc50d1f4233ab356508540e2c"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/27_産業革命とアメリカ独立革命.md",
+      "bytes": 55751,
+      "sha256": "9f0b6c49716753f012caa205cd1174d7bb0778d56158507802cddc7c88cd3900"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/28_フランス革命.md",
+      "bytes": 45082,
+      "sha256": "e68ec2d8e00ebc5e958edd524bb822702408d5fadbb07f7913f8ef2485e217f7"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/29_ナポレオンの時代.md",
+      "bytes": 38983,
+      "sha256": "ff758ca021ea934556aa5284644ef7a79deb4d8df2f58bca7e0166603c020828"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/30_17〜18世紀のヨーロッパ文化.md",
+      "bytes": 30315,
+      "sha256": "d9fac3ba70c7211c292cb9669f361c7072fc09431fd2d70d1f1b17bb927e259d"
+    },
+    {
+      "file": "sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md",
+      "bytes": 8697,
+      "sha256": "4710c02be0c1de8628b3c78cbd746a60564f35ac9f228a25b96f218048637697"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-so-question-types.md",
+      "bytes": 50157,
+      "sha256": "0f20e1404f95f5b39cf60881593939a22e44338f0c419d39976d9be3cc6a0a93"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-source-md-csv-generation.md",
+      "bytes": 47688,
+      "sha256": "f6c7e28c8e1f512b12a698ce97167c65865060dbb7697a8c89d6cf3bb96f6160"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/01_ウィーン体制とその崩壊.md",
+      "bytes": 125641,
+      "sha256": "165ddb691e4973afe09973efed87ac688207227b196b29359b37b716976e6cad"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/02_イギリスの自由主義とフランス第二帝政.md",
+      "bytes": 73476,
+      "sha256": "146b4662b580b1e418a0372071d1cb058d328086d671f0af9918d192c08f7d95"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/03_アメリカ合衆国の発展.md",
+      "bytes": 83961,
+      "sha256": "72fca4fe17c9b56f4a384f31d1f88792332f5ae71ddde72902fd2d5483353741"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/04_イタリア・ドイツの統一.md",
+      "bytes": 103926,
+      "sha256": "5222e5c09e3975b68718e5e2046deb9788a09d032cee080b35d94ee0840b8fbd"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/05_ロシアと東方問題.md",
+      "bytes": 72669,
+      "sha256": "f061a5cc959ed1869062f43104dc31a5d221133a2c7a5c21675607723abd52d1"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/06_19世紀のヨーロッパ文化.md",
+      "bytes": 82057,
+      "sha256": "af46239545496b762e50752e37b8e0088e105bb2530e343282e0faff0338cf24"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/07_近代の西アジア.md",
+      "bytes": 70572,
+      "sha256": "c088d4763a1afc9d04d628565e3be75bd9ea4b905fe4357a8fdd45233268384e"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/08_近代のインド・東南アジア.md",
+      "bytes": 98667,
+      "sha256": "e7632b36c6e6aacbca0f061ed5609a393fb16bc945f9d77bcd0f2329033f7c8d"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/09_近代の東アジア①.md",
+      "bytes": 110806,
+      "sha256": "298ad2bac1aa8824ecac56a7816497b46efda2cc72de85bdf29c293c96004018"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/10_近代の東アジア②.md",
+      "bytes": 112823,
+      "sha256": "4caf2efbb5c8255cf49d39c16da69db58ba4e447e222ed0bfc2224cfd5725d9f"
+    },
+    {
+      "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/11_帝国主義とアフリカ分割.md",
+      "bytes": 76533,
+      "sha256": "46274fb1eae774d30ce9d96d54c12a29e68200018eac6e68266811f5876f3f11"
+    },
+    {
+      "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/12_帝国主義時代の欧米諸国.md",
+      "bytes": 111971,
+      "sha256": "a081d0bbc3fd393b9f054213bf554bcc72ea6b2cf6f06263f72ca23589999215"
+    },
+    {
+      "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/13_第一次世界大戦とロシア革命.md",
+      "bytes": 123405,
+      "sha256": "2b7b296d9009370b4b3e728f910c668bff8a0fb82883de7c39e4b70e93b8b752"
+    },
+    {
+      "file": "sources/近代・現代/sekai_shi_tankyu_mokuji.md",
+      "bytes": 7892,
+      "sha256": "766d34236036053f9847d1128cc98151b8f359baf91503c173a62b8699f11c10"
+    }
+  ],
+  "validation": {
+    "consecutive_pages": true,
+    "source_emphasis_tags_balanced": true,
+    "all_existing_source_hashes_unchanged": true,
+    "all_original_image_hashes_unchanged": true,
+    "user_changes_unchanged": true,
+    "source_and_images_git_ignored": true,
+    "web_lessons_added": false,
+    "regression_checks": [
+      {
+        "command": "npm run check:transcriptions",
+        "exit_code": 0,
+        "duration_seconds": 1.0401533000040217,
+        "log_sha256": "83c042fb9332f5155643dce6553c3d3027c5bf7356fcedd7ea2653635e46f935"
+      },
+      {
+        "command": "npm run check",
+        "exit_code": 0,
+        "duration_seconds": 17.385943100001896,
+        "log_sha256": "76549c6d3fb98bc8614e6ffe3e1a5f355e4340c7d39f04c3a397855c877eeb81"
+      },
+      {
+        "command": "npm run build",
+        "exit_code": 0,
+        "duration_seconds": 18.05404830000043,
+        "log_sha256": "c338734f252df8ab12ff51c14672500a8816050e100c030bb3ffa128285677ea"
+      }
+    ],
+    "integrity_checks": {
+      "new_source_unchanged": true,
+      "consecutive_pages": 16,
+      "protected_sources": 47,
+      "source_images": 9,
+      "boundary_image_shared_with_last_source": true,
+      "unique_original_images": 9,
+      "user_changes_unchanged": true,
+      "public_version_only_files": 139,
+      "previous_release_history_unchanged": true,
+      "published_catalog_unchanged_except_version": true,
+      "diff_check_exit_code": 0
+    },
+    "ruby_count": 96,
+    "bold_range_count": 660
+  }
+}
