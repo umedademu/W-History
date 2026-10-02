@@ -1,0 +1,1706 @@
+{
+  "date": "2026-10-02",
+  "version": "0.099",
+  "volume": "近代・現代",
+  "chapter": 4,
+  "chapter_title": "戦間期と第二次世界大戦",
+  "chapter_cover_included": false,
+  "chapter_cover_page": null,
+  "lesson": 16,
+  "lesson_title": "戦間期の西アジア・南アジア・東南アジア",
+  "lesson_cover_page": 293,
+  "source_file": "sources/近代・現代/04_戦間期と第二次世界大戦/16_戦間期の西アジア・南アジア・東南アジア.md",
+  "source_sha256": "d977f9ae1418f2c95aaa0c0c9f940bca434ad3acd6750e26503d53b88af1c3b6",
+  "source_bytes": 90835,
+  "pages": [
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309
+  ],
+  "page_count": 17,
+  "blank_pages": [],
+  "pages_with_printed_text": 17,
+  "section_start_pages": [
+    294,
+    297,
+    301,
+    305
+  ],
+  "japanese_history_approach_page": null,
+  "next_chapter_cover_page": null,
+  "next_chapter_title": null,
+  "next_chapter_boundary_image": null,
+  "next_lesson_start_page": 310,
+  "next_lesson_title": "戦間期の東アジア",
+  "next_lesson_boundary_image": {
+    "index": 152,
+    "filename": "Kindle_hfeRvmxl3s.png",
+    "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_hfeRvmxl3s.png",
+    "creationTime": "2026-10-02T02:54:11.840782+09:00",
+    "bytes": 1681205,
+    "sha256": "019c91ea5ad06d5fe69188a3084bd02e8c0f9f05f3712ed0096f4bd8636cc9c2",
+    "spreadPages": [
+      310,
+      311
+    ],
+    "selectedPages": []
+  },
+  "boundary_page": 310,
+  "boundary_image_shared_with_source_page": null,
+  "image_count": 9,
+  "unique_original_image_count": 10,
+  "first_image_shared_with_previous_lesson_page": 292,
+  "reader": "担当の原画像読み取り、Antigravity CLI経由のGemini 3.8 Flashによる独立した本文読み取り、原画像による相違と装飾の照合",
+  "authorization": "第15回に続く利用者の続けてに従い、第4章第16回を新規作成。",
+  "rules_document": "docs/source-transcription-rules.md",
+  "comparison_document": "docs/source-transcription-comparison.md",
+  "proofreading": "293〜309ページの全17ページを確認。回の扉・概観4項目・地図4枚・図1つ・表1つ・クローズアップ2つ・コラム・合否の分かれ目・吹き出し・年号欄4項目と補足・欄外目次8ページ・太字・斜体・色・下線・背景・枠と線の種類・取り消し印・矢印・点・読み仮名を原画像で照合。保存前の草稿だけを修正。",
+  "independently_compared_pages": [
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309
+  ],
+  "comparison_trials": [
+    {
+      "name": "text-a",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        293,
+        294,
+        295,
+        296
+      ],
+      "duration_seconds": 75.40146299999469,
+      "request_sha256": "5984c2545e61ac22418e89d687656c042e363c6cb67a28208fcc2c422dd5daf3",
+      "response_sha256": "6fa33daa5a538b5abbc5dc56d5dabaa9b57180eae005767be998172b59731af9",
+      "reported_uncertainties": {
+        "293": [],
+        "294": [],
+        "295": [],
+        "296": []
+      }
+    },
+    {
+      "name": "text-b",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        297,
+        298,
+        299,
+        300
+      ],
+      "duration_seconds": 136.4215292000008,
+      "request_sha256": "130bbd5ba89059e13561d26eabf992898cf63479f269524a6c349504191642b8",
+      "response_sha256": "bd345dab4dcad35af6e412ee8cb9cf223aac42c9c63777cd2ef53e54d2e48d7a",
+      "reported_uncertainties": {
+        "297": [
+          "「社会主義共和国建設する」の「国」と「建」の間にマウスポインタが重なって表示されている（行の字数・字間から文字の欠落はないと判断）"
+        ],
+        "298": [],
+        "299": [
+          "「フセインの息子ファイサル」の「ァ」にマウスポインタが重なって表示されている（文脈および後続の記述から「ファイサル」と判断）"
+        ],
+        "300": []
+      }
+    },
+    {
+      "name": "text-c",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        301,
+        302,
+        303,
+        304
+      ],
+      "duration_seconds": 87.92945479999617,
+      "request_sha256": "4901a2150dc624c427114cd9207f6ec65252de7e0aa5e4e0966b05ff1c1f0e82",
+      "response_sha256": "270afa2e511db398964f7a1a3c2909a1a8cbe79c8a66660d48c1ff6e3d458a20",
+      "reported_uncertainties": {
+        "301": [],
+        "302": [],
+        "303": [],
+        "304": []
+      }
+    },
+    {
+      "name": "text-d",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        305,
+        306,
+        307,
+        308
+      ],
+      "duration_seconds": 83.1195024999979,
+      "request_sha256": "d258e2cce8158e986e0ce8a73b6a0ef8e74010e47b59945b20b087741ab31072",
+      "response_sha256": "10ecf3497483f60e3743b1e767120f5f5d023d7114e4a975536d1b03cf9b3087",
+      "reported_uncertainties": {
+        "305": [],
+        "306": [],
+        "307": [],
+        "308": []
+      }
+    },
+    {
+      "name": "text-e",
+      "model": "gemini-3.8-flash-high",
+      "status": "SUCCESS",
+      "pages": [
+        309
+      ],
+      "duration_seconds": 119.86855239999568,
+      "request_sha256": "202d52fd79c348e8f5c186cf84317a07db0b9875a8d2e5aac235ffba73854d28",
+      "response_sha256": "b902cb555c43359fc4acb3cc9bfc62f9990c7bbe52cada2e88a273ef65bd3013",
+      "reported_uncertainties": {
+        "309": []
+      }
+    }
+  ],
+  "unsuccessful_comparison_attempts": [],
+  "own_draft_corrections": [
+    {
+      "page": 293,
+      "before": "<下線>イラン・イラク</下線>",
+      "after": "<下線>イラン＝クーデタ</下線>",
+      "reason": "原画像の固有名詞の並びを確認。概要欄にも本文にも知識による国名の補完をしない。"
+    },
+    {
+      "page": 293,
+      "before": "<下線>ウィルソンの十四カ条</下線>",
+      "after": "<下線>**ウィルソンの十四カ条**</下線>",
+      "reason": "赤い下線に重なる黒い太字の範囲を原画像と照合。"
+    },
+    {
+      "page": 293,
+      "before": "<下線>インド</下線>",
+      "after": "<下線>**インド**</下線>",
+      "reason": "赤い下線に重なる黒い太字の範囲を原画像と照合。"
+    },
+    {
+      "page": 293,
+      "before": "<下線>東南アジア</下線>",
+      "after": "<下線>**東南アジア**</下線>",
+      "reason": "赤い下線に重なる黒い太字の範囲を原画像と照合。"
+    },
+    {
+      "page": 293,
+      "before": "<下線>民族運動が盛り上がった</下線>",
+      "after": "<下線>**民族運動が盛り上がった**</下線>",
+      "reason": "赤い下線に重なる黒い太字の範囲を原画像と照合。"
+    },
+    {
+      "page": 293,
+      "before": "<下線>オスマン帝国</下線>",
+      "after": "<下線>**オスマン帝国**</下線>",
+      "reason": "赤い下線に重なる黒い太字の範囲を原画像と照合。"
+    },
+    {
+      "page": 293,
+      "before": "<下線>トルコ革命</下線>",
+      "after": "<下線>**トルコ革命**</下線>",
+      "reason": "赤い下線に重なる黒い太字の範囲を原画像と照合。"
+    },
+    {
+      "page": 293,
+      "before": "<下線>イラン＝クーデタ</下線>",
+      "after": "<下線>**イラン＝クーデタ**</下線>",
+      "reason": "赤い下線に重なる黒い太字の範囲を原画像と照合。"
+    },
+    {
+      "page": 293,
+      "before": "<下線>アラブ諸国</下線>",
+      "after": "<下線>**アラブ諸国**</下線>",
+      "reason": "赤い下線に重なる黒い太字の範囲を原画像と照合。"
+    },
+    {
+      "page": 293,
+      "before": "でも、列強は",
+      "after": "でも、<ruby>列強<rt>れっきょう</rt></ruby>は",
+      "reason": "行をまたぐ列・強の印刷された読み仮名を収録。"
+    },
+    {
+      "page": 294,
+      "before": "第一次世界大戦で**同盟国（ドイツ側）**",
+      "after": "**第一次世界大戦で同盟国（ドイツ側）**",
+      "reason": "黒い太字は冒頭の第一次世界大戦でから始まる。"
+    },
+    {
+      "page": 294,
+      "before": "**オスマン帝国（トルコ）**",
+      "after": "**オスマン帝国**（トルコ）",
+      "reason": "国名の太字と、通常の丸括弧・別称を区別。"
+    },
+    {
+      "page": 294,
+      "before": "<白太桃>トルコ革命</白太桃>",
+      "after": "<span data-source-color=\"black\" data-source-background=\"pink\" style=\"color:#222222;background-color:#f0a0a0\">**トルコ革命**</span>",
+      "reason": "クローズアップの題名は桃色の背景に黒い太字。白抜きにしない。"
+    },
+    {
+      "page": 302,
+      "before": "<白太桃>インドの民族運動</白太桃>",
+      "after": "<span data-source-color=\"black\" data-source-background=\"pink\" style=\"color:#222222;background-color:#f0a0a0\">**インドの民族運動**</span>",
+      "reason": "クローズアップの題名は桃色の背景に黒い太字。白抜きにしない。"
+    },
+    {
+      "page": 295,
+      "before": "によるトルコ共和国国境",
+      "after": "によるトルコ共和国の国境",
+      "reason": "凡例の原画像に印刷された助詞「の」を収録。"
+    },
+    {
+      "page": 295,
+      "before": "●</span>イスタンブル",
+      "after": "●</span><em data-source-italic=\"true\" style=\"font-style:italic\">イスタンブル</em>",
+      "reason": "地図の地名に印刷された斜体を保存。本文の同名の語句へは付けない。"
+    },
+    {
+      "page": 295,
+      "before": "●</span>アンカラ",
+      "after": "●</span><em data-source-italic=\"true\" style=\"font-style:italic\">アンカラ</em>",
+      "reason": "地図の地名に印刷された斜体を保存。本文の同名の語句へは付けない。"
+    },
+    {
+      "page": 295,
+      "before": "| イズミル |",
+      "after": "| <em data-source-italic=\"true\" style=\"font-style:italic\">イズミル</em> |",
+      "reason": "地図の地名に印刷された斜体を保存。本文の同名の語句へは付けない。"
+    },
+    {
+      "page": 295,
+      "before": "<赤枠>ギリシア領</赤枠>",
+      "after": "<赤枠><em data-source-italic=\"true\" style=\"font-style:italic\">ギリシア領</em></赤枠>",
+      "reason": "地図の赤枠と、枠内の黒い斜体を重ねて区別。"
+    },
+    {
+      "page": 295,
+      "before": "<赤枠>アルメニア国家</赤枠>",
+      "after": "<赤枠><em data-source-italic=\"true\" style=\"font-style:italic\">アルメニア国家</em></赤枠>",
+      "reason": "地図の赤枠と、枠内の黒い斜体を重ねて区別。"
+    },
+    {
+      "page": 295,
+      "before": "<赤枠>イタリア支配地域</赤枠>",
+      "after": "<赤枠><em data-source-italic=\"true\" style=\"font-style:italic\">イタリア支配地域</em></赤枠>",
+      "reason": "地図の赤枠と、枠内の黒い斜体を重ねて区別。"
+    },
+    {
+      "page": 295,
+      "before": "<赤枠>フランス支配地域</赤枠>",
+      "after": "<赤枠><em data-source-italic=\"true\" style=\"font-style:italic\">フランス支配地域</em></赤枠>",
+      "reason": "地図の赤枠と、枠内の黒い斜体を重ねて区別。"
+    },
+    {
+      "page": 295,
+      "before": "<赤枠>イギリス支配地域</赤枠>",
+      "after": "<赤枠><em data-source-italic=\"true\" style=\"font-style:italic\">イギリス支配地域</em></赤枠>",
+      "reason": "地図の赤枠と、枠内の黒い斜体を重ねて区別。"
+    },
+    {
+      "page": 295,
+      "before": "| **レバノン** |",
+      "after": "| <em data-source-italic=\"true\" style=\"font-style:italic\">**レバノン**</em> |",
+      "reason": "地図内の国名の黒い太字に重なる斜体を保存。"
+    },
+    {
+      "page": 295,
+      "before": "| **シリア** |",
+      "after": "| <em data-source-italic=\"true\" style=\"font-style:italic\">**シリア**</em> |",
+      "reason": "地図内の国名の黒い太字に重なる斜体を保存。"
+    },
+    {
+      "page": 295,
+      "before": "| **ヨルダン** |",
+      "after": "| <em data-source-italic=\"true\" style=\"font-style:italic\">**ヨルダン**</em> |",
+      "reason": "地図内の国名の黒い太字に重なる斜体を保存。"
+    },
+    {
+      "page": 295,
+      "before": "| **イラク** |",
+      "after": "| <em data-source-italic=\"true\" style=\"font-style:italic\">**イラク**</em> |",
+      "reason": "地図内の国名の黒い太字に重なる斜体を保存。"
+    },
+    {
+      "page": 296,
+      "before": "マドラサ**を廃止したよ。これは",
+      "after": "マドラサ**を廃止したよ。これには",
+      "reason": "原画像の「これには」を確認。本文の助詞を省略しない。"
+    },
+    {
+      "page": 299,
+      "before": "**英仏両国**はこれを潰して",
+      "after": "**英仏両国**はこれを<ruby>潰<rt>つぶ</rt></ruby>して",
+      "reason": "「潰」の上の読み仮名「つぶ」を保存。仏の読みと取り違えない。"
+    },
+    {
+      "page": 300,
+      "before": "国境や支配を決めちゃった",
+      "after": "国境や支配者を決めちゃった",
+      "reason": "原画像の「支配者」を確認。末尾の文字を収録。"
+    },
+    {
+      "page": 302,
+      "before": "| パンジャーブ地方 |",
+      "after": "| **パンジャーブ地方** |",
+      "reason": "地図内の地方名の黒い太字を保存。"
+    },
+    {
+      "page": 302,
+      "before": "○</span>ラホール",
+      "after": "○</span><em data-source-italic=\"true\" style=\"font-style:italic\">ラホール</em>",
+      "reason": "地図の都市名の斜体と白抜きの丸を別々に保存。"
+    },
+    {
+      "page": 302,
+      "before": "○</span>アムリットサール",
+      "after": "○</span><em data-source-italic=\"true\" style=\"font-style:italic\">アムリットサール</em>",
+      "reason": "地図の都市名の斜体と白抜きの丸を別々に保存。"
+    },
+    {
+      "page": 302,
+      "before": "○</span>カルカッタ",
+      "after": "○</span><em data-source-italic=\"true\" style=\"font-style:italic\">カルカッタ</em>",
+      "reason": "地図の都市名の斜体と白抜きの丸を別々に保存。"
+    },
+    {
+      "page": 302,
+      "before": "すごこれ、何もしてない人を",
+      "after": "でもこれ、何もしてない人を",
+      "reason": "原画像に印刷された接続の語句「でもこれ」を確認。"
+    },
+    {
+      "page": 304,
+      "before": "**塩の<ruby>専売法<rt>せんばいほう</rt></ruby>に反対して**",
+      "after": "**塩の<ruby>専売法<rt>せんばいほう</rt></ruby>に反対**して",
+      "reason": "黒い太字は「反対」まで。「して」は通常の本文の字。"
+    },
+    {
+      "page": 305,
+      "before": "**分離**されたよ。",
+      "after": "分離されたよ。",
+      "reason": "前ページから続く語句でも、このページの「分離」は通常の字として保存。"
+    },
+    {
+      "page": 307,
+      "before": "**ファン＝ボイ＝チャウが逮捕される**",
+      "after": "**ファン＝ボイ＝チャウが逮捕**される",
+      "reason": "原画像の黒い太字の終端は逮捕まで。"
+    },
+    {
+      "page": 308,
+      "before": "> スカルノは、オランダからの独立のために、うまいこと日本を利用したんだよ",
+      "after": "> スカルノは、オランダからの独立のために、うまいこと日本軍を利用したんだよ",
+      "reason": "吹き出しの原画像に「日本軍」と印刷されている。"
+    },
+    {
+      "page": 309,
+      "before": "**オスマン帝国（成立〜滅亡）**",
+      "after": "**オスマン帝国**（**成立〜滅亡**）",
+      "reason": "年号欄で国名と括弧内の語句の太字、通常の丸括弧を区別。"
+    },
+    {
+      "page": 309,
+      "before": "<em data-source-color=\"black\" style=\"color:#222222;font-style:normal\">ン</em>",
+      "after": "<span data-source-color=\"black\" style=\"color:#222222\">ン</span>",
+      "reason": "年号の下側の読み「ニン」は赤いニと黒いン。斜体の指定を加えない。"
+    }
+  ],
+  "comparison_resolution_notes": [
+    {
+      "page": 293,
+      "note": "イラン＝クーデタを原文のまま保存。概観は並列の4項目で、次回の扉の接続矢印をこの扉へ補わない。"
+    },
+    {
+      "page": 294,
+      "note": "クローズアップの題名は桃色背景に黒い太字。初めの第一次世界大戦でから太字を保存し、オスマン帝国の別称（トルコ）は通常の字とする。"
+    },
+    {
+      "page": 295,
+      "note": "凡例の共和国の国境の「の」を保存。赤枠と斜体、都市の赤い点、国名の太字と斜体を区別。ギリシア領の吹き出しの先端は征服矢印として扱わない。"
+    },
+    {
+      "page": 296,
+      "note": "これにはを保存。Geminiの目指したんだへの加筆は採用せず、目指したを保持。図の取り消し印は赤2つ・茶1つを属性と取り消し線で記録し、独自の×や重複したスルタンを加えない。"
+    },
+    {
+      "page": 297,
+      "note": "秘密交渉していたの外の！。を保持し、Geminiが加えたんだは採用しない。社会主義共和国を建設は指示矢印が一部重なるため、残る字形と前後の本文で照合。"
+    },
+    {
+      "page": 298,
+      "note": "認めたよねのね、ハーシム家だの外の！。を保持。コラムの本文3段落と曲がった矢印を収録し、原文のちょっと寄り耳を別名に変えない。"
+    },
+    {
+      "page": 299,
+      "note": "地図に題名を補わない。征服の矢印とサウジアラビア王国の白抜きを保存。潰のつぶは仏の読みとして誤って加えない。"
+    },
+    {
+      "page": 300,
+      "note": "支配者を保存。表の全5行・全セルと1928の名目的独立を保持し、知識による年号の変更をしない。"
+    },
+    {
+      "page": 301,
+      "note": "駐兵の読みはちゅうへい。本文・節見出し・吹き出しを全文保存。"
+    },
+    {
+      "page": 302,
+      "note": "でもこれを採用。語尾は認められるだろで、Geminiの追加したうを加えない。地図の地方名は黒い太字、都市名と川名は斜体。"
+    },
+    {
+      "page": 303,
+      "note": "差別撤廃には原画像に読み仮名がないので補わない。かは次ページのえってと結合しない。"
+    },
+    {
+      "page": 304,
+      "note": "塩の専売法に反対までを太字とし、しては通常の字。原画像にある外の感嘆符を省略しない。"
+    },
+    {
+      "page": 305,
+      "note": "チャンドラ・ボースを保持し、Geminiの等号に変更しない。前ページの完全に続く分離はこの紙面では通常の字。上部の節名を省略しない。"
+    },
+    {
+      "page": 306,
+      "note": "アウン＝サンだを保持し、Geminiのよを加えない。顔の外の！。を残す。日本軍の最大勢力範囲は赤い帯であり、方向矢印に変更しない。"
+    },
+    {
+      "page": 307,
+      "note": "デモがおこりのひらがなを保持し、Geminiの起こりへ変えない。別名はイスラーム同盟、正式名はサレカット＝イスラム。ブディ＝は次ページと結合しない。"
+    },
+    {
+      "page": 308,
+      "note": "吹き出しの日本軍を採用し、軍を落とさない。ムルデカ運動の別名は黒い太字。"
+    },
+    {
+      "page": 309,
+      "note": "おお住まん帝国を保持し、Geminiの省略したおを残す。蔣介石の蔣を蒋にそろえない。人の数字2と下のニンを両方保存し、ンのみ黒。黒い1と赤い下3桁、1929の全赤を区別。"
+    },
+    {
+      "page": 310,
+      "note": "別の元画像の左側で第17回「戦間期の東アジア」の扉を確認。今回の原文へ収録しない。"
+    }
+  ],
+  "source_occlusion_notes": [
+    {
+      "page": 293,
+      "region": "本文の「って」の一部",
+      "treatment": "残る字形と前後の本文を照合。"
+    },
+    {
+      "page": 295,
+      "region": "地図の凡例の上の空白",
+      "treatment": "本文の文字には重ならない。"
+    },
+    {
+      "page": 297,
+      "region": "社会主義共和国を建設の一部",
+      "treatment": "指示矢印が助詞付近に重なる。残る字形と前後の文を照合し、全字形が見える根拠とは扱わない。"
+    },
+    {
+      "page": 299,
+      "region": "ファイサルのファ付近",
+      "treatment": "残る字形と同じページの人名の印刷を照合。"
+    },
+    {
+      "page": 301,
+      "region": "ヒンドゥー教徒とイスラーム教徒が反英で協力の一部",
+      "treatment": "残る字形と同じページの教徒名を照合。"
+    },
+    {
+      "page": 303,
+      "region": "インド共産党の結成もこの時期の一部",
+      "treatment": "残る字形と前後の印刷を照合。"
+    },
+    {
+      "page": 305,
+      "region": "国名見出しの背景の右側",
+      "treatment": "文字には重ならない。"
+    },
+    {
+      "page": 307,
+      "region": "国名見出しの背景の右側",
+      "treatment": "文字には重ならない。"
+    },
+    {
+      "page": 309,
+      "region": "年号欄の1299と1922の間の波線付近",
+      "treatment": "残る字形と同じ行の成立〜滅亡の表記を照合。"
+    }
+  ],
+  "ruby_details": [
+    {
+      "page": 293,
+      "text": "列強",
+      "ruby_target": "列強",
+      "ruby_text": "れっきょう"
+    },
+    {
+      "page": 297,
+      "text": "一夫一婦制",
+      "ruby_target": "一夫一婦制",
+      "ruby_text": "いっぷいっぷせい",
+      "note": "印刷された読みを一般的な読みで修正しない。"
+    },
+    {
+      "page": 299,
+      "text": "潰して",
+      "ruby_target": "潰",
+      "ruby_text": "つぶ"
+    },
+    {
+      "page": 307,
+      "text": "東遊運動",
+      "ruby_target": "東遊",
+      "ruby_text": "ドンズー"
+    },
+    {
+      "page": 307,
+      "text": "広東",
+      "ruby_target": "広東",
+      "ruby_text": "カントン"
+    },
+    {
+      "page": 309,
+      "text": "肉食う国に",
+      "numeric_ruby_sequence": [
+        {
+          "text": "肉",
+          "ruby": "29"
+        },
+        {
+          "text": "食",
+          "ruby": "9"
+        },
+        {
+          "text": "国",
+          "ruby": "92"
+        },
+        {
+          "text": "に",
+          "ruby": "2"
+        }
+      ],
+      "note": "年号の先頭の1を語呂に補わない。"
+    },
+    {
+      "page": 309,
+      "text": "おお住まん帝国",
+      "reading_sequence": [
+        {
+          "text": "おお",
+          "ruby": "オ"
+        },
+        {
+          "text": "住",
+          "ruby": "ス"
+        },
+        {
+          "text": "ま",
+          "ruby": "マ"
+        },
+        {
+          "text": "ん",
+          "ruby": "ン"
+        }
+      ]
+    },
+    {
+      "page": 309,
+      "text": "国よ",
+      "numeric_ruby_sequence": [
+        {
+          "text": "国",
+          "ruby": "92"
+        },
+        {
+          "text": "よ",
+          "ruby": "4"
+        }
+      ]
+    },
+    {
+      "page": 309,
+      "text": "いく人苦労で",
+      "numeric_ruby_sequence": [
+        {
+          "text": "い",
+          "ruby": "1"
+        },
+        {
+          "text": "く",
+          "ruby": "9"
+        },
+        {
+          "text": "人",
+          "ruby": "2"
+        },
+        {
+          "text": "苦",
+          "ruby": "9"
+        }
+      ],
+      "lower_reading": {
+        "text": "人",
+        "ruby_text": "ニン",
+        "red": "ニ",
+        "black": "ン"
+      }
+    },
+    {
+      "page": 309,
+      "text": "組み込む",
+      "numeric_ruby_sequence": [
+        {
+          "text": "組",
+          "ruby": "9"
+        },
+        {
+          "text": "み",
+          "ruby": "3"
+        },
+        {
+          "text": "込",
+          "ruby": "5"
+        }
+      ]
+    },
+    {
+      "page": 309,
+      "text": "蔣介石",
+      "ruby_target": "蔣介石",
+      "ruby_text": "しょうかいせき",
+      "note": "蔣を蒋へそろえない。"
+    }
+  ],
+  "independent_draft_snapshot_sha256": "207f10e8c276f33b03301ccb49c48a710d6134b6c7ee4245b82f30e0c8c0f956",
+  "final_text_comparison_sha256": "5a5a5295662b14db12afd6f0559976c82c04ee12ef3b84f6fbc572c370860edb",
+  "own_draft_completed_before_reading_comparison_text": true,
+  "source_images": [
+    {
+      "index": 143,
+      "filename": "Kindle_bdpnDthZPP.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_bdpnDthZPP.png",
+      "creationTime": "2026-10-02T02:54:03.476039+09:00",
+      "bytes": 1611977,
+      "sha256": "52b0c5a6c3dbb05cf6ddd62c24cc8687d88fd885e181ea883db2811baa1d16ea",
+      "spreadPages": [
+        292,
+        293
+      ],
+      "selectedPages": [
+        293
+      ]
+    },
+    {
+      "index": 144,
+      "filename": "Kindle_XmvhWxx9mS.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_XmvhWxx9mS.png",
+      "creationTime": "2026-10-02T02:54:04.358168+09:00",
+      "bytes": 1529686,
+      "sha256": "9247580953e52b997c7676c3ae64b3a39746f5025e774238af06d6d665835714",
+      "spreadPages": [
+        294,
+        295
+      ],
+      "selectedPages": [
+        294,
+        295
+      ]
+    },
+    {
+      "index": 145,
+      "filename": "Kindle_mtAN7op46r.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_mtAN7op46r.png",
+      "creationTime": "2026-10-02T02:54:05.267282+09:00",
+      "bytes": 1522138,
+      "sha256": "d9bf949934fb2ee26bdd604a009fb3dc3dc3bb769877e87a4816186988c6c587",
+      "spreadPages": [
+        296,
+        297
+      ],
+      "selectedPages": [
+        296,
+        297
+      ]
+    },
+    {
+      "index": 146,
+      "filename": "Kindle_z4KQdGXMLI.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_z4KQdGXMLI.png",
+      "creationTime": "2026-10-02T02:54:06.146338+09:00",
+      "bytes": 1484840,
+      "sha256": "f58ea494f465b1debffdd33aa7f5d5e0d66f30af84f008ca38cff6140c67fc04",
+      "spreadPages": [
+        298,
+        299
+      ],
+      "selectedPages": [
+        298,
+        299
+      ]
+    },
+    {
+      "index": 147,
+      "filename": "Kindle_EX7G3GktIZ.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_EX7G3GktIZ.png",
+      "creationTime": "2026-10-02T02:54:07.066569+09:00",
+      "bytes": 1376580,
+      "sha256": "387d74c02dcaafe816a40f4e7bcd0f6a12f1f6c460c64b02bb3cb8430c621e61",
+      "spreadPages": [
+        300,
+        301
+      ],
+      "selectedPages": [
+        300,
+        301
+      ]
+    },
+    {
+      "index": 148,
+      "filename": "Kindle_cPYShd3qjm.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_cPYShd3qjm.png",
+      "creationTime": "2026-10-02T02:54:08.001568+09:00",
+      "bytes": 1506427,
+      "sha256": "a9ca3642bf8a148b5bc6abbddb311f6ea15a9b7052f7f630cc8c1cdea79c0b2d",
+      "spreadPages": [
+        302,
+        303
+      ],
+      "selectedPages": [
+        302,
+        303
+      ]
+    },
+    {
+      "index": 149,
+      "filename": "Kindle_NS5kD2LHqs.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_NS5kD2LHqs.png",
+      "creationTime": "2026-10-02T02:54:08.875910+09:00",
+      "bytes": 1554085,
+      "sha256": "e465d056ddf4a00acf7533f8779bc726bc3a3d16783ee0b02cc8cfde4d7e6aa4",
+      "spreadPages": [
+        304,
+        305
+      ],
+      "selectedPages": [
+        304,
+        305
+      ]
+    },
+    {
+      "index": 150,
+      "filename": "Kindle_fysh3ssubU.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_fysh3ssubU.png",
+      "creationTime": "2026-10-02T02:54:09.823905+09:00",
+      "bytes": 1472454,
+      "sha256": "130bc04d5f38590ce1e1542dc098c202f94bb0d2418372f88bf4049d1139a723",
+      "spreadPages": [
+        306,
+        307
+      ],
+      "selectedPages": [
+        306,
+        307
+      ]
+    },
+    {
+      "index": 151,
+      "filename": "Kindle_JZN2jaiqhr.png",
+      "path": "C:\\Users\\USER\\Documents\\ShareX\\Screenshots\\2026-10\\Kindle_JZN2jaiqhr.png",
+      "creationTime": "2026-10-02T02:54:10.884904+09:00",
+      "bytes": 1449374,
+      "sha256": "ff4ed7892f86821d2b5bb4356e528667e5241465abd4e3ffcff94f6f7858d837",
+      "spreadPages": [
+        308,
+        309
+      ],
+      "selectedPages": [
+        308,
+        309
+      ]
+    }
+  ],
+  "page_checks": [
+    {
+      "page": 293,
+      "ruby_count": 3,
+      "bold_range_count": 18,
+      "source_styles": {
+        "data-source-color:white": 11,
+        "data-source-background:black": 5,
+        "data-source-background:red": 6,
+        "data-source-underline-color:red": 8,
+        "data-source-color:red": 1
+      },
+      "sidebar_included": false,
+      "sha256": "ebbd23f4ab37cb698a3eb9767c6b3c01210e634dcf56baf382894a9d8b4547e9",
+      "visually_checked_regions": [
+        "回の扉",
+        "導入と本文全文",
+        "概観の全4項目とページ範囲",
+        "縦書きの吹き出し",
+        "太字と赤い下線",
+        "イラン＝クーデタの原文表記",
+        "列強・自決・講和の読み",
+        "概観へ接続矢印を補わない"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": false
+    },
+    {
+      "page": 294,
+      "ruby_count": 4,
+      "bold_range_count": 53,
+      "source_styles": {
+        "data-source-color:white": 3,
+        "data-source-background:black": 1,
+        "data-source-background:red": 2,
+        "data-source-border:red": 1,
+        "data-source-color:green": 14,
+        "data-source-color:red": 20,
+        "data-source-color:black": 1,
+        "data-source-background:pink": 1
+      },
+      "sidebar_included": false,
+      "sha256": "6c7bbb0bc125905748df7fc330ee61e584d57e17bf1c0d6ce56b6f75d1cbb67c",
+      "visually_checked_regions": [
+        "節見出し",
+        "小見出し",
+        "本文全文",
+        "同盟国とオスマン帝国の太字の範囲",
+        "トルコ革命のクローズアップ全項目・数字・別名・矢印",
+        "桃色の背景に黒い題名",
+        "顔の外の句読点",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 295,
+      "ruby_count": 4,
+      "bold_range_count": 44,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:green": 2,
+        "data-source-color:red": 13,
+        "data-source-marker:point": 2,
+        "data-source-italic:true": 12,
+        "data-source-border:red": 6,
+        "data-source-border:green": 1,
+        "data-source-marker:dashed-line": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "4e320337855df51d850f0dc28799705d1b40e795a6f43ba6574f19e43c7c97dd",
+      "visually_checked_regions": [
+        "小見出し2つ",
+        "本文全文",
+        "分割地図の全14名称と凡例",
+        "都市の赤い点2つ",
+        "赤枠と地名の斜体",
+        "国名の太字と斜体",
+        "共和国の国境の助詞の",
+        "地図の吹き出し",
+        "連合国に接近の外の感嘆符と読点",
+        "次ページに続く1922年",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 296,
+      "ruby_count": 5,
+      "bold_range_count": 51,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 12,
+        "data-source-color:green": 1,
+        "data-source-border:red": 2,
+        "data-source-border-style:dashed": 3,
+        "data-source-cancellation:cross": 3,
+        "data-source-cancellation-color:red": 2,
+        "data-source-marker:outline-arrow": 3,
+        "data-source-color:black": 3,
+        "data-source-border:brown": 1,
+        "data-source-cancellation-color:brown": 1,
+        "data-source-color:brown": 1
+      },
+      "sidebar_included": false,
+      "sha256": "484e2bdfbc80296d7093a03318629062033aed3a79fb241281943593dc2ee312",
+      "visually_checked_regions": [
+        "前ページからのついに",
+        "本文全文",
+        "小見出し",
+        "スルタン＝カリフ制の崩壊の全見出し・文字・年号",
+        "スルタン2つの赤い点線枠と交差した取り消し印",
+        "カリフ制の茶色の点線枠と交差した取り消し印",
+        "黒い輪郭矢印3本",
+        "政治的権力と宗教的権威の全説明",
+        "これにはの助詞",
+        "次ページに続くこうし",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 297,
+      "ruby_count": 12,
+      "bold_range_count": 43,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 8,
+        "data-source-border:red": 1,
+        "data-source-color:brown": 1,
+        "data-source-color:green": 2,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "7fb9f8675b6bb227eac2cd3ba8f7d1fe6484d42d9b9f7f35ec60b465f5898d64",
+      "visually_checked_regions": [
+        "前ページからのて",
+        "本文全文",
+        "一夫一婦制の印刷された読み",
+        "節見出し",
+        "イランの国名見出し",
+        "小見出し2つ",
+        "ドイツとの秘密交渉の外の感嘆符と句点",
+        "社会主義共和国を建設の指示矢印の重なり",
+        "徴兵制の続き",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 298,
+      "ruby_count": 4,
+      "bold_range_count": 32,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 8,
+        "data-source-color:brown": 1,
+        "data-source-color:green": 2,
+        "data-source-marker:curved-arrow": 1,
+        "data-source-color:black": 1
+      },
+      "sidebar_included": false,
+      "sha256": "325c6fcc791c620e1a009d97dc94ad130f9bd835fb703a144f280f1fed764820",
+      "visually_checked_regions": [
+        "前ページからのの導入",
+        "本文全文",
+        "国名見出し",
+        "小見出し2つ",
+        "フセイン・マクマホン協定とサイクス・ピコ協定の中黒",
+        "認めたよねの語尾",
+        "ハーシム家だの外の感嘆符と句点",
+        "＋αちょっと寄り耳の全3段落と曲がった矢印",
+        "復古・聖戦の印刷された読み",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 299,
+      "ruby_count": 2,
+      "bold_range_count": 49,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-marker:outline-arrow": 1,
+        "data-source-color:red": 9,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "41bb5af5084bc48dde48e25666b323dd2c9a98c26e53f57298cd43b43eeb7aca",
+      "visually_checked_regions": [
+        "本文全文",
+        "アラビア半島の地図の全名称・年号・括弧・略字",
+        "征服の赤い輪郭矢印",
+        "サウジアラビア王国の白抜き",
+        "地図の吹き出し",
+        "小見出し",
+        "潰のつぶ",
+        "原画像にない地図の題名を補わない",
+        "次ページに続くのみの",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 300,
+      "ruby_count": 4,
+      "bold_range_count": 20,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:green": 11,
+        "data-source-color:brown": 1,
+        "data-source-color:red": 2
+      },
+      "sidebar_included": false,
+      "sha256": "7bb5b79f2cb853614a9f528ba6742f110eec2b122b3f24b903974dc26c604261",
+      "visually_checked_regions": [
+        "前ページからの呼び名",
+        "本文全文",
+        "支配者の者",
+        "アラブ諸国の独立の表の全5行と全セル",
+        "独立年・委任統治国・緑の丸と矢印・全注記",
+        "名目的独立の1928を知識で修正しない",
+        "エジプトの国名見出し",
+        "小見出し",
+        "次ページに続くイギリスは",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 301,
+      "ruby_count": 5,
+      "bold_range_count": 35,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 7,
+        "data-source-border:red": 1,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "0edf09dd160260bd439acfc8a0d3976143ec5d0a042c89c95530e712aa438699",
+      "visually_checked_regions": [
+        "前ページからの独立の宣言",
+        "本文全文",
+        "吹き出し",
+        "節見出し",
+        "小見出し",
+        "駐兵・同胞団・就・勃発・自決の読み",
+        "反英で協力の指示矢印の重なり",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 302,
+      "ruby_count": 6,
+      "bold_range_count": 47,
+      "source_styles": {
+        "data-source-color:white": 2,
+        "data-source-background:black": 1,
+        "data-source-background:red": 1,
+        "data-source-color:black": 4,
+        "data-source-background:pink": 1,
+        "data-source-color:red": 23,
+        "data-source-color:green": 15,
+        "data-source-underline-color:red": 1,
+        "data-source-marker:point": 3,
+        "data-source-italic:true": 5
+      },
+      "sidebar_included": false,
+      "sha256": "b361487013026a4ff710a72a02a6260f27fec1b51f06f4620331eb5c2931061f",
+      "visually_checked_regions": [
+        "インドの民族運動のクローズアップ全項目・年号・別名・矢印",
+        "桃色の背景に黒い題名",
+        "小見出し",
+        "インドの地図の全7名称",
+        "黒い白抜きの都市の丸3つ",
+        "地方名の太字と都市名・川名の斜体",
+        "本文全文",
+        "認められるだろの語尾",
+        "でもこれの語句",
+        "次ページに続くインド人が",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 303,
+      "ruby_count": 5,
+      "bold_range_count": 41,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 7,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "c13fef61390e5e344c4530468b91ebdbdb8ea698cdaf17873874528163ceb9fe",
+      "visually_checked_regions": [
+        "前ページからの怒るのも",
+        "本文全文",
+        "読み仮名を印刷箇所だけに付ける",
+        "吹き出し",
+        "小見出し",
+        "サイモン委員会の黒い太字と別名",
+        "インド共産党の結成の指示矢印の重なり",
+        "次ページに続くか",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 304,
+      "ruby_count": 10,
+      "bold_range_count": 40,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 10,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "b7948499ccb885b7c3af512dcfa17be9fe7fc348ea9d91164515c6a2c07a852b",
+      "visually_checked_regions": [
+        "前ページからのえって",
+        "本文全文",
+        "ラホール大会の吹き出し",
+        "小見出し",
+        "専売法・断食・飢え死にの読み",
+        "塩の専売法に反対の太字の終端",
+        "取り上げているのかの外の感嘆符",
+        "新インド統治法の黒い括弧と赤い別名",
+        "次ページに続く完全",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 305,
+      "ruby_count": 4,
+      "bold_range_count": 41,
+      "source_styles": {
+        "data-source-color:white": 7,
+        "data-source-background:red": 3,
+        "data-source-underline-color:red": 1,
+        "data-source-color:red": 6,
+        "data-source-border:red": 1,
+        "data-source-color:brown": 1,
+        "data-source-color:green": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4
+      },
+      "sidebar_included": true,
+      "sha256": "2d55226c405b4f19e67b03ed5b17746da1933eef77f90e67bf4d437cf8086757",
+      "visually_checked_regions": [
+        "前ページからの分離",
+        "分離はこの紙面の通常の字",
+        "本文全文",
+        "チャンドラ・ボースの中黒",
+        "ムスリムについての吹き出し",
+        "節見出し",
+        "ビルマの国名見出し",
+        "小見出し",
+        "新インド統治法の読み",
+        "次ページに続くビルマでも",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 306,
+      "ruby_count": 1,
+      "bold_range_count": 18,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 5,
+        "data-source-marker:point": 5,
+        "data-source-color:black": 5,
+        "data-source-italic:true": 5,
+        "data-source-border:red": 1,
+        "data-source-marker:area": 4,
+        "data-source-color:gray": 1,
+        "data-source-color:pink": 1,
+        "data-source-color:green": 1
+      },
+      "sidebar_included": false,
+      "sha256": "0272f3444f94d08e031c7a6bc70ffa8d5c03bf0b52356f575a082a8576cf4173",
+      "visually_checked_regions": [
+        "前ページからの自治権",
+        "本文全文",
+        "顔の外の感嘆符と句点",
+        "アウン＝サンだの語尾",
+        "我らのビルマ協会の通常の引用符と内側の太字",
+        "戦間期の東南アジアの地図の全17名称と別名",
+        "日本軍の最大勢力範囲の説明と1942",
+        "凡例4つの色面",
+        "都市の白抜きの丸5つ",
+        "地図の吹き出し",
+        "最大勢力範囲の赤い帯を方向矢印に変更しない",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 307,
+      "ruby_count": 7,
+      "bold_range_count": 44,
+      "source_styles": {
+        "data-source-color:white": 6,
+        "data-source-background:red": 2,
+        "data-source-underline-color:red": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4,
+        "data-source-color:red": 11,
+        "data-source-color:brown": 2,
+        "data-source-color:green": 2
+      },
+      "sidebar_included": true,
+      "sha256": "1e55d2e9ed5dfd4b3fa354b53abd5b10ca2a3c42633e5e3c76b1364239b3d0c4",
+      "visually_checked_regions": [
+        "インドシナとインドネシアの国名見出し",
+        "小見出し2つ",
+        "本文全文",
+        "ホー＝チ＝ミンの吹き出し全文",
+        "デモがおこりのひらがな",
+        "東遊のドンズー・広東のカントン・進駐・降伏の読み",
+        "ファン＝ボイ＝チャウが逮捕の太字の終端",
+        "サレカット＝イスラムとイスラーム同盟の別表記",
+        "次ページに続くブディ＝",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 308,
+      "ruby_count": 7,
+      "bold_range_count": 25,
+      "source_styles": {
+        "data-source-color:white": 1,
+        "data-source-background:black": 1,
+        "data-source-color:red": 1,
+        "data-source-color:brown": 2,
+        "data-source-color:green": 2
+      },
+      "sidebar_included": false,
+      "sha256": "c4c5ebf0c86f740db4a7a35aabb73f24f041be893a18ad8b78e9565b901e89b1",
+      "visually_checked_regions": [
+        "前ページからのウトモ",
+        "本文全文",
+        "スカルノの吹き出しの日本軍",
+        "フィリピンとタイの国名見出し",
+        "小見出し2つ",
+        "統治・連携・占領・善隣・恐慌の読み",
+        "フィリピン独立法成立の外の感嘆符",
+        "次ページに続くによって",
+        "上部の回"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    },
+    {
+      "page": 309,
+      "ruby_count": 21,
+      "bold_range_count": 55,
+      "source_styles": {
+        "data-source-color:white": 9,
+        "data-source-background:red": 4,
+        "data-source-underline-color:red": 1,
+        "data-source-background:gray": 4,
+        "data-source-color:gray": 4,
+        "data-source-color:red": 27,
+        "data-source-background:brown": 1,
+        "data-source-border:brown": 1,
+        "data-source-border-style:dotted": 1,
+        "data-source-color:green": 7,
+        "data-source-position:below": 1,
+        "data-source-color:black": 1
+      },
+      "sidebar_included": true,
+      "sha256": "dd5c6f4cbab8d87a7b5b113c238ef0f4f651d2203a591404e1b4a473bbfe1db5",
+      "visually_checked_regions": [
+        "前ページからの独立を維持した",
+        "本文全文",
+        "合否の分かれ目の全3国・指導者・説明・年号",
+        "合否の赤と茶の見出しと茶色の点の枠",
+        "年号欄の全4項目とスルタン制廃止の補足",
+        "語呂の全文と数字・色・括弧",
+        "おお住まん帝国のオ・ス・マ・ン",
+        "人の上の2と下の赤いニ・黒いン",
+        "1299・1922・1924・1935の先頭の1は黒、1929は全て赤",
+        "次回の予告",
+        "孫文・蔣介石・毛沢東の字形と読み",
+        "次回310ページとの境界",
+        "上部の節名",
+        "第4章が赤い欄外目次"
+      ],
+      "independent_text_comparison": true,
+      "blank_page": false,
+      "printed_page_number_visible": true
+    }
+  ],
+  "preserved_existing_sources": [
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/01_古代オリエント世界の成立.md",
+      "bytes": 31817,
+      "sha256": "f9024578a68f55bd9c978e6050b753e6668daf004b6b1f5c003b79293351c511"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/02_古代オリエント世界の統一.md",
+      "bytes": 44059,
+      "sha256": "21719e63443aff70618fe3dbc98e62a720724bfdaac0617890069916a628876d"
+    },
+    {
+      "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/03_古代インド.md",
+      "bytes": 62621,
+      "sha256": "ea929ebcb3bd84e693788cffacd07ca44e7d7971f9af136e73a9efc0270a2463"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/04_古代ギリシア世界の成立.md",
+      "bytes": 48262,
+      "sha256": "be16e648bfaab3c69e9173a7af17045d48f11ae01a5f51c1aaa520b97cdeeaa8"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/05_ポリス社会の崩壊とヘレニズム.md",
+      "bytes": 51840,
+      "sha256": "20c99a00c21be93f3587cae0e30e81a3fca5392a83c1ac7079d90c5ab2ac94ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/06_ローマ共和政.md",
+      "bytes": 46581,
+      "sha256": "ed45db4cea5eb6a895d56f5c7269080de5b182fbba3fe549bffa809160b46c07"
+    },
+    {
+      "file": "sources/古代・中世・近世/02_古代の地中海世界/07_ローマ帝国とキリスト教.md",
+      "bytes": 61612,
+      "sha256": "a885ff13c6979125822b3156d526d72fff1cadc30a3c2a85a6488ecf006e6178"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/08_古代中国①（中国文明〜秦）.md",
+      "bytes": 41532,
+      "sha256": "1ad91d67c3d7df94e6c20240a7afb3a714218cd41ebe4fd7ac5ac5922035c358"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/09_古代中国②（漢〜魏晋南北朝時代）.md",
+      "bytes": 50515,
+      "sha256": "9f798bbe2b4ce8a7bede47a6b433699951c413785f7760fd9dfc80f09174d45a"
+    },
+    {
+      "file": "sources/古代・中世・近世/03_古代の東アジア/10_古代中国③（隋〜唐）.md",
+      "bytes": 62280,
+      "sha256": "3db1c6d9c12adcb8b06d2b7d087858c644b425824b66d1ddca6b2bf70126ebcb"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/11_ゲルマン人の移動とフランク王国.md",
+      "bytes": 46598,
+      "sha256": "ec3676c9f4862f62ef1d674ddcd4194a5e1a1fc6cbf2dffcdb5234cbc1523aec"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/12_封建社会の形成とカトリック教会の発展.md",
+      "bytes": 40801,
+      "sha256": "3890bafd22ffb7424c78bed641efea8a33510bb002f7fc03fd484b693f040dc8"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/13_ビザンツ帝国と中世の東欧.md",
+      "bytes": 40182,
+      "sha256": "f11fc57de9688ba60149815f419dd9a046fb3aec87095d34d7aa64acac99fc45"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/14_十字軍と封建社会の変容.md",
+      "bytes": 57077,
+      "sha256": "4b61d500da44985ee2038e894bdda94f8b07c26724c0f56b452d6a5f03369ac0"
+    },
+    {
+      "file": "sources/古代・中世・近世/04_中世ヨーロッパ/15_中世の西ヨーロッパ諸国.md",
+      "bytes": 44028,
+      "sha256": "96ec4b05542cc97e86e9075dcb66d849a4fc4d9f9ebf9683c127d04152b25df3"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/16_中華世界の変容（五代十国〜宋）.md",
+      "bytes": 422577,
+      "sha256": "c964833191e1b30a0e9a1891e3a1b48a690d70456d45712039d6771c5aad7ba9"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/17_モンゴル帝国の時代.md",
+      "bytes": 38140,
+      "sha256": "6d7d7728c89213c6195ec7d0c97deda789a47b87a3dd5f8462af4610e225e2ec"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/18_中華帝国の繁栄（明・清）.md",
+      "bytes": 70513,
+      "sha256": "7893c644440a9975278b1d74f851d3981521482d5679dfd2a00b1023db23aa08"
+    },
+    {
+      "file": "sources/古代・中世・近世/05_東アジア世界の変容/19_東南アジア世界.md",
+      "bytes": 39685,
+      "sha256": "49d4bd12ef5c2b6c2fc8899057f39398100f6abedbf12f611f934396ce68604a"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/20_イスラーム世界の形成.md",
+      "bytes": 51846,
+      "sha256": "18bd3156f93c4ce96bc0911087a6a6963677888b45e08f2e5c76b534cd9de116"
+    },
+    {
+      "file": "sources/古代・中世・近世/06_イスラーム世界/21_イスラーム専制帝国の繁栄.md",
+      "bytes": 51340,
+      "sha256": "db5cfc267ecb6fa1fe5f0d816d705a46a235b0d04f301dad39320e3d0da6e96b"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/22_ルネサンスと大航海時代.md",
+      "bytes": 50219,
+      "sha256": "09f70077edde0d572520c38428b70326db06284c5a6b114fb09e649df95928e6"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/23_宗教改革.md",
+      "bytes": 51001,
+      "sha256": "19022d9c8737d6168fd7031032ca610eb4fc1c83d824693dd08260dc22b669a5"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/24_近世のヨーロッパ①（スペイン・オランダ）.md",
+      "bytes": 38926,
+      "sha256": "c7eec2d9ded4ce34e96bfe55e32516d426c1ac8e1c5d9c740f34286df8771341"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/25_近世のヨーロッパ②（イギリス・フランス）.md",
+      "bytes": 56162,
+      "sha256": "f253084f54c6e39df1fee2d7e648a7b5be42ebe5d4eec27ff6847db16591811d"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/26_近世のヨーロッパ③（ドイツ・ロシア）.md",
+      "bytes": 61143,
+      "sha256": "b4a1238a4f5bc5cbf955b68706c4dd88d3e32b7dc50d1f4233ab356508540e2c"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/27_産業革命とアメリカ独立革命.md",
+      "bytes": 55751,
+      "sha256": "9f0b6c49716753f012caa205cd1174d7bb0778d56158507802cddc7c88cd3900"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/28_フランス革命.md",
+      "bytes": 45082,
+      "sha256": "e68ec2d8e00ebc5e958edd524bb822702408d5fadbb07f7913f8ef2485e217f7"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/29_ナポレオンの時代.md",
+      "bytes": 38983,
+      "sha256": "ff758ca021ea934556aa5284644ef7a79deb4d8df2f58bca7e0166603c020828"
+    },
+    {
+      "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/30_17〜18世紀のヨーロッパ文化.md",
+      "bytes": 30315,
+      "sha256": "d9fac3ba70c7211c292cb9669f361c7072fc09431fd2d70d1f1b17bb927e259d"
+    },
+    {
+      "file": "sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md",
+      "bytes": 8697,
+      "sha256": "4710c02be0c1de8628b3c78cbd746a60564f35ac9f228a25b96f218048637697"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-so-question-types.md",
+      "bytes": 50157,
+      "sha256": "0f20e1404f95f5b39cf60881593939a22e44338f0c419d39976d9be3cc6a0a93"
+    },
+    {
+      "file": "sources/古代・中世・近世/world-history-source-md-csv-generation.md",
+      "bytes": 47688,
+      "sha256": "f6c7e28c8e1f512b12a698ce97167c65865060dbb7697a8c89d6cf3bb96f6160"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/01_ウィーン体制とその崩壊.md",
+      "bytes": 125641,
+      "sha256": "165ddb691e4973afe09973efed87ac688207227b196b29359b37b716976e6cad"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/02_イギリスの自由主義とフランス第二帝政.md",
+      "bytes": 73476,
+      "sha256": "146b4662b580b1e418a0372071d1cb058d328086d671f0af9918d192c08f7d95"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/03_アメリカ合衆国の発展.md",
+      "bytes": 83961,
+      "sha256": "72fca4fe17c9b56f4a384f31d1f88792332f5ae71ddde72902fd2d5483353741"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/04_イタリア・ドイツの統一.md",
+      "bytes": 103926,
+      "sha256": "5222e5c09e3975b68718e5e2046deb9788a09d032cee080b35d94ee0840b8fbd"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/05_ロシアと東方問題.md",
+      "bytes": 72669,
+      "sha256": "f061a5cc959ed1869062f43104dc31a5d221133a2c7a5c21675607723abd52d1"
+    },
+    {
+      "file": "sources/近代・現代/01_国民国家の形成/06_19世紀のヨーロッパ文化.md",
+      "bytes": 82057,
+      "sha256": "af46239545496b762e50752e37b8e0088e105bb2530e343282e0faff0338cf24"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/07_近代の西アジア.md",
+      "bytes": 70572,
+      "sha256": "c088d4763a1afc9d04d628565e3be75bd9ea4b905fe4357a8fdd45233268384e"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/08_近代のインド・東南アジア.md",
+      "bytes": 98667,
+      "sha256": "e7632b36c6e6aacbca0f061ed5609a393fb16bc945f9d77bcd0f2329033f7c8d"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/09_近代の東アジア①.md",
+      "bytes": 110806,
+      "sha256": "298ad2bac1aa8824ecac56a7816497b46efda2cc72de85bdf29c293c96004018"
+    },
+    {
+      "file": "sources/近代・現代/02_列強の侵略とアジアの変革/10_近代の東アジア②.md",
+      "bytes": 112823,
+      "sha256": "4caf2efbb5c8255cf49d39c16da69db58ba4e447e222ed0bfc2224cfd5725d9f"
+    },
+    {
+      "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/11_帝国主義とアフリカ分割.md",
+      "bytes": 76533,
+      "sha256": "46274fb1eae774d30ce9d96d54c12a29e68200018eac6e68266811f5876f3f11"
+    },
+    {
+      "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/12_帝国主義時代の欧米諸国.md",
+      "bytes": 111971,
+      "sha256": "a081d0bbc3fd393b9f054213bf554bcc72ea6b2cf6f06263f72ca23589999215"
+    },
+    {
+      "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/13_第一次世界大戦とロシア革命.md",
+      "bytes": 123405,
+      "sha256": "2b7b296d9009370b4b3e728f910c668bff8a0fb82883de7c39e4b70e93b8b752"
+    },
+    {
+      "file": "sources/近代・現代/04_戦間期と第二次世界大戦/14_ヴェルサイユ体制とワシントン体制.md",
+      "bytes": 85437,
+      "sha256": "8d397d44e81b32b763d55534b612851c3fff91c30d7008ed4883567853bc17c2"
+    },
+    {
+      "file": "sources/近代・現代/04_戦間期と第二次世界大戦/15_戦間期の欧米諸国_世界恐慌以前.md",
+      "bytes": 96665,
+      "sha256": "a41691ce04c38fceb2e201e84821e8040ca88ac5442ff65bbc7b8a2a51fc52b8"
+    },
+    {
+      "file": "sources/近代・現代/sekai_shi_tankyu_mokuji.md",
+      "bytes": 7892,
+      "sha256": "766d34236036053f9847d1128cc98151b8f359baf91503c173a62b8699f11c10"
+    }
+  ],
+  "validation": {
+    "consecutive_pages": true,
+    "source_emphasis_tags_balanced": true,
+    "all_existing_source_hashes_unchanged": true,
+    "all_original_image_hashes_unchanged": true,
+    "next_boundary_image_hash_unchanged": true,
+    "user_changes_unchanged": true,
+    "source_and_images_git_ignored": true,
+    "web_lessons_added": false,
+    "regression_checks": [
+      {
+        "command": "npm run check:transcriptions",
+        "exit_code": 0,
+        "duration_seconds": 1.0101600000052713,
+        "log_sha256": "9f91afdf456871c6bdfa64e31e4733261599ecf7beb725e51d9194013ea81d70"
+      },
+      {
+        "command": "npm run check",
+        "exit_code": 0,
+        "duration_seconds": 17.22589980000339,
+        "log_sha256": "b2433c8f6d4bbfbb60ac639302411f95621334506a019f5607d7b5b184aa50de"
+      },
+      {
+        "command": "npm run build",
+        "exit_code": 0,
+        "duration_seconds": 17.002267399999255,
+        "log_sha256": "4bb7347e4d4301975331f048b67b0bdb5c6d6072743197caba4371fcce4b59ee"
+      }
+    ],
+    "integrity_checks": {
+      "new_source_unchanged": true,
+      "consecutive_pages": 17,
+      "protected_sources": 49,
+      "source_images": 9,
+      "boundary_image_shared_with_last_source": false,
+      "unique_original_images": 10,
+      "user_changes_unchanged": true,
+      "public_version_only_files": 139,
+      "previous_release_history_unchanged": true,
+      "published_catalog_unchanged_except_version": true,
+      "diff_check_exit_code": 0
+    },
+    "ruby_count": 104,
+    "bold_range_count": 656
+  }
+}
