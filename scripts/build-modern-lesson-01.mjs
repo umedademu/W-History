@@ -1,0 +1,160 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+import {fileURLToPath} from 'node:url';
+import {modernSeries} from '../public/modern-volumes.js';
+import {modernNamesInText, modernNameCatalog} from '../public/modern-geography.js';
+
+const root = fileURLToPath(new URL('../', import.meta.url));
+const read = name => fs.readFile(path.join(root, name), 'utf8');
+export const escapeHTML = value => value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+export const plainMarkdown = value => value.replace(/<rt>[\s\S]*?<\/rt>/g,'').replace(/<[^>]+>/g,'').replaceAll('**','');
+
+function safeTag(token) {
+  const match = token.match(/^<(\/)?(span|u|ruby|rt|em|br)([^>]*)>$/);
+  assert(match, `表示に許可していない原文タグ: ${token}`);
+  const [, close, name, tail] = match;
+  if (close) { assert.equal(tail.trim(), ''); return `</${name}>`; }
+  let remaining = tail;
+  const attrs = [];
+  while (remaining.trim()) {
+    const attr = remaining.match(/^\s+([a-z-]+)="([^"]*)"/);
+    assert(attr, `属性の形式が不正: ${token}`);
+    const [, key, value] = attr;
+    assert(key === 'style' || /^data-source-[a-z-]+$/.test(key), `許可していない属性: ${key}`);
+    if (key === 'style') {
+      for (const declaration of value.split(';').filter(Boolean)) {
+        const [property, ...values] = declaration.split(':');
+        assert(['color','background-color','border','padding','text-decoration-color'].includes(property.trim()), property);
+        assert(/^[#a-z0-9.\s%-]+$/i.test(values.join(':')), declaration);
+      }
+    } else assert(/^[a-z0-9-]+$/.test(value), value);
+    attrs.push(`${key}="${escapeHTML(value)}"`);
+    remaining = remaining.slice(attr[0].length);
+  }
+  return `<${name}${attrs.length ? ' '+attrs.join(' ') : ''}>`;
+}
+
+// 原文の許可済みタグと太字記号だけを表示用HTMLへ変換する。
+// Markdown全般や任意のHTML・属性を実行する処理ではない。
+export function inlineHTML(markdown) {
+  let result = '', bold = false;
+  const colors = [];
+  for (const token of markdown.split(/(<[^>]+>|\*\*)/g).filter(Boolean)) {
+    if (token === '**') {
+      result += bold ? '</strong>' : `<strong class="${colors.includes('red') ? 'source-red-bold' : 'source-bold'}">`;
+      bold = !bold;
+    } else if (token.startsWith('<')) {
+      const tag = safeTag(token);
+      if (/^<span\b/.test(tag)) colors.push(tag.match(/data-source-color="([^"]+)"/)?.[1] ?? '');
+      if (tag === '</span>') colors.pop();
+      result += tag;
+    } else result += escapeHTML(token);
+  }
+  assert.equal(bold, false, '原文の太字記号が閉じていない');
+  assert.equal(colors.length, 0, '原文の色のタグが閉じていない');
+  return result;
+}
+
+function blocksHTML(lines) {
+  const out = [];
+  for (let index = 0; index < lines.length;) {
+    const text = lines[index];
+    if (!text.trim()) { index++; continue; }
+    if (text.startsWith('>')) {
+      const quote = [];
+      while (index < lines.length && lines[index].startsWith('>')) quote.push(lines[index++].replace(/^> ?/,''));
+      out.push(`<blockquote>${blocksHTML(quote)}</blockquote>`);
+      continue;
+    }
+    if (text.startsWith('|')) {
+      const rows = [];
+      while (index < lines.length && lines[index].startsWith('|')) {
+        const cells = lines[index++].split('|').slice(1,-1).map(cell => cell.trim());
+        if (!cells.every(cell => /^:?-+:?$/.test(cell))) rows.push(cells);
+      }
+      const width = Math.max(...rows.map(row => row.length));
+      out.push(`<div class="source-table-wrap"><table><tbody>${rows.map(row => '<tr>'+Array.from({length:width},(_,i)=>`<td>${inlineHTML(row[i] ?? '')}</td>`).join('')+'</tr>').join('')}</tbody></table></div>`);
+      continue;
+    }
+    if (text.startsWith('- ')) {
+      const items = [];
+      while (index < lines.length && lines[index].startsWith('- ')) items.push(`<li>${inlineHTML(lines[index++].slice(2))}</li>`);
+      out.push(`<ul>${items.join('')}</ul>`);
+      continue;
+    }
+    const heading = text.match(/^(#{1,6}) (.*)$/);
+    if (heading) out.push(`<h${heading[1].length}>${inlineHTML(heading[2])}</h${heading[1].length}>`);
+    else out.push(`<p>${inlineHTML(text)}</p>`);
+    index++;
+  }
+  return out.join('\n');
+}
+
+export async function loadModernRecords() {
+  return {
+    selection:JSON.parse(await read('docs/modern-lesson-01/source-selection.json')),
+    plan:JSON.parse(await read('docs/modern-lesson-01/reading-plan.json')),
+    routes:JSON.parse(await read('docs/modern-lesson-01/routes.json'))
+  };
+}
+
+export async function verifyModernSource(selection, published = false) {
+  if (published) return false;
+  const candidates = [process.env.W_HISTORY_MODERN_SOURCE, path.join(root,selection.source_file), 'C:/Users/USER/Desktop/W-History/'+selection.source_file].filter(Boolean);
+  for (const filename of [...new Set(candidates)]) {
+    let raw;
+    try { raw = await fs.readFile(filename); } catch(error) { if(error.code === 'ENOENT') continue; throw error; }
+    assert.equal(crypto.createHash('sha256').update(raw).digest('hex'), selection.source_sha256, '参照専用の原文資料が変わっている');
+    assert.equal(raw.length, selection.source_bytes);
+    const lines = raw.toString('utf8').replace(/^\uFEFF/,'').replaceAll('\r\n','\n').split('\n');
+    if (lines.at(-1) === '') lines.pop();
+    assert.deepEqual(lines, selection.lines.map(line => line.text), '全行の記録が原文と異なる');
+    return true;
+  }
+  return false;
+}
+
+export async function makeModernEdition() {
+  const {selection,plan,routes} = await loadModernRecords();
+  await verifyModernSource(selection, process.argv.includes('--published'));
+  const paragraphs = new Map(selection.paragraphs.map(paragraph => [paragraph.id,paragraph]));
+  const modernEdition = Object.fromEntries(modernSeries.map(volume => [volume.id, []]));
+  const modernPlaces = Object.fromEntries(modernNameCatalog.filter(entry => entry.kind === 'place').map(entry => [entry.key,{name:entry.name,point:entry.points[0]}]));
+  for (const page of plan) {
+    const chosen = page.paragraphs.map(id => { assert(paragraphs.has(id),id); return paragraphs.get(id); });
+    const plainBody = chosen.map(paragraph => plainMarkdown(paragraph.markdown));
+    const names = modernNamesInText(plainBody.join(''));
+    const routeEntries = routes.filter(route => route.scene === page.id);
+    const allPoints = [...names.flatMap(entry => entry.points), ...routeEntries.flatMap(route => route.points)];
+    // その場面で説明する地点をすべて含める。実際の拡大上限は共通の画面処理が適用する。
+    const frame = allPoints.length ? [Math.max(-180,Math.min(...allPoints.map(p=>p[0]))-7),Math.max(-80,Math.min(...allPoints.map(p=>p[1]))-6),Math.min(180,Math.max(...allPoints.map(p=>p[0]))+7),Math.min(82,Math.max(...allPoints.map(p=>p[1]))+6)] : [-18,27,46,68];
+    const sourcePages = [...new Set(chosen.flatMap(paragraph => paragraph.sourcePages))].sort((a,b)=>a-b);
+    const series = modernSeries.find(volume => volume.id === page.volume);
+    modernEdition[page.volume].push({
+      id:page.id,title:page.title,body:chosen.map(paragraph=>inlineHTML(paragraph.markdown)),plainBody,
+      sourceText:{book:'modern',chapter:1,lesson:1,part:page.part,passages:chosen.map(paragraph=>({paragraph:paragraph.id,start:0,end:plainMarkdown(paragraph.markdown).length,lines:paragraph.lines})),sourcePages},
+      frame,pins:names.filter(entry=>entry.kind === 'place').map(entry=>entry.key),
+      tags:names.filter(entry=>entry.kind !== 'place').flatMap(entry=>entry.points.map(at=>({text:entry.name,at,kind:entry.kind}))),
+      zones:[],actors:[],props:[],routes:routeEntries.map(({scene,reason,...route})=>route),rivers:[],
+      mapHeading:page.title,before:page.title,after:page.title,facts:[page.title],year:series.period,kicker:series.label,chapter:page.part-1,duration:routeEntries.length?3200:2000
+    });
+  }
+  const sourcePages = Object.fromEntries(selection.pages.map(page=>[String(page),blocksHTML(selection.lines.filter(line=>line.page === page).map(line=>line.text))]));
+  const sourcePageMetadata = Object.fromEntries(selection.pages.map(page=>[String(page),{book:'modern',chapter:1,lesson:1,page,sourceFile:selection.source_file,sourceSha256:selection.source_sha256}]));
+  return {modernEdition,modernPlaces,sourcePages,sourcePageMetadata};
+}
+
+export async function renderModernModule() {
+  const data = await makeModernEdition();
+  return '// 原文の対応記録と通読した改ページ表から生成。sources は参照専用。\n'+Object.entries(data).map(([name,value])=>`export const ${name} = ${JSON.stringify(value,null,2)};\n`).join('\n');
+}
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  const output = await renderModernModule();
+  const filename = 'public/modern-c01-l01-edition.js';
+  if(process.argv.includes('--check')) assert.equal((await read(filename)).replaceAll('\r\n','\n'),output, '近代・現代 第1回の再生成結果が異なる');
+  else await fs.writeFile(path.join(root,filename),output);
+  console.log('近代・現代 第1回: 5教材・63場面と原書26ページの生成結果を確認');
+}

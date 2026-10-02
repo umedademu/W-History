@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-03",
+  "scope": "近代・現代 第1章第1回の本文・地図・全原書ページ表示・独立した対応検査",
+  "source_sha256": "165ddb691e4973afe09973efed87ac688207227b196b29359b37b716976e6cad",
+  "source_bytes": 125641,
+  "source_verified_unchanged": true,
+  "counts": {
+    "parts": 5,
+    "scenes": 63,
+    "body_lines": 95,
+    "paragraphs": 83,
+    "classified_lines": 830,
+    "source_pages": 26,
+    "cross_page_connections": 12,
+    "bold_ranges": 544,
+    "ruby_ranges": 89,
+    "name_spellings": 169,
+    "routes": 16
+  },
+  "commands": [
+    {
+      "command": "node scripts/check-modern-lesson-01.mjs",
+      "result": "passed",
+      "notes": "原文の内容識別値と全行、全文・順序・紙面接続・装飾・全紙面・地理名称・HTML・再生成を確認。"
+    },
+    {
+      "command": "node scripts/check-modern-lesson-01.mjs --published",
+      "result": "passed",
+      "notes": "原文を読み込まず保存した対応記録で同じ検査を確認。"
+    },
+    {
+      "command": "node scripts/build-modern-lesson-01.mjs --check",
+      "result": "passed",
+      "notes": "表示用の生成結果が保存済みの公開データと一致。"
+    }
+  ],
+  "independent_review": {
+    "result": "passed",
+    "notes": "別担当が原文と全830行を照合し、紙面をまたぐ12組と16経路の本文上の意味を読み取り専用で点検。重大な不一致なし。"
+  },
+  "browser_review": {
+    "responsible": "統合担当",
+    "result": "passed",
+    "scenes": 63,
+    "widths": [
+      1280,
+      390
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "total_views": 252,
+    "checks": [
+      "本文全文と装飾",
+      "地図名称の双方向一致",
+      "重なりとはみ出し",
+      "経度32度・緯度24度の拡大上限",
+      "原書26ページの補助全文",
+      "3つの対立図",
+      "節末・巻末の移動"
+    ],
+    "audio": "自動読み上げを停止して音声再生なし",
+    "final_route_delta": [
+      "第2節の対象2場面を幅1280・390の明暗両方で追加8回確認。ドイツ学生運動では経路0、カルボナリではオーストリアからナポリとピエモンテへの介入2本。"
+    ],
+    "additional_views": 8,
+    "version": "0.110"
+  },
+  "generated_files": [
+    {
+      "file": "public/modern-volumes.js",
+      "bytes": 2327,
+      "sha256": "1c78315e8df4a06236464f9410fca0c29cd31b8cddc43960c8848a28be42c320"
+    },
+    {
+      "file": "public/modern-c01-l01-edition.js",
+      "bytes": 453378,
+      "sha256": "474b07928c95ce05d13fd7e2f13b682335c57e705e2eb0309f98e1c256c83b56"
+    },
+    {
+      "file": "public/modern-geography.js",
+      "bytes": 36044,
+      "sha256": "57ba9a2ae051458a1f0e6315e4fc3ffa31feadbb09dce470b4e9b26f87df45da"
+    }
+  ],
+  "independent_route_regression": {
+    "result": "passed",
+    "scenes": [
+      "modern-c01-l01-p02-003",
+      "modern-c01-l01-p02-004"
+    ],
+    "expectations": [
+      "ドイツ学生運動の本文と経路0",
+      "カルボナリの本文と介入2本",
+      "介入元オーストリアと対象ナポリ・ピエモンテの代表位置"
+    ]
+  }
+}
