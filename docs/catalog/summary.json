@@ -1,7 +1,7 @@
 {
-  "version": "0.120",
-  "parts": 170,
-  "pages": 1935,
+  "version": "0.121",
+  "parts": 174,
+  "pages": 2057,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 42,
-      "pages": 922,
+      "parts": 46,
+      "pages": 1044,
       "chapters": [
         {
           "chapter": 1,
@@ -2808,6 +2808,50 @@
               "lesson": 10,
               "part": 4,
               "pages": 51
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "title": "帝国主義と第一次世界大戦",
+          "lessons": [
+            {
+              "lesson": 11,
+              "title": "帝国主義とアフリカ分割"
+            }
+          ],
+          "volumes": [
+            {
+              "id": "modern-c03-l11-p01",
+              "label": "第2次産業革命と帝国主義",
+              "number": "01",
+              "lesson": 11,
+              "part": 1,
+              "pages": 22
+            },
+            {
+              "id": "modern-c03-l11-p02",
+              "label": "アフリカ分割①（北部・東部・西部）",
+              "number": "02",
+              "lesson": 11,
+              "part": 2,
+              "pages": 55
+            },
+            {
+              "id": "modern-c03-l11-p03",
+              "label": "アフリカ分割②（南アフリカ）",
+              "number": "03",
+              "lesson": 11,
+              "part": 3,
+              "pages": 18
+            },
+            {
+              "id": "modern-c03-l11-p04",
+              "label": "ドイツの「世界政策」とモロッコ事件",
+              "number": "04",
+              "lesson": 11,
+              "part": 4,
+              "pages": 27
             }
           ]
         }
