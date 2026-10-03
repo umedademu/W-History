@@ -178,7 +178,12 @@ try {
   browser=await chromium.launch({executablePath,headless:true,args:['--mute-audio']});
   const page=await browser.newPage({reducedMotion:'reduce'});
   await muteBeforeOpening(page);
-  const errors=[],issues=[],seenPages=new Set(),seenDiagrams=new Set();
+  const errors=[],issues=[],seenPages=new Set(),seenDiagrams=new Set(),referenceChecks=[];
+  const criticalReferences=new Map([
+    ['modern-c01-l05-p02-024',['自由航行権','独占航行権','通過禁止','サン＝ステファノ条約','ベルリン会議']],
+    ['modern-c01-l05-p03-009',['ナイティンゲール','従軍看護で活躍','この影響を受けたのがデュナン']],
+    ['modern-c01-l05-p04-009',['セルビア','モンテネグロ','ルーマニア','宗主下','自治国']]
+  ]);
   watchErrors(page,errors);
   const output=await mkdtemp(path.join(os.tmpdir(),'w-history-modern-browser-04-'));
   console.log('確認画像と結果: '+output);
@@ -279,6 +284,16 @@ try {
           const expectedReference=await page.evaluate(html=>{const e=document.createElement('div');e.innerHTML=html;return e.innerHTML;},pages.map(n=>sourcePages[n]).join(''));
           assert.equal(actual.reference,expectedReference,'関係する原書ページを全文掲載');
           assert.equal(await page.locator('#source-reference').getAttribute('open'),null);
+          if(criticalReferences.has(expected.id)) {
+            await page.locator('#source-reference summary').click();
+            assert.equal(await page.locator('#source-reference-body').isVisible(),true,expected.id+': 全比較欄・従軍看護・両条約の原書参照を開ける');
+            const visibleReference=await page.locator('#source-reference-body').evaluate(node=>{const clone=node.cloneNode(true);clone.querySelectorAll('rt').forEach(rt=>rt.remove());return clone.textContent;});
+            for(const phrase of criticalReferences.get(expected.id))assert.ok(visibleReference.includes(phrase),expected.id+': 補足を開いた画面にも全文の字句がある '+phrase);
+            assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),expected.id+': 原書補足を開いても横幅に収まる');
+            referenceChecks.push({id:expected.id,width,theme,pages});
+            await page.locator('#source-reference summary').click();
+            assert.equal(await page.locator('#source-reference').getAttribute('open'),null,expected.id+': 原書参照を閉じられる');
+          }
           if(actual.diagram)seenDiagrams.add(actual.diagram);
           if(i===0||actual.diagram&&theme==='light')await page.screenshot({path:path.join(output,`${expected.id}-${width}-${theme}.png`),fullPage:true});
           inspected++;
@@ -338,10 +353,11 @@ try {
   let motion;
   try {motion=await checkMotion(browser,output,errors);}
   catch(error) {
-    await writeFile(path.join(output,'result.json'),JSON.stringify({inspected,errors,issues,pages:[...seenPages],diagrams:[...seenDiagrams],motionFailure:error.message},null,2));
+    await writeFile(path.join(output,'result.json'),JSON.stringify({inspected,errors,issues,pages:[...seenPages],diagrams:[...seenDiagrams],referenceChecks,motionFailure:error.message},null,2));
     throw error;
   }
-  await writeFile(path.join(output,'result.json'),JSON.stringify({inspected,errors,issues,pages:[...seenPages],diagrams:[...seenDiagrams],motion},null,2));
+  await writeFile(path.join(output,'result.json'),JSON.stringify({inspected,errors,issues,pages:[...seenPages],diagrams:[...seenDiagrams],referenceChecks,motion},null,2));
+  assert.equal(referenceChecks.length,criticalReferences.size*4,'重要な独立補足3場面を2幅・2色で開閉して確認する');
   assert.deepEqual(errors,[]);
   assert.deepEqual(issues,[],'地図の名前・文字の重なり・はみ出し');
   console.log(`近代・現代 第5回の全${Object.values(modernEdition).flat().length}場面を幅1280・390、明暗両方で計${inspected}回確認しました。人物・吹き出し・模式欄の絵と名前・重なり・はみ出し、通常の移動と姿の切替${motion.cases.length}場面・再表示・取消、2巻の切替・本文と装飾・原書15ページの補足・${seenDiagrams.size}図・末尾移動・旧教材の両端も確認済みです。`);
