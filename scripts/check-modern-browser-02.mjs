@@ -187,8 +187,10 @@ try {
     await page.locator('[data-book-tab="modern"]').click();
     assert.equal(await page.locator('#ancient-book').isVisible(),false);
     assert.equal(await page.locator('#modern-book .part-link').count(),8,'第1回5節と第2回3節を目次から開ける');
-    const lessonLinks=await page.locator('#modern-book .part-link').evaluateAll(links=>links.map(link=>({href:link.getAttribute('href'),text:link.textContent})));
-    assert.deepEqual(lessonLinks.filter(link=>/modern-c01-l02/.test(link.href)).map(link=>link.href),modernSeries.map(volume=>volume.id+'-story.html'),'第2回の3節の掲載順');
+    assert.equal(await page.locator('#modern-book .lesson-section[data-lesson="1"] .part-link').count(),5,'第1回の5節を回ごとにまとめる');
+    assert.equal(await page.locator('#modern-book .lesson-section[data-lesson="2"] .part-link').count(),3,'第2回の3節を別の回としてまとめる');
+    const lessonLinks=await page.locator('#modern-book .part-link').evaluateAll(links=>links.map(link=>({href:new URL(link.href).pathname,text:link.textContent})));
+    assert.deepEqual(lessonLinks.filter(link=>/modern-c01-l02/.test(link.href)).map(link=>link.href),modernSeries.map(volume=>'/'+volume.id+'-story.html'),'第2回の3節の掲載順');
     await page.locator('#modern-chapter-1>summary').click();
     await page.screenshot({path:path.join(output,`modern-catalog-${width}.png`),fullPage:true});
     await page.reload();
@@ -295,6 +297,16 @@ try {
       }
     }
   }
+  // 前回の末尾と今回の冒頭は、それぞれの回の並びを保って往復できる。
+  await page.goto(base+'/modern-c01-l01-p05-story.html#page-23');
+  await page.waitForFunction(()=>document.querySelector('#story-map')?.dataset.scene==='modern-c01-l01-p05-023');
+  assert.equal(await page.locator('#next').isDisabled(),false,'第1回末尾の次へから第2回へ進める');
+  await page.locator('#next').click();await settleScene(page,modernVisualEdition[modernSeries[0].id][0]);
+  assert.equal(await page.locator('#previous-volume-link').getAttribute('href'),'/modern-c01-l01-p05-story.html#page-23','第2回冒頭から第1回末尾への案内');
+  await page.locator('#previous-volume-link').click();
+  await page.waitForFunction(()=>document.querySelector('#story-map')?.dataset.scene==='modern-c01-l01-p05-023');
+  assert.equal(await page.locator('#story-progress').getAttribute('value'),'23','前回の末尾へ戻る');
+  await page.locator('#next').click();await settleScene(page,modernVisualEdition[modernSeries[0].id][0]);
   // 同じ節内の番号指定でも、文書を読み直さず正しい場面へ移る。
   const firstVolume=modernSeries[0],firstScenes=modernVisualEdition[firstVolume.id];
   await page.goto(base+'/'+firstVolume.id+'-story.html#page-1');await settleScene(page,firstScenes[0]);
@@ -303,7 +315,7 @@ try {
   await page.reload();await settleScene(page,firstScenes[2]);
   assert.equal(await page.locator('#story-progress').getAttribute('value'),'3','再読込しても番号指定の場面を保持');
   assert.deepEqual([...seenPages].sort((a,b)=>a-b),Array.from({length:14},(_,i)=>i+41),'原書14ページすべてへ到達できる');
-  assert.ok(seenDiagrams.size>0,'選挙改革・宗教と土地・勢力比較などの補助図を表示する');
+  assert.equal(seenDiagrams.size,9,'原文の比較・表・コラムに沿う9図すべてを表示する');
   let motion;
   try {motion=await checkMotion(browser,output,errors);}
   catch(error) {

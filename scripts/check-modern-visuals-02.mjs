@@ -29,7 +29,7 @@ for(const [index,plan] of scenePlans.entries()) {
 }
 const original=Object.values(modernEdition).flat();
 const rendered=Object.values(modernVisualEdition).flat();
-assert.ok(original.length>=30,'第2回の全場面');
+assert.equal(original.length,45,'第2回の全45場面');
 assert.deepEqual(Object.keys(modernVisualEdition),Object.keys(modernEdition),'教材の順序を保つ');
 assert.deepEqual(rendered.map(scene=>scene.id),original.map(scene=>scene.id),'場面の順序を保つ');
 assert.deepEqual(scenePlans.map(scene=>scene.sceneId),original.map(scene=>scene.id),'全場面の配置を記録する');
