@@ -258,6 +258,11 @@ for(const asset of modernVisualAssetCatalog.filter(asset=>asset.variantOf)) {
 const figuresFor=scene=>(modernIllustrationFor(scene)?.groups??[]).flatMap(group=>group.figures??[]);
 const itemsFor=scene=>[...(scene.actors??[]),...(scene.props??[]),...figuresFor(scene)];
 const sceneWith=phrase=>rendered.find(scene=>scene.plainBody.join('').includes(phrase));
+for(const id of ['modern-c01-l03-p04-008','modern-c01-l03-p04-014','modern-c01-l03-p04-015']) {
+ const scene=rendered.find(scene=>scene.id===id);assert.ok(scene,id+': 誤部分一致を調べる場面がある');
+ assert.ok(!itemsFor(scene).some(item=>normalized(item.name)===normalized('リー')),id+': ドリーム・クーリーにリー将軍の絵を追加しない');
+ assert.ok(!namesForScene(scene,scene.title+'。'+scene.plainBody.join('')).some(entity=>entity.kind==='person'&&entity.name==='リー'),id+': 地図の名称補完にもリー将軍を混ぜない');
+}
 for(const name of ['ワシントン','マディソン','ジャクソン','ジェファソン','リンカン','ジェファソン＝デヴィス','リー','グラント','カーネギー','モルガン','ロックフェラー']) {
  const entity=entityFor(name);assert.ok(entity?.kind==='person'&&shownPeople.has(family(entity)),'本文の本人に固有の絵がある: '+name);
 }

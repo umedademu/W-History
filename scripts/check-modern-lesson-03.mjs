@@ -109,6 +109,12 @@ for(const entry of modernNameCatalog) {
   entry.points.forEach(mapPoints);
 }
 for(const word of ['プランター','産業資本家','労働者','南北戦争','ジャクソニアン＝デモクラシー','ホームステッド法','奴隷解放宣言','KKK','ジム＝クロウ制度']) assert.deepEqual(modernNamesInText(word),[],'階層・制度・事件名から現地や人物を生成しない: '+word);
+for(const text of ['アメリカン・ドリーム','苦力【クーリー】','ペリー'])assert.ok(!modernNamesInText(text).some(entry=>entry.kind==='person'&&entry.name==='リー'),'単語の途中をリー将軍と取り違えない: '+text);
+assert.ok(modernNamesInText('リー将軍が率いる南軍').some(entry=>entry.kind==='person'&&entry.name==='リー'),'原文66ページのリー将軍本人を識別する');
+assert.ok(modernNamesInText('リー').some(entry=>entry.kind==='person'&&entry.name==='リー'),'人物図の氏名だけでもリー将軍本人を識別する');
+assert.ok(modernNamesInText('首都ワシントン').some(entry=>entry.kind==='place'&&entry.family==='ワシントン市'),'首都は初代大統領とは別の都市');
+assert.ok(!modernNamesInText('首都ワシントン').some(entry=>entry.kind==='person'),'首都の文脈に大統領本人を補わない');
+assert.ok(modernNamesInText('初代大統領のワシントン').some(entry=>entry.kind==='person'),'初代大統領本人の文脈を保持する');
 const territorial=modernNamesInText('ミシシッピ川以東のルイジアナとミシシッピ川以西のルイジアナ');
 assert.ok(territorial.filter(entry=>entry.kind!=='person').length>=2,'ミシシッピ川東西のルイジアナを区別する');
 const passageRecords=scenes.flatMap(scene=>scene.sourceText.passages.map((passage,index)=>({scene:scene.id,passage,text:scene.plainBody[index]})));
@@ -148,6 +154,7 @@ for(const [index,scene] of scenes.entries()) {
     boldCount+=(html.match(/<strong\b/g)??[]).length;rubyCount+=(html.match(/<ruby\b/g)??[]).length;
   });
   const names = modernNamesInText(scene.plainBody.join(''));
+  assert.equal(names.some(entry=>entry.kind==='person'&&entry.name==='リー'),scene.id==='modern-c01-l03-p03-016',scene.id+': リー本人は原文66ページの南軍指揮の場面だけに登場する');
   assert.deepEqual(names.map(entry=>entry.key),audit.find(entry=>entry.scene === scene.id).names.map(normalize),'固定した場面別名称の記録');
   const expected = names.flatMap(entry=>entry.points.map(point=>({name:entry.name,point}))).sort((a,b)=>JSON.stringify(a).localeCompare(JSON.stringify(b)));
   const displayed = [...scene.pins.map(key=>{assert(modernPlaces[key],key);return {name:modernPlaces[key].name,point:modernPlaces[key].point};}),...scene.tags.map(tag=>({name:tag.text,point:tag.at}))].sort((a,b)=>JSON.stringify(a).localeCompare(JSON.stringify(b)));
