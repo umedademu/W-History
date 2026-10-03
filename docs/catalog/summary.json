@@ -1,7 +1,7 @@
 {
-  "version": "0.113",
-  "parts": 140,
-  "pages": 1185,
+  "version": "0.114",
+  "parts": 146,
+  "pages": 1267,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 12,
-      "pages": 172,
+      "parts": 18,
+      "pages": 254,
       "chapters": [
         {
           "chapter": 1,
@@ -2434,6 +2434,10 @@
             {
               "lesson": 3,
               "title": "アメリカ合衆国の発展"
+            },
+            {
+              "lesson": 4,
+              "title": "イタリア・ドイツの統一"
             }
           ],
           "volumes": [
@@ -2532,6 +2536,54 @@
               "lesson": 3,
               "part": 4,
               "pages": 18
+            },
+            {
+              "id": "modern-c01-l04-p01",
+              "label": "統一以前のイタリア",
+              "number": "13",
+              "lesson": 4,
+              "part": 1,
+              "pages": 7
+            },
+            {
+              "id": "modern-c01-l04-p02",
+              "label": "サルデーニャ王国の統一運動",
+              "number": "14",
+              "lesson": 4,
+              "part": 2,
+              "pages": 13
+            },
+            {
+              "id": "modern-c01-l04-p03",
+              "label": "イタリア王国の成立",
+              "number": "15",
+              "lesson": 4,
+              "part": 3,
+              "pages": 15
+            },
+            {
+              "id": "modern-c01-l04-p04",
+              "label": "統一以前のドイツ",
+              "number": "16",
+              "lesson": 4,
+              "part": 4,
+              "pages": 10
+            },
+            {
+              "id": "modern-c01-l04-p05",
+              "label": "普墺戦争と普仏戦争",
+              "number": "17",
+              "lesson": 4,
+              "part": 5,
+              "pages": 20
+            },
+            {
+              "id": "modern-c01-l04-p06",
+              "label": "統一後のドイツ",
+              "number": "18",
+              "lesson": 4,
+              "part": 6,
+              "pages": 17
             }
           ]
         }

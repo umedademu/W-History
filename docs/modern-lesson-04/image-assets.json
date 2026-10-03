@@ -1,0 +1,1687 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-03",
+  "lesson": "modern-c01-l04",
+  "description": "原文の内容を示す模式的な人物・一般集団・施設・道具。精密な肖像や施設の復元ではない。",
+  "totals": {
+    "new": 27,
+    "nativeGenerated": 13,
+    "fallbackGenerated": 14,
+    "generationRequests": 29,
+    "reused": 29,
+    "used": 56
+  },
+  "authorization": "指定のAntigravity CLI経由でGemini 3.8 Flashへ依頼して13点を生成。続いて画像生成側が429 RESOURCE_EXHAUSTEDを返したため、以前のユーザーによる別の画像生成ツールへの続行承認を適用し、残り13点と、新たに追加したマルクス1点を組み込みツールで生成。全27点の透過と寸法調整は指定どおりAntigravity経由のGeminiへ依頼した。",
+  "generationModels": {
+    "nativeRequest": "Gemini 3.8 Flash High",
+    "fallback": "組み込み画像生成ツール。内部モデル名は返されないため記載しない。"
+  },
+  "nativeRequests": [
+    {
+      "key": "cavour",
+      "status": "generated",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/6ada8e41-6a60-4c29-a1a0-508d82ccfdf1/cavour_1791030063639.jpg",
+      "prompt": "Image creation task only. Use your native image-generator subagent generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Subject Camillo Benso Count of Cavour, 1850s Italian prime minister: recognizable balding crown with short brown side hair, round spectacles, compact round adult face, moustache and short sideburns, dark nineteenth-century formal frock coat, white shirt and dark bow tie, holding a small folded diplomatic paper, neutral thoughtful standing full body. Match STYLE references C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png: detailed 16-bit JRPG short chibi THREE heads tall, face/head one third total height, short compact body and legs, crisp stepped dark outline, muted shading, distinct respectful adult face. Entire figure intact centered with generous transparent margins, transparent background if supported, otherwise flat PURE WHITE background, no shadow/glow/floor/scene/labels. ImageName cavour. Do not alter repository files or use shell for generation. Generate and await your native image-generator subagent, return concise JSON {key:'cavour',generated_path,tool,error}. If service quota-limited return quota error immediately, no waiting or retries. Save in native artifacts.\n"
+    },
+    {
+      "key": "vittorio-emmanuel-ii",
+      "status": "generated",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/7c1401ff-efab-4f14-ac2a-71d5de4d3e05/vittorio_emmanuel_ii_1791030299664.jpg",
+      "exit": 0,
+      "seconds": 78.3,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Victor Emmanuel II of Sardinia and Italy, middle-aged 1860s monarch, very large black handlebar moustache, dark hair, navy nineteenth-century royal military tunic with gold trim, no crown needed, unmistakably different from Carlo Alberto. ImageName vittorio-emmanuel-ii. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'vittorio-emmanuel-ii',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "garibaldi",
+      "status": "generated",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/88ddac39-7e6d-4af3-8515-d5eb6e8b5119/garibaldi_1791030290050.jpg",
+      "exit": 0,
+      "seconds": 62.5,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Giuseppe Garibaldi of 1860, middle-aged adult with curly brown hair and full brown beard, bright red work shirt, pale neck scarf, simple dark trousers, neutral steady standing, no horse or scenery. ImageName garibaldi. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'garibaldi',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "henri-dunant",
+      "status": "generated",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/2e088207-6175-4f03-82c4-c97d9620a51a/henri_dunant_1791030291374.jpg",
+      "exit": 0,
+      "seconds": 59.2,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Henri Dunant, mature nineteenth-century Swiss humanitarian, short gray-white hair and beard, simple dark civilian suit, holding a small aid notebook, no halo and no nurse uniform. ImageName henri-dunant. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'henri-dunant',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "florence-nightingale",
+      "status": "generated",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/4b27b762-1bc4-445f-8d2d-db538d539aad/florence_nightingale_1791030287628.jpg",
+      "exit": 0,
+      "seconds": 55.3,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Florence Nightingale, nineteenth-century British nurse, brown center-parted hair tucked neatly beneath a plain light cap, modest dark dress and pale apron, holding a small lamp, respectful adult. ImageName florence-nightingale. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'florence-nightingale',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "wilhelm-i",
+      "status": "generated",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/50b9ece8-8190-48f0-9930-58a4c0c482c0/wilhelm_i_1791030338248.jpg",
+      "exit": 0,
+      "seconds": 51.7,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Wilhelm I, elderly king of Prussia and German emperor of 1871, receding white hair, distinctive white moustache and cheek sideburns, dark Prussian royal military tunic with restrained gold epaulettes, standing, distinct from Frederick William IV. ImageName wilhelm-i. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'wilhelm-i',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "isabella-ii-spain",
+      "status": "generated",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/75195767-eec7-4484-b5b7-e2ec5cebbaf9/isabella_ii_spain_1791030349465.jpg",
+      "exit": 0,
+      "seconds": 68.8,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Isabella II of Spain, mature 1860s Spanish queen with dark center-parted hair, broad adult face, dark blue nineteenth-century court gown with lace collar, modest jewelry, distinct from medieval Isabella I, no modern sash text. ImageName isabella-ii-spain. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'isabella-ii-spain',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "leopold-hohenzollern",
+      "status": "generated",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/b27bc0c8-72ed-4f87-8ae8-2a0555b69f6b/leopold_hohenzollern_1791030359623.jpg",
+      "exit": 0,
+      "seconds": 84.9,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Leopold of Hohenzollern-Sigmaringen, 1870 Spanish throne candidate who never became Spanish king, dark hair and moustache, plain nineteenth-century aristocratic formal coat, no crown, no coronation regalia, distinct from Leopold I Belgium. ImageName leopold-hohenzollern. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'leopold-hohenzollern',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "ferdinand-lassalle",
+      "status": "generated",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/607d7b93-7d20-46a6-a84d-8b2c4d2ee8bd/ferdinand_lassalle_1791030364692.jpg",
+      "exit": 0,
+      "seconds": 59.8,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Ferdinand Lassalle, nineteenth-century German political activist, wavy brown hair, dark short moustache, thoughtful adult face, civilian formal coat and white shirt, holding a closed book. ImageName ferdinand-lassalle. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'ferdinand-lassalle',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "august-bebel",
+      "status": "generated",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/d76d3586-fb69-42df-ba96-9d62199107ec/august_bebel_1791030397036.jpg",
+      "exit": 0,
+      "seconds": 60.9,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: August Bebel, nineteenth-century German labor politician, receding brown hair, short brown beard and moustache, dark simple civilian suit, holding a small closed political book, distinct face from Lassalle. ImageName august-bebel. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'august-bebel',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "giuseppe-verdi",
+      "status": "generated",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/62d98b71-fe8c-4e03-86fa-a576a53737e4/giuseppe_verdi_png_1791030417143.jpg",
+      "exit": 0,
+      "seconds": 61.3,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Giuseppe Verdi, older nineteenth-century Italian composer, gray-white hair and full beard, dark civilian frock coat and dark cravat, holding folded musical score with no readable notes or text, no baton needed. ImageName giuseppe-verdi. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'giuseppe-verdi',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "red-shirt-volunteers",
+      "status": "generated",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/cac11f32-0360-41d2-a32c-ece104da00d1/red_shirt_volunteers_1791030433192.jpg",
+      "exit": 0,
+      "seconds": 84,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Three ordinary Italian Redshirt volunteers of 1860, red work shirts and simple nineteenth-century trousers, short compact civilian caps, one holding a period rifle vertically and two carrying small packs, neutral standing educational group, not Garibaldi's face. ImageName red-shirt-volunteers. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'red-shirt-volunteers',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "italian-peasants",
+      "status": "generated",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/bed39b2b-8092-4a42-9fa8-31ccbd8c94fe/italian_peasants_1791030446086.jpg",
+      "exit": 0,
+      "seconds": 107.5,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Three ordinary Italian rural adult peasants of the 1860s, two women and a man, modest practical nineteenth-century farm clothes in muted colors, one with a basket and one with a small hand tool, dignified adult faces, no caricature. ImageName italian-peasants. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'italian-peasants',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "italian-royal-soldiers",
+      "status": "quota",
+      "inputPath": null,
+      "exit": 0,
+      "seconds": 46.6,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Three ordinary Italian royal soldiers of 1860–1870, blue nineteenth-century uniforms and simple military caps, restrained belt and backpack details, one static period rifle held vertically, no modern camouflage or twentieth-century helmets. ImageName italian-royal-soldiers. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'italian-royal-soldiers',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "junker-landowners",
+      "status": "quota",
+      "inputPath": null,
+      "exit": 0,
+      "seconds": 42.3,
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Two nineteenth-century Prussian Junker landowners, mature aristocratic men in dark civilian formal coats, one with property documents and one with a cane, dignified neutral faces, no modern uniforms or slogan. ImageName junker-landowners. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'junker-landowners',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    }
+  ],
+  "quota": {
+    "status": "429 RESOURCE_EXHAUSTED",
+    "firstKey": "italian-royal-soldiers",
+    "resetAfter": "4h17m47s"
+  },
+  "normalization": {
+    "model": "Gemini 3.8 Flash High",
+    "via": "Antigravity CLI",
+    "completed": 27,
+    "failed": 0,
+    "canvas": [
+      192,
+      192
+    ],
+    "subjectMaximum": [
+      176,
+      176
+    ],
+    "centerX": 96,
+    "bottomY": 184,
+    "resampling": "最近傍、縦横比を維持。透明入力は元のアルファを保持。白背景の入力は外縁から連結する近い白だけを除去し、輪郭で囲まれた内部の白と人物・衣服の色を保持。",
+    "scriptSha256": "ae8e09d7b5bf1b8fcd3689cb663150fdafeef46c1cef2871045f48dd882cc604",
+    "prompt": "あなたは Gemini 3.8 Flash です。この作業の画像調整を担当します。指定の処理だけを実装して一度実行し、画像の新規生成や別担当の起動、広い探索、Git操作、インストールは行わないでください。\n\n入力一覧: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson04-1791029631422/generated-inputs.json\n出力報告: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson04-1791029631422/normalization-report.json\n確認用一覧画像: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson04-1791029631422/contact-sheet.png\nあなたが書く処理: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson04-1791029631422/normalize-sprites.py\n\nまず一覧を一回read_fileで読み、PythonとPillowの処理を一回write_to_fileで作成し、一回run_commandで実行してください。入力は26件のassets配列、key,inputPath,outputPath,generationTool,originalBackgroundを持ちます。\n- すべての入力を読込専用でRGBAとして開く。元の画像を上書きしない。\n- generationToolがimage_genの13点は透明背景です。元のアルファをそのまま使用し、新たな背景色除去はしない。\n- Antigravity image-generatorの13点は白背景のJPGです。すでに透明な入力ならそのままアルファを使用する。全面不透明の白背景のみ、画像の外縁からつながる白に近い背景を取り除いて透明にする。顔・白髭・白いシャツ・包帯など、輪郭に囲まれた内部の白は削除しない。JPEGの外縁に近い白の雑音も背景として除去し、白い巨大な板や周囲の帯を残さない。背景判定の閾値と外縁からの連結判定を処理と報告へ明記。絵の色・顔・衣服・姿そのものを描き替えず、境界の判定が不明な場合は報告する。\n- 透過が0より大きい描画範囲だけを切り出す。縦横比を維持して最大176×176画素へ最近傍で収め、192×192画素の透明なキャンバスの横中央96、下端184へ配置。上下左右に8画素以上透明な余白を保持する。\n- outputPathに新しいPNGを保存。既存のファイルがある場合は上書きせずエラー。他の画像やsources、AGENTS.md、TASK.mdを変更しない。\n- 報告JSONは summary {total,completed,failed}, failures[], results[] とし、各結果にkey,inputPath,outputPath,inputSha256,outputSha256,originalDimensions {width,height}, originalBbox, savedBbox,transparentPixelCount,backgroundOperation,statusを26件記録。元が不透明だった場合は取り除いた画素数と判定法も保存。\n- 確認用一覧画像は26点を5列で192×192のまま薄い灰色背景に並べ、各マス下にASCIIのkeyを添える。公開画像自体に文字は加えない。\n- 入力未存在、空の絵、透過がないまま残るなど異常は勝手に補わずエラー報告。\n\n完了後、実際の成功数・失敗数・報告パスと一覧画像パスを短く返してください。\n",
+    "additional": {
+      "completed": 1,
+      "failed": 0,
+      "scriptSha256": "37e54b2d0eabcc1fb50376e3afea14d29ba1b9d71f67235d9935a33672a3bec3",
+      "prompt": "あなたはGemini 3.8 Flashです。追加の1枚だけ画像の寸法を調整してください。新規生成、別担当起動、広い探索、Git操作やインストールは不要です。\n入力一覧 C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson04-1791029631422/marx-input.json を一度読み、PythonとPillowの処理 C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson04-1791029631422/normalize-marx.py を書いて一度実行してください。\n入力は透明背景です。RGBAの元のアルファを保持し、アルファが0より大きい描画範囲を切り出し、縦横比を維持して最大176×176へ最近傍で縮小。192×192透明キャンバス横中央96、下端184に置き、上下左右に8画素以上の透明な余白を保持。顔、色、姿を変えず、背景の新たな色除去もしない。指定outputPathが既存ならエラー。元画像と他の画像は上書きしない。\n出力報告 C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson04-1791029631422/normalization-marx-report.json に summary {total,completed,failed},failures[],results[] を保存。結果は key,inputPath,outputPath,inputSha256,outputSha256,originalDimensions {width,height},originalBbox,savedBbox,transparentPixelCount,backgroundOperation,status を記録。正常はcompleted。\n既存の26枚やその報告を変えない。sources、AGENTS.md、TASK.mdも変更しない。終了時は成功数、失敗数、出力パスを短く返してください。\n"
+    }
+  },
+  "prompts": [
+    {
+      "key": "cavour",
+      "kind": "person",
+      "generationTool": "Antigravity image-generator",
+      "prompt": "Image creation task only. Use your native image-generator subagent generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Subject Camillo Benso Count of Cavour, 1850s Italian prime minister: recognizable balding crown with short brown side hair, round spectacles, compact round adult face, moustache and short sideburns, dark nineteenth-century formal frock coat, white shirt and dark bow tie, holding a small folded diplomatic paper, neutral thoughtful standing full body. Match STYLE references C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png: detailed 16-bit JRPG short chibi THREE heads tall, face/head one third total height, short compact body and legs, crisp stepped dark outline, muted shading, distinct respectful adult face. Entire figure intact centered with generous transparent margins, transparent background if supported, otherwise flat PURE WHITE background, no shadow/glow/floor/scene/labels. ImageName cavour. Do not alter repository files or use shell for generation. Generate and await your native image-generator subagent, return concise JSON {key:'cavour',generated_path,tool,error}. If service quota-limited return quota error immediately, no waiting or retries. Save in native artifacts.\n"
+    },
+    {
+      "key": "vittorio-emmanuel-ii",
+      "kind": "person",
+      "generationTool": "Antigravity image-generator",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Victor Emmanuel II of Sardinia and Italy, middle-aged 1860s monarch, very large black handlebar moustache, dark hair, navy nineteenth-century royal military tunic with gold trim, no crown needed, unmistakably different from Carlo Alberto. ImageName vittorio-emmanuel-ii. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'vittorio-emmanuel-ii',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "garibaldi",
+      "kind": "person",
+      "generationTool": "Antigravity image-generator",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Giuseppe Garibaldi of 1860, middle-aged adult with curly brown hair and full brown beard, bright red work shirt, pale neck scarf, simple dark trousers, neutral steady standing, no horse or scenery. ImageName garibaldi. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'garibaldi',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "henri-dunant",
+      "kind": "person",
+      "generationTool": "Antigravity image-generator",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Henri Dunant, mature nineteenth-century Swiss humanitarian, short gray-white hair and beard, simple dark civilian suit, holding a small aid notebook, no halo and no nurse uniform. ImageName henri-dunant. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'henri-dunant',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "florence-nightingale",
+      "kind": "person",
+      "generationTool": "Antigravity image-generator",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Florence Nightingale, nineteenth-century British nurse, brown center-parted hair tucked neatly beneath a plain light cap, modest dark dress and pale apron, holding a small lamp, respectful adult. ImageName florence-nightingale. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'florence-nightingale',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "wilhelm-i",
+      "kind": "person",
+      "generationTool": "Antigravity image-generator",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Wilhelm I, elderly king of Prussia and German emperor of 1871, receding white hair, distinctive white moustache and cheek sideburns, dark Prussian royal military tunic with restrained gold epaulettes, standing, distinct from Frederick William IV. ImageName wilhelm-i. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'wilhelm-i',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "isabella-ii-spain",
+      "kind": "person",
+      "generationTool": "Antigravity image-generator",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Isabella II of Spain, mature 1860s Spanish queen with dark center-parted hair, broad adult face, dark blue nineteenth-century court gown with lace collar, modest jewelry, distinct from medieval Isabella I, no modern sash text. ImageName isabella-ii-spain. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'isabella-ii-spain',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "leopold-hohenzollern",
+      "kind": "person",
+      "generationTool": "Antigravity image-generator",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Leopold of Hohenzollern-Sigmaringen, 1870 Spanish throne candidate who never became Spanish king, dark hair and moustache, plain nineteenth-century aristocratic formal coat, no crown, no coronation regalia, distinct from Leopold I Belgium. ImageName leopold-hohenzollern. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'leopold-hohenzollern',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "ferdinand-lassalle",
+      "kind": "person",
+      "generationTool": "Antigravity image-generator",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Ferdinand Lassalle, nineteenth-century German political activist, wavy brown hair, dark short moustache, thoughtful adult face, civilian formal coat and white shirt, holding a closed book. ImageName ferdinand-lassalle. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'ferdinand-lassalle',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "august-bebel",
+      "kind": "person",
+      "generationTool": "Antigravity image-generator",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: August Bebel, nineteenth-century German labor politician, receding brown hair, short brown beard and moustache, dark simple civilian suit, holding a small closed political book, distinct face from Lassalle. ImageName august-bebel. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'august-bebel',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "giuseppe-verdi",
+      "kind": "person",
+      "generationTool": "Antigravity image-generator",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Giuseppe Verdi, older nineteenth-century Italian composer, gray-white hair and full beard, dark civilian frock coat and dark cravat, holding folded musical score with no readable notes or text, no baton needed. ImageName giuseppe-verdi. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'giuseppe-verdi',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "red-shirt-volunteers",
+      "kind": "group",
+      "generationTool": "Antigravity image-generator",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Three ordinary Italian Redshirt volunteers of 1860, red work shirts and simple nineteenth-century trousers, short compact civilian caps, one holding a period rifle vertically and two carrying small packs, neutral standing educational group, not Garibaldi's face. ImageName red-shirt-volunteers. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'red-shirt-volunteers',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "italian-peasants",
+      "kind": "group",
+      "generationTool": "Antigravity image-generator",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Three ordinary Italian rural adult peasants of the 1860s, two women and a man, modest practical nineteenth-century farm clothes in muted colors, one with a basket and one with a small hand tool, dignified adult faces, no caricature. ImageName italian-peasants. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'italian-peasants',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts."
+    },
+    {
+      "key": "italian-royal-soldiers",
+      "kind": "group",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, compact torso and very short legs, respectful adult faces. Full subject intact centered with generous transparent margins. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Three ordinary Italian royal soldiers of 1860–1870, blue nineteenth-century uniforms and simple military caps, restrained belt and backpack details, one static period rifle held vertically, no modern camouflage or twentieth-century helmets."
+    },
+    {
+      "key": "junker-landowners",
+      "kind": "group",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, compact torso and very short legs, respectful adult faces. Full subject intact centered with generous transparent margins. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Two nineteenth-century Prussian Junker landowners, mature aristocratic men in dark civilian formal coats, one with property documents and one with a cane, dignified neutral faces, no modern uniforms or slogan."
+    },
+    {
+      "key": "magyar-delegates",
+      "kind": "group",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, compact torso and very short legs, respectful adult faces. Full subject intact centered with generous transparent margins. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Two nineteenth-century Hungarian Magyar parliamentary delegates in modest dark formal coats, one holding government papers, restrained burgundy vest detail, dignified adults, no ethnic caricature or modern flag."
+    },
+    {
+      "key": "catholic-clergy",
+      "kind": "group",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, compact torso and very short legs, respectful adult faces. Full subject intact centered with generous transparent margins. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Two ordinary nineteenth-century German Catholic clergy in long black cassocks, one holding a closed book and one with hands together, mature dignified faces, modest caps, not Pope Pius IX, no modern sign."
+    },
+    {
+      "key": "imperial-nationalities",
+      "kind": "group",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, compact torso and very short legs, respectful adult faces. Full subject intact centered with generous transparent margins. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Three ordinary civilian adults representing different peoples of nineteenth-century Habsburg lands, women and man in modest diverse daily clothing, muted cream brown burgundy tones, dignified neutral standing group, no exaggerated ethnic caricature or conflict."
+    },
+    {
+      "key": "socialist-organizers",
+      "kind": "group",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, compact torso and very short legs, respectful adult faces. Full subject intact centered with generous transparent margins. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Three ordinary late-nineteenth-century German socialist organizers, two men and a woman in simple daily civilian clothing, holding closed books and folded pamphlets without letters, dignified adult faces, no modern party logo or giant banner."
+    },
+    {
+      "key": "modern-artillery",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, compact torso and very short legs, respectful adult faces. Full subject intact centered with generous transparent margins. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Compact schematic nineteenth-century European field artillery cannon, dark iron barrel on two wooden-spoked wheels with metal carriage, static neutral object, no shells exploding or people, not exact weapon reconstruction."
+    },
+    {
+      "key": "telegraph",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, compact torso and very short legs, respectful adult faces. Full subject intact centered with generous transparent margins. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Compact nineteenth-century telegraph apparatus, brass and dark wood Morse key beside small paper roll and coiled wire, no letters or numbers on paper, isolated educational object."
+    },
+    {
+      "key": "field-aid-station",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, compact torso and very short legs, respectful adult faces. Full subject intact centered with generous transparent margins. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Small schematic nineteenth-century battlefield aid station, cream canvas tent, folded stretcher and bandage box in front, no injured people or blood, compact unified miniature."
+    },
+    {
+      "key": "tariff-barrier",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, compact torso and very short legs, respectful adult faces. Full subject intact centered with generous transparent margins. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Compact schematic nineteenth-century customs inspection post, simple wooden inspection table, cargo parcels and a short striped barrier arm, no people or words or modern road signs."
+    },
+    {
+      "key": "stock-exchange-ledger",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, compact torso and very short legs, respectful adult faces. Full subject intact centered with generous transparent margins. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Compact schematic nineteenth-century financial ledger book opened beside a simple downward plotted line graphic on blank paper, no numbers or readable text, restrained dark red brown and cream palette."
+    },
+    {
+      "key": "social-insurance",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, compact torso and very short legs, respectful adult faces. Full subject intact centered with generous transparent margins. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Compact schematic group of late-nineteenth-century social insurance objects: folded blank insurance papers with simple seal, a medical box, and a walking stick, no text or modern logo, unified educational miniature."
+    },
+    {
+      "key": "hall-of-mirrors",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, compact torso and very short legs, respectful adult faces. Full subject intact centered with generous transparent margins. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Small compact schematic miniature interior of the Hall of Mirrors at Versailles, a few tall arched mirrors on one side and arched windows on the other, gold trim and parquet floor within cutaway room object, no people, no coronation scene, no surrounding scenery. Isolated building-interior miniature on transparent outside."
+    },
+    {
+      "key": "karl-marx",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: ONE isolated educational pixel character sprite. Genuinely transparent background. Karl Marx, older nineteenth-century German philosopher: very distinctive broad forehead with thick curly gray-white hair and large bushy gray-white beard and moustache, thoughtful respectful adult face, plain dark 1860s civilian frock coat, white shirt, dark trousers, holding one closed plain philosophical book without symbol or text. Detailed crisp 16-bit JRPG stepped dark pixel outline and muted shading; compact SHORT chibi THREE heads tall with head one third of full height, short body and very short legs. Full body centered intact with generous transparent margins. Not medieval or clerical robes. No cross, holy symbols, crown, badges, text, letters, labels, scenery, floor, glow, cast shadow or white plate."
+    }
+  ],
+  "assets": [
+    {
+      "key": "vittorio-emmanuel-ii",
+      "image": "modern-c01-l04/vittorio-emmanuel-ii.png",
+      "name": "ヴィットーリオ＝エマヌエーレ2世",
+      "kind": "person",
+      "identity": "person:vittorio-emmanuel-ii",
+      "description": "サルデーニャ王国からイタリア王国の国王になる本人。黒い大きな口髭と19世紀の礼装。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/vittorio-emmanuel-ii.png",
+      "outputSha256": "4aaae9ce8b363f39936bfe9382f46445542cd21260129b2ec7e5b9a672cb434c",
+      "originalFilename": "vittorio_emmanuel_ii_1791030299664.jpg",
+      "inputSha256": "1dcafd699703b0a865ec825ee511d8c2ee6558ba9f724f7ccae7845272aff042",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "savedBbox": [
+        49,
+        8,
+        144,
+        184
+      ],
+      "transparentPixels": 25046,
+      "generationTool": "Antigravity image-generator",
+      "backgroundOperation": {
+        "operation": "outer_flood_fill",
+        "method": "edge_connected_flood_fill",
+        "threshold": "R >= 225, G >= 225, B >= 225, max(RGB)-min(RGB) <= 25",
+        "removedPixelCount": 792653,
+        "connectivity": "4-neighbor BFS from 4 outer edges",
+        "description": "Outer-edge connected flood fill removing near-white background noise without modifying enclosed interior white areas."
+      }
+    },
+    {
+      "key": "cavour",
+      "image": "modern-c01-l04/cavour.png",
+      "name": "カヴール",
+      "kind": "person",
+      "identity": "person:cavour",
+      "description": "サルデーニャ王国首相本人。丸眼鏡、薄い髪、短い髭と19世紀の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/cavour.png",
+      "outputSha256": "b834f79a014f4c2dae44909b7420248b20dce9c3becafd259cc4db615a99a182",
+      "originalFilename": "cavour_1791030063639.jpg",
+      "inputSha256": "3233fe576708ec877f03ca17dc828953a619eace670c265f5920b27d21648215",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "savedBbox": [
+        53,
+        8,
+        139,
+        184
+      ],
+      "transparentPixels": 26669,
+      "generationTool": "Antigravity image-generator",
+      "backgroundOperation": {
+        "operation": "outer_flood_fill",
+        "method": "edge_connected_flood_fill",
+        "threshold": "R >= 225, G >= 225, B >= 225, max(RGB)-min(RGB) <= 25",
+        "removedPixelCount": 753871,
+        "connectivity": "4-neighbor BFS from 4 outer edges",
+        "description": "Outer-edge connected flood fill removing near-white background noise without modifying enclosed interior white areas."
+      }
+    },
+    {
+      "key": "garibaldi",
+      "image": "modern-c01-l04/garibaldi.png",
+      "name": "ガリバルディ",
+      "kind": "person",
+      "identity": "person:garibaldi",
+      "description": "千人隊を率いた本人。赤いシャツと茶色の髭。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/garibaldi.png",
+      "outputSha256": "8b9689d6f7466f915f7b6a66383d937bbc62864076e93d3d2b7988830afcfa89",
+      "originalFilename": "garibaldi_1791030290050.jpg",
+      "inputSha256": "b36e11cce771882a22887a97009c65d57390cc1e0003f620ad9960c9054c95b1",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "savedBbox": [
+        57,
+        8,
+        135,
+        184
+      ],
+      "transparentPixels": 27112,
+      "generationTool": "Antigravity image-generator",
+      "backgroundOperation": {
+        "operation": "outer_flood_fill",
+        "method": "edge_connected_flood_fill",
+        "threshold": "R >= 225, G >= 225, B >= 225, max(RGB)-min(RGB) <= 25",
+        "removedPixelCount": 852117,
+        "connectivity": "4-neighbor BFS from 4 outer edges",
+        "description": "Outer-edge connected flood fill removing near-white background noise without modifying enclosed interior white areas."
+      }
+    },
+    {
+      "key": "henri-dunant",
+      "image": "modern-c01-l04/henri-dunant.png",
+      "name": "アンリ＝デュナン",
+      "kind": "person",
+      "identity": "person:henri-dunant",
+      "description": "ソルフェリーノの救護に取り組んだ本人。白髪と髭、救護の記録を持つ。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/henri-dunant.png",
+      "outputSha256": "66cc5d6be24bf3788adf6ff03626cf3fd86b84650a98d6ca0c38692a64f2c2cb",
+      "originalFilename": "henri_dunant_1791030291374.jpg",
+      "inputSha256": "11ed6c67effb432d0dd231640936f9f290ab56a2b04038e0fb2828672926aa2c",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "savedBbox": [
+        53,
+        8,
+        139,
+        184
+      ],
+      "transparentPixels": 26766,
+      "generationTool": "Antigravity image-generator",
+      "backgroundOperation": {
+        "operation": "outer_flood_fill",
+        "method": "edge_connected_flood_fill",
+        "threshold": "R >= 225, G >= 225, B >= 225, max(RGB)-min(RGB) <= 25",
+        "removedPixelCount": 756453,
+        "connectivity": "4-neighbor BFS from 4 outer edges",
+        "description": "Outer-edge connected flood fill removing near-white background noise without modifying enclosed interior white areas."
+      }
+    },
+    {
+      "key": "florence-nightingale",
+      "image": "modern-c01-l04/florence-nightingale.png",
+      "name": "ナイティンゲール",
+      "kind": "person",
+      "identity": "person:florence-nightingale",
+      "description": "デュナンへの影響として参照する本人。ソルフェリーノに同席した人物として描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/florence-nightingale.png",
+      "outputSha256": "6c35aaf95cd82c7c29b38ff301653ac76fd87ab0bcf5aca982f437bbb1dbb70c",
+      "originalFilename": "florence_nightingale_1791030287628.jpg",
+      "inputSha256": "da76ce669931cccab37fda54d4722cc775f04c8ac679fc16115e8fee08257cb0",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "savedBbox": [
+        42,
+        8,
+        150,
+        184
+      ],
+      "transparentPixels": 25218,
+      "generationTool": "Antigravity image-generator",
+      "backgroundOperation": {
+        "operation": "outer_flood_fill",
+        "method": "edge_connected_flood_fill",
+        "threshold": "R >= 225, G >= 225, B >= 225, max(RGB)-min(RGB) <= 25",
+        "removedPixelCount": 711446,
+        "connectivity": "4-neighbor BFS from 4 outer edges",
+        "description": "Outer-edge connected flood fill removing near-white background noise without modifying enclosed interior white areas."
+      }
+    },
+    {
+      "key": "wilhelm-i",
+      "image": "modern-c01-l04/wilhelm-i.png",
+      "name": "ヴィルヘルム1世",
+      "kind": "person",
+      "identity": "person:wilhelm-i",
+      "description": "プロイセン国王・ドイツ皇帝本人。白い頬髭と19世紀の軍装。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/wilhelm-i.png",
+      "outputSha256": "80b2e8174486a7fdd6549a259f38bc5b8ba647b8052e630fed857c3312cdfaab",
+      "originalFilename": "wilhelm_i_1791030338248.jpg",
+      "inputSha256": "fe1ce64f3e22e86713a5088e5cd12e3255a7a532831afce9f7b15f884cb4b451",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "savedBbox": [
+        54,
+        8,
+        139,
+        184
+      ],
+      "transparentPixels": 25684,
+      "generationTool": "Antigravity image-generator",
+      "backgroundOperation": {
+        "operation": "outer_flood_fill",
+        "method": "edge_connected_flood_fill",
+        "threshold": "R >= 225, G >= 225, B >= 225, max(RGB)-min(RGB) <= 25",
+        "removedPixelCount": 812255,
+        "connectivity": "4-neighbor BFS from 4 outer edges",
+        "description": "Outer-edge connected flood fill removing near-white background noise without modifying enclosed interior white areas."
+      }
+    },
+    {
+      "key": "isabella-ii-spain",
+      "image": "modern-c01-l04/isabella-ii-spain.png",
+      "name": "イサベル2世",
+      "kind": "person",
+      "identity": "person:isabella-ii-spain",
+      "description": "スペイン女王本人。19世紀の服装。古代・近世のイサベル1世と別人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/isabella-ii-spain.png",
+      "outputSha256": "a66cdca4de590a88841bb3540dd3a0f4c36d77b2594d61153a52501d88a6eb59",
+      "originalFilename": "isabella_ii_spain_1791030349465.jpg",
+      "inputSha256": "e0f577f8df27b062b93d98b8aa862b11b3c4abb3d88a3f53a9a7e74c0e91fa43",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "savedBbox": [
+        45,
+        8,
+        147,
+        184
+      ],
+      "transparentPixels": 23386,
+      "generationTool": "Antigravity image-generator",
+      "backgroundOperation": {
+        "operation": "outer_flood_fill",
+        "method": "edge_connected_flood_fill",
+        "threshold": "R >= 225, G >= 225, B >= 225, max(RGB)-min(RGB) <= 25",
+        "removedPixelCount": 783815,
+        "connectivity": "4-neighbor BFS from 4 outer edges",
+        "description": "Outer-edge connected flood fill removing near-white background noise without modifying enclosed interior white areas."
+      }
+    },
+    {
+      "key": "leopold-hohenzollern",
+      "image": "modern-c01-l04/leopold-hohenzollern.png",
+      "name": "レオポルト",
+      "kind": "person",
+      "identity": "person:leopold-hohenzollern",
+      "description": "スペイン王位候補となり辞退した本人。即位した国王の冠を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/leopold-hohenzollern.png",
+      "outputSha256": "66dfff4538e610700d0842244eb5cf691c2109f8d865c20a177721de723bce25",
+      "originalFilename": "leopold_hohenzollern_1791030359623.jpg",
+      "inputSha256": "c8a31d874fc9b65db14bb55fe6f14e4ac379b3ab8134407cf78f8cccf8de423c",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "savedBbox": [
+        53,
+        8,
+        140,
+        184
+      ],
+      "transparentPixels": 26575,
+      "generationTool": "Antigravity image-generator",
+      "backgroundOperation": {
+        "operation": "outer_flood_fill",
+        "method": "edge_connected_flood_fill",
+        "threshold": "R >= 225, G >= 225, B >= 225, max(RGB)-min(RGB) <= 25",
+        "removedPixelCount": 751316,
+        "connectivity": "4-neighbor BFS from 4 outer edges",
+        "description": "Outer-edge connected flood fill removing near-white background noise without modifying enclosed interior white areas."
+      }
+    },
+    {
+      "key": "ferdinand-lassalle",
+      "image": "modern-c01-l04/ferdinand-lassalle.png",
+      "name": "ラサール",
+      "kind": "person",
+      "identity": "person:ferdinand-lassalle",
+      "description": "全ドイツ労働者協会の歴史の参照として示す本人。1875年に共同で党を結成した人物として描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/ferdinand-lassalle.png",
+      "outputSha256": "ef479274fceffa8b595b8ecdaa5a6fa8129f11ded6396643913baa39bf5f3e6f",
+      "originalFilename": "ferdinand_lassalle_1791030364692.jpg",
+      "inputSha256": "5a2868b1e35508bf1cc505a2d567c16eacb848c9233474b3edaa188106ab8c09",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "savedBbox": [
+        53,
+        8,
+        139,
+        184
+      ],
+      "transparentPixels": 26788,
+      "generationTool": "Antigravity image-generator",
+      "backgroundOperation": {
+        "operation": "outer_flood_fill",
+        "method": "edge_connected_flood_fill",
+        "threshold": "R >= 225, G >= 225, B >= 225, max(RGB)-min(RGB) <= 25",
+        "removedPixelCount": 757158,
+        "connectivity": "4-neighbor BFS from 4 outer edges",
+        "description": "Outer-edge connected flood fill removing near-white background noise without modifying enclosed interior white areas."
+      }
+    },
+    {
+      "key": "august-bebel",
+      "image": "modern-c01-l04/august-bebel.png",
+      "name": "ベーベル",
+      "kind": "person",
+      "identity": "person:august-bebel",
+      "description": "社会民主労働者党の説明に登場する本人。茶色の短い髭と背広、本。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/august-bebel.png",
+      "outputSha256": "c1538bd990b70b296fe0e3339047bd90084a2112bd0fe5c07125ecf8aac20e3e",
+      "originalFilename": "august_bebel_1791030397036.jpg",
+      "inputSha256": "cec1b345286a9927c5f5ef87f68f863e81fcf8cccb742d4174ef8156707bab8f",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "savedBbox": [
+        53,
+        8,
+        139,
+        184
+      ],
+      "transparentPixels": 26875,
+      "generationTool": "Antigravity image-generator",
+      "backgroundOperation": {
+        "operation": "outer_flood_fill",
+        "method": "edge_connected_flood_fill",
+        "threshold": "R >= 225, G >= 225, B >= 225, max(RGB)-min(RGB) <= 25",
+        "removedPixelCount": 759748,
+        "connectivity": "4-neighbor BFS from 4 outer edges",
+        "description": "Outer-edge connected flood fill removing near-white background noise without modifying enclosed interior white areas."
+      }
+    },
+    {
+      "key": "giuseppe-verdi",
+      "image": "modern-c01-l04/giuseppe-verdi.png",
+      "name": "ヴェルディ",
+      "kind": "person",
+      "identity": "person:giuseppe-verdi",
+      "description": "原書76ページ独立コラムに登場する作曲家本人。白い髭、礼服と楽譜。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/giuseppe-verdi.png",
+      "outputSha256": "4bbeb1af8c126a113f9de67b486a840bd4f71b03d167080239e243815792b650",
+      "originalFilename": "giuseppe_verdi_png_1791030417143.jpg",
+      "inputSha256": "bbc486b87a5701882135a26351f2f008e4e2dd26a1389adebb0ac86d116881b2",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "savedBbox": [
+        58,
+        8,
+        135,
+        184
+      ],
+      "transparentPixels": 28041,
+      "generationTool": "Antigravity image-generator",
+      "backgroundOperation": {
+        "operation": "outer_flood_fill",
+        "method": "edge_connected_flood_fill",
+        "threshold": "R >= 225, G >= 225, B >= 225, max(RGB)-min(RGB) <= 25",
+        "removedPixelCount": 867490,
+        "connectivity": "4-neighbor BFS from 4 outer edges",
+        "description": "Outer-edge connected flood fill removing near-white background noise without modifying enclosed interior white areas."
+      }
+    },
+    {
+      "key": "karl-marx",
+      "image": "modern-c01-l04/karl-marx.png",
+      "name": "マルクス",
+      "kind": "person",
+      "identity": "person:karl-marx",
+      "description": "19世紀の本人。広い額、長い白髪と豊かな髭、背広と本。1875年の合併の現場へ同席させず思想の参照とする。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/karl-marx.png",
+      "outputSha256": "0f7548fd5476cfd413a8729977edff25daf7695b371b391e47c4ff4b25a1c345",
+      "originalFilename": "exec-ee9ac58d-62a1-48a1-89fd-d1e84c60d782.png",
+      "inputSha256": "2cca97ae582edac86fbd237a8b73fd57baf73dd1bdac1be5ee5022f528457828",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "savedBbox": [
+        60,
+        30,
+        134,
+        168
+      ],
+      "transparentPixels": 29451,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "red-shirt-volunteers",
+      "image": "modern-c01-l04/red-shirt-volunteers.png",
+      "name": "赤シャツ隊",
+      "kind": "group",
+      "identity": "group:red-shirt-volunteers",
+      "description": "ガリバルディの義勇兵を代表する一般集団。赤いシャツ、誇張しない中立的な姿。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/red-shirt-volunteers.png",
+      "outputSha256": "a548e7a125484f2917ae6026901a90a0f252e8672c9df8aed551b61856559e7d",
+      "originalFilename": "red_shirt_volunteers_1791030433192.jpg",
+      "inputSha256": "a9ad5c802bb25ca11698d970e9f538d89ae80038557059cb829e1415d2c9885a",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "savedBbox": [
+        9,
+        8,
+        184,
+        184
+      ],
+      "transparentPixels": 13810,
+      "generationTool": "Antigravity image-generator",
+      "backgroundOperation": {
+        "operation": "outer_flood_fill",
+        "method": "edge_connected_flood_fill",
+        "threshold": "R >= 225, G >= 225, B >= 225, max(RGB)-min(RGB) <= 25",
+        "removedPixelCount": 386498,
+        "connectivity": "4-neighbor BFS from 4 outer edges",
+        "description": "Outer-edge connected flood fill removing near-white background noise without modifying enclosed interior white areas."
+      }
+    },
+    {
+      "key": "italian-peasants",
+      "image": "modern-c01-l04/italian-peasants.png",
+      "name": "イタリアの農民",
+      "kind": "group",
+      "identity": "group:italian-peasants",
+      "description": "農民を代表する男女の一般集団。日常着と農具。特定の同じ個人と断定しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/italian-peasants.png",
+      "outputSha256": "effb4f811332392c46fdd4a1537ddf96fc4f22ba896239fb95885c24b3bf495d",
+      "originalFilename": "italian_peasants_1791030446086.jpg",
+      "inputSha256": "7c080c9e9a99556ea656a7efa13685eaa8cf6463f20deb8f442a52369bf1f18f",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "savedBbox": [
+        8,
+        49,
+        184,
+        184
+      ],
+      "transparentPixels": 21262,
+      "generationTool": "Antigravity image-generator",
+      "backgroundOperation": {
+        "operation": "outer_flood_fill",
+        "method": "edge_connected_flood_fill",
+        "threshold": "R >= 225, G >= 225, B >= 225, max(RGB)-min(RGB) <= 25",
+        "removedPixelCount": 579112,
+        "connectivity": "4-neighbor BFS from 4 outer edges",
+        "description": "Outer-edge connected flood fill removing near-white background noise without modifying enclosed interior white areas."
+      }
+    },
+    {
+      "key": "italian-royal-soldiers",
+      "image": "modern-c01-l04/italian-royal-soldiers.png",
+      "name": "イタリア王国軍",
+      "kind": "group",
+      "identity": "group:italian-royal-soldiers",
+      "description": "1860年代から1870年ごろの王国軍を表す一般兵士。青い軍装。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/italian-royal-soldiers.png",
+      "outputSha256": "8d04ce6a20d2679adcffb557ed5c2ca499f8d11337927ea5bb7ada7273640218",
+      "originalFilename": "exec-7cdf4d82-1485-4bf3-b09f-66d0388c2d3c.png",
+      "inputSha256": "d782a3a793ace0550d1f00ac6b041fd46c6ff4b75bcee2f59229e3b817a0f0e1",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        12,
+        40,
+        183,
+        154
+      ],
+      "transparentPixels": 24342,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "junker-landowners",
+      "image": "modern-c01-l04/junker-landowners.png",
+      "name": "ユンカー",
+      "kind": "group",
+      "identity": "group:junker-landowners",
+      "description": "プロイセンの地主貴族を代表する一般集団。書類と礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/junker-landowners.png",
+      "outputSha256": "63a6eaeab57dfabe54b93cf8d1d4e5531c270633b2a61edb623f5f10a8f56a30",
+      "originalFilename": "exec-2aa0a81f-eeec-4eba-b9d4-92d90c33b2d8.png",
+      "inputSha256": "5858fcb46a55dc328187d0212e879d571b0e1e0d6caba57ba320ed29fe99777f",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        20,
+        26,
+        169,
+        172
+      ],
+      "transparentPixels": 23782,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "catholic-clergy",
+      "image": "modern-c01-l04/catholic-clergy.png",
+      "name": "カトリックの聖職者",
+      "kind": "group",
+      "identity": "group:catholic-clergy",
+      "description": "カトリック聖職者の一般集団。個別の教皇・宗教者の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/catholic-clergy.png",
+      "outputSha256": "7dafbbc1c10a1b3f4fe40205285faa8ec9b86cd6ee84fde8e16658f7a5b65b4f",
+      "originalFilename": "exec-23915ff6-22e4-4f59-b552-8d5e0abf458f.png",
+      "inputSha256": "dc058c86ed139717bff4af4a0a70de7ac6b89ee44a38c1e6f2e2155668f447c0",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        22,
+        8,
+        164,
+        180
+      ],
+      "transparentPixels": 21003,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "socialist-organizers",
+      "image": "modern-c01-l04/socialist-organizers.png",
+      "name": "社会主義の活動家",
+      "kind": "group",
+      "identity": "group:socialist-organizers",
+      "description": "集会・出版に取り組む一般集団。暴力や事件犯人と結び付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/socialist-organizers.png",
+      "outputSha256": "7cab8492b993525d7417266ac54d2eed96c1c43b173eeb8830584b4ee6431b65",
+      "originalFilename": "exec-f6ae6a86-d264-481e-8d94-2c9694f4502a.png",
+      "inputSha256": "6fff1c46e0eec0b5cd277646c070ca74178a9415d56446966318e84077bbd46f",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        14,
+        37,
+        183,
+        163
+      ],
+      "transparentPixels": 21710,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "magyar-delegates",
+      "image": "modern-c01-l04/magyar-delegates.png",
+      "name": "マジャール人の代表",
+      "kind": "group",
+      "identity": "group:magyar-delegates",
+      "description": "アウスグライヒのハンガリー側を表す一般の代表。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/magyar-delegates.png",
+      "outputSha256": "18ca0c6ce9a7aebbe7145c7b1c0324c33ea1833eb5f458b5603fc4435218271f",
+      "originalFilename": "exec-92a7b75c-c67f-43ce-ba67-b2ae5000b294.png",
+      "inputSha256": "3e253e276cf89ee84c6b6ac19fd4c705fedc372116df7d44a505b47ed18fee81",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        20,
+        37,
+        169,
+        176
+      ],
+      "transparentPixels": 23527,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "imperial-nationalities",
+      "image": "modern-c01-l04/imperial-nationalities.png",
+      "name": "オーストリア領内の諸民族",
+      "kind": "group",
+      "identity": "group:imperial-nationalities",
+      "description": "多民族の住民を代表する一般集団。特定の個人・民族の外見を固定しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/imperial-nationalities.png",
+      "outputSha256": "b74ade24f1a75613cffeb9ec2665c55799a7ea4b9d07d1f696989fbf8d336407",
+      "originalFilename": "exec-f486622a-dc75-4dd5-a5d1-cba809cce5b0.png",
+      "inputSha256": "cc3ee04a5d14d466b5005ff0de1d9ecd798241c9d41de090457f72ba537d09b9",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        16,
+        27,
+        172,
+        166
+      ],
+      "transparentPixels": 21771,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "modern-artillery",
+      "image": "modern-c01-l04/modern-artillery.png",
+      "name": "近代的な大砲",
+      "kind": "prop",
+      "identity": "prop:modern-artillery",
+      "description": "鉄血政策と軍備を説明する19世紀の大砲。クルップ社を会社として扱う。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/modern-artillery.png",
+      "outputSha256": "3c0570bc6e0fe5bf5c1ce88129c0fe44f4b5b494664d32db6c41df3d237a07fa",
+      "originalFilename": "exec-daf607ec-3cac-4f68-935d-4b7e017841bd.png",
+      "inputSha256": "d684769faacd2fa72fddd4fead2c56d355380ec7d3592bb0edceebe31b693da0",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        9,
+        67,
+        184,
+        154
+      ],
+      "transparentPixels": 28298,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "telegraph",
+      "image": "modern-c01-l04/telegraph.png",
+      "name": "電信・電報",
+      "kind": "prop",
+      "identity": "prop:telegraph",
+      "description": "電報と公表文の違いを説明する機械・文書。人や軍隊の移動と分ける。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/telegraph.png",
+      "outputSha256": "416e62c588e6f631fa0e9dbcb4cea60378cffcc82e1991d9a977994508e6d485",
+      "originalFilename": "exec-fa874e61-8edd-48d8-9188-73ee87fb2f66.png",
+      "inputSha256": "74297d2c2d43be55e4160dbaa957bdfde678f2f57a1ec44f8b67233b92cd9fa3",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        15,
+        44,
+        182,
+        155
+      ],
+      "transparentPixels": 26038,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "field-aid-station",
+      "image": "modern-c01-l04/field-aid-station.png",
+      "name": "戦場の救護",
+      "kind": "prop",
+      "identity": "prop:field-aid-station",
+      "description": "救護テント・包帯・担架。流血や負傷者の苦痛を誇張しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/field-aid-station.png",
+      "outputSha256": "2e499f76190ac09cf9126a9ac9e2dfd19874679445f151aa6c3d103d644b4b1e",
+      "originalFilename": "exec-f84607c7-0cc8-4266-aaa4-f0b82f5b621d.png",
+      "inputSha256": "9092523884e2c299a72bbdac818f99dd923acf0cd679b1a237296fb2db89aec6",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        10,
+        23,
+        184,
+        161
+      ],
+      "transparentPixels": 22888,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "social-insurance",
+      "image": "modern-c01-l04/social-insurance.png",
+      "name": "社会保険",
+      "kind": "prop",
+      "identity": "prop:social-insurance",
+      "description": "医療箱・杖・書類で疾病・災害・老齢保険を説明する。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/social-insurance.png",
+      "outputSha256": "e8ae076b5cf2b7c0a3a93b54cd8ae326b28e773810cbdef24c1a9a0c1755de7f",
+      "originalFilename": "exec-5a439e56-065e-4281-bdd3-cbeee49fa147.png",
+      "inputSha256": "32af2783aee132fcba0475123e1b0944a950ec30f605d6c7af1c00a1eca97dce",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        8,
+        25,
+        182,
+        175
+      ],
+      "transparentPixels": 21435,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "tariff-barrier",
+      "image": "modern-c01-l04/tariff-barrier.png",
+      "name": "関税",
+      "kind": "prop",
+      "identity": "prop:tariff-barrier",
+      "description": "貨物の検査台と関税を表す道具。自由貿易・保護貿易の比較。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/tariff-barrier.png",
+      "outputSha256": "576291c3e3167f644acc9de1b0667607d538a5d8c64c0719df621bb9d4c073a4",
+      "originalFilename": "exec-77a51496-bc84-408a-b0ca-c35e7138e35b.png",
+      "inputSha256": "420b39fe71987020b31a2ea410f137b7967cf64bc29167a15d3484e4b8c2dbfa",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        10,
+        45,
+        182,
+        149
+      ],
+      "transparentPixels": 27269,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "stock-exchange-ledger",
+      "image": "modern-c01-l04/stock-exchange-ledger.png",
+      "name": "株価と金融",
+      "kind": "prop",
+      "identity": "prop:stock-exchange-ledger",
+      "description": "帳簿と下向きの印で1873年の不況を説明する。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/stock-exchange-ledger.png",
+      "outputSha256": "a4fe8b45595765f420a98021e3df2f2d6bb341f93b2beaf693e3438ccc30ca5f",
+      "originalFilename": "exec-f6c63754-de15-47fb-96e7-1a675cc1e02f.png",
+      "inputSha256": "fac60dc2b97782bb1c635786d9acdc5020e8b1b7527115f8bf7986bd23a55234",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        19,
+        48,
+        183,
+        147
+      ],
+      "transparentPixels": 24928,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "hall-of-mirrors",
+      "image": "modern-c01-l04/hall-of-mirrors.png",
+      "name": "鏡の間",
+      "kind": "building",
+      "identity": "building:hall-of-mirrors",
+      "description": "ヴェルサイユ宮殿の室内の模式絵。皇帝戴冠と軍の進路を混同しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l04/hall-of-mirrors.png",
+      "outputSha256": "b14d716449d5781378c5d625d940eca1ac6030a76940761bbaa7a452adb5ebba",
+      "originalFilename": "exec-b038c969-0203-4e4a-b769-175a148980ae.png",
+      "inputSha256": "1a2732486301c2920f903377505548bf016a04349113ab54c4ad5ba6bbd8e458",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        17,
+        21,
+        181,
+        176
+      ],
+      "transparentPixels": 17432,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "none",
+        "method": "native_alpha",
+        "threshold": null,
+        "removedPixelCount": 0,
+        "connectivity": null,
+        "description": "Preserved original transparent alpha channel without background removal."
+      }
+    },
+    {
+      "key": "mazzini",
+      "image": "modern-c01-l01/mazzini.png",
+      "name": "マッツィーニ",
+      "kind": "person",
+      "identity": "person:mazzini",
+      "description": "第1回の同じ本人。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/mazzini.png",
+      "outputSha256": "d514d949862f5a2900068fbbac21724d117a847a9fb3a8258983066555eb2ce5",
+      "reuseReason": "第1回の同じ本人。別人の顔の代用にしない。"
+    },
+    {
+      "key": "carlo-alberto",
+      "image": "modern-c01-l01/carlo-alberto.png",
+      "name": "カルロ＝アルベルト",
+      "kind": "person",
+      "identity": "person:carlo-alberto",
+      "description": "第1回の同じ本人。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/carlo-alberto.png",
+      "outputSha256": "daa986530a424ae1168672b798835ae8f31d0283563ca380493ef8c337dd1f0c",
+      "reuseReason": "第1回の同じ本人。別人の顔の代用にしない。"
+    },
+    {
+      "key": "pius-ix",
+      "image": "modern-c01-l01/pius-ix.png",
+      "name": "ピウス9世",
+      "kind": "person",
+      "identity": "person:pius-ix",
+      "description": "第1回の同じ本人。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/pius-ix.png",
+      "outputSha256": "e3723beed52544aff803a81c7ea8d9e300c7791c0ef1b777bb2baa0321f07cca",
+      "reuseReason": "第1回の同じ本人。別人の顔の代用にしない。"
+    },
+    {
+      "key": "napoleon-i",
+      "image": "modern-c01-l01/napoleon-i.png",
+      "name": "ナポレオン1世",
+      "kind": "person",
+      "identity": "person:napoleon-i",
+      "description": "第1回の同じ本人。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/napoleon-i.png",
+      "outputSha256": "45b5efce60ae83da533e94f320b611a0ed0b46e1363979fe52196a7eba53ecd4",
+      "reuseReason": "第1回の同じ本人。別人の顔の代用にしない。"
+    },
+    {
+      "key": "napoleon-iii",
+      "image": "modern-c01-l01/napoleon-iii.png",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "identity": "person:napoleon-iii",
+      "description": "第1回の同じ本人。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/napoleon-iii.png",
+      "outputSha256": "6f8840c8d0a84ff3aba681b9fee64f7e290cf1cb5db886ba7228753ec05931a7",
+      "reuseReason": "第1回の同じ本人。別人の顔の代用にしない。"
+    },
+    {
+      "key": "bismarck",
+      "image": "modern-c01-l02/bismarck.png",
+      "name": "ビスマルク",
+      "kind": "person",
+      "identity": "person:bismarck",
+      "description": "第2回の同じ本人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/bismarck.png",
+      "outputSha256": "f722239f2689fcab52eabebd847c7c46d6eb81202f77bcd583178d87270f6515",
+      "reuseReason": "第2回の同じ本人。"
+    },
+    {
+      "key": "napoleon-iii-captive",
+      "image": "modern-c01-l02/napoleon-iii-captive.png",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "identity": "person:napoleon-iii",
+      "description": "第2回の同じ本人の捕虜になった後の絵。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "variantOf": "napoleon-iii",
+      "file": "public/images/modern-c01-l02/napoleon-iii-captive.png",
+      "outputSha256": "64ede04815cc7e1083f80d66fd55aa48dc53d3a12e4ee601dbda604e291490a1",
+      "reuseReason": "第2回の同じ本人の捕虜になった後の絵。"
+    },
+    {
+      "key": "charles5-habsburg",
+      "image": "ancient/charles5-habsburg.png",
+      "name": "カール5世",
+      "kind": "person",
+      "identity": "person:charles5-habsburg",
+      "description": "16世紀の同じ本人を過去の参照として示す。19世紀の王位候補と同席させない。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/ancient/charles5-habsburg.png",
+      "outputSha256": "8bf4dd1f0c84830518d82d13b6fecab57f207f54060852b3482dc2ad457ee644",
+      "reuseReason": "16世紀の同じ本人を過去の参照として示す。19世紀の王位候補と同席させない。"
+    },
+    {
+      "key": "vatican-palace",
+      "image": "ancient/vatican-palace.png",
+      "name": "教皇庁",
+      "kind": "building",
+      "identity": "building:vatican-palace",
+      "description": "同じ施設を示す既存の模式絵。建物の細部と地理図の拡大を分ける。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/ancient/vatican-palace.png",
+      "outputSha256": "cf592b43f6d6b632ba55f0a77556e0ad2530fe4305554dfe5dbdc2316abac532",
+      "reuseReason": "同じ施設を示す既存の模式絵。建物の細部と地理図の拡大を分ける。"
+    },
+    {
+      "key": "sardinian-soldiers",
+      "image": "modern-c01-l01/sardinian-soldiers.png",
+      "name": "サルデーニャ軍",
+      "kind": "group",
+      "identity": "group:sardinian-soldiers",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/sardinian-soldiers.png",
+      "outputSha256": "e2c8ed675598c83c5e12e1fee48cd709bc54439f84c3cdff70bf8c8cf6b9edba",
+      "reuseReason": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。"
+    },
+    {
+      "key": "french-soldiers",
+      "image": "modern-c01-l01/french-soldiers.png",
+      "name": "フランス軍",
+      "kind": "group",
+      "identity": "group:french-soldiers",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/french-soldiers.png",
+      "outputSha256": "d7211acf4b64e8b166aba906172a2121907edb35fb9b955f5043a1516e22df1b",
+      "reuseReason": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。"
+    },
+    {
+      "key": "austrian-soldiers",
+      "image": "modern-c01-l01/austrian-soldiers.png",
+      "name": "オーストリア軍",
+      "kind": "group",
+      "identity": "group:austrian-soldiers",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/austrian-soldiers.png",
+      "outputSha256": "d7c83dd73b49e29869930f82673281cd9638dd501a2712dc63f62b03b707272e",
+      "reuseReason": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。"
+    },
+    {
+      "key": "prussian-soldiers",
+      "image": "modern-c01-l01/prussian-soldiers.png",
+      "name": "プロイセン軍",
+      "kind": "group",
+      "identity": "group:prussian-soldiers",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/prussian-soldiers.png",
+      "outputSha256": "3d3c80f5f4720bfd89502c3bc892965c213b164b0f3c983bb9f32ff0df5fa0d8",
+      "reuseReason": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。"
+    },
+    {
+      "key": "revolutionary-citizens",
+      "image": "modern-c01-l01/revolutionary-citizens.png",
+      "name": "市民",
+      "kind": "group",
+      "identity": "group:revolutionary-citizens",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/revolutionary-citizens.png",
+      "outputSha256": "196895b1b1bd32f807b9970b55a2ffd73a472fe1a37530bee4c0869f4849df94",
+      "reuseReason": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。"
+    },
+    {
+      "key": "parliament-delegates",
+      "image": "modern-c01-l01/parliament-delegates.png",
+      "name": "議会の代表",
+      "kind": "group",
+      "identity": "group:parliament-delegates",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/parliament-delegates.png",
+      "outputSha256": "b85153d2fcf3da44feac1d621c38b71440fe9bdb085335b4364f898d64e910f4",
+      "reuseReason": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。"
+    },
+    {
+      "key": "workers",
+      "image": "modern-c01-l01/workers.png",
+      "name": "労働者",
+      "kind": "group",
+      "identity": "group:workers",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/workers.png",
+      "outputSha256": "01e88046047d4eeb0ce1fc4963e27afbf1a2f74152b7344325faa9bcbd228042",
+      "reuseReason": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。"
+    },
+    {
+      "key": "industrialists",
+      "image": "modern-c01-l01/industrialists.png",
+      "name": "産業資本家",
+      "kind": "group",
+      "identity": "group:industrialists",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/industrialists.png",
+      "outputSha256": "1d0e3da5f8159eae32b7d6f80df8750b954465fb0578a3618bf0d619112e1fe5",
+      "reuseReason": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。"
+    },
+    {
+      "key": "diplomatic-delegates",
+      "image": "modern-c01-l01/diplomatic-delegates.png",
+      "name": "外交の代表",
+      "kind": "group",
+      "identity": "group:diplomatic-delegates",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/diplomatic-delegates.png",
+      "outputSha256": "31aaaeea40e25a863c1102820cee917ad4bd725a92b60b75629eaace857c03a1",
+      "reuseReason": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。"
+    },
+    {
+      "key": "steam-factory",
+      "image": "modern-c01-l01/steam-factory.png",
+      "name": "工業",
+      "kind": "prop",
+      "identity": "prop:steam-factory",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/steam-factory.png",
+      "outputSha256": "dbfe2d21c918c76323834cfc56212955058a50a711a66cd3995f584939bd69b0",
+      "reuseReason": "第1回と同じ一般的な道具。役割を表示名と説明で示す。"
+    },
+    {
+      "key": "railway",
+      "image": "modern-c01-l01/railway.png",
+      "name": "鉄道",
+      "kind": "prop",
+      "identity": "prop:railway",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/railway.png",
+      "outputSha256": "62ce4c4bdcda39325e1014bbd4723e81c2f76a4eb4a5af5e2d89af9e9277c01c",
+      "reuseReason": "第1回と同じ一般的な道具。役割を表示名と説明で示す。"
+    },
+    {
+      "key": "merchant-cargo",
+      "image": "modern-c01-l01/merchant-cargo.png",
+      "name": "貿易",
+      "kind": "prop",
+      "identity": "prop:merchant-cargo",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/merchant-cargo.png",
+      "outputSha256": "5b34f33edbecda0ad85cb122e4451b4e7641af0cf34ab15279f64bba7ac3e3be",
+      "reuseReason": "第1回と同じ一般的な道具。役割を表示名と説明で示す。"
+    },
+    {
+      "key": "ballot-box",
+      "image": "modern-c01-l01/ballot-box.png",
+      "name": "選挙",
+      "kind": "prop",
+      "identity": "prop:ballot-box",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/ballot-box.png",
+      "outputSha256": "6c4d73aeaec46e6baead49ad8abed7b87a329b7d9f9f80d7afcbfbeba5b6fed4",
+      "reuseReason": "第1回と同じ一般的な道具。役割を表示名と説明で示す。"
+    },
+    {
+      "key": "constitution-document",
+      "image": "modern-c01-l01/constitution-document.png",
+      "name": "法律・憲法",
+      "kind": "prop",
+      "identity": "prop:constitution-document",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/constitution-document.png",
+      "outputSha256": "8a715a4bfee02a55f27382fa8eb2fc1ad812c14e68926b6f35defc23f0364757",
+      "reuseReason": "第1回と同じ一般的な道具。役割を表示名と説明で示す。"
+    },
+    {
+      "key": "treaty-document",
+      "image": "modern-c01-l01/treaty-document.png",
+      "name": "条約",
+      "kind": "prop",
+      "identity": "prop:treaty-document",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/treaty-document.png",
+      "outputSha256": "0e94dae0a55aa978ec2a8aa80594bafcc2ac3d7982b852608c5e6128a2f88da7",
+      "reuseReason": "第1回と同じ一般的な道具。役割を表示名と説明で示す。"
+    },
+    {
+      "key": "calendar",
+      "image": "modern-c01-l01/calendar.png",
+      "name": "年号",
+      "kind": "prop",
+      "identity": "prop:calendar",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/calendar.png",
+      "outputSha256": "ce0c76abaa9de57d5a96c781a77b922e172b519269ef85529e22140782f178e5",
+      "reuseReason": "第1回と同じ一般的な道具。役割を表示名と説明で示す。"
+    },
+    {
+      "key": "crown",
+      "image": "modern-c01-l01/crown.png",
+      "name": "王位",
+      "kind": "prop",
+      "identity": "prop:crown",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/crown.png",
+      "outputSha256": "1ecac12d4b34a67bd715dfb09e0bf909aa9642ee8a20ea749607eebd50b37e94",
+      "reuseReason": "第1回と同じ一般的な道具。役割を表示名と説明で示す。"
+    },
+    {
+      "key": "tax-ledger",
+      "image": "modern-c01-l01/tax-ledger.png",
+      "name": "税金・賠償",
+      "kind": "prop",
+      "identity": "prop:tax-ledger",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/tax-ledger.png",
+      "outputSha256": "677649776ccc53774db1a01056f6dd99ce1ff193e6cc5e490bb0c87c0146d936",
+      "reuseReason": "第1回と同じ一般的な道具。役割を表示名と説明で示す。"
+    },
+    {
+      "key": "grain-cargo",
+      "image": "modern-c01-l02/grain-cargo.png",
+      "name": "穀物",
+      "kind": "prop",
+      "identity": "prop:grain-cargo",
+      "description": "第2回と同じ一般的な穀物の記号。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/grain-cargo.png",
+      "outputSha256": "6e2629250b12b0f76d27e223710abc430cde8020ef354ddd68ffcef14603231b",
+      "reuseReason": "第2回と同じ一般的な穀物の記号。"
+    },
+    {
+      "key": "steel-beams",
+      "image": "modern-c01-l03/steel-beams.png",
+      "name": "鉄鋼",
+      "kind": "prop",
+      "identity": "prop:steel-beams",
+      "description": "第3回と同じ鉄鋼材の記号。会社の創業者の肖像として代用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l03/steel-beams.png",
+      "outputSha256": "0e035acf6cbb26f26ef2ea24877f75558102de5900d7364c59a653b90cbfded8",
+      "reuseReason": "第3回と同じ鉄鋼材の記号。会社の創業者の肖像として代用しない。"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { namesForScene } from "./map-name-coverage.js?v=0.113";
+import { namesForScene } from "./map-name-coverage.js?v=0.114";
 import { chapterKeyTerms } from "./story-emphasis-terms.js?v=0.109";
 
 const normalize = value => value.replace(/【[^】]*】|\[[^\]]*\]/g, "").replace(/[\s＝=・『』「」]/g, "").trim();

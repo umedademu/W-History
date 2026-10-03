@@ -11,8 +11,8 @@ const workspace=process.argv.find(value=>value.startsWith('--workspace='))?.slic
 const root=path.resolve(workspace??fileURLToPath(new URL('../',import.meta.url)));
 const {chromium}=createRequire(path.join(root,'package.json'))('playwright');
 const load=name=>import(pathToFileURL(path.join(root,'public',name)).href);
-const [{modernEdition,sourcePages},{modernVisualEdition,modernIllustrationFor,modernVisualScenePlans},{modernSeries},{series},{allEditions},{namesForScene,normalizeMapName},{modernReferencePages,modernDiagrams},{modernEdition:previousEdition},{modernSeries:previousSeries}]=await Promise.all([
-  load('modern-c01-l03-edition.js'),load('modern-story-visuals-03.js'),load('modern-lesson-03-volumes.js'),load('story-volumes.js'),load('all-editions.js'),load('map-name-coverage.js'),load('modern-story-support-03.js'),load('modern-c01-l02-edition.js'),load('modern-lesson-02-volumes.js')
+const [{modernEdition,sourcePages},{modernVisualEdition,modernIllustrationFor,modernVisualScenePlans},{modernSeries},{series},{allEditions},{namesForScene,normalizeMapName},{modernReferencePages,modernDiagrams},{modernEdition:previousEdition},{modernSeries:previousSeries},{modernSeries:allModernSeries}]=await Promise.all([
+  load('modern-c01-l03-edition.js'),load('modern-story-visuals-03.js'),load('modern-lesson-03-volumes.js'),load('story-volumes.js'),load('all-editions.js'),load('map-name-coverage.js'),load('modern-story-support-03.js'),load('modern-c01-l02-edition.js'),load('modern-lesson-02-volumes.js'),load('modern-volumes.js')
 ]);
 const sourceRecord=JSON.parse(await readFile(path.join(root,'docs/modern-lesson-03/source-selection.json'),'utf8'));
 const sourceLines=new Map(sourceRecord.lines.map(line=>[line.line,line]));
@@ -198,7 +198,7 @@ try {
     assert.equal(await page.locator('#modern-book').isVisible(),false);
     await page.locator('[data-book-tab="modern"]').click();
     assert.equal(await page.locator('#ancient-book').isVisible(),false);
-    assert.equal(await page.locator('#modern-book .part-link').count(),12,'第1回5節・第2回3節・第3回4節を目次から開ける');
+    assert.equal(await page.locator('#modern-book .part-link').count(),18,'第1〜4回の18節を目次から開ける');
     assert.equal(await page.locator('#modern-book .lesson-group[data-lesson="1"] .part-link').count(),5,'第1回の5節を回ごとにまとめる');
     assert.equal(await page.locator('#modern-book .lesson-group[data-lesson="2"] .part-link').count(),3,'第2回の3節を別の回としてまとめる');
     assert.equal(await page.locator('#modern-book .lesson-group[data-lesson="3"] .part-link').count(),4,'第3回の4節を別の回としてまとめる');
@@ -298,8 +298,9 @@ try {
         await page.reload();await page.waitForSelector('button[data-scene]');
         assert.equal(await page.locator('#story-progress').getAttribute('value'),String(scenes.length));
         await page.locator('#next').click();
-        await page.waitForURL(vIndex<modernSeries.length-1?`${base}/${modernSeries[vIndex+1].id}-story.html`:`${base}/?book=modern#modern-book`);
-        if(vIndex===modernSeries.length-1)assert.equal(await page.locator('#modern-book').isVisible(),true);
+        const nextVolume=allModernSeries[allModernSeries.findIndex(item=>item.id===volume.id)+1];
+        await page.waitForURL(nextVolume?`${base}/${nextVolume.id}-story.html`:`${base}/?book=modern#modern-book`);
+        if(!nextVolume)assert.equal(await page.locator('#modern-book').isVisible(),true);
         await page.goto(`${base}/${volume.id}-story.html`);await page.waitForSelector('button[data-scene]');
         assert.equal(await page.locator('#previous').isDisabled(),true);
         await page.keyboard.press('ArrowRight');assert.equal(await page.locator('#story-progress').getAttribute('value'),'2');

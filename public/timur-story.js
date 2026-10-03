@@ -1,10 +1,10 @@
 import { sourceEdition } from "./source-edition.js?v=0.064";
-import { mapNamePlan } from "./map-name-coverage.js?v=0.113";
+import { mapNamePlan } from "./map-name-coverage.js?v=0.114";
 import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.064";
 
 import { renderAfterMap, stopAfterMap } from "./timur-after-map.js?v=0.064";
 
-import {volumeNavigation} from './story-volumes.js?v=0.113';
+import {volumeNavigation} from './story-volumes.js?v=0.114';
 const chapterNavigation=volumeNavigation({id:'timur'});
 const scenes=[...sourceEdition.timur,...sourceEdition["timur-after"]];
 
