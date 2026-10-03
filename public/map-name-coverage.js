@@ -2,7 +2,9 @@ import { mapNameCatalog } from "./map-name-catalog.js?v=0.064";
 import { ancientNamesInText } from "./ancient-geography.js?v=0.068";
 import { chapterNameFinders } from "./chapter-geography.js?v=0.068";
 import { modernNamesInText } from "./modern-geography.js?v=0.111";
-import { modernNamesInText as secondModernNamesInText } from "./modern-geography-02.js?v=0.112";
+import { modernNamesInText as secondModernNamesInText } from "./modern-geography-02.js?v=0.113";
+import { modernNamesInText as thirdModernNamesInText } from "./modern-geography-03.js?v=0.113";
+const modernNameFinders = {1:modernNamesInText,2:secondModernNamesInText,3:thirdModernNamesInText};
 
 export const plainText = value => String(value ?? "").replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g, "").replace(/<[^>]*>/g, "");
 export const normalizeMapName = value => plainText(value).replace(/[\s＝=・『』「」]/g, "");
@@ -14,7 +16,7 @@ export function namesInText(text) {
   return [...new Map([...normalizeMapName(text).matchAll(pattern)].map(match=>[match[0],byKey.get(match[0])])).values()];
 }
 export function namesForScene(scene,text) {
-  if (scene.sourceText?.book === 'modern') return (scene.sourceText.lesson === 2 ? secondModernNamesInText : modernNamesInText)(text);
+  if (scene.sourceText?.book === 'modern') return modernNameFinders[scene.sourceText.lesson](text);
   const chapter=scene.sourceText?.chapter;
   return (chapter===1?ancientNamesInText:chapterNameFinders[chapter]??namesInText)(text);
 }

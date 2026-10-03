@@ -1,0 +1,1226 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-03",
+  "version": "0.113",
+  "lesson": "modern-c01-l03",
+  "source": {
+    "pages": [
+      55,
+      71
+    ],
+    "pageCount": 17,
+    "lines": 500,
+    "bodyLines": 64,
+    "joinedParagraphs": 55,
+    "pageJoins": 9,
+    "sha256": "72fca4fe17c9b56f4a384f31d1f88792332f5ae71ddde72902fd2d5483353741",
+    "unchangedSourceFiles": 60,
+    "unchangedPreexistingFiles": 2,
+    "hashes": [
+      {
+        "file": "sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md",
+        "sha256": "4710c02be0c1de8628b3c78cbd746a60564f35ac9f228a25b96f218048637697"
+      },
+      {
+        "file": "sources/古代・中世・近世/world-history-so-question-types.md",
+        "sha256": "0f20e1404f95f5b39cf60881593939a22e44338f0c419d39976d9be3cc6a0a93"
+      },
+      {
+        "file": "sources/古代・中世・近世/world-history-source-md-csv-generation.md",
+        "sha256": "f6c7e28c8e1f512b12a698ce97167c65865060dbb7697a8c89d6cf3bb96f6160"
+      },
+      {
+        "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/01_古代オリエント世界の成立.md",
+        "sha256": "f9024578a68f55bd9c978e6050b753e6668daf004b6b1f5c003b79293351c511"
+      },
+      {
+        "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/02_古代オリエント世界の統一.md",
+        "sha256": "21719e63443aff70618fe3dbc98e62a720724bfdaac0617890069916a628876d"
+      },
+      {
+        "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/03_古代インド.md",
+        "sha256": "ea929ebcb3bd84e693788cffacd07ca44e7d7971f9af136e73a9efc0270a2463"
+      },
+      {
+        "file": "sources/古代・中世・近世/02_古代の地中海世界/04_古代ギリシア世界の成立.md",
+        "sha256": "be16e648bfaab3c69e9173a7af17045d48f11ae01a5f51c1aaa520b97cdeeaa8"
+      },
+      {
+        "file": "sources/古代・中世・近世/02_古代の地中海世界/05_ポリス社会の崩壊とヘレニズム.md",
+        "sha256": "20c99a00c21be93f3587cae0e30e81a3fca5392a83c1ac7079d90c5ab2ac94ec"
+      },
+      {
+        "file": "sources/古代・中世・近世/02_古代の地中海世界/06_ローマ共和政.md",
+        "sha256": "ed45db4cea5eb6a895d56f5c7269080de5b182fbba3fe549bffa809160b46c07"
+      },
+      {
+        "file": "sources/古代・中世・近世/02_古代の地中海世界/07_ローマ帝国とキリスト教.md",
+        "sha256": "a885ff13c6979125822b3156d526d72fff1cadc30a3c2a85a6488ecf006e6178"
+      },
+      {
+        "file": "sources/古代・中世・近世/03_古代の東アジア/08_古代中国①（中国文明〜秦）.md",
+        "sha256": "1ad91d67c3d7df94e6c20240a7afb3a714218cd41ebe4fd7ac5ac5922035c358"
+      },
+      {
+        "file": "sources/古代・中世・近世/03_古代の東アジア/09_古代中国②（漢〜魏晋南北朝時代）.md",
+        "sha256": "9f798bbe2b4ce8a7bede47a6b433699951c413785f7760fd9dfc80f09174d45a"
+      },
+      {
+        "file": "sources/古代・中世・近世/03_古代の東アジア/10_古代中国③（隋〜唐）.md",
+        "sha256": "3db1c6d9c12adcb8b06d2b7d087858c644b425824b66d1ddca6b2bf70126ebcb"
+      },
+      {
+        "file": "sources/古代・中世・近世/04_中世ヨーロッパ/11_ゲルマン人の移動とフランク王国.md",
+        "sha256": "ec3676c9f4862f62ef1d674ddcd4194a5e1a1fc6cbf2dffcdb5234cbc1523aec"
+      },
+      {
+        "file": "sources/古代・中世・近世/04_中世ヨーロッパ/12_封建社会の形成とカトリック教会の発展.md",
+        "sha256": "3890bafd22ffb7424c78bed641efea8a33510bb002f7fc03fd484b693f040dc8"
+      },
+      {
+        "file": "sources/古代・中世・近世/04_中世ヨーロッパ/13_ビザンツ帝国と中世の東欧.md",
+        "sha256": "f11fc57de9688ba60149815f419dd9a046fb3aec87095d34d7aa64acac99fc45"
+      },
+      {
+        "file": "sources/古代・中世・近世/04_中世ヨーロッパ/14_十字軍と封建社会の変容.md",
+        "sha256": "4b61d500da44985ee2038e894bdda94f8b07c26724c0f56b452d6a5f03369ac0"
+      },
+      {
+        "file": "sources/古代・中世・近世/04_中世ヨーロッパ/15_中世の西ヨーロッパ諸国.md",
+        "sha256": "96ec4b05542cc97e86e9075dcb66d849a4fc4d9f9ebf9683c127d04152b25df3"
+      },
+      {
+        "file": "sources/古代・中世・近世/05_東アジア世界の変容/16_中華世界の変容（五代十国〜宋）.md",
+        "sha256": "c964833191e1b30a0e9a1891e3a1b48a690d70456d45712039d6771c5aad7ba9"
+      },
+      {
+        "file": "sources/古代・中世・近世/05_東アジア世界の変容/17_モンゴル帝国の時代.md",
+        "sha256": "6d7d7728c89213c6195ec7d0c97deda789a47b87a3dd5f8462af4610e225e2ec"
+      },
+      {
+        "file": "sources/古代・中世・近世/05_東アジア世界の変容/18_中華帝国の繁栄（明・清）.md",
+        "sha256": "7893c644440a9975278b1d74f851d3981521482d5679dfd2a00b1023db23aa08"
+      },
+      {
+        "file": "sources/古代・中世・近世/05_東アジア世界の変容/19_東南アジア世界.md",
+        "sha256": "49d4bd12ef5c2b6c2fc8899057f39398100f6abedbf12f611f934396ce68604a"
+      },
+      {
+        "file": "sources/古代・中世・近世/06_イスラーム世界/20_イスラーム世界の形成.md",
+        "sha256": "18bd3156f93c4ce96bc0911087a6a6963677888b45e08f2e5c76b534cd9de116"
+      },
+      {
+        "file": "sources/古代・中世・近世/06_イスラーム世界/21_イスラーム専制帝国の繁栄.md",
+        "sha256": "db5cfc267ecb6fa1fe5f0d816d705a46a235b0d04f301dad39320e3d0da6e96b"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/22_ルネサンスと大航海時代.md",
+        "sha256": "09f70077edde0d572520c38428b70326db06284c5a6b114fb09e649df95928e6"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/23_宗教改革.md",
+        "sha256": "19022d9c8737d6168fd7031032ca610eb4fc1c83d824693dd08260dc22b669a5"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/24_近世のヨーロッパ①（スペイン・オランダ）.md",
+        "sha256": "c7eec2d9ded4ce34e96bfe55e32516d426c1ac8e1c5d9c740f34286df8771341"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/25_近世のヨーロッパ②（イギリス・フランス）.md",
+        "sha256": "f253084f54c6e39df1fee2d7e648a7b5be42ebe5d4eec27ff6847db16591811d"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/26_近世のヨーロッパ③（ドイツ・ロシア）.md",
+        "sha256": "b4a1238a4f5bc5cbf955b68706c4dd88d3e32b7dc50d1f4233ab356508540e2c"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/27_産業革命とアメリカ独立革命.md",
+        "sha256": "9f0b6c49716753f012caa205cd1174d7bb0778d56158507802cddc7c88cd3900"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/28_フランス革命.md",
+        "sha256": "e68ec2d8e00ebc5e958edd524bb822702408d5fadbb07f7913f8ef2485e217f7"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/29_ナポレオンの時代.md",
+        "sha256": "ff758ca021ea934556aa5284644ef7a79deb4d8df2f58bca7e0166603c020828"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/30_17〜18世紀のヨーロッパ文化.md",
+        "sha256": "d9fac3ba70c7211c292cb9669f361c7072fc09431fd2d70d1f1b17bb927e259d"
+      },
+      {
+        "file": "sources/近代・現代/sekai_shi_tankyu_mokuji.md",
+        "sha256": "766d34236036053f9847d1128cc98151b8f359baf91503c173a62b8699f11c10"
+      },
+      {
+        "file": "sources/近代・現代/01_国民国家の形成/01_ウィーン体制とその崩壊.md",
+        "sha256": "165ddb691e4973afe09973efed87ac688207227b196b29359b37b716976e6cad"
+      },
+      {
+        "file": "sources/近代・現代/01_国民国家の形成/02_イギリスの自由主義とフランス第二帝政.md",
+        "sha256": "146b4662b580b1e418a0372071d1cb058d328086d671f0af9918d192c08f7d95"
+      },
+      {
+        "file": "sources/近代・現代/01_国民国家の形成/03_アメリカ合衆国の発展.md",
+        "sha256": "72fca4fe17c9b56f4a384f31d1f88792332f5ae71ddde72902fd2d5483353741"
+      },
+      {
+        "file": "sources/近代・現代/01_国民国家の形成/04_イタリア・ドイツの統一.md",
+        "sha256": "5222e5c09e3975b68718e5e2046deb9788a09d032cee080b35d94ee0840b8fbd"
+      },
+      {
+        "file": "sources/近代・現代/01_国民国家の形成/05_ロシアと東方問題.md",
+        "sha256": "f061a5cc959ed1869062f43104dc31a5d221133a2c7a5c21675607723abd52d1"
+      },
+      {
+        "file": "sources/近代・現代/01_国民国家の形成/06_19世紀のヨーロッパ文化.md",
+        "sha256": "af46239545496b762e50752e37b8e0088e105bb2530e343282e0faff0338cf24"
+      },
+      {
+        "file": "sources/近代・現代/02_列強の侵略とアジアの変革/07_近代の西アジア.md",
+        "sha256": "c088d4763a1afc9d04d628565e3be75bd9ea4b905fe4357a8fdd45233268384e"
+      },
+      {
+        "file": "sources/近代・現代/02_列強の侵略とアジアの変革/08_近代のインド・東南アジア.md",
+        "sha256": "e7632b36c6e6aacbca0f061ed5609a393fb16bc945f9d77bcd0f2329033f7c8d"
+      },
+      {
+        "file": "sources/近代・現代/02_列強の侵略とアジアの変革/09_近代の東アジア①.md",
+        "sha256": "298ad2bac1aa8824ecac56a7816497b46efda2cc72de85bdf29c293c96004018"
+      },
+      {
+        "file": "sources/近代・現代/02_列強の侵略とアジアの変革/10_近代の東アジア②.md",
+        "sha256": "4caf2efbb5c8255cf49d39c16da69db58ba4e447e222ed0bfc2224cfd5725d9f"
+      },
+      {
+        "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/11_帝国主義とアフリカ分割.md",
+        "sha256": "46274fb1eae774d30ce9d96d54c12a29e68200018eac6e68266811f5876f3f11"
+      },
+      {
+        "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/12_帝国主義時代の欧米諸国.md",
+        "sha256": "a081d0bbc3fd393b9f054213bf554bcc72ea6b2cf6f06263f72ca23589999215"
+      },
+      {
+        "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/13_第一次世界大戦とロシア革命.md",
+        "sha256": "2b7b296d9009370b4b3e728f910c668bff8a0fb82883de7c39e4b70e93b8b752"
+      },
+      {
+        "file": "sources/近代・現代/04_戦間期と第二次世界大戦/14_ヴェルサイユ体制とワシントン体制.md",
+        "sha256": "8d397d44e81b32b763d55534b612851c3fff91c30d7008ed4883567853bc17c2"
+      },
+      {
+        "file": "sources/近代・現代/04_戦間期と第二次世界大戦/15_戦間期の欧米諸国_世界恐慌以前.md",
+        "sha256": "a41691ce04c38fceb2e201e84821e8040ca88ac5442ff65bbc7b8a2a51fc52b8"
+      },
+      {
+        "file": "sources/近代・現代/04_戦間期と第二次世界大戦/16_戦間期の西アジア・南アジア・東南アジア.md",
+        "sha256": "d977f9ae1418f2c95aaa0c0c9f940bca434ad3acd6750e26503d53b88af1c3b6"
+      },
+      {
+        "file": "sources/近代・現代/04_戦間期と第二次世界大戦/17_戦間期の東アジア.md",
+        "sha256": "d5252e52f065e7536e9b252994f3fb299df39b1db8ceef306ba80b61a8434d6a"
+      },
+      {
+        "file": "sources/近代・現代/04_戦間期と第二次世界大戦/18_世界恐慌とその影響.md",
+        "sha256": "e033d17359d98c85e493d2788cb99edfbd5fd1e3a81db8545f18209c78178039"
+      },
+      {
+        "file": "sources/近代・現代/04_戦間期と第二次世界大戦/19_第二次世界大戦.md",
+        "sha256": "9de6907328392572718fccc9afd7da98cb1e7a881472dd4f34a99166d00c4e39"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/20_冷戦の展開①（1945〜1955）.md",
+        "sha256": "10d88b3376071f5fb9859f8f563683900977b4b8c02f6d50428419283d90ee26"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/21_冷戦の展開②（1956〜1969）.md",
+        "sha256": "119c28cea82ecea1f819921d5a45010d7fc4e9bb1f0f3cdfb71fd4e95cce8c34"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/22_冷戦の展開③（1970〜1991）.md",
+        "sha256": "0da50964243b348d8aecd1dfb23f01d40d96f6ac7980d0ebf0d6f410017bd305"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/23_戦後の東アジア.md",
+        "sha256": "e2e473a392bc6ca864581a1010d56baeb1d78c27001c69bc351f619f379afc47"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/24_戦後のインド・東南アジア.md",
+        "sha256": "380760ad9acb574a100fbd7ad3b8dbdc9067babb3d403958f82631a622df86d6"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/25_戦後の西アジア・アフリカ.md",
+        "sha256": "dcba7ea48ed198d223c1821c6c8d1574ec22402b5736fe865e0bba21c979c81a"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/26_冷戦終結後の世界（1990〜）.md",
+        "sha256": "1cc50ca2847ff2734d30560c5c4c8e4c9228396f8399477ced4d24fdf97bab34"
+      },
+      {
+        "file": "AGENTS.md",
+        "sha256": "a1dc62d38af3de816a02aaf90e3f99986ef1d65225407824f34398b3cff5a071"
+      },
+      {
+        "file": "TASK.md",
+        "sha256": "595a4a99e5248070ec3e174d868fa2c8bc4e03269eece3ef628d5049f01475a8"
+      }
+    ]
+  },
+  "content": {
+    "parts": 4,
+    "scenes": 64,
+    "scenesPerPart": [
+      15,
+      7,
+      24,
+      18
+    ],
+    "boldRanges": 348,
+    "rubyRanges": 48,
+    "diagrams": 15,
+    "diagramDisplays": 17,
+    "independentJapanColumnPage": 60,
+    "nestedRubyPage": 71
+  },
+  "images": {
+    "new": 33,
+    "reused": 19,
+    "used": 52,
+    "panels": 64,
+    "movingItems": 13,
+    "switches": 1,
+    "switchMeaning": "同じ一般集団の役割変化。特定の同じ男女が軍服へ着替える同定ではない。",
+    "normalizationCompleted": 33,
+    "normalizationFailed": 0
+  },
+  "checks": {
+    "source": "pass",
+    "sourceClassificationAndJoins": "pass",
+    "exactBodyAndDecoration": "pass",
+    "fullPageText": "pass",
+    "geographyAndNames": "pass",
+    "sourceFigureRowsAndVisibleReferences": "pass",
+    "allAssetsAndIdentity": "pass",
+    "generationReproduction": "pass",
+    "publishedGenerationReproduction": "pass",
+    "catalogAndNavigation": "pass",
+    "npmCheck": "pass",
+    "publishedBuild": "pass",
+    "independentSourceAndDiagramsReview": "pass"
+  },
+  "independentReview": {
+    "corrected": [
+      "ドリーム・クーリーのリー将軍の誤一致",
+      "1828年の西部をミシシッピ川周辺として表示",
+      "フロリダ買収時のスペインの名称登録"
+    ],
+    "distinctions": [
+      "東部13州の中の南北",
+      "英仏援軍への期待と実際の綿花貿易",
+      "リンカン当選時の奴隷制拡大反対",
+      "奴隷解放宣言と憲法修正第13・14・15条",
+      "奴隷労働者・北軍参加者・解放された市民",
+      "大陸横断鉄道の概略と原書の都市名",
+      "中国・日本からの移民の太平洋両岸の位置"
+    ]
+  },
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "inspected": 256,
+    "errors": [],
+    "issues": [],
+    "pages": [
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "diagrams": [
+      "北部・南部・西部の位置関係",
+      "ジャクソン支持派と反対派",
+      "アメリカ合衆国の領土拡大",
+      "原書60ページ：開国から明治維新へ",
+      "アメリカの南北対立",
+      "新しい州と上院の勢力",
+      "ミズーリ協定とその後",
+      "ホームステッド法の三つの条件",
+      "南北戦争の「2つの視点」",
+      "原書61ページ：南北戦争の経過",
+      "解放と憲法修正、残った差別",
+      "シェアクロッパーと地主",
+      "鉄道・鉄鋼・石油と大企業",
+      "ヨーロッパからアメリカへの移民",
+      "アジアからの移民と制限"
+    ],
+    "motion": {
+      "cases": [
+        {
+          "id": "modern-c01-l03-p01-007",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "イギリスの工業製品",
+                "key": "modern-c01-l01/merchant-cargo.png",
+                "src": "/images/modern-c01-l01/merchant-cargo.png",
+                "transform": "translate(1084.67px, 230px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "middle": {
+            "progress": 0.385,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "イギリスの工業製品",
+                "key": "modern-c01-l01/merchant-cargo.png",
+                "src": "/images/modern-c01-l01/merchant-cargo.png",
+                "transform": "translate(810.909px, 288.07px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "イギリスの工業製品",
+                "key": "modern-c01-l01/merchant-cargo.png",
+                "src": "/images/modern-c01-l01/merchant-cargo.png",
+                "transform": "translate(299.333px, 354px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：戦争後に対米輸出を再開する"
+              }
+            ]
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "イギリスの工業製品",
+                "key": "modern-c01-l01/merchant-cargo.png",
+                "src": "/images/modern-c01-l01/merchant-cargo.png",
+                "transform": "translate(1084.67px, 230px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "modern-c01-l03-p01-009",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "西部へ移る開拓者",
+                "key": "modern-c01-l03/american-settlers.png",
+                "src": "/images/modern-c01-l03/american-settlers.png",
+                "transform": "translate(981.5px, 307.5px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "middle": {
+            "progress": 0.386,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "西部へ移る開拓者",
+                "key": "modern-c01-l03/american-settlers.png",
+                "src": "/images/modern-c01-l03/american-settlers.png",
+                "transform": "translate(712.678px, 307.5px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "西部へ移る開拓者",
+                "key": "modern-c01-l03/american-settlers.png",
+                "src": "/images/modern-c01-l03/american-settlers.png",
+                "transform": "translate(216.5px, 307.5px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：移住と開拓が西へ進む"
+              }
+            ]
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "西部へ移る開拓者",
+                "key": "modern-c01-l03/american-settlers.png",
+                "src": "/images/modern-c01-l03/american-settlers.png",
+                "transform": "translate(981.5px, 307.5px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "modern-c01-l03-p01-014",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "先住民の強制移住",
+                "key": "modern-c01-l03/native-displaced-families.png",
+                "src": "/images/modern-c01-l03/native-displaced-families.png",
+                "transform": "translate(745.25px, 285px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "middle": {
+            "progress": 0.385,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "先住民の強制移住",
+                "key": "modern-c01-l03/native-displaced-families.png",
+                "src": "/images/modern-c01-l03/native-displaced-families.png",
+                "transform": "translate(634.819px, 285px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "先住民の強制移住",
+                "key": "modern-c01-l03/native-displaced-families.png",
+                "src": "/images/modern-c01-l03/native-displaced-families.png",
+                "transform": "translate(430.25px, 285px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：ミシシッピ川以西へ移住を強制される"
+              }
+            ]
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "先住民の強制移住",
+                "key": "modern-c01-l03/native-displaced-families.png",
+                "src": "/images/modern-c01-l03/native-displaced-families.png",
+                "transform": "translate(745.25px, 285px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "modern-c01-l03-p02-004",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "テキサスへの入植者",
+                "key": "modern-c01-l03/american-settlers.png",
+                "src": "/images/modern-c01-l03/american-settlers.png",
+                "transform": "translate(637.036px, 206.071px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "middle": {
+            "progress": 0.387,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "テキサスへの入植者",
+                "key": "modern-c01-l03/american-settlers.png",
+                "src": "/images/modern-c01-l03/american-settlers.png",
+                "transform": "translate(619.84px, 240.463px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "テキサスへの入植者",
+                "key": "modern-c01-l03/american-settlers.png",
+                "src": "/images/modern-c01-l03/american-settlers.png",
+                "transform": "translate(599px, 307.5px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：移民禁止後もアメリカ系の入植者が増える"
+              }
+            ]
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "テキサスへの入植者",
+                "key": "modern-c01-l03/american-settlers.png",
+                "src": "/images/modern-c01-l03/american-settlers.png",
+                "transform": "translate(637.036px, 206.071px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "modern-c01-l03-p03-004",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "イギリスへの綿花輸出",
+                "key": "modern-c01-l03/cotton-bales.png",
+                "src": "/images/modern-c01-l03/cotton-bales.png",
+                "transform": "translate(168.697px, 420.455px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "middle": {
+            "progress": 0.388,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "イギリスへの綿花輸出",
+                "key": "modern-c01-l03/cotton-bales.png",
+                "src": "/images/modern-c01-l03/cotton-bales.png",
+                "transform": "translate(473.433px, 341.343px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "イギリスへの綿花輸出",
+                "key": "modern-c01-l03/cotton-bales.png",
+                "src": "/images/modern-c01-l03/cotton-bales.png",
+                "transform": "translate(1029.3px, 194.545px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：南部の生産した綿花を輸出する"
+              }
+            ]
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "イギリスへの綿花輸出",
+                "key": "modern-c01-l03/cotton-bales.png",
+                "src": "/images/modern-c01-l03/cotton-bales.png",
+                "transform": "translate(168.697px, 420.455px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "modern-c01-l03-p03-016",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "イギリスへの綿花",
+                "key": "modern-c01-l03/cotton-bales.png",
+                "src": "/images/modern-c01-l03/cotton-bales.png",
+                "transform": "translate(340.818px, 355.909px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              },
+              {
+                "name": "フランスへの綿花",
+                "key": "modern-c01-l03/cotton-bales.png",
+                "src": "/images/modern-c01-l03/cotton-bales.png",
+                "transform": "translate(340.818px, 355.909px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "middle": {
+            "progress": 0.388,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "イギリスへの綿花",
+                "key": "modern-c01-l03/cotton-bales.png",
+                "src": "/images/modern-c01-l03/cotton-bales.png",
+                "transform": "translate(569.44px, 296.557px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              },
+              {
+                "name": "フランスへの綿花",
+                "key": "modern-c01-l03/cotton-bales.png",
+                "src": "/images/modern-c01-l03/cotton-bales.png",
+                "transform": "translate(580.055px, 311.289px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "イギリスへの綿花",
+                "key": "modern-c01-l03/cotton-bales.png",
+                "src": "/images/modern-c01-l03/cotton-bales.png",
+                "transform": "translate(986.273px, 186.477px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：本文にある実際の綿花輸出"
+              },
+              {
+                "name": "フランスへの綿花",
+                "key": "modern-c01-l03/cotton-bales.png",
+                "src": "/images/modern-c01-l03/cotton-bales.png",
+                "transform": "translate(1018.55px, 242.955px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：本文にある実際の綿花輸出"
+              }
+            ]
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "イギリスへの綿花",
+                "key": "modern-c01-l03/cotton-bales.png",
+                "src": "/images/modern-c01-l03/cotton-bales.png",
+                "transform": "translate(340.818px, 355.909px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              },
+              {
+                "name": "フランスへの綿花",
+                "key": "modern-c01-l03/cotton-bales.png",
+                "src": "/images/modern-c01-l03/cotton-bales.png",
+                "transform": "translate(340.818px, 355.909px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "modern-c01-l03-p03-020",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "北部へ逃れて北軍に加わる黒人",
+                "key": "modern-c01-l03/enslaved-black-workers.png",
+                "src": "/images/modern-c01-l03/enslaved-black-workers.png",
+                "transform": "translate(147.182px, 420.455px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "middle": {
+            "progress": 0.39,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "北部へ逃れて北軍に加わる黒人",
+                "key": "modern-c01-l03/enslaved-black-workers.png",
+                "src": "/images/modern-c01-l03/enslaved-black-workers.png",
+                "transform": "translate(164.054px, 386.71px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "北部へ逃れて北軍に加わる黒人",
+                "key": "modern-c01-l03/black-union-volunteers.png",
+                "src": "/images/modern-c01-l03/black-union-volunteers.png",
+                "transform": "translate(190.212px, 323.636px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：南部から北部へ逃れ、北軍に加わる一般集団の役割の変化"
+              }
+            ]
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "北部へ逃れて北軍に加わる黒人",
+                "key": "modern-c01-l03/enslaved-black-workers.png",
+                "src": "/images/modern-c01-l03/enslaved-black-workers.png",
+                "transform": "translate(147.182px, 420.455px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "modern-c01-l03-p04-006",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "東西を往来する鉄道",
+                "key": "modern-c01-l01/railway.png",
+                "src": "/images/modern-c01-l01/railway.png",
+                "transform": "translate(1014.96px, 266.918px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "middle": {
+            "progress": 0.388,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "東西を往来する鉄道",
+                "key": "modern-c01-l01/railway.png",
+                "src": "/images/modern-c01-l01/railway.png",
+                "transform": "translate(719.482px, 290.675px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "東西を往来する鉄道",
+                "key": "modern-c01-l01/railway.png",
+                "src": "/images/modern-c01-l01/railway.png",
+                "transform": "translate(183.036px, 348.082px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：人・物・情報が大陸を行き来する"
+              }
+            ]
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "東西を往来する鉄道",
+                "key": "modern-c01-l01/railway.png",
+                "src": "/images/modern-c01-l01/railway.png",
+                "transform": "translate(1014.96px, 266.918px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "modern-c01-l03-p04-011",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "アイルランド系移民",
+                "key": "modern-c01-l02/irish-emigrants.png",
+                "src": "/images/modern-c01-l02/irish-emigrants.png",
+                "transform": "translate(889.16px, 276.252px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "middle": {
+            "progress": 0.385,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "アイルランド系移民",
+                "key": "modern-c01-l02/irish-emigrants.png",
+                "src": "/images/modern-c01-l02/irish-emigrants.png",
+                "transform": "translate(668.498px, 304.856px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "アイルランド系移民",
+                "key": "modern-c01-l02/irish-emigrants.png",
+                "src": "/images/modern-c01-l02/irish-emigrants.png",
+                "transform": "translate(264.2px, 378.924px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：渡米し、工場や東からの鉄道建設で働く"
+              }
+            ]
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "アイルランド系移民",
+                "key": "modern-c01-l02/irish-emigrants.png",
+                "src": "/images/modern-c01-l02/irish-emigrants.png",
+                "transform": "translate(889.16px, 276.252px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "modern-c01-l03-p04-012",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "ドイツ系移民",
+                "key": "modern-c01-l03/german-emigrants.png",
+                "src": "/images/modern-c01-l03/german-emigrants.png",
+                "transform": "translate(1102.56px, 253.839px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "middle": {
+            "progress": 0.388,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "ドイツ系移民",
+                "key": "modern-c01-l03/german-emigrants.png",
+                "src": "/images/modern-c01-l03/german-emigrants.png",
+                "transform": "translate(812.966px, 277.433px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "ドイツ系移民",
+                "key": "modern-c01-l03/german-emigrants.png",
+                "src": "/images/modern-c01-l03/german-emigrants.png",
+                "transform": "translate(285.976px, 323.832px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：渡米し、中西部の農業地帯へ移る人も多い"
+              }
+            ]
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "ドイツ系移民",
+                "key": "modern-c01-l03/german-emigrants.png",
+                "src": "/images/modern-c01-l03/german-emigrants.png",
+                "transform": "translate(1102.56px, 253.839px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "modern-c01-l03-p04-013",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "イタリア系移民",
+                "key": "modern-c01-l03/italian-emigrants.png",
+                "src": "/images/modern-c01-l03/italian-emigrants.png",
+                "transform": "translate(940.633px, 368.235px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              },
+              {
+                "name": "ロシアからのユダヤ人移民",
+                "key": "modern-c01-l03/jewish-emigrants.png",
+                "src": "/images/modern-c01-l03/jewish-emigrants.png",
+                "transform": "translate(1103.86px, 239.173px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "middle": {
+            "progress": 0.389,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "イタリア系移民",
+                "key": "modern-c01-l03/italian-emigrants.png",
+                "src": "/images/modern-c01-l03/italian-emigrants.png",
+                "transform": "translate(688.517px, 360.055px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              },
+              {
+                "name": "ロシアからのユダヤ人移民",
+                "key": "modern-c01-l03/jewish-emigrants.png",
+                "src": "/images/modern-c01-l03/jewish-emigrants.png",
+                "transform": "translate(794.733px, 286.059px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "イタリア系移民",
+                "key": "modern-c01-l03/italian-emigrants.png",
+                "src": "/images/modern-c01-l03/italian-emigrants.png",
+                "transform": "translate(230.796px, 353.051px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：南イタリアからアメリカへ移民する"
+              },
+              {
+                "name": "ロシアからのユダヤ人移民",
+                "key": "modern-c01-l03/jewish-emigrants.png",
+                "src": "/images/modern-c01-l03/jewish-emigrants.png",
+                "transform": "translate(230.796px, 353.051px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：ポグロムを逃れて渡米する"
+              }
+            ]
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "イタリア系移民",
+                "key": "modern-c01-l03/italian-emigrants.png",
+                "src": "/images/modern-c01-l03/italian-emigrants.png",
+                "transform": "translate(940.633px, 368.235px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              },
+              {
+                "name": "ロシアからのユダヤ人移民",
+                "key": "modern-c01-l03/jewish-emigrants.png",
+                "src": "/images/modern-c01-l03/jewish-emigrants.png",
+                "transform": "translate(1103.86px, 239.173px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ]
+          }
+        }
+      ],
+      "cancellation": {
+        "id": "modern-c01-l03-p03-020",
+        "detached": {
+          "key": "modern-c01-l03/enslaved-black-workers.png",
+          "transform": "translate(151.181px, 412.455px)",
+          "src": "http://127.0.0.1:18832/images/modern-c01-l03/enslaved-black-workers.png"
+        },
+        "cancelled": {
+          "connected": false,
+          "key": "modern-c01-l03/enslaved-black-workers.png",
+          "transform": "translate(151.181px, 412.455px)",
+          "src": "http://127.0.0.1:18832/images/modern-c01-l03/enslaved-black-workers.png"
+        }
+      }
+    },
+    "speechDisabledBeforeNavigation": true,
+    "audioMuted": true,
+    "screenshotsDirectory": "C:/Users/USER/AppData/Local/Temp/w-history-modern-browser-03-LVbXK9"
+  },
+  "firstLessonRegression": {
+    "inspected": 252,
+    "errors": [],
+    "issues": [],
+    "normalMotionCases": 5,
+    "pages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "passed": true
+  },
+  "secondLessonRegression": {
+    "inspected": 180,
+    "errors": [],
+    "issues": [],
+    "normalMotionCases": 8,
+    "pages": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "passed": true
+  },
+  "limitations": [
+    "人物・建物・道具は学習用の模式的な絵であり、精密な肖像や復元図ではない。",
+    "移動は原文にある関係と方向の概略。厳密な航路・港・行軍路は補わない。",
+    "原文の誤記と思われる表現も校訂しない。"
+  ]
+}

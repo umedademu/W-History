@@ -1,0 +1,1378 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-03",
+  "lesson": "modern-c01-l03",
+  "description": "原文の内容を示す模式的な人物・一般集団・建物・道具。精密な肖像や施設の復元ではない。",
+  "totals": {
+    "new": 33,
+    "nativeGenerated": 0,
+    "fallbackGenerated": 33,
+    "generationCalls": 34,
+    "reused": 19,
+    "used": 52
+  },
+  "authorization": "指定のAntigravity CLI経由でGemini 3.8 Flashへ生成を依頼したが、画像生成側が429 RESOURCE_EXHAUSTEDを返した。以前のユーザーによる別の画像生成ツールへの続行承認を適用。新規画像は組み込みツールで生成し、寸法調整は指定どおりAntigravity経由のGeminiに依頼した。",
+  "generationModels": {
+    "nativeRequest": "Gemini 3.8 Flash High",
+    "fallback": "組み込み画像生成ツール。内部モデル名は返されないため記載しない。"
+  },
+  "nativeAttempt": {
+    "key": "lincoln",
+    "status": "429 RESOURCE_EXHAUSTED",
+    "resetAfter": "14m51s",
+    "prompt": "Image creation task only. Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Subject Abraham Lincoln, 1860s US president, symbolic educational pixel character: gaunt thoughtful bearded face without moustache, recognizable dark stovepipe hat, black frock coat, long trousers, neutral standing full body. Match STYLE references C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l02/napoleon-iii.png: detailed 16-bit JRPG short chibi THREE heads tall, face/head one third total height, short compact body, crisp stepped dark outline, muted shading. No invented portrait realism. Entire figure intact centered with generous margins, flat PURE WHITE background, no shadow/glow/floor/scene/labels. ImageName lincoln. Do not alter repository files or use shell for generation. Generate and await your native image-generator subagent, return concise JSON {key:'lincoln',generated_path,tool,error}. If service is quota-limited return quota error immediately, no waiting or retries. Save in native artifacts.\n"
+  },
+  "normalization": {
+    "model": "Gemini 3.8 Flash High",
+    "via": "Antigravity CLI",
+    "completed": 33,
+    "failed": 0,
+    "canvas": [
+      192,
+      192
+    ],
+    "subjectMaximum": [
+      176,
+      176
+    ],
+    "centerX": 96,
+    "bottomY": 184,
+    "resampling": "最近傍、縦横比を維持。元の透過情報を保持し、背景色の新たな除去や人物の描き替えを行わない。",
+    "scriptSha256": "6dd69f63614f011a475d79993447ba3fd5e2c66aa01df86f29d2ad0f97f9a7ee",
+    "prompt": "あなたは Gemini 3.8 Flash です。この作業の画像調整を担当します。画像の生成は不要です。指定の操作だけを行い、原文資料と既存ファイルは変更しないでください。広い探索、別の担当の起動、長い計画は不要です。\n\n入力一覧: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson03-1791026583432/generated-inputs.json\n出力報告: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson03-1791026583432/normalization-report.json\n確認用一覧画像: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson03-1791026583432/contact-sheet.png\nあなたが書く処理: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson03-1791026583432/normalize-sprites.py\n\n次の処理をPythonとPillowで作成し、実際に一度実行してください。まず一覧を読むための一回の read_file、次に一回の write_to_file で処理を書き、一回の run_command で実行して完了してください。\n- 入力は33件の assets 配列で、key, inputPath, outputPath を持つ。それぞれをRGBAとして開く。入力は閲覧・読込だけにし、上書きしない。\n- 元のアルファを保ち、アルファが0より大きい描画範囲だけを切り出す。外部接続する背景の白や黒を新たに透明化する操作は行わない。元の透過をそのまま使用する。\n- 縦横比を維持し、最大176×176画素へ nearest neighbor で収める。192×192画素の透明なキャンバスの横中央、下端184へ置く。横・縦とも8画素以上の透明余白を保つ。絵・衣服の色、顔、姿は描き替えない。\n- outputPath の新しいPNGへ保存する。既存のファイルがある場合はエラーにする。他の章の画像、sources、AGENTS.md、TASK.mdは変更しない。\n- 報告は各入力・出力のSHA256、元の寸法、描画範囲、保存後の描画範囲、透明画素数を33件保存し、完了数と失敗を明記する。\n- 確認用一覧画像は、新しい33点を5列で、薄い灰色背景のマスへ192×192のまま並べる。各マス下へASCIIのkeyを記す。公開画像自体には文字を描き加えない。\n- 入力に透過がなかったり何も描かれていない場合は勝手に直さずエラーを報告する。\n- 他の資料の調査、CLIの画像生成、描き替え、Git操作、インストールは不要。\n\n実行完了後、実際の件数・出力報告のパス・確認用一覧画像のパスを簡潔に返してください。\n"
+  },
+  "prompts": [
+    {
+      "key": "madison",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: James Madison, early nineteenth century US president, small elderly scholarly face, receding gray-white hair, dark early nineteenth century coat and white cravat, holding a folded government paper."
+    },
+    {
+      "key": "andrew-jackson",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Andrew Jackson, older US president of 1828, distinctive high swept unruly white hair, narrow aged clean-shaven face, dark formal coat and white cravat."
+    },
+    {
+      "key": "jefferson",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Thomas Jefferson, early nineteenth century US president, reddish-brown wavy hair, long thoughtful clean-shaven face, dark early republic coat, white cravat, treaty document held."
+    },
+    {
+      "key": "lincoln",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Abraham Lincoln, 1860s US president, recognizable gaunt thoughtful face, dark chin beard WITHOUT moustache, black stovepipe hat and frock coat, white shirt, black trousers."
+    },
+    {
+      "key": "jefferson-davis",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Jefferson Davis, US Confederate president, distinct older clean-shaven face, neat graying hair, dark civilian formal frock coat, white shirt, neutral standing. Distinct from Lincoln, no hat, no Confederate flag."
+    },
+    {
+      "key": "robert-e-lee",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Robert E. Lee, older general of Confederate army, recognizable white beard and neatly swept gray hair, gray nineteenth century military coat and trousers, neutral standing, no flag, no heroic pose."
+    },
+    {
+      "key": "ulysses-grant",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Ulysses S. Grant, Union general, mid-aged brown full beard and short brown hair, dark navy-blue Civil War army uniform, understated brass buttons, neutral standing."
+    },
+    {
+      "key": "perry",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Commodore Matthew Perry, US naval officer of 1850s, older broad clean-shaven face, graying hair, navy nineteenth century naval coat with small gold trim and trousers, dignified neutral standing."
+    },
+    {
+      "key": "carnegie",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Andrew Carnegie, late nineteenth century industrialist, elderly kindly round face with full white beard and white hair, dark business suit, white shirt, neutral standing."
+    },
+    {
+      "key": "jp-morgan",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: J. P. Morgan, late nineteenth century banker, broad older face, gray dark heavy moustache, receding hair, dark three-piece business suit, holds a plain ledger. No exaggerated facial features."
+    },
+    {
+      "key": "rockefeller",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: John D. Rockefeller, elderly US industrialist, thin older clean-shaven face, sparse gray hair, dark late nineteenth century suit and tie, neutral standing, distinct face from Carnegie and Morgan."
+    },
+    {
+      "key": "harriet-stowe",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Harriet Beecher Stowe, nineteenth century American woman novelist, middle-aged woman with dark center-parted hair gathered back, modest long dark Victorian dress with white collar, holds a small plain book."
+    },
+    {
+      "key": "american-settlers",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A nineteenth century white American westward settler family, two adults and a child, practical modest homespun clothing and hat, carrying small travel baggage and a rolled blanket, respectful neutral faces."
+    },
+    {
+      "key": "native-displaced-families",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A displaced Native American family of two adults and a child during nineteenth century forced relocation, modest everyday practical nineteenth century cloth clothing, blanket and travel bundle, subdued dignified faces. NO feather headdress, no generic tribal costume, no exaggerated features, no weapons."
+    },
+    {
+      "key": "southern-planters",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Two nineteenth century Southern US plantation owners, adult men in formal civilian coats, one light coat and one dark coat, holding farm account papers, neutral expressions. No flags or glorification."
+    },
+    {
+      "key": "enslaved-black-workers",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Two African American adult farm workers, a man and woman in nineteenth century practical cotton work clothes, holding a simple farm hoe and small harvest basket, dignified individual natural faces. Educational depiction of enslaved labor with no chains, wounds, or violence, no stereotypes."
+    },
+    {
+      "key": "freed-black-citizens",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Two emancipated African American citizens, an adult man and woman in modest clean nineteenth century civilian clothing, one holding a schoolbook and one a folded voter paper, dignified hopeful neutral faces. No stereotypes.",
+      "edit": {
+        "prompt": "Edit this educational pixel sprite. Change ONLY the held objects: the man on the left should hold a plain folded white voter paper; the woman on the right should hold a small brown schoolbook. Keep exact same two faces, skin tones, hair, clothing, poses, composition, pixel style, full bodies and transparent background, generous margins. No text, new people, symbols, labels, shadows or scenery. The woman represents education, the man represents voting, with no implication that nineteenth century women had voting rights.",
+        "referenceFilename": "exec-b030a8eb-ac90-4b2e-b813-952f00b2320e.png",
+        "referenceSha256": "27399ab209f3156b6fe3f7f99f472d84e896ff4a60b49f00e455247a233bc689",
+        "outputFilename": "exec-7f65b9d0-d122-49be-8e29-e8c9ac0c6b86.png",
+        "reason": "市民の男性に投票用紙、女性に学習用の本を持たせる。女性の投票権を断定せず、顔や衣服を保った小道具の調整。"
+      }
+    },
+    {
+      "key": "union-soldiers",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Two ordinary US Union soldiers of 1860s, simple dark blue kepis, blue coats and trousers, modest marching-ready poses, small packs. Historical educational group, no flag, no combat, no violence."
+    },
+    {
+      "key": "confederate-soldiers",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Two ordinary Confederate army soldiers of 1860s, plain gray kepis, gray coats and trousers, simple packs, neutral standing. Historical critical educational context, NO Confederate flag, no symbols, no heroic pose, no violence."
+    },
+    {
+      "key": "black-union-volunteers",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Two African American Union army volunteers of Civil War, dark-blue kepis, blue coats and trousers, simple packs, dignified individual neutral faces, standing ready to join army. No violence or stereotypes."
+    },
+    {
+      "key": "german-emigrants",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A nineteenth century German emigrant family, two adults and a child, modest everyday Central European travel clothes and hat, small luggage and bundle, neutral dignified faces, no national costume stereotypes."
+    },
+    {
+      "key": "italian-emigrants",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A late nineteenth century southern Italian immigrant family, two adults and a child, modest everyday rural travel clothes, folded blanket and small luggage, dignified natural faces, no stereotypes."
+    },
+    {
+      "key": "jewish-emigrants",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A late nineteenth century Jewish emigrant family fleeing persecution in Russia, two adults and child in modest everyday Eastern European travel coats and simple hat, small luggage, dignified natural individual faces, NO exaggerated nose/features, no caricature or religious symbol."
+    },
+    {
+      "key": "chinese-railway-workers",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: Two nineteenth century Chinese immigrant railroad workers in modest practical work clothes, plain cotton jackets and trousers, one simple fabric cap, holding pick and shovel, natural dignified faces. No caricature, no stereotypical conical hat, no exaggerated facial traits."
+    },
+    {
+      "key": "japanese-emigrants",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A Meiji-era Japanese immigrant family, two adults and child, modest late nineteenth century everyday civilian travel clothing, one plain kimono and one simple jacket, small luggage and rolled bundle, natural dignified faces, no caricature."
+    },
+    {
+      "key": "cotton-bales",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A compact stack of three tied cotton bales with visible soft white cotton above one bale, nineteenth century cotton commodity, simple twine bindings."
+    },
+    {
+      "key": "gold-pan",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A nineteenth century gold prospecting pan with a few small gold nuggets and wooden handled pick beside it, no letters."
+    },
+    {
+      "key": "steel-beams",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A compact stack of manufactured steel I-beams, gray metallic pixel highlights, nineteenth century industrial commodity."
+    },
+    {
+      "key": "oil-derrick",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A nineteenth century wooden oil derrick, compact recognizable lattice tower and small barrel at base, isolated miniature building, no landscape."
+    },
+    {
+      "key": "homestead-farm",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A compact schematic homestead farm: tiny wooden cabin, small patch of planted rows, hand hoe and simple fence, all a single isolated miniature farm icon, no wide landscape."
+    },
+    {
+      "key": "fort-sumter",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A small schematic Fort Sumter brick seafort, low brick polygon walls around interior courtyard, isolated miniature building icon, NO precise archaeological reconstruction, no guns firing, no flags, no sea background."
+    },
+    {
+      "key": "ford-theatre",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A small schematic exterior of nineteenth century Ford's Theatre, modest red brick neoclassical theater facade with entrance doors, isolated miniature building, no letters, no assassination imagery."
+    },
+    {
+      "key": "carnegie-hall",
+      "prompt": "Use case: historical-scene. Asset type: single educational pixel sprite for a Japanese world-history app. Create ONE isolated sprite on genuinely transparent background. Detailed crisp 16-bit JRPG pixel art, stepped dark pixel outline, restrained muted harmonious colors and compact pixel shading, designed at a logical 96x96 pixel resolution enlarged cleanly. Human figures are SHORT chibi THREE heads tall with head one third full height, short compact body and short legs, recognizable respectful adult faces, not realistic long-legged portraits. Full subject intact, centered, generous transparent margins all sides. Match small historical JRPG sprites. No text, labels, watermark, floor, glow, ground shadow, scenery, gradient or white plate. Objects and buildings similarly compact pixel miniatures. Subject: A small schematic nineteenth century Carnegie Hall facade, brick and warm stone multi-story concert building with arched windows and entrance, isolated miniature building, no letters, no scenery."
+    }
+  ],
+  "assets": [
+    {
+      "key": "madison",
+      "image": "modern-c01-l03/madison.png",
+      "name": "マディソン",
+      "kind": "person",
+      "identity": "person:madison",
+      "description": "第4代大統領のジェームズ・マディソン本人。白髪と19世紀初頭の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/madison.png",
+      "outputSha256": "2bcc497f83accddf2695cf7784b25fd23b8320a6287ce435617f5eeeb310d5b4",
+      "originalFilename": "exec-09e166b0-69ac-41d6-a08d-4207a345b2e1.png",
+      "inputSha256": "3b4f8e29522eb486f4f799ba2df185bfa854d568ac2bd6d53019a0b1d0df9612",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        53,
+        12,
+        139,
+        170
+      ],
+      "transparentPixels": 27606,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "andrew-jackson",
+      "image": "modern-c01-l03/andrew-jackson.png",
+      "name": "ジャクソン",
+      "kind": "person",
+      "identity": "person:andrew-jackson",
+      "description": "西部出身大統領アンドルー・ジャクソン本人。広がる白髪と礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/andrew-jackson.png",
+      "outputSha256": "810b0a6859aab0c0e820ac2f4995d57003f176b00ce932fa5a56464399beeffd",
+      "originalFilename": "exec-add88985-84a1-49c9-967b-ca17be094652.png",
+      "inputSha256": "88261c27ac1a2a51a34968a82c46c14c19184af1b4fd50a958342bed29b0deb3",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        27,
+        8,
+        157,
+        174
+      ],
+      "transparentPixels": 27488,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "jefferson",
+      "image": "modern-c01-l03/jefferson.png",
+      "name": "ジェファソン",
+      "kind": "person",
+      "identity": "person:jefferson",
+      "description": "第3代大統領トーマス・ジェファソン本人。赤褐色寄りの髪と礼服。デヴィスとは別人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/jefferson.png",
+      "outputSha256": "5614d9db8339583fc95aebc42209cea5681f22ce3dceab0fb148f335cbe5b40f",
+      "originalFilename": "exec-704089cc-5028-4ca1-9ae3-69f46ccdf1aa.png",
+      "inputSha256": "9eff05c7305459ef404e8a819406723343dbd98918087662d5577e29fea4a949",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        39,
+        23,
+        143,
+        178
+      ],
+      "transparentPixels": 28681,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "lincoln",
+      "image": "modern-c01-l03/lincoln.png",
+      "name": "リンカン",
+      "kind": "person",
+      "identity": "person:lincoln",
+      "description": "大統領エイブラハム・リンカン本人。顎髭・黒い礼服・高帽子。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/lincoln.png",
+      "outputSha256": "98fe2c898baa2b227ba0ca30f3f4772744b5bd0d25248cfe0f8112dcda6f83b6",
+      "originalFilename": "exec-2a57e91e-2570-4a18-b4cb-ae7baac847e7.png",
+      "inputSha256": "ddcd2d89951c99789de65b6c00ff5eee032d0657377433c5d73c5442043e21a3",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        68,
+        9,
+        142,
+        183
+      ],
+      "transparentPixels": 29577,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "jefferson-davis",
+      "image": "modern-c01-l03/jefferson-davis.png",
+      "name": "ジェファソン＝デヴィス",
+      "kind": "person",
+      "identity": "person:jefferson-davis",
+      "description": "南部連合の大統領ジェファソン・デヴィス本人。灰髪・黒い礼服。ジェファソン、リンカンと別の顔。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/jefferson-davis.png",
+      "outputSha256": "fdf141573d53431253762ba2a3669dda25dcfb79398d051cbc619ea34d8d05cc",
+      "originalFilename": "exec-19928a63-2cdc-42a6-b750-270e41fb4a96.png",
+      "inputSha256": "7f7b856dd68d73d3ab6c83d1effc993328c67c19ebbe20249548afbbdf3e3fb8",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        33,
+        25,
+        138,
+        170
+      ],
+      "transparentPixels": 29750,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "robert-e-lee",
+      "image": "modern-c01-l03/robert-e-lee.png",
+      "name": "リー",
+      "kind": "person",
+      "identity": "person:robert-e-lee",
+      "description": "南軍将軍ロバート・リー本人。白髭と灰色軍装。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/robert-e-lee.png",
+      "outputSha256": "77e567bed8bfd4955611c7dddaee11b46659f47e0e6302c10fa9a074f171e03a",
+      "originalFilename": "exec-9f0735f1-5217-4a10-aaa4-a588d7bc7dbb.png",
+      "inputSha256": "9a6087a47a814c93ee76149a08b5d7ac199487193a7d63c281aea344eefc8713",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        55,
+        16,
+        131,
+        184
+      ],
+      "transparentPixels": 27563,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "ulysses-grant",
+      "image": "modern-c01-l03/ulysses-grant.png",
+      "name": "グラント",
+      "kind": "person",
+      "identity": "person:ulysses-grant",
+      "description": "北軍将軍ユリシーズ・グラント本人。茶色の髭と青色軍装。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/ulysses-grant.png",
+      "outputSha256": "9b0cfa03f83594b746650a12d3729bc5c766f995ddf7d90ac29cd6f16aea3e0e",
+      "originalFilename": "exec-ba8efc23-8cbf-4381-96fb-9306232be864.png",
+      "inputSha256": "a239cb36637c643441e2310be6273de606f3b6b4dc47edbc601140acbf71ad81",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        38,
+        23,
+        158,
+        174
+      ],
+      "transparentPixels": 28625,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "perry",
+      "image": "modern-c01-l03/perry.png",
+      "name": "ペリー",
+      "kind": "person",
+      "identity": "person:perry",
+      "description": "日本へ派遣されたマシュー・ペリー本人。19世紀の海軍制服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/perry.png",
+      "outputSha256": "15d253a478199c82052b8186faf5e4caa636fbacedbe07cdd50c12a371a612fe",
+      "originalFilename": "exec-2b8795ff-9fd1-4468-b262-7b393cbbb100.png",
+      "inputSha256": "a17315b543f2523fa55745ec7713bfa196f9136f7766555b3d373bfc8e5ebefe",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        59,
+        36,
+        126,
+        164
+      ],
+      "transparentPixels": 30814,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "carnegie",
+      "image": "modern-c01-l03/carnegie.png",
+      "name": "カーネギー",
+      "kind": "person",
+      "identity": "person:carnegie",
+      "description": "鉄鋼事業者アンドルー・カーネギー本人。白髭と年配の背広姿。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/carnegie.png",
+      "outputSha256": "197c944eda100e47ccf2ee80e28f9c1088168eddde416cca4ce1a7ca864020f1",
+      "originalFilename": "exec-644a595e-a871-4174-8b6d-51ce24db48d1.png",
+      "inputSha256": "7b88f0bbc8331a35c9cdc4e048de1de79c8b7b0eafff7c01e42c0733998a5721",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        32,
+        27,
+        157,
+        166
+      ],
+      "transparentPixels": 29793,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "jp-morgan",
+      "image": "modern-c01-l03/jp-morgan.png",
+      "name": "モルガン",
+      "kind": "person",
+      "identity": "person:jp-morgan",
+      "description": "銀行家J・P・モルガン本人。口髭と背広。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/jp-morgan.png",
+      "outputSha256": "89b30fc9c489990c43e382e0adb1d0bca4c128ace703cd9d4ee8c16ccf3a6895",
+      "originalFilename": "exec-26b0e4de-1abf-4a7a-a885-da6b69dde902.png",
+      "inputSha256": "97e221ccd5944b6cfc2b5b49ac36604bcf73fa9ad0f2d554b37985b93771fbc2",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        28,
+        8,
+        150,
+        169
+      ],
+      "transparentPixels": 26612,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "rockefeller",
+      "image": "modern-c01-l03/rockefeller.png",
+      "name": "ロックフェラー",
+      "kind": "person",
+      "identity": "person:rockefeller",
+      "description": "石油事業者ジョン・ロックフェラー本人。薄い髪と年配の背広姿。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/rockefeller.png",
+      "outputSha256": "a941e6681d82c637e72d79de7e92a866244def9eebde61403252207cbc1bb051",
+      "originalFilename": "exec-07fad799-8f8e-41a4-9b1a-8a9bb4cd9286.png",
+      "inputSha256": "a051e85c392d0ee809beaf11db7b8c502139560c6fff53fd141eed981df5cf14",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        67,
+        8,
+        145,
+        171
+      ],
+      "transparentPixels": 28324,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "harriet-stowe",
+      "image": "modern-c01-l03/harriet-stowe.png",
+      "name": "ストウ夫人",
+      "kind": "person",
+      "identity": "person:harriet-stowe",
+      "description": "原書61・64ページの参考欄に登場するハリエット・ストウ本人。19世紀の女性作家の服と本。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/harriet-stowe.png",
+      "outputSha256": "1c8f11fbe0c12ac090380ff434a0ea59a112e33b75ff9574c1340759ce71665b",
+      "originalFilename": "exec-b877bc2f-c903-400c-988d-42236dae0e9d.png",
+      "inputSha256": "d4566a779246a4ba7b7d0e067b661e73c8e876ec887fdba6df5989aa5980fb99",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        52,
+        18,
+        151,
+        179
+      ],
+      "transparentPixels": 27666,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "american-settlers",
+      "image": "modern-c01-l03/american-settlers.png",
+      "name": "アメリカの開拓者",
+      "kind": "group",
+      "identity": "group:american-settlers",
+      "description": "西部へ移る白人開拓家族の一般集団。日常服と荷物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/american-settlers.png",
+      "outputSha256": "47d25547068d096de592d1d4affdfd83f9270dfc04bee12fcff9086492248924",
+      "originalFilename": "exec-f331e0a7-05e0-4c15-bb9a-5a6e87b54cbc.png",
+      "inputSha256": "3b33ac01d8f98ce7a875075cd06ef77126cea07406e4b6a174d37f3c2fb36d6e",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        22,
+        29,
+        184,
+        174
+      ],
+      "transparentPixels": 24116,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "native-displaced-families",
+      "image": "modern-c01-l03/native-displaced-families.png",
+      "name": "強制移住させられた先住民",
+      "kind": "group",
+      "identity": "group:native-displaced-families",
+      "description": "先住民家族の一般集団。日常服と荷物。誇張した羽根冠や民族の固定はしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/native-displaced-families.png",
+      "outputSha256": "fbd0747c97d629ac149e6dcce2fe8684496ad601e7d1378d0eda460e81970317",
+      "originalFilename": "exec-f036e1ed-1ad4-4a12-b0db-abcdb200d6a4.png",
+      "inputSha256": "d0c954e1bb2ab18273ce167633b0bba74092dc28435db57667c3a10cc1ef57a6",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        31,
+        39,
+        155,
+        178
+      ],
+      "transparentPixels": 26471,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "southern-planters",
+      "image": "modern-c01-l03/southern-planters.png",
+      "name": "南部のプランター",
+      "kind": "group",
+      "identity": "group:southern-planters",
+      "description": "南部農場主の一般集団。書類と礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/southern-planters.png",
+      "outputSha256": "cbbadbfb1dad71c521b6aceecfba5d4bbbcea7f624ae83b0a26b6f6d90316645",
+      "originalFilename": "exec-6e1bddd0-1d89-4a28-bdcc-419d3658fedc.png",
+      "inputSha256": "d0134e0b1ef14025073f0cbe4004fa062e1c47d645894b2354c2cb96f35d50ec",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        35,
+        42,
+        170,
+        160
+      ],
+      "transparentPixels": 27516,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "enslaved-black-workers",
+      "image": "modern-c01-l03/enslaved-black-workers.png",
+      "name": "奴隷として働かされた黒人",
+      "kind": "group",
+      "identity": "group:black-escapees",
+      "description": "黒人農業労働者の一般集団。作業着、尊厳ある姿で鎖や暴力を描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/enslaved-black-workers.png",
+      "outputSha256": "abfa504634602b78f81146da21304e6cd585a7836bb4669e741b0dc667b104d3",
+      "originalFilename": "exec-ea751d0e-878f-4397-945f-8c92a1665aa9.png",
+      "inputSha256": "6b42c3899617a6edd69c01beef4c329fd8212e392d5fdfc2b27ee031d9937179",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        24,
+        28,
+        178,
+        183
+      ],
+      "transparentPixels": 25114,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "freed-black-citizens",
+      "image": "modern-c01-l03/freed-black-citizens.png",
+      "name": "解放された黒人市民",
+      "kind": "group",
+      "identity": "group:freed-black-citizens",
+      "description": "解放された黒人男女の一般集団。市民権・投票・学校の説明。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/freed-black-citizens.png",
+      "outputSha256": "1d4bf537e230bb52e2471c07d9ba0f707cd492b9217fc82c7ce5bbd43ccc5bb1",
+      "originalFilename": "exec-7f65b9d0-d122-49be-8e29-e8c9ac0c6b86.png",
+      "inputSha256": "dcdc61d10cca9585fabd45942ab2f2852ad34e519f679370f5cc01172d73a34a",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        16,
+        18,
+        168,
+        179
+      ],
+      "transparentPixels": 25877,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "union-soldiers",
+      "image": "modern-c01-l03/union-soldiers.png",
+      "name": "北軍",
+      "kind": "group",
+      "identity": "group:union-soldiers",
+      "description": "青色の制服を着た北軍の一般兵。特定の連隊・個人の復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/union-soldiers.png",
+      "outputSha256": "39e527bfa9b4185ae3117929434062e072f4ee2f38ef2c2db0b42968b814263c",
+      "originalFilename": "exec-0f6b817d-5bc0-4799-9fc8-d903a8b6ab21.png",
+      "inputSha256": "ec0f73851b232ae6b69c53f847045f00118544ca4379ee769241585a4af1277a",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        55,
+        44,
+        152,
+        163
+      ],
+      "transparentPixels": 30308,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "confederate-soldiers",
+      "image": "modern-c01-l03/confederate-soldiers.png",
+      "name": "南軍",
+      "kind": "group",
+      "identity": "group:confederate-soldiers",
+      "description": "灰色の制服を着た南軍の一般兵。旗や英雄的な演出を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/confederate-soldiers.png",
+      "outputSha256": "c892e044c8fd17b73d1a0f5c1f564c2dd01586d61806c26f962594a3d3bccd09",
+      "originalFilename": "exec-96de758a-12f9-4b5d-bd4e-2e3baa58e2c0.png",
+      "inputSha256": "73403f15cd529a2921d85863978994834ca1701246a1239fdf2bf3cd39ba207b",
+      "originalDimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "savedBbox": [
+        35,
+        77,
+        176,
+        176
+      ],
+      "transparentPixels": 29563,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "black-union-volunteers",
+      "image": "modern-c01-l03/black-union-volunteers.png",
+      "name": "北軍に加わった黒人",
+      "kind": "group",
+      "identity": "group:black-escapees",
+      "description": "青色の制服で北軍に加わる黒人の一般集団。役割を示し特定個人を同定しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "variantOf": "enslaved-black-workers",
+      "file": "public/images/modern-c01-l03/black-union-volunteers.png",
+      "outputSha256": "99a98390d9eb8c27401766412f3e7cc7c840a8da1d59f739239450f5a3ceeebc",
+      "originalFilename": "exec-ed10ad74-9103-42b5-8920-f17cee3f020d.png",
+      "inputSha256": "f167915bd6ba2951e4c74f0ccbe7b444cf9348d074712c2ef06c2d1eff8d82f6",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        11,
+        31,
+        164,
+        168
+      ],
+      "transparentPixels": 23552,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "german-emigrants",
+      "image": "modern-c01-l03/german-emigrants.png",
+      "name": "ドイツ系移民",
+      "kind": "group",
+      "identity": "group:german-emigrants",
+      "description": "渡米するドイツ系の一般家族。日常服と旅行荷物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/german-emigrants.png",
+      "outputSha256": "7146a9d37f74b9073cb7b06817e2c2403df40c3ab0545f3b16b5eeca6da45ce7",
+      "originalFilename": "exec-6e9ee389-dcd1-4b0f-9f42-cf53c5345dea.png",
+      "inputSha256": "7bd58715c3fe19bf9834651178174a939b0023caa84ec2a4d4a83411cbb5684f",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        10,
+        25,
+        183,
+        165
+      ],
+      "transparentPixels": 23494,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "italian-emigrants",
+      "image": "modern-c01-l03/italian-emigrants.png",
+      "name": "イタリア系移民",
+      "kind": "group",
+      "identity": "group:italian-emigrants",
+      "description": "南イタリアからの一般移民家族。日常服と旅行荷物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/italian-emigrants.png",
+      "outputSha256": "07ab02d7bda74ea4a58aac129187a17deb179a6c613210a1ed1c09799cc4e9ed",
+      "originalFilename": "exec-8deeb906-d002-4d68-a843-55b6d6b8de9e.png",
+      "inputSha256": "027bf9e00edead8ff9904e09798b875c0ec20bb20741e82c40284c83a45a4c4e",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        12,
+        21,
+        168,
+        182
+      ],
+      "transparentPixels": 22840,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "jewish-emigrants",
+      "image": "modern-c01-l03/jewish-emigrants.png",
+      "name": "ロシアからのユダヤ人移民",
+      "kind": "group",
+      "identity": "group:jewish-emigrants",
+      "description": "迫害を逃れた一般家族。日常服と荷物。身体的な誇張をしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/jewish-emigrants.png",
+      "outputSha256": "eae183b0f4d21daeeb96363492a31bbf743850009759acb32d4302a90d8ed442",
+      "originalFilename": "exec-fdf6dc66-388d-457f-862c-b4854382252f.png",
+      "inputSha256": "6114b0e50eee9fcbba061cd988de092a889c0cace99e7b495e9b26c842c9aff0",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        21,
+        20,
+        169,
+        175
+      ],
+      "transparentPixels": 23361,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "chinese-railway-workers",
+      "image": "modern-c01-l03/chinese-railway-workers.png",
+      "name": "中国系の鉄道労働者",
+      "kind": "group",
+      "identity": "group:chinese-railway-workers",
+      "description": "中国系の一般鉄道労働者。19世紀の作業着と道具。誇張した身体表現をしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/chinese-railway-workers.png",
+      "outputSha256": "10798c469130f71778b1cce4fe24bf2cd538fd78f609269f5b33cabc2ae81daa",
+      "originalFilename": "exec-42a50b71-eda6-4aad-8cb8-f6f1997fcfb7.png",
+      "inputSha256": "8e4cf6885b3a4469896dcee93776305de7b660d6a547a0f27d2e1001e3434688",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        25,
+        34,
+        177,
+        175
+      ],
+      "transparentPixels": 27008,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "japanese-emigrants",
+      "image": "modern-c01-l03/japanese-emigrants.png",
+      "name": "日本人移民",
+      "kind": "group",
+      "identity": "group:japanese-emigrants",
+      "description": "明治期の一般家族。日常服と旅行荷物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/japanese-emigrants.png",
+      "outputSha256": "1d33443b4a7a4fe094f073d47f515285add5cdfa2cb9f2d7914b2b81031a0f64",
+      "originalFilename": "exec-4df83792-2cb7-4325-920c-af09666b4c79.png",
+      "inputSha256": "1bc232bad98002c388174122749f5b4316f8091c463d97a359347131595a32db",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        23,
+        34,
+        165,
+        182
+      ],
+      "transparentPixels": 25840,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "cotton-bales",
+      "image": "modern-c01-l03/cotton-bales.png",
+      "name": "綿花",
+      "kind": "prop",
+      "identity": "prop:cotton-bales",
+      "description": "原料として輸出する綿花の俵。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/cotton-bales.png",
+      "outputSha256": "a599634d49941543d82506ee406a56b7d7c17a24ec809eb992efbc03bc21d9c2",
+      "originalFilename": "exec-18ca1e43-57bd-431f-8aa4-1723ef654298.png",
+      "inputSha256": "e4fa821d3ed8381820dfe3b3aac9ffd34368b9c5ecb193a7685b811ff668381c",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        33,
+        45,
+        166,
+        164
+      ],
+      "transparentPixels": 25805,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "gold-pan",
+      "image": "modern-c01-l03/gold-pan.png",
+      "name": "金鉱開発",
+      "kind": "prop",
+      "identity": "prop:gold-pan",
+      "description": "砂金採りの皿と金。ゴールドラッシュの説明。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/gold-pan.png",
+      "outputSha256": "3299d7a49fbdd3c2fa0f7c2cda24344dbde0ea7541e8e707a9fbb4a6763841d7",
+      "originalFilename": "exec-46461240-97c6-4e94-ae57-3e263cb128f9.png",
+      "inputSha256": "3f18d4f58bbc1d14754237c0bb61558d711b5f1c29191b821446a5610cf67a22",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        25,
+        36,
+        169,
+        161
+      ],
+      "transparentPixels": 27535,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "steel-beams",
+      "image": "modern-c01-l03/steel-beams.png",
+      "name": "鉄鋼",
+      "kind": "prop",
+      "identity": "prop:steel-beams",
+      "description": "鉄鋼材の束。工業の発展と鉄道の需要を説明。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/steel-beams.png",
+      "outputSha256": "0e035acf6cbb26f26ef2ea24877f75558102de5900d7364c59a653b90cbfded8",
+      "originalFilename": "exec-3d70e052-baed-4168-9fa5-49c00f040f70.png",
+      "inputSha256": "04c870ba40cc68a21ca5076dac64f5f25c7eae8fa35f0ca9fc32d6fd53bacce9",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        13,
+        47,
+        173,
+        161
+      ],
+      "transparentPixels": 24430,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "oil-derrick",
+      "image": "modern-c01-l03/oil-derrick.png",
+      "name": "石油",
+      "kind": "prop",
+      "identity": "prop:oil-derrick",
+      "description": "19世紀の木造油井の模式絵。特定の油田を精密に復元しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/oil-derrick.png",
+      "outputSha256": "845deda4c4aa893420ff88343c588305bc4e0a834e1d84c28761f67062706da6",
+      "originalFilename": "exec-314cad73-3e40-435b-b113-20fe81b254b6.png",
+      "inputSha256": "a3ee5f673524d94ba83d80abe8b3aeb53a506855e2dc4c62c8a38931489969f6",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        12,
+        8,
+        155,
+        184
+      ],
+      "transparentPixels": 28177,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "homestead-farm",
+      "image": "modern-c01-l03/homestead-farm.png",
+      "name": "開墾・定住・耕作",
+      "kind": "prop",
+      "identity": "prop:homestead-farm",
+      "description": "小農家の畑・農具・家の模式絵。個別農園の位置を与えない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/homestead-farm.png",
+      "outputSha256": "c70bbb89cba89051adb1f6c21f793a4a3f321274befa655f84a5065469c0cf04",
+      "originalFilename": "exec-bcce7e70-7da3-4d41-a36f-50a3021fd24d.png",
+      "inputSha256": "8ee6eb0db99ee1d2cbd044524d7715b4640a068166def0eedeebe4759d8d335b",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        10,
+        16,
+        169,
+        172
+      ],
+      "transparentPixels": 25132,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "fort-sumter",
+      "image": "modern-c01-l03/fort-sumter.png",
+      "name": "サムター要塞",
+      "kind": "building",
+      "identity": "building:fort-sumter",
+      "description": "海上の要塞の模式絵。南北戦争の開戦を説明。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/fort-sumter.png",
+      "outputSha256": "bb2de3c29a14b0f331ab8c211452a680c38b0c9fc48e8faf06eefea285865469",
+      "originalFilename": "exec-a3a56c64-11ea-4607-9e00-97be976d61f6.png",
+      "inputSha256": "974aba54c64f205819706c130e82c53399df285ce2a2ea444458ba55267ee1fb",
+      "originalDimensions": {
+        "width": 1275,
+        "height": 1234
+      },
+      "savedBbox": [
+        8,
+        14,
+        184,
+        181
+      ],
+      "transparentPixels": 24355,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "ford-theatre",
+      "image": "modern-c01-l03/ford-theatre.png",
+      "name": "フォード劇場",
+      "kind": "building",
+      "identity": "building:ford-theatre",
+      "description": "劇場の模式絵。リンカン暗殺の場所を説明し、流血は描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/ford-theatre.png",
+      "outputSha256": "258fcaceb4c01a25ea4a8d401610ea6b112357967b748079feff6976cd01dbe3",
+      "originalFilename": "exec-c15f4baf-d5a5-4a47-a44e-83db2138e2a7.png",
+      "inputSha256": "22aa5732b6bccd004362ca6366eb0f55a14ff22fd0cffc9b67cef5c7b0a192a4",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        38,
+        23,
+        179,
+        158
+      ],
+      "transparentPixels": 21824,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "carnegie-hall",
+      "image": "modern-c01-l03/carnegie-hall.png",
+      "name": "カーネギー・ホール",
+      "kind": "building",
+      "identity": "building:carnegie-hall",
+      "description": "ニューヨークのホールの模式絵。文化事業への出資を説明。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l03/carnegie-hall.png",
+      "outputSha256": "941f8437f40257f0a6f88aed3ee7eff056acd6807fc9514ccdaaa23795700556",
+      "originalFilename": "exec-ffd40e3e-b955-49c2-a528-e864228debb0.png",
+      "inputSha256": "960f8249d9862ae417e53dcddb8803f6a82d856762c7628a92a3f16a7f412eb1",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "savedBbox": [
+        29,
+        31,
+        184,
+        184
+      ],
+      "transparentPixels": 17574,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "washington",
+      "image": "modern-c01-l01/washington.png",
+      "name": "ワシントン",
+      "kind": "person",
+      "identity": "person:washington",
+      "description": "第1回の同じ本人。別人の代わりとして顔を流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/washington.png",
+      "outputSha256": "f5b144d76e618f81a6e03c0ff771fb1363af68d443be8d1fa74d11710ba62863",
+      "reuseReason": "第1回の同じ本人。別人の代わりとして顔を流用しない。"
+    },
+    {
+      "key": "james-monroe",
+      "image": "modern-c01-l01/james-monroe.png",
+      "name": "モンロー",
+      "kind": "person",
+      "identity": "person:james-monroe",
+      "description": "第1回の同じ本人。別人の代わりとして顔を流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/james-monroe.png",
+      "outputSha256": "e977cec6691e3db37d379ef8962ca385d8e6d0308f5f6fc75550dbbd1d0ba580",
+      "reuseReason": "第1回の同じ本人。別人の代わりとして顔を流用しない。"
+    },
+    {
+      "key": "napoleon-i",
+      "image": "modern-c01-l01/napoleon-i.png",
+      "name": "ナポレオン",
+      "kind": "person",
+      "identity": "person:napoleon-i",
+      "description": "第1回の同じ本人。別人の代わりとして顔を流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/napoleon-i.png",
+      "outputSha256": "45b5efce60ae83da533e94f320b611a0ed0b46e1363979fe52196a7eba53ecd4",
+      "reuseReason": "第1回の同じ本人。別人の代わりとして顔を流用しない。"
+    },
+    {
+      "key": "james2-stuart",
+      "image": "ancient/james2-stuart.png",
+      "name": "ジェームズ2世",
+      "kind": "person",
+      "identity": "person:james2-stuart",
+      "description": "英国のジェームズ2世本人。ホイッグの名称の由来でのみ参照する過去の国王。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/ancient/james2-stuart.png",
+      "outputSha256": "ae4d3908c09f08601c69c820f87ebb3dd30dc8e1e6415acc16ab6e314e23a99f",
+      "reuseReason": "英国のジェームズ2世本人。ホイッグの名称の由来でのみ参照する過去の国王。"
+    },
+    {
+      "key": "bismarck",
+      "image": "modern-c01-l02/bismarck.png",
+      "name": "ビスマルク",
+      "kind": "person",
+      "identity": "person:bismarck",
+      "description": "第2回の同じ本人。今回は次回案内の参照だけに用いる。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/bismarck.png",
+      "outputSha256": "f722239f2689fcab52eabebd847c7c46d6eb81202f77bcd583178d87270f6515",
+      "reuseReason": "第2回の同じ本人。今回は次回案内の参照だけに用いる。"
+    },
+    {
+      "key": "industrialists",
+      "image": "modern-c01-l01/industrialists.png",
+      "name": "産業資本家",
+      "kind": "group",
+      "identity": "group:industrialists",
+      "description": "第1回の同じ一般役割。国固有の兵士や固有人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/industrialists.png",
+      "outputSha256": "1d0e3da5f8159eae32b7d6f80df8750b954465fb0578a3618bf0d619112e1fe5",
+      "reuseReason": "第1回の同じ一般役割。国固有の兵士や固有人物の代用にはしない。"
+    },
+    {
+      "key": "workers",
+      "image": "modern-c01-l01/workers.png",
+      "name": "労働者",
+      "kind": "group",
+      "identity": "group:workers",
+      "description": "第1回の同じ一般役割。国固有の兵士や固有人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/workers.png",
+      "outputSha256": "01e88046047d4eeb0ce1fc4963e27afbf1a2f74152b7344325faa9bcbd228042",
+      "reuseReason": "第1回の同じ一般役割。国固有の兵士や固有人物の代用にはしない。"
+    },
+    {
+      "key": "parliament-delegates",
+      "image": "modern-c01-l01/parliament-delegates.png",
+      "name": "上院の代表",
+      "kind": "group",
+      "identity": "group:parliament-delegates",
+      "description": "第1回の同じ一般役割。国固有の兵士や固有人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/parliament-delegates.png",
+      "outputSha256": "b85153d2fcf3da44feac1d621c38b71440fe9bdb085335b4364f898d64e910f4",
+      "reuseReason": "第1回の同じ一般役割。国固有の兵士や固有人物の代用にはしない。"
+    },
+    {
+      "key": "steam-factory",
+      "image": "modern-c01-l01/steam-factory.png",
+      "name": "工業",
+      "kind": "prop",
+      "identity": "prop:steam-factory",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/steam-factory.png",
+      "outputSha256": "dbfe2d21c918c76323834cfc56212955058a50a711a66cd3995f584939bd69b0",
+      "reuseReason": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。"
+    },
+    {
+      "key": "railway",
+      "image": "modern-c01-l01/railway.png",
+      "name": "鉄道",
+      "kind": "prop",
+      "identity": "prop:railway",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/railway.png",
+      "outputSha256": "62ce4c4bdcda39325e1014bbd4723e81c2f76a4eb4a5af5e2d89af9e9277c01c",
+      "reuseReason": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。"
+    },
+    {
+      "key": "merchant-cargo",
+      "image": "modern-c01-l01/merchant-cargo.png",
+      "name": "工業製品",
+      "kind": "prop",
+      "identity": "prop:merchant-cargo",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/merchant-cargo.png",
+      "outputSha256": "5b34f33edbecda0ad85cb122e4451b4e7641af0cf34ab15279f64bba7ac3e3be",
+      "reuseReason": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。"
+    },
+    {
+      "key": "ballot-box",
+      "image": "modern-c01-l01/ballot-box.png",
+      "name": "選挙",
+      "kind": "prop",
+      "identity": "prop:ballot-box",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/ballot-box.png",
+      "outputSha256": "6c4d73aeaec46e6baead49ad8abed7b87a329b7d9f9f80d7afcbfbeba5b6fed4",
+      "reuseReason": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。"
+    },
+    {
+      "key": "constitution-document",
+      "image": "modern-c01-l01/constitution-document.png",
+      "name": "法律・憲法",
+      "kind": "prop",
+      "identity": "prop:constitution-document",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/constitution-document.png",
+      "outputSha256": "8a715a4bfee02a55f27382fa8eb2fc1ad812c14e68926b6f35defc23f0364757",
+      "reuseReason": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。"
+    },
+    {
+      "key": "treaty-document",
+      "image": "modern-c01-l01/treaty-document.png",
+      "name": "条約",
+      "kind": "prop",
+      "identity": "prop:treaty-document",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/treaty-document.png",
+      "outputSha256": "0e94dae0a55aa978ec2a8aa80594bafcc2ac3d7982b852608c5e6128a2f88da7",
+      "reuseReason": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。"
+    },
+    {
+      "key": "calendar",
+      "image": "modern-c01-l01/calendar.png",
+      "name": "年号",
+      "kind": "prop",
+      "identity": "prop:calendar",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/calendar.png",
+      "outputSha256": "ce0c76abaa9de57d5a96c781a77b922e172b519269ef85529e22140782f178e5",
+      "reuseReason": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。"
+    },
+    {
+      "key": "cotton-loom",
+      "image": "modern-c01-l02/cotton-loom.png",
+      "name": "綿製品の生産",
+      "kind": "prop",
+      "identity": "prop:cotton-loom",
+      "description": "第2回の同じ一般役割・道具。固有人物の代替にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/cotton-loom.png",
+      "outputSha256": "ebfddd57ad16b0d35be0c3071979851e67c11b76952512d206dc82493fd9cd2a",
+      "reuseReason": "第2回の同じ一般役割・道具。固有人物の代替にしない。"
+    },
+    {
+      "key": "public-school",
+      "image": "modern-c01-l02/public-school.png",
+      "name": "公立学校",
+      "kind": "building",
+      "identity": "building:public-school",
+      "description": "第2回の同じ一般役割・道具。固有人物の代替にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/public-school.png",
+      "outputSha256": "06f6ec4ade250320d9806601e80e1a2063e3a7ba48e0a69c1047b5d087d39960",
+      "reuseReason": "第2回の同じ一般役割・道具。固有人物の代替にしない。"
+    },
+    {
+      "key": "irish-emigrants",
+      "image": "modern-c01-l02/irish-emigrants.png",
+      "name": "アイルランド系移民",
+      "kind": "group",
+      "identity": "group:irish-emigrants",
+      "description": "第2回の同じ一般役割・道具。固有人物の代替にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/irish-emigrants.png",
+      "outputSha256": "ed0707198a026b71e48f4978b86ffe3c48460c27282be7ace432ccc4c4b1afba",
+      "reuseReason": "第2回の同じ一般役割・道具。固有人物の代替にしない。"
+    },
+    {
+      "key": "blighted-potatoes",
+      "image": "modern-c01-l02/blighted-potatoes.png",
+      "name": "ジャガイモの凶作",
+      "kind": "prop",
+      "identity": "prop:blighted-potatoes",
+      "description": "第2回の同じ一般役割・道具。固有人物の代替にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/blighted-potatoes.png",
+      "outputSha256": "87c740058b7d461780be870b4e4b084e2ee168c9cfc86c0dfcbb095e20c11e9e",
+      "reuseReason": "第2回の同じ一般役割・道具。固有人物の代替にしない。"
+    }
+  ]
+}

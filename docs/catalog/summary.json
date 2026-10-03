@@ -1,7 +1,7 @@
 {
-  "version": "0.112",
-  "parts": 136,
-  "pages": 1121,
+  "version": "0.113",
+  "parts": 140,
+  "pages": 1185,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 8,
-      "pages": 108,
+      "parts": 12,
+      "pages": 172,
       "chapters": [
         {
           "chapter": 1,
@@ -2430,6 +2430,10 @@
             {
               "lesson": 2,
               "title": "イギリスの自由主義とフランス第二帝政"
+            },
+            {
+              "lesson": 3,
+              "title": "アメリカ合衆国の発展"
             }
           ],
           "volumes": [
@@ -2496,6 +2500,38 @@
               "lesson": 2,
               "part": 3,
               "pages": 12
+            },
+            {
+              "id": "modern-c01-l03-p01",
+              "label": "建国初期のアメリカ",
+              "number": "09",
+              "lesson": 3,
+              "part": 1,
+              "pages": 15
+            },
+            {
+              "id": "modern-c01-l03-p02",
+              "label": "アメリカ合衆国の領土拡大",
+              "number": "10",
+              "lesson": 3,
+              "part": 2,
+              "pages": 7
+            },
+            {
+              "id": "modern-c01-l03-p03",
+              "label": "南北戦争",
+              "number": "11",
+              "lesson": 3,
+              "part": 3,
+              "pages": 24
+            },
+            {
+              "id": "modern-c01-l03-p04",
+              "label": "南北戦争後のアメリカ",
+              "number": "12",
+              "lesson": 3,
+              "part": 4,
+              "pages": 18
             }
           ]
         }

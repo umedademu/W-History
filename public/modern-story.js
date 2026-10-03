@@ -1,7 +1,7 @@
-import {modernPlacesFor, sourcePages, modernDiagramFor, modernReferencePages, modernVisualEdition, modernIllustrationFor} from './modern-lessons.js?v=0.112';
-import {modernSeries} from './modern-volumes.js?v=0.112';
-import {initialPageIndex, volumeNavigation} from './story-volumes.js?v=0.112';
-import {mountStory} from './history-story.js?v=0.112';
+import {modernPlacesFor, sourcePages, modernDiagramFor, modernReferencePages, modernVisualEdition, modernIllustrationFor} from './modern-lessons.js?v=0.113';
+import {modernSeries} from './modern-volumes.js?v=0.113';
+import {initialPageIndex, volumeNavigation} from './story-volumes.js?v=0.113';
+import {mountStory} from './history-story.js?v=0.113';
 
 const id = location.pathname.split('/').pop().replace(/-story\.html$/, '');
 const volume = modernSeries.find(item => item.id === id);
@@ -92,7 +92,7 @@ function showReference(scene, index) {
   history.replaceState(null, '', '#page-' + (index + 1));
 }
 
-mountStory({places:modernPlacesFor(scenes[0]), zones:{}, scenes, imageDirectory:volume.lesson === 2 ? 'modern-c01-l02' : 'modern-c01-l01', chapterNavigation:volumeNavigation(volume),
+mountStory({places:modernPlacesFor(scenes[0]), zones:{}, scenes, imageDirectory:'modern-c'+String(volume.chapter).padStart(2,'0')+'-l'+String(volume.lesson).padStart(2,'0'), chapterNavigation:volumeNavigation(volume),
   baseMap:{href:'/ottoman-world-map.svg', width:1440, height:720, project:([lon,lat])=>[(lon+180)*4,(90-lat)*4]},
   onSceneChange:showReference});
 
