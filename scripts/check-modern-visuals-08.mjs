@@ -137,7 +137,7 @@ for(const asset of modernVisualAssetCatalog) {
     personIdentities.set(asset.identity,personFamily);
   }
   const filenames=[asset.image,...(asset.afterImage?[asset.afterImage]:[])].map(imageName);
-  assert.ok(filenames.every(filename=>asset.requiresGeneration?filename.startsWith('modern-c02-l08/'):['modern-c01-l01/','modern-c01-l02/','modern-c01-l03/','modern-c01-l04/','modern-c01-l05/','modern-c01-l06/','ancient/','ottoman/','safavid/','modern-c02-l07/','modern-c02-l08/'].some(folder=>filename.startsWith(folder))),asset.name+': 新規画像と既存の本人・建物を区別する');
+  assert.ok(filenames.every(filename=>asset.requiresGeneration?filename.startsWith('modern-c02-l08/'):['modern-c01-l01/','modern-c01-l02/','modern-c01-l03/','modern-c01-l04/','modern-c01-l05/','modern-c01-l06/','ancient/','ottoman/','safavid/','mughal/','modern-c02-l07/','modern-c02-l08/'].some(folder=>filename.startsWith(folder))),asset.name+': 新規画像と既存の本人・建物を区別する');
   for(const filename of filenames) {
     assert.ok(!byImage.has(filename)||byImage.get(filename).identity===asset.identity,filename+': 同じ画像を別の人物にしない');
     if(byImage.has(filename))continue;
