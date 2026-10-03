@@ -1,0 +1,4025 @@
+{
+  "schema": 1,
+  "description": "第2回の本文と原書全文を保持して人物・一般集団・道具の視覚だけを重ねる。図の説明は引用ではなく本文からの説明。",
+  "rules": [
+    "人物の現在地が明らかでない場面は地図外の模式欄へ本人を置く。",
+    "過去の人物・回想はreference、同じ人物の前後はbefore/afterで区別する。",
+    "一般集団は同じ一般役割だけを再利用し、固有人物へ流用しない。",
+    "原文で場所の明らかなスダンのナポレオン3世とボルドーのティエール以外の個人に固定した所在地を与えない。",
+    "地理図の上限は共通32度／24度を維持する。",
+    "本文と補足欄は語り口・字句・記号・装飾・順序を保持する。"
+  ],
+  "totals": {
+    "scenes": 45,
+    "newImages": 40,
+    "existingImages": 24,
+    "newPeople": 23,
+    "personVariants": 1,
+    "groups": 5,
+    "newPropsAndBuildings": 11,
+    "illustrations": 45,
+    "routes": 10
+  },
+  "assets": [
+    {
+      "key": "grey",
+      "image": "modern-c01-l02/grey.png",
+      "name": "グレイ",
+      "kind": "person",
+      "identity": "person:grey",
+      "description": "1832年のホイッグ党の政治家本人。年配の英国政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "shaftesbury",
+      "image": "modern-c01-l02/shaftesbury.png",
+      "name": "シャフツベリー卿",
+      "kind": "person",
+      "identity": "person:shaftesbury",
+      "description": "工場法のために尽力した英国政治家本人。礼服と法の書類。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "cobden",
+      "image": "modern-c01-l02/cobden.png",
+      "name": "コブデン",
+      "kind": "person",
+      "identity": "person:cobden",
+      "description": "反穀物法同盟の指導者本人。英国事業者・政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "bright",
+      "image": "modern-c01-l02/bright.png",
+      "name": "ブライト",
+      "kind": "person",
+      "identity": "person:bright",
+      "description": "反穀物法同盟の指導者本人。コブデンと区別する英国政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "peel",
+      "image": "modern-c01-l02/peel.png",
+      "name": "ピール",
+      "kind": "person",
+      "identity": "person:peel",
+      "description": "穀物法廃止を実現した英国政治家本人。保守党の政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "derby",
+      "image": "modern-c01-l02/derby.png",
+      "name": "ダービー",
+      "kind": "person",
+      "identity": "person:derby",
+      "description": "第2回選挙法改正の英国政治家本人。英国政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "victoria",
+      "image": "modern-c01-l02/victoria.png",
+      "name": "ヴィクトリア女王",
+      "kind": "person",
+      "identity": "person:victoria",
+      "description": "19世紀の英国女王本人。女王のドレスと控えめな冠。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "thomas-cook",
+      "image": "modern-c01-l02/thomas-cook.png",
+      "name": "クック",
+      "kind": "person",
+      "identity": "person:thomas-cook",
+      "description": "万博の割引旅行を企画した旅行業者本人。旅行の手帳を持つ19世紀の服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "disraeli",
+      "image": "modern-c01-l02/disraeli.png",
+      "name": "ディズレーリ",
+      "kind": "person",
+      "identity": "person:disraeli",
+      "description": "保守党の英国政治家本人。特徴のある髪と政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "gladstone",
+      "image": "modern-c01-l02/gladstone.png",
+      "name": "グラッドストン",
+      "kind": "person",
+      "identity": "person:gladstone",
+      "description": "自由党の英国政治家本人。ディズレーリと区別する年配の礼服姿。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "cromwell",
+      "image": "modern-c01-l02/cromwell.png",
+      "name": "クロムウェル",
+      "kind": "person",
+      "identity": "person:cromwell",
+      "description": "過去の征服の参照に用いる本人。17世紀の服。19世紀の当事者にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "charles-ii",
+      "image": "modern-c01-l02/charles-ii.png",
+      "name": "チャールズ2世",
+      "kind": "person",
+      "identity": "person:charles-ii",
+      "description": "1673年の審査法の背景で参照する本人。17世紀の英国国王の服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "mary-i",
+      "image": "modern-c01-l02/mary-i.png",
+      "name": "メアリ1世",
+      "kind": "person",
+      "identity": "person:mary-i",
+      "description": "原書48ページの吹き出しの歴史参照。16世紀の英国女王本人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "oconnell",
+      "image": "modern-c01-l02/oconnell.png",
+      "name": "オコンネル",
+      "kind": "person",
+      "identity": "person:oconnell",
+      "description": "アイルランドのカトリックの政治家本人。19世紀の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "wellington",
+      "image": "modern-c01-l02/wellington.png",
+      "name": "ウェリントン",
+      "kind": "person",
+      "identity": "person:wellington",
+      "description": "宗教法の改革時の英国首相本人。19世紀の英国政治家・軍人の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "obrien",
+      "image": "modern-c01-l02/obrien.png",
+      "name": "オブライエン",
+      "kind": "person",
+      "identity": "person:obrien",
+      "description": "青年アイルランド党の指導者本人。19世紀の活動家の服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "asquith",
+      "image": "modern-c01-l02/asquith.png",
+      "name": "アスキス",
+      "kind": "person",
+      "identity": "person:asquith",
+      "description": "1914年の自治法の英国首相本人。20世紀初頭の政治家の背広。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "de-valera",
+      "image": "modern-c01-l02/de-valera.png",
+      "name": "デ＝ヴァレラ",
+      "kind": "person",
+      "identity": "person:de-valera",
+      "description": "独立宣言で説明するアイルランドの政治家本人。眼鏡と20世紀初頭の背広。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "haussmann",
+      "image": "modern-c01-l02/haussmann.png",
+      "name": "オスマン",
+      "kind": "person",
+      "identity": "person:haussmann",
+      "description": "セーヌ県知事でパリの改造を担った本人。オスマン帝国の君主ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "maximilian",
+      "image": "modern-c01-l02/maximilian.png",
+      "name": "マクシミリアン",
+      "kind": "person",
+      "identity": "person:maximilian",
+      "description": "メキシコ皇帝にされた本人。19世紀の皇帝の軍装。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "bismarck",
+      "image": "modern-c01-l02/bismarck.png",
+      "name": "ビスマルク",
+      "kind": "person",
+      "identity": "person:bismarck",
+      "description": "プロイセンの政治家本人。19世紀の軍装または政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "thiers",
+      "image": "modern-c01-l02/thiers.png",
+      "name": "ティエール",
+      "kind": "person",
+      "identity": "person:thiers",
+      "description": "フランスの臨時政府首班・大統領となった本人。眼鏡と年配の政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "elizabeth-i",
+      "image": "modern-c01-l02/elizabeth-i.png",
+      "name": "エリザベス1世",
+      "kind": "person",
+      "identity": "person:elizabeth-i",
+      "description": "東インド会社設立の時代の参照に用いる本人。16世紀末の英国女王のドレス。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "napoleon-i",
+      "image": "modern-c01-l01/napoleon-i.png",
+      "name": "ナポレオン",
+      "kind": "person",
+      "identity": "person:napoleon-i",
+      "description": "第1回のナポレオン1世本人。第二帝政では回想・歴史参照に限る。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "louis-napoleon",
+      "image": "modern-c01-l01/louis-napoleon.png",
+      "name": "ルイ＝ナポレオン",
+      "kind": "person",
+      "identity": "person:louis-napoleon",
+      "description": "第1回の大統領時代の同じ本人。皇帝になる前の振り返り。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "napoleon-iii",
+      "image": "modern-c01-l01/napoleon-iii.png",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "identity": "person:louis-napoleon",
+      "description": "第1回の即位後の同じ本人。叔父とは別人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "variantOf": "louis-napoleon"
+    },
+    {
+      "key": "napoleon-iii-captive",
+      "image": "modern-c01-l02/napoleon-iii-captive.png",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "identity": "person:louis-napoleon",
+      "description": "同じ顔の本人。スダンで捕虜になり、落胆した姿。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "variantOf": "napoleon-iii"
+    },
+    {
+      "key": "landowners",
+      "image": "modern-c01-l02/landowners.png",
+      "name": "地主",
+      "kind": "group",
+      "identity": "group:landowners",
+      "description": "19世紀の英国地主の一般集団。特定人物の顔は付けず、土地の書類を持つ。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "irish-tenants",
+      "image": "modern-c01-l02/irish-tenants.png",
+      "name": "アイルランドの小作人",
+      "kind": "group",
+      "identity": "group:irish-tenants",
+      "description": "19世紀のアイルランドの小作農家の一般集団。農作業着と作物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "irish-emigrants",
+      "image": "modern-c01-l02/irish-emigrants.png",
+      "name": "アイルランドの移民",
+      "kind": "group",
+      "identity": "group:irish-emigrants",
+      "description": "19世紀のアイルランドの移民の一般家族。荷物を持つ。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "british-police",
+      "image": "modern-c01-l02/british-police.png",
+      "name": "イギリスの警察",
+      "kind": "group",
+      "identity": "group:british-police",
+      "description": "19世紀の英国の一般警官。ケニントン広場の弾圧の説明用。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "british-soldiers",
+      "image": "modern-c01-l02/british-soldiers.png",
+      "name": "イギリス軍",
+      "kind": "group",
+      "identity": "group:british-soldiers",
+      "description": "19世紀の英国の一般兵。特定の連隊や個人の復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "cotton-loom",
+      "image": "modern-c01-l02/cotton-loom.png",
+      "name": "綿製品の機械生産",
+      "kind": "prop",
+      "identity": "prop:cotton-loom",
+      "description": "産業革命の機械式織機と綿製品。個別の工場名を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "grain-cargo",
+      "image": "modern-c01-l02/grain-cargo.png",
+      "name": "小麦・穀物",
+      "kind": "prop",
+      "identity": "prop:grain-cargo",
+      "description": "小麦の袋と穂。本文にある輸出・輸入の関係を説明する。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "healthy-potatoes",
+      "image": "modern-c01-l02/healthy-potatoes.png",
+      "name": "ジャガイモ",
+      "kind": "prop",
+      "identity": "prop:healthy-potatoes",
+      "description": "主食として栽培したジャガイモ。病気の前の作物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "blighted-potatoes",
+      "image": "modern-c01-l02/blighted-potatoes.png",
+      "name": "凶作のジャガイモ",
+      "kind": "prop",
+      "identity": "prop:healthy-potatoes",
+      "description": "同じ作物が病気で凶作となった状態。病原体の形状を断定しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "variantOf": "healthy-potatoes"
+    },
+    {
+      "key": "crystal-palace",
+      "image": "modern-c01-l02/crystal-palace.png",
+      "name": "クリスタル＝パレス（水晶宮）",
+      "kind": "building",
+      "identity": "building:crystal-palace",
+      "description": "1851年にハイド・パークで開かれた博覧会のガラス張りの建物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "public-school",
+      "image": "modern-c01-l02/public-school.png",
+      "name": "公立学校",
+      "kind": "building",
+      "identity": "building:public-school",
+      "description": "教育法の説明に用いる一般的な学校。個別の学校の復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "suez-canal",
+      "image": "modern-c01-l02/suez-canal.png",
+      "name": "スエズ運河",
+      "kind": "prop",
+      "identity": "prop:suez-canal",
+      "description": "運河と交易船の模式的な風景。政治家本人の訪問を示さない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "paris-boulevard",
+      "image": "modern-c01-l02/paris-boulevard.png",
+      "name": "パリの道路網",
+      "kind": "prop",
+      "identity": "prop:paris-boulevard",
+      "description": "直線の道路・街灯・高さを揃えた街区の模式図。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "paris-sewers",
+      "image": "modern-c01-l02/paris-sewers.png",
+      "name": "パリの下水道",
+      "kind": "prop",
+      "identity": "prop:paris-sewers",
+      "description": "集中排水する地下の管と通路の模式図。正確な工法の復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "paris-opera",
+      "image": "modern-c01-l02/paris-opera.png",
+      "name": "オペラ座",
+      "kind": "building",
+      "identity": "building:paris-opera",
+      "description": "原書53ページのパリ改造のコラムで説明する建物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "arc-de-triomphe",
+      "image": "modern-c01-l02/arc-de-triomphe.png",
+      "name": "凱旋門",
+      "kind": "building",
+      "identity": "building:arc-de-triomphe",
+      "description": "放射状道路網の説明に用いるパリの建物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "industrialists",
+      "image": "modern-c01-l01/industrialists.png",
+      "name": "産業資本家",
+      "kind": "group",
+      "identity": "group:industrialists",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "workers",
+      "image": "modern-c01-l01/workers.png",
+      "name": "労働者",
+      "kind": "group",
+      "identity": "group:workers",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "farmers",
+      "image": "modern-c01-l01/farmers.png",
+      "name": "農民",
+      "kind": "group",
+      "identity": "group:farmers",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "bankers",
+      "image": "modern-c01-l01/bankers.png",
+      "name": "銀行家",
+      "kind": "group",
+      "identity": "group:bankers",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "revolutionary-citizens",
+      "image": "modern-c01-l01/revolutionary-citizens.png",
+      "name": "市民",
+      "kind": "group",
+      "identity": "group:revolutionary-citizens",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "french-soldiers",
+      "image": "modern-c01-l01/french-soldiers.png",
+      "name": "フランス軍",
+      "kind": "group",
+      "identity": "group:french-soldiers",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "prussian-soldiers",
+      "image": "modern-c01-l01/prussian-soldiers.png",
+      "name": "プロイセン軍",
+      "kind": "group",
+      "identity": "group:prussian-soldiers",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "parliament-delegates",
+      "image": "modern-c01-l01/parliament-delegates.png",
+      "name": "議会の代表",
+      "kind": "group",
+      "identity": "group:parliament-delegates",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "steam-factory",
+      "image": "modern-c01-l01/steam-factory.png",
+      "name": "産業革命",
+      "kind": "prop",
+      "identity": "prop:steam-factory",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "railway",
+      "image": "modern-c01-l01/railway.png",
+      "name": "鉄道",
+      "kind": "prop",
+      "identity": "prop:railway",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "merchant-cargo",
+      "image": "modern-c01-l01/merchant-cargo.png",
+      "name": "貿易",
+      "kind": "prop",
+      "identity": "prop:merchant-cargo",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "ballot-box",
+      "image": "modern-c01-l01/ballot-box.png",
+      "name": "選挙",
+      "kind": "prop",
+      "identity": "prop:ballot-box",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "constitution-document",
+      "image": "modern-c01-l01/constitution-document.png",
+      "name": "法律・憲法",
+      "kind": "prop",
+      "identity": "prop:constitution-document",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "treaty-document",
+      "image": "modern-c01-l01/treaty-document.png",
+      "name": "条約",
+      "kind": "prop",
+      "identity": "prop:treaty-document",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "parliament-building",
+      "image": "modern-c01-l01/parliament-building.png",
+      "name": "議会",
+      "kind": "building",
+      "identity": "building:parliament-building",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "tax-ledger",
+      "image": "modern-c01-l01/tax-ledger.png",
+      "name": "税・年金",
+      "kind": "prop",
+      "identity": "prop:tax-ledger",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "crown",
+      "image": "modern-c01-l01/crown.png",
+      "name": "帝位・王位",
+      "kind": "prop",
+      "identity": "prop:crown",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "calendar",
+      "image": "modern-c01-l01/calendar.png",
+      "name": "年号",
+      "kind": "prop",
+      "identity": "prop:calendar",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "barricade",
+      "image": "modern-c01-l01/barricade.png",
+      "name": "バリケード",
+      "kind": "prop",
+      "identity": "prop:barricade",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "public-works",
+      "image": "modern-c01-l01/public-works.png",
+      "name": "公共事業",
+      "kind": "prop",
+      "identity": "prop:public-works",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "royal-palace",
+      "image": "modern-c01-l01/royal-palace.png",
+      "name": "宮殿",
+      "kind": "building",
+      "identity": "building:royal-palace",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    }
+  ],
+  "scenes": [
+    {
+      "sceneId": "modern-c01-l02-p01-001",
+      "title": "今回の見通し：イギリスとフランス",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "産業革命",
+          "image": "modern-c01-l01/steam-factory.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:steam-factory",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "今回の二つの国の見通し",
+        "groups": [
+          {
+            "label": "イギリスの改革",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：成長した産業資本家",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "労働者",
+                "caption": "説明：人数を増やした労働者",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "フランスの体制",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：第二帝政の皇帝",
+                "kind": "person",
+                "identity": "person:louis-napoleon",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "回の導入を省略せず、二国の体制の違いを示す。皇帝の所在地を固定しない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-002",
+      "title": "産業革命が社会を変える",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "産業革命",
+          "image": "modern-c01-l01/steam-factory.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:steam-factory",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "農業社会から工業社会への変化",
+        "groups": [
+          {
+            "label": "従来の中心",
+            "figures": [
+              {
+                "image": "modern-c01-l02/landowners.png",
+                "name": "地主",
+                "caption": "説明：農業社会では土地を持つ地主が中心",
+                "kind": "group",
+                "identity": "group:landowners",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "工業の発展",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：工場を持つ人が成長",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "労働者",
+                "caption": "説明：工場とともに労働者階級が増加",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "社会階級を模式欄で比較し、地主や資本家に固有の人物名を付けない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-003",
+      "title": "地主ばかりの議会",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "下院・庶民院",
+          "image": "modern-c01-l01/parliament-building.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:parliament-building",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "政治に参加できる側とできない側",
+        "groups": [
+          {
+            "label": "参政権を持つ地主",
+            "figures": [
+              {
+                "image": "modern-c01-l02/landowners.png",
+                "name": "地主",
+                "caption": "説明：議会は地主ばかりで、地主を保護する法律をつくる",
+                "kind": "group",
+                "identity": "group:landowners",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "産業資本家の要求",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：自分たちの意見も聞いてほしい",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "議会は国の制度の記号。原文にない都市や議員個人を加えない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-004",
+      "title": "労働者の環境と改革の必要",
+      "mapActors": [
+        {
+          "name": "都市労働者",
+          "image": "modern-c01-l01/workers.png",
+          "kind": "group",
+          "identity": "group:workers",
+          "at": [
+            -2,
+            54
+          ],
+          "bubble": "説明：ひどい労働環境が改革の問題となる"
+        }
+      ],
+      "mapProps": [
+        {
+          "name": "工場",
+          "image": "modern-c01-l01/steam-factory.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:steam-factory",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "offset": [
+            42,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "労働環境と改革の必要",
+        "groups": [
+          {
+            "label": "工場を増やす側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：給料と設備の費用を抑えたい",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "働く側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "労働者",
+                "caption": "説明：生活と労働の環境が悪化する",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "一般の労働者と事業者を区別する。特定の工場や事件は追加しない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-005",
+      "title": "保護貿易と東インド会社",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "綿製品の機械生産",
+          "image": "modern-c01-l02/cotton-loom.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:cotton-loom",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        },
+        {
+          "name": "対インド貿易",
+          "image": "modern-c01-l01/merchant-cargo.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:merchant-cargo",
+          "size": 64,
+          "at": [
+            78,
+            22
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "貿易独占と輸出の要求",
+        "groups": [
+          {
+            "label": "独占に対する不満",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：機械で大量につくった綿製品を輸出したい",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/merchant-cargo.png",
+                "name": "東インド会社",
+                "caption": "説明：貿易独占のため、他社は自由に貿易できない",
+                "kind": "prop",
+                "identity": "prop:merchant-cargo",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "設立時代の参照",
+            "figures": [
+              {
+                "image": "modern-c01-l02/elizabeth-i.png",
+                "name": "エリザベス1世",
+                "caption": "説明：東インド会社はこの女王の時代に設立された",
+                "kind": "person",
+                "identity": "person:elizabeth-i",
+                "temporalRole": "reference"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "女王は過去の参照。商品の輸出先や会社の本部を本文以上に固定しない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-006",
+      "title": "穀物法で地主の利益を保護",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "東欧からの穀物",
+          "image": "modern-c01-l02/grain-cargo.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:grain-cargo",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "bubble": "説明：大陸封鎖令がなくなった後の輸入",
+          "route": 0
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "穀物法ができるまで",
+        "groups": [
+          {
+            "label": "大陸封鎖令の背景",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン",
+                "caption": "説明：大陸封鎖令で穀物を輸入できなくなった",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "地主の利益を守る法律",
+            "figures": [
+              {
+                "image": "modern-c01-l02/landowners.png",
+                "name": "地主",
+                "caption": "説明：囲い込みで増産した地主が安い輸入穀物に反発",
+                "kind": "group",
+                "identity": "group:landowners",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "穀物法",
+                "caption": "説明：輸入禁止から高関税へ。典型的な地主保護法",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "穀物の流れは封鎖令の終了後・穀物法制定前。ナポレオンや地主本人を貿易経路へ動かさない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-007",
+      "title": "保護貿易と自由貿易の対立",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "穀物",
+          "image": "modern-c01-l02/grain-cargo.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:grain-cargo",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        },
+        {
+          "name": "綿製品",
+          "image": "modern-c01-l02/cotton-loom.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:cotton-loom",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "offset": [
+            46,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "地主と産業資本家の対立",
+        "groups": [
+          {
+            "label": "農業",
+            "figures": [
+              {
+                "image": "modern-c01-l02/landowners.png",
+                "name": "地主",
+                "caption": "説明：保護貿易を主張する",
+                "kind": "group",
+                "identity": "group:landowners",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "工業",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：自由貿易にして輸出を拡大したい",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文43ページの対比。二つの階層を別の役割の画像で示す。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-008",
+      "title": "腐敗選挙区と改革運動",
+      "mapActors": [
+        {
+          "name": "選挙法改正運動",
+          "image": "modern-c01-l01/revolutionary-citizens.png",
+          "kind": "group",
+          "identity": "group:revolutionary-citizens",
+          "at": [
+            -2,
+            54
+          ],
+          "bubble": "説明：七月革命の影響で市民の暴動も発生",
+          "offset": [
+            42,
+            0
+          ]
+        }
+      ],
+      "mapProps": [
+        {
+          "name": "マンチェスター",
+          "image": "modern-c01-l02/cotton-loom.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:cotton-loom",
+          "size": 64,
+          "at": [
+            -2.24,
+            53.48
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "人口と議席の不均衡",
+        "groups": [
+          {
+            "label": "農村の腐敗選挙区",
+            "figures": [
+              {
+                "image": "modern-c01-l02/landowners.png",
+                "name": "地主",
+                "caption": "説明：人口が減っても議席がある",
+                "kind": "group",
+                "identity": "group:landowners",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "工業都市",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "マンチェスターの産業資本家",
+                "caption": "説明：人口20万人を超えても選挙区がなく議席ゼロ",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "人口流出は制度比較で示し、原文にない村からマンチェスターへの実経路を作らない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-009",
+      "title": "第1回選挙法改正と1833年の改革",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "第1回選挙法改正",
+          "image": "modern-c01-l01/ballot-box.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:ballot-box",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "1832年の改正と1833年の改革",
+        "groups": [
+          {
+            "label": "改正の実現",
+            "figures": [
+              {
+                "image": "modern-c01-l02/grey.png",
+                "name": "グレイ",
+                "caption": "説明：ホイッグ党の内閣の下で第1回選挙法改正",
+                "kind": "person",
+                "identity": "person:grey",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "中産階級",
+                "caption": "説明：産業資本家などに選挙権",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原書44ページの改革表",
+            "figures": [
+              {
+                "image": "modern-c01-l02/shaftesbury.png",
+                "name": "シャフツベリー卿",
+                "caption": "説明：工場法のために尽力",
+                "kind": "person",
+                "identity": "person:shaftesbury",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "工場法・奴隷制廃止",
+                "caption": "説明：表の各改革は原書全文と説明図で読める",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "政治家は模式欄で本人を示す。原書44ページの表だけの内容は表の説明であると明記する。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-010",
+      "title": "反穀物法同盟から自由貿易へ",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "マンチェスターの木綿工業",
+          "image": "modern-c01-l02/cotton-loom.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:cotton-loom",
+          "size": 64,
+          "at": [
+            -2.24,
+            53.48
+          ]
+        },
+        {
+          "name": "穀物法廃止",
+          "image": "modern-c01-l02/grain-cargo.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:grain-cargo",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "offset": [
+            42,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "穀物法廃止に動く政治家",
+        "groups": [
+          {
+            "label": "反穀物法同盟",
+            "figures": [
+              {
+                "image": "modern-c01-l02/cobden.png",
+                "name": "コブデン",
+                "caption": "説明：議会の内外で全国的な廃止運動",
+                "kind": "person",
+                "identity": "person:cobden",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/bright.png",
+                "name": "ブライト",
+                "caption": "説明：コブデンとともに指導する",
+                "kind": "person",
+                "identity": "person:bright",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "保守党の内部も分かれる",
+            "figures": [
+              {
+                "image": "modern-c01-l02/peel.png",
+                "name": "ピール",
+                "caption": "説明：廃止に賛成した内閣のもとで実現",
+                "kind": "person",
+                "identity": "person:peel",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/landowners.png",
+                "name": "地主",
+                "caption": "説明：猛反対の一方、商工業へ投資する地主もいる",
+                "kind": "group",
+                "identity": "group:landowners",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "三人の本人を区別する。議会や運動の説明から特定の現在地を補わない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-011",
+      "title": "農業経営の改良",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "ロシアの小麦",
+          "image": "modern-c01-l02/grain-cargo.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:grain-cargo",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "bubble": "説明：地主が心配した安い小麦",
+          "route": 0
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "自由貿易の後の農業",
+        "groups": [
+          {
+            "label": "地主の心配",
+            "figures": [
+              {
+                "image": "modern-c01-l02/landowners.png",
+                "name": "地主",
+                "caption": "説明：ロシアの安い小麦への懸念",
+                "kind": "group",
+                "identity": "group:landowners",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "経営の改良",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "イギリスの農業",
+                "caption": "説明：経営合理化と農場改良で繁栄する",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "小麦の輸入関係を道具の動きで示す。地主本人の移動は加えない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-012",
+      "title": "労働者のチャーティスト運動",
+      "mapActors": [
+        {
+          "name": "労働者",
+          "image": "modern-c01-l01/workers.png",
+          "kind": "group",
+          "identity": "group:workers",
+          "at": [
+            -2,
+            54
+          ],
+          "bubble": "説明：選挙権を求めて組織的な政治運動"
+        }
+      ],
+      "mapProps": [
+        {
+          "name": "選挙権の要求",
+          "image": "modern-c01-l01/ballot-box.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:ballot-box",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "offset": [
+            44,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "第1回の改正の後も残る格差",
+        "groups": [
+          {
+            "label": "選挙権を得た側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：第1回改正で選挙権が広がった",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "選挙権を得られない側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "労働者",
+                "caption": "説明：自分たちを守る法律を求める",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "チャーティスト運動を労働者の一般集団として示し、架空の指導者を作らない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-013",
+      "title": "人民憲章の6カ条",
+      "mapActors": [
+        {
+          "name": "チャーティスト運動",
+          "image": "modern-c01-l01/workers.png",
+          "kind": "group",
+          "identity": "group:workers",
+          "at": [
+            -2,
+            54
+          ],
+          "bubble": "説明：人民憲章を全国と議会へ提出"
+        }
+      ],
+      "mapProps": [
+        {
+          "name": "人民憲章",
+          "image": "modern-c01-l01/constitution-document.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:constitution-document",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "offset": [
+            44,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "人民憲章の要求",
+        "groups": [
+          {
+            "label": "選挙と議員の条件",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ballot-box.png",
+                "name": "男性普通選挙・秘密投票",
+                "caption": "説明：貧しい人も政治へ参加するための要求",
+                "kind": "prop",
+                "identity": "prop:ballot-box",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "議員有給",
+                "caption": "説明：労働者も議員として生活できるようにする",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "6カ条は本文と原書の説明図で全文を保持。要求をすでに実現した法律として示さない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-014",
+      "title": "ケニントン広場のデモと弾圧",
+      "mapActors": [
+        {
+          "name": "ケニントン広場の労働者",
+          "image": "modern-c01-l01/workers.png",
+          "kind": "group",
+          "identity": "group:workers",
+          "at": [
+            -0.11,
+            51.49
+          ],
+          "bubble": "説明：1848年の大規模なデモ"
+        },
+        {
+          "name": "警察",
+          "image": "modern-c01-l02/british-police.png",
+          "kind": "group",
+          "identity": "group:british-police",
+          "at": [
+            -0.11,
+            51.49
+          ],
+          "bubble": "説明：政府が動員して弾圧する",
+          "offset": [
+            42,
+            0
+          ]
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "チャーティスト運動の最高潮",
+        "groups": [
+          {
+            "label": "集まった側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "労働者",
+                "caption": "説明：数万人が広場でデモ",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "政府が動員した側",
+            "figures": [
+              {
+                "image": "modern-c01-l02/british-soldiers.png",
+                "name": "軍",
+                "caption": "説明：警察とともに弾圧する",
+                "kind": "group",
+                "identity": "group:british-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文45ページで場所の明らかな集団をケニントン広場へ置く。政治家個人を現場に作らない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-015",
+      "title": "賃金上昇と運動の衰退",
+      "mapActors": [
+        {
+          "name": "労働者",
+          "image": "modern-c01-l01/workers.png",
+          "kind": "group",
+          "identity": "group:workers",
+          "at": [
+            -2,
+            54
+          ],
+          "bubble": "説明：賃金が上がり生活にゆとり"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "デモからお出かけへ",
+        "groups": [
+          {
+            "label": "生活の変化",
+            "figures": [
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "給料",
+                "caption": "説明：少しは生活にゆとりが出る",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/railway.png",
+                "name": "鉄道",
+                "caption": "説明：原書45ページの吹き出しでは遠出できる理由を説明",
+                "kind": "prop",
+                "identity": "prop:railway",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "万博を見に行く",
+            "figures": [
+              {
+                "image": "modern-c01-l02/crystal-palace.png",
+                "name": "ロンドン万国博覧会",
+                "caption": "説明：1851年、デモより万博という人も増える",
+                "kind": "building",
+                "identity": "building:crystal-palace",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "賃金と交通の説明であり、本文にない都市からの旅行経路は追加しない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-016",
+      "title": "第2回選挙法改正と都市労働者",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "第2回選挙法改正",
+          "image": "modern-c01-l01/ballot-box.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:ballot-box",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "選挙権を得る労働者の範囲",
+        "groups": [
+          {
+            "label": "改正をおこなう内閣",
+            "figures": [
+              {
+                "image": "modern-c01-l02/derby.png",
+                "name": "ダービー",
+                "caption": "説明：保守党の内閣が1867年に改正",
+                "kind": "person",
+                "identity": "person:derby",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "都市の選挙区",
+            "figures": [
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "都市労働者",
+                "caption": "説明：選挙権が拡大する",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "まだ選挙権のない側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農業労働者",
+                "caption": "説明：第2回改正の対象ではない",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "鉱山労働者",
+                "caption": "説明：都市の選挙区だけの変更",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "労働者全員が選挙権を得たとは示さず、原文の都市・農村の制度差を模式欄で明確にする。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-017",
+      "title": "パクス＝ブリタニカとヴィクトリア時代",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "世界の工場",
+          "image": "modern-c01-l01/steam-factory.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:steam-factory",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        },
+        {
+          "name": "自由貿易",
+          "image": "modern-c01-l01/merchant-cargo.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:merchant-cargo",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "offset": [
+            44,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "パクス＝ブリタニカの背景",
+        "groups": [
+          {
+            "label": "圧倒的な工業力",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：工業製品を世界各地へ輸出する",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "時代の呼び名",
+            "figures": [
+              {
+                "image": "modern-c01-l02/victoria.png",
+                "name": "ヴィクトリア女王",
+                "caption": "説明：女王にちなんでヴィクトリア時代と呼ぶ",
+                "kind": "person",
+                "identity": "person:victoria",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "具体的な植民地や遠征先は原文にないので追加しない。女王は時代の説明として模式欄に置く。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-018",
+      "title": "ロンドン万国博覧会と鉄道",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "クリスタル＝パレス（水晶宮）",
+          "image": "modern-c01-l02/crystal-palace.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:crystal-palace",
+          "size": 64,
+          "at": [
+            -0.165,
+            51.507
+          ]
+        },
+        {
+          "name": "全国の鉄道網",
+          "image": "modern-c01-l01/railway.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:railway",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "offset": [
+            46,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "博覧会と大衆社会",
+        "groups": [
+          {
+            "label": "人を集める交通と旅行",
+            "figures": [
+              {
+                "image": "modern-c01-l02/thomas-cook.png",
+                "name": "クック",
+                "caption": "説明：万博見物の割引ツアーを企画する",
+                "kind": "person",
+                "identity": "person:thomas-cook",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/railway.png",
+                "name": "鉄道",
+                "caption": "説明：全国から見物客を運ぶ",
+                "kind": "prop",
+                "identity": "prop:railway",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "会場",
+            "figures": [
+              {
+                "image": "modern-c01-l02/crystal-palace.png",
+                "name": "クリスタル＝パレス（水晶宮）",
+                "caption": "説明：全面ガラス張りの会場に10万点の展示物",
+                "kind": "building",
+                "identity": "building:crystal-palace",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "会場は本文のハイド・パーク。クック個人の旅程は作らず、鉄道網は模式的な記号とする。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-019",
+      "title": "地主と産業資本家の二大政党",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "二大政党制",
+          "image": "modern-c01-l01/parliament-building.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:parliament-building",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "原書46ページの二大政党の比較",
+        "groups": [
+          {
+            "label": "保守党",
+            "figures": [
+              {
+                "image": "modern-c01-l02/landowners.png",
+                "name": "地主",
+                "caption": "説明：地主や貴族が支持基盤",
+                "kind": "group",
+                "identity": "group:landowners",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/disraeli.png",
+                "name": "ディズレーリ",
+                "caption": "説明：原書比較欄の代表的な政治家",
+                "kind": "person",
+                "identity": "person:disraeli",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "自由党",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：産業資本家が支持基盤",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/gladstone.png",
+                "name": "グラッドストン",
+                "caption": "説明：原書比較欄の代表的な政治家",
+                "kind": "person",
+                "identity": "person:gladstone",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "通常本文の直後の原書46ページの比較欄に接続する。二人の人物の在所は固定しない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p01-020",
+      "title": "ディズレーリとグラッドストンの政策",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "スエズ運河会社株",
+          "image": "modern-c01-l02/suez-canal.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:suez-canal",
+          "size": 64,
+          "at": [
+            32.3,
+            30
+          ]
+        },
+        {
+          "name": "公立学校",
+          "image": "modern-c01-l02/public-school.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:public-school",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "二つの内閣の政策",
+        "groups": [
+          {
+            "label": "保守党",
+            "figures": [
+              {
+                "image": "modern-c01-l02/disraeli.png",
+                "name": "ディズレーリ",
+                "caption": "説明：スエズ運河会社株の買収やインド帝国の樹立",
+                "kind": "person",
+                "identity": "person:disraeli",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "自由党",
+            "figures": [
+              {
+                "image": "modern-c01-l02/gladstone.png",
+                "name": "グラッドストン",
+                "caption": "説明：教育法・労働組合法・第3回選挙法改正",
+                "kind": "person",
+                "identity": "person:gladstone",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農業労働者",
+                "caption": "説明：第3回改正で選挙権が拡大",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "鉱山労働者",
+                "caption": "説明：第3回改正で対象となる",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "運河の地点は株式買収の対象。ディズレーリ本人を運河へ移動させない。原書47ページの改正表も全文で参照する。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p02-001",
+      "title": "アイルランドの宗教と土地",
+      "mapActors": [
+        {
+          "name": "アイルランド人",
+          "image": "modern-c01-l02/irish-tenants.png",
+          "kind": "group",
+          "identity": "group:irish-tenants",
+          "at": [
+            -8,
+            53.5
+          ],
+          "bubble": "説明：宗教と土地の二つの問題を抱える"
+        }
+      ],
+      "mapProps": [
+        {
+          "name": "穀物",
+          "image": "modern-c01-l02/grain-cargo.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:grain-cargo",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "bubble": "説明：不在地主に渡る穀物",
+          "route": 0
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "宗教と土地の違い",
+        "groups": [
+          {
+            "label": "過去の征服",
+            "figures": [
+              {
+                "image": "modern-c01-l02/cromwell.png",
+                "name": "クロムウェル",
+                "caption": "説明：アイルランド征服の歴史参照",
+                "kind": "person",
+                "identity": "person:cromwell",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "不在地主",
+            "figures": [
+              {
+                "image": "modern-c01-l02/landowners.png",
+                "name": "イギリス人地主",
+                "caption": "説明：アイルランド人の農地を奪った支配層",
+                "kind": "group",
+                "identity": "group:landowners",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "征服者は過去の参照。不在地主をアイルランドにいる人として描かず、穀物だけを動かす。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p02-002",
+      "title": "併合と本国議会への参加",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "1801年の併合",
+          "image": "modern-c01-l01/constitution-document.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:constitution-document",
+          "size": 64,
+          "at": [
+            -8,
+            53.5
+          ]
+        },
+        {
+          "name": "本国議会",
+          "image": "modern-c01-l01/parliament-building.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:parliament-building",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "併合と公職の制限",
+        "groups": [
+          {
+            "label": "議員を送れる地域となる",
+            "figures": [
+              {
+                "image": "modern-c01-l02/irish-tenants.png",
+                "name": "アイルランド人",
+                "caption": "説明：連合王国の一部になる",
+                "kind": "group",
+                "identity": "group:irish-tenants",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "残っていた審査法",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "審査法",
+                "caption": "説明：議員を送れることと、議員になれることは違う",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "制度の変化を比較する。代表者がダブリンからロンドンへ旅行したという経路は追加しない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p02-003",
+      "title": "審査法による宗教差別",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "議会と公職",
+          "image": "modern-c01-l01/parliament-building.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:parliament-building",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "宗教差別が残った理由",
+        "groups": [
+          {
+            "label": "1673年の背景",
+            "figures": [
+              {
+                "image": "modern-c01-l02/charles-ii.png",
+                "name": "チャールズ2世",
+                "caption": "説明：カトリック政策に対抗して議会が審査法をつくった",
+                "kind": "person",
+                "identity": "person:charles-ii",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "原書48ページの吹き出し",
+            "figures": [
+              {
+                "image": "modern-c01-l02/mary-i.png",
+                "name": "メアリ1世",
+                "caption": "説明：国教会とカトリックの対立の歴史参照",
+                "kind": "person",
+                "identity": "person:mary-i",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "19世紀まで残る規定",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "審査法",
+                "caption": "説明：公職就任者を国教徒に限定する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "過去の王と女王を19世紀の当事者や同時代の人物として同席させない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p02-004",
+      "title": "オコンネルの当選と二段階の解放",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "オコンネルの当選",
+          "image": "modern-c01-l01/ballot-box.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:ballot-box",
+          "size": 64,
+          "at": [
+            -8,
+            53.5
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "当選取消と二段階の改革",
+        "groups": [
+          {
+            "label": "当選しても議員になれない",
+            "figures": [
+              {
+                "image": "modern-c01-l02/oconnell.png",
+                "name": "オコンネル",
+                "caption": "説明：審査法のため当選を取り消された",
+                "kind": "person",
+                "identity": "person:oconnell",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "反乱寸前の状況への対応",
+            "figures": [
+              {
+                "image": "modern-c01-l02/wellington.png",
+                "name": "ウェリントン",
+                "caption": "説明：首相が法の改革に踏み切った",
+                "kind": "person",
+                "identity": "person:wellington",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原文の二段階",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "審査法廃止",
+                "caption": "説明：非国教徒の公職就任が可能になる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "カトリック教徒解放法",
+                "caption": "説明：翌年、宗教差別を撤廃する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文の法の説明と順序を保持し、二人の現在地や当選後の移動を補わない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p02-005",
+      "title": "小麦とジャガイモ：不在地主の支配",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "ジャガイモ（主食）",
+          "image": "modern-c01-l02/healthy-potatoes.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:healthy-potatoes",
+          "size": 64,
+          "at": [
+            -8,
+            53.5
+          ]
+        },
+        {
+          "name": "小麦",
+          "image": "modern-c01-l02/grain-cargo.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:grain-cargo",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "bubble": "説明：不在地主へ渡る小麦",
+          "route": 0
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "小麦をつくっても食べられない",
+        "groups": [
+          {
+            "label": "小作人の食事",
+            "figures": [
+              {
+                "image": "modern-c01-l02/irish-tenants.png",
+                "name": "小作人",
+                "caption": "説明：小麦を取られるため、ジャガイモを主食にする",
+                "kind": "group",
+                "identity": "group:irish-tenants",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "地主への小麦",
+            "figures": [
+              {
+                "image": "modern-c01-l02/landowners.png",
+                "name": "不在地主",
+                "caption": "説明：アイルランドには住んでいない地主",
+                "kind": "group",
+                "identity": "group:landowners",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "農作物の行き先と小作人の生活を分ける。個別の農場や地主の居所は追加しない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p02-006",
+      "title": "ジャガイモ飢饉とアメリカへの移民",
+      "mapActors": [
+        {
+          "name": "アイルランドからの移民",
+          "image": "modern-c01-l02/irish-emigrants.png",
+          "kind": "group",
+          "identity": "group:irish-emigrants",
+          "at": [
+            -96,
+            39
+          ],
+          "bubble": "説明：新天地アメリカへ移民が急増",
+          "route": 1
+        }
+      ],
+      "mapProps": [
+        {
+          "name": "ジャガイモ",
+          "image": "modern-c01-l02/healthy-potatoes.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:healthy-potatoes",
+          "size": 64,
+          "at": [
+            -8,
+            53.5
+          ],
+          "bubble": "説明：病気による凶作で主食が失われる",
+          "afterImage": "modern-c01-l02/blighted-potatoes.png"
+        },
+        {
+          "name": "イギリスへの小麦輸出",
+          "image": "modern-c01-l02/grain-cargo.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:grain-cargo",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "bubble": "説明：小麦の輸出はほぼ変わらない",
+          "route": 0
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "飢饉と移民の増加",
+        "groups": [
+          {
+            "label": "アイルランドの生活",
+            "figures": [
+              {
+                "image": "modern-c01-l02/irish-tenants.png",
+                "name": "小作人",
+                "caption": "説明：100万人を超えるともいわれる餓死者",
+                "kind": "group",
+                "identity": "group:irish-tenants",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原書49ページの図との対照",
+            "figures": [
+              {
+                "image": "modern-c01-l02/blighted-potatoes.png",
+                "name": "ジャガイモの凶作",
+                "caption": "説明：小麦は採れても小作人の主食がなくなる",
+                "kind": "prop",
+                "identity": "prop:healthy-potatoes",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "作物の前後の姿を切り替える。移民の米国側は代表位置で、到着都市や大西洋の正確な航路ではない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p02-007",
+      "title": "武装蜂起と小作人・自治の運動",
+      "mapActors": [
+        {
+          "name": "小作人の救済運動",
+          "image": "modern-c01-l02/irish-tenants.png",
+          "kind": "group",
+          "identity": "group:irish-tenants",
+          "at": [
+            -8,
+            53.5
+          ],
+          "bubble": "説明：土地と自治を求める運動が続く"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "武装蜂起と政治的な要求",
+        "groups": [
+          {
+            "label": "1848年の独立を目指す蜂起",
+            "figures": [
+              {
+                "image": "modern-c01-l02/obrien.png",
+                "name": "オブライエン",
+                "caption": "説明：青年アイルランド党の蜂起は鎮圧される",
+                "kind": "person",
+                "identity": "person:obrien",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "50年代以降の運動",
+            "figures": [
+              {
+                "image": "modern-c01-l02/irish-tenants.png",
+                "name": "小作人同盟",
+                "caption": "説明：3F運動で小作人を救済する",
+                "kind": "group",
+                "identity": "group:irish-tenants",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "フィニアン党・アイルランド国民党",
+                "caption": "説明：独立や自治権を求める運動も続く",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "各組織の要求を混同せず、蜂起が成功したという絵や原文にない武装経路を作らない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p02-008",
+      "title": "土地法と自治法案の否決",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "アイルランド土地法",
+          "image": "modern-c01-l01/constitution-document.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:constitution-document",
+          "size": 64,
+          "at": [
+            -8,
+            53.5
+          ]
+        },
+        {
+          "name": "自治法案の審議",
+          "image": "modern-c01-l01/parliament-building.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:parliament-building",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "土地改革と自治の要求",
+        "groups": [
+          {
+            "label": "自由党の改革",
+            "figures": [
+              {
+                "image": "modern-c01-l02/gladstone.png",
+                "name": "グラッドストン",
+                "caption": "説明：小作権を安定させ、地代を下げる",
+                "kind": "person",
+                "identity": "person:gladstone",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "アイルランド人の要求",
+            "figures": [
+              {
+                "image": "modern-c01-l02/irish-tenants.png",
+                "name": "アイルランドの小作人",
+                "caption": "説明：土地と自治権を求める",
+                "kind": "group",
+                "identity": "group:irish-tenants",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "議会での反対",
+            "figures": [
+              {
+                "image": "modern-c01-l02/landowners.png",
+                "name": "保守党・上院の地主",
+                "caption": "説明：自治法案は2度否決された",
+                "kind": "group",
+                "identity": "group:landowners",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "土地法の成立と自治法案の否決を分ける。政治家がアイルランドを訪問したという移動は作らない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p02-009",
+      "title": "シン＝フェイン党と独立要求",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "自治か独立か",
+          "image": "modern-c01-l01/constitution-document.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:constitution-document",
+          "size": 64,
+          "at": [
+            -8,
+            53.5
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "二つの政党の要求",
+        "groups": [
+          {
+            "label": "アイルランド国民党",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "自治権",
+                "caption": "説明：自治権を要求する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "シン＝フェイン党",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ballot-box.png",
+                "name": "完全独立",
+                "caption": "説明：1905年に結成され、独立を主張する",
+                "kind": "prop",
+                "identity": "prop:ballot-box",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "政党を固有の政治家の顔で代用しない。自治と独立を同じ要求として混ぜない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p02-010",
+      "title": "自治法の成立と実施延期",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "アイルランド自治法",
+          "image": "modern-c01-l01/constitution-document.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:constitution-document",
+          "size": 64,
+          "at": [
+            -8,
+            53.5
+          ]
+        },
+        {
+          "name": "実施延期",
+          "image": "modern-c01-l01/calendar.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:calendar",
+          "size": 64,
+          "at": [
+            -8,
+            53.5
+          ],
+          "offset": [
+            45,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "成立しても実施されない自治法",
+        "groups": [
+          {
+            "label": "1914年の成立",
+            "figures": [
+              {
+                "image": "modern-c01-l02/asquith.png",
+                "name": "アスキス",
+                "caption": "説明：自由党の内閣が自治法を成立させる",
+                "kind": "person",
+                "identity": "person:asquith",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "実施の延期",
+            "figures": [
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "第一次世界大戦",
+                "caption": "説明：大戦の開始を理由に実施は延期された",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "法律の成立を自治の即時実施と同じ動きにしない。第一次世界大戦の出兵や部隊は本文にないので足さない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p02-011",
+      "title": "イースター蜂起と独立宣言",
+      "mapActors": [
+        {
+          "name": "ダブリンの急進独立派",
+          "image": "modern-c01-l01/revolutionary-citizens.png",
+          "kind": "group",
+          "identity": "group:revolutionary-citizens",
+          "at": [
+            -6.26,
+            53.35
+          ],
+          "bubble": "説明：1916年のイースター蜂起"
+        }
+      ],
+      "mapProps": [
+        {
+          "name": "シン＝フェイン党の圧勝",
+          "image": "modern-c01-l01/ballot-box.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:ballot-box",
+          "size": 64,
+          "at": [
+            -8,
+            53.5
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "蜂起の後に高まる独立運動",
+        "groups": [
+          {
+            "label": "独立宣言の指導者",
+            "figures": [
+              {
+                "image": "modern-c01-l02/de-valera.png",
+                "name": "デ＝ヴァレラ",
+                "caption": "説明：党首を中心にイギリスからの独立を宣言する",
+                "kind": "person",
+                "identity": "person:de-valera",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "議員の態度",
+            "figures": [
+              {
+                "image": "modern-c01-l01/parliament-delegates.png",
+                "name": "シン＝フェイン党の議員",
+                "caption": "説明：本国議会への出席を拒否する",
+                "kind": "group",
+                "identity": "group:parliament-delegates",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "一般の市民像は独立派の模式的な記号。デ＝ヴァレラを蜂起の現場の司令官として配置せず、その後の宣言の役割に限る。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p02-012",
+      "title": "南部のアイルランド自由国",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "アイルランド自由国",
+          "image": "modern-c01-l01/constitution-document.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:constitution-document",
+          "size": 64,
+          "at": [
+            -8,
+            53.5
+          ]
+        },
+        {
+          "name": "イギリス側の北部",
+          "image": "modern-c01-l01/crown.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:crown",
+          "size": 64,
+          "at": [
+            -6.5,
+            54.8
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "1922年の南部のみの自治領",
+        "groups": [
+          {
+            "label": "南部",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "アイルランド自由国",
+                "caption": "説明：南部のみが自治領となる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "北部",
+            "figures": [
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "アルスター地方",
+                "caption": "説明：イングランド系・国教徒が多い北部を切り離す",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "国の代表位置で制度を示す。原文の文字だけから厳密な境界線や北部全域の割り当てを描かない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p02-013",
+      "title": "エールからアイルランド共和国へ",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "アイルランド共和国",
+          "image": "modern-c01-l01/constitution-document.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:constitution-document",
+          "size": 64,
+          "at": [
+            -8,
+            53.5
+          ]
+        },
+        {
+          "name": "イギリス領の北部",
+          "image": "modern-c01-l01/crown.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:crown",
+          "size": 64,
+          "at": [
+            -6.5,
+            54.8
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "独立までの段階",
+        "groups": [
+          {
+            "label": "1937年",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ballot-box.png",
+                "name": "人民投票",
+                "caption": "説明：新憲法でエールとして独立を宣言する",
+                "kind": "prop",
+                "identity": "prop:ballot-box",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "1949年",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "アイルランド共和国",
+                "caption": "説明：完全な独立国家となる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "残った問題",
+            "figures": [
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "北部アルスター地方",
+                "caption": "説明：イギリス領のまま、戦後まで問題が続く",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "1937年の宣言を当時の英国承認と混同せず、南北の違いと1949年の独立を保持する。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p03-001",
+      "title": "ルイ＝ナポレオンから皇帝へ",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "国民投票",
+          "image": "modern-c01-l01/ballot-box.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:ballot-box",
+          "size": 64,
+          "at": [
+            2,
+            47
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "同じ人物が皇帝へ",
+        "groups": [
+          {
+            "label": "即位前の振り返り",
+            "figures": [
+              {
+                "image": "modern-c01-l01/louis-napoleon.png",
+                "name": "ルイ＝ナポレオン",
+                "caption": "説明：第1回で説明した人物",
+                "kind": "person",
+                "identity": "person:louis-napoleon",
+                "temporalRole": "before",
+                "reason": "原文が即位前の名と即位後の名を接続する"
+              }
+            ]
+          },
+          {
+            "label": "1852年の即位後",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：皇帝の座を維持するには人気が必要",
+                "kind": "person",
+                "identity": "person:louis-napoleon",
+                "temporalRole": "after",
+                "reason": "ルイ＝ナポレオンと同じ本人の礼装の違い"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "同一人物の前後の姿を意図して対比する。叔父のナポレオン1世の画像は使わない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p03-002",
+      "title": "小農民が最大多数のフランス",
+      "mapActors": [
+        {
+          "name": "フランスの小農民",
+          "image": "modern-c01-l01/farmers.png",
+          "kind": "group",
+          "identity": "group:farmers",
+          "at": [
+            2,
+            47
+          ],
+          "bubble": "説明：土地を持つ小農民が最大多数"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "フランスとイギリスの違い",
+        "groups": [
+          {
+            "label": "フランスの小農民",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農民",
+                "caption": "説明：土地を持ち、わざわざ都市の労働者になろうとしない",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "イギリスとの比較",
+            "figures": [
+              {
+                "image": "modern-c01-l02/landowners.png",
+                "name": "第2次囲い込み",
+                "caption": "説明：小作人を追い出した英国との違い",
+                "kind": "group",
+                "identity": "group:landowners",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "人気を取るための回想",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン",
+                "caption": "説明：ナポレオンの思い出に訴える",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "reference"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "叔父は小農民の回想の参照。皇帝ナポレオン3世と同じ本人として示さない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p03-003",
+      "title": "三階級の勢力均衡とボナパルティズム",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "独裁政治の維持",
+          "image": "modern-c01-l01/crown.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:crown",
+          "size": 64,
+          "at": [
+            2,
+            47
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "三階級への人気取り",
+        "groups": [
+          {
+            "label": "小農民",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農民",
+                "caption": "説明：最大多数の勢力",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "産業資本家",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：成長し始めたが英国ほど発展していない",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "労働者",
+            "figures": [
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "労働者",
+                "caption": "説明：英国ほど多くないが無視できない",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "皇帝と中心となる勢力",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：各階層への人気取りを続ける",
+                "kind": "person",
+                "identity": "person:louis-napoleon",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/bankers.png",
+                "name": "大資本家",
+                "caption": "説明：軍部とともに中心となる",
+                "kind": "group",
+                "identity": "group:bankers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "三階級の比較は地理的な地域の分割ではない。ナポレオン3世の所在地を固定しない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p03-004",
+      "title": "権威帝政とパリの改造",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "パリの全面的改造",
+          "image": "modern-c01-l02/paris-boulevard.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:paris-boulevard",
+          "size": 64,
+          "at": [
+            2.35,
+            48.86
+          ]
+        },
+        {
+          "name": "フランスの産業革命",
+          "image": "modern-c01-l01/steam-factory.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:steam-factory",
+          "size": 64,
+          "at": [
+            2,
+            47
+          ],
+          "offset": [
+            46,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "パリの改造と各階層への政策",
+        "groups": [
+          {
+            "label": "改造の指示と担当",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：オスマンにパリの改造を命じる",
+                "kind": "person",
+                "identity": "person:louis-napoleon",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/haussmann.png",
+                "name": "オスマン",
+                "caption": "説明：セーヌ県知事として改造を担当",
+                "kind": "person",
+                "identity": "person:haussmann",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原書53ページの地上の整備",
+            "figures": [
+              {
+                "image": "modern-c01-l02/arc-de-triomphe.png",
+                "name": "凱旋門",
+                "caption": "説明：放射状の道路網",
+                "kind": "building",
+                "identity": "building:arc-de-triomphe",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/paris-opera.png",
+                "name": "オペラ座",
+                "caption": "説明：景観を変えた建物",
+                "kind": "building",
+                "identity": "building:paris-opera",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原書53ページの地下の整備",
+            "figures": [
+              {
+                "image": "modern-c01-l02/paris-sewers.png",
+                "name": "下水道",
+                "caption": "説明：集中排水で街を衛生的にする",
+                "kind": "prop",
+                "identity": "prop:paris-sewers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "労働者への政策",
+            "figures": [
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "年金制度",
+                "caption": "説明：生活改善で人気を取る",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "県知事を国家オスマン帝国と混同しない。都市の詳細は原書53ページのコラムと模式図へ分け、地理図の拡大上限を保つ。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p03-005",
+      "title": "対外遠征とイギリスとの協調",
+      "mapActors": [
+        {
+          "name": "インドシナへ進出するフランス軍",
+          "image": "modern-c01-l01/french-soldiers.png",
+          "kind": "group",
+          "identity": "group:french-soldiers",
+          "at": [
+            106.7,
+            10.8
+          ],
+          "bubble": "説明：コーチシナやカンボジアへの進出を宣伝する",
+          "route": 0
+        },
+        {
+          "name": "クリミア戦争で協調するイギリス軍",
+          "image": "modern-c01-l02/british-soldiers.png",
+          "kind": "group",
+          "identity": "group:british-soldiers",
+          "at": [
+            34,
+            45
+          ],
+          "bubble": "説明：イギリスとともにオスマン帝国を支援"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "遠征と権威の誇示",
+        "groups": [
+          {
+            "label": "皇帝の方針",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：イギリスと敵対しないようにする",
+                "kind": "person",
+                "identity": "person:louis-napoleon",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "回想の強いナポレオン",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン",
+                "caption": "説明：過去の神話に訴えて人気を取る",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "イタリア統一戦争",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "講和",
+                "caption": "説明：サルデーニャ支援のはずが勝手に講和する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "遠征の軍は一般集団。皇帝本人をすべての戦場へ動かさない。ここでのオスマン帝国は国家であり、パリの県知事の絵を使わない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p03-006",
+      "title": "自由帝政で権力の維持を図る",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "自由帝政",
+          "image": "modern-c01-l01/constitution-document.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:constitution-document",
+          "size": 64,
+          "at": [
+            2,
+            47
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "自由主義運動への歩み寄り",
+        "groups": [
+          {
+            "label": "権力の維持を図る",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：国民に歩み寄る姿勢を見せる",
+                "kind": "person",
+                "identity": "person:louis-napoleon",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "認める権利",
+            "figures": [
+              {
+                "image": "modern-c01-l01/parliament-delegates.png",
+                "name": "議会",
+                "caption": "説明：議会の権限を認める",
+                "kind": "group",
+                "identity": "group:parliament-delegates",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "労働者",
+                "caption": "説明：団結権を認める",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "言論",
+                "caption": "説明：規制をゆるめる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "自由帝政は皇帝の退位ではない。制度の変更を地理的な領域や遠征にしない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p03-007",
+      "title": "メキシコ出兵と撤退の失敗",
+      "mapActors": [
+        {
+          "name": "フランス軍のメキシコ出兵と撤退",
+          "image": "modern-c01-l01/french-soldiers.png",
+          "kind": "group",
+          "identity": "group:french-soldiers",
+          "at": [
+            2,
+            47
+          ],
+          "bubble": "説明：アメリカの反発を受けて撤退",
+          "route": 0
+        },
+        {
+          "name": "イギリス軍の出兵と先行撤退",
+          "image": "modern-c01-l02/british-soldiers.png",
+          "kind": "group",
+          "identity": "group:british-soldiers",
+          "at": [
+            -2,
+            54
+          ],
+          "bubble": "説明：イギリスは先に撤退する",
+          "route": 1
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "メキシコ出兵の失敗",
+        "groups": [
+          {
+            "label": "出兵を進めた皇帝",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：イギリスとスペインを誘って出兵",
+                "kind": "person",
+                "identity": "person:louis-napoleon",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "メキシコ皇帝にされた人物",
+            "figures": [
+              {
+                "image": "modern-c01-l02/maximilian.png",
+                "name": "マクシミリアン",
+                "caption": "説明：オーストリア皇帝の弟",
+                "kind": "person",
+                "identity": "person:maximilian",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "アメリカの反発",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "モンロー宣言",
+                "caption": "説明：南北戦争後、アメリカが猛反発する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "出兵と撤退の順序だけを軍の動きにする。マクシミリアンの渡航やナポレオン3世の訪問経路は本文にないので作らない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p03-008",
+      "title": "普仏戦争と第二帝政の崩壊",
+      "mapActors": [
+        {
+          "name": "ナポレオン3世",
+          "image": "modern-c01-l01/napoleon-iii.png",
+          "kind": "person",
+          "identity": "person:louis-napoleon",
+          "at": [
+            4.94,
+            49.7
+          ],
+          "bubble": "説明：スダンで本人が捕虜となり退位する",
+          "afterImage": "modern-c01-l02/napoleon-iii-captive.png"
+        }
+      ],
+      "mapProps": [
+        {
+          "name": "第二帝政の崩壊",
+          "image": "modern-c01-l01/crown.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:crown",
+          "size": 64,
+          "at": [
+            2,
+            47
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ドイツ統一の阻止から普仏戦争へ",
+        "groups": [
+          {
+            "label": "利用した側",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：皇帝の強硬な発言を利用する",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "戦争の帰結",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "第三共和政",
+                "caption": "説明：第二帝政の崩壊後の体制",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文で場所の明らかな皇帝本人だけをスダンへ置き、同じ顔の捕虜姿へ切り替える。ビスマルクを戦闘の現場へ配置しない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p03-009",
+      "title": "パリの占領と臨時政府の降伏",
+      "mapActors": [
+        {
+          "name": "パリからヴェルサイユへ進むプロイセン軍",
+          "image": "modern-c01-l01/prussian-soldiers.png",
+          "kind": "group",
+          "identity": "group:prussian-soldiers",
+          "at": [
+            2.12,
+            48.8
+          ],
+          "bubble": "説明：パリを占領して宮殿へ進む",
+          "route": 0
+        },
+        {
+          "name": "ティエール",
+          "image": "modern-c01-l02/thiers.png",
+          "kind": "person",
+          "identity": "person:thiers",
+          "at": [
+            -0.58,
+            44.84
+          ],
+          "bubble": "説明：ボルドーの臨時政府の首班"
+        }
+      ],
+      "mapProps": [
+        {
+          "name": "ヴェルサイユ宮殿",
+          "image": "modern-c01-l01/royal-palace.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:royal-palace",
+          "size": 64,
+          "at": [
+            2.12,
+            48.8
+          ],
+          "offset": [
+            46,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "占領と臨時政府の降伏",
+        "groups": [
+          {
+            "label": "原文54ページの出来事",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ドイツ帝国",
+                "caption": "説明：ヴェルサイユ宮殿で成立",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "臨時政府の降伏",
+                "caption": "説明：ドイツへ降伏した",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文で場所の明らかな政府首班をボルドーへ置く。宮殿の画像は一般的な模式記号であり、実建物の復元ではない。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p03-010",
+      "title": "パリ＝コミューンと鎮圧",
+      "mapActors": [
+        {
+          "name": "パリ市民・労働者",
+          "image": "modern-c01-l01/revolutionary-citizens.png",
+          "kind": "group",
+          "identity": "group:revolutionary-citizens",
+          "at": [
+            2.35,
+            48.86
+          ],
+          "bubble": "説明：臨時政府からの自立を宣言する"
+        }
+      ],
+      "mapProps": [
+        {
+          "name": "パリ＝コミューン",
+          "image": "modern-c01-l01/barricade.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:barricade",
+          "size": 64,
+          "at": [
+            2.35,
+            48.86
+          ],
+          "offset": [
+            42,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "自治政府と鎮圧する側",
+        "groups": [
+          {
+            "label": "パリ＝コミューン",
+            "figures": [
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "労働者",
+                "caption": "説明：史上初の労働者による自治政府",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "ティエール政権",
+            "figures": [
+              {
+                "image": "modern-c01-l02/thiers.png",
+                "name": "ティエール",
+                "caption": "説明：武装解除を求め、徹底的に鎮圧する",
+                "kind": "person",
+                "identity": "person:thiers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "協力するドイツ軍",
+            "figures": [
+              {
+                "image": "modern-c01-l01/prussian-soldiers.png",
+                "name": "ドイツ軍",
+                "caption": "説明：労働者の台頭を抑えたい利害が一致する",
+                "kind": "group",
+                "identity": "group:prussian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "自治政府と臨時政府を分ける。協力を新しい遠征の経路にしない。「血の週間」の原文表記を本文で保持する。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p03-011",
+      "title": "講和条約と第三共和政の確立",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "フランクフルト講和条約",
+          "image": "modern-c01-l01/treaty-document.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:treaty-document",
+          "size": 64,
+          "at": [
+            2,
+            47
+          ]
+        },
+        {
+          "name": "第三共和政憲法",
+          "image": "modern-c01-l01/constitution-document.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:constitution-document",
+          "size": 64,
+          "at": [
+            2,
+            47
+          ],
+          "offset": [
+            44,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "講和条件と共和国の確立",
+        "groups": [
+          {
+            "label": "講和の条件",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "アルザス・ロレーヌの割譲",
+                "caption": "説明：石炭や鉄鉱石などの資源がとれる地域",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "賠償金",
+                "caption": "説明：50億フランを支払う",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "共和国の大統領",
+            "figures": [
+              {
+                "image": "modern-c01-l02/thiers.png",
+                "name": "ティエール",
+                "caption": "説明：正式に初代大統領となる",
+                "kind": "person",
+                "identity": "person:thiers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "1875年",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "第三共和政憲法",
+                "caption": "説明：第三共和政が確立する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "講和条約の名称から調印場所や大統領の所在地を補わない。資源の地域の割譲は条約の記号と名称で示す。"
+    },
+    {
+      "sceneId": "modern-c01-l02-p03-012",
+      "title": "年号の確認とアメリカへの案内",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "年号の確認",
+          "image": "modern-c01-l01/calendar.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:calendar",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "原書54ページの年号と次回案内",
+        "groups": [
+          {
+            "label": "年号を確認する",
+            "figures": [
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "年号のツボ",
+                "caption": "説明：選挙法改正・アイルランド自由国・普仏戦争",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "次回",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "アメリカ合衆国",
+                "caption": "説明：重要ポイントの多い次回へ進む",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "preview"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "今回の締めと次回案内も原文の通常本文として保持する。アメリカの次回の人物や事件を先取りしない。"
+    }
+  ],
+  "imageAvailability": "生成は主担当が行う。画像未生成でも本文・図の対応を独立して検査できる。"
+}
