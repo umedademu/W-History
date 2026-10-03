@@ -1,0 +1,4431 @@
+{
+  "schema": 1,
+  "description": "第5回の通常本文・原書全文を保持し、本人・一般集団・道具の説明図を重ねる。外交の構想と実際の行動、過去の参照と同時代の当事者を区別する。",
+  "rules": [
+    "原文資料は参照専用。本文・装飾・順序・図表の全字句を保持する。",
+    "人物は本文に現地が明記された会議だけ地理図に置き、それ以外は本人の模式欄と過去参照で示す。",
+    "航行権・通過禁止は制度であり実航行ではない。エジプト経由の交通路も開通前の運河を航行する動きにしない。",
+    "英国軍艦は非参戦の待機、ロシア軍はイスタンブルへ接近するまでとし占領にしない。",
+    "農民の人格的自由は無償だが土地は有償。都市への移動はできるという可能性で全農民の実移住にしない。",
+    "ナロードニキの一部の暗殺は1881年で露土戦争後。全員をテロリストとせず1901年のエスエルは先取りとして示す。",
+    "3国の独立とブルガリアの自治、墺の統治権・英の行政権を別の地位として示す。",
+    "ギリシア正教の内部から国名ギリシアを誤検出しない。",
+    "国・地域の代表位置と都市・施設の現地を区別し、地理図の共通32度／24度上限を適用する。",
+    "同じ本人・同じ一般役割だけを再利用し、別人の顔の代用をしない。",
+    "注釈は説明であり、史実上の発言を創作した引用ではない。"
+  ],
+  "totals": {
+    "scenes": 70,
+    "newImages": 9,
+    "existingImages": 36,
+    "newPeople": 5,
+    "groups": 0,
+    "newPropsAndBuildings": 4,
+    "illustrations": 70,
+    "routes": 5,
+    "switches": 0,
+    "diagrams": 23
+  },
+  "assets": [
+    {
+      "key": "peter-i",
+      "image": "modern-c01-l05/peter-i.png",
+      "name": "ピョートル1世",
+      "kind": "person",
+      "identity": "person:peter-i",
+      "description": "口髭を持つロシア皇帝本人。長い顎髭は付けない。過去の近代化・進出の参照。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "catherine-ii",
+      "image": "modern-c01-l05/catherine-ii.png",
+      "name": "エカチェリーナ2世",
+      "kind": "person",
+      "identity": "person:catherine-ii",
+      "description": "18世紀の女性皇帝本人。礼装と髪型、男性や他の女性君主の絵で代用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "alexander-ii",
+      "image": "modern-c01-l05/alexander-ii.png",
+      "name": "アレクサンドル2世",
+      "kind": "person",
+      "identity": "person:alexander-ii",
+      "description": "19世紀のロシア皇帝本人。褐色の口髭と頬髭、軍装。1世・ニコライと別人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "palmerston",
+      "image": "modern-c01-l05/palmerston.png",
+      "name": "パーマストン",
+      "kind": "person",
+      "identity": "person:palmerston",
+      "description": "灰白髪と長い頬髭の英国政治家本人。19世紀の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "ivan-turgenev",
+      "image": "modern-c01-l05/ivan-turgenev.png",
+      "name": "トゥルゲーネフ",
+      "kind": "person",
+      "identity": "person:ivan-turgenev",
+      "description": "長い灰白髪と豊かな髭、背広と本。皇帝への読書の影響として参照する本人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "sevastopol-fortress",
+      "image": "modern-c01-l05/sevastopol-fortress.png",
+      "name": "セヴァストーポリ要塞",
+      "kind": "building",
+      "identity": "building:sevastopol-fortress",
+      "description": "19世紀の海岸石造要塞の模式絵。流血や細部の精密復元はしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "holy-sepulchre-church",
+      "image": "modern-c01-l05/holy-sepulchre-church.png",
+      "name": "聖墳墓教会",
+      "kind": "building",
+      "identity": "building:holy-sepulchre-church",
+      "description": "イェルサレムの小さな灰石造の教会。ドームと入口の模式絵。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "british-steam-warship",
+      "image": "modern-c01-l05/british-steam-warship.png",
+      "name": "イギリスの蒸気軍艦",
+      "kind": "prop",
+      "identity": "prop:british-steam-warship",
+      "description": "煙突と蒸気機関を持つ軍艦。本文の比較と黒海出口の待機の説明。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "russian-sailing-warship",
+      "image": "modern-c01-l05/russian-sailing-warship.png",
+      "name": "ロシアの帆船軍艦",
+      "kind": "prop",
+      "identity": "prop:russian-sailing-warship",
+      "description": "木造船体と帆を持つ軍艦。沈没・流血を描かず本文の比較として示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "alexander-i",
+      "image": "modern-c01-l01/alexander-i.png",
+      "name": "アレクサンドル1世",
+      "kind": "person",
+      "identity": "person:alexander-i",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "nicholas-i",
+      "image": "modern-c01-l01/nicholas-i.png",
+      "name": "ニコライ1世",
+      "kind": "person",
+      "identity": "person:nicholas-i",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "metternich",
+      "image": "modern-c01-l01/metternich.png",
+      "name": "メッテルニヒ",
+      "kind": "person",
+      "identity": "person:metternich",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "napoleon-i",
+      "image": "modern-c01-l01/napoleon-i.png",
+      "name": "ナポレオン1世",
+      "kind": "person",
+      "identity": "person:napoleon-i",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "napoleon-iii",
+      "image": "modern-c01-l01/napoleon-iii.png",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "identity": "person:napoleon-iii",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "muhammad-ali",
+      "image": "modern-c01-l01/muhammad-ali.png",
+      "name": "ムハンマド＝アリー",
+      "kind": "person",
+      "identity": "person:muhammad-ali",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "bismarck",
+      "image": "modern-c01-l02/bismarck.png",
+      "name": "ビスマルク",
+      "kind": "person",
+      "identity": "person:bismarck",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "disraeli",
+      "image": "modern-c01-l02/disraeli.png",
+      "name": "ディズレーリ",
+      "kind": "person",
+      "identity": "person:disraeli",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "florence-nightingale",
+      "image": "modern-c01-l04/florence-nightingale.png",
+      "name": "ナイティンゲール",
+      "kind": "person",
+      "identity": "person:florence-nightingale",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "henri-dunant",
+      "image": "modern-c01-l04/henri-dunant.png",
+      "name": "アンリ＝デュナン",
+      "kind": "person",
+      "identity": "person:henri-dunant",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "revolutionary-citizens",
+      "image": "modern-c01-l01/revolutionary-citizens.png",
+      "name": "市民",
+      "kind": "group",
+      "identity": "group:revolutionary-citizens",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "farmers",
+      "image": "modern-c01-l01/farmers.png",
+      "name": "農民",
+      "kind": "group",
+      "identity": "group:farmers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "liberal-students",
+      "image": "modern-c01-l01/liberal-students.png",
+      "name": "都市の知識人",
+      "kind": "group",
+      "identity": "group:liberal-students",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "workers",
+      "image": "modern-c01-l01/workers.png",
+      "name": "労働者",
+      "kind": "group",
+      "identity": "group:workers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "industrialists",
+      "image": "modern-c01-l01/industrialists.png",
+      "name": "資本家",
+      "kind": "group",
+      "identity": "group:industrialists",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "young-russian-officers",
+      "image": "modern-c01-l01/young-russian-officers.png",
+      "name": "デカブリストの参加者",
+      "kind": "group",
+      "identity": "group:young-russian-officers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "russian-soldiers",
+      "image": "modern-c01-l01/russian-soldiers.png",
+      "name": "ロシア軍",
+      "kind": "group",
+      "identity": "group:russian-soldiers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "egyptian-soldiers",
+      "image": "modern-c01-l01/egyptian-soldiers.png",
+      "name": "エジプトの軍",
+      "kind": "group",
+      "identity": "group:egyptian-soldiers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "greek-rebels",
+      "image": "modern-c01-l01/greek-rebels.png",
+      "name": "ギリシアの独立運動",
+      "kind": "group",
+      "identity": "group:greek-rebels",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "french-soldiers",
+      "image": "modern-c01-l01/french-soldiers.png",
+      "name": "フランス軍",
+      "kind": "group",
+      "identity": "group:french-soldiers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "sardinian-soldiers",
+      "image": "modern-c01-l01/sardinian-soldiers.png",
+      "name": "サルデーニャ軍",
+      "kind": "group",
+      "identity": "group:sardinian-soldiers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "ottoman-soldiers",
+      "image": "modern-c01-l01/ottoman-soldiers.png",
+      "name": "オスマン帝国軍",
+      "kind": "group",
+      "identity": "group:ottoman-soldiers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "diplomatic-delegates",
+      "image": "modern-c01-l01/diplomatic-delegates.png",
+      "name": "外交の代表",
+      "kind": "group",
+      "identity": "group:diplomatic-delegates",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "british-soldiers",
+      "image": "modern-c01-l02/british-soldiers.png",
+      "name": "イギリス軍",
+      "kind": "group",
+      "identity": "group:british-soldiers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "landowners",
+      "image": "modern-c01-l02/landowners.png",
+      "name": "地主",
+      "kind": "group",
+      "identity": "group:landowners",
+      "description": "国旗や固有本人を付けない19世紀の一般地主として再利用。プロイセン固有のユンカーの絵をロシア領主へ流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "catholic-clergy",
+      "image": "modern-c01-l04/catholic-clergy.png",
+      "name": "カトリックの聖職者",
+      "kind": "group",
+      "identity": "group:catholic-clergy",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "steam-factory",
+      "image": "modern-c01-l01/steam-factory.png",
+      "name": "工業",
+      "kind": "prop",
+      "identity": "prop:steam-factory",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "railway",
+      "image": "modern-c01-l01/railway.png",
+      "name": "鉄道",
+      "kind": "prop",
+      "identity": "prop:railway",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "merchant-cargo",
+      "image": "modern-c01-l01/merchant-cargo.png",
+      "name": "貿易",
+      "kind": "prop",
+      "identity": "prop:merchant-cargo",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "constitution-document",
+      "image": "modern-c01-l01/constitution-document.png",
+      "name": "法律・制度",
+      "kind": "prop",
+      "identity": "prop:constitution-document",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "treaty-document",
+      "image": "modern-c01-l01/treaty-document.png",
+      "name": "条約",
+      "kind": "prop",
+      "identity": "prop:treaty-document",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "tax-ledger",
+      "image": "modern-c01-l01/tax-ledger.png",
+      "name": "負担と支払い",
+      "kind": "prop",
+      "identity": "prop:tax-ledger",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "crown",
+      "image": "modern-c01-l01/crown.png",
+      "name": "皇帝権",
+      "kind": "prop",
+      "identity": "prop:crown",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "calendar",
+      "image": "modern-c01-l01/calendar.png",
+      "name": "年号",
+      "kind": "prop",
+      "identity": "prop:calendar",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "grain-cargo",
+      "image": "modern-c01-l02/grain-cargo.png",
+      "name": "穀物",
+      "kind": "prop",
+      "identity": "prop:grain-cargo",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "field-aid-station",
+      "image": "modern-c01-l04/field-aid-station.png",
+      "name": "救護",
+      "kind": "prop",
+      "identity": "prop:field-aid-station",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    }
+  ],
+  "scenes": [
+    {
+      "sceneId": "modern-c01-l05-p01-001",
+      "title": "今回の見通し：ロシアと東方問題",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "国際政治へ出てくるロシア",
+        "groups": [
+          {
+            "label": "過去の近代化と戦争",
+            "figures": [
+              {
+                "image": "modern-c01-l05/catherine-ii.png",
+                "name": "エカチェリーナ2世",
+                "caption": "説明：18世紀後半の近代化を参照する",
+                "kind": "person",
+                "identity": "person:catherine-ii",
+                "temporalRole": "reference"
+              },
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン1世",
+                "caption": "説明：ナポレオン戦争の背景を参照する",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "国際的な対立",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ロシアとイギリス",
+                "caption": "説明：南下政策が東方問題につながる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "93ページの導入も本文に含め、過去の参照と19世紀の対立を分ける。",
+      "sourcePages": [
+        93
+      ],
+      "htmlBodySha256": "4c8640be88ea847f34fd1767e5f47b0c62bc7c7b311dd2f7c83d5998ea72f0b3",
+      "plainBodySha256": "689e730b5651bbf215a6a19b162b4e29233d440b0a65da19a96f6c4594b7b2ae",
+      "sourceTextSha256": "6343df6dce3e477a0ab08e8c1ded4134d7ccda7069fb76b0b640c86a862f5108"
+    },
+    {
+      "sceneId": "modern-c01-l05-p01-002",
+      "title": "近代化の財源と農奴制",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "近代化の財源を農奴に求める",
+        "groups": [
+          {
+            "label": "過去の近代化",
+            "figures": [
+              {
+                "image": "modern-c01-l05/peter-i.png",
+                "name": "ピョートル1世",
+                "caption": "説明：近代化を進めた皇帝",
+                "kind": "person",
+                "identity": "person:peter-i",
+                "temporalRole": "reference"
+              },
+              {
+                "image": "modern-c01-l05/catherine-ii.png",
+                "name": "エカチェリーナ2世",
+                "caption": "説明：近代化を進めた女性皇帝",
+                "kind": "person",
+                "identity": "person:catherine-ii",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "農奴制の強化",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農奴として働く農民",
+                "caption": "説明：皇帝権を支える負担を負う",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "農民の服は一般役割として用い、農奴という地位は本文と説明で示す。",
+      "sourcePages": [
+        94
+      ],
+      "htmlBodySha256": "00537bc454e210cd068d14982fccc7687afdba6e4651340700431a180fae322e",
+      "plainBodySha256": "0b46b48d62d3784be6be2b1935faca9a10856f2354162237ad9548c6342c8ae7",
+      "sourceTextSha256": "adc19171e8ab698d11f0a2d4cfc456bdba49de7cb303a08a782ce49efaeb19cf"
+    },
+    {
+      "sceneId": "modern-c01-l05-p01-003",
+      "title": "農民の穀物とツァーリズム",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "穀物の輸出から皇帝権へ",
+        "groups": [
+          {
+            "label": "負担を負う人びと",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農民",
+                "caption": "説明：農民から穀物を取り立てる",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/grain-cargo.png",
+                "name": "穀物",
+                "caption": "説明：輸出して財源を得る",
+                "kind": "prop",
+                "identity": "prop:grain-cargo",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "強くなる皇帝権",
+            "figures": [
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "ツァーリズム",
+                "caption": "説明：皇帝の専制政治を支える",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "財源の関係を模式欄で示し、原文にない輸出先と航路を補わない。",
+      "sourcePages": [
+        94
+      ],
+      "htmlBodySha256": "a93e087abee271a643dce8a26a42d8f4d93293b56528b22da0aeb812cf5b5ca1",
+      "plainBodySha256": "ac10698e14e30bdf48fc58954db105aa6f9050957af101355dad85634d1a16ee",
+      "sourceTextSha256": "e2b879127edb2f37cafb447e74ea564fbaab85ee3c466bd63b99f055f300bdcf"
+    },
+    {
+      "sceneId": "modern-c01-l05-p01-004",
+      "title": "土地に縛られる農奴と工業化",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "農奴制が工業化を妨げる",
+        "groups": [
+          {
+            "label": "土地に縛られる農民",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農奴",
+                "caption": "説明：自由に移動できない",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "育たない工業の担い手",
+            "figures": [
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "労働者",
+                "caption": "説明：工業を支える働き手が不足する",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "資本家",
+                "caption": "説明：工場を経営する層が育っていない",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "工業化の困難を説明し、実際の移住の動きにしない。",
+      "sourcePages": [
+        94
+      ],
+      "htmlBodySha256": "4999fa508719d394749262850eee527a8a2cc93246009e56bd94ac4a723ba96e",
+      "plainBodySha256": "68ad18086ae459b2cda2bee27d5afa617b0bb0c9b23ca2e4d9e6d2d87ec6e1e0",
+      "sourceTextSha256": "09a3ecc2961ccf1f306392bca42fcbc265ed3277149c30da71af1503b602b4d2"
+    },
+    {
+      "sceneId": "modern-c01-l05-p01-005",
+      "title": "ナポレオン戦争とロシアの地位",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ナポレオンとの戦争と国際的地位",
+        "groups": [
+          {
+            "label": "過去の戦争",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン",
+                "caption": "説明：アウステルリッツとロシア遠征を参照する",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "ロシアの地位",
+            "figures": [
+              {
+                "image": "modern-c01-l01/russian-soldiers.png",
+                "name": "ロシア軍",
+                "caption": "説明：祖国を守る意識と勝利",
+                "kind": "group",
+                "identity": "group:russian-soldiers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ヨーロッパの5大国",
+                "caption": "説明：国際的地位が上がる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文の勝利の説明を保持し、本文にない戦況・補給や進路を追加しない。",
+      "sourcePages": [
+        94
+      ],
+      "htmlBodySha256": "6eb9718e8607b5fe7764cfe9565674a8dc34ffc3de1f69de57679bd2c6c919af",
+      "plainBodySha256": "d585db209f17a870ddcfcd2d720bd4d818dcc5a1592c68c5e3c6f03259359c45",
+      "sourceTextSha256": "3cf53efe2d0e54fcb5e1227c55d7e9eddc9f6d27f65e5516de6ca04643d54b86"
+    },
+    {
+      "sceneId": "modern-c01-l05-p01-006",
+      "title": "アレクサンドル1世と神聖同盟",
+      "mapActors": [
+        {
+          "name": "アレクサンドル1世",
+          "image": "modern-c01-l01/alexander-i.png",
+          "kind": "person",
+          "identity": "person:alexander-i",
+          "at": [
+            16.37,
+            48.21
+          ],
+          "bubble": "説明：ウィーン会議で保守反動体制の中心となる"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "保守反動体制と神聖同盟",
+        "groups": [
+          {
+            "label": "協力する外交官",
+            "figures": [
+              {
+                "image": "modern-c01-l01/metternich.png",
+                "name": "メッテルニヒ",
+                "caption": "説明：保守反動体制の中心となる",
+                "kind": "person",
+                "identity": "person:metternich",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "同盟の構想",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "神聖同盟",
+                "caption": "説明：自由主義や国民主義を抑えようとする",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "会議の本人と制度の構想を分け、同時点の本人を二重表示しない。",
+      "sourcePages": [
+        94
+      ],
+      "htmlBodySha256": "b983332728da2c59ea7250c291868c658065bd9db41f184b29f8a4167180688c",
+      "plainBodySha256": "f1b4049fe1d55c3d3b92cbc2acea1c412b3d6e39a9d115d0e379150a5bde7d11",
+      "sourceTextSha256": "d0c72f44b1b20adb9a221eec78648da29f597e5689084bd464ebdf873a306060"
+    },
+    {
+      "sceneId": "modern-c01-l05-p01-007",
+      "title": "デカブリストの乱とニコライ1世",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "皇帝の死をきっかけに反乱へ",
+        "groups": [
+          {
+            "label": "反乱の参加者",
+            "figures": [
+              {
+                "image": "modern-c01-l01/young-russian-officers.png",
+                "name": "デカブリスト",
+                "caption": "説明：新しい時代を求めて反乱する",
+                "kind": "group",
+                "identity": "group:young-russian-officers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "鎮圧する新皇帝",
+            "figures": [
+              {
+                "image": "modern-c01-l01/nicholas-i.png",
+                "name": "ニコライ1世",
+                "caption": "説明：デカブリストの乱を鎮圧する",
+                "kind": "person",
+                "identity": "person:nicholas-i",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "第1回の同じ反乱の一般参加者の絵を使い、個人を同定しない。",
+      "sourcePages": [
+        94
+      ],
+      "htmlBodySha256": "41843a8ee1e8ef8f7f29f936a82982c0e089d2aabd200cc07a5f080cb4f24aa4",
+      "plainBodySha256": "5f32027265df63d4d387d11a04472b4c13c7d0296edf5b9c18d401255a73f543",
+      "sourceTextSha256": "ed911342cbb110aa97cf544f9392d1f18d80d369df9202fbc87a86b67fd191b5"
+    },
+    {
+      "sceneId": "modern-c01-l05-p01-008",
+      "title": "ニコライ1世とポーランド反乱",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ポーランドの反乱を厳しく抑える",
+        "groups": [
+          {
+            "label": "命令する皇帝",
+            "figures": [
+              {
+                "image": "modern-c01-l01/nicholas-i.png",
+                "name": "ニコライ1世",
+                "caption": "説明：反乱の徹底的な弾圧を命じる",
+                "kind": "person",
+                "identity": "person:nicholas-i",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/alexander-i.png",
+                "name": "アレクサンドル1世",
+                "caption": "説明：前皇帝から厳しい支配が続くことを参照する",
+                "kind": "person",
+                "identity": "person:alexander-i",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "反乱と鎮圧",
+            "figures": [
+              {
+                "image": "modern-c01-l01/revolutionary-citizens.png",
+                "name": "ポーランドの反乱",
+                "caption": "説明：七月革命の影響で反乱が起きる",
+                "kind": "group",
+                "identity": "group:revolutionary-citizens",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/russian-soldiers.png",
+                "name": "ロシア軍",
+                "caption": "説明：支配下の反乱を鎮圧する",
+                "kind": "group",
+                "identity": "group:russian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "他の国への出兵の説明と、国内支配下の鎮圧を分ける。",
+      "sourcePages": [
+        94,
+        95
+      ],
+      "htmlBodySha256": "b128651ec710f608f2a7ea9c372554546b5cc56e6b7a52e93bf0ef8020169b62",
+      "plainBodySha256": "ffbb5547eb4e997473b10134ba76959c531e928c23ed93cb9fac23d21d1559b8",
+      "sourceTextSha256": "14914ee90cc1057b3756a7bb35f84f6eb18bd03813816f820feb407e0c6dcceb"
+    },
+    {
+      "sceneId": "modern-c01-l05-p01-009",
+      "title": "ハンガリーの鎮圧とヨーロッパの憲兵",
+      "mapActors": [
+        {
+          "name": "ハンガリーへ協力するロシア軍",
+          "image": "modern-c01-l01/russian-soldiers.png",
+          "kind": "group",
+          "identity": "group:russian-soldiers",
+          "at": [
+            19,
+            47
+          ],
+          "bubble": "説明：ハンガリーの民族運動の鎮圧に協力する",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ヨーロッパの憲兵と呼ばれるロシア",
+        "groups": [
+          {
+            "label": "反動体制の中心",
+            "figures": [
+              {
+                "image": "modern-c01-l01/nicholas-i.png",
+                "name": "ニコライ1世",
+                "caption": "説明：他国の民族運動も抑える",
+                "kind": "person",
+                "identity": "person:nicholas-i",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "失脚後の参照",
+            "figures": [
+              {
+                "image": "modern-c01-l01/metternich.png",
+                "name": "メッテルニヒ",
+                "caption": "説明：失脚後はニコライ1世が中心になる",
+                "kind": "person",
+                "identity": "person:metternich",
+                "temporalRole": "reference"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "実際に行った外国領への鎮圧の協力だけを動かす。",
+      "sourcePages": [
+        94,
+        95
+      ],
+      "htmlBodySha256": "0cd010fb9b6547d829e129469308725cf75cdc21217626a925c3d8ba49d2db8e",
+      "plainBodySha256": "833ef8958a49bbcb8a1e9c75866b55fc65d83ee81f5c9de7158d3dfaca30c701",
+      "sourceTextSha256": "db3dd776fbe04c79bcec500d2bf470c7273c9d6ac0d156a76f16888eaff99cc6"
+    },
+    {
+      "sceneId": "modern-c01-l05-p01-010",
+      "title": "農奴制を基盤とする国内支配",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "国内でも厳しい支配が続く",
+        "groups": [
+          {
+            "label": "支配の基盤",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農奴",
+                "caption": "説明：農奴制を基盤にした体制",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "皇帝権の強化",
+            "figures": [
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "専制政治",
+                "caption": "説明：反対する人びとを抑えて強くなる",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "皇帝名がない本文に特定の本人を補わず制度として示す。",
+      "sourcePages": [
+        95
+      ],
+      "htmlBodySha256": "ed21e25cae5004e80b0963c166e1fd13a6f175918ba8c6b8e66cf55447dc120f",
+      "plainBodySha256": "1256c58a6a8e06b335b4c6702d3925b3697c9ec9594c23e06f3e903c0c4c9ed9",
+      "sourceTextSha256": "0db3dfc3e2a7e0fcbdff17079af2ae6c2108a4e5d93bf699e93faa9ff2f64224"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-001",
+      "title": "東方問題へ：ロシアの南下政策",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "黒海への進出から南下政策へ",
+        "groups": [
+          {
+            "label": "過去の皇帝",
+            "figures": [
+              {
+                "image": "modern-c01-l05/peter-i.png",
+                "name": "ピョートル1世",
+                "caption": "説明：アゾフ海へ進出する",
+                "kind": "person",
+                "identity": "person:peter-i",
+                "temporalRole": "reference"
+              },
+              {
+                "image": "modern-c01-l05/catherine-ii.png",
+                "name": "エカチェリーナ2世",
+                "caption": "説明：クリミアを奪い黒海の支配権を得る",
+                "kind": "person",
+                "identity": "person:catherine-ii",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "進出の口実",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ギリシア正教徒の保護権",
+                "caption": "説明：オスマン帝国領へ進出しようとする",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "過去の皇帝を現在の戦争の当事者として動かさない。",
+      "sourcePages": [
+        95,
+        96
+      ],
+      "htmlBodySha256": "ea9d26dd40b895532db485d5aae36e867fb93d54dfaa3495e02830f4116a92fb",
+      "plainBodySha256": "83359a795976805a973b77b1ae4ad59bb8a6444430b8ba52b2d3ed9548171657",
+      "sourceTextSha256": "f607a23fc0b7de2918c41f1f2602be646626897450bac70a1daaf9141b631370"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-002",
+      "title": "南下の目的と地中海への進出構想",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "南下の目的は港だけではない",
+        "groups": [
+          {
+            "label": "国内の問題",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ツァーリズムの矛盾",
+                "caption": "説明：国内の矛盾を対外遠征でごまかそうとする",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "対外的な構想",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "地中海への進出",
+                "caption": "説明：イギリスとの対立につながる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "進出の目的・構想を実行済みの艦隊航行として描かない。",
+      "sourcePages": [
+        95,
+        96
+      ],
+      "htmlBodySha256": "05649d12553f4ae560cde9f16f12e9f2035630d08a011a6abcdc132a28f4a742",
+      "plainBodySha256": "a44560c0addf86ad2d0630cc9cd1cbde78c15fad9f18542e43a05332d23826d5",
+      "sourceTextSha256": "862cf31ac79db6df723d00490203a3b63c0b8c9005f7b098e9940e2214f38b11"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-003",
+      "title": "イギリスのインドへの交通路",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "インドへの交通路を守る",
+        "groups": [
+          {
+            "label": "イギリスの交通路",
+            "figures": [
+              {
+                "image": "modern-c01-l01/merchant-cargo.png",
+                "name": "地中海・エジプト・紅海・インド洋",
+                "caption": "説明：海の航路とエジプトを経由する関係。運河が開通済みの図ではない",
+                "kind": "prop",
+                "identity": "prop:merchant-cargo",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "過去の遠征の参照",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン",
+                "caption": "説明：エジプト遠征の狙いを参照する",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "reference"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "エジプトを経由する海路・陸上の関係を静的に示し、開通前のスエズ運河航行を作らない。",
+      "sourcePages": [
+        96
+      ],
+      "htmlBodySha256": "017864f277cc672ca86855d6adb3cbe8e61598e7eaaa265482c6721023eefaa0",
+      "plainBodySha256": "4056b6ba647b260355a2c48687cc9b98229f413b3c12b44e81d9ba0848396c9b",
+      "sourceTextSha256": "4b9dd23c5aaf5efee7c445cd0bcddbec3ec1d18a9b3748d94a655f9cb432c8bd"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-004",
+      "title": "インド防衛とグレートゲーム",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "南下とインド防衛が衝突する",
+        "groups": [
+          {
+            "label": "ロシアの構想",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "黒海・地中海",
+                "caption": "説明：海へ進出しようとする",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "中央アジア・イラン",
+                "caption": "説明：インドへの脅威と受け取られる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "イギリスの判断",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "インド防衛",
+                "caption": "説明：南下を阻止したい",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "危険だと受け取った進出の構想は静的な説明とする。",
+      "sourcePages": [
+        96
+      ],
+      "htmlBodySha256": "2af1b161b1b9543cd9bf5e94c648cc1f36d6456bde8f48dabad987d90263c125",
+      "plainBodySha256": "a83349bc1f1d1838173f70014d3e770807443cf86884fa4143191775ac7a0da8",
+      "sourceTextSha256": "a4432a484eee20a94754e2206a86f3d5199413798c8d38475a33b6ded2b46c37"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-005",
+      "title": "オスマン帝国の衰退と民族運動",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "帝国の衰退と民族運動",
+        "groups": [
+          {
+            "label": "衰退する帝国",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "オスマン帝国",
+                "caption": "説明：領土をめぐり列強が進出する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "独立を目指す人びと",
+            "figures": [
+              {
+                "image": "modern-c01-l01/revolutionary-citizens.png",
+                "name": "バルカン半島の民族運動",
+                "caption": "説明：独立を目指す運動が始まる",
+                "kind": "group",
+                "identity": "group:revolutionary-citizens",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン",
+                "caption": "説明：ナポレオン戦争の影響という参照",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "reference"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "一般集団の外見で宗教や民族を固定せず、原文の運動の役割を説明する。",
+      "sourcePages": [
+        96
+      ],
+      "htmlBodySha256": "8be109ba214eeb3de1f80f65da08b26f9a4c7bd92e1705bd96276ec0d2e4e565",
+      "plainBodySha256": "7afa076c2a1d9861a61f21da32bc7ad848b735a84bc1bf075f02b57a7fda79a8",
+      "sourceTextSha256": "b679be87f3ad3c884ffae42c442d2a606fabbd3526fe6c8bf652be6ad9a3ee71"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-006",
+      "title": "信仰の共同体とオーストリア・ロシア",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "信仰の共同体と保護の口実",
+        "groups": [
+          {
+            "label": "共同体の信仰",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ミッレット",
+                "caption": "説明：信仰を守る独自の共同体",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "列強の介入",
+            "figures": [
+              {
+                "image": "modern-c01-l04/catholic-clergy.png",
+                "name": "カトリック教徒",
+                "caption": "説明：オーストリアが保護を掲げる",
+                "kind": "group",
+                "identity": "group:catholic-clergy",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/revolutionary-citizens.png",
+                "name": "ギリシア正教徒",
+                "caption": "説明：ロシアが保護を掲げる",
+                "kind": "group",
+                "identity": "group:revolutionary-citizens",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "カトリック聖職者はカトリックの説明だけに使い、ギリシア正教の聖職者の代用にしない。",
+      "sourcePages": [
+        96,
+        97
+      ],
+      "htmlBodySha256": "d9502e7e5e939a6848a4afe83d46335509001049fad9e8a9251910764e3f7586",
+      "plainBodySha256": "1b284ec131a55a543ea070ab0cee6da6cac081ce452ca9d77221ddf4df56fbd1",
+      "sourceTextSha256": "1b0a1235bc54cc74939e6b43fc3332e040dab5b31b771ac863ba5b385b8907c1"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-007",
+      "title": "イギリスとフランスも介入する",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ロシアを抑えたい国々も介入する",
+        "groups": [
+          {
+            "label": "イギリス",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イギリス",
+                "caption": "説明：ロシアの勢力拡大を抑えたい",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "フランス",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "フランス",
+                "caption": "説明：イギリスだけに得をさせたくない",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "介入の意図を実際の出兵として動かさない。",
+      "sourcePages": [
+        96,
+        97
+      ],
+      "htmlBodySha256": "84806376145e1e5ec3cfb93cbe10539de3f41ad586fe7e16f61e43d5ebc6deba",
+      "plainBodySha256": "89d8385457c9c3715b026d3bdabf66cb8782e3b4daae8008c4750a194088be1c",
+      "sourceTextSha256": "25f6eed669778811332e51c5d60e26526a943f4434102f11d5a3f3541d33785f"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-008",
+      "title": "東方問題という国際問題",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "東方問題の意味と範囲",
+        "groups": [
+          {
+            "label": "狭い意味",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "エジプト＝トルコ戦争",
+                "caption": "説明：狭い意味ではこの戦争を指す場合がある",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "広い意味",
+            "figures": [
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "ギリシア独立戦争からベルリン会議まで",
+                "caption": "説明：一般的には長い期間の列強の対立",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文の概念を説明し、同じ時点に起きた一つの戦争としない。",
+      "sourcePages": [
+        97
+      ],
+      "htmlBodySha256": "e6a1f71ec0bb1c957a1cdd61fc877e4ead78ef8d14baa5a5536dcef24231d656",
+      "plainBodySha256": "62ee098d2027858f47baf0cbef4d2b5c539badd96139574450eb6c60583b6bb9",
+      "sourceTextSha256": "c0bb4d8769824189071433b68a31f11bbcc880ed259c741a2eca55cf04c399f9"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-009",
+      "title": "ムハンマド＝アリーとギリシア派兵",
+      "mapActors": [
+        {
+          "name": "エジプトの軍",
+          "image": "modern-c01-l01/egyptian-soldiers.png",
+          "kind": "group",
+          "identity": "group:egyptian-soldiers",
+          "at": [
+            23.5,
+            39
+          ],
+          "bubble": "説明：ギリシアへ派遣され独立運動を抑えようとする",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "オスマン帝国の命令とエジプトの協力",
+        "groups": [
+          {
+            "label": "エジプトの統治者",
+            "figures": [
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：シリアの割譲と引き換えに軍を派遣する",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "独立を求める側と抑える側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/greek-rebels.png",
+                "name": "ギリシアの独立運動",
+                "caption": "説明：独立を求める",
+                "kind": "group",
+                "identity": "group:greek-rebels",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/ottoman-soldiers.png",
+                "name": "オスマン帝国軍",
+                "caption": "説明：独立を抑えたい",
+                "kind": "group",
+                "identity": "group:ottoman-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "実際の派兵を概略で動かし、指導者本人が渡航したとは描かない。",
+      "sourcePages": [
+        97
+      ],
+      "htmlBodySha256": "996f16b5f06a5a4e82662a8cc683eaaa697ee09bf58672a2aaa4eefac10f73ef",
+      "plainBodySha256": "d64a7f84577df92267d19a09857513b405715d046f5449e601abf0192ad6905a",
+      "sourceTextSha256": "954ede456437acda4d94480239cc9fa9af1ff64461d67f3b2b67430ecba7dd49"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-010",
+      "title": "海峡を狙うロシアの参戦",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ロシアもギリシア側へ参戦する",
+        "groups": [
+          {
+            "label": "参戦するロシア",
+            "figures": [
+              {
+                "image": "modern-c01-l01/russian-soldiers.png",
+                "name": "ロシア軍",
+                "caption": "説明：ギリシア側で参戦する",
+                "kind": "group",
+                "identity": "group:russian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "進出したい海",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ダーダネルス・ボスフォラス海峡",
+                "caption": "説明：海峡の通過と特権を狙う",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "地中海への進出",
+                "caption": "説明：構想であり自由な艦隊航行が実現済みとは描かない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "参戦の陣営と海峡を狙う意図を分け、原文にないロシア軍の上陸港を補わない。",
+      "sourcePages": [
+        97
+      ],
+      "htmlBodySha256": "a5f99cd8318170b071b8d20b2763543f1c68240a08e5f6c5bf8aa3b945114040",
+      "plainBodySha256": "fed066d5071355e820986764963dfd6577c838a0f52677c9fc1bda5073dd8cfe",
+      "sourceTextSha256": "3c1efe9dfc081596fd9725707710864c5f9be23820bdf8ec38cb152d69b0645b"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-011",
+      "title": "イギリスがギリシア側へ参戦する理由",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ロシアと同じ側から抑え込む",
+        "groups": [
+          {
+            "label": "ギリシア側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/greek-rebels.png",
+                "name": "ギリシアの独立",
+                "caption": "説明：独立を求める側に支援が集まる",
+                "kind": "group",
+                "identity": "group:greek-rebels",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "イギリスの選択",
+            "figures": [
+              {
+                "image": "modern-c01-l02/british-soldiers.png",
+                "name": "イギリス",
+                "caption": "説明：独立を潰さずロシアを抑えるため同じ側で参戦する",
+                "kind": "group",
+                "identity": "group:british-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文の勝敗の語りを保持し、追加図に別の勝因を創作しない。",
+      "sourcePages": [
+        97,
+        98
+      ],
+      "htmlBodySha256": "2e224870de3e2431eca3e36937572323d287ff84dcf6e3efdfabc7b7ae77f50e",
+      "plainBodySha256": "af6981583ed3d11e7ce9ba84fbf7a7f8d47d516e17c85e6c1460bfdba12b13c2",
+      "sourceTextSha256": "783098ed0317fb0b40fd5915aca362eefb61edcf5d18860b88ce1704aa295470"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-012",
+      "title": "アドリアノープル条約と自由航行権",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ロシアが条約で得た権利",
+        "groups": [
+          {
+            "label": "独立と領土",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ギリシアの独立",
+                "caption": "説明：オスマン帝国が承認する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "黒海北岸",
+                "caption": "説明：ロシアが領土を獲得する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "航行の権利",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "黒海とダーダネルス・ボスフォラス海峡",
+                "caption": "説明：自由航行権の獲得。実際の艦隊通過ではない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "アドリアノープル条約の名だけで締結都市への訪問を追加しない。",
+      "sourcePages": [
+        98
+      ],
+      "htmlBodySha256": "a0903a9316979daa7cc7056edc3b893d103f8857044a132215e5fb222b2e1065",
+      "plainBodySha256": "27427dc474ab1bb74523845e71bfa4105a3979b743c464076f02ec94bf7d6fe5",
+      "sourceTextSha256": "038dff833ed67fcbe85642a6d86a5640e6f880c7b3b67c79ed5b050929d8632c"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-013",
+      "title": "シリアをめぐる約束の食い違い",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "シリアをあげる条件が食い違う",
+        "groups": [
+          {
+            "label": "オスマン帝国の理解",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "オスマン帝国",
+                "caption": "説明：勝った場合にシリアを渡すという理解",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "エジプトの理解",
+            "figures": [
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：参戦すればシリアをもらえるという理解",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "約束の解釈を比較し、二つの条件を同じものにまとめない。",
+      "sourcePages": [
+        98
+      ],
+      "htmlBodySha256": "782dcdcbfda48387efdb3a8d636a4763d343a9fb3c3eeffc5c83d4e9f8e32766",
+      "plainBodySha256": "3879ac6f10db9f20c26d09ac2bc8b4dc98a2b78342a00ef8aee480ef8c733535",
+      "sourceTextSha256": "f61adcd3e90239a8bf96d5e92a53449939f1298dfd449fae04e6df11a744ef74"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-014",
+      "title": "ロシアとフランスの支援先",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "前の戦争から支援先を変える",
+        "groups": [
+          {
+            "label": "ロシア",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ロシアとオスマン帝国",
+                "caption": "説明：オスマン帝国を支援して何か得たい",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：以前の主張への参照。ロシアが真似したのかという本文の語り",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "フランス",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "フランスとエジプト",
+                "caption": "説明：エジプトへの野心から支援する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "支援の関係は静的な説明とし、軍を派遣したと補わない。",
+      "sourcePages": [
+        98
+      ],
+      "htmlBodySha256": "8da26ef892fc8a5505253554380c7510e9072e860f9c6fe9519e5db8846c9c5c",
+      "plainBodySha256": "3df02722dfaf4e37fcfa18a9033a338313a2acb898ffc9b0c89c33c7b2132cdd",
+      "sourceTextSha256": "ebcdb6cc8aa838eb510fc153a1ffa8be18809484a8802486d2473ba579aaf83c"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-015",
+      "title": "ボスフォラス上陸と英仏の圧力",
+      "mapActors": [
+        {
+          "name": "ボスフォラスに上陸するロシア軍",
+          "image": "modern-c01-l01/russian-soldiers.png",
+          "kind": "group",
+          "identity": "group:russian-soldiers",
+          "at": [
+            29.08,
+            41.12
+          ],
+          "bubble": "説明：ボスフォラス海峡に上陸する",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "上陸を見て英仏が圧力をかける",
+        "groups": [
+          {
+            "label": "英仏の反応",
+            "figures": [
+              {
+                "image": "modern-c01-l01/diplomatic-delegates.png",
+                "name": "イギリスとフランス",
+                "caption": "説明：オスマン帝国へ圧力をかける",
+                "kind": "group",
+                "identity": "group:diplomatic-delegates",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "和解する二者",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "オスマン帝国とエジプト",
+                "caption": "説明：圧力を受けて和解する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文が明記する上陸だけを動かし、後の独占航行権の取得と区別する。",
+      "sourcePages": [
+        98
+      ],
+      "htmlBodySha256": "582c7115b30ef30485f9a59d959cdfa051709cb7d30226579b31f238c4bebc32",
+      "plainBodySha256": "7dc5a3e36aa8586f7dda16a2694048150ab856c6daf42e439898463e6696ec47",
+      "sourceTextSha256": "38ae6a43bbf5651b064dfb4b6ba3c5d1d2549352ec877bb36bd66eab2e75e1ab"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-016",
+      "title": "エジプトの勝利とシリア領有権",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "エジプトの勝利とオスマン帝国の不満",
+        "groups": [
+          {
+            "label": "領土の権利を得る側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：シリア領有権が認められる",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "不満が残る側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "オスマン帝国",
+                "caption": "説明：英仏の圧力に不満を持つ",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "戦争の勝敗とその後の外交の利得を分ける。",
+      "sourcePages": [
+        98,
+        99
+      ],
+      "htmlBodySha256": "52ff72616888da4bb602d1be92957e60dbba14852c2b2374c33308750694881d",
+      "plainBodySha256": "b5654bd7347266019248156289dc77c6ac43d333ffd723ad57a9a3c07e7ca1ab",
+      "sourceTextSha256": "c3b04989b29cc8a24c031734fbe2e6a454806c9d3d00441e82f36f116c673b03"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-017",
+      "title": "相互援助条約と独占航行権",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ロシアが相互援助条約を結ぶ",
+        "groups": [
+          {
+            "label": "二国の関係",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ロシアとオスマン帝国",
+                "caption": "説明：相互援助条約を結ぶ",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "秘密条項の権利",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ダーダネルス・ボスフォラス海峡",
+                "caption": "説明：ロシア軍艦の独占航行権。実際の航行を表示するものではない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "権利の取得を艦隊が通過する動きにしない。原文の説明を校訂しない。",
+      "sourcePages": [
+        98,
+        99
+      ],
+      "htmlBodySha256": "c1136eb34fcbfb8f9dacbb00de03a6bdd068791a57792d2699c19767a2f7e7d0",
+      "plainBodySha256": "06431c1626d5f5f2240a70da228b1ac33eb22f0cde6f6ded58d860f39ae6e1d8",
+      "sourceTextSha256": "0ca68e7c996b95bcf351fc466a216907c91169c822b2dfac1ff792bf47073c72"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-018",
+      "title": "エジプト・シリアの世襲権を要求",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "世襲権をめぐって再び対立する",
+        "groups": [
+          {
+            "label": "エジプトの要求",
+            "figures": [
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：エジプトとシリアの世襲権を要求する",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "オスマン帝国の立場",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "オスマン帝国",
+                "caption": "説明：その要求を認めない",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "領有権と世襲権を別の争点として示す。",
+      "sourcePages": [
+        99
+      ],
+      "htmlBodySha256": "07a2f325111b0f830e350566d3addd2f789fb0f8357d651c88b63f2f3c85a4fd",
+      "plainBodySha256": "fb37f2798dac7282c9aa0b2b471d4a433cc792051f46bf4dda619cd8e522bb9c",
+      "sourceTextSha256": "dbde07bf058d1926ca2ab55ade1dd95f23539bab4d40ab2551a95285312772aa"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-019",
+      "title": "第2次戦争で列強の思惑が対立",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "利権と南下をめぐる思惑",
+        "groups": [
+          {
+            "label": "フランスとロシア",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "フランス",
+                "caption": "説明：エジプトへ接近する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ロシア",
+                "caption": "説明：オスマン帝国を支援する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "イギリス",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "イギリス",
+                "caption": "説明：どちらにも得をさせたくない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "第2次戦争での意図を、表の左右だけから連合へ読み替えない。",
+      "sourcePages": [
+        99,
+        100
+      ],
+      "htmlBodySha256": "2b8d7e9495934a8091c621f37c4258f44ddc24e5c034157cb0921c0daa58237a",
+      "plainBodySha256": "8cfcb52813375dc2905cdc22d9a6c61f3f668807b4907f4778f6e1367bc18fac",
+      "sourceTextSha256": "a7919ae3bb4760a877a2390eee2e1f67ce708126d1ef4cef7e5a883135bb7f2f"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-020",
+      "title": "イギリスが4国協力を組む",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "4国協力で単独行動を抑える",
+        "groups": [
+          {
+            "label": "イギリスの提案",
+            "figures": [
+              {
+                "image": "modern-c01-l01/diplomatic-delegates.png",
+                "name": "英・露・墺・普の4国",
+                "caption": "説明：協力してオスマン帝国を支援する",
+                "kind": "group",
+                "identity": "group:diplomatic-delegates",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "本音の対立",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イギリスとロシア",
+                "caption": "説明：協力しながら互いを警戒する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "外交上の協力と実際の軍の具体的な進路を混ぜない。",
+      "sourcePages": [
+        99,
+        100
+      ],
+      "htmlBodySha256": "f3f4af108b03312e164afa22588fd51ae66c5afae194d8e841eaf598cb0846f7",
+      "plainBodySha256": "341cd96ba53a28bec4eb5ec942a7b1e6606c7e3b0032880c26360b3d4cb85840",
+      "sourceTextSha256": "6eec786810f9302499c8725fbc612748eea38c65e2b42e31f76bbab721e93bf7"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-021",
+      "title": "4国の勝利とロンドン会議",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "4国の勝利後に会議を開く",
+        "groups": [
+          {
+            "label": "4国の協力",
+            "figures": [
+              {
+                "image": "modern-c01-l01/diplomatic-delegates.png",
+                "name": "オスマン帝国への支援",
+                "caption": "説明：エジプトを破る",
+                "kind": "group",
+                "identity": "group:diplomatic-delegates",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "イギリスの外交",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ロンドン会議",
+                "caption": "説明：フランスを抑えて会議を開く",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：会議の決定の対象となる統治者。出席を示す絵ではない",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "戦争の勝敗と会議の外交を分け、原文にない部隊の進路を作らない。",
+      "sourcePages": [
+        100
+      ],
+      "htmlBodySha256": "c9eae6bbae54f2098ae984af7e7459cde169e1f5f3a42bd08841531fd937ca12",
+      "plainBodySha256": "9ffc578184745b627665cd0ba2641ad2b33183bd12a5106857de898443b989ba",
+      "sourceTextSha256": "74ab06a537aa507b115e2b038f7f3fe9e573037b146b13cbb52aad67e315451c"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-022",
+      "title": "宗主下の世襲権とシリアの放棄",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "宗主下での世襲権とシリアの放棄",
+        "groups": [
+          {
+            "label": "認められた権利",
+            "figures": [
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：オスマン帝国宗主下でエジプト・スーダンの世襲権を得る",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "放棄するもの",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "シリア領有権",
+                "caption": "説明：シリアの領有権を放棄する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "宗主下であることを残し、正式な独立国家への即時の変更としない。",
+      "sourcePages": [
+        100
+      ],
+      "htmlBodySha256": "ed469cdbaa72cd94bb479578dbebbd4693fd1f3cd6947ba94883115be75ac1e3",
+      "plainBodySha256": "f2aa5e606e1e1f2ff57546c7c450996b09802567ddae370d3b94302dc969a38d",
+      "sourceTextSha256": "09910c6c7f4fc0838c5fd3355492abdd3d0aba2b227c1a3e1a0505723196baae"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-023",
+      "title": "外国軍艦の海峡通過を禁止する",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "あらゆる外国軍艦の通過を禁止する",
+        "groups": [
+          {
+            "label": "対象となる外国軍艦",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ダーダネルス・ボスフォラス海峡",
+                "caption": "説明：外国軍艦の通過を禁止する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "抑えられる進出",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ロシアとフランス",
+                "caption": "説明：ロシアの南下を抑える",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "通過禁止の制度を、実際の艦隊の衝突や航行の動きにしない。",
+      "sourcePages": [
+        100
+      ],
+      "htmlBodySha256": "70ebd04c28178b44fdad532879a228c8be3762437465890802762ee307653800",
+      "plainBodySha256": "ded39b05c516f91e53ea05b5c4da28d89ae5abc4b9562674ec1404fe29ee8c0a",
+      "sourceTextSha256": "9ec4d05206476408c82c897d7f10c9e97ec2653079abb4e86e0dd7b28f78dfb9"
+    },
+    {
+      "sceneId": "modern-c01-l05-p02-024",
+      "title": "海峡協定とパーマストン外交",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "フランスも加わる海峡協定",
+        "groups": [
+          {
+            "label": "外交の結果",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "海峡協定",
+                "caption": "説明：フランスを加え、相互援助条約を破棄する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "英国外交の呼び名",
+            "figures": [
+              {
+                "image": "modern-c01-l05/palmerston.png",
+                "name": "パーマストン",
+                "caption": "説明：外務大臣の名からパーマストン外交の勝利と呼ばれる",
+                "kind": "person",
+                "identity": "person:palmerston",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "大臣の現地訪問が本文にないため本人は模式欄に置く。",
+      "sourcePages": [
+        100
+      ],
+      "htmlBodySha256": "5439d42bcceb65661d80aef1d0d8e7e2d13abad24438c2622341e5db38928178",
+      "plainBodySha256": "45bfcead0fe83d337cc7675d858565a3ba5f48fa9ad0231d0094d49c4d711991",
+      "sourceTextSha256": "e10ccb198cf4638f68f2321688f05c0af77d067eed55fe06867426156dcc356a"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-001",
+      "title": "クリミア戦争への背景",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "挫折後も進出の機会を待つ",
+        "groups": [
+          {
+            "label": "ロシアの状況",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "南下政策",
+                "caption": "説明：エジプト＝トルコ戦争で挫折する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "次の戦争",
+            "figures": [
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "クリミア戦争",
+                "caption": "説明：勝てるはずだと思った戦争が別の結果になる",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "開戦の前の期待を、すでに成功した領土拡大としない。",
+      "sourcePages": [
+        102
+      ],
+      "htmlBodySha256": "47f4433f6b679f927268afda27e95a6f5e77fbbdca4aac2b711e6f3f3d0ba62f",
+      "plainBodySha256": "d7f382afa42484b249ffb67219a5a2cf65a555354ad6bc04bf8d9a327c27e8f8",
+      "sourceTextSha256": "42008882744f97e31fc4a223c95aba61b11afe69aac731e0033ede00a056e24a"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-002",
+      "title": "イェルサレムと三つの宗教",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "イェルサレムの聖地と帝国の領土",
+        "groups": [
+          {
+            "label": "三つの宗教",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "キリスト教・イスラーム教・ユダヤ教",
+                "caption": "説明：同じ都市に三つの宗教の聖地がある",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "領土の支配",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "オスマン帝国",
+                "caption": "説明：領土と聖地の管理権を区別する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "宗教ごとの聖地と都市の領土を区別して説明する。",
+      "sourcePages": [
+        102
+      ],
+      "htmlBodySha256": "7af5d984180899704dd1f93393001b67278a3a9035ca4e86388bf839d9c6ae6b",
+      "plainBodySha256": "834932cfc8deefcf3a4726d2980d47585f0cf4980deca4f8784d6d0245c9662e",
+      "sourceTextSha256": "fca432761d252577aadb147d2eb6b5b9445063562828861bd3940de163fb4cdb"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-003",
+      "title": "聖墳墓教会と聖地管理権",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "聖墳墓教会",
+          "image": "modern-c01-l05/holy-sepulchre-church.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:holy-sepulchre-church",
+          "size": 64,
+          "at": [
+            35.2295,
+            31.7785
+          ],
+          "bubble": "説明：キリスト教の聖地の一部の管理権を説明する"
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "聖地管理権が移った背景",
+        "groups": [
+          {
+            "label": "管理する範囲",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "聖地管理権",
+                "caption": "説明：キリスト教の聖地の部分の管理権",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "管理する国",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "フランスとロシア",
+                "caption": "説明：フランス革命を経てロシアが取得する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [
+        {
+          "name": "イエス",
+          "reason": "教会内の墓に関する過去の宗教上の参照。戦争・外交の当事者や現地に活動する本人として配置しない。"
+        }
+      ],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "イエスは教会の説明に含む文字参照として保持する。都市全体の主権と聖地の一部の管理権を混ぜない。",
+      "sourcePages": [
+        102
+      ],
+      "htmlBodySha256": "5b5f824e1bde43ff1c11d630d3d30afbdcc92e664be1d7e725bf9d4b4afe2b31",
+      "plainBodySha256": "8dbf7c58854b0725089053e3f6fa8aafd3fefaf4180df8e90ca90b5ef6b96c2c",
+      "sourceTextSha256": "149708bf0d2b4c28993ac624ee569eca71d8b0e64d1b077ab188d080de74147f"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-004",
+      "title": "ナポレオン3世とフランスの要求",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "フランス皇帝が管理権を要求する",
+        "groups": [
+          {
+            "label": "要求した本人",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：管理権をフランスに返すよう求める",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "管理権の取得",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "フランス",
+                "caption": "説明：管理権を取得する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人のイェルサレム訪問は本文にないため模式欄に置く。",
+      "sourcePages": [
+        102
+      ],
+      "htmlBodySha256": "2bfd380057a15052a9fb1d7c96908e972f658c69477dc583f686cdd39dbed29d",
+      "plainBodySha256": "061f408d522c703e439747ec0c705710e163d9613525c126bfa7f1eff768748d",
+      "sourceTextSha256": "521505bb2f2cfdff23360aa161c4bf0e277dcaad69730a5cd4adea43d5fe5c7a"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-005",
+      "title": "ニコライ1世の宣戦と保護の口実",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "保護を掲げて宣戦する",
+        "groups": [
+          {
+            "label": "ロシア皇帝",
+            "figures": [
+              {
+                "image": "modern-c01-l01/nicholas-i.png",
+                "name": "ニコライ1世",
+                "caption": "説明：ギリシア正教徒の保護を口実に宣戦する",
+                "kind": "person",
+                "identity": "person:nicholas-i",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "開戦の状況",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ギリシア正教徒の保護",
+                "caption": "説明：この時は参戦するほどの問題は起きていないという本文の説明",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "後の露土戦争で実際に起きた反乱と、この時の口実を分ける。",
+      "sourcePages": [
+        102
+      ],
+      "htmlBodySha256": "8d31e3db805c0810bdcb5331faa40e84fd1459a1c5e62001016c85b6fcb77f28",
+      "plainBodySha256": "295297171d0ea0a2ea96368273af09028a5719d835341aaf0d376fc599cf1aba",
+      "sourceTextSha256": "9d7cd737ef62b2f758c5c82cb976d2903ba41da63c4530c78114f676920ce2d5"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-006",
+      "title": "ロシアの優勢と英仏の警戒",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "当初の優勢から列強の介入へ",
+        "groups": [
+          {
+            "label": "ロシアの当初の見通し",
+            "figures": [
+              {
+                "image": "modern-c01-l01/russian-soldiers.png",
+                "name": "ロシア軍",
+                "caption": "説明：1853年は優勢だった",
+                "kind": "group",
+                "identity": "group:russian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "警戒する二国",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "フランス",
+                "caption": "説明：聖地管理権で対立した相手",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イギリス",
+                "caption": "説明：ロシアの南下が進むことを警戒する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "当初の優勢と翌年の状況を区別し、戦争全体で勝ち続けた図にしない。",
+      "sourcePages": [
+        103
+      ],
+      "htmlBodySha256": "0efc964ea7cef505741e892caebe3b3b588f3292a62eaf2f74f4cb6cc0be5f3f",
+      "plainBodySha256": "14ffeef0dd90f0a26a149f9a1f85007905262d06851b0cf20a6d0e32717e2980",
+      "sourceTextSha256": "51dc192a0779f7622e6f7ea2112ebf7b8d3adefc479b479fe30e3ac7cc7f7c28"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-007",
+      "title": "英仏とサルデーニャの参戦",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "国際戦争に変わる",
+        "groups": [
+          {
+            "label": "オスマン帝国側の参戦",
+            "figures": [
+              {
+                "image": "modern-c01-l02/british-soldiers.png",
+                "name": "イギリス軍",
+                "caption": "説明：オスマン帝国側で参戦する",
+                "kind": "group",
+                "identity": "group:british-soldiers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/french-soldiers.png",
+                "name": "フランス軍",
+                "caption": "説明：同じ側で参戦する",
+                "kind": "group",
+                "identity": "group:french-soldiers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/sardinian-soldiers.png",
+                "name": "サルデーニャ王国",
+                "caption": "説明：イタリア統一を狙って参戦する",
+                "kind": "group",
+                "identity": "group:sardinian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "対する側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/russian-soldiers.png",
+                "name": "ロシア軍",
+                "caption": "説明：列強を相手に戦う",
+                "kind": "group",
+                "identity": "group:russian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文の陣営を示し、表の左右の位置だけから連合を決めない。",
+      "sourcePages": [
+        103
+      ],
+      "htmlBodySha256": "5545f593ba61767d1d73436f34c2254bcf06d05b81e696529e9ce37b2142445e",
+      "plainBodySha256": "c312fc84b1acb38a964450a5f1faf82c029490d21f5009aa87eb74279d64636f",
+      "sourceTextSha256": "409cbf3854742ae259e829b28c5a4819653159aa209c16bfdf44fee1c3ea94e5"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-008",
+      "title": "蒸気軍艦と木の帆船の比較",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "本文の軍艦と兵士の比較",
+        "groups": [
+          {
+            "label": "イギリスの軍艦",
+            "figures": [
+              {
+                "image": "modern-c01-l05/british-steam-warship.png",
+                "name": "イギリスの蒸気軍艦",
+                "caption": "説明：産業革命の進んだ国の蒸気軍艦という本文の説明",
+                "kind": "prop",
+                "identity": "prop:british-steam-warship",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "ロシアの軍艦と兵士",
+            "figures": [
+              {
+                "image": "modern-c01-l05/russian-sailing-warship.png",
+                "name": "ロシアの帆船軍艦",
+                "caption": "説明：半分以上が木の帆船という本文の説明",
+                "kind": "prop",
+                "identity": "prop:russian-sailing-warship",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/russian-soldiers.png",
+                "name": "ロシア軍",
+                "caption": "説明：農奴を集めた兵士が疲れている",
+                "kind": "group",
+                "identity": "group:russian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "軍艦の材質・性能の原文は校訂せず、追加の勝因を創作しない。比較を実際の航行にしない。",
+      "sourcePages": [
+        103
+      ],
+      "htmlBodySha256": "841c0be4cef94b32ebcdb36d539b9dfbe0b0bc51c173c30c45e15ce80610dbb7",
+      "plainBodySha256": "b946d44f5a2059fb26147b278431ac58360e1ca27d2cbcfa3b4cec724e52c349",
+      "sourceTextSha256": "34d051f5e945b13a98e42f970fcff9d4f08dcf18d946404abf3c58f50cd17475"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-009",
+      "title": "セヴァストーポリの敗北と新皇帝",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "セヴァストーポリ要塞",
+          "image": "modern-c01-l05/sevastopol-fortress.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:sevastopol-fortress",
+          "size": 64,
+          "at": [
+            33.523,
+            44.617
+          ],
+          "bubble": "説明：最大の激戦となった要塞の攻防"
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "要塞の敗北と皇帝の交代",
+        "groups": [
+          {
+            "label": "皇帝の交代",
+            "figures": [
+              {
+                "image": "modern-c01-l01/nicholas-i.png",
+                "name": "ニコライ1世",
+                "caption": "説明：戦争中に急死する",
+                "kind": "person",
+                "identity": "person:nicholas-i",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l05/alexander-ii.png",
+                "name": "アレクサンドル2世",
+                "caption": "説明：皇帝として最初に敗北を味わう",
+                "kind": "person",
+                "identity": "person:alexander-ii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原書103ページの独立コラム",
+            "figures": [
+              {
+                "image": "modern-c01-l04/florence-nightingale.png",
+                "name": "ナイティンゲール",
+                "caption": "説明：従軍看護で活躍したという欄を参照する",
+                "kind": "person",
+                "identity": "person:florence-nightingale",
+                "temporalRole": "reference"
+              },
+              {
+                "image": "modern-c01-l04/henri-dunant.png",
+                "name": "デュナン",
+                "caption": "説明：看護の活動の影響を受けた人物の参照",
+                "kind": "person",
+                "identity": "person:henri-dunant",
+                "temporalRole": "reference"
+              },
+              {
+                "image": "modern-c01-l04/field-aid-station.png",
+                "name": "従軍看護",
+                "caption": "説明：コラムを模式的に説明する",
+                "kind": "prop",
+                "identity": "prop:field-aid-station",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "sourceFigureReferences": [
+        {
+          "name": "ナイティンゲール",
+          "page": 103,
+          "lines": [
+            321
+          ],
+          "reason": "原書103ページの従軍看護の独立コラム。特定戦場の本人所在地を補わない。"
+        },
+        {
+          "name": "デュナン",
+          "page": 103,
+          "lines": [
+            321
+          ],
+          "reason": "同じコラムの影響関係を参照し、当時の戦場の本人として同席させない。"
+        }
+      ],
+      "reason": "要塞の現地と皇帝の模式欄を分け、看護のコラムの全文を参照できるよう出典を明示する。",
+      "sourcePages": [
+        103
+      ],
+      "htmlBodySha256": "fec5dca506c5cfbc372762b5c04e4600710fbec4bbc2320702585b2f28c04eeb",
+      "plainBodySha256": "a1763d59ec36077f431671b781910932f175fcef1837eb85c52abb53ba80cf71",
+      "sourceTextSha256": "742f0b645fcff9e5d87648f3cb1c23afa9bfea9a29c8f6fbe0c0084612d00d62"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-010",
+      "title": "パリ条約と黒海の中立化",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "講和でロシアの南下が挫折する",
+        "groups": [
+          {
+            "label": "軍事上の制限",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "黒海の中立化",
+                "caption": "説明：軍艦の航行禁止と軍事基地の撤去",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "領土と自治",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "南ベッサラビア",
+                "caption": "説明：ロシアが放棄する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "モルダヴィア・ワラキア",
+                "caption": "説明：自治権が保障され、本文では事実上の独立と説明する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "自治権の保障と正式な独立を区別し、パリ条約の名だけから本人のパリ訪問を補わない。",
+      "sourcePages": [
+        103
+      ],
+      "htmlBodySha256": "99ec08fffb733c76f1e7d4f457006f6566ae5285932e6b0bbd7d097caed6acd2",
+      "plainBodySha256": "3080ae8489817e97470b437ca98bd188ac8542d831d283c228b2d1250e0d7295",
+      "sourceTextSha256": "4c222f5fea00f89190a3eb4d1822695ebe5a00909d78284eac9549e091fa9bde"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-011",
+      "title": "英露が支えた勢力均衡の崩壊",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "勢力均衡を支えた二国の変化",
+        "groups": [
+          {
+            "label": "自由主義の中心",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イギリス",
+                "caption": "説明：勢力均衡を支えていた国",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "保守反動の中心",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ロシア",
+                "caption": "説明：敗北して両国が支えた均衡が崩れる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "国際関係の変化を説明し、ウィーン体制という名称から都市の訪問を作らない。",
+      "sourcePages": [
+        103
+      ],
+      "htmlBodySha256": "f1d39fd79efbc9d2fad300a795f2b5cb351e192282730c9fdf1412f0993af170",
+      "plainBodySha256": "58c5de0a3a24273d81f12c57c0cd8d7530383387c88719665cfbffab470e630d",
+      "sourceTextSha256": "19586576abe1a0827a93b542dc33bf09d702ff948cc9410c72660f553c485df6"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-012",
+      "title": "アレクサンドル2世が大改革へ",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "敗北を受けて改革路線へ",
+        "groups": [
+          {
+            "label": "改革を宣言する皇帝",
+            "figures": [
+              {
+                "image": "modern-c01-l05/alexander-ii.png",
+                "name": "アレクサンドル2世",
+                "caption": "説明：近代国家への改革を始める",
+                "kind": "person",
+                "identity": "person:alexander-ii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "読書の影響という参照",
+            "figures": [
+              {
+                "image": "modern-c01-l05/ivan-turgenev.png",
+                "name": "トゥルゲーネフ",
+                "caption": "説明：猟人日記を読んで影響を受けたともいわれる。本人を皇帝の現場に同席させない",
+                "kind": "person",
+                "identity": "person:ivan-turgenev",
+                "temporalRole": "reference"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "影響があったともいわれるという原文の不確かさを説明にも保つ。",
+      "sourcePages": [
+        103,
+        104
+      ],
+      "htmlBodySha256": "590de65164999d4255e3d4f6def8fbf1ddca8d6e9563a53f0f172738bb3fd2bf",
+      "plainBodySha256": "286921d876bc181d2666317f57dea773624a2afbcf2ee7dff1b82c6b2ab75c89",
+      "sourceTextSha256": "8473d45b8086a9b8f22411d6af53d54eca2d48d3bc1cae404b0c8e30d645b17a"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-013",
+      "title": "農奴解放令と人格的な自由",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "人格的な自由を無償で与える",
+        "groups": [
+          {
+            "label": "発布する皇帝",
+            "figures": [
+              {
+                "image": "modern-c01-l05/alexander-ii.png",
+                "name": "アレクサンドル2世",
+                "caption": "説明：1861年に農奴解放令を出す",
+                "kind": "person",
+                "identity": "person:alexander-ii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "身分の自由",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農奴",
+                "caption": "説明：自由な身分になる",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "農奴解放令",
+                "caption": "説明：領主制の廃止と人格的な自由",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "無償なのは人格的な自由であり、土地も無償とは描かない。",
+      "sourcePages": [
+        104
+      ],
+      "htmlBodySha256": "7bd95f212698184b1263a761a7d3e3cfd8c2d2ce3e972b9552b04564d508ace8",
+      "plainBodySha256": "f32a8ef5453180a0575808f5ed3a1982e586184c1ce8b2e3a66d1809620f9f54",
+      "sourceTextSha256": "1b6e1007a157889a793a3d43bafa095e5a32731770a7d8371612f4b11a48da85"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-014",
+      "title": "土地の代金と買い取り金",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "土地には支払いが必要",
+        "groups": [
+          {
+            "label": "農民の負担",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農民",
+                "caption": "説明：土地を得ても代金を払う必要がある",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "買い取り金",
+            "figures": [
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "土地の代金",
+                "caption": "説明：払えなければ年賦で払う",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "自由な身分と土地の有償の取得を別場面で示す。",
+      "sourcePages": [
+        104
+      ],
+      "htmlBodySha256": "2c444336912213794714221959a07c72f6073cd27c9ddcb0fb65c3b1368b8846",
+      "plainBodySha256": "eb594c46b08ed817b58bbce169644565666dd7397e066a01ccd2a40fdb0872fd",
+      "sourceTextSha256": "2098fad7b888f4dd57711e4552fe9eb840d584b8a9ad66c316224b7e1885c82a"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-015",
+      "title": "49年の負担とミールへの拘束",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "長い支払いとミールへの拘束",
+        "groups": [
+          {
+            "label": "農村共同体",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ミール",
+                "caption": "説明：土地所有と支払いの連帯責任を負う",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "残る農民の負担",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農民",
+                "caption": "説明：共同体に縛られ、貴族の土地でも働く",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "49年間の支払い",
+                "caption": "説明：原文の長い負担を説明する",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/landowners.png",
+                "name": "貴族の土地",
+                "caption": "説明：狭い土地だけでは暮らせない",
+                "kind": "group",
+                "identity": "group:landowners",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "地主は一般的な地主の役割として用い、ロシア貴族本人・プロイセンのユンカーと同定しない。",
+      "sourcePages": [
+        104
+      ],
+      "htmlBodySha256": "326ca0d3e15f1db1e64e1ff797e1e36a4b88b32bec54a479dd768b033bb1788e",
+      "plainBodySha256": "d901679cf27ac15bfcf46aa50914674386e0fbcb02da658e04cb2262c25b1d3d",
+      "sourceTextSha256": "4eabba5a05a489478ccb1010bd827d38c3e91129d6b5ab89736233a6218a0f00"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-016",
+      "title": "資本主義発達の出発点という意味",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "資本主義の出発点とは何か",
+        "groups": [
+          {
+            "label": "農奴解放",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "農奴解放令",
+                "caption": "説明：資本主義発達の出発点と説明される",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "工業化との関係",
+            "figures": [
+              {
+                "image": "modern-c01-l01/steam-factory.png",
+                "name": "産業革命",
+                "caption": "説明：解放の瞬間にすぐ始まるという意味ではない",
+                "kind": "prop",
+                "identity": "prop:steam-factory",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文の時間差を保ち、法令と工場の即時の発展を直結させない。",
+      "sourcePages": [
+        104
+      ],
+      "htmlBodySha256": "f2b10486f4f9dfed83dcb51185bae751ec66fa043c760413ad53d30119cd0bad",
+      "plainBodySha256": "4dc6f03b62f98421386374c2f7a9bcb58a36022aee0012998297c361e8637a7c",
+      "sourceTextSha256": "8f67a9305d677b9469ea6196e9a16f8d4156a2cb7e1bab4daee2f07d6e276ad0"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-017",
+      "title": "農民をやめる自由と労働者への可能性",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "農民をやめられる自由が生まれる",
+        "groups": [
+          {
+            "label": "農民の選択の可能性",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農民",
+                "caption": "説明：農民をやめたり出稼ぎに行ったりできる",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "労働者になる場合",
+            "figures": [
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "労働者",
+                "caption": "説明：彼らが労働者になれば産業革命が進むという説明",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "可能性の説明を実際の全農民の移住・労働者への変身として動かさない。",
+      "sourcePages": [
+        104
+      ],
+      "htmlBodySha256": "6120a18b8d47c12331a34022bd786dc29199cc173e2a57ceed47ef2a25c1f88e",
+      "plainBodySha256": "3d308c3fe539c98a488b27a0c98db409b37935a17a97240412f1c268a778425b",
+      "sourceTextSha256": "ba495d5e9619c5e407184a71dda054fe2aabeb9f777f3c2ea7e1414a8153c946"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-018",
+      "title": "地方自治・鉄道改革から専制政治へ",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "改革から専制政治への逆戻り",
+        "groups": [
+          {
+            "label": "改革した皇帝",
+            "figures": [
+              {
+                "image": "modern-c01-l05/alexander-ii.png",
+                "name": "アレクサンドル2世",
+                "caption": "説明：地方自治と鉄道の改革を進める",
+                "kind": "person",
+                "identity": "person:alexander-ii",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/railway.png",
+                "name": "国内の鉄道",
+                "caption": "説明：建設を進める",
+                "kind": "prop",
+                "identity": "prop:railway",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "反乱と政策の転換",
+            "figures": [
+              {
+                "image": "modern-c01-l01/russian-soldiers.png",
+                "name": "ポーランド反乱の鎮圧",
+                "caption": "説明：鎮圧に手こずり改革をやめる",
+                "kind": "group",
+                "identity": "group:russian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "鉄道建設の具体的な路線と本人の全国巡回を補わない。",
+      "sourcePages": [
+        104
+      ],
+      "htmlBodySha256": "33d770830d1c3506934bbcfdb977669b4348708880dc8fca51a2c46d9d6357a6",
+      "plainBodySha256": "6e26ea5f3b17cb38cec36fb4faef8cac3f848a6797da42d6e201bb6d5deebc54",
+      "sourceTextSha256": "a89ea87a58f59382f05c19dfb734c0d0300823c06a4be9d763938686637a1c72"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-019",
+      "title": "解放後も続く農民の貧困",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "農奴解放後にも貧困が続く",
+        "groups": [
+          {
+            "label": "農民の生活",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "ロシアの農民",
+                "caption": "説明：解放後も貧しいまま",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "重い負担",
+            "figures": [
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "借金・買い戻し金・税金",
+                "caption": "説明：負担が続く",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "解放が生活の豊かさを直ちに実現した絵にしない。",
+      "sourcePages": [
+        104,
+        105
+      ],
+      "htmlBodySha256": "b38f681b8efa784ab57c131426724c38f6a35e0d02e8aa63ccb4f2185aa15c54",
+      "plainBodySha256": "f3abe7325a2287091220ae7e96f9594abc5f8086e59619dfb497a9ae59f5049e",
+      "sourceTextSha256": "7eca563389336fad83b577768827ee7b3e26c9bc97d569489b6dc7edbdbeb218"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-020",
+      "title": "都市の知識人が人民の中へ",
+      "mapActors": [
+        {
+          "name": "農村へ入るナロードニキ",
+          "image": "modern-c01-l01/liberal-students.png",
+          "kind": "group",
+          "identity": "group:liberal-students",
+          "at": [
+            43,
+            55
+          ],
+          "bubble": "説明：都市の知識人が人民の中へというスローガンで農村に入る",
+          "route": 0,
+          "offset": [
+            -25,
+            0
+          ]
+        },
+        {
+          "name": "農村の農民",
+          "image": "modern-c01-l01/farmers.png",
+          "kind": "group",
+          "identity": "group:farmers",
+          "at": [
+            43,
+            55
+          ],
+          "bubble": "説明：特定の村ではなく国内の一般的な農村の役割",
+          "offset": [
+            30,
+            0
+          ]
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "人民の中へという運動",
+        "groups": [
+          {
+            "label": "運動を担う人びと",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "インテリゲンツィア",
+                "caption": "説明：都市の知識人たち",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "改革の構想",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "農村を拠点にした社会主義",
+                "caption": "説明：資本主義の段階を飛ばした改革を目指す",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文に都市名・村名がないため、国内の模式的な動きと一般の集団として示す。",
+      "sourcePages": [
+        104,
+        105
+      ],
+      "htmlBodySha256": "1ec8b2ba919470a4b47bbe89ce4f8d561ee5c7f387d76f2411b20e13cac6d036",
+      "plainBodySha256": "00db456ad34d10d178859bd684c7e3068b4e9caf8061ec76192f4320fe4fa1e9",
+      "sourceTextSha256": "8e96217b1afdfc262ff638e5c1e037ee2581d98d43a7ad59afa5620df460386f"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-021",
+      "title": "啓蒙運動と農民の反発",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "教える側と生活に追われる側",
+        "groups": [
+          {
+            "label": "啓蒙する人びと",
+            "figures": [
+              {
+                "image": "modern-c01-l01/liberal-students.png",
+                "name": "ナロードニキ",
+                "caption": "説明：自由・平等・社会主義を教えようとする",
+                "kind": "group",
+                "identity": "group:liberal-students",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "農民の反応",
+            "figures": [
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農民",
+                "caption": "説明：今日の食事が大事で、運動に反発する",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "知識人と農民の視点の違いを説明し、一方の勝手な言葉を本人の引用にしない。",
+      "sourcePages": [
+        105
+      ],
+      "htmlBodySha256": "b087cea2803070cf7d1b83d57993d56abb582bc8068297ee0aee15d00485c959",
+      "plainBodySha256": "713178015dd2a7aa47a67ed755574c78b5f9032c48e590cbc26ca805e17b1c54",
+      "sourceTextSha256": "93172535f84058fae7a68366a89a8c378c316d72003ddc3fc785c0932ee76bc6"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-022",
+      "title": "挫折から無政府主義・虚無主義へ",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "挫折後に権力を否定する思想へ",
+        "groups": [
+          {
+            "label": "運動の挫折",
+            "figures": [
+              {
+                "image": "modern-c01-l01/liberal-students.png",
+                "name": "ナロードニキ",
+                "caption": "説明：農民の反発で運動が挫折する",
+                "kind": "group",
+                "identity": "group:liberal-students",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "思想の転換",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "無政府主義・虚無主義",
+                "caption": "説明：国家権力や権威を否定する考えへ向かう",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "思想の説明と実際の暴力を区別する。",
+      "sourcePages": [
+        105
+      ],
+      "htmlBodySha256": "6cdaeb78e200c63624a8f1c460fd391d7a46ec4c195a1914fbf89e81154c5140",
+      "plainBodySha256": "85fa024373887efcad4035f0248bfe8b7e82c3af78042215189e81ffdfddf266",
+      "sourceTextSha256": "1d58ba7c8e58f2c215a80e6b25f9cea187f8167553d795bd3c3eadc9cea76428"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-023",
+      "title": "一部のナロードニキと1881年の暗殺",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "一部の人びとによる暗殺",
+        "groups": [
+          {
+            "label": "事件と皇帝",
+            "figures": [
+              {
+                "image": "modern-c01-l05/alexander-ii.png",
+                "name": "アレクサンドル2世",
+                "caption": "説明：1881年に暗殺される",
+                "kind": "person",
+                "identity": "person:alexander-ii",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "1881年",
+                "caption": "説明：露土戦争よりあとの事件",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "全員ではない",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "一部のナロードニキ",
+                "caption": "説明：全員がテロリストになったわけではない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "暗殺は露土戦争のあとと明示し、暴力・流血を描かず本文の時系列を保つ。",
+      "sourcePages": [
+        105
+      ],
+      "htmlBodySha256": "384b2b4e2e934bb67c2df20bd097b3e2778c431ac9df8ce42773e1c4ff854e9c",
+      "plainBodySha256": "24bd1eff8622b8e3692a7faa7f17d77f3ca07207ca6bf608b4f333f913afde1d",
+      "sourceTextSha256": "e45b5696404494910ba294611f8d4f9420201d364487158621883993f1a987b1"
+    },
+    {
+      "sceneId": "modern-c01-l05-p03-024",
+      "title": "農民の自由と土地を求める活動",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "農民の願いへ目を向ける",
+        "groups": [
+          {
+            "label": "生活の改善を目指す側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/liberal-students.png",
+                "name": "ナロードニキ",
+                "caption": "説明：テロリストにならなかった人びとが反省する",
+                "kind": "group",
+                "identity": "group:liberal-students",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/farmers.png",
+                "name": "農民",
+                "caption": "説明：自由と土地を求める",
+                "kind": "group",
+                "identity": "group:farmers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "その後のつながり",
+            "figures": [
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "1901年のエスエル",
+                "caption": "説明：後に結成される社会革命党のもとになる",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "先取りする1901年を明示し、全員を暴力へ進む集団と一括りにしない。",
+      "sourcePages": [
+        105
+      ],
+      "htmlBodySha256": "b591444b4bd69aaa02247638fd309d565e77ae2ef3764d9ab8ab3dc4c251941d",
+      "plainBodySha256": "8dfd065b3eb3d2b8406edef31cfd52c20314d3fec394dfa022c550980b1f4e04",
+      "sourceTextSha256": "0bb0dc0fb8ecc58cc2b9c248a4022d1c3604dcda76f5129e8a5804223729c510"
+    },
+    {
+      "sceneId": "modern-c01-l05-p04-001",
+      "title": "再びバルカンへ向かう機会を待つ",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "再びバルカンへ向かう機会を待つ",
+        "groups": [
+          {
+            "label": "それまでの進出",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "中国とウズベク3ハン国",
+                "caption": "説明：東アジア・中央アジアへの進出を進める",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "待っていた機会",
+            "figures": [
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "1875年",
+                "caption": "説明：バルカンへ進出する機会が生まれる",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "過去の進出地域を示し、本文にない軍の進路・港・領土境界を作らない。",
+      "sourcePages": [
+        105
+      ],
+      "htmlBodySha256": "3c6bb861c4fd9920d59d755c64852e831706e8fa8b8633173511e0bc97fe7084",
+      "plainBodySha256": "e5370e9c31019823250c3ae77af775c6cadbae7df322125784e04d28b8c67afd",
+      "sourceTextSha256": "5be3e49d6641716206f648951b7f1cd053819656c8fb6a83f33db341e7176623"
+    },
+    {
+      "sceneId": "modern-c01-l05-p04-002",
+      "title": "ボスニア・ヘルツェゴヴィナとブルガリアの反乱",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "バルカンの反乱と保護を求める声",
+        "groups": [
+          {
+            "label": "独立を目指す地域",
+            "figures": [
+              {
+                "image": "modern-c01-l01/revolutionary-citizens.png",
+                "name": "ボスニア・ヘルツェゴヴィナ",
+                "caption": "説明：反乱が起きる",
+                "kind": "group",
+                "identity": "group:revolutionary-citizens",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/revolutionary-citizens.png",
+                "name": "ブルガリア",
+                "caption": "説明：独立運動へ広がる",
+                "kind": "group",
+                "identity": "group:revolutionary-citizens",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "ロシア国内の声",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ギリシア正教徒の保護",
+                "caption": "説明：同じ信仰を持つ人びとの保護を求める",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "一般の市民の役割を用い、特定の民族の顔や信仰の外見を固定しない。",
+      "sourcePages": [
+        105,
+        106
+      ],
+      "htmlBodySha256": "c42dabb52df3237962a0deabd1ca421ced06008c74e695eff0b5147963d3037b",
+      "plainBodySha256": "0415d8f214f60ffc584bbe5b2bb250d4d8590c50dbbe6832e499da2f1a58db31",
+      "sourceTextSha256": "3e4fb73b74372d6afe14b6c212bc18cbd83fb09fac0c53ad74c1755649dfe6ad"
+    },
+    {
+      "sceneId": "modern-c01-l05-p04-003",
+      "title": "保護を口実とする1877年の開戦",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ロシアがオスマン帝国と開戦する",
+        "groups": [
+          {
+            "label": "ロシア",
+            "figures": [
+              {
+                "image": "modern-c01-l01/russian-soldiers.png",
+                "name": "ロシア軍",
+                "caption": "説明：独立運動支援を名目として開戦する",
+                "kind": "group",
+                "identity": "group:russian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "オスマン帝国",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ottoman-soldiers.png",
+                "name": "オスマン帝国軍",
+                "caption": "説明：ロシアと戦争になる",
+                "kind": "group",
+                "identity": "group:ottoman-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "1877年の開戦の陣営を示し、まだ都市の占領や他国の派兵を描かない。",
+      "sourcePages": [
+        105,
+        106
+      ],
+      "htmlBodySha256": "c087b8162c18333d4b028711b0a1f9db14ecf7d89c8da2d6784c25d0df58674b",
+      "plainBodySha256": "47d1984d8c11ab293ed8af7f1f878417232d44e5c64526d1fee19082e5e2a75f",
+      "sourceTextSha256": "bd1326919503faa89f3c1e55dd838db9fd340ebfa454907c0e0fba9c99d4f2fc"
+    },
+    {
+      "sceneId": "modern-c01-l05-p04-004",
+      "title": "参戦しないイギリスと黒海出口の軍艦",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "黒海出口付近に待機するイギリス軍艦",
+          "image": "modern-c01-l05/british-steam-warship.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:british-steam-warship",
+          "size": 64,
+          "at": [
+            28.7,
+            40.8
+          ],
+          "bubble": "説明：参戦せず、黒海出口付近で待機する。表示位置は概略"
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "イギリスが参戦しない理由",
+        "groups": [
+          {
+            "label": "独立運動の支援",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "独立運動",
+                "caption": "説明：実際に起きている運動の支援という状況",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "イギリスの判断",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イギリス",
+                "caption": "説明：自由主義を抑える側で参戦することに迷う",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文は精密な停泊位置を指定しないため、黒海内に進入したように見せず海峡外側の概略位置に静止させる。非参戦で、通過して攻撃した動きにしない。",
+      "sourcePages": [
+        106
+      ],
+      "htmlBodySha256": "8c66ab41a0c73c90715a83cbe915499490a7a8c1ba4ac95d5eed7c7ab3312d8b",
+      "plainBodySha256": "e9e90bb63d1e697a155778db3c77312cde0ec79b58ef675afb263d8091ccfb90",
+      "sourceTextSha256": "0caa6bceed33c9324c6bab281c4c004267773e8e4d6042deffb070500bda61b1"
+    },
+    {
+      "sceneId": "modern-c01-l05-p04-005",
+      "title": "イスタンブルに迫って急いで講和",
+      "mapActors": [
+        {
+          "name": "イスタンブルに迫るロシア軍",
+          "image": "modern-c01-l01/russian-soldiers.png",
+          "kind": "group",
+          "identity": "group:russian-soldiers",
+          "at": [
+            28.4,
+            41.3
+          ],
+          "bubble": "説明：イスタンブルに迫り、イギリスが出る前に講和する。占領や入城ではない",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "接近して急いで講和する",
+        "groups": [
+          {
+            "label": "ロシアの判断",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ロシアとオスマン帝国",
+                "caption": "説明：急いで講和する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "出てくる前に決着",
+            "figures": [
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "イギリスの介入前",
+                "caption": "説明：イギリスは参戦していない",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文が述べる接近までを動かす。都市を占領したと置き換えない。",
+      "sourcePages": [
+        106
+      ],
+      "htmlBodySha256": "90279b034fbec3735c9f1d058fa39d09c3da92ff8331323df18412b1f06fea16",
+      "plainBodySha256": "a5a6949a830175178a69f49c185fa76e3b23047c88fe1cbef22b3cc6b2b8cf09",
+      "sourceTextSha256": "9d28e1a43ea4229fa7c0a63f522c1633a866c3fa13ecee2ea1d0c24f2084d0d2"
+    },
+    {
+      "sceneId": "modern-c01-l05-p04-006",
+      "title": "独立国とロシア保護下のブルガリア",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "独立と自治国の違い",
+        "groups": [
+          {
+            "label": "独立を認める国",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "セルビア・モンテネグロ・ルーマニア",
+                "caption": "説明：三つの国の独立を認める",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "自治国として保護する地域",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ブルガリア",
+                "caption": "説明：領土を拡大し、ロシア保護下の自治国となる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "三国の独立とブルガリアの自治を一つの独立の結果へまとめない。",
+      "sourcePages": [
+        106
+      ],
+      "htmlBodySha256": "cb229a6eb88f93eb2663d420f3e388bf6820b63b1e880c16bca79d1888fc2935",
+      "plainBodySha256": "eb836745811012efd1cb3960838b7cd5f24e0263eb0f5367c58bf4dabf0e488e",
+      "sourceTextSha256": "c56b8f0e10dd0cc7edbfb13c146bc02f47e680e728f137fc878189e0cefd68f8"
+    },
+    {
+      "sceneId": "modern-c01-l05-p04-007",
+      "title": "英墺の反発とビスマルクの仲介",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ロシアの保護下への反発",
+        "groups": [
+          {
+            "label": "反発する国々",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イギリスとオーストリア",
+                "caption": "説明：ブルガリアを通じた進出に反発する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "仲介する本人",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：事態の仲介をする",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "保護下の領土の拡大をロシア軍艦の実際の地中海航行としない。",
+      "sourcePages": [
+        106
+      ],
+      "htmlBodySha256": "3fcf9faac66a45886c60576edff58d7ebc3934a99d9c9bb77c19f0f3ee38b3c0",
+      "plainBodySha256": "d64f33cc84aa993c72247d00359009f8dfcc2148b3f1788f90071bf6157a1e46",
+      "sourceTextSha256": "7247b4b4b8042dace7c1cad51f2692fa3ad8df1e401d341642de8c22133bb600"
+    },
+    {
+      "sceneId": "modern-c01-l05-p04-008",
+      "title": "ベルリン会議での仲裁",
+      "mapActors": [
+        {
+          "name": "ビスマルク",
+          "image": "modern-c01-l02/bismarck.png",
+          "kind": "person",
+          "identity": "person:bismarck",
+          "at": [
+            13.405,
+            52.52
+          ],
+          "bubble": "説明：ベルリン会議を開き、誠実な仲介人と称する"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "誠実な仲介人と称する仲裁",
+        "groups": [
+          {
+            "label": "仲介する対立",
+            "figures": [
+              {
+                "image": "modern-c01-l01/diplomatic-delegates.png",
+                "name": "イギリス・オーストリア・ロシア",
+                "caption": "説明：三国の対立を仲介する",
+                "kind": "group",
+                "identity": "group:diplomatic-delegates",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "実際に支持した側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イギリスとオーストリア",
+                "caption": "説明：ほぼ全面的に両国の側を支持する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文が会議開催を明記する本人の現地と、仲裁の内容を分ける。",
+      "sourcePages": [
+        106,
+        107
+      ],
+      "htmlBodySha256": "cd9e9a47c99725f4c91034a10167c2d016bc44d450dc6a15cf55107b5a9764d0",
+      "plainBodySha256": "ab9455754da1b158f53ec4dcad35500c0e149e53064c39b7e68cf10548620973",
+      "sourceTextSha256": "ec9c6adc389d4b2f270a9ef3df0d5b4a47b7d59b5e8c5a6883fba8b5983c5982"
+    },
+    {
+      "sceneId": "modern-c01-l05-p04-009",
+      "title": "ブルガリアを縮小して宗主下の自治国へ",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ブルガリアの領土と地位を変える",
+        "groups": [
+          {
+            "label": "独立は維持する",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "セルビア・モンテネグロ・ルーマニア",
+                "caption": "説明：独立はそのまま認める",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "変更する地域",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ブルガリア",
+                "caption": "説明：領土を縮小し、トルコ宗主下の自治国とする",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "縮小と宗主下の自治を示し、ロシア・トルコへの単純な併合とはしない。",
+      "sourcePages": [
+        106,
+        107
+      ],
+      "htmlBodySha256": "40326c10440d7a1f519eccb88fb626899c72ff2114239fad14d31fb673626363",
+      "plainBodySha256": "e83f27dc0a800f61045df34fe042663b4b62fb7a0f09c1d4f16f064d51dd62d8",
+      "sourceTextSha256": "6ada11d7ceb10c2037673928f9aeae40e8e7cb98fd7e3a53a9113ec2b84c2179"
+    },
+    {
+      "sceneId": "modern-c01-l05-p04-010",
+      "title": "統治権・行政権とディズレーリ",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "統治権・行政権を得た国々",
+        "groups": [
+          {
+            "label": "権利を得る側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "オーストリアとボスニア・ヘルツェゴヴィナ",
+                "caption": "説明：オーストリアは統治権を得る",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イギリスとキプロス島",
+                "caption": "説明：イギリスは行政権を得る",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "英国首相の反応",
+            "figures": [
+              {
+                "image": "modern-c01-l02/disraeli.png",
+                "name": "ディズレーリ",
+                "caption": "説明：会議に出席し、ビスマルクに好意的になる",
+                "kind": "person",
+                "identity": "person:disraeli",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：英墺側が権利を得る結果を仲介する",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "統治権・行政権を独立や領土の併合と同じものにしない。",
+      "sourcePages": [
+        106,
+        107
+      ],
+      "htmlBodySha256": "0eb1f042a1a3005924e1a06efe7c592546b9a74e227244658c44eb477f00277d",
+      "plainBodySha256": "a41bef426155477dab9b46efe1de285b6886cefe514d8820ba718a42297038f6",
+      "sourceTextSha256": "2a6588cbb8f971765a66512ecc061aa90e5594d094322645134adabc8bb7f95a"
+    },
+    {
+      "sceneId": "modern-c01-l05-p04-011",
+      "title": "ロシアの反発とドイツとの関係悪化",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ロシアとドイツの関係が悪化する",
+        "groups": [
+          {
+            "label": "ロシアが得たもの",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ベッサラビアの一部",
+                "caption": "説明：失った地域の一部が返るだけだった",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "ロシアの反発",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：ロシアから反発を受ける",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ロシアとドイツ",
+                "caption": "説明：関係が悪化して後の国際関係に影響する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "外交関係の悪化を実際に始まった戦争や軍の移動として描かない。",
+      "sourcePages": [
+        106,
+        107
+      ],
+      "htmlBodySha256": "1e3796b5a27366215408d29cc3d783adc12aa0a51aa4e29f1ef9dc60429830ba",
+      "plainBodySha256": "ee0de589db3597439b921951488d8656df3c5632e46bfb8f018c0c2785ae361a",
+      "sourceTextSha256": "12fb4203584310304d1ea4aa2e89e935af65ccf56e7d97bb9b00c1d6d1631e0e"
+    },
+    {
+      "sceneId": "modern-c01-l05-p04-012",
+      "title": "年号の確認とヨーロッパ文化史への案内",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "今回の確認と次回への案内",
+        "groups": [
+          {
+            "label": "原書107ページの年号欄",
+            "figures": [
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "年号のツボ",
+                "caption": "説明：会議・戦争・農奴解放の年号を確認する",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "次回へ",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "19世紀のヨーロッパ文化史",
+                "caption": "説明：次回の予告と結びも本文に保持する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "107ページの年号欄・結び・予告も省略せず全文を参照できる。",
+      "sourcePages": [
+        107
+      ],
+      "htmlBodySha256": "d3a51115ed9dc543c05da1a6f74078cee666b950849e6a713b8a0ae529bfa181",
+      "plainBodySha256": "deda8283793825b0c7c5bb0c3a39bd2c29cfc36173e6a52170b8e030a11f3f73",
+      "sourceTextSha256": "8c0a820789746dd1e364c31669e6dbc8af77afade0164ed98097c10b77a3a62b"
+    }
+  ]
+}
