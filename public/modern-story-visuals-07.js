@@ -431,7 +431,7 @@ export const modernVisualScenePlans={
       "title": "第2章へ：オスマン帝国とガージャール朝",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -474,7 +474,7 @@ export const modernVisualScenePlans={
       "title": "東方問題を西アジア側から見る",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -517,7 +517,7 @@ export const modernVisualScenePlans={
       "title": "17世紀末の世界の大国",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -560,7 +560,7 @@ export const modernVisualScenePlans={
       "title": "ヨーロッパ進出とアジアの大帝国",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -648,7 +648,7 @@ export const modernVisualScenePlans={
       "title": "第2次ウィーン包囲の失敗と領土の割譲",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -744,7 +744,7 @@ export const modernVisualScenePlans={
       "title": "弱体化につけこむヨーロッパ諸国",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -787,7 +787,7 @@ export const modernVisualScenePlans={
       "title": "ティマール制の崩壊と軍・徴税の弱体化",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -830,7 +830,7 @@ export const modernVisualScenePlans={
       "title": "アーヤーンとイェニチェリの自立",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -1200,7 +1200,7 @@ export const modernVisualScenePlans={
   },
   "modern-c02-l07-p01-017": {
     "sceneId": "modern-c02-l07-p01-017",
-    "title": "ギリシアとワッハーブ王国への支援",
+    "title": "オスマン帝国への支援とワッハーブ王国征服",
     "mapActors": [
       {
         "name": "ワッハーブ王国を征服するエジプト軍",
@@ -1217,7 +1217,7 @@ export const modernVisualScenePlans={
     "mapProps": [],
     "extraRoutes": [],
     "illustration": {
-      "title": "ギリシアとワッハーブ王国への支援",
+      "title": "オスマン帝国への支援とワッハーブ王国征服",
       "groups": [
         {
           "label": "本文の本人（所在地を固定しない）",
@@ -1237,7 +1237,7 @@ export const modernVisualScenePlans={
           "figures": [
             {
               "image": "modern-c01-l01/constitution-document.png",
-              "name": "ギリシアとワッハーブ王国への支援",
+              "name": "オスマン帝国への支援とワッハーブ王国征服",
               "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
               "kind": "prop",
               "identity": "prop:constitution-document",
@@ -1408,7 +1408,7 @@ export const modernVisualScenePlans={
       "title": "両国を悩ませるヨーロッパの進出",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -1513,7 +1513,7 @@ export const modernVisualScenePlans={
       "title": "軍の再編と中央集権化",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -1564,7 +1564,7 @@ export const modernVisualScenePlans={
       "title": "英通商条約と国内産業の衰退",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -1669,7 +1669,7 @@ export const modernVisualScenePlans={
       "title": "ギュルハネ勅令が目指した改革",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -1712,7 +1712,7 @@ export const modernVisualScenePlans={
       "title": "保守派の抵抗と対外危機",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -1763,7 +1763,7 @@ export const modernVisualScenePlans={
       "title": "クリミア勝戦の代償とオスマン主義",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -1814,7 +1814,7 @@ export const modernVisualScenePlans={
       "title": "外債と借款で国家財政が破綻する",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -2017,7 +2017,7 @@ export const modernVisualScenePlans={
       "title": "タンジマートの集大成としての憲法",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -2060,7 +2060,7 @@ export const modernVisualScenePlans={
       "title": "二院制議会で政治の不正を批判",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -2218,7 +2218,7 @@ export const modernVisualScenePlans={
       "title": "サン＝ステファノ条約で領土を失う",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -2261,7 +2261,7 @@ export const modernVisualScenePlans={
       "title": "ベルリン会議後のブルガリアとバルカン",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -2558,10 +2558,10 @@ export const modernVisualScenePlans={
             {
               "image": "modern-c02-l07/selim-iii.png",
               "name": "セリム3世",
-              "caption": "説明：セリム3世本人と本文の改革・国内政治・国際関係を参照する。所在地や発言は補わない",
+              "caption": "説明：セリム3世以来の西欧的教育を過去参照する。現在の青年トルコ人と同時代の登場ではない",
               "kind": "person",
               "identity": "person:selim-iii",
-              "temporalRole": "current"
+              "temporalRole": "reference"
             }
           ]
         },
@@ -2606,7 +2606,7 @@ export const modernVisualScenePlans={
       "title": "統一と進歩委員会の結成",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -2714,7 +2714,7 @@ export const modernVisualScenePlans={
       "title": "日露戦争の勝利がアジアへ与えた影響",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -2765,7 +2765,7 @@ export const modernVisualScenePlans={
       "title": "立憲政の復活を求める委員会",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -2840,7 +2840,7 @@ export const modernVisualScenePlans={
       "title": "一部のパリの委員会員と将校がサロニカで合流",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -2998,7 +2998,7 @@ export const modernVisualScenePlans={
       "title": "責任内閣制へ：近代化の期待",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3041,7 +3041,7 @@ export const modernVisualScenePlans={
       "title": "ボスニア併合とブルガリアの独立",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3096,7 +3096,7 @@ export const modernVisualScenePlans={
       "title": "イタリア＝トルコ戦争でリビアを失う",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3139,7 +3139,7 @@ export const modernVisualScenePlans={
       "title": "バルカン同盟と第1次バルカン戦争",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3182,7 +3182,7 @@ export const modernVisualScenePlans={
       "title": "対外危機とパン＝トルコ主義",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3225,7 +3225,7 @@ export const modernVisualScenePlans={
       "title": "青年トルコの独裁とドイツへの接近",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3321,7 +3321,7 @@ export const modernVisualScenePlans={
       "title": "トルコ人のシャーとイラン人の関係",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3364,7 +3364,7 @@ export const modernVisualScenePlans={
       "title": "イランにも列強の侵略が始まる",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3407,7 +3407,7 @@ export const modernVisualScenePlans={
       "title": "インド防衛とロシアの進出が競合する",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3462,7 +3462,7 @@ export const modernVisualScenePlans={
       "title": "ロシアとの戦争とトルコマンチャーイ条約",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3513,7 +3513,7 @@ export const modernVisualScenePlans={
       "title": "中央アジアでも英国がロシアを警戒する",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3556,7 +3556,7 @@ export const modernVisualScenePlans={
       "title": "輸入品による経済の打撃と救世主への期待",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3607,7 +3607,7 @@ export const modernVisualScenePlans={
       "title": "ガージャール朝への民族的な反発",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3695,7 +3695,7 @@ export const modernVisualScenePlans={
       "title": "信徒の増加と各地の反乱",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3791,7 +3791,7 @@ export const modernVisualScenePlans={
       "title": "バーブ教とイランのナショナリズム",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3834,7 +3834,7 @@ export const modernVisualScenePlans={
       "title": "近代化の財源を利権の譲渡に求める",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3877,7 +3877,7 @@ export const modernVisualScenePlans={
       "title": "鉱山・銀行・電信線・販売権の切り売り",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -3965,7 +3965,7 @@ export const modernVisualScenePlans={
       "title": "ウラマーの呼びかけと全国のボイコット",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -4028,7 +4028,7 @@ export const modernVisualScenePlans={
       "title": "テヘランのデモとタバコ利権破棄",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -4071,7 +4071,7 @@ export const modernVisualScenePlans={
       "title": "民族意識とウラマーの影響力",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -4114,7 +4114,7 @@ export const modernVisualScenePlans={
       "title": "ロシアがウズベク3ハン国へ進出する",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -4308,7 +4308,7 @@ export const modernVisualScenePlans={
       "title": "インド側からの侵攻と第2次アフガン戦争",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -4351,7 +4351,7 @@ export const modernVisualScenePlans={
       "title": "日露戦争の影響とイランの立憲要求",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -4408,7 +4408,7 @@ export const modernVisualScenePlans={
       "title": "テヘランのストライキと公使館の立てこもり",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -4459,7 +4459,7 @@ export const modernVisualScenePlans={
       "title": "1906年：憲法と国民議会の成立",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -4502,7 +4502,7 @@ export const modernVisualScenePlans={
       "title": "英露協商と英国の黙認",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -4553,7 +4553,7 @@ export const modernVisualScenePlans={
       "title": "シャーのクーデタと議会解散",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -4596,7 +4596,7 @@ export const modernVisualScenePlans={
       "title": "1911年：ロシア軍事介入で議会閉鎖",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -4647,7 +4647,7 @@ export const modernVisualScenePlans={
       "title": "年号の確認と今回の結び",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",
@@ -4690,7 +4690,7 @@ export const modernVisualScenePlans={
       "title": "次回のインドと東南アジアへ",
       "groups": [
         {
-          "label": "改革を求める人びとと社会",
+          "label": "人びとと社会（模式的な参照）",
           "figures": [
             {
               "image": "ottoman/ottoman-resident.png",

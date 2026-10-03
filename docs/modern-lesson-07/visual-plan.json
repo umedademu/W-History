@@ -13,7 +13,8 @@
     "宗主権・航行権・保護権・世襲権・自治・独立・領有を同じ結果へまとめず、権利の変更を実際の艦隊航行へしない。",
     "英国の黙認とロシアの軍事介入を共同軍の侵攻へしない。バーブ教祖を反乱の指揮者として動かさない。",
     "本人の固定所在地なし、姿の切替なし。国代表位置と都市・建物を分け、共通32度/24度の拡大上限を適用する。",
-    "説明は史実上の本人発言を創作した引用ではない。"
+    "説明は史実上の本人発言を創作した引用ではない。",
+    "主語を省略した26場面の中心地域は、同じ節の親段落または直前段落に明記された地域をcontextRegionsの出典行とともに静的表示へ引き継ぐ。名前の判定や本人の所在地を広げない。"
   ],
   "totals": {
     "scenes": 85,
@@ -26,7 +27,8 @@
     "routes": 2,
     "switches": 0,
     "informationConnections": 0,
-    "diagrams": 24
+    "diagrams": 24,
+    "contextRegions": 26
   },
   "assets": [
     {
@@ -459,7 +461,7 @@
         "title": "第2章へ：オスマン帝国とガージャール朝",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -494,6 +496,7 @@
       "sourcePages": [
         126
       ],
+      "contextRegions": [],
       "htmlBodySha256": "28d9247710c979aeed90fffeaa92ceb0d7575485a9e723360aa968a14991c43e",
       "plainBodySha256": "65d76cdbcfce6f7ce501994620be7611e29715d361eff6522b68b0a66442c072",
       "sourceTextSha256": "106fa3c76c4ee7fd6483ba6bfbe0057b8b695a6e919927a3d17a3eb69b23665a"
@@ -508,7 +511,7 @@
         "title": "東方問題を西アジア側から見る",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -543,6 +546,7 @@
       "sourcePages": [
         126
       ],
+      "contextRegions": [],
       "htmlBodySha256": "5d7f2b420f0c253472899101e64b321da5d388ee875a141f8aae9fc2c241403d",
       "plainBodySha256": "8dc8d36ce0d67e007d7c01f6e9eeb981bc2ee327707b8a2b10454389ba1152ff",
       "sourceTextSha256": "336968a69ca6d2c7c7643c14fad8dcc1ccf5b77e5c68ab9f94b28a6699c3b0a6"
@@ -557,7 +561,7 @@
         "title": "17世紀末の世界の大国",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -592,6 +596,7 @@
       "sourcePages": [
         127
       ],
+      "contextRegions": [],
       "htmlBodySha256": "f122376dab4b1de8cf175b585928b4aecafcd457dc406604d26090ff88303838",
       "plainBodySha256": "bcb7d03a38f5f319328f3d7609e1aeac9e0c62227d5d709a3110441ade0a8e1a",
       "sourceTextSha256": "22f7787e0a0b63840325ee6da6cb35d384413907a8578f0053a5135b2b9a5a3d"
@@ -606,7 +611,7 @@
         "title": "ヨーロッパ進出とアジアの大帝国",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -641,6 +646,7 @@
       "sourcePages": [
         127
       ],
+      "contextRegions": [],
       "htmlBodySha256": "b909bacdd38884522f30b0f25e52bb373fc62b8fd7d82bbd6cb0717082be8284",
       "plainBodySha256": "4d5411f96ca3a6e497f914889cc07d8f1a0ce3fd73c960e14c2ead9264dcec32",
       "sourceTextSha256": "81c47e9d1a9c26ed779767d6fdc2ed6749cc981288b93891f533d632e396e97b"
@@ -692,6 +698,7 @@
       "sourcePages": [
         127
       ],
+      "contextRegions": [],
       "htmlBodySha256": "ff59346d2fb32444452ed5bab6ba761017fc89923251289ff1452a865ab9801f",
       "plainBodySha256": "f6c76f473e5a2ac9e41a851fdef89cb848117ed2e009bbd7638abf996451b34d",
       "sourceTextSha256": "33e334bbc6465a58d6c5ac67742f5c534ea07294cf74b4d1c4d2981537d49d99"
@@ -706,7 +713,7 @@
         "title": "第2次ウィーン包囲の失敗と領土の割譲",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -741,6 +748,7 @@
       "sourcePages": [
         127
       ],
+      "contextRegions": [],
       "htmlBodySha256": "6d75831b390ea9c2c6eecab7f2f517937354a925619359cd3d70417ddc6ccca6",
       "plainBodySha256": "a51fd5157cc15c41780156bfc4b78450dc0aecd69226fb69bd84d1d53c1e539b",
       "sourceTextSha256": "9c8c3dd47890afc6463c9e0500ca08752e3f91651d435e2137a08d5d8b6d0613"
@@ -800,6 +808,7 @@
       "sourcePages": [
         127
       ],
+      "contextRegions": [],
       "htmlBodySha256": "c8a4a32999fc46d58c50267c65073bd73a2fcbdd5e4fa64b5874232aa5a2d540",
       "plainBodySha256": "e9e98c98e24b468fbce62206bb756f5d11d45ce276db354b3e9605e59c124b7f",
       "sourceTextSha256": "a96cdb1418731b407f8ee2e6022bcd7e4ca713dfb4eb8e70adf4dcc5a8b3b17a"
@@ -814,7 +823,7 @@
         "title": "弱体化につけこむヨーロッパ諸国",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -849,6 +858,7 @@
       "sourcePages": [
         127
       ],
+      "contextRegions": [],
       "htmlBodySha256": "2ea0471bc46d09a9f33b6b2009ae2f4a5adae7ccfad62fd6895bfb8f7e2a2585",
       "plainBodySha256": "6a6fbdb70b550e4750264475ced780e3283bf52573cc97eef8c58daf3283caf2",
       "sourceTextSha256": "7562e5f7b2a0ce2a3554f068fb37163856e5e74501797b76cbdc3b9f908cf30e"
@@ -863,7 +873,7 @@
         "title": "ティマール制の崩壊と軍・徴税の弱体化",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -899,6 +909,7 @@
         127,
         128
       ],
+      "contextRegions": [],
       "htmlBodySha256": "035f5361eb2e7c7babb489bb58a39f40cbee8e4fa447fe982f4074250de4faa4",
       "plainBodySha256": "9a25c6b181850549436bc4bba7b73fb66bd6ea32d9714d04baa1339203c0d402",
       "sourceTextSha256": "6dcdc42e20247eacb0916eda15faa3a5613d121e62e111a2107578259078093b"
@@ -913,7 +924,7 @@
         "title": "アーヤーンとイェニチェリの自立",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -956,6 +967,17 @@
       "sourcePages": [
         127,
         128
+      ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-57",
+          "lines": [
+            57,
+            63
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
       ],
       "htmlBodySha256": "7f9d80eb16d51beb03413e1d45579a4a764396d4c561e2730ba386e2a8c4e12b",
       "plainBodySha256": "61aaf974d66858d997ffadc798c3387ae1d8c3ca3c6fb05092800c64e1fe5f38",
@@ -1015,6 +1037,17 @@
       "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
       "sourcePages": [
         128
+      ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-57",
+          "lines": [
+            57,
+            63
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
       ],
       "htmlBodySha256": "3e509b8469f06330c2af52f89753b477b4459889bc70df8200b2bfde24753302",
       "plainBodySha256": "ca6f6a9c15c4640565c4beb8b750cc73d5b9a633992bbfb4b718ad0a0e9bdc49",
@@ -1076,6 +1109,7 @@
       "sourcePages": [
         128
       ],
+      "contextRegions": [],
       "htmlBodySha256": "0953a1b1039d06b94a0cd4d627730a8f19833b9d04b7f5968013a313360af820",
       "plainBodySha256": "f62d622c43d8eab529a0d61679dbecc41369b67d74b9de08a538ed0ac28ff8b8",
       "sourceTextSha256": "60003c17e8fa949ce6992e1342e1b51fe868b6d871231c643d249ea47f0a2e96"
@@ -1127,6 +1161,7 @@
       "sourcePages": [
         128
       ],
+      "contextRegions": [],
       "htmlBodySha256": "37893dedc97259a9ad19cd0185c9a32ac8bb0dd93f278a2f4564174723d1e01b",
       "plainBodySha256": "27c09ec6ec12808c69ce7b3df117b22c4521b3e5e12988605dea8107ada22533",
       "sourceTextSha256": "f71c29ca8f7b538d92299d7d69f11fa7c0c4806c09ad1ee9cf595a8097354a42"
@@ -1198,6 +1233,7 @@
       "sourcePages": [
         128
       ],
+      "contextRegions": [],
       "htmlBodySha256": "f88af0ce76a1e33d9191b6ac66084c3504b4c2bf63c2e1fdb1e56df2ea31703c",
       "plainBodySha256": "6d8583030c725eb4ed64c9249cd296f0cd8d7033c64628ed3e617c56460d369c",
       "sourceTextSha256": "81aa0140bb7e39da57864e23bfcbcdad9c85a0a61e46690ac07f209d5b2f3998"
@@ -1257,6 +1293,7 @@
       "sourcePages": [
         129
       ],
+      "contextRegions": [],
       "htmlBodySha256": "6ca128281afc18bf07a7ccbc6d6c085ad99c6e00b18b3e4e1fa38cb85c3e1c92",
       "plainBodySha256": "8836dce9f848aee29b6c51ec94276d006633b1247ebc986cc265bc9579436b21",
       "sourceTextSha256": "78ccf1b4aebb07fb46c5e2a90ccd100c1fbc6a85635c856626ad71797061f877"
@@ -1320,13 +1357,23 @@
       "sourcePages": [
         129
       ],
+      "contextRegions": [
+        {
+          "name": "エジプト",
+          "paragraph": "modern-07-111",
+          "lines": [
+            111
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "9af4581124e7fa0bf42dc949769cf3afe7d4f1fe8edc14ca3f399629bfcdcb72",
       "plainBodySha256": "079413e2020b55c8035cf0d4f8a2b6f981369210b5a0c95282c1832a8051b0cb",
       "sourceTextSha256": "a3d680560113883818391d2524e83f666954d1a6c28bd6181b472b6933b2db79"
     },
     {
       "sceneId": "modern-c02-l07-p01-017",
-      "title": "ギリシアとワッハーブ王国への支援",
+      "title": "オスマン帝国への支援とワッハーブ王国征服",
       "mapActors": [
         {
           "name": "ワッハーブ王国を征服するエジプト軍",
@@ -1343,7 +1390,7 @@
       "mapProps": [],
       "extraRoutes": [],
       "illustration": {
-        "title": "ギリシアとワッハーブ王国への支援",
+        "title": "オスマン帝国への支援とワッハーブ王国征服",
         "groups": [
           {
             "label": "本文の本人（所在地を固定しない）",
@@ -1363,7 +1410,7 @@
             "figures": [
               {
                 "image": "modern-c01-l01/constitution-document.png",
-                "name": "ギリシアとワッハーブ王国への支援",
+                "name": "オスマン帝国への支援とワッハーブ王国征服",
                 "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
                 "kind": "prop",
                 "identity": "prop:constitution-document",
@@ -1383,6 +1430,7 @@
       "sourcePages": [
         129
       ],
+      "contextRegions": [],
       "htmlBodySha256": "2f65a9837f4fb464161d6f57d982ad8badfadb589b43a6976ebb41ae88fb5b9f",
       "plainBodySha256": "7f0a34961a59cfe82a005fe5d0485d9a7152bff0bbef3ce8f3aaaa8baf9a15fd",
       "sourceTextSha256": "dc7b13cde70adb19ebafaf3d7044b6a7d6d3e60486f9202f2cfd9bbaef591d7f"
@@ -1434,6 +1482,7 @@
       "sourcePages": [
         129
       ],
+      "contextRegions": [],
       "htmlBodySha256": "cd87ad2f006e59aa144cdcd6a775be4593f0578cbca2a2ca82b54ce7f0cf5f83",
       "plainBodySha256": "46d6af2a81ceff9749282a09f523098a780f9be43bb8da2f1b62566947b30db8",
       "sourceTextSha256": "f50bda2c7e371b268956e60407f1ad189e32aac4807895bd891833ae55130acb"
@@ -1485,6 +1534,7 @@
       "sourcePages": [
         129
       ],
+      "contextRegions": [],
       "htmlBodySha256": "4c8bb39f236e28f7b7accb064f0acdf308d2b4307a74a89e2dbc8054e8d03ed5",
       "plainBodySha256": "1eb5dfee2f45647a98ba7d3902b848d8be3ac77e03a111e324b21d9cf6d8486f",
       "sourceTextSha256": "6a149872b6fd06d4e5e953cc5630d31c86087b91cb12cd59da2381552c243c4f"
@@ -1544,6 +1594,7 @@
       "sourcePages": [
         129
       ],
+      "contextRegions": [],
       "htmlBodySha256": "bf898815ba6e1a62c12566fc82486eed33f28d84472211cd2383de7f4b21e5a1",
       "plainBodySha256": "e7af2733fda3496daf7074f58ec58687e2ea5033c1928508cb7d59180c364a75",
       "sourceTextSha256": "4e872f10f55b7fb987b84d4d753bebf224d0e2697d536afa808163b239af3e07"
@@ -1558,7 +1609,7 @@
         "title": "両国を悩ませるヨーロッパの進出",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -1593,6 +1644,7 @@
       "sourcePages": [
         129
       ],
+      "contextRegions": [],
       "htmlBodySha256": "e0d66e15b0b28880f2fdcee1b008bc4ec002fca50e151ae179683b364b3ac898",
       "plainBodySha256": "8caa0e4bbdd1d88a2931df5e46fda4d8aa2c777b7a9fb15c2ff540d2573e2366",
       "sourceTextSha256": "77550092234175867991fc04f083ab16036ecd19c0595ffc3d9b8a4b1948f8da"
@@ -1661,6 +1713,7 @@
       "sourcePages": [
         129
       ],
+      "contextRegions": [],
       "htmlBodySha256": "6c2a70f7381780fa44484da1133150a9ca7659cb41b7c8250d8edf68a2746b35",
       "plainBodySha256": "f3182698a2b63bd5965fa48a7aaf49be8fe28a726395b4d9e8a33d0c31519a62",
       "sourceTextSha256": "e79be04e85198e70687649ed8a8317fbe15baaa9712a0f2dce962c3d25c0b310"
@@ -1675,7 +1728,7 @@
         "title": "軍の再編と中央集権化",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -1718,6 +1771,16 @@
       "sourcePages": [
         129
       ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-125",
+          "lines": [
+            125
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "a238895c464cd80808a0b1b48ba0b3bc4cfb8a01057af16565d8063f50c0c6ee",
       "plainBodySha256": "7b07d7970164bd0a8fc8b9086a1bdfb0d620f3187f12e13aecd7a40c6d8b7871",
       "sourceTextSha256": "e8752b59e9134be30a53d80cd7803561469e512ccb792240d78f45eb91fc873e"
@@ -1732,7 +1795,7 @@
         "title": "英通商条約と国内産業の衰退",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -1776,6 +1839,7 @@
         129,
         130
       ],
+      "contextRegions": [],
       "htmlBodySha256": "d1664e995fd53be125297e9e887981c29553f0a19a6324e45ea006aeca56d06c",
       "plainBodySha256": "344c681b14b4e819df94118ae4a474fa4364b1e97b150dedbbf229ccc07a6dee",
       "sourceTextSha256": "6ef32074d7d10e9368c53d3b563ba81dab482f0824778b0f2b3763b201eed358"
@@ -1836,6 +1900,17 @@
       "sourcePages": [
         130
       ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-127",
+          "lines": [
+            127,
+            133
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "37fdf744a659caf0fed35b1f877009521ee17de749d8024653730be74f10ac9c",
       "plainBodySha256": "061195329d5eb09a599a1b2133466516125078e8f23e5cf512f1096de12eddfa",
       "sourceTextSha256": "2be1e3d2f27d8f1a61415ccc1d78164c3a8f75eb7fcdb49767fe2de5fbe71881"
@@ -1850,7 +1925,7 @@
         "title": "ギュルハネ勅令が目指した改革",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -1885,6 +1960,17 @@
       "sourcePages": [
         130
       ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-127",
+          "lines": [
+            127,
+            133
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "e216bc0def3b0f62c7ab3720b88800d40ada3d6ff1f1173d3dedc8022adcb925",
       "plainBodySha256": "286217499528fd29d10b9f1c912a88888f5ed326ad214427a941dff47faa8350",
       "sourceTextSha256": "28188edc09010680a37a232a84e1776dcdcb5e62587bf01226d8df9dc53f1384"
@@ -1899,7 +1985,7 @@
         "title": "保守派の抵抗と対外危機",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -1942,6 +2028,17 @@
       "sourcePages": [
         130
       ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-127",
+          "lines": [
+            127,
+            133
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "a40c807e5e9092f1674842dcd7311e09a6ea24d49a91c86f41e558c804f8ea04",
       "plainBodySha256": "61759c9de8557537e2972677ed4fb58877baa53b836fa8e88a27715384ab75b6",
       "sourceTextSha256": "269334af7b91208866f79165f26f43de88b50d9debeca93050d6612f8e874076"
@@ -1956,7 +2053,7 @@
         "title": "クリミア勝戦の代償とオスマン主義",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -2000,6 +2097,7 @@
         130,
         131
       ],
+      "contextRegions": [],
       "htmlBodySha256": "63527034193c9241cc18ee76b74cf53e52ff8f9a84023465d861a26a2d652041",
       "plainBodySha256": "a0c0940cda95c0639dbb295861ff3a3a0c00b381316c0941db2a250fafb8d135",
       "sourceTextSha256": "53358e09ed831492ad69d5a20b7bac57b47fde40f1222e78fe2bde622f94496f"
@@ -2014,7 +2112,7 @@
         "title": "外債と借款で国家財政が破綻する",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -2057,6 +2155,7 @@
       "sourcePages": [
         131
       ],
+      "contextRegions": [],
       "htmlBodySha256": "09aad8b23a23b71e7258c7915375688b97914bc6a2d31bf7e579c9708bbeafdc",
       "plainBodySha256": "714145cf8c9c7867ec4d3c4e8e8d2090f9ebddd140cc810db2a250d947b5c130",
       "sourceTextSha256": "5ba6c66b3f18cd2f749242f6d15b3abcfb8dcd449792245cb09dca75f19b9730"
@@ -2116,6 +2215,7 @@
       "sourcePages": [
         131
       ],
+      "contextRegions": [],
       "htmlBodySha256": "2260a8d6f1ebbbdf3c6193c1759da289bd34d4b31219bb84a16396b30b701a65",
       "plainBodySha256": "37d902df2e0413a7498819b5e0d1b9e3b08ceb7d022b26ed227c4d14b33edfed",
       "sourceTextSha256": "866f181349595a510316290aaaf6c3adf8a8688aa757a86d17318f4b4b35502d"
@@ -2166,6 +2266,16 @@
       "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
       "sourcePages": [
         131
+      ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-191",
+          "lines": [
+            191
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
       ],
       "htmlBodySha256": "09b84c049304f923445673065a4a382260242d6df232a805f26be6c448a13b26",
       "plainBodySha256": "9fbad1c40ba697a089456d97e990bdf706e62280ca0baba610c964a029ffbaa9",
@@ -2227,6 +2337,7 @@
       "sourcePages": [
         131
       ],
+      "contextRegions": [],
       "htmlBodySha256": "d9518de2e24ca9aa27e0f8a133b243cf869ce88e422846ba0268ca9aa5d68978",
       "plainBodySha256": "d60a4fb8a7024f814d244ad2f66c6fc00f94a1d67ee13a78dea5047e1b67634b",
       "sourceTextSha256": "43fb3bacffa59488cfadf90f23bb1a610f6bae0fc5a1114b1344b7850b143541"
@@ -2241,7 +2352,7 @@
         "title": "タンジマートの集大成としての憲法",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -2276,6 +2387,16 @@
       "sourcePages": [
         131
       ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-211",
+          "lines": [
+            211
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "c2a30da7cf5c62a63b37d0fe19c0774677623afc4e5ac71b7b07de2cba62ef37",
       "plainBodySha256": "45c41d4154d646f49efcf43795a900631a3f150fde55a074fe24dc5478f74445",
       "sourceTextSha256": "f2a316165ddfcc923b7a29db16a770f64a464fd9fdba747da6aeb6ed7e56e15e"
@@ -2290,7 +2411,7 @@
         "title": "二院制議会で政治の不正を批判",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -2332,6 +2453,16 @@
       "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
       "sourcePages": [
         131
+      ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-211",
+          "lines": [
+            211
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
       ],
       "htmlBodySha256": "5048c63de1f13d03813df2926e7735225a86e25ab14de7a22ca525a46c2e14b6",
       "plainBodySha256": "05430b3f2ad9384ad9332046b3995019b230deb69d6d6f15897479dfc1508d24",
@@ -2393,6 +2524,16 @@
       "sourcePages": [
         132
       ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-217",
+          "lines": [
+            217
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "3fafebc813579281107fd8d95182aa0d7921231ce04a45a1d74d8869ddecce57",
       "plainBodySha256": "045e268afd0fe04721da8e0340273560d6e312e98636eedd83356850f0d2e858",
       "sourceTextSha256": "5e86df7082dd5c124f1633d0dc9c2f93cc04b25558e58a76e45a374ea45ca1a0"
@@ -2452,6 +2593,7 @@
       "sourcePages": [
         132
       ],
+      "contextRegions": [],
       "htmlBodySha256": "5b63788338f74634559b16c8232657d7888e7511830c29b13ee3fc32c3bf8db0",
       "plainBodySha256": "fd0599612cbe63244787e2fb7e3d557e750b3db47e0065595e862ecf471c6e36",
       "sourceTextSha256": "a3ef08367ffdc33ddcb363fb46e1c7333634cae8e1db79e56805b42f68e341fe"
@@ -2466,7 +2608,7 @@
         "title": "サン＝ステファノ条約で領土を失う",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -2501,6 +2643,7 @@
       "sourcePages": [
         132
       ],
+      "contextRegions": [],
       "htmlBodySha256": "c245f038d2a062df8e52c2656c5aa69db408a8f711153c6e90e159cff035dcf6",
       "plainBodySha256": "e270caab011cc8a4a7c384d45465549151f0e74c0c54b7720b6d2063aa3725d8",
       "sourceTextSha256": "cb12d92a6d240c217e9504628e70c81ff2031a266799a9a8d760abed63cc0784"
@@ -2515,7 +2658,7 @@
         "title": "ベルリン会議後のブルガリアとバルカン",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -2558,6 +2701,7 @@
       "sourcePages": [
         132
       ],
+      "contextRegions": [],
       "htmlBodySha256": "0fa13219ec48e86e5d9428ab3e015d32c5500465194078c3084f6ce3b0b74f50",
       "plainBodySha256": "96f8b67c9438076c3814a947f52746cf43e24d69a387cf4750f8d7592cdc9101",
       "sourceTextSha256": "f077d89bf46bfa2475ec6a41e61c68bdaaf557526bf369c90f46863b719c6c11"
@@ -2621,6 +2765,16 @@
       "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
       "sourcePages": [
         132
+      ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-221",
+          "lines": [
+            221
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
       ],
       "htmlBodySha256": "ec0ab074b528a6455cd43b5e9511326e1816cf02b066e4aa067e193ca4d579c7",
       "plainBodySha256": "5f69d2964975c8060389963643ff103906340a81cd6d495c72102b2d9a50f777",
@@ -2754,6 +2908,7 @@
       "sourcePages": [
         132
       ],
+      "contextRegions": [],
       "htmlBodySha256": "44e9b70c469cc38f0321212733af68c6b7268d4f51d9c5ce90bf8d0b62b02e4f",
       "plainBodySha256": "d5e17345966001d11a265c93d794e72db917d4275045116b3386d74310ce51a7",
       "sourceTextSha256": "3b90e18fd1cfbf2c888b1ae7f8adeaa11d6214a3c2939dca0982ede6c8f15304"
@@ -2817,6 +2972,16 @@
       "sourcePages": [
         132
       ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-221",
+          "lines": [
+            221
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "9cccfe542a26aee2abd1b2f69cf3efc3c6ef1a7e8afb8c1eb4eec19a349877d3",
       "plainBodySha256": "5d068210d7fefc16362da142a173f61ead063187ee5ff5d222775bdabc5c95a3",
       "sourceTextSha256": "41b7324def2ac65e3f95d2eda8ca6524a07b7291cdbde055cbe7fe0692de11e4"
@@ -2836,10 +3001,10 @@
               {
                 "image": "modern-c02-l07/selim-iii.png",
                 "name": "セリム3世",
-                "caption": "説明：セリム3世本人と本文の改革・国内政治・国際関係を参照する。所在地や発言は補わない",
+                "caption": "説明：セリム3世以来の西欧的教育を過去参照する。現在の青年トルコ人と同時代の登場ではない",
                 "kind": "person",
                 "identity": "person:selim-iii",
-                "temporalRole": "current"
+                "temporalRole": "reference"
               }
             ]
           },
@@ -2876,6 +3041,7 @@
       "sourcePages": [
         132
       ],
+      "contextRegions": [],
       "htmlBodySha256": "8b164a5f74e4133c13d07ac2864ab73605066d8b088f29101fe7d6dfd1acfe65",
       "plainBodySha256": "9cb309b9a94397bd303001ca4f184d4c68a2910ab67c8f06effbfe7646319091",
       "sourceTextSha256": "540c1aafe2c52294a2bdf0956257b6af7dc7df66e0abd06719990f9a534cf386"
@@ -2890,7 +3056,7 @@
         "title": "統一と進歩委員会の結成",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -2932,6 +3098,16 @@
       "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
       "sourcePages": [
         132
+      ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-225",
+          "lines": [
+            225
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
       ],
       "htmlBodySha256": "0058609dc7cf9ef9c823c28fe728b3fafaef2bb078bd7c91b295be2ff75e50ed",
       "plainBodySha256": "37456fab67c492d889963780f08590b531548fd4e9ee1ef900996a5575cf9e6b",
@@ -2996,6 +3172,7 @@
       "sourcePages": [
         132
       ],
+      "contextRegions": [],
       "htmlBodySha256": "4c5588e1fe22cf3844417afc207fec7a1c79265e423df84fe0340dcce708fb1d",
       "plainBodySha256": "eea42330b3a978b71f3e122f1ba86ccc48b9c80b939349e500b8d581d400428d",
       "sourceTextSha256": "c75e1a27da42a7023265cde237e855dd9dee4302c977a87a151edb7e45d84b9c"
@@ -3010,7 +3187,7 @@
         "title": "日露戦争の勝利がアジアへ与えた影響",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3053,6 +3230,7 @@
       "sourcePages": [
         134
       ],
+      "contextRegions": [],
       "htmlBodySha256": "1d720ae46370e287298f879c535a68e7ee30f4d94afe5464d480dfe19ff910b7",
       "plainBodySha256": "fa350b3c49bc1859a186f34ab494ea4b06b91d0177cff94513db500763252e74",
       "sourceTextSha256": "fbb6ee022943b747299172ab5fe39a7a969887ad508f976580ec02e1e32cb4a6"
@@ -3067,7 +3245,7 @@
         "title": "立憲政の復活を求める委員会",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3101,6 +3279,16 @@
       "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
       "sourcePages": [
         134
+      ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-286",
+          "lines": [
+            286
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
       ],
       "htmlBodySha256": "7a9bbfbad21f01ba21b57e064d41203591f68c6a9efd0d4da74d9bd43f4f3560",
       "plainBodySha256": "7a9bbfbad21f01ba21b57e064d41203591f68c6a9efd0d4da74d9bd43f4f3560",
@@ -3148,7 +3336,7 @@
         "title": "一部のパリの委員会員と将校がサロニカで合流",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3183,6 +3371,7 @@
       "sourcePages": [
         134
       ],
+      "contextRegions": [],
       "htmlBodySha256": "7d5d4b4c47434e7fa7c1f017e11cbfd76aece4a66bf2fb82a8db68e50d257cca",
       "plainBodySha256": "ba1808f1c645f2d546018d8c33a84766e8dd2643002104bb50240dc035803533",
       "sourceTextSha256": "76d7184258c505c137a81f7e315b68d4232c06b5bfcb1b0f8e87a713185084b8"
@@ -3241,6 +3430,16 @@
       "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
       "sourcePages": [
         134
+      ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-286",
+          "lines": [
+            286
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
       ],
       "htmlBodySha256": "71228fa572219ae5e104b712fb86db3eb63c19448b4fc902e331a58a5e930bbe",
       "plainBodySha256": "492b03637623cea9a3f36b680f3401539943e0eb8e9bd25f7f9e7442ca101173",
@@ -3310,6 +3509,16 @@
       "sourcePages": [
         134
       ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-286",
+          "lines": [
+            286
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "dc3079f9a67f29639f3e14463f96bdb334e80e77eda27d957e21c186d3afeeb0",
       "plainBodySha256": "05eb3b0ee9d83703594129ba1626dac2582ab30ace3e2ecec29b132491713b12",
       "sourceTextSha256": "df956322ade9e7414d33e989c1d19efb29ed784070e4a4504856f5c3861d65e5"
@@ -3324,7 +3533,7 @@
         "title": "責任内閣制へ：近代化の期待",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3359,6 +3568,7 @@
       "sourcePages": [
         134
       ],
+      "contextRegions": [],
       "htmlBodySha256": "c57651c67fbab54d75eb71acc4b076ea9bc951646fb0e88a680cb2136b1b12b6",
       "plainBodySha256": "64a5be41144f8d9d0bfe58f95fe8c49218c35a3b51d14d33e3969b31adc98059",
       "sourceTextSha256": "b25e61acbae1316e60c5f2300551ae1fe62c426b4daec7a2ddf17e58e63d23f0"
@@ -3373,7 +3583,7 @@
         "title": "ボスニア併合とブルガリアの独立",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3409,6 +3619,7 @@
         134,
         135
       ],
+      "contextRegions": [],
       "htmlBodySha256": "d7d1f494297fc041f19eab73816e62cfa9c57784adb1b7e5ac3f4f279ff3d16f",
       "plainBodySha256": "54066a0d5b1eefebcdd69416ecfaa57994d4ae34becaf0b04e31d73d87665272",
       "sourceTextSha256": "da00e331b3e4da0393b8d896c27f10e0e78a027c577ed5202111ef829ed50ca9"
@@ -3435,7 +3646,7 @@
         "title": "イタリア＝トルコ戦争でリビアを失う",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3471,6 +3682,7 @@
         134,
         135
       ],
+      "contextRegions": [],
       "htmlBodySha256": "85961964baced1cb6d5b07e058a72da3d7f03a75c6e8a0f1fb96b714d9ec36dc",
       "plainBodySha256": "8d31f8ebd5489d2baaab2c75acd4e6d99f188f9d48cfe045b953b3886b920e9a",
       "sourceTextSha256": "9e7a6dac198a219f737c8f42a5470a0c1dcb9b0f537aea25405f85d0614eac66"
@@ -3485,7 +3697,7 @@
         "title": "バルカン同盟と第1次バルカン戦争",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3521,6 +3733,7 @@
         134,
         135
       ],
+      "contextRegions": [],
       "htmlBodySha256": "69769b212cf1a2e389db5470dfbd48ebb58ab09aad199b8eaf4bc839070ca262",
       "plainBodySha256": "efec039eeacc2fa6efcfbaacd934d66eec6985bedbc31c3748b0dfb7ffeccd77",
       "sourceTextSha256": "6e3c7232f27f894be32f1638630f156a8b8a32d1cb51ea163af2e773d189f205"
@@ -3535,7 +3748,7 @@
         "title": "対外危機とパン＝トルコ主義",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3570,6 +3783,7 @@
       "sourcePages": [
         135
       ],
+      "contextRegions": [],
       "htmlBodySha256": "73b9b50fc774765b2afd5b4afe11a552f93918c01d40cc69c193086b204b91f2",
       "plainBodySha256": "710e3d97c963a9756a8701af592ae7bbf4912109b4084dab05479f6fdd145e3a",
       "sourceTextSha256": "933f1ee5f05db4b105bf8b7a41aa529224c91e003ab49743d32e413e09894f1c"
@@ -3584,7 +3798,7 @@
         "title": "青年トルコの独裁とドイツへの接近",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3627,6 +3841,7 @@
       "sourcePages": [
         135
       ],
+      "contextRegions": [],
       "htmlBodySha256": "6f902855116cdac0f2cb9557fd10a937a5e5263f9491d6d72f0eff45024d9fbe",
       "plainBodySha256": "596df7cb146fdb885f0e63f48b059a90ee25b65eb51ef96be7c1aca16078d9f5",
       "sourceTextSha256": "ca9ed027352818e3073d51c257372da0e644a55ebf2346ad03c8c4f5c83cc7ab"
@@ -3678,6 +3893,7 @@
       "sourcePages": [
         136
       ],
+      "contextRegions": [],
       "htmlBodySha256": "6fc1db8d4e38e913d31c42c094410ffafcb5c0ac9d64173a39b6d60106fcd083",
       "plainBodySha256": "94b3c51c62c2363d567927048b054ff86601f2a7cf39d6c29bfef4f6f596dcd1",
       "sourceTextSha256": "f1c15b5856954141e227b3aa49beac03b65c2bd4b28b56512596c04d3afa7f58"
@@ -3692,7 +3908,7 @@
         "title": "トルコ人のシャーとイラン人の関係",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3727,6 +3943,7 @@
       "sourcePages": [
         136
       ],
+      "contextRegions": [],
       "htmlBodySha256": "7481b10824cab8c4e3d9d6025b4588769e8e96dc1237cdd712d499acf51084f2",
       "plainBodySha256": "96d9d150ab98990ae0ab38038c2fb3058956d688330331a9b125395c0aa91d14",
       "sourceTextSha256": "8c6a926020d8a8beddc6dbd434873b4782a9f3f0f9671eff40f6e3789608c714"
@@ -3741,7 +3958,7 @@
         "title": "イランにも列強の侵略が始まる",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3777,6 +3994,7 @@
         136,
         137
       ],
+      "contextRegions": [],
       "htmlBodySha256": "e7a4c4dc82b10b4822a5bd2fd992e31cd9034f367b3762fee85cd323cd215214",
       "plainBodySha256": "8e877d9e21d0413dc079e964b330091415a95899e675c81ec3b84d694356d5f6",
       "sourceTextSha256": "bcfa5a851230cfb35e561558048c13f043377b4b3a48853103bdbb5ca8025127"
@@ -3791,7 +4009,7 @@
         "title": "インド防衛とロシアの進出が競合する",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3827,6 +4045,7 @@
         136,
         137
       ],
+      "contextRegions": [],
       "htmlBodySha256": "a68da98a19229d1bf60a48ef2da5ab2445059dfe0e53c56ef396dc75cd458866",
       "plainBodySha256": "5c0bcc2fd3f8a47ebaa7b1ab5c850db07283cc8061025db6780be7b0692a9228",
       "sourceTextSha256": "d0c1a544a4992cd9b9836a126500bceb245048a4d5900b2be07ec0cdae14054c"
@@ -3853,7 +4072,7 @@
         "title": "ロシアとの戦争とトルコマンチャーイ条約",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3896,6 +4115,7 @@
       "sourcePages": [
         137
       ],
+      "contextRegions": [],
       "htmlBodySha256": "4c6d6e493b0e37aa8fbe964ff63c6fce2afaea2745df9d46c975781cb733d523",
       "plainBodySha256": "40cb68168672bfb05d14b9144f857b68c078d77364a0552987f4e3e2f52da7cd",
       "sourceTextSha256": "7e8448b073326c255836ca0718afc0f02c850e9d5e1869eb4e812b043cc79935"
@@ -3910,7 +4130,7 @@
         "title": "中央アジアでも英国がロシアを警戒する",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -3945,6 +4165,7 @@
       "sourcePages": [
         137
       ],
+      "contextRegions": [],
       "htmlBodySha256": "78403e5d2f657f35da3f646851c5f7f3b6797d06f01cf01d02a1f41033affe4c",
       "plainBodySha256": "ef47539f786bbb4156a0a1ed294f25be63cbe5bbf8941f0aaab2e23239c6a529",
       "sourceTextSha256": "cf585b20ee1f390500166818f5dba004b8471b64feff590c4ef2d68a893e0110"
@@ -3959,7 +4180,7 @@
         "title": "輸入品による経済の打撃と救世主への期待",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -4002,6 +4223,7 @@
       "sourcePages": [
         137
       ],
+      "contextRegions": [],
       "htmlBodySha256": "41bd845fbec2e783f221218480dbe5867a5add7894fc10fb15bb62fbe015ea73",
       "plainBodySha256": "f54a4d9aa646f54c213a13528eebb0fc480014f78dae54eb5061fca7e6df7478",
       "sourceTextSha256": "4e570bce7a677d9b774ceffed54e3f1c12d3735129068e4c964463da6438de2d"
@@ -4016,7 +4238,7 @@
         "title": "ガージャール朝への民族的な反発",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -4051,6 +4273,7 @@
       "sourcePages": [
         137
       ],
+      "contextRegions": [],
       "htmlBodySha256": "535add9a65065aba4a9aa8e674991c951ac259bd3dbf2c0c9f97854033aa59bd",
       "plainBodySha256": "cf1e8ff320e06a53b657c71aa4a0f94c3fcdb9843d823c21171fd2eda5e838a3",
       "sourceTextSha256": "4a58e72909ce49be205e8393b69b3966632124d135e1338ed70d3bd84ee08596"
@@ -4102,6 +4325,16 @@
       "sourcePages": [
         137
       ],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-415",
+          "lines": [
+            415
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "28999b33624eaa268574f5f2e00c9d01823a2c08c65fdfef875ad0978c7ff43e",
       "plainBodySha256": "95d4eb7cc779cf7928c5e177ef3a30b23a486304241d2ed6217b2a12d08bee63",
       "sourceTextSha256": "0eab710531f8c87de40acc9ee304e487bfadd63a5b439c4d99732b5e4ba40012"
@@ -4116,7 +4349,7 @@
         "title": "信徒の増加と各地の反乱",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -4158,6 +4391,16 @@
       "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
       "sourcePages": [
         137
+      ],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-415",
+          "lines": [
+            415
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
       ],
       "htmlBodySha256": "e5689a1b0de5971d2dac59e4d40a4ac3644bc30d98d51f6a170bfdf7d9617a4d",
       "plainBodySha256": "06505c8b44e277cf658ab31203e3e4a2bbcdfbc8354cd3710974c45a5f3fe007",
@@ -4210,6 +4453,16 @@
       "sourcePages": [
         137
       ],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-415",
+          "lines": [
+            415
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "b6a5677bcba263b2e3854d3fa8673a2e8c5653c4c3ec84f0a64066b5f083b817",
       "plainBodySha256": "29d216e6d2eef9ecf4bb7495cdbbbfed07b151bd7cfbd96e1dd0f53d3ab6bb02",
       "sourceTextSha256": "a21f5f186b5897501f521c8da9d6b137244d556e998b81ad1cdedd4c2ee69a6c"
@@ -4224,7 +4477,7 @@
         "title": "バーブ教とイランのナショナリズム",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -4259,6 +4512,7 @@
       "sourcePages": [
         137
       ],
+      "contextRegions": [],
       "htmlBodySha256": "6cd19de76409a1ddf16e519d2b259b6a62768f72289ad1a16279964aba4fce87",
       "plainBodySha256": "edf2d53ace07fdfad75407597ffedea0ae442316bb6997e983d52133be75f827",
       "sourceTextSha256": "e1ce858cbdc5430eeb15fc5a02779e001b0b518852bdd14667e5bee424ee4efd"
@@ -4273,7 +4527,7 @@
         "title": "近代化の財源を利権の譲渡に求める",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -4309,6 +4563,7 @@
         137,
         138
       ],
+      "contextRegions": [],
       "htmlBodySha256": "998f26b2e8f58724a93d74e005b002c1cff08a7f5e76df6c216c31ef8cb2117d",
       "plainBodySha256": "415939492f10c9fbaf91043bf7704117d00302c7b66696b448f00fb78b2615e9",
       "sourceTextSha256": "4c53f007c47df9b95c65482ec8ada6be6513e3a05fe3e19acb4b0cafba006c88"
@@ -4323,7 +4578,7 @@
         "title": "鉱山・銀行・電信線・販売権の切り売り",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -4358,6 +4613,17 @@
       "sourcePages": [
         137,
         138
+      ],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-421",
+          "lines": [
+            421,
+            427
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
       ],
       "htmlBodySha256": "8d781fdaca3ac4731de0f41b4c150970dfee4a8bb185f5eccc44eec6e7489774",
       "plainBodySha256": "c19faa229cf58f2918b668ad6e945b47f15f77487390924b5d9acab48f04d3c4",
@@ -4410,6 +4676,7 @@
       "sourcePages": [
         138
       ],
+      "contextRegions": [],
       "htmlBodySha256": "98c417f2315640b7cc7406d1f19f3d15c79c309e656f09c674c651710d7d731d",
       "plainBodySha256": "ddda93f9ed36355704b73ce2f83c4d28917687b7c617eac69d8df5a571727e2e",
       "sourceTextSha256": "8ab435cfc7d45ad651d935cd2b05183e3360663154d9bc4bc84635a48415abf3"
@@ -4424,7 +4691,7 @@
         "title": "ウラマーの呼びかけと全国のボイコット",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -4467,6 +4734,7 @@
       "sourcePages": [
         138
       ],
+      "contextRegions": [],
       "htmlBodySha256": "52dd2c46df3a086e6c318a7d8a671a590deb64d485b4616aedc0c45ad060cda7",
       "plainBodySha256": "77d706c3f5b4b4dda41b65d710fb617db49c01fb18c79cb233b3d6d69def6b2f",
       "sourceTextSha256": "766c051008c616f35d6a68a5b175afc53c76c0d358393b7b02d292885e076b17"
@@ -4493,7 +4761,7 @@
         "title": "テヘランのデモとタバコ利権破棄",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -4528,6 +4796,16 @@
       "sourcePages": [
         138
       ],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-429",
+          "lines": [
+            429
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "e8d92bff75804dfb42fe7442c9af2e1429fd14ef131a1c14db9149c952ac6f15",
       "plainBodySha256": "0059c00ab92d1875577199425a86b4c4e6bd1f178cc6b914fad59a803d8c661d",
       "sourceTextSha256": "83939d2b636097197e9a5ab18ca1c2bd6f649d62fbcf09a8f39dd310ad773c0f"
@@ -4542,7 +4820,7 @@
         "title": "民族意識とウラマーの影響力",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -4577,6 +4855,16 @@
       "sourcePages": [
         138
       ],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-429",
+          "lines": [
+            429
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "20fb1f6281ab13f7129ca989c87567781b71074caccefe44c5e5695e0e5d7d67",
       "plainBodySha256": "33f280ea9d655c03a56098e05ad505649bf6026ff384d29e4744bd7db5cdae7e",
       "sourceTextSha256": "052e993aa4f9c296f2a90790a04c19adcbedca2b651fbcbb439944070bfc2892"
@@ -4591,7 +4879,7 @@
         "title": "ロシアがウズベク3ハン国へ進出する",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -4634,6 +4922,7 @@
       "sourcePages": [
         138
       ],
+      "contextRegions": [],
       "htmlBodySha256": "a5162e4ea60fbbc6591e1debc738e65444448ef7273a434d6206e867c5c09e3b",
       "plainBodySha256": "acb33f106ecc63ae6774224ff12de35094ecca7549c6deca660ce46c625263a5",
       "sourceTextSha256": "b1040df990ce7743e733cb671b7306b0c5c42d10bc59afd9d6fe9edc41a47fcb"
@@ -4708,6 +4997,7 @@
       "sourcePages": [
         138
       ],
+      "contextRegions": [],
       "htmlBodySha256": "b786898615b71f182ea5c4720784b30dee2f40a0deb530c0efb054e9aecb1c05",
       "plainBodySha256": "18c45189cc34340294d0dfb834af42c7a8ed6f28d5548c41a8ece49fc6d1b853",
       "sourceTextSha256": "1558c91639ad1a07c1ba7b4f06662f6231ba15c25737d76337860d86f3ae0e78"
@@ -4776,6 +5066,7 @@
       "sourcePages": [
         138
       ],
+      "contextRegions": [],
       "htmlBodySha256": "d44d844bb14e627fc7d7634b55334536746c51482ec4de08c4abd9cf0e0a60fb",
       "plainBodySha256": "d8989f4d94958667dd8fcf6e119cdeaa0deb6e587b40fb1d49cfe62a0e2985a7",
       "sourceTextSha256": "e44d84c186a4902ed827f8aaba2e9f25dad5ddd0700dae1ee49073c06b7d22b2"
@@ -4803,7 +5094,7 @@
         "title": "インド側からの侵攻と第2次アフガン戦争",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -4838,6 +5129,7 @@
       "sourcePages": [
         138
       ],
+      "contextRegions": [],
       "htmlBodySha256": "fe5ed030b976cd8d08edc5b598d482dca20f3df51bb3f3e8f20b288c3be47e2c",
       "plainBodySha256": "a38d53eb3aa0c101c28294ab0dc77677f16e05df63706b3398b7b3e45cb5c31e",
       "sourceTextSha256": "817b4b525e9785a4c595d4015b599fe80857932bf87385da870b12c7a09dbe5e"
@@ -4852,7 +5144,7 @@
         "title": "日露戦争の影響とイランの立憲要求",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -4888,6 +5180,7 @@
         138,
         139
       ],
+      "contextRegions": [],
       "htmlBodySha256": "5b9151adfba08c548215f409779654674a32f2db18fb21eb1ab443cfde4b727c",
       "plainBodySha256": "06e978c589f2e09eaa2afe47be6e125d8045e1fd3addb24ddaf87c01ab1749f7",
       "sourceTextSha256": "89f6bca39963e8060d3cd02ec2c189017bb8ff5e40c88b7778b99244ce37c3a2"
@@ -4916,7 +5209,7 @@
         "title": "テヘランのストライキと公使館の立てこもり",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -4960,6 +5253,17 @@
         138,
         139
       ],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-443",
+          "lines": [
+            443,
+            459
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "a7208991abeb5c6b0a9fd785e1bb6e029a9c5f1a03f7ff7ee71feac20bdb6b1b",
       "plainBodySha256": "f367ce061d40bba1850e97a582e724a9907f30584a9afc2b66d6ecfd14319516",
       "sourceTextSha256": "58f3f61a7351f452ac29970d63731ae4c0eee71d5c84e8e3d87711b9a8df3f37"
@@ -4974,7 +5278,7 @@
         "title": "1906年：憲法と国民議会の成立",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -5009,6 +5313,7 @@
       "sourcePages": [
         139
       ],
+      "contextRegions": [],
       "htmlBodySha256": "9b75b0a8c57e15e361928997dbbfdbd3505ebe8484f10f7a413018c74d280c3e",
       "plainBodySha256": "5bf41ba2ace082eacd1a81e7f24715c79c0e421aaa7b96de091bda66cd226701",
       "sourceTextSha256": "89d134b4296864739ea5772bf85f113d1b68c46c05440433a11ce464f92e9a9e"
@@ -5023,7 +5328,7 @@
         "title": "英露協商と英国の黙認",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -5066,6 +5371,7 @@
       "sourcePages": [
         139
       ],
+      "contextRegions": [],
       "htmlBodySha256": "9945193f183e8c07eb630b6d86941a820974272d050a0dc8455cc4ce47848112",
       "plainBodySha256": "7e6ce94c51fabcc8aaac3cdf3bf655101109c5e2dde3f01e2aac789a558b57b9",
       "sourceTextSha256": "c3790646274ebb208660710730944495a8297020276926e404588b40c9bd3dcb"
@@ -5080,7 +5386,7 @@
         "title": "シャーのクーデタと議会解散",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -5115,6 +5421,16 @@
       "sourcePages": [
         139
       ],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-461",
+          "lines": [
+            461
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "cdd5f6670742fef6fe888a7dbc4160f5325f59ca23f9906c1b1472322d787097",
       "plainBodySha256": "aaa8db4bf27f42339534e21d50c4a64eaebc94e031337e74dde2eb6fe177b7ea",
       "sourceTextSha256": "5624ef31a5137cc81afe94306a3d08b690e682c7d4142810aa41d22f88f2f9a4"
@@ -5129,7 +5445,7 @@
         "title": "1911年：ロシア軍事介入で議会閉鎖",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -5172,6 +5488,16 @@
       "sourcePages": [
         139
       ],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-461",
+          "lines": [
+            461
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "htmlBodySha256": "66cc399852975e7cdc4296a4a698fcb00f3bd86cecd700598d49b8d8bf183abd",
       "plainBodySha256": "cfd12e173e20bdcaf5c038f1858f7c611cb201dee08b45f0a2f099c5e913ae19",
       "sourceTextSha256": "33a4d6878df39690b1a1987020615679ab4895d89306520242498add2d856e24"
@@ -5186,7 +5512,7 @@
         "title": "年号の確認と今回の結び",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -5221,6 +5547,7 @@
       "sourcePages": [
         139
       ],
+      "contextRegions": [],
       "htmlBodySha256": "981dbfcfa4c19d158aea6f02ed8ebee62868be1f88fa8718a2bf5cc8c80a0f80",
       "plainBodySha256": "981dbfcfa4c19d158aea6f02ed8ebee62868be1f88fa8718a2bf5cc8c80a0f80",
       "sourceTextSha256": "31fb1b5fa577e37454e7a0698a23325a1315e35036cbd451e53b9d8d81d360fc"
@@ -5235,7 +5562,7 @@
         "title": "次回のインドと東南アジアへ",
         "groups": [
           {
-            "label": "改革を求める人びとと社会",
+            "label": "人びとと社会（模式的な参照）",
             "figures": [
               {
                 "image": "ottoman/ottoman-resident.png",
@@ -5270,6 +5597,7 @@
       "sourcePages": [
         139
       ],
+      "contextRegions": [],
       "htmlBodySha256": "87f81c9382ea6c9bbeb164a0596ecaec8e8af71f3cf7e1773619c9e6b308f1ec",
       "plainBodySha256": "a00a12aa0222e9b2f34553cd690de958245ab69d6398bbdad957e46f67817921",
       "sourceTextSha256": "93a544d23db1f95faa6ad00927f36a201b4e17ae78a836a7534e1886c64c9a5f"

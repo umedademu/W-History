@@ -36,6 +36,7 @@ export const modernEdition = {
         45
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "アジア",
@@ -131,6 +132,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ヨーロッパ",
@@ -240,6 +242,7 @@ export const modernEdition = {
         45
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "中国",
@@ -325,6 +328,7 @@ export const modernEdition = {
         55
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ヨーロッパ",
@@ -436,6 +440,7 @@ export const modernEdition = {
       "pins": [
         "ウィーン"
       ],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -513,6 +518,7 @@ export const modernEdition = {
         58
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -608,6 +614,7 @@ export const modernEdition = {
       "pins": [
         "黒海"
       ],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ロシア",
@@ -685,6 +692,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -764,6 +772,7 @@ export const modernEdition = {
         45
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -821,13 +830,33 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        25,
+        33,
+        39,
+        45
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-57",
+          "lines": [
+            57,
+            63
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -874,17 +903,36 @@ export const modernEdition = {
       },
       "frame": [
         7,
-        43,
-        21,
+        33,
+        39,
         55
       ],
       "pins": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-57",
+          "lines": [
+            57,
+            63
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "tags": [
         {
           "text": "ヨーロッパ",
           "at": [
             14,
             49
+          ],
+          "kind": "region"
+        },
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
           ],
           "kind": "region"
         }
@@ -940,6 +988,7 @@ export const modernEdition = {
         47
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -1017,6 +1066,7 @@ export const modernEdition = {
         60
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "エジプト",
@@ -1088,6 +1138,7 @@ export const modernEdition = {
       "pins": [
         "カイロ"
       ],
+      "contextRegions": [],
       "tags": [
         {
           "text": "エジプト",
@@ -1157,6 +1208,7 @@ export const modernEdition = {
         33
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "エジプト",
@@ -1214,16 +1266,34 @@ export const modernEdition = {
       "frame": [
         23,
         10,
-        37,
-        22
+        38,
+        33
       ],
       "pins": [],
+      "contextRegions": [
+        {
+          "name": "エジプト",
+          "paragraph": "modern-07-111",
+          "lines": [
+            111
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "tags": [
         {
           "text": "スーダン",
           "at": [
             30,
             16
+          ],
+          "kind": "region"
+        },
+        {
+          "text": "エジプト",
+          "at": [
+            31,
+            27
           ],
           "kind": "region"
         }
@@ -1246,7 +1316,7 @@ export const modernEdition = {
     },
     {
       "id": "modern-c02-l07-p01-017",
-      "title": "ギリシアとワッハーブ王国への支援",
+      "title": "オスマン帝国への支援とワッハーブ王国征服",
       "body": [
         "ここからは<strong class=\"source-bold\">東方問題</strong>（<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\"><strong class=\"source-bold\">第5回</strong></span> <span data-source-color=\"white\" data-source-background=\"green\" style=\"color:#ffffff;background-color:#859476\"><strong class=\"source-bold\">➜P.95</strong></span>）のところともあわせて見てみてね。<span data-source-color=\"red\" style=\"color:#e52715\"><strong class=\"source-red-bold\">ギリシア独立戦争</strong></span>だけではなく、アラビア半島の<span data-source-color=\"red\" style=\"color:#e52715\"><strong class=\"source-red-bold\">ワッハーブ運動</strong></span>の<ruby>鎮圧<rt>ちんあつ</rt></ruby>に苦しんでいた<span data-source-color=\"red\" style=\"color:#e52715\"><strong class=\"source-red-bold\">オスマン帝国</strong></span>（<span data-source-color=\"red\" style=\"color:#e52715\"><strong class=\"source-red-bold\">トルコ</strong></span>）は、軍の近代化に成功している<strong class=\"source-bold\">ムハンマド＝アリーに支援を要請</strong>し、かわりに<strong class=\"source-bold\">シリア<ruby>割譲<rt>かつじょう</rt></ruby>を約束</strong>したよね。ムハンマド＝アリーは<span data-source-color=\"red\" style=\"color:#e52715\"><strong class=\"source-red-bold\">ワッハーブ王国</strong></span>を征服したけど、ギリシア独立戦争では勝てなかったんだ。"
       ],
@@ -1279,6 +1349,7 @@ export const modernEdition = {
         45
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "アラビア半島",
@@ -1326,11 +1397,11 @@ export const modernEdition = {
       "props": [],
       "routes": [],
       "rivers": [],
-      "mapHeading": "ギリシアとワッハーブ王国への支援",
-      "before": "ギリシアとワッハーブ王国への支援",
-      "after": "ギリシアとワッハーブ王国への支援",
+      "mapHeading": "オスマン帝国への支援とワッハーブ王国征服",
+      "before": "オスマン帝国への支援とワッハーブ王国征服",
+      "after": "オスマン帝国への支援とワッハーブ王国征服",
       "facts": [
-        "ギリシアとワッハーブ王国への支援"
+        "オスマン帝国への支援とワッハーブ王国征服"
       ],
       "year": "16〜19世紀",
       "kicker": "オスマン帝国の衰退",
@@ -1372,6 +1443,7 @@ export const modernEdition = {
         60
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "シリア",
@@ -1465,6 +1537,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "エジプト",
@@ -1574,6 +1647,7 @@ export const modernEdition = {
         60
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "シリア",
@@ -1659,6 +1733,7 @@ export const modernEdition = {
         55
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -1738,6 +1813,7 @@ export const modernEdition = {
         45
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -1801,13 +1877,32 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        25,
+        33,
+        39,
+        45
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-125",
+          "lines": [
+            125
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -1861,6 +1956,7 @@ export const modernEdition = {
         60
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -1933,11 +2029,22 @@ export const modernEdition = {
       },
       "frame": [
         -9,
-        41,
-        9,
+        33,
+        39,
         60
       ],
       "pins": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-127",
+          "lines": [
+            127,
+            133
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "tags": [
         {
           "text": "イギリス",
@@ -1952,6 +2059,14 @@ export const modernEdition = {
           "at": [
             2,
             47
+          ],
+          "kind": "region"
+        },
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
           ],
           "kind": "region"
         }
@@ -2001,13 +2116,33 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        25,
+        33,
+        39,
+        45
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-127",
+          "lines": [
+            127,
+            133
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -2054,17 +2189,36 @@ export const modernEdition = {
       },
       "frame": [
         16,
-        37,
-        30,
+        33,
+        39,
         49
       ],
       "pins": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-127",
+          "lines": [
+            127,
+            133
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "tags": [
         {
           "text": "バルカン半島",
           "at": [
             23,
             43
+          ],
+          "kind": "region"
+        },
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
           ],
           "kind": "region"
         }
@@ -2131,6 +2285,7 @@ export const modernEdition = {
         60
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -2216,6 +2371,7 @@ export const modernEdition = {
         60
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -2285,6 +2441,7 @@ export const modernEdition = {
         55
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ヨーロッパ",
@@ -2348,13 +2505,32 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        25,
+        33,
+        39,
+        45
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-191",
+          "lines": [
+            191
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -2406,6 +2582,7 @@ export const modernEdition = {
         45
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -2469,13 +2646,32 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        25,
+        33,
+        39,
+        45
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-211",
+          "lines": [
+            211
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -2521,13 +2717,32 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        25,
+        33,
+        39,
+        45
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-211",
+          "lines": [
+            211
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -2573,13 +2788,32 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        25,
+        33,
+        39,
+        45
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-217",
+          "lines": [
+            217
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -2631,6 +2865,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "トルコ",
@@ -2700,6 +2935,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -2801,6 +3037,7 @@ export const modernEdition = {
         49
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ブルガリア",
@@ -2873,12 +3110,22 @@ export const modernEdition = {
       },
       "frame": [
         7,
-        35.01,
-        35.980000000000004,
+        33,
+        39,
         55
       ],
       "pins": [
         "イスタンブル"
+      ],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-221",
+          "lines": [
+            221
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
       ],
       "tags": [
         {
@@ -2886,6 +3133,14 @@ export const modernEdition = {
           "at": [
             14,
             49
+          ],
+          "kind": "region"
+        },
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
           ],
           "kind": "region"
         }
@@ -2941,6 +3196,7 @@ export const modernEdition = {
         55
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -3005,14 +3261,33 @@ export const modernEdition = {
       },
       "frame": [
         21.98,
-        35.01,
-        35.980000000000004,
+        33,
+        39,
         47.01
       ],
       "pins": [
         "イスタンブル"
       ],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-221",
+          "lines": [
+            221
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -3064,6 +3339,7 @@ export const modernEdition = {
         55
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -3127,13 +3403,32 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        25,
+        33,
+        39,
+        45
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-225",
+          "lines": [
+            225
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -3187,6 +3482,7 @@ export const modernEdition = {
       "pins": [
         "パリ"
       ],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ロシア",
@@ -3248,6 +3544,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "アジア",
@@ -3343,13 +3640,32 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        25,
+        33,
+        39,
+        45
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-286",
+          "lines": [
+            286
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -3404,6 +3720,7 @@ export const modernEdition = {
         "パリ",
         "サロニカ"
       ],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -3484,11 +3801,21 @@ export const modernEdition = {
       },
       "frame": [
         -9,
-        48,
+        33,
         44,
         63
       ],
       "pins": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-286",
+          "lines": [
+            286
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "tags": [
         {
           "text": "ロシア",
@@ -3503,6 +3830,14 @@ export const modernEdition = {
           "at": [
             -2,
             54
+          ],
+          "kind": "region"
+        },
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
           ],
           "kind": "region"
         }
@@ -3552,13 +3887,32 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        25,
+        33,
+        39,
+        45
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "オスマン帝国",
+          "paragraph": "modern-07-286",
+          "lines": [
+            286
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "オスマン帝国",
+          "at": [
+            32,
+            39
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -3610,6 +3964,7 @@ export const modernEdition = {
         45
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -3673,6 +4028,7 @@ export const modernEdition = {
         53.5
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -3762,6 +4118,7 @@ export const modernEdition = {
       "pins": [
         "トリポリ"
       ],
+      "contextRegions": [],
       "tags": [
         {
           "text": "イタリア",
@@ -3849,6 +4206,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ロシア",
@@ -3950,6 +4308,7 @@ export const modernEdition = {
         55
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -4035,6 +4394,7 @@ export const modernEdition = {
         57
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "オスマン帝国",
@@ -4106,6 +4466,7 @@ export const modernEdition = {
         45
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "トルコ",
@@ -4183,6 +4544,7 @@ export const modernEdition = {
         38
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ガージャール朝",
@@ -4246,6 +4608,7 @@ export const modernEdition = {
         55
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "トルコ",
@@ -4328,6 +4691,7 @@ export const modernEdition = {
         "黒海",
         "カスピ海"
       ],
+      "contextRegions": [],
       "tags": [
         {
           "text": "インド",
@@ -4461,6 +4825,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ロシア",
@@ -4554,6 +4919,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ロシア",
@@ -4631,6 +4997,7 @@ export const modernEdition = {
         60
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "イラン",
@@ -4708,6 +5075,7 @@ export const modernEdition = {
         38
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ガージャール朝",
@@ -4763,13 +5131,32 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        47,
+        26,
+        61,
+        38
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-415",
+          "lines": [
+            415
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "イラン",
+          "at": [
+            54,
+            32
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -4815,13 +5202,32 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        47,
+        26,
+        61,
+        38
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-415",
+          "lines": [
+            415
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "イラン",
+          "at": [
+            54,
+            32
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -4867,13 +5273,32 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        47,
+        26,
+        61,
+        38
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-415",
+          "lines": [
+            415
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "イラン",
+          "at": [
+            54,
+            32
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -4925,9 +5350,10 @@ export const modernEdition = {
         38
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
-          "text": "ペルシア",
+          "text": "イラン",
           "at": [
             54,
             32
@@ -4988,6 +5414,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ガージャール朝",
@@ -5062,17 +5489,36 @@ export const modernEdition = {
       },
       "frame": [
         -9,
-        48,
-        5,
+        26,
+        61,
         60
       ],
       "pins": [],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-421",
+          "lines": [
+            421,
+            427
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "tags": [
         {
           "text": "イギリス",
           "at": [
             -2,
             54
+          ],
+          "kind": "region"
+        },
+        {
+          "text": "イラン",
+          "at": [
+            54,
+            32
           ],
           "kind": "region"
         }
@@ -5128,6 +5574,7 @@ export const modernEdition = {
         60
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ガージャール朝",
@@ -5197,6 +5644,7 @@ export const modernEdition = {
         60
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "イラン",
@@ -5261,14 +5709,33 @@ export const modernEdition = {
       },
       "frame": [
         44.39,
-        29.689999999999998,
-        58.39,
+        26,
+        61,
         41.69
       ],
       "pins": [
         "テヘラン"
       ],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-429",
+          "lines": [
+            429
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "イラン",
+          "at": [
+            54,
+            32
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -5314,13 +5781,32 @@ export const modernEdition = {
         ]
       },
       "frame": [
-        -8,
-        10,
-        78,
-        62
+        47,
+        26,
+        61,
+        38
       ],
       "pins": [],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-429",
+          "lines": [
+            429
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "イラン",
+          "at": [
+            54,
+            32
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -5372,6 +5858,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ロシア",
@@ -5475,6 +5962,7 @@ export const modernEdition = {
       "pins": [
         "イリ地方"
       ],
+      "contextRegions": [],
       "tags": [
         {
           "text": "コーカンド＝ハン国",
@@ -5562,6 +6050,7 @@ export const modernEdition = {
       "pins": [
         "イリ地方"
       ],
+      "contextRegions": [],
       "tags": [
         {
           "text": "ロシア",
@@ -5631,6 +6120,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "インド",
@@ -5742,6 +6232,7 @@ export const modernEdition = {
         45
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "イラン",
@@ -5816,15 +6307,35 @@ export const modernEdition = {
       },
       "frame": [
         44.39,
-        29.689999999999998,
-        58.39,
+        26,
+        61,
         41.69
       ],
       "pins": [
         "テヘラン",
         "イギリス公使館"
       ],
-      "tags": [],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-443",
+          "lines": [
+            443,
+            459
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
+      "tags": [
+        {
+          "text": "イラン",
+          "at": [
+            54,
+            32
+          ],
+          "kind": "region"
+        }
+      ],
       "zones": [],
       "actors": [],
       "props": [],
@@ -5876,6 +6387,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "イラン",
@@ -5953,6 +6465,7 @@ export const modernEdition = {
         63
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "イギリス",
@@ -6025,11 +6538,21 @@ export const modernEdition = {
       },
       "frame": [
         -9,
-        48,
-        44,
+        26,
+        61,
         63
       ],
       "pins": [],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-461",
+          "lines": [
+            461
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "tags": [
         {
           "text": "イギリス",
@@ -6044,6 +6567,14 @@ export const modernEdition = {
           "at": [
             37,
             57
+          ],
+          "kind": "region"
+        },
+        {
+          "text": "イラン",
+          "at": [
+            54,
+            32
           ],
           "kind": "region"
         }
@@ -6094,17 +6625,35 @@ export const modernEdition = {
       },
       "frame": [
         30,
-        51,
-        44,
+        26,
+        61,
         63
       ],
       "pins": [],
+      "contextRegions": [
+        {
+          "name": "イラン",
+          "paragraph": "modern-07-461",
+          "lines": [
+            461
+          ],
+          "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+        }
+      ],
       "tags": [
         {
           "text": "ロシア",
           "at": [
             37,
             57
+          ],
+          "kind": "region"
+        },
+        {
+          "text": "イラン",
+          "at": [
+            54,
+            32
           ],
           "kind": "region"
         }
@@ -6160,6 +6709,7 @@ export const modernEdition = {
         38
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "西アジア",
@@ -6221,6 +6771,7 @@ export const modernEdition = {
         55
       ],
       "pins": [],
+      "contextRegions": [],
       "tags": [
         {
           "text": "インド",
