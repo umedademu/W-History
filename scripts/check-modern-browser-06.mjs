@@ -142,7 +142,7 @@ async function checkMotion(browser,output,errors) {
       assert.equal(snapshot.movingPoints,0,scene.id+': 情報線へ動く点を付けない');
       assert.equal(snapshot.arrows,scene.routes.length,scene.id+': 情報線へ方向矢印や補助移動線を付けない');
       for(const route of snapshot.information){assert.equal(route.label,'電信の情報接続を示す線');assert.equal(route.dash,'4 4');assert.equal(route.mask,null);assert.equal(route.offset,null);assert.equal(route.transform,null);assert.ok(route.d);}
-      for(const item of items){const actual=snapshot.items.find(row=>row.name===item.name),before=start.items.find(row=>row.name===item.name);assert.ok(actual&&before);assert.equal(actual.key,item.image);assert.equal(actual.src,artworkFile(item.image));assert.equal(actual.transform,before.transform,scene.id+': 本人・機械の位置を変えない');assert.equal(actual.walking,false);assert.ok(actual.loaded);assert.equal(actual.bubble,item.bubble??'');}
+      for(const item of items){const actual=snapshot.items.find(row=>row.name===item.name),before=start.items.find(row=>row.name===item.name);assert.ok(actual&&before);assert.equal(actual.key,item.image);assert.equal(actual.src,artworkFile(item.image));assert.equal(actual.transform,before.transform,scene.id+': 本人・機械の位置を変えない');assert.equal(actual.walking,false);assert.ok(actual.loaded);assert.equal(actual.bubble,snapshot.phase==='complete'?(item.bubble??''):'',scene.id+': 原文に沿う説明は再生完了時に表示');}
       assert.deepEqual(snapshot.figures,start.figures,scene.id+': 兄弟・夫妻・参考本人の絵を変更しない');
       assert.deepEqual(snapshot.information,start.information,scene.id+': 通信の情報接続線を静止のまま保持する');
     }
@@ -234,13 +234,15 @@ try {
           for(const [shown,wanted] of actual.decoration)assert.equal(shown,wanted,`${expected.id}: 原資料の装飾`);
           assert.ok(actual.longitude>=32-1e-6&&actual.latitude>=24-1e-6,'共通の地理図拡大上限');
           const plan=modernVisualScenePlans[expected.id],notes=[...(plan.textOnlyPeople??[]),...(plan.excludedPersonNames??[])];
-          const names=namesForScene(expected,expected.title+'。'+expected.plainBody.join('')).filter(name=>name.kind!=='concept'&&!notes.some(note=>normalizeMapName(note.name)===name.key));
+          const narrativeNames=namesForScene(expected,expected.title+'。'+expected.plainBody.join(''));
+          const names=narrativeNames.filter(name=>name.kind!=='concept'&&!notes.some(note=>normalizeMapName(note.name)===name.key));
           const shown=[...actual.shown,...actual.figures.map(figure=>figure.name)].map(normalizeMapName);
           const items=[...(expected.props??[]),...(expected.actors??[])],illustration=modernIllustrationFor(expected),figures=(illustration?.groups??[]).flatMap(group=>group.figures??[]);
           const missing=names.filter(name=>!shown.some(text=>text.includes(name.key))&&!(plan.personAliases??[]).some(alias=>normalizeMapName(alias.name)===name.key&&[...items,...figures].some(item=>item.identity===alias.identity))).map(name=>name.name);
           // 団体・会社は所在地や本人の表示を要求しないが、本文と同じ団体の別表記は許可する。
           const concepts=namesForScene(expected,expected.title+'。'+expected.plainBody.join('')).filter(name=>name.kind==='concept');
-          const families=new Set([...names,...concepts].map(name=>family(name)));
+          // 名前を文字で示す本人も、本文に登場する本人の集合には含める。
+          const families=new Set(narrativeNames.map(name=>family(name)));
           const preceding=modernEdition[volume.id][i-1],precedingNames=preceding?namesForScene(preceding,preceding.title+'。'+preceding.plainBody.join('')).filter(name=>name.kind!=='person'):[];
           const locationFamilies=new Set([...names,...concepts,...precedingNames].map(name=>family(name)));
           const narrativeKey=normalizeMapName(expected.title+'。'+expected.plainBody.join(''));
@@ -297,7 +299,7 @@ try {
             assert.equal(await page.locator('#source-reference').getAttribute('open'),null,expected.id+': 原書参照を閉じられる');
           }
           if(actual.diagram)seenDiagrams.add(actual.diagram);
-          if(i===0||actual.diagram&&theme==='light')await page.screenshot({path:path.join(output,`${expected.id}-${width}-${theme}.png`),fullPage:true});
+          if(i===0||actual.diagram&&theme==='light'){await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:path.join(output,`${expected.id}-${width}-${theme}.png`),fullPage:true});}
           inspected++;
         }
         console.log(`幅${width}・${theme}・第${volume.part}節の全${scenes.length}場面を確認しました。`);
