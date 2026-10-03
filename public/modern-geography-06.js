@@ -1,0 +1,1786 @@
+// 国の関係・実際の所在地と、作品の題材・文化的模範を区別する。本人の固定所在地は補わない。
+export const modernNameCatalog = [
+  {
+    "name": "ヨーロッパ",
+    "key": "ヨーロッパ",
+    "kind": "region",
+    "points": [
+      [
+        14,
+        49
+      ]
+    ],
+    "family": "ヨーロッパ"
+  },
+  {
+    "name": "フランス",
+    "key": "フランス",
+    "kind": "region",
+    "points": [
+      [
+        2,
+        47
+      ]
+    ],
+    "family": "フランス"
+  },
+  {
+    "name": "ドイツ",
+    "key": "ドイツ",
+    "kind": "region",
+    "points": [
+      [
+        10,
+        51
+      ]
+    ],
+    "family": "ドイツ"
+  },
+  {
+    "name": "プロイセン",
+    "key": "プロイセン",
+    "kind": "region",
+    "points": [
+      [
+        13,
+        52
+      ]
+    ],
+    "family": "プロイセン"
+  },
+  {
+    "name": "イギリス",
+    "key": "イギリス",
+    "kind": "region",
+    "points": [
+      [
+        -2,
+        54
+      ]
+    ],
+    "family": "イギリス"
+  },
+  {
+    "name": "ポーランド",
+    "key": "ポーランド",
+    "kind": "region",
+    "points": [
+      [
+        19,
+        52
+      ]
+    ],
+    "family": "ポーランド"
+  },
+  {
+    "name": "ロシア",
+    "key": "ロシア",
+    "kind": "region",
+    "points": [
+      [
+        37,
+        57
+      ]
+    ],
+    "family": "ロシア"
+  },
+  {
+    "name": "チェコ",
+    "key": "チェコ",
+    "kind": "region",
+    "points": [
+      [
+        15,
+        50
+      ]
+    ],
+    "family": "チェコ"
+  },
+  {
+    "name": "アメリカ",
+    "key": "アメリカ",
+    "kind": "region",
+    "points": [
+      [
+        -98,
+        39
+      ]
+    ],
+    "family": "アメリカ"
+  },
+  {
+    "name": "ノルウェー",
+    "key": "ノルウェー",
+    "kind": "region",
+    "points": [
+      [
+        9,
+        62
+      ]
+    ],
+    "family": "ノルウェー"
+  },
+  {
+    "name": "スウェーデン",
+    "key": "スウェーデン",
+    "kind": "region",
+    "points": [
+      [
+        15,
+        62
+      ]
+    ],
+    "family": "スウェーデン"
+  },
+  {
+    "name": "北欧",
+    "key": "北欧",
+    "kind": "region",
+    "points": [
+      [
+        14,
+        61
+      ]
+    ],
+    "family": "北欧"
+  },
+  {
+    "name": "オランダ",
+    "key": "オランダ",
+    "kind": "region",
+    "points": [
+      [
+        5,
+        52
+      ]
+    ],
+    "family": "オランダ"
+  },
+  {
+    "name": "日本",
+    "key": "日本",
+    "kind": "region",
+    "points": [
+      [
+        138,
+        37
+      ]
+    ],
+    "family": "日本"
+  },
+  {
+    "name": "インド",
+    "key": "インド",
+    "kind": "region",
+    "points": [
+      [
+        77,
+        22
+      ]
+    ],
+    "family": "インド"
+  },
+  {
+    "name": "デンマーク",
+    "key": "デンマーク",
+    "kind": "region",
+    "points": [
+      [
+        10,
+        56
+      ]
+    ],
+    "family": "デンマーク"
+  },
+  {
+    "name": "ギリシア",
+    "key": "ギリシア",
+    "kind": "region",
+    "points": [
+      [
+        23.5,
+        39
+      ]
+    ],
+    "family": "ギリシア"
+  },
+  {
+    "name": "オーストリア",
+    "key": "オーストリア",
+    "kind": "region",
+    "points": [
+      [
+        14,
+        47.5
+      ]
+    ],
+    "family": "オーストリア"
+  },
+  {
+    "name": "イタリア",
+    "key": "イタリア",
+    "kind": "region",
+    "points": [
+      [
+        12,
+        43
+      ]
+    ],
+    "family": "イタリア"
+  },
+  {
+    "name": "ルーブル美術館",
+    "key": "ルーブル美術館",
+    "kind": "place",
+    "points": [
+      [
+        2.336,
+        48.861
+      ]
+    ],
+    "family": "ルーブル美術館"
+  },
+  {
+    "name": "ボン",
+    "key": "ボン",
+    "kind": "place",
+    "points": [
+      [
+        7.1,
+        50.74
+      ]
+    ],
+    "family": "ボン"
+  },
+  {
+    "name": "パリ",
+    "key": "パリ",
+    "kind": "place",
+    "points": [
+      [
+        2.35,
+        48.86
+      ]
+    ],
+    "family": "パリ"
+  },
+  {
+    "name": "フォンテーヌブローの森",
+    "key": "フォンテーヌブローの森",
+    "kind": "place",
+    "points": [
+      [
+        2.62,
+        48.4
+      ]
+    ],
+    "family": "フォンテーヌブローの森"
+  },
+  {
+    "name": "バルビゾン村",
+    "key": "バルビゾン村",
+    "kind": "place",
+    "points": [
+      [
+        2.607,
+        48.444
+      ]
+    ],
+    "family": "バルビゾン村"
+  },
+  {
+    "name": "ロンドン",
+    "key": "ロンドン",
+    "kind": "place",
+    "points": [
+      [
+        -0.128,
+        51.507
+      ]
+    ],
+    "family": "ロンドン"
+  },
+  {
+    "name": "ルアーブル港",
+    "key": "ルアーブル港",
+    "kind": "place",
+    "points": [
+      [
+        0.107,
+        49.49
+      ]
+    ],
+    "family": "ルアーブル港"
+  },
+  {
+    "name": "モンマルトル",
+    "key": "モンマルトル",
+    "kind": "place",
+    "points": [
+      [
+        2.34,
+        48.886
+      ]
+    ],
+    "family": "モンマルトル"
+  },
+  {
+    "name": "サント＝ヴィクトワール山",
+    "key": "サントヴィクトワール山",
+    "kind": "place",
+    "points": [
+      [
+        5.611,
+        43.539
+      ]
+    ],
+    "family": "サント＝ヴィクトワール山"
+  },
+  {
+    "name": "タヒチ",
+    "key": "タヒチ",
+    "kind": "place",
+    "points": [
+      [
+        -149.4,
+        -17.65
+      ]
+    ],
+    "family": "タヒチ"
+  },
+  {
+    "name": "ワシントン",
+    "key": "ワシントン",
+    "kind": "place",
+    "points": [
+      [
+        -77.036,
+        38.907
+      ]
+    ],
+    "family": "ワシントン"
+  },
+  {
+    "name": "ボルティモア",
+    "key": "ボルティモア",
+    "kind": "place",
+    "points": [
+      [
+        -76.612,
+        39.29
+      ]
+    ],
+    "family": "ボルティモア"
+  },
+  {
+    "name": "ドーヴァー海峡",
+    "key": "ドーヴァー海峡",
+    "kind": "place",
+    "points": [
+      [
+        1.4,
+        51.03
+      ]
+    ],
+    "family": "ドーヴァー海峡"
+  },
+  {
+    "name": "大西洋",
+    "key": "大西洋",
+    "kind": "place",
+    "points": [
+      [
+        -35,
+        35
+      ]
+    ],
+    "family": "大西洋"
+  },
+  {
+    "name": "ラシーヌ",
+    "key": "ラシーヌ",
+    "kind": "person",
+    "points": [],
+    "family": "ラシーヌ"
+  },
+  {
+    "name": "モリエール",
+    "key": "モリエール",
+    "kind": "person",
+    "points": [],
+    "family": "モリエール"
+  },
+  {
+    "name": "ゲーテ",
+    "key": "ゲーテ",
+    "kind": "person",
+    "points": [],
+    "family": "ゲーテ"
+  },
+  {
+    "name": "シラー",
+    "key": "シラー",
+    "kind": "person",
+    "points": [],
+    "family": "シラー"
+  },
+  {
+    "name": "ナポレオン1世",
+    "key": "ナポレオン1世",
+    "kind": "person",
+    "points": [],
+    "family": "ナポレオン1世"
+  },
+  {
+    "name": "ナポレオン",
+    "key": "ナポレオン",
+    "kind": "person",
+    "points": [],
+    "family": "ナポレオン1世"
+  },
+  {
+    "name": "ダヴィド",
+    "key": "ダヴィド",
+    "kind": "person",
+    "points": [],
+    "family": "ダヴィド"
+  },
+  {
+    "name": "アングル",
+    "key": "アングル",
+    "kind": "person",
+    "points": [],
+    "family": "アングル"
+  },
+  {
+    "name": "ハイドン",
+    "key": "ハイドン",
+    "kind": "person",
+    "points": [],
+    "family": "ハイドン"
+  },
+  {
+    "name": "モーツァルト",
+    "key": "モーツァルト",
+    "kind": "person",
+    "points": [],
+    "family": "モーツァルト"
+  },
+  {
+    "name": "マリアントワネット",
+    "key": "マリアントワネット",
+    "kind": "person",
+    "points": [],
+    "family": "マリアントワネット"
+  },
+  {
+    "name": "ベートーヴェン",
+    "key": "ベートーヴェン",
+    "kind": "person",
+    "points": [],
+    "family": "ベートーヴェン"
+  },
+  {
+    "name": "ドラクロワ",
+    "key": "ドラクロワ",
+    "kind": "person",
+    "points": [],
+    "family": "ドラクロワ"
+  },
+  {
+    "name": "ショパン",
+    "key": "ショパン",
+    "kind": "person",
+    "points": [],
+    "family": "ショパン"
+  },
+  {
+    "name": "ヴァーグナー",
+    "key": "ヴァーグナー",
+    "kind": "person",
+    "points": [],
+    "family": "ヴァーグナー"
+  },
+  {
+    "name": "ワグナー",
+    "key": "ワグナー",
+    "kind": "person",
+    "points": [],
+    "family": "ヴァーグナー"
+  },
+  {
+    "name": "チャイコフスキー",
+    "key": "チャイコフスキー",
+    "kind": "person",
+    "points": [],
+    "family": "チャイコフスキー"
+  },
+  {
+    "name": "スメタナ",
+    "key": "スメタナ",
+    "kind": "person",
+    "points": [],
+    "family": "スメタナ"
+  },
+  {
+    "name": "グリム兄弟",
+    "key": "グリム兄弟",
+    "kind": "person",
+    "points": [],
+    "family": "グリム兄弟"
+  },
+  {
+    "name": "ハイネ",
+    "key": "ハイネ",
+    "kind": "person",
+    "points": [],
+    "family": "ハイネ"
+  },
+  {
+    "name": "マルクス",
+    "key": "マルクス",
+    "kind": "person",
+    "points": [],
+    "family": "マルクス"
+  },
+  {
+    "name": "ユーゴー",
+    "key": "ユーゴー",
+    "kind": "person",
+    "points": [],
+    "family": "ユーゴー"
+  },
+  {
+    "name": "ナポレオン3世",
+    "key": "ナポレオン3世",
+    "kind": "person",
+    "points": [],
+    "family": "ナポレオン3世"
+  },
+  {
+    "name": "バイロン",
+    "key": "バイロン",
+    "kind": "person",
+    "points": [],
+    "family": "バイロン"
+  },
+  {
+    "name": "ホイットマン",
+    "key": "ホイットマン",
+    "kind": "person",
+    "points": [],
+    "family": "ホイットマン"
+  },
+  {
+    "name": "シューベルト",
+    "key": "シューベルト",
+    "kind": "person",
+    "points": [],
+    "family": "シューベルト"
+  },
+  {
+    "name": "ノヴァーリス",
+    "key": "ノヴァーリス",
+    "kind": "person",
+    "points": [],
+    "family": "ノヴァーリス"
+  },
+  {
+    "name": "スタール夫人",
+    "key": "スタール夫人",
+    "kind": "person",
+    "points": [],
+    "family": "スタール夫人"
+  },
+  {
+    "name": "ネッケル",
+    "key": "ネッケル",
+    "kind": "person",
+    "points": [],
+    "family": "ネッケル"
+  },
+  {
+    "name": "シャトーブリアン",
+    "key": "シャトーブリアン",
+    "kind": "person",
+    "points": [],
+    "family": "シャトーブリアン"
+  },
+  {
+    "name": "ワーズワース",
+    "key": "ワーズワース",
+    "kind": "person",
+    "points": [],
+    "family": "ワーズワース"
+  },
+  {
+    "name": "スコット",
+    "key": "スコット",
+    "kind": "person",
+    "points": [],
+    "family": "スコット"
+  },
+  {
+    "name": "ホーソン",
+    "key": "ホーソン",
+    "kind": "person",
+    "points": [],
+    "family": "ホーソン"
+  },
+  {
+    "name": "プーシキン",
+    "key": "プーシキン",
+    "kind": "person",
+    "points": [],
+    "family": "プーシキン"
+  },
+  {
+    "name": "ミレー",
+    "key": "ミレー",
+    "kind": "person",
+    "points": [],
+    "family": "ミレー"
+  },
+  {
+    "name": "ドーミエ",
+    "key": "ドーミエ",
+    "kind": "person",
+    "points": [],
+    "family": "ドーミエ"
+  },
+  {
+    "name": "クールベ",
+    "key": "クールベ",
+    "kind": "person",
+    "points": [],
+    "family": "クールベ"
+  },
+  {
+    "name": "プルードン",
+    "key": "プルードン",
+    "kind": "person",
+    "points": [],
+    "family": "プルードン"
+  },
+  {
+    "name": "スタンダール",
+    "key": "スタンダール",
+    "kind": "person",
+    "points": [],
+    "family": "スタンダール"
+  },
+  {
+    "name": "バルザック",
+    "key": "バルザック",
+    "kind": "person",
+    "points": [],
+    "family": "バルザック"
+  },
+  {
+    "name": "ディケンズ",
+    "key": "ディケンズ",
+    "kind": "person",
+    "points": [],
+    "family": "ディケンズ"
+  },
+  {
+    "name": "トゥルゲーネフ",
+    "key": "トゥルゲーネフ",
+    "kind": "person",
+    "points": [],
+    "family": "トゥルゲーネフ"
+  },
+  {
+    "name": "ドストエフスキー",
+    "key": "ドストエフスキー",
+    "kind": "person",
+    "points": [],
+    "family": "ドストエフスキー"
+  },
+  {
+    "name": "トルストイ",
+    "key": "トルストイ",
+    "kind": "person",
+    "points": [],
+    "family": "トルストイ"
+  },
+  {
+    "name": "アレクサンドル2世",
+    "key": "アレクサンドル2世",
+    "kind": "person",
+    "points": [],
+    "family": "アレクサンドル2世"
+  },
+  {
+    "name": "ゾラ",
+    "key": "ゾラ",
+    "kind": "person",
+    "points": [],
+    "family": "ゾラ"
+  },
+  {
+    "name": "モーパッサン",
+    "key": "モーパッサン",
+    "kind": "person",
+    "points": [],
+    "family": "モーパッサン"
+  },
+  {
+    "name": "イプセン",
+    "key": "イプセン",
+    "kind": "person",
+    "points": [],
+    "family": "イプセン"
+  },
+  {
+    "name": "ボードレール",
+    "key": "ボードレール",
+    "kind": "person",
+    "points": [],
+    "family": "ボードレール"
+  },
+  {
+    "name": "ワイルド",
+    "key": "ワイルド",
+    "kind": "person",
+    "points": [],
+    "family": "ワイルド"
+  },
+  {
+    "name": "ヴェルレーヌ",
+    "key": "ヴェルレーヌ",
+    "kind": "person",
+    "points": [],
+    "family": "ヴェルレーヌ"
+  },
+  {
+    "name": "ヴェルヌ",
+    "key": "ヴェルヌ",
+    "kind": "person",
+    "points": [],
+    "family": "ヴェルヌ"
+  },
+  {
+    "name": "ウェルズ",
+    "key": "ウェルズ",
+    "kind": "person",
+    "points": [],
+    "family": "ウェルズ"
+  },
+  {
+    "name": "フロベール",
+    "key": "フロベール",
+    "kind": "person",
+    "points": [],
+    "family": "フロベール"
+  },
+  {
+    "name": "サッカレー",
+    "key": "サッカレー",
+    "kind": "person",
+    "points": [],
+    "family": "サッカレー"
+  },
+  {
+    "name": "チェーホフ",
+    "key": "チェーホフ",
+    "kind": "person",
+    "points": [],
+    "family": "チェーホフ"
+  },
+  {
+    "name": "ストリンドベリ",
+    "key": "ストリンドベリ",
+    "kind": "person",
+    "points": [],
+    "family": "ストリンドベリ"
+  },
+  {
+    "name": "マネ",
+    "key": "マネ",
+    "kind": "person",
+    "points": [],
+    "family": "マネ"
+  },
+  {
+    "name": "モネ",
+    "key": "モネ",
+    "kind": "person",
+    "points": [],
+    "family": "モネ"
+  },
+  {
+    "name": "ルノワール",
+    "key": "ルノワール",
+    "kind": "person",
+    "points": [],
+    "family": "ルノワール"
+  },
+  {
+    "name": "セザンヌ",
+    "key": "セザンヌ",
+    "kind": "person",
+    "points": [],
+    "family": "セザンヌ"
+  },
+  {
+    "name": "ゴーガン",
+    "key": "ゴーガン",
+    "kind": "person",
+    "points": [],
+    "family": "ゴーガン"
+  },
+  {
+    "name": "ゴッホ",
+    "key": "ゴッホ",
+    "kind": "person",
+    "points": [],
+    "family": "ゴッホ"
+  },
+  {
+    "name": "アダム＝スミス",
+    "key": "アダムスミス",
+    "kind": "person",
+    "points": [],
+    "family": "アダム＝スミス"
+  },
+  {
+    "name": "マルサス",
+    "key": "マルサス",
+    "kind": "person",
+    "points": [],
+    "family": "マルサス"
+  },
+  {
+    "name": "リカード",
+    "key": "リカード",
+    "kind": "person",
+    "points": [],
+    "family": "リカード"
+  },
+  {
+    "name": "リスト",
+    "key": "リスト",
+    "kind": "person",
+    "points": [],
+    "family": "リスト"
+  },
+  {
+    "name": "エンゲルス",
+    "key": "エンゲルス",
+    "kind": "person",
+    "points": [],
+    "family": "エンゲルス"
+  },
+  {
+    "name": "ヘーゲル",
+    "key": "ヘーゲル",
+    "kind": "person",
+    "points": [],
+    "family": "ヘーゲル"
+  },
+  {
+    "name": "ランケ",
+    "key": "ランケ",
+    "kind": "person",
+    "points": [],
+    "family": "ランケ"
+  },
+  {
+    "name": "サヴィニー",
+    "key": "サヴィニー",
+    "kind": "person",
+    "points": [],
+    "family": "サヴィニー"
+  },
+  {
+    "name": "ベンサム",
+    "key": "ベンサム",
+    "kind": "person",
+    "points": [],
+    "family": "ベンサム"
+  },
+  {
+    "name": "ジョン＝ステュアート＝ミル",
+    "key": "ジョンステュアートミル",
+    "kind": "person",
+    "points": [],
+    "family": "ジョン＝ステュアート＝ミル"
+  },
+  {
+    "name": "ハーバート＝スペンサー",
+    "key": "ハーバートスペンサー",
+    "kind": "person",
+    "points": [],
+    "family": "ハーバート＝スペンサー"
+  },
+  {
+    "name": "コント",
+    "key": "コント",
+    "kind": "person",
+    "points": [],
+    "family": "コント"
+  },
+  {
+    "name": "ショーペンハウエル",
+    "key": "ショーペンハウエル",
+    "kind": "person",
+    "points": [],
+    "family": "ショーペンハウエル"
+  },
+  {
+    "name": "キェルケゴール",
+    "key": "キェルケゴール",
+    "kind": "person",
+    "points": [],
+    "family": "キェルケゴール"
+  },
+  {
+    "name": "ニーチェ",
+    "key": "ニーチェ",
+    "kind": "person",
+    "points": [],
+    "family": "ニーチェ"
+  },
+  {
+    "name": "ファラデー",
+    "key": "ファラデー",
+    "kind": "person",
+    "points": [],
+    "family": "ファラデー"
+  },
+  {
+    "name": "マイヤー",
+    "key": "マイヤー",
+    "kind": "person",
+    "points": [],
+    "family": "マイヤー"
+  },
+  {
+    "name": "ヘルムホルツ",
+    "key": "ヘルムホルツ",
+    "kind": "person",
+    "points": [],
+    "family": "ヘルムホルツ"
+  },
+  {
+    "name": "ジーメンス",
+    "key": "ジーメンス",
+    "kind": "person",
+    "points": [],
+    "family": "ジーメンス"
+  },
+  {
+    "name": "ダイムラー",
+    "key": "ダイムラー",
+    "kind": "person",
+    "points": [],
+    "family": "ダイムラー"
+  },
+  {
+    "name": "ディーゼル",
+    "key": "ディーゼル",
+    "kind": "person",
+    "points": [],
+    "family": "ディーゼル"
+  },
+  {
+    "name": "レントゲン",
+    "key": "レントゲン",
+    "kind": "person",
+    "points": [],
+    "family": "レントゲン"
+  },
+  {
+    "name": "キュリー夫妻",
+    "key": "キュリー夫妻",
+    "kind": "person",
+    "points": [],
+    "family": "キュリー夫妻"
+  },
+  {
+    "name": "リービヒ",
+    "key": "リービヒ",
+    "kind": "person",
+    "points": [],
+    "family": "リービヒ"
+  },
+  {
+    "name": "パストゥール",
+    "key": "パストゥール",
+    "kind": "person",
+    "points": [],
+    "family": "パストゥール"
+  },
+  {
+    "name": "コッホ",
+    "key": "コッホ",
+    "kind": "person",
+    "points": [],
+    "family": "コッホ"
+  },
+  {
+    "name": "メンデル",
+    "key": "メンデル",
+    "kind": "person",
+    "points": [],
+    "family": "メンデル"
+  },
+  {
+    "name": "ダーウィン",
+    "key": "ダーウィン",
+    "kind": "person",
+    "points": [],
+    "family": "ダーウィン"
+  },
+  {
+    "name": "モース",
+    "key": "モース",
+    "kind": "person",
+    "points": [],
+    "family": "モース"
+  },
+  {
+    "name": "モールス",
+    "key": "モールス",
+    "kind": "person",
+    "points": [],
+    "family": "モース"
+  },
+  {
+    "name": "ベル",
+    "key": "ベル",
+    "kind": "person",
+    "points": [],
+    "family": "ベル"
+  },
+  {
+    "name": "マルコーニ",
+    "key": "マルコーニ",
+    "kind": "person",
+    "points": [],
+    "family": "マルコーニ"
+  },
+  {
+    "name": "ベッセマー",
+    "key": "ベッセマー",
+    "kind": "person",
+    "points": [],
+    "family": "ベッセマー"
+  },
+  {
+    "name": "ノーベル",
+    "key": "ノーベル",
+    "kind": "person",
+    "points": [],
+    "family": "ノーベル"
+  },
+  {
+    "name": "エディソン",
+    "key": "エディソン",
+    "kind": "person",
+    "points": [],
+    "family": "エディソン"
+  },
+  {
+    "name": "古典主義",
+    "key": "古典主義",
+    "kind": "concept",
+    "points": [],
+    "family": "古典主義"
+  },
+  {
+    "name": "ロマン主義",
+    "key": "ロマン主義",
+    "kind": "concept",
+    "points": [],
+    "family": "ロマン主義"
+  },
+  {
+    "name": "写実主義",
+    "key": "写実主義",
+    "kind": "concept",
+    "points": [],
+    "family": "写実主義"
+  },
+  {
+    "name": "自然主義",
+    "key": "自然主義",
+    "kind": "concept",
+    "points": [],
+    "family": "自然主義"
+  },
+  {
+    "name": "印象派",
+    "key": "印象派",
+    "kind": "concept",
+    "points": [],
+    "family": "印象派"
+  },
+  {
+    "name": "ポスト印象派",
+    "key": "ポスト印象派",
+    "kind": "concept",
+    "points": [],
+    "family": "後期印象派"
+  },
+  {
+    "name": "後期印象派",
+    "key": "後期印象派",
+    "kind": "concept",
+    "points": [],
+    "family": "後期印象派"
+  },
+  {
+    "name": "バロック様式",
+    "key": "バロック様式",
+    "kind": "concept",
+    "points": [],
+    "family": "バロック様式"
+  },
+  {
+    "name": "ロココ様式",
+    "key": "ロココ様式",
+    "kind": "concept",
+    "points": [],
+    "family": "ロココ様式"
+  },
+  {
+    "name": "啓蒙思想",
+    "key": "啓蒙思想",
+    "kind": "concept",
+    "points": [],
+    "family": "啓蒙思想"
+  },
+  {
+    "name": "合理主義",
+    "key": "合理主義",
+    "kind": "concept",
+    "points": [],
+    "family": "合理主義"
+  },
+  {
+    "name": "疾風怒濤運動",
+    "key": "疾風怒濤運動",
+    "kind": "concept",
+    "points": [],
+    "family": "疾風怒濤運動"
+  },
+  {
+    "name": "シュトゥルム＝ウント＝ドランク",
+    "key": "シュトゥルムウントドランク",
+    "kind": "concept",
+    "points": [],
+    "family": "シュトゥルム＝ウント＝ドランク"
+  },
+  {
+    "name": "フランス革命",
+    "key": "フランス革命",
+    "kind": "concept",
+    "points": [],
+    "family": "フランス革命"
+  },
+  {
+    "name": "ギリシア独立戦争",
+    "key": "ギリシア独立戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "ギリシア独立戦争"
+  },
+  {
+    "name": "七月革命",
+    "key": "七月革命",
+    "kind": "concept",
+    "points": [],
+    "family": "七月革命"
+  },
+  {
+    "name": "パリ＝コミューン",
+    "key": "パリコミューン",
+    "kind": "concept",
+    "points": [],
+    "family": "パリ＝コミューン"
+  },
+  {
+    "name": "ナロードニキ",
+    "key": "ナロードニキ",
+    "kind": "concept",
+    "points": [],
+    "family": "ナロードニキ"
+  },
+  {
+    "name": "農奴解放",
+    "key": "農奴解放",
+    "kind": "concept",
+    "points": [],
+    "family": "農奴解放"
+  },
+  {
+    "name": "ドレフュス事件",
+    "key": "ドレフュス事件",
+    "kind": "concept",
+    "points": [],
+    "family": "ドレフュス事件"
+  },
+  {
+    "name": "耽美主義",
+    "key": "耽美主義",
+    "kind": "concept",
+    "points": [],
+    "family": "耽美主義"
+  },
+  {
+    "name": "象徴主義",
+    "key": "象徴主義",
+    "kind": "concept",
+    "points": [],
+    "family": "象徴主義"
+  },
+  {
+    "name": "SF小説",
+    "key": "SF小説",
+    "kind": "concept",
+    "points": [],
+    "family": "SF小説"
+  },
+  {
+    "name": "バルビゾン派",
+    "key": "バルビゾン派",
+    "kind": "concept",
+    "points": [],
+    "family": "バルビゾン派"
+  },
+  {
+    "name": "楽劇",
+    "key": "楽劇",
+    "kind": "concept",
+    "points": [],
+    "family": "楽劇"
+  },
+  {
+    "name": "国民楽派",
+    "key": "国民楽派",
+    "kind": "concept",
+    "points": [],
+    "family": "国民楽派"
+  },
+  {
+    "name": "立体派",
+    "key": "立体派",
+    "kind": "concept",
+    "points": [],
+    "family": "立体派"
+  },
+  {
+    "name": "キュビズム",
+    "key": "キュビズム",
+    "kind": "concept",
+    "points": [],
+    "family": "立体派"
+  },
+  {
+    "name": "表現主義",
+    "key": "表現主義",
+    "kind": "concept",
+    "points": [],
+    "family": "表現主義"
+  },
+  {
+    "name": "ジャポニズム",
+    "key": "ジャポニズム",
+    "kind": "concept",
+    "points": [],
+    "family": "ジャポニズム"
+  },
+  {
+    "name": "日本趣味",
+    "key": "日本趣味",
+    "kind": "concept",
+    "points": [],
+    "family": "ジャポニズム"
+  },
+  {
+    "name": "自由主義経済学",
+    "key": "自由主義経済学",
+    "kind": "concept",
+    "points": [],
+    "family": "自由主義経済学"
+  },
+  {
+    "name": "古典派経済学",
+    "key": "古典派経済学",
+    "kind": "concept",
+    "points": [],
+    "family": "古典派経済学"
+  },
+  {
+    "name": "労働価値説",
+    "key": "労働価値説",
+    "kind": "concept",
+    "points": [],
+    "family": "労働価値説"
+  },
+  {
+    "name": "歴史学派経済学",
+    "key": "歴史学派経済学",
+    "kind": "concept",
+    "points": [],
+    "family": "歴史学派経済学"
+  },
+  {
+    "name": "ドイツ関税同盟",
+    "key": "ドイツ関税同盟",
+    "kind": "concept",
+    "points": [],
+    "family": "ドイツ関税同盟"
+  },
+  {
+    "name": "マルクス経済学",
+    "key": "マルクス経済学",
+    "kind": "concept",
+    "points": [],
+    "family": "マルクス経済学"
+  },
+  {
+    "name": "剰余価値説",
+    "key": "剰余価値説",
+    "kind": "concept",
+    "points": [],
+    "family": "剰余価値説"
+  },
+  {
+    "name": "独占資本主義",
+    "key": "独占資本主義",
+    "kind": "concept",
+    "points": [],
+    "family": "独占資本主義"
+  },
+  {
+    "name": "弁証法",
+    "key": "弁証法",
+    "kind": "concept",
+    "points": [],
+    "family": "弁証法"
+  },
+  {
+    "name": "弁証法的唯物論",
+    "key": "弁証法的唯物論",
+    "kind": "concept",
+    "points": [],
+    "family": "弁証法的唯物論"
+  },
+  {
+    "name": "史的唯物論",
+    "key": "史的唯物論",
+    "kind": "concept",
+    "points": [],
+    "family": "史的唯物論"
+  },
+  {
+    "name": "唯物史観",
+    "key": "唯物史観",
+    "kind": "concept",
+    "points": [],
+    "family": "史的唯物論"
+  },
+  {
+    "name": "階級闘争",
+    "key": "階級闘争",
+    "kind": "concept",
+    "points": [],
+    "family": "階級闘争"
+  },
+  {
+    "name": "ブルジョワ革命",
+    "key": "ブルジョワ革命",
+    "kind": "concept",
+    "points": [],
+    "family": "ブルジョワ革命"
+  },
+  {
+    "name": "市民革命",
+    "key": "市民革命",
+    "kind": "concept",
+    "points": [],
+    "family": "ブルジョワ革命"
+  },
+  {
+    "name": "社会主義革命",
+    "key": "社会主義革命",
+    "kind": "concept",
+    "points": [],
+    "family": "社会主義革命"
+  },
+  {
+    "name": "近代歴史学",
+    "key": "近代歴史学",
+    "kind": "concept",
+    "points": [],
+    "family": "近代歴史学"
+  },
+  {
+    "name": "歴史法学",
+    "key": "歴史法学",
+    "kind": "concept",
+    "points": [],
+    "family": "歴史法学"
+  },
+  {
+    "name": "功利主義",
+    "key": "功利主義",
+    "kind": "concept",
+    "points": [],
+    "family": "功利主義"
+  },
+  {
+    "name": "最大多数の最大幸福",
+    "key": "最大多数の最大幸福",
+    "kind": "concept",
+    "points": [],
+    "family": "最大多数の最大幸福"
+  },
+  {
+    "name": "社会改良主義",
+    "key": "社会改良主義",
+    "kind": "concept",
+    "points": [],
+    "family": "社会改良主義"
+  },
+  {
+    "name": "社会進化論",
+    "key": "社会進化論",
+    "kind": "concept",
+    "points": [],
+    "family": "社会進化論"
+  },
+  {
+    "name": "実証主義",
+    "key": "実証主義",
+    "kind": "concept",
+    "points": [],
+    "family": "実証主義"
+  },
+  {
+    "name": "キリスト教",
+    "key": "キリスト教",
+    "kind": "concept",
+    "points": [],
+    "family": "キリスト教"
+  },
+  {
+    "name": "厭世哲学",
+    "key": "厭世哲学",
+    "kind": "concept",
+    "points": [],
+    "family": "厭世哲学"
+  },
+  {
+    "name": "ペシミズム",
+    "key": "ペシミズム",
+    "kind": "concept",
+    "points": [],
+    "family": "厭世哲学"
+  },
+  {
+    "name": "実存主義",
+    "key": "実存主義",
+    "kind": "concept",
+    "points": [],
+    "family": "実存主義"
+  },
+  {
+    "name": "ニヒリズム",
+    "key": "ニヒリズム",
+    "kind": "concept",
+    "points": [],
+    "family": "ニヒリズム"
+  },
+  {
+    "name": "神は死んだ",
+    "key": "神は死んだ",
+    "kind": "concept",
+    "points": [],
+    "family": "神は死んだ"
+  },
+  {
+    "name": "超人",
+    "key": "超人",
+    "kind": "concept",
+    "points": [],
+    "family": "超人"
+  },
+  {
+    "name": "永劫回帰",
+    "key": "永劫回帰",
+    "kind": "concept",
+    "points": [],
+    "family": "永劫回帰"
+  },
+  {
+    "name": "力への意思",
+    "key": "力への意思",
+    "kind": "concept",
+    "points": [],
+    "family": "力への意思"
+  },
+  {
+    "name": "第1次産業革命",
+    "key": "第1次産業革命",
+    "kind": "concept",
+    "points": [],
+    "family": "第1次産業革命"
+  },
+  {
+    "name": "第2次産業革命",
+    "key": "第2次産業革命",
+    "kind": "concept",
+    "points": [],
+    "family": "第2次産業革命"
+  },
+  {
+    "name": "電磁誘導の法則",
+    "key": "電磁誘導の法則",
+    "kind": "concept",
+    "points": [],
+    "family": "電磁誘導の法則"
+  },
+  {
+    "name": "電磁気学",
+    "key": "電磁気学",
+    "kind": "concept",
+    "points": [],
+    "family": "電磁気学"
+  },
+  {
+    "name": "エネルギー保存の法則",
+    "key": "エネルギー保存の法則",
+    "kind": "concept",
+    "points": [],
+    "family": "エネルギー保存の法則"
+  },
+  {
+    "name": "熱力学",
+    "key": "熱力学",
+    "kind": "concept",
+    "points": [],
+    "family": "熱力学"
+  },
+  {
+    "name": "X放射線",
+    "key": "X放射線",
+    "kind": "concept",
+    "points": [],
+    "family": "X放射線"
+  },
+  {
+    "name": "ラジウム",
+    "key": "ラジウム",
+    "kind": "concept",
+    "points": [],
+    "family": "ラジウム"
+  },
+  {
+    "name": "有機化学",
+    "key": "有機化学",
+    "kind": "concept",
+    "points": [],
+    "family": "有機化学"
+  },
+  {
+    "name": "細菌学",
+    "key": "細菌学",
+    "kind": "concept",
+    "points": [],
+    "family": "細菌学"
+  },
+  {
+    "name": "遺伝の法則",
+    "key": "遺伝の法則",
+    "kind": "concept",
+    "points": [],
+    "family": "遺伝の法則"
+  },
+  {
+    "name": "進化論",
+    "key": "進化論",
+    "kind": "concept",
+    "points": [],
+    "family": "進化論"
+  },
+  {
+    "name": "電信機",
+    "key": "電信機",
+    "kind": "concept",
+    "points": [],
+    "family": "電信機"
+  },
+  {
+    "name": "電話機",
+    "key": "電話機",
+    "kind": "concept",
+    "points": [],
+    "family": "電話機"
+  },
+  {
+    "name": "無線電信",
+    "key": "無線電信",
+    "kind": "concept",
+    "points": [],
+    "family": "無線電信"
+  },
+  {
+    "name": "電信線",
+    "key": "電信線",
+    "kind": "concept",
+    "points": [],
+    "family": "電信線"
+  },
+  {
+    "name": "海底電信ケーブル",
+    "key": "海底電信ケーブル",
+    "kind": "concept",
+    "points": [],
+    "family": "海底電信ケーブル"
+  },
+  {
+    "name": "ダイナマイト",
+    "key": "ダイナマイト",
+    "kind": "concept",
+    "points": [],
+    "family": "ダイナマイト"
+  },
+  {
+    "name": "第1回ノーベル物理学賞",
+    "key": "第1回ノーベル物理学賞",
+    "kind": "concept",
+    "points": [],
+    "family": "第1回ノーベル物理学賞"
+  },
+  {
+    "name": "ノーベル物理学賞",
+    "key": "ノーベル物理学賞",
+    "kind": "concept",
+    "points": [],
+    "family": "第1回ノーベル物理学賞"
+  },
+  {
+    "name": "伊",
+    "key": "伊",
+    "kind": "region",
+    "points": [
+      [
+        12,
+        43
+      ]
+    ],
+    "family": "イタリア"
+  },
+  {
+    "name": "墺",
+    "key": "墺",
+    "kind": "region",
+    "points": [
+      [
+        14,
+        47.5
+      ]
+    ],
+    "family": "オーストリア"
+  },
+  {
+    "name": "若きウェルテルの悩み",
+    "key": "若きウェルテルの悩み",
+    "kind": "concept",
+    "points": [],
+    "family": "若きウェルテルの悩み"
+  },
+  {
+    "name": "ナポレオンの戴冠式",
+    "key": "ナポレオンの戴冠式",
+    "kind": "concept",
+    "points": [],
+    "family": "ナポレオンの戴冠式"
+  },
+  {
+    "name": "キオス島の虐殺",
+    "key": "キオス島の虐殺",
+    "kind": "concept",
+    "points": [],
+    "family": "キオス島の虐殺"
+  },
+  {
+    "name": "ニーベルンゲンの歌",
+    "key": "ニーベルンゲンの歌",
+    "kind": "concept",
+    "points": [],
+    "family": "ニーベルンゲンの歌"
+  },
+  {
+    "name": "ニーベルングの指環",
+    "key": "ニーベルングの指環",
+    "kind": "concept",
+    "points": [],
+    "family": "ニーベルングの指環"
+  },
+  {
+    "name": "ドイツ語辞典",
+    "key": "ドイツ語辞典",
+    "kind": "concept",
+    "points": [],
+    "family": "ドイツ語辞典"
+  },
+  {
+    "name": "モルダウ",
+    "key": "モルダウ",
+    "kind": "concept",
+    "points": [],
+    "family": "モルダウ"
+  },
+  {
+    "name": "戦争と平和",
+    "key": "戦争と平和",
+    "kind": "concept",
+    "points": [],
+    "family": "戦争と平和"
+  },
+  {
+    "name": "タヒチの女",
+    "key": "タヒチの女",
+    "kind": "concept",
+    "points": [],
+    "family": "タヒチの女"
+  },
+  {
+    "name": "イギリスにおける労働者階級の状態",
+    "key": "イギリスにおける労働者階級の状態",
+    "kind": "concept",
+    "points": [],
+    "family": "イギリスにおける労働者階級の状態"
+  },
+  {
+    "name": "中世ローマ法史",
+    "key": "中世ローマ法史",
+    "kind": "concept",
+    "points": [],
+    "family": "中世ローマ法史"
+  }
+];
+
+const normalize=text=>String(text??'').replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g,'').replace(/<[^>]*>/g,'').replace(/[\s＝=・『』「」]/g,'');
+const byKey=new Map(modernNameCatalog.map(entry=>[entry.key,entry]));
+const escapePattern=value=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const protectedWorks=["若きウェルテルの悩み", "ナポレオンの戴冠式", "キオス島の虐殺", "ニーベルンゲンの歌", "ニーベルングの指環", "ドイツ語辞典", "モルダウ", "戦争と平和", "サントヴィクトワール山", "タヒチの女", "イギリスにおける労働者階級の状態", "中世ローマ法史"];
+const pattern=new RegExp([...byKey.keys()].sort((a,b)=>b.length-a.length).map(key=>['伊','墺'].includes(key)?`(?<=\\|)${escapePattern(key)}(?=\\|)`:['ベル','リスト','シラー','コント'].includes(key)?`(?<![ァ-ヶー])${escapePattern(key)}(?![ァ-ヶー])`:escapePattern(key)).join('|'),'g');
+export function modernNamesInText(text) {
+ const original=normalize(text);
+ let value=original.replace(/神聖ローマ皇帝|神聖ローマ帝国|ローマは世界帝国|ギリシアローマ|古代ギリシア|ギリシア彫刻|インド思想|ウィーン体制/g,'');
+ const found=new Map();
+ for(const work of protectedWorks){if(value.includes(work)){const entry=byKey.get(work);if(entry)found.set(entry.family,entry);value=value.replaceAll(work,'作品');}}
+ value=value.replace(/英仏間/g,'イギリスフランス間').replace(/イギリス〜インド/g,'イギリスインド').replace(/（仏）|\(仏\)/g,'フランス').replace(/（英）|\(英\)/g,'イギリス');
+ for(const match of value.matchAll(pattern)){const entry=byKey.get(match[0]);if(!found.has(entry.family))found.set(entry.family,entry);}
+ // 国名と事件・制度の長い名称は別の分類。地域が本文に明記された場合の代表位置を失わない。
+ for(const [term,country] of [['ギリシア独立戦争','ギリシア'],['ドイツ関税同盟','ドイツ'],['フランス革命','フランス']])if(value.includes(term)&&!found.has(country))found.set(country,byKey.get(country));
+ if(value.includes('マルクス経済学')&&!found.has('マルクス'))found.set('マルクス',byKey.get('マルクス'));
+ if(value.includes('パリコミューン')&&!found.has('パリ'))found.set('パリ',byKey.get('パリ'));
+ return [...found.values()];
+}

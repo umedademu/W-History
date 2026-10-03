@@ -1,0 +1,5115 @@
+{
+  "source_file": "sources/近代・現代/01_国民国家の形成/06_19世紀のヨーロッパ文化.md",
+  "source_sha256": "af46239545496b762e50752e37b8e0088e105bb2530e343282e0faff0338cf24",
+  "source_bytes": 82057,
+  "line_count": 541,
+  "pages": [
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124
+  ],
+  "section_start_pages": [
+    109,
+    110,
+    112,
+    115,
+    117,
+    121
+  ],
+  "blank_pages": [
+    124
+  ],
+  "source_notes": [
+    "108導入3行・123結び3行も通常本文として保持する。",
+    "内容のある108〜123の16ページと、末尾124の白紙境界1ページを区別し全17ページへ参照可能にする。",
+    "115柱後の229〜263行の表は第3節。121柱後の449〜465行は第5節。",
+    "6組の紙面接続だけを文字・空白・装飾の追加なく連結する。",
+    "原文の作品内容・作者評価・国籍表・用語・年号を校訂しない。",
+    "作品題名・作品内人物・文化的模範は本人の所在地や実移動と区別する。",
+    "本文382行の入れ子太字と色の交差は原文文字を保持して安全な表示構造へ変換する。"
+  ],
+  "lines": [
+    {
+      "line": 1,
+      "page": 108,
+      "part": 1,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 108"
+    },
+    {
+      "line": 2,
+      "page": 108,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 3,
+      "page": 108,
+      "part": 1,
+      "kind": "cover-heading",
+      "reason": "回の題名を全文に保持する。",
+      "text": "# <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第6回**</span> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**19世紀のヨーロッパ文化**</span>"
+    },
+    {
+      "line": 4,
+      "page": 108,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 5,
+      "page": 108,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "政治史が一段落したから、今回は<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**19世紀のヨーロッパ文化史**</u>を見ていこう。バラバラに見える文化史も、全体的な時代の動きとしっかりつなげると、社会全体の動きが見えてくるよ！"
+    },
+    {
+      "line": 6,
+      "page": 108,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 7,
+      "page": 108,
+      "part": 1,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**大きくつかもう！**</span>"
+    },
+    {
+      "line": 8,
+      "page": 108,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 9,
+      "page": 108,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | |"
+    },
+    {
+      "line": 10,
+      "page": 108,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 11,
+      "page": 108,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| <span data-source-color=\"red\" style=\"color:#e52715\">**文学**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**芸術**</span> |"
+    },
+    {
+      "line": 12,
+      "page": 108,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 13,
+      "page": 108,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 14,
+      "page": 108,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 15,
+      "page": 108,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**1**</span> | **古典主義** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">109〜110ページ</span> |"
+    },
+    {
+      "line": 16,
+      "page": 108,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**2**</span> | **ロマン主義** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">110〜112ページ</span> |"
+    },
+    {
+      "line": 17,
+      "page": 108,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**3**</span> | **写実主義・自然主義** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">112〜115ページ</span> |"
+    },
+    {
+      "line": 18,
+      "page": 108,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**4**</span> | **印象派・後期印象派** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">115〜116ページ</span> |"
+    },
+    {
+      "line": 19,
+      "page": 108,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**5**</span> | **社会科学・哲学** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">117〜121ページ</span> |"
+    },
+    {
+      "line": 20,
+      "page": 108,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**6**</span> | **自然科学・科学技術** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">121〜123ページ</span> |"
+    },
+    {
+      "line": 21,
+      "page": 108,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 22,
+      "page": 108,
+      "part": 1,
+      "kind": "supplement",
+      "reason": "吹き出し・絵の図題・独立補足の全文を保持する。",
+      "text": "> 文学と芸術は分類が似ているけど、後半になるとちょっと違うから気をつけてね！"
+    },
+    {
+      "line": 23,
+      "page": 108,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 24,
+      "page": 108,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "19世紀になると、絶対王政の時代が終わって<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**近代的な市民社会へと変わった**</u>ヨーロッパでは、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**文化の担い手も市民に変わった**</u>よ。「市民」と一言でいってもいろいろな人たちがなかに含まれているから、簡単にはまとめられないけど、時期によっていろんな<ruby>流行<rt>はや</rt></ruby>りはある！ 「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**古典主義**</u>」「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**ロマン主義**</u>」「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**写実主義**</u>」「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**自然主義**</u>」、そして芸術では「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**印象派**</u>」という大きな時代の変化を、政治史や社会史とつなげて見ていこう。単なる丸暗記じゃなくて、文化史こそしっかりと理解してほしいな。人名だけを並べてるだけじゃダメよ。"
+    },
+    {
+      "line": 25,
+      "page": 108,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 26,
+      "page": 108,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "それじゃあ、19世紀のヨーロッパ文化史、いってみよう〜。"
+    },
+    {
+      "line": 27,
+      "page": 108,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 28,
+      "page": 109,
+      "part": 1,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 109"
+    },
+    {
+      "line": 29,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 30,
+      "page": 109,
+      "part": 1,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**1**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">古典主義</u>"
+    },
+    {
+      "line": 31,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 32,
+      "page": 109,
+      "part": 1,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 33,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 34,
+      "page": 109,
+      "part": 1,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 35,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 36,
+      "page": 109,
+      "part": 1,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 37,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 38,
+      "page": 109,
+      "part": 1,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 39,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 40,
+      "page": 109,
+      "part": 1,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 41,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 42,
+      "page": 109,
+      "part": 1,
+      "kind": "section-heading",
+      "reason": "本文内の実際の節見出しで区分する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**1**</span> <span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">**古典主義**</span>"
+    },
+    {
+      "line": 43,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 44,
+      "page": 109,
+      "part": 1,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**古典主義って？ 理想はギリシア・ローマ。何事もバランスが大事**</span>"
+    },
+    {
+      "line": 45,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 46,
+      "page": 109,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**18世紀**までのヨーロッパは**絶対王政**の時代で、文化の中心にいたのは国王や貴族などの特権階級だから、金ピカで豪華にした**バロック様式**や繊細で華麗な**ロココ様式**などが好まれていたよね。どっちもお金がかかるけど。ところが、少しずつ**市民階級が力をつけ始める**と、「今の世の中なんか変だよな？」って疑問が出てきて、伝統的に正しいと考えていたこと、例えば「国王はエライ」とか「教会は正しい」みたいなことに対する批判が始まったんだよ。その根拠とされたのが<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>啓蒙<rt>けいもう</rt></ruby>思想**</span>だ。**人間の理性を絶対**と考えて「理性に基づいて判断したことが正しい」っていう**合理主義**により、**絶対王政や教会の腐敗・矛盾を批判**し、教会の権威も伝統的な身分制度も関係なく、自由な個人を中心にものを考えてみよう、ってことになったんだ。"
+    },
+    {
+      "line": 47,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 48,
+      "page": 109,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こういう風潮が文化にどう影響するんだろう？ **自由な個人の人間性を重視**して、理想の人間像を追及していたのは古代ギリシア。それじゃあ、**古代ギリシアを模範**にしよう！っていう<span data-source-color=\"red\" style=\"color:#e52715\">**古典主義**</span>が現れた。ちなみに、ヨーロッパで**古典**（**classic**）っていうと、**ギリシア・ローマ**のことだ。だから、古典主義とは**古代ギリシア・ローマ文化を理想**として**調和の取れた人間性**を重んじる風潮だ。文学なら理性と感情のバランスが、芸術なら全体的に均整のとれた理想の人間像を描くってことになるね。"
+    },
+    {
+      "line": 49,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 50,
+      "page": 109,
+      "part": 1,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**文学では自然な感情を、芸術では均整のとれた美しさを表現！**</span>"
+    },
+    {
+      "line": 51,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 52,
+      "page": 109,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "文学では、すでに17世紀のフランスでラシーヌやモリエールらが古典主義演劇をつくっていたけど、**18世紀末のドイツ**では、<span data-source-color=\"red\" style=\"color:#e52715\">**ゲーテ**</span>や<span data-source-color=\"red\" style=\"color:#e52715\">**シラー**</span>を中心に**人間の自然な感情**を描こうとする**<ruby>疾風怒濤<rt>しっぷうどとう</rt></ruby>運動【シュトゥルム＝ウント＝ドランク】**が起きた。例えば、有名な<span data-source-color=\"red\" style=\"color:#e52715\">**ゲーテ**</span>の『**若きウェルテルの悩み**』は、初恋相手に再会したことで恋心が復活した主人公ウェルテルが、彼女の結婚を知って、「自分の恋心」と「結婚する彼女に手を出しちゃいけない」という理性の間で揺れ動き、ついには自殺しちゃう、って話だ。ゲーテはのちの**ロマン主義の先駆者**になったんだけど、フランス革命には否定的で、晩年は**古典主義**に傾いたんだ。"
+    },
+    {
+      "line": 53,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 54,
+      "page": 109,
+      "part": 1,
+      "kind": "supplement",
+      "reason": "吹き出し・絵の図題・独立補足の全文を保持する。",
+      "text": "> ヴァルミーの戦いでプロイセン軍に従軍していたゲーテは、「世界史の新しい時代が始まる」って記しているよ"
+    },
+    {
+      "line": 55,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 56,
+      "page": 109,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "芸術では**ナポレオン1世の<ruby>宮廷<rt>きゅうてい</rt></ruby>画家**だった<span data-source-color=\"red\" style=\"color:#e52715\">**ダヴィド**</span>や、その弟子の**アングル**などによって、**均整のとれた美しさ**を重視する絵が描かれたね。要するにギリシア彫刻みたいに理想的な人間を描こうってことだ。特にダヴィドは**ナポレオンを英雄として描いた**多くの絵で有名だね。ルーブル美術館にある大作「**ナポレオンの<ruby>戴冠式<rt>たいかんしき</rt></ruby>**」はなんと縦6m、横9mもあるよ。"
+    },
+    {
+      "line": 57,
+      "page": 109,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 58,
+      "page": 110,
+      "part": 1,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 110"
+    },
+    {
+      "line": 59,
+      "page": 110,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 60,
+      "page": 110,
+      "part": 1,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第6回**</span> 19世紀のヨーロッパ文化"
+    },
+    {
+      "line": 61,
+      "page": 110,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 62,
+      "page": 110,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "音楽は**ドイツが中心**だよ。100曲以上もの<ruby>交響曲<rt>こうきょうきょく</rt></ruby>を作曲して「**交響曲の父**」と呼ばれる**ハイドン**、**マリアントワネットとほぼ同時代**にあたる音楽の天才<span data-source-color=\"red\" style=\"color:#e52715\">**モーツァルト**</span>、9つの重厚な交響曲で不動の地位を築いた**ボン出身**の<span data-source-color=\"red\" style=\"color:#e52715\">**ベートーヴェン**</span>が**古典派**にあたるよ。政治史と関係する話だと、ベートーヴェンの**交響曲第3番**「英雄」は、もともと**ナポレオンのためにつくった**んだけど、彼が皇帝になったのに失望したベートーヴェンが表紙を破り捨てた、といわれている。"
+    },
+    {
+      "line": 63,
+      "page": 110,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 64,
+      "page": 110,
+      "part": 1,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈<ruby>疾風怒濤<rt>しっぷうどとう</rt></ruby>運動→古典主義文学〉**"
+    },
+    {
+      "line": 65,
+      "page": 110,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 66,
+      "page": 110,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 67,
+      "page": 110,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 68,
+      "page": 110,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 独 | <span data-source-color=\"red\" style=\"color:#e52715\">**ゲーテ**</span> | 『**若きウェルテルの悩み**』『ファウスト』 |"
+    },
+    {
+      "line": 69,
+      "page": 110,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**シラー**</span> | 『**<ruby>群盗<rt>ぐんとう</rt></ruby>**』『ワレンシュタイン』 |"
+    },
+    {
+      "line": 70,
+      "page": 110,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 71,
+      "page": 110,
+      "part": 1,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈古典主義絵画〉**"
+    },
+    {
+      "line": 72,
+      "page": 110,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 73,
+      "page": 110,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 74,
+      "page": 110,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 75,
+      "page": 110,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 仏 | <span data-source-color=\"red\" style=\"color:#e52715\">**ダヴィド**</span> | 「**ナポレオンの<ruby>戴冠式<rt>たいかんしき</rt></ruby>**」。**ナポレオン1世の<ruby>宮廷<rt>きゅうてい</rt></ruby>画家** |"
+    },
+    {
+      "line": 76,
+      "page": 110,
+      "part": 1,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | **アングル** | ダヴィドの弟子。「グランド＝オダリスク」 |"
+    },
+    {
+      "line": 77,
+      "page": 110,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 78,
+      "page": 110,
+      "part": 2,
+      "kind": "section-heading",
+      "reason": "本文内の実際の節見出しで区分する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**2**</span> <span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">**ロマン主義**</span>"
+    },
+    {
+      "line": 79,
+      "page": 110,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 80,
+      "page": 110,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**革命によって高まった自由主義・ナショナリズム。でも<ruby>弾圧<rt>だんあつ</rt></ruby>されて……**</span>"
+    },
+    {
+      "line": 81,
+      "page": 110,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 82,
+      "page": 110,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "18世紀末から19世紀初めは**フランス革命とナポレオンの時代**だよね。フランス革命では「**自由・平等・友愛**」をスローガンに王政を打倒し、市民が権利を勝ち取り、さらにフランス人は「**祖国フランス**」っていう意識を持ち始めた。この**自由主義・ナショナリズム**（**国民主義**）がヨーロッパ全体に広がって、文化にも影響するんだよ。"
+    },
+    {
+      "line": 83,
+      "page": 110,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 84,
+      "page": 110,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こうして、18世紀の<ruby>啓蒙<rt>けいもう</rt></ruby>思想や古典主義に対して「これからは理性よりも**自由な感情**だ♪」とか、「調和よりも**個性**の時代だ！」って考える風潮が現れた。これが<span data-source-color=\"red\" style=\"color:#e52715\">**ロマン主義**</span>だよ。じゃあ、なんでこんな考え方が広がったんだろ？ 19世紀前半といえばウィーン体制のもとで**自由主義やナショナリズムが弾圧**されていたから、人びとが自由を求める傾向が強かったよね。これが文化に結びつくと、**個人の自由**に加えて、それぞれの**民族の歴史や伝統に基づく独自性**を重視する傾向が生まれたんだ。じゃあ、ヨーロッパで各民族の独自性が生まれたのはいつだろう？ 古典主義が理想とした**ローマは「世界帝国」**だから、むしろ「普遍」。そのあと、**ヨーロッパ各国の原型が出現したのは中世**だよね。ってことで、ロマン主義では**中世やルネサンスが理想**とされたんだよ。"
+    },
+    {
+      "line": 85,
+      "page": 110,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 86,
+      "page": 110,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**自由主義・ナショナリズムと結びついた絵や音楽がつくられた**</span>"
+    },
+    {
+      "line": 87,
+      "page": 110,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 88,
+      "page": 110,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "じゃあ、**芸術**の分野から見ていこう。絵画では**フランス**の<span data-source-color=\"red\" style=\"color:#e52715\">**ドラクロワ**</span>が、調和を破った**情熱的な激しい色使い**で、**ギリシア独立戦争**を題材にした「**キオス島の<ruby>虐<rt>ぎゃく</rt></ruby><ruby>殺<rt>さつ</rt></ruby>**」や、**七月革命**を題材にした「<span data-source-color=\"red\" style=\"color:#e52715\">**民衆を導く自由の<ruby>女神<rt>めがみ</rt></ruby>**</span>」などを描いた。さらに音"
+    },
+    {
+      "line": 89,
+      "page": 110,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 90,
+      "page": 111,
+      "part": 2,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 111"
+    },
+    {
+      "line": 91,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 92,
+      "page": 111,
+      "part": 2,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**2**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">ロマン主義</u>"
+    },
+    {
+      "line": 93,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 94,
+      "page": 111,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 95,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 96,
+      "page": 111,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 97,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 98,
+      "page": 111,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 99,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 100,
+      "page": 111,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 101,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 102,
+      "page": 111,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 103,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 104,
+      "page": 111,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "楽では、**ポーランド**の国民意識を背景に<span data-source-color=\"red\" style=\"color:#e52715\">**ショパン**</span>がエチュード「**革命**」を作曲したり、ドイツの<span data-source-color=\"red\" style=\"color:#e52715\">**ヴァーグナー**</span>【<span data-source-color=\"red\" style=\"color:#e52715\">**ワグナー**</span>】は**楽劇**を創始し、中世ドイツの「ニーベルンゲンの歌」を題材に大作「**ニーベルングの指環**」をつくったりしたね。そして、ロマン主義から派生して、**伝統的な民族音楽などをもとにした**民族性あふれる**国民楽派音楽**も現れたよ。バレエ音楽「くるみ割り人形」で有名なロシアの**チャイコフスキー**や、交響詩「わが祖国」をつくったチェコの**スメタナ**などが代表だ。"
+    },
+    {
+      "line": 105,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 106,
+      "page": 111,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**文学では感情の高まりと民族の伝統がキーワードだ**</span>"
+    },
+    {
+      "line": 107,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 108,
+      "page": 111,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "文学では、**個人の感情の高まり**や**民族の伝統を表現**する作品が多数つくられた。**ドイツ**での注目ポイントは、<span data-source-color=\"red\" style=\"color:#e52715\">**グリム兄弟**</span>。彼らはドイツ民族の伝統、要は**ドイツ語の研究**をやった。政治的にはバラバラだけど、みんなが話しているドイツ語の研究を通じて**ドイツ文化とは何か**を明らかにしたかったんだね。だから、最終的な目標は『**ドイツ語辞典**』をつくる！ そのために集めたドイツ各地の昔話を『子どもと家庭のための童話集（**グリム童話集**）』にまとめてみたよ。さらに、**ユダヤ系**だった<span data-source-color=\"red\" style=\"color:#e52715\">**ハイネ**</span>は**マルクスとも親交**を持ったから、「**革命詩人**」と呼ばれているね。"
+    },
+    {
+      "line": 109,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 110,
+      "page": 111,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**フランス**のロマン主義といえば<span data-source-color=\"red\" style=\"color:#e52715\">**ユーゴー**</span>だ。彼の書いた超大作『<span data-source-color=\"red\" style=\"color:#e52715\">**レ＝ミゼラブル**</span>』は、映画やミュージカルにもなっているから知ってるかな？ 彼は政治的には**二月革命後に共和派**となり、**ナポレオン3世の第二帝政を批判**したから18年間も<ruby>亡<rt>ぼう</rt></ruby><ruby>命<rt>めい</rt></ruby>生活を送り、この時に『レ＝ミゼラブル』がつくられたんだよ。この作品の中には、労働者の<ruby>堕落<rt>だらく</rt></ruby>、飢えが原因の女性の転落、そして子どもの破滅など、**社会で「<ruby>虐<rt>しいた</rt></ruby>げられた人びと」を人道的に救おう！**というメッセージが込められている。"
+    },
+    {
+      "line": 111,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 112,
+      "page": 111,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そのほか、**ギリシア独立戦争に<ruby>義勇軍<rt>ぎゆうぐん</rt></ruby>として参戦**した**イギリス**の<span data-source-color=\"red\" style=\"color:#e52715\">**バイロン**</span>は、もう生き方そのものがロマン主義。アメリカの**ホイットマン**はアメリカの自然や自由と民主主義を<ruby>讃<rt>たた</rt></ruby>える『**草の葉**』で有名だね。"
+    },
+    {
+      "line": 113,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 114,
+      "page": 111,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こんなふうに、ロマン主義の作品には、**自分の民族を讃えるものが多かった**ってことだ。反面、民族を理想化しすぎたり、個性を重視しすぎるあまり、ちょっと現実離れしてしまうこともあったんだね。"
+    },
+    {
+      "line": 115,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 116,
+      "page": 111,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈ロマン主義絵画〉**"
+    },
+    {
+      "line": 117,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 118,
+      "page": 111,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 119,
+      "page": 111,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 120,
+      "page": 111,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 仏 | <span data-source-color=\"red\" style=\"color:#e52715\">**ドラクロワ**</span> | 「<span data-source-color=\"red\" style=\"color:#e52715\">**民衆を導く自由の女神**</span>」「**キオス島の虐殺**」 |"
+    },
+    {
+      "line": 121,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 122,
+      "page": 111,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈ロマン主義音楽〉**"
+    },
+    {
+      "line": 123,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 124,
+      "page": 111,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 125,
+      "page": 111,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 126,
+      "page": 111,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 墺 | **シューベルト** | 「冬の旅」などの歌曲で有名。「未完成交響曲」 |"
+    },
+    {
+      "line": 127,
+      "page": 111,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**ショパン**</span> | **ピアノの詩人**と呼ばれる。エチュード「**革命**」 |"
+    },
+    {
+      "line": 128,
+      "page": 111,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 露 | **チャイコフスキー** | ロマン主義から派生した**国民楽派**の影響。**バレエ音楽**が有名 |"
+    },
+    {
+      "line": 129,
+      "page": 111,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 独 | <span data-source-color=\"red\" style=\"color:#e52715\">**ヴァーグナー**</span> | **楽劇**を創始。「タンホイザー」「**ニーベルングの指環**」 |"
+    },
+    {
+      "line": 130,
+      "page": 111,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | **スメタナ** | **チェコ国民楽派の祖**。交響詩「わが祖国」（第2曲の「モルダウ」が有名） |"
+    },
+    {
+      "line": 131,
+      "page": 111,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 132,
+      "page": 112,
+      "part": 2,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 112"
+    },
+    {
+      "line": 133,
+      "page": 112,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 134,
+      "page": 112,
+      "part": 2,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第6回**</span> 19世紀のヨーロッパ文化"
+    },
+    {
+      "line": 135,
+      "page": 112,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 136,
+      "page": 112,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈ロマン主義文学〉**"
+    },
+    {
+      "line": 137,
+      "page": 112,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 138,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 139,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 140,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 独 | <em data-source-italic=\"true\" style=\"font-style:italic\">**ノヴァーリス**</em> | 『青い花』 |"
+    },
+    {
+      "line": 141,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**グリム兄弟**</span> | 『**ドイツ語辞典**』『子どもと家庭のための童話集（**グリム童話集**）』 |"
+    },
+    {
+      "line": 142,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**ハイネ**</span> | 『<span data-source-color=\"red\" style=\"color:#e52715\">**歌の本**</span>』。**マルクスとも親交**を持ち、「**革命詩人**」と呼ばれる |"
+    },
+    {
+      "line": 143,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 仏 | スタール夫人 | ネッケルの娘。ドイツ＝ロマン主義をフランスに紹介 |"
+    },
+    {
+      "line": 144,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | シャトーブリアン | 『アタラ』『ルネ』 |"
+    },
+    {
+      "line": 145,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**ユーゴー**</span> | 『<span data-source-color=\"red\" style=\"color:#e52715\">**レ＝ミゼラブル**</span>』 |"
+    },
+    {
+      "line": 146,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 英 | ワーズワース | 『叙情詩選』。人間と自然の調和を説く |"
+    },
+    {
+      "line": 147,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | スコット | 物語詩『湖上の美人』歴史小説『アイヴァンホー』 |"
+    },
+    {
+      "line": 148,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**バイロン**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**ギリシア独立戦争**</span>に参戦。『チャイルド＝ハロルドの<ruby>巡礼<rt>じゅんれい</rt></ruby>』 |"
+    },
+    {
+      "line": 149,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 米 | ホーソン | 『<ruby>緋文字<rt>ひもんじ</rt></ruby>』。ピューリタン文学 |"
+    },
+    {
+      "line": 150,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | **ホイットマン** | 詩集『**草の葉**』 |"
+    },
+    {
+      "line": 151,
+      "page": 112,
+      "part": 2,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 露 | **プーシキン** | 『<ruby>大尉<rt>たいい</rt></ruby>の娘』『オネーギン』。ヒューマニズムから専制政治を批判 |"
+    },
+    {
+      "line": 152,
+      "page": 112,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 153,
+      "page": 112,
+      "part": 3,
+      "kind": "section-heading",
+      "reason": "本文内の実際の節見出しで区分する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**3**</span> <span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">**写実主義・自然主義**</span>"
+    },
+    {
+      "line": 154,
+      "page": 112,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 155,
+      "page": 112,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**ロマン主義は非現実的。現実はもっとひどいよ……**</span>"
+    },
+    {
+      "line": 156,
+      "page": 112,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 157,
+      "page": 112,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "19世紀半ばには**各国で産業革命が始まり**、少しずつ**資本主義経済が発達**してきたよね。産業資本家の成長によって**市民社会が成熟**してくると、あまりにも現実離れした作品は好まれなくなってくる。さらに、**労働者階級の増加**による**都市の生活環境や労働環境の悪化**や、発展から取り残された**農村部との<ruby>貧富<rt>ひんぷ</rt></ruby>の格差**も問題だ。こういった社会問題が大きくなってくると、そこから目を<ruby>背<rt>そむ</rt></ruby>けるわけにもいかなくなってきた。しかも、**自然科学や科学技術の発達**によって、科学的なものの見方が広がってくる。科学技術に感情はないでしょ？ もはや夢ばかり見ているわけにもいかない。"
+    },
+    {
+      "line": 158,
+      "page": 112,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 159,
+      "page": 112,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こうして、非現実的なロマン主義にかわって、**人間や社会のありのままの姿を客観的に描こう**とする傾向がでてきたよ。これが<span data-source-color=\"red\" style=\"color:#e52715\">**写実主義**</span>や<span data-source-color=\"red\" style=\"color:#e52715\">**自然主義**</span>だ。ただこの2つの言葉、**文学と芸術でちょっとニュアンスが違う**から気をつけてね。"
+    },
+    {
+      "line": 160,
+      "page": 112,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 161,
+      "page": 112,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**絵画では、都市を題材にした「写実主義」、農村を題材にした「自然主義」だ**</span>"
+    },
+    {
+      "line": 162,
+      "page": 112,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 163,
+      "page": 112,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "この時代の絵画に影響を与えたものとして、**カメラの発明**があるよ。19世紀にはある意味で「**ありのまま」の姿を写真に残すことができる**ようになった。画家たちにとってはライバルだね。ロマン主義の絵画では<ruby>誇張<rt>こちょう</rt></ruby>や<ruby>幻想<rt>げんそう</rt></ruby>が多くあったけど、もはやそんなものはいらない。だから、**ありのままの姿を絵に描こう**としたのが<span data-source-color=\"red\" style=\"color:#e52715\">**自然主義**</span>や<span data-source-color=\"red\" style=\"color:#e52715\">**写実主義**</span>だよ。ただ両者は、題材が少し違うんだ。おもに**農村や自然を題材にした自然主義**、**都市市民を題材にした写実主義**って覚えておこう！"
+    },
+    {
+      "line": 164,
+      "page": 112,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 165,
+      "page": 113,
+      "part": 3,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 113"
+    },
+    {
+      "line": 166,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 167,
+      "page": 113,
+      "part": 3,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**3**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">写実主義・自然主義</u>"
+    },
+    {
+      "line": 168,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 169,
+      "page": 113,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 170,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 171,
+      "page": 113,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 172,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 173,
+      "page": 113,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 174,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 175,
+      "page": 113,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 176,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 177,
+      "page": 113,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 178,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 179,
+      "page": 113,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "しかも、もう1つの衝撃がある！ それが絵の「サイズ」。これまで2mや3mといった絵は、国王や貴族、あるいは神を描く時のサイズだったんだけど、単なる民衆の絵にそれだけのサイズを与えたから、それだけで衝撃だったんだよ。"
+    },
+    {
+      "line": 180,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 181,
+      "page": 113,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "まずは<span data-source-color=\"red\" style=\"color:#e52715\">**自然主義**</span>。<span data-source-color=\"red\" style=\"color:#e52715\">**ミレー**</span>とその仲間の画家たちは、七月革命後の貧乏生活もあって、パリ近郊のフォンテーヌブローの森のはずれにある**バルビゾン村に集まった**から**バルビゾン派**とも呼ばれている。ここで**農民の生活や自然を題材**に創作をしたんだ。特にミレーの「**<ruby>落穂<rt>おちぼ</rt></ruby>拾い**」は有名だよ。"
+    },
+    {
+      "line": 182,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 183,
+      "page": 113,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・絵の図題・独立補足の全文を保持する。",
+      "text": "> ▲ミレー「落穂拾い」"
+    },
+    {
+      "line": 184,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 185,
+      "page": 113,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "一方の<span data-source-color=\"red\" style=\"color:#e52715\">**写実主義**</span>は、**都市の下層労働者が題材**になったんだけど、下層労働者に接近するということは、同じ時代に出現した**社会主義に接近**するということだ。**ドーミエ**はたくましく生きる都市市民の様子を描き、<span data-source-color=\"red\" style=\"color:#e52715\">**クールベ**</span>は最下層民衆の労働の様子を「**石割り**」などに描くとともに、同郷の友人だったプルードンの影響もあって**社会主義に接近**、**パリ＝コミューンに参加**したけど<ruby>挫折<rt>ざせつ</rt></ruby>して、<ruby>禁固刑<rt>きんこけい</rt></ruby>になったんだ。"
+    },
+    {
+      "line": 186,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 187,
+      "page": 113,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**現実を直視したけど……まだちょっとは救いがある写実主義文学**</span>"
+    },
+    {
+      "line": 188,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 189,
+      "page": 113,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "文学ではロマン主義のような**人道的な要素が薄れてしまう**んだよ。というのも、誰が見ても下層民衆の生活はひどい！ **資本主義の発達による貧富の格差の問題**にロマンなんかあるわけがない！ だから、客観的に「現実を見ろ〜」って風潮が強まったんだ。こうして、**人生の現実から目を背けず、ありのままに描こう**とする<span data-source-color=\"red\" style=\"color:#e52715\">**写実主義**</span>が現れたんだよ。"
+    },
+    {
+      "line": 190,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 191,
+      "page": 113,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**フランス**では、<span data-source-color=\"red\" style=\"color:#e52715\">**スタンダール**</span>が**貴族（赤）と聖職者（黒）などの特権階級**に敵意を持つ少年ジュリアンを主人公とする『<span data-source-color=\"red\" style=\"color:#e52715\">**赤と黒**</span>』を書いたよ。主人公の少年は、特権階級の奥さんとの不倫や娘との結婚でのし上がろうとするんだけど、成功の寸前に殺人を犯して死刑判決を受ける。ただ、最後に真実の愛を知る……みたいな。"
+    },
+    {
+      "line": 192,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 193,
+      "page": 113,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こんなふうに、写実主義って**最後にはなんとなく救いがある**。現実はひどい話なんだけど、読み終わった時に「まぁ良かったかもな」っていう感じね。<span data-source-color=\"red\" style=\"color:#e52715\">**バルザック**</span>の『**人間喜劇**』は、彼が20年にわたって書いた90編以上の小説の総称で、貴族の没落、新興ブルジョワの台頭、家族制度の崩壊など、当時のフランス社会が見事に分析され、話によってはかなり批判的なものもあるよ。"
+    },
+    {
+      "line": 194,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 195,
+      "page": 113,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**イギリス**では、<span data-source-color=\"red\" style=\"color:#e52715\">**ディケンズ**</span>が**フランス革命期のロンドンとパリを舞台にした**『<ruby>二<rt>に</rt></ruby><ruby>都<rt>と</rt></ruby>物語』を書いたよ。主人公は貴族身分を捨ててパリに戻って革命に参加しようとしたら恐怖政治のもとで捕まり、最後は愛する女性の夫の身代わりになってギロチンにかけられる。これも愛のために死ぬっていう救いがちょっとはあるよね。"
+    },
+    {
+      "line": 196,
+      "page": 113,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 197,
+      "page": 114,
+      "part": 3,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 114"
+    },
+    {
+      "line": 198,
+      "page": 114,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 199,
+      "page": 114,
+      "part": 3,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第6回**</span> 19世紀のヨーロッパ文化"
+    },
+    {
+      "line": 200,
+      "page": 114,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 201,
+      "page": 114,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "問題は**ロシア**だよ。ロシアの現実を直視すると、あまりにひどすぎる。まず、<span data-source-color=\"red\" style=\"color:#e52715\">**トゥルゲーネフ**</span>は、**ロシアの<ruby>農奴<rt>のうど</rt></ruby>のひどい現実**を、ロシアの美しい自然描写のなかに描いた『**<ruby>猟人<rt>りょうじん</rt></ruby>日記**』や、農奴解放後のロシア社会と**無気力になってしまったナロードニキ**を描いた『**父と子**』などを書いたよ。ちなみに『猟人日記』は、これを読んだ**アレクサンドル2世を農奴解放に向かわせた**作品だよ。また、<span data-source-color=\"red\" style=\"color:#e52715\">**ドストエフスキー**</span>は、農民を苦しめる高利貸しの<ruby>婆<rt>ばあ</rt></ruby>さんを、正義のためとして殺害した革命家を主人公にした『<span data-source-color=\"red\" style=\"color:#e52715\">**罪と罰**</span>』や、人間の魂の救済を題材とした未完の大作『**カラマーゾフの兄弟**』で有名だ。さらに、<span data-source-color=\"red\" style=\"color:#e52715\">**トルストイ**</span>はキリスト教の人道主義の立場から、**ナポレオンのロシア遠征を題材**とした『<span data-source-color=\"red\" style=\"color:#e52715\">**戦争と平和**</span>』などを書くとともに、**人道主義的な反戦運動**をおこなったんだ。"
+    },
+    {
+      "line": 202,
+      "page": 114,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 203,
+      "page": 114,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "全体として感じてほしいのは、**写実主義は描かれている現実はひどい**のだけど、最終的には**なんとなく救いがある**ってことね。"
+    },
+    {
+      "line": 204,
+      "page": 114,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 205,
+      "page": 114,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**行き着くところは……救いのない現実まで描く自然主義文学**</span>"
+    },
+    {
+      "line": 206,
+      "page": 114,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 207,
+      "page": 114,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "時代が進むと、工業発展とともに**社会矛盾はさらに大きくなっていった**。こうした状況から、**現実をもっと実験的・科学的にとらえ**、「**救えないものは救えない！**」というところまで強調してしまったのが<span data-source-color=\"red\" style=\"color:#e52715\">**自然主義**</span>だよ。もはや、写実主義のような「最後はまぁよかったかな」という感覚はなくなってしまうよ。"
+    },
+    {
+      "line": 208,
+      "page": 114,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 209,
+      "page": 114,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**フランス**の<span data-source-color=\"red\" style=\"color:#e52715\">**ゾラ**</span>は**自然主義を確立**した作家だよ。彼の代表作『<span data-source-color=\"red\" style=\"color:#e52715\">**居酒屋**</span>』はひどいなんてもんじゃない！ 多少の貯金もあって、下層労働者としては幸せに暮らしていたブリキ職人と洗濯女の夫婦が、ダンナが足をケガして仕事ができなくなったのをきっかけに<ruby>堕落<rt>だらく</rt></ruby>し、アル中で頭がおかしくなって死亡、奥さんもアル中で発狂してほぼ<ruby>餓死<rt>がし</rt></ruby>……。もはや、**話になんの救いもない**でしょ……これが自然主義だよ。ちなみにゾラは、**ドレフュス事件で軍部を批判**したことでも有名だよ。ほかに、<span data-source-color=\"red\" style=\"color:#e52715\">**モーパッサン**</span>の『**女の一生**』も、ダンナの家庭内暴力と不倫に苦しむ奥さんが、さらに過保護からわがまま放題になった息子に金をせびられる……という、救いようのない女性の一生を描いた作品だ。"
+    },
+    {
+      "line": 210,
+      "page": 114,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 211,
+      "page": 114,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "<em data-source-italic=\"true\" style=\"font-style:italic\">**ノルウェー**</em>の<span data-source-color=\"red\" style=\"color:#e52715\">**イプセン**</span>は戯曲（演劇の脚本）『<span data-source-color=\"red\" style=\"color:#e52715\">**人形の家**</span>』で、無理解なダンナから逃れるために家を出たノラを主人公に、女性一人で生きていく苦労を描き**女性解放運動への展望を示した**。これならちょっとは救いがあるかもね。"
+    },
+    {
+      "line": 212,
+      "page": 114,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 213,
+      "page": 114,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こんなふうに、19世紀後半には写実主義・自然主義という、**現実を直視する文学が主流になった**ってことだね。でも、こんな作品ばかりじゃだんだんイヤになってくる……。だから、**世紀末**には善悪を一切無視して美を最高の価値とする**<ruby>耽<rt>たん</rt></ruby><ruby>美<rt>び</rt></ruby>主義**や、言葉のリズムや<ruby>象徴<rt>しょうちょう</rt></ruby>的な表現を多く使う**象徴主義**が現れたんだよ。耽美主義には、『悪の華』を書いた**ボードレール**（仏）や『サロメ』を書いたワイルド（英）、象徴主義には『秋の歌』を書いた**ヴェルレーヌ**（仏）などがいるよ。また、科学の発達を背景に、**ヴェルヌ**（仏）の『海底二万里』、**ウェルズ**（英）『タイムマシン』などの**SF小説**も生まれたんだ。"
+    },
+    {
+      "line": 214,
+      "page": 114,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 215,
+      "page": 115,
+      "part": 3,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 115"
+    },
+    {
+      "line": 216,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 217,
+      "page": 115,
+      "part": 3,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**4**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">印象派・後期印象派</u>"
+    },
+    {
+      "line": 218,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 219,
+      "page": 115,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 220,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 221,
+      "page": 115,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 222,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 223,
+      "page": 115,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 224,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 225,
+      "page": 115,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 226,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 227,
+      "page": 115,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 228,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 229,
+      "page": 115,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈自然主義絵画〉**"
+    },
+    {
+      "line": 230,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 231,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 232,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 233,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 仏 | <span data-source-color=\"red\" style=\"color:#e52715\">**ミレー**</span> | 「**<ruby>落穂<rt>おちぼ</rt></ruby>拾い**」「**<ruby>晩鐘<rt>ばんしょう</rt></ruby>**」。**バルビゾン派**を形成 |"
+    },
+    {
+      "line": 234,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 235,
+      "page": 115,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈写実主義絵画〉**"
+    },
+    {
+      "line": 236,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 237,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 238,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 239,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 仏 | **ドーミエ** | 「三等列車」。**革命と共和政を支持** |"
+    },
+    {
+      "line": 240,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**クールベ**</span> | 「**石割り**」。**パリ＝コミューンに参加** |"
+    },
+    {
+      "line": 241,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 242,
+      "page": 115,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈写実主義文学〉**"
+    },
+    {
+      "line": 243,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 244,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 245,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 246,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 仏 | <span data-source-color=\"red\" style=\"color:#e52715\">**スタンダール**</span> | 『<span data-source-color=\"red\" style=\"color:#e52715\">**赤と黒**</span>』。**ナポレオン軍の軍人出身** |"
+    },
+    {
+      "line": 247,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**バルザック**</span> | 『**人間喜劇**』。市民社会と小市民を題材 |"
+    },
+    {
+      "line": 248,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | **フロベール** | 『ボヴァリー夫人』 |"
+    },
+    {
+      "line": 249,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 英 | **サッカレー** | 『<ruby>虚栄<rt>きょえい</rt></ruby>の<ruby>市<rt>いち</rt></ruby>』 |"
+    },
+    {
+      "line": 250,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**ディケンズ**</span> | 『**<ruby>二都<rt>にと</rt></ruby>物語**』『オリヴァー＝トゥイスト』 |"
+    },
+    {
+      "line": 251,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 露 | <span data-source-color=\"red\" style=\"color:#e52715\">**トゥルゲーネフ**</span> | 『**猟人日記**』（農奴制を題材）『**父と子**』（**ナロードニキ**を題材） |"
+    },
+    {
+      "line": 252,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**ドストエフスキー**</span> | 『<span data-source-color=\"red\" style=\"color:#e52715\">**罪と罰**</span>』『**カラマーゾフの兄弟**』 |"
+    },
+    {
+      "line": 253,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**トルストイ**</span> | 『<span data-source-color=\"red\" style=\"color:#e52715\">**戦争と平和**</span>』（**ナポレオン戦争**を題材）『アンナ＝カレーニナ』 |"
+    },
+    {
+      "line": 254,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | チェーホフ | 『桜の園』 |"
+    },
+    {
+      "line": 255,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 256,
+      "page": 115,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈自然主義文学〉**"
+    },
+    {
+      "line": 257,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 258,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 259,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 260,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 仏 | <span data-source-color=\"red\" style=\"color:#e52715\">**ゾラ**</span> | 『<span data-source-color=\"red\" style=\"color:#e52715\">**居酒屋**</span>』『ナナ』。**ドレフュス事件で、軍部を批判** |"
+    },
+    {
+      "line": 261,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**モーパッサン**</span> | 『**女の一生**』 |"
+    },
+    {
+      "line": 262,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 北欧 | <span data-source-color=\"red\" style=\"color:#e52715\">**イプセン**</span> | <em data-source-italic=\"true\" style=\"font-style:italic\">**ノルウェー**</em>の作家。『<span data-source-color=\"red\" style=\"color:#e52715\">**人形の家**</span>』（女性解放運動に影響） |"
+    },
+    {
+      "line": 263,
+      "page": 115,
+      "part": 3,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | ストリンドベリ | スウェーデンの作家。『父』『令嬢ジュリー』 |"
+    },
+    {
+      "line": 264,
+      "page": 115,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 265,
+      "page": 115,
+      "part": 4,
+      "kind": "section-heading",
+      "reason": "本文内の実際の節見出しで区分する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**4**</span> <span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">**印象派・後期印象派**</span>"
+    },
+    {
+      "line": 266,
+      "page": 115,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 267,
+      "page": 115,
+      "part": 4,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"gray\" style=\"color:#777777\">**印象派――カメラには勝てなかった画家が、写真とは違う「印象」を描いた！**</span>"
+    },
+    {
+      "line": 268,
+      "page": 115,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 269,
+      "page": 115,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "写実主義や自然主義は現実をありのままの姿に描こうとしたんだけど、そのまま描くならカメラには勝てない。だから画家たちは違った方向へと向かい始めた。それが<span data-source-color=\"red\" style=\"color:#e52715\">**印象派**</span>だよ。印象派は「光」に注目し、**光と影の色彩を自分の印象のままに**、場合によっては**光そのもの**（例えば光の三原色を使って）を描こうとしたんだ。"
+    },
+    {
+      "line": 270,
+      "page": 115,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 271,
+      "page": 115,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・絵の図題・独立補足の全文を保持する。",
+      "text": "> ▲マネ「草上の昼食」"
+    },
+    {
+      "line": 272,
+      "page": 115,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 273,
+      "page": 115,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "まず、**印象派の画家を支援した**<span data-source-color=\"red\" style=\"color:#e52715\">**マネ**</span>は、「**草上の昼食**」を発表したよ。これ、当時"
+    },
+    {
+      "line": 274,
+      "page": 115,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 275,
+      "page": 116,
+      "part": 4,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 116"
+    },
+    {
+      "line": 276,
+      "page": 116,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 277,
+      "page": 116,
+      "part": 4,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第6回**</span> 19世紀のヨーロッパ文化"
+    },
+    {
+      "line": 278,
+      "page": 116,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 279,
+      "page": 116,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "としては大事件。だって、普通の女性が2人の男性の横で、なぜか全裸。別に裸の女性の絵は珍しくもないけど、これまでの<ruby>裸婦<rt>らふ</rt></ruby>の絵は、<ruby>女神<rt>めがみ</rt></ruby>とか異国情緒とか、とにかく現実離れしている題材だった。それが、マネが描いたのは**そのへんにいる普通の「むちゃくちゃ現実的」な女性が全裸だった**のが大事件！ 「<ruby>不謹慎<rt>ふきんしん</rt></ruby>だ！ 不道徳だ！」とさんざん批判されたよ。"
+    },
+    {
+      "line": 280,
+      "page": 116,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 281,
+      "page": 116,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "その後、<span data-source-color=\"red\" style=\"color:#e52715\">**モネ**</span>が登場して**印象派の画風が確立**されていく。モネは「**印象・日の出**」で、光が刻々と変化するルアーブル港の情景を描いたんだけど、**この作品にちなんで印象派**という名前がついたよ。あとは連作「**<ruby>睡蓮<rt>すいれん</rt></ruby>**」が有名だね。そして印象派の巨匠が<span data-source-color=\"red\" style=\"color:#e52715\">**ルノワール**</span>だ。パリの歓楽街モンマルトルのダンスホールを描いた「**ムーラン＝ド＝ラ＝ギャレット**」が代表作だね。彼の作品は輝かしい色彩のものが多く、「**色彩の魔術師**」とも呼ばれているよ。"
+    },
+    {
+      "line": 282,
+      "page": 116,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 283,
+      "page": 116,
+      "part": 4,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"gray\" style=\"color:#777777\">**ポスト印象派――画家個人の印象から、色や形まで変化させた**</span>"
+    },
+    {
+      "line": 284,
+      "page": 116,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 285,
+      "page": 116,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "印象派の作風がさらに進むと、いよいよ絵に描く**対象物の形が変化**し始めるよ。この<span data-source-color=\"red\" style=\"color:#e52715\">**ポスト印象派**</span>（一般的な呼び名の「**後期印象派**」は訳語の誤り）の最初が<span data-source-color=\"red\" style=\"color:#e52715\">**セザンヌ**</span>。セザンヌは風景画をベタ塗り（真っ平らに塗っていく）で表現するなど、**自然を単純化**した画風の絵を描いた。彼がよく描いたのが**サント＝ヴィクトワール山**。彼の対象物を単純化した描き方は、のちの**立体派【キュビズム】**につながっていくよ。それから<span data-source-color=\"red\" style=\"color:#e52715\">**ゴーガン**</span>。**晩年にタヒチで暮らした**ゴーガンは、フランスにエキゾチックな異国趣味を広めた。そして、生前には全く評価されなかった**オランダ**の<span data-source-color=\"red\" style=\"color:#e52715\">**ゴッホ**</span>。**<ruby>渦巻<rt>うずま</rt></ruby>きのようなタッチ**や**現実にはない色を多用する色彩感覚**は、当時の人にはまだ早すぎたんだろうし、彼自身も最後は精神<ruby>錯乱<rt>さくらん</rt></ruby>で自殺してしまう。有名な「**ひまわり**」や、空がグルグル渦を巻いてる「**星月夜**」、赤や緑で塗られた自画像など、現代から見ても新しい画風がわかるよ。こうした描き方は、**感情を作品中に反映させて表現**する手法（**表現主義**）に大きな影響を与えるんだ。それからこの時代のマネ、モネ、ゴッホらは**日本の<ruby>浮世絵<rt>うきよえ</rt></ruby>の構図や画風に大きな影響を受けていた**よ。これを日本趣味（**ジャポニズム**）というんだ。"
+    },
+    {
+      "line": 286,
+      "page": 116,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 287,
+      "page": 116,
+      "part": 4,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈印象派絵画〉**"
+    },
+    {
+      "line": 288,
+      "page": 116,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 289,
+      "page": 116,
+      "part": 4,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 290,
+      "page": 116,
+      "part": 4,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 291,
+      "page": 116,
+      "part": 4,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 仏 | <span data-source-color=\"red\" style=\"color:#e52715\">**マネ**</span> | 「**草上の昼食**」「笛を吹く少年」 |"
+    },
+    {
+      "line": 292,
+      "page": 116,
+      "part": 4,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**モネ**</span> | 「**印象・日の出**」「睡蓮」。外光に満ちた風景画 |"
+    },
+    {
+      "line": 293,
+      "page": 116,
+      "part": 4,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**ルノワール**</span> | 「**ムーラン＝ド＝ラ＝ギャレット**」。女性の裸像も多い |"
+    },
+    {
+      "line": 294,
+      "page": 116,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 295,
+      "page": 116,
+      "part": 4,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈ポスト印象派絵画〉**"
+    },
+    {
+      "line": 296,
+      "page": 116,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 297,
+      "page": 116,
+      "part": 4,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 298,
+      "page": 116,
+      "part": 4,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 299,
+      "page": 116,
+      "part": 4,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 仏 | <span data-source-color=\"red\" style=\"color:#e52715\">**セザンヌ**</span> | **自然を単純化**した画風。「サント＝ヴィクトワール山」 |"
+    },
+    {
+      "line": 300,
+      "page": 116,
+      "part": 4,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**ゴーガン**</span> | **晩年をタヒチで暮らす**。「タヒチの女」 |"
+    },
+    {
+      "line": 301,
+      "page": 116,
+      "part": 4,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 蘭 | <span data-source-color=\"red\" style=\"color:#e52715\">**ゴッホ**</span> | 「**ひまわり**」「星月夜」。生前には全く評価されず |"
+    },
+    {
+      "line": 302,
+      "page": 116,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 303,
+      "page": 117,
+      "part": 4,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 117"
+    },
+    {
+      "line": 304,
+      "page": 117,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 305,
+      "page": 117,
+      "part": 4,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**5**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">社会科学・哲学</u>"
+    },
+    {
+      "line": 306,
+      "page": 117,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 307,
+      "page": 117,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 308,
+      "page": 117,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 309,
+      "page": 117,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 310,
+      "page": 117,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 311,
+      "page": 117,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 312,
+      "page": 117,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 313,
+      "page": 117,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 314,
+      "page": 117,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 315,
+      "page": 117,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 316,
+      "page": 117,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 317,
+      "page": 117,
+      "part": 5,
+      "kind": "section-heading",
+      "reason": "本文内の実際の節見出しで区分する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**5**</span> <span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">**社会科学・哲学**</span>"
+    },
+    {
+      "line": 318,
+      "page": 117,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 319,
+      "page": 117,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <em data-source-italic=\"true\" style=\"font-style:italic\"><span data-source-color=\"brown\" style=\"color:#a43725\">**経済学**</span></em>"
+    },
+    {
+      "line": 320,
+      "page": 117,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 321,
+      "page": 117,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**経済学は国によって違う！ 発展の仕方で考え方も変わるよ**</span>"
+    },
+    {
+      "line": 322,
+      "page": 117,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 323,
+      "page": 117,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "それじゃあ**社会科学**に進むよ。まずは**経済学**だ。すでに**市民社会が出現していたイギリス**では、政治的な問題だけではなくて**経済的にも自由を求める動き**が強まっていた。すでに18世紀には<span data-source-color=\"red\" style=\"color:#e52715\">**アダム＝スミス**</span>が登場して『<span data-source-color=\"red\" style=\"color:#e52715\">**諸国民の富**</span>【<span data-source-color=\"red\" style=\"color:#e52715\">**国富論**</span>】』を書き、「**神の見えざる手**」という言葉で有名な<span data-source-color=\"red\" style=\"color:#e52715\">**自由主義経済学**</span>を完成させ、<span data-source-color=\"red\" style=\"color:#e52715\">**古典派経済学**</span>を創始した。これは絶対王政時代から特定の商人などが持っていた特権をなくして、**自由放任**が一番いい！っていう理論だよ。このあとも、産業革命が進んだイギリスでは、自由主義を主張する古典派経済学がさらに発展していくよ。"
+    },
+    {
+      "line": 324,
+      "page": 117,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 325,
+      "page": 117,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "産業革命によって**下層労働者の<ruby>貧困<rt>ひんこん</rt></ruby>**が問題になると、<span data-source-color=\"red\" style=\"color:#e52715\">**マルサス**</span>は『**人口論**』を著し、「なぜ貧困が拡大するか？」という問題について「**食糧生産と人口増加のアンバランス**がいけない！」と主張した。大ざっぱに言うと、「人口はかけ算で、食糧生産は足し算で増えていくから、**人口増加に食糧生産が追いつかない**」っていうことだ。少子化が進んでいる現代だとピンとこないかもしれないけど、当時の貧困層は子どもも重要な働き手だった。だから貧乏な人ほど子どもが多かったんだ。さらに<span data-source-color=\"red\" style=\"color:#e52715\">**リカード**</span>は、**商品の価値（値段）をその生産に費やされた労働の量（つまり人件費）で決まる**という**労働価値説**を主張した。"
+    },
+    {
+      "line": 326,
+      "page": 117,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 327,
+      "page": 117,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "労働価値説を簡単な例にしよう。僕の行きつけのラーメン屋でネギをトッピングすると150円なんだけど、スーパーとかで売ってる150円分のネギは入っていない。そんなに入れたら、どんぶりの中はネギだらけ。じゃあ、なんで150円かっていうと、「ラーメン屋のご主人がネギを切る動きが1回10円、タレを入れて混ぜるのが1回10円」みたいな感じね。手の動きで値段が上がってるわけ。「混ぜるの1回減らして10円安くして！」とは言えないけどさ。"
+    },
+    {
+      "line": 328,
+      "page": 117,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 329,
+      "page": 117,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "自由主義を主張するイギリスの古典派経済学に対して、「オマエら発展してるからって、勝手なことを言うな！」って思ったのが**ドイツ人**だ。**自由貿易にしたら、発展しているイギリスが勝つ**に決まっている。当時は文化的にも**ロマン主義の時代**で「民族の伝統や独自性」が重視されていたから、経済学でも「**各国の発展の段階に応じて（経済の発展段階説）**、とるべき政策は違う！」って考え方が出てきた。それが<span data-source-color=\"red\" style=\"color:#e52715\">**歴史学派経済学**</span>だよ。ドイツの<span data-source-color=\"red\" style=\"color:#e52715\">**リスト**</span>は、イギリスは先進国だから自由主義を主張するけど、**ドイツは後進国だから保護貿易**でいいんだ！って主張した。この考え方は<span data-source-color=\"red\" style=\"color:#e52715\">**ドイツ<ruby>関税<rt>かんぜい</rt></ruby>同盟**</span>の結成に影響を与えたよ。"
+    },
+    {
+      "line": 330,
+      "page": 117,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 331,
+      "page": 117,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**マルクスの登場。経済学が大きく変わり、社会主義理論も完成！**</span>"
+    },
+    {
+      "line": 332,
+      "page": 117,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 333,
+      "page": 117,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ここまで話した経済学は、どれも**資本主義経済のなかでどうするか？**を考えたものだったけど、それを根本からひっくり返したのが<span data-source-color=\"red\" style=\"color:#e52715\">**マルクス経済学**</span>だよ。<span data-source-color=\"red\" style=\"color:#e52715\">**マルクス**</span>はすでに1848年には<span data-source-color=\"red\" style=\"color:#e52715\">**エンゲルス**</span>とともに『<span data-source-color=\"red\" style=\"color:#e52715\">**共産党宣言**</span>』を発表して、「**<ruby>万国<rt>ばんこく</rt></ruby>の労**"
+    },
+    {
+      "line": 334,
+      "page": 117,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 335,
+      "page": 118,
+      "part": 5,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 118"
+    },
+    {
+      "line": 336,
+      "page": 118,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 337,
+      "page": 118,
+      "part": 5,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第6回**</span> 19世紀のヨーロッパ文化"
+    },
+    {
+      "line": 338,
+      "page": 118,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 339,
+      "page": 118,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**働者よ、団結せよ**」って主張していたけど、じゃあ「なんで団結するの？」ってことも含めて、マルクスの考え方を解説していこう。"
+    },
+    {
+      "line": 340,
+      "page": 118,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 341,
+      "page": 118,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "<span data-source-color=\"red\" style=\"color:#e52715\">**マルクス**</span>は『<span data-source-color=\"red\" style=\"color:#e52715\">**資本論**</span>』のなかで**資本主義を分析**して、さっき出てきた労働価値説をさらに突き詰めて**<ruby>剰<rt>じょう</rt></ruby>余価値説**を唱えた。これは教科書みたいな言い方だと「**資本家は労働者に支払う賃金以上の価値を利潤として<ruby>搾取<rt>さくしゅ</rt></ruby>している**」ってことなんだけど……難しい。"
+    },
+    {
+      "line": 342,
+      "page": 118,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 343,
+      "page": 118,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "さっきのラーメン屋の話にしよう。ラーメン屋のご主人、1人バイトを雇ってるんだけど、ネギのトッピングを剰余価値説で説明すると、「ラーメン屋のご主人（**資本家**）は、バイトの時給分（**労働者の賃金**）と自分の<ruby>儲<rt>もう</rt></ruby>け（**利潤**）を上乗せして、ネギに150円って値段をつけてる」ってことだ。だから、バイトのおにいちゃんよりもラーメン屋のご主人が儲かる……って当たり前か。バイトより儲からないならラーメン屋やめるよな（笑）。"
+    },
+    {
+      "line": 344,
+      "page": 118,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 345,
+      "page": 118,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "これをすべての企業に当てはめれば、**労働者はつねに利潤を上乗せされた値段で物を買わされる**ことになる。だから**労働者は何を買っても搾取され**、いつまでたっても貧乏なままという理論になるでしょ。さらに続きがあって、中小の資本家は大資本家に負けちゃうと労働者に転落するから、資本主義の行きつく先は、**ごく少数の巨大企業（独占資本）が大多数の労働者を搾取する**状態になる。こんなふうにマルクスは**独占資本主義の出現**を予想している。じゃあどうすればいいんだろ？"
+    },
+    {
+      "line": 346,
+      "page": 118,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 347,
+      "page": 118,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "マルクスは、人間の能力は時代が進むにつれて発展していくという**ヘーゲルの<ruby>弁<rt>べん</rt></ruby><ruby>証法<rt>しょうほう</rt></ruby>の影響**を受けて、**社会も時代とともに発展**していくという**弁証法的<ruby>唯物論<rt>ゆいぶつろん</rt></ruby>**を唱えた。そこから、<span data-source-color=\"red\" style=\"color:#e52715\">**史的唯物論**</span>【<span data-source-color=\"red\" style=\"color:#e52715\">**唯物史観**</span>】に基づき「**資本主義の没落と社会主義への必然的移行**」を主張したよ……今、頭の中がぐちゃぐちゃになったでしょ。教科書で使うような言葉で説明すると難しい。じゃあ、解説しよう。"
+    },
+    {
+      "line": 348,
+      "page": 118,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 349,
+      "page": 118,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈マルクスの革命理論〉**"
+    },
+    {
+      "line": 350,
+      "page": 118,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 351,
+      "page": 118,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 352,
+      "page": 118,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 353,
+      "page": 118,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| <span data-source-color=\"green\" style=\"color:#315837\">**〈絶対王政〉**</span> | **〈資本主義〉** | <span data-source-color=\"red\" style=\"color:#e52715\">**〈社会主義〉**</span> |"
+    },
+    {
+      "line": 354,
+      "page": 118,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| <span data-source-color=\"green\" style=\"color:#315837\">**<span data-source-cancellation=\"cross\" data-source-cancellation-color=\"brown\" style=\"text-decoration:line-through;text-decoration-color:#a43725\">貴族</span>**</span> | <span data-source-cancellation=\"cross\" data-source-cancellation-color=\"brown\" style=\"text-decoration:line-through;text-decoration-color:#a43725\">**資本家**</span> | |"
+    },
+    {
+      "line": 355,
+      "page": 118,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| **階級闘争** | **階級闘争** | <span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\"><span data-source-color=\"red\" style=\"color:#e52715\">**労働者**</span></span> |"
+    },
+    {
+      "line": 356,
+      "page": 118,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| **平民** | <span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\"><span data-source-color=\"red\" style=\"color:#e52715\">**労働者**</span></span> | 階級はなくなる |"
+    },
+    {
+      "line": 357,
+      "page": 118,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 358,
+      "page": 118,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | |"
+    },
+    {
+      "line": 359,
+      "page": 118,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 360,
+      "page": 118,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| **ブルジョワ革命** | **社会主義革命** |"
+    },
+    {
+      "line": 361,
+      "page": 118,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 362,
+      "page": 119,
+      "part": 5,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 119"
+    },
+    {
+      "line": 363,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 364,
+      "page": 119,
+      "part": 5,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**5**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">社会科学・哲学</u>"
+    },
+    {
+      "line": 365,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 366,
+      "page": 119,
+      "part": 5,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 367,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 368,
+      "page": 119,
+      "part": 5,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 369,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 370,
+      "page": 119,
+      "part": 5,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 371,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 372,
+      "page": 119,
+      "part": 5,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 373,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 374,
+      "page": 119,
+      "part": 5,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 375,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 376,
+      "page": 119,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "絶対王政の時代には、国王とその周りにいる**貴族が特権を持って平民をいじめる**から、平民たちは豊かになれない。つまり「**貴族」「平民」という階級**があるのが、社会が抱える矛盾なんだよ。そこで、平民が「貴族を<ruby>潰<rt>つぶ</rt></ruby>す！」ってこの矛盾と戦って（これが**階級闘争**だ）、平民を中心とする社会をつくった。これが**ブルジョワ革命【市民革命】**だよ。そうすると**平民を中心とする資本主義の段階に進む**よね。"
+    },
+    {
+      "line": 377,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 378,
+      "page": 119,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "じゃあ、資本主義ではみんな幸せになるかっていうと、新しい階級が生まれて、今度は**金持ちの「資本家」が貧乏な「労働者」をいじめる**。労働者たちは「結局貧乏じゃないか！」って思うよね。これが資本主義の抱える矛盾だ。"
+    },
+    {
+      "line": 379,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 380,
+      "page": 119,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そして、資本主義がどんどん発展すると**独占資本主義**になるから、ごく少数の巨大資本家がボロ儲けする。だったら「資本家を潰せ！」ってこの矛盾と戦えば（**新たな階級闘争**だ）、**労働者を中心とする社会**ができる。これが<span data-source-color=\"red\" style=\"color:#e52715\">**社会主義革命**</span>だよ。ただ労働者一人ひとりは弱いからこれを成功させるためには、世界中の労働者が団結しなきゃいけない。これが「**<ruby>万国<rt>ばんこく</rt></ruby>の労働者よ、団結せよ！**」ってことね。"
+    },
+    {
+      "line": 381,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 382,
+      "page": 119,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こうして、一番貧乏な**労働者階級が政権を取れば平等な社会ができる**。これがマルクスの**革命理論**だよ。ザックリとらえると、「**絶対王政から2回の革命（ブルジョワ革命と<span data-source-color=\"red\" style=\"color:#e52715\">**社会主義革命**</span>）をやると社会主義になる**」ってことね。"
+    },
+    {
+      "line": 383,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 384,
+      "page": 119,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈古典派経済学〉**"
+    },
+    {
+      "line": 385,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 386,
+      "page": 119,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 387,
+      "page": 119,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 388,
+      "page": 119,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 英 | <span data-source-color=\"red\" style=\"color:#e52715\">**マルサス**</span> | 『**人口論**』 |"
+    },
+    {
+      "line": 389,
+      "page": 119,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**リカード**</span> | **労働価値説**。『経済学および課税の原理』 |"
+    },
+    {
+      "line": 390,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 391,
+      "page": 119,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈歴史学派経済学〉**"
+    },
+    {
+      "line": 392,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 393,
+      "page": 119,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 394,
+      "page": 119,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 395,
+      "page": 119,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 独 | <span data-source-color=\"red\" style=\"color:#e52715\">**リスト**</span> | **保護貿易主義**を主張。<span data-source-color=\"red\" style=\"color:#e52715\">**ドイツ<ruby>関税<rt>かんぜい</rt></ruby>同盟**</span>の結成に影響 |"
+    },
+    {
+      "line": 396,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 397,
+      "page": 119,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈マルクス経済学〉**"
+    },
+    {
+      "line": 398,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 399,
+      "page": 119,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 400,
+      "page": 119,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 401,
+      "page": 119,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 独 | <span data-source-color=\"red\" style=\"color:#e52715\">**マルクス**</span> | 『<span data-source-color=\"red\" style=\"color:#e52715\">**資本論**</span>』。**剰余価値説**から資本主義を分析<br>哲学では**弁証法的唯物論**。歴史学では<span data-source-color=\"red\" style=\"color:#e52715\">**史的唯物論**</span>【<span data-source-color=\"red\" style=\"color:#e52715\">**唯物史観**</span>】を創始 |"
+    },
+    {
+      "line": 402,
+      "page": 119,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**エンゲルス**</span> | 『イギリスにおける労働者階級の状態』 |"
+    },
+    {
+      "line": 403,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 404,
+      "page": 119,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <em data-source-italic=\"true\" style=\"font-style:italic\"><span data-source-color=\"brown\" style=\"color:#a43725\">**その他の社会科学**</span></em>"
+    },
+    {
+      "line": 405,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 406,
+      "page": 119,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**民族の独自性を追求したドイツ人は、歴史が大好き！**</span>"
+    },
+    {
+      "line": 407,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 408,
+      "page": 119,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**ロマン主義の風潮**によって、各個人の個性や民族の伝統を重視しようって考え方が広がると、特に**ドイツ**では「じゃあ、伝統とはなんだろ？」って**歴史を探ろうとする動き**が出てきた。まず<span data-source-color=\"red\" style=\"color:#e52715\">**ランケ**</span>は残された**史料をきちんと分析**して事実を探り、「本来それがどうであったか」を書くのが歴史であるという<span data-source-color=\"red\" style=\"color:#e52715\">**近代歴史学**</span>を確立した"
+    },
+    {
+      "line": 409,
+      "page": 119,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 410,
+      "page": 120,
+      "part": 5,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 120"
+    },
+    {
+      "line": 411,
+      "page": 120,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 412,
+      "page": 120,
+      "part": 5,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第6回**</span> 19世紀のヨーロッパ文化"
+    },
+    {
+      "line": 413,
+      "page": 120,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 414,
+      "page": 120,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "よ。彼は「各民族にはそれぞれに“良さ”や“独自性”がある」と考えて、歴史における民族の個性や多様性を重視したよ。この影響で他の社会科学の分野では、<span data-source-color=\"red\" style=\"color:#e52715\">**サヴィニー**</span>が「各民族がたどってきた歴史によって、**各民族固有の法がある**」という<span data-source-color=\"red\" style=\"color:#e52715\">**歴史法学**</span>を創始したんだ。これも、**自由主義を進めるイギリス**に対して、「ドイツは多少法律が厳しくても、自由が制限されててもいいんだ〜！」って言いたいんだろうけどね。この考え方が、プロイセンの憲法やドイツの民法典に影響したんだ。"
+    },
+    {
+      "line": 415,
+      "page": 120,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 416,
+      "page": 120,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈その他社会科学〉**"
+    },
+    {
+      "line": 417,
+      "page": 120,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 418,
+      "page": 120,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 419,
+      "page": 120,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 420,
+      "page": 120,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 独 | <span data-source-color=\"red\" style=\"color:#e52715\">**ランケ**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**近代歴史学**</span>を確立。『世界史』 |"
+    },
+    {
+      "line": 421,
+      "page": 120,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**サヴィニー**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**歴史法学**</span>を創始。『中世ローマ法史』 |"
+    },
+    {
+      "line": 422,
+      "page": 120,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 423,
+      "page": 120,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <em data-source-italic=\"true\" style=\"font-style:italic\"><span data-source-color=\"brown\" style=\"color:#a43725\">**哲学**</span></em>"
+    },
+    {
+      "line": 424,
+      "page": 120,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 425,
+      "page": 120,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**市民社会が成熟したイギリスでは「最大多数の最大幸福」を目指す**</span>"
+    },
+    {
+      "line": 426,
+      "page": 120,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 427,
+      "page": 120,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "資本主義が発展した**イギリス**では、産業資本家が台頭して地主と対立し、さらに労働者の生活環境や労働環境が問題になっていたよね。こうしたことを背景に、<span data-source-color=\"red\" style=\"color:#e52715\">**ベンサム**</span>は「<span data-source-color=\"red\" style=\"color:#e52715\">**最大多数の最大幸福**</span>」を主張する<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>功利<rt>こうり</rt></ruby>主義**</span>を打ち出した。これは当時発言力が大きくなっていた産業資本家を中心とする**ブルジョワ階級の主張と一致**するよね。これを一歩進めたのは<span data-source-color=\"red\" style=\"color:#e52715\">**ジョン＝ステュアート＝ミル**</span>の**社会改良主義**だ。議会に進出していない労働者や女性は自分たちの権利を主張する場所もないのだから（だって参政権がないよね）、権利がある人たちが進んで**社会を改良して幸福の質を高め、理想的な社会をつくらなければいけない**、って主張したよ。また**ハーバート＝スペンサー**は進化論を社会に当てはめ、優れた社会（国）は勝ち、劣った社会（国）は敗れるという**社会進化論**を主張したんだよ。社会進化論は、**フランス**の<span data-source-color=\"red\" style=\"color:#e52715\">**コント**</span>が主張した「現実の経験によって確かめたことからしか知識は得られない」とする<span data-source-color=\"red\" style=\"color:#e52715\">**実証主義**</span>の影響も受けているよ。"
+    },
+    {
+      "line": 428,
+      "page": 120,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 429,
+      "page": 120,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**「神は死んだ」と叫んだニーチェ。実存主義ってなんだろう？**</span>"
+    },
+    {
+      "line": 430,
+      "page": 120,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 431,
+      "page": 120,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ヨーロッパの文化史をやると、どうしてもぶち当たるのが「**キリスト教」の問題**……。絶対神、創造神、唯一神……どれも日本の宗教にはない感覚だ。**キリスト教**では、「**この世界はすべて神の創造物だから、神の思うようになっている**」っていうのが大前提なんだよ。だから人間が何をしようと神の意志にはかなわないし、そもそも神がなんなのかさえ知ることもできない。最終的に救われるかどうかも神が決める。だったら無条件に神を信仰して、「信仰すれば救われる」と思えばいい。全部神が決めることだから、「**とにかく信じるしかない**」ということになる。"
+    },
+    {
+      "line": 432,
+      "page": 120,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 433,
+      "page": 120,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "でも、そう割り切れない人もいるよね。**ショーペンハウエル**は、人生の本質は「**盲目的な生への意思**（ずっと生きたいと思うこと）」と考えた。人は必ず訪れる死への不安から逃れることはできず、人生は苦そのものである、ってことね。これが"
+    },
+    {
+      "line": 434,
+      "page": 120,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 435,
+      "page": 121,
+      "part": 5,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 121"
+    },
+    {
+      "line": 436,
+      "page": 121,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 437,
+      "page": 121,
+      "part": 5,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**6**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">自然科学・科学技術</u>"
+    },
+    {
+      "line": 438,
+      "page": 121,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 439,
+      "page": 121,
+      "part": 5,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 440,
+      "page": 121,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 441,
+      "page": 121,
+      "part": 5,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 442,
+      "page": 121,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 443,
+      "page": 121,
+      "part": 5,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 444,
+      "page": 121,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 445,
+      "page": 121,
+      "part": 5,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 446,
+      "page": 121,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 447,
+      "page": 121,
+      "part": 5,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 448,
+      "page": 121,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 449,
+      "page": 121,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**<ruby>厭世<rt>えんせい</rt></ruby>哲学【ペシミズム】**だ。こう考え始めたら、何をやっても絶対楽しくない。これ、**インド思想の影響**だよ。インド思想も「生＝苦」というのが基本だ。"
+    },
+    {
+      "line": 450,
+      "page": 121,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 451,
+      "page": 121,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "また、**デンマーク**の**キェルケゴール**は「**つねに神の前にいることの不安**（いつも神に見られているってことね）」を哲学に高め、「いかにして神の前に一人で立つキリスト者となるか」、つまり自分を一人の主体的な人間と考えて、**どのように神と向き合うべきか**（人と人が向き合うように1対1で神と向き合う）、を追及したよ。これらの哲学を**実存主義**というんだ。"
+    },
+    {
+      "line": 452,
+      "page": 121,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 453,
+      "page": 121,
+      "part": 5,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こうした思想の影響を受け、<span data-source-color=\"red\" style=\"color:#e52715\">**ニーチェ**</span>は「<span data-source-color=\"red\" style=\"color:#e52715\">**神は死んだ**</span>」と主張した。はっきり言ってニーチェはよくわからん。彼の出発点は**ニヒリズム**（権威や権力はすべて意味のないいらないものという発想）で、これをどう克服するかが問題だった。だって、**弱い人間を救うはずのキリスト教**の考え方（道徳観）も、実は**弱者に都合のいいように創作されている**から、神だって本当に救ってはくれない。だから「神は死んだ」として一人ひとりが「**<ruby>超人<rt>ちょうじん</rt></ruby>**」となって**ニヒリズムを克服**しなければいけないと説いた。さらに世界の出来事は、**何一つ変わらず永遠に繰り返される**（**<ruby>永劫回<rt>えいごうかい</rt></ruby><ruby>帰<rt>き</rt></ruby>**）のだから、喜びも苦悩も含めた**現実の生をそのまま肯定して受け入れるべき**、と主張した。ここまで説明しても、やっぱりわからん。だって、**ニーチェ本人も最後は発狂**しているんだもん。入試では「<span data-source-color=\"red\" style=\"color:#e52715\">**神は死んだ**</span>」「**超人**」「**永劫回帰**」「**力への意思**」っていうキーワードを覚えておけばOKだ。"
+    },
+    {
+      "line": 454,
+      "page": 121,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 455,
+      "page": 121,
+      "part": 5,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈哲学〉**"
+    },
+    {
+      "line": 456,
+      "page": 121,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 457,
+      "page": 121,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 458,
+      "page": 121,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 459,
+      "page": 121,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 英 | <span data-source-color=\"red\" style=\"color:#e52715\">**ベンサム**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**功利主義**</span>。「<span data-source-color=\"red\" style=\"color:#e52715\">**最大多数の最大幸福**</span>」 |"
+    },
+    {
+      "line": 460,
+      "page": 121,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**ジョン＝ステュアート＝ミル**</span> | **社会改良主義** |"
+    },
+    {
+      "line": 461,
+      "page": 121,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | **ハーバート＝スペンサー** | **社会進化論** |"
+    },
+    {
+      "line": 462,
+      "page": 121,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 仏 | <span data-source-color=\"red\" style=\"color:#e52715\">**コント**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**実証主義**</span>。**社会学の祖** |"
+    },
+    {
+      "line": 463,
+      "page": 121,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 独など | **ショーペンハウエル** | **厭世哲学【ペシミズム】** |"
+    },
+    {
+      "line": 464,
+      "page": 121,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | **キェルケゴール** | デンマークの哲学者。**実存主義の先駆者** |"
+    },
+    {
+      "line": 465,
+      "page": 121,
+      "part": 5,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**ニーチェ**</span> | 「<span data-source-color=\"red\" style=\"color:#e52715\">**神は死んだ**</span>」「**超人**」「**永劫回帰**」「**力への意思**」 |"
+    },
+    {
+      "line": 466,
+      "page": 121,
+      "part": 5,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 467,
+      "page": 121,
+      "part": 6,
+      "kind": "section-heading",
+      "reason": "本文内の実際の節見出しで区分する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**6**</span> <span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">**自然科学・科学技術**</span>"
+    },
+    {
+      "line": 468,
+      "page": 121,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 469,
+      "page": 121,
+      "part": 6,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**科学技術のもとになった発見がいっぱいだ！**</span>"
+    },
+    {
+      "line": 470,
+      "page": 121,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 471,
+      "page": 121,
+      "part": 6,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "19世紀前半の<span data-source-color=\"red\" style=\"color:#e52715\">**第1次産業革命**</span>は**石炭と蒸気（蒸気機関）**によって産業が発展したけど、19世紀後半には**石油と電力**を動力とする<span data-source-color=\"red\" style=\"color:#e52715\">**第2次産業革命**</span>が進み、一気に**科学技術の時代**になった。背景には、当時の**物理学や化学**における発見があるよ。"
+    },
+    {
+      "line": 472,
+      "page": 121,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 473,
+      "page": 121,
+      "part": 6,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "まず、**イギリス**の<span data-source-color=\"red\" style=\"color:#e52715\">**ファラデー**</span>が<span data-source-color=\"red\" style=\"color:#e52715\">**電磁誘導の法則**</span>や電気分解の法則を発見して**電磁気学**が発展し、さらに**ドイツ**の<span data-source-color=\"red\" style=\"color:#e52715\">**マイヤー**</span>や<span data-source-color=\"red\" style=\"color:#e52715\">**ヘルムホルツ**</span>が<span data-source-color=\"red\" style=\"color:#e52715\">**エネルギー保存の法則**</span>を"
+    },
+    {
+      "line": 474,
+      "page": 121,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 475,
+      "page": 122,
+      "part": 6,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 122"
+    },
+    {
+      "line": 476,
+      "page": 122,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 477,
+      "page": 122,
+      "part": 6,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第6回**</span> 19世紀のヨーロッパ文化"
+    },
+    {
+      "line": 478,
+      "page": 122,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 479,
+      "page": 122,
+      "part": 6,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "発見して、**熱力学**が発展したよ。こうして発見された法則は科学技術の発展に応用され、**ジーメンス**が**発電機**を実用化して**電機産業**が発展し、**ダイムラー**や**ディーゼル**による**エンジン（ガソリン機関やディーゼル機関）**の発明で、**自動車**が作られるようになった。また、<span data-source-color=\"red\" style=\"color:#e52715\">**レントゲン**</span>が<span data-source-color=\"red\" style=\"color:#e52715\">**X放射線**</span>を、<span data-source-color=\"red\" style=\"color:#e52715\">**キュリー夫妻**</span>が<span data-source-color=\"red\" style=\"color:#e52715\">**ラジウム**</span>を発見するなど、放射線や放射性物質の発見が続き、**医療技術**などに応用された。さらに**リービヒ**による**有機化学**の確立で、**化学工業**も発展していくんだ。"
+    },
+    {
+      "line": 480,
+      "page": 122,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 481,
+      "page": 122,
+      "part": 6,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "生物学や医学の発達もいろいろあるよ。<span data-source-color=\"red\" style=\"color:#e52715\">**パストゥール**</span>の**<ruby>狂犬病<rt>きょうけんびょう</rt></ruby>の予防接種**や、<span data-source-color=\"red\" style=\"color:#e52715\">**コッホ**</span>の**コレラ菌・<ruby>結核菌<rt>けっかくきん</rt></ruby>の発見**で病気の予防や治療の幅が広がり、**<ruby>細菌学<rt>さいきんがく</rt></ruby>**も発展し始めた。また、**メンデル**の**<ruby>遺伝<rt>いでん</rt></ruby>の法則**や<span data-source-color=\"red\" style=\"color:#e52715\">**ダーウィン**</span>の<span data-source-color=\"red\" style=\"color:#e52715\">**進化論**</span>は、生物学にとどまらず**社会科学や宗教にも大きな影響を与える**ことになるよ。だって、進化論は「神は人間を創造した」というキリスト教の教義を根本からひっくり返す考え方でしょ？ こりゃ大事件だよ。"
+    },
+    {
+      "line": 482,
+      "page": 122,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 483,
+      "page": 122,
+      "part": 6,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "最後に**情報通信**ね。19世紀以前には**情報が伝わる速度と人が移動する速度は一緒**だった。だって手紙しかないんだもん。現代はインターネット上で全世界に一瞬で情報を送れるし、それこそ何かしらのアプリをインストールすれば、全世界とタダでテレビ電話もできる時代だもんね。でも昔は人が運ぶ手紙しか情報を伝える手段はなかったんだ。それを劇的に変えたのが、<span data-source-color=\"red\" style=\"color:#e52715\">**モース**</span>【<span data-source-color=\"red\" style=\"color:#e52715\">**モールス**</span>】による<span data-source-color=\"red\" style=\"color:#e52715\">**電信機**</span>の発明だよ。映画とかで見たことないかな？ 「トン・トン・ツー……」みたいな感じで、電気が流れると音が鳴る仕組みで、暗号にした文字を読み取るだけの簡単なものだけど、当時としては劇的な変化だよ。だって**一瞬で情報を送れる**んだもん、それだけですごい！ そして、各地で**電信線**が敷かれ始めた。最初は**アメリカのワシントンからボルティモア**に敷かれたんだけど、そこから10年経たないうちに**英仏間のドーヴァー海峡**（1851）に、さらに**大西洋**（1866）や**イギリス〜インド間**（1870）に**海底電信ケーブル**が敷かれ、**情報による世界の一体化**が進んだよ。"
+    },
+    {
+      "line": 484,
+      "page": 122,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 485,
+      "page": 122,
+      "part": 6,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "さらに**アメリカ**の<span data-source-color=\"red\" style=\"color:#e52715\">**ベル**</span>が<span data-source-color=\"red\" style=\"color:#e52715\">**電話機**</span>を発明すると、離れたところと会話ができるようになり、もうびっくりなんてもんじゃない。そして<span data-source-color=\"red\" style=\"color:#e52715\">**マルコーニ**</span>の発明した<span data-source-color=\"red\" style=\"color:#e52715\">**無線電信**</span>と合わせれば……ほら、今みんなが使っているスマホの通信だって、この無線電信技術が進歩したものだ。このあたりの発明は、今のみんなの生活にもかかわるようなものがいくつもあるね。"
+    },
+    {
+      "line": 486,
+      "page": 122,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 487,
+      "page": 123,
+      "part": 6,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 123"
+    },
+    {
+      "line": 488,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 489,
+      "page": 123,
+      "part": 6,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持し、実際の本文の節区切りを優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**6**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">自然科学・科学技術</u>"
+    },
+    {
+      "line": 490,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 491,
+      "page": 123,
+      "part": 6,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 492,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 493,
+      "page": 123,
+      "part": 6,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 494,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 495,
+      "page": 123,
+      "part": 6,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 496,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 497,
+      "page": 123,
+      "part": 6,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 498,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 499,
+      "page": 123,
+      "part": 6,
+      "kind": "chapter-navigation",
+      "reason": "繰り返しの章目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 500,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 501,
+      "page": 123,
+      "part": 6,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈物理学・化学〉**"
+    },
+    {
+      "line": 502,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 503,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 504,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 505,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 英 | <span data-source-color=\"red\" style=\"color:#e52715\">**ファラデー**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**電磁誘導の法則**</span>。電気分解の法則。**電磁気学**の発展 |"
+    },
+    {
+      "line": 506,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 独 | <span data-source-color=\"red\" style=\"color:#e52715\">**マイヤー**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**エネルギー保存の法則**</span>。**熱力学**の発展 |"
+    },
+    {
+      "line": 507,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**ヘルムホルツ**</span> | |"
+    },
+    {
+      "line": 508,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**レントゲン**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**X放射線**</span>の発見。**第1回ノーベル物理学賞**を受賞 |"
+    },
+    {
+      "line": 509,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | **リービヒ** | **有機化学の基礎**を確立。化学工業や化学肥料 |"
+    },
+    {
+      "line": 510,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 仏 | <span data-source-color=\"red\" style=\"color:#e52715\">**キュリー夫妻**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**ラジウム**</span>の発見。妻はポーランド出身 |"
+    },
+    {
+      "line": 511,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 512,
+      "page": 123,
+      "part": 6,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈生物学・医学〉**"
+    },
+    {
+      "line": 513,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 514,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 515,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 516,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 英 | <span data-source-color=\"red\" style=\"color:#e52715\">**ダーウィン**</span> | 『<span data-source-color=\"red\" style=\"color:#e52715\">**種の起源**</span>』。<span data-source-color=\"red\" style=\"color:#e52715\">**進化論**</span>を発表 |"
+    },
+    {
+      "line": 517,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 仏 | <span data-source-color=\"red\" style=\"color:#e52715\">**パストゥール**</span> | <ruby>乳酸菌<rt>にゅうさんきん</rt></ruby>の発見。**狂犬病の予防接種**に成功 |"
+    },
+    {
+      "line": 518,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 独 | <span data-source-color=\"red\" style=\"color:#e52715\">**コッホ**</span> | **結核菌、コレラ菌の発見**。ツベルクリンを創設。**細菌学**の発展 |"
+    },
+    {
+      "line": 519,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 墺 | **メンデル** | 遺伝の法則 |"
+    },
+    {
+      "line": 520,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 521,
+      "page": 123,
+      "part": 6,
+      "kind": "subheading",
+      "reason": "小見出しと表題を全文に保持する。",
+      "text": "### **〈科学技術〉**"
+    },
+    {
+      "line": 522,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 523,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | | |"
+    },
+    {
+      "line": 524,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 525,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 英 | ベッセマー | <ruby>転炉<rt>てんろ</rt></ruby>による製鋼法の発明 |"
+    },
+    {
+      "line": 526,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**ノーベル**</span> | <em data-source-italic=\"true\" style=\"font-style:italic\">**スウェーデン人**</em>。<span data-source-color=\"red\" style=\"color:#e52715\">**ダイナマイト**</span>、無煙火薬の発明 |"
+    },
+    {
+      "line": 527,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 米 | <span data-source-color=\"red\" style=\"color:#e52715\">**モース**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**電信機**</span>の発明。モールス信号 |"
+    },
+    {
+      "line": 528,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | <span data-source-color=\"red\" style=\"color:#e52715\">**ベル**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**電話機**</span>の発明 |"
+    },
+    {
+      "line": 529,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 伊 | <span data-source-color=\"red\" style=\"color:#e52715\">**マルコーニ**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**無線電信**</span>の発明 |"
+    },
+    {
+      "line": 530,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 米 | <span data-source-color=\"red\" style=\"color:#e52715\">**エディソン**</span> | **<ruby>蓄音機<rt>ちくおんき</rt></ruby>、白熱電球、映画など**を発明。「**発明王**」 |"
+    },
+    {
+      "line": 531,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| 独 | **ダイムラー** | **ガソリン機関（エンジン）**の発明。**自動車**を製作 |"
+    },
+    {
+      "line": 532,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | **ディーゼル** | **ディーゼル機関（エンジン）**の発明 |"
+    },
+    {
+      "line": 533,
+      "page": 123,
+      "part": 6,
+      "kind": "table",
+      "reason": "表の文字・空欄・順序・色・取消線を全文に保持する。国籍の空欄は原文のまま。",
+      "text": "| | **ジーメンス** | **発電機**、モーターの実用化。電車の発明 |"
+    },
+    {
+      "line": 534,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 535,
+      "page": 123,
+      "part": 6,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "さて、19世紀のヨーロッパ文化史どうだった？ 単なる名前の丸暗記じゃなくて、同じ時代の政治とか社会とつなげてみると、また違った見方ができるようになるよ。"
+    },
+    {
+      "line": 536,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 537,
+      "page": 123,
+      "part": 6,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "今回は文化史だから年号checkはなしだよ。"
+    },
+    {
+      "line": 538,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 539,
+      "page": 123,
+      "part": 6,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**次回からはアジア近現代史**だ。今回までのヨーロッパ史とつながるところもいっぱいあるから、きっちり復習して次に進んでね。"
+    },
+    {
+      "line": 540,
+      "page": 123,
+      "part": 6,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 541,
+      "page": 124,
+      "part": 6,
+      "kind": "page",
+      "reason": "原書ページ番号を全文に保持する。124は本文のない白紙境界として記録する。",
+      "text": "## 124"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "modern-06-5",
+      "part": 1,
+      "lines": [
+        5
+      ],
+      "sourcePages": [
+        108
+      ],
+      "markdown": "政治史が一段落したから、今回は<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**19世紀のヨーロッパ文化史**</u>を見ていこう。バラバラに見える文化史も、全体的な時代の動きとしっかりつなげると、社会全体の動きが見えてくるよ！"
+    },
+    {
+      "id": "modern-06-24",
+      "part": 1,
+      "lines": [
+        24
+      ],
+      "sourcePages": [
+        108
+      ],
+      "markdown": "19世紀になると、絶対王政の時代が終わって<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**近代的な市民社会へと変わった**</u>ヨーロッパでは、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**文化の担い手も市民に変わった**</u>よ。「市民」と一言でいってもいろいろな人たちがなかに含まれているから、簡単にはまとめられないけど、時期によっていろんな<ruby>流行<rt>はや</rt></ruby>りはある！ 「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**古典主義**</u>」「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**ロマン主義**</u>」「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**写実主義**</u>」「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**自然主義**</u>」、そして芸術では「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**印象派**</u>」という大きな時代の変化を、政治史や社会史とつなげて見ていこう。単なる丸暗記じゃなくて、文化史こそしっかりと理解してほしいな。人名だけを並べてるだけじゃダメよ。"
+    },
+    {
+      "id": "modern-06-26",
+      "part": 1,
+      "lines": [
+        26
+      ],
+      "sourcePages": [
+        108
+      ],
+      "markdown": "それじゃあ、19世紀のヨーロッパ文化史、いってみよう〜。"
+    },
+    {
+      "id": "modern-06-46",
+      "part": 1,
+      "lines": [
+        46
+      ],
+      "sourcePages": [
+        109
+      ],
+      "markdown": "**18世紀**までのヨーロッパは**絶対王政**の時代で、文化の中心にいたのは国王や貴族などの特権階級だから、金ピカで豪華にした**バロック様式**や繊細で華麗な**ロココ様式**などが好まれていたよね。どっちもお金がかかるけど。ところが、少しずつ**市民階級が力をつけ始める**と、「今の世の中なんか変だよな？」って疑問が出てきて、伝統的に正しいと考えていたこと、例えば「国王はエライ」とか「教会は正しい」みたいなことに対する批判が始まったんだよ。その根拠とされたのが<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>啓蒙<rt>けいもう</rt></ruby>思想**</span>だ。**人間の理性を絶対**と考えて「理性に基づいて判断したことが正しい」っていう**合理主義**により、**絶対王政や教会の腐敗・矛盾を批判**し、教会の権威も伝統的な身分制度も関係なく、自由な個人を中心にものを考えてみよう、ってことになったんだ。"
+    },
+    {
+      "id": "modern-06-48",
+      "part": 1,
+      "lines": [
+        48
+      ],
+      "sourcePages": [
+        109
+      ],
+      "markdown": "こういう風潮が文化にどう影響するんだろう？ **自由な個人の人間性を重視**して、理想の人間像を追及していたのは古代ギリシア。それじゃあ、**古代ギリシアを模範**にしよう！っていう<span data-source-color=\"red\" style=\"color:#e52715\">**古典主義**</span>が現れた。ちなみに、ヨーロッパで**古典**（**classic**）っていうと、**ギリシア・ローマ**のことだ。だから、古典主義とは**古代ギリシア・ローマ文化を理想**として**調和の取れた人間性**を重んじる風潮だ。文学なら理性と感情のバランスが、芸術なら全体的に均整のとれた理想の人間像を描くってことになるね。"
+    },
+    {
+      "id": "modern-06-52",
+      "part": 1,
+      "lines": [
+        52
+      ],
+      "sourcePages": [
+        109
+      ],
+      "markdown": "文学では、すでに17世紀のフランスでラシーヌやモリエールらが古典主義演劇をつくっていたけど、**18世紀末のドイツ**では、<span data-source-color=\"red\" style=\"color:#e52715\">**ゲーテ**</span>や<span data-source-color=\"red\" style=\"color:#e52715\">**シラー**</span>を中心に**人間の自然な感情**を描こうとする**<ruby>疾風怒濤<rt>しっぷうどとう</rt></ruby>運動【シュトゥルム＝ウント＝ドランク】**が起きた。例えば、有名な<span data-source-color=\"red\" style=\"color:#e52715\">**ゲーテ**</span>の『**若きウェルテルの悩み**』は、初恋相手に再会したことで恋心が復活した主人公ウェルテルが、彼女の結婚を知って、「自分の恋心」と「結婚する彼女に手を出しちゃいけない」という理性の間で揺れ動き、ついには自殺しちゃう、って話だ。ゲーテはのちの**ロマン主義の先駆者**になったんだけど、フランス革命には否定的で、晩年は**古典主義**に傾いたんだ。"
+    },
+    {
+      "id": "modern-06-56",
+      "part": 1,
+      "lines": [
+        56
+      ],
+      "sourcePages": [
+        109
+      ],
+      "markdown": "芸術では**ナポレオン1世の<ruby>宮廷<rt>きゅうてい</rt></ruby>画家**だった<span data-source-color=\"red\" style=\"color:#e52715\">**ダヴィド**</span>や、その弟子の**アングル**などによって、**均整のとれた美しさ**を重視する絵が描かれたね。要するにギリシア彫刻みたいに理想的な人間を描こうってことだ。特にダヴィドは**ナポレオンを英雄として描いた**多くの絵で有名だね。ルーブル美術館にある大作「**ナポレオンの<ruby>戴冠式<rt>たいかんしき</rt></ruby>**」はなんと縦6m、横9mもあるよ。"
+    },
+    {
+      "id": "modern-06-62",
+      "part": 1,
+      "lines": [
+        62
+      ],
+      "sourcePages": [
+        110
+      ],
+      "markdown": "音楽は**ドイツが中心**だよ。100曲以上もの<ruby>交響曲<rt>こうきょうきょく</rt></ruby>を作曲して「**交響曲の父**」と呼ばれる**ハイドン**、**マリアントワネットとほぼ同時代**にあたる音楽の天才<span data-source-color=\"red\" style=\"color:#e52715\">**モーツァルト**</span>、9つの重厚な交響曲で不動の地位を築いた**ボン出身**の<span data-source-color=\"red\" style=\"color:#e52715\">**ベートーヴェン**</span>が**古典派**にあたるよ。政治史と関係する話だと、ベートーヴェンの**交響曲第3番**「英雄」は、もともと**ナポレオンのためにつくった**んだけど、彼が皇帝になったのに失望したベートーヴェンが表紙を破り捨てた、といわれている。"
+    },
+    {
+      "id": "modern-06-82",
+      "part": 2,
+      "lines": [
+        82
+      ],
+      "sourcePages": [
+        110
+      ],
+      "markdown": "18世紀末から19世紀初めは**フランス革命とナポレオンの時代**だよね。フランス革命では「**自由・平等・友愛**」をスローガンに王政を打倒し、市民が権利を勝ち取り、さらにフランス人は「**祖国フランス**」っていう意識を持ち始めた。この**自由主義・ナショナリズム**（**国民主義**）がヨーロッパ全体に広がって、文化にも影響するんだよ。"
+    },
+    {
+      "id": "modern-06-84",
+      "part": 2,
+      "lines": [
+        84
+      ],
+      "sourcePages": [
+        110
+      ],
+      "markdown": "こうして、18世紀の<ruby>啓蒙<rt>けいもう</rt></ruby>思想や古典主義に対して「これからは理性よりも**自由な感情**だ♪」とか、「調和よりも**個性**の時代だ！」って考える風潮が現れた。これが<span data-source-color=\"red\" style=\"color:#e52715\">**ロマン主義**</span>だよ。じゃあ、なんでこんな考え方が広がったんだろ？ 19世紀前半といえばウィーン体制のもとで**自由主義やナショナリズムが弾圧**されていたから、人びとが自由を求める傾向が強かったよね。これが文化に結びつくと、**個人の自由**に加えて、それぞれの**民族の歴史や伝統に基づく独自性**を重視する傾向が生まれたんだ。じゃあ、ヨーロッパで各民族の独自性が生まれたのはいつだろう？ 古典主義が理想とした**ローマは「世界帝国」**だから、むしろ「普遍」。そのあと、**ヨーロッパ各国の原型が出現したのは中世**だよね。ってことで、ロマン主義では**中世やルネサンスが理想**とされたんだよ。"
+    },
+    {
+      "id": "modern-06-88",
+      "part": 2,
+      "lines": [
+        88,
+        104
+      ],
+      "sourcePages": [
+        110,
+        111
+      ],
+      "markdown": "じゃあ、**芸術**の分野から見ていこう。絵画では**フランス**の<span data-source-color=\"red\" style=\"color:#e52715\">**ドラクロワ**</span>が、調和を破った**情熱的な激しい色使い**で、**ギリシア独立戦争**を題材にした「**キオス島の<ruby>虐<rt>ぎゃく</rt></ruby><ruby>殺<rt>さつ</rt></ruby>**」や、**七月革命**を題材にした「<span data-source-color=\"red\" style=\"color:#e52715\">**民衆を導く自由の<ruby>女神<rt>めがみ</rt></ruby>**</span>」などを描いた。さらに音楽では、**ポーランド**の国民意識を背景に<span data-source-color=\"red\" style=\"color:#e52715\">**ショパン**</span>がエチュード「**革命**」を作曲したり、ドイツの<span data-source-color=\"red\" style=\"color:#e52715\">**ヴァーグナー**</span>【<span data-source-color=\"red\" style=\"color:#e52715\">**ワグナー**</span>】は**楽劇**を創始し、中世ドイツの「ニーベルンゲンの歌」を題材に大作「**ニーベルングの指環**」をつくったりしたね。そして、ロマン主義から派生して、**伝統的な民族音楽などをもとにした**民族性あふれる**国民楽派音楽**も現れたよ。バレエ音楽「くるみ割り人形」で有名なロシアの**チャイコフスキー**や、交響詩「わが祖国」をつくったチェコの**スメタナ**などが代表だ。"
+    },
+    {
+      "id": "modern-06-108",
+      "part": 2,
+      "lines": [
+        108
+      ],
+      "sourcePages": [
+        111
+      ],
+      "markdown": "文学では、**個人の感情の高まり**や**民族の伝統を表現**する作品が多数つくられた。**ドイツ**での注目ポイントは、<span data-source-color=\"red\" style=\"color:#e52715\">**グリム兄弟**</span>。彼らはドイツ民族の伝統、要は**ドイツ語の研究**をやった。政治的にはバラバラだけど、みんなが話しているドイツ語の研究を通じて**ドイツ文化とは何か**を明らかにしたかったんだね。だから、最終的な目標は『**ドイツ語辞典**』をつくる！ そのために集めたドイツ各地の昔話を『子どもと家庭のための童話集（**グリム童話集**）』にまとめてみたよ。さらに、**ユダヤ系**だった<span data-source-color=\"red\" style=\"color:#e52715\">**ハイネ**</span>は**マルクスとも親交**を持ったから、「**革命詩人**」と呼ばれているね。"
+    },
+    {
+      "id": "modern-06-110",
+      "part": 2,
+      "lines": [
+        110
+      ],
+      "sourcePages": [
+        111
+      ],
+      "markdown": "**フランス**のロマン主義といえば<span data-source-color=\"red\" style=\"color:#e52715\">**ユーゴー**</span>だ。彼の書いた超大作『<span data-source-color=\"red\" style=\"color:#e52715\">**レ＝ミゼラブル**</span>』は、映画やミュージカルにもなっているから知ってるかな？ 彼は政治的には**二月革命後に共和派**となり、**ナポレオン3世の第二帝政を批判**したから18年間も<ruby>亡<rt>ぼう</rt></ruby><ruby>命<rt>めい</rt></ruby>生活を送り、この時に『レ＝ミゼラブル』がつくられたんだよ。この作品の中には、労働者の<ruby>堕落<rt>だらく</rt></ruby>、飢えが原因の女性の転落、そして子どもの破滅など、**社会で「<ruby>虐<rt>しいた</rt></ruby>げられた人びと」を人道的に救おう！**というメッセージが込められている。"
+    },
+    {
+      "id": "modern-06-112",
+      "part": 2,
+      "lines": [
+        112
+      ],
+      "sourcePages": [
+        111
+      ],
+      "markdown": "そのほか、**ギリシア独立戦争に<ruby>義勇軍<rt>ぎゆうぐん</rt></ruby>として参戦**した**イギリス**の<span data-source-color=\"red\" style=\"color:#e52715\">**バイロン**</span>は、もう生き方そのものがロマン主義。アメリカの**ホイットマン**はアメリカの自然や自由と民主主義を<ruby>讃<rt>たた</rt></ruby>える『**草の葉**』で有名だね。"
+    },
+    {
+      "id": "modern-06-114",
+      "part": 2,
+      "lines": [
+        114
+      ],
+      "sourcePages": [
+        111
+      ],
+      "markdown": "こんなふうに、ロマン主義の作品には、**自分の民族を讃えるものが多かった**ってことだ。反面、民族を理想化しすぎたり、個性を重視しすぎるあまり、ちょっと現実離れしてしまうこともあったんだね。"
+    },
+    {
+      "id": "modern-06-157",
+      "part": 3,
+      "lines": [
+        157
+      ],
+      "sourcePages": [
+        112
+      ],
+      "markdown": "19世紀半ばには**各国で産業革命が始まり**、少しずつ**資本主義経済が発達**してきたよね。産業資本家の成長によって**市民社会が成熟**してくると、あまりにも現実離れした作品は好まれなくなってくる。さらに、**労働者階級の増加**による**都市の生活環境や労働環境の悪化**や、発展から取り残された**農村部との<ruby>貧富<rt>ひんぷ</rt></ruby>の格差**も問題だ。こういった社会問題が大きくなってくると、そこから目を<ruby>背<rt>そむ</rt></ruby>けるわけにもいかなくなってきた。しかも、**自然科学や科学技術の発達**によって、科学的なものの見方が広がってくる。科学技術に感情はないでしょ？ もはや夢ばかり見ているわけにもいかない。"
+    },
+    {
+      "id": "modern-06-159",
+      "part": 3,
+      "lines": [
+        159
+      ],
+      "sourcePages": [
+        112
+      ],
+      "markdown": "こうして、非現実的なロマン主義にかわって、**人間や社会のありのままの姿を客観的に描こう**とする傾向がでてきたよ。これが<span data-source-color=\"red\" style=\"color:#e52715\">**写実主義**</span>や<span data-source-color=\"red\" style=\"color:#e52715\">**自然主義**</span>だ。ただこの2つの言葉、**文学と芸術でちょっとニュアンスが違う**から気をつけてね。"
+    },
+    {
+      "id": "modern-06-163",
+      "part": 3,
+      "lines": [
+        163
+      ],
+      "sourcePages": [
+        112
+      ],
+      "markdown": "この時代の絵画に影響を与えたものとして、**カメラの発明**があるよ。19世紀にはある意味で「**ありのまま」の姿を写真に残すことができる**ようになった。画家たちにとってはライバルだね。ロマン主義の絵画では<ruby>誇張<rt>こちょう</rt></ruby>や<ruby>幻想<rt>げんそう</rt></ruby>が多くあったけど、もはやそんなものはいらない。だから、**ありのままの姿を絵に描こう**としたのが<span data-source-color=\"red\" style=\"color:#e52715\">**自然主義**</span>や<span data-source-color=\"red\" style=\"color:#e52715\">**写実主義**</span>だよ。ただ両者は、題材が少し違うんだ。おもに**農村や自然を題材にした自然主義**、**都市市民を題材にした写実主義**って覚えておこう！"
+    },
+    {
+      "id": "modern-06-179",
+      "part": 3,
+      "lines": [
+        179
+      ],
+      "sourcePages": [
+        113
+      ],
+      "markdown": "しかも、もう1つの衝撃がある！ それが絵の「サイズ」。これまで2mや3mといった絵は、国王や貴族、あるいは神を描く時のサイズだったんだけど、単なる民衆の絵にそれだけのサイズを与えたから、それだけで衝撃だったんだよ。"
+    },
+    {
+      "id": "modern-06-181",
+      "part": 3,
+      "lines": [
+        181
+      ],
+      "sourcePages": [
+        113
+      ],
+      "markdown": "まずは<span data-source-color=\"red\" style=\"color:#e52715\">**自然主義**</span>。<span data-source-color=\"red\" style=\"color:#e52715\">**ミレー**</span>とその仲間の画家たちは、七月革命後の貧乏生活もあって、パリ近郊のフォンテーヌブローの森のはずれにある**バルビゾン村に集まった**から**バルビゾン派**とも呼ばれている。ここで**農民の生活や自然を題材**に創作をしたんだ。特にミレーの「**<ruby>落穂<rt>おちぼ</rt></ruby>拾い**」は有名だよ。"
+    },
+    {
+      "id": "modern-06-185",
+      "part": 3,
+      "lines": [
+        185
+      ],
+      "sourcePages": [
+        113
+      ],
+      "markdown": "一方の<span data-source-color=\"red\" style=\"color:#e52715\">**写実主義**</span>は、**都市の下層労働者が題材**になったんだけど、下層労働者に接近するということは、同じ時代に出現した**社会主義に接近**するということだ。**ドーミエ**はたくましく生きる都市市民の様子を描き、<span data-source-color=\"red\" style=\"color:#e52715\">**クールベ**</span>は最下層民衆の労働の様子を「**石割り**」などに描くとともに、同郷の友人だったプルードンの影響もあって**社会主義に接近**、**パリ＝コミューンに参加**したけど<ruby>挫折<rt>ざせつ</rt></ruby>して、<ruby>禁固刑<rt>きんこけい</rt></ruby>になったんだ。"
+    },
+    {
+      "id": "modern-06-189",
+      "part": 3,
+      "lines": [
+        189
+      ],
+      "sourcePages": [
+        113
+      ],
+      "markdown": "文学ではロマン主義のような**人道的な要素が薄れてしまう**んだよ。というのも、誰が見ても下層民衆の生活はひどい！ **資本主義の発達による貧富の格差の問題**にロマンなんかあるわけがない！ だから、客観的に「現実を見ろ〜」って風潮が強まったんだ。こうして、**人生の現実から目を背けず、ありのままに描こう**とする<span data-source-color=\"red\" style=\"color:#e52715\">**写実主義**</span>が現れたんだよ。"
+    },
+    {
+      "id": "modern-06-191",
+      "part": 3,
+      "lines": [
+        191
+      ],
+      "sourcePages": [
+        113
+      ],
+      "markdown": "**フランス**では、<span data-source-color=\"red\" style=\"color:#e52715\">**スタンダール**</span>が**貴族（赤）と聖職者（黒）などの特権階級**に敵意を持つ少年ジュリアンを主人公とする『<span data-source-color=\"red\" style=\"color:#e52715\">**赤と黒**</span>』を書いたよ。主人公の少年は、特権階級の奥さんとの不倫や娘との結婚でのし上がろうとするんだけど、成功の寸前に殺人を犯して死刑判決を受ける。ただ、最後に真実の愛を知る……みたいな。"
+    },
+    {
+      "id": "modern-06-193",
+      "part": 3,
+      "lines": [
+        193
+      ],
+      "sourcePages": [
+        113
+      ],
+      "markdown": "こんなふうに、写実主義って**最後にはなんとなく救いがある**。現実はひどい話なんだけど、読み終わった時に「まぁ良かったかもな」っていう感じね。<span data-source-color=\"red\" style=\"color:#e52715\">**バルザック**</span>の『**人間喜劇**』は、彼が20年にわたって書いた90編以上の小説の総称で、貴族の没落、新興ブルジョワの台頭、家族制度の崩壊など、当時のフランス社会が見事に分析され、話によってはかなり批判的なものもあるよ。"
+    },
+    {
+      "id": "modern-06-195",
+      "part": 3,
+      "lines": [
+        195
+      ],
+      "sourcePages": [
+        113
+      ],
+      "markdown": "**イギリス**では、<span data-source-color=\"red\" style=\"color:#e52715\">**ディケンズ**</span>が**フランス革命期のロンドンとパリを舞台にした**『<ruby>二<rt>に</rt></ruby><ruby>都<rt>と</rt></ruby>物語』を書いたよ。主人公は貴族身分を捨ててパリに戻って革命に参加しようとしたら恐怖政治のもとで捕まり、最後は愛する女性の夫の身代わりになってギロチンにかけられる。これも愛のために死ぬっていう救いがちょっとはあるよね。"
+    },
+    {
+      "id": "modern-06-201",
+      "part": 3,
+      "lines": [
+        201
+      ],
+      "sourcePages": [
+        114
+      ],
+      "markdown": "問題は**ロシア**だよ。ロシアの現実を直視すると、あまりにひどすぎる。まず、<span data-source-color=\"red\" style=\"color:#e52715\">**トゥルゲーネフ**</span>は、**ロシアの<ruby>農奴<rt>のうど</rt></ruby>のひどい現実**を、ロシアの美しい自然描写のなかに描いた『**<ruby>猟人<rt>りょうじん</rt></ruby>日記**』や、農奴解放後のロシア社会と**無気力になってしまったナロードニキ**を描いた『**父と子**』などを書いたよ。ちなみに『猟人日記』は、これを読んだ**アレクサンドル2世を農奴解放に向かわせた**作品だよ。また、<span data-source-color=\"red\" style=\"color:#e52715\">**ドストエフスキー**</span>は、農民を苦しめる高利貸しの<ruby>婆<rt>ばあ</rt></ruby>さんを、正義のためとして殺害した革命家を主人公にした『<span data-source-color=\"red\" style=\"color:#e52715\">**罪と罰**</span>』や、人間の魂の救済を題材とした未完の大作『**カラマーゾフの兄弟**』で有名だ。さらに、<span data-source-color=\"red\" style=\"color:#e52715\">**トルストイ**</span>はキリスト教の人道主義の立場から、**ナポレオンのロシア遠征を題材**とした『<span data-source-color=\"red\" style=\"color:#e52715\">**戦争と平和**</span>』などを書くとともに、**人道主義的な反戦運動**をおこなったんだ。"
+    },
+    {
+      "id": "modern-06-203",
+      "part": 3,
+      "lines": [
+        203
+      ],
+      "sourcePages": [
+        114
+      ],
+      "markdown": "全体として感じてほしいのは、**写実主義は描かれている現実はひどい**のだけど、最終的には**なんとなく救いがある**ってことね。"
+    },
+    {
+      "id": "modern-06-207",
+      "part": 3,
+      "lines": [
+        207
+      ],
+      "sourcePages": [
+        114
+      ],
+      "markdown": "時代が進むと、工業発展とともに**社会矛盾はさらに大きくなっていった**。こうした状況から、**現実をもっと実験的・科学的にとらえ**、「**救えないものは救えない！**」というところまで強調してしまったのが<span data-source-color=\"red\" style=\"color:#e52715\">**自然主義**</span>だよ。もはや、写実主義のような「最後はまぁよかったかな」という感覚はなくなってしまうよ。"
+    },
+    {
+      "id": "modern-06-209",
+      "part": 3,
+      "lines": [
+        209
+      ],
+      "sourcePages": [
+        114
+      ],
+      "markdown": "**フランス**の<span data-source-color=\"red\" style=\"color:#e52715\">**ゾラ**</span>は**自然主義を確立**した作家だよ。彼の代表作『<span data-source-color=\"red\" style=\"color:#e52715\">**居酒屋**</span>』はひどいなんてもんじゃない！ 多少の貯金もあって、下層労働者としては幸せに暮らしていたブリキ職人と洗濯女の夫婦が、ダンナが足をケガして仕事ができなくなったのをきっかけに<ruby>堕落<rt>だらく</rt></ruby>し、アル中で頭がおかしくなって死亡、奥さんもアル中で発狂してほぼ<ruby>餓死<rt>がし</rt></ruby>……。もはや、**話になんの救いもない**でしょ……これが自然主義だよ。ちなみにゾラは、**ドレフュス事件で軍部を批判**したことでも有名だよ。ほかに、<span data-source-color=\"red\" style=\"color:#e52715\">**モーパッサン**</span>の『**女の一生**』も、ダンナの家庭内暴力と不倫に苦しむ奥さんが、さらに過保護からわがまま放題になった息子に金をせびられる……という、救いようのない女性の一生を描いた作品だ。"
+    },
+    {
+      "id": "modern-06-211",
+      "part": 3,
+      "lines": [
+        211
+      ],
+      "sourcePages": [
+        114
+      ],
+      "markdown": "<em data-source-italic=\"true\" style=\"font-style:italic\">**ノルウェー**</em>の<span data-source-color=\"red\" style=\"color:#e52715\">**イプセン**</span>は戯曲（演劇の脚本）『<span data-source-color=\"red\" style=\"color:#e52715\">**人形の家**</span>』で、無理解なダンナから逃れるために家を出たノラを主人公に、女性一人で生きていく苦労を描き**女性解放運動への展望を示した**。これならちょっとは救いがあるかもね。"
+    },
+    {
+      "id": "modern-06-213",
+      "part": 3,
+      "lines": [
+        213
+      ],
+      "sourcePages": [
+        114
+      ],
+      "markdown": "こんなふうに、19世紀後半には写実主義・自然主義という、**現実を直視する文学が主流になった**ってことだね。でも、こんな作品ばかりじゃだんだんイヤになってくる……。だから、**世紀末**には善悪を一切無視して美を最高の価値とする**<ruby>耽<rt>たん</rt></ruby><ruby>美<rt>び</rt></ruby>主義**や、言葉のリズムや<ruby>象徴<rt>しょうちょう</rt></ruby>的な表現を多く使う**象徴主義**が現れたんだよ。耽美主義には、『悪の華』を書いた**ボードレール**（仏）や『サロメ』を書いたワイルド（英）、象徴主義には『秋の歌』を書いた**ヴェルレーヌ**（仏）などがいるよ。また、科学の発達を背景に、**ヴェルヌ**（仏）の『海底二万里』、**ウェルズ**（英）『タイムマシン』などの**SF小説**も生まれたんだ。"
+    },
+    {
+      "id": "modern-06-269",
+      "part": 4,
+      "lines": [
+        269
+      ],
+      "sourcePages": [
+        115
+      ],
+      "markdown": "写実主義や自然主義は現実をありのままの姿に描こうとしたんだけど、そのまま描くならカメラには勝てない。だから画家たちは違った方向へと向かい始めた。それが<span data-source-color=\"red\" style=\"color:#e52715\">**印象派**</span>だよ。印象派は「光」に注目し、**光と影の色彩を自分の印象のままに**、場合によっては**光そのもの**（例えば光の三原色を使って）を描こうとしたんだ。"
+    },
+    {
+      "id": "modern-06-273",
+      "part": 4,
+      "lines": [
+        273,
+        279
+      ],
+      "sourcePages": [
+        115,
+        116
+      ],
+      "markdown": "まず、**印象派の画家を支援した**<span data-source-color=\"red\" style=\"color:#e52715\">**マネ**</span>は、「**草上の昼食**」を発表したよ。これ、当時としては大事件。だって、普通の女性が2人の男性の横で、なぜか全裸。別に裸の女性の絵は珍しくもないけど、これまでの<ruby>裸婦<rt>らふ</rt></ruby>の絵は、<ruby>女神<rt>めがみ</rt></ruby>とか異国情緒とか、とにかく現実離れしている題材だった。それが、マネが描いたのは**そのへんにいる普通の「むちゃくちゃ現実的」な女性が全裸だった**のが大事件！ 「<ruby>不謹慎<rt>ふきんしん</rt></ruby>だ！ 不道徳だ！」とさんざん批判されたよ。"
+    },
+    {
+      "id": "modern-06-281",
+      "part": 4,
+      "lines": [
+        281
+      ],
+      "sourcePages": [
+        116
+      ],
+      "markdown": "その後、<span data-source-color=\"red\" style=\"color:#e52715\">**モネ**</span>が登場して**印象派の画風が確立**されていく。モネは「**印象・日の出**」で、光が刻々と変化するルアーブル港の情景を描いたんだけど、**この作品にちなんで印象派**という名前がついたよ。あとは連作「**<ruby>睡蓮<rt>すいれん</rt></ruby>**」が有名だね。そして印象派の巨匠が<span data-source-color=\"red\" style=\"color:#e52715\">**ルノワール**</span>だ。パリの歓楽街モンマルトルのダンスホールを描いた「**ムーラン＝ド＝ラ＝ギャレット**」が代表作だね。彼の作品は輝かしい色彩のものが多く、「**色彩の魔術師**」とも呼ばれているよ。"
+    },
+    {
+      "id": "modern-06-285",
+      "part": 4,
+      "lines": [
+        285
+      ],
+      "sourcePages": [
+        116
+      ],
+      "markdown": "印象派の作風がさらに進むと、いよいよ絵に描く**対象物の形が変化**し始めるよ。この<span data-source-color=\"red\" style=\"color:#e52715\">**ポスト印象派**</span>（一般的な呼び名の「**後期印象派**」は訳語の誤り）の最初が<span data-source-color=\"red\" style=\"color:#e52715\">**セザンヌ**</span>。セザンヌは風景画をベタ塗り（真っ平らに塗っていく）で表現するなど、**自然を単純化**した画風の絵を描いた。彼がよく描いたのが**サント＝ヴィクトワール山**。彼の対象物を単純化した描き方は、のちの**立体派【キュビズム】**につながっていくよ。それから<span data-source-color=\"red\" style=\"color:#e52715\">**ゴーガン**</span>。**晩年にタヒチで暮らした**ゴーガンは、フランスにエキゾチックな異国趣味を広めた。そして、生前には全く評価されなかった**オランダ**の<span data-source-color=\"red\" style=\"color:#e52715\">**ゴッホ**</span>。**<ruby>渦巻<rt>うずま</rt></ruby>きのようなタッチ**や**現実にはない色を多用する色彩感覚**は、当時の人にはまだ早すぎたんだろうし、彼自身も最後は精神<ruby>錯乱<rt>さくらん</rt></ruby>で自殺してしまう。有名な「**ひまわり**」や、空がグルグル渦を巻いてる「**星月夜**」、赤や緑で塗られた自画像など、現代から見ても新しい画風がわかるよ。こうした描き方は、**感情を作品中に反映させて表現**する手法（**表現主義**）に大きな影響を与えるんだ。それからこの時代のマネ、モネ、ゴッホらは**日本の<ruby>浮世絵<rt>うきよえ</rt></ruby>の構図や画風に大きな影響を受けていた**よ。これを日本趣味（**ジャポニズム**）というんだ。"
+    },
+    {
+      "id": "modern-06-323",
+      "part": 5,
+      "lines": [
+        323
+      ],
+      "sourcePages": [
+        117
+      ],
+      "markdown": "それじゃあ**社会科学**に進むよ。まずは**経済学**だ。すでに**市民社会が出現していたイギリス**では、政治的な問題だけではなくて**経済的にも自由を求める動き**が強まっていた。すでに18世紀には<span data-source-color=\"red\" style=\"color:#e52715\">**アダム＝スミス**</span>が登場して『<span data-source-color=\"red\" style=\"color:#e52715\">**諸国民の富**</span>【<span data-source-color=\"red\" style=\"color:#e52715\">**国富論**</span>】』を書き、「**神の見えざる手**」という言葉で有名な<span data-source-color=\"red\" style=\"color:#e52715\">**自由主義経済学**</span>を完成させ、<span data-source-color=\"red\" style=\"color:#e52715\">**古典派経済学**</span>を創始した。これは絶対王政時代から特定の商人などが持っていた特権をなくして、**自由放任**が一番いい！っていう理論だよ。このあとも、産業革命が進んだイギリスでは、自由主義を主張する古典派経済学がさらに発展していくよ。"
+    },
+    {
+      "id": "modern-06-325",
+      "part": 5,
+      "lines": [
+        325
+      ],
+      "sourcePages": [
+        117
+      ],
+      "markdown": "産業革命によって**下層労働者の<ruby>貧困<rt>ひんこん</rt></ruby>**が問題になると、<span data-source-color=\"red\" style=\"color:#e52715\">**マルサス**</span>は『**人口論**』を著し、「なぜ貧困が拡大するか？」という問題について「**食糧生産と人口増加のアンバランス**がいけない！」と主張した。大ざっぱに言うと、「人口はかけ算で、食糧生産は足し算で増えていくから、**人口増加に食糧生産が追いつかない**」っていうことだ。少子化が進んでいる現代だとピンとこないかもしれないけど、当時の貧困層は子どもも重要な働き手だった。だから貧乏な人ほど子どもが多かったんだ。さらに<span data-source-color=\"red\" style=\"color:#e52715\">**リカード**</span>は、**商品の価値（値段）をその生産に費やされた労働の量（つまり人件費）で決まる**という**労働価値説**を主張した。"
+    },
+    {
+      "id": "modern-06-327",
+      "part": 5,
+      "lines": [
+        327
+      ],
+      "sourcePages": [
+        117
+      ],
+      "markdown": "労働価値説を簡単な例にしよう。僕の行きつけのラーメン屋でネギをトッピングすると150円なんだけど、スーパーとかで売ってる150円分のネギは入っていない。そんなに入れたら、どんぶりの中はネギだらけ。じゃあ、なんで150円かっていうと、「ラーメン屋のご主人がネギを切る動きが1回10円、タレを入れて混ぜるのが1回10円」みたいな感じね。手の動きで値段が上がってるわけ。「混ぜるの1回減らして10円安くして！」とは言えないけどさ。"
+    },
+    {
+      "id": "modern-06-329",
+      "part": 5,
+      "lines": [
+        329
+      ],
+      "sourcePages": [
+        117
+      ],
+      "markdown": "自由主義を主張するイギリスの古典派経済学に対して、「オマエら発展してるからって、勝手なことを言うな！」って思ったのが**ドイツ人**だ。**自由貿易にしたら、発展しているイギリスが勝つ**に決まっている。当時は文化的にも**ロマン主義の時代**で「民族の伝統や独自性」が重視されていたから、経済学でも「**各国の発展の段階に応じて（経済の発展段階説）**、とるべき政策は違う！」って考え方が出てきた。それが<span data-source-color=\"red\" style=\"color:#e52715\">**歴史学派経済学**</span>だよ。ドイツの<span data-source-color=\"red\" style=\"color:#e52715\">**リスト**</span>は、イギリスは先進国だから自由主義を主張するけど、**ドイツは後進国だから保護貿易**でいいんだ！って主張した。この考え方は<span data-source-color=\"red\" style=\"color:#e52715\">**ドイツ<ruby>関税<rt>かんぜい</rt></ruby>同盟**</span>の結成に影響を与えたよ。"
+    },
+    {
+      "id": "modern-06-333",
+      "part": 5,
+      "lines": [
+        333,
+        339
+      ],
+      "sourcePages": [
+        117,
+        118
+      ],
+      "markdown": "ここまで話した経済学は、どれも**資本主義経済のなかでどうするか？**を考えたものだったけど、それを根本からひっくり返したのが<span data-source-color=\"red\" style=\"color:#e52715\">**マルクス経済学**</span>だよ。<span data-source-color=\"red\" style=\"color:#e52715\">**マルクス**</span>はすでに1848年には<span data-source-color=\"red\" style=\"color:#e52715\">**エンゲルス**</span>とともに『<span data-source-color=\"red\" style=\"color:#e52715\">**共産党宣言**</span>』を発表して、「**<ruby>万国<rt>ばんこく</rt></ruby>の労****働者よ、団結せよ**」って主張していたけど、じゃあ「なんで団結するの？」ってことも含めて、マルクスの考え方を解説していこう。"
+    },
+    {
+      "id": "modern-06-341",
+      "part": 5,
+      "lines": [
+        341
+      ],
+      "sourcePages": [
+        118
+      ],
+      "markdown": "<span data-source-color=\"red\" style=\"color:#e52715\">**マルクス**</span>は『<span data-source-color=\"red\" style=\"color:#e52715\">**資本論**</span>』のなかで**資本主義を分析**して、さっき出てきた労働価値説をさらに突き詰めて**<ruby>剰<rt>じょう</rt></ruby>余価値説**を唱えた。これは教科書みたいな言い方だと「**資本家は労働者に支払う賃金以上の価値を利潤として<ruby>搾取<rt>さくしゅ</rt></ruby>している**」ってことなんだけど……難しい。"
+    },
+    {
+      "id": "modern-06-343",
+      "part": 5,
+      "lines": [
+        343
+      ],
+      "sourcePages": [
+        118
+      ],
+      "markdown": "さっきのラーメン屋の話にしよう。ラーメン屋のご主人、1人バイトを雇ってるんだけど、ネギのトッピングを剰余価値説で説明すると、「ラーメン屋のご主人（**資本家**）は、バイトの時給分（**労働者の賃金**）と自分の<ruby>儲<rt>もう</rt></ruby>け（**利潤**）を上乗せして、ネギに150円って値段をつけてる」ってことだ。だから、バイトのおにいちゃんよりもラーメン屋のご主人が儲かる……って当たり前か。バイトより儲からないならラーメン屋やめるよな（笑）。"
+    },
+    {
+      "id": "modern-06-345",
+      "part": 5,
+      "lines": [
+        345
+      ],
+      "sourcePages": [
+        118
+      ],
+      "markdown": "これをすべての企業に当てはめれば、**労働者はつねに利潤を上乗せされた値段で物を買わされる**ことになる。だから**労働者は何を買っても搾取され**、いつまでたっても貧乏なままという理論になるでしょ。さらに続きがあって、中小の資本家は大資本家に負けちゃうと労働者に転落するから、資本主義の行きつく先は、**ごく少数の巨大企業（独占資本）が大多数の労働者を搾取する**状態になる。こんなふうにマルクスは**独占資本主義の出現**を予想している。じゃあどうすればいいんだろ？"
+    },
+    {
+      "id": "modern-06-347",
+      "part": 5,
+      "lines": [
+        347
+      ],
+      "sourcePages": [
+        118
+      ],
+      "markdown": "マルクスは、人間の能力は時代が進むにつれて発展していくという**ヘーゲルの<ruby>弁<rt>べん</rt></ruby><ruby>証法<rt>しょうほう</rt></ruby>の影響**を受けて、**社会も時代とともに発展**していくという**弁証法的<ruby>唯物論<rt>ゆいぶつろん</rt></ruby>**を唱えた。そこから、<span data-source-color=\"red\" style=\"color:#e52715\">**史的唯物論**</span>【<span data-source-color=\"red\" style=\"color:#e52715\">**唯物史観**</span>】に基づき「**資本主義の没落と社会主義への必然的移行**」を主張したよ……今、頭の中がぐちゃぐちゃになったでしょ。教科書で使うような言葉で説明すると難しい。じゃあ、解説しよう。"
+    },
+    {
+      "id": "modern-06-376",
+      "part": 5,
+      "lines": [
+        376
+      ],
+      "sourcePages": [
+        119
+      ],
+      "markdown": "絶対王政の時代には、国王とその周りにいる**貴族が特権を持って平民をいじめる**から、平民たちは豊かになれない。つまり「**貴族」「平民」という階級**があるのが、社会が抱える矛盾なんだよ。そこで、平民が「貴族を<ruby>潰<rt>つぶ</rt></ruby>す！」ってこの矛盾と戦って（これが**階級闘争**だ）、平民を中心とする社会をつくった。これが**ブルジョワ革命【市民革命】**だよ。そうすると**平民を中心とする資本主義の段階に進む**よね。"
+    },
+    {
+      "id": "modern-06-378",
+      "part": 5,
+      "lines": [
+        378
+      ],
+      "sourcePages": [
+        119
+      ],
+      "markdown": "じゃあ、資本主義ではみんな幸せになるかっていうと、新しい階級が生まれて、今度は**金持ちの「資本家」が貧乏な「労働者」をいじめる**。労働者たちは「結局貧乏じゃないか！」って思うよね。これが資本主義の抱える矛盾だ。"
+    },
+    {
+      "id": "modern-06-380",
+      "part": 5,
+      "lines": [
+        380
+      ],
+      "sourcePages": [
+        119
+      ],
+      "markdown": "そして、資本主義がどんどん発展すると**独占資本主義**になるから、ごく少数の巨大資本家がボロ儲けする。だったら「資本家を潰せ！」ってこの矛盾と戦えば（**新たな階級闘争**だ）、**労働者を中心とする社会**ができる。これが<span data-source-color=\"red\" style=\"color:#e52715\">**社会主義革命**</span>だよ。ただ労働者一人ひとりは弱いからこれを成功させるためには、世界中の労働者が団結しなきゃいけない。これが「**<ruby>万国<rt>ばんこく</rt></ruby>の労働者よ、団結せよ！**」ってことね。"
+    },
+    {
+      "id": "modern-06-382",
+      "part": 5,
+      "lines": [
+        382
+      ],
+      "sourcePages": [
+        119
+      ],
+      "markdown": "こうして、一番貧乏な**労働者階級が政権を取れば平等な社会ができる**。これがマルクスの**革命理論**だよ。ザックリとらえると、「**絶対王政から2回の革命（ブルジョワ革命と<span data-source-color=\"red\" style=\"color:#e52715\">**社会主義革命**</span>）をやると社会主義になる**」ってことね。"
+    },
+    {
+      "id": "modern-06-408",
+      "part": 5,
+      "lines": [
+        408,
+        414
+      ],
+      "sourcePages": [
+        119,
+        120
+      ],
+      "markdown": "**ロマン主義の風潮**によって、各個人の個性や民族の伝統を重視しようって考え方が広がると、特に**ドイツ**では「じゃあ、伝統とはなんだろ？」って**歴史を探ろうとする動き**が出てきた。まず<span data-source-color=\"red\" style=\"color:#e52715\">**ランケ**</span>は残された**史料をきちんと分析**して事実を探り、「本来それがどうであったか」を書くのが歴史であるという<span data-source-color=\"red\" style=\"color:#e52715\">**近代歴史学**</span>を確立したよ。彼は「各民族にはそれぞれに“良さ”や“独自性”がある」と考えて、歴史における民族の個性や多様性を重視したよ。この影響で他の社会科学の分野では、<span data-source-color=\"red\" style=\"color:#e52715\">**サヴィニー**</span>が「各民族がたどってきた歴史によって、**各民族固有の法がある**」という<span data-source-color=\"red\" style=\"color:#e52715\">**歴史法学**</span>を創始したんだ。これも、**自由主義を進めるイギリス**に対して、「ドイツは多少法律が厳しくても、自由が制限されててもいいんだ〜！」って言いたいんだろうけどね。この考え方が、プロイセンの憲法やドイツの民法典に影響したんだ。"
+    },
+    {
+      "id": "modern-06-427",
+      "part": 5,
+      "lines": [
+        427
+      ],
+      "sourcePages": [
+        120
+      ],
+      "markdown": "資本主義が発展した**イギリス**では、産業資本家が台頭して地主と対立し、さらに労働者の生活環境や労働環境が問題になっていたよね。こうしたことを背景に、<span data-source-color=\"red\" style=\"color:#e52715\">**ベンサム**</span>は「<span data-source-color=\"red\" style=\"color:#e52715\">**最大多数の最大幸福**</span>」を主張する<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>功利<rt>こうり</rt></ruby>主義**</span>を打ち出した。これは当時発言力が大きくなっていた産業資本家を中心とする**ブルジョワ階級の主張と一致**するよね。これを一歩進めたのは<span data-source-color=\"red\" style=\"color:#e52715\">**ジョン＝ステュアート＝ミル**</span>の**社会改良主義**だ。議会に進出していない労働者や女性は自分たちの権利を主張する場所もないのだから（だって参政権がないよね）、権利がある人たちが進んで**社会を改良して幸福の質を高め、理想的な社会をつくらなければいけない**、って主張したよ。また**ハーバート＝スペンサー**は進化論を社会に当てはめ、優れた社会（国）は勝ち、劣った社会（国）は敗れるという**社会進化論**を主張したんだよ。社会進化論は、**フランス**の<span data-source-color=\"red\" style=\"color:#e52715\">**コント**</span>が主張した「現実の経験によって確かめたことからしか知識は得られない」とする<span data-source-color=\"red\" style=\"color:#e52715\">**実証主義**</span>の影響も受けているよ。"
+    },
+    {
+      "id": "modern-06-431",
+      "part": 5,
+      "lines": [
+        431
+      ],
+      "sourcePages": [
+        120
+      ],
+      "markdown": "ヨーロッパの文化史をやると、どうしてもぶち当たるのが「**キリスト教」の問題**……。絶対神、創造神、唯一神……どれも日本の宗教にはない感覚だ。**キリスト教**では、「**この世界はすべて神の創造物だから、神の思うようになっている**」っていうのが大前提なんだよ。だから人間が何をしようと神の意志にはかなわないし、そもそも神がなんなのかさえ知ることもできない。最終的に救われるかどうかも神が決める。だったら無条件に神を信仰して、「信仰すれば救われる」と思えばいい。全部神が決めることだから、「**とにかく信じるしかない**」ということになる。"
+    },
+    {
+      "id": "modern-06-433",
+      "part": 5,
+      "lines": [
+        433,
+        449
+      ],
+      "sourcePages": [
+        120,
+        121
+      ],
+      "markdown": "でも、そう割り切れない人もいるよね。**ショーペンハウエル**は、人生の本質は「**盲目的な生への意思**（ずっと生きたいと思うこと）」と考えた。人は必ず訪れる死への不安から逃れることはできず、人生は苦そのものである、ってことね。これが**<ruby>厭世<rt>えんせい</rt></ruby>哲学【ペシミズム】**だ。こう考え始めたら、何をやっても絶対楽しくない。これ、**インド思想の影響**だよ。インド思想も「生＝苦」というのが基本だ。"
+    },
+    {
+      "id": "modern-06-451",
+      "part": 5,
+      "lines": [
+        451
+      ],
+      "sourcePages": [
+        121
+      ],
+      "markdown": "また、**デンマーク**の**キェルケゴール**は「**つねに神の前にいることの不安**（いつも神に見られているってことね）」を哲学に高め、「いかにして神の前に一人で立つキリスト者となるか」、つまり自分を一人の主体的な人間と考えて、**どのように神と向き合うべきか**（人と人が向き合うように1対1で神と向き合う）、を追及したよ。これらの哲学を**実存主義**というんだ。"
+    },
+    {
+      "id": "modern-06-453",
+      "part": 5,
+      "lines": [
+        453
+      ],
+      "sourcePages": [
+        121
+      ],
+      "markdown": "こうした思想の影響を受け、<span data-source-color=\"red\" style=\"color:#e52715\">**ニーチェ**</span>は「<span data-source-color=\"red\" style=\"color:#e52715\">**神は死んだ**</span>」と主張した。はっきり言ってニーチェはよくわからん。彼の出発点は**ニヒリズム**（権威や権力はすべて意味のないいらないものという発想）で、これをどう克服するかが問題だった。だって、**弱い人間を救うはずのキリスト教**の考え方（道徳観）も、実は**弱者に都合のいいように創作されている**から、神だって本当に救ってはくれない。だから「神は死んだ」として一人ひとりが「**<ruby>超人<rt>ちょうじん</rt></ruby>**」となって**ニヒリズムを克服**しなければいけないと説いた。さらに世界の出来事は、**何一つ変わらず永遠に繰り返される**（**<ruby>永劫回<rt>えいごうかい</rt></ruby><ruby>帰<rt>き</rt></ruby>**）のだから、喜びも苦悩も含めた**現実の生をそのまま肯定して受け入れるべき**、と主張した。ここまで説明しても、やっぱりわからん。だって、**ニーチェ本人も最後は発狂**しているんだもん。入試では「<span data-source-color=\"red\" style=\"color:#e52715\">**神は死んだ**</span>」「**超人**」「**永劫回帰**」「**力への意思**」っていうキーワードを覚えておけばOKだ。"
+    },
+    {
+      "id": "modern-06-471",
+      "part": 6,
+      "lines": [
+        471
+      ],
+      "sourcePages": [
+        121
+      ],
+      "markdown": "19世紀前半の<span data-source-color=\"red\" style=\"color:#e52715\">**第1次産業革命**</span>は**石炭と蒸気（蒸気機関）**によって産業が発展したけど、19世紀後半には**石油と電力**を動力とする<span data-source-color=\"red\" style=\"color:#e52715\">**第2次産業革命**</span>が進み、一気に**科学技術の時代**になった。背景には、当時の**物理学や化学**における発見があるよ。"
+    },
+    {
+      "id": "modern-06-473",
+      "part": 6,
+      "lines": [
+        473,
+        479
+      ],
+      "sourcePages": [
+        121,
+        122
+      ],
+      "markdown": "まず、**イギリス**の<span data-source-color=\"red\" style=\"color:#e52715\">**ファラデー**</span>が<span data-source-color=\"red\" style=\"color:#e52715\">**電磁誘導の法則**</span>や電気分解の法則を発見して**電磁気学**が発展し、さらに**ドイツ**の<span data-source-color=\"red\" style=\"color:#e52715\">**マイヤー**</span>や<span data-source-color=\"red\" style=\"color:#e52715\">**ヘルムホルツ**</span>が<span data-source-color=\"red\" style=\"color:#e52715\">**エネルギー保存の法則**</span>を発見して、**熱力学**が発展したよ。こうして発見された法則は科学技術の発展に応用され、**ジーメンス**が**発電機**を実用化して**電機産業**が発展し、**ダイムラー**や**ディーゼル**による**エンジン（ガソリン機関やディーゼル機関）**の発明で、**自動車**が作られるようになった。また、<span data-source-color=\"red\" style=\"color:#e52715\">**レントゲン**</span>が<span data-source-color=\"red\" style=\"color:#e52715\">**X放射線**</span>を、<span data-source-color=\"red\" style=\"color:#e52715\">**キュリー夫妻**</span>が<span data-source-color=\"red\" style=\"color:#e52715\">**ラジウム**</span>を発見するなど、放射線や放射性物質の発見が続き、**医療技術**などに応用された。さらに**リービヒ**による**有機化学**の確立で、**化学工業**も発展していくんだ。"
+    },
+    {
+      "id": "modern-06-481",
+      "part": 6,
+      "lines": [
+        481
+      ],
+      "sourcePages": [
+        122
+      ],
+      "markdown": "生物学や医学の発達もいろいろあるよ。<span data-source-color=\"red\" style=\"color:#e52715\">**パストゥール**</span>の**<ruby>狂犬病<rt>きょうけんびょう</rt></ruby>の予防接種**や、<span data-source-color=\"red\" style=\"color:#e52715\">**コッホ**</span>の**コレラ菌・<ruby>結核菌<rt>けっかくきん</rt></ruby>の発見**で病気の予防や治療の幅が広がり、**<ruby>細菌学<rt>さいきんがく</rt></ruby>**も発展し始めた。また、**メンデル**の**<ruby>遺伝<rt>いでん</rt></ruby>の法則**や<span data-source-color=\"red\" style=\"color:#e52715\">**ダーウィン**</span>の<span data-source-color=\"red\" style=\"color:#e52715\">**進化論**</span>は、生物学にとどまらず**社会科学や宗教にも大きな影響を与える**ことになるよ。だって、進化論は「神は人間を創造した」というキリスト教の教義を根本からひっくり返す考え方でしょ？ こりゃ大事件だよ。"
+    },
+    {
+      "id": "modern-06-483",
+      "part": 6,
+      "lines": [
+        483
+      ],
+      "sourcePages": [
+        122
+      ],
+      "markdown": "最後に**情報通信**ね。19世紀以前には**情報が伝わる速度と人が移動する速度は一緒**だった。だって手紙しかないんだもん。現代はインターネット上で全世界に一瞬で情報を送れるし、それこそ何かしらのアプリをインストールすれば、全世界とタダでテレビ電話もできる時代だもんね。でも昔は人が運ぶ手紙しか情報を伝える手段はなかったんだ。それを劇的に変えたのが、<span data-source-color=\"red\" style=\"color:#e52715\">**モース**</span>【<span data-source-color=\"red\" style=\"color:#e52715\">**モールス**</span>】による<span data-source-color=\"red\" style=\"color:#e52715\">**電信機**</span>の発明だよ。映画とかで見たことないかな？ 「トン・トン・ツー……」みたいな感じで、電気が流れると音が鳴る仕組みで、暗号にした文字を読み取るだけの簡単なものだけど、当時としては劇的な変化だよ。だって**一瞬で情報を送れる**んだもん、それだけですごい！ そして、各地で**電信線**が敷かれ始めた。最初は**アメリカのワシントンからボルティモア**に敷かれたんだけど、そこから10年経たないうちに**英仏間のドーヴァー海峡**（1851）に、さらに**大西洋**（1866）や**イギリス〜インド間**（1870）に**海底電信ケーブル**が敷かれ、**情報による世界の一体化**が進んだよ。"
+    },
+    {
+      "id": "modern-06-485",
+      "part": 6,
+      "lines": [
+        485
+      ],
+      "sourcePages": [
+        122
+      ],
+      "markdown": "さらに**アメリカ**の<span data-source-color=\"red\" style=\"color:#e52715\">**ベル**</span>が<span data-source-color=\"red\" style=\"color:#e52715\">**電話機**</span>を発明すると、離れたところと会話ができるようになり、もうびっくりなんてもんじゃない。そして<span data-source-color=\"red\" style=\"color:#e52715\">**マルコーニ**</span>の発明した<span data-source-color=\"red\" style=\"color:#e52715\">**無線電信**</span>と合わせれば……ほら、今みんなが使っているスマホの通信だって、この無線電信技術が進歩したものだ。このあたりの発明は、今のみんなの生活にもかかわるようなものがいくつもあるね。"
+    },
+    {
+      "id": "modern-06-535",
+      "part": 6,
+      "lines": [
+        535
+      ],
+      "sourcePages": [
+        123
+      ],
+      "markdown": "さて、19世紀のヨーロッパ文化史どうだった？ 単なる名前の丸暗記じゃなくて、同じ時代の政治とか社会とつなげてみると、また違った見方ができるようになるよ。"
+    },
+    {
+      "id": "modern-06-537",
+      "part": 6,
+      "lines": [
+        537
+      ],
+      "sourcePages": [
+        123
+      ],
+      "markdown": "今回は文化史だから年号checkはなしだよ。"
+    },
+    {
+      "id": "modern-06-539",
+      "part": 6,
+      "lines": [
+        539
+      ],
+      "sourcePages": [
+        123
+      ],
+      "markdown": "**次回からはアジア近現代史**だ。今回までのヨーロッパ史とつながるところもいっぱいあるから、きっちり復習して次に進んでね。"
+    }
+  ],
+  "cross_page_connections": [
+    {
+      "lines": [
+        88,
+        104
+      ],
+      "reason": "紙面を跨ぐ同一段落を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        273,
+        279
+      ],
+      "reason": "紙面を跨ぐ同一段落を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        333,
+        339
+      ],
+      "reason": "紙面を跨ぐ同一段落を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        408,
+        414
+      ],
+      "reason": "紙面を跨ぐ同一段落を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        433,
+        449
+      ],
+      "reason": "紙面を跨ぐ同一段落を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        473,
+        479
+      ],
+      "reason": "紙面を跨ぐ同一段落を文字・空白・記号を足さず接続する。"
+    }
+  ]
+}
