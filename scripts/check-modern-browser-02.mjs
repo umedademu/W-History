@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {spawn} from 'node:child_process';
 import {createRequire} from 'node:module';
 import {existsSync} from 'node:fs';
-import {mkdtemp,writeFile} from 'node:fs/promises';
+import {mkdtemp,writeFile,readFile} from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
@@ -14,6 +14,10 @@ const load=name=>import(pathToFileURL(path.join(root,'public',name)).href);
 const [{modernEdition,sourcePages},{modernVisualEdition,modernIllustrationFor,modernVisualScenePlans},{modernSeries},{series},{allEditions},{namesForScene,normalizeMapName},{modernReferencePages}]=await Promise.all([
   load('modern-c01-l02-edition.js'),load('modern-story-visuals-02.js'),load('modern-lesson-02-volumes.js'),load('story-volumes.js'),load('all-editions.js'),load('map-name-coverage.js'),load('modern-story-support-02.js')
 ]);
+const sourceRecord=JSON.parse(await readFile(path.join(root,'docs/modern-lesson-02/source-selection.json'),'utf8'));
+const sourceLines=new Map(sourceRecord.lines.map(line=>[line.line,line]));
+// 原文が即位前と後の同じ本人と説明する二つの表示名だけを束ねる。
+const family=entity=>entity.kind==='person'&&['ルイナポレオン','ナポレオン3世'].includes(normalizeMapName(entity.name))?'ルイナポレオン':entity.family??entity.name;
 const port=process.env.W_HISTORY_MODERN_CHECK_PORT??'18821',base='http://127.0.0.1:'+port;
 const server=spawn(process.execPath,[path.join(root,'scripts/serve.mjs')],{cwd:root,env:{...process.env,PORT:port},windowsHide:true,stdio:'pipe'});
 
@@ -72,7 +76,7 @@ function readScene(html) {
   const panel=document.querySelector('#modern-illustration'),illustrationHidden=panel.hidden;
   const figures=illustrationHidden?[]:[...panel.querySelectorAll('figure.illustration-figure')].map(figure=>{
     const image=figure.querySelector('img'),name=figure.querySelector('.illustration-name'),caption=figure.querySelector('.illustration-caption');
-    return {name:name?.textContent,caption:caption?.textContent??'',src:image?new URL(image.currentSrc||image.src).pathname:null,width:image?.naturalWidth??0,height:image?.naturalHeight??0,b:box(figure),nameBox:name?box(name):null,captionBox:caption?box(caption):null,art:image?art(image):null};
+    return {name:name?.textContent,caption:caption?.textContent??'',group:figure.closest('.illustration-group')?.querySelector('h4')?.textContent??'',title:panel.querySelector('h3')?.textContent??'',src:image?new URL(image.currentSrc||image.src).pathname:null,width:image?.naturalWidth??0,height:image?.naturalHeight??0,b:box(figure),nameBox:name?box(name):null,captionBox:caption?box(caption):null,art:image?art(image):null};
   });
   const parts=figures.flatMap(figure=>[{text:'絵: '+figure.name,b:figure.art},{text:'姓名: '+figure.name,b:figure.nameBox},{text:'説明: '+figure.name,b:figure.captionBox}]).filter(part=>part.b?.width>0&&part.b?.height>0);
   if(!illustrationHidden)parts.push(...[...panel.querySelectorAll('h3,h4,.illustration-note')].filter(visible).map(node=>({text:'見出し: '+node.textContent,b:box(node)})));
@@ -229,11 +233,22 @@ try {
           const shown=[...actual.shown,...actual.figures.map(figure=>figure.name)].map(normalizeMapName);
           const items=[...(expected.props??[]),...(expected.actors??[])],illustration=modernIllustrationFor(expected),figures=(illustration?.groups??[]).flatMap(group=>group.figures??[]);
           const missing=names.filter(name=>!shown.some(text=>text.includes(name.key))&&!(plan.personAliases??[]).some(alias=>normalizeMapName(alias.name)===name.key&&[...items,...figures].some(item=>item.identity===alias.identity))).map(name=>name.name);
-          const families=new Set(names.map(name=>name.family??name.name));
+          const families=new Set(names.map(name=>family(name)));
           const preceding=modernEdition[volume.id][i-1],precedingNames=preceding?namesForScene(preceding,preceding.title+'。'+preceding.plainBody.join('')).filter(name=>name.kind!=='person'):[];
-          const locationFamilies=new Set([...names,...precedingNames].map(name=>name.family??name.name));
+          const locationFamilies=new Set([...names,...precedingNames].map(name=>family(name)));
           const narrativeKey=normalizeMapName(expected.title+'。'+expected.plainBody.join(''));
-          const extra=[...actual.shown,...actual.figures.map(figure=>figure.name)].filter(name=>namesForScene(expected,name).some(entity=>!(entity.kind==='person'?families:locationFamilies).has(entity.family??entity.name)&&(entity.kind==='person'||!narrativeKey.includes(normalizeMapName(entity.name)))));
+          const extra=actual.shown.filter(name=>namesForScene(expected,name).some(entity=>!(entity.kind==='person'?families:locationFamilies).has(family(entity))&&(entity.kind==='person'||!narrativeKey.includes(normalizeMapName(entity.name)))));
+          const reachablePages=modernReferencePages(expected,volume,i);
+          for(const figure of actual.figures) {
+            const visible=[figure.title,figure.group,figure.caption].join('。');
+            const claimed=[...new Set([...visible.matchAll(/原書(\d+(?:・\d+)*)ページ/g)].flatMap(match=>match[1].split('・').map(Number)))];
+            assert.ok(claimed.every(page=>reachablePages.includes(page)),expected.id+': 図の補足ページを表示で識別し、その原文へ到達する');
+            const references=(plan.sourceFigureReferences??[]).filter(reference=>normalizeMapName(reference.name)===normalizeMapName(figure.name));
+            for(const reference of references)assert.ok(claimed.includes(reference.page),expected.id+': 原書補足の人物・施設の紙面を表示で識別できる '+reference.name);
+            const sourced=new Set(references.flatMap(reference=>namesForScene(expected,reference.lines.map(line=>sourceLines.get(line).text).join(''))).map(family));
+            const allowedPeople=new Set([...families,...sourced]),allowedLocations=new Set([...locationFamilies,...sourced]);
+            if(namesForScene(expected,figure.name).some(entity=>!(entity.kind==='person'?allowedPeople:allowedLocations).has(family(entity))&&(entity.kind==='person'||!narrativeKey.includes(normalizeMapName(entity.name)))))extra.push(figure.name);
+          }
           assert.equal(actual.mapImages.length,items.length,expected.id+': すべての地図上の絵を表示');
           assert.equal(actual.figures.length,figures.length,expected.id+': すべての模式欄の絵を表示');
           assert.equal(actual.illustrationHidden,!illustration,expected.id+': 模式欄の有無');

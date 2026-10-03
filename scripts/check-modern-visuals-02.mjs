@@ -10,15 +10,21 @@ const workspace=process.argv.find(value=>value.startsWith('--workspace='))?.slic
 const dataOnly=process.argv.includes('--data-only');
 const root=path.resolve(workspace??fileURLToPath(new URL('../',import.meta.url)));
 const load=name=>import(pathToFileURL(path.join(root,'public',name)).href);
-const [{modernEdition,modernPlaces},visuals,{namesForScene,normalizeMapName,sceneMapItems,withMapNames},{modernNameCatalog}]=await Promise.all([
-  load('modern-c01-l02-edition.js'),load('modern-story-visuals-02.js'),load('map-name-coverage.js'),load('modern-geography-02.js')
+const [{modernEdition,modernPlaces,sourcePages},visuals,{namesForScene,normalizeMapName,sceneMapItems,withMapNames},{modernNameCatalog},{modernReferencePages}]=await Promise.all([
+  load('modern-c01-l02-edition.js'),load('modern-story-visuals-02.js'),load('map-name-coverage.js'),load('modern-geography-02.js'),load('modern-story-support-02.js')
 ]);
+// 原文51ページが即位前と即位後の同じ本人を明示している。地理の表示名は別々のまま照合する。
+const family=entity=>entity.kind==='person'&&['ルイナポレオン','ナポレオン3世'].includes(normalizeMapName(entity.name))?'ルイナポレオン':entity.family??entity.name;
 const {withModernVisuals,modernVisualEdition,modernIllustrationFor,modernVisualAssetCatalog,modernVisualScenePlans}=visuals;
 assert.equal(typeof withModernVisuals,'function');
 assert.equal(typeof modernIllustrationFor,'function');
 assert.ok(Array.isArray(modernVisualAssetCatalog),'画像の対応記録を公開する');
 assert.ok(modernVisualScenePlans&&typeof modernVisualScenePlans==='object'&&!Array.isArray(modernVisualScenePlans),'場面IDごとの対応記録を公開する');
 const scenePlans=Object.values(modernVisualScenePlans);
+const sourceRecord=JSON.parse(await readFile(path.join(root,'docs/modern-lesson-02/source-selection.json'),'utf8'));
+const sourceLines=new Map(sourceRecord.lines.map(line=>[line.line,line]));
+const expectedReferences=[['modern-c01-l02-p01-009','シャフツベリー卿',44,[84]],['modern-c01-l02-p01-015','鉄道',45,[107]],['modern-c01-l02-p01-019','ディズレーリ',46,[139]],['modern-c01-l02-p01-019','グラッドストン',46,[145]],['modern-c01-l02-p02-003','メアリ1世',48,[226]],['modern-c01-l02-p03-004','凱旋門',53,[362]],['modern-c01-l02-p03-004','オペラ座',53,[362]],['modern-c01-l02-p03-004','下水道',53,[362]]];
+assert.deepEqual(scenePlans.flatMap(plan=>(plan.sourceFigureReferences??[]).map(reference=>[plan.sceneId,reference.name,reference.page,reference.lines])),expectedReferences,'原書の補足を参照する8点の独立した紙面対応');
 const recorded=JSON.parse(await readFile(path.join(root,'docs/modern-lesson-02/visual-plan.json'),'utf8'));
 assert.deepEqual(recorded.assets,modernVisualAssetCatalog,'公開した画像一覧と記録の一致');
 assert.ok(Array.isArray(recorded.scenes),'場面の記録を順番の配列で保存する');
@@ -36,7 +42,8 @@ assert.deepEqual(scenePlans.map(scene=>scene.sceneId),original.map(scene=>scene.
 assert.equal(recorded.scenes.length,original.length,'配置記録も全場面');
 assert.equal(modernVisualAssetCatalog.filter(asset=>asset.requiresGeneration).length,recorded.totals.newImages,'新規画像の件数と記録の一致');
 assert.equal(modernVisualAssetCatalog.filter(asset=>!asset.requiresGeneration).length,recorded.totals.existingImages,'既存画像の件数と記録の一致');
-assert.ok(modernVisualAssetCatalog.length>=20,'本人・階層・制度・物を区別する画像を用意する');
+assert.equal(modernVisualAssetCatalog.length,63,'40枚の新規画像と23枚の本人・役割・道具の再利用');
+assert.equal(modernVisualAssetCatalog.filter(asset=>asset.requiresGeneration).length,40,'第2回専用に40枚を生成する');
 
 function imageName(key) {
   assert.equal(typeof key,'string','画像名を明記する');
@@ -101,9 +108,9 @@ for(const asset of modernVisualAssetCatalog) {
   if(asset.kind==='person') {
     const person=namesForScene(original[0],asset.name).find(entity=>entity.kind==='person');
     assert.ok(person,asset.name+': 本人の姓名が対応表にある');
-    const family=person.family??person.name;
-    assert.ok(!personIdentities.has(asset.identity)||personIdentities.get(asset.identity)===family,asset.name+': 同じ本人として別人を混ぜない');
-    personIdentities.set(asset.identity,family);
+    const personFamily=family(person);
+    assert.ok(!personIdentities.has(asset.identity)||personIdentities.get(asset.identity)===personFamily,asset.name+': 同じ本人として別人を混ぜない');
+    personIdentities.set(asset.identity,personFamily);
   }
   const filenames=[asset.image,...(asset.afterImage?[asset.afterImage]:[])].map(imageName);
   assert.ok(filenames.every(filename=>asset.requiresGeneration?filename.startsWith('modern-c01-l02/'):['modern-c01-l01/','ancient/','modern-c01-l02/'].some(folder=>filename.startsWith(folder))),asset.name+': 新規画像と既存の本人・建物を区別する');
@@ -150,26 +157,44 @@ for(const [index,scene] of original.entries()) {
   assert.ok(items.length+figures.length>0,scene.id+': 全場面に内容に応じた絵がある');
   if(figures.length)illustrated++;
   assert.ok(typeof plan.reason==='string'&&plan.reason.trim(),scene.id+': その場所・模式欄を選んだ根拠を記録する');
-  const narrative=scene.title+'。'+scene.plainBody.join(''),required=namesForScene(scene,narrative),requiredFamilies=new Set(required.map(entity=>entity.family??entity.name));
+  const narrative=scene.title+'。'+scene.plainBody.join(''),required=namesForScene(scene,narrative),requiredFamilies=new Set(required.map(entity=>family(entity)));
   const preceding=original[index-1];
   // 「この会議」などの続きでは、直前に原文が明示した地名・施設名を引き継げる。
   const precedingNames=preceding?.sourceText.part===scene.sourceText.part?namesForScene(preceding,preceding.title+'。'+preceding.plainBody.join('')).filter(entity=>entity.kind!=='person'):[];
-  const locationFamilies=new Set([...required,...precedingNames].map(entity=>entity.family??entity.name));
+  const locationFamilies=new Set([...required,...precedingNames].map(entity=>family(entity)));
   for(const item of [...items,...figures]) {
     assert.ok(item.name&&item.image,scene.id+': 絵に表示する名前と画像がある');
     const filename=imageName(item.image),asset=byImage.get(filename);
     assert.ok(asset,scene.id+': 画像の対応記録に含まれる '+filename);used.add(filename);
     const entity=entityFor(item.name);
+    // 原書の補足から借りる絵は、見える群見出し・図名・注釈に原書ページを明記する。
+    const figureGroup=figures.includes(item)?illustration.groups.find(group=>group.figures.includes(item)):null;
+    const visibleReference=figureGroup?[illustration.title,figureGroup.label,item.caption].join('。'):'';
+    const claimedPages=[...new Set([...visibleReference.matchAll(/原書(\d+(?:・\d+)*)ページ/g)].flatMap(match=>match[1].split('・').map(Number)))];
+    const pageIndex=original.filter(candidate=>candidate.sourceText.part===scene.sourceText.part).findIndex(candidate=>candidate.id===scene.id);
+    const reachablePages=modernReferencePages(scene,{part:scene.sourceText.part},pageIndex);
+    assert.ok(claimedPages.every(page=>reachablePages.includes(page)),scene.id+': 表示で明記した補足の原書ページへ到達する');
+    const references=(plan.sourceFigureReferences??[]).filter(reference=>normalized(reference.name)===normalized(item.name));
+    for(const reference of references) {
+      assert.ok(figureGroup,scene.id+': 原書補足の詳細は地理図から分けて示す');
+      assert.ok(claimedPages.includes(reference.page),scene.id+': 補足の紙面を見える図題・群見出し・注釈に明記 '+reference.name);
+      assert.ok(reference.reason?.trim()&&reference.lines.length>0,scene.id+': 原書の行と参照理由がある');
+      for(const line of reference.lines)assert.equal(sourceLines.get(line)?.page,reference.page,scene.id+': 補足の行番号と原書ページの一致');
+      const text=reference.lines.map(line=>sourceLines.get(line).text).join('');
+      assert.ok(normalized(text).includes(normalized(reference.name)),scene.id+': 指定した紙面の行に参照する名前がある '+reference.name);
+    }
+    const sourceEntities=references.flatMap(reference=>namesForScene(scene,reference.lines.map(line=>sourceLines.get(line).text).join('')));
+    const sourcedFamilies=new Set(sourceEntities.map(family)),allowedFamilies=new Set([...requiredFamilies,...sourcedFamilies]),allowedLocations=new Set([...locationFamilies,...sourcedFamilies]);
     if(asset.kind==='person') {
       assert.ok(entity?.kind==='person',scene.id+': 人物名が本文の対応表にある '+item.name);
       const assetPerson=namesForScene(scene,asset.name).find(name=>name.kind==='person');
       assert.ok(assetPerson,scene.id+': 画像の本人を対応表で識別できる '+asset.name);
-      assert.equal(entity.family??entity.name,assetPerson.family??assetPerson.name,scene.id+': 姓名と表示する本人の絵が一致する '+item.name);
-      assert.ok(requiredFamilies.has(entity.family??entity.name),scene.id+': 人物がその場面の本文に登場する '+item.name);
-      shownPeople.add(entity.family??entity.name);
+      assert.equal(family(entity),family(assetPerson),scene.id+': 姓名と表示する本人の絵が一致する '+item.name);
+      assert.ok(allowedFamilies.has(family(entity)),scene.id+': 人物が本文または表示で識別した原書の補足に登場する '+item.name);
+      shownPeople.add(family(entity));
     }
     // 集団・物の説明にも、本文にない地名や個人名を紛れ込ませない。
-    const addedNames=namesForScene(scene,item.name).filter(name=>!(name.kind==='person'?requiredFamilies:locationFamilies).has(name.family??name.name)&&(name.kind==='person'||!normalizeMapName(narrative).includes(normalizeMapName(name.name))));
+    const addedNames=namesForScene(scene,item.name).filter(name=>!(name.kind==='person'?allowedFamilies:allowedLocations).has(family(name))&&(name.kind==='person'||!normalizeMapName(narrative).includes(normalizeMapName(name.name))));
     assert.deepEqual(addedNames,[],scene.id+': 表示名と本文の対応 '+item.name);
     if(item.afterImage) {
       const after=imageName(item.afterImage),afterAsset=byImage.get(after);assert.ok(afterAsset,scene.id+': 切替画像の記録');
@@ -209,6 +234,16 @@ for(const [index,scene] of original.entries()) {
     const aliased=alias&&[...items,...figures].some(item=>item.identity===alias.identity);
     assert.ok(shown.some(name=>name.includes(entity.key))||aliased,scene.id+': 本文の名前が地図・模式欄または文脈上の別名に対応する '+entity.name);
   }
+  const figureIdentities=[...new Set(figures.filter(figure=>figure.kind==='person').map(figure=>figure.identity))];
+  for(const identity of figureIdentities) {
+    const pair=figures.filter(figure=>figure.kind==='person'&&figure.identity===identity);
+    if(pair.length<2)continue;
+    assert.equal(pair.length,2,scene.id+': 同じ本人の比較は二つの時点を明記する');
+    assert.deepEqual(pair.map(figure=>figure.temporalRole).toSorted(),['after','before'],scene.id+': 同じ本人の前後比較を単なる二重表示へしない');
+    assert.ok(pair.every(figure=>figure.reason?.trim()),scene.id+': 同じ本人の前後比較の理由がある');
+    assert.notEqual(imageName(pair[0].image),imageName(pair[1].image),scene.id+': 前後比較に違う本人の姿を使う');
+    assert.notEqual(imageReports.find(row=>row.file===imageName(pair[0].image)).hash,imageReports.find(row=>row.file===imageName(pair[1].image)).hash,scene.id+': 前後の姿が実際に異なる');
+  }
   for(const figure of figures.filter(figure=>figure.kind==='person'))if(items.some(item=>item.identity===figure.identity)) {
     const compared=items.find(item=>item.identity===figure.identity&&item.afterImage);
     assert.ok(compared&&['before','after'].includes(figure.temporalRole),scene.id+': 本人の単なる二重表示をしない '+figure.name);
@@ -216,7 +251,7 @@ for(const [index,scene] of original.entries()) {
   }
 }
 for(const name of ['グレイ','コブデン','ブライト','ピール','ダービー','ヴィクトリア女王','クック','ディズレーリ','グラッドストン','オコンネル','ウェリントン','オブライエン','アスキス','デ＝ヴァレラ','ナポレオン3世','オスマン','マクシミリアン','ビスマルク','ティエール']) {
- const entity=entityFor(name);assert.ok(entity&&shownPeople.has(entity.family??entity.name),'本文に登場する本人に固有の絵がある '+name);
+ const entity=entityFor(name);assert.ok(entity&&shownPeople.has(family(entity)),'本文に登場する本人に固有の絵がある '+name);
 }
 for(const asset of modernVisualAssetCatalog.filter(asset=>asset.variantOf)) {
  const before=modernVisualAssetCatalog.find(candidate=>candidate.key===asset.variantOf);
@@ -253,7 +288,8 @@ for(const scene of rendered)for(const item of itemsFor(scene)) {
  const asset=byImage.get(imageName(item.image));if(asset?.kind!=='person')continue;
  const historic=['エリザベス1世','クロムウェル','チャールズ2世','メアリ1世','ナポレオン'];
  if(historic.includes(asset.name)) {
-   assert.ok(['past','comparison','historical'].includes(item.temporalRole)||/過去|かつて|以前|時代|思い出|回想|17世紀|大陸封鎖/.test([item.caption,item.bubble,item.description,modernVisualScenePlans[scene.id].reason].join('')),'回想の人物には過去との比較であることを明記 '+scene.id+' '+item.name);
+   assert.equal(item.temporalRole,'reference','回想の人物を同時代の当事者へしない '+scene.id+' '+item.name);
+   assert.ok(figuresFor(scene).includes(item),'過去の参照人物を地理図の現地へ置かない '+item.name);
    assert.ok(item.route===undefined,'過去比較の人物を19世紀の事件へ行軍させない '+item.name);
  }
 }
