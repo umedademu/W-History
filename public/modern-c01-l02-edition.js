@@ -348,18 +348,18 @@ export const modernEdition = {
           "kind": "region"
         },
         {
-          "text": "インド",
-          "at": [
-            78,
-            22
-          ],
-          "kind": "region"
-        },
-        {
           "text": "アジア",
           "at": [
             90,
             35
+          ],
+          "kind": "region"
+        },
+        {
+          "text": "インド",
+          "at": [
+            78,
+            22
           ],
           "kind": "region"
         }
@@ -686,22 +686,14 @@ export const modernEdition = {
       },
       "frame": [
         -9.24,
-        16,
-        85,
+        47.48,
+        5,
         60
       ],
       "pins": [
         "マンチェスター"
       ],
       "tags": [
-        {
-          "text": "インド",
-          "at": [
-            78,
-            22
-          ],
-          "kind": "region"
-        },
         {
           "text": "イギリス",
           "at": [
@@ -783,27 +775,7 @@ export const modernEdition = {
       "zones": [],
       "actors": [],
       "props": [],
-      "routes": [
-        {
-          "kind": "move",
-          "points": [
-            [
-              37,
-              57
-            ],
-            [
-              17,
-              57
-            ],
-            [
-              -2,
-              54
-            ]
-          ],
-          "start": 0.08,
-          "end": 0.95
-        }
-      ],
+      "routes": [],
       "rivers": [],
       "mapHeading": "農業経営の改良",
       "before": "農業経営の改良",
@@ -814,7 +786,7 @@ export const modernEdition = {
       "year": "18世紀後半〜1969年",
       "kicker": "イギリスの自由主義改革",
       "chapter": 0,
-      "duration": 3200
+      "duration": 2000
     },
     {
       "id": "modern-c01-l02-p01-012",

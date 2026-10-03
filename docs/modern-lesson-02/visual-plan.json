@@ -12,13 +12,13 @@
   "totals": {
     "scenes": 45,
     "newImages": 40,
-    "existingImages": 24,
+    "existingImages": 23,
     "newPeople": 23,
     "personVariants": 1,
     "groups": 5,
     "newPropsAndBuildings": 11,
     "illustrations": 45,
-    "routes": 10
+    "routes": 9
   },
   "assets": [
     {
@@ -707,17 +707,6 @@
       "requiresGeneration": false
     },
     {
-      "key": "public-works",
-      "image": "modern-c01-l01/public-works.png",
-      "name": "公共事業",
-      "kind": "prop",
-      "identity": "prop:public-works",
-      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
-      "width": 192,
-      "height": 192,
-      "requiresGeneration": false
-    },
-    {
       "key": "royal-palace",
       "image": "modern-c01-l01/royal-palace.png",
       "name": "宮殿",
@@ -1342,6 +1331,16 @@
       "textOnlyPeople": [],
       "excludedPersonNames": [],
       "personAliases": [],
+      "sourceFigureReferences": [
+        {
+          "name": "シャフツベリー卿",
+          "page": 44,
+          "lines": [
+            84
+          ],
+          "reason": "通常本文直後の1833年改革表に載る人物として参照する。"
+        }
+      ],
       "reason": "政治家は模式欄で本人を示す。原書44ページの表だけの内容は表の説明であると明記する。"
     },
     {
@@ -1438,18 +1437,17 @@
       "mapActors": [],
       "mapProps": [
         {
-          "name": "ロシアの小麦",
+          "name": "地主が恐れたロシアの安い小麦",
           "image": "modern-c01-l02/grain-cargo.png",
           "kind": "prop",
           "assetKind": "prop",
           "identity": "prop:grain-cargo",
           "size": 64,
           "at": [
-            -2,
-            54
+            37,
+            57
           ],
-          "bubble": "説明：地主が心配した安い小麦",
-          "route": 0
+          "bubble": "説明：地主の輸入への懸念を示す"
         }
       ],
       "extraRoutes": [],
@@ -1488,7 +1486,7 @@
       "textOnlyPeople": [],
       "excludedPersonNames": [],
       "personAliases": [],
-      "reason": "小麦の輸入関係を道具の動きで示す。地主本人の移動は加えない。"
+      "reason": "原文は地主が恐れた輸入を説明するため、実際の輸出経路や商品の移動は作らず、静的な比較として示す。"
     },
     {
       "sceneId": "modern-c01-l02-p01-012",
@@ -1760,6 +1758,16 @@
       "textOnlyPeople": [],
       "excludedPersonNames": [],
       "personAliases": [],
+      "sourceFigureReferences": [
+        {
+          "name": "鉄道",
+          "page": 45,
+          "lines": [
+            107
+          ],
+          "reason": "原書の吹き出しが、馬車なしで遠出できる理由を鉄道の開通として説明する。"
+        }
+      ],
       "reason": "賃金と交通の説明であり、本文にない都市からの旅行経路は追加しない。"
     },
     {
@@ -2061,6 +2069,24 @@
       "textOnlyPeople": [],
       "excludedPersonNames": [],
       "personAliases": [],
+      "sourceFigureReferences": [
+        {
+          "name": "ディズレーリ",
+          "page": 46,
+          "lines": [
+            139
+          ],
+          "reason": "原書46ページの二大政党比較欄で保守党の代表者として参照。"
+        },
+        {
+          "name": "グラッドストン",
+          "page": 46,
+          "lines": [
+            145
+          ],
+          "reason": "原書46ページの二大政党比較欄で自由党の代表者として参照。"
+        }
+      ],
       "reason": "通常本文の直後の原書46ページの比較欄に接続する。二人の人物の在所は固定しない。"
     },
     {
@@ -2352,6 +2378,16 @@
       "textOnlyPeople": [],
       "excludedPersonNames": [],
       "personAliases": [],
+      "sourceFigureReferences": [
+        {
+          "name": "メアリ1世",
+          "page": 48,
+          "lines": [
+            226
+          ],
+          "reason": "原書48ページの吹き出しに登場する過去の女王。通常本文の当事者として追加しない。"
+        }
+      ],
       "reason": "過去の王と女王を19世紀の当事者や同時代の人物として同席させない。"
     },
     {
@@ -3000,7 +3036,7 @@
       "mapActors": [],
       "mapProps": [
         {
-          "name": "アイルランド共和国",
+          "name": "エール・アイルランド共和国",
           "image": "modern-c01-l01/constitution-document.png",
           "kind": "prop",
           "assetKind": "prop",
@@ -3403,6 +3439,32 @@
       "textOnlyPeople": [],
       "excludedPersonNames": [],
       "personAliases": [],
+      "sourceFigureReferences": [
+        {
+          "name": "凱旋門",
+          "page": 53,
+          "lines": [
+            362
+          ],
+          "reason": "パリ改造のコラムで道路網の中心となる建物として参照。"
+        },
+        {
+          "name": "オペラ座",
+          "page": 53,
+          "lines": [
+            362
+          ],
+          "reason": "パリ改造のコラムの地上の整備として参照。"
+        },
+        {
+          "name": "下水道",
+          "page": 53,
+          "lines": [
+            362
+          ],
+          "reason": "パリ改造のコラムの地下の整備として参照。"
+        }
+      ],
       "reason": "県知事を国家オスマン帝国と混同しない。都市の詳細は原書53ページのコラムと模式図へ分け、地理図の拡大上限を保つ。"
     },
     {

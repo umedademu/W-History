@@ -824,7 +824,9 @@ const byKey = new Map(modernNameCatalog.map(entry=>[entry.key,entry]));
 const escapePattern = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const pattern = new RegExp([...byKey.keys()].sort((a,b)=>b.length-a.length).map(escapePattern).join('|'),'g');
 export function modernNamesInText(text) {
-  const value = normalize(text);
+  // 会社の名称に含まれる「インド」を国名として自動追加しない。
+  // 本文が明記した対インド貿易・インド帝国は、そのまま国の関係として照合する。
+  const value = normalize(text).replace(/東インド会社/g,match=>' '.repeat(match.length));
   const found = new Map();
   for (const match of value.matchAll(pattern)) {
     const entry = byKey.get(match[0]);
