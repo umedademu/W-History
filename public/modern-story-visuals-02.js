@@ -72,7 +72,7 @@ for(const [key,name,kind] of [
   ['steam-factory','産業革命','prop'],['railway','鉄道','prop'],['merchant-cargo','貿易','prop'],
   ['ballot-box','選挙','prop'],['constitution-document','法律・憲法','prop'],['treaty-document','条約','prop'],
   ['parliament-building','議会','building'],['tax-ledger','税・年金','prop'],['crown','帝位・王位','prop'],
-  ['calendar','年号','prop'],['barricade','バリケード','prop'],['public-works','公共事業','prop'],['royal-palace','宮殿','building'],
+  ['calendar','年号','prop'],['barricade','バリケード','prop'],['royal-palace','宮殿','building'],
 ]) reuse(key,name,kind,'第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。');
 
 const point={britain:[-2,54],france:[2,47],ireland:[-8,53.5],ulster:[-6.5,54.8],
@@ -169,6 +169,7 @@ scene(1,8,{
   reason:'人口流出は制度比較で示し、原文にない村からマンチェスターへの実経路を作らない。'
 });
 scene(1,9,{
+  sourceFigureReferences:[{name:'シャフツベリー卿',page:44,lines:[84],reason:'通常本文直後の1833年改革表に載る人物として参照する。'}],
   mapProps:[prop('ballot-box','第1回選挙法改正','britain')],
   illustration:illustration('1832年の改正と1833年の改革',
     group('改正の実現',figure('grey',null,'ホイッグ党の内閣の下で第1回選挙法改正'),figure('industrialists','中産階級','産業資本家などに選挙権')),
@@ -183,10 +184,10 @@ scene(1,10,{
   reason:'三人の本人を区別する。議会や運動の説明から特定の現在地を補わない。'
 });
 scene(1,11,{
-  mapProps:[prop('grain-cargo','ロシアの小麦','britain',{route:0,description:'地主が心配した安い小麦'})],
+  mapProps:[prop('grain-cargo','地主が恐れたロシアの安い小麦','russia',{description:'地主の輸入への懸念を示す'})],
   illustration:illustration('自由貿易の後の農業',group('地主の心配',figure('landowners',null,'ロシアの安い小麦への懸念')),
     group('経営の改良',figure('farmers','イギリスの農業','経営合理化と農場改良で繁栄する'))),
-  reason:'小麦の輸入関係を道具の動きで示す。地主本人の移動は加えない。'
+  reason:'原文は地主が恐れた輸入を説明するため、実際の輸出経路や商品の移動は作らず、静的な比較として示す。'
 });
 scene(1,12,{
   mapActors:[actor('workers','労働者','britain',{description:'選挙権を求めて組織的な政治運動'})],
@@ -209,6 +210,7 @@ scene(1,14,{
   reason:'原文45ページで場所の明らかな集団をケニントン広場へ置く。政治家個人を現場に作らない。'
 });
 scene(1,15,{
+  sourceFigureReferences:[{name:'鉄道',page:45,lines:[107],reason:'原書の吹き出しが、馬車なしで遠出できる理由を鉄道の開通として説明する。'}],
   mapActors:[actor('workers','労働者','britain',{description:'賃金が上がり生活にゆとり'})],
   illustration:illustration('デモからお出かけへ',group('生活の変化',figure('tax-ledger','給料','少しは生活にゆとりが出る'),figure('railway','鉄道','原書45ページの吹き出しでは遠出できる理由を説明')),
     group('万博を見に行く',figure('crystal-palace','ロンドン万国博覧会','1851年、デモより万博という人も増える'))),
@@ -234,6 +236,8 @@ scene(1,18,{
   reason:'会場は本文のハイド・パーク。クック個人の旅程は作らず、鉄道網は模式的な記号とする。'
 });
 scene(1,19,{
+  sourceFigureReferences:[{name:'ディズレーリ',page:46,lines:[139],reason:'原書46ページの二大政党比較欄で保守党の代表者として参照。'},
+    {name:'グラッドストン',page:46,lines:[145],reason:'原書46ページの二大政党比較欄で自由党の代表者として参照。'}],
   mapProps:[prop('parliament-building','二大政党制','britain')],
   illustration:illustration('原書46ページの二大政党の比較',
     group('保守党',figure('landowners',null,'地主や貴族が支持基盤'),figure('disraeli',null,'原書比較欄の代表的な政治家')),
@@ -261,6 +265,7 @@ scene(2,2,{
   reason:'制度の変化を比較する。代表者がダブリンからロンドンへ旅行したという経路は追加しない。'
 });
 scene(2,3,{
+  sourceFigureReferences:[{name:'メアリ1世',page:48,lines:[226],reason:'原書48ページの吹き出しに登場する過去の女王。通常本文の当事者として追加しない。'}],
   mapProps:[prop('parliament-building','議会と公職','britain')],
   illustration:illustration('宗教差別が残った理由',group('1673年の背景',ref('charles-ii',null,'カトリック政策に対抗して議会が審査法をつくった')),
     group('原書48ページの吹き出し',ref('mary-i',null,'国教会とカトリックの対立の歴史参照')),
@@ -327,7 +332,7 @@ scene(2,12,{
   reason:'国の代表位置で制度を示す。原文の文字だけから厳密な境界線や北部全域の割り当てを描かない。'
 });
 scene(2,13,{
-  mapProps:[prop('constitution-document','アイルランド共和国','ireland'),prop('crown','イギリス領の北部','ulster')],
+  mapProps:[prop('constitution-document','エール・アイルランド共和国','ireland'),prop('crown','イギリス領の北部','ulster')],
   illustration:illustration('独立までの段階',group('1937年',figure('ballot-box','人民投票','新憲法でエールとして独立を宣言する')),
     group('1949年',figure('constitution-document','アイルランド共和国','完全な独立国家となる')),
     group('残った問題',figure('crown','北部アルスター地方','イギリス領のまま、戦後まで問題が続く'))),
@@ -357,6 +362,9 @@ scene(3,3,{
   reason:'三階級の比較は地理的な地域の分割ではない。ナポレオン3世の所在地を固定しない。'
 });
 scene(3,4,{
+  sourceFigureReferences:[{name:'凱旋門',page:53,lines:[362],reason:'パリ改造のコラムで道路網の中心となる建物として参照。'},
+    {name:'オペラ座',page:53,lines:[362],reason:'パリ改造のコラムの地上の整備として参照。'},
+    {name:'下水道',page:53,lines:[362],reason:'パリ改造のコラムの地下の整備として参照。'}],
   mapProps:[prop('paris-boulevard','パリの全面的改造','paris'),prop('steam-factory','フランスの産業革命','france',{offset:[46,0]})],
   illustration:illustration('パリの改造と各階層への政策',group('改造の指示と担当',figure('napoleon-iii',null,'オスマンにパリの改造を命じる'),figure('haussmann','オスマン','セーヌ県知事として改造を担当')),
     group('原書53ページの地上の整備',figure('arc-de-triomphe','凱旋門','放射状の道路網'),figure('paris-opera','オペラ座','景観を変えた建物')),
