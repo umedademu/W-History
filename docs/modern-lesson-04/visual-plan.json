@@ -1,0 +1,5658 @@
+{
+  "schema": 1,
+  "description": "第4回の通常本文・原書全文を保持し、本人・一般集団・道具の説明図を重ねる。外交の構想と実際の行動、過去の参照と同時代の当事者を区別する。",
+  "rules": [
+    "原文資料は参照専用。通常本文・装飾・順序・全文を変更しない。",
+    "人物本人の現地は本文が明記する場面だけに付け、ほかは模式欄で示す。",
+    "同じ本人の過去の画像だけを再利用し、別人の顔の代用にしない。",
+    "サルデーニャ王国は本土トリノ近傍、島は別の地名として区別する。",
+    "軍部のウィーン進軍案・ガリバルディのローマ攻撃仮説・ライン左岸の口約束は実行済みの移動や併合にしない。",
+    "パリ包囲とスダン・ヴェルサイユを一本の全軍の進路で結ばない。",
+    "国の代表位置への帰還は本国という意味で、首都への到着と断定しない。",
+    "地理図の共通32度／24度の拡大上限を遵守し、施設の細部は模式絵で示す。",
+    "ナイティンゲール・ラサール・マルクス・カール5世等の参照は現場の同席者と分ける。",
+    "議会の権限を皆無としない。男性普通選挙と責任内閣制を区別する。",
+    "集団の役割は特定の同じ個人の同一性の断定ではない。",
+    "図の注釈は説明であり、史実上の発言の引用ではない。"
+  ],
+  "totals": {
+    "scenes": 82,
+    "newImages": 27,
+    "existingImages": 29,
+    "newPeople": 12,
+    "groups": 8,
+    "newPropsAndBuildings": 7,
+    "illustrations": 82,
+    "routes": 14,
+    "switches": 1,
+    "diagrams": 24
+  },
+  "assets": [
+    {
+      "key": "vittorio-emmanuel-ii",
+      "image": "modern-c01-l04/vittorio-emmanuel-ii.png",
+      "name": "ヴィットーリオ＝エマヌエーレ2世",
+      "kind": "person",
+      "identity": "person:vittorio-emmanuel-ii",
+      "description": "サルデーニャ王国からイタリア王国の国王になる本人。黒い大きな口髭と19世紀の礼装。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "cavour",
+      "image": "modern-c01-l04/cavour.png",
+      "name": "カヴール",
+      "kind": "person",
+      "identity": "person:cavour",
+      "description": "サルデーニャ王国首相本人。丸眼鏡、薄い髪、短い髭と19世紀の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "garibaldi",
+      "image": "modern-c01-l04/garibaldi.png",
+      "name": "ガリバルディ",
+      "kind": "person",
+      "identity": "person:garibaldi",
+      "description": "千人隊を率いた本人。赤いシャツと茶色の髭。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "henri-dunant",
+      "image": "modern-c01-l04/henri-dunant.png",
+      "name": "アンリ＝デュナン",
+      "kind": "person",
+      "identity": "person:henri-dunant",
+      "description": "ソルフェリーノの救護に取り組んだ本人。白髪と髭、救護の記録を持つ。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "florence-nightingale",
+      "image": "modern-c01-l04/florence-nightingale.png",
+      "name": "ナイティンゲール",
+      "kind": "person",
+      "identity": "person:florence-nightingale",
+      "description": "デュナンへの影響として参照する本人。ソルフェリーノに同席した人物として描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "wilhelm-i",
+      "image": "modern-c01-l04/wilhelm-i.png",
+      "name": "ヴィルヘルム1世",
+      "kind": "person",
+      "identity": "person:wilhelm-i",
+      "description": "プロイセン国王・ドイツ皇帝本人。白い頬髭と19世紀の軍装。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "isabella-ii-spain",
+      "image": "modern-c01-l04/isabella-ii-spain.png",
+      "name": "イサベル2世",
+      "kind": "person",
+      "identity": "person:isabella-ii-spain",
+      "description": "スペイン女王本人。19世紀の服装。古代・近世のイサベル1世と別人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "leopold-hohenzollern",
+      "image": "modern-c01-l04/leopold-hohenzollern.png",
+      "name": "レオポルト",
+      "kind": "person",
+      "identity": "person:leopold-hohenzollern",
+      "description": "スペイン王位候補となり辞退した本人。即位した国王の冠を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "ferdinand-lassalle",
+      "image": "modern-c01-l04/ferdinand-lassalle.png",
+      "name": "ラサール",
+      "kind": "person",
+      "identity": "person:ferdinand-lassalle",
+      "description": "全ドイツ労働者協会の歴史の参照として示す本人。1875年に共同で党を結成した人物として描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "august-bebel",
+      "image": "modern-c01-l04/august-bebel.png",
+      "name": "ベーベル",
+      "kind": "person",
+      "identity": "person:august-bebel",
+      "description": "社会民主労働者党の説明に登場する本人。茶色の短い髭と背広、本。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "giuseppe-verdi",
+      "image": "modern-c01-l04/giuseppe-verdi.png",
+      "name": "ヴェルディ",
+      "kind": "person",
+      "identity": "person:giuseppe-verdi",
+      "description": "原書76ページ独立コラムに登場する作曲家本人。白い髭、礼服と楽譜。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "karl-marx",
+      "image": "modern-c01-l04/karl-marx.png",
+      "name": "マルクス",
+      "kind": "person",
+      "identity": "person:karl-marx",
+      "description": "19世紀の本人。広い額、長い白髪と豊かな髭、背広と本。1875年の合併の現場へ同席させず思想の参照とする。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "red-shirt-volunteers",
+      "image": "modern-c01-l04/red-shirt-volunteers.png",
+      "name": "赤シャツ隊",
+      "kind": "group",
+      "identity": "group:red-shirt-volunteers",
+      "description": "ガリバルディの義勇兵を代表する一般集団。赤いシャツ、誇張しない中立的な姿。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "italian-peasants",
+      "image": "modern-c01-l04/italian-peasants.png",
+      "name": "イタリアの農民",
+      "kind": "group",
+      "identity": "group:italian-peasants",
+      "description": "農民を代表する男女の一般集団。日常着と農具。特定の同じ個人と断定しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "italian-royal-soldiers",
+      "image": "modern-c01-l04/italian-royal-soldiers.png",
+      "name": "イタリア王国軍",
+      "kind": "group",
+      "identity": "group:italian-royal-soldiers",
+      "description": "1860年代から1870年ごろの王国軍を表す一般兵士。青い軍装。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "junker-landowners",
+      "image": "modern-c01-l04/junker-landowners.png",
+      "name": "ユンカー",
+      "kind": "group",
+      "identity": "group:junker-landowners",
+      "description": "プロイセンの地主貴族を代表する一般集団。書類と礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "catholic-clergy",
+      "image": "modern-c01-l04/catholic-clergy.png",
+      "name": "カトリックの聖職者",
+      "kind": "group",
+      "identity": "group:catholic-clergy",
+      "description": "カトリック聖職者の一般集団。個別の教皇・宗教者の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "socialist-organizers",
+      "image": "modern-c01-l04/socialist-organizers.png",
+      "name": "社会主義の活動家",
+      "kind": "group",
+      "identity": "group:socialist-organizers",
+      "description": "集会・出版に取り組む一般集団。暴力や事件犯人と結び付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "magyar-delegates",
+      "image": "modern-c01-l04/magyar-delegates.png",
+      "name": "マジャール人の代表",
+      "kind": "group",
+      "identity": "group:magyar-delegates",
+      "description": "アウスグライヒのハンガリー側を表す一般の代表。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "imperial-nationalities",
+      "image": "modern-c01-l04/imperial-nationalities.png",
+      "name": "オーストリア領内の諸民族",
+      "kind": "group",
+      "identity": "group:imperial-nationalities",
+      "description": "多民族の住民を代表する一般集団。特定の個人・民族の外見を固定しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "modern-artillery",
+      "image": "modern-c01-l04/modern-artillery.png",
+      "name": "近代的な大砲",
+      "kind": "prop",
+      "identity": "prop:modern-artillery",
+      "description": "鉄血政策と軍備を説明する19世紀の大砲。クルップ社を会社として扱う。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "telegraph",
+      "image": "modern-c01-l04/telegraph.png",
+      "name": "電信・電報",
+      "kind": "prop",
+      "identity": "prop:telegraph",
+      "description": "電報と公表文の違いを説明する機械・文書。人や軍隊の移動と分ける。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "field-aid-station",
+      "image": "modern-c01-l04/field-aid-station.png",
+      "name": "戦場の救護",
+      "kind": "prop",
+      "identity": "prop:field-aid-station",
+      "description": "救護テント・包帯・担架。流血や負傷者の苦痛を誇張しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "social-insurance",
+      "image": "modern-c01-l04/social-insurance.png",
+      "name": "社会保険",
+      "kind": "prop",
+      "identity": "prop:social-insurance",
+      "description": "医療箱・杖・書類で疾病・災害・老齢保険を説明する。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "tariff-barrier",
+      "image": "modern-c01-l04/tariff-barrier.png",
+      "name": "関税",
+      "kind": "prop",
+      "identity": "prop:tariff-barrier",
+      "description": "貨物の検査台と関税を表す道具。自由貿易・保護貿易の比較。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "stock-exchange-ledger",
+      "image": "modern-c01-l04/stock-exchange-ledger.png",
+      "name": "株価と金融",
+      "kind": "prop",
+      "identity": "prop:stock-exchange-ledger",
+      "description": "帳簿と下向きの印で1873年の不況を説明する。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "hall-of-mirrors",
+      "image": "modern-c01-l04/hall-of-mirrors.png",
+      "name": "鏡の間",
+      "kind": "building",
+      "identity": "building:hall-of-mirrors",
+      "description": "ヴェルサイユ宮殿の室内の模式絵。皇帝戴冠と軍の進路を混同しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "mazzini",
+      "image": "modern-c01-l01/mazzini.png",
+      "name": "マッツィーニ",
+      "kind": "person",
+      "identity": "person:mazzini",
+      "description": "第1回の同じ本人。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "carlo-alberto",
+      "image": "modern-c01-l01/carlo-alberto.png",
+      "name": "カルロ＝アルベルト",
+      "kind": "person",
+      "identity": "person:carlo-alberto",
+      "description": "第1回の同じ本人。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "pius-ix",
+      "image": "modern-c01-l01/pius-ix.png",
+      "name": "ピウス9世",
+      "kind": "person",
+      "identity": "person:pius-ix",
+      "description": "第1回の同じ本人。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "napoleon-i",
+      "image": "modern-c01-l01/napoleon-i.png",
+      "name": "ナポレオン1世",
+      "kind": "person",
+      "identity": "person:napoleon-i",
+      "description": "第1回の同じ本人。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "napoleon-iii",
+      "image": "modern-c01-l01/napoleon-iii.png",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "identity": "person:napoleon-iii",
+      "description": "第1回の同じ本人。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "bismarck",
+      "image": "modern-c01-l02/bismarck.png",
+      "name": "ビスマルク",
+      "kind": "person",
+      "identity": "person:bismarck",
+      "description": "第2回の同じ本人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "napoleon-iii-captive",
+      "image": "modern-c01-l02/napoleon-iii-captive.png",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "identity": "person:napoleon-iii",
+      "description": "第2回の同じ本人の捕虜になった後の絵。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "variantOf": "napoleon-iii"
+    },
+    {
+      "key": "charles5-habsburg",
+      "image": "ancient/charles5-habsburg.png",
+      "name": "カール5世",
+      "kind": "person",
+      "identity": "person:charles5-habsburg",
+      "description": "16世紀の同じ本人を過去の参照として示す。19世紀の王位候補と同席させない。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "vatican-palace",
+      "image": "ancient/vatican-palace.png",
+      "name": "教皇庁",
+      "kind": "building",
+      "identity": "building:vatican-palace",
+      "description": "同じ施設を示す既存の模式絵。建物の細部と地理図の拡大を分ける。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "sardinian-soldiers",
+      "image": "modern-c01-l01/sardinian-soldiers.png",
+      "name": "サルデーニャ軍",
+      "kind": "group",
+      "identity": "group:sardinian-soldiers",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "french-soldiers",
+      "image": "modern-c01-l01/french-soldiers.png",
+      "name": "フランス軍",
+      "kind": "group",
+      "identity": "group:french-soldiers",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "austrian-soldiers",
+      "image": "modern-c01-l01/austrian-soldiers.png",
+      "name": "オーストリア軍",
+      "kind": "group",
+      "identity": "group:austrian-soldiers",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "prussian-soldiers",
+      "image": "modern-c01-l01/prussian-soldiers.png",
+      "name": "プロイセン軍",
+      "kind": "group",
+      "identity": "group:prussian-soldiers",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "revolutionary-citizens",
+      "image": "modern-c01-l01/revolutionary-citizens.png",
+      "name": "市民",
+      "kind": "group",
+      "identity": "group:revolutionary-citizens",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "parliament-delegates",
+      "image": "modern-c01-l01/parliament-delegates.png",
+      "name": "議会の代表",
+      "kind": "group",
+      "identity": "group:parliament-delegates",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "workers",
+      "image": "modern-c01-l01/workers.png",
+      "name": "労働者",
+      "kind": "group",
+      "identity": "group:workers",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "industrialists",
+      "image": "modern-c01-l01/industrialists.png",
+      "name": "産業資本家",
+      "kind": "group",
+      "identity": "group:industrialists",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "diplomatic-delegates",
+      "image": "modern-c01-l01/diplomatic-delegates.png",
+      "name": "外交の代表",
+      "kind": "group",
+      "identity": "group:diplomatic-delegates",
+      "description": "第1回と同じ一般役割。特定の個人や別国の固有軍隊の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "steam-factory",
+      "image": "modern-c01-l01/steam-factory.png",
+      "name": "工業",
+      "kind": "prop",
+      "identity": "prop:steam-factory",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "railway",
+      "image": "modern-c01-l01/railway.png",
+      "name": "鉄道",
+      "kind": "prop",
+      "identity": "prop:railway",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "merchant-cargo",
+      "image": "modern-c01-l01/merchant-cargo.png",
+      "name": "貿易",
+      "kind": "prop",
+      "identity": "prop:merchant-cargo",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "ballot-box",
+      "image": "modern-c01-l01/ballot-box.png",
+      "name": "選挙",
+      "kind": "prop",
+      "identity": "prop:ballot-box",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "constitution-document",
+      "image": "modern-c01-l01/constitution-document.png",
+      "name": "法律・憲法",
+      "kind": "prop",
+      "identity": "prop:constitution-document",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "treaty-document",
+      "image": "modern-c01-l01/treaty-document.png",
+      "name": "条約",
+      "kind": "prop",
+      "identity": "prop:treaty-document",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "calendar",
+      "image": "modern-c01-l01/calendar.png",
+      "name": "年号",
+      "kind": "prop",
+      "identity": "prop:calendar",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "crown",
+      "image": "modern-c01-l01/crown.png",
+      "name": "王位",
+      "kind": "prop",
+      "identity": "prop:crown",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "tax-ledger",
+      "image": "modern-c01-l01/tax-ledger.png",
+      "name": "税金・賠償",
+      "kind": "prop",
+      "identity": "prop:tax-ledger",
+      "description": "第1回と同じ一般的な道具。役割を表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "grain-cargo",
+      "image": "modern-c01-l02/grain-cargo.png",
+      "name": "穀物",
+      "kind": "prop",
+      "identity": "prop:grain-cargo",
+      "description": "第2回と同じ一般的な穀物の記号。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "steel-beams",
+      "image": "modern-c01-l03/steel-beams.png",
+      "name": "鉄鋼",
+      "kind": "prop",
+      "identity": "prop:steel-beams",
+      "description": "第3回と同じ鉄鋼材の記号。会社の創業者の肖像として代用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    }
+  ],
+  "scenes": [
+    {
+      "sceneId": "modern-c01-l04-p01-001",
+      "title": "今回の見通し：イタリアとドイツの統一",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "二つの国が統一するまで",
+        "groups": [
+          {
+            "label": "イタリア",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "イタリアの統一",
+                "caption": "説明：分裂していた地域から一つの国が生まれる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "ドイツ",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ドイツの統一",
+                "caption": "説明：外交・戦争・国内政策を順に確認する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "導入72ページも本文として保持する。",
+      "sourcePages": [
+        72
+      ],
+      "htmlBodySha256": "f3a4d6d46907d6c4434136facc7f12abb2036a62bad8f470eb36c188bf2477dc",
+      "plainBodySha256": "fdd80018afa9be240704f7ece3edb77649f87ca3e2dbda018d44c4cab34e2546",
+      "sourceTextSha256": "2df6f6d789e29060798958b09f8124a06f8c2aeadcf3a33db48e1d8f3c312546"
+    },
+    {
+      "sceneId": "modern-c01-l04-p01-002",
+      "title": "分裂が続いたイタリアと国民意識",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "古代から統一前までのイタリア",
+        "groups": [
+          {
+            "label": "古代と中世",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ローマ帝国",
+                "caption": "説明：過去の帝国と19世紀の国を区別する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "東ゴート王国",
+                "caption": "説明：支配が移り変わる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "分かれた地域",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "教皇領",
+                "caption": "説明：教皇の領域と各都市・王国が併存する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "時代の違う国を一つの同時代の領土図にしない。",
+      "sourcePages": [
+        73
+      ],
+      "htmlBodySha256": "02fe81502bc54a1f33dc3f88c14917e1772dadba7c39578215613ca310cf5161",
+      "plainBodySha256": "55ea7bdcc72c1123c520a2a2392de606dc87501dd320937e32a482d7e710f63b",
+      "sourceTextSha256": "2c1b1dce62b84fdc5d1d105fb392824e6f05c89005d24186124f0d81848bdfa7"
+    },
+    {
+      "sceneId": "modern-c01-l04-p01-003",
+      "title": "北イタリアとサルデーニャ王国",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "北部の支配とサルデーニャ王国",
+        "groups": [
+          {
+            "label": "オーストリア側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ロンバルディア・ヴェネツィア",
+                "caption": "説明：北部の地域を支配する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "サルデーニャ王国",
+            "figures": [
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "王位",
+                "caption": "説明：王国本土のトリノとサルデーニャ島を区別する",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "国の代表位置は本土のトリノ側。島を王国全体の中心としない。",
+      "sourcePages": [
+        73,
+        74
+      ],
+      "htmlBodySha256": "e89346c13d5f34948bdd4dd6079b0cfe8457604db855e0805e608a9817c8582e",
+      "plainBodySha256": "efbcee7146058e748b68ddd3dce20a3b80c909f8ad202977fa87f31a852f7343",
+      "sourceTextSha256": "c2c57fd2d31eb709996f333bdcf376fca90b6dc5bbfcdb0ebbf233069959dc5e"
+    },
+    {
+      "sceneId": "modern-c01-l04-p01-004",
+      "title": "教皇領と中部の小国家",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "教皇領と小さな国々",
+        "groups": [
+          {
+            "label": "教皇の領域",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "教皇領",
+                "caption": "説明：教皇が統治する領域",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "小さな君主国",
+            "figures": [
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "中部の国々",
+                "caption": "説明：複数の君主国が分立する",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "特定の教皇の名がない本文では、別の教皇の顔を代用しない。",
+      "sourcePages": [
+        74
+      ],
+      "htmlBodySha256": "afc30fafc64e29983e8506ad22770c95e1c07b00986b34b920217676f02ffe48",
+      "plainBodySha256": "f1538ed47d43933def110798190de20447448405313a2b4f7a1eb110cec221fb",
+      "sourceTextSha256": "cf53706bf1aa4c755fe4069dfe84388d0dde7b5fb00d684ff66a6e98158a4360"
+    },
+    {
+      "sceneId": "modern-c01-l04-p01-005",
+      "title": "両シチリア王国と外国の支配",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "南部の王国と外国支配",
+        "groups": [
+          {
+            "label": "両シチリア王国",
+            "figures": [
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "王位",
+                "caption": "説明：南イタリアとシチリアを支配する",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "統一前の状況",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "外国の支配",
+                "caption": "説明：イタリアは分裂し、外国の影響を受ける",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "外国支配を模式的に説明し、本文にない王本人を置かない。",
+      "sourcePages": [
+        74
+      ],
+      "htmlBodySha256": "460ba4b3e3808b46e8428b81113288a7b8b5178e31d947cdd1546ba24b5db7b4",
+      "plainBodySha256": "eeb6382501e3f543caaaf7acb67f6c5ab1c6576b96fe7311b766779ec2bf9eae",
+      "sourceTextSha256": "50bec98af89e7b28e60805ba152709934fe487dda31368951da82be007a19f62"
+    },
+    {
+      "sceneId": "modern-c01-l04-p01-006",
+      "title": "カルボナリと青年イタリア",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "秘密結社から共和政の運動へ",
+        "groups": [
+          {
+            "label": "カルボナリ",
+            "figures": [
+              {
+                "image": "modern-c01-l01/revolutionary-citizens.png",
+                "name": "カルボナリ",
+                "caption": "説明：秘密結社による運動",
+                "kind": "group",
+                "identity": "group:revolutionary-citizens",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "青年イタリア",
+            "figures": [
+              {
+                "image": "modern-c01-l01/mazzini.png",
+                "name": "マッツィーニ",
+                "caption": "説明：共和政による統一を目指す",
+                "kind": "person",
+                "identity": "person:mazzini",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "人物本人と一般の運動参加者の役割を区別する。",
+      "sourcePages": [
+        74,
+        75
+      ],
+      "htmlBodySha256": "a6e90dafba3d26e844a1eb9f6ba9e2a229a8552a0479990233fd902ace2e1366",
+      "plainBodySha256": "2d72198fb9052a39609df75d9b551092946abb581293152473897af121754222",
+      "sourceTextSha256": "e7b627310048dea52ab4649ed008f8ad60bdb30567a87a14a9e5d26655aad700"
+    },
+    {
+      "sceneId": "modern-c01-l04-p01-007",
+      "title": "王政と共和政：違う統一の目標",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "二つの統一の考え方",
+        "groups": [
+          {
+            "label": "王国による統一",
+            "figures": [
+              {
+                "image": "modern-c01-l01/carlo-alberto.png",
+                "name": "カルロ＝アルベルト",
+                "caption": "説明：王国による統一を目指した国王",
+                "kind": "person",
+                "identity": "person:carlo-alberto",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "共和政による統一",
+            "figures": [
+              {
+                "image": "modern-c01-l01/mazzini.png",
+                "name": "マッツィーニ",
+                "caption": "説明：共和政による統一を目指す",
+                "kind": "person",
+                "identity": "person:mazzini",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "カルロ＝アルベルトは過去の取り組みの参照として表示する。",
+      "sourcePages": [
+        74,
+        75
+      ],
+      "htmlBodySha256": "ffaaec722d2329c041951d261ac30d937dd5b409eafb8c37d129f493bbbd5adc",
+      "plainBodySha256": "2f5123d9b008496dea2d9b6db49b8d6a2bb1314055c7d3ba8792c34898c50a14",
+      "sourceTextSha256": "decb684d1fc6608c05b03ea19a857c6cdc1f06af5a7968f349845cc38b59ac8d"
+    },
+    {
+      "sceneId": "modern-c01-l04-p02-001",
+      "title": "国王とカヴールが統一運動を進める",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "新しい国王と首相",
+        "groups": [
+          {
+            "label": "サルデーニャ王国の国王",
+            "figures": [
+              {
+                "image": "modern-c01-l04/vittorio-emmanuel-ii.png",
+                "name": "ヴィットーリオ＝エマヌエーレ2世",
+                "caption": "説明：カルロ＝アルベルトの後を継ぐ",
+                "kind": "person",
+                "identity": "person:vittorio-emmanuel-ii",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/carlo-alberto.png",
+                "name": "カルロ＝アルベルト",
+                "caption": "説明：前国王の参照",
+                "kind": "person",
+                "identity": "person:carlo-alberto",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "首相",
+            "figures": [
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：王国を中心とする統一へ取り組む",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "親子の国王と首相を同じ顔で代用しない。",
+      "sourcePages": [
+        75
+      ],
+      "htmlBodySha256": "8edc1be3714327090c85e005d01eadc411127ed650c5bddaab92456cd66bbf54",
+      "plainBodySha256": "9a845a493d0dde8535ee642ae5bdcb75417ffbbbd1f4acf9bf7822e23af402fa",
+      "sourceTextSha256": "7c9b8da1f295a7bafb8aaaf83d7bd29ce5040babbc7c4af72ff401deac04a250"
+    },
+    {
+      "sceneId": "modern-c01-l04-p02-002",
+      "title": "カヴールの経験とピエモンテ拡大",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "首相の経験と方針",
+        "groups": [
+          {
+            "label": "カヴール",
+            "figures": [
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：国外の経験から議会政治と産業の重要性を考える",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "政策の土台",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "議会政治",
+                "caption": "説明：立憲政治の経験を取り入れる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/steam-factory.png",
+                "name": "産業",
+                "caption": "説明：近代化を進める",
+                "kind": "prop",
+                "identity": "prop:steam-factory",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "経験を現地の旅として動かさず、政策との関係を説明する。",
+      "sourcePages": [
+        75
+      ],
+      "htmlBodySha256": "679a392c62882ae06520a6f86f46a99b477e6cf20027e89c8469c6c8a3544460",
+      "plainBodySha256": "f46ac8978ae9fcc9f8ce412502e1a88435fe2ffcdcb1168578459d41b604514b",
+      "sourceTextSha256": "cdae5f322bd65e1af41ebe9a1d2911db086b034c83f04ec39949acd91b9e17eb"
+    },
+    {
+      "sceneId": "modern-c01-l04-p02-003",
+      "title": "国内近代化と軍事力の差",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "近代化だけでは勝てない",
+        "groups": [
+          {
+            "label": "王国の改革",
+            "figures": [
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：鉄道建設と産業を進める",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/railway.png",
+                "name": "鉄道",
+                "caption": "説明：経済・軍事の基盤を整える",
+                "kind": "prop",
+                "identity": "prop:railway",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "軍隊の規模",
+            "figures": [
+              {
+                "image": "modern-c01-l01/sardinian-soldiers.png",
+                "name": "サルデーニャ軍",
+                "caption": "説明：約6万人",
+                "kind": "group",
+                "identity": "group:sardinian-soldiers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/austrian-soldiers.png",
+                "name": "オーストリア軍",
+                "caption": "説明：約20万人",
+                "kind": "group",
+                "identity": "group:austrian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "軍の規模を比較し、外国の協力が必要となる理由を示す。",
+      "sourcePages": [
+        75
+      ],
+      "htmlBodySha256": "276dc026b7976394c828bc3c2d0ffabcb0769060e491d2c316f4b4772992504a",
+      "plainBodySha256": "bd000b95cbc5aa40938c0b6e301317cb6c54b5f57b9c7ccb18e2b232396acf59",
+      "sourceTextSha256": "32a3c08b690f0d46c2f95bad5099c11f7a4972702352751a3157e26c0518ae4a"
+    },
+    {
+      "sceneId": "modern-c01-l04-p02-004",
+      "title": "クリミア戦争へ英仏側で参戦",
+      "mapActors": [
+        {
+          "name": "サルデーニャ軍",
+          "image": "modern-c01-l01/sardinian-soldiers.png",
+          "kind": "group",
+          "identity": "group:sardinian-soldiers",
+          "at": [
+            34,
+            45
+          ],
+          "bubble": "説明：1万5000人がクリミア戦争に参加する",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "クリミア戦争への参戦",
+        "groups": [
+          {
+            "label": "王国の判断",
+            "figures": [
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：列強の仲間入りを狙う",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "協力の相手",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：クリミア戦争で協力する",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/sardinian-soldiers.png",
+                "name": "サルデーニャ軍",
+                "caption": "説明：王国から参戦する",
+                "kind": "group",
+                "identity": "group:sardinian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "実際の参戦だけを概略の移動で表す。",
+      "sourcePages": [
+        75,
+        76
+      ],
+      "htmlBodySha256": "137682f1e6928b0b47d541e72ce0d1f991f02a73e69ec2d5f73b40756d980f4c",
+      "plainBodySha256": "10178edbe9830bd20fc4364180959dfd916811f211f733b0a8c87f8e71c5f908",
+      "sourceTextSha256": "4a3cfd667d072efe916d06eb37d553a36581819bbce8fdbf20cdd897c3e5f401"
+    },
+    {
+      "sceneId": "modern-c01-l04-p02-005",
+      "title": "パリ講和会議とイギリスの警戒",
+      "mapActors": [
+        {
+          "name": "カヴール",
+          "image": "modern-c01-l04/cavour.png",
+          "kind": "person",
+          "identity": "person:cavour",
+          "at": [
+            2.352,
+            48.857
+          ],
+          "bubble": "説明：講和会議に参加し、イタリア問題を訴える"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "講和会議での外交",
+        "groups": [
+          {
+            "label": "会議に参加する首相",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "パリの講和会議",
+                "caption": "説明：イタリアの問題を列強へ訴える場",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "イギリスの判断",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イギリス",
+                "caption": "説明：欧州の勢力均衡を重視し全面協力には慎重",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文が明記する会議の都市だけに本人を置く。",
+      "sourcePages": [
+        75,
+        76
+      ],
+      "htmlBodySha256": "e799718244c553c823b668e82ecde0e6e9bea241ce13bbd937e3ffd6cb34c1af",
+      "plainBodySha256": "155d6288d0d0602f06228e6cacf90c528864bc643951a724ac62e3e1cd2ac49c",
+      "sourceTextSha256": "6c665150a80b78e4c0964e4092246240a046b2375e61f02b5e3c877d909312fa"
+    },
+    {
+      "sceneId": "modern-c01-l04-p02-006",
+      "title": "ナポレオン3世への接近と双方の思惑",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "フランス皇帝への働きかけ",
+        "groups": [
+          {
+            "label": "外交の相手",
+            "figures": [
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：ナポレオン3世の協力を求める",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：叔父の栄光とイタリアへの関心",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン1世",
+                "caption": "説明：過去の皇帝を参照する",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "原書76ページの独立コラム",
+            "figures": [
+              {
+                "image": "modern-c01-l04/giuseppe-verdi.png",
+                "name": "ヴェルディ",
+                "caption": "説明：愛国的な役割と作品を紹介するコラム。本文の外交会談の同席者ではない",
+                "kind": "person",
+                "identity": "person:giuseppe-verdi",
+                "temporalRole": "reference"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "sourceFigureReferences": [
+        {
+          "name": "ヴェルディ",
+          "page": 76,
+          "lines": [
+            147,
+            149
+          ],
+          "reason": "原書76ページの独立した作曲家のコラムを参照する。"
+        }
+      ],
+      "reason": "追加参照の人物は出典のページと行を明示する。",
+      "sourcePages": [
+        76
+      ],
+      "htmlBodySha256": "c1a611a906b77fa713ee7878a1367ff7f4e532a28f1402af3306915bca381054",
+      "plainBodySha256": "5ce9a1757e44ab30227e30021048dcbb701c58c4c08cc38090c038ad4d0c0998",
+      "sourceTextSha256": "6d87b8f8bc336a62f239ab275d7c28fba70aba53ceae9e148ebd5f12a59429ef"
+    },
+    {
+      "sceneId": "modern-c01-l04-p02-007",
+      "title": "プロンビエール密約の約束",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "密約の協力と条件",
+        "groups": [
+          {
+            "label": "交渉する二人",
+            "figures": [
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：対オーストリアの協力を求める",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：支援と引き換えに領土を求める",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "約束の条件",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "サヴォイア・ニース",
+                "caption": "説明：領土の譲渡はこの段階では約束",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "密約を実際の軍移動・即時の領土移転とは描かない。",
+      "sourcePages": [
+        76
+      ],
+      "htmlBodySha256": "55ebb5b5e057a8dcbcae6443f1b83287aac88b2564c3ce25bf818511c136ad96",
+      "plainBodySha256": "26516cd7dd94abc89419817decce6c1026caae2322be4cae59f835eada6733ee",
+      "sourceTextSha256": "45e097f749ce8f57ec613e5b22b7b012496ea2980ee320b4d015d9cb8dae2934"
+    },
+    {
+      "sceneId": "modern-c01-l04-p02-008",
+      "title": "イタリア統一戦争とソルフェリーノ",
+      "mapActors": [
+        {
+          "name": "フランス軍",
+          "image": "modern-c01-l01/french-soldiers.png",
+          "kind": "group",
+          "identity": "group:french-soldiers",
+          "at": [
+            10.565,
+            45.372
+          ],
+          "bubble": "説明：出兵してソルフェリーノの戦いに参加する",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "オーストリアとの戦争",
+        "groups": [
+          {
+            "label": "協力する軍",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：迷っていると思われたが出兵する",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/french-soldiers.png",
+                "name": "フランス軍",
+                "caption": "説明：フランスが出兵する",
+                "kind": "group",
+                "identity": "group:french-soldiers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/sardinian-soldiers.png",
+                "name": "サルデーニャ軍",
+                "caption": "説明：サルデーニャ軍とともに戦う",
+                "kind": "group",
+                "identity": "group:sardinian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "対する軍",
+            "figures": [
+              {
+                "image": "modern-c01-l01/austrian-soldiers.png",
+                "name": "オーストリア軍",
+                "caption": "説明：ソルフェリーノの戦い",
+                "kind": "group",
+                "identity": "group:austrian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "フランスから戦闘地域への概略であり、精密な軍の進路を復元しない。",
+      "sourcePages": [
+        76
+      ],
+      "htmlBodySha256": "775fa26425cd0dfc7835ec49b8bbeb3e22a1bf67c5976d9117084317be375bf5",
+      "plainBodySha256": "0e19a45aa79d6150e4bf0b88211f73c6e52ed72d82cd68c0c6b5870c06638850",
+      "sourceTextSha256": "93dca3dd52f4abcbd73b635839e4d4d1a669291cf157f478dc670d968a5ccf71"
+    },
+    {
+      "sceneId": "modern-c01-l04-p02-009",
+      "title": "ソルフェリーノの救護活動と国際赤十字",
+      "mapActors": [
+        {
+          "name": "アンリ＝デュナン",
+          "image": "modern-c01-l04/henri-dunant.png",
+          "kind": "person",
+          "identity": "person:henri-dunant",
+          "at": [
+            10.565,
+            45.372
+          ],
+          "bubble": "説明：戦場の救護に取り組む"
+        }
+      ],
+      "mapProps": [
+        {
+          "name": "ソルフェリーノの救護",
+          "image": "modern-c01-l04/field-aid-station.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:field-aid-station",
+          "size": 64,
+          "at": [
+            10.565,
+            45.372
+          ],
+          "offset": [
+            42,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "戦争と救護の取り組み",
+        "groups": [
+          {
+            "label": "救護を行った本人",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "負傷者の救護",
+                "caption": "説明：国籍を問わず救護する考え",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/field-aid-station.png",
+                "name": "戦場の救護",
+                "caption": "説明：救護を模式的に示す",
+                "kind": "prop",
+                "identity": "prop:field-aid-station",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "影響としての参照",
+            "figures": [
+              {
+                "image": "modern-c01-l04/florence-nightingale.png",
+                "name": "ナイティンゲール",
+                "caption": "説明：デュナンへの影響。ソルフェリーノで活動した当事者としては置かない",
+                "kind": "person",
+                "identity": "person:florence-nightingale",
+                "temporalRole": "reference"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "前の文のソルフェリーノを受ける「この時」の救護者の現地を示す。同じ戦場にいない参照人物と実際の救護者を分ける。",
+      "sourcePages": [
+        76
+      ],
+      "htmlBodySha256": "ea749ce8da4390b9947f1b2d58d783c95ca9905e3c43ba8c2ee7ec2aa3173b71",
+      "plainBodySha256": "ad021ab3d055490445e1c7aa536ad3f3156f91bbe253133e0584685893abe337",
+      "sourceTextSha256": "0e418c6448759018e94a4630d100ed51cd6de19a41db8deed0d32eaa1dc56304"
+    },
+    {
+      "sceneId": "modern-c01-l04-p02-010",
+      "title": "勝利を受けて広がるイタリアの反乱",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "フランス皇帝が慎重になる理由",
+        "groups": [
+          {
+            "label": "イタリアの動き",
+            "figures": [
+              {
+                "image": "modern-c01-l01/revolutionary-citizens.png",
+                "name": "イタリアの市民",
+                "caption": "説明：統一を求める運動が広がる",
+                "kind": "group",
+                "identity": "group:revolutionary-citizens",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "皇帝と首相",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：自分の構想から離れることを恐れる",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：統一を進めたい",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "衛星国化の構想をすでに実現した支配として描かない。",
+      "sourcePages": [
+        77
+      ],
+      "htmlBodySha256": "4adb6c68e7509404a28d19ced17ab05792a683096948c3165613275d6cc36486",
+      "plainBodySha256": "4332eb2a28dd8199b05789df76006e6b1a4a03467dc61e058f158103d369c660",
+      "sourceTextSha256": "db774e6bbc41305fc4e1d4a9987278adaa3cb0a28bb6ff2fe71101cc8084c385"
+    },
+    {
+      "sceneId": "modern-c01-l04-p02-011",
+      "title": "フランスの単独講和とロンバルディア",
+      "mapActors": [
+        {
+          "name": "撤退するフランス軍",
+          "image": "modern-c01-l01/french-soldiers.png",
+          "kind": "group",
+          "identity": "group:french-soldiers",
+          "at": [
+            2,
+            47
+          ],
+          "bubble": "説明：講和して撤退する",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "単独講和と首相の反発",
+        "groups": [
+          {
+            "label": "フランスの決定",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：単独で講和して軍を撤退させる",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "結果への反発",
+            "figures": [
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：独断の講和に反発する",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ロンバルディア",
+                "caption": "説明：この段階で得た領土。ヴェネツィアは残る",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "撤退先は国の代表位置とし、本文にないパリ到着を断定しない。",
+      "sourcePages": [
+        77
+      ],
+      "htmlBodySha256": "e9adfcf5ada22210e0f1442132fe2b826ef9ef346b3c83216d824969e62c6995",
+      "plainBodySha256": "e8c2b114c836539f888ac9bdba61ed15194a8c9e1c29948af6c91ce67f3ab09a",
+      "sourceTextSha256": "83a9b851d2e9e18aab462218483ce0507b44cf582481a81189f9abeb98359256"
+    },
+    {
+      "sceneId": "modern-c01-l04-p02-012",
+      "title": "中部イタリアの住民投票と併合",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "中部で進む併合",
+        "groups": [
+          {
+            "label": "中部の住民",
+            "figures": [
+              {
+                "image": "modern-c01-l01/revolutionary-citizens.png",
+                "name": "中部の市民",
+                "caption": "説明：統一を求める",
+                "kind": "group",
+                "identity": "group:revolutionary-citizens",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "併合の手続き",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ballot-box.png",
+                "name": "住民投票",
+                "caption": "説明：サルデーニャ王国への併合",
+                "kind": "prop",
+                "identity": "prop:ballot-box",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：裏で中部の併合へ働きかける",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "住民の運動と外交・手続きの役割を分ける。",
+      "sourcePages": [
+        77
+      ],
+      "htmlBodySha256": "0fe3b6f96ca704a26f2cf1a1d9dd46ce2cbb4c66a79c3e87afed2daa72d9c7d8",
+      "plainBodySha256": "2c1a90a82c2ce5f3af25f1a6dd8a8f65211f841d334e6bfea6b3880443158e95",
+      "sourceTextSha256": "383269e72b524c79e7c2107dcd0ffa16ba4d9c9cc77d64a36d86dd920c986468"
+    },
+    {
+      "sceneId": "modern-c01-l04-p02-013",
+      "title": "サヴォイアとニースの割譲",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "支援と領土の譲渡",
+        "groups": [
+          {
+            "label": "外交の両当事者",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：サヴォイア・ニースを受け取る",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：協力と引き換えに譲渡する",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "譲渡する地域",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "サヴォイア・ニース",
+                "caption": "説明：密約の条件が実際の領土譲渡になる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "領土の変化を静的に説明し、住民全員の移動として描かない。",
+      "sourcePages": [
+        77
+      ],
+      "htmlBodySha256": "805890f7c8d07a2992936d31b16dacd514045db90d3a2ca13a0468293cbb8c36",
+      "plainBodySha256": "a784a1d88f8cb04c16249e0a1aa24a4f0c5ba31b7751b7329abd28381835c8f5",
+      "sourceTextSha256": "bc5b79abc838233d3d3ab73515c753ef9ce5475d444abb935a82a5f4a3382d83"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-001",
+      "title": "ガリバルディと民衆主導の統一",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "南部の統一を担う人物",
+        "groups": [
+          {
+            "label": "義勇兵を率いる本人",
+            "figures": [
+              {
+                "image": "modern-c01-l04/garibaldi.png",
+                "name": "ガリバルディ",
+                "caption": "説明：共和政を望みつつ統一のために行動する",
+                "kind": "person",
+                "identity": "person:garibaldi",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "残された地域",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "統一前のイタリア",
+                "caption": "説明：南部・教皇領などが残る",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "独立の志向と統一の行動を本人の絵で説明する。",
+      "sourcePages": [
+        77
+      ],
+      "htmlBodySha256": "4bffc4903bac79f24dc650a000833cd0ab90102a207a70694b6c3cedc2739a43",
+      "plainBodySha256": "6a687d4ea190737ae846768c8348791eb0fd7c8b3fec10c3eb117f2374c13a63",
+      "sourceTextSha256": "a32d5b3c3006b9d3305f455a923086eae760248d83718328a72eca2a9dd17dda"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-002",
+      "title": "シチリアの反乱と義勇軍の呼びかけ",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "農民の反乱を統一の機会へ",
+        "groups": [
+          {
+            "label": "シチリアの農民",
+            "figures": [
+              {
+                "image": "modern-c01-l04/italian-peasants.png",
+                "name": "シチリアの農民",
+                "caption": "説明：反乱が起きる",
+                "kind": "group",
+                "identity": "group:italian-peasants",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "異なる統一の担い手",
+            "figures": [
+              {
+                "image": "modern-c01-l04/garibaldi.png",
+                "name": "ガリバルディ",
+                "caption": "説明：南部へ向かう機会と考える",
+                "kind": "person",
+                "identity": "person:garibaldi",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：統一を進める別の立場",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "一般農民と指導者本人を分ける。",
+      "sourcePages": [
+        78
+      ],
+      "htmlBodySha256": "439245173172039657e9354a9cc37eb97a533d3e50b1daca8832f15a68a8d625",
+      "plainBodySha256": "df37ed825c010d6b00f8b39307856f5f40a1d7cbe8389f26c0bfbd5df8b73db7",
+      "sourceTextSha256": "4a82a6d2c6df673dc5830a7e9343d7ca355afcd4a24e8f28da0f67c0ae4272d4"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-003",
+      "title": "赤シャツ隊の結成とシチリアへの出兵",
+      "mapActors": [
+        {
+          "name": "千人隊（赤シャツ隊）",
+          "image": "modern-c01-l04/red-shirt-volunteers.png",
+          "kind": "group",
+          "identity": "group:red-shirt-volunteers",
+          "at": [
+            13.7,
+            37.6
+          ],
+          "bubble": "説明：ジェノヴァからシチリアへ向かう",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "義勇兵が南へ出発する",
+        "groups": [
+          {
+            "label": "千人隊",
+            "figures": [
+              {
+                "image": "modern-c01-l04/red-shirt-volunteers.png",
+                "name": "千人隊（赤シャツ隊）",
+                "caption": "説明：約1000人の義勇兵が南へ向かう",
+                "kind": "group",
+                "identity": "group:red-shirt-volunteers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "首相の警戒",
+            "figures": [
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：義勇兵の行動を警戒する",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "出発・到着だけを根拠とする概略経路。",
+      "sourcePages": [
+        78
+      ],
+      "htmlBodySha256": "5eb2cf165f5a0c74bda8f154d177931e4165d5cd5f53daf68bedf7a762adab78",
+      "plainBodySha256": "2e43c928eb84448c9b50988a41ec824ac7b2e0f7f08f81c933709e91b18a4bff",
+      "sourceTextSha256": "214cc8734c2f88585fd094092ffa0642e142b1a4af5179e8d9d69965bc81cff4"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-004",
+      "title": "パレルモ解放とシチリア占領",
+      "mapActors": [
+        {
+          "name": "千人隊",
+          "image": "modern-c01-l04/red-shirt-volunteers.png",
+          "kind": "group",
+          "identity": "group:red-shirt-volunteers",
+          "at": [
+            13.36,
+            38.12
+          ],
+          "bubble": "説明：シチリアで戦い、パレルモを占領する",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "シチリアでの勝利",
+        "groups": [
+          {
+            "label": "義勇兵と指導者",
+            "figures": [
+              {
+                "image": "modern-c01-l04/garibaldi.png",
+                "name": "ガリバルディ",
+                "caption": "説明：王国軍を破って進む",
+                "kind": "person",
+                "identity": "person:garibaldi",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/red-shirt-volunteers.png",
+                "name": "千人隊",
+                "caption": "説明：パレルモを占領する",
+                "kind": "group",
+                "identity": "group:red-shirt-volunteers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "支援する人びと",
+            "figures": [
+              {
+                "image": "modern-c01-l04/italian-peasants.png",
+                "name": "シチリアの農民",
+                "caption": "説明：義勇兵を支える",
+                "kind": "group",
+                "identity": "group:italian-peasants",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文の実際の移動と占領を示す。農民の全員の同行は断定しない。",
+      "sourcePages": [
+        78
+      ],
+      "htmlBodySha256": "bb8c791a18fdbace028b3534310b62e0b5ddb070606138d300fc43cbf38f1a52",
+      "plainBodySha256": "7a22d37dff797975d6ba8ccbd42758006e11fd31fbcfa85d06377f8fb8610942",
+      "sourceTextSha256": "286fb69a44960dd61a37cbfa949346ba4eee72f73632b9af84f51ca33366e892"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-005",
+      "title": "南イタリア上陸とナポリの制圧",
+      "mapActors": [
+        {
+          "name": "千人隊",
+          "image": "modern-c01-l04/red-shirt-volunteers.png",
+          "kind": "group",
+          "identity": "group:red-shirt-volunteers",
+          "at": [
+            14.27,
+            40.85
+          ],
+          "bubble": "説明：イタリア本土へ渡り、ナポリを占領する",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "南部の王国を倒す",
+        "groups": [
+          {
+            "label": "本土へ進む義勇兵",
+            "figures": [
+              {
+                "image": "modern-c01-l04/red-shirt-volunteers.png",
+                "name": "千人隊",
+                "caption": "説明：本土へ渡りナポリへ進む",
+                "kind": "group",
+                "identity": "group:red-shirt-volunteers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "南部の変化",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "両シチリア王国",
+                "caption": "説明：王国の支配が崩れる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文に人物名がない分割部分では義勇兵という一般集団を主役にする。",
+      "sourcePages": [
+        78
+      ],
+      "htmlBodySha256": "6fff980337b1341965eef69cb994231d41c0ff71bf268a6c2748faf454e69755",
+      "plainBodySha256": "76b1dca0b664a9ddbf9e6d171482f390f432df433077a33d0fae26ed67597a55",
+      "sourceTextSha256": "37b6dd6d7130a5aa527420047f83b7bdbb22463d23384c829fec60b7201553d2"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-006",
+      "title": "国王軍の南下とテアーノの会見",
+      "mapActors": [
+        {
+          "name": "ヴィットーリオ＝エマヌエーレ2世",
+          "image": "modern-c01-l04/vittorio-emmanuel-ii.png",
+          "kind": "person",
+          "identity": "person:vittorio-emmanuel-ii",
+          "at": [
+            14.07,
+            41.25
+          ],
+          "bubble": "説明：国王軍とともに教皇領の一部を通りテアーノへ向かう",
+          "route": 0
+        },
+        {
+          "name": "ガリバルディ",
+          "image": "modern-c01-l04/garibaldi.png",
+          "kind": "person",
+          "identity": "person:garibaldi",
+          "at": [
+            14.07,
+            41.25
+          ],
+          "bubble": "説明：テアーノで国王と会う",
+          "offset": [
+            42,
+            0
+          ]
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ローマへの攻撃を避けて会談する",
+        "groups": [
+          {
+            "label": "外交上の警戒",
+            "figures": [
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：フランスとの対立を避けたい",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：教皇を保護する立場",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "王国軍の実際の進軍",
+            "figures": [
+              {
+                "image": "modern-c01-l01/sardinian-soldiers.png",
+                "name": "国王軍",
+                "caption": "説明：教皇領の一部を通り南へ進む",
+                "kind": "group",
+                "identity": "group:sardinian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "国王軍のテアーノへの移動だけを動かす。ガリバルディによるローマ攻撃は仮説なので経路にしない。",
+      "sourcePages": [
+        79
+      ],
+      "htmlBodySha256": "e0a5c2c5e4d7e111140e7444285b6e348838810afb3407d9e904d55359200525",
+      "plainBodySha256": "4faf342922d83ac6add030e8b51f7b38a25249a6c5666874cce7e0c6aa0493fd",
+      "sourceTextSha256": "41ef0aa7bc16c78d5443cc0731e575dda594951199106b84dd68898c8596b3f7"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-007",
+      "title": "住民投票と南イタリアの併合",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "南部を王国へ渡して引退する",
+        "groups": [
+          {
+            "label": "南部の併合",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ballot-box.png",
+                "name": "住民投票",
+                "caption": "説明：南部がサルデーニャ王国に併合される",
+                "kind": "prop",
+                "identity": "prop:ballot-box",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "夢とは違う結果を受けた本人",
+            "figures": [
+              {
+                "image": "modern-c01-l04/garibaldi.png",
+                "name": "ガリバルディ",
+                "caption": "説明：王国への併合後、夢とは違う結果を受けて表舞台から退く。地中海の小さな島へ引退する",
+                "kind": "person",
+                "identity": "person:garibaldi",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "引退先は原文の表現までに留め、厳密な島名と航路を追加しない。",
+      "sourcePages": [
+        79
+      ],
+      "htmlBodySha256": "8014333438c353f63859e594e326c37b840db519587a8d66e22e753e6a3c18f5",
+      "plainBodySha256": "a297eff4eb6413fc6eb1b95973426c42d6515396d3364556e481cd91c1e38ccf",
+      "sourceTextSha256": "814805066d4357f7a7838d2225c4d8b5c7bbc6abf92e6e4ae178497f989cb976"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-008",
+      "title": "1861年のイタリア王国と制限選挙",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "イタリア王国が成立する",
+        "groups": [
+          {
+            "label": "国王と首相",
+            "figures": [
+              {
+                "image": "modern-c01-l04/vittorio-emmanuel-ii.png",
+                "name": "ヴィットーリオ＝エマヌエーレ2世",
+                "caption": "説明：イタリア王国の国王となる",
+                "kind": "person",
+                "identity": "person:vittorio-emmanuel-ii",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：王国成立を実現する",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "王国の政治",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ballot-box.png",
+                "name": "選挙の制限",
+                "caption": "説明：選挙権は限られる",
+                "kind": "prop",
+                "identity": "prop:ballot-box",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/italian-peasants.png",
+                "name": "農民",
+                "caption": "説明：土地の分配は実現しない",
+                "kind": "group",
+                "identity": "group:italian-peasants",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "王国成立時の首都はトリノ。国王の所在地を常時固定しない。",
+      "sourcePages": [
+        79
+      ],
+      "htmlBodySha256": "393287eb41c679dc9642af9da7c8782a4366c9c38c1fe501c49b3e3f18ed177b",
+      "plainBodySha256": "d782919a3dc45b5c362171c2d0549963bc357359c1ddd6c6393882ab4806924a",
+      "sourceTextSha256": "3b84879624afb81abca0764ca17dc6e50303c3914291b03e24caa7c120a93bc1"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-009",
+      "title": "民衆の夢との違いとカヴールの死",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "農民の期待と首相の死",
+        "groups": [
+          {
+            "label": "農民の失望",
+            "figures": [
+              {
+                "image": "modern-c01-l04/italian-peasants.png",
+                "name": "農民",
+                "caption": "説明：統一しても土地は得られない",
+                "kind": "group",
+                "identity": "group:italian-peasants",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "統一を進めた首相",
+            "figures": [
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：王国成立後に急死する",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "一つの成功談にまとめず、本文の残った問題を保持する。",
+      "sourcePages": [
+        79
+      ],
+      "htmlBodySha256": "89c17c7be48697f52d5895243f534157310c0972a2b686211bd55496b4f6d120",
+      "plainBodySha256": "b616fcdff0f528e92f4fe4e883d426ea127488a4be68bc71e70347c2177972f6",
+      "sourceTextSha256": "f3bd7aae121456fe5eb9aaaa69712f7cf17e489b5137749634aac375c95e3699"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-010",
+      "title": "残されたヴェネツィアと教皇領",
+      "mapActors": [
+        {
+          "name": "教皇領のフランス軍",
+          "image": "modern-c01-l01/french-soldiers.png",
+          "kind": "group",
+          "identity": "group:french-soldiers",
+          "at": [
+            12.5,
+            42.5
+          ],
+          "bubble": "説明：教皇領に駐屯する。領域の代表位置であり個別の駐屯地を断定しない"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ヴェネツィアとローマが残る",
+        "groups": [
+          {
+            "label": "ヴェネツィア",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "オーストリア",
+                "caption": "説明：まだ支配している",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "教皇領",
+            "figures": [
+              {
+                "image": "modern-c01-l01/french-soldiers.png",
+                "name": "フランス軍",
+                "caption": "説明：教皇を保護している",
+                "kind": "group",
+                "identity": "group:french-soldiers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "プロイセン",
+                "caption": "説明：統一の次の機会に関わる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "残る地域と、それぞれを支える国を区別する。",
+      "sourcePages": [
+        79
+      ],
+      "htmlBodySha256": "7fdf73b3c4bb01949ce843d0087a766e214eaa482ca50c6f4c89c69ff559c8a2",
+      "plainBodySha256": "19a62661e748080996b9bdbaa8ba285d873d0d5ea8c74caf3bc4d46b16ce1d3e",
+      "sourceTextSha256": "0bd1894979a8b5e544d4f76cd72fb23e73043bac4ba7479c2105b390a8f38a28"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-011",
+      "title": "プロイセンとイタリアの共通の敵",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "プロイセンとの協力が機会をつくる",
+        "groups": [
+          {
+            "label": "外交の担い手",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：オーストリア・フランスと対立する",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：フランスの立場",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "イタリアの協力",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "プロイセンとイタリア",
+                "caption": "説明：共通の相手への協力",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "外交上の協力を、すでに行われた各国軍の移動と混同しない。",
+      "sourcePages": [
+        79,
+        80
+      ],
+      "htmlBodySha256": "811d6612b11d829875b0184c3a318ca420f60a63e362eb1f03bc4de6b981aad7",
+      "plainBodySha256": "35220c4a4583bd00f5e516bda67836f16a342bd679d3148d671bda74de5c5785",
+      "sourceTextSha256": "238e53790dea5798bc8850652a2d8299bda97c521a5b71001ba04388cda2b8f7"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-012",
+      "title": "普墺戦争とヴェネツィア併合",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "戦争後にヴェネツィアを得る",
+        "groups": [
+          {
+            "label": "プロイセンの勝利",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：普墺戦争に勝つ",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "イタリアが得る領土",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ヴェネツィア",
+                "caption": "説明：プロイセンの勝利と講和の結果として得る",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文の領土獲得と戦闘の勝敗を区別する。",
+      "sourcePages": [
+        80
+      ],
+      "htmlBodySha256": "61bac6e8b74be1698b569efa164223be7302305c87000643c5635e88fb28946d",
+      "plainBodySha256": "1f5c22e1196d83bd0a23c130fd483f5c5c2bc2b2bd3f7e52c197970721555388",
+      "sourceTextSha256": "0dd2508c1d36fe01044f0219c573f95ff8744701066d078c516370be97c13bcc"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-013",
+      "title": "フランス軍の帰国と教皇領占領",
+      "mapActors": [
+        {
+          "name": "帰国するフランス守備隊",
+          "image": "modern-c01-l01/french-soldiers.png",
+          "kind": "group",
+          "identity": "group:french-soldiers",
+          "at": [
+            2,
+            47
+          ],
+          "bubble": "説明：普仏戦争のためローマから本国へ帰る",
+          "route": 0
+        },
+        {
+          "name": "イタリア軍",
+          "image": "modern-c01-l04/italian-royal-soldiers.png",
+          "kind": "group",
+          "identity": "group:italian-royal-soldiers",
+          "at": [
+            12.496,
+            41.903
+          ],
+          "bubble": "説明：フランス軍の撤退後にローマを占領する",
+          "offset": [
+            35,
+            0
+          ]
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "守備隊の撤退とローマの併合",
+        "groups": [
+          {
+            "label": "普仏戦争",
+            "figures": [
+              {
+                "image": "modern-c01-l01/prussian-soldiers.png",
+                "name": "プロイセン軍",
+                "caption": "説明：フランスとの戦争が始まる",
+                "kind": "group",
+                "identity": "group:prussian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "イタリアの首都",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ローマ",
+                "caption": "説明：1870年の併合後、1871年に首都となる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "帰還先はフランス本国の代表位置で、パリ到着を断定しない。",
+      "sourcePages": [
+        80
+      ],
+      "htmlBodySha256": "3c4bc00b19ec9564b832e6696a72233bc702fc97b93aecdb397596a9526a44da",
+      "plainBodySha256": "3885105ddd4f65e01af4fe3b6796cefba686226bfbe082bcfc828ca953bdefa8",
+      "sourceTextSha256": "9733d06661686bc3ad1b6b2cfea1cd62baca67dfafcd758e508e6101f14c3145"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-014",
+      "title": "未回収のイタリア",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "統一後も残る領土問題",
+        "groups": [
+          {
+            "label": "未回収の領土",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "未回収のイタリア",
+                "caption": "説明：まだ王国に入っていない地域",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "協力した人物",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：ドイツ統一とイタリアの領土獲得が関係する",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "将来の領土問題を、当時すべて獲得済みの領域としない。",
+      "sourcePages": [
+        80
+      ],
+      "htmlBodySha256": "9857f3e4e0df31d5c61d9089e4dbfe130ffbb208151153fbcc4fca089bc4fbf6",
+      "plainBodySha256": "bbd9eadcb9bbe184153331a72df9875d12869a574d28741db3cc07dd8d7be526",
+      "sourceTextSha256": "05de514b5928d99e53fee3bb9d34686d39c61dccf584865f0e202c29d0887df6"
+    },
+    {
+      "sceneId": "modern-c01-l04-p03-015",
+      "title": "ピウス9世とイタリア王国の対立",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "教皇庁",
+          "image": "ancient/vatican-palace.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:vatican-palace",
+          "size": 64,
+          "at": [
+            12.454,
+            41.903
+          ],
+          "bubble": "説明：教皇庁の施設を模式絵で説明する"
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "教皇と王国の対立",
+        "groups": [
+          {
+            "label": "教皇側",
+            "figures": [
+              {
+                "image": "modern-c01-l01/pius-ix.png",
+                "name": "ピウス9世",
+                "caption": "説明：ローマの併合を認めない",
+                "kind": "person",
+                "identity": "person:pius-ix",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/catholic-clergy.png",
+                "name": "カトリックの聖職者",
+                "caption": "説明：王国との対立に関わる",
+                "kind": "group",
+                "identity": "group:catholic-clergy",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "王国側",
+            "figures": [
+              {
+                "image": "modern-c01-l04/vittorio-emmanuel-ii.png",
+                "name": "ヴィットーリオ＝エマヌエーレ2世",
+                "caption": "説明：イタリア王国の国王",
+                "kind": "person",
+                "identity": "person:vittorio-emmanuel-ii",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "教皇庁の建物と本人を区別し、後の和解をこの時点に繰り上げない。",
+      "sourcePages": [
+        80
+      ],
+      "htmlBodySha256": "a77bda9a6ead18b8177c91f47d028ce59558a10db7f3f3484817d7af18b9ab68",
+      "plainBodySha256": "2042a8094436801296bffd9b90bd1cb36488b9828bfff522be419d1ba0a1c314",
+      "sourceTextSha256": "3b996524c8adea1f476fd5efc9cfddd6866a3698b62631834a27312f48fc73f7"
+    },
+    {
+      "sceneId": "modern-c01-l04-p04-001",
+      "title": "神聖ローマ帝国と多数の領邦",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ドイツが分かれていた背景",
+        "groups": [
+          {
+            "label": "過去の帝国",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "神聖ローマ帝国",
+                "caption": "説明：多数の領邦が存在する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "領邦の君主",
+            "figures": [
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "領邦国家",
+                "caption": "説明：一つの中央集権国家ではない",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "帝国名に含むローマを都市の訪問・所在地として拾わない。",
+      "sourcePages": [
+        80
+      ],
+      "htmlBodySha256": "547dda76f99533b81b4d5ac3c1e7c04dcd06220dc7d132dbe9ec2165e74893c1",
+      "plainBodySha256": "9fae9c239a67078b2ca2b928853569498dba4cee772435d95edc78f2d043f9a2",
+      "sourceTextSha256": "3096dab585820d5bbdc07feebc44a88c0bccf4046ed045bea67a99ab786b6bf4"
+    },
+    {
+      "sceneId": "modern-c01-l04-p04-002",
+      "title": "ドイツ連邦とドイツ関税同盟",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "帝国の解体と経済の結び付き",
+        "groups": [
+          {
+            "label": "過去の転換",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン1世",
+                "caption": "説明：神聖ローマ帝国の解体に関わる",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "統一前の結び付き",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ドイツ連邦",
+                "caption": "説明：政治の枠組み",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/merchant-cargo.png",
+                "name": "ドイツ関税同盟",
+                "caption": "説明：経済の結び付き",
+                "kind": "prop",
+                "identity": "prop:merchant-cargo",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "連邦の制度と関税同盟を別の模式図として示す。",
+      "sourcePages": [
+        80,
+        81
+      ],
+      "htmlBodySha256": "ef4015c076e9df4cb96ce4388d889bf684e340c0f447a8779ea8e20b8edbe4fe",
+      "plainBodySha256": "de08aa2063d8a84266b14065a254c03d2c7f308be8a238e6bee49e92e1491eb8",
+      "sourceTextSha256": "06b6dc73b4fbe61ad797ff884472c5738e6f99bb820325e5daa72fa1dc82186c"
+    },
+    {
+      "sceneId": "modern-c01-l04-p04-003",
+      "title": "大ドイツ主義と小ドイツ主義",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "大ドイツ主義と小ドイツ主義",
+        "groups": [
+          {
+            "label": "オーストリアを含む考え",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "大ドイツ主義",
+                "caption": "説明：オーストリアを含む統一",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "プロイセンを中心とする考え",
+            "figures": [
+              {
+                "image": "modern-c01-l01/merchant-cargo.png",
+                "name": "小ドイツ主義",
+                "caption": "説明：オーストリアを除く統一。関税同盟が基盤となる",
+                "kind": "prop",
+                "identity": "prop:merchant-cargo",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "統一の考えの違いを実際の同時代の併合として描かない。",
+      "sourcePages": [
+        80,
+        81
+      ],
+      "htmlBodySha256": "113c2e3b862cdaad6e983654a4fb79909184848cecd069081fb2ef2515432dde",
+      "plainBodySha256": "9f5ee44ec99ae231a693ba3b5772ab37aab694dbcf9304908338ffcf82e04b05",
+      "sourceTextSha256": "c667af75b03558d167ad6281cd21c9a060c6e02a1d4bae8c817a33974fa4627e"
+    },
+    {
+      "sceneId": "modern-c01-l04-p04-004",
+      "title": "ヴィルヘルム1世とビスマルク",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "国王が新しい首相を任命する",
+        "groups": [
+          {
+            "label": "国王",
+            "figures": [
+              {
+                "image": "modern-c01-l04/wilhelm-i.png",
+                "name": "ヴィルヘルム1世",
+                "caption": "説明：軍備の拡張を進めたい",
+                "kind": "person",
+                "identity": "person:wilhelm-i",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "首相と背景",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：首相に任命される",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/junker-landowners.png",
+                "name": "ユンカー",
+                "caption": "説明：地主貴族の背景",
+                "kind": "group",
+                "identity": "group:junker-landowners",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "イタリアの首相との比較",
+            "figures": [
+              {
+                "image": "modern-c01-l04/cavour.png",
+                "name": "カヴール",
+                "caption": "説明：自由主義の立場。保守派のビスマルクとの違いを参照する",
+                "kind": "person",
+                "identity": "person:cavour",
+                "temporalRole": "reference"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "国王本人・首相本人・一般の地主貴族を区別する。",
+      "sourcePages": [
+        81
+      ],
+      "htmlBodySha256": "bf2783d8aae75f74a07f71d2986ec93633f394d8b57a409395390a756e3d02a6",
+      "plainBodySha256": "ff83ec722e1b9eab20e94ab04e8f8b87f2e13c415ee81cffb119b03d814db421",
+      "sourceTextSha256": "ce48fffe030ed19132db5848745d8d697b81d30368d6ad7ce8d30cfbbc804ade"
+    },
+    {
+      "sceneId": "modern-c01-l04-p04-005",
+      "title": "鉄血演説と議会の軍事予算",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "議会の反対と鉄血政策",
+        "groups": [
+          {
+            "label": "首相の判断",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：議会の反対を押し切って軍備を進める",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "議会の反対",
+            "figures": [
+              {
+                "image": "modern-c01-l01/parliament-delegates.png",
+                "name": "議会の代表",
+                "caption": "説明：予算をめぐり対立する",
+                "kind": "group",
+                "identity": "group:parliament-delegates",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "説明の言葉を史実上の演説の引用と混同しない。",
+      "sourcePages": [
+        81
+      ],
+      "htmlBodySha256": "4dfb579506b6f0914bcdee29010d3dfcd0329c289f0ea04eb31b9af955a92fc9",
+      "plainBodySha256": "4d88ffa8ebfd889e585938118c3d50e3eaf63c618cfcf903f457dda1669f0caf",
+      "sourceTextSha256": "10737ca89a3ca54fa82ff4dc1fe55abe72ed4bc59078db0da8b1a9d1047f66e4"
+    },
+    {
+      "sceneId": "modern-c01-l04-p04-006",
+      "title": "クルップと軍の近代化",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "プロイセンの軍備",
+          "image": "modern-c01-l04/modern-artillery.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:modern-artillery",
+          "size": 64,
+          "at": [
+            13,
+            52.5
+          ],
+          "bubble": "説明：鉄血政策による軍備の拡張"
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "鉄と血で統一を目指す",
+        "groups": [
+          {
+            "label": "軍備を整える首相",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：軍備を整え、戦争の機会を選ぶ",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "会社と兵器",
+            "figures": [
+              {
+                "image": "modern-c01-l04/modern-artillery.png",
+                "name": "クルップ社の大砲",
+                "caption": "説明：会社による兵器の生産。創業者本人の肖像とはしない",
+                "kind": "prop",
+                "identity": "prop:modern-artillery",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "クルップは会社の文脈で扱い、本文にない本人名・所在地を補わない。",
+      "sourcePages": [
+        81
+      ],
+      "htmlBodySha256": "71700ebf3de3961e0952cadecf64a21b77f526709de71b96e7c79db6859523ce",
+      "plainBodySha256": "efa258be7c825856326623d440de147f5ecb1d54a04457518ddc0bbd259495a1",
+      "sourceTextSha256": "6f404a94fbbabf24f2f647520e2e52fd9dacb05434028aec36bbf6c388f7a0bf"
+    },
+    {
+      "sceneId": "modern-c01-l04-p04-007",
+      "title": "オーストリアとの主導権争い",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "オーストリアを除いて統一する",
+        "groups": [
+          {
+            "label": "統一の障害",
+            "figures": [
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "オーストリア",
+                "caption": "説明：神聖ローマ皇帝の伝統を持つ国",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "プロイセンの方針",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：オーストリアを除く統一を目指す",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "肩書きのローマを都市の点として描かない。",
+      "sourcePages": [
+        81
+      ],
+      "htmlBodySha256": "64273a19381eacd44b44f019d973bbfc6837d5df8bd25511e44c40f6b638c97a",
+      "plainBodySha256": "7183e083635d2c3197df0f103f44add776b86a3892a83df80a8c88a5f0c08146",
+      "sourceTextSha256": "cac81613b99bda8a62e6d3d8a0ca94b2def85f66c7476ef6179f256b709c4492"
+    },
+    {
+      "sceneId": "modern-c01-l04-p04-008",
+      "title": "フランスの安全と統一への反対",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "フランスとの対立を考える",
+        "groups": [
+          {
+            "label": "フランスの立場",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：ドイツが強大になることを警戒する",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン1世",
+                "caption": "説明：過去の皇帝とドイツの関係を参照する",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "外交上の問題",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "フランス",
+                "caption": "説明：統一を進める際に対立する相手",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "将来の敵対と過去の参照を、現在の軍の移動にしない。",
+      "sourcePages": [
+        81
+      ],
+      "htmlBodySha256": "af17e9fe731a090ed16cee45990ffe545cd4049892872b092110b3b2c9d40919",
+      "plainBodySha256": "c8dc7faffc10a9d3c1c1bd591e67af50e3e33be9a1bccdbeaff2860b983f2b4f",
+      "sourceTextSha256": "18bd826c510fd32aa45919ac0092488b4a0966d33c1f68591a729c2ee1b9a574"
+    },
+    {
+      "sceneId": "modern-c01-l04-p04-009",
+      "title": "勢力均衡と開戦の難しさ",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "列強を敵に回さない外交",
+        "groups": [
+          {
+            "label": "主要な国々",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "英・仏・墺・普・露",
+                "caption": "説明：各国の立場を見極める",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "首相の方針",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：戦争する相手以外の国を敵にしない",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "外交上の関係は静的な説明で示す。",
+      "sourcePages": [
+        81,
+        82
+      ],
+      "htmlBodySha256": "552cd06016d90a392910b43c93be0989ed97c11496073222703dae791564de80",
+      "plainBodySha256": "768dc2d04e6a547f517a24ca7061866aabc61f412fdfbd031d825a67356f6605",
+      "sourceTextSha256": "adcd813a5edc210a4d5abd5c7e35b568062eaa8242d9989c242d6e050b42fc28"
+    },
+    {
+      "sceneId": "modern-c01-l04-p04-010",
+      "title": "軍備と鉄道：万全の戦争準備",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "プロイセンの鉄道",
+          "image": "modern-c01-l01/railway.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:railway",
+          "size": 64,
+          "at": [
+            13,
+            52.5
+          ],
+          "offset": [
+            -30,
+            0
+          ]
+        },
+        {
+          "name": "近代的な兵器",
+          "image": "modern-c01-l04/modern-artillery.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:modern-artillery",
+          "size": 64,
+          "at": [
+            13,
+            52.5
+          ],
+          "offset": [
+            30,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "軍備と鉄道の準備",
+        "groups": [
+          {
+            "label": "準備された軍",
+            "figures": [
+              {
+                "image": "modern-c01-l01/prussian-soldiers.png",
+                "name": "プロイセン軍",
+                "caption": "説明：近代兵器と鉄道を備える",
+                "kind": "group",
+                "identity": "group:prussian-soldiers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/railway.png",
+                "name": "鉄道",
+                "caption": "説明：軍の輸送の準備",
+                "kind": "prop",
+                "identity": "prop:railway",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "開戦の条件",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "外交と戦争の準備",
+                "caption": "説明：相手から仕掛けた形にし、万全の準備で臨む",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "軍備の準備を示し、本文にない戦争や輸送の実経路を補わない。",
+      "sourcePages": [
+        82
+      ],
+      "htmlBodySha256": "815070e9cdd644936d335f8ec911984194c519f56d62718cc3d733d7722b75ec",
+      "plainBodySha256": "3b54949579268c152472536d70b69277c7f9c896de7d8b49f4c0efd8685ea9ce",
+      "sourceTextSha256": "9c00ba9ab0386de48d1c7ee4ce8741a761eabbc53c7b0d183dd5fc9807193e3a"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-001",
+      "title": "開戦の契機をつくるビスマルク",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "まずデンマークとの戦争へ",
+        "groups": [
+          {
+            "label": "二つの国",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "プロイセンとオーストリア",
+                "caption": "説明：共同でデンマークに対する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "首相",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：共同戦争を外交の機会にする",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "同盟と実際の出兵の段階を区別する。",
+      "sourcePages": [
+        83
+      ],
+      "htmlBodySha256": "67fa3f47074b69fd34aa6ffe4a6303a374898393644ae963d16c143401385ca5",
+      "plainBodySha256": "b1a1b4f46e966418d3434d3b53ce0094e80825325345e60abae433e8992ede98",
+      "sourceTextSha256": "de3e0eabe3fa559ba4a7dff41c4d16bcbded0b0a0977e730590b84b43bb8c440"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-002",
+      "title": "シュレスヴィヒ・ホルシュタイン問題",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "二つの公国とデンマーク王",
+        "groups": [
+          {
+            "label": "公国の立場",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "シュレスヴィヒ・ホルシュタイン",
+                "caption": "説明：公国にはドイツ系住民が多い",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "同じ君主",
+            "figures": [
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "デンマーク王",
+                "caption": "説明：公国の君主を兼ねる。同じ国になったこととは別",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "同じ王の下にあることと一つの国であることを混同しない。",
+      "sourcePages": [
+        83,
+        84
+      ],
+      "htmlBodySha256": "889efc90e4357fa68e3f0f5e56ebbde777668348af4062fc0c20648a1950ed1f",
+      "plainBodySha256": "706fe4f0e57f341d8542a1dc03a4d11ebd5388623dd61f8437686e979ca23444",
+      "sourceTextSha256": "bfa6d715b4492f5e558f2c5a9cff3d80f70e833d961500ff882852ba5b540ecf"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-003",
+      "title": "共同出兵とデンマーク戦争",
+      "mapActors": [
+        {
+          "name": "プロイセン軍",
+          "image": "modern-c01-l01/prussian-soldiers.png",
+          "kind": "group",
+          "identity": "group:prussian-soldiers",
+          "at": [
+            9.5,
+            54.2
+          ],
+          "bubble": "説明：オーストリアと共同で出兵する",
+          "route": 0,
+          "offset": [
+            -12,
+            0
+          ]
+        },
+        {
+          "name": "オーストリア軍",
+          "image": "modern-c01-l01/austrian-soldiers.png",
+          "kind": "group",
+          "identity": "group:austrian-soldiers",
+          "at": [
+            9.5,
+            54.2
+          ],
+          "bubble": "説明：プロイセンと共同で出兵する",
+          "route": 1,
+          "offset": [
+            12,
+            0
+          ]
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "共同出兵して公国を得る",
+        "groups": [
+          {
+            "label": "共同の戦争",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "プロイセンとオーストリア",
+                "caption": "説明：デンマークに勝ち、公国を得る",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "次の段階を考える首相",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：共同統治が次の対立の原因になる",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "実際に行われた二国の出兵を別々の概略経路にする。",
+      "sourcePages": [
+        83,
+        84
+      ],
+      "htmlBodySha256": "3f77c65618e39be9d9a87d78e2066b78a38d8ce504594ea51f323e844ac824e6",
+      "plainBodySha256": "dc6b030ad46af2883ca0a1abf86ab2da54179419f97747a9565cbbd8d5c6a420",
+      "sourceTextSha256": "62a16678be9e95c014eac333a023efefab1736ee50f6c969192d442989fd1685"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-004",
+      "title": "軍の調査とフランス・イタリアへの外交",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "戦争前に周囲を中立にする",
+        "groups": [
+          {
+            "label": "フランスとの交渉",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：フランスを中立にする",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：ライン左岸の口約束を得る",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "イタリアとの協力",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イタリア",
+                "caption": "説明：オーストリアとの戦争に協力する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "ライン左岸の譲渡は口約束であり実現した領土の移転として描かない。",
+      "sourcePages": [
+        84
+      ],
+      "htmlBodySha256": "9be950fc01e5b545530336db78c5195360022282b42de5c3b2b7005c94134c6f",
+      "plainBodySha256": "07a4aa5032664a481e2c5b100295f1509579e695c84deb5ba591445d57c6e6f6",
+      "sourceTextSha256": "00b6a08c0a0b3be17b7bc2b84e2544e027b010c83ce142777c15fa52d0c3cce6"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-005",
+      "title": "両公国の統治とオーストリアへの挑発",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "共同統治から対立へ",
+        "groups": [
+          {
+            "label": "公国の分担",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "シュレスヴィヒ・ホルシュタイン",
+                "caption": "説明：共同統治の分担が対立に変わる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "対立を進める外交",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：相手が仕掛けた形で戦争に入る",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ドイツ連邦",
+                "caption": "説明：各国の対立が表れる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "制度上の争いを説明し、本文にない軍の進路を補わない。",
+      "sourcePages": [
+        84
+      ],
+      "htmlBodySha256": "4f3e0cbbbc48ecacd4c4d242d8c7fb862ca34e62b6859f111306dc407eac6b65",
+      "plainBodySha256": "459ccfb6a21ba271194d1b2bb8b0df652a8d0a4588ea777641c97f2a8ec71ba9",
+      "sourceTextSha256": "6e8c4e3a314ad05972c901ebc03fbabc8f654799e6631735b10107afae987a6a"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-006",
+      "title": "サドヴァの戦いとベーメン制圧",
+      "mapActors": [
+        {
+          "name": "プロイセン軍",
+          "image": "modern-c01-l01/prussian-soldiers.png",
+          "kind": "group",
+          "identity": "group:prussian-soldiers",
+          "at": [
+            14.5,
+            50
+          ],
+          "bubble": "説明：サドヴァで勝ち、ベーメンを占領する",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "短期の勝利と進軍の抑制",
+        "groups": [
+          {
+            "label": "軍の準備",
+            "figures": [
+              {
+                "image": "modern-c01-l01/railway.png",
+                "name": "鉄道",
+                "caption": "説明：兵員を迅速に運ぶ",
+                "kind": "prop",
+                "identity": "prop:railway",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/telegraph.png",
+                "name": "電信",
+                "caption": "説明：情報の伝達に用いる",
+                "kind": "prop",
+                "identity": "prop:telegraph",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "講和を優先する首相",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：軍部のウィーン進軍案を退ける",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "実際の占領はベーメンまで。提案のみのウィーン進軍は経路にしない。",
+      "sourcePages": [
+        84
+      ],
+      "htmlBodySha256": "92a0ac2db2625fc4ca29b3ad6f60bd7d1ac1c55a129b521b0ec777659f7a310d",
+      "plainBodySha256": "85d9f7d7ee67ff555f3d7d4fda6f6c67c07de96a19e719cab9db8b6e0cf9dc5e",
+      "sourceTextSha256": "981ae6dbda2150096743bc9334b4aff7a951bf600f38b7c716ab9b4d1b9d41ad"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-007",
+      "title": "プラハ条約とオーストリアの排除",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "勝利後の併合と連邦の解体",
+        "groups": [
+          {
+            "label": "プロイセン側の変化",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "領土の併合",
+                "caption": "説明：シュレスヴィヒ・ホルシュタイン両公国を併合する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "連邦の変化",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ドイツ連邦の解体",
+                "caption": "説明：オーストリアをドイツから除く",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "不干渉",
+                "caption": "説明：ドイツへの干渉を認めない",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "条約名のプラハを都市への訪問として表示しない。",
+      "sourcePages": [
+        84
+      ],
+      "htmlBodySha256": "3a76fd071bb784b9aae771f5024ab94b164312820252f52bcd983406582fee8b",
+      "plainBodySha256": "8370a46c8a8c1abac7fa0e792c64941659f5dcec1ccd71f37fc1052f2836e638",
+      "sourceTextSha256": "42f03116f4040f9ed5ae5b5ab00d2568cc217ded801c433b72366482449e1bbb"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-008",
+      "title": "ウィーンへ進軍せずベーメンを返す",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "将来を考えて寛大に講和する",
+        "groups": [
+          {
+            "label": "オーストリアへの扱い",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ベーメンの返還",
+                "caption": "説明：占領地を返す",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ウィーン",
+                "caption": "説明：占領していない。進軍の提案は退ける",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "首相の判断",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：将来の協力を考え、恨みを残さないよう講和する",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "未実施の占領や将来の復讐を実際の出来事として動かさない。",
+      "sourcePages": [
+        84,
+        85
+      ],
+      "htmlBodySha256": "5bef6dc9416e3a7c96cbd0bff5ce87338f471f85ab37d4f1c647d32a5e77c45e",
+      "plainBodySha256": "376509c00ce5dd9b47ef23140f25976aed22f3a31c11a9c6d6e9880d10b3d131",
+      "sourceTextSha256": "bc5259e76a95eb959bf2c2ba5cf3b7e8698d87b2e69a6f1bcf4520ed0223d223"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-009",
+      "title": "北ドイツ連邦の結成",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "北ドイツ連邦が成立する",
+        "groups": [
+          {
+            "label": "北の連邦",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "北ドイツ連邦",
+                "caption": "説明：22カ国、うち3自由市という本文の記述",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "南側の国々",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "バイエルンなど",
+                "caption": "説明：連邦には加わらず、フランスが警戒する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文の国数と分類を保持し、補足表も原書全文で参照できる。",
+      "sourcePages": [
+        85
+      ],
+      "htmlBodySha256": "faa5c5900ab0330ae87c4f64143fc7dd966f3efce8438861eeec632bbdd22e8a",
+      "plainBodySha256": "8b9dbd179728c4028bb80dceb9b87adb41d64fb04aa55a4fe6fc58a95b09bfd2",
+      "sourceTextSha256": "ff05e957f5eebd76789d7d917a8adaeae4a0dff977390ec9b8c6203d3e8730da"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-010",
+      "title": "オーストリア領内の諸民族の反抗",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "オーストリアの多民族の課題",
+        "groups": [
+          {
+            "label": "王朝",
+            "figures": [
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "ハプスブルク家",
+                "caption": "説明：広い多民族の領域を統治する",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "領内の住民",
+            "figures": [
+              {
+                "image": "modern-c01-l04/imperial-nationalities.png",
+                "name": "オーストリア領内の諸民族",
+                "caption": "説明：ドイツ人は人口の約4分の1",
+                "kind": "group",
+                "identity": "group:imperial-nationalities",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "民族の外見を固定せず一般集団で多民族という関係を示す。",
+      "sourcePages": [
+        85
+      ],
+      "htmlBodySha256": "da2f9eb91cf9d74cc0707b3ea7acf4d40ccd0a4a2c2c15229f299feb9e4ab05a",
+      "plainBodySha256": "02dd68ac40b6845998b2d57004e5c8f79f7e09b117156f3cf5e4b550a8f1a45b",
+      "sourceTextSha256": "bd8ae1ed188be4cf6a001d4e9f8065bf31b1b3bc08b49e2a8245b811fa62e57b"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-011",
+      "title": "アウスグライヒと二重帝国",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "一人の君主と二つの政府",
+        "groups": [
+          {
+            "label": "共通の君主",
+            "figures": [
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "オーストリア皇帝・ハンガリー王",
+                "caption": "説明：一人が二つの地位を兼ねる",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "ハンガリー側",
+            "figures": [
+              {
+                "image": "modern-c01-l04/magyar-delegates.png",
+                "name": "マジャール人の代表",
+                "caption": "説明：アウスグライヒで妥協する",
+                "kind": "group",
+                "identity": "group:magyar-delegates",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/parliament-delegates.png",
+                "name": "二つの政府と議会",
+                "caption": "説明：内政を分け、外交・軍事などを共通にする",
+                "kind": "group",
+                "identity": "group:parliament-delegates",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "名前が本文にない皇帝本人の顔を追加せず制度として説明する。",
+      "sourcePages": [
+        85,
+        86
+      ],
+      "htmlBodySha256": "fa3eb9c1f2f455e9393933f87ed45ed16e36e0d766ca67a819b2df781bfd3d6a",
+      "plainBodySha256": "bef30700db02bd7504b794a0bfbdbdd88b2495a55ccdfecf463c01c8768aaa37",
+      "sourceTextSha256": "a780d9db97a8d2964708edd0b4d2508a8cf8267ac8892bd2edc179708b070390"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-012",
+      "title": "フランスの統一妨害と王位継承問題",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "統一をめぐるフランスとの対立",
+        "groups": [
+          {
+            "label": "フランス皇帝",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：ドイツの強大化を恐れる",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "プロイセン首相",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：フランスとの戦争を統一の機会にする",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "戦争前の意図と実際の戦闘を分ける。",
+      "sourcePages": [
+        86
+      ],
+      "htmlBodySha256": "6890f7f9b92ea4505397e7cb10f6e74aa27b792684077e8310d0a518e0f20018",
+      "plainBodySha256": "3bdc9b1a39bb47a4d9cac87ebb0e288580ec44e9ea39c192871fffc8caf5916c",
+      "sourceTextSha256": "7492a8c26819ff3293aee48adbe4a383a9fcf04353baa141ebda81d6d6ae7d12"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-013",
+      "title": "イサベル2世の亡命とレオポルト推戴",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "スペインの王位候補が問題になる",
+        "groups": [
+          {
+            "label": "スペインの政変",
+            "figures": [
+              {
+                "image": "modern-c01-l04/isabella-ii-spain.png",
+                "name": "イサベル2世",
+                "caption": "説明：女王が追放される",
+                "kind": "person",
+                "identity": "person:isabella-ii-spain",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "新しい候補",
+            "figures": [
+              {
+                "image": "modern-c01-l04/leopold-hohenzollern.png",
+                "name": "レオポルト",
+                "caption": "説明：スペイン王位の候補になる",
+                "kind": "person",
+                "identity": "person:leopold-hohenzollern",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：王位候補をめぐる外交に関わる",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "レオポルトは王位候補であり、即位した国王の姿にはしない。",
+      "sourcePages": [
+        86
+      ],
+      "htmlBodySha256": "d17fc8b8d4efafe9e3118d15807021c07e7fe3d2c92943370252c9aa3f89e5ab",
+      "plainBodySha256": "8db4cd4f7667ba07e847a29d086b8b34c068105dc1648e36a6b3e846454814f1",
+      "sourceTextSha256": "cbf44950ddf2db8f125aeb6057f479521a6e7eb88e825997c79d918f54621c14"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-014",
+      "title": "フランスの反発と候補の王位辞退",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "包囲への警戒と候補の辞退",
+        "groups": [
+          {
+            "label": "フランス皇帝の警戒",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：ホーエンツォレルン家に囲まれることを恐れる",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              },
+              {
+                "image": "ancient/charles5-habsburg.png",
+                "name": "カール5世",
+                "caption": "説明：16世紀のハプスブルク家による包囲の参照",
+                "kind": "person",
+                "identity": "person:charles5-habsburg",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "候補と首相",
+            "figures": [
+              {
+                "image": "modern-c01-l04/leopold-hohenzollern.png",
+                "name": "レオポルト",
+                "caption": "説明：王位候補を辞退する",
+                "kind": "person",
+                "identity": "person:leopold-hohenzollern",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：外交の次の機会を待つ",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "過去のカール5世を現在の候補と同席させず、肩書きからローマ都市を拾わない。",
+      "sourcePages": [
+        86
+      ],
+      "htmlBodySha256": "0738769682ef32b6f6c285f63d2b686898f7e48b1f28e6b19f072655f56d5694",
+      "plainBodySha256": "04ec71c59825f4fda68e1f0dd8b29f79f283d7ab946355a570d7ac844c15c330",
+      "sourceTextSha256": "f624601d231cf1d17dadd08e989f81ceae30b52338d63193284da68beb7a5f48"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-015",
+      "title": "エムスの特使とベルリンへの電報",
+      "mapActors": [
+        {
+          "name": "フランスの特使",
+          "image": "modern-c01-l01/diplomatic-delegates.png",
+          "kind": "group",
+          "identity": "group:diplomatic-delegates",
+          "at": [
+            7.707,
+            50.331
+          ],
+          "bubble": "説明：エムスで国王に会い、将来の立候補も認めない保証を求める",
+          "route": 0,
+          "offset": [
+            -28,
+            0
+          ]
+        },
+        {
+          "name": "ヴィルヘルム1世",
+          "image": "modern-c01-l04/wilhelm-i.png",
+          "kind": "person",
+          "identity": "person:wilhelm-i",
+          "at": [
+            7.707,
+            50.331
+          ],
+          "bubble": "説明：特使と会い、ベルリンへ電報を送る",
+          "offset": [
+            28,
+            0
+          ]
+        },
+        {
+          "name": "ビスマルク",
+          "image": "modern-c01-l02/bismarck.png",
+          "kind": "person",
+          "identity": "person:bismarck",
+          "at": [
+            13.405,
+            52.52
+          ],
+          "bubble": "説明：ベルリンで国王の電報を受け取る",
+          "offset": [
+            -28,
+            0
+          ]
+        }
+      ],
+      "mapProps": [
+        {
+          "name": "エムスからの電報",
+          "image": "modern-c01-l04/telegraph.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:telegraph",
+          "size": 64,
+          "at": [
+            13.405,
+            52.52
+          ],
+          "bubble": "説明：国王から首相へ情報が伝わる。機械を運ぶ経路ではない",
+          "route": 1,
+          "offset": [
+            44,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "特使の要求と国王からの電報",
+        "groups": [
+          {
+            "label": "要求するフランス",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：将来にわたる保証を求める",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "電報の伝達",
+            "figures": [
+              {
+                "image": "modern-c01-l04/telegraph.png",
+                "name": "電報",
+                "caption": "説明：国王の連絡がベルリンの首相へ届く",
+                "kind": "prop",
+                "identity": "prop:telegraph",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の現地は本文に明記されたエムスとベルリンに限る。特使の移動と電信の通信を別にする。",
+      "sourcePages": [
+        86,
+        87
+      ],
+      "htmlBodySha256": "56b0c4d0b7b28642830d5903adde9be16b32a24e63100c25b6e17eebc500f93b",
+      "plainBodySha256": "3eb1448b1c105dd44b07af2636e15096e6293ef8d523e6c18fa0ab148ff78616",
+      "sourceTextSha256": "7516b7d81bba3f7c5c5c3ced9a393ee85631a0db3136be2b76d874468ab7d4da"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-016",
+      "title": "発表内容の変更と開戦の世論",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "電報の公表で対立が高まる",
+        "groups": [
+          {
+            "label": "公表文を作る首相",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：両国が侮辱されたと受け取る形に編集する",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/telegraph.png",
+                "name": "公表された電報",
+                "caption": "説明：国王本人の元の連絡文と編集後の公表文を区別する",
+                "kind": "prop",
+                "identity": "prop:telegraph",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "両国の反応",
+            "figures": [
+              {
+                "image": "modern-c01-l04/wilhelm-i.png",
+                "name": "ヴィルヘルム1世",
+                "caption": "説明：プロイセンの国王",
+                "kind": "person",
+                "identity": "person:wilhelm-i",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/napoleon-iii.png",
+                "name": "ナポレオン3世",
+                "caption": "説明：フランスの皇帝",
+                "kind": "person",
+                "identity": "person:napoleon-iii",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/revolutionary-citizens.png",
+                "name": "両国の市民",
+                "caption": "説明：世論が激しくなる",
+                "kind": "group",
+                "identity": "group:revolutionary-citizens",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "編集後の内容を国王が実際にそのまま言った引用として表示しない。",
+      "sourcePages": [
+        86,
+        87
+      ],
+      "htmlBodySha256": "d98dc8b21b6488745269ec7d61449ecae56e9c001e20273d67287b1a935ae5c5",
+      "plainBodySha256": "1d048e3331cf77177973c7e4bee80b55f0b6dcdabdad074c5752f83e57e70f3d",
+      "sourceTextSha256": "1878e52fd15f2737b792fd4f1663eee6fbcf11e2160f1530f6e914824b4c1c60"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-017",
+      "title": "普仏戦争の開戦とドイツ諸国",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "フランスが宣戦する",
+        "groups": [
+          {
+            "label": "フランス軍",
+            "figures": [
+              {
+                "image": "modern-c01-l01/french-soldiers.png",
+                "name": "フランス軍",
+                "caption": "説明：準備が整わないまま戦争に入る",
+                "kind": "group",
+                "identity": "group:french-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "プロイセン軍",
+            "figures": [
+              {
+                "image": "modern-c01-l01/prussian-soldiers.png",
+                "name": "プロイセン軍",
+                "caption": "説明：準備された軍備で迎える",
+                "kind": "group",
+                "identity": "group:prussian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "開戦の段階で全軍を一つの具体的な進路に沿って動かさない。",
+      "sourcePages": [
+        86,
+        87
+      ],
+      "htmlBodySha256": "7bcc90e2baea7456b30e0c634bb30d686e1f71837ebd3fdaf4eb86dd9a91c5b9",
+      "plainBodySha256": "6f479fcb9e84f0930e6f517d30d94ed1e28cc3cc11ac037bf6e4a12eef22575b",
+      "sourceTextSha256": "5d502861fb6b84069e983bf8ddec8d7d09f12cd3c41466d091191208eb09bbd1"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-018",
+      "title": "アルザス・ロレーヌ侵攻とスダン",
+      "mapActors": [
+        {
+          "name": "プロイセン軍",
+          "image": "modern-c01-l01/prussian-soldiers.png",
+          "kind": "group",
+          "identity": "group:prussian-soldiers",
+          "at": [
+            6.9,
+            48.5
+          ],
+          "bubble": "説明：アルザス・ロレーヌへ進む",
+          "route": 0
+        },
+        {
+          "name": "ナポレオン3世",
+          "image": "modern-c01-l01/napoleon-iii.png",
+          "kind": "person",
+          "identity": "person:napoleon-iii",
+          "at": [
+            4.94,
+            49.7
+          ],
+          "bubble": "説明：スダンで敗れ、捕虜となる",
+          "afterImage": "modern-c01-l02/napoleon-iii-captive.png"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "スダンの敗北と皇帝の捕虜",
+        "groups": [
+          {
+            "label": "プロイセン側",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：フランスに勝つ",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/prussian-soldiers.png",
+                "name": "プロイセン軍",
+                "caption": "説明：戦争を優勢に進める",
+                "kind": "group",
+                "identity": "group:prussian-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "異なる作戦を分ける",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "アルザス・ロレーヌとスダン",
+                "caption": "説明：一つの全軍の連続した進路とは断定しない",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の捕虜状態だけ同じ本人の絵へ切り替える。スダンからパリへの全軍の一本経路は作らない。",
+      "sourcePages": [
+        89
+      ],
+      "htmlBodySha256": "0e5af9698dfd58c95a9874c6ab2d22e5888439868c04840905dcb10c53faee3c",
+      "plainBodySha256": "28c7239fcad9f950d38a40bf10f9081914fcb9fdebb5f6c92d92288a4fbe0df7",
+      "sourceTextSha256": "f12a4bcdcaaf250dd33f4984da6f0815ba3aeebf7f76f6bf2cc8af249e4a68ab"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-019",
+      "title": "パリ包囲とヴェルサイユの戴冠",
+      "mapActors": [
+        {
+          "name": "パリを包囲するプロイセン軍",
+          "image": "modern-c01-l01/prussian-soldiers.png",
+          "kind": "group",
+          "identity": "group:prussian-soldiers",
+          "at": [
+            2.352,
+            48.857
+          ],
+          "bubble": "説明：パリを包囲する"
+        },
+        {
+          "name": "ヴィルヘルム1世",
+          "image": "modern-c01-l04/wilhelm-i.png",
+          "kind": "person",
+          "identity": "person:wilhelm-i",
+          "at": [
+            2.12,
+            48.805
+          ],
+          "bubble": "説明：ヴェルサイユでドイツ皇帝となる",
+          "offset": [
+            -24,
+            0
+          ]
+        }
+      ],
+      "mapProps": [
+        {
+          "name": "ヴェルサイユ宮殿の鏡の間",
+          "image": "modern-c01-l04/hall-of-mirrors.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:hall-of-mirrors",
+          "size": 64,
+          "at": [
+            2.12,
+            48.805
+          ],
+          "bubble": "説明：皇帝戴冠の場所を模式絵で示す",
+          "offset": [
+            30,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ヴェルサイユでドイツ帝国を宣言する",
+        "groups": [
+          {
+            "label": "新しい皇帝",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "皇帝の戴冠",
+                "caption": "説明：ドイツ皇帝の成立を宣言する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "ドイツ帝国",
+                "caption": "説明：ドイツが統一される",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "統一を進めた首相",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：帝国成立を主導する",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "パリの包囲とヴェルサイユの宣言を別の要素とし、全軍が続けて移動した一本の線にしない。",
+      "sourcePages": [
+        89
+      ],
+      "htmlBodySha256": "e11529f5332c546a30c9d8d3efbe2e15cb3f2f5376711b6bff5de997ff220790",
+      "plainBodySha256": "ea52c922114d757f88ea92d7b699a80799fd22125a38048d5d840a6b01f339b3",
+      "sourceTextSha256": "e3260a1908815d81035b54db02fa298859d2d75d98c7dca8d5b129f64353a76e"
+    },
+    {
+      "sceneId": "modern-c01-l04-p05-020",
+      "title": "フランクフルト講和とフランスの復讐心",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "講和条件と残る対立",
+        "groups": [
+          {
+            "label": "フランスが負う条件",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "アルザス・ロレーヌ",
+                "caption": "説明：ドイツへ割譲する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "50億フラン",
+                "caption": "説明：賠償金を支払う",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "フランスの感情",
+            "figures": [
+              {
+                "image": "modern-c01-l01/revolutionary-citizens.png",
+                "name": "フランスの市民",
+                "caption": "説明：ドイツへの反発が残る",
+                "kind": "group",
+                "identity": "group:revolutionary-citizens",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "フランクフルト講和条約の名だけから締結都市への訪問を作らない。",
+      "sourcePages": [
+        89
+      ],
+      "htmlBodySha256": "b155291d7fcd620b83d75af390b91cd32f33f84be37887a7c802e680a59929b7",
+      "plainBodySha256": "f555ecf1ecfab69102a1cb7902314107496f35519ba18d7da4bb4891081f91d6",
+      "sourceTextSha256": "7165a1243fbb128f356fd717c31e01c3ce53f6b18d0d810699f13f65b264ca0e"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-001",
+      "title": "ドイツ帝国の構成と連邦制",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "皇帝と宰相の強い権限",
+        "groups": [
+          {
+            "label": "帝国の中心",
+            "figures": [
+              {
+                "image": "modern-c01-l04/wilhelm-i.png",
+                "name": "ヴィルヘルム1世",
+                "caption": "説明：皇帝として強い権限を持つ",
+                "kind": "person",
+                "identity": "person:wilhelm-i",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：宰相として帝国を運営する",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "連邦の仕組み",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ドイツ帝国憲法",
+                "caption": "説明：各国が連邦としてまとまる。原書の国数も保持する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文の連邦の構成と国数を変更しない。",
+      "sourcePages": [
+        89
+      ],
+      "htmlBodySha256": "9fad667be7ce038936fc23948813bebfbeca53f42762b13fd23f97dd798cf7f8",
+      "plainBodySha256": "72ac98397a6fb5985e0ce276aba1edc403766f34dcfb28eae14931ec03114c04",
+      "sourceTextSha256": "c60626591350f32a4619366cca09dd97499a8dcb1de324fc5ef385673058006f"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-002",
+      "title": "軍事力と領邦君主との妥協",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "宰相の立場と君主への責任",
+        "groups": [
+          {
+            "label": "宰相",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：議会の信任に依存せず皇帝の任命を受ける",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "任命する君主",
+            "figures": [
+              {
+                "image": "modern-c01-l01/crown.png",
+                "name": "皇帝",
+                "caption": "説明：宰相を任命する",
+                "kind": "prop",
+                "identity": "prop:crown",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "議会に責任を負う内閣の仕組みがないことを中心に示す。議会の権限を皆無としない。",
+      "sourcePages": [
+        89
+      ],
+      "htmlBodySha256": "a7e389c82b31cada8b64139a6097852e3f8cf3a2e6906e1a33c40f2fe0a2ac85",
+      "plainBodySha256": "e396907ae6a6c4c74393f276eaa9b73d51c0dc08de5f49017e8943af44529745",
+      "sourceTextSha256": "5891d23c7c05fe39b155b404c56464d39ae80b45739f55a562114532d5e9ea33"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-003",
+      "title": "二院制と帝国議会の権限",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "二つの議会と帝国の政治",
+        "groups": [
+          {
+            "label": "議会の構成",
+            "figures": [
+              {
+                "image": "modern-c01-l01/parliament-delegates.png",
+                "name": "連邦参議院",
+                "caption": "説明：各国の代表が参加する",
+                "kind": "group",
+                "identity": "group:parliament-delegates",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/ballot-box.png",
+                "name": "帝国議会",
+                "caption": "説明：男性普通選挙で選ばれる",
+                "kind": "prop",
+                "identity": "prop:ballot-box",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "宰相の地位",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：皇帝が任命し、議会の信任に依存しない",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原書88ページの独立した日本史欄",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "近代国家の建設",
+                "caption": "説明：日本の近代化の独立したコラムも全文参照できる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "通常本文の議会権限の記述は保持する。追加の制度図は立法への議会の関与と皇帝による宰相任命を区別する。",
+      "sourcePages": [
+        89,
+        90
+      ],
+      "htmlBodySha256": "73cb2dcdc3bca40fde4feaf9081ab02b436e8c15cb15c3527b921a56dda2625c",
+      "plainBodySha256": "74d954c5da209a025b8a670a2b88a68336586cb1d42cf556ada5aa0bcee6942a",
+      "sourceTextSha256": "6e39359c6f29603f687aae192036d741fe20daf63b72ae69a1de1cf57f058653"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-004",
+      "title": "普通選挙を使った国民意識の形成",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "男性普通選挙のねらいと官僚",
+        "groups": [
+          {
+            "label": "国民の意識",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ballot-box.png",
+                "name": "男性普通選挙",
+                "caption": "説明：国民としての意識を高める",
+                "kind": "prop",
+                "identity": "prop:ballot-box",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "政治を担う層",
+            "figures": [
+              {
+                "image": "modern-c01-l04/junker-landowners.png",
+                "name": "ユンカー",
+                "caption": "説明：官僚と政治の担い手となる",
+                "kind": "group",
+                "identity": "group:junker-landowners",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "男性普通選挙と議会に責任を負う内閣の制度を同じこととして扱わない。",
+      "sourcePages": [
+        89,
+        90
+      ],
+      "htmlBodySha256": "e9a421ddc0ba0180121c71e2e3b2fc53c78c68f0186cc155a8ee62699e52b3df",
+      "plainBodySha256": "27d6e3b0f7d426993aef78ab6ae0da4c63051d45c627e798aff341f0d68c6070",
+      "sourceTextSha256": "354b24195edfc8d49a48c125e6deabe288fc24a45eea841cb07bba4cb0f2c8a7"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-005",
+      "title": "カトリック勢力と中央党の伸長",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "カトリック勢力と中央党",
+        "groups": [
+          {
+            "label": "カトリックの立場",
+            "figures": [
+              {
+                "image": "modern-c01-l04/catholic-clergy.png",
+                "name": "カトリックの聖職者",
+                "caption": "説明：国家の統制に反対する",
+                "kind": "group",
+                "identity": "group:catholic-clergy",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "議会の政党",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ballot-box.png",
+                "name": "中央党",
+                "caption": "説明：カトリックの立場を代表する",
+                "kind": "prop",
+                "identity": "prop:ballot-box",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "教派と政党の違いを説明する。特定の聖職者を本文に追加しない。",
+      "sourcePages": [
+        90
+      ],
+      "htmlBodySha256": "78a9a7f4f04044c5aa8a7512e1d265b497cb01a33d35308324dfc667c503dcea",
+      "plainBodySha256": "96b6346ba5ef08eefca5113012bd614a34680f812facf93680de48cf5bda18d5",
+      "sourceTextSha256": "544a87eece5046b9d1c521b53bff5f41c95bfcec3669fa9bd3fe9e7b47018053"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-006",
+      "title": "文化闘争と社会主義への警戒",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "文化闘争と政策の転換",
+        "groups": [
+          {
+            "label": "首相と教会",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：教会を抑える文化闘争を進める",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/catholic-clergy.png",
+                "name": "カトリックの聖職者",
+                "caption": "説明：国家による統制に反対する",
+                "kind": "group",
+                "identity": "group:catholic-clergy",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "新しい警戒対象",
+            "figures": [
+              {
+                "image": "modern-c01-l04/socialist-organizers.png",
+                "name": "社会主義の活動家",
+                "caption": "説明：社会主義勢力の伸長が政策転換につながる",
+                "kind": "group",
+                "identity": "group:socialist-organizers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "文化闘争を戦場の軍隊の戦闘として動かさない。",
+      "sourcePages": [
+        90
+      ],
+      "htmlBodySha256": "8b2759d58aafd6b44a64d4c114c068c51787f9f2608304be0ab98ef4920e8249",
+      "plainBodySha256": "1b62506437af87e26e9757a2baaba789365a3f45b77e571f8499be4deefd589a",
+      "sourceTextSha256": "1ae56d515ad956c8fdf4a5b556ad54fb74f68193722450665019e63cbaef5d33"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-007",
+      "title": "急速な重化学工業の発展",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "ドイツの工業発展",
+          "image": "modern-c01-l01/steam-factory.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:steam-factory",
+          "size": 64,
+          "at": [
+            13,
+            52.5
+          ],
+          "bubble": "説明：統一後に工業が発展する"
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "工業の発展と労働者",
+        "groups": [
+          {
+            "label": "発展を支える政策",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：工業の発展を進める",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/modern-artillery.png",
+                "name": "クルップ・ジーメンス社",
+                "caption": "説明：会社の発展を説明する記号。創業者本人の顔ではない",
+                "kind": "prop",
+                "identity": "prop:modern-artillery",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "働く人びと",
+            "figures": [
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "労働者",
+                "caption": "説明：工業化によって増える",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "会社名の文脈を個人の名前へ置き換えず、本文にない本社所在地を補わない。",
+      "sourcePages": [
+        90
+      ],
+      "htmlBodySha256": "fdba1bafa94c4aa84b3343e3c262cdced98ba5848d7d86c9e495fe3ff5791534",
+      "plainBodySha256": "604e235dc5c7bf1a9018611f829718621cc77fbc940e18cf589cb1bdb4d7cf1c",
+      "sourceTextSha256": "13fc0871d75133c49c9efc3b012eac208b4eb6d8743dbc131d0ced2b5e757326"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-008",
+      "title": "1873年の金融危機と労働者の生活",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "1873年の不況",
+          "image": "modern-c01-l04/stock-exchange-ledger.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:stock-exchange-ledger",
+          "size": 64,
+          "at": [
+            13,
+            52.5
+          ],
+          "bubble": "説明：金融と景気が悪化する"
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "不況のなかで支持を増やす",
+        "groups": [
+          {
+            "label": "不況",
+            "figures": [
+              {
+                "image": "modern-c01-l04/stock-exchange-ledger.png",
+                "name": "株価と金融",
+                "caption": "説明：1873年の不況",
+                "kind": "prop",
+                "identity": "prop:stock-exchange-ledger",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "労働者と運動",
+            "figures": [
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "労働者",
+                "caption": "説明：生活の苦しさが増す",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/socialist-organizers.png",
+                "name": "社会主義の活動家",
+                "caption": "説明：労働者の支持を集める",
+                "kind": "group",
+                "identity": "group:socialist-organizers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "不況と支持の増加を説明し、具体的な暴力事件へ結び付けない。",
+      "sourcePages": [
+        90
+      ],
+      "htmlBodySha256": "84d43d749075bfe7399e6770166c84801a0ee002fb23b7be40c185086170954c",
+      "plainBodySha256": "34b9d0aaf4d96c797ea270c87477c42c15fbf95556606f932ee64193e476e63f",
+      "sourceTextSha256": "f252c1da2b190df673b51ee03cc87bbe615edc2cc38a8591bb2c5d5d3e756fa5"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-009",
+      "title": "労働者組織と社会主義政党の結成",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "二つの団体から党が生まれる",
+        "groups": [
+          {
+            "label": "団体の歴史・思想の参照",
+            "figures": [
+              {
+                "image": "modern-c01-l04/ferdinand-lassalle.png",
+                "name": "ラサール",
+                "caption": "説明：全ドイツ労働者協会の歴史の参照。1875年の合併の現場に置かない",
+                "kind": "person",
+                "identity": "person:ferdinand-lassalle",
+                "temporalRole": "reference"
+              },
+              {
+                "image": "modern-c01-l04/karl-marx.png",
+                "name": "マルクス",
+                "caption": "説明：思想上の参照。1875年に共同で党を結成した本人として描かない",
+                "kind": "person",
+                "identity": "person:karl-marx",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "党への合併",
+            "figures": [
+              {
+                "image": "modern-c01-l04/august-bebel.png",
+                "name": "ベーベル",
+                "caption": "説明：社会民主労働者党の指導者",
+                "kind": "person",
+                "identity": "person:august-bebel",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l04/socialist-organizers.png",
+                "name": "ドイツ社会主義労働党",
+                "caption": "説明：二つの団体が1875年に合併する",
+                "kind": "group",
+                "identity": "group:socialist-organizers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "歴史・思想として参照される本人と、合併する一般集団を区別する。",
+      "sourcePages": [
+        90
+      ],
+      "htmlBodySha256": "e35937c9a2f49cd9fce3eb407c7a5e9eebef63a1cbb11197d26d47ebd0e8c0a9",
+      "plainBodySha256": "f1d4df803c766ef991a1b5aa0d5d477267edd5216db844d0c4b97e88d9fe8ba5",
+      "sourceTextSha256": "d772f5abf6cfabfadb1fb2e7c4a1b6a91fac7a688b7c84968db9f67b02f10cd6"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-010",
+      "title": "議会に進出する社会主義者への警戒",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "議会へ広がる社会主義勢力",
+        "groups": [
+          {
+            "label": "選挙と議会",
+            "figures": [
+              {
+                "image": "modern-c01-l01/parliament-delegates.png",
+                "name": "議会の代表",
+                "caption": "説明：議席を増やす",
+                "kind": "group",
+                "identity": "group:parliament-delegates",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "首相の警戒",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：社会主義の影響を恐れる",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "政党の支持と議席の増加を軍の移動として扱わない。",
+      "sourcePages": [
+        90,
+        91
+      ],
+      "htmlBodySha256": "a2e0d81c60f1f2bc8ed596a09fbf33b45380e68f3b60d75b2f79bf80f22652da",
+      "plainBodySha256": "2ea891630d04b4e1e89b82398bfaadbaf2d04ae58ce4273b078dc590f504338c",
+      "sourceTextSha256": "a99467b88ec42cf34c6fdf6b88a28707dc9ee3562e5fda181806b0f33d010151"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-011",
+      "title": "社会主義者鎮圧法というムチ",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "社会主義者鎮圧法の制定",
+        "groups": [
+          {
+            "label": "1878年の法律",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "社会主義者鎮圧法",
+                "caption": "説明：出版・集会などの活動を抑える",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "抑えられる活動",
+            "figures": [
+              {
+                "image": "modern-c01-l04/socialist-organizers.png",
+                "name": "社会主義の活動家",
+                "caption": "説明：活動の禁止や制限を受ける",
+                "kind": "group",
+                "identity": "group:socialist-organizers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "狙撃事件の犯人が社会主義者だったと断定しない。法律による抑圧と事件犯人の同定を分ける。",
+      "sourcePages": [
+        90,
+        91
+      ],
+      "htmlBodySha256": "9f52023c2f821aad31bb551cf91a516118dbc51ceb340de485a4686a4a83d096",
+      "plainBodySha256": "149ee8c297ccd155afd25dbf136e342ac3b11e65594c42cc52cf9383ea924a8a",
+      "sourceTextSha256": "8b6187833a3c3d6353d2a033c0c549a3f82be50f60732ebd0ce420e34cd80833"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-012",
+      "title": "労働者を敵に回せない理由",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "労働者の支持を失わないために",
+        "groups": [
+          {
+            "label": "首相の判断",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：労働者すべてを敵にはしたくない",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "働く人びと",
+            "figures": [
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "労働者",
+                "caption": "説明：社会主義の活動家と一般の労働者を分けて扱う",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "取り締まり対象の活動と一般の生活を区別する。",
+      "sourcePages": [
+        91
+      ],
+      "htmlBodySha256": "012d567dd2d422072cc088a1c595b0c5decdacf0a426a09326edce1bc5291a1b",
+      "plainBodySha256": "e5bf936611c5d12cfcf50a5330ac4b9f98ffbee61cd6ea1804b485dd023a8ade",
+      "sourceTextSha256": "d0a1c5a9677ad83b501ab6828340c1fba0526a84ef147830d744f8d33cafacbf"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-013",
+      "title": "社会保険制度というアメ",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "社会保険",
+          "image": "modern-c01-l04/social-insurance.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:social-insurance",
+          "size": 64,
+          "at": [
+            13,
+            52.5
+          ],
+          "bubble": "説明：疾病・災害・老齢保険を整える"
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "社会保険という「アメ」",
+        "groups": [
+          {
+            "label": "生活を支える制度",
+            "figures": [
+              {
+                "image": "modern-c01-l04/social-insurance.png",
+                "name": "疾病・災害・老齢保険",
+                "caption": "説明：病気・けが・老齢の生活を支える",
+                "kind": "prop",
+                "identity": "prop:social-insurance",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "首相の政策",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：取り締まりと社会保険を組み合わせる",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "社会保険を社会主義活動の取り締まりそのものと同じ図にせず、対象と役割を分ける。",
+      "sourcePages": [
+        91
+      ],
+      "htmlBodySha256": "87152fb8c20a89221dba5523770610908d9f2312b212af5eaa9c8c50789dab99",
+      "plainBodySha256": "89eb99c78be73fd820a9f20654fee8791f835bdf43f58ae62efec2dc71a91e37",
+      "sourceTextSha256": "ce405e6f54a209446184932e684c48b033d5209b69f287c795e044a131ecbf94"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-014",
+      "title": "保護関税法と鉄と穀物の同盟",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "保護関税",
+          "image": "modern-c01-l04/tariff-barrier.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:tariff-barrier",
+          "size": 64,
+          "at": [
+            13,
+            52.5
+          ],
+          "bubble": "説明：自由貿易から保護貿易へ転換する"
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "工業製品と農産物を保護する",
+        "groups": [
+          {
+            "label": "産業資本家",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：海外の工業製品との競争に関税を求める",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l03/steel-beams.png",
+                "name": "工業製品",
+                "caption": "説明：工業への保護",
+                "kind": "prop",
+                "identity": "prop:steel-beams",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "地主貴族",
+            "figures": [
+              {
+                "image": "modern-c01-l04/junker-landowners.png",
+                "name": "ユンカー",
+                "caption": "説明：外国産穀物との競争に関税を求める",
+                "kind": "group",
+                "identity": "group:junker-landowners",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/grain-cargo.png",
+                "name": "農産物",
+                "caption": "説明：農業への保護",
+                "kind": "prop",
+                "identity": "prop:grain-cargo",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "政策の転換",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：保護貿易へ転換する",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "外国の農産物との競争は静的な比較とし、本文にない小麦の輸送経路を作らない。",
+      "sourcePages": [
+        91
+      ],
+      "htmlBodySha256": "b0a3e9c64e47ff72b6a63d590aedc4fac096df38712b06342d3465a48c835e85",
+      "plainBodySha256": "c379ece31e7af9b7daab3c4cf26aaba1936799539602ede8c663989454826dd7",
+      "sourceTextSha256": "995fc8d26007b2ff5ba09d6e02b90eca2e6769cb08de43593b558df176ad40ed"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-015",
+      "title": "フランスへの備えと外交の必要",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "国内の政策を進めるための外交",
+        "groups": [
+          {
+            "label": "国外の警戒",
+            "figures": [
+              {
+                "image": "modern-c01-l01/revolutionary-citizens.png",
+                "name": "フランスの市民",
+                "caption": "説明：ドイツに反発が残る",
+                "kind": "group",
+                "identity": "group:revolutionary-citizens",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "国内の課題",
+            "figures": [
+              {
+                "image": "modern-c01-l01/parliament-delegates.png",
+                "name": "議会の代表",
+                "caption": "説明：国内政策への対応",
+                "kind": "group",
+                "identity": "group:parliament-delegates",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/steam-factory.png",
+                "name": "工業",
+                "caption": "説明：国内の発展を支える",
+                "kind": "prop",
+                "identity": "prop:steam-factory",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "将来の復讐への警戒を、すでに始まったフランスの攻撃の動きにしない。",
+      "sourcePages": [
+        91
+      ],
+      "htmlBodySha256": "35f82d86198adf43a95008ceeacc06df80fd1ac6a11a06230353917fde2fe9c8",
+      "plainBodySha256": "facf42d072427eaa106e62daeeb9393ff17f9a80fcc28487c75cdde93e83e323",
+      "sourceTextSha256": "1080868e76387c66fc70c49efc598310d4eaf0223fcbd2ca6854af8e3dcfda88"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-016",
+      "title": "フランスを孤立させるビスマルク体制",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "フランスを孤立させる外交",
+        "groups": [
+          {
+            "label": "首相の方針",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：フランスを孤立させ平和を保つ",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "各国との関係",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "オーストリア・ロシア・イギリス",
+                "caption": "説明：各国との外交関係を調整する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "領土拡張を避ける",
+                "caption": "説明：統一後は無用な対立を避ける",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "同盟・外交の構想は静的に示し、本文にない各国軍の派兵を作らない。",
+      "sourcePages": [
+        91,
+        92
+      ],
+      "htmlBodySha256": "202a5ca42c2141c25d4ad525648afba21f2cafef41b291d55edc37a3ec975f17",
+      "plainBodySha256": "65fc0f688980233fb1797edc2c4fb72cdaa3db47519f799577c1f61cb71a4acd",
+      "sourceTextSha256": "bbf61b420d5313dd1aec14c885f7274c9afe53ba0af7e6a1d52caed41b183e96"
+    },
+    {
+      "sceneId": "modern-c01-l04-p06-017",
+      "title": "年号の確認とロシアへの案内",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "今回の年号と次回の案内",
+        "groups": [
+          {
+            "label": "原書92ページの年号欄",
+            "figures": [
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "年号のツボ",
+                "caption": "説明：統一・戦争・制度の年号を確認する",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "次回へ",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イギリス・ロシア",
+                "caption": "説明：両国の次の回の案内も本文として保持する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "末尾の二重ルビと次回案内も省略せず、次回の人物を現在の場面へ追加しない。",
+      "sourcePages": [
+        92
+      ],
+      "htmlBodySha256": "435dcbd30ff9dc1bb8675f5786f31b02dad85970009f15f189687b583b15b0d5",
+      "plainBodySha256": "3b3957dd28771a32af53ea53c0b481dbd9515a48de427e19fc690c81f89f10b6",
+      "sourceTextSha256": "bc144e37babb5b7160ddc3e1aa49aec550c3bae7b076119c9f484b6df96ce2fc"
+    }
+  ]
+}
