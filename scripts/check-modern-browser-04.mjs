@@ -235,9 +235,11 @@ try {
           const shown=[...actual.shown,...actual.figures.map(figure=>figure.name)].map(normalizeMapName);
           const items=[...(expected.props??[]),...(expected.actors??[])],illustration=modernIllustrationFor(expected),figures=(illustration?.groups??[]).flatMap(group=>group.figures??[]);
           const missing=names.filter(name=>!shown.some(text=>text.includes(name.key))&&!(plan.personAliases??[]).some(alias=>normalizeMapName(alias.name)===name.key&&[...items,...figures].some(item=>item.identity===alias.identity))).map(name=>name.name);
-          const families=new Set(names.map(name=>family(name)));
+          // 団体・会社は所在地や本人の表示を要求しないが、本文と同じ団体の別表記は許可する。
+          const concepts=namesForScene(expected,expected.title+'。'+expected.plainBody.join('')).filter(name=>name.kind==='concept');
+          const families=new Set([...names,...concepts].map(name=>family(name)));
           const preceding=modernEdition[volume.id][i-1],precedingNames=preceding?namesForScene(preceding,preceding.title+'。'+preceding.plainBody.join('')).filter(name=>name.kind!=='person'):[];
-          const locationFamilies=new Set([...names,...precedingNames].map(name=>family(name)));
+          const locationFamilies=new Set([...names,...concepts,...precedingNames].map(name=>family(name)));
           const narrativeKey=normalizeMapName(expected.title+'。'+expected.plainBody.join(''));
           const extra=actual.shown.filter(name=>namesForScene(expected,name).some(entity=>!(entity.kind==='person'?families:locationFamilies).has(family(entity))&&(entity.kind==='person'||!narrativeKey.includes(normalizeMapName(entity.name)))));
           const reachablePages=modernReferencePages(expected,volume,i);
