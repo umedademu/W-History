@@ -185,7 +185,7 @@ try {
     ['modern-c01-l05-p04-009',['セルビア','モンテネグロ','ルーマニア','宗主下','自治国']]
   ]);
   watchErrors(page,errors);
-  const output=await mkdtemp(path.join(os.tmpdir(),'w-history-modern-browser-04-'));
+  const output=await mkdtemp(path.join(os.tmpdir(),'w-history-modern-browser-05-'));
   console.log('確認画像と結果: '+output);
   let inspected=0;
   for(const width of [1280,390]) {
