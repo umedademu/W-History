@@ -3,12 +3,13 @@ import fs from 'node:fs/promises';
 import {bookCollections} from '../public/book-collections.js';
 import {series,volumeNavigation} from '../public/story-volumes.js';
 import {modernSeries} from '../public/modern-volumes.js';
-import {modernEdition} from '../public/modern-c01-l01-edition.js';
+import {modernEdition} from '../public/modern-lessons.js';
 import {allEditions} from '../public/all-editions.js';
 import {namesForScene} from '../public/map-name-coverage.js';
 import {modernNamesInText} from '../public/modern-geography.js';
+import {modernNamesInText as secondModernNamesInText} from '../public/modern-geography-02.js';
 import {storyEmphasisPlan} from '../public/story-emphasis.js';
-import {modernReferencePages,modernDiagramFor} from '../public/modern-story-support.js';
+import {modernReferencePages,modernDiagramFor} from '../public/modern-lessons.js';
 
 const read=p=>fs.readFile(new URL('../'+p,import.meta.url),'utf8');
 const catalog=await read('public/index.html');
@@ -19,7 +20,7 @@ assert.equal(series.length,128);
 assert.equal(Object.values(allEditions).flat().length,1013);
 assert.deepEqual(bookCollections[0].chapters.flatMap(c=>c.volumes),series);
 assert.deepEqual(bookCollections[1].chapters.flatMap(c=>c.volumes),modernSeries);
-assert.equal(modernSeries.length,5);
+assert.equal(modernSeries.length,8);
 const all=bookCollections.flatMap(b=>b.chapters.flatMap(c=>c.volumes));
 assert.equal(new Set(all.map(v=>v.id)).size,all.length);
 const ids=[...catalog.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
@@ -48,23 +49,23 @@ for(const volume of modernSeries) {
   assert.ok(html.includes('id="source-reference-body"'));
   assert.ok(html.includes('href="/?book=modern#modern-book"'));
   const nav=html.match(/<nav class="story-series-links"[^>]*>([\s\S]*?)<\/nav>/)[1];
-  assert.deepEqual([...nav.matchAll(/href="\/([^"/]+)-story.html"/g)].map(m=>m[1]),modernSeries.map(v=>v.id));
+  assert.deepEqual([...nav.matchAll(/href="\/([^"/]+)-story.html"/g)].map(m=>m[1]),modernSeries.filter(v=>v.lesson===volume.lesson).map(v=>v.id));
   for(const [index,scene] of modernEdition[volume.id].entries()) {
     modernReferencePages(scene,volume,index).forEach(n=>referencedPages.add(n));
     const diagram=modernDiagramFor(scene);
     if(diagram)diagrams.add(diagram.title);
     if(scene.plainBody.join('').includes('次ページの図➡P.30'))assert.ok(modernReferencePages(scene,volume,index).includes(30));
     const text=scene.plainBody.join('');
-    assert.deepEqual(namesForScene(scene,text),modernNamesInText(text),'現代の第1章に古代の名称辞書を当てない');
+    assert.deepEqual(namesForScene(scene,text),(scene.sourceText.lesson===2?secondModernNamesInText:modernNamesInText)(text),'各回の名称辞書を当てる');
     assert.deepEqual(storyEmphasisPlan(scene),[],'原資料の強調を古代の語で上書きしない');
   }
 }
-assert.equal(diagrams.size,3);
-assert.deepEqual([...referencedPages].sort((a,b)=>a-b),Array.from({length:26},(_,i)=>15+i));
+assert.equal(diagrams.size,12);
+assert.deepEqual([...referencedPages].sort((a,b)=>a-b),Array.from({length:40},(_,i)=>15+i));
 const summary=JSON.parse(await read('docs/catalog/summary.json'));
-assert.equal(summary.parts,133);
+assert.equal(summary.parts,136);
 assert.equal(summary.pages,1013+Object.values(modernEdition).flat().length);
 assert.deepEqual(summary.collections.map(c=>({book:c.book,parts:c.parts,pages:c.pages})),[
-  {book:'ancient',parts:128,pages:1013},{book:'modern',parts:5,pages:Object.values(modernEdition).flat().length}
+  {book:'ancient',parts:128,pages:1013},{book:'modern',parts:8,pages:Object.values(modernEdition).flat().length}
 ]);
 console.log('2巻の目次・識別名・集計・末尾移動・名称と強調の分離を確認しました。');

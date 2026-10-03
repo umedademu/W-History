@@ -1,7 +1,7 @@
 {
-  "version": "0.111",
-  "parts": 133,
-  "pages": 1076,
+  "version": "0.112",
+  "parts": 136,
+  "pages": 1121,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 5,
-      "pages": 63,
+      "parts": 8,
+      "pages": 108,
       "chapters": [
         {
           "chapter": 1,
@@ -2426,6 +2426,10 @@
             {
               "lesson": 1,
               "title": "ウィーン体制とその崩壊"
+            },
+            {
+              "lesson": 2,
+              "title": "イギリスの自由主義とフランス第二帝政"
             }
           ],
           "volumes": [
@@ -2468,6 +2472,30 @@
               "lesson": 1,
               "part": 5,
               "pages": 23
+            },
+            {
+              "id": "modern-c01-l02-p01",
+              "label": "イギリスの自由主義改革",
+              "number": "06",
+              "lesson": 2,
+              "part": 1,
+              "pages": 20
+            },
+            {
+              "id": "modern-c01-l02-p02",
+              "label": "アイルランド問題",
+              "number": "07",
+              "lesson": 2,
+              "part": 2,
+              "pages": 13
+            },
+            {
+              "id": "modern-c01-l02-p03",
+              "label": "フランスの第二帝政",
+              "number": "08",
+              "lesson": 2,
+              "part": 3,
+              "pages": 12
             }
           ]
         }

@@ -1,11 +1,12 @@
+import {modernLessons as secondLessons, modernSeries as secondSeries} from './modern-lesson-02-volumes.js?v=0.112';
 // 近代・現代 第1章第1回の5節。原文の節名と掲載順を保持。
-export const modernLessons = [
+const firstLessons = [
   {
     "lesson": 1,
     "title": "ウィーン体制とその崩壊"
   }
 ];
-export const modernSeries = [
+const firstSeries = [
   {
     "id": "modern-c01-l01-p01",
     "label": "ウィーン体制の成立",
@@ -77,3 +78,6 @@ export const modernSeries = [
     "description": "1848年革命（二月革命とその影響）について、原文に沿って背景と出来事のつながりをたどります。"
   }
 ];
+
+export const modernLessons = [...firstLessons, ...secondLessons];
+export const modernSeries = [...firstSeries, ...secondSeries.map(volume => ({...volume, number:String(firstSeries.length + volume.part).padStart(2,'0')}))];

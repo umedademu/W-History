@@ -3,7 +3,9 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import {fileURLToPath} from 'node:url';
 import {modernEdition,modernPlaces,sourcePages,sourcePageMetadata} from '../public/modern-c01-l01-edition.js';
-import {modernSeries,modernLessons} from '../public/modern-volumes.js';
+import {modernSeries as allModernSeries,modernLessons as allModernLessons} from '../public/modern-volumes.js';
+const modernSeries = allModernSeries.filter(volume=>volume.lesson===1);
+const modernLessons = allModernLessons.filter(lesson=>lesson.lesson===1);
 import {modernNameCatalog,modernNamesInText} from '../public/modern-geography.js';
 import {loadModernRecords,verifyModernSource,renderModernModule} from './build-modern-lesson-01.mjs';
 

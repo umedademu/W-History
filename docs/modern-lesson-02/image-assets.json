@@ -1,0 +1,1653 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-03",
+  "lesson": "modern-c01-l02",
+  "description": "原文の内容を示す模式的な人物・一般集団・建物・道具。精密な肖像や施設の復元ではない。",
+  "totals": {
+    "new": 40,
+    "nativeGenerated": 0,
+    "fallbackGenerated": 40,
+    "reused": 23,
+    "used": 63
+  },
+  "authorization": "指定のAntigravity CLI経由でGemini 3.8 Flashへ生成を依頼したが、画像生成側が429 RESOURCE_EXHAUSTEDを返した。以前のユーザーによる別の画像生成ツールへの続行承認を適用。新規画像は組み込みツールで生成し、寸法調整は指定どおりAntigravity経由のGeminiに依頼した。",
+  "generationModels": {
+    "nativeRequest": "Gemini 3.8 Flash High",
+    "fallback": "組み込み画像生成ツール。内部モデル名は返されないため記載しない。"
+  },
+  "nativeAttempt": {
+    "key": "victoria",
+    "status": "429 RESOURCE_EXHAUSTED",
+    "resetAfter": "3h17m46s",
+    "prompt": "Image creation task only. Use your native image-generator subagent to generate ONE new sprite with generate_image, not run_command or external API. Parent model Gemini 3.8 Flash High. Subject Victoria, British queen in the nineteenth century, shown as a symbolic educational character, not exact reconstructed portrait. Full body, front three-quarter, adult woman's dignified face and modest nineteenth-century formal royal dress, small royal headpiece. STYLE reference C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Match detailed 16-bit JRPG chibi pixel art, squat short body, large head one third full height, crisp stepped dark outline, muted harmonious colors and compact pixel shading. Entire figure intact, generous margins, flat PURE WHITE background, no shadow, no glow, no scenery, no labels. ImageName victoria. Do not alter any repository file or call shell for image generation. Generate then return exact absolute path as concise JSON {key:'victoria',generated_path,tool,error}. If image service is at capacity return exact quota error immediately, do not retry or wait. Use one image-generator subagent and await completion; do not merely dispatch. Save result in native artifacts.\n"
+  },
+  "normalization": {
+    "model": "Gemini 3.8 Flash High",
+    "via": "Antigravity CLI",
+    "completed": 40,
+    "failed": 0,
+    "canvas": [
+      192,
+      192
+    ],
+    "subjectMaximum": [
+      176,
+      176
+    ],
+    "centerX": 96,
+    "bottomY": 184,
+    "resampling": "最近傍、縦横比を維持。元の透過情報を保持し、背景色の新たな除去や人物の描き替えを行わない。",
+    "scriptSha256": "587f48018c6bf78f12ce1567ad62a303bf67676ab0eec2e70b4adabf1f843e8e",
+    "prompt": "あなたは Gemini 3.8 Flash です。この作業の画像調整を担当します。画像の生成は不要です。指定の操作だけを行い、原文資料と既存ファイルは変更しないでください。広い探索、別の担当の起動、長い計画は不要です。\n\n入力一覧: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson02-39b6d1db4f384d50ad3f47a61937df75/generated-inputs.json\n出力報告: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson02-39b6d1db4f384d50ad3f47a61937df75/normalization-report.json\n確認用一覧画像: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson02-39b6d1db4f384d50ad3f47a61937df75/contact-sheet.png\nあなたが書く処理: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson02-39b6d1db4f384d50ad3f47a61937df75/normalize-sprites.py\n\n次の処理をPythonとPillowで作成し、実際に一度実行してください。まず一覧を読むための一回の read_file、次に一回の write_to_file で処理を書き、一回の run_command で実行して完了してください。\n- 入力は40件の assets 配列で、key, inputPath, outputPath を持つ。それぞれをRGBAとして開く。入力は閲覧・読込だけにし、上書きしない。\n- 元のアルファを保ち、アルファが0より大きい描画範囲だけを切り出す。外部接続する背景の白や黒を新たに透明化する操作は行わない。元の透過をそのまま使用する。\n- 縦横比を維持し、最大176×176画素へ nearest neighbor で収める。192×192画素の透明なキャンバスの横中央、下端184へ置く。横・縦とも8画素以上の透明余白を保つ。絵・衣服の色、顔、姿は描き替えない。\n- outputPath の新しいPNGへ保存する。既存のファイルがある場合はエラーにする。他の章の画像、sources、AGENTS.md、TASK.mdは変更しない。\n- 報告は各入力・出力のSHA256、元の寸法、描画範囲、保存後の描画範囲、透明画素数を40件保存し、完了数と失敗を明記する。\n- 確認用一覧画像は、新しい40点を5列で、薄い灰色背景のマスへ192×192のまま並べる。各マス下へASCIIのkeyを記す。公開画像自体には文字を描き加えない。\n- 入力に透過がなかったり何も描かれていない場合は勝手に直さずエラーを報告する。\n- 他の資料の調査、CLIの画像生成、描き替え、Git操作、インストールは不要。\n\n実行完了後、実際の件数・出力報告のパス・確認用一覧画像のパスを簡潔に返してください。\n"
+  },
+  "prompts": [
+    {
+      "key": "grey",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Charles Grey, British Whig politician in 1832, older clean-shaven man with receding grey hair, dark navy tailcoat, pale waistcoat, holding a simple unlettered reform document"
+    },
+    {
+      "key": "shaftesbury",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Lord Shaftesbury (Anthony Ashley-Cooper), British social reformer, wavy brown-grey hair with Victorian sideburns, clean chin, dark coat and high white cravat, holding an unlettered factory reform paper"
+    },
+    {
+      "key": "cobden",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Richard Cobden, Victorian British free-trade reformer, brown hair, prominent dark sideburns, clean chin, dark tailcoat and light waistcoat, holding a small unlettered document"
+    },
+    {
+      "key": "bright",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: John Bright, British anti-Corn-Law reformer, silver swept hair, broad face, dark frock coat, high collar, distinctive grey facial whiskers, upright public-speaking stance"
+    },
+    {
+      "key": "peel",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Sir Robert Peel, British prime minister, reddish-brown swept hair, clean-shaven face, dark tailcoat and white cravat, holding a plain unlettered law document"
+    },
+    {
+      "key": "derby",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Edward Smith-Stanley Earl of Derby, Victorian British prime minister, grey swept hair, strong Victorian sideburns and clean chin, black coat and pale waistcoat"
+    },
+    {
+      "key": "victoria",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Queen Victoria of Britain in 1851, middle-aged woman, brown center-parted hair and small gold crown, burgundy royal dress with gold details, calmly holding a small royal sceptre"
+    },
+    {
+      "key": "thomas-cook",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Thomas Cook, nineteenth-century British travel organizer, grey hair and short grey beard, brown Victorian coat, holding a closed travel suitcase and rolled unlettered itinerary"
+    },
+    {
+      "key": "disraeli",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Benjamin Disraeli, British Victorian prime minister, distinctive dark curls and small dark pointed goatee, navy frock coat and ivory waistcoat, one hand in a formal speaking pose"
+    },
+    {
+      "key": "gladstone",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: William Ewart Gladstone, British Victorian prime minister, older clean-shaven man with receding silver hair and grey sideburns, black frock coat and white collar, holding a plain unlettered speech paper"
+    },
+    {
+      "key": "cromwell",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Oliver Cromwell, English seventeenth-century statesman and military leader, shoulder-length brown hair, plain dark steel cuirass over brown coat, no crown, a solemn portrait stance"
+    },
+    {
+      "key": "charles-ii",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Charles II of England, long curled black hair, small moustache, ornate seventeenth-century purple coat with white lace collar and gold details, holding a small royal sceptre"
+    },
+    {
+      "key": "mary-i",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Mary I of England, red-gold Tudor gown and square French hood, pale stern face, Tudor queen, no modern Victorian clothing"
+    },
+    {
+      "key": "oconnell",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Daniel O'Connell, Irish nineteenth-century Catholic emancipation campaigner, older stocky man with swept grey hair, clean-shaven face, dark coat with green waistcoat accent, holding a plain petition"
+    },
+    {
+      "key": "wellington",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Arthur Wellesley Duke of Wellington, older British leader with short grey hair and prominent nose, red early-nineteenth-century British officer uniform with gold epaulettes, formal portrait pose"
+    },
+    {
+      "key": "obrien",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: William Smith O'Brien, Irish Young Ireland politician of 1848, swept dark hair with long sideburns, clean chin, black frock coat and light waistcoat, holding a plain folded document"
+    },
+    {
+      "key": "asquith",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: H. H. Asquith, British prime minister in 1914, older silver-haired clean-shaven man, black three-piece suit and white shirt, holding a plain unlettered law paper"
+    },
+    {
+      "key": "de-valera",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Éamon de Valera, Irish independence leader, tall-featured slender face but chibi body, dark parted hair, round spectacles, dark early-twentieth-century suit and tie, holding a plain unlettered constitution paper"
+    },
+    {
+      "key": "haussmann",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Georges-Eugène Haussmann, French prefect overseeing Paris rebuilding, middle-aged balding man with curled moustache and pronounced side whiskers, black frock coat, holding rolled unlettered city plans; he is a French administrator, NOT an Ottoman ruler"
+    },
+    {
+      "key": "maximilian",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Maximilian I emperor of Mexico, nineteenth-century Austrian archduke, fair hair and distinctive split blond beard, dark imperial military coat with gold epaulettes, formal portrait; no Mexican stereotypes"
+    },
+    {
+      "key": "bismarck",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Otto von Bismarck, older Prussian statesman, heavy grey moustache, dark Prussian uniform and spiked helmet, boots and restrained gold details, arms calm at his sides"
+    },
+    {
+      "key": "thiers",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Adolphe Thiers, nineteenth-century French statesman, short older man with grey swept hair, small round spectacles, clean-shaven face, black frock coat, holding a plain folded government paper"
+    },
+    {
+      "key": "elizabeth-i",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: Elizabeth I of England, Tudor queen, pale face, red curled hair, large white ruff, pearl details and ornate crimson Tudor gown, small crown"
+    },
+    {
+      "key": "landowners",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: A compact group of three nineteenth-century British landowners in dark frock coats and top hats, one holding an unlettered land deed; no Latin-American costumes"
+    },
+    {
+      "key": "irish-tenants",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: A compact group of three nineteenth-century Irish tenant farmers, modest worn brown and green work clothing, flat cap and bonnet, one with a simple spade, no caricature, no text"
+    },
+    {
+      "key": "irish-emigrants",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: A compact nineteenth-century Irish emigrant family of three, father mother and child carrying modest travel trunks and cloth bundles, Victorian working-class clothing, no flags or text"
+    },
+    {
+      "key": "british-police",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: A compact group of two British police constables from the 1848 era, blue long tunics, early tall dark police hats, short batons held down, calm stance, not military soldiers"
+    },
+    {
+      "key": "british-soldiers",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: A compact group of two generic nineteenth-century British soldiers in red coats, dark trousers, tall period military caps, muskets held upright; no modern weapons, no medieval armour"
+    },
+    {
+      "key": "cotton-loom",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: One isolated nineteenth-century wooden mechanized cotton loom with visible pale cotton cloth on its rollers, dark iron gears, readable simple shape, no operator"
+    },
+    {
+      "key": "grain-cargo",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: One isolated compact cargo group of three burlap sacks containing golden wheat grain and a small wooden grain crate, wheat ears visible, no words or labels"
+    },
+    {
+      "key": "healthy-potatoes",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: One isolated pile of several healthy golden-brown potatoes in a simple wooden harvest basket, clearly healthy intact skins, pixel art"
+    },
+    {
+      "key": "blighted-potatoes",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: One isolated pile of diseased potatoes in the same type of simple wooden harvest basket, dark brown-black blight lesions and shrivelled skins, legible damaged state, no gore"
+    },
+    {
+      "key": "crystal-palace",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: The 1851 London Crystal Palace as a small isolated schematic building icon, long symmetrical glass-and-iron hall with central vaulted transept, transparent pale blue glass and green iron structure, no scenery"
+    },
+    {
+      "key": "public-school",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: An isolated schematic Victorian British public-school institution building, red-brown brick Gothic facade with windows and a modest central entrance, no named real campus, no writing or coat of arms"
+    },
+    {
+      "key": "suez-canal",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: One isolated small isometric schematic Suez Canal icon: straight blue canal between two sandy banks with a nineteenth-century steamship, show passage and water only, no geopolitical borders or map labels"
+    },
+    {
+      "key": "paris-boulevard",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: One isolated isometric schematic icon of a broad nineteenth-century Paris boulevard with two short rows of pale stone Haussmann-style buildings and green trees, no labels or people"
+    },
+    {
+      "key": "paris-sewers",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: One isolated schematic cutaway icon of a nineteenth-century Paris sewer: brick arched underground tunnel with a small blue water channel, a thin stone street slab above, no workers or labels"
+    },
+    {
+      "key": "paris-opera",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: The nineteenth-century Paris Opera building as an isolated small schematic icon, pale stone facade, green-copper roof and gold rooftop decorations, broad front steps, no text or surrounding city"
+    },
+    {
+      "key": "arc-de-triomphe",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history educational web app. Create ONLY the specified subject, centered full body or whole object with comfortable transparent margins on all sides. Style: high quality crisp 16-bit JRPG pixel art, visibly square pixels, dark pixel outlines, restrained shaded palette, approximately 96x96 logical pixel grid scaled up. Characters must be short chibi figures about THREE heads tall (head one third of body height), large expressive face, very short legs, not realistic adult proportions. Groups have matching chibi figures; buildings and objects use the same game art style. No text, captions, letters, watermark, backdrop, floor plane, shadow, glow, frame, or white rectangle. All background pixels genuinely transparent. Subject: The Paris Arc de Triomphe as one isolated schematic building icon, pale stone massive rectangular triumphal arch with large central opening and simple relief hints, no surrounding landscape or letters"
+    },
+    {
+      "key": "napoleon-iii-captive",
+      "prompt": "Use case: identity-preserve. Edit target: the provided PNG of Napoleon III. Produce ONE transparent full-body pixel-art sprite of this SAME Napoleon III in the defeated captive stage after Sedan. Preserve the exact brown hair, moustache and pointed beard, face, dark navy uniform with red sash and gold epaulettes, body proportions, crisp square pixel style and palette. Change only his posture and facial expression: shoulders and head lowered, sad resigned expression, hands at sides, no victorious pose. Remove the sword from his hand but keep uniform details. No injuries, gore, chains, prison bars, background, text, labels, shadow or frame. Leave transparent margins around whole figure. This is a symbolic change of pose for an educational animation, not an invented historical prison reconstruction.",
+      "reference": "public/images/modern-c01-l01/napoleon-iii.png"
+    }
+  ],
+  "assets": [
+    {
+      "key": "grey",
+      "image": "modern-c01-l02/grey.png",
+      "name": "グレイ",
+      "kind": "person",
+      "identity": "person:grey",
+      "description": "1832年のホイッグ党の政治家本人。年配の英国政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/grey.png",
+      "outputSha256": "d99f66b61370e4de27a33fcc77fe1900627790bd0df951a64f02d064fbba6494",
+      "originalFilename": "exec-57f7c40f-c0e2-4e2f-9372-67034f6c5224.png",
+      "inputSha256": "d144799e425cc78cb9250d6ab225170ee9a3aab6471d5c623b8b84b86615fdce",
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "savedBbox": [
+        60,
+        22,
+        133,
+        171
+      ],
+      "transparentPixels": 29388,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "shaftesbury",
+      "image": "modern-c01-l02/shaftesbury.png",
+      "name": "シャフツベリー卿",
+      "kind": "person",
+      "identity": "person:shaftesbury",
+      "description": "工場法のために尽力した英国政治家本人。礼服と法の書類。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/shaftesbury.png",
+      "outputSha256": "bed7a81b1fb0fbf2e7884f531dd617af9f876e811ddb90030fb8c08fc61bc4f4",
+      "originalFilename": "exec-2c58517e-ae63-4d5a-8080-5e444775e1c8.png",
+      "inputSha256": "8a32f54e0accf05e0587328dfb59f7e2ba1d18b0987916acfdadf8d998f7ec89",
+      "originalDimensions": [
+        1161,
+        1355
+      ],
+      "savedBbox": [
+        37,
+        17,
+        142,
+        178
+      ],
+      "transparentPixels": 27555,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "cobden",
+      "image": "modern-c01-l02/cobden.png",
+      "name": "コブデン",
+      "kind": "person",
+      "identity": "person:cobden",
+      "description": "反穀物法同盟の指導者本人。英国事業者・政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/cobden.png",
+      "outputSha256": "befac8c345e779e9f9e7fdab22b368228c0e8c8cc19ac2105c806d07b1c074b3",
+      "originalFilename": "exec-78fc6de7-5ab9-4f3f-8878-888e93490520.png",
+      "inputSha256": "fb2eed93ef8871e9c27b18d44b209eac3c1cc60aefb3478fc6e954f74607ff4e",
+      "originalDimensions": [
+        1145,
+        1374
+      ],
+      "savedBbox": [
+        50,
+        20,
+        154,
+        179
+      ],
+      "transparentPixels": 27497,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "bright",
+      "image": "modern-c01-l02/bright.png",
+      "name": "ブライト",
+      "kind": "person",
+      "identity": "person:bright",
+      "description": "反穀物法同盟の指導者本人。コブデンと区別する英国政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/bright.png",
+      "outputSha256": "0ad0818e6d5a2ddc404fe273919ff123ddcdb9198aad18c6b4a193cc132c3d6f",
+      "originalFilename": "exec-012d6df0-c1d8-473d-bbac-c926e990f445.png",
+      "inputSha256": "b0c186b20854ec35864255e1521ddf6b82aeb8f3344e54bf724b403039674ecc",
+      "originalDimensions": [
+        1225,
+        1284
+      ],
+      "savedBbox": [
+        52,
+        11,
+        165,
+        179
+      ],
+      "transparentPixels": 25536,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "peel",
+      "image": "modern-c01-l02/peel.png",
+      "name": "ピール",
+      "kind": "person",
+      "identity": "person:peel",
+      "description": "穀物法廃止を実現した英国政治家本人。保守党の政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/peel.png",
+      "outputSha256": "8b290ad1239679d8237966e20df41efa997cbadfd9ff3fd9ef793e3376f8e90b",
+      "originalFilename": "exec-1ab4ee3a-c6ff-4b0b-8b40-4cb1d903ddd9.png",
+      "inputSha256": "b92685db8d0081bd6bef3a2749472462d53ffa0a0f153f66ae4b3a3372e09060",
+      "originalDimensions": [
+        1222,
+        1287
+      ],
+      "savedBbox": [
+        51,
+        8,
+        169,
+        182
+      ],
+      "transparentPixels": 25584,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "derby",
+      "image": "modern-c01-l02/derby.png",
+      "name": "ダービー",
+      "kind": "person",
+      "identity": "person:derby",
+      "description": "第2回選挙法改正の英国政治家本人。英国政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/derby.png",
+      "outputSha256": "17d3128bf29e4d361a5e0f7b202f6eecad70c1b35e811c929c4772d34c2dd825",
+      "originalFilename": "exec-da938df0-8eb2-4c51-ab52-24cd5ac06a2b.png",
+      "inputSha256": "605ff812d96e5e8c1e704465ee2ff23e5fd98b8cb289eba758b45839b64a6ca9",
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "savedBbox": [
+        59,
+        8,
+        136,
+        180
+      ],
+      "transparentPixels": 27700,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "victoria",
+      "image": "modern-c01-l02/victoria.png",
+      "name": "ヴィクトリア女王",
+      "kind": "person",
+      "identity": "person:victoria",
+      "description": "19世紀の英国女王本人。女王のドレスと控えめな冠。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/victoria.png",
+      "outputSha256": "ff974545455c51f263833395c32b6ab9716bde18b2b2de7ec888a407bcb02484",
+      "originalFilename": "exec-796c1e87-a5d1-4108-90af-dbca0f0bfbf7.png",
+      "inputSha256": "6e7c189c08794437ad9f01c84d3b5afe74fe27d0ae3ac853ef027d806c733bde",
+      "originalDimensions": [
+        1238,
+        1271
+      ],
+      "savedBbox": [
+        25,
+        8,
+        177,
+        184
+      ],
+      "transparentPixels": 23313,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "thomas-cook",
+      "image": "modern-c01-l02/thomas-cook.png",
+      "name": "クック",
+      "kind": "person",
+      "identity": "person:thomas-cook",
+      "description": "万博の割引旅行を企画した旅行業者本人。旅行の手帳を持つ19世紀の服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/thomas-cook.png",
+      "outputSha256": "f87aaee62e4039aded9cf64803ea74b6a5a026c8c1e2689abb164fd6e2632420",
+      "originalFilename": "exec-911774b5-5f8d-4096-8bb0-ac1316d94fcb.png",
+      "inputSha256": "741cbeebd07a83359233e253132e2a576d7a1b68194756c223a0950b79bb06a8",
+      "originalDimensions": [
+        1214,
+        1295
+      ],
+      "savedBbox": [
+        51,
+        9,
+        158,
+        174
+      ],
+      "transparentPixels": 25969,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "disraeli",
+      "image": "modern-c01-l02/disraeli.png",
+      "name": "ディズレーリ",
+      "kind": "person",
+      "identity": "person:disraeli",
+      "description": "保守党の英国政治家本人。特徴のある髪と政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/disraeli.png",
+      "outputSha256": "efc8e3da3fbf0ad45b8db807ecd6e1ec6c6901fa40677f743c5df9f4c26adc3e",
+      "originalFilename": "exec-280d10ff-b9fb-4807-984e-8cca938f8968.png",
+      "inputSha256": "6e8f8c2a4e2e1718db3b7891a7de36407358a712672f35dd2a1ecb69379d5305",
+      "originalDimensions": [
+        1214,
+        1295
+      ],
+      "savedBbox": [
+        15,
+        13,
+        172,
+        183
+      ],
+      "transparentPixels": 27101,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "gladstone",
+      "image": "modern-c01-l02/gladstone.png",
+      "name": "グラッドストン",
+      "kind": "person",
+      "identity": "person:gladstone",
+      "description": "自由党の英国政治家本人。ディズレーリと区別する年配の礼服姿。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/gladstone.png",
+      "outputSha256": "aba85a4149d6579b9fc6032eb01a0d70a83b4ec14b6ff8fcfe7aeac1f7f22390",
+      "originalFilename": "exec-aaf02931-bffa-4a14-9ac9-d9c01572bd4c.png",
+      "inputSha256": "b7cf9773b9b4ddd60754815baf0739b753e13734658a4acd3c3285ded212fbce",
+      "originalDimensions": [
+        1214,
+        1295
+      ],
+      "savedBbox": [
+        53,
+        15,
+        161,
+        183
+      ],
+      "transparentPixels": 25439,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "cromwell",
+      "image": "modern-c01-l02/cromwell.png",
+      "name": "クロムウェル",
+      "kind": "person",
+      "identity": "person:cromwell",
+      "description": "過去の征服の参照に用いる本人。17世紀の服。19世紀の当事者にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/cromwell.png",
+      "outputSha256": "1740bdd6037a0a296e0d79358c496b25f60e499f9b813578f8a3696f83783433",
+      "originalFilename": "exec-fdf182ba-ed3c-4dd2-8c97-1f9e321d8208.png",
+      "inputSha256": "2b5c90ba35a27bc078d3c3d937f83719a51a078e75fcd2a29a679f177979e7ae",
+      "originalDimensions": [
+        1145,
+        1374
+      ],
+      "savedBbox": [
+        58,
+        17,
+        146,
+        180
+      ],
+      "transparentPixels": 28075,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "charles-ii",
+      "image": "modern-c01-l02/charles-ii.png",
+      "name": "チャールズ2世",
+      "kind": "person",
+      "identity": "person:charles-ii",
+      "description": "1673年の審査法の背景で参照する本人。17世紀の英国国王の服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/charles-ii.png",
+      "outputSha256": "17f086701f73ef8b12d446059792e274026e968527e9c574b314ff3d54a6f247",
+      "originalFilename": "exec-6e0510a3-f9b5-4fb5-84d5-cf15acb2b66e.png",
+      "inputSha256": "8983e4f02e53e3ecd3ab9410a83b6dbb32ad6cc4adcffef37e72b7162af39abd",
+      "originalDimensions": [
+        1145,
+        1374
+      ],
+      "savedBbox": [
+        45,
+        16,
+        164,
+        176
+      ],
+      "transparentPixels": 25430,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "mary-i",
+      "image": "modern-c01-l02/mary-i.png",
+      "name": "メアリ1世",
+      "kind": "person",
+      "identity": "person:mary-i",
+      "description": "原書48ページの吹き出しの歴史参照。16世紀の英国女王本人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/mary-i.png",
+      "outputSha256": "a5749d0123cd2db5ad55ca07ea013fc1767cfcd411cadccd2da9ed743c359b4e",
+      "originalFilename": "exec-5529869f-2c1a-48aa-86a1-280f1eebd4b4.png",
+      "inputSha256": "763558363dff6fec5f466c9070d5c89031e5716cbb7aba860b8cef2a0ed0bec5",
+      "originalDimensions": [
+        1145,
+        1374
+      ],
+      "savedBbox": [
+        29,
+        12,
+        166,
+        183
+      ],
+      "transparentPixels": 24876,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "oconnell",
+      "image": "modern-c01-l02/oconnell.png",
+      "name": "オコンネル",
+      "kind": "person",
+      "identity": "person:oconnell",
+      "description": "アイルランドのカトリックの政治家本人。19世紀の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/oconnell.png",
+      "outputSha256": "3407e7f1ce9be36f252415850103257e8e9b3e0b08b1a50481b8297af5bfc156",
+      "originalFilename": "exec-89bc039e-4902-4b54-89e8-24b5ba638eda.png",
+      "inputSha256": "ab1ba5812b833a5fab7e6c43ba117bd02b614f8d02d6f0710bd7d09c3a510a04",
+      "originalDimensions": [
+        1208,
+        1302
+      ],
+      "savedBbox": [
+        34,
+        13,
+        166,
+        184
+      ],
+      "transparentPixels": 23982,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "wellington",
+      "image": "modern-c01-l02/wellington.png",
+      "name": "ウェリントン",
+      "kind": "person",
+      "identity": "person:wellington",
+      "description": "宗教法の改革時の英国首相本人。19世紀の英国政治家・軍人の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/wellington.png",
+      "outputSha256": "b3526cd83137d5299669a29c462795077d23f0a26a9cbb873b5d4641463de34c",
+      "originalFilename": "exec-c54bc945-6900-433b-8ee8-12ad05e2985d.png",
+      "inputSha256": "a9309411953a900e9c0ad8a023c4f85208b6c353c37b9cd4f638ec9c43771781",
+      "originalDimensions": [
+        1165,
+        1350
+      ],
+      "savedBbox": [
+        56,
+        15,
+        132,
+        184
+      ],
+      "transparentPixels": 28020,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "obrien",
+      "image": "modern-c01-l02/obrien.png",
+      "name": "オブライエン",
+      "kind": "person",
+      "identity": "person:obrien",
+      "description": "青年アイルランド党の指導者本人。19世紀の活動家の服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/obrien.png",
+      "outputSha256": "5b486cf643e012ee361eaea88828ffb8a6ec96378daba6fcb268caeeedf083db",
+      "originalFilename": "exec-4af93d65-4b13-4c76-90f5-3ff99054bdb6.png",
+      "inputSha256": "5de15ae518210253f38c5a3a8a2d92330f724dd10db21f5d5c099bb5f179c141",
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "savedBbox": [
+        44,
+        13,
+        135,
+        179
+      ],
+      "transparentPixels": 29289,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "asquith",
+      "image": "modern-c01-l02/asquith.png",
+      "name": "アスキス",
+      "kind": "person",
+      "identity": "person:asquith",
+      "description": "1914年の自治法の英国首相本人。20世紀初頭の政治家の背広。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/asquith.png",
+      "outputSha256": "6900e690b54bef14c46fba51247ff155a5a67c1ab28146857f18e22e8b82f2a3",
+      "originalFilename": "exec-665778c3-cc71-49c2-aedd-4fbf97bb0d4c.png",
+      "inputSha256": "b0327dfc13dd96326179ff8d12eccad684335890fec56d8bcab830a94c3f3848",
+      "originalDimensions": [
+        1145,
+        1374
+      ],
+      "savedBbox": [
+        64,
+        15,
+        144,
+        175
+      ],
+      "transparentPixels": 28322,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "de-valera",
+      "image": "modern-c01-l02/de-valera.png",
+      "name": "デ＝ヴァレラ",
+      "kind": "person",
+      "identity": "person:de-valera",
+      "description": "独立宣言で説明するアイルランドの政治家本人。眼鏡と20世紀初頭の背広。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/de-valera.png",
+      "outputSha256": "92d1f7cae97072123d6fff860791d5e3fb12a0d86e8874910ecdb6568c704adf",
+      "originalFilename": "exec-9feefd97-6c88-4358-a984-bd77474d8cbc.png",
+      "inputSha256": "c85f82b7eb32f0910571362865d6a5cc1aa426a41a946d3ab7d1e84dfe658c9c",
+      "originalDimensions": [
+        1145,
+        1374
+      ],
+      "savedBbox": [
+        60,
+        17,
+        137,
+        180
+      ],
+      "transparentPixels": 28144,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "haussmann",
+      "image": "modern-c01-l02/haussmann.png",
+      "name": "オスマン",
+      "kind": "person",
+      "identity": "person:haussmann",
+      "description": "セーヌ県知事でパリの改造を担った本人。オスマン帝国の君主ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/haussmann.png",
+      "outputSha256": "f61aad382f43b727476d9e573615da5cffa65718d08eea3714b00c331f2b0037",
+      "originalFilename": "exec-cd2ec676-9958-438c-b192-e6921ca02574.png",
+      "inputSha256": "8d07b206ae8b72c9a0eb464290211bc3defa509351aff421275572e2d5bfdc48",
+      "originalDimensions": [
+        1214,
+        1295
+      ],
+      "savedBbox": [
+        25,
+        15,
+        178,
+        180
+      ],
+      "transparentPixels": 26011,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "maximilian",
+      "image": "modern-c01-l02/maximilian.png",
+      "name": "マクシミリアン",
+      "kind": "person",
+      "identity": "person:maximilian",
+      "description": "メキシコ皇帝にされた本人。19世紀の皇帝の軍装。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/maximilian.png",
+      "outputSha256": "d8fe82130d9a2baf54adf3a80e99f1278721d9814db9288c5944300d50a33de9",
+      "originalFilename": "exec-09d57de8-3be1-4073-b57c-cc90d616bd41.png",
+      "inputSha256": "2995bf63d73e3e25cf5e5ad3c341799b981f88795320de5b345e6c485c12ee3a",
+      "originalDimensions": [
+        1214,
+        1295
+      ],
+      "savedBbox": [
+        59,
+        9,
+        173,
+        182
+      ],
+      "transparentPixels": 27216,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "bismarck",
+      "image": "modern-c01-l02/bismarck.png",
+      "name": "ビスマルク",
+      "kind": "person",
+      "identity": "person:bismarck",
+      "description": "プロイセンの政治家本人。19世紀の軍装または政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/bismarck.png",
+      "outputSha256": "f722239f2689fcab52eabebd847c7c46d6eb81202f77bcd583178d87270f6515",
+      "originalFilename": "exec-895f8c5c-3bf6-4fe1-b357-e77416b4d7ee.png",
+      "inputSha256": "9b2532290477b6016e9f655b3525b53dc6e07890500bbe5b5e450a591850e9e2",
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "savedBbox": [
+        47,
+        9,
+        131,
+        179
+      ],
+      "transparentPixels": 28349,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "thiers",
+      "image": "modern-c01-l02/thiers.png",
+      "name": "ティエール",
+      "kind": "person",
+      "identity": "person:thiers",
+      "description": "フランスの臨時政府首班・大統領となった本人。眼鏡と年配の政治家の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/thiers.png",
+      "outputSha256": "26a570f8cee3481ffedcc26929f724e861db2314d0b11df964d4c1430b9c8709",
+      "originalFilename": "exec-f9047ad2-f982-4e9d-9d09-bcd8346fe2f6.png",
+      "inputSha256": "1ec26cd905431e83489cc5be8a8c4a0c1831ae12c1d7f5a3503b349dc6832f16",
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "savedBbox": [
+        40,
+        8,
+        135,
+        176
+      ],
+      "transparentPixels": 28040,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "elizabeth-i",
+      "image": "modern-c01-l02/elizabeth-i.png",
+      "name": "エリザベス1世",
+      "kind": "person",
+      "identity": "person:elizabeth-i",
+      "description": "東インド会社設立の時代の参照に用いる本人。16世紀末の英国女王のドレス。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/elizabeth-i.png",
+      "outputSha256": "66663e05d7261802017fe1cd4376b780a603d04822f9d541f770ed6c4670039d",
+      "originalFilename": "exec-554249d2-a4c0-4cbb-b0a7-f2e745e3d8ea.png",
+      "inputSha256": "2644de7d447e0c9d64be2d4b67b0d17fdf65beea031c78df42ed731be25a57d6",
+      "originalDimensions": [
+        1239,
+        1269
+      ],
+      "savedBbox": [
+        16,
+        8,
+        180,
+        182
+      ],
+      "transparentPixels": 24752,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "napoleon-i",
+      "image": "modern-c01-l01/napoleon-i.png",
+      "name": "ナポレオン",
+      "kind": "person",
+      "identity": "person:napoleon-i",
+      "description": "第1回のナポレオン1世本人。第二帝政では回想・歴史参照に限る。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/napoleon-i.png",
+      "outputSha256": "45b5efce60ae83da533e94f320b611a0ed0b46e1363979fe52196a7eba53ecd4",
+      "reuseReason": "第1回のナポレオン1世本人。第二帝政では回想・歴史参照に限る。"
+    },
+    {
+      "key": "louis-napoleon",
+      "image": "modern-c01-l01/louis-napoleon.png",
+      "name": "ルイ＝ナポレオン",
+      "kind": "person",
+      "identity": "person:louis-napoleon",
+      "description": "第1回の大統領時代の同じ本人。皇帝になる前の振り返り。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/louis-napoleon.png",
+      "outputSha256": "51dd3146e1b9bdd112474f655665eafd407e1100ff99b09548ec57d0b4c898e1",
+      "reuseReason": "第1回の大統領時代の同じ本人。皇帝になる前の振り返り。"
+    },
+    {
+      "key": "napoleon-iii",
+      "image": "modern-c01-l01/napoleon-iii.png",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "identity": "person:louis-napoleon",
+      "description": "第1回の即位後の同じ本人。叔父とは別人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "variantOf": "louis-napoleon",
+      "file": "public/images/modern-c01-l01/napoleon-iii.png",
+      "outputSha256": "6f8840c8d0a84ff3aba681b9fee64f7e290cf1cb5db886ba7228753ec05931a7",
+      "reuseReason": "第1回の即位後の同じ本人。叔父とは別人。"
+    },
+    {
+      "key": "napoleon-iii-captive",
+      "image": "modern-c01-l02/napoleon-iii-captive.png",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "identity": "person:louis-napoleon",
+      "description": "同じ顔の本人。スダンで捕虜になり、落胆した姿。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "variantOf": "napoleon-iii",
+      "file": "public/images/modern-c01-l02/napoleon-iii-captive.png",
+      "outputSha256": "64ede04815cc7e1083f80d66fd55aa48dc53d3a12e4ee601dbda604e291490a1",
+      "originalFilename": "exec-4fdb4922-7a62-4bfa-9dda-fcb4bf0a2abf.png",
+      "inputSha256": "6e899388ee66c5ea2819a4d9973cf43e0ef6e791da46de062648404f595f6f4f",
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "savedBbox": [
+        61,
+        8,
+        177,
+        176
+      ],
+      "transparentPixels": 28638,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "landowners",
+      "image": "modern-c01-l02/landowners.png",
+      "name": "地主",
+      "kind": "group",
+      "identity": "group:landowners",
+      "description": "19世紀の英国地主の一般集団。特定人物の顔は付けず、土地の書類を持つ。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/landowners.png",
+      "outputSha256": "a2774483f1181f1531fe71a6a52f182c1e3a90feb921ea5954f0ae799470be2b",
+      "originalFilename": "exec-5845bf0b-6d94-43e9-99a2-d633684f114d.png",
+      "inputSha256": "1da1ee077d22be0b300129b172c65d221d3e44dfa05e0cb986864932d6f66b1d",
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "savedBbox": [
+        33,
+        78,
+        172,
+        182
+      ],
+      "transparentPixels": 27478,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "irish-tenants",
+      "image": "modern-c01-l02/irish-tenants.png",
+      "name": "アイルランドの小作人",
+      "kind": "group",
+      "identity": "group:irish-tenants",
+      "description": "19世紀のアイルランドの小作農家の一般集団。農作業着と作物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/irish-tenants.png",
+      "outputSha256": "5a156d9629c3ac3214ccd3a79ada20b8cb0cd49a3b1e22ac9848c1622c35efc3",
+      "originalFilename": "exec-c6f298ff-0108-4636-8fea-3216bc936c0a.png",
+      "inputSha256": "deaf6228881670dec60803f432ba6cb800f496649163051d9821b4f10d7b2247",
+      "originalDimensions": [
+        1374,
+        1145
+      ],
+      "savedBbox": [
+        11,
+        37,
+        172,
+        181
+      ],
+      "transparentPixels": 23316,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "irish-emigrants",
+      "image": "modern-c01-l02/irish-emigrants.png",
+      "name": "アイルランドの移民",
+      "kind": "group",
+      "identity": "group:irish-emigrants",
+      "description": "19世紀のアイルランドの移民の一般家族。荷物を持つ。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/irish-emigrants.png",
+      "outputSha256": "ed0707198a026b71e48f4978b86ffe3c48460c27282be7ace432ccc4c4b1afba",
+      "originalFilename": "exec-0f8ac44f-f43a-4435-872e-64b492a34ddb.png",
+      "inputSha256": "8b142706bf4934501795489dcb9e2581b31c124d30edc2cf27ee14870f8c5809",
+      "originalDimensions": [
+        1374,
+        1145
+      ],
+      "savedBbox": [
+        9,
+        36,
+        182,
+        181
+      ],
+      "transparentPixels": 21733,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "british-police",
+      "image": "modern-c01-l02/british-police.png",
+      "name": "イギリスの警察",
+      "kind": "group",
+      "identity": "group:british-police",
+      "description": "19世紀の英国の一般警官。ケニントン広場の弾圧の説明用。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/british-police.png",
+      "outputSha256": "0a5634faf976d70eb32357830686ffe98972bd68296b9f7d31c7051ce5b1d634",
+      "originalFilename": "exec-239305b0-dcfa-4932-af99-d17ebc3cb505.png",
+      "inputSha256": "7156ed6e6778b32da8a52194717f4b0751eb9bfe28265f06dc4dbff1667a28fe",
+      "originalDimensions": [
+        1374,
+        1145
+      ],
+      "savedBbox": [
+        30,
+        38,
+        171,
+        176
+      ],
+      "transparentPixels": 26989,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "british-soldiers",
+      "image": "modern-c01-l02/british-soldiers.png",
+      "name": "イギリス軍",
+      "kind": "group",
+      "identity": "group:british-soldiers",
+      "description": "19世紀の英国の一般兵。特定の連隊や個人の復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/british-soldiers.png",
+      "outputSha256": "b7e389faeb2a340204f0ab987e8a9fa9fa5ce8ad367305f66484f37630c70978",
+      "originalFilename": "exec-d8858527-9a3f-4338-8148-45e85aff00c3.png",
+      "inputSha256": "b7004171f6fd60ff26001baaab7d02c114ed005c4da5d057f16b5ca31d2184c9",
+      "originalDimensions": [
+        1300,
+        1209
+      ],
+      "savedBbox": [
+        24,
+        23,
+        182,
+        182
+      ],
+      "transparentPixels": 23857,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "cotton-loom",
+      "image": "modern-c01-l02/cotton-loom.png",
+      "name": "綿製品の機械生産",
+      "kind": "prop",
+      "identity": "prop:cotton-loom",
+      "description": "産業革命の機械式織機と綿製品。個別の工場名を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/cotton-loom.png",
+      "outputSha256": "ebfddd57ad16b0d35be0c3071979851e67c11b76952512d206dc82493fd9cd2a",
+      "originalFilename": "exec-3985b4ac-d1b8-4773-b74e-c51f80624d15.png",
+      "inputSha256": "3dc88c48a5400154c7acc40a317d2bc890d7dcbedba39ffe5e28fc59a6ede108",
+      "originalDimensions": [
+        1295,
+        1214
+      ],
+      "savedBbox": [
+        14,
+        25,
+        184,
+        178
+      ],
+      "transparentPixels": 21087,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "grain-cargo",
+      "image": "modern-c01-l02/grain-cargo.png",
+      "name": "小麦・穀物",
+      "kind": "prop",
+      "identity": "prop:grain-cargo",
+      "description": "小麦の袋と穂。本文にある輸出・輸入の関係を説明する。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/grain-cargo.png",
+      "outputSha256": "6e2629250b12b0f76d27e223710abc430cde8020ef354ddd68ffcef14603231b",
+      "originalFilename": "exec-e78cfc63-fb93-40a4-93da-4456dc49ce24.png",
+      "inputSha256": "5cc88191fcba9dad665d10442f5f2ce528a5706185793540d8c6045301d0cf52",
+      "originalDimensions": [
+        1448,
+        1086
+      ],
+      "savedBbox": [
+        28,
+        63,
+        168,
+        179
+      ],
+      "transparentPixels": 26224,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "healthy-potatoes",
+      "image": "modern-c01-l02/healthy-potatoes.png",
+      "name": "ジャガイモ",
+      "kind": "prop",
+      "identity": "prop:healthy-potatoes",
+      "description": "主食として栽培したジャガイモ。病気の前の作物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/healthy-potatoes.png",
+      "outputSha256": "4fb101510016c662711fbca038207353797da465ca5d489bdf0f11d2db338b1b",
+      "originalFilename": "exec-c2a94c20-589d-4455-8c0d-ccb41c5c8c83.png",
+      "inputSha256": "ed1760ca127b67731679281f2784c715e7b3f93333af983ff034017beac458f3",
+      "originalDimensions": [
+        1374,
+        1145
+      ],
+      "savedBbox": [
+        16,
+        40,
+        178,
+        171
+      ],
+      "transparentPixels": 22620,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "blighted-potatoes",
+      "image": "modern-c01-l02/blighted-potatoes.png",
+      "name": "凶作のジャガイモ",
+      "kind": "prop",
+      "identity": "prop:healthy-potatoes",
+      "description": "同じ作物が病気で凶作となった状態。病原体の形状を断定しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "variantOf": "healthy-potatoes",
+      "file": "public/images/modern-c01-l02/blighted-potatoes.png",
+      "outputSha256": "87c740058b7d461780be870b4e4b084e2ee168c9cfc86c0dfcbb095e20c11e9e",
+      "originalFilename": "exec-b4ffb29a-e10b-4bc6-b0a4-d946895ce9e1.png",
+      "inputSha256": "71b06bca4cb87f33baedc68666d6371f71b07f33c40f9ea16bccde60fc481933",
+      "originalDimensions": [
+        1312,
+        1199
+      ],
+      "savedBbox": [
+        24,
+        29,
+        176,
+        174
+      ],
+      "transparentPixels": 23573,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "crystal-palace",
+      "image": "modern-c01-l02/crystal-palace.png",
+      "name": "クリスタル＝パレス（水晶宮）",
+      "kind": "building",
+      "identity": "building:crystal-palace",
+      "description": "1851年にハイド・パークで開かれた博覧会のガラス張りの建物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/crystal-palace.png",
+      "outputSha256": "05e22bbab38822a800622c11f78592ff9c4c2bcb72aa5a0da08bf5839603db68",
+      "originalFilename": "exec-5711bbda-d1b7-4f0d-9b63-1754af5f3cad.png",
+      "inputSha256": "f4ae9e2298b6a25b012a845e0a17a6a1f7d10fbf58c73a60bbe66f0425ebf5d7",
+      "originalDimensions": [
+        1774,
+        887
+      ],
+      "savedBbox": [
+        8,
+        103,
+        184,
+        171
+      ],
+      "transparentPixels": 30347,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "public-school",
+      "image": "modern-c01-l02/public-school.png",
+      "name": "公立学校",
+      "kind": "building",
+      "identity": "building:public-school",
+      "description": "教育法の説明に用いる一般的な学校。個別の学校の復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/public-school.png",
+      "outputSha256": "06f6ec4ade250320d9806601e80e1a2063e3a7ba48e0a69c1047b5d087d39960",
+      "originalFilename": "exec-8082edef-63e9-4c0d-9fc4-012051970254.png",
+      "inputSha256": "7ec511af2a0982258d102152029c36039e0e685237b8656755bea76a9d5106a7",
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "savedBbox": [
+        8,
+        82,
+        184,
+        183
+      ],
+      "transparentPixels": 26360,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "suez-canal",
+      "image": "modern-c01-l02/suez-canal.png",
+      "name": "スエズ運河",
+      "kind": "prop",
+      "identity": "prop:suez-canal",
+      "description": "運河と交易船の模式的な風景。政治家本人の訪問を示さない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/suez-canal.png",
+      "outputSha256": "6c9e3fc0dde6e19d567cb2d4c7bf44babed23bf2c139a0896cdefb2a5b3529c2",
+      "originalFilename": "exec-e1a87754-60f1-4dd4-87f4-e5c6ff087c5e.png",
+      "inputSha256": "aebb570d7a7815f7464e4789233d8ac762105679e61f495043caaf18eb132583",
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "savedBbox": [
+        24,
+        85,
+        174,
+        183
+      ],
+      "transparentPixels": 29849,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "paris-boulevard",
+      "image": "modern-c01-l02/paris-boulevard.png",
+      "name": "パリの道路網",
+      "kind": "prop",
+      "identity": "prop:paris-boulevard",
+      "description": "直線の道路・街灯・高さを揃えた街区の模式図。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/paris-boulevard.png",
+      "outputSha256": "ef03720bbbc4f4ca4d7855af2ee5b0fce960776ac4ef01262aa41739e5da202c",
+      "originalFilename": "exec-620d6568-30e4-43e8-9f9d-4c8a3b40f7f6.png",
+      "inputSha256": "a90d394052e1b1f0049f553ef67d5d94ca984f6bdabafb0cacdcea398e410fba",
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "savedBbox": [
+        23,
+        70,
+        170,
+        184
+      ],
+      "transparentPixels": 26301,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "paris-sewers",
+      "image": "modern-c01-l02/paris-sewers.png",
+      "name": "パリの下水道",
+      "kind": "prop",
+      "identity": "prop:paris-sewers",
+      "description": "集中排水する地下の管と通路の模式図。正確な工法の復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/paris-sewers.png",
+      "outputSha256": "637c92031dfbfe5ac0fe225164a3bf7cb96e31116d5c8750a564821d09eefb83",
+      "originalFilename": "exec-305120fb-1cfa-417d-a3c6-3239bafb616f.png",
+      "inputSha256": "d4df2518a5651ea8cc241e5f4f5001694f0cc5cdbd66776370ec1ba65f69b4f4",
+      "originalDimensions": [
+        1312,
+        1199
+      ],
+      "savedBbox": [
+        12,
+        16,
+        180,
+        184
+      ],
+      "transparentPixels": 19717,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "paris-opera",
+      "image": "modern-c01-l02/paris-opera.png",
+      "name": "オペラ座",
+      "kind": "building",
+      "identity": "building:paris-opera",
+      "description": "原書53ページのパリ改造のコラムで説明する建物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/paris-opera.png",
+      "outputSha256": "babe023215e98c307dbffee27f12c7d56a6ae79a8d430ac2aff57f7574cbf5fd",
+      "originalFilename": "exec-8875ccea-3a63-4a9c-848e-f1ebb9f02442.png",
+      "inputSha256": "273101ea4a8fd0ec3817e6fdc00155e91e819325edab20321ead08fd1f86ac86",
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "savedBbox": [
+        16,
+        66,
+        183,
+        184
+      ],
+      "transparentPixels": 22318,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "arc-de-triomphe",
+      "image": "modern-c01-l02/arc-de-triomphe.png",
+      "name": "凱旋門",
+      "kind": "building",
+      "identity": "building:arc-de-triomphe",
+      "description": "放射状道路網の説明に用いるパリの建物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l02/arc-de-triomphe.png",
+      "outputSha256": "ffee23cc8a2c5f024078e0da6f9440dc6ca75f26172c659aa30f430fb945b709",
+      "originalFilename": "exec-3eadf51c-c042-4d50-ae64-6229ff5cac96.png",
+      "inputSha256": "cd1fac71803d37d7d28980e6f8252b5ec948c85f8be48bc9c8d02023d51b59ea",
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "savedBbox": [
+        13,
+        18,
+        178,
+        184
+      ],
+      "transparentPixels": 14464,
+      "generationTool": "image_gen",
+      "transparentBackground": true
+    },
+    {
+      "key": "industrialists",
+      "image": "modern-c01-l01/industrialists.png",
+      "name": "産業資本家",
+      "kind": "group",
+      "identity": "group:industrialists",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/industrialists.png",
+      "outputSha256": "1d0e3da5f8159eae32b7d6f80df8750b954465fb0578a3618bf0d619112e1fe5",
+      "reuseReason": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。"
+    },
+    {
+      "key": "workers",
+      "image": "modern-c01-l01/workers.png",
+      "name": "労働者",
+      "kind": "group",
+      "identity": "group:workers",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/workers.png",
+      "outputSha256": "01e88046047d4eeb0ce1fc4963e27afbf1a2f74152b7344325faa9bcbd228042",
+      "reuseReason": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。"
+    },
+    {
+      "key": "farmers",
+      "image": "modern-c01-l01/farmers.png",
+      "name": "農民",
+      "kind": "group",
+      "identity": "group:farmers",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/farmers.png",
+      "outputSha256": "8c43a485eeedf435fb172510f9e67d6ae29a39176b26a9f4b7304e7c28761ba4",
+      "reuseReason": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。"
+    },
+    {
+      "key": "bankers",
+      "image": "modern-c01-l01/bankers.png",
+      "name": "銀行家",
+      "kind": "group",
+      "identity": "group:bankers",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/bankers.png",
+      "outputSha256": "c2092cb32bc05e7c5411a41508dd7132b9bc478be20f87c78c44421b58d8578d",
+      "reuseReason": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。"
+    },
+    {
+      "key": "revolutionary-citizens",
+      "image": "modern-c01-l01/revolutionary-citizens.png",
+      "name": "市民",
+      "kind": "group",
+      "identity": "group:revolutionary-citizens",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/revolutionary-citizens.png",
+      "outputSha256": "196895b1b1bd32f807b9970b55a2ffd73a472fe1a37530bee4c0869f4849df94",
+      "reuseReason": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。"
+    },
+    {
+      "key": "french-soldiers",
+      "image": "modern-c01-l01/french-soldiers.png",
+      "name": "フランス軍",
+      "kind": "group",
+      "identity": "group:french-soldiers",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/french-soldiers.png",
+      "outputSha256": "d7211acf4b64e8b166aba906172a2121907edb35fb9b955f5043a1516e22df1b",
+      "reuseReason": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。"
+    },
+    {
+      "key": "prussian-soldiers",
+      "image": "modern-c01-l01/prussian-soldiers.png",
+      "name": "プロイセン軍",
+      "kind": "group",
+      "identity": "group:prussian-soldiers",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/prussian-soldiers.png",
+      "outputSha256": "3d3c80f5f4720bfd89502c3bc892965c213b164b0f3c983bb9f32ff0df5fa0d8",
+      "reuseReason": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。"
+    },
+    {
+      "key": "parliament-delegates",
+      "image": "modern-c01-l01/parliament-delegates.png",
+      "name": "議会の代表",
+      "kind": "group",
+      "identity": "group:parliament-delegates",
+      "description": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/parliament-delegates.png",
+      "outputSha256": "b85153d2fcf3da44feac1d621c38b71440fe9bdb085335b4364f898d64e910f4",
+      "reuseReason": "第1回の同じ一般役割の集団。固有名の人物の代用にはしない。"
+    },
+    {
+      "key": "steam-factory",
+      "image": "modern-c01-l01/steam-factory.png",
+      "name": "産業革命",
+      "kind": "prop",
+      "identity": "prop:steam-factory",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/steam-factory.png",
+      "outputSha256": "dbfe2d21c918c76323834cfc56212955058a50a711a66cd3995f584939bd69b0",
+      "reuseReason": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。"
+    },
+    {
+      "key": "railway",
+      "image": "modern-c01-l01/railway.png",
+      "name": "鉄道",
+      "kind": "prop",
+      "identity": "prop:railway",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/railway.png",
+      "outputSha256": "62ce4c4bdcda39325e1014bbd4723e81c2f76a4eb4a5af5e2d89af9e9277c01c",
+      "reuseReason": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。"
+    },
+    {
+      "key": "merchant-cargo",
+      "image": "modern-c01-l01/merchant-cargo.png",
+      "name": "貿易",
+      "kind": "prop",
+      "identity": "prop:merchant-cargo",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/merchant-cargo.png",
+      "outputSha256": "5b34f33edbecda0ad85cb122e4451b4e7641af0cf34ab15279f64bba7ac3e3be",
+      "reuseReason": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。"
+    },
+    {
+      "key": "ballot-box",
+      "image": "modern-c01-l01/ballot-box.png",
+      "name": "選挙",
+      "kind": "prop",
+      "identity": "prop:ballot-box",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/ballot-box.png",
+      "outputSha256": "6c4d73aeaec46e6baead49ad8abed7b87a329b7d9f9f80d7afcbfbeba5b6fed4",
+      "reuseReason": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。"
+    },
+    {
+      "key": "constitution-document",
+      "image": "modern-c01-l01/constitution-document.png",
+      "name": "法律・憲法",
+      "kind": "prop",
+      "identity": "prop:constitution-document",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/constitution-document.png",
+      "outputSha256": "8a715a4bfee02a55f27382fa8eb2fc1ad812c14e68926b6f35defc23f0364757",
+      "reuseReason": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。"
+    },
+    {
+      "key": "treaty-document",
+      "image": "modern-c01-l01/treaty-document.png",
+      "name": "条約",
+      "kind": "prop",
+      "identity": "prop:treaty-document",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/treaty-document.png",
+      "outputSha256": "0e94dae0a55aa978ec2a8aa80594bafcc2ac3d7982b852608c5e6128a2f88da7",
+      "reuseReason": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。"
+    },
+    {
+      "key": "parliament-building",
+      "image": "modern-c01-l01/parliament-building.png",
+      "name": "議会",
+      "kind": "building",
+      "identity": "building:parliament-building",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/parliament-building.png",
+      "outputSha256": "90890bd2442b61d9f47459969848ad025ffa2b3dbbf1834d22d504754dabbf65",
+      "reuseReason": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。"
+    },
+    {
+      "key": "tax-ledger",
+      "image": "modern-c01-l01/tax-ledger.png",
+      "name": "税・年金",
+      "kind": "prop",
+      "identity": "prop:tax-ledger",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/tax-ledger.png",
+      "outputSha256": "677649776ccc53774db1a01056f6dd99ce1ff193e6cc5e490bb0c87c0146d936",
+      "reuseReason": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。"
+    },
+    {
+      "key": "crown",
+      "image": "modern-c01-l01/crown.png",
+      "name": "帝位・王位",
+      "kind": "prop",
+      "identity": "prop:crown",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/crown.png",
+      "outputSha256": "1ecac12d4b34a67bd715dfb09e0bf909aa9642ee8a20ea749607eebd50b37e94",
+      "reuseReason": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。"
+    },
+    {
+      "key": "calendar",
+      "image": "modern-c01-l01/calendar.png",
+      "name": "年号",
+      "kind": "prop",
+      "identity": "prop:calendar",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/calendar.png",
+      "outputSha256": "ce0c76abaa9de57d5a96c781a77b922e172b519269ef85529e22140782f178e5",
+      "reuseReason": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。"
+    },
+    {
+      "key": "barricade",
+      "image": "modern-c01-l01/barricade.png",
+      "name": "バリケード",
+      "kind": "prop",
+      "identity": "prop:barricade",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/barricade.png",
+      "outputSha256": "216f2614455fc4d435a52937b6a6fc4738176b22e30aa110248e5faeb3697a6c",
+      "reuseReason": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。"
+    },
+    {
+      "key": "royal-palace",
+      "image": "modern-c01-l01/royal-palace.png",
+      "name": "宮殿",
+      "kind": "building",
+      "identity": "building:royal-palace",
+      "description": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/royal-palace.png",
+      "outputSha256": "7a44339fd928fcb3c5a65c37d4291243533452f151a643b5e2ccab80fe526a11",
+      "reuseReason": "第1回の同じ一般的な道具・施設の記号。本文の役割を名称と説明で示す。"
+    }
+  ]
+}

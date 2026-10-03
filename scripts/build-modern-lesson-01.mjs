@@ -3,7 +3,8 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
 import {fileURLToPath} from 'node:url';
-import {modernSeries} from '../public/modern-volumes.js';
+import {modernSeries as allModernSeries} from '../public/modern-volumes.js';
+const modernSeries = allModernSeries.filter(volume=>volume.lesson===1);
 import {modernNamesInText, modernNameCatalog} from '../public/modern-geography.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
