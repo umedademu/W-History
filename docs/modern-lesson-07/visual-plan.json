@@ -1,0 +1,5278 @@
+{
+  "schema": 1,
+  "description": "第7回の全通常本文・原書全行を保持し、改革の本人・集団の役割・権利と制度・独立コラムを分ける。",
+  "rules": [
+    "参照専用原文483行、125から139の全15ページを変更せず保持する。",
+    "52本文行のうち紙面接続6組だけをつなぎ、46段落を85場面へ分ける。",
+    "太字・色・表・二重ルビを保持し、49行と245行の入れ子太字は有効なHTMLへ表示変換する。",
+    "人物は同じ本人の新作11点と既存5点で参照する。ムスタファ＝ケマルは独立コラムの本人名と文字資料で参照し、別人の顔を用いない。",
+    "新作18点、既存20点。一般集団は同じ役割として示し、特定の同じ個人や民族の断定をしない。",
+    "133ページの派遣・遭難・救助・送還・後代の記憶は参考見出しと正確な出典行を明記し、独立全文へ到達させる。",
+    "実際の移動は一部のパリの委員会員からサロニカへの合流、インド側からアフガニスタンへの英国の侵攻の2本。両方とも精密な旅程を補わない。",
+    "アフガーニー招聘の出発地、ムハンマド＝アリーの進軍旅程、青年トルコ人全員の移動を補わない。",
+    "宗主権・航行権・保護権・世襲権・自治・独立・領有を同じ結果へまとめず、権利の変更を実際の艦隊航行へしない。",
+    "英国の黙認とロシアの軍事介入を共同軍の侵攻へしない。バーブ教祖を反乱の指揮者として動かさない。",
+    "本人の固定所在地なし、姿の切替なし。国代表位置と都市・建物を分け、共通32度/24度の拡大上限を適用する。",
+    "説明は史実上の本人発言を創作した引用ではない。"
+  ],
+  "totals": {
+    "scenes": 85,
+    "newImages": 18,
+    "existingImages": 20,
+    "newPeople": 11,
+    "groups": 3,
+    "newPropsAndBuildings": 4,
+    "illustrations": 85,
+    "routes": 2,
+    "switches": 0,
+    "informationConnections": 0,
+    "diagrams": 24
+  },
+  "assets": [
+    {
+      "key": "selim-iii",
+      "image": "modern-c02-l07/selim-iii.png",
+      "name": "セリム3世",
+      "kind": "person",
+      "identity": "person:selim-iii",
+      "description": "セリム3世本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "mahmud-ii",
+      "image": "modern-c02-l07/mahmud-ii.png",
+      "name": "マフムト2世",
+      "kind": "person",
+      "identity": "person:mahmud-ii",
+      "description": "マフムト2世本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "abdulmejid-i",
+      "image": "modern-c02-l07/abdulmejid-i.png",
+      "name": "アブデュルメジト1世",
+      "kind": "person",
+      "identity": "person:abdulmejid-i",
+      "description": "アブデュルメジト1世本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "abdulaziz",
+      "image": "modern-c02-l07/abdulaziz.png",
+      "name": "アブデュルアジーズ",
+      "kind": "person",
+      "identity": "person:abdulaziz",
+      "description": "アブデュルアジーズ本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "abdulhamid-ii",
+      "image": "modern-c02-l07/abdulhamid-ii.png",
+      "name": "アブデュルハミト2世",
+      "kind": "person",
+      "identity": "person:abdulhamid-ii",
+      "description": "アブデュルハミト2世本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "midhat-pasha",
+      "image": "modern-c02-l07/midhat-pasha.png",
+      "name": "ミドハト＝パシャ",
+      "kind": "person",
+      "identity": "person:midhat-pasha",
+      "description": "ミドハト＝パシャ本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "jamal-al-din-afghani",
+      "image": "modern-c02-l07/jamal-al-din-afghani.png",
+      "name": "アフガーニー",
+      "kind": "person",
+      "identity": "person:jamal-al-din-afghani",
+      "description": "アフガーニー本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "mehmed-v",
+      "image": "modern-c02-l07/mehmed-v.png",
+      "name": "メフメト5世",
+      "kind": "person",
+      "identity": "person:mehmed-v",
+      "description": "メフメト5世本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "sayyid-ali-muhammad",
+      "image": "modern-c02-l07/sayyid-ali-muhammad.png",
+      "name": "サイイド＝アリー＝ムハンマド",
+      "kind": "person",
+      "identity": "person:sayyid-ali-muhammad",
+      "description": "サイイド＝アリー＝ムハンマド本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "yaqub-beg",
+      "image": "modern-c02-l07/yaqub-beg.png",
+      "name": "ヤークーブ＝ベク",
+      "kind": "person",
+      "identity": "person:yaqub-beg",
+      "description": "ヤークーブ＝ベク本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "zuo-zongtang",
+      "image": "modern-c02-l07/zuo-zongtang.png",
+      "name": "左宗棠",
+      "kind": "person",
+      "identity": "person:zuo-zongtang",
+      "description": "左宗棠本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "young-turk-officers",
+      "image": "modern-c02-l07/young-turk-officers.png",
+      "name": "青年トルコの将校",
+      "kind": "group",
+      "identity": "group:young-turk-officers",
+      "description": "赤フェズと19世紀末の軍装の一般青年将校。特定の指導者の顔にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "iranian-ulama",
+      "image": "modern-c02-l07/iranian-ulama.png",
+      "name": "イランのウラマー",
+      "kind": "group",
+      "identity": "group:iranian-ulama",
+      "description": "ターバンと学者服の一般のイスラーム法学者。狂信や民族の誇張をしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "kii-island-rescuers",
+      "image": "modern-c02-l07/kii-island-rescuers.png",
+      "name": "紀伊大島の救助する住民",
+      "kind": "group",
+      "identity": "group:kii-island-rescuers",
+      "description": "1890年の日本の海辺の一般住民。縄・毛布による救助の役割を描き、流血や溺死した人は描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "ertugrul-frigate",
+      "image": "modern-c02-l07/ertugrul-frigate.png",
+      "name": "エルトゥールル号",
+      "kind": "prop",
+      "identity": "prop:ertugrul-frigate",
+      "description": "19世紀の木造蒸気フリゲートの模式絵。帆と煙突を持ち、沈没破壊の演出をしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "hiei-kongo-ships",
+      "image": "modern-c02-l07/hiei-kongo-ships.png",
+      "name": "比叡と金剛",
+      "kind": "prop",
+      "identity": "prop:hiei-kongo-ships",
+      "description": "当時の送還に用いられた日本の蒸気軍艦2隻の模式絵。現代戦艦として描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "tobacco-cargo",
+      "image": "modern-c02-l07/tobacco-cargo.png",
+      "name": "タバコの品",
+      "kind": "prop",
+      "identity": "prop:tobacco-cargo",
+      "description": "葉と木箱。独占利権とボイコットの説明用で喫煙や人物の顔を描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "british-legation-tehran",
+      "image": "modern-c02-l07/british-legation-tehran.png",
+      "name": "テヘランのイギリス公使館",
+      "kind": "building",
+      "identity": "building:british-legation-tehran",
+      "description": "19世紀の公使館の建物と門の模式絵。現代の大使館や精密な建築復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "muhammad-ali",
+      "image": "modern-c01-l01/muhammad-ali.png",
+      "name": "ムハンマド＝アリー",
+      "kind": "person",
+      "identity": "person:muhammad-ali",
+      "description": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "napoleon-i",
+      "image": "modern-c01-l01/napoleon-i.png",
+      "name": "ナポレオン",
+      "kind": "person",
+      "identity": "person:napoleon-i",
+      "description": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "catherine-ii",
+      "image": "modern-c01-l05/catherine-ii.png",
+      "name": "エカチェリーナ2世",
+      "kind": "person",
+      "identity": "person:catherine-ii",
+      "description": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "suleiman-calm",
+      "image": "ottoman/suleiman-calm.png",
+      "name": "スレイマン1世",
+      "kind": "person",
+      "identity": "person:suleiman-calm",
+      "description": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "agha-mohammad",
+      "image": "safavid/agha-mohammad.png",
+      "name": "アーガー＝ムハンマド",
+      "kind": "person",
+      "identity": "person:agha-mohammad",
+      "description": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "ottoman-soldiers",
+      "image": "modern-c01-l01/ottoman-soldiers.png",
+      "name": "オスマン帝国の軍",
+      "kind": "group",
+      "identity": "group:ottoman-soldiers",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "egyptian-soldiers",
+      "image": "modern-c01-l01/egyptian-soldiers.png",
+      "name": "エジプトの軍",
+      "kind": "group",
+      "identity": "group:egyptian-soldiers",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "russian-soldiers",
+      "image": "modern-c01-l01/russian-soldiers.png",
+      "name": "ロシア軍",
+      "kind": "group",
+      "identity": "group:russian-soldiers",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "british-soldiers",
+      "image": "modern-c01-l02/british-soldiers.png",
+      "name": "イギリス軍",
+      "kind": "group",
+      "identity": "group:british-soldiers",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "italian-royal-soldiers",
+      "image": "modern-c01-l04/italian-royal-soldiers.png",
+      "name": "イタリアの軍",
+      "kind": "group",
+      "identity": "group:italian-royal-soldiers",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "liberal-students",
+      "image": "modern-c01-l01/liberal-students.png",
+      "name": "知識人の参照",
+      "kind": "group",
+      "identity": "group:liberal-students",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "janissary-soldier",
+      "image": "ottoman/janissary-soldier.png",
+      "name": "イェニチェリ軍団",
+      "kind": "group",
+      "identity": "group:janissary-soldier",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "ayan-notable",
+      "image": "ottoman/ayan-notable.png",
+      "name": "アーヤーン",
+      "kind": "group",
+      "identity": "group:ayan-notable",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "ottoman-resident",
+      "image": "ottoman/ottoman-resident.png",
+      "name": "一般の民衆",
+      "kind": "group",
+      "identity": "group:ottoman-resident",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "merchant-cargo",
+      "image": "modern-c01-l01/merchant-cargo.png",
+      "name": "交易の品",
+      "kind": "prop",
+      "identity": "prop:merchant-cargo",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "constitution-document",
+      "image": "modern-c01-l01/constitution-document.png",
+      "name": "文字資料",
+      "kind": "prop",
+      "identity": "prop:constitution-document",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "treaty-document",
+      "image": "modern-c01-l01/treaty-document.png",
+      "name": "条約と権利",
+      "kind": "prop",
+      "identity": "prop:treaty-document",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "tax-ledger",
+      "image": "modern-c01-l01/tax-ledger.png",
+      "name": "財政と負担",
+      "kind": "prop",
+      "identity": "prop:tax-ledger",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "calendar",
+      "image": "modern-c01-l01/calendar.png",
+      "name": "時代の確認",
+      "kind": "prop",
+      "identity": "prop:calendar",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "steam-factory",
+      "image": "modern-c01-l01/steam-factory.png",
+      "name": "工業の参照",
+      "kind": "prop",
+      "identity": "prop:steam-factory",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    }
+  ],
+  "scenes": [
+    {
+      "sceneId": "modern-c02-l07-p01-001",
+      "title": "第2章へ：オスマン帝国とガージャール朝",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "第2章へ：オスマン帝国とガージャール朝",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原書125・126ページから第2章へ",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "第2章と第7回の導入",
+                "caption": "説明：章扉と、今回の二つの国の導入を全文確認する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        126
+      ],
+      "htmlBodySha256": "28d9247710c979aeed90fffeaa92ceb0d7575485a9e723360aa968a14991c43e",
+      "plainBodySha256": "65d76cdbcfce6f7ce501994620be7611e29715d361eff6522b68b0a66442c072",
+      "sourceTextSha256": "106fa3c76c4ee7fd6483ba6bfbe0057b8b695a6e919927a3d17a3eb69b23665a"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-002",
+      "title": "東方問題を西アジア側から見る",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "東方問題を西アジア側から見る",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "東方問題を西アジア側から見る",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        126
+      ],
+      "htmlBodySha256": "5d7f2b420f0c253472899101e64b321da5d388ee875a141f8aae9fc2c241403d",
+      "plainBodySha256": "8dc8d36ce0d67e007d7c01f6e9eeb981bc2ee327707b8a2b10454389ba1152ff",
+      "sourceTextSha256": "336968a69ca6d2c7c7643c14fad8dcc1ccf5b77e5c68ab9f94b28a6699c3b0a6"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-003",
+      "title": "17世紀末の世界の大国",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "17世紀末の世界の大国",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "17世紀末の世界の大国",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        127
+      ],
+      "htmlBodySha256": "f122376dab4b1de8cf175b585928b4aecafcd457dc406604d26090ff88303838",
+      "plainBodySha256": "bcb7d03a38f5f319328f3d7609e1aeac9e0c62227d5d709a3110441ade0a8e1a",
+      "sourceTextSha256": "22f7787e0a0b63840325ee6da6cb35d384413907a8578f0053a5135b2b9a5a3d"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-004",
+      "title": "ヨーロッパ進出とアジアの大帝国",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ヨーロッパ進出とアジアの大帝国",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ヨーロッパ進出とアジアの大帝国",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        127
+      ],
+      "htmlBodySha256": "b909bacdd38884522f30b0f25e52bb373fc62b8fd7d82bbd6cb0717082be8284",
+      "plainBodySha256": "4d5411f96ca3a6e497f914889cc07d8f1a0ce3fd73c960e14c2ead9264dcec32",
+      "sourceTextSha256": "81c47e9d1a9c26ed779767d6fdc2ed6749cc981288b93891f533d632e396e97b"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-005",
+      "title": "スレイマン1世の時代とヨーロッパの巻返し",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "スレイマン1世の時代とヨーロッパの巻返し",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "ottoman/suleiman-calm.png",
+                "name": "スレイマン1世",
+                "caption": "説明：過去の第1次ウィーン包囲を参照。冬が寒くなければという仮説を実際の征服にしない",
+                "kind": "person",
+                "identity": "person:suleiman-calm",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "スレイマン1世の時代とヨーロッパの巻返し",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "スレイマン1世"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        127
+      ],
+      "htmlBodySha256": "ff59346d2fb32444452ed5bab6ba761017fc89923251289ff1452a865ab9801f",
+      "plainBodySha256": "f6c76f473e5a2ac9e41a851fdef89cb848117ed2e009bbd7638abf996451b34d",
+      "sourceTextSha256": "33e334bbc6465a58d6c5ac67742f5c534ea07294cf74b4d1c4d2981537d49d99"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-006",
+      "title": "第2次ウィーン包囲の失敗と領土の割譲",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "第2次ウィーン包囲の失敗と領土の割譲",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "領土の割譲と帝国の広さ",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ハンガリー・トランシルヴァニア",
+                "caption": "説明：カルロヴィッツ条約でオーストリアに割譲する。帝国が一気に崩壊したとはしない",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        127
+      ],
+      "htmlBodySha256": "6d75831b390ea9c2c6eecab7f2f517937354a925619359cd3d70417ddc6ccca6",
+      "plainBodySha256": "a51fd5157cc15c41780156bfc4b78450dc0aecd69226fb69bd84d1d53c1e539b",
+      "sourceTextSha256": "9c8c3dd47890afc6463c9e0500ca08752e3f91651d435e2137a08d5d8b6d0613"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-007",
+      "title": "ロシアとの戦争と宗主権・航行権",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ロシアとの戦争と宗主権・航行権",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c01-l05/catherine-ii.png",
+                "name": "エカチェリーナ2世",
+                "caption": "説明：オスマン帝国が敗れた戦争のロシア側の君主の参照",
+                "kind": "person",
+                "identity": "person:catherine-ii",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "権利の変更は実際の航行ではない",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "クリミア＝ハン国の宗主権",
+                "caption": "説明：オスマン帝国が宗主権を放棄する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "黒海の自由航行権と保護権",
+                "caption": "説明：ロシアが権利を得たことを船の実際の航行に置き換えない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "エカチェリーナ2世"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        127
+      ],
+      "htmlBodySha256": "c8a4a32999fc46d58c50267c65073bd73a2fcbdd5e4fa64b5874232aa5a2d540",
+      "plainBodySha256": "e9e98c98e24b468fbce62206bb756f5d11d45ce276db354b3e9605e59c124b7f",
+      "sourceTextSha256": "a96cdb1418731b407f8ee2e6022bcd7e4ca713dfb4eb8e70adf4dcc5a8b3b17a"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-008",
+      "title": "弱体化につけこむヨーロッパ諸国",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "弱体化につけこむヨーロッパ諸国",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "弱体化につけこむヨーロッパ諸国",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        127
+      ],
+      "htmlBodySha256": "2ea0471bc46d09a9f33b6b2009ae2f4a5adae7ccfad62fd6895bfb8f7e2a2585",
+      "plainBodySha256": "6a6fbdb70b550e4750264475ced780e3283bf52573cc97eef8c58daf3283caf2",
+      "sourceTextSha256": "7562e5f7b2a0ce2a3554f068fb37163856e5e74501797b76cbdc3b9f908cf30e"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-009",
+      "title": "ティマール制の崩壊と軍・徴税の弱体化",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ティマール制の崩壊と軍・徴税の弱体化",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度と財源の変化",
+            "figures": [
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "ティマール制",
+                "caption": "説明：騎士の徴税権という制度が崩壊し、軍と徴税が弱まる",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        127,
+        128
+      ],
+      "htmlBodySha256": "035f5361eb2e7c7babb489bb58a39f40cbee8e4fa447fe982f4074250de4faa4",
+      "plainBodySha256": "9a25c6b181850549436bc4bba7b73fb66bd6ea32d9714d04baa1339203c0d402",
+      "sourceTextSha256": "6dcdc42e20247eacb0916eda15faa3a5613d121e62e111a2107578259078093b"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-010",
+      "title": "アーヤーンとイェニチェリの自立",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "アーヤーンとイェニチェリの自立",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "中央政府を弱める二つの役割",
+            "figures": [
+              {
+                "image": "ottoman/ayan-notable.png",
+                "name": "アーヤーン",
+                "caption": "説明：徴税請負で地方有力者が自立する",
+                "kind": "group",
+                "identity": "group:ayan-notable",
+                "temporalRole": "current"
+              },
+              {
+                "image": "ottoman/janissary-soldier.png",
+                "name": "イェニチェリ軍団",
+                "caption": "説明：特権階級となりスルタンの政治を妨げる",
+                "kind": "group",
+                "identity": "group:janissary-soldier",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        127,
+        128
+      ],
+      "htmlBodySha256": "7f9d80eb16d51beb03413e1d45579a4a764396d4c561e2730ba386e2a8c4e12b",
+      "plainBodySha256": "61aaf974d66858d997ffadc798c3387ae1d8c3ca3c6fb05092800c64e1fe5f38",
+      "sourceTextSha256": "3766b16081480d3fbb083c4f705d2493ab9aa88e2d2d8654e3068801babc273d"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-011",
+      "title": "セリム3世の新軍とイェニチェリの反発",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "セリム3世の新軍とイェニチェリの反発",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/selim-iii.png",
+                "name": "セリム3世",
+                "caption": "説明：新軍をつくったがイェニチェリの反発で殺される。流血や処刑の絵は描かない",
+                "kind": "person",
+                "identity": "person:selim-iii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "改革と反発を分ける",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ottoman-soldiers.png",
+                "name": "西洋式の新軍",
+                "caption": "説明：ニザーム＝ジェディットを整備しようとする",
+                "kind": "group",
+                "identity": "group:ottoman-soldiers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "ottoman/janissary-soldier.png",
+                "name": "イェニチェリ",
+                "caption": "説明：特権を失うことに反発する",
+                "kind": "group",
+                "identity": "group:janissary-soldier",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "セリム3世"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        128
+      ],
+      "htmlBodySha256": "3e509b8469f06330c2af52f89753b477b4459889bc70df8200b2bfde24753302",
+      "plainBodySha256": "ca6f6a9c15c4640565c4beb8b750cc73d5b9a633992bbfb4b718ad0a0e9bdc49",
+      "sourceTextSha256": "a97be20e55a52bf0c0b96689bd17b57b310240bf7b0a2094b20e6e5e92be275c"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-012",
+      "title": "ナポレオン遠征とムハンマド＝アリーの派遣",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ナポレオン遠征とムハンマド＝アリーの派遣",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン",
+                "caption": "説明：過去のエジプト遠征の背景を参照する",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "reference"
+              },
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：オスマン帝国によって派遣される。本文にない出発港・旅程を補わない",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ナポレオン遠征とムハンマド＝アリーの派遣",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "ナポレオン",
+        "ムハンマド＝アリー"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        128
+      ],
+      "htmlBodySha256": "0953a1b1039d06b94a0cd4d627730a8f19833b9d04b7f5968013a313360af820",
+      "plainBodySha256": "f62d622c43d8eab529a0d61679dbecc41369b67d74b9de08a538ed0ac28ff8b8",
+      "sourceTextSha256": "60003c17e8fa949ce6992e1342e1b51fe868b6d871231c643d249ea47f0a2e96"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-013",
+      "title": "英国撤退とエジプトの混乱",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "英国撤退とエジプトの混乱",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン",
+                "caption": "説明：ナポレオン本人と本文の改革・国内政治・国際関係を参照する。所在地や発言は補わない",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "英国撤退とエジプトの混乱",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "ナポレオン"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        128
+      ],
+      "htmlBodySha256": "37893dedc97259a9ad19cd0185c9a32ac8bb0dd93f278a2f4564174723d1e01b",
+      "plainBodySha256": "27c09ec6ec12808c69ce7b3df117b22c4521b3e5e12988605dea8107ada22533",
+      "sourceTextSha256": "f71c29ca8f7b538d92299d7d69f11fa7c0c4806c09ad1ee9cf595a8097354a42"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-014",
+      "title": "カイロ市民の支持で総督となる",
+      "mapActors": [
+        {
+          "name": "ムハンマド＝アリー",
+          "image": "modern-c01-l01/muhammad-ali.png",
+          "kind": "person",
+          "identity": "person:muhammad-ali",
+          "at": [
+            31.235,
+            30.044
+          ],
+          "bubble": "説明：混乱を収め、カイロ市民の支持で総督となる"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "カイロ市民の支持で総督となる",
+        "groups": [
+          {
+            "label": "統治を支持する側と認める側",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "カイロ市民",
+                "caption": "説明：市民の支持が総督就任につながる",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "オスマン帝国の承認",
+                "caption": "説明：認めざるを得なくなる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "本文の範囲を確認する",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "改革・現地・構想の違い",
+                "caption": "説明：原文の明記を確認し、所在地・出発地・旅程・発言を補わない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "ムハンマド＝アリー"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        128
+      ],
+      "htmlBodySha256": "f88af0ce76a1e33d9191b6ac66084c3504b4c2bf63c2e1fdb1e56df2ea31703c",
+      "plainBodySha256": "6d8583030c725eb4ed64c9249cd296f0cd8d7033c64628ed3e617c56460d369c",
+      "sourceTextSha256": "81aa0140bb7e39da57864e23bfcbcdad9c85a0a61e46690ac07f209d5b2f3998"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-015",
+      "title": "ムハンマド＝アリーの軍制と財政改革",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ムハンマド＝アリーの軍制と財政改革",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：徴兵制・西欧式軍団・直接課税で近代化を進める",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "軍と財政の二つの改革",
+            "figures": [
+              {
+                "image": "modern-c01-l01/egyptian-soldiers.png",
+                "name": "西欧式の軍団",
+                "caption": "説明：徴兵制を導入し軍を編成する",
+                "kind": "group",
+                "identity": "group:egyptian-soldiers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "直接課税",
+                "caption": "説明：徴税請負をやめ人びとへ直接課税する",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "ムハンマド＝アリー"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        129
+      ],
+      "htmlBodySha256": "6ca128281afc18bf07a7ccbc6d6c085ad99c6e00b18b3e4e1fa38cb85c3e1c92",
+      "plainBodySha256": "8836dce9f848aee29b6c51ec94276d006633b1247ebc986cc265bc9579436b21",
+      "sourceTextSha256": "78ccf1b4aebb07fb46c5e2a90ccd100c1fbc6a85635c856626ad71797061f877"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-016",
+      "title": "スーダン征服とエジプトの自立",
+      "mapActors": [
+        {
+          "name": "スーダンを征服するエジプト軍",
+          "image": "modern-c01-l01/egyptian-soldiers.png",
+          "kind": "group",
+          "identity": "group:egyptian-soldiers",
+          "at": [
+            30,
+            16
+          ],
+          "bubble": "説明：原文の支配地拡大の現地を示す。総督本人の旅程は補わない"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "スーダン征服とエジプトの自立",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：スーダンを征服して支配地を拡大する。総督本人の進軍先は固定しない",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "スーダン征服とエジプトの自立",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "ムハンマド＝アリー"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        129
+      ],
+      "htmlBodySha256": "9af4581124e7fa0bf42dc949769cf3afe7d4f1fe8edc14ca3f399629bfcdcb72",
+      "plainBodySha256": "079413e2020b55c8035cf0d4f8a2b6f981369210b5a0c95282c1832a8051b0cb",
+      "sourceTextSha256": "a3d680560113883818391d2524e83f666954d1a6c28bd6181b472b6933b2db79"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-017",
+      "title": "ギリシアとワッハーブ王国への支援",
+      "mapActors": [
+        {
+          "name": "ワッハーブ王国を征服するエジプト軍",
+          "image": "modern-c01-l01/egyptian-soldiers.png",
+          "kind": "group",
+          "identity": "group:egyptian-soldiers",
+          "at": [
+            45,
+            25
+          ],
+          "bubble": "説明：ワッハーブ王国では征服、ギリシアでは勝てなかったという違いを保持"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ギリシアとワッハーブ王国への支援",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：支援を求められ、ワッハーブ王国を征服したがギリシアでは勝てない",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ギリシアとワッハーブ王国への支援",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "ムハンマド＝アリー"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        129
+      ],
+      "htmlBodySha256": "2f65a9837f4fb464161d6f57d982ad8badfadb589b43a6976ebb41ae88fb5b9f",
+      "plainBodySha256": "7f0a34961a59cfe82a005fe5d0485d9a7152bff0bbef3ce8f3aaaa8baf9a15fd",
+      "sourceTextSha256": "dc7b13cde70adb19ebafaf3d7044b6a7d6d3e60486f9202f2cfd9bbaef591d7f"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-018",
+      "title": "シリアをめぐる第1次エジプト＝トルコ戦争",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "シリアをめぐる第1次エジプト＝トルコ戦争",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：キュタヒヤ条約でシリアの領有権を得る",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "シリアをめぐる第1次エジプト＝トルコ戦争",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "ムハンマド＝アリー"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        129
+      ],
+      "htmlBodySha256": "cd87ad2f006e59aa144cdcd6a775be4593f0578cbca2a2ca82b54ce7f0cf5f83",
+      "plainBodySha256": "46d6af2a81ceff9749282a09f523098a780f9be43bb8da2f1b62566947b30db8",
+      "sourceTextSha256": "f50bda2c7e371b268956e60407f1ad189e32aac4807895bd891833ae55130acb"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-019",
+      "title": "世襲権の要求と列強4国の支援",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "世襲権の要求と列強4国の支援",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：エジプト・シリアの世襲権を要求するが、4国の支援に対抗できない",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "世襲権の要求と列強4国の支援",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "ムハンマド＝アリー"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        129
+      ],
+      "htmlBodySha256": "4c8bb39f236e28f7b7accb064f0acdf308d2b4307a74a89e2dbc8054e8d03ed5",
+      "plainBodySha256": "1eb5dfee2f45647a98ba7d3902b848d8be3ac77e03a111e324b21d9cf6d8486f",
+      "sourceTextSha256": "6a149872b6fd06d4e5e953cc5630d31c86087b91cb12cd59da2381552c243c4f"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-020",
+      "title": "シリアを放棄しエジプト・スーダンの世襲権へ",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "シリアを放棄しエジプト・スーダンの世襲権へ",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：シリアの領有権を放棄し、エジプト・スーダンの世襲権のみ認められる",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "領有権と世襲権の結果",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "シリアの放棄",
+                "caption": "説明：領有権を放棄する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "エジプト・スーダンの世襲権",
+                "caption": "説明：認められた範囲を確認し、完全独立と同じ結果へまとめない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "ムハンマド＝アリー"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        129
+      ],
+      "htmlBodySha256": "bf898815ba6e1a62c12566fc82486eed33f28d84472211cd2383de7f4b21e5a1",
+      "plainBodySha256": "e7af2733fda3496daf7074f58ec58687e2ea5033c1928508cb7d59180c364a75",
+      "sourceTextSha256": "4e872f10f55b7fb987b84d4d753bebf224d0e2697d536afa808163b239af3e07"
+    },
+    {
+      "sceneId": "modern-c02-l07-p01-021",
+      "title": "両国を悩ませるヨーロッパの進出",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "両国を悩ませるヨーロッパの進出",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "両国を悩ませるヨーロッパの進出",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        129
+      ],
+      "htmlBodySha256": "e0d66e15b0b28880f2fdcee1b008bc4ec002fca50e151ae179683b364b3ac898",
+      "plainBodySha256": "8caa0e4bbdd1d88a2931df5e46fda4d8aa2c777b7a9fb15c2ff540d2573e2366",
+      "sourceTextSha256": "77550092234175867991fc04f083ab16036ecd19c0595ffc3d9b8a4b1948f8da"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-001",
+      "title": "マフムト2世：イェニチェリ解散と軍の再編",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "マフムト2世：イェニチェリ解散と軍の再編",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/mahmud-ii.png",
+                "name": "マフムト2世",
+                "caption": "説明：イェニチェリを解散し西洋式の常備軍へ切り替える",
+                "kind": "person",
+                "identity": "person:mahmud-ii",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/muhammad-ali.png",
+                "name": "ムハンマド＝アリー",
+                "caption": "説明：西洋式軍団の活躍が軍改革のきっかけとなる参照",
+                "kind": "person",
+                "identity": "person:muhammad-ali",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "廃止する軍と整える軍",
+            "figures": [
+              {
+                "image": "ottoman/janissary-soldier.png",
+                "name": "イェニチェリ軍団",
+                "caption": "説明：解散した旧軍団。砲撃や流血を絵にしない",
+                "kind": "group",
+                "identity": "group:janissary-soldier",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/ottoman-soldiers.png",
+                "name": "西洋式の常備軍",
+                "caption": "説明：新しい軍の役割。特定の同じ兵士が着替えたという切替ではない",
+                "kind": "group",
+                "identity": "group:ottoman-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "マフムト2世",
+        "ムハンマド＝アリー"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        129
+      ],
+      "htmlBodySha256": "6c2a70f7381780fa44484da1133150a9ca7659cb41b7c8250d8edf68a2746b35",
+      "plainBodySha256": "f3182698a2b63bd5965fa48a7aaf49be8fe28a726395b4d9e8a33d0c31519a62",
+      "sourceTextSha256": "e79be04e85198e70687649ed8a8317fbe15baaa9712a0f2dce962c3d25c0b310"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-002",
+      "title": "軍の再編と中央集権化",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "軍の再編と中央集権化",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "地方の権力を抑える",
+            "figures": [
+              {
+                "image": "ottoman/ayan-notable.png",
+                "name": "アーヤーン",
+                "caption": "説明：地方有力者の勢力を抑える",
+                "kind": "group",
+                "identity": "group:ayan-notable",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "財政難への対応",
+                "caption": "説明：軍再編の費用と中央集権化を結びつける",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        129
+      ],
+      "htmlBodySha256": "a238895c464cd80808a0b1b48ba0b3bc4cfb8a01057af16565d8063f50c0c6ee",
+      "plainBodySha256": "7b07d7970164bd0a8fc8b9086a1bdfb0d620f3187f12e13aecd7a40c6d8b7871",
+      "sourceTextSha256": "e8752b59e9134be30a53d80cd7803561469e512ccb792240d78f45eb91fc873e"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-003",
+      "title": "英通商条約と国内産業の衰退",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "英通商条約と国内産業の衰退",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "自由貿易と国内産業への影響",
+            "figures": [
+              {
+                "image": "modern-c01-l01/merchant-cargo.png",
+                "name": "イギリス製品",
+                "caption": "説明：流入する製品",
+                "kind": "prop",
+                "identity": "prop:merchant-cargo",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/steam-factory.png",
+                "name": "国内産業",
+                "caption": "説明：衰退する国内の産業の役割",
+                "kind": "prop",
+                "identity": "prop:steam-factory",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        129,
+        130
+      ],
+      "htmlBodySha256": "d1664e995fd53be125297e9e887981c29553f0a19a6324e45ea006aeca56d06c",
+      "plainBodySha256": "344c681b14b4e819df94118ae4a474fa4364b1e97b150dedbbf229ccc07a6dee",
+      "sourceTextSha256": "6ef32074d7d10e9368c53d3b563ba81dab482f0824778b0f2b3763b201eed358"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-004",
+      "title": "アブデュルメジト1世とタンジマート開始",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "アブデュルメジト1世とタンジマート開始",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/abdulmejid-i.png",
+                "name": "アブデュルメジト1世",
+                "caption": "説明：英仏の支援を得るためにギュルハネ勅令で改革を発表する",
+                "kind": "person",
+                "identity": "person:abdulmejid-i",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c02-l07/mahmud-ii.png",
+                "name": "マフムト2世",
+                "caption": "説明：戦争中に急死した前スルタンの参照",
+                "kind": "person",
+                "identity": "person:mahmud-ii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "アブデュルメジト1世とタンジマート開始",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "アブデュルメジト1世",
+        "マフムト2世"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        130
+      ],
+      "htmlBodySha256": "37fdf744a659caf0fed35b1f877009521ee17de749d8024653730be74f10ac9c",
+      "plainBodySha256": "061195329d5eb09a599a1b2133466516125078e8f23e5cf512f1096de12eddfa",
+      "sourceTextSha256": "2be1e3d2f27d8f1a61415ccc1d78164c3a8f75eb7fcdb49767fe2de5fbe71881"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-005",
+      "title": "ギュルハネ勅令が目指した改革",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ギュルハネ勅令が目指した改革",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "目指した制度と実際の実施を区別",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "公平な課税・裁判・平等・収賄禁止",
+                "caption": "説明：行政・財政・立法・司法・軍事の幅広い改革を目指すが実施は難しい",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        130
+      ],
+      "htmlBodySha256": "e216bc0def3b0f62c7ab3720b88800d40ada3d6ff1f1173d3dedc8022adcb925",
+      "plainBodySha256": "286217499528fd29d10b9f1c912a88888f5ed326ad214427a941dff47faa8350",
+      "sourceTextSha256": "28188edc09010680a37a232a84e1776dcdcb5e62587bf01226d8df9dc53f1384"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-006",
+      "title": "保守派の抵抗と対外危機",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "保守派の抵抗と対外危機",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "改革の逆戻りと危機",
+            "figures": [
+              {
+                "image": "ottoman/ayan-notable.png",
+                "name": "アーヤーン",
+                "caption": "説明：利権を失うことに反発し徴税請負が復活する",
+                "kind": "group",
+                "identity": "group:ayan-notable",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "クリミア戦争",
+                "caption": "説明：改革の途中で対外危機に襲われる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        130
+      ],
+      "htmlBodySha256": "a40c807e5e9092f1674842dcd7311e09a6ea24d49a91c86f41e558c804f8ea04",
+      "plainBodySha256": "61759c9de8557537e2972677ed4fb58877baa53b836fa8e88a27715384ab75b6",
+      "sourceTextSha256": "269334af7b91208866f79165f26f43de88b50d9debeca93050d6612f8e874076"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-007",
+      "title": "クリミア勝戦の代償とオスマン主義",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "クリミア勝戦の代償とオスマン主義",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "支援を得た勝戦と平等の保障",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "英仏の支援",
+                "caption": "説明：支援で勝ったという結果だけではない",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ムスリムと非ムスリムの社会的平等",
+                "caption": "説明：要求された権利の保障とオスマン主義を確認する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        130,
+        131
+      ],
+      "htmlBodySha256": "63527034193c9241cc18ee76b74cf53e52ff8f9a84023465d861a26a2d652041",
+      "plainBodySha256": "a0c0940cda95c0639dbb295861ff3a3a0c00b381316c0941db2a250fafb8d135",
+      "sourceTextSha256": "53358e09ed831492ad69d5a20b7bac57b47fde40f1222e78fe2bde622f94496f"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-008",
+      "title": "外債と借款で国家財政が破綻する",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "外債と借款で国家財政が破綻する",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "戦費と返済不能",
+            "figures": [
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "イギリスへの借款",
+                "caption": "説明：戦費を借り、戦後も借款を重ねる",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "外債の利子不払い",
+                "caption": "説明：返済できず国家財政が破綻する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        131
+      ],
+      "htmlBodySha256": "09aad8b23a23b71e7258c7915375688b97914bc6a2d31bf7e579c9708bbeafdc",
+      "plainBodySha256": "714145cf8c9c7867ec4d3c4e8e8d2090f9ebddd140cc810db2a250d947b5c130",
+      "sourceTextSha256": "5ba6c66b3f18cd2f749242f6d15b3abcfb8dcd449792245cb09dca75f19b9730"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-009",
+      "title": "新オスマン人：立憲君主政を求める",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "新オスマン人：立憲君主政を求める",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/abdulaziz.png",
+                "name": "アブデュルアジーズ",
+                "caption": "説明：新オスマン人のデモで退位するスルタン",
+                "kind": "person",
+                "identity": "person:abdulaziz",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "近代教育と立憲政への要求",
+            "figures": [
+              {
+                "image": "modern-c01-l01/liberal-students.png",
+                "name": "知識人の一般的な役割",
+                "caption": "説明：民族や特定の顔を同定しない一般の知識人の模式絵",
+                "kind": "group",
+                "identity": "group:liberal-students",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "専制政治から立憲君主政へ",
+                "caption": "説明：原文の政治制度の要求を参照する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "アブデュルアジーズ"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        131
+      ],
+      "htmlBodySha256": "2260a8d6f1ebbbdf3c6193c1759da289bd34d4b31219bb84a16396b30b701a65",
+      "plainBodySha256": "37d902df2e0413a7498819b5e0d1b9e3b08ceb7d022b26ed227c4d14b33edfed",
+      "sourceTextSha256": "866f181349595a510316290aaaf6c3adf8a8688aa757a86d17318f4b4b35502d"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-010",
+      "title": "アブデュルハミト2世の即位",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "アブデュルハミト2世の即位",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/abdulhamid-ii.png",
+                "name": "アブデュル＝ハミト2世",
+                "caption": "説明：アブデュル＝ハミト2世本人と本文の改革・国内政治・国際関係を参照する。所在地や発言は補わない",
+                "kind": "person",
+                "identity": "person:abdulhamid-ii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "アブデュルハミト2世の即位",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "アブデュル＝ハミト2世"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        131
+      ],
+      "htmlBodySha256": "09b84c049304f923445673065a4a382260242d6df232a805f26be6c448a13b26",
+      "plainBodySha256": "9fbad1c40ba697a089456d97e990bdf706e62280ca0baba610c964a029ffbaa9",
+      "sourceTextSha256": "e02339b31bf019fb423f9a3d665e13b4d103803272acc19a5ed41abaf89a1814"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-011",
+      "title": "ミドハト＝パシャと憲法発布",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ミドハト＝パシャと憲法発布",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/midhat-pasha.png",
+                "name": "ミドハト＝パシャ",
+                "caption": "説明：大宰相となりオスマン帝国憲法を起草する",
+                "kind": "person",
+                "identity": "person:midhat-pasha",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c02-l07/abdulhamid-ii.png",
+                "name": "アブデュル＝ハミト2世",
+                "caption": "説明：アブデュル＝ハミト2世本人と本文の改革・国内政治・国際関係を参照する。所在地や発言は補わない",
+                "kind": "person",
+                "identity": "person:abdulhamid-ii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ミドハト＝パシャと憲法発布",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "ミドハト＝パシャ",
+        "アブデュル＝ハミト2世"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        131
+      ],
+      "htmlBodySha256": "d9518de2e24ca9aa27e0f8a133b243cf869ce88e422846ba0268ca9aa5d68978",
+      "plainBodySha256": "d60a4fb8a7024f814d244ad2f66c6fc00f94a1d67ee13a78dea5047e1b67634b",
+      "sourceTextSha256": "43fb3bacffa59488cfadf90f23bb1a610f6bae0fc5a1114b1344b7850b143541"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-012",
+      "title": "タンジマートの集大成としての憲法",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "タンジマートの集大成としての憲法",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "タンジマートの集大成としての憲法",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        131
+      ],
+      "htmlBodySha256": "c2a30da7cf5c62a63b37d0fe19c0774677623afc4e5ac71b7b07de2cba62ef37",
+      "plainBodySha256": "45c41d4154d646f49efcf43795a900631a3f150fde55a074fe24dc5478f74445",
+      "sourceTextSha256": "f2a316165ddfcc923b7a29db16a770f64a464fd9fdba747da6aeb6ed7e56e15e"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-013",
+      "title": "二院制議会で政治の不正を批判",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "二院制議会で政治の不正を批判",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "議会と批判の対象",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "スルタン任命の上院と各州選出の下院",
+                "caption": "説明：二院制の選び方の違い",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "汚職・不正・癒着",
+                "caption": "説明：議員が政治の不正を批判する",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        131
+      ],
+      "htmlBodySha256": "5048c63de1f13d03813df2926e7735225a86e25ab14de7a22ca525a46c2e14b6",
+      "plainBodySha256": "05430b3f2ad9384ad9332046b3995019b230deb69d6d6f15897479dfc1508d24",
+      "sourceTextSha256": "c5b028789286ec7e1f32f72b926eaa72171172cd052ea954176d3e549b9c3645"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-014",
+      "title": "ミドハト＝パシャの流刑",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ミドハト＝パシャの流刑",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/midhat-pasha.png",
+                "name": "ミドハト＝パシャ",
+                "caption": "説明：流刑とされるが、行き先と旅程は原文にない",
+                "kind": "person",
+                "identity": "person:midhat-pasha",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c02-l07/abdulhamid-ii.png",
+                "name": "アブデュル＝ハミト2世",
+                "caption": "説明：アブデュル＝ハミト2世本人と本文の改革・国内政治・国際関係を参照する。所在地や発言は補わない",
+                "kind": "person",
+                "identity": "person:abdulhamid-ii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "政治の批判から弾圧へ",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "流刑",
+                "caption": "説明：行き先を原文外から補わず人物を移動線へ乗せない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "ミドハト＝パシャ",
+        "アブデュル＝ハミト2世"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        132
+      ],
+      "htmlBodySha256": "3fafebc813579281107fd8d95182aa0d7921231ce04a45a1d74d8869ddecce57",
+      "plainBodySha256": "045e268afd0fe04721da8e0340273560d6e312e98636eedd83356850f0d2e858",
+      "sourceTextSha256": "5e86df7082dd5c124f1633d0dc9c2f93cc04b25558e58a76e45a374ea45ca1a0"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-015",
+      "title": "露土戦争を口実に憲法と議会を停止",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "露土戦争を口実に憲法と議会を停止",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/abdulhamid-ii.png",
+                "name": "アブデュル＝ハミト2世",
+                "caption": "説明：アブデュル＝ハミト2世本人と本文の改革・国内政治・国際関係を参照する。所在地や発言は補わない",
+                "kind": "person",
+                "identity": "person:abdulhamid-ii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度の停止と専制政治",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "憲法停止・議会閉鎖",
+                "caption": "説明：戦争を口実に立憲政を停止する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "以後30年間",
+                "caption": "説明：専制政治が続いた期間を原文で確認する",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "アブデュル＝ハミト2世"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        132
+      ],
+      "htmlBodySha256": "5b63788338f74634559b16c8232657d7888e7511830c29b13ee3fc32c3bf8db0",
+      "plainBodySha256": "fd0599612cbe63244787e2fb7e3d557e750b3db47e0065595e862ecf471c6e36",
+      "sourceTextSha256": "a3ef08367ffdc33ddcb363fb46e1c7333634cae8e1db79e56805b42f68e341fe"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-016",
+      "title": "サン＝ステファノ条約で領土を失う",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "サン＝ステファノ条約で領土を失う",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "サン＝ステファノ条約で領土を失う",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        132
+      ],
+      "htmlBodySha256": "c245f038d2a062df8e52c2656c5aa69db408a8f711153c6e90e159cff035dcf6",
+      "plainBodySha256": "e270caab011cc8a4a7c384d45465549151f0e74c0c54b7720b6d2063aa3725d8",
+      "sourceTextSha256": "cb12d92a6d240c217e9504628e70c81ff2031a266799a9a8d760abed63cc0784"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-017",
+      "title": "ベルリン会議後のブルガリアとバルカン",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ベルリン会議後のブルガリアとバルカン",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "独立と自治の違い",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ブルガリアの宗主下の自治",
+                "caption": "説明：ベルリン会議後の地位。単純なロシア併合と置き換えない",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "バルカン半島の領土喪失",
+                "caption": "説明：列強の対立の裏で帝国の領土が減る",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        132
+      ],
+      "htmlBodySha256": "0fa13219ec48e86e5d9428ab3e015d32c5500465194078c3084f6ce3b0b74f50",
+      "plainBodySha256": "96f8b67c9438076c3814a947f52746cf43e24d69a387cf4750f8d7592cdc9101",
+      "sourceTextSha256": "f077d89bf46bfa2475ec6a41e61c68bdaaf557526bf369c90f46863b719c6c11"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-018",
+      "title": "アフガーニーとパン＝イスラーム主義",
+      "mapActors": [
+        {
+          "name": "アフガーニー",
+          "image": "modern-c02-l07/jamal-al-din-afghani.png",
+          "kind": "person",
+          "identity": "person:jamal-al-din-afghani",
+          "at": [
+            28.98,
+            41.01
+          ],
+          "bubble": "説明：イスタンブルに招かれる。出発地不明なので旅程は描かない"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "アフガーニーとパン＝イスラーム主義",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/abdulhamid-ii.png",
+                "name": "アブデュル＝ハミト2世",
+                "caption": "説明：アブデュル＝ハミト2世本人と本文の改革・国内政治・国際関係を参照する。所在地や発言は補わない",
+                "kind": "person",
+                "identity": "person:abdulhamid-ii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "アフガーニーの提唱した思想",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "非西洋的な改革",
+                "caption": "説明：イスラーム教徒が連携し自らの手で文明を復活させる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "アフガーニー",
+        "アブデュル＝ハミト2世"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        132
+      ],
+      "htmlBodySha256": "ec0ab074b528a6455cd43b5e9511326e1816cf02b066e4aa067e193ca4d579c7",
+      "plainBodySha256": "5f69d2964975c8060389963643ff103906340a81cd6d495c72102b2d9a50f777",
+      "sourceTextSha256": "1ff424ee37005b71ba3ae2d86de34d8a0becc4af56664370a9ee1adf6b0d5d4f"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-019",
+      "title": "アブデュルハミト2世による利用",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "アブデュルハミト2世による利用",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/abdulhamid-ii.png",
+                "name": "アブデュル＝ハミト2世",
+                "caption": "説明：アブデュル＝ハミト2世本人と本文の改革・国内政治・国際関係を参照する。所在地や発言は補わない",
+                "kind": "person",
+                "identity": "person:abdulhamid-ii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "思想の利用の違い",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "カリフの下への統合",
+                "caption": "説明：スルタンが提唱を利用した方向と支持を確認し、教徒全員の実移住や集合にしない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原書133ページの独立コラム：派遣と遭難",
+            "figures": [
+              {
+                "image": "modern-c02-l07/ertugrul-frigate.png",
+                "name": "エルトゥールル号",
+                "caption": "説明：原書133ページ。日本への友好とアジアでの宣伝を目的に派遣。帰路に紀伊大島沖で遭難する",
+                "kind": "prop",
+                "identity": "prop:ertugrul-frigate",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c02-l07/kii-island-rescuers.png",
+                "name": "紀伊大島",
+                "caption": "説明：原書133ページ。住民の救助で69名が救出された。遭難者と救助者を区別し死者を絵にしない",
+                "kind": "group",
+                "identity": "group:kii-island-rescuers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原書133ページの独立コラム：送還と後の協力",
+            "figures": [
+              {
+                "image": "modern-c02-l07/hiei-kongo-ships.png",
+                "name": "比叡と金剛",
+                "caption": "説明：原書133ページ。明治政府が生存者を送り届ける。木造のエルトゥールル号と別の船",
+                "kind": "prop",
+                "identity": "prop:hiei-kongo-ships",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ムスタファ＝ケマル（本人名の参照）",
+                "caption": "説明：原書133ページ。後のトルコ革命を成功させ、感謝を忘れないため遭難事件を学校で教えることにした。別人の顔を用いず後代の参照として示す",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "アブデュル＝ハミト2世"
+      ],
+      "textOnlyPeople": [
+        {
+          "name": "ムスタファ＝ケマル",
+          "reason": "独立コラムの後代の本人名参照。別人の顔と固定所在地を補わない。"
+        }
+      ],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourceFigureReferences": [
+        {
+          "name": "エルトゥールル号",
+          "page": 133,
+          "lines": [
+            249
+          ],
+          "reason": "133ページの独立コラムの派遣・救助・送還・後代の参照を模式欄で示す。通常本文へ混ぜず、出発港や旅程を原文外から補わない。"
+        },
+        {
+          "name": "紀伊大島",
+          "page": 133,
+          "lines": [
+            251
+          ],
+          "reason": "133ページの独立コラムの派遣・救助・送還・後代の参照を模式欄で示す。通常本文へ混ぜず、出発港や旅程を原文外から補わない。"
+        },
+        {
+          "name": "比叡と金剛",
+          "page": 133,
+          "lines": [
+            251
+          ],
+          "reason": "133ページの独立コラムの派遣・救助・送還・後代の参照を模式欄で示す。通常本文へ混ぜず、出発港や旅程を原文外から補わない。"
+        },
+        {
+          "name": "ムスタファ＝ケマル",
+          "page": 133,
+          "lines": [
+            251
+          ],
+          "reason": "133ページの独立コラムの派遣・救助・送還・後代の参照を模式欄で示す。通常本文へ混ぜず、出発港や旅程を原文外から補わない。"
+        }
+      ],
+      "sourcePages": [
+        132
+      ],
+      "htmlBodySha256": "44e9b70c469cc38f0321212733af68c6b7268d4f51d9c5ce90bf8d0b62b02e4f",
+      "plainBodySha256": "d5e17345966001d11a265c93d794e72db917d4275045116b3386d74310ce51a7",
+      "sourceTextSha256": "3b90e18fd1cfbf2c888b1ae7f8adeaa11d6214a3c2939dca0982ede6c8f15304"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-020",
+      "title": "アフガーニーの幽閉と病死",
+      "mapActors": [
+        {
+          "name": "アフガーニー",
+          "image": "modern-c02-l07/jamal-al-din-afghani.png",
+          "kind": "person",
+          "identity": "person:jamal-al-din-afghani",
+          "at": [
+            28.98,
+            41.01
+          ],
+          "bubble": "説明：幽閉されイスタンブルで病死する。流血や死の姿を描かない"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "アフガーニーの幽閉と病死",
+        "groups": [
+          {
+            "label": "提唱と利用の違いの帰結",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "幽閉と病死",
+                "caption": "説明：本人の考えとスルタンの利用は同じではなかった",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "本文の範囲を確認する",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "改革・現地・構想の違い",
+                "caption": "説明：原文の明記を確認し、所在地・出発地・旅程・発言を補わない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "アフガーニー"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        132
+      ],
+      "htmlBodySha256": "9cccfe542a26aee2abd1b2f69cf3efc3c6ef1a7e8afb8c1eb4eec19a349877d3",
+      "plainBodySha256": "5d068210d7fefc16362da142a173f61ead063187ee5ff5d222775bdabc5c95a3",
+      "sourceTextSha256": "41b7324def2ac65e3f95d2eda8ca6524a07b7291cdbde055cbe7fe0692de11e4"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-021",
+      "title": "西欧的教育を受けた知識人の危機感",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "西欧的教育を受けた知識人の危機感",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/selim-iii.png",
+                "name": "セリム3世",
+                "caption": "説明：セリム3世本人と本文の改革・国内政治・国際関係を参照する。所在地や発言は補わない",
+                "kind": "person",
+                "identity": "person:selim-iii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "近代教育と立憲政への要求",
+            "figures": [
+              {
+                "image": "modern-c01-l01/liberal-students.png",
+                "name": "知識人の一般的な役割",
+                "caption": "説明：民族や特定の顔を同定しない一般の知識人の模式絵",
+                "kind": "group",
+                "identity": "group:liberal-students",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "専制政治から立憲君主政へ",
+                "caption": "説明：原文の政治制度の要求を参照する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "セリム3世"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        132
+      ],
+      "htmlBodySha256": "8b164a5f74e4133c13d07ac2864ab73605066d8b088f29101fe7d6dfd1acfe65",
+      "plainBodySha256": "9cb309b9a94397bd303001ca4f184d4c68a2910ab67c8f06effbfe7646319091",
+      "sourceTextSha256": "540c1aafe2c52294a2bdf0956257b6af7dc7df66e0abd06719990f9a534cf386"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-022",
+      "title": "統一と進歩委員会の結成",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "統一と進歩委員会の結成",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "近代教育と立憲政への要求",
+            "figures": [
+              {
+                "image": "modern-c01-l01/liberal-students.png",
+                "name": "知識人の一般的な役割",
+                "caption": "説明：民族や特定の顔を同定しない一般の知識人の模式絵",
+                "kind": "group",
+                "identity": "group:liberal-students",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "専制政治から立憲君主政へ",
+                "caption": "説明：原文の政治制度の要求を参照する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        132
+      ],
+      "htmlBodySha256": "0058609dc7cf9ef9c823c28fe728b3fafaef2bb078bd7c91b295be2ff75e50ed",
+      "plainBodySha256": "37456fab67c492d889963780f08590b531548fd4e9ee1ef900996a5575cf9e6b",
+      "sourceTextSha256": "ec3ac1a0c9c06986a72617705206ef6c436b27010a0011deb6271e01df9e2d0a"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-023",
+      "title": "パリで亡命者を吸収する青年トルコ人",
+      "mapActors": [
+        {
+          "name": "パリで活動する委員会員",
+          "image": "modern-c01-l01/liberal-students.png",
+          "kind": "group",
+          "identity": "group:liberal-students",
+          "at": [
+            2.35,
+            48.86
+          ],
+          "bubble": "説明：亡命先はパリ。ロシアからの亡命者も吸収し活動を続ける。精密な移動旅程は補わない"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "パリで亡命者を吸収する青年トルコ人",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/abdulhamid-ii.png",
+                "name": "アブデュル＝ハミト2世",
+                "caption": "説明：委員会の活動を弾圧するスルタンの参照",
+                "kind": "person",
+                "identity": "person:abdulhamid-ii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "パリで亡命者を吸収する青年トルコ人",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "アブデュル＝ハミト2世"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        132
+      ],
+      "htmlBodySha256": "4c5588e1fe22cf3844417afc207fec7a1c79265e423df84fe0340dcce708fb1d",
+      "plainBodySha256": "eea42330b3a978b71f3e122f1ba86ccc48b9c80b939349e500b8d581d400428d",
+      "sourceTextSha256": "c75e1a27da42a7023265cde237e855dd9dee4302c977a87a151edb7e45d84b9c"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-024",
+      "title": "日露戦争の勝利がアジアへ与えた影響",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "日露戦争の勝利がアジアへ与えた影響",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "戦争の結果と立憲政への希望",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "日本の勝利の影響",
+                "caption": "説明：影響関係であり、日本人が各国へ旅した線にしない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "1905年",
+                "caption": "説明：オスマン帝国とイランの運動に与えた影響を確認する",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        134
+      ],
+      "htmlBodySha256": "1d720ae46370e287298f879c535a68e7ee30f4d94afe5464d480dfe19ff910b7",
+      "plainBodySha256": "fa350b3c49bc1859a186f34ab494ea4b06b91d0177cff94513db500763252e74",
+      "sourceTextSha256": "fbb6ee022943b747299172ab5fe39a7a969887ad508f976580ec02e1e32cb4a6"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-025",
+      "title": "立憲政の復活を求める委員会",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "立憲政の復活を求める委員会",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "立憲政の復活を求める委員会",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        134
+      ],
+      "htmlBodySha256": "7a9bbfbad21f01ba21b57e064d41203591f68c6a9efd0d4da74d9bd43f4f3560",
+      "plainBodySha256": "7a9bbfbad21f01ba21b57e064d41203591f68c6a9efd0d4da74d9bd43f4f3560",
+      "sourceTextSha256": "e7ba67ec6d0339d01f7b095f9cb185f9f01f42736d1d04577de7a1aa2e093b0d"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-026",
+      "title": "一部のパリの委員会員と将校がサロニカで合流",
+      "mapActors": [
+        {
+          "name": "パリから合流する委員会員の一部",
+          "image": "modern-c01-l01/liberal-students.png",
+          "kind": "group",
+          "identity": "group:liberal-students",
+          "at": [
+            22.94,
+            40.64
+          ],
+          "bubble": "説明：一部の委員会員がサロニカで合流。全員ではなく概略の移動",
+          "route": 0,
+          "offset": [
+            -28,
+            0
+          ]
+        },
+        {
+          "name": "サロニカで合流する青年将校",
+          "image": "modern-c02-l07/young-turk-officers.png",
+          "kind": "group",
+          "identity": "group:young-turk-officers",
+          "at": [
+            22.94,
+            40.64
+          ],
+          "bubble": "説明：陸軍士官学校を卒業したエリート将校が主導権を握る",
+          "offset": [
+            28,
+            0
+          ]
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "一部のパリの委員会員と将校がサロニカで合流",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "運動の主導権の変化",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "青年将校が主導する革命運動",
+                "caption": "説明：知識人の立憲政要求と軍人の参加を区別する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        134
+      ],
+      "htmlBodySha256": "7d5d4b4c47434e7fa7c1f017e11cbfd76aece4a66bf2fb82a8db68e50d257cca",
+      "plainBodySha256": "ba1808f1c645f2d546018d8c33a84766e8dd2643002104bb50240dc035803533",
+      "sourceTextSha256": "76d7184258c505c137a81f7e315b68d4232c06b5bfcb1b0f8e87a713185084b8"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-027",
+      "title": "1908年：青年トルコ革命と第二次立憲政",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "1908年：青年トルコ革命と第二次立憲政",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/abdulhamid-ii.png",
+                "name": "アブデュル＝ハミト2世",
+                "caption": "説明：アブデュル＝ハミト2世本人と本文の改革・国内政治・国際関係を参照する。所在地や発言は補わない",
+                "kind": "person",
+                "identity": "person:abdulhamid-ii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "1908と1909の別の出来事",
+            "figures": [
+              {
+                "image": "modern-c02-l07/young-turk-officers.png",
+                "name": "青年トルコ人の将校",
+                "caption": "説明：革命と翌年の反乱を区別する",
+                "kind": "group",
+                "identity": "group:young-turk-officers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "立憲政復活とスルタンの交替",
+                "caption": "説明：同じ日に起きた出来事としてまとめない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "アブデュル＝ハミト2世"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        134
+      ],
+      "htmlBodySha256": "71228fa572219ae5e104b712fb86db3eb63c19448b4fc902e331a58a5e930bbe",
+      "plainBodySha256": "492b03637623cea9a3f36b680f3401539943e0eb8e9bd25f7f9e7442ca101173",
+      "sourceTextSha256": "80b8a4436939a920e8961974a55b8df007f92b7e99083a3807e7bc6a8d5b273e"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-028",
+      "title": "1909年：旧スルタン廃位とメフメト5世",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "1909年：旧スルタン廃位とメフメト5世",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/mehmed-v.png",
+                "name": "メフメト5世",
+                "caption": "説明：新スルタンとして即位する。旧スルタンと別人",
+                "kind": "person",
+                "identity": "person:mehmed-v",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c02-l07/abdulhamid-ii.png",
+                "name": "アブデュル＝ハミト2世",
+                "caption": "説明：アブデュル＝ハミト2世本人と本文の改革・国内政治・国際関係を参照する。所在地や発言は補わない",
+                "kind": "person",
+                "identity": "person:abdulhamid-ii",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "1908と1909の別の出来事",
+            "figures": [
+              {
+                "image": "modern-c02-l07/young-turk-officers.png",
+                "name": "青年トルコ人の将校",
+                "caption": "説明：革命と翌年の反乱を区別する",
+                "kind": "group",
+                "identity": "group:young-turk-officers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "立憲政復活とスルタンの交替",
+                "caption": "説明：同じ日に起きた出来事としてまとめない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "メフメト5世",
+        "アブデュル＝ハミト2世"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        134
+      ],
+      "htmlBodySha256": "dc3079f9a67f29639f3e14463f96bdb334e80e77eda27d957e21c186d3afeeb0",
+      "plainBodySha256": "05eb3b0ee9d83703594129ba1626dac2582ab30ace3e2ecec29b132491713b12",
+      "sourceTextSha256": "df956322ade9e7414d33e989c1d19efb29ed784070e4a4504856f5c3861d65e5"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-029",
+      "title": "責任内閣制へ：近代化の期待",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "責任内閣制へ：近代化の期待",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "責任内閣制へ：近代化の期待",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        134
+      ],
+      "htmlBodySha256": "c57651c67fbab54d75eb71acc4b076ea9bc951646fb0e88a680cb2136b1b12b6",
+      "plainBodySha256": "64a5be41144f8d9d0bfe58f95fe8c49218c35a3b51d14d33e3969b31adc98059",
+      "sourceTextSha256": "b25e61acbae1316e60c5f2300551ae1fe62c426b4daec7a2ddf17e58e63d23f0"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-030",
+      "title": "ボスニア併合とブルガリアの独立",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ボスニア併合とブルガリアの独立",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ボスニア併合とブルガリアの独立",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        134,
+        135
+      ],
+      "htmlBodySha256": "d7d1f494297fc041f19eab73816e62cfa9c57784adb1b7e5ac3f4f279ff3d16f",
+      "plainBodySha256": "54066a0d5b1eefebcdd69416ecfaa57994d4ae34becaf0b04e31d73d87665272",
+      "sourceTextSha256": "da00e331b3e4da0393b8d896c27f10e0e78a027c577ed5202111ef829ed50ca9"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-031",
+      "title": "イタリア＝トルコ戦争でリビアを失う",
+      "mapActors": [
+        {
+          "name": "トリポリに攻め込むイタリア軍",
+          "image": "modern-c01-l04/italian-royal-soldiers.png",
+          "kind": "group",
+          "identity": "group:italian-royal-soldiers",
+          "at": [
+            13.19,
+            32.89
+          ],
+          "bubble": "説明：原文の攻撃先に静止して示す。出発港と実際の軍路は補わない"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "イタリア＝トルコ戦争でリビアを失う",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "イタリア＝トルコ戦争でリビアを失う",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        134,
+        135
+      ],
+      "htmlBodySha256": "85961964baced1cb6d5b07e058a72da3d7f03a75c6e8a0f1fb96b714d9ec36dc",
+      "plainBodySha256": "8d31f8ebd5489d2baaab2c75acd4e6d99f188f9d48cfe045b953b3886b920e9a",
+      "sourceTextSha256": "9e7a6dac198a219f737c8f42a5470a0c1dcb9b0f537aea25405f85d0614eac66"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-032",
+      "title": "バルカン同盟と第1次バルカン戦争",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "バルカン同盟と第1次バルカン戦争",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "バルカン同盟と第1次バルカン戦争",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        134,
+        135
+      ],
+      "htmlBodySha256": "69769b212cf1a2e389db5470dfbd48ebb58ab09aad199b8eaf4bc839070ca262",
+      "plainBodySha256": "efec039eeacc2fa6efcfbaacd934d66eec6985bedbc31c3748b0dfb7ffeccd77",
+      "sourceTextSha256": "6e3c7232f27f894be32f1638630f156a8b8a32d1cb51ea163af2e773d189f205"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-033",
+      "title": "対外危機とパン＝トルコ主義",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "対外危機とパン＝トルコ主義",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "構想は実際の人びとの移動ではない",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "全世界のトルコ人を結集する構想",
+                "caption": "説明：トルコ民族主義の考え方。中央アジアやインドから全員が移住した線にはしない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        135
+      ],
+      "htmlBodySha256": "73b9b50fc774765b2afd5b4afe11a552f93918c01d40cc69c193086b204b91f2",
+      "plainBodySha256": "710e3d97c963a9756a8701af592ae7bbf4912109b4084dab05479f6fdd145e3a",
+      "sourceTextSha256": "933f1ee5f05db4b105bf8b7a41aa529224c91e003ab49743d32e413e09894f1c"
+    },
+    {
+      "sceneId": "modern-c02-l07-p02-034",
+      "title": "青年トルコの独裁とドイツへの接近",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "青年トルコの独裁とドイツへの接近",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "改革から独裁、後の戦争へ",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ドイツへの接近",
+                "caption": "説明：外交関係であり人や軍隊の移動ではない",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "第一次世界大戦の敗戦",
+                "caption": "説明：後の帰結を先取りする原文の説明",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        135
+      ],
+      "htmlBodySha256": "6f902855116cdac0f2cb9557fd10a937a5e5263f9491d6d72f0eff45024d9fbe",
+      "plainBodySha256": "596df7cb146fdb885f0e63f48b059a90ee25b65eb51ef96be7c1aca16078d9f5",
+      "sourceTextSha256": "ca9ed027352818e3073d51c257372da0e644a55ebf2346ad03c8c4f5c83cc7ab"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-001",
+      "title": "アーガー＝ムハンマドがガージャール朝を建国",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "アーガー＝ムハンマドがガージャール朝を建国",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "safavid/agha-mohammad.png",
+                "name": "アーガー＝ムハンマド",
+                "caption": "説明：18世紀末にイランを統合し王朝を建てる",
+                "kind": "person",
+                "identity": "person:agha-mohammad",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "アーガー＝ムハンマドがガージャール朝を建国",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "アーガー＝ムハンマド"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        136
+      ],
+      "htmlBodySha256": "6fc1db8d4e38e913d31c42c094410ffafcb5c0ac9d64173a39b6d60106fcd083",
+      "plainBodySha256": "94b3c51c62c2363d567927048b054ff86601f2a7cf39d6c29bfef4f6f596dcd1",
+      "sourceTextSha256": "f1c15b5856954141e227b3aa49beac03b65c2bd4b28b56512596c04d3afa7f58"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-002",
+      "title": "トルコ人のシャーとイラン人の関係",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "トルコ人のシャーとイラン人の関係",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "国家と民族の関係を区別",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "イラン人とトルコ人の国王",
+                "caption": "説明：民族の関係であり、現代トルコからの住民の移住線ではない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        136
+      ],
+      "htmlBodySha256": "7481b10824cab8c4e3d9d6025b4588769e8e96dc1237cdd712d499acf51084f2",
+      "plainBodySha256": "96d9d150ab98990ae0ab38038c2fb3058956d688330331a9b125395c0aa91d14",
+      "sourceTextSha256": "8c6a926020d8a8beddc6dbd434873b4782a9f3f0f9671eff40f6e3789608c714"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-003",
+      "title": "イランにも列強の侵略が始まる",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "イランにも列強の侵略が始まる",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イランにも列強の侵略が始まる",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        136,
+        137
+      ],
+      "htmlBodySha256": "e7a4c4dc82b10b4822a5bd2fd992e31cd9034f367b3762fee85cd323cd215214",
+      "plainBodySha256": "8e877d9e21d0413dc079e964b330091415a95899e675c81ec3b84d694356d5f6",
+      "sourceTextSha256": "bcfa5a851230cfb35e561558048c13f043377b4b3a48853103bdbb5ca8025127"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-004",
+      "title": "インド防衛とロシアの進出が競合する",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "インド防衛とロシアの進出が競合する",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "インド防衛とロシアの進出が競合する",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        136,
+        137
+      ],
+      "htmlBodySha256": "a68da98a19229d1bf60a48ef2da5ab2445059dfe0e53c56ef396dc75cd458866",
+      "plainBodySha256": "5c0bcc2fd3f8a47ebaa7b1ab5c850db07283cc8061025db6780be7b0692a9228",
+      "sourceTextSha256": "d0c1a544a4992cd9b9836a126500bceb245048a4d5900b2be07ec0cdae14054c"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-005",
+      "title": "ロシアとの戦争とトルコマンチャーイ条約",
+      "mapActors": [
+        {
+          "name": "グルジアに侵攻するロシアの軍",
+          "image": "modern-c01-l01/russian-soldiers.png",
+          "kind": "group",
+          "identity": "group:russian-soldiers",
+          "at": [
+            43.5,
+            42
+          ],
+          "bubble": "説明：原文の侵攻先を静止で示す。軍路と本人の移動は補わない"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ロシアとの戦争とトルコマンチャーイ条約",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "領土と権利の喪失",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "アルメニア・アゼルバイジャンの北半分",
+                "caption": "説明：ロシアへの割譲",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "治外法権と関税自主権の喪失",
+                "caption": "説明：領土の変化と制度の権利を区別する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        137
+      ],
+      "htmlBodySha256": "4c6d6e493b0e37aa8fbe964ff63c6fce2afaea2745df9d46c975781cb733d523",
+      "plainBodySha256": "40cb68168672bfb05d14b9144f857b68c078d77364a0552987f4e3e2f52da7cd",
+      "sourceTextSha256": "7e8448b073326c255836ca0718afc0f02c850e9d5e1869eb4e812b043cc79935"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-006",
+      "title": "中央アジアでも英国がロシアを警戒する",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "中央アジアでも英国がロシアを警戒する",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "中央アジアでも英国がロシアを警戒する",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        137
+      ],
+      "htmlBodySha256": "78403e5d2f657f35da3f646851c5f7f3b6797d06f01cf01d02a1f41033affe4c",
+      "plainBodySha256": "ef47539f786bbb4156a0a1ed294f25be63cbe5bbf8941f0aaab2e23239c6a529",
+      "sourceTextSha256": "cf585b20ee1f390500166818f5dba004b8471b64feff590c4ef2d68a893e0110"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-007",
+      "title": "輸入品による経済の打撃と救世主への期待",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "輸入品による経済の打撃と救世主への期待",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "経済の打撃と信仰への期待",
+            "figures": [
+              {
+                "image": "modern-c01-l01/merchant-cargo.png",
+                "name": "機械製の綿織物",
+                "caption": "説明：輸入により国内の絹織物業が崩壊する",
+                "kind": "prop",
+                "identity": "prop:merchant-cargo",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c02-l07/iranian-ulama.png",
+                "name": "ウラマーと民衆",
+                "caption": "説明：生活が脅かされ救世主への期待が生まれる",
+                "kind": "group",
+                "identity": "group:iranian-ulama",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        137
+      ],
+      "htmlBodySha256": "41bd845fbec2e783f221218480dbe5867a5add7894fc10fb15bb62fbe015ea73",
+      "plainBodySha256": "f54a4d9aa646f54c213a13528eebb0fc480014f78dae54eb5061fca7e6df7478",
+      "sourceTextSha256": "4e570bce7a677d9b774ceffed54e3f1c12d3735129068e4c964463da6438de2d"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-008",
+      "title": "ガージャール朝への民族的な反発",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ガージャール朝への民族的な反発",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "ガージャール朝への民族的な反発",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        137
+      ],
+      "htmlBodySha256": "535add9a65065aba4a9aa8e674991c951ac259bd3dbf2c0c9f97854033aa59bd",
+      "plainBodySha256": "cf1e8ff320e06a53b657c71aa4a0f94c3fcdb9843d823c21171fd2eda5e838a3",
+      "sourceTextSha256": "4a58e72909ce49be205e8393b69b3966632124d135e1338ed70d3bd84ee08596"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-009",
+      "title": "サイイド＝アリー＝ムハンマドとバーブ教",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "サイイド＝アリー＝ムハンマドとバーブ教",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/sayyid-ali-muhammad.png",
+                "name": "サイイド＝アリー＝ムハンマド",
+                "caption": "説明：新しい宗教と社会改革を主張する教祖本人。反乱の指揮者として動かさない",
+                "kind": "person",
+                "identity": "person:sayyid-ali-muhammad",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "新しい宗教と社会改革の主張",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "商取引・財産権・男女平等",
+                "caption": "説明：教祖の主張であり、本人の反乱指揮ではない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "サイイド＝アリー＝ムハンマド"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        137
+      ],
+      "htmlBodySha256": "28999b33624eaa268574f5f2e00c9d01823a2c08c65fdfef875ad0978c7ff43e",
+      "plainBodySha256": "95d4eb7cc779cf7928c5e177ef3a30b23a486304241d2ed6217b2a12d08bee63",
+      "sourceTextSha256": "0eab710531f8c87de40acc9ee304e487bfadd63a5b439c4d99732b5e4ba40012"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-010",
+      "title": "信徒の増加と各地の反乱",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "信徒の増加と各地の反乱",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "教祖と信徒の行動を区別",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "バーブ教の信徒",
+                "caption": "説明：一般民衆の役割による模式絵。信徒が各地で反乱を起こす",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "教祖は反乱と直接関係しない",
+                "caption": "説明：次の原文の説明と合わせて本人を指揮者にしない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        137
+      ],
+      "htmlBodySha256": "e5689a1b0de5971d2dac59e4d40a4ac3644bc30d98d51f6a170bfdf7d9617a4d",
+      "plainBodySha256": "06505c8b44e277cf658ab31203e3e4a2bbcdfbc8354cd3710974c45a5f3fe007",
+      "sourceTextSha256": "fe9bcee9821f453fa33978e1070a8ccdfbfccd0f77cdea3d9bf085746395e73f"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-011",
+      "title": "教祖の処刑と信徒の弾圧",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "教祖の処刑と信徒の弾圧",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/sayyid-ali-muhammad.png",
+                "name": "サイイド＝アリー＝ムハンマド",
+                "caption": "説明：反乱とは直接関係なかったが危険人物として処刑された。処刑の絵は描かない",
+                "kind": "person",
+                "identity": "person:sayyid-ali-muhammad",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原文の帰結を文字で確認",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "教祖の処刑と信徒の弾圧",
+                "caption": "説明：直接関係のない教祖と反乱した信徒を区別し、処刑や暴力を絵にしない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "サイイド＝アリー＝ムハンマド"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        137
+      ],
+      "htmlBodySha256": "b6a5677bcba263b2e3854d3fa8673a2e8c5653c4c3ec84f0a64066b5f083b817",
+      "plainBodySha256": "29d216e6d2eef9ecf4bb7495cdbbbfed07b151bd7cfbd96e1dd0f53d3ab6bb02",
+      "sourceTextSha256": "a21f5f186b5897501f521c8da9d6b137244d556e998b81ad1cdedd4c2ee69a6c"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-012",
+      "title": "バーブ教とイランのナショナリズム",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "バーブ教とイランのナショナリズム",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "バーブ教とイランのナショナリズム",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        137
+      ],
+      "htmlBodySha256": "6cd19de76409a1ddf16e519d2b259b6a62768f72289ad1a16279964aba4fce87",
+      "plainBodySha256": "edf2d53ace07fdfad75407597ffedea0ae442316bb6997e983d52133be75f827",
+      "sourceTextSha256": "e1ce858cbdc5430eeb15fc5a02779e001b0b518852bdd14667e5bee424ee4efd"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-013",
+      "title": "近代化の財源を利権の譲渡に求める",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "近代化の財源を利権の譲渡に求める",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/tax-ledger.png",
+                "name": "近代化の財源を利権の譲渡に求める",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:tax-ledger",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        137,
+        138
+      ],
+      "htmlBodySha256": "998f26b2e8f58724a93d74e005b002c1cff08a7f5e76df6c216c31ef8cb2117d",
+      "plainBodySha256": "415939492f10c9fbaf91043bf7704117d00302c7b66696b448f00fb78b2615e9",
+      "sourceTextSha256": "4c53f007c47df9b95c65482ec8ada6be6513e3a05fe3e19acb4b0cafba006c88"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-014",
+      "title": "鉱山・銀行・電信線・販売権の切り売り",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "鉱山・銀行・電信線・販売権の切り売り",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "鉱山・銀行・電信線・販売権の切り売り",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        137,
+        138
+      ],
+      "htmlBodySha256": "8d781fdaca3ac4731de0f41b4c150970dfee4a8bb185f5eccc44eec6e7489774",
+      "plainBodySha256": "c19faa229cf58f2918b668ad6e945b47f15f77487390924b5d9acab48f04d3c4",
+      "sourceTextSha256": "dbb202669ea730d5b08da074e4e0c073a90d75a89a61725c741a67b4439ae377"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-015",
+      "title": "タバコ利権の譲渡への反発",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "タバコ利権の譲渡への反発",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/jamal-al-din-afghani.png",
+                "name": "アフガーニー",
+                "caption": "説明：民族的危機として利権譲渡に反対し抵抗を呼びかける",
+                "kind": "person",
+                "identity": "person:jamal-al-din-afghani",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "独占権への反発",
+            "figures": [
+              {
+                "image": "modern-c02-l07/tobacco-cargo.png",
+                "name": "タバコの独占生産・販売権",
+                "caption": "説明：英国業者への利権と、イランの生産者・商人・民衆・ウラマーの反発",
+                "kind": "prop",
+                "identity": "prop:tobacco-cargo",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "アフガーニー"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        138
+      ],
+      "htmlBodySha256": "98c417f2315640b7cc7406d1f19f3d15c79c309e656f09c674c651710d7d731d",
+      "plainBodySha256": "ddda93f9ed36355704b73ce2f83c4d28917687b7c617eac69d8df5a571727e2e",
+      "sourceTextSha256": "8ab435cfc7d45ad651d935cd2b05183e3360663154d9bc4bc84635a48415abf3"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-016",
+      "title": "ウラマーの呼びかけと全国のボイコット",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ウラマーの呼びかけと全国のボイコット",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "禁煙だけではない政治運動",
+            "figures": [
+              {
+                "image": "modern-c02-l07/iranian-ulama.png",
+                "name": "ウラマー",
+                "caption": "説明：宗教の指導者の発表が全国の運動へ広がる",
+                "kind": "group",
+                "identity": "group:iranian-ulama",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c02-l07/tobacco-cargo.png",
+                "name": "タバコ＝ボイコット運動",
+                "caption": "説明：反イギリス・反ガージャール朝の象徴",
+                "kind": "prop",
+                "identity": "prop:tobacco-cargo",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        138
+      ],
+      "htmlBodySha256": "52dd2c46df3a086e6c318a7d8a671a590deb64d485b4616aedc0c45ad060cda7",
+      "plainBodySha256": "77d706c3f5b4b4dda41b65d710fb617db49c01fb18c79cb233b3d6d69def6b2f",
+      "sourceTextSha256": "766c051008c616f35d6a68a5b175afc53c76c0d358393b7b02d292885e076b17"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-017",
+      "title": "テヘランのデモとタバコ利権破棄",
+      "mapActors": [
+        {
+          "name": "テヘランでデモする一般民衆",
+          "image": "ottoman/ottoman-resident.png",
+          "kind": "group",
+          "identity": "group:ottoman-resident",
+          "at": [
+            51.39,
+            35.69
+          ],
+          "bubble": "説明：一般民衆の模式絵。大規模なデモとなりシャーが利権破棄を発表する"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "テヘランのデモとタバコ利権破棄",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "運動の帰結",
+            "figures": [
+              {
+                "image": "modern-c02-l07/tobacco-cargo.png",
+                "name": "タバコ利権の破棄",
+                "caption": "説明：シャーが独占利権を破棄する",
+                "kind": "prop",
+                "identity": "prop:tobacco-cargo",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        138
+      ],
+      "htmlBodySha256": "e8d92bff75804dfb42fe7442c9af2e1429fd14ef131a1c14db9149c952ac6f15",
+      "plainBodySha256": "0059c00ab92d1875577199425a86b4c4e6bd1f178cc6b914fad59a803d8c661d",
+      "sourceTextSha256": "83939d2b636097197e9a5ab18ca1c2bd6f649d62fbcf09a8f39dd310ad773c0f"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-018",
+      "title": "民族意識とウラマーの影響力",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "民族意識とウラマーの影響力",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "その後の改革運動の中心",
+            "figures": [
+              {
+                "image": "modern-c02-l07/iranian-ulama.png",
+                "name": "ウラマー",
+                "caption": "説明：民族意識が高まり、改革運動への影響力が強まる",
+                "kind": "group",
+                "identity": "group:iranian-ulama",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        138
+      ],
+      "htmlBodySha256": "20fb1f6281ab13f7129ca989c87567781b71074caccefe44c5e5695e0e5d7d67",
+      "plainBodySha256": "33f280ea9d655c03a56098e05ad505649bf6026ff384d29e4744bd7db5cdae7e",
+      "sourceTextSha256": "052e993aa4f9c296f2a90790a04c19adcbedca2b651fbcbb439944070bfc2892"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-019",
+      "title": "ロシアがウズベク3ハン国へ進出する",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ロシアがウズベク3ハン国へ進出する",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "保護国と併合の違い",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ブハラ＝ハン国・ヒヴァ＝ハン国",
+                "caption": "説明：ロシアの保護国となる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "コーカンド＝ハン国",
+                "caption": "説明：併合される。3国を同じ地位にまとめない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        138
+      ],
+      "htmlBodySha256": "a5162e4ea60fbbc6591e1debc738e65444448ef7273a434d6206e867c5c09e3b",
+      "plainBodySha256": "acb33f106ecc63ae6774224ff12de35094ecca7549c6deca660ce46c625263a5",
+      "sourceTextSha256": "b1040df990ce7743e733cb671b7306b0c5c42d10bc59afd9d6fe9edc41a47fcb"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-020",
+      "title": "ヤークーブ＝ベクの新疆進出とロシアのイリ占領",
+      "mapActors": [
+        {
+          "name": "ヤークーブ＝ベク",
+          "image": "modern-c02-l07/yaqub-beg.png",
+          "kind": "person",
+          "identity": "person:yaqub-beg",
+          "at": [
+            85,
+            42
+          ],
+          "bubble": "説明：新疆に攻め込んで独立国をつくろうとする。出発地・正確な旅程と成立の断定を補わない"
+        },
+        {
+          "name": "イリ地方を占領するロシアの軍",
+          "image": "modern-c01-l01/russian-soldiers.png",
+          "kind": "group",
+          "identity": "group:russian-soldiers",
+          "at": [
+            81.2,
+            43.9
+          ],
+          "bubble": "説明：原文の占領先に静止して示す"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ヤークーブ＝ベクの新疆進出とロシアのイリ占領",
+        "groups": [
+          {
+            "label": "別々の国・勢力の行動",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "独立国をつくる企図",
+                "caption": "説明：ヤークーブ＝ベクの企図とロシアの占領を同じ軍として動かさない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "本文の範囲を確認する",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "改革・現地・構想の違い",
+                "caption": "説明：原文の明記を確認し、所在地・出発地・旅程・発言を補わない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "ヤークーブ＝ベク"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        138
+      ],
+      "htmlBodySha256": "b786898615b71f182ea5c4720784b30dee2f40a0deb530c0efb054e9aecb1c05",
+      "plainBodySha256": "18c45189cc34340294d0dfb834af42c7a8ed6f28d5548c41a8ece49fc6d1b853",
+      "sourceTextSha256": "1558c91639ad1a07c1ba7b4f06662f6231ba15c25737d76337860d86f3ae0e78"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-021",
+      "title": "左宗棠の軍とイリ条約による返還",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "左宗棠の軍とイリ条約による返還",
+        "groups": [
+          {
+            "label": "本文の本人（所在地を固定しない）",
+            "figures": [
+              {
+                "image": "modern-c02-l07/zuo-zongtang.png",
+                "name": "左宗棠",
+                "caption": "説明：清朝が送った軍の中心となる。原文にない本人の精密な現場所在地は補わない",
+                "kind": "person",
+                "identity": "person:zuo-zongtang",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c02-l07/yaqub-beg.png",
+                "name": "ヤークーブ＝ベク",
+                "caption": "説明：ヤークーブ＝ベク本人と本文の改革・国内政治・国際関係を参照する。所在地や発言は補わない",
+                "kind": "person",
+                "identity": "person:yaqub-beg",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "清朝の派兵と条約の結果",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "清朝が送った軍",
+                "caption": "説明：ヤークーブ＝ベクを破る。左宗棠の所在地は原文外から固定しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イリ地方の返還",
+                "caption": "説明：ロシアと条約を結び、清朝が取り戻す",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [
+        "左宗棠",
+        "ヤークーブ＝ベク"
+      ],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        138
+      ],
+      "htmlBodySha256": "d44d844bb14e627fc7d7634b55334536746c51482ec4de08c4abd9cf0e0a60fb",
+      "plainBodySha256": "d8989f4d94958667dd8fcf6e119cdeaa0deb6e587b40fb1d49cfe62a0e2985a7",
+      "sourceTextSha256": "e44d84c186a4902ed827f8aaba2e9f25dad5ddd0700dae1ee49073c06b7d22b2"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-022",
+      "title": "インド側からの侵攻と第2次アフガン戦争",
+      "mapActors": [
+        {
+          "name": "インド側から侵攻するイギリスの軍",
+          "image": "modern-c01-l02/british-soldiers.png",
+          "kind": "group",
+          "identity": "group:british-soldiers",
+          "at": [
+            66,
+            33
+          ],
+          "bubble": "説明：本文が明記する侵攻方向。精密な軍路や出発都市ではない",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "インド側からの侵攻と第2次アフガン戦争",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "戦争後の地位",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "アフガニスタンの保護国化",
+                "caption": "説明：第2次アフガン戦争後の結果を確認する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        138
+      ],
+      "htmlBodySha256": "fe5ed030b976cd8d08edc5b598d482dca20f3df51bb3f3e8f20b288c3be47e2c",
+      "plainBodySha256": "a38d53eb3aa0c101c28294ab0dc77677f16e05df63706b3398b7b3e45cb5c31e",
+      "sourceTextSha256": "817b4b525e9785a4c595d4015b599fe80857932bf87385da870b12c7a09dbe5e"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-023",
+      "title": "日露戦争の影響とイランの立憲要求",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "日露戦争の影響とイランの立憲要求",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "日露戦争の影響とイランの立憲要求",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        138,
+        139
+      ],
+      "htmlBodySha256": "5b9151adfba08c548215f409779654674a32f2db18fb21eb1ab443cfde4b727c",
+      "plainBodySha256": "06e978c589f2e09eaa2afe47be6e125d8045e1fd3addb24ddaf87c01ab1749f7",
+      "sourceTextSha256": "89f6bca39963e8060d3cd02ec2c189017bb8ff5e40c88b7778b99244ce37c3a2"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-024",
+      "title": "テヘランのストライキと公使館の立てこもり",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "テヘランのイギリス公使館",
+          "image": "modern-c02-l07/british-legation-tehran.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:british-legation-tehran",
+          "at": [
+            51.39,
+            35.69
+          ],
+          "size": 64,
+          "bubble": "説明：1万人以上が立てこもった施設の模式絵。住所や建築の精密な復元ではない"
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "テヘランのストライキと公使館の立てこもり",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "立憲政を求める側と約束する側",
+            "figures": [
+              {
+                "image": "modern-c02-l07/iranian-ulama.png",
+                "name": "ウラマーを中心とする商人たち",
+                "caption": "説明：ストライキと立てこもりが広がる",
+                "kind": "group",
+                "identity": "group:iranian-ulama",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "シャーの憲法・議会の約束",
+                "caption": "説明：運動を抑えるために約束する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        138,
+        139
+      ],
+      "htmlBodySha256": "a7208991abeb5c6b0a9fd785e1bb6e029a9c5f1a03f7ff7ee71feac20bdb6b1b",
+      "plainBodySha256": "f367ce061d40bba1850e97a582e724a9907f30584a9afc2b66d6ecfd14319516",
+      "sourceTextSha256": "58f3f61a7351f452ac29970d63731ae4c0eee71d5c84e8e3d87711b9a8df3f37"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-025",
+      "title": "1906年：憲法と国民議会の成立",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "1906年：憲法と国民議会の成立",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "1906年：憲法と国民議会の成立",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        139
+      ],
+      "htmlBodySha256": "9b75b0a8c57e15e361928997dbbfdbd3505ebe8484f10f7a413018c74d280c3e",
+      "plainBodySha256": "5bf41ba2ace082eacd1a81e7f24715c79c0e421aaa7b96de091bda66cd226701",
+      "sourceTextSha256": "89d134b4296864739ea5772bf85f113d1b68c46c05440433a11ce464f92e9a9e"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-026",
+      "title": "英露協商と英国の黙認",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "英露協商と英国の黙認",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "軍事介入と黙認は別の行動",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "英露協商",
+                "caption": "説明：イランの勢力圏について英露が取り決める",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "イギリスの黙認",
+                "caption": "説明：ロシアの介入を黙認。英露共同軍の侵攻として動かさない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        139
+      ],
+      "htmlBodySha256": "9945193f183e8c07eb630b6d86941a820974272d050a0dc8455cc4ce47848112",
+      "plainBodySha256": "7e6ce94c51fabcc8aaac3cdf3bf655101109c5e2dde3f01e2aac789a558b57b9",
+      "sourceTextSha256": "c3790646274ebb208660710730944495a8297020276926e404588b40c9bd3dcb"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-027",
+      "title": "シャーのクーデタと議会解散",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "シャーのクーデタと議会解散",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度・出来事の説明",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "シャーのクーデタと議会解散",
+                "caption": "説明：原文の制度や出来事を文字と模式的な道具で確認する。実物の文書や本人の発言を創作しない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        139
+      ],
+      "htmlBodySha256": "cdd5f6670742fef6fe888a7dbc4160f5325f59ca23f9906c1b1472322d787097",
+      "plainBodySha256": "aaa8db4bf27f42339534e21d50c4a64eaebc94e031337e74dde2eb6fe177b7ea",
+      "sourceTextSha256": "5624ef31a5137cc81afe94306a3d08b690e682c7d4142810aa41d22f88f2f9a4"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-028",
+      "title": "1911年：ロシア軍事介入で議会閉鎖",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "1911年：ロシア軍事介入で議会閉鎖",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "立憲派との対立と最終結果",
+            "figures": [
+              {
+                "image": "modern-c01-l01/russian-soldiers.png",
+                "name": "ロシア軍の軍事介入",
+                "caption": "説明：英国が黙認するなか、ロシアの軍事介入で最終的に議会閉鎖へ至る。軍路や精密な介入先は補わない",
+                "kind": "group",
+                "identity": "group:russian-soldiers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "議会の閉鎖",
+                "caption": "説明：1911年の結果を文字で確認する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        139
+      ],
+      "htmlBodySha256": "66cc399852975e7cdc4296a4a698fcb00f3bd86cecd700598d49b8d8bf183abd",
+      "plainBodySha256": "cfd12e173e20bdcaf5c038f1858f7c611cb201dee08b45f0a2f099c5e913ae19",
+      "sourceTextSha256": "33a4d6878df39690b1a1987020615679ab4895d89306520242498add2d856e24"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-029",
+      "title": "年号の確認と今回の結び",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "年号の確認と今回の結び",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原書139ページの年号欄",
+            "figures": [
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "年号のツボ",
+                "caption": "説明：上下二重ルビと色・太字の語呂も全文に保持する",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        139
+      ],
+      "htmlBodySha256": "981dbfcfa4c19d158aea6f02ed8ebee62868be1f88fa8718a2bf5cc8c80a0f80",
+      "plainBodySha256": "981dbfcfa4c19d158aea6f02ed8ebee62868be1f88fa8718a2bf5cc8c80a0f80",
+      "sourceTextSha256": "31fb1b5fa577e37454e7a0698a23325a1315e35036cbd451e53b9d8d81d360fc"
+    },
+    {
+      "sceneId": "modern-c02-l07-p03-030",
+      "title": "次回のインドと東南アジアへ",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "次回のインドと東南アジアへ",
+        "groups": [
+          {
+            "label": "改革を求める人びとと社会",
+            "figures": [
+              {
+                "image": "ottoman/ottoman-resident.png",
+                "name": "一般の民衆",
+                "caption": "説明：特定の個人や民族の同定ではなく一般の民衆の役割を参照する",
+                "kind": "group",
+                "identity": "group:ottoman-resident",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原文の次回案内",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "インドと東南アジア",
+                "caption": "説明：ヨーロッパ史とのつながりと日露戦争の影響を復習する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の改革と所在地、集団の役割、制度と権利、構想と実際の行動を分ける。模式欄の注釈は説明であり史実上の発言を創作した引用ではない。",
+      "sourcePages": [
+        139
+      ],
+      "htmlBodySha256": "87f81c9382ea6c9bbeb164a0596ecaec8e8af71f3cf7e1773619c9e6b308f1ec",
+      "plainBodySha256": "a00a12aa0222e9b2f34553cd690de958245ab69d6398bbdad957e46f67817921",
+      "sourceTextSha256": "93a544d23db1f95faa6ad00927f36a201b4e17ae78a836a7534e1886c64c9a5f"
+    }
+  ]
+}
