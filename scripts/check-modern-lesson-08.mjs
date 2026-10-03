@@ -134,11 +134,14 @@ for(const entry of modernNameCatalog) {
   entry.points.forEach(mapPoints);
 }
 for(const name of ['デュプレクス','クライヴ','ナオロジー','バネルジー','ティラク','ラッフルズ','阮福映','ピニョー','劉永福','ファン＝ボイ＝チャウ','ファン＝チュー＝チン','ディポネゴロ','ファン＝デン＝ボス','ホセ＝リサール','アギナルド','ラーマ4世','ラーマ5世'])assert.ok(modernNamesInText(name).some(entry=>entry.kind==='person'),'原文の本人名を識別する: '+name);
-for(const word of ['インドシナ','インドネシア','オランダ東インド会社','イギリス東インド会社','全インド＝ムスリム連盟','インド国民会議'])assert.ok(!modernNamesInText(word).some(entry=>entry.name==='インド'&&['region','place'].includes(entry.kind)),'組織名や別地域の一部からインドの所在地を補わない: '+word);
+for(const word of ['インドシナ','インドネシア','インド洋','オランダ東インド会社','イギリス東インド会社','全インド＝ムスリム連盟','インド国民会議'])assert.ok(!modernNamesInText(word).some(entry=>entry.name==='インド'&&['region','place'].includes(entry.kind)),'組織名や別地域・海域の一部からインドの所在地を補わない: '+word);
 for(const word of ['華僑','印僑','クシャトリヤ','ヒンドゥー教徒','イスラーム教徒','シパーヒー'])assert.ok(!modernNamesInText(word).some(entry=>entry.kind==='person'||['place','region'].includes(entry.kind)),'民族・宗教・役割を本人や所在地へしない: '+word);
 assert.ok(!modernNamesInText('ラーマ4世').some(entry=>entry.name==='ラーマ5世'),'2人のタイ国王を混同しない');
 assert.ok(!modernNamesInText('ファン＝チュー＝チン').some(entry=>entry.name==='ファン＝ボイ＝チャウ'),'2人のベトナム知識人を混同しない');
 for(const name of ['カーゾン法','ボーリング条約','サイゴン条約','フエ条約','ディーワーニー','パン＝イスラーム主義'])assert.ok(!modernNamesInText(name).some(entry=>entry.kind==='person'),'制度・条約・思想名から本文にない本人を補わない: '+name);
+for(const name of ['ベンガル管区','マドラス管区','ボンベイ管区'])assert.ok(modernNamesInText(name).some(entry=>entry.kind==='region')&&!modernNamesInText(name).some(entry=>entry.kind==='place'),'行政管区は同名の都市と区別する: '+name);
+for(const name of ['イギリス','フランス','ロシア'])assert.ok(modernNamesInText('英仏露').some(entry=>entry.name===name),'英仏露3国の明記をすべて取得する: '+name);
+assert.ok(!modernNamesInText('マニラ麻').some(entry=>['place','region'].includes(entry.kind)),'作物名の一部から都市マニラを補わない');
 const passageRecords=scenes.flatMap(scene=>scene.sourceText.passages.map((passage,index)=>({scene:scene.id,passage,text:scene.plainBody[index]})));
 for(const paragraph of selection.paragraphs) {
  const segments=passageRecords.filter(record=>record.passage.paragraph===paragraph.id),whole=plainSource(paragraph.markdown);
@@ -192,7 +195,15 @@ for(const [index,scene] of scenes.entries()) {
 for(const route of routes) { assert(scenes.some(scene=>scene.id===route.scene));assert(route.reason.length>0);assert(['move','campaign','rival','trade'].includes(route.kind)); }
 // 移動は本文の出発・到着や輸入等を根拠として保存し、権利の獲得を旅行にしない。
 const actionLines=new Set([87,89,93,99,115,130,144,168,182,188,218,242,308,326,328,338,344,380,402,422,430,445,463,465,473,475,498,510,530,538,550,552,556,560,562,578,592,598]);
-for(const route of routes){const scene=scenes.find(scene=>scene.id===route.scene);assert.ok(scene.sourceText.passages.some(p=>p.lines.some(line=>actionLines.has(line))),scene.id+': 原文の移動・輸入・侵攻などを示す行を根拠とする');assert.ok(route.points.length>=2&&route.reason.trim(),scene.id+': 出発と到着を示す根拠を記録する');}
+for(const route of routes){
+  const scene=scenes.find(scene=>scene.id===route.scene),planned=plan.find(page=>page.id===scene.id);
+  assert.ok(scene.sourceText.passages.some(p=>p.lines.some(line=>actionLines.has(line))),scene.id+': 原文の移動・輸入・侵攻などを示す行を根拠とする');
+  assert.ok(route.points.length>=2&&route.reason.trim(),scene.id+': 出発と到着を示す根拠を記録する');
+  const first=paragraphOrder.indexOf(planned.paragraphs[0]);
+  const evidence=[...planned.paragraphs,...(first>0&&sectionForLine(paragraphs.get(paragraphOrder[first-1]).lines[0])===scene.sourceText.part?[paragraphOrder[first-1]]:[])].map(id=>paragraphs.get(id).markdown).join('');
+  const mentioned=modernNamesInText(plainSource(evidence)).filter(entry=>['place','region'].includes(entry.kind)).flatMap(entry=>entry.points);
+  for(const endpoint of [route.points[0],route.points.at(-1)])assert.ok(mentioned.some(point=>Math.hypot(point[0]-endpoint[0],point[1]-endpoint[1])<.1),scene.id+': 出発・到着を親段落か直前段落に明示された地域・地点だけに限る');
+}
 const narrative=scenes.flatMap(scene=>scene.plainBody).join('');
 for(const phrase of ['アウターとして着るよね','その後、南インド','インド人の資本家','自分たちがイギリスの植民地支配','マラッカを占領したんだ','インド人低賃金労働者','東遊運動【ドンズー運動】','スマトラ島を確保','中国商人（華僑）がかかわっていた','フィリピン側もゲリラ戦','ビルマをインド帝国に併合'])assert.ok(narrative.includes(phrase),'紙面接続の全字句を保持: '+phrase);
 for(const phrase of ['農民を直接支配するライヤットワーリー制','自治権を認められた藩王国が残っている','スワラージ（自治）','宗主権を放棄','コーヒーだけは1916年まで','イギリス、フランス両国と外交交渉','近代化によってタイが独立国と認められていた'])assert.ok(narrative.includes(phrase),'原文の制度・段階・帰結を保持: '+phrase);
