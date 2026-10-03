@@ -54,8 +54,8 @@ function checkHTML(html) {
 assert.equal(selection.line_count,selection.lines.length);
 assert.deepEqual(selection.lines.map(line=>line.line),Array.from({length:selection.line_count},(_,i)=>i+1),'全原文行の欠落・重複');
 // 保存済みの分類を期待値にせず、原書の行形式から全行を独立に判定する。
-const expectedLineKind=text=>!text?'blank':/^## \d+$/.test(text)?'page':text.startsWith('|')?'table':text.startsWith('>')?(/^> 第[1-5]章/.test(plainSource(text))?'chapter-navigation':'quote'):text.startsWith('### ')&&/^### [1-4] /.test(plainSource(text))?'section-heading':text.startsWith('#### ')||/^### 近現代日本へのアプローチ/.test(plainSource(text))?'subheading':text.startsWith('### ')?'cover-heading':text.startsWith('<span')&&/^(?:第3回 アメリカ合衆国の発展|[1-4] (?:建国初期のアメリカ|アメリカ合衆国の領土拡大|南北戦争|南北戦争後のアメリカ))$/.test(plainSource(text))?'page-heading':'body';
-const kinds = new Set(['blank','page','cover-heading','body','subheading','table','quote','page-heading','section-heading','chapter-navigation']);
+const expectedLineKind=text=>!text?'blank':/^## \d+$/.test(text)?'page':text.startsWith('|')?'table':text.startsWith('>')?(/^> 第[1-5]章/.test(plainSource(text))?'chapter-navigation':'supplement'):text.startsWith('### ')&&/^### [1-4] /.test(plainSource(text))?'section-heading':text.startsWith('#### ')||/^### 近現代日本へのアプローチ/.test(plainSource(text))?'subheading':text.startsWith('### ')?'cover-heading':text.startsWith('<span')&&/^(?:第3回 アメリカ合衆国の発展|[1-4] (?:建国初期のアメリカ|アメリカ合衆国の領土拡大|南北戦争|南北戦争後のアメリカ))$/.test(plainSource(text))?'running-header':'body';
+const kinds = new Set(['blank','page','cover-heading','body','subheading','table','supplement','running-header','section-heading','chapter-navigation']);
 for(const line of selection.lines) {
   assert(kinds.has(line.kind),line.line);
   assert.equal(line.kind,expectedLineKind(line.text),line.line+': 原文行の分類を独立に照合');
@@ -64,7 +64,7 @@ for(const line of selection.lines) {
   if(line.kind==='blank')assert.equal(line.text,'','空行の分類');
   if(line.kind==='page')assert.equal(line.text,'## '+line.page,'ページ番号の分類');
   if(line.kind==='table')assert.ok(line.text.startsWith('|'),'図表行の分類');
-  if(line.kind==='quote'||line.kind==='chapter-navigation')assert.ok(line.text.startsWith('>'),'吹き出し・補足・章案内の分類');
+  if(line.kind==='supplement'||line.kind==='chapter-navigation')assert.ok(line.text.startsWith('>'),'吹き出し・補足・章案内の分類');
   if(line.kind==='body')assert.ok(line.text.trim()&&!/^[>#|]/.test(line.text),'通常本文へ見出し・表・補足を混ぜない');
 }
 assert.equal(selection.line_count,500,'原文の全500行');
@@ -155,7 +155,8 @@ for(const [index,scene] of scenes.entries()) {
   });
   const names = modernNamesInText(scene.plainBody.join(''));
   assert.equal(names.some(entry=>entry.kind==='person'&&entry.name==='リー'),scene.id==='modern-c01-l03-p03-016',scene.id+': リー本人は原文66ページの南軍指揮の場面だけに登場する');
-  assert.deepEqual(names.map(entry=>entry.key),audit.find(entry=>entry.scene === scene.id).names.map(normalize),'固定した場面別名称の記録');
+  const auditedNames=modernNamesInText(scene.title+'。'+scene.plainBody.join(''));
+  assert.deepEqual(auditedNames.map(entry=>normalize(entry.name)).toSorted(),audit.find(entry=>entry.scene === scene.id).names.map(normalize).toSorted(),scene.id+': 題名・本文を通読した場面別名称の記録');
   const expected = names.flatMap(entry=>entry.points.map(point=>({name:entry.name,point}))).sort((a,b)=>JSON.stringify(a).localeCompare(JSON.stringify(b)));
   const displayed = [...scene.pins.map(key=>{assert(modernPlaces[key],key);return {name:modernPlaces[key].name,point:modernPlaces[key].point};}),...scene.tags.map(tag=>({name:tag.text,point:tag.at}))].sort((a,b)=>JSON.stringify(a).localeCompare(JSON.stringify(b)));
   assert.deepEqual(displayed,expected,`${scene.id}: 本文と地図名称の双方向一致`);
