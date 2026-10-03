@@ -1,7 +1,7 @@
 {
-  "version": "0.119",
-  "parts": 166,
-  "pages": 1778,
+  "version": "0.120",
+  "parts": 170,
+  "pages": 1935,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 38,
-      "pages": 765,
+      "parts": 42,
+      "pages": 922,
       "chapters": [
         {
           "chapter": 1,
@@ -2690,6 +2690,10 @@
             {
               "lesson": 9,
               "title": "近代の東アジア①"
+            },
+            {
+              "lesson": 10,
+              "title": "近代の東アジア②"
             }
           ],
           "volumes": [
@@ -2772,6 +2776,38 @@
               "lesson": 9,
               "part": 4,
               "pages": 19
+            },
+            {
+              "id": "modern-c02-l10-p01",
+              "label": "戊戌の変法と中国分割",
+              "number": "11",
+              "lesson": 10,
+              "part": 1,
+              "pages": 33
+            },
+            {
+              "id": "modern-c02-l10-p02",
+              "label": "義和団戦争と日露戦争",
+              "number": "12",
+              "lesson": 10,
+              "part": 2,
+              "pages": 55
+            },
+            {
+              "id": "modern-c02-l10-p03",
+              "label": "朝鮮の植民地化",
+              "number": "13",
+              "lesson": 10,
+              "part": 3,
+              "pages": 18
+            },
+            {
+              "id": "modern-c02-l10-p04",
+              "label": "辛亥革命",
+              "number": "14",
+              "lesson": 10,
+              "part": 4,
+              "pages": 51
             }
           ]
         }

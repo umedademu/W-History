@@ -1,5 +1,5 @@
 import {bookChapters} from './book-chapters.js?v=0.068';
-import {modernLessons, modernSeries} from './modern-volumes.js?v=0.119';
+import {modernLessons, modernSeries} from './modern-volumes.js?v=0.120';
 
 // 章・回の番号は各巻の中で扱う。従来の教材の識別名は維持する。
 export const bookCollections = [
