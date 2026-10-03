@@ -170,6 +170,16 @@ for(const route of routes) { assert(scenes.some(scene=>scene.id===route.scene));
 // 実際の移動・出兵・通信を述べる行だけを許可し、同盟・割譲・構想だけで移動を作らない。
 const movementLines=new Set([119,123,139,153,159,187,189,213,250,371,389,391,397,469,475,528]);
 for(const route of routes){const scene=scenes.find(scene=>scene.id===route.scene);assert.ok(scene.sourceText.passages.some(passage=>passage.lines.some(line=>movementLines.has(line))),scene.id+': 移動・出兵・通信の原文行がある');}
+// 原文の移動先を独立に固定する。途中の線は概略として認め、原書にない到着地を加えない。
+const routeEnds=[
+ ['modern-c01-l04-p02-004',34,45],['modern-c01-l04-p02-008',10.565,45.372],['modern-c01-l04-p02-011',2,47],
+ ['modern-c01-l04-p03-003',13.7,37.6],['modern-c01-l04-p03-004',13.36,38.12],['modern-c01-l04-p03-005',14.27,40.85],
+ ['modern-c01-l04-p03-006',14.07,41.25],['modern-c01-l04-p03-013',2,47],
+ ['modern-c01-l04-p05-003',9.5,54.2],['modern-c01-l04-p05-003',9.5,54.2],['modern-c01-l04-p05-006',14.5,50],
+ ['modern-c01-l04-p05-015',7.707,50.331],['modern-c01-l04-p05-015',13.405,52.52],['modern-c01-l04-p05-018',6.9,48.5]
+];
+assert.deepEqual(routes.map(route=>[route.scene,...route.points.at(-1)]),routeEnds,'本文の出兵・撤退・通信14本の到着先と順序');
+assert.equal(routes.find(route=>route.scene==='modern-c01-l04-p05-015'&&route.points.at(-1)[0]===13.405)?.kind,'trade','エムスからベルリンへの電報は軍の出兵と区別する');
 // 原文を通読して選んだ、改ページを挟む接続と意味上の要点。
 const narrative=scenes.flatMap(scene=>scene.plainBody).join('');
 for(const id of ['modern-c01-l04-p04-002','modern-c01-l04-p04-007','modern-c01-l04-p05-014']) {
