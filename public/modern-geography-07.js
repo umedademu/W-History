@@ -1663,7 +1663,7 @@ const byKey=new Map(modernNameCatalog.map(entry=>[entry.key,entry]));
 const escapePattern=value=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 const pattern=new RegExp([...byKey.keys()].sort((a,b)=>b.length-a.length).map(key=>key==='清'?`(?<![一-龯])${escapePattern(key)}(?![一-龯])`:escapePattern(key)).join('|'),'g');
 export function modernNamesInText(text) {
- const value=normalize(text).replace(/神聖ローマ皇帝|神聖ローマ帝国|ギリシア正教徒|ギリシア正教|(?<!青年)トルコ人|トルコ系|イラン人|ウズベク人|アルメニア人/g,'').replace(/英仏/g,'イギリスフランス').replace(/英露協商/g,'イギリスロシア協商');
+ const value=normalize(text).replace(/神聖ローマ皇帝|神聖ローマ帝国|ギリシア正教徒|ギリシア正教|(?<!青年)トルコ人|トルコ系|イラン人|ウズベク人|アルメニア人|ペルシア語/g,'').replace(/英仏/g,'イギリスフランス').replace(/英露協商/g,'イギリスロシア協商');
  const found=new Map();for(const match of value.matchAll(pattern)){const entry=byKey.get(match[0]);if(!found.has(entry.family))found.set(entry.family,entry);}
  // 名前が長い事件・制度にも、その本文で明記された国の関係は残す。都市の締結訪問は補わない。
  for(const [term,countries] of [['トルコイギリス通商条約',['オスマン帝国','イギリス']],['イタリアトルコ戦争',['イタリア','オスマン帝国']],['エジプトトルコ戦争',['エジプト','オスマン帝国']],['ロシアトルコ戦争',['ロシア','オスマン帝国']],['ギリシア独立戦争',['ギリシア']],['イギリス軍',['イギリス']],['ロシア軍',['ロシア']]])if(value.includes(term))for(const country of countries){const entry=byKey.get(country);if(!found.has(entry.family))found.set(entry.family,entry);}

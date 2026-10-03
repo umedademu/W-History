@@ -140,6 +140,23 @@ export async function makeModernEdition() {
     });
     const plainBody = passages.map(passage => plainMarkdown(passage.markdown));
     const names = modernNamesInText(plainBody.join(''));
+    // 分割で主語が省略された場面は、同じ段落か直前段落の明示された地域だけを引き継ぐ。
+    // 人物の所在地や移動は作らず、本文外の地名を名前判定へ混ぜない。
+    const contextRegions = page.contextRegions ?? [];
+    const paragraphOrder = selection.paragraphs.map(paragraph => paragraph.id);
+    const firstParagraphIndex = paragraphOrder.indexOf(chosen[0].id);
+    for (const context of contextRegions) {
+      const evidence = paragraphs.get(context.paragraph);
+      assert(evidence && evidence.part === page.part, page.id+': 文脈地域の根拠は同じ節の原文段落');
+      assert(chosen.some(paragraph=>paragraph.id === context.paragraph) || paragraphOrder[firstParagraphIndex-1] === context.paragraph, page.id+': 根拠は親段落または直前段落');
+      assert(context.lines.length && context.lines.every(line=>evidence.lines.includes(line)) && context.reason?.trim(), page.id+': 文脈地域の原文行と理由');
+      const entry = modernNameCatalog.find(entry=>entry.name === context.name && entry.kind === 'region');
+      assert(entry, page.id+': 文脈地域は登録済み地域');
+      const source = selection.lines.filter(line=>context.lines.includes(line.line)).map(line=>line.text).join('');
+      assert(modernNamesInText(plainMarkdown(source)).some(name=>name.family === entry.family && name.kind === 'region'), page.id+': 指定原文行に同じ地域が明示される');
+      assert(!names.some(name=>name.family === entry.family), page.id+': 本文の明示地域と文脈地域は重複しない');
+      names.push(entry);
+    }
     const routeEntries = routes.filter(route => route.scene === page.id);
     const allPoints = [...names.flatMap(entry => entry.points), ...routeEntries.flatMap(route => route.points)];
     // その場面で説明する地点をすべて含める。実際の拡大上限は共通の画面処理が適用する。
@@ -149,7 +166,7 @@ export async function makeModernEdition() {
     modernEdition[page.volume].push({
       id:page.id,title:page.title,body:passages.map(passage=>inlineHTML(passage.markdown)),plainBody,
       sourceText:{book:'modern',chapter:2,lesson:7,part:page.part,passages:passages.map(({markdown,...passage})=>passage),sourcePages},
-      frame,pins:names.filter(entry=>entry.kind === 'place').map(entry=>entry.key),
+      frame,pins:names.filter(entry=>entry.kind === 'place').map(entry=>entry.key),contextRegions,
       tags:names.filter(entry=>entry.kind !== 'place').flatMap(entry=>entry.points.map(at=>({text:entry.name,at,kind:entry.kind}))),
       zones:[],actors:[],props:[],routes:routeEntries.map(({scene,reason,...route})=>route),rivers:[],
       mapHeading:page.title,before:page.title,after:page.title,facts:[page.title],year:series.period,kicker:series.label,chapter:page.part-1,duration:routeEntries.length?3200:2000
