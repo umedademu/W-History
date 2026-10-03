@@ -53,9 +53,12 @@ function checkHTML(html) {
 
 assert.equal(selection.line_count,selection.lines.length);
 assert.deepEqual(selection.lines.map(line=>line.line),Array.from({length:selection.line_count},(_,i)=>i+1),'全原文行の欠落・重複');
+// 保存済みの分類を期待値にせず、原書の行形式から全行を独立に判定する。
+const expectedLineKind=text=>!text?'blank':/^## \d+$/.test(text)?'page':text.startsWith('|')?'table':text.startsWith('>')?(/^> 第[1-5]章/.test(plainSource(text))?'chapter-navigation':'quote'):text.startsWith('##### ')?'subheading':text.startsWith('#### ')?'section-heading':text.startsWith('### ')?'cover-heading':text.startsWith('<span')&&/^(?:第2回 イギリスの自由主義とフランス第二帝政|[1-3] (?:イギリスの自由主義改革|アイルランド問題|フランスの第二帝政))$/.test(plainSource(text))?'page-heading':'body';
 const kinds = new Set(['blank','page','cover-heading','body','subheading','table','quote','page-heading','section-heading','chapter-navigation']);
 for(const line of selection.lines) {
   assert(kinds.has(line.kind),line.line);
+  assert.equal(line.kind,expectedLineKind(line.text),line.line+': 原文行の分類を独立に照合');
   assert(line.reason.length>0,`分類理由がない: ${line.line}`);
   assert(selection.pages.includes(line.page));
   if(line.kind==='blank')assert.equal(line.text,'','空行の分類');
@@ -88,6 +91,9 @@ assert.deepEqual(paragraphIds.filter((id,index)=>id!==paragraphIds[index-1]),sel
 assert.equal(selection.paragraphs.length,49,'通常本文の全49段落');
 assert.equal(selection.lines.filter(line=>line.kind==='body').length,58,'通常本文の全58行');
 const paragraphs = new Map(selection.paragraphs.map(paragraph=>[paragraph.id,paragraph]));
+const connections=[[43,49],[61,77],[95,101],[147,153],[228,234],[247,263],[302,318],[350,356],[368,384]];
+assert.deepEqual(selection.cross_page_connections.map(connection=>connection.lines),connections,'通読した9か所の紙面接続の記録');
+assert.deepEqual(selection.paragraphs.filter(paragraph=>paragraph.lines.length>1).map(paragraph=>paragraph.lines),connections,'9か所の紙面接続だけを同じ段落にする');
 const bodyLines = selection.paragraphs.flatMap(paragraph=>paragraph.lines);
 assert.deepEqual(bodyLines,selection.lines.filter(line=>line.kind === 'body').map(line=>line.line),'通常本文全行の掲載順');
 for(const paragraph of selection.paragraphs) {
