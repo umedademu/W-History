@@ -1,0 +1,4351 @@
+{
+  "schema": 1,
+  "description": "第3回の通常本文・原書全文を保持して本人・集団・道具の説明図を重ねる。一般集団の役割の変化は特定個人の同一性の断定ではない。",
+  "rules": [
+    "原文資料は参照専用。通常本文・装飾・順序・全文を変更しない。",
+    "人物を模式欄の本人画像で示し、原文が述べない所在地を与えない。",
+    "ワシントン本人と同名の首都、ジェファソンとデヴィスを区別する。",
+    "一般集団・道具は同じ役割だけ再利用し、別人の顔に流用しない。",
+    "英仏の援軍は期待や仮定として静的に説明し、実際の派兵の動きを作らない。",
+    "地理図の共通32度／24度の拡大上限を適用する。",
+    "中国・日本の渡米は世界図の経度端を跨ぐため模式欄で示し、架空のユーラシア横断航路は作らない。",
+    "図の注釈は説明と表示し、史実上の発言の引用と区別する。"
+  ],
+  "totals": {
+    "scenes": 64,
+    "newImages": 33,
+    "existingImages": 19,
+    "newPeople": 12,
+    "groups": 13,
+    "newPropsAndBuildings": 8,
+    "illustrations": 64,
+    "routes": 13,
+    "switches": 1,
+    "diagrams": 15
+  },
+  "assets": [
+    {
+      "key": "madison",
+      "image": "modern-c01-l03/madison.png",
+      "name": "マディソン",
+      "kind": "person",
+      "identity": "person:madison",
+      "description": "第4代大統領のジェームズ・マディソン本人。白髪と19世紀初頭の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "andrew-jackson",
+      "image": "modern-c01-l03/andrew-jackson.png",
+      "name": "ジャクソン",
+      "kind": "person",
+      "identity": "person:andrew-jackson",
+      "description": "西部出身大統領アンドルー・ジャクソン本人。広がる白髪と礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "jefferson",
+      "image": "modern-c01-l03/jefferson.png",
+      "name": "ジェファソン",
+      "kind": "person",
+      "identity": "person:jefferson",
+      "description": "第3代大統領トーマス・ジェファソン本人。赤褐色寄りの髪と礼服。デヴィスとは別人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "lincoln",
+      "image": "modern-c01-l03/lincoln.png",
+      "name": "リンカン",
+      "kind": "person",
+      "identity": "person:lincoln",
+      "description": "大統領エイブラハム・リンカン本人。顎髭・黒い礼服・高帽子。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "jefferson-davis",
+      "image": "modern-c01-l03/jefferson-davis.png",
+      "name": "ジェファソン＝デヴィス",
+      "kind": "person",
+      "identity": "person:jefferson-davis",
+      "description": "南部連合の大統領ジェファソン・デヴィス本人。灰髪・黒い礼服。ジェファソン、リンカンと別の顔。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "robert-e-lee",
+      "image": "modern-c01-l03/robert-e-lee.png",
+      "name": "リー",
+      "kind": "person",
+      "identity": "person:robert-e-lee",
+      "description": "南軍将軍ロバート・リー本人。白髭と灰色軍装。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "ulysses-grant",
+      "image": "modern-c01-l03/ulysses-grant.png",
+      "name": "グラント",
+      "kind": "person",
+      "identity": "person:ulysses-grant",
+      "description": "北軍将軍ユリシーズ・グラント本人。茶色の髭と青色軍装。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "perry",
+      "image": "modern-c01-l03/perry.png",
+      "name": "ペリー",
+      "kind": "person",
+      "identity": "person:perry",
+      "description": "日本へ派遣されたマシュー・ペリー本人。19世紀の海軍制服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "carnegie",
+      "image": "modern-c01-l03/carnegie.png",
+      "name": "カーネギー",
+      "kind": "person",
+      "identity": "person:carnegie",
+      "description": "鉄鋼事業者アンドルー・カーネギー本人。白髭と年配の背広姿。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "jp-morgan",
+      "image": "modern-c01-l03/jp-morgan.png",
+      "name": "モルガン",
+      "kind": "person",
+      "identity": "person:jp-morgan",
+      "description": "銀行家J・P・モルガン本人。口髭と背広。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "rockefeller",
+      "image": "modern-c01-l03/rockefeller.png",
+      "name": "ロックフェラー",
+      "kind": "person",
+      "identity": "person:rockefeller",
+      "description": "石油事業者ジョン・ロックフェラー本人。薄い髪と年配の背広姿。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "harriet-stowe",
+      "image": "modern-c01-l03/harriet-stowe.png",
+      "name": "ストウ夫人",
+      "kind": "person",
+      "identity": "person:harriet-stowe",
+      "description": "原書61・64ページの参考欄に登場するハリエット・ストウ本人。19世紀の女性作家の服と本。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "american-settlers",
+      "image": "modern-c01-l03/american-settlers.png",
+      "name": "アメリカの開拓者",
+      "kind": "group",
+      "identity": "group:american-settlers",
+      "description": "西部へ移る白人開拓家族の一般集団。日常服と荷物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "native-displaced-families",
+      "image": "modern-c01-l03/native-displaced-families.png",
+      "name": "強制移住させられた先住民",
+      "kind": "group",
+      "identity": "group:native-displaced-families",
+      "description": "先住民家族の一般集団。日常服と荷物。誇張した羽根冠や民族の固定はしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "southern-planters",
+      "image": "modern-c01-l03/southern-planters.png",
+      "name": "南部のプランター",
+      "kind": "group",
+      "identity": "group:southern-planters",
+      "description": "南部農場主の一般集団。書類と礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "enslaved-black-workers",
+      "image": "modern-c01-l03/enslaved-black-workers.png",
+      "name": "奴隷として働かされた黒人",
+      "kind": "group",
+      "identity": "group:black-escapees",
+      "description": "黒人農業労働者の一般集団。作業着、尊厳ある姿で鎖や暴力を描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "freed-black-citizens",
+      "image": "modern-c01-l03/freed-black-citizens.png",
+      "name": "解放された黒人市民",
+      "kind": "group",
+      "identity": "group:freed-black-citizens",
+      "description": "解放された黒人男女の一般集団。市民権・投票・学校の説明。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "union-soldiers",
+      "image": "modern-c01-l03/union-soldiers.png",
+      "name": "北軍",
+      "kind": "group",
+      "identity": "group:union-soldiers",
+      "description": "青色の制服を着た北軍の一般兵。特定の連隊・個人の復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "confederate-soldiers",
+      "image": "modern-c01-l03/confederate-soldiers.png",
+      "name": "南軍",
+      "kind": "group",
+      "identity": "group:confederate-soldiers",
+      "description": "灰色の制服を着た南軍の一般兵。旗や英雄的な演出を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "black-union-volunteers",
+      "image": "modern-c01-l03/black-union-volunteers.png",
+      "name": "北軍に加わった黒人",
+      "kind": "group",
+      "identity": "group:black-escapees",
+      "description": "青色の制服で北軍に加わる黒人の一般集団。役割を示し特定個人を同定しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "variantOf": "enslaved-black-workers"
+    },
+    {
+      "key": "german-emigrants",
+      "image": "modern-c01-l03/german-emigrants.png",
+      "name": "ドイツ系移民",
+      "kind": "group",
+      "identity": "group:german-emigrants",
+      "description": "渡米するドイツ系の一般家族。日常服と旅行荷物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "italian-emigrants",
+      "image": "modern-c01-l03/italian-emigrants.png",
+      "name": "イタリア系移民",
+      "kind": "group",
+      "identity": "group:italian-emigrants",
+      "description": "南イタリアからの一般移民家族。日常服と旅行荷物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "jewish-emigrants",
+      "image": "modern-c01-l03/jewish-emigrants.png",
+      "name": "ロシアからのユダヤ人移民",
+      "kind": "group",
+      "identity": "group:jewish-emigrants",
+      "description": "迫害を逃れた一般家族。日常服と荷物。身体的な誇張をしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "chinese-railway-workers",
+      "image": "modern-c01-l03/chinese-railway-workers.png",
+      "name": "中国系の鉄道労働者",
+      "kind": "group",
+      "identity": "group:chinese-railway-workers",
+      "description": "中国系の一般鉄道労働者。19世紀の作業着と道具。誇張した身体表現をしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "japanese-emigrants",
+      "image": "modern-c01-l03/japanese-emigrants.png",
+      "name": "日本人移民",
+      "kind": "group",
+      "identity": "group:japanese-emigrants",
+      "description": "明治期の一般家族。日常服と旅行荷物。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "cotton-bales",
+      "image": "modern-c01-l03/cotton-bales.png",
+      "name": "綿花",
+      "kind": "prop",
+      "identity": "prop:cotton-bales",
+      "description": "原料として輸出する綿花の俵。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "gold-pan",
+      "image": "modern-c01-l03/gold-pan.png",
+      "name": "金鉱開発",
+      "kind": "prop",
+      "identity": "prop:gold-pan",
+      "description": "砂金採りの皿と金。ゴールドラッシュの説明。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "steel-beams",
+      "image": "modern-c01-l03/steel-beams.png",
+      "name": "鉄鋼",
+      "kind": "prop",
+      "identity": "prop:steel-beams",
+      "description": "鉄鋼材の束。工業の発展と鉄道の需要を説明。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "oil-derrick",
+      "image": "modern-c01-l03/oil-derrick.png",
+      "name": "石油",
+      "kind": "prop",
+      "identity": "prop:oil-derrick",
+      "description": "19世紀の木造油井の模式絵。特定の油田を精密に復元しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "homestead-farm",
+      "image": "modern-c01-l03/homestead-farm.png",
+      "name": "開墾・定住・耕作",
+      "kind": "prop",
+      "identity": "prop:homestead-farm",
+      "description": "小農家の畑・農具・家の模式絵。個別農園の位置を与えない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "fort-sumter",
+      "image": "modern-c01-l03/fort-sumter.png",
+      "name": "サムター要塞",
+      "kind": "building",
+      "identity": "building:fort-sumter",
+      "description": "海上の要塞の模式絵。南北戦争の開戦を説明。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "ford-theatre",
+      "image": "modern-c01-l03/ford-theatre.png",
+      "name": "フォード劇場",
+      "kind": "building",
+      "identity": "building:ford-theatre",
+      "description": "劇場の模式絵。リンカン暗殺の場所を説明し、流血は描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "carnegie-hall",
+      "image": "modern-c01-l03/carnegie-hall.png",
+      "name": "カーネギー・ホール",
+      "kind": "building",
+      "identity": "building:carnegie-hall",
+      "description": "ニューヨークのホールの模式絵。文化事業への出資を説明。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true
+    },
+    {
+      "key": "washington",
+      "image": "modern-c01-l01/washington.png",
+      "name": "ワシントン",
+      "kind": "person",
+      "identity": "person:washington",
+      "description": "第1回の同じ本人。別人の代わりとして顔を流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "james-monroe",
+      "image": "modern-c01-l01/james-monroe.png",
+      "name": "モンロー",
+      "kind": "person",
+      "identity": "person:james-monroe",
+      "description": "第1回の同じ本人。別人の代わりとして顔を流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "napoleon-i",
+      "image": "modern-c01-l01/napoleon-i.png",
+      "name": "ナポレオン",
+      "kind": "person",
+      "identity": "person:napoleon-i",
+      "description": "第1回の同じ本人。別人の代わりとして顔を流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "james2-stuart",
+      "image": "ancient/james2-stuart.png",
+      "name": "ジェームズ2世",
+      "kind": "person",
+      "identity": "person:james2-stuart",
+      "description": "英国のジェームズ2世本人。ホイッグの名称の由来でのみ参照する過去の国王。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "bismarck",
+      "image": "modern-c01-l02/bismarck.png",
+      "name": "ビスマルク",
+      "kind": "person",
+      "identity": "person:bismarck",
+      "description": "第2回の同じ本人。今回は次回案内の参照だけに用いる。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "industrialists",
+      "image": "modern-c01-l01/industrialists.png",
+      "name": "産業資本家",
+      "kind": "group",
+      "identity": "group:industrialists",
+      "description": "第1回の同じ一般役割。国固有の兵士や固有人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "workers",
+      "image": "modern-c01-l01/workers.png",
+      "name": "労働者",
+      "kind": "group",
+      "identity": "group:workers",
+      "description": "第1回の同じ一般役割。国固有の兵士や固有人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "parliament-delegates",
+      "image": "modern-c01-l01/parliament-delegates.png",
+      "name": "上院の代表",
+      "kind": "group",
+      "identity": "group:parliament-delegates",
+      "description": "第1回の同じ一般役割。国固有の兵士や固有人物の代用にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "steam-factory",
+      "image": "modern-c01-l01/steam-factory.png",
+      "name": "工業",
+      "kind": "prop",
+      "identity": "prop:steam-factory",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "railway",
+      "image": "modern-c01-l01/railway.png",
+      "name": "鉄道",
+      "kind": "prop",
+      "identity": "prop:railway",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "merchant-cargo",
+      "image": "modern-c01-l01/merchant-cargo.png",
+      "name": "工業製品",
+      "kind": "prop",
+      "identity": "prop:merchant-cargo",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "ballot-box",
+      "image": "modern-c01-l01/ballot-box.png",
+      "name": "選挙",
+      "kind": "prop",
+      "identity": "prop:ballot-box",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "constitution-document",
+      "image": "modern-c01-l01/constitution-document.png",
+      "name": "法律・憲法",
+      "kind": "prop",
+      "identity": "prop:constitution-document",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "treaty-document",
+      "image": "modern-c01-l01/treaty-document.png",
+      "name": "条約",
+      "kind": "prop",
+      "identity": "prop:treaty-document",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "calendar",
+      "image": "modern-c01-l01/calendar.png",
+      "name": "年号",
+      "kind": "prop",
+      "identity": "prop:calendar",
+      "description": "第1回の同じ一般的な道具の記号。原文の役割は表示名と説明で示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "cotton-loom",
+      "image": "modern-c01-l02/cotton-loom.png",
+      "name": "綿製品の生産",
+      "kind": "prop",
+      "identity": "prop:cotton-loom",
+      "description": "第2回の同じ一般役割・道具。固有人物の代替にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "public-school",
+      "image": "modern-c01-l02/public-school.png",
+      "name": "公立学校",
+      "kind": "building",
+      "identity": "building:public-school",
+      "description": "第2回の同じ一般役割・道具。固有人物の代替にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "irish-emigrants",
+      "image": "modern-c01-l02/irish-emigrants.png",
+      "name": "アイルランド系移民",
+      "kind": "group",
+      "identity": "group:irish-emigrants",
+      "description": "第2回の同じ一般役割・道具。固有人物の代替にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    },
+    {
+      "key": "blighted-potatoes",
+      "image": "modern-c01-l02/blighted-potatoes.png",
+      "name": "ジャガイモの凶作",
+      "kind": "prop",
+      "identity": "prop:blighted-potatoes",
+      "description": "第2回の同じ一般役割・道具。固有人物の代替にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false
+    }
+  ],
+  "scenes": [
+    {
+      "sceneId": "modern-c01-l03-p01-001",
+      "title": "今回の見通し：東部の国から工業国へ",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "東部の独立国から西部開拓・工業発展へ",
+        "groups": [
+          {
+            "label": "西へ広がる国",
+            "figures": [
+              {
+                "image": "modern-c01-l03/american-settlers.png",
+                "name": "アメリカの開拓者",
+                "caption": "説明：西部の開拓が進む",
+                "kind": "group",
+                "identity": "group:american-settlers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "発展の大きな山場",
+            "figures": [
+              {
+                "image": "modern-c01-l03/union-soldiers.png",
+                "name": "南北戦争",
+                "caption": "説明：奴隷問題以外にも発展の方向が争われた",
+                "kind": "group",
+                "identity": "group:union-soldiers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/steam-factory.png",
+                "name": "工業国",
+                "caption": "説明：19世紀末には世界1位の工業国になる",
+                "kind": "prop",
+                "identity": "prop:steam-factory",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "導入を全文保持し、西部拡大・南北戦争・工業発展を見通す。",
+      "sourcePages": [
+        55
+      ],
+      "htmlBodySha256": "3112ef6de36085af94f320c91987ee78be345636909e106ec63be4d9e766c283",
+      "plainBodySha256": "4abeedd4fd552835e990454d5d08c66f04e973880c8644009e7f6716fda9dfa2",
+      "sourceTextSha256": "1160319f0abeec7206b0fa918262ce22d9aeafc6c4d8adfa82c7e083256b1994"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-002",
+      "title": "ワシントンの中立と孤立主義",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "両国との関係と中立宣言",
+        "groups": [
+          {
+            "label": "アメリカの判断",
+            "figures": [
+              {
+                "image": "modern-c01-l01/washington.png",
+                "name": "ワシントン",
+                "caption": "説明：ヨーロッパに干渉せず中立を宣言する",
+                "kind": "person",
+                "identity": "person:washington",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "二つの国との関係",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イギリス",
+                "caption": "説明：ミシシッピ川以東のルイジアナを得た",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "フランス",
+                "caption": "説明：独立戦争で助けてもらった",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "初代大統領本人を模式欄に置き、米国首都の同名の地名とは分ける。",
+      "sourcePages": [
+        56
+      ],
+      "htmlBodySha256": "db06244a6e9771a91461b5d7df7ac653681eb70f774008759801cada344dbfb5",
+      "plainBodySha256": "035f146e06058e156bc075aa8421b3974bf473886efd85ff55c299a53700b960",
+      "sourceTextSha256": "0f1c62a13473837807db72b58e1df6fbe0d7607cfe0efb1fa91dfa1f5293f5ef"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-003",
+      "title": "大陸封鎖令と貿易の妨害",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "中立でも貿易が妨害される",
+        "groups": [
+          {
+            "label": "大陸封鎖令",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン",
+                "caption": "説明：イギリスに対する封鎖を命じた",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "イギリスの逆封鎖",
+            "figures": [
+              {
+                "image": "modern-c01-l01/merchant-cargo.png",
+                "name": "アメリカの貿易",
+                "caption": "説明：ヨーロッパとの貿易が妨害される",
+                "kind": "prop",
+                "identity": "prop:merchant-cargo",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "封鎖による妨害を静的に示し、実際に成功した輸出とは描かない。",
+      "sourcePages": [
+        56
+      ],
+      "htmlBodySha256": "a221df28ff12aa171d69b4a88cc76b252a868310c5ef08055827c70b54de6353",
+      "plainBodySha256": "61f1d20ff39bf9df3d1e965d002bc9ca366516d5d5f296782074e54d69ffcc63",
+      "sourceTextSha256": "11ba5cc2076e4835236f8bc1052f8833d8387369efd59be0cd3552eb91456f57"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-004",
+      "title": "マディソンの宣戦と米英戦争",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "国内が一致しないままの開戦",
+        "groups": [
+          {
+            "label": "大統領",
+            "figures": [
+              {
+                "image": "modern-c01-l03/madison.png",
+                "name": "マディソン",
+                "caption": "説明：1812年にイギリスへ宣戦布告する",
+                "kind": "person",
+                "identity": "person:madison",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "戦争",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "米英戦争",
+                "caption": "説明：アメリカ＝イギリス戦争とも呼ぶ",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "マディソン本人を用い、首都や戦場への所在は補わない。",
+      "sourcePages": [
+        56
+      ],
+      "htmlBodySha256": "93d6635fa43e68ad1d15c146a16861b5e240d8babd9610a1a5801e53de6f4fda",
+      "plainBodySha256": "d52a2fe899d6183979dc223a1a50a19ff0f02c56d5b3a1146253e54b7f593824",
+      "sourceTextSha256": "2500f6c5468b0bcd9768d1183cf77cbf7da2c9de6052d311b9c311981d83605d"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-005",
+      "title": "輸入停止から国内での生産へ",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "綿製品の国内生産",
+          "image": "modern-c01-l02/cotton-loom.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:cotton-loom",
+          "size": 64,
+          "at": [
+            -78,
+            42
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "輸入が止まり、自分たちでつくる",
+        "groups": [
+          {
+            "label": "不足した生活必需品",
+            "figures": [
+              {
+                "image": "modern-c01-l02/cotton-loom.png",
+                "name": "綿製品",
+                "caption": "説明：服を国内でつくる必要が生じた",
+                "kind": "prop",
+                "identity": "prop:cotton-loom",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l03/steel-beams.png",
+                "name": "鉄",
+                "caption": "説明：生活必需品が不足した",
+                "kind": "prop",
+                "identity": "prop:steel-beams",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "英国製品の停止から国内生産への因果を示す。占領された都市ワシントンは地理で示す。",
+      "sourcePages": [
+        56
+      ],
+      "htmlBodySha256": "5608d0e40cc180fdfd1fcebf88696d366429007f191c6b27f7e5a46decc19197",
+      "plainBodySha256": "b8938ae8f0bc0de490b24c3739c4ca60a6468ead346ce1f41882f1bf65742ccc",
+      "sourceTextSha256": "c108fb9352a2b4e69c8b61076b8a425365bdcf17b1ce8c5d8b62444379156ec3"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-006",
+      "title": "経済的自立と第2次独立戦争",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "綿工業・鉄鋼業",
+          "image": "modern-c01-l01/steam-factory.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:steam-factory",
+          "size": 64,
+          "at": [
+            -78,
+            42
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "政治的独立の後に経済的自立へ",
+        "groups": [
+          {
+            "label": "国内産業の発達",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：綿工業や鉄鋼業が発達する",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "国民意識",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "第2次独立戦争",
+                "caption": "説明：イギリスから経済的に自立するきっかけ",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "戦争の呼び名と経済・意識の変化を本人の架空の発言にせず説明する。",
+      "sourcePages": [
+        56
+      ],
+      "htmlBodySha256": "09daaebd0352d126d0d8fb7efb037ae262613a5ef697ea87b826cd70bfa0bbcb",
+      "plainBodySha256": "52a333bd3da7b7376a540240b5d6d473ccb95202fb4a966bc8b7f291b305edee",
+      "sourceTextSha256": "ecc986b935994f45a6d6970be45018dd0ec5afcbdd38e82431b3187ef2047107"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-007",
+      "title": "輸入の再開と北部の保護貿易",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "イギリスの工業製品",
+          "image": "modern-c01-l01/merchant-cargo.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:merchant-cargo",
+          "size": 64,
+          "at": [
+            -78,
+            42
+          ],
+          "bubble": "説明：戦争後に対米輸出を再開する",
+          "route": 0
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "輸入再開と国内産業の保護",
+        "groups": [
+          {
+            "label": "戦争が終わる背景",
+            "figures": [
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン",
+                "caption": "説明：ナポレオン戦争の終結で封鎖がなくなる",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "北部の産業",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：イギリス製品に対抗して保護貿易を主張する",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/steam-factory.png",
+                "name": "産業革命",
+                "caption": "説明：1840年代から北部を中心に始まる",
+                "kind": "prop",
+                "identity": "prop:steam-factory",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "実際の英国製品の輸出再開だけを動かす。ナポレオンは戦争終結の歴史参照。",
+      "sourcePages": [
+        56,
+        57
+      ],
+      "htmlBodySha256": "d03318d608adad1b753a6902f4949b9e2053bdb518feb6b714b3a1ed1109f88a",
+      "plainBodySha256": "27c068cf576a80ee66bc74cf33269cad575557b555b47e81f2191fbd275c1f5d",
+      "sourceTextSha256": "07a872abab9a0297a2fe3966ef355effce213cc311684b5b816c61c7038246fb"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-008",
+      "title": "領土拡大とモンロー宣言",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "西への拡大とヨーロッパの排除",
+        "groups": [
+          {
+            "label": "モンロー宣言",
+            "figures": [
+              {
+                "image": "modern-c01-l01/james-monroe.png",
+                "name": "モンロー",
+                "caption": "説明：北米へのヨーロッパ諸国の介入を排除したい",
+                "kind": "person",
+                "identity": "person:james-monroe",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "背景の地域",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "カナダとの国境問題",
+                "caption": "説明：イギリス領との関係が背景",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "アラスカ",
+                "caption": "説明：ロシアの進出も背景となった",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "宣言の国際的な背景と領土拡大を示す。国の代表位置は現在の厳密な境界ではない。",
+      "sourcePages": [
+        57
+      ],
+      "htmlBodySha256": "b39f27c06d0776fcbb92fb758d73d3213f5692c8e0d0a37af190ebf5724ef24f",
+      "plainBodySha256": "8f6e14dda99eb5c185d71f1f9dd0087b2ce0ad8f71754ed414d306a70c008d26",
+      "sourceTextSha256": "165752bcae42af62fb8c3f06c7acdfb49d3e4245a373c9462560645452848ca8"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-009",
+      "title": "移住者と西へ進むフロンティア",
+      "mapActors": [
+        {
+          "name": "西部へ移る開拓者",
+          "image": "modern-c01-l03/american-settlers.png",
+          "kind": "group",
+          "identity": "group:american-settlers",
+          "at": [
+            -110,
+            39
+          ],
+          "bubble": "説明：移住と開拓が西へ進む",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "小農民の移住とフロンティア",
+        "groups": [
+          {
+            "label": "新しい生活を目指す人びと",
+            "figures": [
+              {
+                "image": "modern-c01-l03/american-settlers.png",
+                "name": "アメリカの開拓者",
+                "caption": "説明：西部に多数の小農民が現れる",
+                "kind": "group",
+                "identity": "group:american-settlers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "開拓地の境界",
+            "figures": [
+              {
+                "image": "modern-c01-l03/homestead-farm.png",
+                "name": "西部の農地",
+                "caption": "説明：開拓地と未開拓地の境界が西へ移る",
+                "kind": "prop",
+                "identity": "prop:homestead-farm",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文にある移住を一般家族で示す。特定民族の土地が無人だったとする境界の塗分けはしない。",
+      "sourcePages": [
+        57
+      ],
+      "htmlBodySha256": "09b2496a373ffc01f44d8bb11a6faff01218078dffcabab0ba801672f5b36d9f",
+      "plainBodySha256": "e50e3b23efb2d90449012087ba4305d4d3bd892054ae16fb8205a248f0b3375f",
+      "sourceTextSha256": "e87626e0ef85ce708acde4079643eb853a8838e30195ceff39a6812631b4896b"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-010",
+      "title": "西部をめぐる北部と南部の対立",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "西部を自分たちの利益に結びつけたい",
+        "groups": [
+          {
+            "label": "北部",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：西部へ工業製品を売りたい",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "南部",
+            "figures": [
+              {
+                "image": "modern-c01-l03/southern-planters.png",
+                "name": "南部のプランター",
+                "caption": "説明：西部にも奴隷を使う農場を広げたい",
+                "kind": "group",
+                "identity": "group:southern-planters",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "二つの開発の希望を静的に比較し、まだ起きていない農場の拡大を動かさない。",
+      "sourcePages": [
+        57
+      ],
+      "htmlBodySha256": "f28501e1366fdea1e47f88d5083a0aba16a9f84b6e586492de2972a35eb216ce",
+      "plainBodySha256": "4b73cadb674ef28c5cbacae95a4f8d7cce2a757a35ccfb85d5538d2c2769cff9",
+      "sourceTextSha256": "348ed74e3d6a590a7bb6a6b0cfc83d4ed78088c31102be8cd4b30b76b68d209f"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-011",
+      "title": "北部・南部・西部の位置関係",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "北部・南部は東部の呼び方",
+        "groups": [
+          {
+            "label": "東側の建国13州",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "北部・南部",
+                "caption": "説明：建国13州を中心とする東部を南北に分ける",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "西側",
+            "figures": [
+              {
+                "image": "modern-c01-l03/homestead-farm.png",
+                "name": "西部",
+                "caption": "説明：残りが西部で、開拓とともに大きくなる",
+                "kind": "prop",
+                "identity": "prop:homestead-farm",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原書の模式的な地域説明を併用し、現在の全米を南北に二分する誤読を防ぐ。",
+      "sourcePages": [
+        57
+      ],
+      "htmlBodySha256": "d5d7552c02649b8db7e86491f2219df80df177494e508fb0d75bc0e339ac1970",
+      "plainBodySha256": "492988b87896c76eec598837be185caaa259fdcfa04fff31ad57caa348ea8350",
+      "sourceTextSha256": "394bd707e9514d47aadbce4a499e97b3d5ddebca1df677dc63e038c2162c4747"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-012",
+      "title": "西部出身のジャクソン大統領",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "小農民が多い西部から大統領へ",
+        "groups": [
+          {
+            "label": "1828年の当選",
+            "figures": [
+              {
+                "image": "modern-c01-l03/andrew-jackson.png",
+                "name": "ジャクソン",
+                "caption": "説明：初の西部出身の大統領となる",
+                "kind": "person",
+                "identity": "person:andrew-jackson",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "支持する人びと",
+            "figures": [
+              {
+                "image": "modern-c01-l03/american-settlers.png",
+                "name": "西部の小農民",
+                "caption": "説明：西部の人口の大多数",
+                "kind": "group",
+                "identity": "group:american-settlers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本人の当選と西部の支持を示す。所在地や軍事行動は補わない。",
+      "sourcePages": [
+        57
+      ],
+      "htmlBodySha256": "70fd985e4df528eb649d792b28db415329b804d8847a8cb200b701b2dd6f8040",
+      "plainBodySha256": "1080b744c9f9745ee3baf4834649d49cfcc88a61d81048888358d0d8d4d63104",
+      "sourceTextSha256": "631d5766262c346923c1fd9e79a7164a9bfbaeebab21c16c190f730bc58fdea1"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-013",
+      "title": "ジャクソニアン＝デモクラシー",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "白人の民衆へ広がる政治参加",
+        "groups": [
+          {
+            "label": "政策を進める大統領",
+            "figures": [
+              {
+                "image": "modern-c01-l03/andrew-jackson.png",
+                "name": "ジャクソン",
+                "caption": "説明：北部の資本家を抑えて大統領権限を強化する",
+                "kind": "person",
+                "identity": "person:andrew-jackson",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "政策",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ballot-box.png",
+                "name": "白人男性普通選挙",
+                "caption": "説明：政治参加を広げる",
+                "kind": "prop",
+                "identity": "prop:ballot-box",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/public-school.png",
+                "name": "公立学校",
+                "caption": "説明：学校を増やす",
+                "kind": "building",
+                "identity": "building:public-school",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "スポイルズ・システム",
+                "caption": "説明：政権交代時に官僚を交代させる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "民主主義の対象が白人に限られる点を表示名で保持し、黒人への平等を獲得した絵にしない。",
+      "sourcePages": [
+        57
+      ],
+      "htmlBodySha256": "5e2298aa94a651fc0e610e57a3f94078a40cc36d288f327dd5c230f17b64b8b3",
+      "plainBodySha256": "93af47f0bb84a73a5d96b20c06792196a7707a56db05846b34a33f92468ea05c",
+      "sourceTextSha256": "66b41d6fda4f6ee7f18c31eda730bd3ace7de28cd3132ab000451a5e90d55db4"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-014",
+      "title": "白人限定の民主主義と先住民の強制移住",
+      "mapActors": [
+        {
+          "name": "先住民の強制移住",
+          "image": "modern-c01-l03/native-displaced-families.png",
+          "kind": "group",
+          "identity": "group:native-displaced-families",
+          "at": [
+            -97,
+            35
+          ],
+          "bubble": "説明：ミシシッピ川以西へ移住を強制される",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "民主主義から除外された人びと",
+        "groups": [
+          {
+            "label": "白人限定の政策",
+            "figures": [
+              {
+                "image": "modern-c01-l03/andrew-jackson.png",
+                "name": "ジャクソン",
+                "caption": "説明：奴隷制を擁護し、先住民強制移住法を制定する",
+                "kind": "person",
+                "identity": "person:andrew-jackson",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "排除と強制移住",
+            "figures": [
+              {
+                "image": "modern-c01-l03/enslaved-black-workers.png",
+                "name": "黒人",
+                "caption": "説明：民主主義から除外された",
+                "kind": "group",
+                "identity": "group:black-escapees",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l03/native-displaced-families.png",
+                "name": "先住民",
+                "caption": "説明：食糧不足・病気で多くが命を落とした涙の旅路",
+                "kind": "group",
+                "identity": "group:native-displaced-families",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "強制と犠牲を説明で明記する。移動を自由な移住の喜ばしい姿として扱わず、民族の厳密な行路も作らない。",
+      "sourcePages": [
+        57,
+        58
+      ],
+      "htmlBodySha256": "19791e24dcb8addb71b8078442f7bc74c796897d00fc349ddc1d30f676d4d4da",
+      "plainBodySha256": "11368f0fb8e87b7aca5f047d05c408850dcb61f5d3536d8ee3457b0a2bd498a5",
+      "sourceTextSha256": "0ed153aba63c642c5e7a21a89ca2ca4ad8906c93689c0274df47d8586b04e511"
+    },
+    {
+      "sceneId": "modern-c01-l03-p01-015",
+      "title": "ホイッグ党と民主党の成立",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "支持する側と反対する側の政党",
+        "groups": [
+          {
+            "label": "ジャクソン反対派",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "北部の資本家",
+                "caption": "説明：専制政治に反対してホイッグ党をつくる",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "ジャクソン支持派",
+            "figures": [
+              {
+                "image": "modern-c01-l03/andrew-jackson.png",
+                "name": "ジャクソン",
+                "caption": "説明：民主主義を支持する民主党の中心",
+                "kind": "person",
+                "identity": "person:andrew-jackson",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l03/southern-planters.png",
+                "name": "南部の農場主",
+                "caption": "説明：小農民・東部労働者とともに支持する",
+                "kind": "group",
+                "identity": "group:southern-planters",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "ホイッグの名称の由来",
+            "figures": [
+              {
+                "image": "ancient/james2-stuart.png",
+                "name": "ジェームズ2世",
+                "caption": "説明：過去のイギリスで専制政治に反対した勢力の呼び名",
+                "kind": "person",
+                "identity": "person:james2-stuart",
+                "temporalRole": "reference"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "まだ民主党・共和党ではない時期として示す。英国のジェームズ2世は名称の由来として本文で読む。",
+      "sourcePages": [
+        58
+      ],
+      "htmlBodySha256": "a049b0a22c211ce77abe0dca5a014848afce895b248d1db4a0caeda569ac1be6",
+      "plainBodySha256": "435954c8a654e162e7ab7c9ccefa4a713bbc310b5507bb86d08be9ab5ace352c",
+      "sourceTextSha256": "5506469e334da0e9c5192237a6d38bc8f6628dbb6313f3bfd32c4b228f6be13f"
+    },
+    {
+      "sceneId": "modern-c01-l03-p02-001",
+      "title": "独立後のパリ条約と最初の領土拡大",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "独立直後に広がった領土",
+        "groups": [
+          {
+            "label": "1783年のパリ条約",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "ミシシッピ川以東のルイジアナ",
+                "caption": "説明：イギリスから獲得し領土が倍になった",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "その後の西への拡大",
+            "figures": [
+              {
+                "image": "modern-c01-l03/american-settlers.png",
+                "name": "西部の開拓者",
+                "caption": "説明：西への領土拡大が続く",
+                "kind": "group",
+                "identity": "group:american-settlers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "東西のルイジアナを区別し、現在のルイジアナ州の境界で古い広域を代表しない。",
+      "sourcePages": [
+        58
+      ],
+      "htmlBodySha256": "3ea5360fdd3b00621f99cb3ed5efb4bb108c985e98036c4a76c605a262cca56e",
+      "plainBodySha256": "221a8699b4606f2f8f03fa2a455d71779d7bfbe109d5a9e8e3d652ffc918e56c",
+      "sourceTextSha256": "f38b630f47a668680aea2158ca59075b6135cd0f60ef8576cf860a793a3b2aed"
+    },
+    {
+      "sceneId": "modern-c01-l03-p02-002",
+      "title": "ルイジアナ購入とフロリダ買収",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "購入によって広がる領土",
+        "groups": [
+          {
+            "label": "1803年の購入",
+            "figures": [
+              {
+                "image": "modern-c01-l03/jefferson.png",
+                "name": "ジェファソン",
+                "caption": "説明：第3代大統領の時に西側のルイジアナを買収する",
+                "kind": "person",
+                "identity": "person:jefferson",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/napoleon-i.png",
+                "name": "ナポレオン",
+                "caption": "説明：ハイチの独立運動鎮圧の戦費を補おうとして売却する",
+                "kind": "person",
+                "identity": "person:napoleon-i",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "その後の買収",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "フロリダ",
+                "caption": "説明：スペインから買収して東海岸の領土が広がる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "両国の本人を別の顔で置き、当時の買収地域は代表位置と原書の表で確認する。",
+      "sourcePages": [
+        58,
+        59
+      ],
+      "htmlBodySha256": "9823b70ab64f5aedb98fa1de647f30c21908f657c674a2a13ef5fcb10845e6e0",
+      "plainBodySha256": "7df68b2d9b89de0b177171b1c072ddf19c482e6c83f95372204be8c7c3d3a43c",
+      "sourceTextSha256": "f3a093c73a4aad4cdb46f6850faab0a02a080d2ff7ef6c298ad03e3b15d0e43d"
+    },
+    {
+      "sceneId": "modern-c01-l03-p02-003",
+      "title": "マニフェスト＝デスティニーという主張",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "領土拡大を正当化する主張",
+        "groups": [
+          {
+            "label": "アメリカが唱えた論理",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "マニフェスト＝デスティニー",
+                "caption": "説明：自由・民主主義を広げる使命だと主張する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "狙われた地域",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "テキサス",
+                "caption": "説明：メキシコから奪う領土拡大の口実として説明される",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "当時の主張を本文の批判とともに説明し、アプリ自身が神の使命や文明の優劣を肯定する図にしない。",
+      "sourcePages": [
+        59
+      ],
+      "htmlBodySha256": "c70a740ed7efecbcfa0cf62da8b02c3969a36e46f0eda763bb7f757145fdb8b2",
+      "plainBodySha256": "9795960dcf6d074d1c1adf053117e548d2c8775841177772a6c7ca900c07cf72",
+      "sourceTextSha256": "8a6b6199447175a6fbbc4b4ee1498aaa90f2f7bbb8601acd1f3fa0aad1453f2d"
+    },
+    {
+      "sceneId": "modern-c01-l03-p02-004",
+      "title": "テキサスへの入植と併合",
+      "mapActors": [
+        {
+          "name": "テキサスへの入植者",
+          "image": "modern-c01-l03/american-settlers.png",
+          "kind": "group",
+          "identity": "group:american-settlers",
+          "at": [
+            -99,
+            31
+          ],
+          "bubble": "説明：移民禁止後もアメリカ系の入植者が増える",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "入植・独立・併合の流れ",
+        "groups": [
+          {
+            "label": "入植者の増加",
+            "figures": [
+              {
+                "image": "modern-c01-l03/american-settlers.png",
+                "name": "アメリカ系住民",
+                "caption": "説明：メキシコ人の4倍になる",
+                "kind": "group",
+                "identity": "group:american-settlers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "独立から併合へ",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "テキサス共和国",
+                "caption": "説明：独立運動をアメリカが支援する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "テキサス併合",
+                "caption": "説明：アメリカ系住民の併合運動を受けて実現する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "入植の実際の移動を一般家族で示す。併合の希望と結果を分け、本文にない軍の進行は描かない。",
+      "sourcePages": [
+        59
+      ],
+      "htmlBodySha256": "3ef863ee84833cf53aed1c58fbaadd44ffdd1638955263d6d0f2a8175e9cb638",
+      "plainBodySha256": "19ed1e28b16164d1d6df1c31ee27e837c31749205aaeb28e17706b90c3f12001",
+      "sourceTextSha256": "dc90e5b336bcd2281253483a58a69de5521addd0474d4e6e5a61c4d498d4c87d"
+    },
+    {
+      "sceneId": "modern-c01-l03-p02-005",
+      "title": "米墨戦争と太平洋岸への到達",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "米墨戦争とメキシコの領土喪失",
+        "groups": [
+          {
+            "label": "戦争",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "アメリカ＝メキシコ戦争",
+                "caption": "説明：両国の軍隊の衝突から始まる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "結果",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "カリフォルニアなど",
+                "caption": "説明：アメリカが奪い、メキシコは領土の半分以上を失う",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "領土の喪失と太平洋岸への到達を示す。史料にない作戦経路や軍隊の復元は加えない。",
+      "sourcePages": [
+        59
+      ],
+      "htmlBodySha256": "5f235ebc5518f35ff233fdc1810e3402e70db6f1f7aab5b7b0d529d8d0126eb5",
+      "plainBodySha256": "8824843aa12cf584442e4c7357132cf6df676d6bd3d18a882eb39335d29ee661",
+      "sourceTextSha256": "80c0a8a0b30a70b7e8b0f9c2d98cf18cca15a010ebbf968b9eb3d218b85a09ea"
+    },
+    {
+      "sceneId": "modern-c01-l03-p02-006",
+      "title": "カリフォルニアのゴールドラッシュ",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "カリフォルニアの金鉱",
+          "image": "modern-c01-l03/gold-pan.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:gold-pan",
+          "size": 64,
+          "at": [
+            -119.5,
+            37.2
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "金鉱発見と人口の急増",
+        "groups": [
+          {
+            "label": "1848年の発見",
+            "figures": [
+              {
+                "image": "modern-c01-l03/gold-pan.png",
+                "name": "ゴールドラッシュ",
+                "caption": "説明：世界から一発を狙う人びとが集まる",
+                "kind": "prop",
+                "identity": "prop:gold-pan",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "人口の変化",
+            "figures": [
+              {
+                "image": "modern-c01-l03/american-settlers.png",
+                "name": "集まった人びと",
+                "caption": "説明：カリフォルニアの人口が急増する",
+                "kind": "group",
+                "identity": "group:american-settlers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "金の発見は実際の地域で示す。原書の現在人口の説明を校訂しない。",
+      "sourcePages": [
+        59
+      ],
+      "htmlBodySha256": "a392376b24f4ed9960a1aa2b2128bb7743b48c70050aa2561875342c708f6c85",
+      "plainBodySha256": "2a05b3cdee9a1d7fc9a0746b54990eac04a17543d131f8f3a8f418a3b105cb36",
+      "sourceTextSha256": "883502f5d9a2f860b2a8228ab3c69285ab9d5cfd4236833741cd067bd9e81814"
+    },
+    {
+      "sceneId": "modern-c01-l03-p02-007",
+      "title": "日本の開国とアラスカ購入",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "日米和親条約",
+          "image": "modern-c01-l01/treaty-document.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:treaty-document",
+          "size": 64,
+          "at": [
+            138,
+            37
+          ]
+        },
+        {
+          "name": "アラスカ購入",
+          "image": "modern-c01-l01/treaty-document.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:treaty-document",
+          "size": 64,
+          "at": [
+            -150,
+            64
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "太平洋岸からアジアへ関心を向ける",
+        "groups": [
+          {
+            "label": "日本へ派遣された本人",
+            "figures": [
+              {
+                "image": "modern-c01-l03/perry.png",
+                "name": "ペリー",
+                "caption": "説明：1854年の日米和親条約により日本の開国を実現する",
+                "kind": "person",
+                "identity": "person:perry",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "さらに広がる領土",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "アラスカ",
+                "caption": "説明：1867年にロシアから購入する",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原書60ページの独立コラム",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "開国から明治維新へ",
+                "caption": "説明：日本の開国・不平等条約・明治維新の全文を原書60ページで読む",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "sourceFigureReferences": [],
+      "reason": "ペリーは本人の模式欄と日本の訪問先を分ける。航路や米国の出発港を補わず、60ページの独立コラムも参照可能にする。",
+      "sourcePages": [
+        59
+      ],
+      "htmlBodySha256": "4535dc705f08e778a07dd2a950ce13bd222e89c04d3d94b22477042368d48066",
+      "plainBodySha256": "6c5a9d2f9265c05e88aaf5011d0a882d07ff1d8ddbbd97f1274acaadd82fc8e5",
+      "sourceTextSha256": "7a86bb2ae6468b530c153470e3922cd9a191935596ccaf01e6bccf082dedbe87"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-001",
+      "title": "南北戦争の背景を考える",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "奴隷問題以外にもある対立の原因",
+        "groups": [
+          {
+            "label": "北部と南部の戦争",
+            "figures": [
+              {
+                "image": "modern-c01-l03/union-soldiers.png",
+                "name": "北軍",
+                "caption": "説明：アメリカ史上最多の犠牲者を出す戦争",
+                "kind": "group",
+                "identity": "group:union-soldiers",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l03/confederate-soldiers.png",
+                "name": "南軍",
+                "caption": "説明：発展の方向にかかわる対立が背景",
+                "kind": "group",
+                "identity": "group:confederate-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "南北戦争の前提を読み、最初から奴隷問題だけに圧縮しない。",
+      "sourcePages": [
+        61
+      ],
+      "htmlBodySha256": "545061deecca52a942fe0c93c7fdc238ddb1860ea19b171d9277242332d25c88",
+      "plainBodySha256": "b88a82952a3caa827ec45a32129a80e14758ea8c426cdcf9d61f5eaf2238108f",
+      "sourceTextSha256": "b0571999d35506492becb5a0bac0ea34c7a778deb1b2f99bd34f1e5bb3a84e41"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-002",
+      "title": "工業と農業：発展の方向の対立",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "工業と農業、どちらを重視するか",
+        "groups": [
+          {
+            "label": "北部の工業",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：工業発展を目指す",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l01/steam-factory.png",
+                "name": "工業",
+                "caption": "説明：工業優先の発展",
+                "kind": "prop",
+                "identity": "prop:steam-factory",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "南部の農業",
+            "figures": [
+              {
+                "image": "modern-c01-l03/southern-planters.png",
+                "name": "南部のプランター",
+                "caption": "説明：農業を重視したい",
+                "kind": "group",
+                "identity": "group:southern-planters",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l03/cotton-bales.png",
+                "name": "綿花",
+                "caption": "説明：プランテーションの発展",
+                "kind": "prop",
+                "identity": "prop:cotton-bales",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原書62ページの比較表を併用する。北部・南部の産業の対立を位置と模式欄の両方で示す。",
+      "sourcePages": [
+        61,
+        62
+      ],
+      "htmlBodySha256": "da4be9ee8c18502f240a9b3b49fa8b136239e8971a754efc3b09ee240369d50f",
+      "plainBodySha256": "9fe2804e60057a5f6d9a338f79607c4f5a4bede43ab7f73e7d0109a843682228",
+      "sourceTextSha256": "e9af64a48036967c19fcf77729b5d56a2db8a9f518e79174282a193fb93d2763"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-003",
+      "title": "北部の保護貿易と連邦主義",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "北部が求めた保護貿易と統合",
+        "groups": [
+          {
+            "label": "産業資本家",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：イギリス製品の流入を阻止して自分たちの商品を売りたい",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "政治上の要求",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "連邦主義",
+                "caption": "説明：内政は州自治、対外政策は合衆国全体で統一する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "連邦主義を中央集権と混同しないよう、本文の区別を明記する。",
+      "sourcePages": [
+        62
+      ],
+      "htmlBodySha256": "c265ba2fc95f81ef5deb75e5aa193bac2e319084101a1183f37ccd10798e056e",
+      "plainBodySha256": "fdb127047e7e06b2bcac2ae26b18abe533af73b8c6138b535b4922db4dc39147",
+      "sourceTextSha256": "7ffabd0b630dc0e5fa32845d2b59468f9c2f28bf1e6867d41339fd71aa5d05ad"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-004",
+      "title": "南部の自由貿易と州権主義",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "イギリスへの綿花輸出",
+          "image": "modern-c01-l03/cotton-bales.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:cotton-bales",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "bubble": "説明：南部の生産した綿花を輸出する",
+          "route": 0
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "南部が求めた自由貿易と州の権限",
+        "groups": [
+          {
+            "label": "プランテーションの経営",
+            "figures": [
+              {
+                "image": "modern-c01-l03/southern-planters.png",
+                "name": "南部のプランター",
+                "caption": "説明：綿花をイギリスへ輸出して利益を得る",
+                "kind": "group",
+                "identity": "group:southern-planters",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "政治上の要求",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "州権主義",
+                "caption": "説明：貿易政策も各州で決めたい",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文が説明する綿花の輸出だけを動かし、自由貿易と各州の判断を比較する。",
+      "sourcePages": [
+        62
+      ],
+      "htmlBodySha256": "44ff3c717d374ecb31d302b8be7c6d1fd2a217ea9e4c815dd149aa660f33bb0c",
+      "plainBodySha256": "8b0dbe288c9566c0ee8d29b22cf4b3b72c50bf2f62a81a3abcf92a882865cd8a",
+      "sourceTextSha256": "9e8fa5185797cb37022f3c79cde51db1fdf4aab2c931b692adbb809fc3d4c68d"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-005",
+      "title": "大統領選挙で主張を伝える難しさ",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "政策の主張と選挙の難しさ",
+        "groups": [
+          {
+            "label": "大統領を出すための選挙",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ballot-box.png",
+                "name": "大統領選挙",
+                "caption": "説明：4年に一度、主張を実現する候補を選ぶ",
+                "kind": "prop",
+                "identity": "prop:ballot-box",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "伝わりにくい政策",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "複雑な主張",
+                "caption": "説明：一般の人びとに伝わらなければ選挙に勝てない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "一般の選挙の仕組みを道具で示す。候補の実名や所在を原文から補わない。",
+      "sourcePages": [
+        62,
+        63
+      ],
+      "htmlBodySha256": "fd24a306742a78a00332e5ff16d063b1e16b7ca002a8f02e3f92160173cfba63",
+      "plainBodySha256": "9d38693fbf511d852a4294a77909b53931c68b2b922e38eb69027cbfb09fa0ba",
+      "sourceTextSha256": "3d4be5ba7ee2aab8d599df751dfd939c517864aaa26094bc1c19998f4bc69c1f"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-006",
+      "title": "奴隷制が対立の争点になる",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "選挙の争点として前に出た奴隷制",
+        "groups": [
+          {
+            "label": "北部の主張",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "奴隷制反対",
+                "caption": "説明：南部は人道的ではないと主張する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "南部の主張",
+            "figures": [
+              {
+                "image": "modern-c01-l03/southern-planters.png",
+                "name": "奴隷制維持",
+                "caption": "説明：北部だけで廃止すればよいと主張する",
+                "kind": "group",
+                "identity": "group:southern-planters",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "制度の下に置かれた人びと",
+            "figures": [
+              {
+                "image": "modern-c01-l03/enslaved-black-workers.png",
+                "name": "黒人奴隷",
+                "caption": "説明：対立の争点として扱われた人びと",
+                "kind": "group",
+                "identity": "group:black-escapees",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "政治的な争点と奴隷制下の人びとを分け、奴隷制を単なる道具の絵に置き換えない。",
+      "sourcePages": [
+        63
+      ],
+      "htmlBodySha256": "758385f8c3b395918fd6100d70e08ca8c0550b22fe1ed746012b65c607972273",
+      "plainBodySha256": "d822279595a3155ac5bf1e5cab54433898141598e09cf2c16865abccddee61c5",
+      "sourceTextSha256": "c77263dc58e5d325765833c1462cec1bfc6f0bc7cfcbfa2dc9d933abd46aec40"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-007",
+      "title": "新しい州が増える仕組み",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "13州から州が増えていく",
+        "groups": [
+          {
+            "label": "独立当初",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "建国13州",
+                "caption": "説明：当初の州の数",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "新しい州",
+            "figures": [
+              {
+                "image": "modern-c01-l03/american-settlers.png",
+                "name": "開拓地の住民",
+                "caption": "説明：領土への移住が進み州が増えていく",
+                "kind": "group",
+                "identity": "group:american-settlers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "州の設置の前提を保持し、次の人口基準の説明へつなぐ。",
+      "sourcePages": [
+        63
+      ],
+      "htmlBodySha256": "3aad151088ca765131361bd6a815339100643e012d14cc3fe804bfd46e34509f",
+      "plainBodySha256": "49f60c824f73ac8b81ab6e80b8d6a5b329650ca0b2c5644ce2999f60e94224f4",
+      "sourceTextSha256": "d52a63ab06138779b6f9e824ed1a767ee009030e48cafe2c47d2fbb2aaa78d59"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-008",
+      "title": "準州から州へ：人口の基準",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "北西部条例で決めた人口基準",
+        "groups": [
+          {
+            "label": "成人男性5000人",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "準州",
+                "caption": "説明：州になる準備が始まる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "人口6万人",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "州",
+                "caption": "説明：連邦に加入する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原書の人口基準を数字のまま示し、選挙権の制度や行政区を独自に補わない。",
+      "sourcePages": [
+        63
+      ],
+      "htmlBodySha256": "0b1c8a96f1f9e5e11e2aea7dc832b96a1dd41c8f0ee1d9efea54729b77553291",
+      "plainBodySha256": "9d6f8168d63bfcfac6b3763920838d2a98030c72553e693c5f2effa4a5874f6a",
+      "sourceTextSha256": "f747f09c6364ee3d7a0adb4d3bb915da60f65b3c965ccfeb3b147213536d3dab"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-009",
+      "title": "自由州・奴隷州と上院の勢力",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "州の数が上院の議員数を変える",
+        "groups": [
+          {
+            "label": "自由州",
+            "figures": [
+              {
+                "image": "modern-c01-l01/parliament-delegates.png",
+                "name": "北部の味方",
+                "caption": "説明：各州2名ずつの上院代表を送る",
+                "kind": "group",
+                "identity": "group:parliament-delegates",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "奴隷州",
+            "figures": [
+              {
+                "image": "modern-c01-l01/parliament-delegates.png",
+                "name": "南部の味方",
+                "caption": "説明：同じく各州2名ずつの代表を送る",
+                "kind": "group",
+                "identity": "group:parliament-delegates",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "1819年の均衡",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "11州ずつ",
+                "caption": "説明：州が増えると議会の均衡が崩れる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原書にない州を追加せず、11対11と各州2名の勢力争いを模式欄で比較する。",
+      "sourcePages": [
+        63
+      ],
+      "htmlBodySha256": "6b63a94802c569f9a2dc897e9966f97d461fc1fcf077e0b9ed24ac63ffb18b72",
+      "plainBodySha256": "4c5e95a2bf34d47a6787f75a4aa098804fe80ca8429c44043215774e5cf5061c",
+      "sourceTextSha256": "8110dc02af0bfa6af9b2b7a14a86e8575bbc17314f51ccd8b0d147cd42aa68ca"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-010",
+      "title": "ミズーリ協定と北緯36度30分",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "ミズーリ協定の取り決め",
+        "groups": [
+          {
+            "label": "ミズーリ州",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "奴隷州として加入",
+                "caption": "説明：ミズーリ州を例外として加入させる",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "以後の境界",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "北緯36度30分",
+                "caption": "説明：これより北には奴隷制を認めない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原書の取り決めを比較図で示す。本文にないメイン州や正確な州境を補わない。",
+      "sourcePages": [
+        63
+      ],
+      "htmlBodySha256": "b584aa9ad9030959564a72d3f2d21820f5daa7a5b29c270f0b126404dee4185e",
+      "plainBodySha256": "bb61205220ac1fd92f1e37e7d48ddb223cbe3c92aa4b95237d4a3be1a58a5377",
+      "sourceTextSha256": "7c7364b086389cfc76fd853605bd896fe44b50a4af7cdfaec261e19cb9309686"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-011",
+      "title": "カリフォルニアの自由州加入",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "ゴールドラッシュ",
+          "image": "modern-c01-l03/gold-pan.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:gold-pan",
+          "size": 64,
+          "at": [
+            -119.5,
+            37.2
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "人口急増と自由州への加入",
+        "groups": [
+          {
+            "label": "カリフォルニア",
+            "figures": [
+              {
+                "image": "modern-c01-l03/gold-pan.png",
+                "name": "金鉱の発見",
+                "caption": "説明：人口が10万人を超え、州になる条件を満たす",
+                "kind": "prop",
+                "identity": "prop:gold-pan",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "住民投票",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ballot-box.png",
+                "name": "自由州",
+                "caption": "説明：住民投票で自由州となり、南部が反発する",
+                "kind": "prop",
+                "identity": "prop:ballot-box",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "領域が境界をまたぐことと議会の均衡の問題を読む。原書の住民投票の記述もそのまま保持する。",
+      "sourcePages": [
+        63,
+        64
+      ],
+      "htmlBodySha256": "3e8482d67fc3da9de88d9e69cae7fc366a2ca720c1e432567d9e557af575b2a9",
+      "plainBodySha256": "532969020f984558da3b612d856405957edc809d45cb3e0fd6a67311c45d4be6",
+      "sourceTextSha256": "9f303b232d151e0bdbd37869240722096d790550eb81cce4f1317bf74358f68c"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-012",
+      "title": "カンザス・ネブラスカ法と共和党",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "住民投票と北部の反発",
+        "groups": [
+          {
+            "label": "カンザス・ネブラスカ法",
+            "figures": [
+              {
+                "image": "modern-c01-l01/ballot-box.png",
+                "name": "自由州・奴隷州の決定",
+                "caption": "説明：住民投票に任せ、ミズーリ協定を否定する",
+                "kind": "prop",
+                "identity": "prop:ballot-box",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "北部の反応",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "共和党",
+                "caption": "説明：奴隷制反対派が結成する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "原書64ページの独立コラム",
+            "figures": [
+              {
+                "image": "modern-c01-l03/harriet-stowe.png",
+                "name": "ストウ夫人",
+                "caption": "説明：小説アンクル＝トムの小屋の説明を原書全文で読む",
+                "kind": "person",
+                "identity": "person:harriet-stowe",
+                "temporalRole": "reference"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "sourceFigureReferences": [
+        {
+          "name": "ストウ夫人",
+          "page": 64,
+          "lines": [
+            273
+          ],
+          "reason": "通常本文のすぐ後の小説を扱う独立コラムに登場する本人を参考として示す。"
+        }
+      ],
+      "reason": "カンザスでの武力衝突と法の変更を示す。ストウ夫人は原書のコラムの参照であり新しい通常本文を加えない。",
+      "sourcePages": [
+        64
+      ],
+      "htmlBodySha256": "e350e4e54d50d6f425fcad5ccb096377db8c5c63cfae6ee95718a28f9dd0d6a5",
+      "plainBodySha256": "6b28011acb80ded1db7d2a2245868fee87ab2a9c3065829972d82d651b7b2bf3",
+      "sourceTextSha256": "3da614566cafb7df96a8d8e848bc4a7ca71079901e5726ca59d4c27fa46620f5"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-013",
+      "title": "リンカン当選：奴隷制拡大に反対",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "リンカンの主張は奴隷制の拡大反対",
+        "groups": [
+          {
+            "label": "1860年の当選",
+            "figures": [
+              {
+                "image": "modern-c01-l03/lincoln.png",
+                "name": "リンカン",
+                "caption": "説明：共和党の候補として当選する",
+                "kind": "person",
+                "identity": "person:lincoln",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "主張の範囲",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "新しい州では奴隷制を認めない",
+                "caption": "説明：合衆国の統合を最優先し、南部での即時廃止とは言わない",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "当選時の拡大反対と後の解放宣言を混同しない。",
+      "sourcePages": [
+        64,
+        65
+      ],
+      "htmlBodySha256": "873daf7c85cacebe15baef87821441cdecb9126c453d000b7ae2a55b2a3e02ea",
+      "plainBodySha256": "999474cff163c6f38e67e5e6e99930788bb0e50bb33b3803c4c9b4dfa5f12767",
+      "sourceTextSha256": "6f80e6a6ee2f9fd00b30f5167e0f2e431348dec769e6399d1821daa394371c1e"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-014",
+      "title": "南部11州の離脱とアメリカ連合国",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "南部11州が合衆国から離脱",
+        "groups": [
+          {
+            "label": "南部連合",
+            "figures": [
+              {
+                "image": "modern-c01-l03/jefferson-davis.png",
+                "name": "ジェファソン＝デヴィス",
+                "caption": "説明：大統領となり、首都はリッチモンド",
+                "kind": "person",
+                "identity": "person:jefferson-davis",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "憲法の主張",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "奴隷制擁護と州権主義",
+                "caption": "説明：開戦前7州・開戦後4州の合計11州が離脱する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "第3代大統領ジェファソンとは別の本人を用い、南部連合の首都と本人の固定所在地を分ける。",
+      "sourcePages": [
+        64,
+        65
+      ],
+      "htmlBodySha256": "10f7d8d5fed13ecc9ffaa19e5db2eaa1d1bcf02684a416e8177707e5a80b3e15",
+      "plainBodySha256": "e97e5db3ae7d967ad55f859149ab2f9b0a8efad02944e49060fe2a73a591b674",
+      "sourceTextSha256": "9c3b7edfda0c02449c6169838da4c226f11e7f5f5e0a9e12b38be17b7303f2ec"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-015",
+      "title": "サムター要塞への攻撃と開戦",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "サムター要塞",
+          "image": "modern-c01-l03/fort-sumter.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:fort-sumter",
+          "size": 64,
+          "at": [
+            -79.874,
+            32.752
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "独立を認めないリンカンと要塞攻撃",
+        "groups": [
+          {
+            "label": "合衆国の維持",
+            "figures": [
+              {
+                "image": "modern-c01-l03/lincoln.png",
+                "name": "リンカン",
+                "caption": "説明：南部の独立を認めない",
+                "kind": "person",
+                "identity": "person:lincoln",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "1861年の開戦",
+            "figures": [
+              {
+                "image": "modern-c01-l03/fort-sumter.png",
+                "name": "サムター要塞",
+                "caption": "説明：南部にある合衆国基地への攻撃で戦争が始まる",
+                "kind": "building",
+                "identity": "building:fort-sumter",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文が明記する施設を地理図に置く。リンカン本人を要塞に配置しない。",
+      "sourcePages": [
+        65
+      ],
+      "htmlBodySha256": "b42f5dbb67c8b036ade79df42052447b4b1d8f4d1bf7a5f2ea0ebbc7bdbc533e",
+      "plainBodySha256": "0704dd89aee9e1e43d0cfffc10cef5d6af1257e46e378a9f4508449f7e4a3f3b",
+      "sourceTextSha256": "aa727022dabf2da87b783a8986ccbbfde8acfd67573d0a08ab4d563a7faf61c2"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-016",
+      "title": "リー将軍と南部が期待した英仏の支援",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "イギリスへの綿花",
+          "image": "modern-c01-l03/cotton-bales.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:cotton-bales",
+          "size": 64,
+          "at": [
+            -2,
+            54
+          ],
+          "bubble": "説明：本文にある実際の綿花輸出",
+          "route": 0,
+          "offset": [
+            -12,
+            0
+          ]
+        },
+        {
+          "name": "フランスへの綿花",
+          "image": "modern-c01-l03/cotton-bales.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:cotton-bales",
+          "size": 64,
+          "at": [
+            2,
+            47
+          ],
+          "bubble": "説明：本文にある実際の綿花輸出",
+          "route": 1,
+          "offset": [
+            12,
+            0
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "南軍の優勢と期待していた支援",
+        "groups": [
+          {
+            "label": "開戦初期の南軍",
+            "figures": [
+              {
+                "image": "modern-c01-l03/robert-e-lee.png",
+                "name": "リー",
+                "caption": "説明：南軍を率いて優勢だった",
+                "kind": "person",
+                "identity": "person:robert-e-lee",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l03/confederate-soldiers.png",
+                "name": "南軍",
+                "caption": "説明：領土を守る戦争として戦う",
+                "kind": "group",
+                "identity": "group:confederate-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "英仏に対する期待",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "イギリス・フランスの支援への期待",
+                "caption": "説明：援軍が来れば有利になるという期待であり、実際の派兵を示さない",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "実際の経済関係である綿花輸出のみ動かす。南北からの英仏援軍は期待・仮定の説明として静的に分ける。",
+      "sourcePages": [
+        66
+      ],
+      "htmlBodySha256": "b517b8b0795b318fe7be4069e602a2408ba227bc3f929639e7c66dcb88d55660",
+      "plainBodySha256": "4005bd2a33d7a5eb5e337deb8252f0557da8455b5036c904834c356a395f39d8",
+      "sourceTextSha256": "923d3e6bd187a383e877f99d37a5e9ec51910777917721b393357887d637ac35"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-017",
+      "title": "リンカンは政治で勝つことを目指す",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "軍事だけでなく世論を味方にする",
+        "groups": [
+          {
+            "label": "リンカンの判断",
+            "figures": [
+              {
+                "image": "modern-c01-l03/lincoln.png",
+                "name": "リンカン",
+                "caption": "説明：国内外の世論を味方にし、政治で勝つことを目指す",
+                "kind": "person",
+                "identity": "person:lincoln",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "避けたい事態",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "英仏や西部の支援",
+                "caption": "説明：南部に加わると北部が不利になるという懸念",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "まだ起きていない英仏参戦や西部の南部支持の線を動かさない。",
+      "sourcePages": [
+        66
+      ],
+      "htmlBodySha256": "48bad8fdf353756794e0add7323da1f06ef19604d8bafbb523308ace26f17227",
+      "plainBodySha256": "fb2fa1c37ce299531897b1da2ea668ea48d5c70a5368b93981f18db6c7a82f0b",
+      "sourceTextSha256": "ea6306b9cf3b79c8b353a68a181759f53989ba9bc8549a8e218ee8aa3014cbb0"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-018",
+      "title": "ホームステッド法と西部農民の支持",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "西部の自営農地",
+          "image": "modern-c01-l03/homestead-farm.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:homestead-farm",
+          "size": 64,
+          "at": [
+            -110,
+            39
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "三つの条件で160エーカーの土地",
+        "groups": [
+          {
+            "label": "ホームステッド法",
+            "figures": [
+              {
+                "image": "modern-c01-l03/homestead-farm.png",
+                "name": "開墾・定住・耕作",
+                "caption": "説明：5年間の定住など3条件を満たせば無償で土地を得る",
+                "kind": "prop",
+                "identity": "prop:homestead-farm",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "西部の反応",
+            "figures": [
+              {
+                "image": "modern-c01-l03/american-settlers.png",
+                "name": "西部の農民",
+                "caption": "説明：合衆国に残れば土地が得られ、北軍を支持する",
+                "kind": "group",
+                "identity": "group:american-settlers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "農地の制度と支持を示す。本文にない土地の境界線や人物の訪問を地理へ加えない。",
+      "sourcePages": [
+        66
+      ],
+      "htmlBodySha256": "5a79947779200f002d6f16df314f92985661633e85c9fde7fa95ee679427dc53",
+      "plainBodySha256": "2b626e960a7e3a70d339fd2cd028e1e9db2aa13ff8ceb85c6ef0ef87f546b811",
+      "sourceTextSha256": "203c63ecab20344fcd6691d54117beaa4c6c1a3b3cab843e0c450af665741941"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-019",
+      "title": "英仏を参戦させないための策",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "英仏を参戦させないための宣言",
+        "groups": [
+          {
+            "label": "南部との貿易関係",
+            "figures": [
+              {
+                "image": "modern-c01-l03/cotton-bales.png",
+                "name": "安い綿花",
+                "caption": "説明：英仏は南部から安い綿花を輸入する",
+                "kind": "prop",
+                "identity": "prop:cotton-bales",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "リンカンの策",
+            "figures": [
+              {
+                "image": "modern-c01-l03/lincoln.png",
+                "name": "リンカン",
+                "caption": "説明：英仏の援軍を阻止するため奴隷解放宣言を出す",
+                "kind": "person",
+                "identity": "person:lincoln",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "英仏が利益から南部を支持しうるという予測とリンカンの政策を分ける。援軍が実際に来たという動きは付けない。",
+      "sourcePages": [
+        66
+      ],
+      "htmlBodySha256": "b61ef27a797bc5afe3d478263499c279ab23375463ae70b498390efc0a7ff1d8",
+      "plainBodySha256": "7167ce6cb229df0faba0e553d3bf3fc470e433f976e2f9160ff16722f21af56b",
+      "sourceTextSha256": "3f705789ebcd4edbea949a33f254899ecbaa30339e030e7a12a8bc4d5ede1db1"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-020",
+      "title": "奴隷解放宣言と北軍に加わる人びと",
+      "mapActors": [
+        {
+          "name": "北部へ逃れて北軍に加わる黒人",
+          "image": "modern-c01-l03/enslaved-black-workers.png",
+          "kind": "group",
+          "identity": "group:black-escapees",
+          "at": [
+            -78,
+            42
+          ],
+          "bubble": "説明：南部から北部へ逃れ、北軍に加わる一般集団の役割の変化",
+          "route": 0,
+          "afterImage": "modern-c01-l03/black-union-volunteers.png"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "宣言の国内的な影響",
+        "groups": [
+          {
+            "label": "北部へ向かう人びと",
+            "figures": [
+              {
+                "image": "modern-c01-l03/enslaved-black-workers.png",
+                "name": "南部の奴隷",
+                "caption": "説明：自由を求めて北部へ逃れる",
+                "kind": "group",
+                "identity": "group:black-escapees",
+                "temporalRole": "before"
+              }
+            ]
+          },
+          {
+            "label": "北軍への参加",
+            "figures": [
+              {
+                "image": "modern-c01-l03/black-union-volunteers.png",
+                "name": "北軍に加わる黒人",
+                "caption": "説明：北軍に加わって北部が優勢になっていく",
+                "kind": "group",
+                "identity": "group:black-escapees",
+                "temporalRole": "after",
+                "reason": "一般集団の役割の前後を示す。特定個人の顔の同一性を断定しない"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文の逃亡と北軍参加の実際の移動を動かす。集団の状態を制服へ切り替え、同じ特定個人の肖像とは扱わない。",
+      "sourcePages": [
+        66,
+        67
+      ],
+      "htmlBodySha256": "bfe46e983b52878440611cd8c9dc5d5c298dabab60572822655e531f85b451d4",
+      "plainBodySha256": "deb6ff54c904df2d015a6665c7f7d6a81de8301dd9b7e57f12dce4b399cdead8",
+      "sourceTextSha256": "9fe03aec25e90b27c559f272e2435be474309def8a7ae3ff46f0fe988a60f38d"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-021",
+      "title": "内戦という位置づけと英仏の不介入",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "独立戦争から奴隷解放のための内戦へ",
+        "groups": [
+          {
+            "label": "戦争の位置づけを変える",
+            "figures": [
+              {
+                "image": "modern-c01-l03/lincoln.png",
+                "name": "リンカン",
+                "caption": "説明：奴隷解放宣言で国内外の世論を動かす",
+                "kind": "person",
+                "identity": "person:lincoln",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "英仏の判断",
+            "figures": [
+              {
+                "image": "modern-c01-l01/treaty-document.png",
+                "name": "内戦なので介入しない",
+                "caption": "説明：自国で奴隷制を廃止した英仏は支援できなくなる",
+                "kind": "prop",
+                "identity": "prop:treaty-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原書67ページの二つの視点の比較図を併用する。宣言と不介入は静的な政治上の関係。",
+      "sourcePages": [
+        66,
+        67
+      ],
+      "htmlBodySha256": "49978aa333d10bf29ae396be53e2e5afd843a4d0113f7acf53a426667ddc14a3",
+      "plainBodySha256": "c9dfb0ebef1ef9d409affc22d63b271a0d53aad3ee2bdf767903e5d9ee88f680",
+      "sourceTextSha256": "c882ec6d4c8863f00f3e3c2d1f1b4d2aeb2fc50c8f6d0b756657b497e7c6a426"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-022",
+      "title": "ゲティスバーグの戦いと演説",
+      "mapActors": [
+        {
+          "name": "ゲティスバーグの北軍",
+          "image": "modern-c01-l03/union-soldiers.png",
+          "kind": "group",
+          "identity": "group:union-soldiers",
+          "at": [
+            -77.232,
+            39.83
+          ],
+          "bubble": "説明：南北戦争最大の激戦で決定的な勝利を収める"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "勝利と人民のための政治",
+        "groups": [
+          {
+            "label": "ゲティスバーグの戦い",
+            "figures": [
+              {
+                "image": "modern-c01-l03/union-soldiers.png",
+                "name": "北軍",
+                "caption": "説明：決定的な勝利を収める",
+                "kind": "group",
+                "identity": "group:union-soldiers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "演説",
+            "figures": [
+              {
+                "image": "modern-c01-l03/lincoln.png",
+                "name": "リンカン",
+                "caption": "説明：人民の人民による人民のための政治という演説の一節",
+                "kind": "person",
+                "identity": "person:lincoln",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "戦場は原文の場所、本人は模式欄に置く。演説の正式な引用は原書の独立コラムで全文参照する。",
+      "sourcePages": [
+        67
+      ],
+      "htmlBodySha256": "cd518592d5cd39ace9220f13845306e71327198a0897b5f61305222d3295901b",
+      "plainBodySha256": "ccb689df2763b221bd732da181a7bf96070cf5eb8fba28a4b528d6c645ec2a30",
+      "sourceTextSha256": "f15f5743d2453333a60a9544b1588e873643d499422d931beb43079b450e78f7"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-023",
+      "title": "グラント将軍と南北戦争の終結",
+      "mapActors": [
+        {
+          "name": "北軍の勝利",
+          "image": "modern-c01-l03/union-soldiers.png",
+          "kind": "group",
+          "identity": "group:union-soldiers",
+          "at": [
+            -77.437,
+            37.541
+          ],
+          "bubble": "説明：リッチモンドが陥落し、南北戦争が終わる"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "リッチモンド陥落と戦争の終結",
+        "groups": [
+          {
+            "label": "将軍の活躍",
+            "figures": [
+              {
+                "image": "modern-c01-l03/ulysses-grant.png",
+                "name": "グラント",
+                "caption": "説明：活躍によって北軍が勝利する",
+                "kind": "person",
+                "identity": "person:ulysses-grant",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "結果",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "南北戦争終結",
+                "caption": "説明：リッチモンドが陥落した",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "明記された陥落の都市と将軍本人を分ける。グラント本人の正確な当日の位置を補わない。",
+      "sourcePages": [
+        67
+      ],
+      "htmlBodySha256": "b3689de4b8833e2a53fe37d19cf9f9f75ba060ae4b884d35d6564782dc76260f",
+      "plainBodySha256": "2a7ab8b8a25436be58747f3c88962c4fbf8566d5c41277080bd3d8478bdbc8ee",
+      "sourceTextSha256": "1b037018454ff9ecfbcd50aeccff4cfff47baf6ab243541cee9193163ff2a340"
+    },
+    {
+      "sceneId": "modern-c01-l03-p03-024",
+      "title": "戦争直後のリンカン暗殺",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "フォード劇場",
+          "image": "modern-c01-l03/ford-theatre.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:ford-theatre",
+          "size": 64,
+          "at": [
+            -77.025,
+            38.897
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "戦争直後に暗殺された大統領",
+        "groups": [
+          {
+            "label": "1865年4月の事件",
+            "figures": [
+              {
+                "image": "modern-c01-l03/lincoln.png",
+                "name": "リンカン",
+                "caption": "説明：2期目の就任後、フォード劇場で暗殺される",
+                "kind": "person",
+                "identity": "person:lincoln",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "その後の国",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "統合の維持",
+                "caption": "説明：アメリカ合衆国は一つの国として維持された",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "劇場は原書が述べた現地で表示する。流血・襲撃の再現や新しい犯人の実名は付けない。",
+      "sourcePages": [
+        68
+      ],
+      "htmlBodySha256": "b5c2dc4e6ce5e71321fdea6122e5ff6fb8f7a42d13f7647efe5fc9676ff07b4a",
+      "plainBodySha256": "2366d870c58523843fd38301962ae88ba5b706d665f4ae4af5a0550159c88fa3",
+      "sourceTextSha256": "38af173d41d935663b02cee10cd0639941a35428529ffeaef17a70b562b28b3f"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-001",
+      "title": "憲法修正と黒人の市民権・投票権",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "法で認められた権利",
+        "groups": [
+          {
+            "label": "憲法修正",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "第13条・第14条・第15条",
+                "caption": "説明：奴隷制廃止、市民権、投票権を認める",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "黒人市民",
+            "figures": [
+              {
+                "image": "modern-c01-l03/freed-black-citizens.png",
+                "name": "解放された黒人市民",
+                "caption": "説明：白人と同じ市民のはずだが差別は残った",
+                "kind": "group",
+                "identity": "group:freed-black-citizens",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "憲法上の権利と社会の差別が残る実態を分ける。",
+      "sourcePages": [
+        68
+      ],
+      "htmlBodySha256": "2b9924f048176772b7b9da071d1f7d558aa019775f1dd3eb6f6a3b952ae6e227",
+      "plainBodySha256": "23c0fdbd2962f40d44964601fe73594c4329108a82f3bb23467f1a82a00fd673",
+      "sourceTextSha256": "ee554b0fcfd96ee448bb367387c6a3bc0a7eb95a79225e618cfe0537bd0af9f9"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-002",
+      "title": "シェアクロッパー：自由と貧困",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "分益小作と残った貧困",
+        "groups": [
+          {
+            "label": "地主から借りる",
+            "figures": [
+              {
+                "image": "modern-c01-l03/southern-planters.png",
+                "name": "プランター",
+                "caption": "説明：土地と農具を貸す",
+                "kind": "group",
+                "identity": "group:southern-planters",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "解放された黒人",
+            "figures": [
+              {
+                "image": "modern-c01-l03/freed-black-citizens.png",
+                "name": "シェアクロッパー",
+                "caption": "説明：収穫物の半分以上を現物で納め、貧困に置かれる",
+                "kind": "group",
+                "identity": "group:freed-black-citizens",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "得られた自由",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "やめられる自由",
+                "caption": "説明：奴隷と違い小作人をやめる自由は得た",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "奴隷から小作人への変化を社会の比較で示し、経済的な制約も保持する。",
+      "sourcePages": [
+        68
+      ],
+      "htmlBodySha256": "519afd11736357ea0789f0d2a7c2a3313133833864528a98cece023b2f9f7735",
+      "plainBodySha256": "073a3ee951f55d316a0f37fd1454d145fd8f575a7c9eada3ac9bf48e8214d766",
+      "sourceTextSha256": "ee0ffa15cdbb6e4e272a415630903cf4a0940cf3fadcb6cecb69ab9d9acb81f4"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-003",
+      "title": "社会の変化と黒人への暴力",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "政治・学校への参加と反黒人の暴力",
+        "groups": [
+          {
+            "label": "解放後の参加",
+            "figures": [
+              {
+                "image": "modern-c01-l03/freed-black-citizens.png",
+                "name": "黒人市民",
+                "caption": "説明：学校へ通い、投票に参加する",
+                "kind": "group",
+                "identity": "group:freed-black-citizens",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l02/public-school.png",
+                "name": "学校",
+                "caption": "説明：日常の場に参加が広がる",
+                "kind": "building",
+                "identity": "building:public-school",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "暴力と排除",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "KKK",
+                "caption": "説明：反黒人組織がつくられ、リンチや家への襲撃が起きた",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "被害を受けた人びとの尊厳を保ち、暴力集団の英雄的な画像や襲撃の場面は作らない。",
+      "sourcePages": [
+        68
+      ],
+      "htmlBodySha256": "f78548c0f0972e0a9f965ade67fd30b9becb8f1f250a1fb785c81b651481c6c5",
+      "plainBodySha256": "89b2e1bee61cbce844219a6ffbef0cabe6813de07c123d89cf0ca3a445feaeb5",
+      "sourceTextSha256": "1658abfa97d6203a9d68d192d7dbb8afa7cf7e546e870a5c9b10f9c834613bc3"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-004",
+      "title": "黒人取締法とジム＝クロウ制度",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "州法で制限された権利と人種隔離",
+        "groups": [
+          {
+            "label": "法による制限",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "黒人取締法",
+                "caption": "説明：市民権・投票権を制限し、選挙権を剥奪する",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "ジム＝クロウ制度",
+            "figures": [
+              {
+                "image": "modern-c01-l03/freed-black-citizens.png",
+                "name": "黒人市民",
+                "caption": "説明：学校・交通など社会の場で白人と分離される",
+                "kind": "group",
+                "identity": "group:freed-black-citizens",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "差別の内容を示し、憲法修正で全差別が消えたという印象にしない。南アフリカは本文の比較だけである。",
+      "sourcePages": [
+        68
+      ],
+      "htmlBodySha256": "c63f832c12507ebf3cba54114b1d4f485027abcbcacaab8b085173fb236448d4",
+      "plainBodySha256": "c9e40d5a2585a9df6dfc7caf3c83e8ba7ca9fe0db6931a9d13c0fd3baab60a09",
+      "sourceTextSha256": "8ef73c19ec2d63eeae878698f4932f08df8a53b209fcbe5df8e2cbfb7efb82c8"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-005",
+      "title": "工業優先の政策と鉄鋼・石油",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "北部の工業発展",
+          "image": "modern-c01-l01/steam-factory.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:steam-factory",
+          "size": 64,
+          "at": [
+            -78,
+            42
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "工業優先の政策で発展する産業",
+        "groups": [
+          {
+            "label": "共和党政権の政策",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "工業優先",
+                "caption": "説明：北部の勝利後、工業を優先する政策が続く",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "発展を促す産業",
+            "figures": [
+              {
+                "image": "modern-c01-l03/steel-beams.png",
+                "name": "鉄鋼",
+                "caption": "説明：鉄道建設で需要が増える",
+                "kind": "prop",
+                "identity": "prop:steel-beams",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l03/oil-derrick.png",
+                "name": "石油",
+                "caption": "説明：石油産業が勃興する",
+                "kind": "prop",
+                "identity": "prop:oil-derrick",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "工業優先の政策と鉄道・鉄鋼・石油の関係を説明する。",
+      "sourcePages": [
+        69
+      ],
+      "htmlBodySha256": "c8e353fc18cecd4d30b9acea224d746bd401c01b38915c4815db0ae84b40c256",
+      "plainBodySha256": "ae10b1d1b0a94a6b5ae3fafba6bc5bb80bd08cf5f509c3ed3c480b1a024155cc",
+      "sourceTextSha256": "c09cc3ed7e8f6d90beae027fcea44ce08492534517c9a478434e124462b3483a"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-006",
+      "title": "大陸横断鉄道と東西の往来",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "東西を往来する鉄道",
+          "image": "modern-c01-l01/railway.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:railway",
+          "size": 64,
+          "at": [
+            -119,
+            38
+          ],
+          "bubble": "説明：人・物・情報が大陸を行き来する",
+          "route": 0
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "1869年の鉄道開通と西部開拓",
+        "groups": [
+          {
+            "label": "大陸横断鉄道",
+            "figures": [
+              {
+                "image": "modern-c01-l01/railway.png",
+                "name": "鉄道",
+                "caption": "説明：15年の間に5本の鉄道が完成する",
+                "kind": "prop",
+                "identity": "prop:railway",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "東西の往来",
+            "figures": [
+              {
+                "image": "modern-c01-l03/american-settlers.png",
+                "name": "移動する人びと",
+                "caption": "説明：人・物・情報が行き来し、西部開拓が進む",
+                "kind": "group",
+                "identity": "group:american-settlers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "米国内の東西往来だけを概略で動かす。原書図内のシカゴとサンフランシスコを1869年線の正確な終点とは断定しない。",
+      "sourcePages": [
+        69
+      ],
+      "htmlBodySha256": "aa52bb1fe4b01b80700a41afe7e9c1249c4e372b559e91252e3f931958cfa84a",
+      "plainBodySha256": "62d62106bffead85b510a2c5daf4a17d42340cf5c2120406b2c960807813ee8e",
+      "sourceTextSha256": "e7335d7bc3036b36fc539c0d2426a8010d9c0eb8e584b1cae8bc9caea3314a7b"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-007",
+      "title": "カーネギーとモルガンの鉄鋼事業",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "カーネギー・ホール",
+          "image": "modern-c01-l03/carnegie-hall.png",
+          "kind": "prop",
+          "assetKind": "building",
+          "identity": "building:carnegie-hall",
+          "size": 64,
+          "at": [
+            -73.98,
+            40.765
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "鉄鋼事業と文化・慈善事業",
+        "groups": [
+          {
+            "label": "鉄鋼王",
+            "figures": [
+              {
+                "image": "modern-c01-l03/carnegie.png",
+                "name": "カーネギー",
+                "caption": "説明：糸巻き工から大企業をつくり、売却後に文化・慈善へ寄付する",
+                "kind": "person",
+                "identity": "person:carnegie",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "銀行家",
+            "figures": [
+              {
+                "image": "modern-c01-l03/jp-morgan.png",
+                "name": "モルガン",
+                "caption": "説明：鉄道投資で富を得てUSスティール社を設立する",
+                "kind": "person",
+                "identity": "person:jp-morgan",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "カーネギー・モルガン本人とホールの現地を分ける。本文の同じ本人の役割を別人の画像で代用しない。",
+      "sourcePages": [
+        69
+      ],
+      "htmlBodySha256": "476831806a08f0e56bb56c45af74ad3816d225a7a3f866550f589c8aac83e4e4",
+      "plainBodySha256": "ca04bceef3282cd71954a37802664861a81e646bbf63a5469b0a1573ca689206",
+      "sourceTextSha256": "72ff9493df8415ac787ad747d17dd2562d2f32062fa97aea96f589dce4bd3369"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-008",
+      "title": "ロックフェラーの石油事業",
+      "mapActors": [],
+      "mapProps": [
+        {
+          "name": "ペンシルヴェニアの油田",
+          "image": "modern-c01-l03/oil-derrick.png",
+          "kind": "prop",
+          "assetKind": "prop",
+          "identity": "prop:oil-derrick",
+          "size": 64,
+          "at": [
+            -77.5,
+            41
+          ]
+        }
+      ],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "石油王の事業と鉄道との連携",
+        "groups": [
+          {
+            "label": "ロックフェラー",
+            "figures": [
+              {
+                "image": "modern-c01-l03/rockefeller.png",
+                "name": "ロックフェラー",
+                "caption": "説明：油田に目をつけ、鉄道会社と組んで競争相手を圧倒する",
+                "kind": "person",
+                "identity": "person:rockefeller",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "スタンダード石油トラスト",
+            "figures": [
+              {
+                "image": "modern-c01-l03/oil-derrick.png",
+                "name": "石油精製",
+                "caption": "説明：全米の精製の9割を支配する",
+                "kind": "prop",
+                "identity": "prop:oil-derrick",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "原文の油田の地域と事業者本人を別々に示し、特定の油井に本人がいたとは描かない。",
+      "sourcePages": [
+        69
+      ],
+      "htmlBodySha256": "7906641e018b1b1d8fb03959d9660d7dac6d939a870c6a7a3e5342301fa59114",
+      "plainBodySha256": "6f5263dded7263057d4bdff2833ac3d733d84dde04fa216d53f12dae5b4a662a",
+      "sourceTextSha256": "78dcb3bd2094788ecd1f103f561ece7705cc93d7fef6dc5948bc58f8d3db7739"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-009",
+      "title": "世界一の工業生産と金ぴか時代",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "工業生産世界1位と拝金主義",
+        "groups": [
+          {
+            "label": "保護貿易に支えられた大企業",
+            "figures": [
+              {
+                "image": "modern-c01-l01/industrialists.png",
+                "name": "産業資本家",
+                "caption": "説明：政府の保護貿易政策で発展する",
+                "kind": "group",
+                "identity": "group:industrialists",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "1890年ごろ",
+            "figures": [
+              {
+                "image": "modern-c01-l01/steam-factory.png",
+                "name": "世界一の工業国",
+                "caption": "説明：工業生産でイギリスを抜く",
+                "kind": "prop",
+                "identity": "prop:steam-factory",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l03/gold-pan.png",
+                "name": "金ぴか時代",
+                "caption": "説明：儲かればよいという拝金主義の風潮",
+                "kind": "prop",
+                "identity": "prop:gold-pan",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "ゴールドラッシュと金ぴか時代を同じ出来事とはしない。金の道具は富を求める風潮の一般的な象徴と明記する。",
+      "sourcePages": [
+        69
+      ],
+      "htmlBodySha256": "b35abcb1294ed153e67ba3a2ebeb9d470a0c2940a30e1a4340fd01bec6d9c5f2",
+      "plainBodySha256": "34d5870ad9039b6f85b853484bb3de59c67f034abee62edfac78f369dd2f614a",
+      "sourceTextSha256": "41c71f4530ea05fe79a8f2f2750a47b0bbcf20853b5b3da1d00eb4911c2df660"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-010",
+      "title": "工業化を支えた移民の労働",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "工場だけでなく働く人が必要",
+        "groups": [
+          {
+            "label": "工業化",
+            "figures": [
+              {
+                "image": "modern-c01-l01/steam-factory.png",
+                "name": "工場",
+                "caption": "説明：1840年代には産業革命が始まる",
+                "kind": "prop",
+                "identity": "prop:steam-factory",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "労働需要",
+            "figures": [
+              {
+                "image": "modern-c01-l01/workers.png",
+                "name": "移民の労働者",
+                "caption": "説明：工場を支える働く人が必要になった",
+                "kind": "group",
+                "identity": "group:workers",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "労働需要という本文の説明を一般の労働者の役割で示し、出身地をこの段階で固定しない。",
+      "sourcePages": [
+        69,
+        70
+      ],
+      "htmlBodySha256": "71ae98ce190ee749ce35a99ae51348063f841bd997216c4fd701a0e4595b04d8",
+      "plainBodySha256": "698d143a8e9dce15df7f1c5f6eb194cd21b314aacb9fbbb253fbdb67c44dd07c",
+      "sourceTextSha256": "0db0031a984d829c77df0df125e2a809d7356597207af7f40dea54186b57075a"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-011",
+      "title": "旧移民：アイルランドからの人びと",
+      "mapActors": [
+        {
+          "name": "アイルランド系移民",
+          "image": "modern-c01-l02/irish-emigrants.png",
+          "kind": "group",
+          "identity": "group:irish-emigrants",
+          "at": [
+            -78,
+            42
+          ],
+          "bubble": "説明：渡米し、工場や東からの鉄道建設で働く",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "飢饉を背景とするアイルランドからの移民",
+        "groups": [
+          {
+            "label": "移民の背景",
+            "figures": [
+              {
+                "image": "modern-c01-l02/blighted-potatoes.png",
+                "name": "ジャガイモ飢饉",
+                "caption": "説明：100万人以上の移民の背景となった",
+                "kind": "prop",
+                "identity": "prop:blighted-potatoes",
+                "temporalRole": "reference"
+              }
+            ]
+          },
+          {
+            "label": "アメリカでの労働",
+            "figures": [
+              {
+                "image": "modern-c01-l02/irish-emigrants.png",
+                "name": "アイルランド系移民",
+                "caption": "説明：北部工場や東からの鉄道建設に従事する",
+                "kind": "group",
+                "identity": "group:irish-emigrants",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "第2回と同じ一般移民の役割を再利用する。個人・家族の固定した同一性は断定しない。",
+      "sourcePages": [
+        70
+      ],
+      "htmlBodySha256": "b6d3f81722d7a2e2b0d80fcff279fca6089b98eb48e34eebc0f0123729b4fea8",
+      "plainBodySha256": "5dd997be53ffacf11939c5b446330c03a827f6fd64aed784f5e30ca060b9cd8c",
+      "sourceTextSha256": "ccb366259c99a4e04c9a022f26f14856913c427267116a1f987e399e65a59656"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-012",
+      "title": "旧移民：ドイツからの人びとと金鉱",
+      "mapActors": [
+        {
+          "name": "ドイツ系移民",
+          "image": "modern-c01-l03/german-emigrants.png",
+          "kind": "group",
+          "identity": "group:german-emigrants",
+          "at": [
+            -95,
+            42
+          ],
+          "bubble": "説明：渡米し、中西部の農業地帯へ移る人も多い",
+          "route": 0
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "政治的亡命と貧しい農民の移住",
+        "groups": [
+          {
+            "label": "ドイツ系移民",
+            "figures": [
+              {
+                "image": "modern-c01-l03/german-emigrants.png",
+                "name": "ドイツ系移民",
+                "caption": "説明：三月革命後の亡命者や南ドイツの貧しい農民",
+                "kind": "group",
+                "identity": "group:german-emigrants",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "金鉱発見による加速",
+            "figures": [
+              {
+                "image": "modern-c01-l03/gold-pan.png",
+                "name": "ゴールドラッシュ",
+                "caption": "説明：移民流入の第1波を加速させる",
+                "kind": "prop",
+                "identity": "prop:gold-pan",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文のドイツから中西部への移民を動かす。金鉱に来た全員をドイツ人とする描き方はしない。",
+      "sourcePages": [
+        70
+      ],
+      "htmlBodySha256": "6e81b47969a714e904fe4b600039332e2156badc3daa510f3ca17c942c6894af",
+      "plainBodySha256": "14dc56f3f062ce3a2a059b2e29544b0391cc6e6bfb890911bf0b48ebb998a6f8",
+      "sourceTextSha256": "b3ce22590057e67d7d3205f0a1d24cc4d98491dbce73de417883e37f501b7324"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-013",
+      "title": "新移民：南欧と東欧からの人びと",
+      "mapActors": [
+        {
+          "name": "イタリア系移民",
+          "image": "modern-c01-l03/italian-emigrants.png",
+          "kind": "group",
+          "identity": "group:italian-emigrants",
+          "at": [
+            -78,
+            42
+          ],
+          "bubble": "説明：南イタリアからアメリカへ移民する",
+          "route": 0,
+          "offset": [
+            -15,
+            0
+          ]
+        },
+        {
+          "name": "ロシアからのユダヤ人移民",
+          "image": "modern-c01-l03/jewish-emigrants.png",
+          "kind": "group",
+          "identity": "group:jewish-emigrants",
+          "at": [
+            -78,
+            42
+          ],
+          "bubble": "説明：ポグロムを逃れて渡米する",
+          "route": 1,
+          "offset": [
+            15,
+            0
+          ]
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "1880年代以降に増えた南欧・東欧からの移民",
+        "groups": [
+          {
+            "label": "イタリア系移民",
+            "figures": [
+              {
+                "image": "modern-c01-l03/italian-emigrants.png",
+                "name": "イタリア系移民",
+                "caption": "説明：統一後の保護貿易で農産物輸出が減り、貧しくなった農民",
+                "kind": "group",
+                "identity": "group:italian-emigrants",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "ロシアからの人びと",
+            "figures": [
+              {
+                "image": "modern-c01-l03/jewish-emigrants.png",
+                "name": "ユダヤ人移民",
+                "caption": "説明：迫害であるポグロムを逃れた人びと",
+                "kind": "group",
+                "identity": "group:jewish-emigrants",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "二つの一般集団と背景を区別し、実際の渡米を別の概略経路で示す。",
+      "sourcePages": [
+        70
+      ],
+      "htmlBodySha256": "6f85279f43bee2b054509eab57f8f50e026c0869f0b879c7d2ea7e1c3e8be208",
+      "plainBodySha256": "f839784a19606cf2d8a38911d10b5c0370844d49c44454e2c1a2c0e060714a17",
+      "sourceTextSha256": "85544b423c8a1b5446bd4b1518b44af783c1ccb3f16dfb60469caa206dc17336"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-014",
+      "title": "移民の夢とカトリックへの差別",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "アメリカン・ドリームの裏にある差別",
+        "groups": [
+          {
+            "label": "カトリック教徒として差別された人びと",
+            "figures": [
+              {
+                "image": "modern-c01-l02/irish-emigrants.png",
+                "name": "アイルランド系移民",
+                "caption": "説明：カトリックの多い人びと",
+                "kind": "group",
+                "identity": "group:irish-emigrants",
+                "temporalRole": "current"
+              },
+              {
+                "image": "modern-c01-l03/italian-emigrants.png",
+                "name": "イタリア系移民",
+                "caption": "説明：同じくカトリックとして差別を受ける",
+                "kind": "group",
+                "identity": "group:italian-emigrants",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "夢と現実",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "プロテスタント中心の社会",
+                "caption": "説明：夢破れるだけでなく差別に苦しむ場合もあった",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "移民全員が富を得たという成功の絵にせず、宗教上の差別を説明で明記する。",
+      "sourcePages": [
+        70
+      ],
+      "htmlBodySha256": "257d2a0e264806bc8410d6d9196f80132a62247a4ce7351be8cfac02eae39661",
+      "plainBodySha256": "e220c8d56f98d5ef11e191312351b9728ae728b913bb42b561100f07550ac196",
+      "sourceTextSha256": "f2d4debbf460d6b1070a91b915810aa5517ebb9bff1528f52c8ad2c671071114"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-015",
+      "title": "中国系移民と西からの鉄道建設",
+      "mapActors": [
+        {
+          "name": "西部の中国系移民",
+          "image": "modern-c01-l03/chinese-railway-workers.png",
+          "kind": "group",
+          "identity": "group:chinese-railway-workers",
+          "at": [
+            -119.5,
+            37.2
+          ],
+          "bubble": "説明：鉱山や西からの鉄道建設の労働を担う"
+        }
+      ],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "アジアからの移民が担った労働",
+        "groups": [
+          {
+            "label": "中国系移民",
+            "figures": [
+              {
+                "image": "modern-c01-l03/chinese-railway-workers.png",
+                "name": "中国系の鉄道労働者",
+                "caption": "説明：アヘン戦争後の貧困のなか契約移民となる",
+                "kind": "group",
+                "identity": "group:chinese-railway-workers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "西部の労働需要",
+            "figures": [
+              {
+                "image": "modern-c01-l01/railway.png",
+                "name": "西からの鉄道建設",
+                "caption": "説明：低賃金の労働に多くの中国系移民が従事した",
+                "kind": "prop",
+                "identity": "prop:railway",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "本文の受入先の西部を示す。世界図の端を跨ぐ架空のユーラシア横断航路は付けない。歴史的な呼び名は原文で保持する。",
+      "sourcePages": [
+        71
+      ],
+      "htmlBodySha256": "f7dccfa8c490724d710a0e774eaa5e2bd556292424c7a3d26d37c9fdc70d310b",
+      "plainBodySha256": "f12482d45b39a461ca62a82594d1421b93075791d27e75420f610ff78a883235",
+      "sourceTextSha256": "3b94ee61de8a32aaf563e5c3216d8e0ee0c06b7a40825ca03a48c8609f548d0d"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-016",
+      "title": "中国人労働者移民排斥法",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "移民排斥運動と最初の移民制限",
+        "groups": [
+          {
+            "label": "労働者への反感",
+            "figures": [
+              {
+                "image": "modern-c01-l03/chinese-railway-workers.png",
+                "name": "中国系移民",
+                "caption": "説明：増加が白人下層労働者に脅威と受け取られた",
+                "kind": "group",
+                "identity": "group:chinese-railway-workers",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "1882年の制限",
+            "figures": [
+              {
+                "image": "modern-c01-l01/constitution-document.png",
+                "name": "中国人労働者移民排斥法",
+                "caption": "説明：アメリカ史上初の移民制限として制定される",
+                "kind": "prop",
+                "identity": "prop:constitution-document",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "排斥をアプリの肯定的な評価にせず、本文の差別と制度の説明として示す。",
+      "sourcePages": [
+        71
+      ],
+      "htmlBodySha256": "eee35c1efa2ff84423f419f88ca3dbfd01d4cf7dd8e1d2a5f2abca7006d03eba",
+      "plainBodySha256": "2ccabe09ba49e99d6684502fdc8697b14b645e977e3e0aced8f47c9feb45c877",
+      "sourceTextSha256": "034a03ba59279bd5e1792474edebbf9543fb9254b86c352b1aae0e4c021b91af"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-017",
+      "title": "明治期の日本人移民",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "明治期の日本から海外へ",
+        "groups": [
+          {
+            "label": "中国系移民の禁止後",
+            "figures": [
+              {
+                "image": "modern-c01-l03/japanese-emigrants.png",
+                "name": "日本人移民",
+                "caption": "説明：貧しくなった農民が海外にも移住する",
+                "kind": "group",
+                "identity": "group:japanese-emigrants",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "移民の背景",
+            "figures": [
+              {
+                "image": "modern-c01-l01/steam-factory.png",
+                "name": "日本の工業化",
+                "caption": "説明：国内都市への流出と海外への移住が起きる",
+                "kind": "prop",
+                "identity": "prop:steam-factory",
+                "temporalRole": "current"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "日本人移民の受入地域・出発港・正確な航路を補わず、本文の背景を模式欄で示す。",
+      "sourcePages": [
+        71
+      ],
+      "htmlBodySha256": "cf446f5fd3300d13141d8bea7a7c31fd4a37cc519df585c768a7c0576bb78209",
+      "plainBodySha256": "03946f542bbf00a7ded7bf80797f220666c93a8f93c589858cc08cf4fe25d1d5",
+      "sourceTextSha256": "b33c580042f050620f2093b5edfa9de77c43b3e394b8b4e72a3fe6eb9fc0c86f"
+    },
+    {
+      "sceneId": "modern-c01-l03-p04-018",
+      "title": "年号の確認とドイツ・イタリアへの案内",
+      "mapActors": [],
+      "mapProps": [],
+      "extraRoutes": [],
+      "illustration": {
+        "title": "今回の年号と次回の案内",
+        "groups": [
+          {
+            "label": "原書71ページの年号欄",
+            "figures": [
+              {
+                "image": "modern-c01-l01/calendar.png",
+                "name": "年号のツボ",
+                "caption": "説明：米英戦争・強制移住法・金鉱・南北戦争・解放宣言・鉄道を確認する",
+                "kind": "prop",
+                "identity": "prop:calendar",
+                "temporalRole": "current"
+              }
+            ]
+          },
+          {
+            "label": "次回の人物",
+            "figures": [
+              {
+                "image": "modern-c01-l02/bismarck.png",
+                "name": "ビスマルク",
+                "caption": "説明：ドイツ・イタリア統一の次回に登場する",
+                "kind": "person",
+                "identity": "person:bismarck",
+                "temporalRole": "preview"
+              }
+            ]
+          }
+        ]
+      },
+      "hiddenPersonNames": [],
+      "textOnlyPeople": [],
+      "excludedPersonNames": [],
+      "personAliases": [],
+      "reason": "次回案内も通常本文として保持し、ビスマルクをアメリカの同時代の現場に同席させない。",
+      "sourcePages": [
+        71
+      ],
+      "htmlBodySha256": "70131784f478e16fb83e44bab9c3737e81b8e13f3871180f239ba5ae4bc807d2",
+      "plainBodySha256": "31742775007e8b95e33fd32af24072eb6240f0a452844c2185887fde2b929a54",
+      "sourceTextSha256": "d5460283effa349f1864e0e82ed23957b99df0415e8d3f470970f2c32f0b31c3"
+    }
+  ]
+}
