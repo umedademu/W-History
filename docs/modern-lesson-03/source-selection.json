@@ -1,0 +1,4730 @@
+{
+  "source_file": "sources/近代・現代/01_国民国家の形成/03_アメリカ合衆国の発展.md",
+  "source_sha256": "72fca4fe17c9b56f4a384f31d1f88792332f5ae71ddde72902fd2d5483353741",
+  "source_bytes": 83961,
+  "line_count": 500,
+  "pages": [
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+  ],
+  "section_start_pages": [
+    56,
+    58,
+    61,
+    68
+  ],
+  "source_notes": [
+    "55ページの導入と71ページの次回案内も通常本文として保持する。",
+    "60ページの日本開国から明治維新までの独立コラムは全文参照欄として保持する。",
+    "58・68ページ冒頭などの柱は本文の節切替より先に現れるため、実際の節見出しで区分する。",
+    "ジョン＝ブラウン［1869］、ちょっと寄り耳、統一戦後、現在人口に関する表現などは原書のまま保持し校訂しない。",
+    "71ページの二重rubyとruby-positionの上下指定も安全な原文装飾として保持する。"
+  ],
+  "lines": [
+    {
+      "line": 1,
+      "page": 55,
+      "part": 1,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 55"
+    },
+    {
+      "line": 2,
+      "page": 55,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 3,
+      "page": 55,
+      "part": 1,
+      "kind": "cover-heading",
+      "reason": "回の題名を全文に保持する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第3回**</span> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**アメリカ合衆国の発展**</span>"
+    },
+    {
+      "line": 4,
+      "page": 55,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 5,
+      "page": 55,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "今回は<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**アメリカ合衆国**</u>だよ。今じゃあ世界一の大国かもしれないけど、19世紀前半までは、まだまだ弱い国だった。でも19世紀末には世界1位の工業国になっていたよ。いったい、どんなふうに発展していったんだろうね。"
+    },
+    {
+      "line": 6,
+      "page": 55,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 7,
+      "page": 55,
+      "part": 1,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**大きくつかもう！**</span>"
+    },
+    {
+      "line": 8,
+      "page": 55,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 9,
+      "page": 55,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| | | |"
+    },
+    {
+      "line": 10,
+      "page": 55,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 11,
+      "page": 55,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**1**</span> | **建国初期のアメリカ** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">56〜58ページ</span> |"
+    },
+    {
+      "line": 12,
+      "page": 55,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**2**</span> | **アメリカ合衆国の領土拡大** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">58〜59ページ</span> |"
+    },
+    {
+      "line": 13,
+      "page": 55,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**3**</span> | **南北戦争** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">61〜68ページ</span> |"
+    },
+    {
+      "line": 14,
+      "page": 55,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**4**</span> | **南北戦争後のアメリカ** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">68〜71ページ</span> |"
+    },
+    {
+      "line": 15,
+      "page": 55,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 16,
+      "page": 55,
+      "part": 1,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> 今回は南北戦争が大きな山場だよ。アメリカの歴史に大きな影響を与えた事件だ！"
+    },
+    {
+      "line": 17,
+      "page": 55,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 18,
+      "page": 55,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "独立したばかりの<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**アメリカ合衆国の領土は東部**</u>、つまり<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**大西洋側だけ**</u>だったんだけど、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**西部開拓**</u>がどんどん進んで領土が太平洋岸まで拡大し、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**20世紀に入るころには世界一の工業国**</u>にまで発展したよ。この発展にもっとも大きな影響を与えたのは<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**南北戦争**</u>だ。南北戦争って、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**アメリカの歴史で一番死者が多い戦争**</u>なんだよ。「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**<ruby>奴隷<rt>どれい</rt></ruby>が解放された戦争**</u>」っていうイメージくらいはあるかな？　でも、南北戦争の背景には奴隷問題だけじゃなくて、アメリカの発展にかかわる問題が隠れている。そこをきちんと理解すれば、このあとのアメリカの歴史もわかってくるよ。そのあたりをきっちり解説していくからね。"
+    },
+    {
+      "line": 19,
+      "page": 55,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 20,
+      "page": 55,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "それじゃあ、アメリカ合衆国の発展の始まり〜。"
+    },
+    {
+      "line": 21,
+      "page": 55,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 22,
+      "page": 56,
+      "part": 1,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 56"
+    },
+    {
+      "line": 23,
+      "page": 56,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 24,
+      "page": 56,
+      "part": 1,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第3回**</span> アメリカ合衆国の発展"
+    },
+    {
+      "line": 25,
+      "page": 56,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 26,
+      "page": 56,
+      "part": 1,
+      "kind": "section-heading",
+      "reason": "本文の実際の節区切りを教材の区分に採用する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**1**</span> **建国初期のアメリカ**"
+    },
+    {
+      "line": 27,
+      "page": 56,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 28,
+      "page": 56,
+      "part": 1,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**イギリスとフランス……どっちにつけばいいのさ？**</span>"
+    },
+    {
+      "line": 29,
+      "page": 56,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 30,
+      "page": 56,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "1789年、アメリカ独立戦争が終結してから10年も経たずに、ヨーロッパでは**フランス革命**が始まった。革命中には**イギリスを中心とする対仏大同盟**がつくられて、ヨーロッパの多くの国が**フランスを孤立させた**よね。もちろん**イギリスはアメリカが自分の味方**になると思っているし、アメリカもイギリスのことはキライじゃない。だって独立する時にミシシッピ川以東のルイジアナをくれたもんね。かといって、フランスもキライじゃない。そりゃ、**独立戦争の時に助けてくれたのはフランス**だもん。両方の国が「もちろんオレの味方だよな？」って言ってくるわけだよ。初代大統領の<span data-source-color=\"red\" style=\"color:#e52715\">**ワシントン**</span>は、ホトホト困った……。で、最終的には「**ヨーロッパのことには<ruby>干渉<rt>かんしょう</rt></ruby>しません**から、勝手にやってください」って、**中立を宣言**した。だって、どっちにつくわけにもいかないでしょ？　**アメリカの対ヨーロッパ外交の基本政策である孤立主義**は、すでにワシントンの時代から始まったんだよ。"
+    },
+    {
+      "line": 31,
+      "page": 56,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 32,
+      "page": 56,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "その後、ナポレオンが<span data-source-color=\"red\" style=\"color:#e52715\">**大陸<ruby>封鎖<rt>ふうさ</rt></ruby>令**</span>を出すと、イギリスは対抗して**逆封鎖**をやったよね。つまり、イギリスが**ヨーロッパ諸国とアメリカ大陸の貿易を妨害**するんだけど、当然**アメリカもイギリスに邪魔される**よね。"
+    },
+    {
+      "line": 33,
+      "page": 56,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 34,
+      "page": 56,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "これにはさすがに**アメリカも怒った**。「あれほど中立って言ってるのに、なんでオレが邪魔されるんだよ！」ってね。もちろん、国内がイギリスと開戦することで一致していたわけじゃないんだけど、当時の大統領マディソンがそのまま<ruby>宣戦布告<rt>せんせんふこく</rt></ruby>してしまい、1812年に<span data-source-color=\"red\" style=\"color:#e52715\">**米英戦争**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**アメリカ＝イギリス戦争**</span>**】**が始まったよ。"
+    },
+    {
+      "line": 35,
+      "page": 56,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 36,
+      "page": 56,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "しかし、開戦してみると**アメリカはずっと不利な状況**だった。だって、当時のイギリスは世界最強だもん。首都ワシントンを占領されたりさんざんな結果だったんだけど、アメリカ国内には変化が現れたよ。**米英戦争中にはイギリス製品の輸入が停止**して、アメリカ国内では**生活必需品が不足**したんだ。もちろん逆封鎖されてるからフランスからも輸入はできない。ていうか、生活必需品って**綿製品とか鉄**とかでしょ。気づいてる？　綿製品って服だよ。着るものがなくなったら困る。こうなったら国内でつくるしかないよね。こうして、**米英戦争をきっかけにアメリカでは綿工業や鉄鋼業などが発達**し、結果的に**イギリスから経済的に自立するきっかけ**になった。さらに**アメリカ人の国民意識を高めた**んだ。だからこの戦争は「**第2次独立戦争**」って呼ばれることもあるよ。"
+    },
+    {
+      "line": 37,
+      "page": 56,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 38,
+      "page": 56,
+      "part": 1,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> 独立戦争では政治的独立を達成、米英戦争は経済的自立のきっかけだよ"
+    },
+    {
+      "line": 39,
+      "page": 56,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 40,
+      "page": 56,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そして、**米英戦争はナポレオン戦争の終結とともに終わった**。だって、大陸封鎖令も逆封鎖もなくなるから、イギリスと戦う意味がない。そうすると、**イギリスは再び工業製品をアメリカに輸出**し始めたから、アメリカの国内産業は打撃を受け"
+    },
+    {
+      "line": 41,
+      "page": 56,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 42,
+      "page": 57,
+      "part": 1,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 57"
+    },
+    {
+      "line": 43,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 44,
+      "page": 57,
+      "part": 1,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**1**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">建国初期のアメリカ</u>"
+    },
+    {
+      "line": 45,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 46,
+      "page": 57,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "た。こうしてアメリカでは、工業化の始まった**北部が保護貿易を主張**することになるよ。そして、1840年代から**北部を中心に**<span data-source-color=\"red\" style=\"color:#e52715\">**産業革命**</span>が始まるんだ。"
+    },
+    {
+      "line": 47,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 48,
+      "page": 57,
+      "part": 1,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**西部開拓が進んで、北部と南部の対立が始まった！**</span>"
+    },
+    {
+      "line": 49,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 50,
+      "page": 57,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "アメリカは、独立戦争で<span data-source-color=\"red\" style=\"color:#e52715\">**ミシシッピ川以東のルイジアナ**</span>を**イギリスから獲得**すると、その後も<ruby>買収<rt>ばいしゅう</rt></ruby>などによってどんどん**西へと領土を拡大**していったよ。ラテンアメリカの独立のところで話した<span data-source-color=\"red\" style=\"color:#e52715\">**モンロー宣言**</span>はこの時期に出されたものだ。これは、**イギリス領カナダとの国境問題**や、**ロシアがアラスカに進出**している状況も背景にあって、**ヨーロッパ諸国の<ruby>介入<rt>かいにゅう</rt></ruby>を排除**して**北米大陸をアメリカ合衆国が独占**したい、って意図もあったんだよ。"
+    },
+    {
+      "line": 51,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 52,
+      "page": 57,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そして<span data-source-color=\"red\" style=\"color:#e52715\">**西部**</span>では、白人が移住してきて**多数の小農民が出現**していたよ。貧乏人たちにとって、西部は人生を逆転するチャンスに見えたんだろうね。人びとの流入によって開拓が進み、<span data-source-color=\"red\" style=\"color:#e52715\">**フロンティア**</span>（開拓地と未開拓地の境界）が少しずつ西へ進んでいった。"
+    },
+    {
+      "line": 53,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 54,
+      "page": 57,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こうした状況は、**北部・南部の間に対立**を引き起こしたよ。工業が発展して強くなった**北部の産業資本家は、西部に工業製品を売りたい**し、プランテーションをやっている**南部のプランターは西部にも<ruby>奴隷<rt>どれい</rt></ruby>を使った農場を広げたい**。みんな、自分が得するように西部を開発したいから、中心となる産業が違う北部と南部は対立するよね。"
+    },
+    {
+      "line": 55,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 56,
+      "page": 57,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| | |"
+    },
+    {
+      "line": 57,
+      "page": 57,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 58,
+      "page": 57,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| 北部 | 南部 |"
+    },
+    {
+      "line": 59,
+      "page": 57,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"red\" style=\"color:#e52715\">西部</span> | |"
+    },
+    {
+      "line": 60,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 61,
+      "page": 57,
+      "part": 1,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> 東側に「北部・南部」があって、残りは西部だ。**西部がどんどん大きくなる**よ"
+    },
+    {
+      "line": 62,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 63,
+      "page": 57,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そうそう、アメリカの地域の呼び方はちょっと注意してね。ここから出てくる「<span data-source-color=\"red\" style=\"color:#e52715\">**北部**</span>」と「<span data-source-color=\"red\" style=\"color:#e52715\">**南部**</span>」って呼び方は、現在のアメリカ合衆国（つまり北米大陸）を南北に分けるんじゃなくて、**建国13州を中心とする東部を南北に分けた呼び方**だよ。"
+    },
+    {
+      "line": 64,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 65,
+      "page": 57,
+      "part": 1,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**白人の民主主義が進展。初の西部出身大統領ジャクソンの登場！**</span>"
+    },
+    {
+      "line": 66,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 67,
+      "page": 57,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そうはいっても、**西部では小農民が大多数**だった。そして、1828年の大統領選挙では、初の**西部出身**の大統領<span data-source-color=\"red\" style=\"color:#e52715\">**ジャクソン**</span>が当選したよ。この時期、アメリカでは白人の男性普通選挙が実現していた州も多かったから、米英戦争の英雄だった彼が当選したんだ。**西部の小農民や北部の労働者などの支持**を得たジャクソンは、**北部の資本家たちを抑えて**大統領の権限を強化すると、民衆のための政策を進めたよ。**白人の男性普通選挙**を普及させると、さらに**公立学校を増やして**民衆の生活の向上を目指し、さらに、政権交代の時にすべての官僚が交代する**スポイルズ・システム**をつくった。こんなふうに民主主義が発展したから、彼の政策は「<span data-source-color=\"red\" style=\"color:#e52715\">**ジャクソニアン＝デモクラシー**</span>」と呼ばれているよ。"
+    },
+    {
+      "line": 68,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 69,
+      "page": 57,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ただね、**ジャクソンの民主主義は白人限定**だよ。彼は、黒人を民主主義から"
+    },
+    {
+      "line": 70,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 71,
+      "page": 57,
+      "part": 1,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 72,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 73,
+      "page": 57,
+      "part": 1,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 74,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 75,
+      "page": 57,
+      "part": 1,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 76,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 77,
+      "page": 57,
+      "part": 1,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 78,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 79,
+      "page": 57,
+      "part": 1,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 80,
+      "page": 57,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 81,
+      "page": 58,
+      "part": 1,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 58"
+    },
+    {
+      "line": 82,
+      "page": 58,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 83,
+      "page": 58,
+      "part": 1,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第3回**</span> アメリカ合衆国の発展"
+    },
+    {
+      "line": 84,
+      "page": 58,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 85,
+      "page": 58,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "除外して**<ruby>奴隷制<rt>どれいせい</rt></ruby>を<ruby>擁護<rt>ようご</rt></ruby>**して南部の奴隷主の支持を得たし、<span data-source-color=\"red\" style=\"color:#e52715\">**先住民強制移住法**</span>を制定して、**インディアン**と呼ばれた先住民を**ミシシッピ川以西**の荒れ地しかない居留地へ移住させた。この移住で、食糧不足や病気によって多くの先住民が命を落としたから、「**涙の旅路**」と呼ばれている。"
+    },
+    {
+      "line": 86,
+      "page": 58,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 87,
+      "page": 58,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "一方で、**ジャクソンに抑え込まれた北部の資本家など**は「ジャクソンは絶対王政だ〜」って怒って、彼の「<ruby>専制<rt>せんせい</rt></ruby>政治」に反対する**ホイッグ党**をつくったよ。「ホイッグ」って、昔イギリスでジェームズ2世の即位に反対して、専制政治に対抗した勢力のことだよね。一方の**ジャクソン支持派**は、ジャクソンの「民主主義」を支持するから<span data-source-color=\"red\" style=\"color:#e52715\">**民主党**</span>だよ。こちらは、**南部の農場主や小農民、東部の労働者**が中心だよ。まだ現在の二大政党である民主党・共和党じゃないからね。**共和党の成立はもう少しあと**だ。"
+    },
+    {
+      "line": 88,
+      "page": 58,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 89,
+      "page": 58,
+      "part": 1,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> ジャクソン反対派がホイッグ、ジャクソン支持派が民主党だよ"
+    },
+    {
+      "line": 90,
+      "page": 58,
+      "part": 1,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 91,
+      "page": 58,
+      "part": 2,
+      "kind": "section-heading",
+      "reason": "本文の実際の節区切りを教材の区分に採用する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**2**</span> **アメリカ合衆国の領土拡大**"
+    },
+    {
+      "line": 92,
+      "page": 58,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 93,
+      "page": 58,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| | |"
+    },
+    {
+      "line": 94,
+      "page": 58,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 95,
+      "page": 58,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"red\" style=\"color:#e52715\">**ミシシッピ川以東のルイジアナ**</span> | 独立戦争で英から獲得<br>［1783］ |"
+    },
+    {
+      "line": 96,
+      "page": 58,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| 建国13州 | |"
+    },
+    {
+      "line": 97,
+      "page": 58,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"red\" style=\"color:#e52715\">**ミシシッピ川以西のルイジアナ**</span> | フランスから購入<br>［1803］ |"
+    },
+    {
+      "line": 98,
+      "page": 58,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"red\" style=\"color:#e52715\">**フロリダ**</span> | スペインから購入<br>［1819］ |"
+    },
+    {
+      "line": 99,
+      "page": 58,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"red\" style=\"color:#e52715\">**テキサス併合**</span>［1845］ | |"
+    },
+    {
+      "line": 100,
+      "page": 58,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"red\" style=\"color:#e52715\">**オレゴン領有**</span> | イギリスと国境画定<br>［1846］ |"
+    },
+    {
+      "line": 101,
+      "page": 58,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"red\" style=\"color:#e52715\">**カリフォルニアなど**</span> | メキシコから獲得<br>［1848］ |"
+    },
+    {
+      "line": 102,
+      "page": 58,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| メキシコから購入 | ［1853］ |"
+    },
+    {
+      "line": 103,
+      "page": 58,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 104,
+      "page": 58,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**建国直後に領土が倍増！　その後もどんどん大きくなるアメリカ**</span>"
+    },
+    {
+      "line": 105,
+      "page": 58,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 106,
+      "page": 58,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "それじゃあ**アメリカ合衆国の領土拡大**について見ていこう。まず、最初の領土拡大は独立戦争後の<span data-source-color=\"red\" style=\"color:#e52715\">**パリ条約**</span>で**イギリスから獲得**した<span data-source-color=\"red\" style=\"color:#e52715\">**ミシシッピ川以東のルイジアナ**</span>だ。地図で確認してごらん。**建国直後にいきなり領土が倍**になってるでしょ？　このあとも、西部にどんどん領土が拡大していくよ。"
+    },
+    {
+      "line": 107,
+      "page": 58,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 108,
+      "page": 58,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "続いて1803年には**フランスから**<span data-source-color=\"red\" style=\"color:#e52715\">**ミシシッピ川以西のルイジアナ**</span>を<ruby>買収<rt>ばいしゅう</rt></ruby>したよ。こ"
+    },
+    {
+      "line": 109,
+      "page": 58,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 110,
+      "page": 59,
+      "part": 2,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 59"
+    },
+    {
+      "line": 111,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 112,
+      "page": 59,
+      "part": 2,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**2**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">アメリカ合衆国の領土拡大</u>"
+    },
+    {
+      "line": 113,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 114,
+      "page": 59,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "れは、**ハイチの独立運動を<ruby>鎮圧<rt>ちんあつ</rt></ruby>**しようとしていた**ナポレオン**が、戦費不足を補うためにアメリカに売っちゃったの。この時のアメリカ大統領は、第3代の**ジェファソン**だよ。そして、さらに**スペインから**<span data-source-color=\"red\" style=\"color:#e52715\">**フロリダ**</span>**を買収**、これで東海岸は今のアメリカ合衆国の領土と同じになったね。"
+    },
+    {
+      "line": 115,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 116,
+      "page": 59,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**マニフェスト＝デスティニーって、メキシコにしてみればいい迷惑だよ**</span>"
+    },
+    {
+      "line": 117,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 118,
+      "page": 59,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "さて、ルイジアナ購入で北米大陸の中央にまで領土を拡大したアメリカは、次に<span data-source-color=\"red\" style=\"color:#e52715\">**テキサス**</span>の領有を狙ったんだ。要は**メキシコから奪い取る**ってことなんだけど、この時にアメリカが主張したのが「<span data-source-color=\"red\" style=\"color:#e52715\">**マニフェスト＝デスティニー**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**明白な天命**</span>**】**」だよ。これは「キリスト教的・文化的に進んだ**アメリカが領土を拡大することは、近代文明を拡大して世界に自由と民主主義を広げる**ことになるから、これは神の定めた使命なんだ」っていう、ただのわがまま。まあ、今でもアメリカはかなり勝手なこと言うけどさ。"
+    },
+    {
+      "line": 119,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 120,
+      "page": 59,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> 「哀れなるかなメキシコ、天国からこんなに遠く、アメリカからこんなにも近い！」。この嘆きは、のちのメキシコ独裁者ディアスの言葉だよ……"
+    },
+    {
+      "line": 121,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 122,
+      "page": 59,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "この思想に基づいて、アメリカはメキシコとの国境を無視して、**テキサスへとアメリカ人を勝手に入植させた**。もちろん、最初はメキシコが移民を認めたのがきっかけなんだけど、1830年にメキシコがアメリカからの移民を禁止したあともどんどんと入植者が増加し続け、しまいにはアメリカ系住民がメキシコ人の4倍になっちゃった……。ほんと、アメリカは勝手なことするよね。そして、**アメリカ系住民がメキシコからの独立運動**を起こすと、すかさずアメリカは独立運動を支援、結果、**テキサスがメキシコから独立してテキサス共和国**になった。そして、「自由の国アメリカに<ruby>併合<rt>へいごう</rt></ruby>された〜い」っていう**アメリカ系住民が起こした併合運動**を受けて、アメリカが<span data-source-color=\"red\" style=\"color:#e52715\">**テキサス併合**</span>に成功したってわけ。"
+    },
+    {
+      "line": 123,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 124,
+      "page": 59,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こうなると、領土を取られたメキシコもたまったもんじゃない。アメリカ政府と交渉しようとしたけど、アメリカは聞く気ゼロ。そうこうしているうちに、両国の軍隊が衝突して<span data-source-color=\"red\" style=\"color:#e52715\">**アメリカ＝メキシコ戦争**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>米墨<rt>べいぼく</rt></ruby>戦争**</span>**】**が<ruby>勃発<rt>ぼっぱつ</rt></ruby>したよ。ていうか、メキシコにはアメリカに勝てる力はない……。結果、<span data-source-color=\"red\" style=\"color:#e52715\">**カリフォルニア**</span>**などをアメリカに奪われ**、テキサスも含めると**メキシコは領土の半分以上を失う**ことになった。こうして**アメリカの領土は太平洋岸にまで到達**したよ。"
+    },
+    {
+      "line": 125,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 126,
+      "page": 59,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "しかし、アメリカは運がいい　戦争終結と同じ年に、**カリフォルニアで金鉱が発見され**、全世界から一発ボロ<ruby>儲<rt>もう</rt></ruby>けを狙う人たちが殺到して、人口が急増！　この<span data-source-color=\"red\" style=\"color:#e52715\">**ゴールドラッシュ**</span>の影響で、いまだに**カリフォルニアが全米で一番人口の多い州**なんだ。そして、太平洋岸に領土を得たアメリカはアジアへの関心を強め、ペリーを日本に派遣して**日本の開国**を実現したよ（**日米和親条約**1854）。さらに1867年には、ロシアから<span data-source-color=\"red\" style=\"color:#e52715\">**アラスカ**</span>を購入したんだ。"
+    },
+    {
+      "line": 127,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 128,
+      "page": 59,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 129,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 130,
+      "page": 59,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 131,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 132,
+      "page": 59,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 133,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 134,
+      "page": 59,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 135,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 136,
+      "page": 59,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 137,
+      "page": 59,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 138,
+      "page": 60,
+      "part": 2,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 60"
+    },
+    {
+      "line": 139,
+      "page": 60,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 140,
+      "page": 60,
+      "part": 2,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第3回**</span> アメリカ合衆国の発展"
+    },
+    {
+      "line": 141,
+      "page": 60,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 142,
+      "page": 60,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "### <span data-source-color=\"brown\" style=\"color:#a43725\">**近現代日本へのアプローチ**</span> <span data-source-color=\"white\" data-source-background=\"brown\" style=\"color:#ffffff;background-color:#a43725\">1</span>"
+    },
+    {
+      "line": 143,
+      "page": 60,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 144,
+      "page": 60,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### **〜開国から明治維新へ〜**"
+    },
+    {
+      "line": 145,
+      "page": 60,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 146,
+      "page": 60,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> 19世紀前半になると、日本近海にイギリスやアメリカの船がやってくるようになった。これは太平洋で盛んに**<ruby>捕鯨<rt>ほげい</rt></ruby>がおこなわれていた**ことや、各国が東アジアとの貿易を拡大しようとしていたことが背景だよ。すでにロシアなどが交易を拒否されていたから、アメリカが派遣した<span data-source-color=\"red\" style=\"color:#e52715\">**ペリー**</span>は、江戸幕府が求めた長崎へは行かずに、江戸湾（東京湾）に艦船で乗り込んできた。幕府は焦った。そこで交渉に応じて、1854年に<span data-source-color=\"red\" style=\"color:#e52715\">**日米和親条約**</span>を締結した。ちなみにペリーは帰路に**<ruby>那覇<rt>なは</rt></ruby>に寄って、<ruby>琉米<rt>りゅうべい</rt></ruby>修好条約を結んで開港させている**よ。さらに幕府は、1858年には総領事のハリスと<span data-source-color=\"red\" style=\"color:#e52715\">**日米修好通商条約**</span>を結んで、**<ruby>箱館<rt>はこだて</rt></ruby>・神奈川・長崎・新潟・兵庫の5港開港**のほか、領事裁判権や協定関税（関税自主権の喪失）、最恵国待遇などを認めたよ。さらに幕府は蘭・露・英・仏とも同様の条約を結んだ（安政の五カ国条約）。これらの条約は**不平等条約**だったけど、**開国によって列強との戦争を回避**できたんだ。ちょうど同じころ、**タイ（シャム）もラーマ4世が不平等条約を結んで植民地化を回避**している。実は、日本とタイは結構似てるんだ。しかし、条約を結ぶ前に天皇の許可を取らなかったから幕府への激しい非難が起き、これを弾圧した大老の<ruby>井伊直弼<rt>いいなおすけ</rt></ruby>は暗殺されてしまった（桜田門外の変）。"
+    },
+    {
+      "line": 147,
+      "page": 60,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 148,
+      "page": 60,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> このころの**日本の輸出品は生糸や茶で、輸入品は綿織物や毛織物などの工業製品**だったから、国内の綿織物業に打撃を与えたけど、代わりに養蚕や生糸生産は発展した。さらに日本のほうが欧米より金のレートが安かったから、欧米人は日本にきて銀を金に両替するだけで<ruby>儲<rt>もう</rt></ruby>かる。だから日本の金貨が海外に流出して、国内の経済が混乱したんだ。こうした混乱のなかで「**<ruby>尊王攘夷<rt>そんのうじょうい</rt></ruby>運動**」が起こったんだ。「天皇の許可なく条約を結んだ幕府が悪い！」「天皇を立てて、外国をぶっ倒す！」みたいな強硬な主張が盛んになった。しかし、<ruby>薩摩<rt>さつま</rt></ruby>藩や<ruby>長州<rt>ちょうしゅう</rt></ruby>藩は外国と戦って（**<ruby>薩英<rt>さつえい</rt></ruby>戦争**［1863］・**<ruby>下関<rt>しものせき</rt></ruby>砲台の占領**［1864］）負けてしまった。以後、幕府や薩摩藩や長州藩は西洋式の軍隊を導入したから、幕府と有力大名の緊張が高まるなか、1867年に将軍**<ruby>徳川慶喜<rt>とくがわよしのぶ</rt></ruby>が天皇に政権を返した**んだけど（<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>大政奉還<rt>たいせいほうかん</rt></ruby>**</span>）、もちろんそのまま徳川家が権力を握れると思っていた。これに対し**薩摩藩と長州藩は手を結び、王政復古のクーデタを起こした**。もはや、決着は戦争しかない。こうして旧幕府軍と薩長を中心とする新政府軍との<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>戊辰戦争<rt>ぼしんせんそう</rt></ruby>**</span>が起こり、最後は旧幕臣が箱館の<ruby>五稜郭<rt>ごりょうかく</rt></ruby>に立てこもったんだけど、1869年に降伏した。勝利した新政府は全国の支配を確立し、<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>廃藩置県<rt>はいはんちけん</rt></ruby>**</span>によって**中央集権体制をつくり**、近代国家を建設していくんだ。この一連の改革が<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>明治維新<rt>めいじいしん</rt></ruby>**</span>だよ。"
+    },
+    {
+      "line": 149,
+      "page": 60,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 150,
+      "page": 61,
+      "part": 2,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 61"
+    },
+    {
+      "line": 151,
+      "page": 61,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 152,
+      "page": 61,
+      "part": 2,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**3**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">南北戦争</u>"
+    },
+    {
+      "line": 153,
+      "page": 61,
+      "part": 2,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 154,
+      "page": 61,
+      "part": 3,
+      "kind": "section-heading",
+      "reason": "本文の実際の節区切りを教材の区分に採用する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**3**</span> **南北戦争**"
+    },
+    {
+      "line": 155,
+      "page": 61,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 156,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**クローズアップ**</span> **南北戦争**"
+    },
+    {
+      "line": 157,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 158,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>新たな州をめぐる取り決め"
+    },
+    {
+      "line": 159,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 160,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span>**ミズーリ協定**［1820］……**ミズーリ州以北には<ruby>奴隷<rt>どれい</rt></ruby>州を認めない**"
+    },
+    {
+      "line": 161,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 162,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span>**カンザス・ネブラスカ法**［1854］……カンザス・ネブラスカ<ruby>準州<rt>じゅんしゅう</rt></ruby>設置の際に制定"
+    },
+    {
+      "line": 163,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 164,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"gray\" style=\"color:#777777\">▶</span>**自由州、奴隷州の決定を住民の決定に<ruby>委<rt>ゆだ</rt></ruby>ねる**（ミズーリ協定の否定）"
+    },
+    {
+      "line": 165,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 166,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">➡</span>北部の奴隷制反対派は<span data-source-color=\"red\" style=\"color:#e52715\">**共和党**</span>を結成［1854］"
+    },
+    {
+      "line": 167,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 168,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>人道的な奴隷制反対運動"
+    },
+    {
+      "line": 169,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 170,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span><span data-source-color=\"red\" style=\"color:#e52715\">**ストウ夫人**</span>『<span data-source-color=\"red\" style=\"color:#e52715\">**アンクル＝トムの小屋**</span>』出版［1852］"
+    },
+    {
+      "line": 171,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 172,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span><span data-source-color=\"red\" style=\"color:#e52715\">**南北戦争**</span>［1861〜65］"
+    },
+    {
+      "line": 173,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 174,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span>共和党<span data-source-color=\"red\" style=\"color:#e52715\">**リンカン**</span>の大統領当選［1860］……**奴隷制の拡大反対**を主張"
+    },
+    {
+      "line": 175,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 176,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span><span data-source-color=\"red\" style=\"color:#e52715\">**アメリカ連合国**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**南部連合**</span>**】**の成立［1861］……**南部11州が合衆国を離脱**して結成"
+    },
+    {
+      "line": 177,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 178,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"gray\" style=\"color:#777777\">▶</span>大統領**ジェファソン＝デヴィス**、首都：**リッチモンド**"
+    },
+    {
+      "line": 179,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 180,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span>**南北戦争<ruby>勃発<rt>ぼっぱつ</rt></ruby>**［1861］<span data-source-color=\"green\" style=\"color:#315837\">➡</span>リンカンは政治的勝利を目指す"
+    },
+    {
+      "line": 181,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 182,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"gray\" style=\"color:#777777\">▶</span><span data-source-color=\"red\" style=\"color:#e52715\">**ホームステッド法**</span>［1862］<span data-source-color=\"green\" style=\"color:#315837\">➡</span>**西部農民の北部支持**を獲得"
+    },
+    {
+      "line": 183,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 184,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"gray\" style=\"color:#777777\">▶</span><span data-source-color=\"red\" style=\"color:#e52715\">**奴隷解放宣言**</span>［1863］<span data-source-color=\"green\" style=\"color:#315837\">➡</span>戦後、**憲法修正第13条**として明文化［1865］"
+    },
+    {
+      "line": 185,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 186,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span><span data-source-color=\"red\" style=\"color:#e52715\">**ゲティスバーグの戦い**</span>［1863］……**南北戦争最大の激戦**"
+    },
+    {
+      "line": 187,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 188,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">➡</span>リンカンのゲティスバーグ演説（「<span data-source-color=\"red\" style=\"color:#e52715\">**人民の人民による人民のための政治**</span>」）"
+    },
+    {
+      "line": 189,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 190,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span>**リッチモンド<ruby>陥落<rt>かんらく</rt></ruby>**［1865］……**南北戦争終結**"
+    },
+    {
+      "line": 191,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 192,
+      "page": 61,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>**リンカン暗殺**［1865.4］"
+    },
+    {
+      "line": 193,
+      "page": 61,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 194,
+      "page": 61,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**奴隷制だけじゃない！　南北対立の原因をしっかりおさえよう**</span>"
+    },
+    {
+      "line": 195,
+      "page": 61,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 196,
+      "page": 61,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "それじゃあ、今回のヤマ場である南北戦争の話に進もう！　**南北戦争はアメリカの歴史のなかで一番犠牲者の多かった戦争**だよ。「奴隷解放の戦争でしょ」って思うかもしれないけど、奴隷制だけじゃなくていろいろな問題がウラに隠れているんだ。確かに**奴隷制をめぐる問題が最終的な引き金となった**んだけどさ。でも、もっと根本的な原因があるから、まずは**奴隷制のことは1回忘れちゃおう**。えっ、一番大事そうなのに？って思うかもしれないけど、ダマされたと思ってさ。思い出してほしいところで「奴隷制を思い出そう！」って言うからね。"
+    },
+    {
+      "line": 197,
+      "page": 61,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 198,
+      "page": 61,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そもそも南北の対立は、「**アメリカ合衆国をどういう方向で発展させるか？**」というところから始まったよ。要するに、**工業発展を目指す北部と農業を重視したい**"
+    },
+    {
+      "line": 199,
+      "page": 61,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 200,
+      "page": 61,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 201,
+      "page": 61,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 202,
+      "page": 61,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 203,
+      "page": 61,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 204,
+      "page": 61,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 205,
+      "page": 61,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 206,
+      "page": 61,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 207,
+      "page": 61,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 208,
+      "page": 61,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 209,
+      "page": 61,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 210,
+      "page": 62,
+      "part": 3,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 62"
+    },
+    {
+      "line": 211,
+      "page": 62,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 212,
+      "page": 62,
+      "part": 3,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第3回**</span> アメリカ合衆国の発展"
+    },
+    {
+      "line": 213,
+      "page": 62,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 214,
+      "page": 62,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**南部**は、やりたい政策が違うんだよね。簡単にまとめると「**工業（北部）vs. 農業（南部）**」ってことだ。ここからは、下の表を使って説明するよ。"
+    },
+    {
+      "line": 215,
+      "page": 62,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 216,
+      "page": 62,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### **〈アメリカの南北対立〉**"
+    },
+    {
+      "line": 217,
+      "page": 62,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 218,
+      "page": 62,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| | 北部 | 南部 |"
+    },
+    {
+      "line": 219,
+      "page": 62,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 220,
+      "page": 62,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| 産業 | **工業を重視**<br><span data-source-color=\"green\" style=\"color:#315837\">➡</span><span data-source-color=\"red\" style=\"color:#e52715\">**産業革命**</span>の進行（イギリスと競合）<br>**産業資本家**が台頭 | **農業を重視**<br><span data-source-color=\"green\" style=\"color:#315837\">➡</span><span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>綿花<rt>めんか</rt></ruby>プランテーション**</span>が発展<br><span data-source-color=\"red\" style=\"color:#e52715\">**黒人<ruby>奴隷<rt>どれい</rt></ruby>**</span>の使用が拡大 |"
+    },
+    {
+      "line": 221,
+      "page": 62,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| 貿易 | <span data-source-color=\"red\" style=\"color:#e52715\">**保護貿易**</span><br>先進国**イギリスに対抗**して国内産業を保護したい | <span data-source-color=\"red\" style=\"color:#e52715\">**自由貿易**</span><br>原料の**綿花をイギリスへ輸出**<br><span data-source-color=\"green\" style=\"color:#315837\">➡</span>イギリスに同調 |"
+    },
+    {
+      "line": 222,
+      "page": 62,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| 政治 | <span data-source-color=\"red\" style=\"color:#e52715\">**連邦主義**</span>（支持政党は共和党）<br>国内産業保護のため、**全合衆国を統合**して保護貿易を実行したい | <span data-source-color=\"red\" style=\"color:#e52715\">**州権主義**</span>（支持政党は民主党）<br>各州の利益は違うので、統合よりも**各州の権限強化**を狙う |"
+    },
+    {
+      "line": 223,
+      "page": 62,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| 奴隷制 | <span data-source-color=\"red\" style=\"color:#e52715\">**奴隷制反対**</span><br>工業への**安価な労働力確保**も<ruby>狙<rt>ねら</rt></ruby>う | <span data-source-color=\"red\" style=\"color:#e52715\">**奴隷制維持**</span><br>**プランテーションの維持**を狙う |"
+    },
+    {
+      "line": 224,
+      "page": 62,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 225,
+      "page": 62,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "まずは<span data-source-color=\"red\" style=\"color:#e52715\">**北部**</span>からいこう。<span data-source-color=\"red\" style=\"color:#e52715\">**米英戦争**</span>をきっかけに**工業化が始まった**北部では、**産業資本家が台頭**してきたんだけど、まだまだイギリスの工業にはかなわないよね。だから、**イギリス製品の流入を阻止**して国内産業を守りたい。要するに自分たちの製品をアメリカ全体に売りたいの。だから<span data-source-color=\"red\" style=\"color:#e52715\">**保護貿易**</span>がいい。さらに、南部も西部を<ruby>市場<rt>しじょう</rt></ruby>にするために**合衆国全体で保護貿易をやりたい**から、**合衆国の統合**を図る<span data-source-color=\"red\" style=\"color:#e52715\">**連邦主義**</span>を主張したんだね。あっ、北部の主張は中央集権（中央政府が直接全国を<ruby>統治<rt>とうち</rt></ruby>する）ってわけじゃなくて、あくまでも「内政は州の自治を尊重するけど、**対外的な政策はアメリカ全体で統一**しましょう」ってことだよ。"
+    },
+    {
+      "line": 226,
+      "page": 62,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 227,
+      "page": 62,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "それに対して<span data-source-color=\"red\" style=\"color:#e52715\">**南部**</span>は、「そんなの、北部だけで勝手にやれよ」って思ってたんだ。というのも、19世紀に入って**奴隷制の**<span data-source-color=\"red\" style=\"color:#e52715\">**綿花プランテーション**</span>を拡大してきた南部は、生産した**綿花の多くをイギリスに輸出**していたから、**イギリスが**自由貿易を進めて**輸出を拡大**すれば、**原料をつくっている自分たちも<ruby>儲<rt>もう</rt></ruby>かる**。だからイギリスと合わせて<span data-source-color=\"red\" style=\"color:#e52715\">**自由貿易**</span>をやりたいんだね。あっ、別に北部が勝手に保護貿易やっても文句はない。だって、南部の連中は貿易政策みたいな**対外的なこともそれぞれの州で決めればいい**、って思っているんだもん。これが<span data-source-color=\"red\" style=\"color:#e52715\">**州権主義**</span>だ。"
+    },
+    {
+      "line": 228,
+      "page": 62,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 229,
+      "page": 62,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ここで考えてみてほしい。**彼らが自分たちの主張を実現するにはどうすればいいだろう**？　アメリカでは4年に1度は大統領選挙があるから、**大統領を出せばいい**よね。でも、今ここで話した内容を選挙の時に候補者が主張していたらどうなるだろう？　たぶん「わけわかんないこと言うな!!」って思われる。要するに**一般の人たちには難しい**でしょ。今みんなは、「志望校に合格したい！」って思って、"
+    },
+    {
+      "line": 230,
+      "page": 62,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 231,
+      "page": 63,
+      "part": 3,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 63"
+    },
+    {
+      "line": 232,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 233,
+      "page": 63,
+      "part": 3,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**3**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">南北戦争</u>"
+    },
+    {
+      "line": 234,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 235,
+      "page": 63,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "注意深く読んでいるから内容がわかると思うんだけど、選挙の時にはみんなそんなに真剣に聞いてくれない。これじゃあ、選挙で勝てないよね。"
+    },
+    {
+      "line": 236,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 237,
+      "page": 63,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "でもね、北部の連中が**南部を一発で撃沈させる方法**を考えついたんだよ。それが<span data-source-color=\"red\" style=\"color:#e52715\">**奴隷制**</span>の問題。よーし、さっき忘れた**奴隷制を思い出そう**。北部の連中は「**南部は奴隷を使ってるから、人道的じゃない**」って主張した。だから<span data-source-color=\"red\" style=\"color:#e52715\">**北部**</span>は<span data-source-color=\"red\" style=\"color:#e52715\">**奴隷制反対**</span>。ほら、わかりやすいでしょ？　これに対し南部は「そんなに**奴隷制を廃止したいなら北部だけで勝手にやればいい**」としか言えない。ということで<span data-source-color=\"red\" style=\"color:#e52715\">**南部**</span>は<span data-source-color=\"red\" style=\"color:#e52715\">**奴隷制維持**</span>。こうして、**奴隷制が南北対立の争点**として前面に出てきたよ。"
+    },
+    {
+      "line": 238,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 239,
+      "page": 63,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**新領土に奴隷制を認める？　認めない？　南北対立が西部に持ち込まれた！**</span>"
+    },
+    {
+      "line": 240,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 241,
+      "page": 63,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "それでは、実際に**奴隷制をめぐって起きた対立**を見ていこう。まず、**建国当初のアメリカには13州しかなかった**けど、だんだん州が増えていくよね。じゃあ、どうやって州が増えていくのかを確認しておこう。入試ではあまり聞かれないけど、ここからの話には必要だからさ。"
+    },
+    {
+      "line": 242,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 243,
+      "page": 63,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> 新しい州での奴隷制をめぐる対立は、結局、議会でどっちが強くなるかってことだよ"
+    },
+    {
+      "line": 244,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 245,
+      "page": 63,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "1787年に制定された北西部条例で、新しい州を設置する基準が決まったよ。まず成人男性の人口が5000人になったところに**<ruby>準州<rt>じゅんしゅう</rt></ruby>が設置されて**州になる準備が始まり、6万人になると**州として連邦に加える**ことになった。この時、**新しい州に奴隷制を認めるかどうか**が問題になったんだ。じゃあ、なんで問題になるんだろう？　**自由州**（奴隷制を認めない州）**は北部の味方、奴隷州**（奴隷制を認める州）**は南部の味方**ってことだから、どちらも味方を増やしたいんだよ。これね、奴隷制がどうこうっていうより、**議会での勢力争い**だ。気がついた？　アメリカの上院って「**各州の代表2名ずつ**」だよね。つまり**上院議員の数の取り合い**ってわけ。州の数が同じなら上院議員の数も同じになるけど、自由州・奴隷州のバランスが崩れると、上院での勢力図が変わっちゃう。1819年の時点では、自由州・奴隷州がそれぞれ11州ずつで同じだったからよかったけど、州が増えるとバランスが崩れちゃうよね。"
+    },
+    {
+      "line": 246,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 247,
+      "page": 63,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そして、ついに**州が増える時がきた**。新しく州になることが決まったのは**ミズーリ州**。自由州・奴隷州どちらになってもバランスが崩れるよね。そこで1820年、南北が妥協して**ミズーリ協定**が成立したよ。まず、**ミズーリ州は奴隷州**として連邦に加入させて、以後、**ミズーリ州の南（北緯36度30分）**を南北の境界線として、**これより北には奴隷制を認めない**ことにした。これで、なんとか南北のバランスをとったんだけど……**また州が増える**んだよ！"
+    },
+    {
+      "line": 248,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 249,
+      "page": 63,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "1848年の<span data-source-color=\"red\" style=\"color:#e52715\">**アメリカ＝メキシコ戦争**</span>で獲得した<span data-source-color=\"red\" style=\"color:#e52715\">**カリフォルニア**</span>は、<span data-source-color=\"red\" style=\"color:#e52715\">**ゴールドラッシュ**</span>が起きて一気に人口が10万人を超えちゃったから、**すぐにでも州になれる**。しかも"
+    },
+    {
+      "line": 250,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 251,
+      "page": 63,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 252,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 253,
+      "page": 63,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 254,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 255,
+      "page": 63,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 256,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 257,
+      "page": 63,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 258,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 259,
+      "page": 63,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 260,
+      "page": 63,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 261,
+      "page": 64,
+      "part": 3,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 64"
+    },
+    {
+      "line": 262,
+      "page": 64,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 263,
+      "page": 64,
+      "part": 3,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第3回**</span> アメリカ合衆国の発展"
+    },
+    {
+      "line": 264,
+      "page": 64,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 265,
+      "page": 64,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "領域がミズーリ協定の境界をまたいでるし、この時に自由州と<ruby>奴隷<rt>どれい</rt></ruby>州は同数だったから、またバランスが崩れる……。結局、**カリフォルニアは住民投票で自由州**になったんだけど、南部はこれに激しく反発したんだ。"
+    },
+    {
+      "line": 266,
+      "page": 64,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 267,
+      "page": 64,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そしてさらに、**カンザス・ネブラスカ準州**の設置が決まると、ついに南部がキレた。ちょっと次ページの地図<span data-source-color=\"white\" data-source-background=\"green\" style=\"color:#ffffff;background-color:#859476\">**➡P.65**</span>を見てね。カンザスやネブラスカは**ミズーリ協定の境界線より北側**だから、また自由州になっちゃうよね。この南部の激しい反発から、1854年に**カンザス・ネブラスカ法**が成立し、**自由州・奴隷州の決定を住民投票に任せる**ことになった。これって**ミズーリ協定の否定**だよ……だって、ミズーリ州よりも北に奴隷州ができる可能性があるでしょ？　今度は北部がブチ切れた！　こうして、**北部を中心とする奴隷制反対派**が<span data-source-color=\"red\" style=\"color:#e52715\">**共和党**</span>を結成したよ。いよいよ**奴隷制反対の共和党、奴隷制維持の民主党**っていう対立がはっきりして、カンザスでは奴隷制をめぐる武力衝突まで起こったんだよ。"
+    },
+    {
+      "line": 268,
+      "page": 64,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 269,
+      "page": 64,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> **＋**<span data-source-color=\"red\" style=\"color:#e52715\">**α**</span><u data-source-underline-color=\"black\" style=\"text-decoration-color:#222222\">**ちょっと寄り耳**</u>"
+    },
+    {
+      "line": 270,
+      "page": 64,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 271,
+      "page": 64,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> 1857年に最高裁で出されたドレッド＝スコット判決は、南北の対話はもはや不可能と思わせるのに十分な内容だったんだ。経過を説明しよう。ミズーリ州の黒人奴隷だったドレッド＝スコットは、「自分はかつて主人に連れられて自由州に住んだことがあるから、自由身分だ」として<ruby>訴訟<rt>そしょう</rt></ruby>を起こしたんだけど、最高裁が「奴隷には市民権がないから訴訟することさえできない」としてこの訴えを退け、さらに「ミズーリ協定は奴隷主から財産権を奪うものだから、憲法違反である」との判決を出した。これで、南北対立は話し合いでの解決がほぼ不可能になったんだ。以後、奴隷制廃止運動はどんどん過激になり、ヴァージニア州ではジョン＝ブラウンの武装<ruby>蜂起<rt>ほうき</rt></ruby>［1869］なども起きた。"
+    },
+    {
+      "line": 272,
+      "page": 64,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 273,
+      "page": 64,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> こうしたなかで、<span data-source-color=\"red\" style=\"color:#e52715\">**ストウ夫人**</span>の小説『<span data-source-color=\"red\" style=\"color:#e52715\">**アンクル＝トムの小屋**</span>』がベストセラーになったよ。黒人の主人公アンクル＝トムを人格者のキリスト教徒として描き、白人の奴隷主の残忍さを強調しているんだけど、反面で、「黒人はアメリカでは幸福になれないから、リベリアに移住したほうがいい」というメッセージも含まれている。うーん、結局は白人のプロパガンダなんだよなぁ。"
+    },
+    {
+      "line": 274,
+      "page": 64,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 275,
+      "page": 64,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**もはや南北対立は抑えられない！　リンカン大統領の当選で南北戦争が<ruby>勃発<rt>ぼっぱつ</rt></ruby>……**</span>"
+    },
+    {
+      "line": 276,
+      "page": 64,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 277,
+      "page": 64,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こうして**1860年の大統領選挙**では、黒人奴隷問題がほぼ唯一の争点となり、**奴隷制拡大に反対する共和党の**<span data-source-color=\"red\" style=\"color:#e52715\">**リンカン**</span>が大統領に当選した。彼は「南部の奴隷制をすぐに廃止する」とは主張していない。だって、そんなこと言ったら、アメリカはホントにバラバラになっちゃうからね。彼は**合衆国の統合を最優先**して「**新たな州では奴隷制を認めない**」って言ったんだけど、ウラでは「奴隷制を南部だけに封じ込めれば、いつかはなくなる」って思っている。南部の連中だって、これに気づくでしょ？　もはや自分たちに未来はないと思った**南部11州**（開戦前に7州、開戦後に"
+    },
+    {
+      "line": 278,
+      "page": 64,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 279,
+      "page": 65,
+      "part": 3,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 65"
+    },
+    {
+      "line": 280,
+      "page": 65,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 281,
+      "page": 65,
+      "part": 3,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**3**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">南北戦争</u>"
+    },
+    {
+      "line": 282,
+      "page": 65,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 283,
+      "page": 65,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "4州）**が合衆国から離脱**、**ジェファソン＝デヴィス**を大統領、首都を**リッチモンド**とする<span data-source-color=\"red\" style=\"color:#e52715\">**アメリカ連合国**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**南部連合**</span>**】**をつくった。ついに南部が独立しちゃった。そして憲法では「<span data-source-color=\"red\" style=\"color:#e52715\">**奴隷制<ruby>擁護<rt>ようご</rt></ruby>**</span>」と「<span data-source-color=\"red\" style=\"color:#e52715\">**州権主義**</span>」を決めたよ。州権主義はもともと南部の主張だったもんね。"
+    },
+    {
+      "line": 284,
+      "page": 65,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 285,
+      "page": 65,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> リンカンの当選で、ついに南部が合衆国を離脱！　ていうか、これって独立じゃないの？"
+    },
+    {
+      "line": 286,
+      "page": 65,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 287,
+      "page": 65,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "しかしリンカンは**合衆国を一つの国として維持する**って主張していたから、もちろん**南部の独立は認めない**。そして、南部によるサムター<ruby>要塞<rt>ようさい</rt></ruby>（南部にある合衆国の基地だよ）への攻撃で、1861年、**アメリカ史上最大の戦争**である<span data-source-color=\"red\" style=\"color:#e52715\">**南北戦争**</span>が<ruby>勃発<rt>ぼっぱつ</rt></ruby>した。英語だと「**The Civil War（内戦）**」。この名前が南北戦争の性格を物語っているんだよ。"
+    },
+    {
+      "line": 288,
+      "page": 65,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 289,
+      "page": 65,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### **〈南北戦争〉**"
+    },
+    {
+      "line": 290,
+      "page": 65,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 291,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| | |"
+    },
+    {
+      "line": 292,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 293,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| **英領カナダ** | |"
+    },
+    {
+      "line": 294,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| **メキシコ** | |"
+    },
+    {
+      "line": 295,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| **アメリカ合衆国** | |"
+    },
+    {
+      "line": 296,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| **アメリカ連合国** | （南部連合） |"
+    },
+    {
+      "line": 297,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">ミズーリ協定による境界線</span> | |"
+    },
+    {
+      "line": 298,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">ゲティスバーグの戦い［1863］</span> | |"
+    },
+    {
+      "line": 299,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| カリフォルニア州 | |"
+    },
+    {
+      "line": 300,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| ネブラスカ | |"
+    },
+    {
+      "line": 301,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| カンザス | |"
+    },
+    {
+      "line": 302,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| ミズーリ州 | |"
+    },
+    {
+      "line": 303,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| ワシントン | |"
+    },
+    {
+      "line": 304,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| リッチモンド | |"
+    },
+    {
+      "line": 305,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-marker=\"area\" data-source-color=\"red\" style=\"color:#e52715\">■</span> | 自由州 |"
+    },
+    {
+      "line": 306,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-marker=\"area\" data-source-color=\"pink\" style=\"color:#f0a0a0\">■</span> | 合衆国にとどまった奴隷州 |"
+    },
+    {
+      "line": 307,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-marker=\"area\" data-source-color=\"green\" style=\"color:#859476\">■</span> | 奴隷州 |"
+    },
+    {
+      "line": 308,
+      "page": 65,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-marker=\"hatch\" data-source-color=\"green\" style=\"color:#859476\">▥</span> | まだ州になっていない合衆国領 |"
+    },
+    {
+      "line": 309,
+      "page": 65,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 310,
+      "page": 65,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> アメリカ合衆国（北部）の人口は約1850万人、アメリカ連合国（南部）の人口は約900万人、しかも南部は約350万人が奴隷だよ"
+    },
+    {
+      "line": 311,
+      "page": 65,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 312,
+      "page": 65,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 313,
+      "page": 65,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 314,
+      "page": 65,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 315,
+      "page": 65,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 316,
+      "page": 65,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 317,
+      "page": 65,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 318,
+      "page": 65,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 319,
+      "page": 65,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 320,
+      "page": 65,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 321,
+      "page": 65,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 322,
+      "page": 66,
+      "part": 3,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 66"
+    },
+    {
+      "line": 323,
+      "page": 66,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 324,
+      "page": 66,
+      "part": 3,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第3回**</span> アメリカ合衆国の発展"
+    },
+    {
+      "line": 325,
+      "page": 66,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 326,
+      "page": 66,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "開戦して最初の1年間は、**リー**将軍が率いる**南軍が優勢**だった。ホントなら人口が2倍以上もいる北部のほうが強そうなものだけど、南部にしてみれば「<ruby>侵略<rt>しんりゃく</rt></ruby>」してくる北軍から自分たちの「領土」を守る戦争だもん。それに南部には期待していることがあるよ。それは**イギリスやフランスの支援**だ。もともと**南部はイギリスやフランスに<ruby>綿花<rt>めんか</rt></ruby>を輸出**しているから、経済的なつながりが深い。しかもアメリカの北側は**イギリス領カナダ**だから、援軍さえきてくれれば北部を挟み撃ちできる！　しかも、**英仏はメキシコ出兵**をやってるから、**南にも英仏軍がいる**。ほら、英仏が助けてくれれば一気に勝てそうでしょ。"
+    },
+    {
+      "line": 327,
+      "page": 66,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 328,
+      "page": 66,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "もちろん、<span data-source-color=\"red\" style=\"color:#e52715\">**リンカン**</span>もこれに気づいてたよ。いくらちょこちょこ戦闘で勝っても、英仏が南部に援軍を出したら、たぶん北軍が負けちゃうよ。さらに、西部の州が南部の味方になったら、ますます不利になるよね。リンカンは、**国内外の世論を味方にしなきゃいかん**って思ったんだよ。つまり「**軍隊で勝つより、政治で勝つ！**」。"
+    },
+    {
+      "line": 329,
+      "page": 66,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 330,
+      "page": 66,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そこで、西部の支持を獲得するために<span data-source-color=\"red\" style=\"color:#e52715\">**ホームステッド法**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**自営農地法**</span>**】**を制定した。これは、**公有地を自分で<ruby>開墾<rt>かいこん</rt></ruby>**し、**5年間定住**して、**自分で耕作**している人に、**無償で土地160エーカーを与える**という法律だ。160エーカーってのは2分の1マイル四方（1マイル≒1.6km）だから、約800m四方だね。かなり広いでしょ。ポイントは「**開墾・定住・耕作**」の3つの条件を満たせば、**タダで土地をもらえる**ってことだ。ホントなら土地代金を払わなきゃいけないけど、合衆国に残るならタダ。そりゃ、**西部の農民は北軍を支持する**よ。これで国内では優位に立ったんだけど、<ruby>厄介<rt>やっかい</rt></ruby>なのが英仏だよ。"
+    },
+    {
+      "line": 331,
+      "page": 66,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 332,
+      "page": 66,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> 奴隷解放宣言は、「黒人が解放されてバンザーイ」みたいな理解じゃダメだよ"
+    },
+    {
+      "line": 333,
+      "page": 66,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 334,
+      "page": 66,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "それじゃあ、もう一度確認しよう。南部は**イギリスに合わせて自由貿易を主張**してたよね。しかも**英仏も南部の安い綿花を輸入**しているから、本音を言うと南部に勝ってほしい。だって原料が安くて製品が売れる、つまり<ruby>儲<rt>もう</rt></ruby>かる。だから、英仏がいつ南部に援軍を送ってもおかしくなかった。そこで**リンカンは英仏に参戦させないため**、ある秘策に打って出た。それが<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>奴隷<rt>どれい</rt></ruby>解放宣言**</span>だよ。"
+    },
+    {
+      "line": 335,
+      "page": 66,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 336,
+      "page": 66,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**奴隷解放宣言の意義**は、国内的にみると自由になりたい**南部の奴隷が北部に逃げてきて北軍に加わり**、北部が逆転してだんだん優勢になったことなんだけど、もっと重要なのは、**英仏の<ruby>介入<rt>かいにゅう</rt></ruby>を阻止**したことなんだよ。次ページの図**〈南北戦争の「2つの視点」〉**<span data-source-color=\"white\" data-source-background=\"green\" style=\"color:#ffffff;background-color:#859476\">**➡P.67**</span>を見ながら読んでね。<span data-source-color=\"red\" style=\"color:#e52715\">**リンカン**</span>は奴隷解放宣言を出すことで、南北戦争を「南部の独立戦争」じゃなくて「**奴隷解放のための人道的な“内戦”**」にして、さらに国際的にも「北部のほうが正しい！」って世論をつくることに成功したんだ。自分の国では**奴隷制をとっくに廃止している英仏**は、今さら奴隷制を続けるための戦争なんてできないよね？　だって援軍を出したら「奴隷は永遠"
+    },
+    {
+      "line": 337,
+      "page": 66,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 338,
+      "page": 67,
+      "part": 3,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 67"
+    },
+    {
+      "line": 339,
+      "page": 67,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 340,
+      "page": 67,
+      "part": 3,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**3**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">南北戦争</u>"
+    },
+    {
+      "line": 341,
+      "page": 67,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 342,
+      "page": 67,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "に苦しめばいい」って言ってるのと同じことだよ。もはや英仏は「**アメリカの“内戦”には介入しない**」って言うしかない。だからこの戦争は「**The Civil War**（内戦）」。奴隷解放宣言って、むちゃくちゃ高度で政治的な判断から出されたんだよ。"
+    },
+    {
+      "line": 343,
+      "page": 67,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 344,
+      "page": 67,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### **〈南北戦争の「2つの視点」〉**"
+    },
+    {
+      "line": 345,
+      "page": 67,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 346,
+      "page": 67,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| **〈南部の独立戦争〉** | **〈奴隷解放のための内戦〉** |"
+    },
+    {
+      "line": 347,
+      "page": 67,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 348,
+      "page": 67,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"red\" style=\"color:#e52715\">**アメリカ合衆国**</span><br><span data-source-color=\"red\" style=\"color:#e52715\">（北部）</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**アメリカ合衆国**</span> |"
+    },
+    {
+      "line": 349,
+      "page": 67,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"green\" style=\"color:#315837\">**「北部に対する独立戦争」**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**北部**</span><br><span data-source-color=\"red\" style=\"color:#e52715\">**「奴隷解放のための内戦」**</span><br><span data-source-color=\"green\" style=\"color:#315837\">南部</span> |"
+    },
+    {
+      "line": 350,
+      "page": 67,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"green\" style=\"color:#315837\">**アメリカ連合国**</span><br><span data-source-color=\"green\" style=\"color:#315837\">（南部）</span> | |"
+    },
+    {
+      "line": 351,
+      "page": 67,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"green\" style=\"color:#315837\">英仏の支援を期待</span><br><span data-source-color=\"green\" style=\"color:#315837\">英</span><br><span data-source-color=\"green\" style=\"color:#315837\">仏</span> | <span data-source-color=\"green\" style=\"color:#315837\">英</span><br><span data-source-color=\"green\" style=\"color:#315837\">仏</span><br><span data-source-color=\"red\" style=\"color:#e52715\">**「内戦なので介入しない」**</span> |"
+    },
+    {
+      "line": 352,
+      "page": 67,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 353,
+      "page": 67,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "いよいよ南軍は追い詰められ、南北戦争最大の**激戦**<span data-source-color=\"red\" style=\"color:#e52715\">**ゲティスバーグの戦い**</span>で**北軍が決定的な勝利**を収めた。この時**リンカンがおこなった演説の一節**が有名な「<span data-source-color=\"red\" style=\"color:#e52715\">**人民の人民による人民のための政治**</span>」だよ。その後、**グラント**将軍の活躍などで**リッチモンドが<ruby>陥落<rt>かんらく</rt></ruby>**し、**北軍が勝利**して**南北戦争は終結**したんだ。"
+    },
+    {
+      "line": 354,
+      "page": 67,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 355,
+      "page": 67,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> **＋**<span data-source-color=\"red\" style=\"color:#e52715\">**α**</span><u data-source-underline-color=\"black\" style=\"text-decoration-color:#222222\">**ちょっと寄り耳**</u>"
+    },
+    {
+      "line": 356,
+      "page": 67,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 357,
+      "page": 67,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> 「人民の人民による人民のための政治」って言葉は有名だけど、前後はこんなだよ。"
+    },
+    {
+      "line": 358,
+      "page": 67,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 359,
+      "page": 67,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> — this nation, under God, shall have a new birth of freedom —— and that <span data-source-color=\"red\" style=\"color:#e52715\">**government of the people, by the people, for the people**</span>, shall not perish from the earth.（この国が、神の下で、新しい自由を生み出すように、そして、<span data-source-color=\"red\" style=\"color:#e52715\">**人民の人民による人民のための政治**</span>を、この地上から滅ぼさないよう決意するものであります）"
+    },
+    {
+      "line": 360,
+      "page": 67,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 361,
+      "page": 67,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> リンカンは、アメリカを南部の人も含めた一つの国として、合衆国ではなく「国家（nation）」、市民ではなくて「人民（people）」という言葉を選んだ。そして、この一節はGHQ占領下で制定された**日本国憲法の前文**「そもそも**国政は**（中略）その権威は**国民に由来**し、その権力は**国民の代表者がこれを行使**し、その福利は**国民がこれを<ruby>享受<rt>きょうじゅ</rt></ruby>**する」の部分にも引用されているよ。"
+    },
+    {
+      "line": 362,
+      "page": 67,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 363,
+      "page": 67,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 364,
+      "page": 67,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 365,
+      "page": 67,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 366,
+      "page": 67,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 367,
+      "page": 67,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 368,
+      "page": 67,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 369,
+      "page": 67,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 370,
+      "page": 67,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 371,
+      "page": 67,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 372,
+      "page": 67,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 373,
+      "page": 68,
+      "part": 3,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 68"
+    },
+    {
+      "line": 374,
+      "page": 68,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 375,
+      "page": 68,
+      "part": 3,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第3回**</span> アメリカ合衆国の発展"
+    },
+    {
+      "line": 376,
+      "page": 68,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 377,
+      "page": 68,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "この戦争のあと、**南部の憎悪はリンカン一人に向かった**んだよ。南北戦争が終わった直後、そして大統領2期目の就任式が終わったばかりの1865年4月……、**リンカンはワシントンのフォード劇場で<ruby>凶弾<rt>きょうだん</rt></ruby>に倒れた**。歴史に「もし」はないけれど、もしかすると<span data-source-color=\"red\" style=\"color:#e52715\">**リンカン暗殺**</span>によって合衆国は再び分裂しなくて済んだのかもしれないよ。彼の願い通り、アメリカ合衆国は一つの国として統合が維持されたのだから。"
+    },
+    {
+      "line": 378,
+      "page": 68,
+      "part": 3,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 379,
+      "page": 68,
+      "part": 4,
+      "kind": "section-heading",
+      "reason": "本文の実際の節区切りを教材の区分に採用する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**4**</span> **南北戦争後のアメリカ**"
+    },
+    {
+      "line": 380,
+      "page": 68,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 381,
+      "page": 68,
+      "part": 4,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**<ruby>奴隷<rt>どれい</rt></ruby>制はなくなったけど……南部では黒人差別が激化**</span>"
+    },
+    {
+      "line": 382,
+      "page": 68,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 383,
+      "page": 68,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "「奴隷解放のための人道的な戦争」となった**南北戦争で北部が勝利**すると、1865年、奴隷解放宣言は**憲法修正第13条**となり、さらに**憲法修正第14条、第15条で黒人の市民権、投票権**がそれぞれ認められた。これで黒人も白人と同じアメリカ市民として認められるはずだよね。でもね、**黒人への差別はそう簡単になくならない**よ……。"
+    },
+    {
+      "line": 384,
+      "page": 68,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 385,
+      "page": 68,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "奴隷解放で一番影響を受けるのは、南部でプランテーション経営をおこなっていたプランター（農場主）たちだ。**彼らはもう奴隷を使えない**から（さすがに「奴隷」と呼んじゃマズい…）、**解放した黒人**を<span data-source-color=\"red\" style=\"color:#e52715\">**シェアクロッパー**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**分益<ruby>小作人<rt>こさくにん</rt></ruby>**</span>**】**としたよ。シェアクロッパーは、**土地・農具などを地主から借りて、収穫物の半分以上を現物で納めた**。結局彼らは、むちゃくちゃ貧乏なまま**社会の最下層**に置かれたから、奴隷とたいして変わんないけど、1つだけ違うとすれば「**小作人をやめたければやめられる自由**」だけは手に入れたことかな。"
+    },
+    {
+      "line": 386,
+      "page": 68,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 387,
+      "page": 68,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そして南部にはもっと大きな変化が起きたよ。南北戦争直後から共和党を中心に南部の改革が始まり、**解放された黒人が白人たちの日常生活のなかに入ってきた**。例えば、黒人が学校に通い始めたりとか、投票に行くと黒人がいたりする。これは**南部の人にとっては、あまりにも過激な変化**だったため、黒人への反感が強くなったんだ。こうしてテネシー州では反黒人組織<span data-source-color=\"red\" style=\"color:#e52715\">**KKK**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**クー＝クラックス＝クラン**</span>**】**が結成され、黒人はリンチを受けたり家を襲われたりと、ひどい目にあったんだ。"
+    },
+    {
+      "line": 388,
+      "page": 68,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 389,
+      "page": 68,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "さらに黒人への反感は州の政治にも影響を与え、南部では憲法修正で認められた**黒人の市民権や投票権を、州法で制限**し始めた。**黒人取締法**と総称されるこれらの法律によって**黒人は選挙権を<ruby>剥奪<rt>はくだつ</rt></ruby>**され、さらに学校、交通機関など社会のあらゆる場面で**黒人と白人を分離するジム＝クロウ制度**がつくられた。人種<ruby>隔離<rt>かくり</rt></ruby>政策は**南アフリカのアパルトヘイト**が有名だけど、アメリカにも同じような制度があったんだよ。そして、北部の連中もこれ以上南部と対立をしたくなかったから、そのまま放置したんだ。"
+    },
+    {
+      "line": 390,
+      "page": 68,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 391,
+      "page": 68,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> 奴隷制がなくなっても、黒人差別は全然なくならない！　奴隷解放宣言の100年後にもキング牧師が黒人解放運動をやってるもんね……"
+    },
+    {
+      "line": 392,
+      "page": 68,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 393,
+      "page": 69,
+      "part": 4,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 69"
+    },
+    {
+      "line": 394,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 395,
+      "page": 69,
+      "part": 4,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**4**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">南北戦争後のアメリカ</u>"
+    },
+    {
+      "line": 396,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 397,
+      "page": 69,
+      "part": 4,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**北部は急速な工業発展。これがアメリカン・ドリームだ！**</span>"
+    },
+    {
+      "line": 398,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 399,
+      "page": 69,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "さっき、南北戦争は「工業（北部）VS. 農業（南部）」の対立から起きた、って話したの覚えてる？　**北部が勝ったから工業が勝った**ということだよね。南北戦争後、しばらくは共和党政権が続いて**工業優先の政策**をとったから、アメリカでは**急速に工業が発展**したよ。きっかけは**鉄道建設**とそれによる**鉄鋼の<ruby>需要<rt>じゅよう</rt></ruby>**、さらに**石油**産業の<ruby>勃興<rt>ぼっこう</rt></ruby>などだよ。"
+    },
+    {
+      "line": 400,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 401,
+      "page": 69,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "1869年に最初の<span data-source-color=\"red\" style=\"color:#e52715\">**大陸横断鉄道**</span>（ユニオン・パシフィック＝セントラル・パシフィック鉄道）が開通し、その後わずか15年の間に5本の大陸横断鉄道が次々と完成すると、人やモノ、それに情報がアメリカの東西を行き来するようになり、**西部開拓が一気に進んだ**よ。この鉄道建設ブームを背景とする鉄の需要拡大と鉄鋼業の発展に乗っかって「**鉄鋼王**」となったのが**カーネギー**だ。**スコットランド系移民**の糸巻き工だったカーネギーは、一代でアメリカの鉄鋼業を独占する大企業**カーネギー製鋼会社**を築き上げたよ。その後、カーネギーは自分の鉄鋼会社を、**モルガン【モーガン】**の設立した**USスティール社に売却**して引退したのち、文化事業や<ruby>慈善<rt>じぜん</rt></ruby>事業に多額の資産を寄付した。例えば、かつてニューヨーク・フィル（オーケストラね）の本拠地だったカーネギー・ホールも彼が出資して改築したものだ。ちなみに**モルガンは鉄道投資で巨万の富を手に入れた銀行家**だよ。一方の石油産業では、1859年にペンシルヴェニア州で開発された油田にいち早く目をつけた**ロックフェラー**が、石油を運ぶ鉄道会社とも手を組んでライバル企業を圧倒、「**石油王**」**となった**。彼の創設した**スタンダード石油トラスト**は、全米の石油精製の9割を支配する大企業となった。まさに、アメリカン・ドリームだね。"
+    },
+    {
+      "line": 402,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 403,
+      "page": 69,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| | |"
+    },
+    {
+      "line": 404,
+      "page": 69,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 405,
+      "page": 69,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">最初の大陸横断鉄道［1869］</span> | |"
+    },
+    {
+      "line": 406,
+      "page": 69,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を原書全文に保持する。",
+      "text": "| <span data-source-color=\"red\" style=\"color:#e52715\">サンフランシスコ</span> | <span data-source-color=\"red\" style=\"color:#e52715\">シカゴ</span> |"
+    },
+    {
+      "line": 407,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 408,
+      "page": 69,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そしてこれらの大企業は、**政府による保護貿易政策**にも支えられて発展し、1890年ごろまでには**アメリカは工業生産でイギリスを抜いて世界1位**となった。こうしたアメリカの急激な工業発展は、「<ruby>儲<rt>もう</rt></ruby>かりゃなんでもいい」みたいな<ruby>拝金<rt>はいきん</rt></ruby>主義の風潮を生み、この時代は「**金ぴか時代 【**Gilded Age**】**」なんて呼ばれているね。"
+    },
+    {
+      "line": 409,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 410,
+      "page": 69,
+      "part": 4,
+      "kind": "subheading",
+      "reason": "小見出しと図題を全文に保持し話題の区切りに用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**アメリカン・ドリームを夢見た移民が、アメリカの発展を支えた！**</span>"
+    },
+    {
+      "line": 411,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 412,
+      "page": 69,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "じゃあ、最後に**アメリカの移民問題**をまとめておこう。ここまでは独立してからのアメリカ合衆国の発展を順番に見てきたけど、どんどん領土が拡大しても、そこに住む人がいなければ発展はしないよね。独立後のアメリカの発展を支えたのは移民なんだよ。**米英戦争をきっかけに工業化が進み、1840年代には産業革命が始まった**けど、工場ができたところで働く人がいなきゃ発展するはずがない。つまりこの"
+    },
+    {
+      "line": 413,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 414,
+      "page": 69,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 415,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 416,
+      "page": 69,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 417,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 418,
+      "page": 69,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 419,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 420,
+      "page": 69,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 421,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 422,
+      "page": 69,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 423,
+      "page": 69,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 424,
+      "page": 70,
+      "part": 4,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 70"
+    },
+    {
+      "line": 425,
+      "page": 70,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 426,
+      "page": 70,
+      "part": 4,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第3回**</span> アメリカ合衆国の発展"
+    },
+    {
+      "line": 427,
+      "page": 70,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 428,
+      "page": 70,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "時期のアメリカは、労働者がいっぱい必要なんだよ（難しい言葉だと「**労働<ruby>需要<rt>じゅよう</rt></ruby>**」ね）。この発展を支えたのは**旧移民**と呼ばれる人びとだ。"
+    },
+    {
+      "line": 429,
+      "page": 70,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 430,
+      "page": 70,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "1840年代ごろから、アメリカには**北欧や西欧からの移民**が多数流入したんだけど、彼らは**旧移民**と呼ばれているよ。特に多かったのは<span data-source-color=\"red\" style=\"color:#e52715\">**アイルランド系移民**</span>と**ドイツ系移民**だ。前回出てきたの覚えてるかな？　<span data-source-color=\"red\" style=\"color:#e52715\">**ジャガイモ<ruby>飢饉<rt>ききん</rt></ruby>**</span>をきっかけに、100万人以上の**アイルランド人**がアメリカへと移民し、**北部の工場労働者**となったり、**東部からの大陸横断鉄道建設**に従事したよ。**ドイツ系移民**は1848年の**三月革命に失敗した政治<ruby>亡命<rt>ぼうめい</rt></ruby>者**や**南ドイツの貧しい農民**出身で、アメリカ到着後には中西部の農業地帯に移住した人も多かったんだよ。そして、1848年の**カリフォルニアでの金鉱発見**が移民の流入を加速させ、いわゆる<span data-source-color=\"red\" style=\"color:#e52715\">**ゴールドラッシュ**</span>が起きたよね。これがアメリカへの移民流入の第1波だ。"
+    },
+    {
+      "line": 431,
+      "page": 70,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 432,
+      "page": 70,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そして**南北戦争以降、アメリカでは急速に工業が発展**したから、ますます労働者が必要になった。これを支えたのもやはり移民なんだよ。しかも、この時期には新たな地域からの移民が増えるんだ。1880年代ごろから少しずつ**南欧・東欧**、特に**イタリア系移民**や**ロシアからの移民**が増えはじめ、1900年ごろにはピークとなった。彼らは**新移民**と呼ばれているよ。**イタリア系移民**の多くは、**南イタリアからきた貧しい農民**だよ。時期としてはちょうど**イタリア統一のあと**だよね。彼らは統一に夢を抱いていたんだけど、統一後の保護貿易政策で農産物輸出が減少して貧しくなったから移民したんだね。それからロシアの**ポグロム**（ユダヤ人<ruby>迫害<rt>はくがい</rt></ruby>）を逃れた**ユダヤ人**も多かった。ただね、アメリカン・ドリームを夢見て移民してきても、夢破れるどころか差別されて苦しむ場合だってあるんだよ。特に、**プロテスタント中心のアメリカ社会**では**カトリック教徒は差別の対象**となったから、**カトリックの多い**<span data-source-color=\"red\" style=\"color:#e52715\">**アイルランド系**</span>と**イタリア系**の人びとは、厳しい差別を受けることになったんだ。"
+    },
+    {
+      "line": 433,
+      "page": 70,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 434,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**合**</span><span data-source-color=\"white\" data-source-background=\"brown\" style=\"color:#ffffff;background-color:#a43725\">**否**</span>**の分かれ目**　**ヨーロッパからアメリカへの移民**"
+    },
+    {
+      "line": 435,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 436,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>**旧移民**［1840年代〜1880年代］……西欧・北欧出身者が多い"
+    },
+    {
+      "line": 437,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 438,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span><span data-source-color=\"red\" style=\"color:#e52715\">**アイルランド系**</span>……<span data-source-color=\"red\" style=\"color:#e52715\">**ジャガイモ飢饉**</span>による<ruby>貧困<rt>ひんこん</rt></ruby>化が背景"
+    },
+    {
+      "line": 439,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 440,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span>**ドイツ系**……1880年代まで、多数流入"
+    },
+    {
+      "line": 441,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 442,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"gray\" style=\"color:#777777\">▶</span>**三月革命失敗による政治的亡命者や南ドイツの貧農**が中心"
+    },
+    {
+      "line": 443,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 444,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>**新移民**［1880年代〜］……南欧・東欧出身者が増加"
+    },
+    {
+      "line": 445,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 446,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span>**イタリア系**……**統一戦後の政治的・経済的な混乱**が背景"
+    },
+    {
+      "line": 447,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 448,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"gray\" style=\"color:#777777\">▶</span>**南イタリアの貧しい農民**が中心"
+    },
+    {
+      "line": 449,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 450,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span>**ロシア**……**ユダヤ人**が多い（**ポグロム**〔ユダヤ人迫害〕が背景）"
+    },
+    {
+      "line": 451,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 452,
+      "page": 70,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> ※アイルランド系、イタリア系移民は、**カトリック教徒として差別**された"
+    },
+    {
+      "line": 453,
+      "page": 70,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 454,
+      "page": 71,
+      "part": 4,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 71"
+    },
+    {
+      "line": 455,
+      "page": 71,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 456,
+      "page": 71,
+      "part": 4,
+      "kind": "running-header",
+      "reason": "紙面の柱を全文に保持する。本文の節の切替とは区別する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**4**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">南北戦争後のアメリカ</u>"
+    },
+    {
+      "line": 457,
+      "page": 71,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 458,
+      "page": 71,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "もう一つ、忘れちゃいけないのが**アジアからの移民**だ。1840年代、要するに**カリフォルニアのゴールドラッシュ以降**なんだけど、鉱山や鉄道建設に低賃金の労働者がいっぱい必要になった。この労働需要を支えたのが**中国系移民**だよ。中国では**アヘン戦争のあと**で、貧しい人があふれていたからね。彼らは**契約移民**「**苦力【クーリー】**」として、**西部を中心に低賃金労働に従事**したんだ。特に**西からの大陸横断鉄道建設**には、多数の苦力が従事したよ。ただね、中国はそもそも人口が多いから移民の数もハンパない。増え続ける**中国系移民が白人下層労働者たちにとって<ruby>脅威<rt>きょうい</rt></ruby>**になったから、白人たちの移民<ruby>排斥<rt>はいせき</rt></ruby>運動が激しくなり、1882年には**アメリカ史上初の移民制限**として**中国人労働者移民排斥法**がつくられた。"
+    },
+    {
+      "line": 459,
+      "page": 71,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 460,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> 「大陸横断鉄道の東側にはアイルランド人の骨が、西側には中国人の骨が埋まっている」といわれるくらい、犠牲者も出たよ"
+    },
+    {
+      "line": 461,
+      "page": 71,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 462,
+      "page": 71,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そして中国系移民が禁止されたあとに増加したのが**日本人移民**だよ。日本は明治<ruby>維新<rt>いしん</rt></ruby>のすぐあとの時期にあたり、国内で工業化が進んだために貧しくなった農民が、労働者として都市に流出するだけじゃなくて、海外へも移住したんだよ。"
+    },
+    {
+      "line": 463,
+      "page": 71,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 464,
+      "page": 71,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "それじゃあ、最後に年号checkだ！"
+    },
+    {
+      "line": 465,
+      "page": 71,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 466,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">**!!**</span><span data-source-color=\"red\" data-source-background=\"white\" style=\"color:#e52715;background-color:#ffffff\">**年号**</span><span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**のツボ**</span>"
+    },
+    {
+      "line": 467,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 468,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>**米英戦争 【アメリカ＝イギリス戦争】<ruby>勃発<rt>ぼっぱつ</rt></ruby>**［<span data-source-color=\"red\" style=\"color:#e52715\">1812</span>］"
+    },
+    {
+      "line": 469,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 470,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> （<span data-source-color=\"red\" style=\"color:#e52715\"><ruby>イ<rt>1</rt></ruby><ruby>ヤ<rt>8</rt></ruby></span>！　<span data-source-color=\"red\" style=\"color:#e52715\"><ruby>イ<rt>1</rt></ruby></span>ギリス<span data-source-color=\"red\" style=\"color:#e52715\"><ruby>に<rt>2</rt></ruby></span>　<ruby>宣戦布告<rt>せんせんふこく</rt></ruby>）<span data-source-color=\"green\" style=\"color:#315837\">⬅</span>多くのアメリカ人の感情はこうだ"
+    },
+    {
+      "line": 471,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 472,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>**先住民強制移住法**［<span data-source-color=\"red\" style=\"color:#e52715\">1830</span>］<span data-source-color=\"green\" style=\"color:#315837\">⬅</span>**七月革命と同じ年**だよ"
+    },
+    {
+      "line": 473,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 474,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> （インディアンの　<span data-source-color=\"red\" style=\"color:#e52715\"><ruby>一<rt>1</rt></ruby><ruby>派<rt>8</rt></ruby><ruby>去<rt>3</rt></ruby><ruby>れ<rt>0</rt></ruby></span>）"
+    },
+    {
+      "line": 475,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 476,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>カリフォルニアの**ゴールドラッシュ**［<span data-source-color=\"red\" style=\"color:#e52715\">1848</span>］<span data-source-color=\"green\" style=\"color:#315837\">⬅</span>**二月革命と同じ年**だね"
+    },
+    {
+      "line": 477,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 478,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> （<span data-source-color=\"red\" style=\"color:#e52715\"><ruby>一<rt>1</rt></ruby><ruby>発<rt>8</rt></ruby><ruby>し<rt>4</rt></ruby><ruby>や<rt>8</rt></ruby></span>がれ　金鉱開発）"
+    },
+    {
+      "line": 479,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 480,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>**南北戦争勃発**［<span data-source-color=\"red\" style=\"color:#e52715\">1861</span>］<span data-source-color=\"green\" style=\"color:#315837\">⬅</span>**イタリア王国成立、露の<ruby>農奴<rt>のうど</rt></ruby>解放令と同じ年**だ"
+    },
+    {
+      "line": 481,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 482,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> （<span data-source-color=\"red\" style=\"color:#e52715\"><ruby>い<rt>1</rt></ruby><ruby>や<rt>8</rt></ruby><ruby>無<rt>6</rt></ruby></span>茶<span data-source-color=\"red\" style=\"color:#e52715\"><ruby>言<rt>1</rt></ruby></span>うな　連邦離脱）"
+    },
+    {
+      "line": 483,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 484,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>**<ruby>奴隷<rt>どれい</rt></ruby>解放宣言**［<span data-source-color=\"red\" style=\"color:#e52715\">1863</span>］（<span data-source-color=\"red\" style=\"color:#e52715\"><ruby>一<rt>1</rt></ruby><ruby>番<rt>8</rt></ruby><ruby>無<rt>6</rt></ruby><ruby>残<rt>3</rt></ruby></span>な　奴隷を解放）"
+    },
+    {
+      "line": 485,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 486,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>**大陸横断鉄道開通**［<span data-source-color=\"red\" style=\"color:#e52715\">1869</span>］<span data-source-color=\"green\" style=\"color:#315837\">⬅</span>**スエズ運河開通と同じ年**だ"
+    },
+    {
+      "line": 487,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": ">"
+    },
+    {
+      "line": 488,
+      "page": 71,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・コラム・クローズアップ・年号欄を原書全文に保持する。",
+      "text": "> （<span data-source-color=\"red\" style=\"color:#e52715\"><ruby>野<rt>8</rt></ruby><ruby>郎<rt>6</rt></ruby></span>が<ruby style=\"ruby-position:under\"><ruby style=\"ruby-position:over\"><span data-source-color=\"red\" style=\"color:#e52715\">鍬</span><rt><span data-source-color=\"red\" style=\"color:#e52715\">9</span></rt></ruby><rt><span data-source-color=\"red\" style=\"color:#e52715\">ク</span>ワ</rt></ruby>持ち　鉄道建設）"
+    },
+    {
+      "line": 489,
+      "page": 71,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 490,
+      "page": 71,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "さーて、次回は**ドイツとイタリアの統一**だよ。似ているようでかなり違う両国の統一の過程を見ていくよ。さらに、ドイツでは最強の戦略家**ビスマルク**が登場だ！"
+    },
+    {
+      "line": 491,
+      "page": 71,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 492,
+      "page": 71,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 493,
+      "page": 71,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 494,
+      "page": 71,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 495,
+      "page": 71,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 496,
+      "page": 71,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 497,
+      "page": 71,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 498,
+      "page": 71,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 499,
+      "page": 71,
+      "part": 4,
+      "kind": "blank",
+      "reason": "紙面の空行と構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 500,
+      "page": 71,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "繰り返す欄外目次も原書全文に保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "modern-03-5",
+      "part": 1,
+      "lines": [
+        5
+      ],
+      "sourcePages": [
+        55
+      ],
+      "markdown": "今回は<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**アメリカ合衆国**</u>だよ。今じゃあ世界一の大国かもしれないけど、19世紀前半までは、まだまだ弱い国だった。でも19世紀末には世界1位の工業国になっていたよ。いったい、どんなふうに発展していったんだろうね。"
+    },
+    {
+      "id": "modern-03-18",
+      "part": 1,
+      "lines": [
+        18
+      ],
+      "sourcePages": [
+        55
+      ],
+      "markdown": "独立したばかりの<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**アメリカ合衆国の領土は東部**</u>、つまり<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**大西洋側だけ**</u>だったんだけど、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**西部開拓**</u>がどんどん進んで領土が太平洋岸まで拡大し、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**20世紀に入るころには世界一の工業国**</u>にまで発展したよ。この発展にもっとも大きな影響を与えたのは<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**南北戦争**</u>だ。南北戦争って、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**アメリカの歴史で一番死者が多い戦争**</u>なんだよ。「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">**<ruby>奴隷<rt>どれい</rt></ruby>が解放された戦争**</u>」っていうイメージくらいはあるかな？　でも、南北戦争の背景には奴隷問題だけじゃなくて、アメリカの発展にかかわる問題が隠れている。そこをきちんと理解すれば、このあとのアメリカの歴史もわかってくるよ。そのあたりをきっちり解説していくからね。"
+    },
+    {
+      "id": "modern-03-20",
+      "part": 1,
+      "lines": [
+        20
+      ],
+      "sourcePages": [
+        55
+      ],
+      "markdown": "それじゃあ、アメリカ合衆国の発展の始まり〜。"
+    },
+    {
+      "id": "modern-03-30",
+      "part": 1,
+      "lines": [
+        30
+      ],
+      "sourcePages": [
+        56
+      ],
+      "markdown": "1789年、アメリカ独立戦争が終結してから10年も経たずに、ヨーロッパでは**フランス革命**が始まった。革命中には**イギリスを中心とする対仏大同盟**がつくられて、ヨーロッパの多くの国が**フランスを孤立させた**よね。もちろん**イギリスはアメリカが自分の味方**になると思っているし、アメリカもイギリスのことはキライじゃない。だって独立する時にミシシッピ川以東のルイジアナをくれたもんね。かといって、フランスもキライじゃない。そりゃ、**独立戦争の時に助けてくれたのはフランス**だもん。両方の国が「もちろんオレの味方だよな？」って言ってくるわけだよ。初代大統領の<span data-source-color=\"red\" style=\"color:#e52715\">**ワシントン**</span>は、ホトホト困った……。で、最終的には「**ヨーロッパのことには<ruby>干渉<rt>かんしょう</rt></ruby>しません**から、勝手にやってください」って、**中立を宣言**した。だって、どっちにつくわけにもいかないでしょ？　**アメリカの対ヨーロッパ外交の基本政策である孤立主義**は、すでにワシントンの時代から始まったんだよ。"
+    },
+    {
+      "id": "modern-03-32",
+      "part": 1,
+      "lines": [
+        32
+      ],
+      "sourcePages": [
+        56
+      ],
+      "markdown": "その後、ナポレオンが<span data-source-color=\"red\" style=\"color:#e52715\">**大陸<ruby>封鎖<rt>ふうさ</rt></ruby>令**</span>を出すと、イギリスは対抗して**逆封鎖**をやったよね。つまり、イギリスが**ヨーロッパ諸国とアメリカ大陸の貿易を妨害**するんだけど、当然**アメリカもイギリスに邪魔される**よね。"
+    },
+    {
+      "id": "modern-03-34",
+      "part": 1,
+      "lines": [
+        34
+      ],
+      "sourcePages": [
+        56
+      ],
+      "markdown": "これにはさすがに**アメリカも怒った**。「あれほど中立って言ってるのに、なんでオレが邪魔されるんだよ！」ってね。もちろん、国内がイギリスと開戦することで一致していたわけじゃないんだけど、当時の大統領マディソンがそのまま<ruby>宣戦布告<rt>せんせんふこく</rt></ruby>してしまい、1812年に<span data-source-color=\"red\" style=\"color:#e52715\">**米英戦争**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**アメリカ＝イギリス戦争**</span>**】**が始まったよ。"
+    },
+    {
+      "id": "modern-03-36",
+      "part": 1,
+      "lines": [
+        36
+      ],
+      "sourcePages": [
+        56
+      ],
+      "markdown": "しかし、開戦してみると**アメリカはずっと不利な状況**だった。だって、当時のイギリスは世界最強だもん。首都ワシントンを占領されたりさんざんな結果だったんだけど、アメリカ国内には変化が現れたよ。**米英戦争中にはイギリス製品の輸入が停止**して、アメリカ国内では**生活必需品が不足**したんだ。もちろん逆封鎖されてるからフランスからも輸入はできない。ていうか、生活必需品って**綿製品とか鉄**とかでしょ。気づいてる？　綿製品って服だよ。着るものがなくなったら困る。こうなったら国内でつくるしかないよね。こうして、**米英戦争をきっかけにアメリカでは綿工業や鉄鋼業などが発達**し、結果的に**イギリスから経済的に自立するきっかけ**になった。さらに**アメリカ人の国民意識を高めた**んだ。だからこの戦争は「**第2次独立戦争**」って呼ばれることもあるよ。"
+    },
+    {
+      "id": "modern-03-40",
+      "part": 1,
+      "lines": [
+        40,
+        46
+      ],
+      "sourcePages": [
+        56,
+        57
+      ],
+      "markdown": "そして、**米英戦争はナポレオン戦争の終結とともに終わった**。だって、大陸封鎖令も逆封鎖もなくなるから、イギリスと戦う意味がない。そうすると、**イギリスは再び工業製品をアメリカに輸出**し始めたから、アメリカの国内産業は打撃を受けた。こうしてアメリカでは、工業化の始まった**北部が保護貿易を主張**することになるよ。そして、1840年代から**北部を中心に**<span data-source-color=\"red\" style=\"color:#e52715\">**産業革命**</span>が始まるんだ。"
+    },
+    {
+      "id": "modern-03-50",
+      "part": 1,
+      "lines": [
+        50
+      ],
+      "sourcePages": [
+        57
+      ],
+      "markdown": "アメリカは、独立戦争で<span data-source-color=\"red\" style=\"color:#e52715\">**ミシシッピ川以東のルイジアナ**</span>を**イギリスから獲得**すると、その後も<ruby>買収<rt>ばいしゅう</rt></ruby>などによってどんどん**西へと領土を拡大**していったよ。ラテンアメリカの独立のところで話した<span data-source-color=\"red\" style=\"color:#e52715\">**モンロー宣言**</span>はこの時期に出されたものだ。これは、**イギリス領カナダとの国境問題**や、**ロシアがアラスカに進出**している状況も背景にあって、**ヨーロッパ諸国の<ruby>介入<rt>かいにゅう</rt></ruby>を排除**して**北米大陸をアメリカ合衆国が独占**したい、って意図もあったんだよ。"
+    },
+    {
+      "id": "modern-03-52",
+      "part": 1,
+      "lines": [
+        52
+      ],
+      "sourcePages": [
+        57
+      ],
+      "markdown": "そして<span data-source-color=\"red\" style=\"color:#e52715\">**西部**</span>では、白人が移住してきて**多数の小農民が出現**していたよ。貧乏人たちにとって、西部は人生を逆転するチャンスに見えたんだろうね。人びとの流入によって開拓が進み、<span data-source-color=\"red\" style=\"color:#e52715\">**フロンティア**</span>（開拓地と未開拓地の境界）が少しずつ西へ進んでいった。"
+    },
+    {
+      "id": "modern-03-54",
+      "part": 1,
+      "lines": [
+        54
+      ],
+      "sourcePages": [
+        57
+      ],
+      "markdown": "こうした状況は、**北部・南部の間に対立**を引き起こしたよ。工業が発展して強くなった**北部の産業資本家は、西部に工業製品を売りたい**し、プランテーションをやっている**南部のプランターは西部にも<ruby>奴隷<rt>どれい</rt></ruby>を使った農場を広げたい**。みんな、自分が得するように西部を開発したいから、中心となる産業が違う北部と南部は対立するよね。"
+    },
+    {
+      "id": "modern-03-63",
+      "part": 1,
+      "lines": [
+        63
+      ],
+      "sourcePages": [
+        57
+      ],
+      "markdown": "そうそう、アメリカの地域の呼び方はちょっと注意してね。ここから出てくる「<span data-source-color=\"red\" style=\"color:#e52715\">**北部**</span>」と「<span data-source-color=\"red\" style=\"color:#e52715\">**南部**</span>」って呼び方は、現在のアメリカ合衆国（つまり北米大陸）を南北に分けるんじゃなくて、**建国13州を中心とする東部を南北に分けた呼び方**だよ。"
+    },
+    {
+      "id": "modern-03-67",
+      "part": 1,
+      "lines": [
+        67
+      ],
+      "sourcePages": [
+        57
+      ],
+      "markdown": "そうはいっても、**西部では小農民が大多数**だった。そして、1828年の大統領選挙では、初の**西部出身**の大統領<span data-source-color=\"red\" style=\"color:#e52715\">**ジャクソン**</span>が当選したよ。この時期、アメリカでは白人の男性普通選挙が実現していた州も多かったから、米英戦争の英雄だった彼が当選したんだ。**西部の小農民や北部の労働者などの支持**を得たジャクソンは、**北部の資本家たちを抑えて**大統領の権限を強化すると、民衆のための政策を進めたよ。**白人の男性普通選挙**を普及させると、さらに**公立学校を増やして**民衆の生活の向上を目指し、さらに、政権交代の時にすべての官僚が交代する**スポイルズ・システム**をつくった。こんなふうに民主主義が発展したから、彼の政策は「<span data-source-color=\"red\" style=\"color:#e52715\">**ジャクソニアン＝デモクラシー**</span>」と呼ばれているよ。"
+    },
+    {
+      "id": "modern-03-69",
+      "part": 1,
+      "lines": [
+        69,
+        85
+      ],
+      "sourcePages": [
+        57,
+        58
+      ],
+      "markdown": "ただね、**ジャクソンの民主主義は白人限定**だよ。彼は、黒人を民主主義から除外して**<ruby>奴隷制<rt>どれいせい</rt></ruby>を<ruby>擁護<rt>ようご</rt></ruby>**して南部の奴隷主の支持を得たし、<span data-source-color=\"red\" style=\"color:#e52715\">**先住民強制移住法**</span>を制定して、**インディアン**と呼ばれた先住民を**ミシシッピ川以西**の荒れ地しかない居留地へ移住させた。この移住で、食糧不足や病気によって多くの先住民が命を落としたから、「**涙の旅路**」と呼ばれている。"
+    },
+    {
+      "id": "modern-03-87",
+      "part": 1,
+      "lines": [
+        87
+      ],
+      "sourcePages": [
+        58
+      ],
+      "markdown": "一方で、**ジャクソンに抑え込まれた北部の資本家など**は「ジャクソンは絶対王政だ〜」って怒って、彼の「<ruby>専制<rt>せんせい</rt></ruby>政治」に反対する**ホイッグ党**をつくったよ。「ホイッグ」って、昔イギリスでジェームズ2世の即位に反対して、専制政治に対抗した勢力のことだよね。一方の**ジャクソン支持派**は、ジャクソンの「民主主義」を支持するから<span data-source-color=\"red\" style=\"color:#e52715\">**民主党**</span>だよ。こちらは、**南部の農場主や小農民、東部の労働者**が中心だよ。まだ現在の二大政党である民主党・共和党じゃないからね。**共和党の成立はもう少しあと**だ。"
+    },
+    {
+      "id": "modern-03-106",
+      "part": 2,
+      "lines": [
+        106
+      ],
+      "sourcePages": [
+        58
+      ],
+      "markdown": "それじゃあ**アメリカ合衆国の領土拡大**について見ていこう。まず、最初の領土拡大は独立戦争後の<span data-source-color=\"red\" style=\"color:#e52715\">**パリ条約**</span>で**イギリスから獲得**した<span data-source-color=\"red\" style=\"color:#e52715\">**ミシシッピ川以東のルイジアナ**</span>だ。地図で確認してごらん。**建国直後にいきなり領土が倍**になってるでしょ？　このあとも、西部にどんどん領土が拡大していくよ。"
+    },
+    {
+      "id": "modern-03-108",
+      "part": 2,
+      "lines": [
+        108,
+        114
+      ],
+      "sourcePages": [
+        58,
+        59
+      ],
+      "markdown": "続いて1803年には**フランスから**<span data-source-color=\"red\" style=\"color:#e52715\">**ミシシッピ川以西のルイジアナ**</span>を<ruby>買収<rt>ばいしゅう</rt></ruby>したよ。これは、**ハイチの独立運動を<ruby>鎮圧<rt>ちんあつ</rt></ruby>**しようとしていた**ナポレオン**が、戦費不足を補うためにアメリカに売っちゃったの。この時のアメリカ大統領は、第3代の**ジェファソン**だよ。そして、さらに**スペインから**<span data-source-color=\"red\" style=\"color:#e52715\">**フロリダ**</span>**を買収**、これで東海岸は今のアメリカ合衆国の領土と同じになったね。"
+    },
+    {
+      "id": "modern-03-118",
+      "part": 2,
+      "lines": [
+        118
+      ],
+      "sourcePages": [
+        59
+      ],
+      "markdown": "さて、ルイジアナ購入で北米大陸の中央にまで領土を拡大したアメリカは、次に<span data-source-color=\"red\" style=\"color:#e52715\">**テキサス**</span>の領有を狙ったんだ。要は**メキシコから奪い取る**ってことなんだけど、この時にアメリカが主張したのが「<span data-source-color=\"red\" style=\"color:#e52715\">**マニフェスト＝デスティニー**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**明白な天命**</span>**】**」だよ。これは「キリスト教的・文化的に進んだ**アメリカが領土を拡大することは、近代文明を拡大して世界に自由と民主主義を広げる**ことになるから、これは神の定めた使命なんだ」っていう、ただのわがまま。まあ、今でもアメリカはかなり勝手なこと言うけどさ。"
+    },
+    {
+      "id": "modern-03-122",
+      "part": 2,
+      "lines": [
+        122
+      ],
+      "sourcePages": [
+        59
+      ],
+      "markdown": "この思想に基づいて、アメリカはメキシコとの国境を無視して、**テキサスへとアメリカ人を勝手に入植させた**。もちろん、最初はメキシコが移民を認めたのがきっかけなんだけど、1830年にメキシコがアメリカからの移民を禁止したあともどんどんと入植者が増加し続け、しまいにはアメリカ系住民がメキシコ人の4倍になっちゃった……。ほんと、アメリカは勝手なことするよね。そして、**アメリカ系住民がメキシコからの独立運動**を起こすと、すかさずアメリカは独立運動を支援、結果、**テキサスがメキシコから独立してテキサス共和国**になった。そして、「自由の国アメリカに<ruby>併合<rt>へいごう</rt></ruby>された〜い」っていう**アメリカ系住民が起こした併合運動**を受けて、アメリカが<span data-source-color=\"red\" style=\"color:#e52715\">**テキサス併合**</span>に成功したってわけ。"
+    },
+    {
+      "id": "modern-03-124",
+      "part": 2,
+      "lines": [
+        124
+      ],
+      "sourcePages": [
+        59
+      ],
+      "markdown": "こうなると、領土を取られたメキシコもたまったもんじゃない。アメリカ政府と交渉しようとしたけど、アメリカは聞く気ゼロ。そうこうしているうちに、両国の軍隊が衝突して<span data-source-color=\"red\" style=\"color:#e52715\">**アメリカ＝メキシコ戦争**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>米墨<rt>べいぼく</rt></ruby>戦争**</span>**】**が<ruby>勃発<rt>ぼっぱつ</rt></ruby>したよ。ていうか、メキシコにはアメリカに勝てる力はない……。結果、<span data-source-color=\"red\" style=\"color:#e52715\">**カリフォルニア**</span>**などをアメリカに奪われ**、テキサスも含めると**メキシコは領土の半分以上を失う**ことになった。こうして**アメリカの領土は太平洋岸にまで到達**したよ。"
+    },
+    {
+      "id": "modern-03-126",
+      "part": 2,
+      "lines": [
+        126
+      ],
+      "sourcePages": [
+        59
+      ],
+      "markdown": "しかし、アメリカは運がいい　戦争終結と同じ年に、**カリフォルニアで金鉱が発見され**、全世界から一発ボロ<ruby>儲<rt>もう</rt></ruby>けを狙う人たちが殺到して、人口が急増！　この<span data-source-color=\"red\" style=\"color:#e52715\">**ゴールドラッシュ**</span>の影響で、いまだに**カリフォルニアが全米で一番人口の多い州**なんだ。そして、太平洋岸に領土を得たアメリカはアジアへの関心を強め、ペリーを日本に派遣して**日本の開国**を実現したよ（**日米和親条約**1854）。さらに1867年には、ロシアから<span data-source-color=\"red\" style=\"color:#e52715\">**アラスカ**</span>を購入したんだ。"
+    },
+    {
+      "id": "modern-03-196",
+      "part": 3,
+      "lines": [
+        196
+      ],
+      "sourcePages": [
+        61
+      ],
+      "markdown": "それじゃあ、今回のヤマ場である南北戦争の話に進もう！　**南北戦争はアメリカの歴史のなかで一番犠牲者の多かった戦争**だよ。「奴隷解放の戦争でしょ」って思うかもしれないけど、奴隷制だけじゃなくていろいろな問題がウラに隠れているんだ。確かに**奴隷制をめぐる問題が最終的な引き金となった**んだけどさ。でも、もっと根本的な原因があるから、まずは**奴隷制のことは1回忘れちゃおう**。えっ、一番大事そうなのに？って思うかもしれないけど、ダマされたと思ってさ。思い出してほしいところで「奴隷制を思い出そう！」って言うからね。"
+    },
+    {
+      "id": "modern-03-198",
+      "part": 3,
+      "lines": [
+        198,
+        214
+      ],
+      "sourcePages": [
+        61,
+        62
+      ],
+      "markdown": "そもそも南北の対立は、「**アメリカ合衆国をどういう方向で発展させるか？**」というところから始まったよ。要するに、**工業発展を目指す北部と農業を重視したい****南部**は、やりたい政策が違うんだよね。簡単にまとめると「**工業（北部）vs. 農業（南部）**」ってことだ。ここからは、下の表を使って説明するよ。"
+    },
+    {
+      "id": "modern-03-225",
+      "part": 3,
+      "lines": [
+        225
+      ],
+      "sourcePages": [
+        62
+      ],
+      "markdown": "まずは<span data-source-color=\"red\" style=\"color:#e52715\">**北部**</span>からいこう。<span data-source-color=\"red\" style=\"color:#e52715\">**米英戦争**</span>をきっかけに**工業化が始まった**北部では、**産業資本家が台頭**してきたんだけど、まだまだイギリスの工業にはかなわないよね。だから、**イギリス製品の流入を阻止**して国内産業を守りたい。要するに自分たちの製品をアメリカ全体に売りたいの。だから<span data-source-color=\"red\" style=\"color:#e52715\">**保護貿易**</span>がいい。さらに、南部も西部を<ruby>市場<rt>しじょう</rt></ruby>にするために**合衆国全体で保護貿易をやりたい**から、**合衆国の統合**を図る<span data-source-color=\"red\" style=\"color:#e52715\">**連邦主義**</span>を主張したんだね。あっ、北部の主張は中央集権（中央政府が直接全国を<ruby>統治<rt>とうち</rt></ruby>する）ってわけじゃなくて、あくまでも「内政は州の自治を尊重するけど、**対外的な政策はアメリカ全体で統一**しましょう」ってことだよ。"
+    },
+    {
+      "id": "modern-03-227",
+      "part": 3,
+      "lines": [
+        227
+      ],
+      "sourcePages": [
+        62
+      ],
+      "markdown": "それに対して<span data-source-color=\"red\" style=\"color:#e52715\">**南部**</span>は、「そんなの、北部だけで勝手にやれよ」って思ってたんだ。というのも、19世紀に入って**奴隷制の**<span data-source-color=\"red\" style=\"color:#e52715\">**綿花プランテーション**</span>を拡大してきた南部は、生産した**綿花の多くをイギリスに輸出**していたから、**イギリスが**自由貿易を進めて**輸出を拡大**すれば、**原料をつくっている自分たちも<ruby>儲<rt>もう</rt></ruby>かる**。だからイギリスと合わせて<span data-source-color=\"red\" style=\"color:#e52715\">**自由貿易**</span>をやりたいんだね。あっ、別に北部が勝手に保護貿易やっても文句はない。だって、南部の連中は貿易政策みたいな**対外的なこともそれぞれの州で決めればいい**、って思っているんだもん。これが<span data-source-color=\"red\" style=\"color:#e52715\">**州権主義**</span>だ。"
+    },
+    {
+      "id": "modern-03-229",
+      "part": 3,
+      "lines": [
+        229,
+        235
+      ],
+      "sourcePages": [
+        62,
+        63
+      ],
+      "markdown": "ここで考えてみてほしい。**彼らが自分たちの主張を実現するにはどうすればいいだろう**？　アメリカでは4年に1度は大統領選挙があるから、**大統領を出せばいい**よね。でも、今ここで話した内容を選挙の時に候補者が主張していたらどうなるだろう？　たぶん「わけわかんないこと言うな!!」って思われる。要するに**一般の人たちには難しい**でしょ。今みんなは、「志望校に合格したい！」って思って、注意深く読んでいるから内容がわかると思うんだけど、選挙の時にはみんなそんなに真剣に聞いてくれない。これじゃあ、選挙で勝てないよね。"
+    },
+    {
+      "id": "modern-03-237",
+      "part": 3,
+      "lines": [
+        237
+      ],
+      "sourcePages": [
+        63
+      ],
+      "markdown": "でもね、北部の連中が**南部を一発で撃沈させる方法**を考えついたんだよ。それが<span data-source-color=\"red\" style=\"color:#e52715\">**奴隷制**</span>の問題。よーし、さっき忘れた**奴隷制を思い出そう**。北部の連中は「**南部は奴隷を使ってるから、人道的じゃない**」って主張した。だから<span data-source-color=\"red\" style=\"color:#e52715\">**北部**</span>は<span data-source-color=\"red\" style=\"color:#e52715\">**奴隷制反対**</span>。ほら、わかりやすいでしょ？　これに対し南部は「そんなに**奴隷制を廃止したいなら北部だけで勝手にやればいい**」としか言えない。ということで<span data-source-color=\"red\" style=\"color:#e52715\">**南部**</span>は<span data-source-color=\"red\" style=\"color:#e52715\">**奴隷制維持**</span>。こうして、**奴隷制が南北対立の争点**として前面に出てきたよ。"
+    },
+    {
+      "id": "modern-03-241",
+      "part": 3,
+      "lines": [
+        241
+      ],
+      "sourcePages": [
+        63
+      ],
+      "markdown": "それでは、実際に**奴隷制をめぐって起きた対立**を見ていこう。まず、**建国当初のアメリカには13州しかなかった**けど、だんだん州が増えていくよね。じゃあ、どうやって州が増えていくのかを確認しておこう。入試ではあまり聞かれないけど、ここからの話には必要だからさ。"
+    },
+    {
+      "id": "modern-03-245",
+      "part": 3,
+      "lines": [
+        245
+      ],
+      "sourcePages": [
+        63
+      ],
+      "markdown": "1787年に制定された北西部条例で、新しい州を設置する基準が決まったよ。まず成人男性の人口が5000人になったところに**<ruby>準州<rt>じゅんしゅう</rt></ruby>が設置されて**州になる準備が始まり、6万人になると**州として連邦に加える**ことになった。この時、**新しい州に奴隷制を認めるかどうか**が問題になったんだ。じゃあ、なんで問題になるんだろう？　**自由州**（奴隷制を認めない州）**は北部の味方、奴隷州**（奴隷制を認める州）**は南部の味方**ってことだから、どちらも味方を増やしたいんだよ。これね、奴隷制がどうこうっていうより、**議会での勢力争い**だ。気がついた？　アメリカの上院って「**各州の代表2名ずつ**」だよね。つまり**上院議員の数の取り合い**ってわけ。州の数が同じなら上院議員の数も同じになるけど、自由州・奴隷州のバランスが崩れると、上院での勢力図が変わっちゃう。1819年の時点では、自由州・奴隷州がそれぞれ11州ずつで同じだったからよかったけど、州が増えるとバランスが崩れちゃうよね。"
+    },
+    {
+      "id": "modern-03-247",
+      "part": 3,
+      "lines": [
+        247
+      ],
+      "sourcePages": [
+        63
+      ],
+      "markdown": "そして、ついに**州が増える時がきた**。新しく州になることが決まったのは**ミズーリ州**。自由州・奴隷州どちらになってもバランスが崩れるよね。そこで1820年、南北が妥協して**ミズーリ協定**が成立したよ。まず、**ミズーリ州は奴隷州**として連邦に加入させて、以後、**ミズーリ州の南（北緯36度30分）**を南北の境界線として、**これより北には奴隷制を認めない**ことにした。これで、なんとか南北のバランスをとったんだけど……**また州が増える**んだよ！"
+    },
+    {
+      "id": "modern-03-249",
+      "part": 3,
+      "lines": [
+        249,
+        265
+      ],
+      "sourcePages": [
+        63,
+        64
+      ],
+      "markdown": "1848年の<span data-source-color=\"red\" style=\"color:#e52715\">**アメリカ＝メキシコ戦争**</span>で獲得した<span data-source-color=\"red\" style=\"color:#e52715\">**カリフォルニア**</span>は、<span data-source-color=\"red\" style=\"color:#e52715\">**ゴールドラッシュ**</span>が起きて一気に人口が10万人を超えちゃったから、**すぐにでも州になれる**。しかも領域がミズーリ協定の境界をまたいでるし、この時に自由州と<ruby>奴隷<rt>どれい</rt></ruby>州は同数だったから、またバランスが崩れる……。結局、**カリフォルニアは住民投票で自由州**になったんだけど、南部はこれに激しく反発したんだ。"
+    },
+    {
+      "id": "modern-03-267",
+      "part": 3,
+      "lines": [
+        267
+      ],
+      "sourcePages": [
+        64
+      ],
+      "markdown": "そしてさらに、**カンザス・ネブラスカ準州**の設置が決まると、ついに南部がキレた。ちょっと次ページの地図<span data-source-color=\"white\" data-source-background=\"green\" style=\"color:#ffffff;background-color:#859476\">**➡P.65**</span>を見てね。カンザスやネブラスカは**ミズーリ協定の境界線より北側**だから、また自由州になっちゃうよね。この南部の激しい反発から、1854年に**カンザス・ネブラスカ法**が成立し、**自由州・奴隷州の決定を住民投票に任せる**ことになった。これって**ミズーリ協定の否定**だよ……だって、ミズーリ州よりも北に奴隷州ができる可能性があるでしょ？　今度は北部がブチ切れた！　こうして、**北部を中心とする奴隷制反対派**が<span data-source-color=\"red\" style=\"color:#e52715\">**共和党**</span>を結成したよ。いよいよ**奴隷制反対の共和党、奴隷制維持の民主党**っていう対立がはっきりして、カンザスでは奴隷制をめぐる武力衝突まで起こったんだよ。"
+    },
+    {
+      "id": "modern-03-277",
+      "part": 3,
+      "lines": [
+        277,
+        283
+      ],
+      "sourcePages": [
+        64,
+        65
+      ],
+      "markdown": "こうして**1860年の大統領選挙**では、黒人奴隷問題がほぼ唯一の争点となり、**奴隷制拡大に反対する共和党の**<span data-source-color=\"red\" style=\"color:#e52715\">**リンカン**</span>が大統領に当選した。彼は「南部の奴隷制をすぐに廃止する」とは主張していない。だって、そんなこと言ったら、アメリカはホントにバラバラになっちゃうからね。彼は**合衆国の統合を最優先**して「**新たな州では奴隷制を認めない**」って言ったんだけど、ウラでは「奴隷制を南部だけに封じ込めれば、いつかはなくなる」って思っている。南部の連中だって、これに気づくでしょ？　もはや自分たちに未来はないと思った**南部11州**（開戦前に7州、開戦後に4州）**が合衆国から離脱**、**ジェファソン＝デヴィス**を大統領、首都を**リッチモンド**とする<span data-source-color=\"red\" style=\"color:#e52715\">**アメリカ連合国**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**南部連合**</span>**】**をつくった。ついに南部が独立しちゃった。そして憲法では「<span data-source-color=\"red\" style=\"color:#e52715\">**奴隷制<ruby>擁護<rt>ようご</rt></ruby>**</span>」と「<span data-source-color=\"red\" style=\"color:#e52715\">**州権主義**</span>」を決めたよ。州権主義はもともと南部の主張だったもんね。"
+    },
+    {
+      "id": "modern-03-287",
+      "part": 3,
+      "lines": [
+        287
+      ],
+      "sourcePages": [
+        65
+      ],
+      "markdown": "しかしリンカンは**合衆国を一つの国として維持する**って主張していたから、もちろん**南部の独立は認めない**。そして、南部によるサムター<ruby>要塞<rt>ようさい</rt></ruby>（南部にある合衆国の基地だよ）への攻撃で、1861年、**アメリカ史上最大の戦争**である<span data-source-color=\"red\" style=\"color:#e52715\">**南北戦争**</span>が<ruby>勃発<rt>ぼっぱつ</rt></ruby>した。英語だと「**The Civil War（内戦）**」。この名前が南北戦争の性格を物語っているんだよ。"
+    },
+    {
+      "id": "modern-03-326",
+      "part": 3,
+      "lines": [
+        326
+      ],
+      "sourcePages": [
+        66
+      ],
+      "markdown": "開戦して最初の1年間は、**リー**将軍が率いる**南軍が優勢**だった。ホントなら人口が2倍以上もいる北部のほうが強そうなものだけど、南部にしてみれば「<ruby>侵略<rt>しんりゃく</rt></ruby>」してくる北軍から自分たちの「領土」を守る戦争だもん。それに南部には期待していることがあるよ。それは**イギリスやフランスの支援**だ。もともと**南部はイギリスやフランスに<ruby>綿花<rt>めんか</rt></ruby>を輸出**しているから、経済的なつながりが深い。しかもアメリカの北側は**イギリス領カナダ**だから、援軍さえきてくれれば北部を挟み撃ちできる！　しかも、**英仏はメキシコ出兵**をやってるから、**南にも英仏軍がいる**。ほら、英仏が助けてくれれば一気に勝てそうでしょ。"
+    },
+    {
+      "id": "modern-03-328",
+      "part": 3,
+      "lines": [
+        328
+      ],
+      "sourcePages": [
+        66
+      ],
+      "markdown": "もちろん、<span data-source-color=\"red\" style=\"color:#e52715\">**リンカン**</span>もこれに気づいてたよ。いくらちょこちょこ戦闘で勝っても、英仏が南部に援軍を出したら、たぶん北軍が負けちゃうよ。さらに、西部の州が南部の味方になったら、ますます不利になるよね。リンカンは、**国内外の世論を味方にしなきゃいかん**って思ったんだよ。つまり「**軍隊で勝つより、政治で勝つ！**」。"
+    },
+    {
+      "id": "modern-03-330",
+      "part": 3,
+      "lines": [
+        330
+      ],
+      "sourcePages": [
+        66
+      ],
+      "markdown": "そこで、西部の支持を獲得するために<span data-source-color=\"red\" style=\"color:#e52715\">**ホームステッド法**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**自営農地法**</span>**】**を制定した。これは、**公有地を自分で<ruby>開墾<rt>かいこん</rt></ruby>**し、**5年間定住**して、**自分で耕作**している人に、**無償で土地160エーカーを与える**という法律だ。160エーカーってのは2分の1マイル四方（1マイル≒1.6km）だから、約800m四方だね。かなり広いでしょ。ポイントは「**開墾・定住・耕作**」の3つの条件を満たせば、**タダで土地をもらえる**ってことだ。ホントなら土地代金を払わなきゃいけないけど、合衆国に残るならタダ。そりゃ、**西部の農民は北軍を支持する**よ。これで国内では優位に立ったんだけど、<ruby>厄介<rt>やっかい</rt></ruby>なのが英仏だよ。"
+    },
+    {
+      "id": "modern-03-334",
+      "part": 3,
+      "lines": [
+        334
+      ],
+      "sourcePages": [
+        66
+      ],
+      "markdown": "それじゃあ、もう一度確認しよう。南部は**イギリスに合わせて自由貿易を主張**してたよね。しかも**英仏も南部の安い綿花を輸入**しているから、本音を言うと南部に勝ってほしい。だって原料が安くて製品が売れる、つまり<ruby>儲<rt>もう</rt></ruby>かる。だから、英仏がいつ南部に援軍を送ってもおかしくなかった。そこで**リンカンは英仏に参戦させないため**、ある秘策に打って出た。それが<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>奴隷<rt>どれい</rt></ruby>解放宣言**</span>だよ。"
+    },
+    {
+      "id": "modern-03-336",
+      "part": 3,
+      "lines": [
+        336,
+        342
+      ],
+      "sourcePages": [
+        66,
+        67
+      ],
+      "markdown": "**奴隷解放宣言の意義**は、国内的にみると自由になりたい**南部の奴隷が北部に逃げてきて北軍に加わり**、北部が逆転してだんだん優勢になったことなんだけど、もっと重要なのは、**英仏の<ruby>介入<rt>かいにゅう</rt></ruby>を阻止**したことなんだよ。次ページの図**〈南北戦争の「2つの視点」〉**<span data-source-color=\"white\" data-source-background=\"green\" style=\"color:#ffffff;background-color:#859476\">**➡P.67**</span>を見ながら読んでね。<span data-source-color=\"red\" style=\"color:#e52715\">**リンカン**</span>は奴隷解放宣言を出すことで、南北戦争を「南部の独立戦争」じゃなくて「**奴隷解放のための人道的な“内戦”**」にして、さらに国際的にも「北部のほうが正しい！」って世論をつくることに成功したんだ。自分の国では**奴隷制をとっくに廃止している英仏**は、今さら奴隷制を続けるための戦争なんてできないよね？　だって援軍を出したら「奴隷は永遠に苦しめばいい」って言ってるのと同じことだよ。もはや英仏は「**アメリカの“内戦”には介入しない**」って言うしかない。だからこの戦争は「**The Civil War**（内戦）」。奴隷解放宣言って、むちゃくちゃ高度で政治的な判断から出されたんだよ。"
+    },
+    {
+      "id": "modern-03-353",
+      "part": 3,
+      "lines": [
+        353
+      ],
+      "sourcePages": [
+        67
+      ],
+      "markdown": "いよいよ南軍は追い詰められ、南北戦争最大の**激戦**<span data-source-color=\"red\" style=\"color:#e52715\">**ゲティスバーグの戦い**</span>で**北軍が決定的な勝利**を収めた。この時**リンカンがおこなった演説の一節**が有名な「<span data-source-color=\"red\" style=\"color:#e52715\">**人民の人民による人民のための政治**</span>」だよ。その後、**グラント**将軍の活躍などで**リッチモンドが<ruby>陥落<rt>かんらく</rt></ruby>**し、**北軍が勝利**して**南北戦争は終結**したんだ。"
+    },
+    {
+      "id": "modern-03-377",
+      "part": 3,
+      "lines": [
+        377
+      ],
+      "sourcePages": [
+        68
+      ],
+      "markdown": "この戦争のあと、**南部の憎悪はリンカン一人に向かった**んだよ。南北戦争が終わった直後、そして大統領2期目の就任式が終わったばかりの1865年4月……、**リンカンはワシントンのフォード劇場で<ruby>凶弾<rt>きょうだん</rt></ruby>に倒れた**。歴史に「もし」はないけれど、もしかすると<span data-source-color=\"red\" style=\"color:#e52715\">**リンカン暗殺**</span>によって合衆国は再び分裂しなくて済んだのかもしれないよ。彼の願い通り、アメリカ合衆国は一つの国として統合が維持されたのだから。"
+    },
+    {
+      "id": "modern-03-383",
+      "part": 4,
+      "lines": [
+        383
+      ],
+      "sourcePages": [
+        68
+      ],
+      "markdown": "「奴隷解放のための人道的な戦争」となった**南北戦争で北部が勝利**すると、1865年、奴隷解放宣言は**憲法修正第13条**となり、さらに**憲法修正第14条、第15条で黒人の市民権、投票権**がそれぞれ認められた。これで黒人も白人と同じアメリカ市民として認められるはずだよね。でもね、**黒人への差別はそう簡単になくならない**よ……。"
+    },
+    {
+      "id": "modern-03-385",
+      "part": 4,
+      "lines": [
+        385
+      ],
+      "sourcePages": [
+        68
+      ],
+      "markdown": "奴隷解放で一番影響を受けるのは、南部でプランテーション経営をおこなっていたプランター（農場主）たちだ。**彼らはもう奴隷を使えない**から（さすがに「奴隷」と呼んじゃマズい…）、**解放した黒人**を<span data-source-color=\"red\" style=\"color:#e52715\">**シェアクロッパー**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**分益<ruby>小作人<rt>こさくにん</rt></ruby>**</span>**】**としたよ。シェアクロッパーは、**土地・農具などを地主から借りて、収穫物の半分以上を現物で納めた**。結局彼らは、むちゃくちゃ貧乏なまま**社会の最下層**に置かれたから、奴隷とたいして変わんないけど、1つだけ違うとすれば「**小作人をやめたければやめられる自由**」だけは手に入れたことかな。"
+    },
+    {
+      "id": "modern-03-387",
+      "part": 4,
+      "lines": [
+        387
+      ],
+      "sourcePages": [
+        68
+      ],
+      "markdown": "そして南部にはもっと大きな変化が起きたよ。南北戦争直後から共和党を中心に南部の改革が始まり、**解放された黒人が白人たちの日常生活のなかに入ってきた**。例えば、黒人が学校に通い始めたりとか、投票に行くと黒人がいたりする。これは**南部の人にとっては、あまりにも過激な変化**だったため、黒人への反感が強くなったんだ。こうしてテネシー州では反黒人組織<span data-source-color=\"red\" style=\"color:#e52715\">**KKK**</span> **【**<span data-source-color=\"red\" style=\"color:#e52715\">**クー＝クラックス＝クラン**</span>**】**が結成され、黒人はリンチを受けたり家を襲われたりと、ひどい目にあったんだ。"
+    },
+    {
+      "id": "modern-03-389",
+      "part": 4,
+      "lines": [
+        389
+      ],
+      "sourcePages": [
+        68
+      ],
+      "markdown": "さらに黒人への反感は州の政治にも影響を与え、南部では憲法修正で認められた**黒人の市民権や投票権を、州法で制限**し始めた。**黒人取締法**と総称されるこれらの法律によって**黒人は選挙権を<ruby>剥奪<rt>はくだつ</rt></ruby>**され、さらに学校、交通機関など社会のあらゆる場面で**黒人と白人を分離するジム＝クロウ制度**がつくられた。人種<ruby>隔離<rt>かくり</rt></ruby>政策は**南アフリカのアパルトヘイト**が有名だけど、アメリカにも同じような制度があったんだよ。そして、北部の連中もこれ以上南部と対立をしたくなかったから、そのまま放置したんだ。"
+    },
+    {
+      "id": "modern-03-399",
+      "part": 4,
+      "lines": [
+        399
+      ],
+      "sourcePages": [
+        69
+      ],
+      "markdown": "さっき、南北戦争は「工業（北部）VS. 農業（南部）」の対立から起きた、って話したの覚えてる？　**北部が勝ったから工業が勝った**ということだよね。南北戦争後、しばらくは共和党政権が続いて**工業優先の政策**をとったから、アメリカでは**急速に工業が発展**したよ。きっかけは**鉄道建設**とそれによる**鉄鋼の<ruby>需要<rt>じゅよう</rt></ruby>**、さらに**石油**産業の<ruby>勃興<rt>ぼっこう</rt></ruby>などだよ。"
+    },
+    {
+      "id": "modern-03-401",
+      "part": 4,
+      "lines": [
+        401
+      ],
+      "sourcePages": [
+        69
+      ],
+      "markdown": "1869年に最初の<span data-source-color=\"red\" style=\"color:#e52715\">**大陸横断鉄道**</span>（ユニオン・パシフィック＝セントラル・パシフィック鉄道）が開通し、その後わずか15年の間に5本の大陸横断鉄道が次々と完成すると、人やモノ、それに情報がアメリカの東西を行き来するようになり、**西部開拓が一気に進んだ**よ。この鉄道建設ブームを背景とする鉄の需要拡大と鉄鋼業の発展に乗っかって「**鉄鋼王**」となったのが**カーネギー**だ。**スコットランド系移民**の糸巻き工だったカーネギーは、一代でアメリカの鉄鋼業を独占する大企業**カーネギー製鋼会社**を築き上げたよ。その後、カーネギーは自分の鉄鋼会社を、**モルガン【モーガン】**の設立した**USスティール社に売却**して引退したのち、文化事業や<ruby>慈善<rt>じぜん</rt></ruby>事業に多額の資産を寄付した。例えば、かつてニューヨーク・フィル（オーケストラね）の本拠地だったカーネギー・ホールも彼が出資して改築したものだ。ちなみに**モルガンは鉄道投資で巨万の富を手に入れた銀行家**だよ。一方の石油産業では、1859年にペンシルヴェニア州で開発された油田にいち早く目をつけた**ロックフェラー**が、石油を運ぶ鉄道会社とも手を組んでライバル企業を圧倒、「**石油王**」**となった**。彼の創設した**スタンダード石油トラスト**は、全米の石油精製の9割を支配する大企業となった。まさに、アメリカン・ドリームだね。"
+    },
+    {
+      "id": "modern-03-408",
+      "part": 4,
+      "lines": [
+        408
+      ],
+      "sourcePages": [
+        69
+      ],
+      "markdown": "そしてこれらの大企業は、**政府による保護貿易政策**にも支えられて発展し、1890年ごろまでには**アメリカは工業生産でイギリスを抜いて世界1位**となった。こうしたアメリカの急激な工業発展は、「<ruby>儲<rt>もう</rt></ruby>かりゃなんでもいい」みたいな<ruby>拝金<rt>はいきん</rt></ruby>主義の風潮を生み、この時代は「**金ぴか時代 【**Gilded Age**】**」なんて呼ばれているね。"
+    },
+    {
+      "id": "modern-03-412",
+      "part": 4,
+      "lines": [
+        412,
+        428
+      ],
+      "sourcePages": [
+        69,
+        70
+      ],
+      "markdown": "じゃあ、最後に**アメリカの移民問題**をまとめておこう。ここまでは独立してからのアメリカ合衆国の発展を順番に見てきたけど、どんどん領土が拡大しても、そこに住む人がいなければ発展はしないよね。独立後のアメリカの発展を支えたのは移民なんだよ。**米英戦争をきっかけに工業化が進み、1840年代には産業革命が始まった**けど、工場ができたところで働く人がいなきゃ発展するはずがない。つまりこの時期のアメリカは、労働者がいっぱい必要なんだよ（難しい言葉だと「**労働<ruby>需要<rt>じゅよう</rt></ruby>**」ね）。この発展を支えたのは**旧移民**と呼ばれる人びとだ。"
+    },
+    {
+      "id": "modern-03-430",
+      "part": 4,
+      "lines": [
+        430
+      ],
+      "sourcePages": [
+        70
+      ],
+      "markdown": "1840年代ごろから、アメリカには**北欧や西欧からの移民**が多数流入したんだけど、彼らは**旧移民**と呼ばれているよ。特に多かったのは<span data-source-color=\"red\" style=\"color:#e52715\">**アイルランド系移民**</span>と**ドイツ系移民**だ。前回出てきたの覚えてるかな？　<span data-source-color=\"red\" style=\"color:#e52715\">**ジャガイモ<ruby>飢饉<rt>ききん</rt></ruby>**</span>をきっかけに、100万人以上の**アイルランド人**がアメリカへと移民し、**北部の工場労働者**となったり、**東部からの大陸横断鉄道建設**に従事したよ。**ドイツ系移民**は1848年の**三月革命に失敗した政治<ruby>亡命<rt>ぼうめい</rt></ruby>者**や**南ドイツの貧しい農民**出身で、アメリカ到着後には中西部の農業地帯に移住した人も多かったんだよ。そして、1848年の**カリフォルニアでの金鉱発見**が移民の流入を加速させ、いわゆる<span data-source-color=\"red\" style=\"color:#e52715\">**ゴールドラッシュ**</span>が起きたよね。これがアメリカへの移民流入の第1波だ。"
+    },
+    {
+      "id": "modern-03-432",
+      "part": 4,
+      "lines": [
+        432
+      ],
+      "sourcePages": [
+        70
+      ],
+      "markdown": "そして**南北戦争以降、アメリカでは急速に工業が発展**したから、ますます労働者が必要になった。これを支えたのもやはり移民なんだよ。しかも、この時期には新たな地域からの移民が増えるんだ。1880年代ごろから少しずつ**南欧・東欧**、特に**イタリア系移民**や**ロシアからの移民**が増えはじめ、1900年ごろにはピークとなった。彼らは**新移民**と呼ばれているよ。**イタリア系移民**の多くは、**南イタリアからきた貧しい農民**だよ。時期としてはちょうど**イタリア統一のあと**だよね。彼らは統一に夢を抱いていたんだけど、統一後の保護貿易政策で農産物輸出が減少して貧しくなったから移民したんだね。それからロシアの**ポグロム**（ユダヤ人<ruby>迫害<rt>はくがい</rt></ruby>）を逃れた**ユダヤ人**も多かった。ただね、アメリカン・ドリームを夢見て移民してきても、夢破れるどころか差別されて苦しむ場合だってあるんだよ。特に、**プロテスタント中心のアメリカ社会**では**カトリック教徒は差別の対象**となったから、**カトリックの多い**<span data-source-color=\"red\" style=\"color:#e52715\">**アイルランド系**</span>と**イタリア系**の人びとは、厳しい差別を受けることになったんだ。"
+    },
+    {
+      "id": "modern-03-458",
+      "part": 4,
+      "lines": [
+        458
+      ],
+      "sourcePages": [
+        71
+      ],
+      "markdown": "もう一つ、忘れちゃいけないのが**アジアからの移民**だ。1840年代、要するに**カリフォルニアのゴールドラッシュ以降**なんだけど、鉱山や鉄道建設に低賃金の労働者がいっぱい必要になった。この労働需要を支えたのが**中国系移民**だよ。中国では**アヘン戦争のあと**で、貧しい人があふれていたからね。彼らは**契約移民**「**苦力【クーリー】**」として、**西部を中心に低賃金労働に従事**したんだ。特に**西からの大陸横断鉄道建設**には、多数の苦力が従事したよ。ただね、中国はそもそも人口が多いから移民の数もハンパない。増え続ける**中国系移民が白人下層労働者たちにとって<ruby>脅威<rt>きょうい</rt></ruby>**になったから、白人たちの移民<ruby>排斥<rt>はいせき</rt></ruby>運動が激しくなり、1882年には**アメリカ史上初の移民制限**として**中国人労働者移民排斥法**がつくられた。"
+    },
+    {
+      "id": "modern-03-462",
+      "part": 4,
+      "lines": [
+        462
+      ],
+      "sourcePages": [
+        71
+      ],
+      "markdown": "そして中国系移民が禁止されたあとに増加したのが**日本人移民**だよ。日本は明治<ruby>維新<rt>いしん</rt></ruby>のすぐあとの時期にあたり、国内で工業化が進んだために貧しくなった農民が、労働者として都市に流出するだけじゃなくて、海外へも移住したんだよ。"
+    },
+    {
+      "id": "modern-03-464",
+      "part": 4,
+      "lines": [
+        464
+      ],
+      "sourcePages": [
+        71
+      ],
+      "markdown": "それじゃあ、最後に年号checkだ！"
+    },
+    {
+      "id": "modern-03-490",
+      "part": 4,
+      "lines": [
+        490
+      ],
+      "sourcePages": [
+        71
+      ],
+      "markdown": "さーて、次回は**ドイツとイタリアの統一**だよ。似ているようでかなり違う両国の統一の過程を見ていくよ。さらに、ドイツでは最強の戦略家**ビスマルク**が登場だ！"
+    }
+  ],
+  "cross_page_connections": [
+    {
+      "lines": [
+        40,
+        46
+      ],
+      "reason": "紙面をまたぐ同じ通常本文を、文字・記号・空白を足さず接続する。"
+    },
+    {
+      "lines": [
+        69,
+        85
+      ],
+      "reason": "紙面をまたぐ同じ通常本文を、文字・記号・空白を足さず接続する。"
+    },
+    {
+      "lines": [
+        108,
+        114
+      ],
+      "reason": "紙面をまたぐ同じ通常本文を、文字・記号・空白を足さず接続する。"
+    },
+    {
+      "lines": [
+        198,
+        214
+      ],
+      "reason": "紙面をまたぐ同じ通常本文を、文字・記号・空白を足さず接続する。"
+    },
+    {
+      "lines": [
+        229,
+        235
+      ],
+      "reason": "紙面をまたぐ同じ通常本文を、文字・記号・空白を足さず接続する。"
+    },
+    {
+      "lines": [
+        249,
+        265
+      ],
+      "reason": "紙面をまたぐ同じ通常本文を、文字・記号・空白を足さず接続する。"
+    },
+    {
+      "lines": [
+        277,
+        283
+      ],
+      "reason": "紙面をまたぐ同じ通常本文を、文字・記号・空白を足さず接続する。"
+    },
+    {
+      "lines": [
+        336,
+        342
+      ],
+      "reason": "紙面をまたぐ同じ通常本文を、文字・記号・空白を足さず接続する。"
+    },
+    {
+      "lines": [
+        412,
+        428
+      ],
+      "reason": "紙面をまたぐ同じ通常本文を、文字・記号・空白を足さず接続する。"
+    }
+  ]
+}
