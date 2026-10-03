@@ -18,6 +18,14 @@ const sourceRecord=JSON.parse(await readFile(path.join(root,'docs/modern-lesson-
 const sourceLines=new Map(sourceRecord.lines.map(line=>[line.line,line]));
 // 同じ人物の別表記だけを家族識別で束ねる。
 const family=entity=>entity.family??entity.name;
+function mapLabelNames(scene,text) {
+  const names=namesForScene(scene,text);
+  if(normalizeMapName(text)!=='ワシントン')return names;
+  const context=namesForScene(scene,scene.title+'。'+scene.plainBody.join(''));
+  const city=context.find(entity=>entity.kind==='place'&&entity.family==='ワシントン市');
+  // 地図の都市ラベルは短い姓名だけで判定せず、その場面の占領・劇場の文脈を読む。
+  return city&&!context.some(entity=>entity.kind==='person'&&entity.name==='ワシントン')?[city]:names;
+}
 const port=process.env.W_HISTORY_MODERN_CHECK_PORT??'18831',base='http://127.0.0.1:'+port;
 const server=spawn(process.execPath,[path.join(root,'scripts/serve.mjs')],{cwd:root,env:{...process.env,PORT:port},windowsHide:true,stdio:'pipe'});
 
@@ -238,7 +246,7 @@ try {
           const preceding=modernEdition[volume.id][i-1],precedingNames=preceding?namesForScene(preceding,preceding.title+'。'+preceding.plainBody.join('')).filter(name=>name.kind!=='person'):[];
           const locationFamilies=new Set([...names,...precedingNames].map(name=>family(name)));
           const narrativeKey=normalizeMapName(expected.title+'。'+expected.plainBody.join(''));
-          const extra=actual.shown.filter(name=>namesForScene(expected,name).some(entity=>!(entity.kind==='person'?families:locationFamilies).has(family(entity))&&(entity.kind==='person'||!narrativeKey.includes(normalizeMapName(entity.name)))));
+          const extra=actual.shown.filter(name=>mapLabelNames(expected,name).some(entity=>!(entity.kind==='person'?families:locationFamilies).has(family(entity))&&(entity.kind==='person'||!narrativeKey.includes(normalizeMapName(entity.name)))));
           const reachablePages=modernReferencePages(expected,volume,i);
           for(const figure of actual.figures) {
             const visible=[figure.title,figure.group,figure.caption].join('。');
