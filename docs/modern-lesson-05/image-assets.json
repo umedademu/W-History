@@ -1,0 +1,1041 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-03",
+  "lesson": "modern-c01-l05",
+  "description": "原文の内容を示す模式的な人物・一般集団・施設・道具。精密な肖像や建物・軍艦の復元ではない。",
+  "totals": {
+    "new": 9,
+    "nativeGenerated": 0,
+    "fallbackGenerated": 9,
+    "generationRequests": 10,
+    "reused": 36,
+    "used": 45
+  },
+  "authorization": "指定のAntigravity CLI経由でGemini 3.8 Flashへアレクサンドル2世の画像を依頼したが、画像生成側がRESOURCE_EXHAUSTED（リセットまで約3時間7分）を返した。以前のユーザーによる別の画像生成ツールへの続行承認を適用し、9点を組み込み画像生成ツールで制作。全9点の透明調整と寸法調整は指定どおりAntigravity経由Geminiへ依頼した。",
+  "generationModels": {
+    "nativeRequest": "Gemini 3.8 Flash High",
+    "fallback": "組み込み画像生成ツール。内部モデル名は返されないため記載しない。"
+  },
+  "nativeRequests": [
+    {
+      "key": "alexander-ii",
+      "status": "quota",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite, no shell/API image generator. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline and restrained muted shading. Match style C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/talleyrand.png. Entire subject intact centered with generous margins, transparent background if supported otherwise flat PURE WHITE. No shadow/glow/floor outside subject, no letters/text/labels/watermark. Human groups share same compact 3-head proportions and respectful adult faces. Props similarly small compact pixel miniatures. Subject: Alexander II of Russia in early 1860s, distinct middle-aged adult about forty-five, short light brown hair, prominent brown moustache and mutton-chop sideburns, no long chin beard, dark green nineteenth-century Russian imperial military coat with gold epaulettes, pale blue sash, trousers and black boots, standing neutral, no crown or scenery. Distinct face from Alexander I and Nicholas I. ImageName alexander-ii. Do not alter repository files. Generate and await your native image-generator subagent, return concise JSON {key:'alexander-ii',generated_path,tool,error}. If quota-limited return quota error immediately, no waits/retries. Save in native artifacts.\n"
+    }
+  ],
+  "quota": {
+    "status": "RESOURCE_EXHAUSTED",
+    "firstKey": "alexander-ii",
+    "resetAfter": "約3時間7分"
+  },
+  "normalization": {
+    "model": "Gemini 3.8 Flash High",
+    "via": "Antigravity CLI",
+    "completed": 9,
+    "failed": 0,
+    "canvas": [
+      192,
+      192
+    ],
+    "subjectMaximum": [
+      176,
+      176
+    ],
+    "centerX": 96,
+    "bottomY": 184,
+    "resampling": "最近傍・縦横比を維持。",
+    "alphaCleanup": "元画像のRGBは非改変。生成時の遠い余白に残るアルファ1〜15の薄い雑音だけを0にし、16〜255は元の値を保持する。背景の色除去は行わない。",
+    "scriptSha256": "d69472a603ea864e39ab20840df20e54e88c4cae3bc64227da9e0b5ce60c9951",
+    "prompt": "あなたは Gemini 3.8 Flash です。指定された画像調整だけを担当してください。画像の新規生成、別担当起動、広い探索、Git操作、インストールは不要です。\n入力一覧: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson05-1791034339678/generated-inputs.json\n出力報告: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson05-1791034339678/normalization-report.json\n確認用一覧画像: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson05-1791034339678/contact-sheet.png\nあなたが作る処理: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson05-1791034339678/normalize-sprites.py\n\n一覧を一回読み、PythonとPillowの処理を一回書いて一回実行してください。assets配列は9件で、key,inputPath,outputPath,generationTool,originalBackgroundを持ちます。すべて組み込み画像生成による透明PNGで、原画像は参照専用です。\n- RGBAで開き、画像のRGB、顔、衣服、姿そのものは描き替えない。原画像は上書きせず、背景色除去も行わない。\n- 技術検査で全9点にアルファ1〜15の非常に薄い雑音が遠くの余白まで広がることを確認済み。この範囲の画素だけアルファ0へして、生成時のごく薄い雑音を取り除く。アルファ16〜255は元の値をそのまま保持する。煙や輪郭・内部の白を一律不透明化したり消したりしない。閾値16・除去画素数を報告する。\n- この処理後のアルファ0より大きい描画範囲を切り出し、縦横比を維持して最大176×176画素へ最近傍で収める。192×192画素の透明なキャンバスの横中央96、下端184へ配置し、上下左右8画素以上透明な余白を保つ。\n- 新規outputPathへPNGを保存。既存ファイルがある場合は上書きせず失敗報告。sources、AGENTS、TASK、既存画像や他のアプリファイルを変更しない。\n- 報告JSONは summary {total,completed,failed}, failures[], results[]。結果にkey,inputPath,outputPath,inputSha256,outputSha256,originalDimensions {width,height},originalBbox,cleanedBbox,savedBbox,transparentPixelCount,removedFaintAlphaPixels,backgroundOperation,statusを保存。空の絵や透明余白不足、未存在の入力を補わず失敗にする。\n- 確認用一覧画像は9点を3列で各192×192そのまま薄い灰色背景へ並べ、下にASCIIのkeyを付ける。公開画像自体に文字を加えない。\n成功数と失敗数・報告と一覧画像パスを短く返してください。\n"
+  },
+  "appearanceReview": {
+    "newPeterAndCatherine": true,
+    "reason": "既存のピョートル1世とエカチェリーナ2世の画像は今回の容姿に合わないため、原画像を変えず今回用に本人の新しい絵を制作した。",
+    "reviewed": "新9点の一覧を実寸で目視し、本人・施設・蒸気船と帆船の区別、画風・余白・残った帯や薄い背景がないことを確認。"
+  },
+  "prompts": [
+    {
+      "key": "alexander-ii",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Create one original transparent-background sprite for an existing Japanese world-history learning app. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline, restrained muted shading, respectful adult facial proportions. Match established retro pixel sprites of nineteenth-century historical figures. Entire subject intact centered, generous transparent margins. No external shadow/glow/floor, no scene, no letters/text/labels/watermark. Props and facilities are similarly compact clear pixel miniatures. One requested subject only, no sheet or multiple variants. Subject: Alexander II of Russia in early 1860s, distinct middle-aged adult about forty-five, short light brown hair, prominent brown moustache and mutton-chop sideburns, no long chin beard, dark green nineteenth-century Russian imperial military coat with gold epaulettes, pale blue sash, trousers and black boots, standing neutral, no crown or scenery. Distinct face from Alexander I and Nicholas I."
+    },
+    {
+      "key": "palmerston",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Create one original transparent-background sprite for an existing Japanese world-history learning app. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline, restrained muted shading, respectful adult facial proportions. Match established retro pixel sprites of nineteenth-century historical figures. Entire subject intact centered, generous transparent margins. No external shadow/glow/floor, no scene, no letters/text/labels/watermark. Props and facilities are similarly compact clear pixel miniatures. One requested subject only, no sheet or multiple variants. Subject: Henry John Temple, Viscount Palmerston, British foreign secretary around 1840, dignified middle-aged European male with wispy pale gray hair and long sideburns, clean chin and no moustache, black nineteenth-century tailcoat, ivory waistcoat, neat pale cravat, black trousers, neutral standing, no crown or throne."
+    },
+    {
+      "key": "ivan-turgenev",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Create one original transparent-background sprite for an existing Japanese world-history learning app. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline, restrained muted shading, respectful adult facial proportions. Match established retro pixel sprites of nineteenth-century historical figures. Entire subject intact centered, generous transparent margins. No external shadow/glow/floor, no scene, no letters/text/labels/watermark. Props and facilities are similarly compact clear pixel miniatures. One requested subject only, no sheet or multiple variants. Subject: Ivan Turgenev, nineteenth-century Russian novelist, older European male with long thick silver-gray hair and full gray-white beard, broad dignified face, dark charcoal nineteenth-century suit and white shirt, holding one small plain closed book without writing, neutral standing, no scenery."
+    },
+    {
+      "key": "sevastopol-fortress",
+      "kind": "facility",
+      "generationTool": "image_gen",
+      "prompt": "Create one original transparent-background sprite for an existing Japanese world-history learning app. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline, restrained muted shading, respectful adult facial proportions. Match established retro pixel sprites of nineteenth-century historical figures. Entire subject intact centered, generous transparent margins. No external shadow/glow/floor, no scene, no letters/text/labels/watermark. Props and facilities are similarly compact clear pixel miniatures. One requested subject only, no sheet or multiple variants. Subject: Sevastopol coastal stone fortress as a small symbolic nineteenth-century educational miniature, compact cream-gray masonry battlements with low sturdy walls, one small dark gun embrasure, no real-world flags, no soldiers, no explosions, no gore, no surrounding sea or landscape. Entire single fort visible, isometric three-quarter view."
+    },
+    {
+      "key": "british-steam-warship",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Create one original transparent-background sprite for an existing Japanese world-history learning app. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline, restrained muted shading, respectful adult facial proportions. Match established retro pixel sprites of nineteenth-century historical figures. Entire subject intact centered, generous transparent margins. No external shadow/glow/floor, no scene, no letters/text/labels/watermark. Props and facilities are similarly compact clear pixel miniatures. One requested subject only, no sheet or multiple variants. Subject: Nineteenth-century British steam-powered warship as a small educational symbolic miniature. Dark iron-looking hull, prominent vertical smokestack, small restrained puff of smoke attached to stack, compact deck and two short masts, no unfurled sails, clearly visibly steam-powered, broadside side-view ship facing right. No flags, no text, no sea, no scene or horizon, no battle or explosions. Show one intact whole ship."
+    },
+    {
+      "key": "russian-sailing-warship",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Create one original transparent-background sprite for an existing Japanese world-history learning app. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline, restrained muted shading, respectful adult facial proportions. Match established retro pixel sprites of nineteenth-century historical figures. Entire subject intact centered, generous transparent margins. No external shadow/glow/floor, no scene, no letters/text/labels/watermark. Props and facilities are similarly compact clear pixel miniatures. One requested subject only, no sheet or multiple variants. Subject: Nineteenth-century Russian wooden sailing warship as a small educational symbolic miniature. Rich brown wooden hull with simple cannon-port dots, two tall masts with cream square sails and dark rigging, no steam smokestack, clearly distinguishable from an iron steamship. Broadside side-view ship facing right. No flags, no text, no sea or horizon, no battle or sinking, one intact whole ship."
+    },
+    {
+      "key": "holy-sepulchre-church",
+      "kind": "facility",
+      "generationTool": "image_gen",
+      "prompt": "Create one original transparent-background sprite for an existing Japanese world-history learning app. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline, restrained muted shading, respectful adult facial proportions. Match established retro pixel sprites of nineteenth-century historical figures. Entire subject intact centered, generous transparent margins. No external shadow/glow/floor, no scene, no letters/text/labels/watermark. Props and facilities are similarly compact clear pixel miniatures. One requested subject only, no sheet or multiple variants. Subject: Church of the Holy Sepulchre in Jerusalem as a small symbolic historical educational miniature, compact pale stone church with one broad low gray-blue rotunda dome and a small entrance arch, one smaller roof and short square bell tower. Quiet respectful building, no people, no text, no giant cross, no surrounding city or terrain, simple isometric three-quarter view. Symbolic illustration, not a precise architectural reconstruction."
+    },
+    {
+      "key": "catherine-ii",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Create one original transparent-background sprite for an existing Japanese world-history learning app. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline, restrained muted shading, respectful adult facial proportions. Match established retro pixel sprites of nineteenth-century historical figures. Entire subject intact centered, generous transparent margins. No external shadow/glow/floor, no scene, no letters/text/labels/watermark. Props and facilities are similarly compact clear pixel miniatures. One requested subject only, no sheet or multiple variants. Subject: Catherine II the Great of Russia as a FEMALE eighteenth-century European empress, mature adult woman with unmistakably feminine rounded face, powdered silver-white curled hair, dark green and gold imperial gown with white lace, pale blue sash and small crown, compact graceful standing pose, no beard or moustache, no ancient Roman outfit, no weapons."
+    },
+    {
+      "key": "peter-i",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Create one original transparent-background sprite for an existing Japanese world-history learning app. Detailed 16-bit JRPG short chibi THREE heads tall: head one third full height, compact torso, very short legs, crisp stepped dark pixel outline, restrained muted shading, respectful adult facial proportions. Match established retro pixel sprites of nineteenth-century historical figures. Entire subject intact centered, generous transparent margins. No external shadow/glow/floor, no scene, no letters/text/labels/watermark. Props and facilities are similarly compact clear pixel miniatures. One requested subject only, no sheet or multiple variants. Subject: Peter I the Great of Russia, early eighteenth-century European monarch, adult male with long shoulder-length curly dark brown hair, distinctive thin dark moustache and clean-shaven chin, no full beard, green military coat with restrained gold details, red sash, knee breeches and dark tall boots, neutral standing, no oversized crown or medieval robes, no scene."
+    }
+  ],
+  "assets": [
+    {
+      "key": "peter-i",
+      "image": "modern-c01-l05/peter-i.png",
+      "name": "ピョートル1世",
+      "kind": "person",
+      "identity": "person:peter-i",
+      "description": "口髭を持つロシア皇帝本人。長い顎髭は付けない。過去の近代化・進出の参照。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l05/peter-i.png",
+      "outputSha256": "d47c823cf4397d330629665c8ec661fe2bc5d1748c7eac8625cc65346c6f4246",
+      "originalFilename": "exec-bf748e03-02e9-4e91-a5ba-2f02cb0f7c13.png",
+      "inputSha256": "d9f61268a63c8466fd539901c98d30ae6d7a11be478237ffcacc9c59e0e530da",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "originalBbox": [
+        235,
+        72,
+        913,
+        1350
+      ],
+      "cleanedBbox": [
+        306,
+        147,
+        847,
+        1305
+      ],
+      "savedBbox": [
+        55,
+        8,
+        137,
+        184
+      ],
+      "transparentPixels": 26759,
+      "removedFaintAlphaPixels": 11587,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11587,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "catherine-ii",
+      "image": "modern-c01-l05/catherine-ii.png",
+      "name": "エカチェリーナ2世",
+      "kind": "person",
+      "identity": "person:catherine-ii",
+      "description": "18世紀の女性皇帝本人。礼装と髪型、男性や他の女性君主の絵で代用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l05/catherine-ii.png",
+      "outputSha256": "a91bafe203a98457f46b745a8503a0f808f7c752e41d87f18217aa5e751f11cb",
+      "originalFilename": "exec-2d30fbe7-9969-4c88-b410-083a1601a0d7.png",
+      "inputSha256": "a4151fa530210ba56490d17a25ed6a94650e50ff4ecece2ebbf424e88a29540c",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "originalBbox": [
+        33,
+        30,
+        1085,
+        1374
+      ],
+      "cleanedBbox": [
+        227,
+        69,
+        944,
+        1309
+      ],
+      "savedBbox": [
+        45,
+        8,
+        147,
+        184
+      ],
+      "transparentPixels": 26307,
+      "removedFaintAlphaPixels": 17288,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 17288,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "alexander-ii",
+      "image": "modern-c01-l05/alexander-ii.png",
+      "name": "アレクサンドル2世",
+      "kind": "person",
+      "identity": "person:alexander-ii",
+      "description": "19世紀のロシア皇帝本人。褐色の口髭と頬髭、軍装。1世・ニコライと別人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l05/alexander-ii.png",
+      "outputSha256": "d8f6ed6435f4519817826e0207bb22e3c75e0ae22906a23d0b9d9445518aba5d",
+      "originalFilename": "exec-84a1c373-e682-4ab1-9a95-4881b5d2bfdd.png",
+      "inputSha256": "b3741c1f5e82d8dda2a457ff91f2a08ff8912548726e61b51e6c48195a0ed0da",
+      "originalDimensions": {
+        "width": 1214,
+        "height": 1295
+      },
+      "originalBbox": [
+        0,
+        49,
+        1004,
+        1295
+      ],
+      "cleanedBbox": [
+        359,
+        184,
+        856,
+        1183
+      ],
+      "savedBbox": [
+        52,
+        8,
+        140,
+        184
+      ],
+      "transparentPixels": 26539,
+      "removedFaintAlphaPixels": 9134,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9134,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "palmerston",
+      "image": "modern-c01-l05/palmerston.png",
+      "name": "パーマストン",
+      "kind": "person",
+      "identity": "person:palmerston",
+      "description": "灰白髪と長い頬髭の英国政治家本人。19世紀の礼服。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l05/palmerston.png",
+      "outputSha256": "11fa043502a41e2c4799be60a3d88b1ff9d92b19f5a36b6c124993e66858885d",
+      "originalFilename": "exec-2c18243d-db66-4022-bdae-fa0666f9d986.png",
+      "inputSha256": "91ae9895ea44feb64f29a22e1a825176cf43144e234760ec2b84acf437302b0b",
+      "originalDimensions": {
+        "width": 1214,
+        "height": 1295
+      },
+      "originalBbox": [
+        0,
+        121,
+        1168,
+        1295
+      ],
+      "cleanedBbox": [
+        333,
+        124,
+        852,
+        1183
+      ],
+      "savedBbox": [
+        53,
+        8,
+        139,
+        184
+      ],
+      "transparentPixels": 25280,
+      "removedFaintAlphaPixels": 9744,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9744,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "ivan-turgenev",
+      "image": "modern-c01-l05/ivan-turgenev.png",
+      "name": "トゥルゲーネフ",
+      "kind": "person",
+      "identity": "person:ivan-turgenev",
+      "description": "長い灰白髪と豊かな髭、背広と本。皇帝への読書の影響として参照する本人。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l05/ivan-turgenev.png",
+      "outputSha256": "0ddbd789b004e211b3d8bf14f4b159f25e3737c389a6aedb82dbd3adcdf55e25",
+      "originalFilename": "exec-860cbc4e-1387-4be5-949e-1ffb9eb7e430.png",
+      "inputSha256": "8f992521ea1d2e5cb660dfc24821bcecca99f5db1915e8a2aab7d1d36269c78e",
+      "originalDimensions": {
+        "width": 1223,
+        "height": 1286
+      },
+      "originalBbox": [
+        0,
+        48,
+        1056,
+        1250
+      ],
+      "cleanedBbox": [
+        347,
+        173,
+        880,
+        1193
+      ],
+      "savedBbox": [
+        50,
+        8,
+        142,
+        184
+      ],
+      "transparentPixels": 24626,
+      "removedFaintAlphaPixels": 8087,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8087,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "sevastopol-fortress",
+      "image": "modern-c01-l05/sevastopol-fortress.png",
+      "name": "セヴァストーポリ要塞",
+      "kind": "building",
+      "identity": "building:sevastopol-fortress",
+      "description": "19世紀の海岸石造要塞の模式絵。流血や細部の精密復元はしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l05/sevastopol-fortress.png",
+      "outputSha256": "a46470888f3f571b325114e6eb47c081b66f2018124213171cca10c9b44a380a",
+      "originalFilename": "exec-2d94e1e1-2c4c-4659-95bd-c508e137d283.png",
+      "inputSha256": "d4f42ea726ff17155dc40b1ecdd48a43695604f64609e213a66a7a448b13a0e1",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        0,
+        32,
+        1508,
+        936
+      ],
+      "cleanedBbox": [
+        177,
+        205,
+        1393,
+        870
+      ],
+      "savedBbox": [
+        8,
+        88,
+        184,
+        184
+      ],
+      "transparentPixels": 25988,
+      "removedFaintAlphaPixels": 14981,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14981,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "holy-sepulchre-church",
+      "image": "modern-c01-l05/holy-sepulchre-church.png",
+      "name": "聖墳墓教会",
+      "kind": "building",
+      "identity": "building:holy-sepulchre-church",
+      "description": "イェルサレムの小さな灰石造の教会。ドームと入口の模式絵。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l05/holy-sepulchre-church.png",
+      "outputSha256": "38aeda470ddcef1a24b1e63b3a35153501c9af97d3db852c94c407bd7cc61a1c",
+      "originalFilename": "exec-aba4ebba-4565-42eb-a652-5dc608a580a8.png",
+      "inputSha256": "30e9e0ed3a5d5c21c98f61b790e836c218bbb253d447411dadc0215345eae75f",
+      "originalDimensions": {
+        "width": 1302,
+        "height": 1208
+      },
+      "originalBbox": [
+        220,
+        20,
+        1278,
+        1208
+      ],
+      "cleanedBbox": [
+        225,
+        205,
+        1127,
+        1101
+      ],
+      "savedBbox": [
+        8,
+        9,
+        184,
+        184
+      ],
+      "transparentPixels": 16358,
+      "removedFaintAlphaPixels": 14947,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14947,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "british-steam-warship",
+      "image": "modern-c01-l05/british-steam-warship.png",
+      "name": "イギリスの蒸気軍艦",
+      "kind": "prop",
+      "identity": "prop:british-steam-warship",
+      "description": "煙突と蒸気機関を持つ軍艦。本文の比較と黒海出口の待機の説明。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l05/british-steam-warship.png",
+      "outputSha256": "1e393b5b348a43d265501cb93b01cfad3066a5374ff29657abc4188dfbccfd76",
+      "originalFilename": "exec-fb363c76-bd5c-4003-a684-620e485d9659.png",
+      "inputSha256": "819d1ee61f2cd68092dcc79be25589d3070afade7b24ade8a0111c007fc51162",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        0,
+        21,
+        1488,
+        992
+      ],
+      "cleanedBbox": [
+        124,
+        255,
+        1423,
+        841
+      ],
+      "savedBbox": [
+        8,
+        105,
+        184,
+        184
+      ],
+      "transparentPixels": 30972,
+      "removedFaintAlphaPixels": 48254,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 48254,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "russian-sailing-warship",
+      "image": "modern-c01-l05/russian-sailing-warship.png",
+      "name": "ロシアの帆船軍艦",
+      "kind": "prop",
+      "identity": "prop:russian-sailing-warship",
+      "description": "木造船体と帆を持つ軍艦。沈没・流血を描かず本文の比較として示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l05/russian-sailing-warship.png",
+      "outputSha256": "1e7126afcf15404e8c2c8cc04a63072912e657baeb5b6189246a855bf93ea7b7",
+      "originalFilename": "exec-550ee7b3-a818-4acf-8ca2-2514145908eb.png",
+      "inputSha256": "d4715938ce1fa8fc18973fa351b4136f44a079c075313b191da7802b63540a91",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        33,
+        9,
+        1484,
+        1024
+      ],
+      "cleanedBbox": [
+        105,
+        51,
+        1482,
+        966
+      ],
+      "savedBbox": [
+        8,
+        67,
+        184,
+        184
+      ],
+      "transparentPixels": 27070,
+      "removedFaintAlphaPixels": 81964,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 81964,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "alexander-i",
+      "image": "modern-c01-l01/alexander-i.png",
+      "name": "アレクサンドル1世",
+      "kind": "person",
+      "identity": "person:alexander-i",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/alexander-i.png",
+      "outputSha256": "562099ca61da20ab1be041b24fffff380bac628e430a72f94fa52553db096ba9",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "nicholas-i",
+      "image": "modern-c01-l01/nicholas-i.png",
+      "name": "ニコライ1世",
+      "kind": "person",
+      "identity": "person:nicholas-i",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/nicholas-i.png",
+      "outputSha256": "c74cac99e1e71770441abdbc3c1e7f3b6c412f3df9c051629ff771c678d49339",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "metternich",
+      "image": "modern-c01-l01/metternich.png",
+      "name": "メッテルニヒ",
+      "kind": "person",
+      "identity": "person:metternich",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/metternich.png",
+      "outputSha256": "5104d9ea79441670506d717feb2bb13335952bacf9aa18ad3aff1496400ebbe9",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "napoleon-i",
+      "image": "modern-c01-l01/napoleon-i.png",
+      "name": "ナポレオン1世",
+      "kind": "person",
+      "identity": "person:napoleon-i",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/napoleon-i.png",
+      "outputSha256": "45b5efce60ae83da533e94f320b611a0ed0b46e1363979fe52196a7eba53ecd4",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "napoleon-iii",
+      "image": "modern-c01-l01/napoleon-iii.png",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "identity": "person:napoleon-iii",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/napoleon-iii.png",
+      "outputSha256": "6f8840c8d0a84ff3aba681b9fee64f7e290cf1cb5db886ba7228753ec05931a7",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "muhammad-ali",
+      "image": "modern-c01-l01/muhammad-ali.png",
+      "name": "ムハンマド＝アリー",
+      "kind": "person",
+      "identity": "person:muhammad-ali",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/muhammad-ali.png",
+      "outputSha256": "0c74743c08b3e6b1c4589d6c4598889d14a3b2b3955ab81614a648a0518ff5bd",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "bismarck",
+      "image": "modern-c01-l02/bismarck.png",
+      "name": "ビスマルク",
+      "kind": "person",
+      "identity": "person:bismarck",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/bismarck.png",
+      "outputSha256": "f722239f2689fcab52eabebd847c7c46d6eb81202f77bcd583178d87270f6515",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "disraeli",
+      "image": "modern-c01-l02/disraeli.png",
+      "name": "ディズレーリ",
+      "kind": "person",
+      "identity": "person:disraeli",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/disraeli.png",
+      "outputSha256": "efc8e3da3fbf0ad45b8db807ecd6e1ec6c6901fa40677f743c5df9f4c26adc3e",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "florence-nightingale",
+      "image": "modern-c01-l04/florence-nightingale.png",
+      "name": "ナイティンゲール",
+      "kind": "person",
+      "identity": "person:florence-nightingale",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l04/florence-nightingale.png",
+      "outputSha256": "6c35aaf95cd82c7c29b38ff301653ac76fd87ab0bcf5aca982f437bbb1dbb70c",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "henri-dunant",
+      "image": "modern-c01-l04/henri-dunant.png",
+      "name": "アンリ＝デュナン",
+      "kind": "person",
+      "identity": "person:henri-dunant",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l04/henri-dunant.png",
+      "outputSha256": "66cc5d6be24bf3788adf6ff03626cf3fd86b84650a98d6ca0c38692a64f2c2cb",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "revolutionary-citizens",
+      "image": "modern-c01-l01/revolutionary-citizens.png",
+      "name": "市民",
+      "kind": "group",
+      "identity": "group:revolutionary-citizens",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/revolutionary-citizens.png",
+      "outputSha256": "196895b1b1bd32f807b9970b55a2ffd73a472fe1a37530bee4c0869f4849df94",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "farmers",
+      "image": "modern-c01-l01/farmers.png",
+      "name": "農民",
+      "kind": "group",
+      "identity": "group:farmers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/farmers.png",
+      "outputSha256": "8c43a485eeedf435fb172510f9e67d6ae29a39176b26a9f4b7304e7c28761ba4",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "liberal-students",
+      "image": "modern-c01-l01/liberal-students.png",
+      "name": "都市の知識人",
+      "kind": "group",
+      "identity": "group:liberal-students",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/liberal-students.png",
+      "outputSha256": "110b19b545d3106aeea81d8b25c55b5074f5c0c22ed8feaf7b6e5054a519ce61",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "workers",
+      "image": "modern-c01-l01/workers.png",
+      "name": "労働者",
+      "kind": "group",
+      "identity": "group:workers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/workers.png",
+      "outputSha256": "01e88046047d4eeb0ce1fc4963e27afbf1a2f74152b7344325faa9bcbd228042",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "industrialists",
+      "image": "modern-c01-l01/industrialists.png",
+      "name": "資本家",
+      "kind": "group",
+      "identity": "group:industrialists",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/industrialists.png",
+      "outputSha256": "1d0e3da5f8159eae32b7d6f80df8750b954465fb0578a3618bf0d619112e1fe5",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "young-russian-officers",
+      "image": "modern-c01-l01/young-russian-officers.png",
+      "name": "デカブリストの参加者",
+      "kind": "group",
+      "identity": "group:young-russian-officers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/young-russian-officers.png",
+      "outputSha256": "c27cd15d59228fa0efaea89a1e87ac798ba6b777312f4f7324e729b4661d4718",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "russian-soldiers",
+      "image": "modern-c01-l01/russian-soldiers.png",
+      "name": "ロシア軍",
+      "kind": "group",
+      "identity": "group:russian-soldiers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/russian-soldiers.png",
+      "outputSha256": "cb93aed36902d8e3673a11896d7a3d644753a8bac85c003a259d800fbf67a3f0",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "egyptian-soldiers",
+      "image": "modern-c01-l01/egyptian-soldiers.png",
+      "name": "エジプトの軍",
+      "kind": "group",
+      "identity": "group:egyptian-soldiers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/egyptian-soldiers.png",
+      "outputSha256": "b026a1d7921a2a9545f5389dd056240bf5deaa72160be738afcaf0a851aeddca",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "greek-rebels",
+      "image": "modern-c01-l01/greek-rebels.png",
+      "name": "ギリシアの独立運動",
+      "kind": "group",
+      "identity": "group:greek-rebels",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/greek-rebels.png",
+      "outputSha256": "1f9d04abae22d7d4a3782f6b4a7df32e429849ca169e8e2c0ead314c9fa7308d",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "french-soldiers",
+      "image": "modern-c01-l01/french-soldiers.png",
+      "name": "フランス軍",
+      "kind": "group",
+      "identity": "group:french-soldiers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/french-soldiers.png",
+      "outputSha256": "d7211acf4b64e8b166aba906172a2121907edb35fb9b955f5043a1516e22df1b",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "sardinian-soldiers",
+      "image": "modern-c01-l01/sardinian-soldiers.png",
+      "name": "サルデーニャ軍",
+      "kind": "group",
+      "identity": "group:sardinian-soldiers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/sardinian-soldiers.png",
+      "outputSha256": "e2c8ed675598c83c5e12e1fee48cd709bc54439f84c3cdff70bf8c8cf6b9edba",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "ottoman-soldiers",
+      "image": "modern-c01-l01/ottoman-soldiers.png",
+      "name": "オスマン帝国軍",
+      "kind": "group",
+      "identity": "group:ottoman-soldiers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/ottoman-soldiers.png",
+      "outputSha256": "dec2b50c3b2adb2fc44839e830d728915a3f06f0aa971e700febe45a6a296080",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "diplomatic-delegates",
+      "image": "modern-c01-l01/diplomatic-delegates.png",
+      "name": "外交の代表",
+      "kind": "group",
+      "identity": "group:diplomatic-delegates",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/diplomatic-delegates.png",
+      "outputSha256": "31aaaeea40e25a863c1102820cee917ad4bd725a92b60b75629eaace857c03a1",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "british-soldiers",
+      "image": "modern-c01-l02/british-soldiers.png",
+      "name": "イギリス軍",
+      "kind": "group",
+      "identity": "group:british-soldiers",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/british-soldiers.png",
+      "outputSha256": "b7e389faeb2a340204f0ab987e8a9fa9fa5ce8ad367305f66484f37630c70978",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "landowners",
+      "image": "modern-c01-l02/landowners.png",
+      "name": "地主",
+      "kind": "group",
+      "identity": "group:landowners",
+      "description": "国旗や固有本人を付けない19世紀の一般地主として再利用。プロイセン固有のユンカーの絵をロシア領主へ流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/landowners.png",
+      "outputSha256": "a2774483f1181f1531fe71a6a52f182c1e3a90feb921ea5954f0ae799470be2b",
+      "reuseReason": "国旗や固有本人を付けない19世紀の一般地主として再利用。プロイセン固有のユンカーの絵をロシア領主へ流用しない。"
+    },
+    {
+      "key": "catholic-clergy",
+      "image": "modern-c01-l04/catholic-clergy.png",
+      "name": "カトリックの聖職者",
+      "kind": "group",
+      "identity": "group:catholic-clergy",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l04/catholic-clergy.png",
+      "outputSha256": "7dafbbc1c10a1b3f4fe40205285faa8ec9b86cd6ee84fde8e16658f7a5b65b4f",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "steam-factory",
+      "image": "modern-c01-l01/steam-factory.png",
+      "name": "工業",
+      "kind": "prop",
+      "identity": "prop:steam-factory",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/steam-factory.png",
+      "outputSha256": "dbfe2d21c918c76323834cfc56212955058a50a711a66cd3995f584939bd69b0",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "railway",
+      "image": "modern-c01-l01/railway.png",
+      "name": "鉄道",
+      "kind": "prop",
+      "identity": "prop:railway",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/railway.png",
+      "outputSha256": "62ce4c4bdcda39325e1014bbd4723e81c2f76a4eb4a5af5e2d89af9e9277c01c",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "merchant-cargo",
+      "image": "modern-c01-l01/merchant-cargo.png",
+      "name": "貿易",
+      "kind": "prop",
+      "identity": "prop:merchant-cargo",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/merchant-cargo.png",
+      "outputSha256": "5b34f33edbecda0ad85cb122e4451b4e7641af0cf34ab15279f64bba7ac3e3be",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "constitution-document",
+      "image": "modern-c01-l01/constitution-document.png",
+      "name": "法律・制度",
+      "kind": "prop",
+      "identity": "prop:constitution-document",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/constitution-document.png",
+      "outputSha256": "8a715a4bfee02a55f27382fa8eb2fc1ad812c14e68926b6f35defc23f0364757",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "treaty-document",
+      "image": "modern-c01-l01/treaty-document.png",
+      "name": "条約",
+      "kind": "prop",
+      "identity": "prop:treaty-document",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/treaty-document.png",
+      "outputSha256": "0e94dae0a55aa978ec2a8aa80594bafcc2ac3d7982b852608c5e6128a2f88da7",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "tax-ledger",
+      "image": "modern-c01-l01/tax-ledger.png",
+      "name": "負担と支払い",
+      "kind": "prop",
+      "identity": "prop:tax-ledger",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/tax-ledger.png",
+      "outputSha256": "677649776ccc53774db1a01056f6dd99ce1ff193e6cc5e490bb0c87c0146d936",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "crown",
+      "image": "modern-c01-l01/crown.png",
+      "name": "皇帝権",
+      "kind": "prop",
+      "identity": "prop:crown",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/crown.png",
+      "outputSha256": "1ecac12d4b34a67bd715dfb09e0bf909aa9642ee8a20ea749607eebd50b37e94",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "calendar",
+      "image": "modern-c01-l01/calendar.png",
+      "name": "年号",
+      "kind": "prop",
+      "identity": "prop:calendar",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/calendar.png",
+      "outputSha256": "ce0c76abaa9de57d5a96c781a77b922e172b519269ef85529e22140782f178e5",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "grain-cargo",
+      "image": "modern-c01-l02/grain-cargo.png",
+      "name": "穀物",
+      "kind": "prop",
+      "identity": "prop:grain-cargo",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/grain-cargo.png",
+      "outputSha256": "6e2629250b12b0f76d27e223710abc430cde8020ef354ddd68ffcef14603231b",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    },
+    {
+      "key": "field-aid-station",
+      "image": "modern-c01-l04/field-aid-station.png",
+      "name": "救護",
+      "kind": "prop",
+      "identity": "prop:field-aid-station",
+      "description": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l04/field-aid-station.png",
+      "outputSha256": "2e499f76190ac09cf9126a9ac9e2dfd19874679445f151aa6c3d103d644b4b1e",
+      "reuseReason": "既存の同じ本人・一般役割・道具を再利用する。別人の顔の代用にしない。"
+    }
+  ]
+}

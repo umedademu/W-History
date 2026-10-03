@@ -1,7 +1,7 @@
 {
-  "version": "0.114",
-  "parts": 146,
-  "pages": 1267,
+  "version": "0.115",
+  "parts": 150,
+  "pages": 1337,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 18,
-      "pages": 254,
+      "parts": 22,
+      "pages": 324,
       "chapters": [
         {
           "chapter": 1,
@@ -2438,6 +2438,10 @@
             {
               "lesson": 4,
               "title": "イタリア・ドイツの統一"
+            },
+            {
+              "lesson": 5,
+              "title": "ロシアと東方問題"
             }
           ],
           "volumes": [
@@ -2584,6 +2588,38 @@
               "lesson": 4,
               "part": 6,
               "pages": 17
+            },
+            {
+              "id": "modern-c01-l05-p01",
+              "label": "ロシアのツァーリズム",
+              "number": "19",
+              "lesson": 5,
+              "part": 1,
+              "pages": 10
+            },
+            {
+              "id": "modern-c01-l05-p02",
+              "label": "東方問題の発生",
+              "number": "20",
+              "lesson": 5,
+              "part": 2,
+              "pages": 24
+            },
+            {
+              "id": "modern-c01-l05-p03",
+              "label": "クリミア戦争とロシアの改革",
+              "number": "21",
+              "lesson": 5,
+              "part": 3,
+              "pages": 24
+            },
+            {
+              "id": "modern-c01-l05-p04",
+              "label": "露土戦争",
+              "number": "22",
+              "lesson": 5,
+              "part": 4,
+              "pages": 12
             }
           ]
         }
