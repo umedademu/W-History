@@ -11,7 +11,7 @@ const workspace=process.argv.find(value=>value.startsWith('--workspace='))?.slic
 const root=path.resolve(workspace??fileURLToPath(new URL('../',import.meta.url)));
 const {chromium}=createRequire(path.join(root,'package.json'))('playwright');
 const load=name=>import(pathToFileURL(path.join(root,'public',name)).href);
-const [{modernEdition,sourcePages},{modernVisualEdition,modernIllustrationFor},{modernSeries},{series},{allEditions},{namesForScene,normalizeMapName},{modernReferencePages}]=await Promise.all([
+const [{modernEdition,sourcePages},{modernVisualEdition,modernIllustrationFor,modernVisualScenePlans},{modernSeries},{series},{allEditions},{namesForScene,normalizeMapName},{modernReferencePages}]=await Promise.all([
   load('modern-c01-l01-edition.js'),load('modern-story-visuals.js'),load('modern-volumes.js'),load('story-volumes.js'),load('all-editions.js'),load('map-name-coverage.js'),load('modern-story-support.js')
 ]);
 const port=process.env.W_HISTORY_MODERN_CHECK_PORT??'18811',base='http://127.0.0.1:'+port;
@@ -45,8 +45,10 @@ function readScene(html) {
   const map=document.querySelector('#story-map'),rect=map.getBoundingClientRect();
   const box=node=>{const b=node.getBoundingClientRect();return {left:b.left,right:b.right,top:b.top,bottom:b.bottom,width:b.width,height:b.height};};
   const visible=node=>node.getClientRects().length&&getComputedStyle(node).visibility!=='hidden'&&getComputedStyle(node).display!=='none';
-  const labels=[...map.querySelectorAll('text'),...document.querySelectorAll('#map-characters .history-name')].filter(visible).map(node=>({text:node.textContent,type:'name',owner:node.closest('.history-map-item')?.dataset.name??null,b:box(node)}));
-  const bubbles=[...document.querySelectorAll('#map-characters .history-bubble')].filter(node=>visible(node)&&node.textContent).map(node=>({text:node.textContent,type:'bubble',owner:node.closest('.history-map-item').dataset.name,b:box(node)}));
+  const mapNodes=[...document.querySelectorAll('#map-characters .history-map-item')];
+  const owner=node=>{const item=node.closest('.history-map-item');return item?String(mapNodes.indexOf(item)):null;};
+  const labels=[...map.querySelectorAll('text'),...document.querySelectorAll('#map-characters .history-name')].filter(visible).map(node=>({text:node.textContent,type:'name',owner:owner(node),b:box(node)}));
+  const bubbles=[...document.querySelectorAll('#map-characters .history-bubble')].filter(node=>visible(node)&&node.textContent).map(node=>({text:node.textContent,type:'bubble',owner:owner(node),name:node.closest('.history-map-item').dataset.name,b:box(node)}));
   const art=image=>{
     const canvas=document.createElement('canvas');canvas.width=image.naturalWidth;canvas.height=image.naturalHeight;
     const context=canvas.getContext('2d',{willReadFrequently:true});context.drawImage(image,0,0);
@@ -58,29 +60,32 @@ function readScene(html) {
     const x=b.left+(b.width-canvas.width*sx)/2,y=b.top+(b.height-canvas.height*sy)/2;
     return {left:x+left*sx,right:x+(right+1)*sx,top:y+top*sy,bottom:y+(bottom+1)*sy,width:(right-left+1)*sx,height:(bottom-top+1)*sy};
   };
-  const mapImages=[...document.querySelectorAll('#map-characters .history-figure img')].filter(visible).map(image=>({name:image.alt,src:new URL(image.currentSrc||image.src).pathname,width:image.naturalWidth,height:image.naturalHeight,fitted:image.dataset.spriteFitted==='true',b:art(image),figure:box(image.closest('.history-figure'))}));
-  const drawings=mapImages.map(image=>({text:image.name,type:'art',owner:image.name,b:image.b}));
+  const mapImages=[...document.querySelectorAll('#map-characters .history-figure img')].filter(visible).map(image=>({name:image.alt,owner:owner(image),bubble:image.closest('.history-figure').querySelector('.history-bubble').textContent,src:new URL(image.currentSrc||image.src).pathname,width:image.naturalWidth,height:image.naturalHeight,fitted:image.dataset.spriteFitted==='true',b:art(image),figure:box(image.closest('.history-figure'))}));
+  const drawings=mapImages.map(image=>({text:image.name,type:'art',owner:image.owner,b:image.b}));
   const all=[...labels,...bubbles,...drawings],overflow=[];
   for(const item of [...all,...mapImages.map(image=>({text:image.name+'（表示枠）',b:image.figure}))])if(item.b.left<rect.left-1||item.b.right>rect.right+1||item.b.top<rect.top-1||item.b.bottom>rect.bottom+1)overflow.push(item.text);
   const overlaps=[];
   for(let a=0;a<all.length;a++)for(let b=a+1;b<all.length;b++) {
     const first=all[a],second=all[b],x=first.b,y=second.b;
-    if(first.owner&&first.owner===second.owner)continue;
     if(x.left<y.right-1&&x.right>y.left+1&&x.top<y.bottom-1&&x.bottom>y.top+1)overlaps.push([first.type+': '+first.text,second.type+': '+second.text]);
   }
   const panel=document.querySelector('#modern-illustration'),illustrationHidden=panel.hidden;
   const figures=illustrationHidden?[]:[...panel.querySelectorAll('figure.illustration-figure')].map(figure=>{
     const image=figure.querySelector('img'),name=figure.querySelector('.illustration-name'),caption=figure.querySelector('.illustration-caption');
-    return {name:name?.textContent,caption:caption?.textContent??'',src:image?new URL(image.currentSrc||image.src).pathname:null,width:image?.naturalWidth??0,height:image?.naturalHeight??0,b:box(figure),nameBox:name?box(name):null,art:image?art(image):null};
+    return {name:name?.textContent,caption:caption?.textContent??'',src:image?new URL(image.currentSrc||image.src).pathname:null,width:image?.naturalWidth??0,height:image?.naturalHeight??0,b:box(figure),nameBox:name?box(name):null,captionBox:caption?box(caption):null,art:image?art(image):null};
   });
-  const illustrationOverflow=figures.filter(figure=>figure.b.left<0||figure.b.right>innerWidth+1||figure.nameBox?.left<0||figure.nameBox?.right>innerWidth+1).map(figure=>figure.name);
+  const parts=figures.flatMap(figure=>[{text:'絵: '+figure.name,b:figure.art},{text:'姓名: '+figure.name,b:figure.nameBox},{text:'説明: '+figure.name,b:figure.captionBox}]).filter(part=>part.b?.width>0&&part.b?.height>0);
+  if(!illustrationHidden)parts.push(...[...panel.querySelectorAll('h3,h4,.illustration-note')].filter(visible).map(node=>({text:'見出し: '+node.textContent,b:box(node)})));
+  const panelBox=box(panel);
+  const illustrationOverflow=[...figures.map(figure=>({text:figure.name,b:figure.b})),...parts].filter(part=>part.b.left<Math.max(0,panelBox.left)-1||part.b.right>Math.min(innerWidth,panelBox.right)+1||part.b.top<panelBox.top-1||part.b.bottom>panelBox.bottom+1).map(part=>part.text);
   const illustrationOverlaps=[];
-  for(let a=0;a<figures.length;a++)for(let b=a+1;b<figures.length;b++) {
-    const x=figures[a].nameBox,y=figures[b].nameBox;
-    if(x&&y&&x.left<y.right-1&&x.right>y.left+1&&x.top<y.bottom-1&&x.bottom>y.top+1)illustrationOverlaps.push([figures[a].name,figures[b].name]);
+  for(let a=0;a<parts.length;a++)for(let b=a+1;b<parts.length;b++) {
+    const x=parts[a].b,y=parts[b].b;
+    if(x.left<y.right-1&&x.right>y.left+1&&x.top<y.bottom-1&&x.bottom>y.top+1)illustrationOverlaps.push([parts[a].text,parts[b].text]);
   }
   const selectors=['strong','ruby','[data-source-color="red"]','u','[data-source-background]'],image=map.querySelector('image');
-  return {paragraphs:[...body.querySelectorAll(':scope > p')].map(node=>node.textContent),shown:labels.map(item=>item.text),bubbles:bubbles.map(item=>({name:item.owner,text:item.text})),mapImages,overflow,overlaps,figures,illustrationHidden,illustrationOverflow,illustrationOverlaps,
+  return {paragraphs:[...body.querySelectorAll(':scope > p')].map(node=>node.textContent),shown:labels.map(item=>item.text),bubbles:bubbles.map(item=>({name:item.name,text:item.text})),mapImages,overflow,overlaps,figures,illustrationHidden,illustrationOverflow,illustrationOverlaps,
+    bodyBottom:document.querySelector('#scene-body').getBoundingClientRect().bottom,illustrationTop:panelBox.top,
     decoration:selectors.map(selector=>[document.querySelector('#scene-body').querySelectorAll(selector).length,template.querySelectorAll(selector).length]),
     viewportOverflow:document.documentElement.scrollWidth>innerWidth,
     longitude:rect.width/Number(image.getAttribute('width'))*360,latitude:rect.height/Number(image.getAttribute('height'))*180,
@@ -106,6 +111,7 @@ async function checkMotion(browser,output,errors) {
   const state=()=>page.evaluate(()=>({progress:Number(document.querySelector('#story-map').dataset.progress),phase:document.querySelector('#story-map').dataset.phase,items:[...document.querySelectorAll('.history-map-item')].map(node=>({name:node.dataset.name,key:node.dataset.image,src:new URL(node.querySelector('img').src).pathname,transform:node.style.transform,walking:node.classList.contains('is-walking'),loaded:node.querySelector('img').complete&&node.querySelector('img').naturalWidth>0,bubble:node.querySelector('.history-bubble').textContent}))}));
   for(const [index,candidate] of [...new Map([mover,...switches].map(value=>[value.scene.id,value])).values()].entries()) {
     const {scene}=candidate,items=[...(scene.props??[]),...(scene.actors??[])];
+    console.log('通常の動きと姿の切替: '+scene.id);
     await openAndReplay(candidate);const start=await state();
     assert.equal(start.phase,'moving',scene.id+': 再生直後は移動中');
     for(const item of items) {
@@ -213,29 +219,39 @@ try {
           assert.deepEqual(actual.paragraphs,original.plainBody,`${expected.id}: 本文をそのまま表示`);
           for(const [shown,wanted] of actual.decoration)assert.equal(shown,wanted,`${expected.id}: 原資料の装飾`);
           assert.ok(actual.longitude>=32-1e-6&&actual.latitude>=24-1e-6,'共通の地理図拡大上限');
-          const names=namesForScene(expected,expected.title+'。'+expected.plainBody.join('')).filter(n=>n.kind!=='concept');
+          const plan=modernVisualScenePlans[expected.id],notes=[...(plan.textOnlyPeople??[]),...(plan.excludedPersonNames??[])];
+          const names=namesForScene(expected,expected.title+'。'+expected.plainBody.join('')).filter(name=>name.kind!=='concept'&&!notes.some(note=>normalizeMapName(note.name)===name.key));
           const shown=[...actual.shown,...actual.figures.map(figure=>figure.name)].map(normalizeMapName);
-          const missing=names.filter(n=>!shown.some(s=>s.includes(n.key))).map(n=>n.name);
-          const families=new Set(names.map(name=>name.family??name.name));
-          const extra=[...actual.shown,...actual.figures.map(figure=>figure.name)].filter(name=>namesForScene(expected,name).some(entity=>!families.has(entity.family??entity.name)));
           const items=[...(expected.props??[]),...(expected.actors??[])],illustration=modernIllustrationFor(expected),figures=(illustration?.groups??[]).flatMap(group=>group.figures??[]);
+          const missing=names.filter(name=>!shown.some(text=>text.includes(name.key))&&!(plan.personAliases??[]).some(alias=>normalizeMapName(alias.name)===name.key&&[...items,...figures].some(item=>item.identity===alias.identity))).map(name=>name.name);
+          const families=new Set(names.map(name=>name.family??name.name));
+          const preceding=modernEdition[volume.id][i-1],precedingNames=preceding?namesForScene(preceding,preceding.title+'。'+preceding.plainBody.join('')).filter(name=>name.kind!=='person'):[];
+          const locationFamilies=new Set([...names,...precedingNames].map(name=>name.family??name.name));
+          const narrativeKey=normalizeMapName(expected.title+'。'+expected.plainBody.join(''));
+          const extra=[...actual.shown,...actual.figures.map(figure=>figure.name)].filter(name=>namesForScene(expected,name).some(entity=>!(entity.kind==='person'?families:locationFamilies).has(entity.family??entity.name)&&(entity.kind==='person'||!narrativeKey.includes(normalizeMapName(entity.name)))));
           assert.equal(actual.mapImages.length,items.length,expected.id+': すべての地図上の絵を表示');
           assert.equal(actual.figures.length,figures.length,expected.id+': すべての模式欄の絵を表示');
           assert.equal(actual.illustrationHidden,!illustration,expected.id+': 模式欄の有無');
-          for(const item of items) {
-            const image=actual.mapImages.find(image=>image.name===item.name);
-            assert.ok(image,expected.id+': 人物・物の絵 '+item.name);assert.ok(image.width>0&&image.height>0&&image.fitted,expected.id+': 透過範囲に合わせて画像を表示');
+          if(width===390&&illustration)assert.ok(actual.illustrationTop>=actual.bodyBottom-1,expected.id+': 携帯幅では本文の後に模式欄を置く');
+          const duplicateNames=[];
+          for(const [index,item] of items.entries()) {
+            const image=actual.mapImages[index];
+            assert.equal(image.name,item.name,expected.id+': 人物・物の絵 '+item.name);assert.ok(image.width>0&&image.height>0&&image.fitted,expected.id+': 透過範囲に合わせて画像を表示');
             assert.equal(image.src,artworkFile(item.afterImage??item.image),expected.id+': 動きを省略したときも終点の絵');
             assert.ok(image.b.width>=12&&image.b.height>=12,expected.id+': 絵が小さく潰れない');
-            assert.equal(actual.shown.map(normalizeMapName).filter(name=>name===normalizeMapName(item.name)).length,1,expected.id+': 地図上の名前を重複させない');
-            assert.equal(actual.bubbles.find(bubble=>bubble.name===item.name)?.text??'',item.bubble??'',expected.id+': 原データの吹き出し');
+            if(actual.shown.map(normalizeMapName).filter(name=>name===normalizeMapName(item.name)).length!==1)duplicateNames.push(item.name);
+            assert.equal(image.bubble,item.bubble??'',expected.id+': 原データの吹き出し');
           }
           for(const [index,figure] of figures.entries()) {
             const image=actual.figures[index];assert.equal(image.name,figure.name,expected.id+': 模式欄の姓名');assert.equal(image.caption,figure.caption??'',expected.id+': 模式欄の説明');
             assert.ok(image.width>0&&image.height>0&&image.art?.width>=12&&image.art?.height>=12,expected.id+': 模式欄の絵を読み込む');assert.equal(image.src,artworkFile(figure.image),expected.id+': 模式欄の画像');
-            assert.ok(!actual.shown.map(normalizeMapName).includes(normalizeMapName(figure.name)),expected.id+': 模式欄と地図の名前を重複させない '+figure.name);
+            if(figure.kind==='person'&&items.some(item=>item.identity===figure.identity)) {
+              const compared=items.find(item=>item.identity===figure.identity&&item.afterImage);
+              assert.ok(compared&&['before','after'].includes(figure.temporalRole),expected.id+': 模式欄と地図で本人の単なる再掲をしない '+figure.name);
+              assert.equal(figure.image,figure.temporalRole==='before'?compared.image:compared.afterImage,expected.id+': 本人の前後比較の画像');
+            }
           }
-          if(missing.length||extra.length||actual.overflow.length||actual.overlaps.length||actual.viewportOverflow||actual.illustrationOverflow.length||actual.illustrationOverlaps.length)issues.push({width,theme,id:expected.id,missing,extra,overflow:actual.overflow,overlaps:actual.overlaps,viewportOverflow:actual.viewportOverflow,illustrationOverflow:actual.illustrationOverflow,illustrationOverlaps:actual.illustrationOverlaps});
+          if(missing.length||extra.length||actual.overflow.length||actual.overlaps.length||actual.viewportOverflow||actual.illustrationOverflow.length||actual.illustrationOverlaps.length||duplicateNames.length)issues.push({width,theme,id:expected.id,missing,extra,overflow:actual.overflow,overlaps:actual.overlaps,viewportOverflow:actual.viewportOverflow,illustrationOverflow:actual.illustrationOverflow,illustrationOverlaps:actual.illustrationOverlaps,duplicateNames});
           const pages=modernReferencePages(expected,volume,i);
           for(const sourcePage of pages)seenPages.add(sourcePage);
           const expectedReference=await page.evaluate(html=>{const e=document.createElement('div');e.innerHTML=html;return e.innerHTML;},pages.map(n=>sourcePages[n]).join(''));
@@ -278,7 +294,12 @@ try {
   }
   assert.deepEqual([...seenPages].sort((a,b)=>a-b),Array.from({length:26},(_,i)=>i+15),'原書26ページすべてへ到達できる');
   assert.equal(seenDiagrams.size,3,'三つの対立図を表示する');
-  const motion=await checkMotion(browser,output,errors);
+  let motion;
+  try {motion=await checkMotion(browser,output,errors);}
+  catch(error) {
+    await writeFile(path.join(output,'result.json'),JSON.stringify({inspected,errors,issues,pages:[...seenPages],diagrams:[...seenDiagrams],motionFailure:error.message},null,2));
+    throw error;
+  }
   await writeFile(path.join(output,'result.json'),JSON.stringify({inspected,errors,issues,pages:[...seenPages],diagrams:[...seenDiagrams],motion},null,2));
   assert.deepEqual(errors,[]);
   assert.deepEqual(issues,[],'地図の名前・文字の重なり・はみ出し');
