@@ -276,6 +276,12 @@ for(const scene of withLine(369))assert.ok(!itemsFor(scene).some(item=>item.rout
 for(const scene of withLine(405)) {
  assert.ok(!/イギリス(?:軍|艦隊)?が参戦(?:した|する)|イスタンブルを占領|イスタンブルに入城/.test(annotation(scene)),scene.id+': 英国非参戦・海峡出口待機とロシア軍の接近を区別');
  for(const item of [...(scene.actors??[]),...(scene.props??[])].filter(item=>item.route!==undefined))assert.ok(!/イギリス/.test(item.name),scene.id+': 英国艦隊の待機を出兵の動線にしない');
+ for(const item of [...(scene.actors??[]),...(scene.props??[])].filter(item=>imageName(item.image).endsWith('/british-steam-warship.png'))) {
+  const at=geographicPoint(item.at,scene.id+': 英国の待機軍艦');
+  assert.ok(at[0]>=27.7&&at[0]<=29.3&&at[1]>=40.3&&at[1]<=41,scene.id+': 待機軍艦は海峡の外側の概略位置に置き、黒海へ侵入させない');
+  assert.equal(item.route,undefined,scene.id+': 英国軍艦の待機は静的に示す');
+  assert.ok(/待機/.test([item.caption,item.bubble,item.description].join('。')),scene.id+': 英国軍艦は待機の説明を見える形で識別する');
+ }
 }
 for(const scene of [...withLine(409),...withLine(413),...withLine(419)])assert.ok(!/ブルガリア(?:が|は|の)?完全独立|ブルガリアを独立国|ボスニア.*オーストリア.*併合|オーストリア.*ボスニア.*併合|キプロス.*イギリス.*併合|イギリス.*キプロス.*併合/.test(annotation(scene)),scene.id+': ブルガリア自治・墺統治権・英行政権を独立や併合へ変えない');
 for(const scene of rendered)for(const item of itemsFor(scene))if(family(entityFor(item.name)??{})==='アンリ＝デュナン')assert.ok(figuresFor(scene).includes(item)&&item.route===undefined&&item.temporalRole==='reference',scene.id+': ナイティンゲールの影響を受けた後のデュナンをクリミアへ移動させない');

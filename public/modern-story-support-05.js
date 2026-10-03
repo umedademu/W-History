@@ -129,7 +129,14 @@ const lineDiagrams={
  347:'emancipation',349:'labor',351:'reformLimits',357:'narodniki',363:'narodniki',365:'narodniki',367:'narodniki',369:'narodniki',
  379:'balkanRevolt',395:'balkanRevolt',405:'warDifference',409:'twoTreaties',411:'twoTreaties',413:'berlinEffects',419:'berlinEffects',434:'easternStages'
 };
+// 分割後の主題が段落全体と異なる場面は、実際に読む中心に合う比較を優先する。
+const sceneDiagrams={
+ 'modern-c01-l05-p02-016':'firstDispute',
+ 'modern-c01-l05-p02-022':'secondDispute',
+ 'modern-c01-l05-p04-009':'twoTreaties'
+};
 export function modernDiagramFor(scene){
+ if(sceneDiagrams[scene.id])return modernDiagrams[sceneDiagrams[scene.id]];
  const lines=scene.sourceText?.passages?.flatMap(passage=>passage.lines)??[];
  return modernDiagrams[lines.map(line=>lineDiagrams[line]).find(Boolean)];
 }
