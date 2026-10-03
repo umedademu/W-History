@@ -103,7 +103,7 @@ for(const paragraph of selection.paragraphs) {
 assert.deepEqual(modernNameCatalog,namesRecord.names,'独立した原文固有名詞の記録との一致');
 const allRaw = selection.lines.map(line=>line.text).concat(selection.paragraphs.map(paragraph=>paragraph.markdown)).join('');
 for(const entry of modernNameCatalog) {
-  assert(normalize(plainSource(allRaw)).includes(entry.key),`原文にない地図名称: ${entry.name}`);
+  assert(normalize(plainSource(allRaw)).includes(entry.key)||entry.family&&modernNameCatalog.some(original=>original.family===entry.family&&original.kind===entry.kind&&normalize(plainSource(allRaw)).includes(original.key)),`原文の本人・地域・施設と対応しない名称: ${entry.name}`);
   assert(['place','region','person','building','concept'].includes(entry.kind));
   if(entry.kind==='concept')assert.deepEqual(entry.points,[],'団体・王家・階層には所在地を補わない: '+entry.name);
   entry.points.forEach(mapPoints);
@@ -112,6 +112,8 @@ for(const word of ['ツァーリズム','農奴制','ミール','ナロードニ
 for(const text of ['神聖ローマ皇帝','ビザンツ皇帝'])assert.ok(!modernNamesInText(text).some(entry=>entry.kind==='place'),'皇帝の肩書きから都市を補わない: '+text);
 for(const text of ['ギリシア正教徒','ギリシア正教','ギリシア正教徒の保護を口実に'])assert.ok(!modernNamesInText(text).some(entry=>entry.family==='ギリシア'&&['place','region'].includes(entry.kind)),'宗教名からギリシアの地域印を補わない: '+text);
 for(const text of ['ギリシア独立戦争','ギリシアへの派兵','ギリシアとギリシア正教徒'])assert.ok(modernNamesInText(text).some(entry=>entry.family==='ギリシア'&&['place','region'].includes(entry.kind)),'国名そのものの言及は保持する: '+text);
+assert.ok(modernNamesInText('ポーランド反乱').some(entry=>entry.kind==='concept'&&entry.points.length===0),'事件そのものには所在地を補わない');
+assert.ok(modernNamesInText('ポーランド反乱').some(entry=>entry.family==='ポーランド'&&entry.kind==='region'&&entry.points.some(point=>point[0]===19&&point[1]===52)),'事件名で明記された地域のポーランドは省かない');
 for(const name of ['アレクサンドル1世','アレクサンドル2世','ニコライ1世','ピョートル1世','エカチェリーナ2世'])assert.ok(modernNamesInText(name).some(entry=>entry.kind==='person'&&entry.name===name),'原文の本人名を識別する: '+name);
 for(const [given,other] of [['アレクサンドル1世','アレクサンドル2世'],['アレクサンドル2世','アレクサンドル1世']])assert.ok(!modernNamesInText(given).some(entry=>entry.name===other),'同じ名前の第1世と第2世を取り違えない');
 const passageRecords=scenes.flatMap(scene=>scene.sourceText.passages.map((passage,index)=>({scene:scene.id,passage,text:scene.plainBody[index]})));
@@ -205,6 +207,13 @@ for(const id of ['modern-c01-l05-p02-001','modern-c01-l05-p02-006','modern-c01-l
  const scene=scenes.find(scene=>scene.id===id);assert.ok(scene,'宗教名と国名を区別する本文場面がある: '+id);
  assert.ok(!modernNamesInText(scene.plainBody.join('')).some(entry=>entry.family==='ギリシア'&&['place','region'].includes(entry.kind)),id+': 宗教名の内部だけから国名を拾わない');
  assert.ok(![...scene.pins.map(key=>modernPlaces[key].name),...scene.tags.map(tag=>tag.text)].includes('ギリシア'),id+': 宗教名からギリシア地理印を補わない');
+}
+for(const id of ['modern-c01-l05-p01-008','modern-c01-l05-p03-018']) {
+ const scene=scenes.find(scene=>scene.id===id);assert.ok(scene,'ポーランド反乱の本文場面がある: '+id);
+ const named=[...scene.pins.map(key=>({name:modernPlaces[key].name,point:modernPlaces[key].point})),...scene.tags.map(tag=>({name:tag.text,point:tag.at}))];
+ assert.ok(named.some(item=>item.name==='ポーランド'&&item.point[0]===19&&item.point[1]===52),id+': ポーランドの地域印を表示する');
+ assert.ok(scene.frame[0]<=19&&scene.frame[2]>=19&&scene.frame[1]<=52&&scene.frame[3]>=52,id+': ポーランドと周辺地域を表示範囲に収める');
+ assert.equal(scene.routes.length,0,id+': 政治上の反乱から皇帝本人の訪問を補わない');
 }
 const referencePages=new Set(),diagramTitles=new Set();
 for(const volume of modernSeries)for(const [index,scene] of modernEdition[volume.id].entries()) {
