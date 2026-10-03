@@ -1,8 +1,8 @@
 import { sourceEdition } from "./source-edition.js?v=0.064";
 import { places, zones } from "./mughal-scenes.js?v=0.064";
-import { mountStory } from "./history-story.js?v=0.118";
+import { mountStory } from "./history-story.js?v=0.119";
 
-import {volumeNavigation} from './story-volumes.js?v=0.118';
+import {volumeNavigation} from './story-volumes.js?v=0.119';
 
 const chapterNavigation=volumeNavigation({id:'mughal'});
 const scenes=sourceEdition["mughal"];

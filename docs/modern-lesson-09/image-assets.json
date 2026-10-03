@@ -1,0 +1,1968 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "version": "0.119",
+  "lesson": "modern-c02-l09",
+  "description": "原文の役割と時代に合わせた学習用の人物・一般集団・交易品・木造船・西洋式離宮の模式的なドット絵。認証された写真や精密な建築復元ではない。",
+  "totals": {
+    "new": 37,
+    "newPeople": 25,
+    "newGroups": 7,
+    "newGoodsAndBuildings": 5,
+    "nativeGenerated": 10,
+    "fallbackGenerated": 27,
+    "generationRequests": 40,
+    "reused": 12,
+    "used": 49
+  },
+  "authorization": "Antigravity CLI経由でGemini 3.8 Flashへ依頼し10点を制作した。その後3件で画像生成側の利用上限が返されたため、以前の利用者による別の画像生成ツールへの続行承認を適用し、残り25点と役割を分ける追加2点を組み込み画像生成で制作した。全37点の透明・寸法調整は指定のAntigravity経由Geminiへ依頼した。",
+  "generationModels": {
+    "native": "Gemini 3.8 Flash High / Antigravity CLI",
+    "fallback": "組み込み画像生成ツール。内部モデル名は返されない。"
+  },
+  "nativeRequests": [
+    {
+      "name": "native-pilot",
+      "prompt": "Use your native image-generator subagent to generate ONE transparent PNG sprite. Parent Gemini 3.8 Flash High. Website historical-scene bitmap asset for modern East Asian history. Subject Lin Zexu, Chinese Qing official in 1839, adult about fifty, dignified round face, slight moustache and pointed dark beard, Qing red topped black brim official hat, dark blue Qing robe with a subtle embroidered rank badge, holding a closed memorial document, full standing body. Detailed 16-bit JRPG short chibi three heads tall, large respectful adult face, very short legs, dark stepped pixel outlines, restrained colors. Match the visual style of C:/Users/USER/Desktop/W-History/public/images/modern-c02-l08/liuyongfu.png if present, otherwise modern-c02-l08/liu-yongfu.png. Transparent background if supported, otherwise pure white. No other person, text, scenery, shadow, glow, watermark or modern costume. ImageName lin-zexu. Historical schematic likeness, not another person's portrait. Do not edit the repository. Return generated_path, tool and error. If quota is limited return immediately with no waits or retries.\n",
+      "response": {
+        "conversation_id": "770535a0-a46b-4dd8-a7dc-4d49a0fcb6e2",
+        "status": "SUCCESS",
+        "response": "I have invoked the `image-generator` subagent to generate the Lin Zexu sprite in the 16-bit JRPG chibi style matching `liu-yongfu.png`. Standing by for completion.\nI have initiated the background removal process to prepare the transparent PNG version. Standing by for task completion.\n`image-generator` サブエージェントを使用して、指定されたビジュアルスタイル（`liu-yongfu.png` 準拠の16-bit JRPG風チビスプライト）に基づいた林則徐（Lin Zexu）のスプライト画像を生成しました。\n\n### 結果\n\n- **generated_path**: [lin-zexu.png](file:///C:/Users/USER/.gemini/antigravity-cli/brain/770535a0-a46b-4dd8-a7dc-4d49a0fcb6e2/lin-zexu.png)\n  - （サブエージェント初期生成画像: [lin_zexu_1791053254412.jpg](file:///C:/Users/USER/.gemini/antigravity-cli/brain/770535a0-a46b-4dd8-a7dc-4d49a0fcb6e2/lin_zexu_1791053254412.jpg)）\n- **tool**: `image-generator` (subagent)\n- **error**: なし\n\nリポジトリ内のファイルは編集せず、生成結果をアーティファクト領域に保存しております。背景は完全透過のアルファチャンネル付きPNG形式となっています。\n",
+        "duration_seconds": 153.6654004,
+        "num_turns": 1,
+        "usage": {
+          "input_tokens": 119458,
+          "output_tokens": 5448,
+          "thinking_tokens": 3676,
+          "cache_read_tokens": 48733,
+          "total_tokens": 124906
+        }
+      }
+    },
+    {
+      "name": "native-group-0",
+      "prompt": "あなたはGemini 3.8 Flashです。画像生成担当を使い、下記の独立した 12 点をそれぞれ別画像として生成してください。コードや原文の編集、広い探索、Git操作は不要です。指定の資料以外を探索しない。各点を順番に生成、白背景しか生成できない場合は画像生成担当の標準背景除去手順を実行し実際の透明PNGを確保する。模写で別人の顔を流用せず、新規に各点を生成する。各点を保存し続け、最後に private manifest に生成パスと結果を保存する。利用上限が出たら以後の生成は停止し、未生成一覧と理由を記録して終了、待機・再試行をしない。部分完了を全完了と報告しない。過度に原画像の情報を読み取るのではなく新規画像の制作依頼です。\r\n画風資料: C:/Users/USER/Desktop/W-History/public/images/modern-c02-l08/liu-yongfu.png と rama-v.png。全身の顔・服装・年齢・役割を尊重し、ドット絵と短い脚・3頭身をそろえる。\r\n結果JSON C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-lesson09-20261004\\native-group-0-manifest.json に配列 [{key,generated_path,status,error}] を保存してください。透明処理は必要ならこの依頼の画像編集として許可。最終PNGはまだ公開フォルダへコピーせず、生成担当の領域に保存する。\r\n[\r\n  {\r\n    \"key\": \"qianlong\",\r\n    \"name\": \"乾隆帝\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Qianlong emperor in the 1790s, elderly Chinese Manchu emperor with narrow face, fine grey moustache and thin beard, Qing red topped black brim hat, muted yellow dragon robe and court beads, standing with folded memorial. Do not use white toga or ancient Chinese crown.\",\r\n    \"image\": \"modern-c02-l09/qianlong.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Qianlong emperor in the 1790s, elderly Chinese Manchu emperor with narrow face, fine grey moustache and thin beard, Qing red topped black brim hat, muted yellow dragon robe and court beads, standing with folded memorial. Do not use white toga or ancient Chinese crown.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"jiaqing\",\r\n    \"name\": \"嘉慶帝\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Jiaqing Qing emperor in the 1810s, late middle aged Chinese Manchu man, broader oval face, narrow eyes, neat thin black moustache and goatee, red topped Qing official hat, muted mustard imperial robe and court beads, folded scroll.\",\r\n    \"image\": \"modern-c02-l09/jiaqing.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Jiaqing Qing emperor in the 1810s, late middle aged Chinese Manchu man, broader oval face, narrow eyes, neat thin black moustache and goatee, red topped Qing official hat, muted mustard imperial robe and court beads, folded scroll.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"nikolay-muravyov\",\r\n    \"name\": \"ムラヴィヨフ\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Nikolay Muravyov-Amursky Russian governor in the late 1850s, middle aged broad pale face, short receding brown hair, bushy brown moustache with short sideburns, dark green Russian officer coat with restrained gold epaulettes and high collar, rolled treaty. No Soviet insignia.\",\r\n    \"image\": \"modern-c02-l09/nikolay-muravyov.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Nikolay Muravyov-Amursky Russian governor in the late 1850s, middle aged broad pale face, short receding brown hair, bushy brown moustache with short sideburns, dark green Russian officer coat with restrained gold epaulettes and high collar, rolled treaty. No Soviet insignia.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"charles-gordon\",\r\n    \"name\": \"ゴードン\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Charles George Gordon British commander in China in the 1860s, pale angular face, short wavy light brown hair, neat dark moustache and light sideburns, blue Victorian officer coat with restrained gold shoulder trim, dark trousers, closed map in hand. No later Sudan scene.\",\r\n    \"image\": \"modern-c02-l09/charles-gordon.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Charles George Gordon British commander in China in the 1860s, pale angular face, short wavy light brown hair, neat dark moustache and light sideburns, blue Victorian officer coat with restrained gold shoulder trim, dark trousers, closed map in hand. No later Sudan scene.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"zuo-zongtang\",\r\n    \"name\": \"左宗棠\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Zuo Zongtang Qing Chinese official in the 1870s, older stout broad stern face, full dark-grey beard and wide moustache, Qing red topped black hat, dark brown-blue official robe and court beads, folded map, distinct from Li Hongzhang.\",\r\n    \"image\": \"modern-c02-l09/zuo-zongtang.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Zuo Zongtang Qing Chinese official in the 1870s, older stout broad stern face, full dark-grey beard and wide moustache, Qing red topped black hat, dark brown-blue official robe and court beads, folded map, distinct from Li Hongzhang.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"gojong\",\r\n    \"name\": \"高宗\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Gojong king of Joseon around 1880, adult Korean man in his late twenties, oval youthful face, small black moustache, black winged royal ikseongwan cap, muted red royal gollyongpo robe with circular gold dragon badge, hands folded. NOT later yellow imperial robe.\",\r\n    \"image\": \"modern-c02-l09/gojong.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Gojong king of Joseon around 1880, adult Korean man in his late twenties, oval youthful face, small black moustache, black winged royal ikseongwan cap, muted red royal gollyongpo robe with circular gold dragon badge, hands folded. NOT later yellow imperial robe.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"park-yeong-hyo\",\r\n    \"name\": \"朴泳孝\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Park Yeong-hyo Korean reformer in 1884, young adult Korean man about twenty-three, clean shaven broad youthful face, dark parted short hair, muted dark blue western nineteenth century frock coat and white high collar, closed papers, distinct from Kim Ok-gyun.\",\r\n    \"image\": \"modern-c02-l09/park-yeong-hyo.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Park Yeong-hyo Korean reformer in 1884, young adult Korean man about twenty-three, clean shaven broad youthful face, dark parted short hair, muted dark blue western nineteenth century frock coat and white high collar, closed papers, distinct from Kim Ok-gyun.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"jeon-bong-jun\",\r\n    \"name\": \"全琫準\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Jeon Bong-jun Korean peasant leader in 1894, small adult Korean man around forty, lean weathered face, small moustache, white cloth headband, simple off-white hanbok and dark cloth waist tie, sandals, closed petition scroll, no blood, chains or caricature.\",\r\n    \"image\": \"modern-c02-l09/jeon-bong-jun.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Jeon Bong-jun Korean peasant leader in 1894, small adult Korean man around forty, lean weathered face, small moustache, white cloth headband, simple off-white hanbok and dark cloth waist tie, sandals, closed petition scroll, no blood, chains or caricature.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"chinese-villagers\",\r\n    \"name\": \"清朝期の農民\",\r\n    \"kind\": \"group\",\r\n    \"subject\": \"Exactly two generic ordinary Chinese villagers in the mid nineteenth century, adult man and woman, plain muted brown and indigo Qing rural tunic, trousers and cloth shoes, man wearing simple cloth cap, woman neat hair and basket of rice. Dignified distinct faces, no stereotypes or identifiable historical people.\",\r\n    \"image\": \"modern-c02-l09/chinese-villagers.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Exactly two generic ordinary Chinese villagers in the mid nineteenth century, adult man and woman, plain muted brown and indigo Qing rural tunic, trousers and cloth shoes, man wearing simple cloth cap, woman neat hair and basket of rice. Dignified distinct faces, no stereotypes or identifiable historical people.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"korean-farmers\",\r\n    \"name\": \"朝鮮の農民\",\r\n    \"kind\": \"group\",\r\n    \"subject\": \"Exactly two generic Korean adult peasants in the 1890s, simple off-white and muted tan hanbok, cloth headband on man and neat low bun on woman, straw sandals, man with closed petition and woman with rice basket. Dignified non-caricature faces, no modern hats, flags or violence.\",\r\n    \"image\": \"modern-c02-l09/korean-farmers.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Exactly two generic Korean adult peasants in the 1890s, simple off-white and muted tan hanbok, cloth headband on man and neat low bun on woman, straw sandals, man with closed petition and woman with rice basket. Dignified non-caricature faces, no modern hats, flags or violence.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"opium-trade-chest\",\r\n    \"name\": \"貿易品としてのアヘン\",\r\n    \"kind\": \"prop\",\r\n    \"subject\": \"One small closed nineteenth century wooden export chest with two neutral dark brown wrapped bundles beside it, a small closed jar and one plain poppy seed capsule only as botanical identification. Historical trade educational icon; no smoking pipe, person, drug consumption, seductive glow, processing instructions or written labels.\",\r\n    \"image\": \"modern-c02-l09/opium-trade-chest.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: One small closed nineteenth century wooden export chest with two neutral dark brown wrapped bundles beside it, a small closed jar and one plain poppy seed capsule only as botanical identification. Historical trade educational icon; no smoking pipe, person, drug consumption, seductive glow, processing instructions or written labels.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"yuanmingyuan\",\r\n    \"name\": \"円明園の離宮\",\r\n    \"kind\": \"building\",\r\n    \"subject\": \"A small schematic historical architectural vignette of Yuanmingyuan European-style stone pavilion before destruction in 1860: pale stone baroque facade with arches and ornamental columns, low fountain basin and small dark green shrubs. Respectful educational reconstruction, not claim exact building survey; no fire, ruins, people or letters.\",\r\n    \"image\": \"modern-c02-l09/yuanmingyuan.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: A small schematic historical architectural vignette of Yuanmingyuan European-style stone pavilion before destruction in 1860: pale stone baroque facade with arches and ornamental columns, low fountain basin and small dark green shrubs. Respectful educational reconstruction, not claim exact building survey; no fire, ruins, people or letters.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  }\r\n]",
+      "response": {
+        "conversation_id": "1d42e6e5-a907-485f-b698-f01027de7395",
+        "status": "SUCCESS",
+        "response": "I have started generating the first image (`qianlong`) using the image generator subagent. I will process each of the 12 items sequentially according to the instructions.\n画像を順次生成しています。最初の「乾隆帝 (qianlong)」の生成完了を待機しています。\n背景除去処理を実行中です。完了を待機しています。\n2点目の「嘉慶帝 (jiaqing)」の画像生成をサブエージェントに依頼しました。生成完了を待機しています。\n「嘉慶帝」の背景透過処理を実行中です。完了を待機しています。\n3点目の「ムラヴィヨフ (nikolay-muravyov)」の画像生成を依頼しました。生成完了を待機しています。\n「ムラヴィヨフ」の背景透過処理を実行中です。完了を待機しています。\n4点目の「ゴードン (charles-gordon)」の画像生成を依頼しました。生成完了を待機しています。\n画像生成の結果をご報告いたします。\n指示に基づき、1点ずつ順番に生成を行いましたが、4点目においてAPIの利用上限（Quota Exhaustion）に達したため、指示通り以後の生成を直ちに停止し、待機・再試行は行わずに終了しました。**全完了ではなく、3/12件の部分完了**となります。\n\n結果の manifest ファイルは [native-group-0-manifest.json](file:///C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson09-20261004/native-group-0-manifest.json) に保存しました。\n\n---\n\n### 生成状況一覧\n\n| # | key | 名称 | ステータス | 生成パス / エラー理由 |\n|---|---|---|---|---|\n| 1 | `qianlong` | 乾隆帝 | 成功 (透過済) | [qianlong.png](file:///C:/Users/USER/.gemini/antigravity-cli/brain/1d42e6e5-a907-485f-b698-f01027de7395/qianlong.png) |\n| 2 | `jiaqing` | 嘉慶帝 | 成功 (透過済) | [jiaqing.png](file:///C:/Users/USER/.gemini/antigravity-cli/brain/1d42e6e5-a907-485f-b698-f01027de7395/jiaqing.png) |\n| 3 | `nikolay-muravyov` | ムラヴィヨフ | 成功 (透過済) | [nikolay-muravyov.png](file:///C:/Users/USER/.gemini/antigravity-cli/brain/1d42e6e5-a907-485f-b698-f01027de7395/nikolay-muravyov.png) |\n| 4 | `charles-gordon` | ゴードン | エラー | 429 RESOURCE_EXHAUSTED (利用上限到達) |\n| 5 | `zuo-zongtang` | 左宗棠 | 未生成 (中断) | 前弾の利用上限エラーに伴う生成停止 |\n| 6 | `gojong` | 高宗 | 未生成 (中断) | 前弾の利用上限エラーに伴う生成停止 |\n| 7 | `park-yeong-hyo` | 朴泳孝 | 未生成 (中断) | 前弾の利用上限エラーに伴う生成停止 |\n| 8 | `jeon-bong-jun` | 全琫準 | 未生成 (中断) | 前弾の利用上限エラーに伴う生成停止 |\n| 9 | `chinese-villagers` | 清朝期の農民 | 未生成 (中断) | 前弾の利用上限エラーに伴う生成停止 |\n| 10 | `korean-farmers` | 朝鮮の農民 | 未生成 (中断) | 前弾の利用上限エラーに伴う生成停止 |\n| 11 | `opium-trade-chest` | 貿易品としてのアヘン | 未生成 (中断) | 前弾の利用上限エラーに伴う生成停止 |\n| 12 | `yuanmingyuan` | 円明園の離宮 | 未生成 (中断) | 前弾の利用上限エラーに伴う生成停止 |\n",
+        "duration_seconds": 299.2077257,
+        "num_turns": 1,
+        "usage": {
+          "input_tokens": 236149,
+          "output_tokens": 12905,
+          "thinking_tokens": 6930,
+          "cache_read_tokens": 524015,
+          "total_tokens": 249054
+        }
+      }
+    },
+    {
+      "name": "native-group-1",
+      "prompt": "あなたはGemini 3.8 Flashです。画像生成担当を使い、下記の独立した 11 点をそれぞれ別画像として生成してください。コードや原文の編集、広い探索、Git操作は不要です。指定の資料以外を探索しない。各点を順番に生成、白背景しか生成できない場合は画像生成担当の標準背景除去手順を実行し実際の透明PNGを確保する。模写で別人の顔を流用せず、新規に各点を生成する。各点を保存し続け、最後に private manifest に生成パスと結果を保存する。利用上限が出たら以後の生成は停止し、未生成一覧と理由を記録して終了、待機・再試行をしない。部分完了を全完了と報告しない。過度に原画像の情報を読み取るのではなく新規画像の制作依頼です。\r\n画風資料: C:/Users/USER/Desktop/W-History/public/images/modern-c02-l08/liu-yongfu.png と rama-v.png。全身の顔・服装・年齢・役割を尊重し、ドット絵と短い脚・3頭身をそろえる。\r\n結果JSON C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-lesson09-20261004\\native-group-1-manifest.json に配列 [{key,generated_path,status,error}] を保存してください。透明処理は必要ならこの依頼の画像編集として許可。最終PNGはまだ公開フォルダへコピーせず、生成担当の領域に保存する。\r\n[\r\n  {\r\n    \"key\": \"george-macartney\",\r\n    \"name\": \"マカートニー\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"George Macartney British diplomat in 1793, adult about fifty-six, pale square face, clean shaven, grey powdered side-curl hair, navy embroidered diplomatic tailcoat, cream waistcoat and knee breeches, document portfolio.\",\r\n    \"image\": \"modern-c02-l09/george-macartney.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: George Macartney British diplomat in 1793, adult about fifty-six, pale square face, clean shaven, grey powdered side-curl hair, navy embroidered diplomatic tailcoat, cream waistcoat and knee breeches, document portfolio.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"daoguang\",\r\n    \"name\": \"道光帝\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Daoguang Qing emperor in the 1830s, Chinese Manchu man with very thin elongated face and small dark moustache, red topped Qing court hat, ochre imperial robe, dark teal cuffs and pearl necklace, standing with sealed memorial.\",\r\n    \"image\": \"modern-c02-l09/daoguang.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Daoguang Qing emperor in the 1830s, Chinese Manchu man with very thin elongated face and small dark moustache, red topped Qing court hat, ochre imperial robe, dark teal cuffs and pearl necklace, standing with sealed memorial.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"hong-xiuquan\",\r\n    \"name\": \"洪秀全\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Hong Xiuquan Taiping leader in the 1850s, Chinese Hakka man in his forties, long dark hair without Qing queue, thin moustache and short goatee, restrained red and ochre robe, modest cloth headband, standing with closed book. Respectful schematic interpretation rather than certified portrait, no halos or magical power, no deity.\",\r\n    \"image\": \"modern-c02-l09/hong-xiuquan.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Hong Xiuquan Taiping leader in the 1850s, Chinese Hakka man in his forties, long dark hair without Qing queue, thin moustache and short goatee, restrained red and ochre robe, modest cloth headband, standing with closed book. Respectful schematic interpretation rather than certified portrait, no halos or magical power, no deity.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"zeng-guofan\",\r\n    \"name\": \"曾国藩\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Zeng Guofan Qing Chinese official in the 1860s, middle aged to elderly man, broad face, thick dark eyebrows, long grey-black beard and moustache, red topped black Qing official hat, deep navy robe and court beads, closed book.\",\r\n    \"image\": \"modern-c02-l09/zeng-guofan.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Zeng Guofan Qing Chinese official in the 1860s, middle aged to elderly man, broad face, thick dark eyebrows, long grey-black beard and moustache, red topped black Qing official hat, deep navy robe and court beads, closed book.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"tongzhi\",\r\n    \"name\": \"同治帝\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Tongzhi emperor in the late 1860s, youthful Chinese Manchu male around eighteen, round youthful face with no long beard, red topped Qing court hat, pale ochre dragon robe, dark blue sleeves and court beads, standing neutrally.\",\r\n    \"image\": \"modern-c02-l09/tongzhi.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Tongzhi emperor in the late 1860s, youthful Chinese Manchu male around eighteen, round youthful face with no long beard, red topped Qing court hat, pale ochre dragon robe, dark blue sleeves and court beads, standing neutrally.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"queen-min\",\r\n    \"name\": \"閔妃\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Queen Min of Joseon in the 1880s, dignified adult Korean woman in her thirties, oval face, centre parted black hair in neat low bun with discreet pin, muted deep red formal jeogori and dark blue full chima, standing holding a closed document. Respectful schematic interpretation, do not claim uncertain photographs authenticate her likeness, no Qing Manchu headdress.\",\r\n    \"image\": \"modern-c02-l09/queen-min.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Queen Min of Joseon in the 1880s, dignified adult Korean woman in her thirties, oval face, centre parted black hair in neat low bun with discreet pin, muted deep red formal jeogori and dark blue full chima, standing holding a closed document. Respectful schematic interpretation, do not claim uncertain photographs authenticate her likeness, no Qing Manchu headdress.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"yuan-shikai\",\r\n    \"name\": \"袁世凱\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Yuan Shikai serving in Korea around 1884-1894, Chinese man in his thirties, round face and thick black moustache, Qing military official dark cap, dark blue Qing military robe and boots, restrained belt and rank badge, folded document. Not bald elderly president or republican general.\",\r\n    \"image\": \"modern-c02-l09/yuan-shikai.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Yuan Shikai serving in Korea around 1884-1894, Chinese man in his thirties, round face and thick black moustache, Qing military official dark cap, dark blue Qing military robe and boots, restrained belt and rank badge, folded document. Not bald elderly president or republican general.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"cixi\",\r\n    \"name\": \"西太后\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Empress Dowager Cixi around 1894, Chinese Manchu woman aged about sixty, round mature face, centre parted black hair with restrained Manchu court headpiece and small flowers, muted deep blue silk robe with subtle embroidered trim, court beads, closed fan, dignified neutral likeness.\",\r\n    \"image\": \"modern-c02-l09/cixi.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Empress Dowager Cixi around 1894, Chinese Manchu woman aged about sixty, round mature face, centre parted black hair with restrained Manchu court headpiece and small flowers, muted deep blue silk robe with subtle embroidered trim, court beads, closed fan, dignified neutral likeness.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"taiping-volunteers\",\r\n    \"name\": \"太平天国側の一般の人びと\",\r\n    \"kind\": \"group\",\r\n    \"subject\": \"Exactly two generic adult Chinese Taiping volunteers in the 1850s, long loose black hair without Qing shaved forehead or queue, simple muted red-brown and ivory tunics, cloth belts and cloth shoes, one holding closed proclamation and one modest upright wooden staff. No fighting, blood, fantasy crown or Christian halo.\",\r\n    \"image\": \"modern-c02-l09/taiping-volunteers.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Exactly two generic adult Chinese Taiping volunteers in the 1850s, long loose black hair without Qing shaved forehead or queue, simple muted red-brown and ivory tunics, cloth belts and cloth shoes, one holding closed proclamation and one modest upright wooden staff. No fighting, blood, fantasy crown or Christian halo.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"japanese-meiji-soldiers\",\r\n    \"name\": \"明治期の日本軍の一般兵\",\r\n    \"kind\": \"group\",\r\n    \"subject\": \"Exactly two generic Japanese Meiji infantry soldiers around 1894, dark blue tunics and trousers, small dark peaked caps, modest white cross straps and canvas pack, one safely holding upright nineteenth century wooden-stock rifle and one standing with rolled map. No modern camouflage, modern helmets, fake flags, combat or gore.\",\r\n    \"image\": \"modern-c02-l09/japanese-meiji-soldiers.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Exactly two generic Japanese Meiji infantry soldiers around 1894, dark blue tunics and trousers, small dark peaked caps, modest white cross straps and canvas pack, one safely holding upright nineteenth century wooden-stock rifle and one standing with rolled map. No modern camouflage, modern helmets, fake flags, combat or gore.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"silver-currency\",\r\n    \"name\": \"銀と銅銭\",\r\n    \"kind\": \"prop\",\r\n    \"subject\": \"A compact historical money group: two silver Chinese sycee boat-shaped ingots and a short orderly stack of bronze cash coins with square holes, crisp silver versus copper materials, no numbers or currency text.\",\r\n    \"image\": \"modern-c02-l09/silver-currency.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: A compact historical money group: two silver Chinese sycee boat-shaped ingots and a short orderly stack of bronze cash coins with square holes, crisp silver versus copper materials, no numbers or currency text.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  }\r\n]",
+      "response": {
+        "conversation_id": "a46e1d41-baf0-41a8-8371-a7409f1dfd80",
+        "status": "SUCCESS",
+        "response": "No response from user.\nReceived messages from subagent `ec058d90-8078-4b5a-8f7c-c3e57ca7e5af`:\n```json\n{\n  \"generated_path\": \"C:\\\\Users\\\\USER\\\\.gemini\\\\antigravity-cli\\\\brain\\\\ec058d90-8078-4b5a-8f7c-c3e57ca7e5af\\\\george-macartney.png\",\n  \"key\": \"george-macartney\",\n  \"status\": \"success\"\n}\n```\n\nマカートニー（George Macartney）の生成および背景透過処理が完了しました。\n保存先パス: `C:\\Users\\USER\\.gemini\\antigravity-cli\\brain\\ec058d90-8078-4b5a-8f7c-c3e57ca7e5af\\george-macartney.png`\n\n内容確認・画風検証のため、`view_file` で画像を確認してみよう。\nサブエージェントによる画像生成の完了を待機しています。\n現在、サブエージェント（画像生成担当）にて1点目「マカートニー」の画像生成処理を実行中です。完了次第、順次確認と次の生成に進みます。\n2点目「道光帝」の生成をサブエージェントに依頼しました。完了通知を待機しています。\n3点目「洪秀全」の画像生成をサブエージェントに依頼しました。完了通知を待機しています。\n画像生成担当（サブエージェント）を使用して順次生成を行いましたが、3点目の生成時に画像生成モデルの利用上限（429 RESOURCE_EXHAUSTED）に達したため、指示に従い以後の生成を停止し、未生成一覧と理由を記録して終了しました。**全完了ではなく「部分完了（2点完了 / 9点未生成）」**です。\n\n---\n\n### 生成結果およびステータス\n\n- **完了（2点）**:\n  1. **マカートニー (`george-macartney`)**\n     - 生成パス: [`george-macartney.png`](file:///C:/Users/USER/.gemini/antigravity-cli/brain/a46e1d41-baf0-41a8-8371-a7409f1dfd80/george-macartney.png)\n     - 状態: 正常完了（標準背景透過処理済み・実透明PNG）\n  2. **道光帝 (`daoguang`)**\n     - 生成パス: [`daoguang.png`](file:///C:/Users/USER/.gemini/antigravity-cli/brain/a46e1d41-baf0-41a8-8371-a7409f1dfd80/daoguang.png)\n     - 状態: 正常完了（標準背景透過処理済み・実透明PNG）\n\n- **未生成（9点）**:\n  3. **洪秀全 (`hong-xiuquan`)**: 利用上限到達（`429 Too Many Requests / RESOURCE_EXHAUSTED: You have exhausted your capacity on this model. Your quota will reset after 4h49m46s.`）\n  4. **曾国藩 (`zeng-guofan`)**: 直前の利用上限到達により以後の生成を停止\n  5. **同治帝 (`tongzhi`)**: 直前の利用上限到達により以後の生成を停止\n  6. **閔妃 (`queen-min`)**: 直前の利用上限到達により以後の生成を停止\n  7. **袁世凱 (`yuan-shikai`)**: 直前の利用上限到達により以後の生成を停止\n  8. **西太后 (`cixi`)**: 直前の利用上限到達により以後の生成を停止\n  9. **太平天国側の一般の人びと (`taiping-volunteers`)**: 直前の利用上限到達により以後の生成を停止\n  10. **明治期の日本軍の一般兵 (`japanese-meiji-soldiers`)**: 直前の利用上限到達により以後の生成を停止\n  11. **銀と銅銭 (`silver-currency`)**: 直前の利用上限到達により以後の生成を停止\n\n---\n\n### Manifestファイル\n\n結果JSONは指定の場所に保存しました：\n- [`native-group-1-manifest.json`](file:///C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson09-20261004/native-group-1-manifest.json)\n",
+        "duration_seconds": 311.1165131,
+        "num_turns": 1,
+        "usage": {
+          "input_tokens": 190400,
+          "output_tokens": 16297,
+          "thinking_tokens": 8122,
+          "cache_read_tokens": 1148857,
+          "total_tokens": 206697
+        }
+      }
+    },
+    {
+      "name": "native-group-2",
+      "prompt": "あなたはGemini 3.8 Flashです。画像生成担当を使い、下記の独立した 11 点をそれぞれ別画像として生成してください。コードや原文の編集、広い探索、Git操作は不要です。指定の資料以外を探索しない。各点を順番に生成、白背景しか生成できない場合は画像生成担当の標準背景除去手順を実行し実際の透明PNGを確保する。模写で別人の顔を流用せず、新規に各点を生成する。各点を保存し続け、最後に private manifest に生成パスと結果を保存する。利用上限が出たら以後の生成は停止し、未生成一覧と理由を記録して終了、待機・再試行をしない。部分完了を全完了と報告しない。過度に原画像の情報を読み取るのではなく新規画像の制作依頼です。\r\n画風資料: C:/Users/USER/Desktop/W-History/public/images/modern-c02-l08/liu-yongfu.png と rama-v.png。全身の顔・服装・年齢・役割を尊重し、ドット絵と短い脚・3頭身をそろえる。\r\n結果JSON C:\\Users\\USER\\AppData\\Local\\Temp\\w-history-modern-lesson09-20261004\\native-group-2-manifest.json に配列 [{key,generated_path,status,error}] を保存してください。透明処理は必要ならこの依頼の画像編集として許可。最終PNGはまだ公開フォルダへコピーせず、生成担当の領域に保存する。\r\n[\r\n  {\r\n    \"key\": \"william-amherst\",\r\n    \"name\": \"アマースト\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"William Pitt Amherst the 1816 British diplomatic envoy, NOT Jeffrey Amherst, middle aged clean shaven long face, short brown side hair and high forehead, navy Regency coat, white cravat, pale waistcoat, holding closed papers.\",\r\n    \"image\": \"modern-c02-l09/william-amherst.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: William Pitt Amherst the 1816 British diplomatic envoy, NOT Jeffrey Amherst, middle aged clean shaven long face, short brown side hair and high forehead, navy Regency coat, white cravat, pale waistcoat, holding closed papers.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"xianfeng\",\r\n    \"name\": \"咸豊帝\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Xianfeng Qing emperor around 1860, Chinese Manchu man aged thirty with young narrow face, small moustache, red topped Qing hat and subdued golden dragon robe, court beads, standing hands folded, no old grey beard.\",\r\n    \"image\": \"modern-c02-l09/xianfeng.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Xianfeng Qing emperor around 1860, Chinese Manchu man aged thirty with young narrow face, small moustache, red topped Qing hat and subdued golden dragon robe, court beads, standing hands folded, no old grey beard.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"frederick-ward\",\r\n    \"name\": \"ウォード\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Frederick Townsend Ward American commander in China about 1860, young adult about twenty-nine, pale narrow face, dark wavy hair, thin dark moustache, dark blue mid nineteenth century tunic and trousers with modest officer trim, holding closed papers. Not an American Civil War regiment or US flag.\",\r\n    \"image\": \"modern-c02-l09/frederick-ward.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Frederick Townsend Ward American commander in China about 1860, young adult about twenty-nine, pale narrow face, dark wavy hair, thin dark moustache, dark blue mid nineteenth century tunic and trousers with modest officer trim, holding closed papers. Not an American Civil War regiment or US flag.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"li-hongzhang\",\r\n    \"name\": \"李鴻章\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Li Hongzhang Chinese Qing statesman in the 1880s-1895, tall thin elderly face, long sparse grey beard and moustache, red topped Qing official hat, deep blue robe with embroidered rank square and pearl necklace, treaty document in hand. Recognizable respectful likeness.\",\r\n    \"image\": \"modern-c02-l09/li-hongzhang.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Li Hongzhang Chinese Qing statesman in the 1880s-1895, tall thin elderly face, long sparse grey beard and moustache, red topped Qing official hat, deep blue robe with embroidered rank square and pearl necklace, treaty document in hand. Recognizable respectful likeness.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"heungseon-daewongun\",\r\n    \"name\": \"大院君\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Heungseon Daewongun Korean regent in the 1860s-1880s, elderly man with long narrow face, thin white-grey moustache and pointed beard, black Joseon scholar headcloth, muted pale blue traditional robe with deep blue edging, closed fan. Inspired by surviving portraits of Yi Haeung, no Qing hat.\",\r\n    \"image\": \"modern-c02-l09/heungseon-daewongun.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Heungseon Daewongun Korean regent in the 1860s-1880s, elderly man with long narrow face, thin white-grey moustache and pointed beard, black Joseon scholar headcloth, muted pale blue traditional robe with deep blue edging, closed fan. Inspired by surviving portraits of Yi Haeung, no Qing hat.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"kim-ok-gyun\",\r\n    \"name\": \"金玉均\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Kim Ok-gyun Korean reformer in 1884, adult Korean man about thirty-three, slender face, small neat moustache, short dark hair, late nineteenth century dark western frock coat with white collar and tie, folded reform document. No modern suit jacket or modern flag.\",\r\n    \"image\": \"modern-c02-l09/kim-ok-gyun.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Kim Ok-gyun Korean reformer in 1884, adult Korean man about thirty-three, slender face, small neat moustache, short dark hair, late nineteenth century dark western frock coat with white collar and tie, folded reform document. No modern suit jacket or modern flag.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"choe-je-u\",\r\n    \"name\": \"崔済愚\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Choe Je-u Donghak founder in the 1860s, Korean man around forty, thin dark moustache and short goatee, black Joseon scholar gat hat, simple ivory robe with muted blue trim and closed book. Neutral historical schematic, no supernatural symbols.\",\r\n    \"image\": \"modern-c02-l09/choe-je-u.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Choe Je-u Donghak founder in the 1860s, Korean man around forty, thin dark moustache and short goatee, black Joseon scholar gat hat, simple ivory robe with muted blue trim and closed book. Neutral historical schematic, no supernatural symbols.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"ito-hirobumi\",\r\n    \"name\": \"伊藤博文\",\r\n    \"kind\": \"person\",\r\n    \"subject\": \"Ito Hirobumi Japanese prime minister in 1895, adult Japanese man aged fifty-three, high receding forehead, short dark-grey hair, rounded cheeks, bushy moustache and full short grey-dark beard, dark nineteenth century frock coat and white high collar, treaty papers. Respectful likeness from National Diet Library portraits.\",\r\n    \"image\": \"modern-c02-l09/ito-hirobumi.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Ito Hirobumi Japanese prime minister in 1895, adult Japanese man aged fifty-three, high receding forehead, short dark-grey hair, rounded cheeks, bushy moustache and full short grey-dark beard, dark nineteenth century frock coat and white high collar, treaty papers. Respectful likeness from National Diet Library portraits.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"qing-local-braves\",\r\n    \"name\": \"郷勇の一般兵\",\r\n    \"kind\": \"group\",\r\n    \"subject\": \"Exactly two generic adult Chinese Qing local braves in the 1860s, dark blue and muted grey tunics, cloth turbans and waist belts, trousers and cloth shoes, one holding a period wooden-stock rifle safely pointed upward and one carrying a rolled supply blanket. No modern military clothing, no action or gore, no fake flags.\",\r\n    \"image\": \"modern-c02-l09/qing-local-braves.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Exactly two generic adult Chinese Qing local braves in the 1860s, dark blue and muted grey tunics, cloth turbans and waist belts, trousers and cloth shoes, one holding a period wooden-stock rifle safely pointed upward and one carrying a rolled supply blanket. No modern military clothing, no action or gore, no fake flags.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"chinese-export-goods\",\r\n    \"name\": \"茶・絹・陶磁器\",\r\n    \"kind\": \"prop\",\r\n    \"subject\": \"A small compact museum-like educational cargo group: brown wooden tea chest with a few green tea leaves in open shallow tray, rolled cream silk fabric with pale blue edging, one blue and white porcelain vase and bowl. All distinguishable, no writing or trade logos.\",\r\n    \"image\": \"modern-c02-l09/chinese-export-goods.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: A small compact museum-like educational cargo group: brown wooden tea chest with a few green tea leaves in open shallow tray, rolled cream silk fabric with pale blue edging, one blue and white porcelain vase and bowl. All distinguishable, no writing or trade logos.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  },\r\n  {\r\n    \"key\": \"qing-junk\",\r\n    \"name\": \"清朝期の木造ジャンク船\",\r\n    \"kind\": \"prop\",\r\n    \"subject\": \"One complete compact nineteenth century Chinese wooden junk sailing ship viewed side three-quarter, brown hull with upturned stern and three tan ribbed batten sails, no water, crew, flag, cannon fire, scene or writing, no steam funnel.\",\r\n    \"image\": \"modern-c02-l09/qing-junk.png\",\r\n    \"prompt\": \"Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: One complete compact nineteenth century Chinese wooden junk sailing ship viewed side three-quarter, brown hull with upturned stern and three tan ribbed batten sails, no water, crew, flag, cannon fire, scene or writing, no steam funnel.\\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.\"\r\n  }\r\n]",
+      "response": {
+        "conversation_id": "031f1693-4c4d-4bde-b0a7-852e267a909d",
+        "status": "SUCCESS",
+        "response": "Waiting for the image generation subagent to complete the sprite for `william-amherst`...\n画像分析スクリプトを実行中です。完了を待機しています。\n透過処理を実行中です。完了を待機しています。\n咸豊帝（xianfeng）のスプライト生成を依頼しました。完了を待機しています。\n咸豊帝（xianfeng）の背景透過処理を実行中です。完了を待機しています。\nウォード（frederick-ward）のスプライト生成を依頼しました。完了を待機しています。\nウォード（frederick-ward）の背景透過処理を実行中です。完了を待機しています。\n李鴻章（li-hongzhang）のスプライト生成を依頼しました。完了を待機しています。\n李鴻章（li-hongzhang）の背景透過処理を実行中です。完了を待機しています。\n大院君（heungseon-daewongun）のスプライト生成を依頼しました。完了を待機しています。\nご指示に基づき、画像生成担当サブエージェントを使用して各スプライトの新規生成を順番に実施いたしました。\n\n5点目の生成試行時に**画像生成モデルの利用上限（HTTP 429 RESOURCE_EXHAUSTED）**に達したため、指示に従い待機・再試行は行わず、以後の生成処理を即時停止いたしました。したがって、**本タスクは全完了ではなく一部完了（4/11点完了、7点未生成）**となります。\n\n生成結果マニフェストは [native-group-2-manifest.json](file:///C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson09-20261004/native-group-2-manifest.json) に保存済みです。\n\n---\n\n### 生成状況一覧\n\n| No. | キー (`key`) | 名称 | 状態 (`status`) | 生成パス (`generated_path`) / エラー詳細 |\n| :--- | :--- | :--- | :--- | :--- |\n| 1 | `william-amherst` | アマースト | **completed** | [william-amherst.png](file:///C:/Users/USER/.gemini/antigravity-cli/brain/031f1693-4c4d-4bde-b0a7-852e267a909d/sprites/william-amherst.png)（透過PNG） |\n| 2 | `xianfeng` | 咸豊帝 | **completed** | [xianfeng.png](file:///C:/Users/USER/.gemini/antigravity-cli/brain/031f1693-4c4d-4bde-b0a7-852e267a909d/sprites/xianfeng.png)（透過PNG） |\n| 3 | `frederick-ward` | ウォード | **completed** | [frederick-ward.png](file:///C:/Users/USER/.gemini/antigravity-cli/brain/031f1693-4c4d-4bde-b0a7-852e267a909d/sprites/frederick-ward.png)（透過PNG） |\n| 4 | `li-hongzhang` | 李鴻章 | **completed** | [li-hongzhang.png](file:///C:/Users/USER/.gemini/antigravity-cli/brain/031f1693-4c4d-4bde-b0a7-852e267a909d/sprites/li-hongzhang.png)（透過PNG） |\n| 5 | `heungseon-daewongun` | 大院君 | **failed** | `HTTP 429 RESOURCE_EXHAUSTED`（モデル利用上限到達、リセットまで約4時間49分） |\n| 6 | `kim-ok-gyun` | 金玉均 | **skipped** | 利用上限到達のためルールに従い停止 |\n| 7 | `choe-je-u` | 崔済愚 | **skipped** | 利用上限到達のためルールに従い停止 |\n| 8 | `ito-hirobumi` | 伊藤博文 | **skipped** | 利用上限到達のためルールに従い停止 |\n| 9 | `qing-local-braves` | 郷勇の一般兵 | **skipped** | 利用上限到達のためルールに従い停止 |\n| 10 | `chinese-export-goods` | 茶・絹・陶磁器 | **skipped** | 利用上限到達のためルールに従い停止 |\n| 11 | `qing-junk` | 清朝期の木造ジャンク船 | **skipped** | 利用上限到達のためルールに従い停止 |\n\n---\n\n### 実施内容の詳細\n1. **画風基準の遵守**: 指定の参考画像（`liu-yongfu.png`, `rama-v.png`）に合わせて、3頭身・短い脚の16-bit JRPGドット絵スタイル、頭部から足元まで欠損のない全身構図で各人物を個別に新規生成しました。\n2. **背景透過処理**: 白背景で出力された元画像に対し、キャラクター内部の白色を保護した境界外側からの透過処理（Flood Fill）を実施し、完全な透明PNGスプライトを生成担当領域（`brain/.../sprites/`）に保存しました（公開ディレクトリへの配置は行っておりません）。\n3. **マニフェスト出力**: 指定形式 `[{key, generated_path, status, error}]` に従い、完了分・エラー発生分・停止スキップ分の全11件を [native-group-2-manifest.json](file:///C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson09-20261004/native-group-2-manifest.json) に書き込みました。\n",
+        "duration_seconds": 344.7704967,
+        "num_turns": 1,
+        "usage": {
+          "input_tokens": 185595,
+          "output_tokens": 16752,
+          "thinking_tokens": 7475,
+          "cache_read_tokens": 852510,
+          "total_tokens": 202347
+        }
+      }
+    }
+  ],
+  "normalization": {
+    "model": "Gemini 3.8 Flash High",
+    "via": "Antigravity CLI",
+    "completed": 37,
+    "failed": 0,
+    "canvas": [
+      192,
+      192
+    ],
+    "subjectMaximum": [
+      176,
+      176
+    ],
+    "centerX": 96,
+    "bottomY": 184,
+    "resampling": "最近傍、縦横比保持。",
+    "alphaCleanup": "透過PNGのRGB・顔・衣服は描き替えない。アルファ1〜15の薄い雑音のみ0とし、16〜255は保持する。全周8画素以上の透明余白を確保する。",
+    "scripts": [
+      {
+        "name": "normalize-sprites.py",
+        "sha256": "479a8176d89527c796a93cac3cb0d1fd7031590876f030f79376907e139459d3"
+      },
+      {
+        "name": "normalize_extra.py",
+        "sha256": "f12e530a6663067412d010e7416cceebb82198eb209f02f4e9a48119d512f749"
+      }
+    ],
+    "prompts": [
+      {
+        "name": "normalize-prompt.txt",
+        "text": "あなたはGemini 3.8 Flashです。新規画像35点の寸法と透明余白の調整を担当してください。まだ新規生成や他担当、画像生成CLI、広い探索、Git操作をしないでください。コード編集は私用作業フォルダ C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson09-20261004 の normalize-sprites.py のみ。\n前回 C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson08-20261004/normalize-sprites.py の方式を参照できます。今回の generated-inputs.json に35画像、入力は参照専用、最終出力は指定の新規PNGのみです。画像制作方法は10点がAntigravityの画像生成担当、25点が利用枠制限に伴う利用者承認済みの別ツールです。\n顔・服装・絵のRGBは変えず、元の透明PNGに残るアルファ1〜15の薄い雑音のみ0、16〜255は保持。透過のbboxを切り出し、縦横比を維持して最大176×176、最近傍、192×192透明面の横中央96・下端184へ配置、周囲8px以上透明余白。入力の背景除去を推測でやり直さない。透明がない入力は失敗として記録する。既存出力は過去reportの保存SHA一致で検証できる場合だけ再利用し、他画像を上書きしない。\nnormalization-report.json の summary(total,completed,failed),failures[],results[] に入力/出力SHA、寸法、bbox、透明画素、微小alpha除去数、処理内容を保存。6列×6行のcontact-sheet.pngに全35点を192実寸で薄灰色面に並べ、下部に英字key。公開画像に文字を追加しない。\nスクリプトを作成して構文確認後、今回は35点すべてに実行し、35/失敗数を実測して短く報告してください。Python/Pillowによる透明雑音と寸法の調整を許可します。sources、AGENTS、TASK、教材のコードや既存の画像には触れない。\n"
+      },
+      {
+        "name": "normalize-extra-prompt.txt",
+        "text": "あなたはGemini 3.8 Flashです。既にこのフォルダで35点の処理を依頼しています。先にそのnormalization-report.jsonを読み、35点の完了を確認してから、extra-inputs.jsonの新規2点だけに同じ調整を実行してください。C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson09-20261004 のみを作業場所とし、元のRGBを変えず、ごく薄いアルファ1〜15だけ透明化、16以上は保持、透過bboxで切り出し、最近傍で最大176×176へ比率維持、192×192透明面の横中央96・下端184へ置く。公開先はextra-inputs.jsonの2つの新規PNGのみ。既存35点や入力を上書きしない。35件が失敗なら隠さず報告して終了する。\nその後generated-inputs.jsonに2件を追記して全37件を確認する。normalization-report.jsonに2件の結果を追加して37/完了37/失敗0を実測し、既存35出力のSHAが不変であることも確認する。6列×7行のcontact-sheet.pngへ全37点の192実寸と英字keyを再出力。画像生成や他担当、広い探索、Git、sourcesや教材コードや他画像の編集は不要。Python/Pillowによる画像の透明雑音・寸法調整を許可。実行を完了して件数と失敗を短く報告してください。\n"
+      }
+    ]
+  },
+  "appearanceReview": {
+    "new": "37点の一覧を目視した。本人ごとの顔・帽子・服、若い咸豊帝と同治帝、朝鮮の国王と大院君、農民と改革派、清朝正規軍と郷勇と太平天国の長髪集団を区別し、透過・余白・輪郭を確認した。",
+    "reuse": "同じ本人のパーマストン、グラッドストン、ナポレオン3世、ヤークーブ＝ベク、劉永福を使用する。旧乾隆帝の絵は服装が合わないため使わず、本人の新作を制作した。軍艦は一般的な近代船の参照で特定の船・部隊を同定しない。",
+    "uncertainPortraits": "洪秀全と閔妃は顔を認証した肖像の再現とせず、時代と役割を示す模式図として画面の説明にも明記する。"
+  },
+  "referenceSources": [
+    {
+      "title": "英国国立肖像画美術館：1816年使節のウィリアム・ピット・アマースト",
+      "url": "https://www.npg.org.uk/collections/search/portrait?mkey=mw00127"
+    },
+    {
+      "title": "英国国立肖像画美術館：マカートニーとスタントン",
+      "url": "https://www.npg.org.uk/collections/search/portraitExtended/mw04084/George-Macartney-1st-Earl-Macartney-Sir-George-Leonard-Staunton-1st-Bt"
+    },
+    {
+      "title": "韓国国立中央博物館：興宣大院君の肖像",
+      "url": "https://www.museum.go.kr/ENG/contents/E0401000000.do?relicRecommendId=519667&schM=view"
+    },
+    {
+      "title": "韓国国立中央博物館：高宗の肖像",
+      "url": "https://www.museum.go.kr/JPN/contents/E0403000000.do?relicId=1830&schM=view&searchId=search"
+    },
+    {
+      "title": "国立国会図書館：伊藤博文",
+      "url": "https://www.ndl.go.jp/portrait/datas/12"
+    },
+    {
+      "title": "スコットランド国立美術館：ゴードン",
+      "url": "https://www.nationalgalleries.org/art-and-artists/111592"
+    }
+  ],
+  "assets": [
+    {
+      "key": "qianlong",
+      "name": "乾隆帝",
+      "kind": "person",
+      "subject": "Qianlong emperor in the 1790s, elderly Chinese Manchu emperor with narrow face, fine grey moustache and thin beard, Qing red topped black brim hat, muted yellow dragon robe and court beads, standing with folded memorial. Do not use white toga or ancient Chinese crown.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Qianlong emperor in the 1790s, elderly Chinese Manchu emperor with narrow face, fine grey moustache and thin beard, Qing red topped black brim hat, muted yellow dragon robe and court beads, standing with folded memorial. Do not use white toga or ancient Chinese crown.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "Gemini via Antigravity",
+      "outputFile": "public/images/modern-c02-l09/qianlong.png",
+      "inputPath": "C:\\Users\\USER\\.gemini\\antigravity-cli\\brain\\1d42e6e5-a907-485f-b698-f01027de7395\\qianlong.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/qianlong.png",
+      "inputSha256": "966c3ea9576428737b9dc70fbf838ffa15e55423c81da482de48f064f90ab210",
+      "outputSha256": "c6524a705870c69ffeb496b01b56b2db26e4cd6bfe008a772739236449d24550",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "originalBbox": [
+        287,
+        42,
+        737,
+        982
+      ],
+      "cleanedBbox": [
+        287,
+        42,
+        737,
+        982
+      ],
+      "savedBbox": [
+        54,
+        8,
+        138,
+        184
+      ],
+      "transparentPixelCount": 27464,
+      "removedFaintAlphaPixels": 0,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 0,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "george-macartney",
+      "name": "マカートニー",
+      "kind": "person",
+      "subject": "George Macartney British diplomat in 1793, adult about fifty-six, pale square face, clean shaven, grey powdered side-curl hair, navy embroidered diplomatic tailcoat, cream waistcoat and knee breeches, document portfolio.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: George Macartney British diplomat in 1793, adult about fifty-six, pale square face, clean shaven, grey powdered side-curl hair, navy embroidered diplomatic tailcoat, cream waistcoat and knee breeches, document portfolio.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "Gemini via Antigravity",
+      "outputFile": "public/images/modern-c02-l09/george-macartney.png",
+      "inputPath": "C:\\Users\\USER\\.gemini\\antigravity-cli\\brain\\a46e1d41-baf0-41a8-8371-a7409f1dfd80\\george-macartney.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/george-macartney.png",
+      "inputSha256": "2e6aa793e035266abaac607e90f15871713be9cbeb8833f04a4caec0c26b316c",
+      "outputSha256": "c61d8f66eda471a4b11997f6f1397c526f8435d9d87e1a9ebdf55214ca72bf6b",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "originalBbox": [
+        262,
+        42,
+        735,
+        982
+      ],
+      "cleanedBbox": [
+        262,
+        42,
+        735,
+        982
+      ],
+      "savedBbox": [
+        52,
+        8,
+        141,
+        184
+      ],
+      "transparentPixelCount": 26468,
+      "removedFaintAlphaPixels": 0,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 0,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "william-amherst",
+      "name": "アマースト",
+      "kind": "person",
+      "subject": "William Pitt Amherst the 1816 British diplomatic envoy, NOT Jeffrey Amherst, middle aged clean shaven long face, short brown side hair and high forehead, navy Regency coat, white cravat, pale waistcoat, holding closed papers.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: William Pitt Amherst the 1816 British diplomatic envoy, NOT Jeffrey Amherst, middle aged clean shaven long face, short brown side hair and high forehead, navy Regency coat, white cravat, pale waistcoat, holding closed papers.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "Gemini via Antigravity",
+      "outputFile": "public/images/modern-c02-l09/william-amherst.png",
+      "inputPath": "C:\\Users\\USER\\.gemini\\antigravity-cli\\brain\\031f1693-4c4d-4bde-b0a7-852e267a909d\\sprites\\william-amherst.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/william-amherst.png",
+      "inputSha256": "478ffe3a40c5e29769cceb9688c2ee6b465561eab32075a3088ba7f40f1b0237",
+      "outputSha256": "99a5dd731e1656c373e954de4afdf6f407da6551b8801432b546957a0bccde8f",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "originalBbox": [
+        286,
+        41,
+        738,
+        984
+      ],
+      "cleanedBbox": [
+        286,
+        41,
+        738,
+        984
+      ],
+      "savedBbox": [
+        54,
+        8,
+        138,
+        184
+      ],
+      "transparentPixelCount": 26924,
+      "removedFaintAlphaPixels": 0,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 0,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "jiaqing",
+      "name": "嘉慶帝",
+      "kind": "person",
+      "subject": "Jiaqing Qing emperor in the 1810s, late middle aged Chinese Manchu man, broader oval face, narrow eyes, neat thin black moustache and goatee, red topped Qing official hat, muted mustard imperial robe and court beads, folded scroll.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Jiaqing Qing emperor in the 1810s, late middle aged Chinese Manchu man, broader oval face, narrow eyes, neat thin black moustache and goatee, red topped Qing official hat, muted mustard imperial robe and court beads, folded scroll.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "Gemini via Antigravity",
+      "outputFile": "public/images/modern-c02-l09/jiaqing.png",
+      "inputPath": "C:\\Users\\USER\\.gemini\\antigravity-cli\\brain\\1d42e6e5-a907-485f-b698-f01027de7395\\jiaqing.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/jiaqing.png",
+      "inputSha256": "60f53f83fc9f6493d9dcfab3e32d5ffde3858058ad6d3a832035e169c4bb9fba",
+      "outputSha256": "967693df7a259e11fff622ea6841a5ad60e298ff65ab353de18e8334dd213ed6",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "originalBbox": [
+        281,
+        41,
+        743,
+        983
+      ],
+      "cleanedBbox": [
+        281,
+        41,
+        743,
+        983
+      ],
+      "savedBbox": [
+        53,
+        8,
+        139,
+        184
+      ],
+      "transparentPixelCount": 27188,
+      "removedFaintAlphaPixels": 0,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 0,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "daoguang",
+      "name": "道光帝",
+      "kind": "person",
+      "subject": "Daoguang Qing emperor in the 1830s, Chinese Manchu man with very thin elongated face and small dark moustache, red topped Qing court hat, ochre imperial robe, dark teal cuffs and pearl necklace, standing with sealed memorial.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Daoguang Qing emperor in the 1830s, Chinese Manchu man with very thin elongated face and small dark moustache, red topped Qing court hat, ochre imperial robe, dark teal cuffs and pearl necklace, standing with sealed memorial.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "Gemini via Antigravity",
+      "outputFile": "public/images/modern-c02-l09/daoguang.png",
+      "inputPath": "C:\\Users\\USER\\.gemini\\antigravity-cli\\brain\\a46e1d41-baf0-41a8-8371-a7409f1dfd80\\daoguang.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/daoguang.png",
+      "inputSha256": "e66bdea30240a7dc651022811ff26f74df1c43a640bef056067594523574ac80",
+      "outputSha256": "9f8e068e3b798194d559ea0a7f6ff98c958241ca71f491d8a1c616a1e8d87ffe",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "originalBbox": [
+        298,
+        42,
+        736,
+        982
+      ],
+      "cleanedBbox": [
+        298,
+        42,
+        736,
+        982
+      ],
+      "savedBbox": [
+        55,
+        8,
+        137,
+        184
+      ],
+      "transparentPixelCount": 27771,
+      "removedFaintAlphaPixels": 0,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 0,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "lin-zexu",
+      "name": "林則徐",
+      "kind": "person",
+      "subject": "Lin Zexu Qing official in 1839, adult about fifty, dignified rounded face, slight moustache and pointed beard, Qing red topped black brim official hat, dark blue robe with subtle embroidered rank badge, holding closed memorial.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Lin Zexu Qing official in 1839, adult about fifty, dignified rounded face, slight moustache and pointed beard, Qing red topped black brim official hat, dark blue robe with subtle embroidered rank badge, holding closed memorial.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "Gemini via Antigravity",
+      "outputFile": "public/images/modern-c02-l09/lin-zexu.png",
+      "inputPath": "C:/Users/USER/.gemini/antigravity-cli/brain/770535a0-a46b-4dd8-a7dc-4d49a0fcb6e2/lin-zexu.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/lin-zexu.png",
+      "inputSha256": "f73a04a0bf89a8129ba6f4aed0f69dbd0564ed0f11b1ab3db9b8048542de9976",
+      "outputSha256": "cbd94349009dfa256e9240d01e0bc4aa5c6fac04592520bf91b9a4b41eca0ddc",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "originalBbox": [
+        286,
+        19,
+        749,
+        983
+      ],
+      "cleanedBbox": [
+        286,
+        19,
+        749,
+        983
+      ],
+      "savedBbox": [
+        54,
+        8,
+        139,
+        184
+      ],
+      "transparentPixelCount": 27057,
+      "removedFaintAlphaPixels": 0,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 0,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "xianfeng",
+      "name": "咸豊帝",
+      "kind": "person",
+      "subject": "Xianfeng Qing emperor around 1860, Chinese Manchu man aged thirty with young narrow face, small moustache, red topped Qing hat and subdued golden dragon robe, court beads, standing hands folded, no old grey beard.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Xianfeng Qing emperor around 1860, Chinese Manchu man aged thirty with young narrow face, small moustache, red topped Qing hat and subdued golden dragon robe, court beads, standing hands folded, no old grey beard.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "Gemini via Antigravity",
+      "outputFile": "public/images/modern-c02-l09/xianfeng.png",
+      "inputPath": "C:\\Users\\USER\\.gemini\\antigravity-cli\\brain\\031f1693-4c4d-4bde-b0a7-852e267a909d\\sprites\\xianfeng.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/xianfeng.png",
+      "inputSha256": "3201655fb7bb888e67447307916c9b80e46d55b7f3d4c2b73d8bccdbb67af04f",
+      "outputSha256": "c33071083e6b42b4d8187a9b60fa3aa378e121907bf11e8579beafd3e9e24cc4",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "originalBbox": [
+        297,
+        41,
+        727,
+        983
+      ],
+      "cleanedBbox": [
+        297,
+        41,
+        727,
+        983
+      ],
+      "savedBbox": [
+        56,
+        8,
+        136,
+        184
+      ],
+      "transparentPixelCount": 27426,
+      "removedFaintAlphaPixels": 0,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 0,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "nikolay-muravyov",
+      "name": "ムラヴィヨフ",
+      "kind": "person",
+      "subject": "Nikolay Muravyov-Amursky Russian governor in the late 1850s, middle aged broad pale face, short receding brown hair, bushy brown moustache with short sideburns, dark green Russian officer coat with restrained gold epaulettes and high collar, rolled treaty. No Soviet insignia.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Nikolay Muravyov-Amursky Russian governor in the late 1850s, middle aged broad pale face, short receding brown hair, bushy brown moustache with short sideburns, dark green Russian officer coat with restrained gold epaulettes and high collar, rolled treaty. No Soviet insignia.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "Gemini via Antigravity",
+      "outputFile": "public/images/modern-c02-l09/nikolay-muravyov.png",
+      "inputPath": "C:\\Users\\USER\\.gemini\\antigravity-cli\\brain\\1d42e6e5-a907-485f-b698-f01027de7395\\nikolay-muravyov.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/nikolay-muravyov.png",
+      "inputSha256": "45e1be0597e2282d0637ffccf9bf61269f6ba395bf98897beb71aeddf9fbe96d",
+      "outputSha256": "b493ad257a24db3ffcf9d45cc8aa083b35de8410d8727b5bd83e39e256fb944a",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "originalBbox": [
+        281,
+        41,
+        743,
+        983
+      ],
+      "cleanedBbox": [
+        281,
+        41,
+        743,
+        983
+      ],
+      "savedBbox": [
+        53,
+        8,
+        139,
+        184
+      ],
+      "transparentPixelCount": 26426,
+      "removedFaintAlphaPixels": 0,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 0,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "hong-xiuquan",
+      "name": "洪秀全",
+      "kind": "person",
+      "subject": "Hong Xiuquan Taiping leader in the 1850s, Chinese Hakka man in his forties, long dark hair without Qing queue, thin moustache and short goatee, restrained red and ochre robe, modest cloth headband, standing with closed book. Respectful schematic interpretation rather than certified portrait, no halos or magical power, no deity.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Hong Xiuquan Taiping leader in the 1850s, Chinese Hakka man in his forties, long dark hair without Qing queue, thin moustache and short goatee, restrained red and ochre robe, modest cloth headband, standing with closed book. Respectful schematic interpretation rather than certified portrait, no halos or magical power, no deity.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/hong-xiuquan.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-8a2ba55e-e0ab-4e2a-a7e7-d7fbf3557745.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/hong-xiuquan.png",
+      "inputSha256": "d351046965d6a8a150b24776090b311e365205c17c25424079baacd9c40ed9c8",
+      "outputSha256": "a03b5507aaf1e286c520a8a259e861dc730322b14f8d480be19c26302d00f762",
+      "originalDimensions": {
+        "width": 1233,
+        "height": 1275
+      },
+      "originalBbox": [
+        33,
+        21,
+        1203,
+        1249
+      ],
+      "cleanedBbox": [
+        278,
+        111,
+        930,
+        1208
+      ],
+      "savedBbox": [
+        44,
+        8,
+        149,
+        184
+      ],
+      "transparentPixelCount": 23993,
+      "removedFaintAlphaPixels": 10988,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10988,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "frederick-ward",
+      "name": "ウォード",
+      "kind": "person",
+      "subject": "Frederick Townsend Ward American commander in China about 1860, young adult about twenty-nine, pale narrow face, dark wavy hair, thin dark moustache, dark blue mid nineteenth century tunic and trousers with modest officer trim, holding closed papers. Not an American Civil War regiment or US flag.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Frederick Townsend Ward American commander in China about 1860, young adult about twenty-nine, pale narrow face, dark wavy hair, thin dark moustache, dark blue mid nineteenth century tunic and trousers with modest officer trim, holding closed papers. Not an American Civil War regiment or US flag.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "Gemini via Antigravity",
+      "outputFile": "public/images/modern-c02-l09/frederick-ward.png",
+      "inputPath": "C:\\Users\\USER\\.gemini\\antigravity-cli\\brain\\031f1693-4c4d-4bde-b0a7-852e267a909d\\sprites\\frederick-ward.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/frederick-ward.png",
+      "inputSha256": "cd0a31f36f17dafb79ea7175324e224e9ca9ece7c02faf5207571adee329110a",
+      "outputSha256": "75d1a5710951e9dfd1ad1f0e4c1e4a75c5e3ec98910506fc5458bf4a61cfbc2f",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "originalBbox": [
+        286,
+        41,
+        738,
+        983
+      ],
+      "cleanedBbox": [
+        286,
+        41,
+        738,
+        983
+      ],
+      "savedBbox": [
+        54,
+        8,
+        138,
+        184
+      ],
+      "transparentPixelCount": 27121,
+      "removedFaintAlphaPixels": 0,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 0,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "charles-gordon",
+      "name": "ゴードン",
+      "kind": "person",
+      "subject": "Charles George Gordon British commander in China in the 1860s, pale angular face, short wavy light brown hair, neat dark moustache and light sideburns, blue Victorian officer coat with restrained gold shoulder trim, dark trousers, closed map in hand. No later Sudan scene.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Charles George Gordon British commander in China in the 1860s, pale angular face, short wavy light brown hair, neat dark moustache and light sideburns, blue Victorian officer coat with restrained gold shoulder trim, dark trousers, closed map in hand. No later Sudan scene.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/charles-gordon.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-2c6c8313-db63-40cb-8427-3fd427fcd172.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/charles-gordon.png",
+      "inputSha256": "99d19c92d5602af27839916a8b8c73524eb8c2223490ea247310715282adfc7e",
+      "outputSha256": "0943b27f23f067f15461ac6dea6de4d9a883662fd9d441411e83da920c0cae31",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "originalBbox": [
+        41,
+        136,
+        1066,
+        1356
+      ],
+      "cleanedBbox": [
+        316,
+        139,
+        819,
+        1253
+      ],
+      "savedBbox": [
+        57,
+        8,
+        136,
+        184
+      ],
+      "transparentPixelCount": 27115,
+      "removedFaintAlphaPixels": 10354,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10354,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "zeng-guofan",
+      "name": "曾国藩",
+      "kind": "person",
+      "subject": "Zeng Guofan Qing Chinese official in the 1860s, middle aged to elderly man, broad face, thick dark eyebrows, long grey-black beard and moustache, red topped black Qing official hat, deep navy robe and court beads, closed book.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Zeng Guofan Qing Chinese official in the 1860s, middle aged to elderly man, broad face, thick dark eyebrows, long grey-black beard and moustache, red topped black Qing official hat, deep navy robe and court beads, closed book.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/zeng-guofan.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-db782d31-a8cd-4857-a0aa-4a02eeca61af.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/zeng-guofan.png",
+      "inputSha256": "8db2a3571b609f42c9543b162ff56d3d5c4d0f10294efc87a5f0597dfb426a42",
+      "outputSha256": "9af736f08da35971679e42b0424f2921a8c777c02ca682fd510e2a863a0294f1",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "originalBbox": [
+        41,
+        19,
+        1014,
+        1326
+      ],
+      "cleanedBbox": [
+        233,
+        58,
+        914,
+        1316
+      ],
+      "savedBbox": [
+        49,
+        8,
+        144,
+        184
+      ],
+      "transparentPixelCount": 25670,
+      "removedFaintAlphaPixels": 15489,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15489,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "li-hongzhang",
+      "name": "李鴻章",
+      "kind": "person",
+      "subject": "Li Hongzhang Chinese Qing statesman in the 1880s-1895, tall thin elderly face, long sparse grey beard and moustache, red topped Qing official hat, deep blue robe with embroidered rank square and pearl necklace, treaty document in hand. Recognizable respectful likeness.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Li Hongzhang Chinese Qing statesman in the 1880s-1895, tall thin elderly face, long sparse grey beard and moustache, red topped Qing official hat, deep blue robe with embroidered rank square and pearl necklace, treaty document in hand. Recognizable respectful likeness.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "Gemini via Antigravity",
+      "outputFile": "public/images/modern-c02-l09/li-hongzhang.png",
+      "inputPath": "C:\\Users\\USER\\.gemini\\antigravity-cli\\brain\\031f1693-4c4d-4bde-b0a7-852e267a909d\\sprites\\li-hongzhang.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/li-hongzhang.png",
+      "inputSha256": "68c22a5aad70f4c4385b779c9f58e0fbc5c6c12dfe446a2be815b6e9ac7e8618",
+      "outputSha256": "8209f390ae850aaa271bf91ec6279214db9ed54c0212012239761e0023b34434",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1024
+      },
+      "originalBbox": [
+        270,
+        41,
+        732,
+        983
+      ],
+      "cleanedBbox": [
+        270,
+        41,
+        732,
+        983
+      ],
+      "savedBbox": [
+        53,
+        8,
+        139,
+        184
+      ],
+      "transparentPixelCount": 26611,
+      "removedFaintAlphaPixels": 0,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 0,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "zuo-zongtang",
+      "name": "左宗棠",
+      "kind": "person",
+      "subject": "Zuo Zongtang Qing Chinese official in the 1870s, older stout broad stern face, full dark-grey beard and wide moustache, Qing red topped black hat, dark brown-blue official robe and court beads, folded map, distinct from Li Hongzhang.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Zuo Zongtang Qing Chinese official in the 1870s, older stout broad stern face, full dark-grey beard and wide moustache, Qing red topped black hat, dark brown-blue official robe and court beads, folded map, distinct from Li Hongzhang.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/zuo-zongtang.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-60510426-33c9-461b-83c4-baa5956bb5ee.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/zuo-zongtang.png",
+      "inputSha256": "1b0d2e51b2002a942978c0b8c1c86c572995d31d334221cc6ed46d12425f01e8",
+      "outputSha256": "548444bc3f5a7c5afa2107c26550ec287af46120e62efab84a51d18526564229",
+      "originalDimensions": {
+        "width": 1215,
+        "height": 1295
+      },
+      "originalBbox": [
+        0,
+        33,
+        1201,
+        1266
+      ],
+      "cleanedBbox": [
+        241,
+        41,
+        992,
+        1264
+      ],
+      "savedBbox": [
+        42,
+        8,
+        150,
+        184
+      ],
+      "transparentPixelCount": 24326,
+      "removedFaintAlphaPixels": 16944,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 16944,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "tongzhi",
+      "name": "同治帝",
+      "kind": "person",
+      "subject": "Tongzhi emperor in the late 1860s, youthful Chinese Manchu male around eighteen, round youthful face with no long beard, red topped Qing court hat, pale ochre dragon robe, dark blue sleeves and court beads, standing neutrally.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Tongzhi emperor in the late 1860s, youthful Chinese Manchu male around eighteen, round youthful face with no long beard, red topped Qing court hat, pale ochre dragon robe, dark blue sleeves and court beads, standing neutrally.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/tongzhi.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3bcf1037-d2db-4ca8-8843-3590e0423d4d.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/tongzhi.png",
+      "inputSha256": "15e272c327501d0ccc0b85a2a7a00647c9e4779c518989f369cfeda34d16919a",
+      "outputSha256": "08723610ff6117972e1a720f849bb48a0d5afb8601078d16b81ecb3bd35c3a57",
+      "originalDimensions": {
+        "width": 1230,
+        "height": 1278
+      },
+      "originalBbox": [
+        0,
+        0,
+        1216,
+        1278
+      ],
+      "cleanedBbox": [
+        363,
+        7,
+        866,
+        1270
+      ],
+      "savedBbox": [
+        61,
+        8,
+        131,
+        184
+      ],
+      "transparentPixelCount": 28751,
+      "removedFaintAlphaPixels": 19165,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 19165,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "heungseon-daewongun",
+      "name": "大院君",
+      "kind": "person",
+      "subject": "Heungseon Daewongun Korean regent in the 1860s-1880s, elderly man with long narrow face, thin white-grey moustache and pointed beard, black Joseon scholar headcloth, muted pale blue traditional robe with deep blue edging, closed fan. Inspired by surviving portraits of Yi Haeung, no Qing hat.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Heungseon Daewongun Korean regent in the 1860s-1880s, elderly man with long narrow face, thin white-grey moustache and pointed beard, black Joseon scholar headcloth, muted pale blue traditional robe with deep blue edging, closed fan. Inspired by surviving portraits of Yi Haeung, no Qing hat.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/heungseon-daewongun.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-285a751a-3023-467f-b597-4a64ff1bf179.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/heungseon-daewongun.png",
+      "inputSha256": "2bb5b9be7de3ed53abc532f37c590ff08b71318ada193be5ecefbff988e33cba",
+      "outputSha256": "59979e76eb367a77caaa7c301e8f9c2740efe7dfa3c347d51cf2f3454eb7462f",
+      "originalDimensions": {
+        "width": 1199,
+        "height": 1312
+      },
+      "originalBbox": [
+        33,
+        21,
+        1152,
+        1252
+      ],
+      "cleanedBbox": [
+        319,
+        84,
+        883,
+        1250
+      ],
+      "savedBbox": [
+        54,
+        8,
+        139,
+        184
+      ],
+      "transparentPixelCount": 26125,
+      "removedFaintAlphaPixels": 9038,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9038,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "gojong",
+      "name": "高宗",
+      "kind": "person",
+      "subject": "Gojong king of Joseon around 1880, adult Korean man in his late twenties, oval youthful face, small black moustache, black winged royal ikseongwan cap, muted red royal gollyongpo robe with circular gold dragon badge, hands folded. NOT later yellow imperial robe.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Gojong king of Joseon around 1880, adult Korean man in his late twenties, oval youthful face, small black moustache, black winged royal ikseongwan cap, muted red royal gollyongpo robe with circular gold dragon badge, hands folded. NOT later yellow imperial robe.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/gojong.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d20dae79-0e89-437a-8aa1-702695844e42.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/gojong.png",
+      "inputSha256": "3b4895f1f18578a1b9288227ec26f2b223032f254687b0a7cf880b96eb82c955",
+      "outputSha256": "574b3a1f09d9863d45850c5211c0f71a9e0b5081725fd9a25336cc4e7c9327ff",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "originalBbox": [
+        33,
+        21,
+        1014,
+        1350
+      ],
+      "cleanedBbox": [
+        327,
+        92,
+        818,
+        1307
+      ],
+      "savedBbox": [
+        61,
+        8,
+        132,
+        184
+      ],
+      "transparentPixelCount": 27714,
+      "removedFaintAlphaPixels": 14876,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14876,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "queen-min",
+      "name": "閔妃",
+      "kind": "person",
+      "subject": "Queen Min of Joseon in the 1880s, dignified adult Korean woman in her thirties, oval face, centre parted black hair in neat low bun with discreet pin, muted deep red formal jeogori and dark blue full chima, standing holding a closed document. Respectful schematic interpretation, do not claim uncertain photographs authenticate her likeness, no Qing Manchu headdress.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Queen Min of Joseon in the 1880s, dignified adult Korean woman in her thirties, oval face, centre parted black hair in neat low bun with discreet pin, muted deep red formal jeogori and dark blue full chima, standing holding a closed document. Respectful schematic interpretation, do not claim uncertain photographs authenticate her likeness, no Qing Manchu headdress.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/queen-min.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6364d689-6965-4121-8315-de93c4b3a59a.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/queen-min.png",
+      "inputSha256": "8c0ad2b79b58036f7e6e5d4125f220fcfee30d9d35838a7983d84951856ae116",
+      "outputSha256": "b367a2c8380dfad55b92027c7b72b8b2481f6aea530315b6c79b978e4b72a7b0",
+      "originalDimensions": {
+        "width": 1223,
+        "height": 1286
+      },
+      "originalBbox": [
+        0,
+        21,
+        1112,
+        1260
+      ],
+      "cleanedBbox": [
+        320,
+        134,
+        899,
+        1208
+      ],
+      "savedBbox": [
+        49,
+        8,
+        144,
+        184
+      ],
+      "transparentPixelCount": 25622,
+      "removedFaintAlphaPixels": 10047,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10047,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "kim-ok-gyun",
+      "name": "金玉均",
+      "kind": "person",
+      "subject": "Kim Ok-gyun Korean reformer in 1884, adult Korean man about thirty-three, slender face, small neat moustache, short dark hair, late nineteenth century dark western frock coat with white collar and tie, folded reform document. No modern suit jacket or modern flag.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Kim Ok-gyun Korean reformer in 1884, adult Korean man about thirty-three, slender face, small neat moustache, short dark hair, late nineteenth century dark western frock coat with white collar and tie, folded reform document. No modern suit jacket or modern flag.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/kim-ok-gyun.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-f680ab43-7b66-4229-b433-1f3f8762af01.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/kim-ok-gyun.png",
+      "inputSha256": "c25d47a86f3f5a615f123514f862f44ca14076890849d458f1771e1255db5ffe",
+      "outputSha256": "7959ff3a1aabdd567a82931f89bbbe81744bdded3b73230ed4183e21297f5f6e",
+      "originalDimensions": {
+        "width": 1227,
+        "height": 1282
+      },
+      "originalBbox": [
+        0,
+        21,
+        1140,
+        1282
+      ],
+      "cleanedBbox": [
+        371,
+        83,
+        848,
+        1215
+      ],
+      "savedBbox": [
+        59,
+        8,
+        133,
+        184
+      ],
+      "transparentPixelCount": 27145,
+      "removedFaintAlphaPixels": 9942,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9942,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "park-yeong-hyo",
+      "name": "朴泳孝",
+      "kind": "person",
+      "subject": "Park Yeong-hyo Korean reformer in 1884, young adult Korean man about twenty-three, clean shaven broad youthful face, dark parted short hair, muted dark blue western nineteenth century frock coat and white high collar, closed papers, distinct from Kim Ok-gyun.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Park Yeong-hyo Korean reformer in 1884, young adult Korean man about twenty-three, clean shaven broad youthful face, dark parted short hair, muted dark blue western nineteenth century frock coat and white high collar, closed papers, distinct from Kim Ok-gyun.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/park-yeong-hyo.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-8c92bb7a-a3b7-4a0e-bab5-d1e52e8b6305.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/park-yeong-hyo.png",
+      "inputSha256": "b9ff6136b1825195fec2090526c1cda436dd571e4a072e43357a1d1d41ec800e",
+      "outputSha256": "5bf612b962bfd6ca01dc684dca9d77be006b627f64d39425257504325fca1d2c",
+      "originalDimensions": {
+        "width": 1222,
+        "height": 1287
+      },
+      "originalBbox": [
+        0,
+        15,
+        1045,
+        1287
+      ],
+      "cleanedBbox": [
+        353,
+        123,
+        881,
+        1239
+      ],
+      "savedBbox": [
+        55,
+        8,
+        138,
+        184
+      ],
+      "transparentPixelCount": 26445,
+      "removedFaintAlphaPixels": 12148,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12148,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "yuan-shikai",
+      "name": "袁世凱",
+      "kind": "person",
+      "subject": "Yuan Shikai serving in Korea around 1884-1894, Chinese man in his thirties, round face and thick black moustache, Qing military official dark cap, dark blue Qing military robe and boots, restrained belt and rank badge, folded document. Not bald elderly president or republican general.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Yuan Shikai serving in Korea around 1884-1894, Chinese man in his thirties, round face and thick black moustache, Qing military official dark cap, dark blue Qing military robe and boots, restrained belt and rank badge, folded document. Not bald elderly president or republican general.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/yuan-shikai.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5f81b467-dc02-42fd-b2af-6d785048a05d.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/yuan-shikai.png",
+      "inputSha256": "b7b293e45ddcf8256e87e0f20fe02ca6ad7c847b4f9de7709cd9fcdadb97d337",
+      "outputSha256": "d3ddbc4b1314f7c56c50779273828a9b1d3dc827ac454caccdf9247a58b80e3e",
+      "originalDimensions": {
+        "width": 1230,
+        "height": 1278
+      },
+      "originalBbox": [
+        0,
+        19,
+        1119,
+        1278
+      ],
+      "cleanedBbox": [
+        350,
+        120,
+        888,
+        1176
+      ],
+      "savedBbox": [
+        51,
+        8,
+        141,
+        184
+      ],
+      "transparentPixelCount": 26254,
+      "removedFaintAlphaPixels": 12839,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12839,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "choe-je-u",
+      "name": "崔済愚",
+      "kind": "person",
+      "subject": "Choe Je-u Donghak founder in the 1860s, Korean man around forty, thin dark moustache and short goatee, black Joseon scholar gat hat, simple ivory robe with muted blue trim and closed book. Neutral historical schematic, no supernatural symbols.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Choe Je-u Donghak founder in the 1860s, Korean man around forty, thin dark moustache and short goatee, black Joseon scholar gat hat, simple ivory robe with muted blue trim and closed book. Neutral historical schematic, no supernatural symbols.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/choe-je-u.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3b5b7361-a817-465e-8a02-882d1bdf2341.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/choe-je-u.png",
+      "inputSha256": "294a0c53e376f4e9615cdc425b431ddd9898808f5276b50e083517fdad108438",
+      "outputSha256": "f4b1feb66d3a0aea5a8d4903401864c7f642c03189385979a2607dc608db085e",
+      "originalDimensions": {
+        "width": 1167,
+        "height": 1348
+      },
+      "originalBbox": [
+        50,
+        19,
+        1143,
+        1296
+      ],
+      "cleanedBbox": [
+        247,
+        87,
+        907,
+        1293
+      ],
+      "savedBbox": [
+        48,
+        8,
+        144,
+        184
+      ],
+      "transparentPixelCount": 27364,
+      "removedFaintAlphaPixels": 14944,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14944,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "jeon-bong-jun",
+      "name": "全琫準",
+      "kind": "person",
+      "subject": "Jeon Bong-jun Korean peasant leader in 1894, small adult Korean man around forty, lean weathered face, small moustache, white cloth headband, simple off-white hanbok and dark cloth waist tie, sandals, closed petition scroll, no blood, chains or caricature.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Jeon Bong-jun Korean peasant leader in 1894, small adult Korean man around forty, lean weathered face, small moustache, white cloth headband, simple off-white hanbok and dark cloth waist tie, sandals, closed petition scroll, no blood, chains or caricature.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/jeon-bong-jun.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-f30a8f3c-291c-4ccd-8361-e62c0f42ed77.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/jeon-bong-jun.png",
+      "inputSha256": "b3fad45b2c91ad53a95110cdaf977af9d7e66e806a78b1e86adc73f0d7a6c0c2",
+      "outputSha256": "c755721a9c57733fc858e544fc4e72f33eb5c457347fba9a817eef9968c20d14",
+      "originalDimensions": {
+        "width": 1189,
+        "height": 1323
+      },
+      "originalBbox": [
+        31,
+        19,
+        1179,
+        1323
+      ],
+      "cleanedBbox": [
+        295,
+        107,
+        896,
+        1273
+      ],
+      "savedBbox": [
+        51,
+        8,
+        142,
+        184
+      ],
+      "transparentPixelCount": 26837,
+      "removedFaintAlphaPixels": 15678,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15678,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "cixi",
+      "name": "西太后",
+      "kind": "person",
+      "subject": "Empress Dowager Cixi around 1894, Chinese Manchu woman aged about sixty, round mature face, centre parted black hair with restrained Manchu court headpiece and small flowers, muted deep blue silk robe with subtle embroidered trim, court beads, closed fan, dignified neutral likeness.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Empress Dowager Cixi around 1894, Chinese Manchu woman aged about sixty, round mature face, centre parted black hair with restrained Manchu court headpiece and small flowers, muted deep blue silk robe with subtle embroidered trim, court beads, closed fan, dignified neutral likeness.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/cixi.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-2bbd413c-ad84-4ff6-be8c-93f45e7d3f35.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/cixi.png",
+      "inputSha256": "04d3974f3c298b7758f3025b278d56f1cd390fc6284f22bb6748d0e8ccb20738",
+      "outputSha256": "210b27f3743d0db80bfa10e184296adfb342fe33cd800e5166d83cfe2c525e56",
+      "originalDimensions": {
+        "width": 1179,
+        "height": 1334
+      },
+      "originalBbox": [
+        0,
+        21,
+        1143,
+        1318
+      ],
+      "cleanedBbox": [
+        274,
+        106,
+        896,
+        1289
+      ],
+      "savedBbox": [
+        50,
+        8,
+        143,
+        184
+      ],
+      "transparentPixelCount": 25193,
+      "removedFaintAlphaPixels": 20090,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 20090,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "ito-hirobumi",
+      "name": "伊藤博文",
+      "kind": "person",
+      "subject": "Ito Hirobumi Japanese prime minister in 1895, adult Japanese man aged fifty-three, high receding forehead, short dark-grey hair, rounded cheeks, bushy moustache and full short grey-dark beard, dark nineteenth century frock coat and white high collar, treaty papers. Respectful likeness from National Diet Library portraits.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Ito Hirobumi Japanese prime minister in 1895, adult Japanese man aged fifty-three, high receding forehead, short dark-grey hair, rounded cheeks, bushy moustache and full short grey-dark beard, dark nineteenth century frock coat and white high collar, treaty papers. Respectful likeness from National Diet Library portraits.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/ito-hirobumi.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-cf5bdea0-ada5-4a1c-bef1-b187854c1c97.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/ito-hirobumi.png",
+      "inputSha256": "84150d3940ab4a86b5f959a057d637b31851062f5fcc320a82a55423958d9899",
+      "outputSha256": "89f104be095c68fdd15dee1c27a145969d82ccaee1cca6756a0199996976f173",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "originalBbox": [
+        49,
+        19,
+        1050,
+        1374
+      ],
+      "cleanedBbox": [
+        280,
+        97,
+        866,
+        1301
+      ],
+      "savedBbox": [
+        53,
+        8,
+        139,
+        184
+      ],
+      "transparentPixelCount": 26078,
+      "removedFaintAlphaPixels": 9554,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9554,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "chinese-villagers",
+      "name": "清朝期の農民",
+      "kind": "group",
+      "subject": "Exactly two generic ordinary Chinese villagers in the mid nineteenth century, adult man and woman, plain muted brown and indigo Qing rural tunic, trousers and cloth shoes, man wearing simple cloth cap, woman neat hair and basket of rice. Dignified distinct faces, no stereotypes or identifiable historical people.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Exactly two generic ordinary Chinese villagers in the mid nineteenth century, adult man and woman, plain muted brown and indigo Qing rural tunic, trousers and cloth shoes, man wearing simple cloth cap, woman neat hair and basket of rice. Dignified distinct faces, no stereotypes or identifiable historical people.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/chinese-villagers.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-f3492846-e45e-4939-a1d1-e216ddc68a32.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/chinese-villagers.png",
+      "inputSha256": "4f5d0ba0beb8926a0c12d2628c15655651965f7e52dd70a8a0bcb6c00273b01c",
+      "outputSha256": "abd033e1faae82562588258ef87787b7e22655eb3ade764f548e2ce47e693531",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        141,
+        13,
+        1378,
+        960
+      ],
+      "cleanedBbox": [
+        302,
+        68,
+        1201,
+        958
+      ],
+      "savedBbox": [
+        8,
+        10,
+        184,
+        184
+      ],
+      "transparentPixelCount": 19320,
+      "removedFaintAlphaPixels": 23035,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 23035,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "taiping-volunteers",
+      "name": "太平天国側の一般の人びと",
+      "kind": "group",
+      "subject": "Exactly two generic adult Chinese Taiping volunteers in the 1850s, long loose black hair without Qing shaved forehead or queue, simple muted red-brown and ivory tunics, cloth belts and cloth shoes, one holding closed proclamation and one modest upright wooden staff. No fighting, blood, fantasy crown or Christian halo.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Exactly two generic adult Chinese Taiping volunteers in the 1850s, long loose black hair without Qing shaved forehead or queue, simple muted red-brown and ivory tunics, cloth belts and cloth shoes, one holding closed proclamation and one modest upright wooden staff. No fighting, blood, fantasy crown or Christian halo.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/taiping-volunteers.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9d137dc2-ff97-49dd-a2cc-c8542e09a3e2.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/taiping-volunteers.png",
+      "inputSha256": "4804a8502e5b2f7ba8df9f5c623c87717b2b7a2541b49cf91bd45983cc58c5dc",
+      "outputSha256": "6728cc5b8ff9fe59ccb9d9fe82c7d507d1f80251820e8c0bb54a0953b77e0aac",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        121,
+        21,
+        1452,
+        1008
+      ],
+      "cleanedBbox": [
+        270,
+        103,
+        1268,
+        945
+      ],
+      "savedBbox": [
+        8,
+        36,
+        184,
+        184
+      ],
+      "transparentPixelCount": 20049,
+      "removedFaintAlphaPixels": 32931,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 32931,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "qing-local-braves",
+      "name": "郷勇の一般兵",
+      "kind": "group",
+      "subject": "Exactly two generic adult Chinese Qing local braves in the 1860s, dark blue and muted grey tunics, cloth turbans and waist belts, trousers and cloth shoes, one holding a period wooden-stock rifle safely pointed upward and one carrying a rolled supply blanket. No modern military clothing, no action or gore, no fake flags.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Exactly two generic adult Chinese Qing local braves in the 1860s, dark blue and muted grey tunics, cloth turbans and waist belts, trousers and cloth shoes, one holding a period wooden-stock rifle safely pointed upward and one carrying a rolled supply blanket. No modern military clothing, no action or gore, no fake flags.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/qing-local-braves.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7e64d0b2-50dc-4f46-861f-d197af0bada2.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/qing-local-braves.png",
+      "inputSha256": "1a5ef1bf1f6d87093b7f25ae7a25e2b596b3834915735d6120d7666c4184d90b",
+      "outputSha256": "2f4a58dcaa16ac2b5540550f0480c14ef2123176861cb4e6ed38d8dae8f6719a",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        65,
+        27,
+        1450,
+        1006
+      ],
+      "cleanedBbox": [
+        222,
+        72,
+        1335,
+        958
+      ],
+      "savedBbox": [
+        8,
+        44,
+        184,
+        184
+      ],
+      "transparentPixelCount": 22299,
+      "removedFaintAlphaPixels": 29373,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 29373,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "korean-farmers",
+      "name": "朝鮮の農民",
+      "kind": "group",
+      "subject": "Exactly two generic Korean adult peasants in the 1890s, simple off-white and muted tan hanbok, cloth headband on man and neat low bun on woman, straw sandals, man with closed petition and woman with rice basket. Dignified non-caricature faces, no modern hats, flags or violence.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Exactly two generic Korean adult peasants in the 1890s, simple off-white and muted tan hanbok, cloth headband on man and neat low bun on woman, straw sandals, man with closed petition and woman with rice basket. Dignified non-caricature faces, no modern hats, flags or violence.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/korean-farmers.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-644627fd-8d29-44e7-8f9a-06828bed8dd4.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/korean-farmers.png",
+      "inputSha256": "ac57d63a0e88148fc2f552370909cdbcbcaef7f392267c0e5937c034549a6e45",
+      "outputSha256": "e81e02fb602e3fa551a34f3a873175061e38ee5eee879bad9f2cbf07574754e4",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        65,
+        21,
+        1482,
+        984
+      ],
+      "cleanedBbox": [
+        328,
+        71,
+        1230,
+        971
+      ],
+      "savedBbox": [
+        8,
+        8,
+        184,
+        184
+      ],
+      "transparentPixelCount": 18109,
+      "removedFaintAlphaPixels": 27727,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 27727,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "japanese-meiji-soldiers",
+      "name": "明治期の日本軍の一般兵",
+      "kind": "group",
+      "subject": "Exactly two generic Japanese Meiji infantry soldiers around 1894, dark blue tunics and trousers, small dark peaked caps, modest white cross straps and canvas pack, one safely holding upright nineteenth century wooden-stock rifle and one standing with rolled map. No modern camouflage, modern helmets, fake flags, combat or gore.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: Exactly two generic Japanese Meiji infantry soldiers around 1894, dark blue tunics and trousers, small dark peaked caps, modest white cross straps and canvas pack, one safely holding upright nineteenth century wooden-stock rifle and one standing with rolled map. No modern camouflage, modern helmets, fake flags, combat or gore.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/japanese-meiji-soldiers.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a3d26901-5225-4d9b-b478-3b2183de7dc1.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/japanese-meiji-soldiers.png",
+      "inputSha256": "f73b27c5bdf7c094a1346846892352460058c0697c5db449dbdbbed5ed901dc8",
+      "outputSha256": "62ef9a16a27b2dfcbf17fa45c97832a598d608c4a2f0140a9e20a80ef5c5567d",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        68,
+        32,
+        1504,
+        1024
+      ],
+      "cleanedBbox": [
+        257,
+        79,
+        1334,
+        948
+      ],
+      "savedBbox": [
+        8,
+        42,
+        184,
+        184
+      ],
+      "transparentPixelCount": 22260,
+      "removedFaintAlphaPixels": 41951,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 41951,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "chinese-export-goods",
+      "name": "茶・絹・陶磁器",
+      "kind": "prop",
+      "subject": "A small compact museum-like educational cargo group: brown wooden tea chest with a few green tea leaves in open shallow tray, rolled cream silk fabric with pale blue edging, one blue and white porcelain vase and bowl. All distinguishable, no writing or trade logos.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: A small compact museum-like educational cargo group: brown wooden tea chest with a few green tea leaves in open shallow tray, rolled cream silk fabric with pale blue edging, one blue and white porcelain vase and bowl. All distinguishable, no writing or trade logos.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/chinese-export-goods.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-0d95ac9a-c2a8-498d-ac40-12e77a60ea1b.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/chinese-export-goods.png",
+      "inputSha256": "75be169978137c5e8614760bef5cb353483ffb8e5d4bb05ec24f78abc22ef677",
+      "outputSha256": "68f9ec469c39ec8840d32eb908e793df98c71e56c3cf6782bd6f37693538d43e",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        0,
+        11,
+        1518,
+        1024
+      ],
+      "cleanedBbox": [
+        95,
+        162,
+        1471,
+        930
+      ],
+      "savedBbox": [
+        8,
+        86,
+        184,
+        184
+      ],
+      "transparentPixelCount": 26213,
+      "removedFaintAlphaPixels": 26750,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 26750,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "opium-trade-chest",
+      "name": "貿易品としてのアヘン",
+      "kind": "prop",
+      "subject": "One small closed nineteenth century wooden export chest with two neutral dark brown wrapped bundles beside it, a small closed jar and one plain poppy seed capsule only as botanical identification. Historical trade educational icon; no smoking pipe, person, drug consumption, seductive glow, processing instructions or written labels.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: One small closed nineteenth century wooden export chest with two neutral dark brown wrapped bundles beside it, a small closed jar and one plain poppy seed capsule only as botanical identification. Historical trade educational icon; no smoking pipe, person, drug consumption, seductive glow, processing instructions or written labels.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/opium-trade-chest.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-40a06f44-96f0-431b-b482-a4d447fdeac5.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/opium-trade-chest.png",
+      "inputSha256": "d96f30aa39279dbfe8b8e40f7d07a0ddd69cdf07cc06ea06064e533a72eae38c",
+      "outputSha256": "40e3d07768b272359da280749bb18c247261d567174e25204112bb6a56ee0922",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        65,
+        17,
+        1420,
+        1024
+      ],
+      "cleanedBbox": [
+        209,
+        179,
+        1343,
+        895
+      ],
+      "savedBbox": [
+        8,
+        73,
+        184,
+        184
+      ],
+      "transparentPixelCount": 23188,
+      "removedFaintAlphaPixels": 14539,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14539,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "silver-currency",
+      "name": "銀と銅銭",
+      "kind": "prop",
+      "subject": "A compact historical money group: two silver Chinese sycee boat-shaped ingots and a short orderly stack of bronze cash coins with square holes, crisp silver versus copper materials, no numbers or currency text.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: A compact historical money group: two silver Chinese sycee boat-shaped ingots and a short orderly stack of bronze cash coins with square holes, crisp silver versus copper materials, no numbers or currency text.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/silver-currency.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-ae328f24-30c3-4f60-b324-9e219878d822.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/silver-currency.png",
+      "inputSha256": "5186aab00218e259196ef6a3d498ff1f153a08356fc48ccf4f495641a8b6c9a9",
+      "outputSha256": "fc17aab9b2b86db59a1e4191f65291364ed9d156767ef15b6fa574bac2c326fb",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        65,
+        32,
+        1498,
+        992
+      ],
+      "cleanedBbox": [
+        284,
+        199,
+        1283,
+        826
+      ],
+      "savedBbox": [
+        8,
+        74,
+        184,
+        184
+      ],
+      "transparentPixelCount": 23809,
+      "removedFaintAlphaPixels": 13493,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13493,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "qing-junk",
+      "name": "清朝期の木造ジャンク船",
+      "kind": "prop",
+      "subject": "One complete compact nineteenth century Chinese wooden junk sailing ship viewed side three-quarter, brown hull with upturned stern and three tan ribbed batten sails, no water, crew, flag, cannon fire, scene or writing, no steam funnel.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: One complete compact nineteenth century Chinese wooden junk sailing ship viewed side three-quarter, brown hull with upturned stern and three tan ribbed batten sails, no water, crew, flag, cannon fire, scene or writing, no steam funnel.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/qing-junk.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6fcbb9ef-fa29-457c-a344-e082a7269669.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/qing-junk.png",
+      "inputSha256": "4d647a127bf08f96c5af25adcdcb436f201fd50393f949326e074f25890d08d0",
+      "outputSha256": "0e411e179f0d39db1a71d19039e087f3636777e1c070a83a654c15673c96a42c",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        0,
+        15,
+        1516,
+        1024
+      ],
+      "cleanedBbox": [
+        214,
+        17,
+        1345,
+        1009
+      ],
+      "savedBbox": [
+        8,
+        30,
+        184,
+        184
+      ],
+      "transparentPixelCount": 21885,
+      "removedFaintAlphaPixels": 54894,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 54894,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "yuanmingyuan",
+      "name": "円明園の離宮",
+      "kind": "building",
+      "subject": "A small schematic historical architectural vignette of Yuanmingyuan European-style stone pavilion before destruction in 1860: pale stone baroque facade with arches and ornamental columns, low fountain basin and small dark green shrubs. Respectful educational reconstruction, not claim exact building survey; no fire, ruins, people or letters.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for an educational history website. Subject: A small schematic historical architectural vignette of Yuanmingyuan European-style stone pavilion before destruction in 1860: pale stone baroque facade with arches and ornamental columns, low fountain basin and small dark green shrubs. Respectful educational reconstruction, not claim exact building survey; no fire, ruins, people or letters.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/yuanmingyuan.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-68b3b26a-f5b0-4eae-a8a0-8f53ebd85997.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/yuanmingyuan.png",
+      "inputSha256": "eee68c059f505a5eccd70e0a208f7c2ad87787af497f6ef9f05b686b0a719383",
+      "outputSha256": "911ad434fd7f7cb8fd86be70314e30855492244ee02293069a2a591f229a8c0f",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        25,
+        64,
+        1516,
+        984
+      ],
+      "cleanedBbox": [
+        55,
+        66,
+        1481,
+        944
+      ],
+      "savedBbox": [
+        8,
+        76,
+        184,
+        184
+      ],
+      "transparentPixelCount": 25480,
+      "removedFaintAlphaPixels": 29413,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 29413,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "korean-reformers",
+      "name": "朝鮮の急進開化派",
+      "kind": "group",
+      "subject": "Exactly two generic Korean reformist political exiles around 1884, dignified adult men, one in muted dark late nineteenth century frock coat and white high collar, one in ivory and blue traditional scholar robe and black gat hat, holding closed reform documents and a modest cloth travelling bundle. They are generic party members, not Kim Ok-gyun or Park Yeong-hyo portraits, no modern suitcase, flags or weapons.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for educational history. Subject: Exactly two generic Korean reformist political exiles around 1884, dignified adult men, one in muted dark late nineteenth century frock coat and white high collar, one in ivory and blue traditional scholar robe and black gat hat, holding closed reform documents and a modest cloth travelling bundle. They are generic party members, not Kim Ok-gyun or Park Yeong-hyo portraits, no modern suitcase, flags or weapons.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/korean-reformers.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-80b5f5d3-b2be-4553-a0ad-5b347cbc8585.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/korean-reformers.png",
+      "inputSha256": "3ecb7bd29df5dffe0048de66d5c36e4c5a8c49f7b19586e8e01dc195252c3c42",
+      "outputSha256": "e94290f9e326ff1078300a3dceaa0ac19a90d6771ef4f730d874ef18e9dc7a45",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        263,
+        15,
+        1344,
+        974
+      ],
+      "cleanedBbox": [
+        322,
+        96,
+        1242,
+        967
+      ],
+      "savedBbox": [
+        8,
+        17,
+        184,
+        184
+      ],
+      "transparentPixelCount": 18230,
+      "removedFaintAlphaPixels": 20392,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 20392,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "qing-regular-soldiers",
+      "name": "清軍の一般兵",
+      "kind": "group",
+      "subject": "Exactly two generic Qing Chinese regular soldiers in the late nineteenth century, blue-grey cotton military tunics, dark trousers, simple round black cloth caps with restrained small red tops, cloth waist ties and boots, one with a period wooden-stock rifle safely upright and one with rolled supply blanket. Clearly historical regular army role, not named commander or Taiping long-haired rebel, no modern uniforms, fake national flags, fighting or gore.",
+      "prompt": "Use case: historical-scene. Asset type: transparent PNG sprite for educational history. Subject: Exactly two generic Qing Chinese regular soldiers in the late nineteenth century, blue-grey cotton military tunics, dark trousers, simple round black cloth caps with restrained small red tops, cloth waist ties and boots, one with a period wooden-stock rifle safely upright and one with rolled supply blanket. Clearly historical regular army role, not named commander or Taiping long-haired rebel, no modern uniforms, fake national flags, fighting or gore.\nStyle: match the existing W-History 16-bit JRPG sprites, short chibi about three heads tall for people, very short legs, large dignified face, crisp stepped dark pixel outlines and detailed restrained muted shading. Props and buildings have matching crisp pixel edges and compact readable silhouettes. All adult figures fully intact from head to feet, centred with generous empty transparent padding. Person identity must stay distinct, do not recolor or reuse another person. Background: genuinely transparent. Text: none. Avoid letters, logos, borders, scenery, ground plane, drop shadow, glow, watermark, modern costume and antialiased painted edges.",
+      "mode": "builtin",
+      "outputFile": "public/images/modern-c02-l09/qing-regular-soldiers.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-80368d3c-4af9-4819-b4f8-6a3515227aa7.png",
+      "outputPath": "C:/Users/USER/Desktop/W-History/public/images/modern-c02-l09/qing-regular-soldiers.png",
+      "inputSha256": "351dbb4f6309346644d9478875fc828e2fc532d2443725d5f4e9c5c6158b71d2",
+      "outputSha256": "4b9ab4ba43c662e5477c784d315eecb37c6e7d89382704fea9ed85dbc45d1428",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        65,
+        21,
+        1344,
+        970
+      ],
+      "cleanedBbox": [
+        287,
+        70,
+        1263,
+        942
+      ],
+      "savedBbox": [
+        8,
+        27,
+        184,
+        184
+      ],
+      "transparentPixelCount": 20857,
+      "removedFaintAlphaPixels": 25126,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 25126,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    }
+  ],
+  "reused": [
+    {
+      "key": "palmerston",
+      "name": "パーマストン",
+      "kind": "person",
+      "image": "modern-c01-l05/palmerston.png",
+      "identity": "person:palmerston",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ本人の既存画像。現在の場面の役割を説明し、別人へは流用しない。"
+    },
+    {
+      "key": "gladstone",
+      "name": "グラッドストン",
+      "kind": "person",
+      "image": "modern-c01-l02/gladstone.png",
+      "identity": "person:gladstone",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ本人の既存画像。現在の場面の役割を説明し、別人へは流用しない。"
+    },
+    {
+      "key": "napoleon-iii",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "image": "modern-c01-l01/napoleon-iii.png",
+      "identity": "person:napoleon-iii",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ本人の既存画像。現在の場面の役割を説明し、別人へは流用しない。"
+    },
+    {
+      "key": "yaqub-beg",
+      "name": "ヤークーブ＝ベク",
+      "kind": "person",
+      "image": "modern-c02-l07/yaqub-beg.png",
+      "identity": "person:yaqub-beg",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ本人の既存画像。現在の場面の役割を説明し、別人へは流用しない。"
+    },
+    {
+      "key": "liu-yongfu",
+      "name": "劉永福",
+      "kind": "person",
+      "image": "modern-c02-l08/liu-yongfu.png",
+      "identity": "person:liu-yongfu",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ本人の既存画像。現在の場面の役割を説明し、別人へは流用しない。"
+    },
+    {
+      "key": "steam-warship",
+      "name": "近代の蒸気軍艦",
+      "kind": "prop",
+      "image": "modern-c01-l05/british-steam-warship.png",
+      "identity": "prop:steam-warship",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ時代または同じ一般的役割を参照する既存の模式図。特定の実物や部隊を同定しない。"
+    },
+    {
+      "key": "cotton-textiles",
+      "name": "綿布",
+      "kind": "prop",
+      "image": "modern-c02-l08/cotton-textiles.png",
+      "identity": "prop:cotton-textiles",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ時代または同じ一般的役割を参照する既存の模式図。特定の実物や部隊を同定しない。"
+    },
+    {
+      "key": "calendar",
+      "name": "年号の確認",
+      "kind": "prop",
+      "image": "modern-c01-l01/calendar.png",
+      "identity": "prop:calendar",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ時代または同じ一般的役割を参照する既存の模式図。特定の実物や部隊を同定しない。"
+    },
+    {
+      "key": "constitution-document",
+      "name": "政策・制度の文書",
+      "kind": "prop",
+      "image": "modern-c01-l01/constitution-document.png",
+      "identity": "prop:constitution-document",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ時代または同じ一般的役割を参照する既存の模式図。特定の実物や部隊を同定しない。"
+    },
+    {
+      "key": "treaty-document",
+      "name": "条約の文書",
+      "kind": "prop",
+      "image": "modern-c01-l01/treaty-document.png",
+      "identity": "prop:treaty-document",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ時代または同じ一般的役割を参照する既存の模式図。特定の実物や部隊を同定しない。"
+    },
+    {
+      "key": "tax-ledger",
+      "name": "税と歳入の帳簿",
+      "kind": "prop",
+      "image": "modern-c01-l01/tax-ledger.png",
+      "identity": "prop:tax-ledger",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ時代または同じ一般的役割を参照する既存の模式図。特定の実物や部隊を同定しない。"
+    },
+    {
+      "key": "steam-factory",
+      "name": "西洋技術による工場",
+      "kind": "building",
+      "image": "modern-c01-l01/steam-factory.png",
+      "identity": "building:steam-factory",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ時代または同じ一般的役割を参照する既存の模式図。特定の実物や部隊を同定しない。"
+    }
+  ],
+  "contactSheet": "docs/modern-lesson-09/contact-sheet.png"
+}

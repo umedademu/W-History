@@ -1,0 +1,2228 @@
+// 地域・都市・川・組織・本人を区別する。本人の座標は補わない。
+export const modernNameCatalog=[
+  {
+    "name": "中国",
+    "key": "中国",
+    "kind": "region",
+    "points": [
+      [
+        104,
+        32
+      ]
+    ],
+    "family": "中国"
+  },
+  {
+    "name": "清朝",
+    "key": "清朝",
+    "kind": "region",
+    "points": [
+      [
+        104,
+        32
+      ]
+    ],
+    "family": "中国"
+  },
+  {
+    "name": "清",
+    "key": "清",
+    "kind": "region",
+    "points": [
+      [
+        104,
+        32
+      ]
+    ],
+    "family": "中国"
+  },
+  {
+    "name": "明",
+    "key": "明",
+    "kind": "region",
+    "points": [
+      [
+        104,
+        32
+      ]
+    ],
+    "family": "明"
+  },
+  {
+    "name": "イギリス",
+    "key": "イギリス",
+    "kind": "region",
+    "points": [
+      [
+        -1,
+        52
+      ]
+    ],
+    "family": "イギリス"
+  },
+  {
+    "name": "フランス",
+    "key": "フランス",
+    "kind": "region",
+    "points": [
+      [
+        2,
+        47
+      ]
+    ],
+    "family": "フランス"
+  },
+  {
+    "name": "ドイツ",
+    "key": "ドイツ",
+    "kind": "region",
+    "points": [
+      [
+        10,
+        51
+      ]
+    ],
+    "family": "ドイツ"
+  },
+  {
+    "name": "ロシア",
+    "key": "ロシア",
+    "kind": "region",
+    "points": [
+      [
+        90,
+        60
+      ]
+    ],
+    "family": "ロシア"
+  },
+  {
+    "name": "ロシア帝国",
+    "key": "ロシア帝国",
+    "kind": "region",
+    "points": [
+      [
+        90,
+        60
+      ]
+    ],
+    "family": "ロシア"
+  },
+  {
+    "name": "アメリカ",
+    "key": "アメリカ",
+    "kind": "region",
+    "points": [
+      [
+        -99,
+        38
+      ]
+    ],
+    "family": "アメリカ"
+  },
+  {
+    "name": "日本",
+    "key": "日本",
+    "kind": "region",
+    "points": [
+      [
+        138,
+        37
+      ]
+    ],
+    "family": "日本"
+  },
+  {
+    "name": "朝鮮",
+    "key": "朝鮮",
+    "kind": "region",
+    "points": [
+      [
+        127.5,
+        37.5
+      ]
+    ],
+    "family": "朝鮮"
+  },
+  {
+    "name": "インド",
+    "key": "インド",
+    "kind": "region",
+    "points": [
+      [
+        79,
+        23
+      ]
+    ],
+    "family": "インド"
+  },
+  {
+    "name": "ポルトガル",
+    "key": "ポルトガル",
+    "kind": "region",
+    "points": [
+      [
+        -8,
+        39.5
+      ]
+    ],
+    "family": "ポルトガル"
+  },
+  {
+    "name": "アジア",
+    "key": "アジア",
+    "kind": "region",
+    "points": [
+      [
+        90,
+        28
+      ]
+    ],
+    "family": "アジア"
+  },
+  {
+    "name": "東アジア",
+    "key": "東アジア",
+    "kind": "region",
+    "points": [
+      [
+        122,
+        34
+      ]
+    ],
+    "family": "東アジア"
+  },
+  {
+    "name": "ヨーロッパ",
+    "key": "ヨーロッパ",
+    "kind": "region",
+    "points": [
+      [
+        12,
+        50
+      ]
+    ],
+    "family": "ヨーロッパ"
+  },
+  {
+    "name": "欧米諸国",
+    "key": "欧米諸国",
+    "kind": "region",
+    "points": [
+      [
+        12,
+        50
+      ]
+    ],
+    "family": "ヨーロッパ"
+  },
+  {
+    "name": "欧米列強",
+    "key": "欧米列強",
+    "kind": "region",
+    "points": [
+      [
+        12,
+        50
+      ]
+    ],
+    "family": "ヨーロッパ"
+  },
+  {
+    "name": "華北",
+    "key": "華北",
+    "kind": "region",
+    "points": [
+      [
+        115,
+        38
+      ]
+    ],
+    "family": "華北"
+  },
+  {
+    "name": "広東省",
+    "key": "広東省",
+    "kind": "region",
+    "points": [
+      [
+        113,
+        24
+      ]
+    ],
+    "family": "広東"
+  },
+  {
+    "name": "広東",
+    "key": "広東",
+    "kind": "region",
+    "points": [
+      [
+        113,
+        24
+      ]
+    ],
+    "family": "広東"
+  },
+  {
+    "name": "広西省",
+    "key": "広西省",
+    "kind": "region",
+    "points": [
+      [
+        109,
+        24
+      ]
+    ],
+    "family": "広西"
+  },
+  {
+    "name": "湖南省",
+    "key": "湖南省",
+    "kind": "region",
+    "points": [
+      [
+        112,
+        28
+      ]
+    ],
+    "family": "湖南"
+  },
+  {
+    "name": "安徽省",
+    "key": "安徽省",
+    "kind": "region",
+    "points": [
+      [
+        117,
+        32
+      ]
+    ],
+    "family": "安徽"
+  },
+  {
+    "name": "長江流域",
+    "key": "長江流域",
+    "kind": "region",
+    "points": [
+      [
+        114,
+        31
+      ]
+    ],
+    "family": "長江流域"
+  },
+  {
+    "name": "イリ地方",
+    "key": "イリ地方",
+    "kind": "region",
+    "points": [
+      [
+        81.5,
+        43.8
+      ]
+    ],
+    "family": "イリ"
+  },
+  {
+    "name": "イリ",
+    "key": "イリ",
+    "kind": "region",
+    "points": [
+      [
+        81.5,
+        43.8
+      ]
+    ],
+    "family": "イリ"
+  },
+  {
+    "name": "新疆省",
+    "key": "新疆省",
+    "kind": "region",
+    "points": [
+      [
+        86,
+        41
+      ]
+    ],
+    "family": "新疆"
+  },
+  {
+    "name": "新疆",
+    "key": "新疆",
+    "kind": "region",
+    "points": [
+      [
+        86,
+        41
+      ]
+    ],
+    "family": "新疆"
+  },
+  {
+    "name": "中央アジア",
+    "key": "中央アジア",
+    "kind": "region",
+    "points": [
+      [
+        67,
+        41
+      ]
+    ],
+    "family": "中央アジア"
+  },
+  {
+    "name": "コーカンド＝ハン国",
+    "key": "コーカンドハン国",
+    "kind": "region",
+    "points": [
+      [
+        70,
+        40.5
+      ]
+    ],
+    "family": "コーカンド＝ハン国"
+  },
+  {
+    "name": "ウズベク3ハン国",
+    "key": "ウズベク3ハン国",
+    "kind": "region",
+    "points": [
+      [
+        65,
+        40
+      ]
+    ],
+    "family": "中央アジア"
+  },
+  {
+    "name": "外興安嶺",
+    "key": "外興安嶺",
+    "kind": "region",
+    "points": [
+      [
+        133,
+        54
+      ]
+    ],
+    "family": "外興安嶺"
+  },
+  {
+    "name": "沿海州",
+    "key": "沿海州",
+    "kind": "region",
+    "points": [
+      [
+        135,
+        45
+      ]
+    ],
+    "family": "沿海州"
+  },
+  {
+    "name": "東シベリア",
+    "key": "東シベリア",
+    "kind": "region",
+    "points": [
+      [
+        110,
+        60
+      ]
+    ],
+    "family": "東シベリア"
+  },
+  {
+    "name": "満洲",
+    "key": "満洲",
+    "kind": "region",
+    "points": [
+      [
+        124,
+        43
+      ]
+    ],
+    "family": "満洲"
+  },
+  {
+    "name": "遼東半島",
+    "key": "遼東半島",
+    "kind": "region",
+    "points": [
+      [
+        122,
+        40
+      ]
+    ],
+    "family": "遼東半島"
+  },
+  {
+    "name": "琉球王国",
+    "key": "琉球王国",
+    "kind": "region",
+    "points": [
+      [
+        127.7,
+        26.3
+      ]
+    ],
+    "family": "琉球"
+  },
+  {
+    "name": "琉球藩",
+    "key": "琉球藩",
+    "kind": "region",
+    "points": [
+      [
+        127.7,
+        26.3
+      ]
+    ],
+    "family": "琉球"
+  },
+  {
+    "name": "琉球",
+    "key": "琉球",
+    "kind": "region",
+    "points": [
+      [
+        127.7,
+        26.3
+      ]
+    ],
+    "family": "琉球"
+  },
+  {
+    "name": "沖縄県",
+    "key": "沖縄県",
+    "kind": "region",
+    "points": [
+      [
+        127.7,
+        26.3
+      ]
+    ],
+    "family": "琉球"
+  },
+  {
+    "name": "薩摩",
+    "key": "薩摩",
+    "kind": "region",
+    "points": [
+      [
+        130.55,
+        31.6
+      ]
+    ],
+    "family": "薩摩"
+  },
+  {
+    "name": "台湾",
+    "key": "台湾",
+    "kind": "region",
+    "points": [
+      [
+        121,
+        23.7
+      ]
+    ],
+    "family": "台湾"
+  },
+  {
+    "name": "澎湖諸島",
+    "key": "澎湖諸島",
+    "kind": "region",
+    "points": [
+      [
+        119.6,
+        23.6
+      ]
+    ],
+    "family": "澎湖諸島"
+  },
+  {
+    "name": "樺太",
+    "key": "樺太",
+    "kind": "region",
+    "points": [
+      [
+        143,
+        50.5
+      ]
+    ],
+    "family": "樺太"
+  },
+  {
+    "name": "千島列島",
+    "key": "千島列島",
+    "kind": "region",
+    "points": [
+      [
+        151,
+        46.5
+      ]
+    ],
+    "family": "千島"
+  },
+  {
+    "name": "千島",
+    "key": "千島",
+    "kind": "region",
+    "points": [
+      [
+        151,
+        46.5
+      ]
+    ],
+    "family": "千島"
+  },
+  {
+    "name": "ウルップ島",
+    "key": "ウルップ島",
+    "kind": "region",
+    "points": [
+      [
+        150,
+        45.95
+      ]
+    ],
+    "family": "ウルップ島"
+  },
+  {
+    "name": "小笠原諸島",
+    "key": "小笠原諸島",
+    "kind": "region",
+    "points": [
+      [
+        142.2,
+        27.1
+      ]
+    ],
+    "family": "小笠原諸島"
+  },
+  {
+    "name": "ベトナム",
+    "key": "ベトナム",
+    "kind": "region",
+    "points": [
+      [
+        106,
+        17
+      ]
+    ],
+    "family": "ベトナム"
+  },
+  {
+    "name": "雲南",
+    "key": "雲南",
+    "kind": "region",
+    "points": [
+      [
+        102,
+        25
+      ]
+    ],
+    "family": "雲南"
+  },
+  {
+    "name": "北洋",
+    "key": "北洋",
+    "kind": "region",
+    "points": [
+      [
+        121,
+        39
+      ]
+    ],
+    "family": "北洋"
+  },
+  {
+    "name": "福建",
+    "key": "福建",
+    "kind": "region",
+    "points": [
+      [
+        118,
+        26
+      ]
+    ],
+    "family": "福建"
+  },
+  {
+    "name": "西北",
+    "key": "西北",
+    "kind": "region",
+    "points": [
+      [
+        96,
+        39
+      ]
+    ],
+    "family": "西北"
+  },
+  {
+    "name": "広州",
+    "key": "広州",
+    "kind": "place",
+    "points": [
+      [
+        113.26,
+        23.13
+      ]
+    ],
+    "family": "広州"
+  },
+  {
+    "name": "マカオ",
+    "key": "マカオ",
+    "kind": "place",
+    "points": [
+      [
+        113.54,
+        22.2
+      ]
+    ],
+    "family": "マカオ"
+  },
+  {
+    "name": "熱河",
+    "key": "熱河",
+    "kind": "place",
+    "points": [
+      [
+        117.94,
+        40.98
+      ]
+    ],
+    "family": "熱河"
+  },
+  {
+    "name": "香港島",
+    "key": "香港島",
+    "kind": "place",
+    "points": [
+      [
+        114.17,
+        22.27
+      ]
+    ],
+    "family": "香港島"
+  },
+  {
+    "name": "香港",
+    "key": "香港",
+    "kind": "place",
+    "points": [
+      [
+        114.17,
+        22.27
+      ]
+    ],
+    "family": "香港島"
+  },
+  {
+    "name": "厦門",
+    "key": "厦門",
+    "kind": "place",
+    "points": [
+      [
+        118.08,
+        24.48
+      ]
+    ],
+    "family": "厦門"
+  },
+  {
+    "name": "福州",
+    "key": "福州",
+    "kind": "place",
+    "points": [
+      [
+        119.3,
+        26.08
+      ]
+    ],
+    "family": "福州"
+  },
+  {
+    "name": "寧波",
+    "key": "寧波",
+    "kind": "place",
+    "points": [
+      [
+        121.55,
+        29.87
+      ]
+    ],
+    "family": "寧波"
+  },
+  {
+    "name": "上海",
+    "key": "上海",
+    "kind": "place",
+    "points": [
+      [
+        121.47,
+        31.23
+      ]
+    ],
+    "family": "上海"
+  },
+  {
+    "name": "南京",
+    "key": "南京",
+    "kind": "place",
+    "points": [
+      [
+        118.8,
+        32.06
+      ]
+    ],
+    "family": "南京"
+  },
+  {
+    "name": "天京",
+    "key": "天京",
+    "kind": "place",
+    "points": [
+      [
+        118.8,
+        32.06
+      ]
+    ],
+    "family": "南京"
+  },
+  {
+    "name": "天津",
+    "key": "天津",
+    "kind": "place",
+    "points": [
+      [
+        117.2,
+        39.13
+      ]
+    ],
+    "family": "天津"
+  },
+  {
+    "name": "漢口",
+    "key": "漢口",
+    "kind": "place",
+    "points": [
+      [
+        114.29,
+        30.6
+      ]
+    ],
+    "family": "漢口"
+  },
+  {
+    "name": "北京",
+    "key": "北京",
+    "kind": "place",
+    "points": [
+      [
+        116.4,
+        39.9
+      ]
+    ],
+    "family": "北京"
+  },
+  {
+    "name": "大沽",
+    "key": "大沽",
+    "kind": "place",
+    "points": [
+      [
+        117.7,
+        38.98
+      ]
+    ],
+    "family": "大沽"
+  },
+  {
+    "name": "九竜半島南部",
+    "key": "九竜半島南部",
+    "kind": "place",
+    "points": [
+      [
+        114.18,
+        22.31
+      ]
+    ],
+    "family": "九竜"
+  },
+  {
+    "name": "九竜市街",
+    "key": "九竜市街",
+    "kind": "place",
+    "points": [
+      [
+        114.18,
+        22.31
+      ]
+    ],
+    "family": "九竜"
+  },
+  {
+    "name": "九竜",
+    "key": "九竜",
+    "kind": "place",
+    "points": [
+      [
+        114.18,
+        22.31
+      ]
+    ],
+    "family": "九竜"
+  },
+  {
+    "name": "ウラジヴォストーク",
+    "key": "ウラジヴォストーク",
+    "kind": "place",
+    "points": [
+      [
+        131.88,
+        43.12
+      ]
+    ],
+    "family": "ウラジヴォストーク"
+  },
+  {
+    "name": "金田村",
+    "key": "金田村",
+    "kind": "place",
+    "points": [
+      [
+        110.12,
+        23.62
+      ]
+    ],
+    "family": "金田村"
+  },
+  {
+    "name": "漢城",
+    "key": "漢城",
+    "kind": "place",
+    "points": [
+      [
+        126.98,
+        37.57
+      ]
+    ],
+    "family": "漢城"
+  },
+  {
+    "name": "ソウル",
+    "key": "ソウル",
+    "kind": "place",
+    "points": [
+      [
+        126.98,
+        37.57
+      ]
+    ],
+    "family": "漢城"
+  },
+  {
+    "name": "江華島",
+    "key": "江華島",
+    "kind": "place",
+    "points": [
+      [
+        126.48,
+        37.75
+      ]
+    ],
+    "family": "江華島"
+  },
+  {
+    "name": "釜山",
+    "key": "釜山",
+    "kind": "place",
+    "points": [
+      [
+        129.08,
+        35.18
+      ]
+    ],
+    "family": "釜山"
+  },
+  {
+    "name": "元山",
+    "key": "元山",
+    "kind": "place",
+    "points": [
+      [
+        127.44,
+        39.15
+      ]
+    ],
+    "family": "元山"
+  },
+  {
+    "name": "仁川",
+    "key": "仁川",
+    "kind": "place",
+    "points": [
+      [
+        126.7,
+        37.46
+      ]
+    ],
+    "family": "仁川"
+  },
+  {
+    "name": "対馬",
+    "key": "対馬",
+    "kind": "place",
+    "points": [
+      [
+        129.3,
+        34.2
+      ]
+    ],
+    "family": "対馬"
+  },
+  {
+    "name": "下関",
+    "key": "下関",
+    "kind": "place",
+    "points": [
+      [
+        130.94,
+        33.96
+      ]
+    ],
+    "family": "下関"
+  },
+  {
+    "name": "重慶",
+    "key": "重慶",
+    "kind": "place",
+    "points": [
+      [
+        106.55,
+        29.56
+      ]
+    ],
+    "family": "重慶"
+  },
+  {
+    "name": "黄海",
+    "key": "黄海",
+    "kind": "place",
+    "points": [
+      [
+        123,
+        36.5
+      ]
+    ],
+    "family": "黄海"
+  },
+  {
+    "name": "長江",
+    "key": "長江",
+    "kind": "place",
+    "points": [
+      [
+        114,
+        30.6
+      ]
+    ],
+    "family": "長江",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "黒竜江",
+    "key": "黒竜江",
+    "kind": "place",
+    "points": [
+      [
+        130,
+        48
+      ]
+    ],
+    "family": "アムール川",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "アムール川",
+    "key": "アムール川",
+    "kind": "place",
+    "points": [
+      [
+        130,
+        48
+      ]
+    ],
+    "family": "アムール川",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "ウスリー江",
+    "key": "ウスリー江",
+    "kind": "place",
+    "points": [
+      [
+        133.5,
+        46
+      ]
+    ],
+    "family": "ウスリー川",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "ウスリー川",
+    "key": "ウスリー川",
+    "kind": "place",
+    "points": [
+      [
+        133.5,
+        46
+      ]
+    ],
+    "family": "ウスリー川",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "アルグン川",
+    "key": "アルグン川",
+    "kind": "place",
+    "points": [
+      [
+        119.5,
+        49.3
+      ]
+    ],
+    "family": "アルグン川",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "漢江",
+    "key": "漢江",
+    "kind": "place",
+    "points": [
+      [
+        126.8,
+        37.55
+      ]
+    ],
+    "family": "漢江",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "円明園",
+    "key": "円明園",
+    "kind": "building",
+    "points": [
+      [
+        116.3,
+        40.01
+      ]
+    ],
+    "family": "円明園"
+  },
+  {
+    "name": "乾隆帝",
+    "key": "乾隆帝",
+    "kind": "person",
+    "points": [],
+    "family": "乾隆帝",
+    "personKey": "qianlong"
+  },
+  {
+    "name": "マカートニー",
+    "key": "マカートニー",
+    "kind": "person",
+    "points": [],
+    "family": "マカートニー",
+    "personKey": "george-macartney"
+  },
+  {
+    "name": "アマースト",
+    "key": "アマースト",
+    "kind": "person",
+    "points": [],
+    "family": "アマースト",
+    "personKey": "william-amherst"
+  },
+  {
+    "name": "嘉慶帝",
+    "key": "嘉慶帝",
+    "kind": "person",
+    "points": [],
+    "family": "嘉慶帝",
+    "personKey": "jiaqing"
+  },
+  {
+    "name": "道光帝",
+    "key": "道光帝",
+    "kind": "person",
+    "points": [],
+    "family": "道光帝",
+    "personKey": "daoguang"
+  },
+  {
+    "name": "宣宗",
+    "key": "宣宗",
+    "kind": "person",
+    "points": [],
+    "family": "道光帝",
+    "personKey": "daoguang"
+  },
+  {
+    "name": "林則徐",
+    "key": "林則徐",
+    "kind": "person",
+    "points": [],
+    "family": "林則徐",
+    "personKey": "lin-zexu"
+  },
+  {
+    "name": "咸豊帝",
+    "key": "咸豊帝",
+    "kind": "person",
+    "points": [],
+    "family": "咸豊帝",
+    "personKey": "xianfeng"
+  },
+  {
+    "name": "ムラヴィヨフ",
+    "key": "ムラヴィヨフ",
+    "kind": "person",
+    "points": [],
+    "family": "ムラヴィヨフ",
+    "personKey": "nikolay-muravyov"
+  },
+  {
+    "name": "洪秀全",
+    "key": "洪秀全",
+    "kind": "person",
+    "points": [],
+    "family": "洪秀全",
+    "personKey": "hong-xiuquan"
+  },
+  {
+    "name": "ウォード",
+    "key": "ウォード",
+    "kind": "person",
+    "points": [],
+    "family": "ウォード",
+    "personKey": "frederick-ward"
+  },
+  {
+    "name": "ゴードン",
+    "key": "ゴードン",
+    "kind": "person",
+    "points": [],
+    "family": "ゴードン",
+    "personKey": "charles-gordon"
+  },
+  {
+    "name": "曾国藩",
+    "key": "曾国藩",
+    "kind": "person",
+    "points": [],
+    "family": "曾国藩",
+    "personKey": "zeng-guofan"
+  },
+  {
+    "name": "曽国藩",
+    "key": "曽国藩",
+    "kind": "person",
+    "points": [],
+    "family": "曾国藩",
+    "personKey": "zeng-guofan"
+  },
+  {
+    "name": "李鴻章",
+    "key": "李鴻章",
+    "kind": "person",
+    "points": [],
+    "family": "李鴻章",
+    "personKey": "li-hongzhang"
+  },
+  {
+    "name": "左宗棠",
+    "key": "左宗棠",
+    "kind": "person",
+    "points": [],
+    "family": "左宗棠",
+    "personKey": "zuo-zongtang"
+  },
+  {
+    "name": "同治帝",
+    "key": "同治帝",
+    "kind": "person",
+    "points": [],
+    "family": "同治帝",
+    "personKey": "tongzhi"
+  },
+  {
+    "name": "大院君",
+    "key": "大院君",
+    "kind": "person",
+    "points": [],
+    "family": "大院君",
+    "personKey": "heungseon-daewongun"
+  },
+  {
+    "name": "興宣大院君",
+    "key": "興宣大院君",
+    "kind": "person",
+    "points": [],
+    "family": "大院君",
+    "personKey": "heungseon-daewongun"
+  },
+  {
+    "name": "高宗",
+    "key": "高宗",
+    "kind": "person",
+    "points": [],
+    "family": "高宗",
+    "personKey": "gojong"
+  },
+  {
+    "name": "閔妃",
+    "key": "閔妃",
+    "kind": "person",
+    "points": [],
+    "family": "閔妃",
+    "personKey": "queen-min"
+  },
+  {
+    "name": "金玉均",
+    "key": "金玉均",
+    "kind": "person",
+    "points": [],
+    "family": "金玉均",
+    "personKey": "kim-ok-gyun"
+  },
+  {
+    "name": "朴泳孝",
+    "key": "朴泳孝",
+    "kind": "person",
+    "points": [],
+    "family": "朴泳孝",
+    "personKey": "park-yeong-hyo"
+  },
+  {
+    "name": "袁世凱",
+    "key": "袁世凱",
+    "kind": "person",
+    "points": [],
+    "family": "袁世凱",
+    "personKey": "yuan-shikai"
+  },
+  {
+    "name": "崔済愚",
+    "key": "崔済愚",
+    "kind": "person",
+    "points": [],
+    "family": "崔済愚",
+    "personKey": "choe-je-u"
+  },
+  {
+    "name": "全琫準",
+    "key": "全琫準",
+    "kind": "person",
+    "points": [],
+    "family": "全琫準",
+    "personKey": "jeon-bong-jun"
+  },
+  {
+    "name": "西太后",
+    "key": "西太后",
+    "kind": "person",
+    "points": [],
+    "family": "西太后",
+    "personKey": "cixi"
+  },
+  {
+    "name": "伊藤博文",
+    "key": "伊藤博文",
+    "kind": "person",
+    "points": [],
+    "family": "伊藤博文",
+    "personKey": "ito-hirobumi"
+  },
+  {
+    "name": "パーマストン",
+    "key": "パーマストン",
+    "kind": "person",
+    "points": [],
+    "family": "パーマストン",
+    "personKey": "palmerston"
+  },
+  {
+    "name": "グラッドストン",
+    "key": "グラッドストン",
+    "kind": "person",
+    "points": [],
+    "family": "グラッドストン",
+    "personKey": "gladstone"
+  },
+  {
+    "name": "ナポレオン3世",
+    "key": "ナポレオン3世",
+    "kind": "person",
+    "points": [],
+    "family": "ナポレオン3世",
+    "personKey": "napoleon-iii"
+  },
+  {
+    "name": "ヤークーブ＝ベク",
+    "key": "ヤークーブベク",
+    "kind": "person",
+    "points": [],
+    "family": "ヤークーブ＝ベク",
+    "personKey": "yaqub-beg"
+  },
+  {
+    "name": "劉永福",
+    "key": "劉永福",
+    "kind": "person",
+    "points": [],
+    "family": "劉永福",
+    "personKey": "liu-yongfu"
+  },
+  {
+    "name": "ネーピア",
+    "key": "ネーピア",
+    "kind": "person",
+    "points": [],
+    "family": "ネーピア"
+  },
+  {
+    "name": "鄭成功",
+    "key": "鄭成功",
+    "kind": "person",
+    "points": [],
+    "family": "鄭成功"
+  },
+  {
+    "name": "中山王尚巴志",
+    "key": "中山王尚巴志",
+    "kind": "person",
+    "points": [],
+    "family": "尚巴志"
+  },
+  {
+    "name": "尚巴志",
+    "key": "尚巴志",
+    "kind": "person",
+    "points": [],
+    "family": "尚巴志"
+  },
+  {
+    "name": "豊臣秀吉",
+    "key": "豊臣秀吉",
+    "kind": "person",
+    "points": [],
+    "family": "豊臣秀吉"
+  },
+  {
+    "name": "魏源",
+    "key": "魏源",
+    "kind": "person",
+    "points": [],
+    "family": "魏源"
+  },
+  {
+    "name": "福沢諭吉",
+    "key": "福沢諭吉",
+    "kind": "person",
+    "points": [],
+    "family": "福沢諭吉"
+  },
+  {
+    "name": "渋沢栄一",
+    "key": "渋沢栄一",
+    "kind": "person",
+    "points": [],
+    "family": "渋沢栄一"
+  },
+  {
+    "name": "孫文",
+    "key": "孫文",
+    "kind": "person",
+    "points": [],
+    "family": "孫文"
+  },
+  {
+    "name": "冊封体制",
+    "key": "冊封体制",
+    "kind": "concept",
+    "points": [],
+    "family": "冊封体制"
+  },
+  {
+    "name": "朝貢貿易",
+    "key": "朝貢貿易",
+    "kind": "concept",
+    "points": [],
+    "family": "朝貢貿易"
+  },
+  {
+    "name": "互市貿易",
+    "key": "互市貿易",
+    "kind": "concept",
+    "points": [],
+    "family": "互市貿易"
+  },
+  {
+    "name": "中華思想",
+    "key": "中華思想",
+    "kind": "concept",
+    "points": [],
+    "family": "中華思想"
+  },
+  {
+    "name": "カントン＝システム",
+    "key": "カントンシステム",
+    "kind": "concept",
+    "points": [],
+    "family": "カントン＝システム"
+  },
+  {
+    "name": "行商",
+    "key": "行商",
+    "kind": "concept",
+    "points": [],
+    "family": "行商"
+  },
+  {
+    "name": "東インド会社",
+    "key": "東インド会社",
+    "kind": "concept",
+    "points": [],
+    "family": "東インド会社"
+  },
+  {
+    "name": "ジャーディン＝マセソン商会",
+    "key": "ジャーディンマセソン商会",
+    "kind": "concept",
+    "points": [],
+    "family": "ジャーディン＝マセソン商会"
+  },
+  {
+    "name": "カントリー＝トレーダー",
+    "key": "カントリートレーダー",
+    "kind": "concept",
+    "points": [],
+    "family": "カントリー＝トレーダー"
+  },
+  {
+    "name": "三角貿易",
+    "key": "三角貿易",
+    "kind": "concept",
+    "points": [],
+    "family": "三角貿易"
+  },
+  {
+    "name": "片貿易",
+    "key": "片貿易",
+    "kind": "concept",
+    "points": [],
+    "family": "片貿易"
+  },
+  {
+    "name": "三跪九叩頭",
+    "key": "三跪九叩頭",
+    "kind": "concept",
+    "points": [],
+    "family": "三跪九叩頭"
+  },
+  {
+    "name": "地丁銀",
+    "key": "地丁銀",
+    "kind": "concept",
+    "points": [],
+    "family": "地丁銀"
+  },
+  {
+    "name": "アヘン戦争",
+    "key": "アヘン戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "アヘン戦争"
+  },
+  {
+    "name": "第2次アヘン戦争",
+    "key": "第2次アヘン戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "第2次アヘン戦争"
+  },
+  {
+    "name": "アロー戦争",
+    "key": "アロー戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "アロー戦争"
+  },
+  {
+    "name": "アロー号事件",
+    "key": "アロー号事件",
+    "kind": "concept",
+    "points": [],
+    "family": "アロー号事件"
+  },
+  {
+    "name": "アロー号",
+    "key": "アロー号",
+    "kind": "concept",
+    "points": [],
+    "family": "アロー号"
+  },
+  {
+    "name": "平英団",
+    "key": "平英団",
+    "kind": "concept",
+    "points": [],
+    "family": "平英団"
+  },
+  {
+    "name": "南京条約",
+    "key": "南京条約",
+    "kind": "concept",
+    "points": [],
+    "family": "南京条約"
+  },
+  {
+    "name": "虎門寨追加条約",
+    "key": "虎門寨追加条約",
+    "kind": "concept",
+    "points": [],
+    "family": "虎門寨追加条約"
+  },
+  {
+    "name": "五港通商章程",
+    "key": "五港通商章程",
+    "kind": "concept",
+    "points": [],
+    "family": "五港通商章程"
+  },
+  {
+    "name": "領事裁判権",
+    "key": "領事裁判権",
+    "kind": "concept",
+    "points": [],
+    "family": "領事裁判権"
+  },
+  {
+    "name": "関税協定権",
+    "key": "関税協定権",
+    "kind": "concept",
+    "points": [],
+    "family": "関税協定権"
+  },
+  {
+    "name": "関税自主権",
+    "key": "関税自主権",
+    "kind": "concept",
+    "points": [],
+    "family": "関税自主権"
+  },
+  {
+    "name": "最恵国待遇",
+    "key": "最恵国待遇",
+    "kind": "concept",
+    "points": [],
+    "family": "最恵国待遇"
+  },
+  {
+    "name": "租界",
+    "key": "租界",
+    "kind": "concept",
+    "points": [],
+    "family": "租界"
+  },
+  {
+    "name": "望厦条約",
+    "key": "望厦条約",
+    "kind": "concept",
+    "points": [],
+    "family": "望厦条約"
+  },
+  {
+    "name": "黄埔条約",
+    "key": "黄埔条約",
+    "kind": "concept",
+    "points": [],
+    "family": "黄埔条約"
+  },
+  {
+    "name": "天津条約",
+    "key": "天津条約",
+    "kind": "concept",
+    "points": [],
+    "family": "天津条約"
+  },
+  {
+    "name": "アイグン条約",
+    "key": "アイグン条約",
+    "kind": "concept",
+    "points": [],
+    "family": "アイグン条約"
+  },
+  {
+    "name": "愛琿条約",
+    "key": "愛琿条約",
+    "kind": "concept",
+    "points": [],
+    "family": "愛琿条約"
+  },
+  {
+    "name": "北京条約",
+    "key": "北京条約",
+    "kind": "concept",
+    "points": [],
+    "family": "北京条約"
+  },
+  {
+    "name": "総理衙門",
+    "key": "総理衙門",
+    "kind": "concept",
+    "points": [],
+    "family": "総理衙門"
+  },
+  {
+    "name": "総理各国事務衙門",
+    "key": "総理各国事務衙門",
+    "kind": "concept",
+    "points": [],
+    "family": "総理各国事務衙門"
+  },
+  {
+    "name": "ネルチンスク条約",
+    "key": "ネルチンスク条約",
+    "kind": "concept",
+    "points": [],
+    "family": "ネルチンスク条約"
+  },
+  {
+    "name": "キャフタ条約",
+    "key": "キャフタ条約",
+    "kind": "concept",
+    "points": [],
+    "family": "キャフタ条約"
+  },
+  {
+    "name": "イリ事件",
+    "key": "イリ事件",
+    "kind": "concept",
+    "points": [],
+    "family": "イリ事件"
+  },
+  {
+    "name": "イリ条約",
+    "key": "イリ条約",
+    "kind": "concept",
+    "points": [],
+    "family": "イリ条約"
+  },
+  {
+    "name": "上帝会",
+    "key": "上帝会",
+    "kind": "concept",
+    "points": [],
+    "family": "上帝会"
+  },
+  {
+    "name": "上帝",
+    "key": "上帝",
+    "kind": "concept",
+    "points": [],
+    "family": "上帝"
+  },
+  {
+    "name": "玉皇上帝",
+    "key": "玉皇上帝",
+    "kind": "concept",
+    "points": [],
+    "family": "玉皇上帝"
+  },
+  {
+    "name": "イエス",
+    "key": "イエス",
+    "kind": "concept",
+    "points": [],
+    "family": "イエス"
+  },
+  {
+    "name": "ヤハウェ",
+    "key": "ヤハウェ",
+    "kind": "concept",
+    "points": [],
+    "family": "ヤハウェ"
+  },
+  {
+    "name": "滅満興漢",
+    "key": "滅満興漢",
+    "kind": "concept",
+    "points": [],
+    "family": "滅満興漢"
+  },
+  {
+    "name": "反清復明",
+    "key": "反清復明",
+    "kind": "concept",
+    "points": [],
+    "family": "反清復明"
+  },
+  {
+    "name": "太平天国",
+    "key": "太平天国",
+    "kind": "concept",
+    "points": [],
+    "family": "太平天国"
+  },
+  {
+    "name": "太平天国の乱",
+    "key": "太平天国の乱",
+    "kind": "concept",
+    "points": [],
+    "family": "太平天国の乱"
+  },
+  {
+    "name": "天朝田畝制度",
+    "key": "天朝田畝制度",
+    "kind": "concept",
+    "points": [],
+    "family": "天朝田畝制度"
+  },
+  {
+    "name": "捻軍",
+    "key": "捻軍",
+    "kind": "concept",
+    "points": [],
+    "family": "捻軍"
+  },
+  {
+    "name": "常勝軍",
+    "key": "常勝軍",
+    "kind": "concept",
+    "points": [],
+    "family": "常勝軍"
+  },
+  {
+    "name": "郷勇",
+    "key": "郷勇",
+    "kind": "concept",
+    "points": [],
+    "family": "郷勇"
+  },
+  {
+    "name": "湘軍",
+    "key": "湘軍",
+    "kind": "concept",
+    "points": [],
+    "family": "湘軍"
+  },
+  {
+    "name": "湘勇",
+    "key": "湘勇",
+    "kind": "concept",
+    "points": [],
+    "family": "湘勇"
+  },
+  {
+    "name": "淮軍",
+    "key": "淮軍",
+    "kind": "concept",
+    "points": [],
+    "family": "淮軍"
+  },
+  {
+    "name": "淮勇",
+    "key": "淮勇",
+    "kind": "concept",
+    "points": [],
+    "family": "淮勇"
+  },
+  {
+    "name": "楚軍",
+    "key": "楚軍",
+    "kind": "concept",
+    "points": [],
+    "family": "楚軍"
+  },
+  {
+    "name": "楚勇",
+    "key": "楚勇",
+    "kind": "concept",
+    "points": [],
+    "family": "楚勇"
+  },
+  {
+    "name": "八旗",
+    "key": "八旗",
+    "kind": "concept",
+    "points": [],
+    "family": "八旗"
+  },
+  {
+    "name": "緑営",
+    "key": "緑営",
+    "kind": "concept",
+    "points": [],
+    "family": "緑営"
+  },
+  {
+    "name": "同治の中興",
+    "key": "同治の中興",
+    "kind": "concept",
+    "points": [],
+    "family": "同治の中興"
+  },
+  {
+    "name": "洋務運動",
+    "key": "洋務運動",
+    "kind": "concept",
+    "points": [],
+    "family": "洋務運動"
+  },
+  {
+    "name": "中体西用",
+    "key": "中体西用",
+    "kind": "concept",
+    "points": [],
+    "family": "中体西用"
+  },
+  {
+    "name": "北洋艦隊",
+    "key": "北洋艦隊",
+    "kind": "concept",
+    "points": [],
+    "family": "北洋艦隊"
+  },
+  {
+    "name": "福建艦隊",
+    "key": "福建艦隊",
+    "kind": "concept",
+    "points": [],
+    "family": "福建艦隊"
+  },
+  {
+    "name": "清仏戦争",
+    "key": "清仏戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "清仏戦争"
+  },
+  {
+    "name": "日清戦争",
+    "key": "日清戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "日清戦争"
+  },
+  {
+    "name": "琉球問題",
+    "key": "琉球問題",
+    "kind": "concept",
+    "points": [],
+    "family": "琉球問題"
+  },
+  {
+    "name": "朝鮮問題",
+    "key": "朝鮮問題",
+    "kind": "concept",
+    "points": [],
+    "family": "朝鮮問題"
+  },
+  {
+    "name": "島津氏",
+    "key": "島津氏",
+    "kind": "concept",
+    "points": [],
+    "family": "島津氏"
+  },
+  {
+    "name": "三十年戦争",
+    "key": "三十年戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "三十年戦争"
+  },
+  {
+    "name": "日清修好条規",
+    "key": "日清修好条規",
+    "kind": "concept",
+    "points": [],
+    "family": "日清修好条規"
+  },
+  {
+    "name": "台湾出兵",
+    "key": "台湾出兵",
+    "kind": "concept",
+    "points": [],
+    "family": "台湾出兵"
+  },
+  {
+    "name": "琉球処分",
+    "key": "琉球処分",
+    "kind": "concept",
+    "points": [],
+    "family": "琉球処分"
+  },
+  {
+    "name": "樺太・千島交換条約",
+    "key": "樺太千島交換条約",
+    "kind": "concept",
+    "points": [],
+    "family": "樺太・千島交換条約"
+  },
+  {
+    "name": "日露和親条約",
+    "key": "日露和親条約",
+    "kind": "concept",
+    "points": [],
+    "family": "日露和親条約"
+  },
+  {
+    "name": "洪景来の乱",
+    "key": "洪景来の乱",
+    "kind": "concept",
+    "points": [],
+    "family": "洪景来の乱"
+  },
+  {
+    "name": "両班",
+    "key": "両班",
+    "kind": "concept",
+    "points": [],
+    "family": "両班"
+  },
+  {
+    "name": "閔氏",
+    "key": "閔氏",
+    "kind": "concept",
+    "points": [],
+    "family": "閔氏"
+  },
+  {
+    "name": "閔氏政権",
+    "key": "閔氏政権",
+    "kind": "concept",
+    "points": [],
+    "family": "閔氏政権"
+  },
+  {
+    "name": "攘夷派",
+    "key": "攘夷派",
+    "kind": "concept",
+    "points": [],
+    "family": "攘夷派"
+  },
+  {
+    "name": "開化派",
+    "key": "開化派",
+    "kind": "concept",
+    "points": [],
+    "family": "開化派"
+  },
+  {
+    "name": "独立党",
+    "key": "独立党",
+    "kind": "concept",
+    "points": [],
+    "family": "独立党"
+  },
+  {
+    "name": "事大党",
+    "key": "事大党",
+    "kind": "concept",
+    "points": [],
+    "family": "事大党"
+  },
+  {
+    "name": "江華島事件",
+    "key": "江華島事件",
+    "kind": "concept",
+    "points": [],
+    "family": "江華島事件"
+  },
+  {
+    "name": "日朝修好条規",
+    "key": "日朝修好条規",
+    "kind": "concept",
+    "points": [],
+    "family": "日朝修好条規"
+  },
+  {
+    "name": "壬午軍乱",
+    "key": "壬午軍乱",
+    "kind": "concept",
+    "points": [],
+    "family": "壬午軍乱"
+  },
+  {
+    "name": "甲申政変",
+    "key": "甲申政変",
+    "kind": "concept",
+    "points": [],
+    "family": "甲申政変"
+  },
+  {
+    "name": "東学",
+    "key": "東学",
+    "kind": "concept",
+    "points": [],
+    "family": "東学"
+  },
+  {
+    "name": "逐洋斥倭",
+    "key": "逐洋斥倭",
+    "kind": "concept",
+    "points": [],
+    "family": "逐洋斥倭"
+  },
+  {
+    "name": "甲午農民戦争",
+    "key": "甲午農民戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "甲午農民戦争"
+  },
+  {
+    "name": "東学（党）の乱",
+    "key": "東学（党）の乱",
+    "kind": "concept",
+    "points": [],
+    "family": "東学（党）の乱"
+  },
+  {
+    "name": "全州和約",
+    "key": "全州和約",
+    "kind": "concept",
+    "points": [],
+    "family": "全州和約"
+  },
+  {
+    "name": "黄海海戦",
+    "key": "黄海海戦",
+    "kind": "concept",
+    "points": [],
+    "family": "黄海海戦"
+  },
+  {
+    "name": "下関条約",
+    "key": "下関条約",
+    "kind": "concept",
+    "points": [],
+    "family": "下関条約"
+  },
+  {
+    "name": "日清通商航海条約",
+    "key": "日清通商航海条約",
+    "kind": "concept",
+    "points": [],
+    "family": "日清通商航海条約"
+  },
+  {
+    "name": "三国干渉",
+    "key": "三国干渉",
+    "kind": "concept",
+    "points": [],
+    "family": "三国干渉"
+  },
+  {
+    "name": "日露戦争",
+    "key": "日露戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "日露戦争"
+  },
+  {
+    "name": "シベリア鉄道",
+    "key": "シベリア鉄道",
+    "kind": "concept",
+    "points": [],
+    "family": "シベリア鉄道"
+  },
+  {
+    "name": "東清鉄道",
+    "key": "東清鉄道",
+    "kind": "concept",
+    "points": [],
+    "family": "東清鉄道"
+  },
+  {
+    "name": "海国図志",
+    "key": "海国図志",
+    "kind": "concept",
+    "points": [],
+    "family": "海国図志"
+  },
+  {
+    "name": "学問のすゝめ",
+    "key": "学問のすゝめ",
+    "kind": "concept",
+    "points": [],
+    "family": "学問のすゝめ"
+  },
+  {
+    "name": "甲午改革",
+    "key": "甲午改革",
+    "kind": "concept",
+    "points": [],
+    "family": "甲午改革"
+  },
+  {
+    "name": "独立協会",
+    "key": "独立協会",
+    "kind": "concept",
+    "points": [],
+    "family": "独立協会"
+  },
+  {
+    "name": "東京大学",
+    "key": "東京大学",
+    "kind": "concept",
+    "points": [],
+    "family": "東京大学"
+  },
+  {
+    "name": "三井",
+    "key": "三井",
+    "kind": "concept",
+    "points": [],
+    "family": "三井"
+  },
+  {
+    "name": "三菱",
+    "key": "三菱",
+    "kind": "concept",
+    "points": [],
+    "family": "三菱"
+  },
+  {
+    "name": "明治維新",
+    "key": "明治維新",
+    "kind": "concept",
+    "points": [],
+    "family": "明治維新"
+  }
+];
+const normalize=text=>String(text??'').replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g,'').replace(/<[^>]*>/g,'').replace(/[\s＝=・『』「」]/g,'');
+const byKey=new Map(modernNameCatalog.map(entry=>[entry.key,entry]));
+const escapePattern=value=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const pattern=new RegExp([...byKey.keys()].sort((a,b)=>b.length-a.length).map(key=>key.length===1?`(?<![一-龯])${escapePattern(key)}(?![一-龯])`:escapePattern(key)).join('|'),'g');
+export function modernNamesInText(text){
+ const value=normalize(text).replace(/中国人|日本人|朝鮮人|琉球人|ヨーロッパ人|中国語|中国史|中国近現代史/g,'').replace(/英仏連合軍|英仏軍|英仏/g,'イギリスフランス').replace(/日清両軍|日清両国|日清間/g,'日本中国').replace(/清軍/g,'清朝の軍');
+ const found=new Map();for(const match of value.matchAll(pattern)){const entry=byKey.get(match[0]);if(!found.has(entry.family))found.set(entry.family,entry);}
+ // 名称内部の国を機械的に地点へせず、実際の対立・貿易・制度が本文で明記される場合だけ国を共存させる。
+ const relations=[["日清戦争",["中国","日本"]],["清仏戦争",["中国","フランス"]],["日清修好条規",["中国","日本"]],["日朝修好条規",["日本","朝鮮"]],["日清通商航海条約",["中国","日本"]],["台湾出兵",["台湾","日本"]],["琉球処分",["琉球"]],["江華島事件",["江華島"]],["アロー号事件",[]],["日露戦争",["日本","ロシア"]]];
+ for(const [term,names]of relations)if(value.includes(term))for(const name of names){const entry=byKey.get(name);if(!found.has(entry.family))found.set(entry.family,entry);}
+ return [...found.values()];
+}

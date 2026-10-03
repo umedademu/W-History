@@ -1,0 +1,2477 @@
+[
+  {
+    "id": "modern-c02-l09-p01-001",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "近代東アジアの前編を読む",
+    "paragraphs": [
+      "modern-09-5"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p01-002",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "冊封体制と欧米の進出",
+    "paragraphs": [
+      "modern-09-18"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-18",
+        "markdownStart": 0,
+        "markdownEnd": 390
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "朝鮮",
+        "paragraph": "modern-09-18",
+        "lines": [
+          18
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-003",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "清朝の改革と日本の近代化",
+    "paragraphs": [
+      "modern-09-18"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-18",
+        "markdownStart": 390,
+        "markdownEnd": 765
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-004",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "近代東アジアの始まり",
+    "paragraphs": [
+      "modern-09-20"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-18",
+        "lines": [
+          18
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "朝鮮",
+        "paragraph": "modern-09-18",
+        "lines": [
+          18
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-005",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "乾隆帝と冊封体制",
+    "paragraphs": [
+      "modern-09-30"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-30",
+        "markdownStart": 0,
+        "markdownEnd": 224
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-006",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "広州1港と特許商人の行商",
+    "paragraphs": [
+      "modern-09-30"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-30",
+        "markdownStart": 224,
+        "markdownEnd": 454
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-007",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "互市貿易と朝貢貿易の区別",
+    "paragraphs": [
+      "modern-09-30"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-30",
+        "markdownStart": 454,
+        "markdownEnd": 613
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-008",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "中華思想と輸入を拒む姿勢",
+    "paragraphs": [
+      "modern-09-32"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p01-009",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "イギリスの茶の需要拡大",
+    "paragraphs": [
+      "modern-09-34"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-34",
+        "markdownStart": 0,
+        "markdownEnd": 207
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-010",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "綿製品の生産と輸出の拒否",
+    "paragraphs": [
+      "modern-09-34"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-34",
+        "markdownStart": 207,
+        "markdownEnd": 325
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-011",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "茶・陶磁器・絹と銀の支払い",
+    "paragraphs": [
+      "modern-09-34"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-34",
+        "markdownStart": 325,
+        "markdownEnd": 506
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-012",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "マカートニーの派遣と乾隆帝の拒否",
+    "paragraphs": [
+      "modern-09-48"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p01-013",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "アマーストと嘉慶帝の謁見拒否",
+    "paragraphs": [
+      "modern-09-50"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-50",
+        "markdownStart": 0,
+        "markdownEnd": 143
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-014",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "三跪九叩頭と貿易制限の継続",
+    "paragraphs": [
+      "modern-09-50"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-50",
+        "markdownStart": 143,
+        "markdownEnd": 368
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-015",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "インド産アヘンの密輸出",
+    "paragraphs": [
+      "modern-09-70"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p01-016",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "自由貿易政策と会社独占権の廃止",
+    "paragraphs": [
+      "modern-09-72"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-72",
+        "markdownStart": 0,
+        "markdownEnd": 225
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-017",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "英・印・清を結ぶ三角貿易",
+    "paragraphs": [
+      "modern-09-72"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-72",
+        "markdownStart": 225,
+        "markdownEnd": 568
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-018",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "銀の流れがアジアからイギリスへ",
+    "paragraphs": [
+      "modern-09-74"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p01-019",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "銀の流出と地丁銀の税負担",
+    "paragraphs": [
+      "modern-09-97"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-97",
+        "markdownStart": 0,
+        "markdownEnd": 284
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-020",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "清朝の財政難とアヘン中毒の増加",
+    "paragraphs": [
+      "modern-09-97"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-97",
+        "markdownStart": 284,
+        "markdownEnd": 366
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-021",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "林則徐の任命と広州での取締り",
+    "paragraphs": [
+      "modern-09-99"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-99",
+        "markdownStart": 0,
+        "markdownEnd": 345
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "中国",
+        "paragraph": "modern-09-97",
+        "lines": [
+          97
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-022",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "アヘン没収・処分と貿易禁止の通告",
+    "paragraphs": [
+      "modern-09-99"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-99",
+        "markdownStart": 345,
+        "markdownEnd": 500
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "中国",
+        "paragraph": "modern-09-97",
+        "lines": [
+          97
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-023",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "インドのアヘン収入と開戦論",
+    "paragraphs": [
+      "modern-09-101"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-101",
+        "markdownStart": 0,
+        "markdownEnd": 136
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-024",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "グラッドストンの反対と開戦決定",
+    "paragraphs": [
+      "modern-09-101"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-101",
+        "markdownStart": 136,
+        "markdownEnd": 280
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-025",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "蒸気軍艦と木造ジャンク船",
+    "paragraphs": [
+      "modern-09-105"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-105",
+        "markdownStart": 0,
+        "markdownEnd": 123
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イリ地方",
+        "paragraph": "modern-09-105",
+        "lines": [
+          121
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-026",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "平英団とイギリス軍の北上",
+    "paragraphs": [
+      "modern-09-105"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-105",
+        "markdownStart": 123,
+        "markdownEnd": 368
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-105",
+        "lines": [
+          105,
+          121
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "イリ地方",
+        "paragraph": "modern-09-105",
+        "lines": [
+          121
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-027",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "林則徐の追放と清朝の降伏",
+    "paragraphs": [
+      "modern-09-105"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-105",
+        "markdownStart": 368,
+        "markdownEnd": 482
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-028",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "南京条約の五港と香港島",
+    "paragraphs": [
+      "modern-09-153"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-153",
+        "markdownStart": 0,
+        "markdownEnd": 543
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-029",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "補償・賠償とアヘン密貿易の継続",
+    "paragraphs": [
+      "modern-09-153"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-153",
+        "markdownStart": 543,
+        "markdownEnd": 670
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-153",
+        "lines": [
+          153
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-030",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "五港通商章程と領事裁判権",
+    "paragraphs": [
+      "modern-09-155"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-155",
+        "markdownStart": 0,
+        "markdownEnd": 500
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-031",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "片務的最恵国待遇と不平等条約",
+    "paragraphs": [
+      "modern-09-155"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-155",
+        "markdownStart": 500,
+        "markdownEnd": 712
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-032",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "租界の形成と米仏の条約",
+    "paragraphs": [
+      "modern-09-155"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-155",
+        "markdownStart": 712,
+        "markdownEnd": 1101
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-155",
+        "lines": [
+          155
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-033",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "開港しても増えない貿易",
+    "paragraphs": [
+      "modern-09-187"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-187",
+        "markdownStart": 0,
+        "markdownEnd": 368
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-034",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "イギリスが探した開戦の口実",
+    "paragraphs": [
+      "modern-09-187"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-187",
+        "markdownStart": 368,
+        "markdownEnd": 457
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "中国",
+        "paragraph": "modern-09-187",
+        "lines": [
+          187
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-035",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "アロー号事件とイギリスの口実",
+    "paragraphs": [
+      "modern-09-205"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-205",
+        "markdownStart": 0,
+        "markdownEnd": 303
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-036",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "英仏連合軍と第2次アヘン戦争",
+    "paragraphs": [
+      "modern-09-205"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-205",
+        "markdownStart": 303,
+        "markdownEnd": 611
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-037",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "広州占領から天津条約へ",
+    "paragraphs": [
+      "modern-09-239"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p01-038",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "天津条約の十港と権利",
+    "paragraphs": [
+      "modern-09-247"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-247",
+        "markdownStart": 0,
+        "markdownEnd": 569
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "中国",
+        "paragraph": "modern-09-247",
+        "lines": [
+          247
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-039",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "北京で批准をおこなう手続き",
+    "paragraphs": [
+      "modern-09-247"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-247",
+        "markdownStart": 569,
+        "markdownEnd": 713
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-040",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "大沽の攻撃と戦争の再開",
+    "paragraphs": [
+      "modern-09-249"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-249",
+        "markdownStart": 0,
+        "markdownEnd": 92
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-041",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "咸豊帝の避難と円明園の破壊",
+    "paragraphs": [
+      "modern-09-249"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-249",
+        "markdownStart": 92,
+        "markdownEnd": 547
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-042",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "北京条約とアヘン貿易公認",
+    "paragraphs": [
+      "modern-09-249"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-249",
+        "markdownStart": 547,
+        "markdownEnd": 882
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-249",
+        "lines": [
+          249
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-043",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "総理衙門と近代外交",
+    "paragraphs": [
+      "modern-09-251"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p01-044",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "ネルチンスク条約とロシアの狙い",
+    "paragraphs": [
+      "modern-09-255"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-255",
+        "markdownStart": 0,
+        "markdownEnd": 313
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-045",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "アイグン条約と沿海州共同管理",
+    "paragraphs": [
+      "modern-09-255"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-255",
+        "markdownStart": 313,
+        "markdownEnd": 834
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-046",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "ロシアの仲介と沿海州獲得",
+    "paragraphs": [
+      "modern-09-257"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-257",
+        "markdownStart": 0,
+        "markdownEnd": 268
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-255",
+        "lines": [
+          255
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-047",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "ウラジヴォストークの建設",
+    "paragraphs": [
+      "modern-09-257"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-257",
+        "markdownStart": 268,
+        "markdownEnd": 389
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-255",
+        "lines": [
+          255
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-048",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "ヤークーブ＝ベクの新疆進出",
+    "paragraphs": [
+      "modern-09-275"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-275",
+        "markdownStart": 0,
+        "markdownEnd": 315
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-275",
+        "lines": [
+          275
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-049",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "ロシアのイリ占領と清の警戒",
+    "paragraphs": [
+      "modern-09-275"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-275",
+        "markdownStart": 315,
+        "markdownEnd": 444
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "新疆",
+        "paragraph": "modern-09-275",
+        "lines": [
+          275
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-275",
+        "lines": [
+          275
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-050",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "左宗棠による反乱鎮圧",
+    "paragraphs": [
+      "modern-09-275"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-275",
+        "markdownStart": 444,
+        "markdownEnd": 557
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イリ地方",
+        "paragraph": "modern-09-275",
+        "lines": [
+          275
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p01-051",
+    "volume": "modern-c02-l09-p01",
+    "part": 1,
+    "title": "イリ条約と新疆省の設置",
+    "paragraphs": [
+      "modern-09-275"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-275",
+        "markdownStart": 557,
+        "markdownEnd": 773
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-001",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "太平天国と第2次アヘン戦争の前後関係",
+    "paragraphs": [
+      "modern-09-291"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p02-002",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "賠償・銀価と広東の失業",
+    "paragraphs": [
+      "modern-09-299"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p02-003",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "反清復明と洪秀全の上帝会",
+    "paragraphs": [
+      "modern-09-301"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p02-004",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "洪秀全の出身と科挙",
+    "paragraphs": [
+      "modern-09-303"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-303",
+        "markdownStart": 0,
+        "markdownEnd": 163
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-301",
+        "lines": [
+          301
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-005",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "聖書の抜粋と夢の解釈",
+    "paragraphs": [
+      "modern-09-303"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-303",
+        "markdownStart": 163,
+        "markdownEnd": 306
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-301",
+        "lines": [
+          301
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-006",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "上帝会の結成と広西の信徒",
+    "paragraphs": [
+      "modern-09-303"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-303",
+        "markdownStart": 306,
+        "markdownEnd": 443
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-301",
+        "lines": [
+          301
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-007",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "金田村での挙兵と太平天国",
+    "paragraphs": [
+      "modern-09-303"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-303",
+        "markdownStart": 443,
+        "markdownEnd": 716
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-301",
+        "lines": [
+          301
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-008",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "上帝と滅満興漢",
+    "paragraphs": [
+      "modern-09-305"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-305",
+        "markdownStart": 0,
+        "markdownEnd": 324
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-009",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "長江流域への進出と天京",
+    "paragraphs": [
+      "modern-09-305"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-305",
+        "markdownStart": 324,
+        "markdownEnd": 599
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清",
+        "paragraph": "modern-09-305",
+        "lines": [
+          305
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-010",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "太平天国の掲げた平等と捻軍",
+    "paragraphs": [
+      "modern-09-323"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p02-011",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "欧米の中立から清朝支援へ",
+    "paragraphs": [
+      "modern-09-327"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-327",
+        "markdownStart": 0,
+        "markdownEnd": 136
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-012",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "ウォード・ゴードンと常勝軍",
+    "paragraphs": [
+      "modern-09-327"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-327",
+        "markdownStart": 136,
+        "markdownEnd": 460
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-013",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "曾国藩・李鴻章・左宗棠の郷勇",
+    "paragraphs": [
+      "modern-09-329"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p02-014",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "洪秀全の死と天京陥落",
+    "paragraphs": [
+      "modern-09-331"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-331",
+        "markdownStart": 0,
+        "markdownEnd": 128
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-329",
+        "lines": [
+          329
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-015",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "劉永福の黒旗軍とベトナム",
+    "paragraphs": [
+      "modern-09-331"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-331",
+        "markdownStart": 128,
+        "markdownEnd": 298
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-329",
+        "lines": [
+          329
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-016",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "同治の中興と漢人官僚",
+    "paragraphs": [
+      "modern-09-335"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-335",
+        "markdownStart": 0,
+        "markdownEnd": 179
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-017",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "洋務運動の始まり",
+    "paragraphs": [
+      "modern-09-335"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-335",
+        "markdownStart": 179,
+        "markdownEnd": 559
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-018",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "中体西用の政治と思想",
+    "paragraphs": [
+      "modern-09-337"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-337",
+        "markdownStart": 0,
+        "markdownEnd": 451
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-019",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "西洋技術と軍備・工場",
+    "paragraphs": [
+      "modern-09-337"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-337",
+        "markdownStart": 451,
+        "markdownEnd": 610
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "中国",
+        "paragraph": "modern-09-337",
+        "lines": [
+          337,
+          345
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-020",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "政治改革への保守派の抵抗",
+    "paragraphs": [
+      "modern-09-337"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-337",
+        "markdownStart": 610,
+        "markdownEnd": 683
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "中国",
+        "paragraph": "modern-09-337",
+        "lines": [
+          337,
+          345
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-021",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "北洋艦隊・福建艦隊と官僚の力",
+    "paragraphs": [
+      "modern-09-347"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "contextRegions": [
+      {
+        "name": "中国",
+        "paragraph": "modern-09-337",
+        "lines": [
+          337,
+          345
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p02-022",
+    "volume": "modern-c02-l09-p02",
+    "part": 2,
+    "title": "洋務運動の限界と対外戦争",
+    "paragraphs": [
+      "modern-09-349"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p03-001",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "琉球・朝鮮をめぐる日清対立",
+    "paragraphs": [
+      "modern-09-357"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p03-002",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "尚巴志の統一と明への朝貢",
+    "paragraphs": [
+      "modern-09-359"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-359",
+        "markdownStart": 0,
+        "markdownEnd": 144
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "朝鮮",
+        "paragraph": "modern-09-359",
+        "lines": [
+          359
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "中国",
+        "paragraph": "modern-09-359",
+        "lines": [
+          359
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-003",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "薩摩の征服と朝貢の継続",
+    "paragraphs": [
+      "modern-09-359"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-359",
+        "markdownStart": 144,
+        "markdownEnd": 414
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-004",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "琉球の両属体制と明治政府",
+    "paragraphs": [
+      "modern-09-361"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p03-005",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "国境問題を詳しく読む",
+    "paragraphs": [
+      "modern-09-379"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "contextRegions": [
+      {
+        "name": "琉球",
+        "paragraph": "modern-09-361",
+        "lines": [
+          361
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "清",
+        "paragraph": "modern-09-361",
+        "lines": [
+          361
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-006",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "ヨーロッパの主権国家と国境線",
+    "paragraphs": [
+      "modern-09-381"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p03-007",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "朝貢関係と支配・影響の区別",
+    "paragraphs": [
+      "modern-09-383"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p03-008",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "列強進出と日本の国境画定",
+    "paragraphs": [
+      "modern-09-385"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p03-009",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "日清修好条規と残された琉球問題",
+    "paragraphs": [
+      "modern-09-387"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-387",
+        "markdownStart": 0,
+        "markdownEnd": 220
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-010",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "琉球藩と日本の国内統治",
+    "paragraphs": [
+      "modern-09-387"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-387",
+        "markdownStart": 220,
+        "markdownEnd": 350
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-011",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "琉球問題から台湾出兵へ",
+    "paragraphs": [
+      "modern-09-389"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p03-012",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "琉球人殺害事件と日本の抗議",
+    "paragraphs": [
+      "modern-09-397"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-397",
+        "markdownStart": 0,
+        "markdownEnd": 35
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "琉球",
+        "paragraph": "modern-09-397",
+        "lines": [
+          397
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "清",
+        "paragraph": "modern-09-397",
+        "lines": [
+          397,
+          403
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-013",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "先住民への清朝の回答",
+    "paragraphs": [
+      "modern-09-397"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-397",
+        "markdownStart": 35,
+        "markdownEnd": 272
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-014",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "日本の解釈と台湾出兵",
+    "paragraphs": [
+      "modern-09-397"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-397",
+        "markdownStart": 272,
+        "markdownEnd": 464
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "琉球",
+        "paragraph": "modern-09-397",
+        "lines": [
+          397
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-015",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "清の賠償と戦争回避",
+    "paragraphs": [
+      "modern-09-405"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-405",
+        "markdownStart": 0,
+        "markdownEnd": 155
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "琉球",
+        "paragraph": "modern-09-405",
+        "lines": [
+          405
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-016",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "琉球処分と日清の主張の対立",
+    "paragraphs": [
+      "modern-09-405"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-405",
+        "markdownStart": 155,
+        "markdownEnd": 517
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-017",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "樺太・千島交換条約と小笠原",
+    "paragraphs": [
+      "modern-09-407"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p03-018",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "朝鮮の国交と開国圧力",
+    "paragraphs": [
+      "modern-09-420"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-420",
+        "markdownStart": 0,
+        "markdownEnd": 239
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-019",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "高宗と大院君の攘夷政策",
+    "paragraphs": [
+      "modern-09-420"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-420",
+        "markdownStart": 239,
+        "markdownEnd": 669
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清",
+        "paragraph": "modern-09-420",
+        "lines": [
+          420
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-020",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "両班・閔氏と大院君の失脚",
+    "paragraphs": [
+      "modern-09-422"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p03-021",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "日本の求めた近代的な国交",
+    "paragraphs": [
+      "modern-09-446"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p03-022",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "江華島事件と武力による占領",
+    "paragraphs": [
+      "modern-09-448"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-448",
+        "markdownStart": 0,
+        "markdownEnd": 171
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-448",
+        "lines": [
+          448
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-023",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "日朝修好条規と三港開港",
+    "paragraphs": [
+      "modern-09-448"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-448",
+        "markdownStart": 171,
+        "markdownEnd": 700
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-024",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "清朝の対露警戒と朝鮮への勧め",
+    "paragraphs": [
+      "modern-09-448"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-448",
+        "markdownStart": 700,
+        "markdownEnd": 901
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-025",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "開化政策と金玉均・朴泳孝",
+    "paragraphs": [
+      "modern-09-452"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-452",
+        "markdownStart": 0,
+        "markdownEnd": 354
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-026",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "攘夷派の反発と大院君",
+    "paragraphs": [
+      "modern-09-452"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-452",
+        "markdownStart": 354,
+        "markdownEnd": 468
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "朝鮮",
+        "paragraph": "modern-09-452",
+        "lines": [
+          452
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-027",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "壬午軍乱と公使館焼き討ち",
+    "paragraphs": [
+      "modern-09-452"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-452",
+        "markdownStart": 468,
+        "markdownEnd": 639
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "朝鮮",
+        "paragraph": "modern-09-452",
+        "lines": [
+          452
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-028",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "清朝の出兵と閔氏政権の復活",
+    "paragraphs": [
+      "modern-09-468"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-468",
+        "markdownStart": 0,
+        "markdownEnd": 240
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-029",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "洋務派の影響と体制維持",
+    "paragraphs": [
+      "modern-09-468"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-468",
+        "markdownStart": 240,
+        "markdownEnd": 345
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "朝鮮",
+        "paragraph": "modern-09-468",
+        "lines": [
+          468
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-030",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "事大党と開化派の対立",
+    "paragraphs": [
+      "modern-09-470"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p03-031",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "甲申政変と三日間の政権",
+    "paragraphs": [
+      "modern-09-472"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-472",
+        "markdownStart": 0,
+        "markdownEnd": 378
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "朝鮮",
+        "paragraph": "modern-09-472",
+        "lines": [
+          472
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-032",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "天津条約の撤兵と事前通告",
+    "paragraphs": [
+      "modern-09-472"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-472",
+        "markdownStart": 378,
+        "markdownEnd": 554
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-033",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "袁世凱の駐在と日清の経済進出",
+    "paragraphs": [
+      "modern-09-484"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-484",
+        "markdownStart": 0,
+        "markdownEnd": 151
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p03-034",
+    "volume": "modern-c02-l09-p03",
+    "part": 3,
+    "title": "軍備競争と日清対立の高まり",
+    "paragraphs": [
+      "modern-09-484"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-484",
+        "markdownStart": 151,
+        "markdownEnd": 330
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-001",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "東学と崔済愚",
+    "paragraphs": [
+      "modern-09-512"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-512",
+        "markdownStart": 0,
+        "markdownEnd": 276
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-002",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "逐洋斥倭と政府の弾圧",
+    "paragraphs": [
+      "modern-09-512"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-512",
+        "markdownStart": 276,
+        "markdownEnd": 437
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-512",
+        "lines": [
+          512
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "朝鮮",
+        "paragraph": "modern-09-512",
+        "lines": [
+          512
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-003",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "全琫準と甲午農民戦争",
+    "paragraphs": [
+      "modern-09-516"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-516",
+        "markdownStart": 0,
+        "markdownEnd": 298
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-516",
+        "lines": [
+          516
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "朝鮮",
+        "paragraph": "modern-09-516",
+        "lines": [
+          516
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-004",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "清と日本の出兵",
+    "paragraphs": [
+      "modern-09-516"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-516",
+        "markdownStart": 298,
+        "markdownEnd": 410
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-005",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "全州和約と日清の開戦",
+    "paragraphs": [
+      "modern-09-516"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-516",
+        "markdownStart": 410,
+        "markdownEnd": 637
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-006",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "黄海海戦と遼東半島占領",
+    "paragraphs": [
+      "modern-09-524"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-524",
+        "markdownStart": 0,
+        "markdownEnd": 177
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-007",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "西太后と清朝内部の問題",
+    "paragraphs": [
+      "modern-09-524"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-524",
+        "markdownStart": 177,
+        "markdownEnd": 457
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "朝鮮",
+        "paragraph": "modern-09-524",
+        "lines": [
+          524
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-008",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "伊藤博文・李鴻章と下関条約",
+    "paragraphs": [
+      "modern-09-526"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-526",
+        "markdownStart": 0,
+        "markdownEnd": 250
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "朝鮮",
+        "paragraph": "modern-09-526",
+        "lines": [
+          526
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-009",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "朝鮮独立と割譲・開港・賠償",
+    "paragraphs": [
+      "modern-09-526"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-526",
+        "markdownStart": 250,
+        "markdownEnd": 766
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-010",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "工場設置権と列強の最恵国待遇",
+    "paragraphs": [
+      "modern-09-528"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p04-011",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "シベリア鉄道と満洲への進出構想",
+    "paragraphs": [
+      "modern-09-564"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-564",
+        "markdownStart": 0,
+        "markdownEnd": 261
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-012",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "露・仏・独の三国干渉",
+    "paragraphs": [
+      "modern-09-564"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-564",
+        "markdownStart": 261,
+        "markdownEnd": 433
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-013",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "遼東半島返還と日露対立",
+    "paragraphs": [
+      "modern-09-568"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-568",
+        "markdownStart": 0,
+        "markdownEnd": 127
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "清",
+        "paragraph": "modern-09-568",
+        "lines": [
+          568
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-014",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "ロシアの東清鉄道敷設権",
+    "paragraphs": [
+      "modern-09-568"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-568",
+        "markdownStart": 127,
+        "markdownEnd": 373
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-015",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "欧米との近代外交と残る冊封体制",
+    "paragraphs": [
+      "modern-09-599"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-599",
+        "markdownStart": 0,
+        "markdownEnd": 380
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "琉球",
+        "paragraph": "modern-09-599",
+        "lines": [
+          599
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "朝鮮",
+        "paragraph": "modern-09-599",
+        "lines": [
+          599
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-016",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "琉球・ベトナム・朝鮮と冊封体制の崩壊",
+    "paragraphs": [
+      "modern-09-599"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-09-599",
+        "markdownStart": 380,
+        "markdownEnd": 1041
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-017",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "前編の年号を確認",
+    "paragraphs": [
+      "modern-09-601"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "contextRegions": [
+      {
+        "name": "中国",
+        "paragraph": "modern-09-599",
+        "lines": [
+          599
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "琉球",
+        "paragraph": "modern-09-599",
+        "lines": [
+          599
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "朝鮮",
+        "paragraph": "modern-09-599",
+        "lines": [
+          599
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c02-l09-p04-018",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "次回の中国分割と革命運動",
+    "paragraphs": [
+      "modern-09-616"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c02-l09-p04-019",
+    "volume": "modern-c02-l09-p04",
+    "part": 4,
+    "title": "次回へ続く",
+    "paragraphs": [
+      "modern-09-618"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "contextRegions": [
+      {
+        "name": "清朝",
+        "paragraph": "modern-09-616",
+        "lines": [
+          616
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  }
+]
