@@ -111,6 +111,8 @@ for(const entry of modernNameCatalog) {
 for(const word of ['オスマン主義','パン＝イスラーム主義','パン＝トルコ主義','トルコ民族主義','新オスマン人','青年トルコ人','バーブ教'])assert.ok(modernNamesInText(word).every(entry=>entry.kind==='concept'&&entry.points.length===0),'思想・宗教・集団名から本人や所在地を補わない: '+word);
 for(const name of ['スレイマン1世','エカチェリーナ2世','セリム3世','ムハンマド＝アリー','マフムト2世','アブデュルメジト1世','アブデュルハミト2世','ミドハト＝パシャ','アフガーニー','アーガー＝ムハンマド','サイイド＝アリー＝ムハンマド','ヤークーブ＝ベク','左宗棠'])assert.ok(modernNamesInText(name).some(entry=>entry.kind==='person'),'原文の本人名を識別する: '+name);
 for(const religion of ['ギリシア正教','ギリシア正教徒'])assert.ok(!modernNamesInText(religion).some(entry=>entry.kind==='place'||entry.kind==='region'),'宗教名の一部をギリシアの所在地にしない: '+religion);
+for(const ethnicity of ['トルコ人','クルド人','アルメニア人'])assert.ok(!modernNamesInText(ethnicity).some(entry=>['place','region'].includes(entry.kind)),'民族名だけから国や地域の地点を補わない: '+ethnicity);
+for(const region of ['トルコ','アルメニア'])assert.ok(modernNamesInText(region).some(entry=>['place','region'].includes(entry.kind)),'実際の地域名の言及は所在地として保つ: '+region);
 assert.ok(!modernNamesInText('サイイド＝アリー＝ムハンマド').some(entry=>entry.kind==='person'&&entry.name==='ムハンマド＝アリー'),'バーブ教祖とエジプト総督の名前の一部を混同しない');
 assert.ok(!modernNamesInText('アフガーニー').some(entry=>['place','region'].includes(entry.kind)),'本人名をアフガニスタンの地名にしない');
 for(const treaty of ['ミドハト憲法','カルロヴィッツ条約','トルコマンチャーイ条約','英露協商'])assert.ok(!modernNamesInText(treaty).some(entry=>entry.kind==='person'),'制度・条約名だけから本人の活動を補わない: '+treaty);

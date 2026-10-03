@@ -270,6 +270,7 @@ for(const scene of withLine(417))for(const item of itemsFor(scene).filter(item=>
 }
 for(const scene of withLine(53)){assert.equal(scene.routes.length,0,scene.id+': 航行権や保護権の付与を艦船・使節の実移動へ変えない');assert.ok(!/1783.*宗主権放棄|1774.*併合/.test(annotations(scene)),scene.id+': 1774の宗主権放棄と1783の併合を混同しない');}
 for(const scene of withLine(47))assert.ok(!/ウィーン(?:を|の)征服(?:に成功|達成)|ウィーン占領に成功/.test(annotations(scene)),scene.id+': 仮説を実際のウィーン征服に変えない');
+for(const scene of withLine(227))assert.ok(![...(scene.pins??[]).map(key=>modernPlaces[key]?.name),...(scene.tags??[]).map(tag=>tag.text)].some(name=>name==='アルメニア'),scene.id+': パリへ亡命する民族名から地域アルメニアの地点を補わない');
 for(const scene of withLine(314))assert.equal(scene.routes.length,0,scene.id+': パントルコの思想やドイツ接近を人びとの実旅行へしない');
 for(const scene of withLine(461))for(const item of itemsFor(scene))assert.ok(!/英露連合軍|英国軍.*侵攻|イギリス軍.*侵攻|英露共同侵攻/.test([item.name,item.caption,item.bubble,item.description].join('。')),scene.id+': 英国の黙認とロシアの軍事介入を共同侵攻にしない');
 for(const scene of rendered)for(const item of itemsFor(scene))if(item.kind==='person'&&/アブデュルハミト|アフガーニー/.test(item.name)&&scene.sourceText.passages.some(p=>p.lines.includes(221)))assert.ok(!/日本(?:へ|に)派遣|日本へ渡航/.test([item.caption,item.bubble].join('。')),scene.id+': 日本派遣の船と、皇帝や思想家本人の移動を混同しない');
