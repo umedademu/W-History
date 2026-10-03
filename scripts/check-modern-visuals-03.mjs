@@ -277,7 +277,7 @@ assert.ok(!itemsFor(elected).some(item=>/全土.*(?:即|直ちに).*解放|す�
 const anticipated=sceneWith('イギリスやフランスの支援');assert.ok(anticipated,'南部が期待した援軍の説明を収録');
 const hypothetical=[anticipated,sceneWith('援軍を送ってもおかしくなかった')].filter(Boolean);
 for(const scene of hypothetical){assert.ok(scene.routes.every(route=>route.kind==='trade'),scene.id+': 実際の綿花貿易だけを動かし、期待した援軍は動かさない');
- for(const item of [...(scene.actors??[]),...(scene.props??[])].filter(item=>item.route!==undefined))assert.ok(byImage.get(imageName(item.image)).kind==='prop',scene.id+': 期待した援軍や指揮官を英仏から移動させない');assert.ok(itemsFor(scene).some(item=>/期待|仮定|参戦.*阻止|支援/.test([item.name,item.caption,item.bubble].join(''))),scene.id+': 支援への期待を図の文字で識別する');}
+ for(const item of [...(scene.actors??[]),...(scene.props??[])].filter(item=>item.route!==undefined))assert.ok(byImage.get(imageName(item.image)).kind==='prop',scene.id+': 期待した援軍や指揮官を英仏から移動させない');assert.ok(itemsFor(scene).some(item=>/期待|仮定|(?:参戦|援軍).*阻止|支援/.test([item.name,item.caption,item.bubble].join(''))),scene.id+': 支援への期待・阻止を図の文字で識別する');}
 const emancipation=sceneWith('南部の奴隷が北部に逃げてきて北軍に加わり');assert.ok(emancipation,'実際の北部への逃亡と北軍加入を収録');
 assert.ok(emancipation.routes.some(route=>route.points.at(-1)[1]>route.points[0][1]),'北軍に加わる移動は南から北へ向かう');
 const granted=sceneWith('憲法修正第13条');assert.ok(granted,'宣言と憲法修正を区別する');
