@@ -1,7 +1,7 @@
 {
-  "version": "0.115",
-  "parts": 150,
-  "pages": 1337,
+  "version": "0.116",
+  "parts": 156,
+  "pages": 1430,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 22,
-      "pages": 324,
+      "parts": 28,
+      "pages": 417,
       "chapters": [
         {
           "chapter": 1,
@@ -2442,6 +2442,10 @@
             {
               "lesson": 5,
               "title": "ロシアと東方問題"
+            },
+            {
+              "lesson": 6,
+              "title": "19世紀のヨーロッパ文化"
             }
           ],
           "volumes": [
@@ -2620,6 +2624,54 @@
               "lesson": 5,
               "part": 4,
               "pages": 12
+            },
+            {
+              "id": "modern-c01-l06-p01",
+              "label": "古典主義",
+              "number": "23",
+              "lesson": 6,
+              "part": 1,
+              "pages": 11
+            },
+            {
+              "id": "modern-c01-l06-p02",
+              "label": "ロマン主義",
+              "number": "24",
+              "lesson": 6,
+              "part": 2,
+              "pages": 11
+            },
+            {
+              "id": "modern-c01-l06-p03",
+              "label": "写実主義・自然主義",
+              "number": "25",
+              "lesson": 6,
+              "part": 3,
+              "pages": 22
+            },
+            {
+              "id": "modern-c01-l06-p04",
+              "label": "印象派・後期印象派",
+              "number": "26",
+              "lesson": 6,
+              "part": 4,
+              "pages": 9
+            },
+            {
+              "id": "modern-c01-l06-p05",
+              "label": "社会科学・哲学",
+              "number": "27",
+              "lesson": 6,
+              "part": 5,
+              "pages": 25
+            },
+            {
+              "id": "modern-c01-l06-p06",
+              "label": "自然科学・科学技術",
+              "number": "28",
+              "lesson": 6,
+              "part": 6,
+              "pages": 15
             }
           ]
         }

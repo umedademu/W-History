@@ -1,10 +1,10 @@
 import { sourceEdition } from "./source-edition.js?v=0.064";
-import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.115";
+import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.116";
 import { maximumMapScale } from "./map-camera.js?v=0.064";
 import { createMapLayout } from "./map-layout.js?v=0.064";
 import {places,zones} from "./safavid-scenes.js?v=0.064";
 
-import {volumeNavigation} from './story-volumes.js?v=0.115';
+import {volumeNavigation} from './story-volumes.js?v=0.116';
 const chapterNavigation=volumeNavigation({id:'safavid'});
 const scenes=sourceEdition["safavid"];
 const NS="http://www.w3.org/2000/svg";

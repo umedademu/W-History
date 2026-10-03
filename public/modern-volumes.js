@@ -1,7 +1,8 @@
-import {modernLessons as fifthLessons, modernSeries as fifthSeries} from './modern-lesson-05-volumes.js?v=0.115';
-import {modernLessons as fourthLessons, modernSeries as fourthSeries} from './modern-lesson-04-volumes.js?v=0.115';
-import {modernLessons as thirdLessons, modernSeries as thirdSeries} from './modern-lesson-03-volumes.js?v=0.115';
-import {modernLessons as secondLessons, modernSeries as secondSeries} from './modern-lesson-02-volumes.js?v=0.115';
+import {modernLessons as sixthLessons, modernSeries as sixthSeries} from './modern-lesson-06-volumes.js?v=0.116';
+import {modernLessons as fifthLessons, modernSeries as fifthSeries} from './modern-lesson-05-volumes.js?v=0.116';
+import {modernLessons as fourthLessons, modernSeries as fourthSeries} from './modern-lesson-04-volumes.js?v=0.116';
+import {modernLessons as thirdLessons, modernSeries as thirdSeries} from './modern-lesson-03-volumes.js?v=0.116';
+import {modernLessons as secondLessons, modernSeries as secondSeries} from './modern-lesson-02-volumes.js?v=0.116';
 // 近代・現代 第1章第1回の5節。原文の節名と掲載順を保持。
 const firstLessons = [
   {
@@ -82,5 +83,5 @@ const firstSeries = [
   }
 ];
 
-export const modernLessons = [...firstLessons, ...secondLessons, ...thirdLessons, ...fourthLessons, ...fifthLessons];
-export const modernSeries = [...firstSeries, ...secondSeries, ...thirdSeries, ...fourthSeries, ...fifthSeries].map((volume,index)=>({...volume,number:String(index+1).padStart(2,'0')}));
+export const modernLessons = [...firstLessons, ...secondLessons, ...thirdLessons, ...fourthLessons, ...fifthLessons, ...sixthLessons];
+export const modernSeries = [...firstSeries, ...secondSeries, ...thirdSeries, ...fourthSeries, ...fifthSeries, ...sixthSeries].map((volume,index)=>({...volume,number:String(index+1).padStart(2,'0')}));

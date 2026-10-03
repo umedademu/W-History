@@ -1,0 +1,2803 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "lesson": "modern-c01-l06",
+  "description": "原文の内容を示す模式的な人物・一般集団・施設・道具。精密な肖像や建物・軍艦の復元ではない。",
+  "totals": {
+    "new": 47,
+    "nativeGenerated": 0,
+    "fallbackGenerated": 47,
+    "generationRequests": 48,
+    "reused": 18,
+    "used": 65
+  },
+  "authorization": "指定のAntigravity CLI経由でGemini 3.8 Flashへゲーテの画像を依頼したが、画像生成側がRESOURCE_EXHAUSTED（リセットまで約2時間18分）を返した。以前のユーザーによる別の画像生成ツールへの続行承認を適用し、47点を組み込み画像生成ツールで制作。全47点の透明調整と寸法調整は指定どおりAntigravity経由Geminiへ依頼した。",
+  "generationModels": {
+    "nativeRequest": "Gemini 3.8 Flash High",
+    "fallback": "組み込み画像生成ツール。内部モデル名は返されないため記載しない。"
+  },
+  "nativeRequests": [
+    {
+      "key": "goethe",
+      "status": "quota",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall with crisp dark stepped pixel outlines, muted colors, small full intact figure centered, transparent background if possible otherwise pure white. Match C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and talleyrand.png. Subject: Johann Wolfgang von Goethe, German author around age sixty, clean shaven pale face, short gray swept-back hair, high forehead, reserved thoughtful expression, early nineteenth-century dark green long frock coat, white high collar cravat, cream waistcoat, dark trousers and boots, holding a closed plain book. No text, no labels, no background scene, no cast shadow. ImageName johann-goethe. Do not alter repository files. Return concise JSON {key:'johann-goethe',generated_path,tool,error}; if image quota limited return immediately without waits/retries.\n"
+    }
+  ],
+  "quota": {
+    "status": "RESOURCE_EXHAUSTED",
+    "firstKey": "goethe",
+    "resetAfter": "約2時間18分"
+  },
+  "normalization": {
+    "model": "Gemini 3.8 Flash High",
+    "via": "Antigravity CLI",
+    "completed": 47,
+    "failed": 0,
+    "canvas": [
+      192,
+      192
+    ],
+    "subjectMaximum": [
+      176,
+      176
+    ],
+    "centerX": 96,
+    "bottomY": 184,
+    "resampling": "最近傍・縦横比を維持。",
+    "alphaCleanup": "元画像のRGBは非改変。生成時の遠い余白に残るアルファ1〜15の薄い雑音だけを0にし、16〜255は元の値を保持する。背景の色除去は行わない。",
+    "scriptSha256": "0bd1a5400d9c5d8f35ce4285d8afe8b1aba1ee5dde04a765cafe99b5385e929e",
+    "prompt": "あなたはGemini 3.8 Flashです。指定画像の調整処理だけを担当してください。新規の画像生成や別担当、広い探索、Git、インストールは不要です。現在47画像を別経路で生成中です。\nまず C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson06-1791037542957/normalize-sprites.py を作成してください。まだ一覧は空のため、いまは画像処理を実行せずスクリプト作成と構文確認のみ行い、最後に作成結果を報告してください。完成した一覧が用意できたら同じ処理へ実行を依頼します。\n参考処理（読んでよい）: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson05-1791034339678/normalize-sprites.py\n入力: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson06-1791037542957/generated-inputs.json 形式 {assets:[{key,inputPath,outputPath,generationTool,...}]} の47件。出力報告 C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson06-1791037542957/normalization-report.json。確認画像 C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson06-1791037542957/contact-sheet-01.png と contact-sheet-02.png。\n元の透明PNGは参照専用、RGBと顔・衣服の絵は描き替えない。アルファ1〜15のごく薄い雑音だけ0にし、16〜255はそのまま。透過範囲bboxを切り出し、比率を保持して最大176×176へ最近傍で縮小し、192×192透明面の横中央96/下端184に配置。全周8px以上透明余白。元のファイルを上書きせず、outputPathの既存ファイルは上書きせず失敗。sources/AGENTS/TASK/他の既存画像やコードへ触れない。\nJSON報告はsummary {total,completed,failed}, failures[], results[]。結果はkey,inputPath,outputPath,inputSha256,outputSha256,originalDimensions{width,height},originalBbox,cleanedBbox,savedBbox,transparentPixelCount,removedFaintAlphaPixels,backgroundOperation,status。寸法192・透明余白・空図でないを確認、入力不足は失敗にする。\n確認用一覧は最初24と残り23を分けて6列×4行、各192そのまま薄い灰背景で並べ下にASCII keyを付ける。公開画像には文字を追加しない。Python/Pillowで作成可。処理は同じJSONを用いて再実行時に既存出力の識別値照合で既処理を再利用できる設計を可とし、元のreportにない既存出力は失敗。今はscriptのみ保存して構文確認。\n"
+  },
+  "appearanceReview": {
+    "newGoetheAndEngels": true,
+    "reason": "既存の古いゲーテは王冠姿、エンゲルスは今回の時代の服装と異なるため、既存画像を変更せず19世紀の本人を新作。古いカントとニュートンも本回で再利用しない。",
+    "reviewed": "新47点の一覧を実寸で目視し、本人・2人の組絵・道具の区別、画風・余白・透過と残った帯がないことを確認。"
+  },
+  "prompts": [
+    {
+      "key": "goethe",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Johann Wolfgang von Goethe around sixty; short swept gray hair, high forehead, clean shaven; dark green early nineteenth-century frock coat, white cravat, cream waistcoat, small closed book."
+    },
+    {
+      "key": "friedrich-engels",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Friedrich Engels older; short gray hair and full long brown-gray beard, nineteenth-century dark brown three-piece suit, white shirt, tie, black boots, plain document in hand."
+    },
+    {
+      "key": "schiller",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Friedrich Schiller about forty; wavy reddish-brown medium hair, clean shaven lean face, late eighteenth-century blue long coat, high white collar, cravat, plain manuscript."
+    },
+    {
+      "key": "beethoven",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Ludwig van Beethoven about fifty; unruly gray-brown hair, broad serious clean-shaven face, dark early nineteenth-century coat, red neck scarf, rolled blank music paper."
+    },
+    {
+      "key": "jacques-louis-david",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Jacques-Louis David middle aged; short brown-gray hair, clean shaven face, dark early nineteenth-century painter coat, white collar, holding small palette and brush; no painting."
+    },
+    {
+      "key": "jean-auguste-ingres",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Jean Auguste Dominique Ingres mature; dark swept hair, full round clean-shaven face, nineteenth-century black formal coat and white neckcloth, holding a small brush."
+    },
+    {
+      "key": "mozart",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Wolfgang Amadeus Mozart young adult; powdered white curled wig with short queue, clean-shaven delicate face, red eighteenth-century formal coat with restrained gold trim, ivory waistcoat, black breeches, white stockings, black shoes."
+    },
+    {
+      "key": "chopin",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Frederic Chopin around thirty; slim pale elongated clean-shaven face, wavy brown hair, black nineteenth-century tailcoat, white cravat, black trousers, small blank music manuscript."
+    },
+    {
+      "key": "richard-wagner",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Richard Wagner elderly; large forehead, swept gray hair, mutton chop sideburns, clean chin, dark nineteenth-century formal jacket and trousers, white shirt, burgundy necktie."
+    },
+    {
+      "key": "tchaikovsky",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Pyotr Ilyich Tchaikovsky middle aged; short receding gray hair, neat short gray beard, black nineteenth-century formal suit, white shirt, bow tie, holding blank music paper."
+    },
+    {
+      "key": "grimm-brothers",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Jacob Grimm and Wilhelm Grimm as TWO distinct elderly German brothers, two separate full bodies side by side, not fused. Jacob taller/slimmer white straight hair and Wilhelm slightly rounder wavy white hair; both clean shaven, nineteenth-century dark frock coats, white neckcloths, each holding a plain book."
+    },
+    {
+      "key": "victor-hugo",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Victor Hugo elderly; thick short white hair, full white beard, expressive face; black nineteenth-century overcoat, white shirt, black trousers, holding a small book."
+    },
+    {
+      "key": "jean-francois-millet",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Jean Francois Millet middle aged French painter; brown hair, full thick brown beard, humble brown painter jacket, light shirt, dark trousers and boots, small palette."
+    },
+    {
+      "key": "gustave-courbet",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Gustave Courbet mature French painter; longish swept black hair and thick dark beard, broad face, dark brown nineteenth-century coat, white collar, palette and brush."
+    },
+    {
+      "key": "stendhal",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Stendhal Henri Beyle mature; round face, dark-gray curly receding hair, heavy short dark mutton chop sideburns, clean chin, black nineteenth-century formal coat, white neckcloth."
+    },
+    {
+      "key": "honore-balzac",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Honore de Balzac middle aged; round broad face, swept black hair, short dark moustache, no beard; loose long white writing robe with simple belt, black shoes, plain book."
+    },
+    {
+      "key": "charles-dickens",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Charles Dickens middle aged; swept brown receding hair, characteristic brown moustache and pointed bushy chin beard, black nineteenth-century suit with light waistcoat, holding plain manuscript."
+    },
+    {
+      "key": "fyodor-dostoevsky",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Fyodor Dostoevsky mature; high receding forehead, thin light brown hair, long thin brown beard, serious lean face, simple dark nineteenth-century frock coat, black trousers and boots."
+    },
+    {
+      "key": "leo-tolstoy",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Leo Tolstoy elderly; bald top with white side hair, very long wide white beard, simple light gray Russian peasant-style belted blouse, dark trousers and boots, holding small plain book."
+    },
+    {
+      "key": "emile-zola",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Emile Zola middle aged; round spectacles, short black-gray hair, short dark chin beard and moustache, brown nineteenth-century suit, white shirt, dark necktie."
+    },
+    {
+      "key": "guy-maupassant",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Guy de Maupassant mature; short black wavy hair, very thick black moustache, no beard, nineteenth-century dark suit with white shirt and dark bow tie."
+    },
+    {
+      "key": "henrik-ibsen",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Henrik Ibsen elderly; swept fluffy white hair, large white mutton chop sideburns, clean chin, round spectacles, black nineteenth-century formal suit and white shirt."
+    },
+    {
+      "key": "edouard-manet",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Edouard Manet mature; swept brown hair and trimmed short brown beard and moustache, nineteenth-century dark navy formal suit and light waistcoat, small painter palette; distinct from older white-bearded Monet."
+    },
+    {
+      "key": "claude-monet",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Claude Monet elderly; gray-white hair, very long full white beard, broad face, nineteenth-century muted brown painter coat, small palette; distinct from short brown-bearded Manet."
+    },
+    {
+      "key": "pierre-auguste-renoir",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Pierre Auguste Renoir mature; receding brown-gray hair, fine narrow short brown-gray beard, slender face, muted gray nineteenth-century painter jacket, light shirt, small palette."
+    },
+    {
+      "key": "paul-cezanne",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Paul Cezanne mature; balding crown and dark-gray hair at sides, full short gray beard and moustache, serious face, nineteenth-century dark coat and brown trousers, small paintbrush."
+    },
+    {
+      "key": "paul-gauguin",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Paul Gauguin mature; straight dark hair reaching ears, dark moustache and clean chin, strong broad nose, ochre nineteenth-century loose shirt and dark trousers, holding small palette, no invented island or indigenous costume."
+    },
+    {
+      "key": "vincent-van-gogh",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Vincent van Gogh adult; vivid reddish-brown short hair and short red beard, thin pale face, muted blue nineteenth-century painter jacket, light shirt, trousers, small paintbrush; ears intact, no bandage."
+    },
+    {
+      "key": "adam-smith",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Adam Smith mature eighteenth-century Scottish economist; white powdered wig, clean-shaven long thoughtful face, dark blue eighteenth-century frock coat, white cravat, pale waistcoat, dark breeches and stockings, plain book."
+    },
+    {
+      "key": "thomas-malthus",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Thomas Robert Malthus mature; short brown-gray hair, clean shaven long face, early nineteenth-century black coat, white high collar and neckcloth, black trousers."
+    },
+    {
+      "key": "david-ricardo",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: David Ricardo mature; black curly hair, broad clean-shaven face, early nineteenth-century black frock coat, white high cravat, pale waistcoat, black trousers."
+    },
+    {
+      "key": "jeremy-bentham",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Jeremy Bentham elderly; long white-gray hair to shoulders, clean shaven face, low wide-brimmed black hat, early nineteenth-century dark coat, white collar and cravat, brown trousers, holding plain book."
+    },
+    {
+      "key": "john-stuart-mill",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: John Stuart Mill older; receding short gray hair, narrow long face, small gray sideburns, clean chin, nineteenth-century black suit, high white collar, plain document."
+    },
+    {
+      "key": "friedrich-nietzsche",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Friedrich Nietzsche middle aged; swept brown hair, exceptionally thick large brown walrus moustache, clean chin, nineteenth-century dark coat, pale shirt, dark tie, thoughtful serious expression."
+    },
+    {
+      "key": "michael-faraday",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Michael Faraday mature; thick swept gray-brown hair, broad clean-shaven face, nineteenth-century dark coat and waistcoat, white shirt and necktie, no wizard robe."
+    },
+    {
+      "key": "curie-couple",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Marie Curie and Pierre Curie as TWO distinct adult scientists side by side with two separate full bodies, not fused. Marie has brown hair in a bun, serious pale face, long dark high-necked late nineteenth-century dress. Pierre has short receding brown hair, neat brown beard, dark formal suit. No glowing radioactive bottles or modern lab coats."
+    },
+    {
+      "key": "charles-darwin",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Charles Darwin elderly; bald head, very long wide white beard, dark nineteenth-century overcoat and trousers, serious kind face, holding a plain small notebook. No ape or invented specimen."
+    },
+    {
+      "key": "louis-pasteur",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Louis Pasteur older; short gray hair, gray moustache and neat short chin beard, nineteenth-century dark formal coat and black trousers, no modern lab coat."
+    },
+    {
+      "key": "samuel-morse",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Samuel Morse elderly; swept white-gray hair, long clean-shaven face, nineteenth-century black formal suit with pale waistcoat, white high collar, black trousers."
+    },
+    {
+      "key": "alexander-graham-bell",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Alexander Graham Bell older; bushy gray hair and full voluminous gray beard, nineteenth-century dark three-piece suit, white shirt, black trousers, no telephone held."
+    },
+    {
+      "key": "wilhelm-rontgen",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Wilhelm Conrad Rontgen mature; swept dark-gray hair, full short dark-gray beard, nineteenth-century dark formal coat, white shirt and black trousers, no skeleton body."
+    },
+    {
+      "key": "guglielmo-marconi",
+      "kind": "person",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Guglielmo Marconi young adult; short neatly parted dark hair, clean-shaven angular face, late nineteenth-century black suit, white shirt, black bow tie."
+    },
+    {
+      "key": "early-camera",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Single compact mid-nineteenth-century wooden box camera with dark accordion bellows and round brass lens on sturdy wooden three-leg tripod; no photographer, no scene, no modern digital screen."
+    },
+    {
+      "key": "grand-piano",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Single miniature nineteenth-century black grand piano, clear black and white keyboard, lid raised modestly, three short legs, no pianist, no text, no room."
+    },
+    {
+      "key": "science-workbench",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Single small nineteenth-century wooden scientific workbench with a brass microscope and plain clear glass test tubes and flasks, modest restrained colors, no modern electrical screen, no person, no writing."
+    },
+    {
+      "key": "electric-generator",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Single compact schematic nineteenth-century electromagnetic generator miniature; brass-copper coils, iron horseshoe magnets, metal flywheel on low wooden base, recognizable early industrial experimental equipment, no people, no exaggerated lightning or text."
+    },
+    {
+      "key": "early-telephone",
+      "kind": "prop",
+      "generationTool": "image_gen",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese world-history learning site. Primary request: ONE self-contained asset. Style: detailed 16-bit JRPG short chibi, THREE heads tall for people with a large one-third-height head, compact torso and very short legs, respectful adult facial identity. Crisp stepped dark pixel outlines, deliberate pixel clusters, muted historic colors, restrained pixel shading, visually consistent with small history-game characters. Full intact subject centered with generous margins on a truly transparent square background. Props are similarly compact pixel miniatures. No text, letters, watermark, scenery, floor, drop shadow, glow or checkerboard. Do not change the requested identity. Subject: Single compact early telephone apparatus circa late nineteenth century on wooden base, dark earpiece receiver and brass-black mouthpiece transmitter, modest wire, vintage materials, no smartphone, no people, no text."
+    }
+  ],
+  "assets": [
+    {
+      "key": "schiller",
+      "image": "modern-c01-l06/schiller.png",
+      "name": "シラー",
+      "kind": "person",
+      "identity": "person:schiller",
+      "description": "19世紀のシラー本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/schiller.png",
+      "outputSha256": "db24a9990f57bc3bbb6f15879a48a96e05f91c6bc6ce0baf250fa9d319385a92",
+      "originalFilename": "exec-a708a333-4408-4f90-8e05-27485057acab.png",
+      "inputSha256": "6ecc2ce3cdfea96cc8c38554516d36977a7f4b89e0348d500de75edb1c8d3842",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        0,
+        21,
+        1200,
+        1230
+      ],
+      "cleanedBbox": [
+        339,
+        82,
+        976,
+        1211
+      ],
+      "savedBbox": [
+        47,
+        8,
+        146,
+        184
+      ],
+      "transparentPixels": 25519,
+      "removedFaintAlphaPixels": 11985,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11985,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "beethoven",
+      "image": "modern-c01-l06/beethoven.png",
+      "name": "ベートーヴェン",
+      "kind": "person",
+      "identity": "person:beethoven",
+      "description": "19世紀のベートーヴェン本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/beethoven.png",
+      "outputSha256": "90f1b96458944635ed3f57b1475d85357f0ed63384eac9cb96af3d8120844fa8",
+      "originalFilename": "exec-e662704a-695e-49c6-957b-1fb171615de4.png",
+      "inputSha256": "2030edc16b15f177d04149adfe8500c4d958d6af42b82aab069d6d9a81caeda2",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        61,
+        16,
+        1184,
+        1237
+      ],
+      "cleanedBbox": [
+        292,
+        24,
+        956,
+        1233
+      ],
+      "savedBbox": [
+        48,
+        8,
+        145,
+        184
+      ],
+      "transparentPixels": 24587,
+      "removedFaintAlphaPixels": 15179,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15179,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "jacques-louis-david",
+      "image": "modern-c01-l06/jacques-louis-david.png",
+      "name": "ダヴィド",
+      "kind": "person",
+      "identity": "person:jacques-louis-david",
+      "description": "19世紀のダヴィド本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/jacques-louis-david.png",
+      "outputSha256": "28ba63952c97040eabb4040268c02aad047d13db7513455d5799b722750d818c",
+      "originalFilename": "exec-bed8d5c1-643a-43ea-9daa-e3a1915920bc.png",
+      "inputSha256": "e83bf254201a151b86577d7834b47203cc98766b09307f65bc281146bf2617ae",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        97,
+        63,
+        1210,
+        1254
+      ],
+      "cleanedBbox": [
+        283,
+        65,
+        950,
+        1203
+      ],
+      "savedBbox": [
+        45,
+        8,
+        148,
+        184
+      ],
+      "transparentPixels": 25653,
+      "removedFaintAlphaPixels": 13086,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13086,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "jean-auguste-ingres",
+      "image": "modern-c01-l06/jean-auguste-ingres.png",
+      "name": "アングル",
+      "kind": "person",
+      "identity": "person:jean-auguste-ingres",
+      "description": "19世紀のアングル本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/jean-auguste-ingres.png",
+      "outputSha256": "619bbdcbb8792d66df48484f81b4a692287906dd3ec0d7cba86abb1f9d5b8e68",
+      "originalFilename": "exec-55943359-e5ce-45fe-904c-cb1c98656392.png",
+      "inputSha256": "87b47f72264eb186b8942178c7b2d8bff031fc66a07d32ec12691ca630448e66",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        23,
+        21,
+        1230,
+        1234
+      ],
+      "cleanedBbox": [
+        289,
+        33,
+        939,
+        1228
+      ],
+      "savedBbox": [
+        48,
+        8,
+        144,
+        184
+      ],
+      "transparentPixels": 24883,
+      "removedFaintAlphaPixels": 12503,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12503,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "mozart",
+      "image": "modern-c01-l06/mozart.png",
+      "name": "モーツァルト",
+      "kind": "person",
+      "identity": "person:mozart",
+      "description": "19世紀のモーツァルト本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/mozart.png",
+      "outputSha256": "baac991b30133c7db87fe901be770aeeaa675e7f6b501153ef22b2226c45124f",
+      "originalFilename": "exec-cf9b7f78-3fe2-4898-8c49-535ab35d2ec6.png",
+      "inputSha256": "8358b4dc6f9455a4e260ab3ffd9ae415fe360217c609d32521415ea0ca33c65f",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        19,
+        21,
+        1218,
+        1254
+      ],
+      "cleanedBbox": [
+        316,
+        51,
+        994,
+        1216
+      ],
+      "savedBbox": [
+        45,
+        8,
+        147,
+        184
+      ],
+      "transparentPixels": 25635,
+      "removedFaintAlphaPixels": 14572,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14572,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "chopin",
+      "image": "modern-c01-l06/chopin.png",
+      "name": "ショパン",
+      "kind": "person",
+      "identity": "person:chopin",
+      "description": "19世紀のショパン本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/chopin.png",
+      "outputSha256": "fa6767306c8d346febfe61b36d84ca80b332d291099bec0c1c7e8e412eba25cc",
+      "originalFilename": "exec-725da062-a3f4-4a35-9dbe-1b5581fa34e0.png",
+      "inputSha256": "e5c25eca8a19f0407ea9699c75daebccc7e35392745f2815f8f02b6bb5c38941",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        73,
+        21,
+        1097,
+        1254
+      ],
+      "cleanedBbox": [
+        319,
+        80,
+        936,
+        1178
+      ],
+      "savedBbox": [
+        47,
+        8,
+        146,
+        184
+      ],
+      "transparentPixels": 26068,
+      "removedFaintAlphaPixels": 17199,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 17199,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "richard-wagner",
+      "image": "modern-c01-l06/richard-wagner.png",
+      "name": "ヴァーグナー",
+      "kind": "person",
+      "identity": "person:richard-wagner",
+      "description": "19世紀のヴァーグナー本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/richard-wagner.png",
+      "outputSha256": "7dcf742d6a69f97fefb34caa5d85b5525db01f7ae8c419096438378a075d63bd",
+      "originalFilename": "exec-5121215b-a589-4268-ab0c-5cf566dfe197.png",
+      "inputSha256": "28749660ab7ea8937244a04cd3db080738f173a44209b453d59aca048df4386f",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        23,
+        19,
+        1198,
+        1254
+      ],
+      "cleanedBbox": [
+        328,
+        100,
+        939,
+        1183
+      ],
+      "savedBbox": [
+        47,
+        8,
+        146,
+        184
+      ],
+      "transparentPixels": 23952,
+      "removedFaintAlphaPixels": 11719,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11719,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "tchaikovsky",
+      "image": "modern-c01-l06/tchaikovsky.png",
+      "name": "チャイコフスキー",
+      "kind": "person",
+      "identity": "person:tchaikovsky",
+      "description": "19世紀のチャイコフスキー本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/tchaikovsky.png",
+      "outputSha256": "82679f216c4d14297e57184697618f85ec9504d35e6c797f68493d07779a832c",
+      "originalFilename": "exec-56ddda2f-7dbe-4896-836d-2fc2d0200917.png",
+      "inputSha256": "5277e0fdac5801f380abbbc2ff9450d20ddbb89109403aad2d8cef2a39488bb1",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        65,
+        70,
+        1194,
+        1228
+      ],
+      "cleanedBbox": [
+        335,
+        73,
+        910,
+        1196
+      ],
+      "savedBbox": [
+        51,
+        8,
+        141,
+        184
+      ],
+      "transparentPixels": 26011,
+      "removedFaintAlphaPixels": 9433,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9433,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "grimm-brothers",
+      "image": "modern-c01-l06/grimm-brothers.png",
+      "name": "グリム兄弟",
+      "kind": "person",
+      "identity": "person:grimm-brothers",
+      "description": "19世紀のグリム兄弟本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/grimm-brothers.png",
+      "outputSha256": "b6a5723288c3b9b32de575becba59c74ff13644b96a2f216ac07f3c36e42fe4f",
+      "originalFilename": "exec-a1c57db6-3b69-421d-b719-31fd7f53b78c.png",
+      "inputSha256": "9bc07c75691a2cad21ec411074e114cbf5aedd919ae033429bda004874ef8bb4",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        0,
+        53,
+        1210,
+        1254
+      ],
+      "cleanedBbox": [
+        131,
+        114,
+        1124,
+        1168
+      ],
+      "savedBbox": [
+        13,
+        8,
+        179,
+        184
+      ],
+      "transparentPixels": 16484,
+      "removedFaintAlphaPixels": 20644,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 20644,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "victor-hugo",
+      "image": "modern-c01-l06/victor-hugo.png",
+      "name": "ユーゴー",
+      "kind": "person",
+      "identity": "person:victor-hugo",
+      "description": "19世紀のユーゴー本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/victor-hugo.png",
+      "outputSha256": "9522a6a293cde3d210c3e21b5a7904be36a85a897af407dabae84e07d24579ed",
+      "originalFilename": "exec-0ae02809-c7a4-4a4c-8355-f623b7c5489c.png",
+      "inputSha256": "b95e9fe9f6f85f4e23a13d3ee92cdcc5719b946954917b3655700e3c7da65ead",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        0,
+        93,
+        1200,
+        1254
+      ],
+      "cleanedBbox": [
+        343,
+        96,
+        914,
+        1188
+      ],
+      "savedBbox": [
+        50,
+        8,
+        142,
+        184
+      ],
+      "transparentPixels": 24698,
+      "removedFaintAlphaPixels": 11060,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11060,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "jean-francois-millet",
+      "image": "modern-c01-l06/jean-francois-millet.png",
+      "name": "ミレー",
+      "kind": "person",
+      "identity": "person:jean-francois-millet",
+      "description": "19世紀のミレー本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/jean-francois-millet.png",
+      "outputSha256": "4fa40b2c018519faa479468febfa80ec636b990d1001c4aa5896e14edfb99c68",
+      "originalFilename": "exec-69a69bf8-f276-4b14-838c-93d2f8d5c17b.png",
+      "inputSha256": "e87a746ffd6ef426af2c61301b7b3496b4d574763b698ec54f7b4fbda26e1464",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        130,
+        47,
+        1210,
+        1254
+      ],
+      "cleanedBbox": [
+        344,
+        176,
+        923,
+        1152
+      ],
+      "savedBbox": [
+        44,
+        8,
+        148,
+        184
+      ],
+      "transparentPixels": 24193,
+      "removedFaintAlphaPixels": 11319,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11319,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "gustave-courbet",
+      "image": "modern-c01-l06/gustave-courbet.png",
+      "name": "クールベ",
+      "kind": "person",
+      "identity": "person:gustave-courbet",
+      "description": "19世紀のクールベ本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/gustave-courbet.png",
+      "outputSha256": "ae5a9c91ad79ecc7a0ee0b7629779343fb341f52e6a4972a699d490d8a59fb07",
+      "originalFilename": "exec-d85cdbca-548f-438e-8164-e2c952a85636.png",
+      "inputSha256": "016b63f5532da4516753a53ada134f567a6067bfddabfd0f048a5bbd38078d5a",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        89,
+        74,
+        1210,
+        1254
+      ],
+      "cleanedBbox": [
+        275,
+        77,
+        1043,
+        1202
+      ],
+      "savedBbox": [
+        36,
+        8,
+        156,
+        184
+      ],
+      "transparentPixels": 23149,
+      "removedFaintAlphaPixels": 11096,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11096,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "stendhal",
+      "image": "modern-c01-l06/stendhal.png",
+      "name": "スタンダール",
+      "kind": "person",
+      "identity": "person:stendhal",
+      "description": "19世紀のスタンダール本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/stendhal.png",
+      "outputSha256": "78d99c467d462f0797492dba0126d452eeff46b828d10097e0fddb60c7b78be8",
+      "originalFilename": "exec-6bf56670-58de-4246-a94d-d79369a22396.png",
+      "inputSha256": "1c2dc9e84f0e4a55c3c5d0e49db74a84a60ff9cc6ee59ea898912255bb341c81",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        65,
+        21,
+        1210,
+        1222
+      ],
+      "cleanedBbox": [
+        331,
+        139,
+        918,
+        1176
+      ],
+      "savedBbox": [
+        46,
+        8,
+        146,
+        184
+      ],
+      "transparentPixels": 23602,
+      "removedFaintAlphaPixels": 12497,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12497,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "honore-balzac",
+      "image": "modern-c01-l06/honore-balzac.png",
+      "name": "バルザック",
+      "kind": "person",
+      "identity": "person:honore-balzac",
+      "description": "19世紀のバルザック本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/honore-balzac.png",
+      "outputSha256": "a8e8e53d99a6f2fca62f9f759efe3d8f80d48c11492c445e75bbffd7ffcfc860",
+      "originalFilename": "exec-4520dc86-0387-4ef0-a136-4272e96579aa.png",
+      "inputSha256": "e57b2d67f023d0c643c58590e848beeef7578c084959e90e380be27db8a261e7",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        0,
+        19,
+        1210,
+        1207
+      ],
+      "cleanedBbox": [
+        295,
+        53,
+        960,
+        1202
+      ],
+      "savedBbox": [
+        45,
+        8,
+        147,
+        184
+      ],
+      "transparentPixels": 23880,
+      "removedFaintAlphaPixels": 10687,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10687,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "charles-dickens",
+      "image": "modern-c01-l06/charles-dickens.png",
+      "name": "ディケンズ",
+      "kind": "person",
+      "identity": "person:charles-dickens",
+      "description": "19世紀のディケンズ本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/charles-dickens.png",
+      "outputSha256": "89458deca3fe36d597d5f093028c64308c4b2a658acd4a3e2a672bc7350dfa1f",
+      "originalFilename": "exec-870e4d13-3830-4543-8bcc-77711f217c7d.png",
+      "inputSha256": "3066a1ecef28e222b023145a898bd8be5c4f7569c9889af9bb2d075e9b6e64c3",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        73,
+        21,
+        1228,
+        1254
+      ],
+      "cleanedBbox": [
+        297,
+        52,
+        942,
+        1204
+      ],
+      "savedBbox": [
+        47,
+        8,
+        146,
+        184
+      ],
+      "transparentPixels": 25629,
+      "removedFaintAlphaPixels": 14107,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14107,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "fyodor-dostoevsky",
+      "image": "modern-c01-l06/fyodor-dostoevsky.png",
+      "name": "ドストエフスキー",
+      "kind": "person",
+      "identity": "person:fyodor-dostoevsky",
+      "description": "19世紀のドストエフスキー本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/fyodor-dostoevsky.png",
+      "outputSha256": "ea4578a0615891cdf84f5beddeaac2e079eba72e8585e3654c708280fb10bbad",
+      "originalFilename": "exec-f192d87d-8e41-4ba0-b7e9-b6c5966ebe1d.png",
+      "inputSha256": "14354636dbcbc0107ad0ee54543b5eef3201c20bef12b4bb732f642cd5ee2715",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        103,
+        49,
+        1055,
+        1216
+      ],
+      "cleanedBbox": [
+        372,
+        107,
+        893,
+        1176
+      ],
+      "savedBbox": [
+        53,
+        8,
+        139,
+        184
+      ],
+      "transparentPixels": 25815,
+      "removedFaintAlphaPixels": 9081,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9081,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "leo-tolstoy",
+      "image": "modern-c01-l06/leo-tolstoy.png",
+      "name": "トルストイ",
+      "kind": "person",
+      "identity": "person:leo-tolstoy",
+      "description": "19世紀のトルストイ本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/leo-tolstoy.png",
+      "outputSha256": "c52998508d1f8d093af9e5105f4b5b566413dee05ccb55694ac54239755d734f",
+      "originalFilename": "exec-9a384157-d316-488a-bf42-238a0d3210dd.png",
+      "inputSha256": "ff0251ec992fce9cee57bc11fcee0a044718662ba3700c15be1f86839b2163a6",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        97,
+        57,
+        1208,
+        1254
+      ],
+      "cleanedBbox": [
+        331,
+        95,
+        914,
+        1184
+      ],
+      "savedBbox": [
+        49,
+        8,
+        143,
+        184
+      ],
+      "transparentPixels": 25480,
+      "removedFaintAlphaPixels": 11402,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11402,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "emile-zola",
+      "image": "modern-c01-l06/emile-zola.png",
+      "name": "ゾラ",
+      "kind": "person",
+      "identity": "person:emile-zola",
+      "description": "19世紀のゾラ本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/emile-zola.png",
+      "outputSha256": "66ddf59dc117c8c9907f5e587b5b69d4980eb25831e7de6ff79807387db4e2e0",
+      "originalFilename": "exec-4753ce95-ca2c-40e7-8ec3-d484dfaac1cb.png",
+      "inputSha256": "11a70653d4465f10a8dd67342fc5b174a820fa74bb0b26ca06ef00a0d5ebc3e2",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        23,
+        17,
+        1210,
+        1254
+      ],
+      "cleanedBbox": [
+        332,
+        97,
+        933,
+        1194
+      ],
+      "savedBbox": [
+        48,
+        8,
+        144,
+        184
+      ],
+      "transparentPixels": 24456,
+      "removedFaintAlphaPixels": 9251,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9251,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "guy-maupassant",
+      "image": "modern-c01-l06/guy-maupassant.png",
+      "name": "モーパッサン",
+      "kind": "person",
+      "identity": "person:guy-maupassant",
+      "description": "19世紀のモーパッサン本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/guy-maupassant.png",
+      "outputSha256": "47997a5e3d99b735710c325179b9d4fdd96aa29d3a0b0fe245d7d6c96d4ac582",
+      "originalFilename": "exec-7194e73a-8819-41ed-9638-c5e22bd29446.png",
+      "inputSha256": "c0168d7475ecef90804cb891d859a3ee3b8d9aa0d9a1f4ea6b312efd75f6b78c",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        69,
+        28,
+        1214,
+        1254
+      ],
+      "cleanedBbox": [
+        345,
+        67,
+        904,
+        1205
+      ],
+      "savedBbox": [
+        53,
+        8,
+        139,
+        184
+      ],
+      "transparentPixels": 25657,
+      "removedFaintAlphaPixels": 10325,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10325,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "henrik-ibsen",
+      "image": "modern-c01-l06/henrik-ibsen.png",
+      "name": "イプセン",
+      "kind": "person",
+      "identity": "person:henrik-ibsen",
+      "description": "19世紀のイプセン本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/henrik-ibsen.png",
+      "outputSha256": "d0a1154eb6df56241a8e8ba48e2583b10a8cfb5604b46596b10a61c002bea4cf",
+      "originalFilename": "exec-c65d9aba-ae88-484d-9d36-95c9f5f902d2.png",
+      "inputSha256": "19cd23cb1d07ca5d9ee005edf50678fa39e7cdd65bce6aba0213d46993a0770d",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        19,
+        57,
+        1230,
+        1254
+      ],
+      "cleanedBbox": [
+        309,
+        94,
+        929,
+        1180
+      ],
+      "savedBbox": [
+        46,
+        8,
+        146,
+        184
+      ],
+      "transparentPixels": 24598,
+      "removedFaintAlphaPixels": 9383,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9383,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "edouard-manet",
+      "image": "modern-c01-l06/edouard-manet.png",
+      "name": "マネ",
+      "kind": "person",
+      "identity": "person:edouard-manet",
+      "description": "19世紀のマネ本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/edouard-manet.png",
+      "outputSha256": "2c7e91529ba7c34a9814697152b86b0ea6c5edddeceee2b1d98e8db8f0e91685",
+      "originalFilename": "exec-0ea99bac-3602-4fbd-ba57-dc1bad2dde46.png",
+      "inputSha256": "087a583d8e654acc550376449692b9537a6920e7823534b1a18558fa800a45b1",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        97,
+        21,
+        1079,
+        1254
+      ],
+      "cleanedBbox": [
+        337,
+        134,
+        922,
+        1152
+      ],
+      "savedBbox": [
+        46,
+        8,
+        147,
+        184
+      ],
+      "transparentPixels": 25266,
+      "removedFaintAlphaPixels": 14178,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14178,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "claude-monet",
+      "image": "modern-c01-l06/claude-monet.png",
+      "name": "モネ",
+      "kind": "person",
+      "identity": "person:claude-monet",
+      "description": "19世紀のモネ本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/claude-monet.png",
+      "outputSha256": "5856899ce266c6ee5f7738131853ec7e96f31ba2744bab018559e046e7948e30",
+      "originalFilename": "exec-b245d075-f11f-4148-8bca-503f0549bd1c.png",
+      "inputSha256": "56f4ec4d81a3a4384e976eada0e82327ff8c9771ba3c5b17940a147b5c69ec6f",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        0,
+        21,
+        1202,
+        1254
+      ],
+      "cleanedBbox": [
+        207,
+        82,
+        1060,
+        1191
+      ],
+      "savedBbox": [
+        29,
+        8,
+        164,
+        184
+      ],
+      "transparentPixels": 21953,
+      "removedFaintAlphaPixels": 10099,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10099,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "pierre-auguste-renoir",
+      "image": "modern-c01-l06/pierre-auguste-renoir.png",
+      "name": "ルノワール",
+      "kind": "person",
+      "identity": "person:pierre-auguste-renoir",
+      "description": "19世紀のルノワール本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/pierre-auguste-renoir.png",
+      "outputSha256": "b19ebcaab6c8ebb37dadd6ab163062254b078f721749c46ad9eb8265d36ff332",
+      "originalFilename": "exec-84771654-9b91-49fb-b7f2-be84411048ab.png",
+      "inputSha256": "b4c499da0ced7c5b7218ab42e0c59cd8b5ac7314dec222d79605dbef0332b236",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        59,
+        21,
+        1214,
+        1212
+      ],
+      "cleanedBbox": [
+        317,
+        84,
+        952,
+        1195
+      ],
+      "savedBbox": [
+        46,
+        8,
+        147,
+        184
+      ],
+      "transparentPixels": 25072,
+      "removedFaintAlphaPixels": 9231,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9231,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "paul-cezanne",
+      "image": "modern-c01-l06/paul-cezanne.png",
+      "name": "セザンヌ",
+      "kind": "person",
+      "identity": "person:paul-cezanne",
+      "description": "19世紀のセザンヌ本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/paul-cezanne.png",
+      "outputSha256": "69dc9b8b3078d866bb270311276bdfe300dbe762cd27b32930ebeb78798fd42f",
+      "originalFilename": "exec-6ecd604f-77ba-47fa-8af8-9027a845f417.png",
+      "inputSha256": "7778f8402c2f41b214dbadad73cc262a29d3ee88695dee5a40cb25da61542229",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        59,
+        53,
+        1199,
+        1254
+      ],
+      "cleanedBbox": [
+        301,
+        136,
+        987,
+        1192
+      ],
+      "savedBbox": [
+        39,
+        8,
+        153,
+        184
+      ],
+      "transparentPixels": 23038,
+      "removedFaintAlphaPixels": 10073,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10073,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "paul-gauguin",
+      "image": "modern-c01-l06/paul-gauguin.png",
+      "name": "ゴーガン",
+      "kind": "person",
+      "identity": "person:paul-gauguin",
+      "description": "19世紀のゴーガン本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/paul-gauguin.png",
+      "outputSha256": "e467651bb92daef7d0f9a6ce722e69453af0f5bd7d72221e581133e272e001a2",
+      "originalFilename": "exec-328187a2-e7e3-473b-9d4b-3145b7f101c4.png",
+      "inputSha256": "e7b85bc1ca40b65034ee614abadb54dcce6222600775c1e2bd5383d4f0954643",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        17,
+        21,
+        1214,
+        1206
+      ],
+      "cleanedBbox": [
+        322,
+        80,
+        961,
+        1199
+      ],
+      "savedBbox": [
+        46,
+        8,
+        147,
+        184
+      ],
+      "transparentPixels": 24983,
+      "removedFaintAlphaPixels": 9597,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9597,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "vincent-van-gogh",
+      "image": "modern-c01-l06/vincent-van-gogh.png",
+      "name": "ゴッホ",
+      "kind": "person",
+      "identity": "person:vincent-van-gogh",
+      "description": "19世紀のゴッホ本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/vincent-van-gogh.png",
+      "outputSha256": "3e6e8a31cfc897bc492939d19c6fd88fe5b3524fa0ddb943869fbd3a02df9c44",
+      "originalFilename": "exec-e78b6915-1a27-4cfd-b0e6-435673a643d5.png",
+      "inputSha256": "789233c394edd31a63615ce3ab6ec503856bece45d309769580488e51dea0434",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        97,
+        21,
+        1194,
+        1202
+      ],
+      "cleanedBbox": [
+        324,
+        81,
+        937,
+        1200
+      ],
+      "savedBbox": [
+        48,
+        8,
+        144,
+        184
+      ],
+      "transparentPixels": 25616,
+      "removedFaintAlphaPixels": 11874,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11874,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "adam-smith",
+      "image": "modern-c01-l06/adam-smith.png",
+      "name": "アダム＝スミス",
+      "kind": "person",
+      "identity": "person:adam-smith",
+      "description": "19世紀のアダム＝スミス本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/adam-smith.png",
+      "outputSha256": "4c155479dd073f415b9d51a543911185b4aea6a4bc4cca78b5176dfdac5b6916",
+      "originalFilename": "exec-f2ec109a-d842-4074-8582-3b863eb85687.png",
+      "inputSha256": "0508cdc05167988f714bf2a140d49459d08decc535c7ef3761b883a6927be343",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        43,
+        39,
+        1210,
+        1254
+      ],
+      "cleanedBbox": [
+        332,
+        52,
+        922,
+        1208
+      ],
+      "savedBbox": [
+        51,
+        8,
+        141,
+        184
+      ],
+      "transparentPixels": 25682,
+      "removedFaintAlphaPixels": 15439,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15439,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "thomas-malthus",
+      "image": "modern-c01-l06/thomas-malthus.png",
+      "name": "マルサス",
+      "kind": "person",
+      "identity": "person:thomas-malthus",
+      "description": "19世紀のマルサス本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/thomas-malthus.png",
+      "outputSha256": "5f89073ddfad5ed38da57d4e5110522d5f8a17d24eb79d588b0e302f590f2432",
+      "originalFilename": "exec-b9ef5945-771f-4eda-ae3a-5ac6ae79ae15.png",
+      "inputSha256": "a4ece8af7a217a70ed3b943511ee970429dc411756852777533b0a6650c41dbe",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        89,
+        26,
+        1208,
+        1237
+      ],
+      "cleanedBbox": [
+        351,
+        29,
+        926,
+        1232
+      ],
+      "savedBbox": [
+        54,
+        8,
+        138,
+        184
+      ],
+      "transparentPixels": 26307,
+      "removedFaintAlphaPixels": 11369,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11369,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "david-ricardo",
+      "image": "modern-c01-l06/david-ricardo.png",
+      "name": "リカード",
+      "kind": "person",
+      "identity": "person:david-ricardo",
+      "description": "19世紀のリカード本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/david-ricardo.png",
+      "outputSha256": "11d70948dc8425ce3280862c92ad88005fc6f78da0aedc466a037f5a6f70e59e",
+      "originalFilename": "exec-6a76d0cf-fce7-439c-b211-63887e7667b8.png",
+      "inputSha256": "a4143e18cd013af50b13e36740eea1b36c6df95422e5cad7044ff266e70bdeba",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        107,
+        21,
+        1079,
+        1254
+      ],
+      "cleanedBbox": [
+        360,
+        78,
+        892,
+        1184
+      ],
+      "savedBbox": [
+        54,
+        8,
+        139,
+        184
+      ],
+      "transparentPixels": 25980,
+      "removedFaintAlphaPixels": 11530,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11530,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "jeremy-bentham",
+      "image": "modern-c01-l06/jeremy-bentham.png",
+      "name": "ベンサム",
+      "kind": "person",
+      "identity": "person:jeremy-bentham",
+      "description": "19世紀のベンサム本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/jeremy-bentham.png",
+      "outputSha256": "efa5470e0538320580aaa40448a82c1eb521f31511f3ca4b7f24b87988ff6fbb",
+      "originalFilename": "exec-5455cbc4-6a27-4f14-b492-73b7e505d953.png",
+      "inputSha256": "f7f2257ea81b5ff9116ead221e47accd2e42795f4b8f835ebfab622fa8ad3a5c",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        105,
+        47,
+        1210,
+        1222
+      ],
+      "cleanedBbox": [
+        216,
+        49,
+        1009,
+        1218
+      ],
+      "savedBbox": [
+        37,
+        8,
+        156,
+        184
+      ],
+      "transparentPixels": 23298,
+      "removedFaintAlphaPixels": 10552,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10552,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "john-stuart-mill",
+      "image": "modern-c01-l06/john-stuart-mill.png",
+      "name": "ジョン＝ステュアート＝ミル",
+      "kind": "person",
+      "identity": "person:john-stuart-mill",
+      "description": "19世紀のジョン＝ステュアート＝ミル本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/john-stuart-mill.png",
+      "outputSha256": "9e9edc44549dabe5d50beb6e9433edef11bb5a86dfb3a9f8acb3d8e64a32ebbe",
+      "originalFilename": "exec-758180dd-0e72-4534-91c5-e55b6411d8c6.png",
+      "inputSha256": "7835c2ece3a6a732b4492ba78f3e68043de8a624465254740c4b1f78410b768a",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        174,
+        21,
+        1192,
+        1254
+      ],
+      "cleanedBbox": [
+        313,
+        95,
+        972,
+        1186
+      ],
+      "savedBbox": [
+        43,
+        8,
+        149,
+        184
+      ],
+      "transparentPixels": 24703,
+      "removedFaintAlphaPixels": 11502,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11502,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "friedrich-nietzsche",
+      "image": "modern-c01-l06/friedrich-nietzsche.png",
+      "name": "ニーチェ",
+      "kind": "person",
+      "identity": "person:friedrich-nietzsche",
+      "description": "19世紀のニーチェ本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/friedrich-nietzsche.png",
+      "outputSha256": "21ea095778e01026612d02f3acc48e44a9533aa84f74e551b1824a186abe3628",
+      "originalFilename": "exec-da8706a8-01e4-4d12-86e3-38e5a28ad8e8.png",
+      "inputSha256": "fd2d41e75f93d92b13ab65bc590c4d41060111a62e7cde21bd887e8e5537cf17",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        97,
+        45,
+        1059,
+        1212
+      ],
+      "cleanedBbox": [
+        345,
+        47,
+        907,
+        1209
+      ],
+      "savedBbox": [
+        54,
+        8,
+        139,
+        184
+      ],
+      "transparentPixels": 25870,
+      "removedFaintAlphaPixels": 10486,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10486,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "michael-faraday",
+      "image": "modern-c01-l06/michael-faraday.png",
+      "name": "ファラデー",
+      "kind": "person",
+      "identity": "person:michael-faraday",
+      "description": "19世紀のファラデー本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/michael-faraday.png",
+      "outputSha256": "ee8692ff7ed8dfb1312e38498b7c4c700121683645a0a5597ebb71019da2d936",
+      "originalFilename": "exec-f48182c8-ff9a-4088-aee9-3ea69efee36b.png",
+      "inputSha256": "7de73b2abb6cf1aa2d44e5673355e1ea90af1923194739d8d24c369fa0321276",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        0,
+        21,
+        1230,
+        1254
+      ],
+      "cleanedBbox": [
+        250,
+        71,
+        984,
+        1197
+      ],
+      "savedBbox": [
+        39,
+        8,
+        154,
+        184
+      ],
+      "transparentPixels": 23066,
+      "removedFaintAlphaPixels": 14987,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14987,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "curie-couple",
+      "image": "modern-c01-l06/curie-couple.png",
+      "name": "キュリー夫妻",
+      "kind": "person",
+      "identity": "person:curie-couple",
+      "description": "19世紀のキュリー夫妻本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/curie-couple.png",
+      "outputSha256": "5f2819bc1c95f71cc89f187fcdc2d0074ae8734c0c84b67b467f361d43dfb75e",
+      "originalFilename": "exec-872765bc-4f45-4858-8daf-bd3417ce5f97.png",
+      "inputSha256": "fc6902e9c71a3173824a62a8291ce86bfc568ce7ce74c44434d60a7894dc6834",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        53,
+        21,
+        1227,
+        1254
+      ],
+      "cleanedBbox": [
+        177,
+        121,
+        1082,
+        1202
+      ],
+      "savedBbox": [
+        23,
+        8,
+        170,
+        184
+      ],
+      "transparentPixels": 18596,
+      "removedFaintAlphaPixels": 19069,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 19069,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "charles-darwin",
+      "image": "modern-c01-l06/charles-darwin.png",
+      "name": "ダーウィン",
+      "kind": "person",
+      "identity": "person:charles-darwin",
+      "description": "19世紀のダーウィン本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/charles-darwin.png",
+      "outputSha256": "b93113b7a74debdbdfd796c8a7285681f709b14ce2dd4870d2a2c62e6a5200b7",
+      "originalFilename": "exec-9c557b63-7314-450d-82cb-624dad446b55.png",
+      "inputSha256": "35c5d250e80533b3b96366c613c96ec3a3b8f0f4444677697720913da7522963",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        19,
+        57,
+        1210,
+        1254
+      ],
+      "cleanedBbox": [
+        341,
+        119,
+        902,
+        1198
+      ],
+      "savedBbox": [
+        50,
+        8,
+        142,
+        184
+      ],
+      "transparentPixels": 24527,
+      "removedFaintAlphaPixels": 8081,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8081,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "louis-pasteur",
+      "image": "modern-c01-l06/louis-pasteur.png",
+      "name": "パストゥール",
+      "kind": "person",
+      "identity": "person:louis-pasteur",
+      "description": "19世紀のパストゥール本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/louis-pasteur.png",
+      "outputSha256": "965484ed3bc34df29e8b32ac0586db4efded420dfbbf0802f3345061a041f018",
+      "originalFilename": "exec-32d582ad-7e5f-4018-b755-2701eb9fda01.png",
+      "inputSha256": "a19e5d74f88e285aa01573b64471109a394f2e91e16eed3328cecabd0eea31c1",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        97,
+        37,
+        1198,
+        1254
+      ],
+      "cleanedBbox": [
+        288,
+        61,
+        939,
+        1193
+      ],
+      "savedBbox": [
+        46,
+        8,
+        147,
+        184
+      ],
+      "transparentPixels": 25176,
+      "removedFaintAlphaPixels": 11160,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11160,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "samuel-morse",
+      "image": "modern-c01-l06/samuel-morse.png",
+      "name": "モース",
+      "kind": "person",
+      "identity": "person:samuel-morse",
+      "description": "19世紀のモース本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/samuel-morse.png",
+      "outputSha256": "0d9af5b94790e96b7dff4adfb677d78ee51c0cb095142784bf6aa8ee1a8f032c",
+      "originalFilename": "exec-32a013d3-dcb9-4d0c-b587-eccafa5ec800.png",
+      "inputSha256": "3774f5776cdaee10da9fe7f19c278a7447bbd39c2982a4c55528c3dbc7e52694",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        97,
+        76,
+        1198,
+        1254
+      ],
+      "cleanedBbox": [
+        286,
+        113,
+        917,
+        1181
+      ],
+      "savedBbox": [
+        44,
+        8,
+        148,
+        184
+      ],
+      "transparentPixels": 25377,
+      "removedFaintAlphaPixels": 11665,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11665,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "alexander-graham-bell",
+      "image": "modern-c01-l06/alexander-graham-bell.png",
+      "name": "ベル",
+      "kind": "person",
+      "identity": "person:alexander-graham-bell",
+      "description": "19世紀のベル本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/alexander-graham-bell.png",
+      "outputSha256": "94e64f709c97b994e17938e31dc650f26567b11d4ba49018270cc7a4f6f72418",
+      "originalFilename": "exec-b45dd915-281f-4ad4-b2e9-aabc970b9b99.png",
+      "inputSha256": "533beb7dad4c6f8a8dfc315db2c1b30585003a30fa05205470f258c4139f2965",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        43,
+        10,
+        1194,
+        1222
+      ],
+      "cleanedBbox": [
+        349,
+        81,
+        897,
+        1185
+      ],
+      "savedBbox": [
+        53,
+        8,
+        140,
+        184
+      ],
+      "transparentPixels": 25448,
+      "removedFaintAlphaPixels": 10603,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10603,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "wilhelm-rontgen",
+      "image": "modern-c01-l06/wilhelm-rontgen.png",
+      "name": "レントゲン",
+      "kind": "person",
+      "identity": "person:wilhelm-rontgen",
+      "description": "19世紀のレントゲン本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/wilhelm-rontgen.png",
+      "outputSha256": "e15b81ab579df4d6a05305ca2d28b2dae5b6d661100cce3a65c0a037aefa4df7",
+      "originalFilename": "exec-b183267f-cb05-41f0-bd54-99edf7bec206.png",
+      "inputSha256": "fcb9ab6afe715fb148185002204104b2cada34191a594381c3658e616b167b43",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        97,
+        21,
+        1210,
+        1182
+      ],
+      "cleanedBbox": [
+        278,
+        132,
+        909,
+        1156
+      ],
+      "savedBbox": [
+        42,
+        8,
+        150,
+        184
+      ],
+      "transparentPixels": 24128,
+      "removedFaintAlphaPixels": 12361,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12361,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "guglielmo-marconi",
+      "image": "modern-c01-l06/guglielmo-marconi.png",
+      "name": "マルコーニ",
+      "kind": "person",
+      "identity": "person:guglielmo-marconi",
+      "description": "19世紀のマルコーニ本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/guglielmo-marconi.png",
+      "outputSha256": "f78ba43abf6155574ff61761b7a8bbbb91a7ae88effebfed805b7ca836247e70",
+      "originalFilename": "exec-20ea319d-bb01-4379-8b5f-fbe001449428.png",
+      "inputSha256": "8d6d41b7ab4270108d4b039453e95b4ca3839ba647423bcefb72acbf683ee14d",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        41,
+        22,
+        1222,
+        1238
+      ],
+      "cleanedBbox": [
+        307,
+        80,
+        1137,
+        1185
+      ],
+      "savedBbox": [
+        30,
+        8,
+        162,
+        184
+      ],
+      "transparentPixels": 23492,
+      "removedFaintAlphaPixels": 27364,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 27364,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "goethe",
+      "image": "modern-c01-l06/goethe.png",
+      "name": "ゲーテ",
+      "kind": "person",
+      "identity": "person:goethe",
+      "description": "19世紀のゲーテ本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/goethe.png",
+      "outputSha256": "9ff55709f66434683febf36bd35fef09fed5fd30660038ffb14b01982e694bf9",
+      "originalFilename": "exec-1712b35a-a444-489b-8f52-ad5ccdcd66d8.png",
+      "inputSha256": "bab1db77f85c307d09533ead6a2148a3c0670835b6d6e209f46e8c3310f0e03c",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        41,
+        90,
+        1199,
+        1254
+      ],
+      "cleanedBbox": [
+        345,
+        92,
+        895,
+        1181
+      ],
+      "savedBbox": [
+        52,
+        8,
+        141,
+        184
+      ],
+      "transparentPixels": 25825,
+      "removedFaintAlphaPixels": 12016,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12016,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "friedrich-engels",
+      "image": "modern-c01-l06/friedrich-engels.png",
+      "name": "エンゲルス",
+      "kind": "person",
+      "identity": "person:friedrich-engels",
+      "description": "19世紀のエンゲルス本人の中立的な小さなドット絵。異なる人物の顔で代用しない。所在地は原文で明記された場合だけ別に示す。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/friedrich-engels.png",
+      "outputSha256": "1bda281d688eb0131d757e5117010a93d9eb6e6e08b422272bae38c4c6c117c7",
+      "originalFilename": "exec-570caf6e-4993-4948-aefd-40282df93959.png",
+      "inputSha256": "50ebf28bdf8740633eb8eb7d37645677d41bf3700919dbdd84e4a7eeb6257b8e",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        97,
+        21,
+        1210,
+        1254
+      ],
+      "cleanedBbox": [
+        304,
+        79,
+        936,
+        1197
+      ],
+      "savedBbox": [
+        47,
+        8,
+        146,
+        184
+      ],
+      "transparentPixels": 24328,
+      "removedFaintAlphaPixels": 12871,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12871,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "early-camera",
+      "image": "modern-c01-l06/early-camera.png",
+      "name": "初期の写真機",
+      "kind": "prop",
+      "identity": "prop:early-camera",
+      "description": "木の箱と蛇腹、三脚。現実を写真に残す道具であり、特定機種の復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/early-camera.png",
+      "outputSha256": "c520f9bd63d536de9988f938de8d364e12384b776fc11632b2cc6a791b624431",
+      "originalFilename": "exec-233f6613-f3e9-4cbc-92db-621aea468baa.png",
+      "inputSha256": "67d0874e5f2755af6fce3774e34be172dcef38f7d7da77d8193f5a8afd4abacd",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        0,
+        21,
+        1214,
+        1254
+      ],
+      "cleanedBbox": [
+        288,
+        29,
+        984,
+        1222
+      ],
+      "savedBbox": [
+        45,
+        8,
+        148,
+        184
+      ],
+      "transparentPixels": 27530,
+      "removedFaintAlphaPixels": 27056,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 27056,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "grand-piano",
+      "image": "modern-c01-l06/grand-piano.png",
+      "name": "ピアノ",
+      "kind": "prop",
+      "identity": "prop:grand-piano",
+      "description": "黒いグランドピアノと白黒鍵盤。音楽分野の模式的な道具。音は再生しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/grand-piano.png",
+      "outputSha256": "3fd7d580e109ad9ad9c034c93b06ff30408e6361dbd885f70c0f4a1986eab165",
+      "originalFilename": "exec-16db137f-bbbf-4ce3-b951-8428bad2676e.png",
+      "inputSha256": "f15df34729a4ff18b968e8f1ce61e33ae43de3697d06eb47c0885fc64ab6b7fd",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        97,
+        50,
+        1202,
+        1254
+      ],
+      "cleanedBbox": [
+        198,
+        183,
+        1074,
+        1120
+      ],
+      "savedBbox": [
+        14,
+        8,
+        179,
+        184
+      ],
+      "transparentPixels": 21085,
+      "removedFaintAlphaPixels": 10880,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10880,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "science-workbench",
+      "image": "modern-c01-l06/science-workbench.png",
+      "name": "科学実験台",
+      "kind": "prop",
+      "identity": "prop:science-workbench",
+      "description": "試験管・ガラス瓶・顕微鏡の実験台。発見と応用を説明する分野の道具。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/science-workbench.png",
+      "outputSha256": "ac7196f1f984f116bf84ade2ffc954c52f5e2fa7c239d1be5a95f19c3ed5e89a",
+      "originalFilename": "exec-800099d9-9c5b-4614-bdaf-576d6ba7532d.png",
+      "inputSha256": "38e54a80865c122fe1e19ef22703e4e1cefcb9235c6ece856a6f02547c120865",
+      "originalDimensions": {
+        "width": 1326,
+        "height": 1186
+      },
+      "originalBbox": [
+        0,
+        17,
+        1306,
+        1186
+      ],
+      "cleanedBbox": [
+        111,
+        87,
+        1214,
+        1097
+      ],
+      "savedBbox": [
+        8,
+        23,
+        184,
+        184
+      ],
+      "transparentPixels": 23635,
+      "removedFaintAlphaPixels": 55413,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 55413,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "electric-generator",
+      "image": "modern-c01-l06/electric-generator.png",
+      "name": "発電機",
+      "kind": "prop",
+      "identity": "prop:electric-generator",
+      "description": "19世紀型コイルと車輪の発電装置。電磁誘導から電機産業への応用。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/electric-generator.png",
+      "outputSha256": "7759c650485cad47309610ea1774e757acf6e545423620ce7d9abcafeedc449a",
+      "originalFilename": "exec-63a16043-b3f0-4d67-910d-45d73856bd4b.png",
+      "inputSha256": "82b55e7375b5e5177150cb8a7174d2bf33b65f3312c9be62e97bb04ce3a98a69",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        0,
+        53,
+        1236,
+        1214
+      ],
+      "cleanedBbox": [
+        40,
+        227,
+        1220,
+        1103
+      ],
+      "savedBbox": [
+        8,
+        53,
+        184,
+        184
+      ],
+      "transparentPixels": 20515,
+      "removedFaintAlphaPixels": 25088,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 25088,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "early-telephone",
+      "image": "modern-c01-l06/early-telephone.png",
+      "name": "初期の電話機",
+      "kind": "prop",
+      "identity": "prop:early-telephone",
+      "description": "木の台・受話器・送話器。発明と通信速度の説明。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c01-l06/early-telephone.png",
+      "outputSha256": "2f1f055f96038572bc20ae39220ab212cff445d1c5a5c82b35314ad7a8a5ef3d",
+      "originalFilename": "exec-cccdd939-d484-44f8-a2b9-b6516a863221.png",
+      "inputSha256": "2a842ebdee54395c0330b1bb7f4088944b9fd12fc41eaf8dece363ff0c6a7d93",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "originalBbox": [
+        105,
+        35,
+        1214,
+        1254
+      ],
+      "cleanedBbox": [
+        285,
+        80,
+        973,
+        1200
+      ],
+      "savedBbox": [
+        42,
+        8,
+        150,
+        184
+      ],
+      "transparentPixels": 27596,
+      "removedFaintAlphaPixels": 19910,
+      "generationTool": "image_gen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 19910,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "napoleon-i",
+      "image": "modern-c01-l01/napoleon-i.png",
+      "name": "ナポレオン1世",
+      "kind": "person",
+      "identity": "person:napoleon-i",
+      "description": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/napoleon-i.png",
+      "outputSha256": "45b5efce60ae83da533e94f320b611a0ed0b46e1363979fe52196a7eba53ecd4",
+      "reuseReason": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。"
+    },
+    {
+      "key": "napoleon-iii",
+      "image": "modern-c01-l01/napoleon-iii.png",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "identity": "person:napoleon-iii",
+      "description": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/napoleon-iii.png",
+      "outputSha256": "6f8840c8d0a84ff3aba681b9fee64f7e290cf1cb5db886ba7228753ec05931a7",
+      "reuseReason": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。"
+    },
+    {
+      "key": "delacroix",
+      "image": "modern-c01-l01/delacroix.png",
+      "name": "ドラクロワ",
+      "kind": "person",
+      "identity": "person:delacroix",
+      "description": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/delacroix.png",
+      "outputSha256": "8e4383e48943fe95e5a44d157466bfbed380e32dd4ce5ac04589f2c10bb9c9aa",
+      "reuseReason": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。"
+    },
+    {
+      "key": "byron",
+      "image": "modern-c01-l01/byron.png",
+      "name": "バイロン",
+      "kind": "person",
+      "identity": "person:byron",
+      "description": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/byron.png",
+      "outputSha256": "630df0771a556a866a18e98a56fda0b7f8bf4da0b4e8eb2d575fe74b27e76483",
+      "reuseReason": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。"
+    },
+    {
+      "key": "friedrich-list",
+      "image": "modern-c01-l01/friedrich-list.png",
+      "name": "リスト",
+      "kind": "person",
+      "identity": "person:friedrich-list",
+      "description": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/friedrich-list.png",
+      "outputSha256": "1a3667c5636b1a44c2adcdc097c6e751336ad333e1db0be3307e4166d2ed2053",
+      "reuseReason": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。"
+    },
+    {
+      "key": "karl-marx",
+      "image": "modern-c01-l04/karl-marx.png",
+      "name": "マルクス",
+      "kind": "person",
+      "identity": "person:karl-marx",
+      "description": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l04/karl-marx.png",
+      "outputSha256": "0f7548fd5476cfd413a8729977edff25daf7695b371b391e47c4ff4b25a1c345",
+      "reuseReason": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。"
+    },
+    {
+      "key": "ivan-turgenev",
+      "image": "modern-c01-l05/ivan-turgenev.png",
+      "name": "トゥルゲーネフ",
+      "kind": "person",
+      "identity": "person:ivan-turgenev",
+      "description": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l05/ivan-turgenev.png",
+      "outputSha256": "0ddbd789b004e211b3d8bf14f4b159f25e3737c389a6aedb82dbd3adcdf55e25",
+      "reuseReason": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。"
+    },
+    {
+      "key": "alexander-ii",
+      "image": "modern-c01-l05/alexander-ii.png",
+      "name": "アレクサンドル2世",
+      "kind": "person",
+      "identity": "person:alexander-ii",
+      "description": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l05/alexander-ii.png",
+      "outputSha256": "d8f6ed6435f4519817826e0207bb22e3c75e0ae22906a23d0b9d9445518aba5d",
+      "reuseReason": "既存の同じ本人の絵を再利用する。作品の登場人物や別人の役には流用しない。"
+    },
+    {
+      "key": "painting-easel",
+      "image": "modern-c01-l01/painting-easel.png",
+      "name": "画架と絵",
+      "kind": "prop",
+      "identity": "prop:painting-easel",
+      "description": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/painting-easel.png",
+      "outputSha256": "90aa2d4e4b67cc93e872ea0bfafc30ee8e1829958d4bbac2aef9db4b9a7780d7",
+      "reuseReason": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。"
+    },
+    {
+      "key": "constitution-document",
+      "image": "modern-c01-l01/constitution-document.png",
+      "name": "文字資料",
+      "kind": "prop",
+      "identity": "prop:constitution-document",
+      "description": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/constitution-document.png",
+      "outputSha256": "8a715a4bfee02a55f27382fa8eb2fc1ad812c14e68926b6f35defc23f0364757",
+      "reuseReason": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。"
+    },
+    {
+      "key": "steam-factory",
+      "image": "modern-c01-l01/steam-factory.png",
+      "name": "蒸気機関を用いる工業",
+      "kind": "prop",
+      "identity": "prop:steam-factory",
+      "description": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/steam-factory.png",
+      "outputSha256": "dbfe2d21c918c76323834cfc56212955058a50a711a66cd3995f584939bd69b0",
+      "reuseReason": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。"
+    },
+    {
+      "key": "merchant-cargo",
+      "image": "modern-c01-l01/merchant-cargo.png",
+      "name": "交易の品",
+      "kind": "prop",
+      "identity": "prop:merchant-cargo",
+      "description": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/merchant-cargo.png",
+      "outputSha256": "5b34f33edbecda0ad85cb122e4451b4e7641af0cf34ab15279f64bba7ac3e3be",
+      "reuseReason": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。"
+    },
+    {
+      "key": "calendar",
+      "image": "modern-c01-l01/calendar.png",
+      "name": "時代の確認",
+      "kind": "prop",
+      "identity": "prop:calendar",
+      "description": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/calendar.png",
+      "outputSha256": "ce0c76abaa9de57d5a96c781a77b922e172b519269ef85529e22140782f178e5",
+      "reuseReason": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。"
+    },
+    {
+      "key": "farmers",
+      "image": "modern-c01-l01/farmers.png",
+      "name": "一般の農民",
+      "kind": "group",
+      "identity": "group:farmers",
+      "description": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/farmers.png",
+      "outputSha256": "8c43a485eeedf435fb172510f9e67d6ae29a39176b26a9f4b7304e7c28761ba4",
+      "reuseReason": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。"
+    },
+    {
+      "key": "workers",
+      "image": "modern-c01-l01/workers.png",
+      "name": "一般の労働者",
+      "kind": "group",
+      "identity": "group:workers",
+      "description": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/workers.png",
+      "outputSha256": "01e88046047d4eeb0ce1fc4963e27afbf1a2f74152b7344325faa9bcbd228042",
+      "reuseReason": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。"
+    },
+    {
+      "key": "industrialists",
+      "image": "modern-c01-l01/industrialists.png",
+      "name": "一般の資本家",
+      "kind": "group",
+      "identity": "group:industrialists",
+      "description": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/industrialists.png",
+      "outputSha256": "1d0e3da5f8159eae32b7d6f80df8750b954465fb0578a3618bf0d619112e1fe5",
+      "reuseReason": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。"
+    },
+    {
+      "key": "liberal-students",
+      "image": "modern-c01-l01/liberal-students.png",
+      "name": "知識人・市民の参照",
+      "kind": "group",
+      "identity": "group:liberal-students",
+      "description": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/liberal-students.png",
+      "outputSha256": "110b19b545d3106aeea81d8b25c55b5074f5c0c22ed8feaf7b6e5054a519ce61",
+      "reuseReason": "既存の同じ一般役割・道具の絵を模式的な参照に使う。国籍や個人を外見だけから同定せず、文字資料は作品の実物の表紙・原稿ではない。"
+    },
+    {
+      "key": "telegraph",
+      "image": "modern-c01-l04/telegraph.png",
+      "name": "電信機",
+      "kind": "prop",
+      "identity": "prop:telegraph",
+      "description": "第4回の同じ一般道具の絵を再利用する。本人・機械を情報線上で移動させない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l04/telegraph.png",
+      "outputSha256": "416e62c588e6f631fa0e9dbcb4cea60378cffcc82e1991d9a977994508e6d485",
+      "reuseReason": "第4回の同じ一般道具の絵を再利用する。本人・機械を情報線上で移動させない。"
+    }
+  ]
+}

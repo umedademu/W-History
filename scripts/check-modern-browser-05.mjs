@@ -306,8 +306,9 @@ try {
         await page.reload();await page.waitForSelector('button[data-scene]');
         assert.equal(await page.locator('#story-progress').getAttribute('value'),String(scenes.length));
         await page.locator('#next').click();
-        await page.waitForURL(vIndex<modernSeries.length-1?`${base}/${modernSeries[vIndex+1].id}-story.html`:`${base}/?book=modern#modern-book`);
-        if(vIndex===modernSeries.length-1)assert.equal(await page.locator('#modern-book').isVisible(),true);
+        const nextVolume=allModernSeries[allModernSeries.findIndex(item=>item.id===volume.id)+1];
+        await page.waitForURL(nextVolume?`${base}/${nextVolume.id}-story.html`:`${base}/?book=modern#modern-book`);
+        if(!nextVolume)assert.equal(await page.locator('#modern-book').isVisible(),true);
         await page.goto(`${base}/${volume.id}-story.html`);await page.waitForSelector('button[data-scene]');
         assert.equal(await page.locator('#previous').isDisabled(),true);
         await page.keyboard.press('ArrowRight');assert.equal(await page.locator('#story-progress').getAttribute('value'),'2');

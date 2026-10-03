@@ -1,8 +1,8 @@
-import { initialPageIndex } from "./story-volumes.js?v=0.115";
-import { withMapNames, mapDisplayName, normalizeMapName } from "./map-name-coverage.js?v=0.115";
+import { initialPageIndex } from "./story-volumes.js?v=0.116";
+import { withMapNames, mapDisplayName, normalizeMapName } from "./map-name-coverage.js?v=0.116";
 import { maximumMapScale } from "./map-camera.js?v=0.064";
 import { createMapLayout } from "./map-layout.js?v=0.064";
-import { decorateStoryBody } from "./story-emphasis.js?v=0.115";
+import { decorateStoryBody } from "./story-emphasis.js?v=0.116";
 
 export function mountStory({ places, zones, scenes, imageDirectory, chapterNavigation, baseMap, onSceneChange }) {
 const NS = "http://www.w3.org/2000/svg";
@@ -75,6 +75,12 @@ function drawMap(scene) {
   map.append(arrows);
   const routeNodes = scene.routes.map((route, i) => {
     const p = route.points.map(toScreen), d = p.map((v, j) => `${j ? "L" : "M"}${v.join(",")}`).join(" ");
+    if (route.informationOnly) {
+      // 通信の成立を示す線には、方向や人・物の移動を表す印を付けない。
+      const path = svg("path", { d, fill: "none", stroke: colors.rival, "stroke-width": 2, "stroke-dasharray": "4 4", class: "history-information-line", "data-route": i, "aria-label": "電信の情報接続を示す線" });
+      arrows.append(path);
+      return { route, path, length: path.getTotalLength(), reveal: null, head: null, dot: null };
+    }
     const ghost = svg("path", { d, fill: "none", stroke: colors[route.kind], "stroke-width": 1.5, opacity: .15 });
     const path = svg("path", { d, fill: "none", stroke: colors[route.kind], "stroke-width": route.kind === "trade" ? 2 : 2.7, "stroke-linecap": "round" });
     const head = svg("path", { d: "M-7,-4 L0,0 -7,4", fill: "none", stroke: colors[route.kind], "stroke-width": 2 });
@@ -154,6 +160,7 @@ function drawMap(scene) {
     byId("map-status").textContent = p >= 1 ? scene.after : scene.before;
     regions.style.opacity = String(.2 + .12 * p);
     for (const { route, path, reveal, head, dot, length } of routeNodes) {
+      if (route.informationOnly) continue;
       const q = clamp((p - (route.start ?? 0)) / ((route.end ?? 1) - (route.start ?? 0))), at = path.getPointAtLength(q * length), prev = path.getPointAtLength(Math.max(0, q * length - 1));
       reveal.setAttribute("stroke-dashoffset", length * (1 - q));
       const opacity = scene.fadeRoutes ? 1 - .8 * p : 1;

@@ -2,11 +2,12 @@ import { mapNameCatalog } from "./map-name-catalog.js?v=0.064";
 import { ancientNamesInText } from "./ancient-geography.js?v=0.068";
 import { chapterNameFinders } from "./chapter-geography.js?v=0.068";
 import { modernNamesInText } from "./modern-geography.js?v=0.111";
-import { modernNamesInText as secondModernNamesInText } from "./modern-geography-02.js?v=0.115";
-import { modernNamesInText as thirdModernNamesInText } from "./modern-geography-03.js?v=0.115";
-import { modernNamesInText as fourthModernNamesInText } from "./modern-geography-04.js?v=0.115";
-import { modernNamesInText as fifthModernNamesInText } from "./modern-geography-05.js?v=0.115";
-const modernNameFinders = {1:modernNamesInText,2:secondModernNamesInText,3:thirdModernNamesInText,4:fourthModernNamesInText,5:fifthModernNamesInText};
+import { modernNamesInText as secondModernNamesInText } from "./modern-geography-02.js?v=0.116";
+import { modernNamesInText as thirdModernNamesInText } from "./modern-geography-03.js?v=0.116";
+import { modernNamesInText as fourthModernNamesInText } from "./modern-geography-04.js?v=0.116";
+import { modernNamesInText as fifthModernNamesInText } from "./modern-geography-05.js?v=0.116";
+import { modernNamesInText as sixthModernNamesInText } from "./modern-geography-06.js?v=0.116";
+const modernNameFinders = {1:modernNamesInText,2:secondModernNamesInText,3:thirdModernNamesInText,4:fourthModernNamesInText,5:fifthModernNamesInText,6:sixthModernNamesInText};
 
 export const plainText = value => String(value ?? "").replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g, "").replace(/<[^>]*>/g, "");
 export const normalizeMapName = value => plainText(value).replace(/[\s＝=・『』「」]/g, "");
