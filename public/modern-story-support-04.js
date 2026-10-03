@@ -142,5 +142,7 @@ export function modernReferencePages(scene,volume,index) {
  const diagram=modernDiagramFor(scene);
  const linked=[...scene.plainBody.join('').matchAll(/P\.(\d+)/g)].map(match=>Number(match[1])).filter(page=>page>=72&&page<=92);
  const diagramPages=diagram?String(diagram.page).split('・').map(Number):[];
- return [...new Set([...(index===0&&volume.part===1?[72]:[]),...scene.sourceText.sourcePages,...linked,...diagramPages])].sort((a,b)=>a-b);
+ // 二院制の模式欄からも、独立した日本史欄の全文を確認できる。
+ const supplementalPages=scene.id==='modern-c01-l04-p06-003'?[88]:[];
+ return [...new Set([...(index===0&&volume.part===1?[72]:[]),...scene.sourceText.sourcePages,...linked,...diagramPages,...supplementalPages])].sort((a,b)=>a-b);
 }
