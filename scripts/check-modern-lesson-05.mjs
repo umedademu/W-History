@@ -201,6 +201,14 @@ assert.ok(plainDisplay(sourcePages['103']).includes('ナイティンゲールが
 assert.ok(scenes.at(-1).plainBody.join('').includes('19世紀のヨーロッパ文化史')&&scenes.at(-1).plainBody.join('').includes('次回も頑張っていこう〜。'),'次回予告と締めくくりを省略しない');
 const expectedDiagramTitles=Object.values(modernDiagrams).map(diagram=>diagram.title);
 assert.ok(expectedDiagramTitles.some(title=>/ロシア|条約|東方/.test(title)),'東方問題の対立・比較を図示する');
+for(const [id,key,phrase] of [
+ ['modern-c01-l05-p02-016','firstDispute','シリア領有権が認められた'],
+ ['modern-c01-l05-p02-022','secondDispute','世襲権'],
+ ['modern-c01-l05-p04-009','twoTreaties','宗主下での自治国']
+]) {
+ const scene=scenes.find(scene=>scene.id===id);assert.ok(scene?.plainBody.join('').includes(phrase),id+': 分割した本文の中心を原文から確認');
+ assert.equal(modernDiagramFor(scene),modernDiagrams[key],id+': 分割後のシリア取得・世襲権・ブルガリア自治に合う比較図を優先する');
+}
 const originalYears=new Set([...plainSource(allRaw).matchAll(/\b(1\d{3})\b/g)].map(match=>match[1]));
 for(const diagram of Object.values(modernDiagrams))for(const match of JSON.stringify(diagram).matchAll(/\b(1\d{3})\b/g))assert.ok(originalYears.has(match[1]),diagram.title+': 原文にない年号を補わない');
 for(const id of ['modern-c01-l05-p02-001','modern-c01-l05-p02-006','modern-c01-l05-p03-003','modern-c01-l05-p03-005','modern-c01-l05-p04-002','modern-c01-l05-p04-003']) {
