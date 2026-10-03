@@ -1,0 +1,4340 @@
+{
+  "source_file": "sources/近代・現代/01_国民国家の形成/05_ロシアと東方問題.md",
+  "source_sha256": "f061a5cc959ed1869062f43104dc31a5d221133a2c7a5c21675607723abd52d1",
+  "source_bytes": 72669,
+  "line_count": 460,
+  "pages": [
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "section_start_pages": [
+    94,
+    95,
+    102,
+    105
+  ],
+  "source_notes": [
+    "93導入と107結び・次回予告も通常本文として保持する。",
+    "101ページのクローズアップ全体は独立した比較表として保持し、通常本文へ混ぜない。",
+    "95ページ46・48行と105ページ363・365・367・369行は柱が変わっていても前節の続き。",
+    "海峡の航行権の取得・禁止は制度であり艦隊の実航行として動かさない。",
+    "原文の軍艦・聖地管理権・ナロードニキ等の説明を校訂せず、補助図は原文の字句と区別する。"
+  ],
+  "lines": [
+    {
+      "line": 1,
+      "page": 93,
+      "part": 1,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 93"
+    },
+    {
+      "line": 2,
+      "page": 93,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 3,
+      "page": 93,
+      "part": 1,
+      "kind": "cover-heading",
+      "reason": "回の題名を全文に保持する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第5回**</span> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**ロシアと東方問題**</span>"
+    },
+    {
+      "line": 4,
+      "page": 93,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 5,
+      "page": 93,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ここまで続けて19世紀のヨーロッパ各国の状況を見てきたけど、いよいよ今回でひと区切り、最後は<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">ロシア</u>だ。ロシアってもともとは遅れた国だったから、ヨーロッパの国際関係にはあまり登場してこなかったけど、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">19世紀に入るといよいよ国際政治の表舞台に出てくる</u>よ。"
+    },
+    {
+      "line": 6,
+      "page": 93,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 7,
+      "page": 93,
+      "part": 1,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**大きくつかもう！**</span>"
+    },
+    {
+      "line": 8,
+      "page": 93,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 9,
+      "page": 93,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "|  |  |  |"
+    },
+    {
+      "line": 10,
+      "page": 93,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 11,
+      "page": 93,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**1**</span> | **ロシアのツァーリズム** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">94〜95ページ</span> |"
+    },
+    {
+      "line": 12,
+      "page": 93,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**2**</span> | **東方問題の発生** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">95〜101ページ</span> |"
+    },
+    {
+      "line": 13,
+      "page": 93,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**3**</span> | **クリミア戦争とロシアの改革** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">102〜105ページ</span> |"
+    },
+    {
+      "line": 14,
+      "page": 93,
+      "part": 1,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**4**</span> | **露土戦争** | <span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">105〜107ページ</span> |"
+    },
+    {
+      "line": 15,
+      "page": 93,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 16,
+      "page": 93,
+      "part": 1,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> 今回のポイントはロシアの南下政策VS.イギリスだよ"
+    },
+    {
+      "line": 17,
+      "page": 93,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 18,
+      "page": 93,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "18世紀後半に登場した<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">エカチェリーナ2世</u>による近代化や、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">ナポレオン戦争</u>で活躍したこともあって、19世紀に入ると、ついに<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">ロシアがヨーロッパの5大国の1国になった</u>。とはいっても中身は……全然変わってない。<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">絶対王政時代の体制がそのまま残っていて</u>、自由も平等も知ったこっちゃない。しかも、領土拡大のために進めた<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">南下政策はイギリスとの激しい対立を生む</u>んだ。これは、バルカン半島を中心とする<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">オスマン帝国領をめぐって争われた</u>から、ヨーロッパから見ると東側。だから「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">東方問題</u>」って呼ばれているよ。ロシアと東方問題……最強国イギリスを敵に回しちゃったロシアはどうなるんだろ？　ここで繰り広げられた戦争は、ロシアだけじゃなくて、ヨーロッパ全体に影響していくよ。それじゃあ、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">ロシアと東方問題</u>の始まり〜。"
+    },
+    {
+      "line": 19,
+      "page": 93,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 20,
+      "page": 94,
+      "part": 1,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 94"
+    },
+    {
+      "line": 21,
+      "page": 94,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 22,
+      "page": 94,
+      "part": 1,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第5回**</span> ロシアと東方問題"
+    },
+    {
+      "line": 23,
+      "page": 94,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 24,
+      "page": 94,
+      "part": 1,
+      "kind": "section-heading",
+      "reason": "本文内の実際の節見出しで区分する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**1**</span> **ロシアのツァーリズム**"
+    },
+    {
+      "line": 25,
+      "page": 94,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 26,
+      "page": 94,
+      "part": 1,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**ナポレオン戦争が終わって……でも、ロシアは何も変わらん！**</span>"
+    },
+    {
+      "line": 27,
+      "page": 94,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 28,
+      "page": 94,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ヨーロッパの一番東にある**ロシア**は、**ヨーロッパのなかでも一番遅れている国**だった。**ピョートル1世**や**エカチェリーナ2世**が「ロシアを近代化しよ〜」と<ruby>頑張<rt>がんば</rt></ruby>っていたけど、西ヨーロッパみたいに商業や工業が盛んになっていたわけじゃないから、近代化のためのお金が足りない。じゃあどうするか？　歴代のロシア皇帝は<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>農奴<rt>のうど</rt></ruby>制**</span>の強化によって財源を確保し、<ruby>専制<rt>せんせい</rt></ruby>政治を強化したんだ。簡単に言うと「**農民から絞りとった穀物を輸出して得たお金で皇帝を強くする！**」ってことだね。これがロシア皇帝（<span data-source-color=\"red\" style=\"color:#e52715\">**ツァーリ**</span>）による専制政治、<span data-source-color=\"red\" style=\"color:#e52715\">**ツァーリズム**</span>だよ。"
+    },
+    {
+      "line": 29,
+      "page": 94,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 30,
+      "page": 94,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こんなことばっかりやっていたから、**各国が近代的な市民社会に向かって**少しずつ工業化を進め始めたころにも、**ロシアは何も変わらなかった**。「市民階級？　何それ？　産業革命？　それおいしいの？」みたいな感じ。結局、農奴が土地に縛りつけられているから、工業化しようとしたって**労働者もいない**し、工場を経営するような**資本家も全然育っていなかった**。"
+    },
+    {
+      "line": 31,
+      "page": 94,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 32,
+      "page": 94,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "19世紀初め、ナポレオン軍と戦ったロシアは、**アウステルリッツの戦い**で負けてボコボコになったはずなんだけど、**ロシア遠征**では冬の寒さを味方につけて、しかも「<ruby>侵略<rt>しんりゃく</rt></ruby>者から祖国ロシアを守る！」という意識も盛り上がり、**最終的に勝った**よね。**この勝利がナポレオンの失脚を早めた**から、以後ロシアは国際的な地位を上げて、**ヨーロッパの5大国の一角**に数えられるようになったんだ。"
+    },
+    {
+      "line": 33,
+      "page": 94,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 34,
+      "page": 94,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そしてロシア皇帝<span data-source-color=\"red\" style=\"color:#e52715\">**アレクサンドル1世**</span>は、**ウィーン会議**においてオーストリアのメッテルニヒとともに**保守反動体制の中心**となり、1815年には<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>神<rt>しん</rt></ruby><ruby>聖<rt>せい</rt></ruby>同盟**</span>を提唱、各国の君主と連携して**自由主義や国民主義を<ruby>潰<rt>つぶ</rt></ruby>そうとした**んだね。だから、彼の死をきっかけに<span data-source-color=\"red\" style=\"color:#e52715\">**デカブリストの乱**</span>が起きたんだけど、新しく皇帝になった**ニコライ1世**に<ruby>鎮圧<rt>ちんあつ</rt></ruby>されてしまったんだ。"
+    },
+    {
+      "line": 35,
+      "page": 94,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 36,
+      "page": 94,
+      "part": 1,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> ツァーリズムのロシアは、自由・平等大キライ！　他の国にまで弾圧に行くよ……"
+    },
+    {
+      "line": 37,
+      "page": 94,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 38,
+      "page": 94,
+      "part": 1,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**新皇帝ニコライ1世もツァーリズム！「ヨーロッパの<ruby>憲兵<rt>けんぺい</rt></ruby>」って？**</span>"
+    },
+    {
+      "line": 39,
+      "page": 94,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 40,
+      "page": 94,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "アレクサンドル1世のあとに即位した**ニコライ1世**の時代も、結局何も変わらなかった、というか**むしろ悪化してる**。彼が即位したのは1825年だから、5年後には**フランスの七月革命の影響**でヨーロッパ全体で**自由主義が高揚**し、この影響がロシア領にも飛び火して<span data-source-color=\"red\" style=\"color:#e52715\">**ポーランド反乱**</span>が起こったよね。だって、ロシアの支配下でひどい目にあわされてるんだもん。これを**ロシアは徹底的に<ruby>弾圧<rt>だんあつ</rt></ruby>した**けど、**命令したのがニコライ1世だ**。さらに、<span data-source-color=\"red\" style=\"color:#e52715\">**1848年革命**</span>では、ロシア領だけじゃなくて、**他の国の領内の民族運動まで鎮圧**しに行ったよ……覚えてるかなぁ……オーストリア"
+    },
+    {
+      "line": 41,
+      "page": 94,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 42,
+      "page": 95,
+      "part": 1,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 95"
+    },
+    {
+      "line": 43,
+      "page": 95,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 44,
+      "page": 95,
+      "part": 1,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**2**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">東方問題の発生</u>"
+    },
+    {
+      "line": 45,
+      "page": 95,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 46,
+      "page": 95,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "領だった**ハンガリーの民族運動を鎮圧**するのに**ロシア軍が協力**したよね。こんなふうに、ヨーロッパ全体の民族運動を鎮圧していったから、この時期のロシアは「**ヨーロッパの憲兵**」って呼ばれているよ。特にオーストリアのメッテルニヒが失脚したあとは、**ニコライ1世がヨーロッパの反動体制の中心**になったんだよ。憲兵っていうのは「軍警察」。軍隊が警察になって厳しい取り締まりをするのね。反発したヤツは消すの……怖いな。"
+    },
+    {
+      "line": 47,
+      "page": 95,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 48,
+      "page": 95,
+      "part": 1,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ヨーロッパ全体に対してもこんな状態だから、**国内支配も厳しい**よ。本物の憲兵がいて、反対する連中は全部潰しながら、**農奴制を基盤とする保守反動政治**で、皇帝権を強化していったんだね。"
+    },
+    {
+      "line": 49,
+      "page": 95,
+      "part": 1,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 50,
+      "page": 95,
+      "part": 2,
+      "kind": "section-heading",
+      "reason": "本文内の実際の節見出しで区分する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**2**</span> **東方問題の発生**"
+    },
+    {
+      "line": 51,
+      "page": 95,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 52,
+      "page": 95,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### **〈ロシアの南下政策と列強の対立〉**"
+    },
+    {
+      "line": 53,
+      "page": 95,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 54,
+      "page": 95,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "|  |  |"
+    },
+    {
+      "line": 55,
+      "page": 95,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 56,
+      "page": 95,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **イギリス** | **オーストリア** |"
+    },
+    {
+      "line": 57,
+      "page": 95,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **ロシア帝国** | **エジプト** |"
+    },
+    {
+      "line": 58,
+      "page": 95,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **インド** | **ダーダネルス・ボスフォラス海峡** |"
+    },
+    {
+      "line": 59,
+      "page": 95,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">イギリスの最重要植民地</span> |  |"
+    },
+    {
+      "line": 60,
+      "page": 95,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-marker=\"dashed-arrow\" style=\"color:#e52715\">┄➜</span> イギリスのインド航路 | <span data-source-marker=\"arrow\" style=\"color:#001000\">➜</span> ロシアの南下政策 |"
+    },
+    {
+      "line": 61,
+      "page": 95,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 62,
+      "page": 95,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> イギリスとロシアは世界中で対立するよ！"
+    },
+    {
+      "line": 63,
+      "page": 95,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 64,
+      "page": 95,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**ロシアの南下政策VS.イギリス。絶対に譲れない両国の<ruby>理由<rt>わけ</rt></ruby>とは？**</span>"
+    },
+    {
+      "line": 65,
+      "page": 95,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 66,
+      "page": 95,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "続いて今回のヤマ場、<span data-source-color=\"red\" style=\"color:#e52715\">**東方問題**</span>に進もう。その前に、まずは東方問題で激しく対立した**ロシアとイギリスの事情**について解説しておこう。"
+    },
+    {
+      "line": 67,
+      "page": 95,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 68,
+      "page": 95,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**ロシア**は**ピョートル1世がアゾフ海に進出**して以来、<span data-source-color=\"red\" style=\"color:#e52715\">**南下政策**</span>を進めていたんだ。南下政策っていうのは要するに「**南へと勢力を拡大していく**」ってことだけど、まぁロシアは北に行っても北極しかないからね。だから領土を獲得するなら南、ってことになる。そして、**エカチェリーナ2世**がオスマン帝国から**クリミア＝ハン国【クリム＝ハン国】を奪って黒海の支配権を確保**し、さらに**ギリシア正教徒の保護権**を得ると（**キュチュク＝カイナルジ条約**）、ロシアはこれを口実に、**オス**"
+    },
+    {
+      "line": 69,
+      "page": 95,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 70,
+      "page": 95,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 71,
+      "page": 95,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 72,
+      "page": 95,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 73,
+      "page": 95,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 74,
+      "page": 95,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 75,
+      "page": 95,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 76,
+      "page": 95,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 77,
+      "page": 95,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 78,
+      "page": 95,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 79,
+      "page": 95,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 80,
+      "page": 96,
+      "part": 2,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 96"
+    },
+    {
+      "line": 81,
+      "page": 96,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 82,
+      "page": 96,
+      "part": 2,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第5回**</span> ロシアと東方問題"
+    },
+    {
+      "line": 83,
+      "page": 96,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 84,
+      "page": 96,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**マン帝国領への進出**を<ruby>狙<rt>ねら</rt></ruby>い始めるんだ。これはよく「<ruby>不凍港<rt>ふとうこう</rt></ruby>（冬になっても凍らない港）を取りたい」って説明されてるけど、それだけじゃないんだよ。だって、港を取ったあともロシアの遠征が続くんだもん。ウラには、ツァーリズムで生じた**国内の矛盾を対外遠征でごまかす**っていう意図もあるからね。じゃなきゃ、負け続けてるのにロシアがひたすら遠征をする意味がわかんないでしょ。そして、19世紀には**地中海への進出を狙う**んだけど、これが**イギリスとの激しい対立**を引き起こすよ。"
+    },
+    {
+      "line": 85,
+      "page": 96,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 86,
+      "page": 96,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "続いて**イギリス**の事情を見ていこう。アメリカ独立後、**イギリスにとって一番大事な植民地はインド**となり、**インドへ向かう航路の確保**が重要な戦略になった。このためインドへの交通路として、**地中海からエジプトを経由して、紅海からインド洋に抜ける航路**（地図<span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**➡P.95**</span>の赤の点線だよ）は絶対に譲れない。ちなみに、ナポレオンがエジプト遠征をやったのは、イギリスにこの航路を確保させないためだ。"
+    },
+    {
+      "line": 87,
+      "page": 96,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 88,
+      "page": 96,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こう考えたときに、当時の**イギリスにとって一番危ない敵**は誰か？　ズバリ、**ロシア**なんだよ。**ロシアが黒海から地中海に進出**しようとすると、イギリスが確保しようとしている地中海の航路の安全が<ruby>脅<rt>おびや</rt></ruby>かされる。さらに、**ロシアが中央アジアやイランへの南下政策**を進めると……インドそのものが危ない。**イギリスはインドを狙うヤツは絶対に許さない**。こうして、19世紀の国際関係では、**ロシアの南下と、それを絶対に阻止したいイギリスの対立**が、もっとも重大な問題だったんだよ。特にインド防衛をめぐる英露の対立は「**グレートゲーム**」と呼ばれているんだ。"
+    },
+    {
+      "line": 89,
+      "page": 96,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 90,
+      "page": 96,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> いよいよ、イギリスとロシアの対立が激化してきたね。このあとどうなるんだろ？"
+    },
+    {
+      "line": 91,
+      "page": 96,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 92,
+      "page": 96,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### <span data-source-color=\"gray\" style=\"color:#777777\">**じゃあ、東方問題ってなんだろう？**</span>"
+    },
+    {
+      "line": 93,
+      "page": 96,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 94,
+      "page": 96,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "「<span data-source-color=\"red\" style=\"color:#e52715\">**東方問題**</span>」ってのはヨーロッパがつけた名前だから、ヨーロッパから見て東側にある**オスマン帝国領をめぐる問題**だ。1699年の**カルロヴィッツ条約**以来、**オスマン帝国が衰退**してくると、**オーストリアやロシア**がその領土への進出を始めていたよね。そして19世紀になると、フランス革命やナポレオン戦争、さらにはラテンアメリカの独立などの影響で**自由主義やナショナリズムが拡大**し、オスマン帝国に支配されていた**ヨーロッパの諸民族（キリスト教徒）が、イスラーム国家のオスマン帝国からの独立を目指す民族運動を始めた**んだよ。舞台は<span data-source-color=\"red\" style=\"color:#e52715\">**バルカン半島**</span>だ。"
+    },
+    {
+      "line": 95,
+      "page": 96,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 96,
+      "page": 96,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "オスマン帝国支配下のバルカン半島には、カトリック教徒もいればギリシア正教徒もいる。さらにはヨーロッパで差別されたユダヤ人もいる。彼らはジズヤさえ納めれば信仰を認められたから、独自の共同体をつくって信仰を守っていた（これは**ミッレット**と呼ばれていたよね）。そして彼らがオスマン帝国からの独立を要求し始めると、「**カトリック教徒**を助けろ〜」って言ってかつて<ruby>神聖<rt>しんせい</rt></ruby>ローマ皇帝だった<span data-source-color=\"red\" style=\"color:#e52715\">**オーストリア**</span>が<ruby>介入<rt>かいにゅう</rt></ruby>してくる一方、「**ギリシア正教徒**をいじめるんじゃない！」っ"
+    },
+    {
+      "line": 97,
+      "page": 96,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 98,
+      "page": 97,
+      "part": 2,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 97"
+    },
+    {
+      "line": 99,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 100,
+      "page": 97,
+      "part": 2,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**2**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">東方問題の発生</u>"
+    },
+    {
+      "line": 101,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 102,
+      "page": 97,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "て言ってビザンツ皇帝の後継者を称する<span data-source-color=\"red\" style=\"color:#e52715\">**ロシア**</span>も介入してくる。そうなると、ロシアに勢力拡大させたくない<span data-source-color=\"red\" style=\"color:#e52715\">**イギリス**</span>も、「ロシアめ、いい加減にしろ」と言って介入し、イギリスだけに得をさせたくないフランスもくる。"
+    },
+    {
+      "line": 103,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 104,
+      "page": 97,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こうして、**オスマン帝国領内の民族運動にヨーロッパ<ruby>列強<rt>れっきょう</rt></ruby>が介入**して、重大な国際問題になっていったんだ。これが<span data-source-color=\"red\" style=\"color:#e52715\">**東方問題**</span>だよ。狭い意味では<span data-source-color=\"red\" style=\"color:#e52715\">**エジプト＝トルコ戦争**</span>だけを指す場合もあるんだけど、一般的には広い意味で、<span data-source-color=\"red\" style=\"color:#e52715\">**ギリシア独立戦争**</span>から、1877年の<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>露土<rt>ろと</rt></ruby>戦争**</span>**【**<span data-source-color=\"red\" style=\"color:#e52715\">**ロシア＝トルコ戦争**</span>**】**とその処理のために開かれた1878年の<span data-source-color=\"red\" style=\"color:#e52715\">**ベルリン会議**</span>までの列強の対立のことだよ。じゃあ、順に見ていこう。"
+    },
+    {
+      "line": 105,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 106,
+      "page": 97,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**ギリシア独立戦争で列強の思惑がぶつかり、東方問題が起きた！**</span>"
+    },
+    {
+      "line": 107,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 108,
+      "page": 97,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "すでにウィーン体制の崩壊<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第1回**</span>でギリシア独立戦争の経過は説明したけど、今回は**国際関係を中心**に見直してみよう。ギリシアが独立戦争を始めると、これを<ruby>潰<rt>つぶ</rt></ruby>したい**オスマン帝国（トルコ）**は、帝国領内の**エジプト**で近代化を進めていた<span data-source-color=\"red\" style=\"color:#e52715\">**ムハンマド＝アリー**</span>に「ギリシアの独立を潰せ！」って命令し、ムハンマド＝アリーも**シリアの<ruby>割譲<rt>かつじょう</rt></ruby>と引き換えに軍を派遣した**。これに対して、南下政策を進めるロシアはチャンスだと思った。だって、**ロシアは**<span data-source-color=\"red\" style=\"color:#e52715\">**ダーダネルス・ボスフォラス海峡**</span>を通過して**地中海に進出したい**んだもん。**海峡の両岸はオスマン帝国領**だから、オスマン帝国にいちゃもんつけて、特権や領土を奪えば地中海に進出できる。もはや自由や独立は関係なくなって、**ロシアがギリシア側で参戦**したんだ。"
+    },
+    {
+      "line": 109,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 110,
+      "page": 97,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### **〈ギリシア独立戦争〉**"
+    },
+    {
+      "line": 111,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 112,
+      "page": 97,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "|  |  |"
+    },
+    {
+      "line": 113,
+      "page": 97,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 114,
+      "page": 97,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **エジプト** | **オスマン帝国** |"
+    },
+    {
+      "line": 115,
+      "page": 97,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **ギリシア** | <span data-source-color=\"white\" data-source-background=\"green\" style=\"color:#ffffff;background-color:#859476\">**ロシア**</span> |"
+    },
+    {
+      "line": 116,
+      "page": 97,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-color=\"red\" style=\"color:#e52715\">**<span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">イギリス</span>**</span> | **フランス** |"
+    },
+    {
+      "line": 117,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 118,
+      "page": 97,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "これに対してイギリスは、「ロシアの南下は潰す！」と思いつつ、だからといってロシアの敵として参戦することはできない。だって**ロシアが支援しているのは「ギリシアの独立」**なんだもん。オスマン帝国側で参戦したら独立を潰す、つまり自由主義を潰すことになっちゃう……。だから**イギリス**はなんとかロシアを抑えこもうと、ロシアと同じく**ギリシア側で参戦**したんだね。あっ、ここから先の戦争、戦闘では**イギリスがついたほうが全部勝ち**。やっぱイギリスは強い！。といっても、必ずしもつねにイギリスが得したわけじゃないんだよ。ギリシア独立戦争で、"
+    },
+    {
+      "line": 119,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 120,
+      "page": 97,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 121,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 122,
+      "page": 97,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 123,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 124,
+      "page": 97,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 125,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 126,
+      "page": 97,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 127,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 128,
+      "page": 97,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 129,
+      "page": 97,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 130,
+      "page": 98,
+      "part": 2,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 98"
+    },
+    {
+      "line": 131,
+      "page": 98,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 132,
+      "page": 98,
+      "part": 2,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第5回**</span> ロシアと東方問題"
+    },
+    {
+      "line": 133,
+      "page": 98,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 134,
+      "page": 98,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "イギリスはいきなりそれを思い知らされるんだ。"
+    },
+    {
+      "line": 135,
+      "page": 98,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 136,
+      "page": 98,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "1829年、**ロシア**は単独でオスマン帝国との間で**アドリアノープル条約**を結んで**ギリシアの独立を承認**させると、**黒海北岸の領土を獲得**するとともに、**黒海とダーダネルス・ボスフォラス海峡の自由航行権**を確保したんだ。これって、**ロシアの南下が成功**したってことだよ。だからこれ以後、イギリスは「ロシアの南下は全部<ruby>阻止<rt>そし</rt></ruby>する！」っていうくらい、ロシアと敵対することになるんだ。"
+    },
+    {
+      "line": 137,
+      "page": 98,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 138,
+      "page": 98,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**ムハンマド＝アリーとオスマン帝国が<ruby>揉<rt>も</rt></ruby>めて……またまたロシアが得しちゃう！<br>――第1次エジプト＝トルコ戦争**</span>"
+    },
+    {
+      "line": 139,
+      "page": 98,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 140,
+      "page": 98,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "さて、エジプトの敗戦が新たな問題を引き起こすよ。きっかけは「**シリアの領有権**」をめぐる問題だ。ギリシア独立戦争の時に約束した「シリア<ruby>割譲<rt>かつじょう</rt></ruby>」の認識が、オスマン帝国（トルコ）とムハンマド＝アリーで違うんだよ。**オスマン帝国**は「**勝ったらシリアをあげる**」と約束したつもりだから、戦争で負けた以上、**シリアをあげなくていい**と思ってる。対する**ムハンマド＝アリー**は「**参戦したらシリアをもらえる**（つまり勝ち負けは関係なし）」と思っているから、**シリアをよこせと要求**し始めるよね。この対立から始まったのが、<span data-source-color=\"red\" style=\"color:#e52715\">**第1次エジプト＝トルコ戦争**</span>だ。"
+    },
+    {
+      "line": 141,
+      "page": 98,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 142,
+      "page": 98,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### **〈第1次エジプト＝トルコ戦争〉**"
+    },
+    {
+      "line": 143,
+      "page": 98,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 144,
+      "page": 98,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "|  |  |"
+    },
+    {
+      "line": 145,
+      "page": 98,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 146,
+      "page": 98,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"green\" style=\"color:#ffffff;background-color:#859476\">**ロシア**</span> | **オスマン帝国** |"
+    },
+    {
+      "line": 147,
+      "page": 98,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **エジプト** | <span data-source-color=\"red\" style=\"color:#e52715\">**<span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">イギリス</span>**</span> |"
+    },
+    {
+      "line": 148,
+      "page": 98,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **フランス** | <span data-source-color=\"white\" data-source-background=\"brown\" style=\"color:#ffffff;background-color:#a43725\">**オーストリア**</span> |"
+    },
+    {
+      "line": 149,
+      "page": 98,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 150,
+      "page": 98,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "いざ開戦すると、戦争はエジプトとオスマン帝国の問題というより**<ruby>列強<rt>れっきょう</rt></ruby>の対立に変わってしまう**。まず、ロシアがすごい作戦を思いついた！　たぶん、ムハンマド＝アリーの主張をマネしたんだろうな。「オスマン帝国の味方をするかわりになんかもらえばいい」って考えた**ロシアは**、ギリシア独立戦争から一転、**オスマン帝国を支援**し始めた。一方、エジプトに野心を持っている**フランスはエジプトを支援**し始めた。そして、ロシアがボスフォラス海峡に上陸すると「何をたくらんでるんだ！」と思った**英仏は、オスマン帝国に圧力をかけてエジプトと和解させた**んだよ。"
+    },
+    {
+      "line": 151,
+      "page": 98,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 152,
+      "page": 98,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "結果、**戦争そのものはエジプトの勝利**ということになり、**ムハンマド＝アリーのシリア領有権が認められた**んだけど、「なんでエジプトの味方するんだよ！」と思った**オスマン帝国は、英仏に相当ムカついてる**。そこに現れたのがロシア……「英仏っ"
+    },
+    {
+      "line": 153,
+      "page": 98,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 154,
+      "page": 99,
+      "part": 2,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 99"
+    },
+    {
+      "line": 155,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 156,
+      "page": 99,
+      "part": 2,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**2**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">東方問題の発生</u>"
+    },
+    {
+      "line": 157,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 158,
+      "page": 99,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "てイヤな奴らだよね。だからボクがキミを助けてあげるよ」。ほら、ここで愛が芽生える。これ、フラれた子の相談に乗ったら付き合っちゃったっていうパターン。こうして、**ロシアとオスマン帝国の相互援助条約**として**ウンキャル＝スケレッシ条約**が結ばれ、ロシアは**ダーダネルス・ボスフォラス海峡のロシア軍艦の独占航行権**を獲得したんだよ。もちろん秘密条項だけど、これって、**勝ってないのにロシアの南下が成功した**！ってことだ。イギリスがキレるのも時間の問題だな……。"
+    },
+    {
+      "line": 159,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 160,
+      "page": 99,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**戦闘じゃなくて外交で勝つ！　イギリスは2度同じ失敗はしない<br>――第2次エジプト＝トルコ戦争**</span>"
+    },
+    {
+      "line": 161,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 162,
+      "page": 99,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ウンキャル＝スケレッシ条約の秘密条項に気づいたイギリスは、ロシアを<ruby>潰<rt>つぶ</rt></ruby>すための機会をうかがっていたんだけど、再びエジプトとオスマン帝国（トルコ）の関係が悪化して、意外に早くチャンスがくるんだよね。それが「**エジプトとシリアの<ruby>世襲<rt>せしゅう</rt></ruby>権**」をめぐる問題だ。すでに**シリア領有権を獲得したムハンマド＝アリー**がちょっとばかり調子に乗って、**エジプトとシリアの世襲権を要求**（これって、オスマン帝国から独立するって意味だよ）し始めた。もちろん、オスマン帝国はこんなもん認めるわけがない。こうして、<span data-source-color=\"red\" style=\"color:#e52715\">**第2次エジプト＝トルコ戦争**</span>が始まったんだ。"
+    },
+    {
+      "line": 163,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 164,
+      "page": 99,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### **〈第2次エジプト＝トルコ戦争〉**"
+    },
+    {
+      "line": 165,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 166,
+      "page": 99,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "|  |  |"
+    },
+    {
+      "line": 167,
+      "page": 99,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 168,
+      "page": 99,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"green\" style=\"color:#ffffff;background-color:#859476\">**ロシア**</span> | <span data-source-color=\"red\" style=\"color:#e52715\">**<span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">イギリス</span>**</span> |"
+    },
+    {
+      "line": 169,
+      "page": 99,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"brown\" style=\"color:#ffffff;background-color:#a43725\">**オーストリア**</span> | **プロイセン** |"
+    },
+    {
+      "line": 170,
+      "page": 99,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **オスマン帝国** | **エジプト** |"
+    },
+    {
+      "line": 171,
+      "page": 99,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **フランス** |  |"
+    },
+    {
+      "line": 172,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 173,
+      "page": 99,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> ロシアとフランスを両方とも抑え込むイギリス外交に注目だ！"
+    },
+    {
+      "line": 174,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 175,
+      "page": 99,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こうなると、再び列強も動き出すよ。まず**フランスが抜け駆け**。**エジプトに接近**して、利権を拡大しようとしていた。もちろん、**ロシアはオスマン帝国を支援**して何かもらい、南下政策を進めようとしている。**イギリスはフランスにもロシアにも得をさせたくない**。こうなると、戦闘で勝ってもほとんど意味がないよね。だって、必ずどっちかが勝つでしょ。そこで一転、**イギリスはオスマン帝国を支援**することにした。そして、**オーストリアとプロイセンを巻き込んで**ロシアにこう持ち掛けたんだ。「オスマン帝国がかわいそうなので、**英・露・墺・普の“4国”**で助けましょう。抜け駆けはダメですよ」ってね。顔で笑ってても、内心は火花バチバチ。だってイギリスは内心、ロシアに対して「1国で勝手なことをしたら、こっ"
+    },
+    {
+      "line": 176,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 177,
+      "page": 99,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 178,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 179,
+      "page": 99,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 180,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 181,
+      "page": 99,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 182,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 183,
+      "page": 99,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 184,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 185,
+      "page": 99,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 186,
+      "page": 99,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 187,
+      "page": 100,
+      "part": 2,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 100"
+    },
+    {
+      "line": 188,
+      "page": 100,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 189,
+      "page": 100,
+      "part": 2,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第5回**</span> ロシアと東方問題"
+    },
+    {
+      "line": 190,
+      "page": 100,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 191,
+      "page": 100,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ちの3国で<ruby>潰<rt>つぶ</rt></ruby>すからな」と思っている。ロシアもロシアで「イギリス、余計なことをしやがって」って本音では思っているんだもん。"
+    },
+    {
+      "line": 192,
+      "page": 100,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 193,
+      "page": 100,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そうはいっても表向きは協力した4国は、**オスマン帝国を支援してエジプトを破った**。これだけ組めば勝てるよ。そして**イギリス**は「余計なことをすると4国VS.フランスになりますよ」と言って**フランスを黙らせ**、1840年、<span data-source-color=\"red\" style=\"color:#e52715\">**ロンドン会議**</span>を開いた。はっきり言ってイギリスは、ムハンマド＝アリーのことに興味はない。そこで**ムハンマド＝アリー**には**オスマン帝国<ruby>宗主<rt>そうしゅ</rt></ruby>下でエジプト・スーダンの<ruby>世襲<rt>せしゅう</rt></ruby>権**を認め（これで**事実上エジプトは独立**ね）、**シリア領有権は<ruby>放棄<rt>ほうき</rt></ruby>**させるっていう、勝ち負けがよくわからない状態にした。とにかくフランスとロシアを抑えればいい。"
+    },
+    {
+      "line": 194,
+      "page": 100,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 195,
+      "page": 100,
+      "part": 2,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "でもって、肝心の**フランスとロシアの問題**。とにかくロシアの南下を抑えるために、**あらゆる外国軍艦**（つまりオスマン帝国以外ね）**のダーダネルス・ボスフォラス海峡の通過を禁止**にしたんだ（**ロンドン4国条約**）。そして、翌年にはフランスを加えて**海峡協定**を結び、**ウンキャル＝スケレッシ条約は破棄**されて、**ロシアの南下政策を阻止**するとともに、**フランスを黙らせておいたことでエジプト進出を阻止**することに成功したよ。これって、イギリスが外交で完全に主導権を握り、思ったとおりの結果を得たってことだよね。これを当時の外務大臣の名前を取って「**パーマストン外交の勝利**」なんて呼んでいるよ。"
+    },
+    {
+      "line": 196,
+      "page": 100,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 197,
+      "page": 100,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### **〈東方問題（クリミア戦争まで）〉**"
+    },
+    {
+      "line": 198,
+      "page": 100,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 199,
+      "page": 100,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "|  |  |"
+    },
+    {
+      "line": 200,
+      "page": 100,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 201,
+      "page": 100,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **ロシア帝国** | イスタンブル |"
+    },
+    {
+      "line": 202,
+      "page": 100,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **ダーダネルス海峡** | **ボスフォラス海峡** |"
+    },
+    {
+      "line": 203,
+      "page": 100,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **オスマン帝国（トルコ）** | **ギリシア** |"
+    },
+    {
+      "line": 204,
+      "page": 100,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **シリア** | イェルサレム |"
+    },
+    {
+      "line": 205,
+      "page": 100,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **エジプト** | 黒海 |"
+    },
+    {
+      "line": 206,
+      "page": 100,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">セヴァストーポリ要塞</span> |  |"
+    },
+    {
+      "line": 207,
+      "page": 100,
+      "part": 2,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-marker=\"area\" style=\"color:#e52715\">■</span> オスマン帝国（トルコ）領 | <span data-source-marker=\"arrow\" style=\"color:#001000\">➜</span> ロシアの南下政策 |"
+    },
+    {
+      "line": 208,
+      "page": 100,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 209,
+      "page": 100,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> 衰退していくオスマン帝国は「<ruby>瀕死<rt>ひんし</rt></ruby>の病人」なんていわれてた……これじゃ、<ruby>列<rt>れっ</rt></ruby><ruby>強<rt>きょう</rt></ruby>の<ruby>餌食<rt>えじき</rt></ruby>だ"
+    },
+    {
+      "line": 210,
+      "page": 100,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 211,
+      "page": 101,
+      "part": 2,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 101"
+    },
+    {
+      "line": 212,
+      "page": 101,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 213,
+      "page": 101,
+      "part": 2,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**2**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">東方問題の発生</u>"
+    },
+    {
+      "line": 214,
+      "page": 101,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 215,
+      "page": 101,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**クローズアップ**</span>"
+    },
+    {
+      "line": 216,
+      "page": 101,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 217,
+      "page": 101,
+      "part": 2,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### **東方問題**……**特にロシアとイギリスの動きに注目！**"
+    },
+    {
+      "line": 218,
+      "page": 101,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 219,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">**●ギリシア独立戦争**</span>［1821〜29］"
+    },
+    {
+      "line": 220,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 221,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span>エジプト＝<span data-source-border=\"gray\" style=\"border:1px solid #777777;padding:0 0.2em\">オスマン帝国</span> vs. <span data-source-border=\"gray\" style=\"border:1px solid #777777;padding:0 0.2em\">ギリシア</span>＝**露・英**・仏"
+    },
+    {
+      "line": 222,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 223,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span>**アドリアノープル条約**［1829］……ロシア・オスマン帝国間で<ruby>締結<rt>ていけつ</rt></ruby>"
+    },
+    {
+      "line": 224,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 225,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span><span data-source-color=\"red\" style=\"color:#e52715\">**ギリシアの独立**</span>承認／<span data-source-color=\"green\" style=\"color:#315837\">▶</span>ロシアに黒海北岸を<ruby>割譲<rt>かつじょう</rt></ruby>"
+    },
+    {
+      "line": 226,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 227,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span>**ロシアの**<span data-source-color=\"red\" style=\"color:#e52715\">**ダーダネルス・ボスフォラス海峡**</span>**の自由航行権**"
+    },
+    {
+      "line": 228,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 229,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">**●第1次エジプト＝トルコ戦争**</span>［1831〜33］"
+    },
+    {
+      "line": 230,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 231,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span>**ロシア**＝<span data-source-border=\"gray\" style=\"border:1px solid #777777;padding:0 0.2em\">オスマン帝国</span> vs. <span data-source-border=\"gray\" style=\"border:1px solid #777777;padding:0 0.2em\">エジプト</span>＝**英**・仏・墺"
+    },
+    {
+      "line": 232,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 233,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span>**ウンキャル＝スケレッシ条約**［1833］……**ロシアとオスマン帝国の**相互援助条約"
+    },
+    {
+      "line": 234,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 235,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span>**ロシア軍艦の**<span data-source-color=\"red\" style=\"color:#e52715\">**ダーダネルス・ボスフォラス海峡**</span>**の独占航行権**（秘密条項）"
+    },
+    {
+      "line": 236,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 237,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">**●第2次エジプト＝トルコ戦争**</span>［1839〜40］"
+    },
+    {
+      "line": 238,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 239,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span>**露・英**・墺・普＝<span data-source-border=\"gray\" style=\"border:1px solid #777777;padding:0 0.2em\">オスマン帝国</span> vs. <span data-source-border=\"gray\" style=\"border:1px solid #777777;padding:0 0.2em\">エジプト</span>＝フランス"
+    },
+    {
+      "line": 240,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 241,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span><span data-source-color=\"red\" style=\"color:#e52715\">**ロンドン会議**</span>［1840］……**ロンドン4国条約**を<ruby>締結<rt>ていけつ</rt></ruby>"
+    },
+    {
+      "line": 242,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 243,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span>**ウンキャル＝スケレッシ条約の破棄**"
+    },
+    {
+      "line": 244,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 245,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span>**あらゆる外国軍艦の**<span data-source-color=\"red\" style=\"color:#e52715\">**ダーダネルス・ボスフォラス海峡**</span>**の通過禁止**"
+    },
+    {
+      "line": 246,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 247,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">➡</span>翌年、フランスを加えて**五国海峡協定**成立"
+    },
+    {
+      "line": 248,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 249,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">**●クリミア戦争**</span>［1853〜56］"
+    },
+    {
+      "line": 250,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 251,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span>**英**・仏・サルデーニャ＝<span data-source-border=\"gray\" style=\"border:1px solid #777777;padding:0 0.2em\">オスマン帝国</span> vs. <span data-source-border=\"gray\" style=\"border:1px solid #777777;padding:0 0.2em\">**ロシア**</span>"
+    },
+    {
+      "line": 252,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 253,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">➡</span>**セヴァストーポリ<ruby>要塞<rt>ようさい</rt></ruby>の攻防戦**……最大の激戦"
+    },
+    {
+      "line": 254,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 255,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span><span data-source-color=\"red\" style=\"color:#e52715\">**パリ条約**</span>［1856］……**ロシアの南下が完全に挫折**"
+    },
+    {
+      "line": 256,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 257,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span><span data-source-color=\"red\" style=\"color:#e52715\">**黒海の中立化**</span>／<span data-source-color=\"green\" style=\"color:#315837\">▶</span><span data-source-color=\"red\" style=\"color:#e52715\">**モルダヴィア・ワラキア**</span>**の自治権保障（事実上独立）**"
+    },
+    {
+      "line": 258,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 259,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">**●<ruby>露土<rt>ろと</rt></ruby>戦争**</span>**【**<span data-source-color=\"red\" style=\"color:#e52715\">**ロシア＝トルコ戦争**</span>**】**［1877］……**各国は<ruby>介入<rt>かいにゅう</rt></ruby>できず**"
+    },
+    {
+      "line": 260,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 261,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span><span data-source-color=\"red\" style=\"color:#e52715\">**サン＝ステファノ条約**</span>［1878］……**ロシアの南下が大成功**"
+    },
+    {
+      "line": 262,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 263,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span><span data-source-color=\"red\" style=\"color:#e52715\">**セルビア・モンテネグロ・ルーマニア**</span>の独立"
+    },
+    {
+      "line": 264,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 265,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span><span data-source-color=\"red\" style=\"color:#e52715\">**ブルガリア**</span>の**領土を拡大**して自治国とし、**ロシアの保護下**に置く"
+    },
+    {
+      "line": 266,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 267,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">●</span><span data-source-color=\"red\" style=\"color:#e52715\">**ベルリン会議**</span>［1878］……<span data-source-color=\"red\" style=\"color:#e52715\">**ビスマルク**</span>が「**誠実な<ruby>仲介人<rt>ちゅうかいにん</rt></ruby>**」として<ruby>仲裁<rt>ちゅうさい</rt></ruby>"
+    },
+    {
+      "line": 268,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 269,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span><span data-source-color=\"red\" style=\"color:#e52715\">**セルビア・モンテネグロ・ルーマニア**</span>の独立"
+    },
+    {
+      "line": 270,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 271,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span><span data-source-color=\"red\" style=\"color:#e52715\">**ブルガリア**</span>の**領土を縮小**して、**オスマン帝国宗主下の自治国**とする"
+    },
+    {
+      "line": 272,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 273,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span>**オーストリア**は<span data-source-color=\"red\" style=\"color:#e52715\">**ボスニア・ヘルツェゴヴィナ**</span>の**<ruby>統治<rt>とうち</rt></ruby>権**を獲得"
+    },
+    {
+      "line": 274,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 275,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"green\" style=\"color:#315837\">▶</span>**イギリス**はキプロス島の**行政権**を獲得"
+    },
+    {
+      "line": 276,
+      "page": 101,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 277,
+      "page": 101,
+      "part": 2,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">**ダーダネルス・ボスフォラス海峡**</span>は「**自由航行権**<span data-source-color=\"green\" style=\"color:#315837\">➡</span>**独占航行権**<span data-source-color=\"green\" style=\"color:#315837\">➡</span>**通過禁止**」と変わる！　ロシアにとっては「**成功**<span data-source-color=\"green\" style=\"color:#315837\">➡</span>**成功**<span data-source-color=\"green\" style=\"color:#315837\">➡</span>**挫折**」だ"
+    },
+    {
+      "line": 278,
+      "page": 101,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 279,
+      "page": 101,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 280,
+      "page": 101,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 281,
+      "page": 101,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 282,
+      "page": 101,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 283,
+      "page": 101,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 284,
+      "page": 101,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 285,
+      "page": 101,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 286,
+      "page": 101,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 287,
+      "page": 101,
+      "part": 2,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 288,
+      "page": 101,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 289,
+      "page": 102,
+      "part": 2,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 102"
+    },
+    {
+      "line": 290,
+      "page": 102,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 291,
+      "page": 102,
+      "part": 2,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第5回**</span> ロシアと東方問題"
+    },
+    {
+      "line": 292,
+      "page": 102,
+      "part": 2,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 293,
+      "page": 102,
+      "part": 3,
+      "kind": "section-heading",
+      "reason": "本文内の実際の節見出しで区分する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**3**</span> **クリミア戦争とロシアの改革**"
+    },
+    {
+      "line": 294,
+      "page": 102,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 295,
+      "page": 102,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**ロシアとオスマン帝国が聖地管理権をめぐって対立！　こりゃ戦争か？**</span>"
+    },
+    {
+      "line": 296,
+      "page": 102,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 297,
+      "page": 102,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**エジプト＝トルコ戦争によって南下政策に挫折したロシア**だったけど、別に<ruby>諦<rt>あきら</rt></ruby>めたわけじゃないよ。次に進出できるチャンスをずっとうかがっていたんだ。次に起こる<span data-source-color=\"red\" style=\"color:#e52715\">**クリミア戦争**</span>は、ロシアにしてみれば勝てるはずの戦争だったのに……歴史はそうは動かなかったんだね。"
+    },
+    {
+      "line": 298,
+      "page": 102,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 299,
+      "page": 102,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "じゃあ、まずは背景から話していこう。そもそもクリミア戦争のきっかけは、**聖地管理権問題**だ。**聖地とはイェルサレム**のことで、領土としては16世紀以来、ずっとオスマン帝国（トルコ）領なんだけど、イェルサレムには**キリスト教、イスラーム教、ユダヤ教の3つの宗教の聖地**があるから、いくらオスマン帝国領とはいっても聖地巡礼に訪れるキリスト教徒もたくさんいたんだよ。そこで**聖地管理権**という問題が出てくる。要は、**オスマン帝国領のイェルサレム**のうち、「<ruby>聖墳墓<rt>せいふんぼ</rt></ruby>教会（イエスの墓があるんだよ）を中心とする**キリスト教の聖地の部分だけはキリスト教徒が管理**する」っていうのが、聖地管理権だ。そして、16世紀以来**オスマン帝国と同盟を結んだフランス**が持っていたんだけど、18世紀の**フランス革命**の時に、フランスはキリスト教否定運動をやったもんだから、「フランスがキリスト教を捨てるなら、ロシアを中心にギリシア正教が持つべきである」として、**ロシアがオスマン帝国から聖地管理権を獲得**していたんだ。"
+    },
+    {
+      "line": 300,
+      "page": 102,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 301,
+      "page": 102,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ところが、フランスで<span data-source-color=\"red\" style=\"color:#e52715\">**ナポレオン3世**</span>が皇帝になると、まぁ人気取りだろうね、オスマン帝国に対し「もともとフランスが持っていたんだから、フランスに返せ！」と要求して、**フランスが取得**してしまった。これに対し**ロシアのニコライ1世**は「聖地管理権を失ったらギリシア正教が<ruby>弾圧<rt>だんあつ</rt></ruby>されるではないかぁ、許せん」といちゃもんをつけ、<span data-source-color=\"red\" style=\"color:#e52715\">**ギリシア正教徒の保護**</span>を口実に**オスマン帝国に<ruby>宣戦<rt>せんせん</rt></ruby>**し、<span data-source-color=\"red\" style=\"color:#e52715\">**クリミア戦争**</span>が<ruby>勃発<rt>ぼっぱつ</rt></ruby>した。あっ、これはただのいちゃもんだよ。確かに、これまでオスマン帝国領内でギリシア正教徒の反乱はちょこちょこ起きてたけど、この時は**ロシアが参戦するほどの問題は起きていない**からね。"
+    },
+    {
+      "line": 302,
+      "page": 102,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 303,
+      "page": 102,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### **〈クリミア戦争〉**"
+    },
+    {
+      "line": 304,
+      "page": 102,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 305,
+      "page": 102,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "|  |  |"
+    },
+    {
+      "line": 306,
+      "page": 102,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 307,
+      "page": 102,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-color=\"red\" style=\"color:#e52715\">**<span data-source-border=\"red\" style=\"border:1px solid #e52715;padding:0 0.2em\">イギリス</span>**</span> | **フランス** |"
+    },
+    {
+      "line": 308,
+      "page": 102,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **サルデーニャ** | **オスマン帝国** |"
+    },
+    {
+      "line": 309,
+      "page": 102,
+      "part": 3,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-color=\"white\" data-source-background=\"green\" style=\"color:#ffffff;background-color:#859476\">**ロシア**</span> |  |"
+    },
+    {
+      "line": 310,
+      "page": 102,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 311,
+      "page": 103,
+      "part": 3,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 103"
+    },
+    {
+      "line": 312,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 313,
+      "page": 103,
+      "part": 3,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**3**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">クリミア戦争とロシアの改革</u>"
+    },
+    {
+      "line": 314,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 315,
+      "page": 103,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**ロシアvs.オスマン帝国のはずが、一大国際戦争に発展！――クリミア戦争**</span>"
+    },
+    {
+      "line": 316,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 317,
+      "page": 103,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ロシアにしてみれば、「オスマン帝国くらい軽く倒せる！」って思ってたんだろうね。確かに開戦した1853年は、ロシアが優勢だったよ。でも、翌年になって状況は一変。だって聖地管理権で<ruby>揉<rt>も</rt></ruby>めた相手は**フランス**だよ。しかも、この戦争にロシアが勝てば南下政策が進むのが目に見えてるから、**イギリス**が黙ってない。"
+    },
+    {
+      "line": 318,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 319,
+      "page": 103,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こうして**オスマン帝国側で英仏**、さらにはイタリア統一を狙う**サルデーニャ王国も参戦**してくると、気づいた時には**ヨーロッパ<ruby>列強<rt>れっきょう</rt></ruby>間の一大国際戦争**になり、**ロシアには絶望的な敗北が待っていた**。だって、産業革命の進んだイギリスの軍艦は鋼鉄製のしかも蒸気船。こんなのがバンバカきたらたまんないよ。対するロシア軍艦は……半分以上が木の<ruby>帆船<rt>はんせん</rt></ruby>。これじゃあ<ruby>大砲<rt>たいほう</rt></ruby>1発で沈んじゃう。しかも兵士は<ruby>農奴<rt>のうど</rt></ruby>を無理やり集めた軍団だから、みんな疲れ切ってやる気なし。最大の激戦となった**セヴァストーポリ<ruby>要塞<rt>ようさい</rt></ruby>の攻防戦**では、1年間の激戦でロシア軍は10万人以上の死者を出し、<ruby>惨敗<rt>さんぱい</rt></ruby>した。さらに、戦争中に**ニコライ1世が急死**してしまう……。かわいそうなのは残された息子の<span data-source-color=\"red\" style=\"color:#e52715\">**アレクサンドル2世**</span>だよ。皇帝として最初に味わったのが無惨な敗北になったんだ。"
+    },
+    {
+      "line": 320,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 321,
+      "page": 103,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> クリミア戦争では、イギリスの<span data-source-color=\"red\" style=\"color:#e52715\">**ナイティンゲール**</span>が従軍看護で活躍したよ！　この影響を受けたのがデュナンだ"
+    },
+    {
+      "line": 322,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 323,
+      "page": 103,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こうして**ロシアが敗北**して1856年に<span data-source-color=\"red\" style=\"color:#e52715\">**パリ条約**</span>が結ばれ、<span data-source-color=\"red\" style=\"color:#e52715\">**黒海の中立化**</span>（**軍艦の航行禁止と、軍事基地の撤去**）、ドナウ川航行の自由、ロシアの南ベッサラビア<ruby>放<rt>ほう</rt></ruby><ruby>棄<rt>き</rt></ruby>、さらに<span data-source-color=\"red\" style=\"color:#e52715\">**モルダヴィア・ワラキア**</span>（のちのルーマニアね）**の自治権が保障**されて（事実上の独立）、**ロシアの南下政策は完全に挫折**した。"
+    },
+    {
+      "line": 324,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 325,
+      "page": 103,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "そして、**クリミア戦争にはもう1つ重要な意味**があるよ。それはウィーン体制以来のヨーロッパの国際関係の基本原則だった「**勢力<ruby>均衡<rt>きんこう</rt></ruby>**」**が崩れた**ってことだ。これまで列強は勢力均衡を原則として、なるべく直接対決をしないように、あるいはどこか1国だけが強国にならないように、各国のバランスをとってきた。そして、その体制を支えていた国は**自由主義の中心であるイギリス**と、**保守反動の中心であるロシア**だったんだよ。ところがロシアの惨敗で**イギリスとロシアが支えていた勢力均衡が崩れてしまった**んだね。"
+    },
+    {
+      "line": 326,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 327,
+      "page": 103,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**危機感を持ったアレクサンドル2世が、改革に動き出した！**</span>"
+    },
+    {
+      "line": 328,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 329,
+      "page": 103,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**クリミア戦争で惨敗**したロシア皇帝<span data-source-color=\"red\" style=\"color:#e52715\">**アレクサンドル2世**</span>は、相当なショックを受けたんだ。いくら産業革命が進んでいないとはいえ、まさかイギリスやフランスにここまでの差をつけられているとは思ってもいなかった。もはや、**ロシアが遅れた国と認めるしかない**……。この屈辱を晴らすためには、改革によって近代国家に生まれ変わるしかないよね。こうして改革路線を宣言したアレクサンドル2世に"
+    },
+    {
+      "line": 330,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 331,
+      "page": 103,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 332,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 333,
+      "page": 103,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 334,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 335,
+      "page": 103,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 336,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 337,
+      "page": 103,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 338,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 339,
+      "page": 103,
+      "part": 3,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 340,
+      "page": 103,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 341,
+      "page": 104,
+      "part": 3,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 104"
+    },
+    {
+      "line": 342,
+      "page": 104,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 343,
+      "page": 104,
+      "part": 3,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第5回**</span> ロシアと東方問題"
+    },
+    {
+      "line": 344,
+      "page": 104,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 345,
+      "page": 104,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "よって、**ロシアの「大改革」**が始まった。そしてついに……これまでロシア社会の発展を妨げてきた**<ruby>農奴<rt>のうど</rt></ruby>制に手をつけた**。これは彼が皇太子の時代に農奴制を題材とした**トゥルゲーネフ**の短編小説集**『<ruby>猟人<rt>りょうじん</rt></ruby>日記』**を読んでショックを受けたことが影響したともいわれているよ。"
+    },
+    {
+      "line": 346,
+      "page": 104,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 347,
+      "page": 104,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "1861年、アレクサンドル2世は<span data-source-color=\"red\" style=\"color:#e52715\">**農奴解放令**</span>を発布し、**領主制を廃止**して**農奴に<ruby>無<rt>む</rt></ruby><ruby>償<rt>しょう</rt></ruby>（タダ）で人格的な自由を与える**こととした。これで、農奴は自由な身分になったんだよ。これは、ロシアにしてみれば革命的な事件だ！　ただねぇ……そこはやはりロシアなんだよ。**農民に土地が与えられた**んだけど、**土地はタダではない**んだよ。農民は**土地の代金（買い取り金）**を払うことになったんだけど、こんなもん払えるわけない。でも払わなきゃいけない。農民は「払えないんですけど……」と言ったら、「それならローン（教科書とかでは<ruby>年賦<rt>ねんぷ</rt></ruby>って書いてあるよ）で払え」と言われた。だからこの後49年間もローンを払い続けることになるんだけど、払えない場合には**土地所有権は農村共同体（ミール）のものになり**、買い戻し金の支払いもミールの連帯責任になった。だから、農民はミールに縛りつけられて、完全に自由になったわけじゃないんだよ。しかも、もらえた土地が狭くて、結局は貴族の土地でも働かなきゃダメだったし。"
+    },
+    {
+      "line": 348,
+      "page": 104,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 349,
+      "page": 104,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ただ、この**農奴解放で変わったこと**もあるよね。たいていの教科書で「農奴解放令は、**ロシアの資本主義発達の出発点**になった」と書いてあるんだけど、別に農奴を解放した瞬間から産業革命が始まるわけじゃないよ。身分的に自由になった農奴は豊かになれなかったけど、少なくとも「**やめたければ農民をやめられる自由**」だけは手に入れたんだ。「もう土地なんていりません。ホームレスになってもいいから農民をやめます」って言えば、ほかのところ、例えば都市に引っ越すことはできる。あるいは、ホームレスにならなくても出稼ぎには行ける。**彼らが労働者になれば産業革命が進む**、ってことだ。"
+    },
+    {
+      "line": 350,
+      "page": 104,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 351,
+      "page": 104,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "アレクサンドル2世は、ほかにも**地方自治の改革**を進めたり、**国内の鉄道建設**を進めたり、さまざまな改革を進めたんだけど、1863年の<span data-source-color=\"red\" style=\"color:#e52715\">**ポーランド反乱**</span>を<ruby>鎮圧<rt>ちんあつ</rt></ruby>するのにてこずったこともあって、結局**改革をやめて、もとの専制政治に逆戻り**し始めた。やっぱ、このへんはロシア皇帝だよなぁ。"
+    },
+    {
+      "line": 352,
+      "page": 104,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 353,
+      "page": 104,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> やっと農奴解放が実現したけど、農民の生活は全然楽にならないよ……"
+    },
+    {
+      "line": 354,
+      "page": 104,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 355,
+      "page": 104,
+      "part": 3,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### <span data-source-color=\"gray\" style=\"color:#777777\">**農村からの改革を目指し、ナロードニキが農村に入った！**</span>"
+    },
+    {
+      "line": 356,
+      "page": 104,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 357,
+      "page": 104,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**農奴解放令が出されたあとも、ロシアの農民はずっと貧乏なまま**だった。だって、これまでの借金や土地の買い戻し金、さらに税金と、重い負担が続いたんだもん。こうした状況を見た**都市の知識人たち（インテリゲンツィア）**、特に貴族や新興の市民階級（要は都市の金持ち連中ね）の息子たちは「なんでロシアの農民はこ"
+    },
+    {
+      "line": 358,
+      "page": 104,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 359,
+      "page": 105,
+      "part": 3,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 105"
+    },
+    {
+      "line": 360,
+      "page": 105,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 361,
+      "page": 105,
+      "part": 3,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**4**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">露土戦争</u>"
+    },
+    {
+      "line": 362,
+      "page": 105,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 363,
+      "page": 105,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "んなに貧乏なんだろう？　彼らを救うには、資本主義の段階を飛ばして、一気に**農村を拠点にした社会主義にする**しかない！」と思って、「<span data-source-color=\"red\" style=\"color:#e52715\">**ヴ＝ナロード**</span>（<span data-source-color=\"red\" style=\"color:#e52715\">**人民の中へ**</span>）」をスローガンに農村へと入っていった。彼らを<span data-source-color=\"red\" style=\"color:#e52715\">**ナロードニキ**</span>というんだ。"
+    },
+    {
+      "line": 364,
+      "page": 105,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 365,
+      "page": 105,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ナロードニキの連中は、農民にしてみれば上から目線なんだけど、「農民が自由になれないのは、自由の素晴らしさを知らないからだ。農民が豊かになれないのは、農民に知識がないからだ」って思って、**農民に自由や平等、それに社会主義の素晴らしさを教える<ruby>啓蒙<rt>けいもう</rt></ruby>運動**をやったんだけど……、農民にしてみればいい迷惑。だって、ロシアの農民って今日の晩飯が食えるか食えないかの瀬戸際で生きてるようなヤツらだよ。全然話を聞いてくれないし、やる気もない……しまいには「自由がわかったって、飯が食えないよ」って、怒り始めた。"
+    },
+    {
+      "line": 366,
+      "page": 105,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 367,
+      "page": 105,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こうして**農民の反発で運動が挫折**すると、**ナロードニキの連中は逆ギレ**したんだよ。「農民が話を聞かないのは、今の社会が悪い！　政府が悪い！」って思って、国家権力は全部いらないと考える**無政府主義【アナーキズム】**や、あらゆる権力も権威も秩序も全部いらないって考える**<ruby>虚無<rt>きょむ</rt></ruby>主義【ニヒリズム】**に走り始めた。これを本当に実現しようとすると**テロリズム**しかなくなるよ……。だから、**一部のナロードニキはテロリストになって**、ついには爆弾使って<span data-source-color=\"red\" style=\"color:#e52715\">**アレクサンドル2世を暗殺**</span>してしまったんだよ。あっ、ここ時代が前後しちゃったんだけど、暗殺されたのは、次に話す**<ruby>露土<rt>ろと</rt></ruby>戦争のあと（1881年）**だから気をつけてね。"
+    },
+    {
+      "line": 368,
+      "page": 105,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 369,
+      "page": 105,
+      "part": 3,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "さて、その後のナロードニキなんだけど、**もちろん全員がテロリストになったわけじゃない**。そんなことになったら大事件だよ。テロリストにならなかった連中は「自分たちが間違っていた」って反省して、農民の願いである「**自由と土地**」に目を向けて、**農民たちの生活を向上**させるために<ruby>頑張<rt>がんば</rt></ruby>ったから、一定の成果を上げた。彼らは1901年に結成される<span data-source-color=\"red\" style=\"color:#e52715\">**エスエル**</span>**【**<span data-source-color=\"red\" style=\"color:#e52715\">**社会革命党**</span>**】**のもとになったよ。"
+    },
+    {
+      "line": 370,
+      "page": 105,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 371,
+      "page": 105,
+      "part": 3,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> 農民がナロードニキに反発するのも無理ないよ……だって、ナロードニキって金持ちの息子だもん"
+    },
+    {
+      "line": 372,
+      "page": 105,
+      "part": 3,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 373,
+      "page": 105,
+      "part": 4,
+      "kind": "section-heading",
+      "reason": "本文内の実際の節見出しで区分する。",
+      "text": "### <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**4**</span> **露土戦争**"
+    },
+    {
+      "line": 374,
+      "page": 105,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 375,
+      "page": 105,
+      "part": 4,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**南下に<ruby>挫折<rt>ざせつ</rt></ruby>したロシアに、またまたチャンスがめぐってきた！**</span>"
+    },
+    {
+      "line": 376,
+      "page": 105,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 377,
+      "page": 105,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "じゃあ、<span data-source-color=\"red\" style=\"color:#e52715\">**東方問題**</span>に戻ろう。クリミア戦争の敗北から約20年、ロシアはバルカン進出をやらなかった。まぁ時が過ぎ去るのを待ってたんだろうね、「みんな忘れろー」ってさ。その間、**東アジアでは中国（<ruby>清<rt>シン</rt></ruby>）への進出**を進めたり、**中央アジアではウズベク3ハン国**を支配下に置いたりしてたんだけど、やっぱバルカンに行きたい！　そう思っていたロシアに、再びチャンスがめぐってきたのが、1875年だ。"
+    },
+    {
+      "line": 378,
+      "page": 105,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 379,
+      "page": 105,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "まず、バルカン半島でオスマン帝国（トルコ）の支配下にあった**ボスニア・ヘル**"
+    },
+    {
+      "line": 380,
+      "page": 105,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 381,
+      "page": 105,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 382,
+      "page": 105,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 383,
+      "page": 105,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 384,
+      "page": 105,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 385,
+      "page": 105,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 386,
+      "page": 105,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 387,
+      "page": 105,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 388,
+      "page": 105,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 389,
+      "page": 105,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    },
+    {
+      "line": 390,
+      "page": 105,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 391,
+      "page": 106,
+      "part": 4,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 106"
+    },
+    {
+      "line": 392,
+      "page": 106,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 393,
+      "page": 106,
+      "part": 4,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第5回**</span> ロシアと東方問題"
+    },
+    {
+      "line": 394,
+      "page": 106,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 395,
+      "page": 106,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**ツェゴヴィナ**で反乱が起こった。彼らはオスマン帝国から独立したかったんだ。そして、反乱が隣の国**ブルガリア**に飛び火して独立運動が起きた。しかもこの地域に住んでいる**南スラヴ人はギリシア正教徒が多い**から、同じくギリシア正教徒が多いロシア国内では「ギリシア正教徒を助けろ〜」って運動が始まったんだ。こうして**ロシア**は<span data-source-color=\"red\" style=\"color:#e52715\">**ギリシア正教徒の保護**</span>を口実に、独立運動を支援するという名目で**オスマン帝国と開戦**した。これが1877年の<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>露土<rt>ろと</rt></ruby>戦争**</span>**【**<span data-source-color=\"red\" style=\"color:#e52715\">**ロシア＝トルコ戦争**</span>**】**だよ。"
+    },
+    {
+      "line": 396,
+      "page": 106,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 397,
+      "page": 106,
+      "part": 4,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### **〈露土戦争【ロシア＝トルコ戦争】〉**"
+    },
+    {
+      "line": 398,
+      "page": 106,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 399,
+      "page": 106,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "|  |  |"
+    },
+    {
+      "line": 400,
+      "page": 106,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 401,
+      "page": 106,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **オスマン帝国** | <span data-source-color=\"white\" data-source-background=\"green\" style=\"color:#ffffff;background-color:#859476\">**ロシア**</span> |"
+    },
+    {
+      "line": 402,
+      "page": 106,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 403,
+      "page": 106,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> クリミア戦争の時の「ギリシア正教徒保護」と状況が違うよ。今回は本当に反乱が起きてる！"
+    },
+    {
+      "line": 404,
+      "page": 106,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 405,
+      "page": 106,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "この戦争は、本当に**ロシアVS.オスマン帝国だけの戦争**になったんだよ。つまり、**イギリスが参戦してない**ってことだ。だって、本当に起きている**独立運動を支援してるから自由主義運動**でしょ。イギリスは、まさか自由主義を<ruby>弾圧<rt>だんあつ</rt></ruby>するわけにもいかず、「ロシアめ、地中海には絶対出さん！」と、黒海の出口に軍艦を待機させたけど、結局どうするか迷っていたんだよ。そうこうしているうちにロシアがイスタンブルに迫り、**イギリスが出てくる前に急いでオスマン帝国と<ruby>講和<rt>こうわ</rt></ruby>**したよ。"
+    },
+    {
+      "line": 406,
+      "page": 106,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 407,
+      "page": 106,
+      "part": 4,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "#### <span data-source-color=\"green\" style=\"color:#315837\">**本当は南下に大成功したのに……ビスマルクに邪魔された！**</span>"
+    },
+    {
+      "line": 408,
+      "page": 106,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 409,
+      "page": 106,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "こうして結ばれた<span data-source-color=\"red\" style=\"color:#e52715\">**サン＝ステファノ条約**</span>では、<span data-source-color=\"red\" style=\"color:#e52715\">**セルビア**</span>・<span data-source-color=\"red\" style=\"color:#e52715\">**モンテネグロ**</span>・<span data-source-color=\"red\" style=\"color:#e52715\">**ルーマニア**</span>**の独立**と、<span data-source-color=\"red\" style=\"color:#e52715\">**ブルガリア**</span>の**領土を拡大**して自治国とし、**ロシアの保護下に置く**ことが決まったんだ。これって**ロシアの南下が大大大成功**♪　ちょっと地図<span data-source-color=\"white\" data-source-background=\"green\" style=\"color:#ffffff;background-color:#859476\">**➡P.107**</span>を見てごらん。"
+    },
+    {
+      "line": 410,
+      "page": 106,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 411,
+      "page": 106,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ブルガリアの領土が地中海まで広がってるでしょ。これがロシアの保護下ってことは、**ロシアが地中海進出に成功**したってことだよ。この結果を見た**イギリスとオーストリア**がブチ切れた！「もう勘弁ならん。ロシアを<ruby>潰<rt>つぶ</rt></ruby>す！」って怒っている。**この事態を<ruby>仲介<rt>ちゅうかい</rt></ruby>したのは**ドイツの<span data-source-color=\"red\" style=\"color:#e52715\">**ビスマルク**</span>だ。"
+    },
+    {
+      "line": 412,
+      "page": 106,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 413,
+      "page": 106,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "ビスマルクは「**誠実な仲介人**」と称して、<span data-source-color=\"red\" style=\"color:#e52715\">**ベルリン会議**</span>を開催し、イギリス、オーストリアとロシアの対立を仲介したんだけど、ほぼ全面的に**イギリスとオーストリアの味方**をした。**サン＝ステファノ条約**を<ruby>破棄<rt>はき</rt></ruby>させて<ruby>締結<rt>ていけつ</rt></ruby>した<span data-source-color=\"red\" style=\"color:#e52715\">**ベルリン条約**</span>では、<span data-source-color=\"red\" style=\"color:#e52715\">**セルビア**</span>・<span data-source-color=\"red\" style=\"color:#e52715\">**モンテネグロ**</span>・<span data-source-color=\"red\" style=\"color:#e52715\">**ルーマニア**</span>**の独立**はそのままだったけど、<span data-source-color=\"red\" style=\"color:#e52715\">**ブルガリア**</span>の**領土は大幅に縮小**し、しかも**トルコの<ruby>宗主<rt>そうしゅ</rt></ruby>下での自治国**とした。これって、ロ"
+    },
+    {
+      "line": 414,
+      "page": 106,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 415,
+      "page": 107,
+      "part": 4,
+      "kind": "page",
+      "reason": "原書ページ番号を全文欄に保持する。",
+      "text": "## 107"
+    },
+    {
+      "line": 416,
+      "page": 107,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 417,
+      "page": 107,
+      "part": 4,
+      "kind": "running-header",
+      "reason": "紙面の柱を保持する。本文内の節切替を優先する。",
+      "text": "<span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**4**</span> <u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">露土戦争</u>"
+    },
+    {
+      "line": 418,
+      "page": 107,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 419,
+      "page": 107,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "**シアの南下を完全に挫折させた**ってことだよね。そして、**オーストリア**が<span data-source-color=\"red\" style=\"color:#e52715\">**ボスニア・ヘルツェゴヴィナ**</span>の<ruby>統治<rt>とうち</rt></ruby>権を獲得したのはビスマルクがあげたお土産。一方イギリスはオスマン帝国との協定で、**キプロス島**の行政権を手に入れた。だから、この時出席した**イギリス首相**の**ディズレーリ**は、ビスマルクに好意的になったってわけ。でも、ロシアにはクリミア戦争で失ったベッサラビアの一部を返しただけだったから、ロシアはマジで怒った。「ビスマルク、イヤなヤツ！」ってね。こうして、**ロシアとドイツの関係が悪化**して、このあとの国際関係に影響するんだ。"
+    },
+    {
+      "line": 420,
+      "page": 107,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 421,
+      "page": 107,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "|  |  |"
+    },
+    {
+      "line": 422,
+      "page": 107,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| --- | --- |"
+    },
+    {
+      "line": 423,
+      "page": 107,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **オーストリア=ハンガリー帝国** | **ロシア帝国** |"
+    },
+    {
+      "line": 424,
+      "page": 107,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **ボスニア・ヘルツェゴヴィナ** | **ルーマニア** |"
+    },
+    {
+      "line": 425,
+      "page": 107,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **セルビア** | **ブルガリア** |"
+    },
+    {
+      "line": 426,
+      "page": 107,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **東ルメリア** | **マケドニア** |"
+    },
+    {
+      "line": 427,
+      "page": 107,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **モンテネグロ** | **オスマン帝国（トルコ）** |"
+    },
+    {
+      "line": 428,
+      "page": 107,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| **ギリシア** | **キプロス島** |"
+    },
+    {
+      "line": 429,
+      "page": 107,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| 地中海 | 黒海 |"
+    },
+    {
+      "line": 430,
+      "page": 107,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-marker=\"boundary\" style=\"color:#e52715\">◯</span> サン＝ステファノ条約でのブルガリア国境（大ブルガリア） |  |"
+    },
+    {
+      "line": 431,
+      "page": 107,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-marker=\"area\" style=\"color:#f0a0a0\">■</span> ベルリン条約後のブルガリアの領域 |  |"
+    },
+    {
+      "line": 432,
+      "page": 107,
+      "part": 4,
+      "kind": "table",
+      "reason": "図表の文字・空欄・順序・色を全文に保持する。",
+      "text": "| <span data-source-marker=\"hatch\" style=\"color:#f0a0a0\">▥</span> サン＝ステファノ条約での独立国 |  |"
+    },
+    {
+      "line": 433,
+      "page": 107,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 434,
+      "page": 107,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "さて、これでロシアと東方問題はおしまい！　国際関係がちょっと複雑だったから、しっかり見直してね。それじゃあ、最後に年号check！"
+    },
+    {
+      "line": 435,
+      "page": 107,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 436,
+      "page": 107,
+      "part": 4,
+      "kind": "subheading",
+      "reason": "小見出し・図題を全文に保持して読み分けにも用いる。",
+      "text": "### <span data-source-color=\"gray\" style=\"color:#777777\">**!!**</span> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**年号のツボ**</span>"
+    },
+    {
+      "line": 437,
+      "page": 107,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 438,
+      "page": 107,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>**ロンドン会議**［<span data-source-color=\"red\" style=\"color:#e52715\">**1840**</span>］（<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>一<rt>1</rt></ruby><ruby>番<rt>8</rt></ruby><ruby>弱<rt>4</rt></ruby><ruby>れ<rt>0</rt></ruby>**</span>　ロシアの南下）"
+    },
+    {
+      "line": 439,
+      "page": 107,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 440,
+      "page": 107,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>**クリミア戦争**［<span data-source-color=\"red\" style=\"color:#e52715\">**1853**</span>］（クリミア戦争　<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>一<rt>1</rt></ruby><ruby>発<rt>8</rt></ruby><ruby>誤<rt>5</rt></ruby><ruby>算<rt>3</rt></ruby>**</span>）"
+    },
+    {
+      "line": 441,
+      "page": 107,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 442,
+      "page": 107,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>**<ruby>農奴<rt>のうど</rt></ruby>解放令**［<span data-source-color=\"red\" style=\"color:#e52715\">**1861**</span>］（土地は有償　<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>い<rt>1</rt></ruby><ruby>や<rt>8</rt></ruby><ruby>無<rt>6</rt></ruby>**</span>理<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>言<rt>1</rt></ruby>**</span>うな）"
+    },
+    {
+      "line": 443,
+      "page": 107,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 444,
+      "page": 107,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>**露土戦争**［<span data-source-color=\"red\" style=\"color:#e52715\">**1877**</span>］（<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>い<rt>1</rt></ruby><ruby>や<rt>8</rt></ruby><ruby>な<rt>7</rt></ruby>**</span>ん<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>な<rt>7</rt></ruby>**</span>んだ　大ブルガリア）"
+    },
+    {
+      "line": 445,
+      "page": 107,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 446,
+      "page": 107,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"red\" style=\"color:#e52715\">●</span>**ベルリン会議**［<span data-source-color=\"red\" style=\"color:#e52715\">**1878**</span>］（ロシアにも　ビスマルクは<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>イ<rt>1</rt></ruby><ruby>ヤ<rt>8</rt></ruby><ruby>な<rt>7</rt></ruby><ruby>ヤ<rt>8</rt></ruby>**</span>ツ）"
+    },
+    {
+      "line": 447,
+      "page": 107,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": ">"
+    },
+    {
+      "line": 448,
+      "page": 107,
+      "part": 4,
+      "kind": "supplement",
+      "reason": "吹き出し・比較表・コラム・年号欄の全文を保持する。",
+      "text": "> <span data-source-color=\"gray\" style=\"color:#777777\">➡</span>社会主義者にも<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>イ<rt>1</rt></ruby><ruby>ヤ<rt>8</rt></ruby><ruby>な<rt>7</rt></ruby><ruby>ヤ<rt>8</rt></ruby>**</span>ツだ（**社会主義者<ruby>鎮圧<rt>ちんあつ</rt></ruby>法**［<span data-source-color=\"red\" style=\"color:#e52715\">**1878**</span>］と同じ年）"
+    },
+    {
+      "line": 449,
+      "page": 107,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 450,
+      "page": 107,
+      "part": 4,
+      "kind": "body",
+      "reason": "語り口・文字・装飾・順序を変えず通常本文として読む。",
+      "text": "次回は**19世紀のヨーロッパ文化史**だよ。ジャンルが変わると、ちょっと気分転換になるんじゃないかな？　次回も<ruby>頑張<rt>がんば</rt></ruby>っていこう〜。"
+    },
+    {
+      "line": 451,
+      "page": 107,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 452,
+      "page": 107,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"red\" style=\"color:#ffffff;background-color:#e52715\">**第1章**</span> <span data-source-color=\"red\" style=\"color:#e52715\">**国民国家の形成**</span>"
+    },
+    {
+      "line": 453,
+      "page": 107,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 454,
+      "page": 107,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第2章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">列強の侵略とアジアの変革</span>"
+    },
+    {
+      "line": 455,
+      "page": 107,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 456,
+      "page": 107,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第3章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">帝国主義と第一次世界大戦</span>"
+    },
+    {
+      "line": 457,
+      "page": 107,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 458,
+      "page": 107,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第4章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦間期と第二次世界大戦</span>"
+    },
+    {
+      "line": 459,
+      "page": 107,
+      "part": 4,
+      "kind": "blank",
+      "reason": "空行と紙面の構造を保持する。",
+      "text": ""
+    },
+    {
+      "line": 460,
+      "page": 107,
+      "part": 4,
+      "kind": "chapter-navigation",
+      "reason": "欄外の繰り返し目次も全文を保持する。",
+      "text": "> <span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**第5章**</span> <span data-source-color=\"gray\" style=\"color:#777777\">戦後の世界</span>"
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "modern-05-5",
+      "part": 1,
+      "lines": [
+        5
+      ],
+      "sourcePages": [
+        93
+      ],
+      "markdown": "ここまで続けて19世紀のヨーロッパ各国の状況を見てきたけど、いよいよ今回でひと区切り、最後は<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">ロシア</u>だ。ロシアってもともとは遅れた国だったから、ヨーロッパの国際関係にはあまり登場してこなかったけど、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">19世紀に入るといよいよ国際政治の表舞台に出てくる</u>よ。"
+    },
+    {
+      "id": "modern-05-18",
+      "part": 1,
+      "lines": [
+        18
+      ],
+      "sourcePages": [
+        93
+      ],
+      "markdown": "18世紀後半に登場した<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">エカチェリーナ2世</u>による近代化や、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">ナポレオン戦争</u>で活躍したこともあって、19世紀に入ると、ついに<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">ロシアがヨーロッパの5大国の1国になった</u>。とはいっても中身は……全然変わってない。<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">絶対王政時代の体制がそのまま残っていて</u>、自由も平等も知ったこっちゃない。しかも、領土拡大のために進めた<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">南下政策はイギリスとの激しい対立を生む</u>んだ。これは、バルカン半島を中心とする<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">オスマン帝国領をめぐって争われた</u>から、ヨーロッパから見ると東側。だから「<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">東方問題</u>」って呼ばれているよ。ロシアと東方問題……最強国イギリスを敵に回しちゃったロシアはどうなるんだろ？　ここで繰り広げられた戦争は、ロシアだけじゃなくて、ヨーロッパ全体に影響していくよ。それじゃあ、<u data-source-underline-color=\"red\" style=\"text-decoration-color:#e52715\">ロシアと東方問題</u>の始まり〜。"
+    },
+    {
+      "id": "modern-05-28",
+      "part": 1,
+      "lines": [
+        28
+      ],
+      "sourcePages": [
+        94
+      ],
+      "markdown": "ヨーロッパの一番東にある**ロシア**は、**ヨーロッパのなかでも一番遅れている国**だった。**ピョートル1世**や**エカチェリーナ2世**が「ロシアを近代化しよ〜」と<ruby>頑張<rt>がんば</rt></ruby>っていたけど、西ヨーロッパみたいに商業や工業が盛んになっていたわけじゃないから、近代化のためのお金が足りない。じゃあどうするか？　歴代のロシア皇帝は<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>農奴<rt>のうど</rt></ruby>制**</span>の強化によって財源を確保し、<ruby>専制<rt>せんせい</rt></ruby>政治を強化したんだ。簡単に言うと「**農民から絞りとった穀物を輸出して得たお金で皇帝を強くする！**」ってことだね。これがロシア皇帝（<span data-source-color=\"red\" style=\"color:#e52715\">**ツァーリ**</span>）による専制政治、<span data-source-color=\"red\" style=\"color:#e52715\">**ツァーリズム**</span>だよ。"
+    },
+    {
+      "id": "modern-05-30",
+      "part": 1,
+      "lines": [
+        30
+      ],
+      "sourcePages": [
+        94
+      ],
+      "markdown": "こんなことばっかりやっていたから、**各国が近代的な市民社会に向かって**少しずつ工業化を進め始めたころにも、**ロシアは何も変わらなかった**。「市民階級？　何それ？　産業革命？　それおいしいの？」みたいな感じ。結局、農奴が土地に縛りつけられているから、工業化しようとしたって**労働者もいない**し、工場を経営するような**資本家も全然育っていなかった**。"
+    },
+    {
+      "id": "modern-05-32",
+      "part": 1,
+      "lines": [
+        32
+      ],
+      "sourcePages": [
+        94
+      ],
+      "markdown": "19世紀初め、ナポレオン軍と戦ったロシアは、**アウステルリッツの戦い**で負けてボコボコになったはずなんだけど、**ロシア遠征**では冬の寒さを味方につけて、しかも「<ruby>侵略<rt>しんりゃく</rt></ruby>者から祖国ロシアを守る！」という意識も盛り上がり、**最終的に勝った**よね。**この勝利がナポレオンの失脚を早めた**から、以後ロシアは国際的な地位を上げて、**ヨーロッパの5大国の一角**に数えられるようになったんだ。"
+    },
+    {
+      "id": "modern-05-34",
+      "part": 1,
+      "lines": [
+        34
+      ],
+      "sourcePages": [
+        94
+      ],
+      "markdown": "そしてロシア皇帝<span data-source-color=\"red\" style=\"color:#e52715\">**アレクサンドル1世**</span>は、**ウィーン会議**においてオーストリアのメッテルニヒとともに**保守反動体制の中心**となり、1815年には<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>神<rt>しん</rt></ruby><ruby>聖<rt>せい</rt></ruby>同盟**</span>を提唱、各国の君主と連携して**自由主義や国民主義を<ruby>潰<rt>つぶ</rt></ruby>そうとした**んだね。だから、彼の死をきっかけに<span data-source-color=\"red\" style=\"color:#e52715\">**デカブリストの乱**</span>が起きたんだけど、新しく皇帝になった**ニコライ1世**に<ruby>鎮圧<rt>ちんあつ</rt></ruby>されてしまったんだ。"
+    },
+    {
+      "id": "modern-05-40",
+      "part": 1,
+      "lines": [
+        40,
+        46
+      ],
+      "sourcePages": [
+        94,
+        95
+      ],
+      "markdown": "アレクサンドル1世のあとに即位した**ニコライ1世**の時代も、結局何も変わらなかった、というか**むしろ悪化してる**。彼が即位したのは1825年だから、5年後には**フランスの七月革命の影響**でヨーロッパ全体で**自由主義が高揚**し、この影響がロシア領にも飛び火して<span data-source-color=\"red\" style=\"color:#e52715\">**ポーランド反乱**</span>が起こったよね。だって、ロシアの支配下でひどい目にあわされてるんだもん。これを**ロシアは徹底的に<ruby>弾圧<rt>だんあつ</rt></ruby>した**けど、**命令したのがニコライ1世だ**。さらに、<span data-source-color=\"red\" style=\"color:#e52715\">**1848年革命**</span>では、ロシア領だけじゃなくて、**他の国の領内の民族運動まで鎮圧**しに行ったよ……覚えてるかなぁ……オーストリア領だった**ハンガリーの民族運動を鎮圧**するのに**ロシア軍が協力**したよね。こんなふうに、ヨーロッパ全体の民族運動を鎮圧していったから、この時期のロシアは「**ヨーロッパの憲兵**」って呼ばれているよ。特にオーストリアのメッテルニヒが失脚したあとは、**ニコライ1世がヨーロッパの反動体制の中心**になったんだよ。憲兵っていうのは「軍警察」。軍隊が警察になって厳しい取り締まりをするのね。反発したヤツは消すの……怖いな。"
+    },
+    {
+      "id": "modern-05-48",
+      "part": 1,
+      "lines": [
+        48
+      ],
+      "sourcePages": [
+        95
+      ],
+      "markdown": "ヨーロッパ全体に対してもこんな状態だから、**国内支配も厳しい**よ。本物の憲兵がいて、反対する連中は全部潰しながら、**農奴制を基盤とする保守反動政治**で、皇帝権を強化していったんだね。"
+    },
+    {
+      "id": "modern-05-66",
+      "part": 2,
+      "lines": [
+        66
+      ],
+      "sourcePages": [
+        95
+      ],
+      "markdown": "続いて今回のヤマ場、<span data-source-color=\"red\" style=\"color:#e52715\">**東方問題**</span>に進もう。その前に、まずは東方問題で激しく対立した**ロシアとイギリスの事情**について解説しておこう。"
+    },
+    {
+      "id": "modern-05-68",
+      "part": 2,
+      "lines": [
+        68,
+        84
+      ],
+      "sourcePages": [
+        95,
+        96
+      ],
+      "markdown": "**ロシア**は**ピョートル1世がアゾフ海に進出**して以来、<span data-source-color=\"red\" style=\"color:#e52715\">**南下政策**</span>を進めていたんだ。南下政策っていうのは要するに「**南へと勢力を拡大していく**」ってことだけど、まぁロシアは北に行っても北極しかないからね。だから領土を獲得するなら南、ってことになる。そして、**エカチェリーナ2世**がオスマン帝国から**クリミア＝ハン国【クリム＝ハン国】を奪って黒海の支配権を確保**し、さらに**ギリシア正教徒の保護権**を得ると（**キュチュク＝カイナルジ条約**）、ロシアはこれを口実に、**オス****マン帝国領への進出**を<ruby>狙<rt>ねら</rt></ruby>い始めるんだ。これはよく「<ruby>不凍港<rt>ふとうこう</rt></ruby>（冬になっても凍らない港）を取りたい」って説明されてるけど、それだけじゃないんだよ。だって、港を取ったあともロシアの遠征が続くんだもん。ウラには、ツァーリズムで生じた**国内の矛盾を対外遠征でごまかす**っていう意図もあるからね。じゃなきゃ、負け続けてるのにロシアがひたすら遠征をする意味がわかんないでしょ。そして、19世紀には**地中海への進出を狙う**んだけど、これが**イギリスとの激しい対立**を引き起こすよ。"
+    },
+    {
+      "id": "modern-05-86",
+      "part": 2,
+      "lines": [
+        86
+      ],
+      "sourcePages": [
+        96
+      ],
+      "markdown": "続いて**イギリス**の事情を見ていこう。アメリカ独立後、**イギリスにとって一番大事な植民地はインド**となり、**インドへ向かう航路の確保**が重要な戦略になった。このためインドへの交通路として、**地中海からエジプトを経由して、紅海からインド洋に抜ける航路**（地図<span data-source-color=\"white\" data-source-background=\"gray\" style=\"color:#ffffff;background-color:#a6aaa0\">**➡P.95**</span>の赤の点線だよ）は絶対に譲れない。ちなみに、ナポレオンがエジプト遠征をやったのは、イギリスにこの航路を確保させないためだ。"
+    },
+    {
+      "id": "modern-05-88",
+      "part": 2,
+      "lines": [
+        88
+      ],
+      "sourcePages": [
+        96
+      ],
+      "markdown": "こう考えたときに、当時の**イギリスにとって一番危ない敵**は誰か？　ズバリ、**ロシア**なんだよ。**ロシアが黒海から地中海に進出**しようとすると、イギリスが確保しようとしている地中海の航路の安全が<ruby>脅<rt>おびや</rt></ruby>かされる。さらに、**ロシアが中央アジアやイランへの南下政策**を進めると……インドそのものが危ない。**イギリスはインドを狙うヤツは絶対に許さない**。こうして、19世紀の国際関係では、**ロシアの南下と、それを絶対に阻止したいイギリスの対立**が、もっとも重大な問題だったんだよ。特にインド防衛をめぐる英露の対立は「**グレートゲーム**」と呼ばれているんだ。"
+    },
+    {
+      "id": "modern-05-94",
+      "part": 2,
+      "lines": [
+        94
+      ],
+      "sourcePages": [
+        96
+      ],
+      "markdown": "「<span data-source-color=\"red\" style=\"color:#e52715\">**東方問題**</span>」ってのはヨーロッパがつけた名前だから、ヨーロッパから見て東側にある**オスマン帝国領をめぐる問題**だ。1699年の**カルロヴィッツ条約**以来、**オスマン帝国が衰退**してくると、**オーストリアやロシア**がその領土への進出を始めていたよね。そして19世紀になると、フランス革命やナポレオン戦争、さらにはラテンアメリカの独立などの影響で**自由主義やナショナリズムが拡大**し、オスマン帝国に支配されていた**ヨーロッパの諸民族（キリスト教徒）が、イスラーム国家のオスマン帝国からの独立を目指す民族運動を始めた**んだよ。舞台は<span data-source-color=\"red\" style=\"color:#e52715\">**バルカン半島**</span>だ。"
+    },
+    {
+      "id": "modern-05-96",
+      "part": 2,
+      "lines": [
+        96,
+        102
+      ],
+      "sourcePages": [
+        96,
+        97
+      ],
+      "markdown": "オスマン帝国支配下のバルカン半島には、カトリック教徒もいればギリシア正教徒もいる。さらにはヨーロッパで差別されたユダヤ人もいる。彼らはジズヤさえ納めれば信仰を認められたから、独自の共同体をつくって信仰を守っていた（これは**ミッレット**と呼ばれていたよね）。そして彼らがオスマン帝国からの独立を要求し始めると、「**カトリック教徒**を助けろ〜」って言ってかつて<ruby>神聖<rt>しんせい</rt></ruby>ローマ皇帝だった<span data-source-color=\"red\" style=\"color:#e52715\">**オーストリア**</span>が<ruby>介入<rt>かいにゅう</rt></ruby>してくる一方、「**ギリシア正教徒**をいじめるんじゃない！」って言ってビザンツ皇帝の後継者を称する<span data-source-color=\"red\" style=\"color:#e52715\">**ロシア**</span>も介入してくる。そうなると、ロシアに勢力拡大させたくない<span data-source-color=\"red\" style=\"color:#e52715\">**イギリス**</span>も、「ロシアめ、いい加減にしろ」と言って介入し、イギリスだけに得をさせたくないフランスもくる。"
+    },
+    {
+      "id": "modern-05-104",
+      "part": 2,
+      "lines": [
+        104
+      ],
+      "sourcePages": [
+        97
+      ],
+      "markdown": "こうして、**オスマン帝国領内の民族運動にヨーロッパ<ruby>列強<rt>れっきょう</rt></ruby>が介入**して、重大な国際問題になっていったんだ。これが<span data-source-color=\"red\" style=\"color:#e52715\">**東方問題**</span>だよ。狭い意味では<span data-source-color=\"red\" style=\"color:#e52715\">**エジプト＝トルコ戦争**</span>だけを指す場合もあるんだけど、一般的には広い意味で、<span data-source-color=\"red\" style=\"color:#e52715\">**ギリシア独立戦争**</span>から、1877年の<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>露土<rt>ろと</rt></ruby>戦争**</span>**【**<span data-source-color=\"red\" style=\"color:#e52715\">**ロシア＝トルコ戦争**</span>**】**とその処理のために開かれた1878年の<span data-source-color=\"red\" style=\"color:#e52715\">**ベルリン会議**</span>までの列強の対立のことだよ。じゃあ、順に見ていこう。"
+    },
+    {
+      "id": "modern-05-108",
+      "part": 2,
+      "lines": [
+        108
+      ],
+      "sourcePages": [
+        97
+      ],
+      "markdown": "すでにウィーン体制の崩壊<span data-source-color=\"white\" data-source-background=\"black\" style=\"color:#ffffff;background-color:#001000\">**第1回**</span>でギリシア独立戦争の経過は説明したけど、今回は**国際関係を中心**に見直してみよう。ギリシアが独立戦争を始めると、これを<ruby>潰<rt>つぶ</rt></ruby>したい**オスマン帝国（トルコ）**は、帝国領内の**エジプト**で近代化を進めていた<span data-source-color=\"red\" style=\"color:#e52715\">**ムハンマド＝アリー**</span>に「ギリシアの独立を潰せ！」って命令し、ムハンマド＝アリーも**シリアの<ruby>割譲<rt>かつじょう</rt></ruby>と引き換えに軍を派遣した**。これに対して、南下政策を進めるロシアはチャンスだと思った。だって、**ロシアは**<span data-source-color=\"red\" style=\"color:#e52715\">**ダーダネルス・ボスフォラス海峡**</span>を通過して**地中海に進出したい**んだもん。**海峡の両岸はオスマン帝国領**だから、オスマン帝国にいちゃもんつけて、特権や領土を奪えば地中海に進出できる。もはや自由や独立は関係なくなって、**ロシアがギリシア側で参戦**したんだ。"
+    },
+    {
+      "id": "modern-05-118",
+      "part": 2,
+      "lines": [
+        118,
+        134
+      ],
+      "sourcePages": [
+        97,
+        98
+      ],
+      "markdown": "これに対してイギリスは、「ロシアの南下は潰す！」と思いつつ、だからといってロシアの敵として参戦することはできない。だって**ロシアが支援しているのは「ギリシアの独立」**なんだもん。オスマン帝国側で参戦したら独立を潰す、つまり自由主義を潰すことになっちゃう……。だから**イギリス**はなんとかロシアを抑えこもうと、ロシアと同じく**ギリシア側で参戦**したんだね。あっ、ここから先の戦争、戦闘では**イギリスがついたほうが全部勝ち**。やっぱイギリスは強い！。といっても、必ずしもつねにイギリスが得したわけじゃないんだよ。ギリシア独立戦争で、イギリスはいきなりそれを思い知らされるんだ。"
+    },
+    {
+      "id": "modern-05-136",
+      "part": 2,
+      "lines": [
+        136
+      ],
+      "sourcePages": [
+        98
+      ],
+      "markdown": "1829年、**ロシア**は単独でオスマン帝国との間で**アドリアノープル条約**を結んで**ギリシアの独立を承認**させると、**黒海北岸の領土を獲得**するとともに、**黒海とダーダネルス・ボスフォラス海峡の自由航行権**を確保したんだ。これって、**ロシアの南下が成功**したってことだよ。だからこれ以後、イギリスは「ロシアの南下は全部<ruby>阻止<rt>そし</rt></ruby>する！」っていうくらい、ロシアと敵対することになるんだ。"
+    },
+    {
+      "id": "modern-05-140",
+      "part": 2,
+      "lines": [
+        140
+      ],
+      "sourcePages": [
+        98
+      ],
+      "markdown": "さて、エジプトの敗戦が新たな問題を引き起こすよ。きっかけは「**シリアの領有権**」をめぐる問題だ。ギリシア独立戦争の時に約束した「シリア<ruby>割譲<rt>かつじょう</rt></ruby>」の認識が、オスマン帝国（トルコ）とムハンマド＝アリーで違うんだよ。**オスマン帝国**は「**勝ったらシリアをあげる**」と約束したつもりだから、戦争で負けた以上、**シリアをあげなくていい**と思ってる。対する**ムハンマド＝アリー**は「**参戦したらシリアをもらえる**（つまり勝ち負けは関係なし）」と思っているから、**シリアをよこせと要求**し始めるよね。この対立から始まったのが、<span data-source-color=\"red\" style=\"color:#e52715\">**第1次エジプト＝トルコ戦争**</span>だ。"
+    },
+    {
+      "id": "modern-05-150",
+      "part": 2,
+      "lines": [
+        150
+      ],
+      "sourcePages": [
+        98
+      ],
+      "markdown": "いざ開戦すると、戦争はエジプトとオスマン帝国の問題というより**<ruby>列強<rt>れっきょう</rt></ruby>の対立に変わってしまう**。まず、ロシアがすごい作戦を思いついた！　たぶん、ムハンマド＝アリーの主張をマネしたんだろうな。「オスマン帝国の味方をするかわりになんかもらえばいい」って考えた**ロシアは**、ギリシア独立戦争から一転、**オスマン帝国を支援**し始めた。一方、エジプトに野心を持っている**フランスはエジプトを支援**し始めた。そして、ロシアがボスフォラス海峡に上陸すると「何をたくらんでるんだ！」と思った**英仏は、オスマン帝国に圧力をかけてエジプトと和解させた**んだよ。"
+    },
+    {
+      "id": "modern-05-152",
+      "part": 2,
+      "lines": [
+        152,
+        158
+      ],
+      "sourcePages": [
+        98,
+        99
+      ],
+      "markdown": "結果、**戦争そのものはエジプトの勝利**ということになり、**ムハンマド＝アリーのシリア領有権が認められた**んだけど、「なんでエジプトの味方するんだよ！」と思った**オスマン帝国は、英仏に相当ムカついてる**。そこに現れたのがロシア……「英仏ってイヤな奴らだよね。だからボクがキミを助けてあげるよ」。ほら、ここで愛が芽生える。これ、フラれた子の相談に乗ったら付き合っちゃったっていうパターン。こうして、**ロシアとオスマン帝国の相互援助条約**として**ウンキャル＝スケレッシ条約**が結ばれ、ロシアは**ダーダネルス・ボスフォラス海峡のロシア軍艦の独占航行権**を獲得したんだよ。もちろん秘密条項だけど、これって、**勝ってないのにロシアの南下が成功した**！ってことだ。イギリスがキレるのも時間の問題だな……。"
+    },
+    {
+      "id": "modern-05-162",
+      "part": 2,
+      "lines": [
+        162
+      ],
+      "sourcePages": [
+        99
+      ],
+      "markdown": "ウンキャル＝スケレッシ条約の秘密条項に気づいたイギリスは、ロシアを<ruby>潰<rt>つぶ</rt></ruby>すための機会をうかがっていたんだけど、再びエジプトとオスマン帝国（トルコ）の関係が悪化して、意外に早くチャンスがくるんだよね。それが「**エジプトとシリアの<ruby>世襲<rt>せしゅう</rt></ruby>権**」をめぐる問題だ。すでに**シリア領有権を獲得したムハンマド＝アリー**がちょっとばかり調子に乗って、**エジプトとシリアの世襲権を要求**（これって、オスマン帝国から独立するって意味だよ）し始めた。もちろん、オスマン帝国はこんなもん認めるわけがない。こうして、<span data-source-color=\"red\" style=\"color:#e52715\">**第2次エジプト＝トルコ戦争**</span>が始まったんだ。"
+    },
+    {
+      "id": "modern-05-175",
+      "part": 2,
+      "lines": [
+        175,
+        191
+      ],
+      "sourcePages": [
+        99,
+        100
+      ],
+      "markdown": "こうなると、再び列強も動き出すよ。まず**フランスが抜け駆け**。**エジプトに接近**して、利権を拡大しようとしていた。もちろん、**ロシアはオスマン帝国を支援**して何かもらい、南下政策を進めようとしている。**イギリスはフランスにもロシアにも得をさせたくない**。こうなると、戦闘で勝ってもほとんど意味がないよね。だって、必ずどっちかが勝つでしょ。そこで一転、**イギリスはオスマン帝国を支援**することにした。そして、**オーストリアとプロイセンを巻き込んで**ロシアにこう持ち掛けたんだ。「オスマン帝国がかわいそうなので、**英・露・墺・普の“4国”**で助けましょう。抜け駆けはダメですよ」ってね。顔で笑ってても、内心は火花バチバチ。だってイギリスは内心、ロシアに対して「1国で勝手なことをしたら、こっちの3国で<ruby>潰<rt>つぶ</rt></ruby>すからな」と思っている。ロシアもロシアで「イギリス、余計なことをしやがって」って本音では思っているんだもん。"
+    },
+    {
+      "id": "modern-05-193",
+      "part": 2,
+      "lines": [
+        193
+      ],
+      "sourcePages": [
+        100
+      ],
+      "markdown": "そうはいっても表向きは協力した4国は、**オスマン帝国を支援してエジプトを破った**。これだけ組めば勝てるよ。そして**イギリス**は「余計なことをすると4国VS.フランスになりますよ」と言って**フランスを黙らせ**、1840年、<span data-source-color=\"red\" style=\"color:#e52715\">**ロンドン会議**</span>を開いた。はっきり言ってイギリスは、ムハンマド＝アリーのことに興味はない。そこで**ムハンマド＝アリー**には**オスマン帝国<ruby>宗主<rt>そうしゅ</rt></ruby>下でエジプト・スーダンの<ruby>世襲<rt>せしゅう</rt></ruby>権**を認め（これで**事実上エジプトは独立**ね）、**シリア領有権は<ruby>放棄<rt>ほうき</rt></ruby>**させるっていう、勝ち負けがよくわからない状態にした。とにかくフランスとロシアを抑えればいい。"
+    },
+    {
+      "id": "modern-05-195",
+      "part": 2,
+      "lines": [
+        195
+      ],
+      "sourcePages": [
+        100
+      ],
+      "markdown": "でもって、肝心の**フランスとロシアの問題**。とにかくロシアの南下を抑えるために、**あらゆる外国軍艦**（つまりオスマン帝国以外ね）**のダーダネルス・ボスフォラス海峡の通過を禁止**にしたんだ（**ロンドン4国条約**）。そして、翌年にはフランスを加えて**海峡協定**を結び、**ウンキャル＝スケレッシ条約は破棄**されて、**ロシアの南下政策を阻止**するとともに、**フランスを黙らせておいたことでエジプト進出を阻止**することに成功したよ。これって、イギリスが外交で完全に主導権を握り、思ったとおりの結果を得たってことだよね。これを当時の外務大臣の名前を取って「**パーマストン外交の勝利**」なんて呼んでいるよ。"
+    },
+    {
+      "id": "modern-05-297",
+      "part": 3,
+      "lines": [
+        297
+      ],
+      "sourcePages": [
+        102
+      ],
+      "markdown": "**エジプト＝トルコ戦争によって南下政策に挫折したロシア**だったけど、別に<ruby>諦<rt>あきら</rt></ruby>めたわけじゃないよ。次に進出できるチャンスをずっとうかがっていたんだ。次に起こる<span data-source-color=\"red\" style=\"color:#e52715\">**クリミア戦争**</span>は、ロシアにしてみれば勝てるはずの戦争だったのに……歴史はそうは動かなかったんだね。"
+    },
+    {
+      "id": "modern-05-299",
+      "part": 3,
+      "lines": [
+        299
+      ],
+      "sourcePages": [
+        102
+      ],
+      "markdown": "じゃあ、まずは背景から話していこう。そもそもクリミア戦争のきっかけは、**聖地管理権問題**だ。**聖地とはイェルサレム**のことで、領土としては16世紀以来、ずっとオスマン帝国（トルコ）領なんだけど、イェルサレムには**キリスト教、イスラーム教、ユダヤ教の3つの宗教の聖地**があるから、いくらオスマン帝国領とはいっても聖地巡礼に訪れるキリスト教徒もたくさんいたんだよ。そこで**聖地管理権**という問題が出てくる。要は、**オスマン帝国領のイェルサレム**のうち、「<ruby>聖墳墓<rt>せいふんぼ</rt></ruby>教会（イエスの墓があるんだよ）を中心とする**キリスト教の聖地の部分だけはキリスト教徒が管理**する」っていうのが、聖地管理権だ。そして、16世紀以来**オスマン帝国と同盟を結んだフランス**が持っていたんだけど、18世紀の**フランス革命**の時に、フランスはキリスト教否定運動をやったもんだから、「フランスがキリスト教を捨てるなら、ロシアを中心にギリシア正教が持つべきである」として、**ロシアがオスマン帝国から聖地管理権を獲得**していたんだ。"
+    },
+    {
+      "id": "modern-05-301",
+      "part": 3,
+      "lines": [
+        301
+      ],
+      "sourcePages": [
+        102
+      ],
+      "markdown": "ところが、フランスで<span data-source-color=\"red\" style=\"color:#e52715\">**ナポレオン3世**</span>が皇帝になると、まぁ人気取りだろうね、オスマン帝国に対し「もともとフランスが持っていたんだから、フランスに返せ！」と要求して、**フランスが取得**してしまった。これに対し**ロシアのニコライ1世**は「聖地管理権を失ったらギリシア正教が<ruby>弾圧<rt>だんあつ</rt></ruby>されるではないかぁ、許せん」といちゃもんをつけ、<span data-source-color=\"red\" style=\"color:#e52715\">**ギリシア正教徒の保護**</span>を口実に**オスマン帝国に<ruby>宣戦<rt>せんせん</rt></ruby>**し、<span data-source-color=\"red\" style=\"color:#e52715\">**クリミア戦争**</span>が<ruby>勃発<rt>ぼっぱつ</rt></ruby>した。あっ、これはただのいちゃもんだよ。確かに、これまでオスマン帝国領内でギリシア正教徒の反乱はちょこちょこ起きてたけど、この時は**ロシアが参戦するほどの問題は起きていない**からね。"
+    },
+    {
+      "id": "modern-05-317",
+      "part": 3,
+      "lines": [
+        317
+      ],
+      "sourcePages": [
+        103
+      ],
+      "markdown": "ロシアにしてみれば、「オスマン帝国くらい軽く倒せる！」って思ってたんだろうね。確かに開戦した1853年は、ロシアが優勢だったよ。でも、翌年になって状況は一変。だって聖地管理権で<ruby>揉<rt>も</rt></ruby>めた相手は**フランス**だよ。しかも、この戦争にロシアが勝てば南下政策が進むのが目に見えてるから、**イギリス**が黙ってない。"
+    },
+    {
+      "id": "modern-05-319",
+      "part": 3,
+      "lines": [
+        319
+      ],
+      "sourcePages": [
+        103
+      ],
+      "markdown": "こうして**オスマン帝国側で英仏**、さらにはイタリア統一を狙う**サルデーニャ王国も参戦**してくると、気づいた時には**ヨーロッパ<ruby>列強<rt>れっきょう</rt></ruby>間の一大国際戦争**になり、**ロシアには絶望的な敗北が待っていた**。だって、産業革命の進んだイギリスの軍艦は鋼鉄製のしかも蒸気船。こんなのがバンバカきたらたまんないよ。対するロシア軍艦は……半分以上が木の<ruby>帆船<rt>はんせん</rt></ruby>。これじゃあ<ruby>大砲<rt>たいほう</rt></ruby>1発で沈んじゃう。しかも兵士は<ruby>農奴<rt>のうど</rt></ruby>を無理やり集めた軍団だから、みんな疲れ切ってやる気なし。最大の激戦となった**セヴァストーポリ<ruby>要塞<rt>ようさい</rt></ruby>の攻防戦**では、1年間の激戦でロシア軍は10万人以上の死者を出し、<ruby>惨敗<rt>さんぱい</rt></ruby>した。さらに、戦争中に**ニコライ1世が急死**してしまう……。かわいそうなのは残された息子の<span data-source-color=\"red\" style=\"color:#e52715\">**アレクサンドル2世**</span>だよ。皇帝として最初に味わったのが無惨な敗北になったんだ。"
+    },
+    {
+      "id": "modern-05-323",
+      "part": 3,
+      "lines": [
+        323
+      ],
+      "sourcePages": [
+        103
+      ],
+      "markdown": "こうして**ロシアが敗北**して1856年に<span data-source-color=\"red\" style=\"color:#e52715\">**パリ条約**</span>が結ばれ、<span data-source-color=\"red\" style=\"color:#e52715\">**黒海の中立化**</span>（**軍艦の航行禁止と、軍事基地の撤去**）、ドナウ川航行の自由、ロシアの南ベッサラビア<ruby>放<rt>ほう</rt></ruby><ruby>棄<rt>き</rt></ruby>、さらに<span data-source-color=\"red\" style=\"color:#e52715\">**モルダヴィア・ワラキア**</span>（のちのルーマニアね）**の自治権が保障**されて（事実上の独立）、**ロシアの南下政策は完全に挫折**した。"
+    },
+    {
+      "id": "modern-05-325",
+      "part": 3,
+      "lines": [
+        325
+      ],
+      "sourcePages": [
+        103
+      ],
+      "markdown": "そして、**クリミア戦争にはもう1つ重要な意味**があるよ。それはウィーン体制以来のヨーロッパの国際関係の基本原則だった「**勢力<ruby>均衡<rt>きんこう</rt></ruby>**」**が崩れた**ってことだ。これまで列強は勢力均衡を原則として、なるべく直接対決をしないように、あるいはどこか1国だけが強国にならないように、各国のバランスをとってきた。そして、その体制を支えていた国は**自由主義の中心であるイギリス**と、**保守反動の中心であるロシア**だったんだよ。ところがロシアの惨敗で**イギリスとロシアが支えていた勢力均衡が崩れてしまった**んだね。"
+    },
+    {
+      "id": "modern-05-329",
+      "part": 3,
+      "lines": [
+        329,
+        345
+      ],
+      "sourcePages": [
+        103,
+        104
+      ],
+      "markdown": "**クリミア戦争で惨敗**したロシア皇帝<span data-source-color=\"red\" style=\"color:#e52715\">**アレクサンドル2世**</span>は、相当なショックを受けたんだ。いくら産業革命が進んでいないとはいえ、まさかイギリスやフランスにここまでの差をつけられているとは思ってもいなかった。もはや、**ロシアが遅れた国と認めるしかない**……。この屈辱を晴らすためには、改革によって近代国家に生まれ変わるしかないよね。こうして改革路線を宣言したアレクサンドル2世によって、**ロシアの「大改革」**が始まった。そしてついに……これまでロシア社会の発展を妨げてきた**<ruby>農奴<rt>のうど</rt></ruby>制に手をつけた**。これは彼が皇太子の時代に農奴制を題材とした**トゥルゲーネフ**の短編小説集**『<ruby>猟人<rt>りょうじん</rt></ruby>日記』**を読んでショックを受けたことが影響したともいわれているよ。"
+    },
+    {
+      "id": "modern-05-347",
+      "part": 3,
+      "lines": [
+        347
+      ],
+      "sourcePages": [
+        104
+      ],
+      "markdown": "1861年、アレクサンドル2世は<span data-source-color=\"red\" style=\"color:#e52715\">**農奴解放令**</span>を発布し、**領主制を廃止**して**農奴に<ruby>無<rt>む</rt></ruby><ruby>償<rt>しょう</rt></ruby>（タダ）で人格的な自由を与える**こととした。これで、農奴は自由な身分になったんだよ。これは、ロシアにしてみれば革命的な事件だ！　ただねぇ……そこはやはりロシアなんだよ。**農民に土地が与えられた**んだけど、**土地はタダではない**んだよ。農民は**土地の代金（買い取り金）**を払うことになったんだけど、こんなもん払えるわけない。でも払わなきゃいけない。農民は「払えないんですけど……」と言ったら、「それならローン（教科書とかでは<ruby>年賦<rt>ねんぷ</rt></ruby>って書いてあるよ）で払え」と言われた。だからこの後49年間もローンを払い続けることになるんだけど、払えない場合には**土地所有権は農村共同体（ミール）のものになり**、買い戻し金の支払いもミールの連帯責任になった。だから、農民はミールに縛りつけられて、完全に自由になったわけじゃないんだよ。しかも、もらえた土地が狭くて、結局は貴族の土地でも働かなきゃダメだったし。"
+    },
+    {
+      "id": "modern-05-349",
+      "part": 3,
+      "lines": [
+        349
+      ],
+      "sourcePages": [
+        104
+      ],
+      "markdown": "ただ、この**農奴解放で変わったこと**もあるよね。たいていの教科書で「農奴解放令は、**ロシアの資本主義発達の出発点**になった」と書いてあるんだけど、別に農奴を解放した瞬間から産業革命が始まるわけじゃないよ。身分的に自由になった農奴は豊かになれなかったけど、少なくとも「**やめたければ農民をやめられる自由**」だけは手に入れたんだ。「もう土地なんていりません。ホームレスになってもいいから農民をやめます」って言えば、ほかのところ、例えば都市に引っ越すことはできる。あるいは、ホームレスにならなくても出稼ぎには行ける。**彼らが労働者になれば産業革命が進む**、ってことだ。"
+    },
+    {
+      "id": "modern-05-351",
+      "part": 3,
+      "lines": [
+        351
+      ],
+      "sourcePages": [
+        104
+      ],
+      "markdown": "アレクサンドル2世は、ほかにも**地方自治の改革**を進めたり、**国内の鉄道建設**を進めたり、さまざまな改革を進めたんだけど、1863年の<span data-source-color=\"red\" style=\"color:#e52715\">**ポーランド反乱**</span>を<ruby>鎮圧<rt>ちんあつ</rt></ruby>するのにてこずったこともあって、結局**改革をやめて、もとの専制政治に逆戻り**し始めた。やっぱ、このへんはロシア皇帝だよなぁ。"
+    },
+    {
+      "id": "modern-05-357",
+      "part": 3,
+      "lines": [
+        357,
+        363
+      ],
+      "sourcePages": [
+        104,
+        105
+      ],
+      "markdown": "**農奴解放令が出されたあとも、ロシアの農民はずっと貧乏なまま**だった。だって、これまでの借金や土地の買い戻し金、さらに税金と、重い負担が続いたんだもん。こうした状況を見た**都市の知識人たち（インテリゲンツィア）**、特に貴族や新興の市民階級（要は都市の金持ち連中ね）の息子たちは「なんでロシアの農民はこんなに貧乏なんだろう？　彼らを救うには、資本主義の段階を飛ばして、一気に**農村を拠点にした社会主義にする**しかない！」と思って、「<span data-source-color=\"red\" style=\"color:#e52715\">**ヴ＝ナロード**</span>（<span data-source-color=\"red\" style=\"color:#e52715\">**人民の中へ**</span>）」をスローガンに農村へと入っていった。彼らを<span data-source-color=\"red\" style=\"color:#e52715\">**ナロードニキ**</span>というんだ。"
+    },
+    {
+      "id": "modern-05-365",
+      "part": 3,
+      "lines": [
+        365
+      ],
+      "sourcePages": [
+        105
+      ],
+      "markdown": "ナロードニキの連中は、農民にしてみれば上から目線なんだけど、「農民が自由になれないのは、自由の素晴らしさを知らないからだ。農民が豊かになれないのは、農民に知識がないからだ」って思って、**農民に自由や平等、それに社会主義の素晴らしさを教える<ruby>啓蒙<rt>けいもう</rt></ruby>運動**をやったんだけど……、農民にしてみればいい迷惑。だって、ロシアの農民って今日の晩飯が食えるか食えないかの瀬戸際で生きてるようなヤツらだよ。全然話を聞いてくれないし、やる気もない……しまいには「自由がわかったって、飯が食えないよ」って、怒り始めた。"
+    },
+    {
+      "id": "modern-05-367",
+      "part": 3,
+      "lines": [
+        367
+      ],
+      "sourcePages": [
+        105
+      ],
+      "markdown": "こうして**農民の反発で運動が挫折**すると、**ナロードニキの連中は逆ギレ**したんだよ。「農民が話を聞かないのは、今の社会が悪い！　政府が悪い！」って思って、国家権力は全部いらないと考える**無政府主義【アナーキズム】**や、あらゆる権力も権威も秩序も全部いらないって考える**<ruby>虚無<rt>きょむ</rt></ruby>主義【ニヒリズム】**に走り始めた。これを本当に実現しようとすると**テロリズム**しかなくなるよ……。だから、**一部のナロードニキはテロリストになって**、ついには爆弾使って<span data-source-color=\"red\" style=\"color:#e52715\">**アレクサンドル2世を暗殺**</span>してしまったんだよ。あっ、ここ時代が前後しちゃったんだけど、暗殺されたのは、次に話す**<ruby>露土<rt>ろと</rt></ruby>戦争のあと（1881年）**だから気をつけてね。"
+    },
+    {
+      "id": "modern-05-369",
+      "part": 3,
+      "lines": [
+        369
+      ],
+      "sourcePages": [
+        105
+      ],
+      "markdown": "さて、その後のナロードニキなんだけど、**もちろん全員がテロリストになったわけじゃない**。そんなことになったら大事件だよ。テロリストにならなかった連中は「自分たちが間違っていた」って反省して、農民の願いである「**自由と土地**」に目を向けて、**農民たちの生活を向上**させるために<ruby>頑張<rt>がんば</rt></ruby>ったから、一定の成果を上げた。彼らは1901年に結成される<span data-source-color=\"red\" style=\"color:#e52715\">**エスエル**</span>**【**<span data-source-color=\"red\" style=\"color:#e52715\">**社会革命党**</span>**】**のもとになったよ。"
+    },
+    {
+      "id": "modern-05-377",
+      "part": 4,
+      "lines": [
+        377
+      ],
+      "sourcePages": [
+        105
+      ],
+      "markdown": "じゃあ、<span data-source-color=\"red\" style=\"color:#e52715\">**東方問題**</span>に戻ろう。クリミア戦争の敗北から約20年、ロシアはバルカン進出をやらなかった。まぁ時が過ぎ去るのを待ってたんだろうね、「みんな忘れろー」ってさ。その間、**東アジアでは中国（<ruby>清<rt>シン</rt></ruby>）への進出**を進めたり、**中央アジアではウズベク3ハン国**を支配下に置いたりしてたんだけど、やっぱバルカンに行きたい！　そう思っていたロシアに、再びチャンスがめぐってきたのが、1875年だ。"
+    },
+    {
+      "id": "modern-05-379",
+      "part": 4,
+      "lines": [
+        379,
+        395
+      ],
+      "sourcePages": [
+        105,
+        106
+      ],
+      "markdown": "まず、バルカン半島でオスマン帝国（トルコ）の支配下にあった**ボスニア・ヘル****ツェゴヴィナ**で反乱が起こった。彼らはオスマン帝国から独立したかったんだ。そして、反乱が隣の国**ブルガリア**に飛び火して独立運動が起きた。しかもこの地域に住んでいる**南スラヴ人はギリシア正教徒が多い**から、同じくギリシア正教徒が多いロシア国内では「ギリシア正教徒を助けろ〜」って運動が始まったんだ。こうして**ロシア**は<span data-source-color=\"red\" style=\"color:#e52715\">**ギリシア正教徒の保護**</span>を口実に、独立運動を支援するという名目で**オスマン帝国と開戦**した。これが1877年の<span data-source-color=\"red\" style=\"color:#e52715\">**<ruby>露土<rt>ろと</rt></ruby>戦争**</span>**【**<span data-source-color=\"red\" style=\"color:#e52715\">**ロシア＝トルコ戦争**</span>**】**だよ。"
+    },
+    {
+      "id": "modern-05-405",
+      "part": 4,
+      "lines": [
+        405
+      ],
+      "sourcePages": [
+        106
+      ],
+      "markdown": "この戦争は、本当に**ロシアVS.オスマン帝国だけの戦争**になったんだよ。つまり、**イギリスが参戦してない**ってことだ。だって、本当に起きている**独立運動を支援してるから自由主義運動**でしょ。イギリスは、まさか自由主義を<ruby>弾圧<rt>だんあつ</rt></ruby>するわけにもいかず、「ロシアめ、地中海には絶対出さん！」と、黒海の出口に軍艦を待機させたけど、結局どうするか迷っていたんだよ。そうこうしているうちにロシアがイスタンブルに迫り、**イギリスが出てくる前に急いでオスマン帝国と<ruby>講和<rt>こうわ</rt></ruby>**したよ。"
+    },
+    {
+      "id": "modern-05-409",
+      "part": 4,
+      "lines": [
+        409
+      ],
+      "sourcePages": [
+        106
+      ],
+      "markdown": "こうして結ばれた<span data-source-color=\"red\" style=\"color:#e52715\">**サン＝ステファノ条約**</span>では、<span data-source-color=\"red\" style=\"color:#e52715\">**セルビア**</span>・<span data-source-color=\"red\" style=\"color:#e52715\">**モンテネグロ**</span>・<span data-source-color=\"red\" style=\"color:#e52715\">**ルーマニア**</span>**の独立**と、<span data-source-color=\"red\" style=\"color:#e52715\">**ブルガリア**</span>の**領土を拡大**して自治国とし、**ロシアの保護下に置く**ことが決まったんだ。これって**ロシアの南下が大大大成功**♪　ちょっと地図<span data-source-color=\"white\" data-source-background=\"green\" style=\"color:#ffffff;background-color:#859476\">**➡P.107**</span>を見てごらん。"
+    },
+    {
+      "id": "modern-05-411",
+      "part": 4,
+      "lines": [
+        411
+      ],
+      "sourcePages": [
+        106
+      ],
+      "markdown": "ブルガリアの領土が地中海まで広がってるでしょ。これがロシアの保護下ってことは、**ロシアが地中海進出に成功**したってことだよ。この結果を見た**イギリスとオーストリア**がブチ切れた！「もう勘弁ならん。ロシアを<ruby>潰<rt>つぶ</rt></ruby>す！」って怒っている。**この事態を<ruby>仲介<rt>ちゅうかい</rt></ruby>したのは**ドイツの<span data-source-color=\"red\" style=\"color:#e52715\">**ビスマルク**</span>だ。"
+    },
+    {
+      "id": "modern-05-413",
+      "part": 4,
+      "lines": [
+        413,
+        419
+      ],
+      "sourcePages": [
+        106,
+        107
+      ],
+      "markdown": "ビスマルクは「**誠実な仲介人**」と称して、<span data-source-color=\"red\" style=\"color:#e52715\">**ベルリン会議**</span>を開催し、イギリス、オーストリアとロシアの対立を仲介したんだけど、ほぼ全面的に**イギリスとオーストリアの味方**をした。**サン＝ステファノ条約**を<ruby>破棄<rt>はき</rt></ruby>させて<ruby>締結<rt>ていけつ</rt></ruby>した<span data-source-color=\"red\" style=\"color:#e52715\">**ベルリン条約**</span>では、<span data-source-color=\"red\" style=\"color:#e52715\">**セルビア**</span>・<span data-source-color=\"red\" style=\"color:#e52715\">**モンテネグロ**</span>・<span data-source-color=\"red\" style=\"color:#e52715\">**ルーマニア**</span>**の独立**はそのままだったけど、<span data-source-color=\"red\" style=\"color:#e52715\">**ブルガリア**</span>の**領土は大幅に縮小**し、しかも**トルコの<ruby>宗主<rt>そうしゅ</rt></ruby>下での自治国**とした。これって、ロ**シアの南下を完全に挫折させた**ってことだよね。そして、**オーストリア**が<span data-source-color=\"red\" style=\"color:#e52715\">**ボスニア・ヘルツェゴヴィナ**</span>の<ruby>統治<rt>とうち</rt></ruby>権を獲得したのはビスマルクがあげたお土産。一方イギリスはオスマン帝国との協定で、**キプロス島**の行政権を手に入れた。だから、この時出席した**イギリス首相**の**ディズレーリ**は、ビスマルクに好意的になったってわけ。でも、ロシアにはクリミア戦争で失ったベッサラビアの一部を返しただけだったから、ロシアはマジで怒った。「ビスマルク、イヤなヤツ！」ってね。こうして、**ロシアとドイツの関係が悪化**して、このあとの国際関係に影響するんだ。"
+    },
+    {
+      "id": "modern-05-434",
+      "part": 4,
+      "lines": [
+        434
+      ],
+      "sourcePages": [
+        107
+      ],
+      "markdown": "さて、これでロシアと東方問題はおしまい！　国際関係がちょっと複雑だったから、しっかり見直してね。それじゃあ、最後に年号check！"
+    },
+    {
+      "id": "modern-05-450",
+      "part": 4,
+      "lines": [
+        450
+      ],
+      "sourcePages": [
+        107
+      ],
+      "markdown": "次回は**19世紀のヨーロッパ文化史**だよ。ジャンルが変わると、ちょっと気分転換になるんじゃないかな？　次回も<ruby>頑張<rt>がんば</rt></ruby>っていこう〜。"
+    }
+  ],
+  "cross_page_connections": [
+    {
+      "lines": [
+        40,
+        46
+      ],
+      "reason": "紙面を跨ぐ同じ本文を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        68,
+        84
+      ],
+      "reason": "紙面を跨ぐ同じ本文を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        96,
+        102
+      ],
+      "reason": "紙面を跨ぐ同じ本文を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        118,
+        134
+      ],
+      "reason": "紙面を跨ぐ同じ本文を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        152,
+        158
+      ],
+      "reason": "紙面を跨ぐ同じ本文を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        175,
+        191
+      ],
+      "reason": "紙面を跨ぐ同じ本文を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        329,
+        345
+      ],
+      "reason": "紙面を跨ぐ同じ本文を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        357,
+        363
+      ],
+      "reason": "紙面を跨ぐ同じ本文を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        379,
+        395
+      ],
+      "reason": "紙面を跨ぐ同じ本文を文字・空白・記号を足さず接続する。"
+    },
+    {
+      "lines": [
+        413,
+        419
+      ],
+      "reason": "紙面を跨ぐ同じ本文を文字・空白・記号を足さず接続する。"
+    }
+  ]
+}
