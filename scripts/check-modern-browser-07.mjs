@@ -231,7 +231,7 @@ try {
     await page.keyboard.press('End');
     assert.equal(await page.locator('#modern-book').isVisible(),true);
     await page.locator('#modern-chapter-2>summary').click();
-    await page.locator('#modern-book .part-link').first().click();
+    await page.locator('#modern-chapter-2 .part-link').first().click();
     await page.waitForSelector('button[data-scene]');
 
     for(const theme of ['light','dark']) {
