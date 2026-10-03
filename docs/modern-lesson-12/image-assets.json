@@ -1,0 +1,3025 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "version": "0.122",
+  "lesson": "modern-c03-l12",
+  "description": "原文の本人と一般集団、現在と過去の役割を区別する学習用のドット絵。ウェッブ夫妻は本人二人を一組で示す。",
+  "totals": {
+    "new": 41,
+    "newPeople": 33,
+    "newGroups": 4,
+    "newPropsAndBuildings": 4,
+    "nativeGenerated": 0,
+    "fallbackGenerated": 41,
+    "generationRequests": 42,
+    "reused": 37,
+    "used": 78
+  },
+  "authorization": "指定のAntigravity CLI経由でGemini 3.8 Flashへ依頼したが、画像生成側は429と1時間27分19秒後の上限解除を返し、実在する画像は生成されなかった。以前の利用者による別ツールでの続行承認を適用して41点を組み込み画像生成で制作した。透過・寸法と余白の調整は指定経路のGeminiへ依頼し、実在する全出力を検証した。",
+  "nativeRequests": [
+    {
+      "name": "native-pilot",
+      "prompt": "Generate one original transparent PNG sprite for the W-History educational website. Use the native image generation tool with Gemini 3.8 Flash as the requesting model. Subject: Alfred Dreyfus, French officer around 1894, adult man aged about 35, neatly trimmed brown moustache, short receding dark hair, small round spectacles, restrained dark blue French officer coat with modest gold buttons, holding closed legal papers, calm upright standing pose. Respectful schematic likeness, fully dressed, one full standing person, no weapons. Style: 16-bit JRPG pixel art, about three heads tall, large adult face, short legs, crisp stepped dark pixel outlines and restrained shading, matching the established sprites at C:/Users/USER/Desktop/W-History/public/images/modern-c03-l11/wilhelm-ii.png. True transparent background with generous padding. No text, background, scenery, ground, glow, watermark, or other people. ImageName alfred-dreyfus. Save only in C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson12-20261004/ and return the real generated_path, tool, and any error. Do not edit the repository. If quota is limited, return immediately without retrying or waiting. Do not claim success without checking that the image file actually exists.\n",
+      "response": {
+        "conversation_id": "5a6b5b1b-d8fa-4bf8-8603-da157c6d5485",
+        "status": "SUCCESS",
+        "response": "<WAIT_FOR_NOTIFICATIONS>\n<WAIT_FOR_NOTIFICATIONS>\n画像生成ツールを実行しましたが、モデルのクオータ上限（利用枠枯渇）に達したため、画像の生成を完了できませんでした。指示に基づき、再試行や待機を行わず直ちに結果を報告します。\n\nまた、対象ディレクトリを確認し、画像ファイル（[alfred-dreyfus.png](file:///C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson12-20261004/alfred-dreyfus.png)）が存在しないことを確認いたしました。\n\n### 実行結果\n\n- **generated_path**: なし（未生成 / 対象パス: `C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson12-20261004/alfred-dreyfus.png`）\n- **tool**: `generate_image`（モデル: `gemini-3.1-flash-image` / サブエージェント: `image-generator`）\n- **error**: \n  - ステータス: `RESOURCE_EXHAUSTED` (HTTP 429 Too Many Requests)\n  - 理由: `QUOTA_EXHAUSTED`\n  - 詳細メッセージ: `You have exhausted your capacity on this model. Your quota will reset after 1h27m19s.`（リセット予定時刻: 2026-10-03T23:46:23Z）\n",
+        "duration_seconds": 53.6471501,
+        "num_turns": 1,
+        "usage": {
+          "input_tokens": 109146,
+          "output_tokens": 3566,
+          "thinking_tokens": 2333,
+          "cache_read_tokens": 12176,
+          "total_tokens": 112712
+        }
+      },
+      "verifiedGeneratedOutput": false
+    }
+  ],
+  "generationModels": {
+    "nativeRequest": "Gemini 3.8 Flash High / Antigravity CLI",
+    "imageBackendReportedByNative": "gemini-3.1-flash-image / 429 RESOURCE_EXHAUSTED",
+    "fallback": "組み込み画像生成ツール。内部モデル名は返されない。"
+  },
+  "normalization": {
+    "model": "Gemini 3.8 Flash High",
+    "via": "Antigravity CLI",
+    "completed": 41,
+    "failed": 0,
+    "mode": "透過を保った寸法と透明余白の調整。描き替えなし。",
+    "canvas": [
+      192,
+      192
+    ],
+    "subjectMaximum": [
+      176,
+      176
+    ],
+    "centerX": 96,
+    "bottomY": 184,
+    "resampling": "最近傍、縦横比保持。",
+    "alphaCleanup": "アルファ値16未満の薄い雑音のみ0へ調整。顔・衣服・RGBを保持し、全周8画素以上の透明余白を確保する。",
+    "scriptSha256": "26da1e03cdac6e95692abe7e2fd95b1a0f373fcb961a9a7c046915daecc9a128",
+    "prompt": "Image editing and verification task requested through Antigravity CLI with Gemini 3.8 Flash. Read generated-inputs.json in this working directory. It contains exactly 41 generated image input paths and their relative output names. The generation step is already complete. Never call image generation, wait for a quota reset, or use an external image service for this task.\n\nInspect the alpha channels and adapt C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson11-20261004/normalize-sprites.py as a guide. Do not run that old script against the previous lesson. Create and run a new normalize-sprites.py only in this working directory for the 41 current inputs. Preserve original source images. Do not edit sources/, AGENTS.md, TASK.md, or any other repository files. Save sprites only as C:/Users/USER/Desktop/W-History/public/images/modern-c03-l12/<key>.png. Validate every resolved output path stays directly within that exact directory before writing.\n\nPreserve actual RGBA transparency and pixel colors. Remove only faint alpha fringe below 16, without painting or changing the subjects. Crop to visible alpha bounds and resize by nearest neighbor with aspect ratio preserved to fit within 176 pixels in both axes. Place on a transparent 192x192 RGBA canvas centered at x=96, with bottom y=184 and at least 8 pixels of transparent padding on every side. Do not add backgrounds, floors, labels, or shadows to the individual sprites. Verify exactly 41 nonempty outputs, dimensions, alpha padding, and distinct SHA256 hashes. Do not replace opaque black pixels inside clothes with transparency. Require real transparent backgrounds, inspect every input alpha and report any opaque background rather than guessing.\n\nSave normalization-report.json in this private directory with original/output paths, sizes, alpha counts, visible bounds, SHA256 hashes, and errors. Make a labelled contact-sheet.png of the 41 final sprites, with seven columns and six rows on pale gray cells for visual inspection. Do the real processing and read the outputs before reporting success. Return only a compact summary and saved paths.\n"
+  },
+  "appearanceReview": {
+    "new": "41点の一覧を目視。本人33点（ウェッブ夫妻は二人で一組）、移住者・請願者・海兵隊・農民の一般集団4点、エッフェル塔・軍艦2点・運河の4点について顔・服装・役割・輪郭・透明余白を確認済み。",
+    "reuse": "同じ本人の既存絵を使う。ナポレオン1世・ヴィルヘルム1世・アレクサンドル2世・ペリーの説明は過去の参照として明記する。フランス軍の派兵にナポレオン3世本人を移動させない。",
+    "portraits": "人物・集団は学習用の模式図。特定の写真・認証した肖像を再現したとはしない。建物・軍艦・運河は特定実物の精密な復元ではない。"
+  },
+  "assets": [
+    {
+      "key": "webb-couple",
+      "name": "ウェッブ夫妻",
+      "kind": "person",
+      "subject": "Sidney and Beatrice Webb together around 1900, TWO named adult British intellectuals, Sidney with receding dark hair, small moustache and round spectacles in a dark Victorian suit, Beatrice with upswept brown hair in a modest dark green long Victorian dress, each holding a closed book. One compact pair, distinct faces, no additional people.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Sidney and Beatrice Webb together around 1900, TWO named adult British intellectuals, Sidney with receding dark hair, small moustache and round spectacles in a dark Victorian suit, Beatrice with upswept brown hair in a modest dark green long Victorian dress, each holding a closed book. One compact pair, distinct faces, no additional people. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9cfcf28b-0307-4b2a-9063-6cc655e8d9bd.png",
+      "outputFile": "public/images/modern-c03-l12/webb-couple.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9cfcf28b-0307-4b2a-9063-6cc655e8d9bd.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\webb-couple.png",
+      "inputSha256": "b5cc04ff7d40ebbad3ded15fc16a6fbe2e9d5cd0e10be1af516ca39139db7ec0",
+      "outputSha256": "27303bfdeccbbc443f1555464cb7d27e159f7c5751103ee66d4cce5cd64e27a9",
+      "originalDimensions": {
+        "width": 1245,
+        "height": 1263
+      },
+      "croppedDimensions": {
+        "width": 881,
+        "height": 1172
+      },
+      "resizedDimensions": {
+        "width": 132,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        39,
+        49,
+        1215,
+        1239
+      ],
+      "cleanedBbox": [
+        202,
+        52,
+        1083,
+        1224
+      ],
+      "savedBbox": [
+        30,
+        8,
+        162,
+        184
+      ],
+      "transparentPixelCount": 21236,
+      "removedFaintAlphaPixels": 16933,
+      "opaquePixelCount": 45,
+      "translucentPixelCount": 15583,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 16933,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "bernard-shaw",
+      "name": "バーナード＝ショー",
+      "kind": "person",
+      "subject": "George Bernard Shaw around 1900, slender middle-aged Irish male writer with receding reddish hair and a short pointed reddish-grey beard, brown tweed suit, closed book.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: George Bernard Shaw around 1900, slender middle-aged Irish male writer with receding reddish hair and a short pointed reddish-grey beard, brown tweed suit, closed book. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7ef5e9bb-a2df-4de9-a16e-10439bb97583.png",
+      "outputFile": "public/images/modern-c03-l12/bernard-shaw.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7ef5e9bb-a2df-4de9-a16e-10439bb97583.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\bernard-shaw.png",
+      "inputSha256": "dfc88333e82b56bb77745de75d2263ab253f989691b8357288379a7ba83ad7d9",
+      "outputSha256": "a1c065df6ef5779493c162a80504f4c7dcd38d1c7c6fd9196be4ae5fa254aed3",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 520,
+        "height": 1246
+      },
+      "resizedDimensions": {
+        "width": 73,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        49,
+        19,
+        1077,
+        1374
+      ],
+      "cleanedBbox": [
+        332,
+        64,
+        852,
+        1310
+      ],
+      "savedBbox": [
+        60,
+        8,
+        133,
+        184
+      ],
+      "transparentPixelCount": 29558,
+      "removedFaintAlphaPixels": 13667,
+      "opaquePixelCount": 24,
+      "translucentPixelCount": 7282,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13667,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "keir-hardie",
+      "name": "ケア＝ハーディ",
+      "kind": "person",
+      "subject": "Keir Hardie around 1906, mature Scottish labour politician with a thick full reddish-grey beard and moustache, simple grey tweed cap and brown wool suit, folded petition.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Keir Hardie around 1906, mature Scottish labour politician with a thick full reddish-grey beard and moustache, simple grey tweed cap and brown wool suit, folded petition. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6264bca4-b800-4c56-a168-1c7e16c607a9.png",
+      "outputFile": "public/images/modern-c03-l12/keir-hardie.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6264bca4-b800-4c56-a168-1c7e16c607a9.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\keir-hardie.png",
+      "inputSha256": "a8f3715a06bb15487abf62a219122c0a79de928f948059661095f2710a7c0cfa",
+      "outputSha256": "188b94a08ffc660289238328d3fa90e06a012cc933db69fb5441f9e2e28d1a08",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 559,
+        "height": 1227
+      },
+      "resizedDimensions": {
+        "width": 80,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        41,
+        51,
+        1056,
+        1374
+      ],
+      "cleanedBbox": [
+        299,
+        94,
+        858,
+        1321
+      ],
+      "savedBbox": [
+        56,
+        8,
+        136,
+        184
+      ],
+      "transparentPixelCount": 28140,
+      "removedFaintAlphaPixels": 12363,
+      "opaquePixelCount": 24,
+      "translucentPixelCount": 8700,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12363,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "ramsay-macdonald",
+      "name": "マクドナルド",
+      "kind": "person",
+      "subject": "Ramsay MacDonald around 1906, middle-aged Scottish politician with neatly parted dark hair and a bushy dark moustache, dark formal suit with high white collar, closed parliamentary papers.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Ramsay MacDonald around 1906, middle-aged Scottish politician with neatly parted dark hair and a bushy dark moustache, dark formal suit with high white collar, closed parliamentary papers. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5d0196a5-c90d-4438-9b27-7f7a7623eded.png",
+      "outputFile": "public/images/modern-c03-l12/ramsay-macdonald.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5d0196a5-c90d-4438-9b27-7f7a7623eded.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\ramsay-macdonald.png",
+      "inputSha256": "55647e2c6dac31c028b035b6a48d9ca7a4851f97dd405ce325ad1b6e2a3f9a86",
+      "outputSha256": "cdea3d94fc961d04f4803b0ce28291871b2384710929f8c4c983c762a0cb0575",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 632,
+        "height": 1372
+      },
+      "resizedDimensions": {
+        "width": 81,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        32,
+        942,
+        1488
+      ],
+      "cleanedBbox": [
+        204,
+        85,
+        836,
+        1457
+      ],
+      "savedBbox": [
+        56,
+        8,
+        137,
+        184
+      ],
+      "transparentPixelCount": 28288,
+      "removedFaintAlphaPixels": 12747,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 8576,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12747,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "georges-boulanger",
+      "name": "ブーランジェ",
+      "kind": "person",
+      "subject": "Georges Boulanger around 1887, mature French officer with short greying hair and full close-trimmed grey beard and moustache, restrained dark nineteenth-century French military tunic with red trousers and modest epaulettes, folded document.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Georges Boulanger around 1887, mature French officer with short greying hair and full close-trimmed grey beard and moustache, restrained dark nineteenth-century French military tunic with red trousers and modest epaulettes, folded document. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-323363e5-de61-497c-9ded-e2ac86a924d1.png",
+      "outputFile": "public/images/modern-c03-l12/georges-boulanger.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-323363e5-de61-497c-9ded-e2ac86a924d1.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\georges-boulanger.png",
+      "inputSha256": "284a0971bc41582c5d1b7238cecdba8edbee036ca8a1e11e95e7442030c2f135",
+      "outputSha256": "242aa8a391786e9c96e4671f27a448b236c727644bebe186dc90151b8fe7a3ea",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 562,
+        "height": 1461
+      },
+      "resizedDimensions": {
+        "width": 68,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        36,
+        940,
+        1514
+      ],
+      "cleanedBbox": [
+        232,
+        40,
+        794,
+        1501
+      ],
+      "savedBbox": [
+        62,
+        8,
+        130,
+        184
+      ],
+      "transparentPixelCount": 30341,
+      "removedFaintAlphaPixels": 17916,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6523,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 17916,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "alfred-dreyfus",
+      "name": "ドレフュス",
+      "kind": "person",
+      "subject": "Alfred Dreyfus around 1894, adult French officer aged about 35, short receding dark hair, small neat brown moustache, small round spectacles, restrained dark blue officer coat with modest gold buttons, closed legal papers.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Alfred Dreyfus around 1894, adult French officer aged about 35, short receding dark hair, small neat brown moustache, small round spectacles, restrained dark blue officer coat with modest gold buttons, closed legal papers. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-057a6e3d-1e7b-42db-9810-f8ddc365ccee.png",
+      "outputFile": "public/images/modern-c03-l12/alfred-dreyfus.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-057a6e3d-1e7b-42db-9810-f8ddc365ccee.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\alfred-dreyfus.png",
+      "inputSha256": "df64b043f5b76b0ffe472135652de1a7b09d34899e49a116f53a8d6777c093c2",
+      "outputSha256": "c1e6cbb8538c0a06398b65f647bb63a671975385472e9842586462ac8ed046dd",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 616,
+        "height": 1395
+      },
+      "resizedDimensions": {
+        "width": 78,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        41,
+        1010,
+        1476
+      ],
+      "cleanedBbox": [
+        197,
+        79,
+        813,
+        1474
+      ],
+      "savedBbox": [
+        57,
+        8,
+        135,
+        184
+      ],
+      "transparentPixelCount": 28593,
+      "removedFaintAlphaPixels": 14135,
+      "opaquePixelCount": 1,
+      "translucentPixelCount": 8270,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14135,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "theodor-herzl",
+      "name": "ヘルツル",
+      "kind": "person",
+      "subject": "Theodor Herzl around 1897, mature male journalist with neatly combed dark hair and a distinctive full dark square beard, black formal frock coat and cream waistcoat, closed notebook.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Theodor Herzl around 1897, mature male journalist with neatly combed dark hair and a distinctive full dark square beard, black formal frock coat and cream waistcoat, closed notebook. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-07f437d8-e521-4525-9129-dbbd28b84678.png",
+      "outputFile": "public/images/modern-c03-l12/theodor-herzl.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-07f437d8-e521-4525-9129-dbbd28b84678.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\theodor-herzl.png",
+      "inputSha256": "a1f94f31366153d1bcea24bef3833ac59798250542cfbc4b5e3047fb4566b998",
+      "outputSha256": "51d4a3bd2ace968a65a0f5956d35027a93693515aa7b66c8a0b096ee53960cc8",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 556,
+        "height": 1262
+      },
+      "resizedDimensions": {
+        "width": 78,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        49,
+        31,
+        988,
+        1374
+      ],
+      "cleanedBbox": [
+        292,
+        63,
+        848,
+        1325
+      ],
+      "savedBbox": [
+        57,
+        8,
+        135,
+        184
+      ],
+      "transparentPixelCount": 28139,
+      "removedFaintAlphaPixels": 10280,
+      "opaquePixelCount": 17,
+      "translucentPixelCount": 8708,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10280,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "eduard-bernstein",
+      "name": "ベルンシュタイン",
+      "kind": "person",
+      "subject": "Eduard Bernstein around 1900, mature German male political theorist with receding dark hair, a small moustache and pointed short beard, round spectacles, brown-grey formal suit, closed theoretical book.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Eduard Bernstein around 1900, mature German male political theorist with receding dark hair, a small moustache and pointed short beard, round spectacles, brown-grey formal suit, closed theoretical book. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-def30940-5ea8-4526-82c1-f275295f40ab.png",
+      "outputFile": "public/images/modern-c03-l12/eduard-bernstein.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-def30940-5ea8-4526-82c1-f275295f40ab.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\eduard-bernstein.png",
+      "inputSha256": "5da1cc22826dd53379be664c81f4bb5633d1bb382a7b4ba852427d7880bb6e31",
+      "outputSha256": "a85d2b263dd3a5198a89a87c51f5572d410e828598252c79b5263ac1ac9c88ab",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 648,
+        "height": 1348
+      },
+      "resizedDimensions": {
+        "width": 85,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        23,
+        962,
+        1536
+      ],
+      "cleanedBbox": [
+        187,
+        107,
+        835,
+        1455
+      ],
+      "savedBbox": [
+        54,
+        8,
+        139,
+        184
+      ],
+      "transparentPixelCount": 27659,
+      "removedFaintAlphaPixels": 12637,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 9205,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12637,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "mikhail-bakunin",
+      "name": "バクーニン",
+      "kind": "person",
+      "subject": "Mikhail Bakunin around 1870, broad older Russian male theorist with wavy grey hair and a thick full grey beard, rumpled dark brown nineteenth-century suit and neck scarf, closed book.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Mikhail Bakunin around 1870, broad older Russian male theorist with wavy grey hair and a thick full grey beard, rumpled dark brown nineteenth-century suit and neck scarf, closed book. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-fc0710de-0f8b-440f-95e7-95d7ad1a1218.png",
+      "outputFile": "public/images/modern-c03-l12/mikhail-bakunin.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-fc0710de-0f8b-440f-95e7-95d7ad1a1218.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\mikhail-bakunin.png",
+      "inputSha256": "662c9d8f9406fa19fef9b64998b46afc74a82400b75eba683e111767240e298c",
+      "outputSha256": "89d3b1a8e675c3d57103574d1026d862263b7d7a45e5eeb880ebfa21e4724e7f",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 730,
+        "height": 1397
+      },
+      "resizedDimensions": {
+        "width": 92,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        41,
+        1010,
+        1518
+      ],
+      "cleanedBbox": [
+        149,
+        81,
+        879,
+        1478
+      ],
+      "savedBbox": [
+        50,
+        8,
+        142,
+        184
+      ],
+      "transparentPixelCount": 26358,
+      "removedFaintAlphaPixels": 16680,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 10506,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 16680,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "katayama-sen",
+      "name": "片山潜",
+      "kind": "person",
+      "subject": "Sen Katayama around 1905, middle-aged Japanese male socialist with closely cropped dark hair and a neat small dark moustache, plain dark Western suit and white collar, closed papers.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Sen Katayama around 1905, middle-aged Japanese male socialist with closely cropped dark hair and a neat small dark moustache, plain dark Western suit and white collar, closed papers. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-79899032-d6c9-4c5b-96d0-cb12a73fb5d7.png",
+      "outputFile": "public/images/modern-c03-l12/katayama-sen.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-79899032-d6c9-4c5b-96d0-cb12a73fb5d7.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\katayama-sen.png",
+      "inputSha256": "535e80861a51711fa3e94967f4520118cc80875b419cfb72ddb608499aab365c",
+      "outputSha256": "f54750f1724e6d463d776eefe8b59d006627485721f97f3ca3e66fe53e7752c1",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 555,
+        "height": 1237
+      },
+      "resizedDimensions": {
+        "width": 79,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        41,
+        37,
+        1107,
+        1374
+      ],
+      "cleanedBbox": [
+        293,
+        79,
+        848,
+        1316
+      ],
+      "savedBbox": [
+        57,
+        8,
+        136,
+        184
+      ],
+      "transparentPixelCount": 28350,
+      "removedFaintAlphaPixels": 9021,
+      "opaquePixelCount": 34,
+      "translucentPixelCount": 8480,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9021,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "alexander-iii",
+      "name": "アレクサンドル3世",
+      "kind": "person",
+      "subject": "Alexander III of Russia around 1890, broad mature male emperor with receding brown hair and a thick full brown beard, restrained dark green imperial officer coat, closed dispatch. Not Alexander II or Nicholas II.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Alexander III of Russia around 1890, broad mature male emperor with receding brown hair and a thick full brown beard, restrained dark green imperial officer coat, closed dispatch. Not Alexander II or Nicholas II. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d96b89a7-0be6-4d7c-a5fe-8133975dc340.png",
+      "outputFile": "public/images/modern-c03-l12/alexander-iii.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d96b89a7-0be6-4d7c-a5fe-8133975dc340.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\alexander-iii.png",
+      "inputSha256": "7091f1f8ba7c54f043ee2d6c5028dce00f34d6987bac35eb0bc62f94fc188465",
+      "outputSha256": "29cd937be5ed61fdf9e5143c9315df242c22849e9fa274092c9e073a9a61f8b1",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 612,
+        "height": 1313
+      },
+      "resizedDimensions": {
+        "width": 82,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        41,
+        30,
+        1097,
+        1352
+      ],
+      "cleanedBbox": [
+        267,
+        33,
+        879,
+        1346
+      ],
+      "savedBbox": [
+        55,
+        8,
+        137,
+        184
+      ],
+      "transparentPixelCount": 28511,
+      "removedFaintAlphaPixels": 15214,
+      "opaquePixelCount": 33,
+      "translucentPixelCount": 8320,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15214,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "vladimir-lenin",
+      "name": "レーニン",
+      "kind": "person",
+      "subject": "Vladimir Lenin around 1903, adult Russian male socialist aged about 33, receding reddish-brown hair, short pointed reddish beard and small moustache, plain brown early twentieth-century suit, closed book.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Vladimir Lenin around 1903, adult Russian male socialist aged about 33, receding reddish-brown hair, short pointed reddish beard and small moustache, plain brown early twentieth-century suit, closed book. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-550b77f6-2581-4979-9749-292cfeb58646.png",
+      "outputFile": "public/images/modern-c03-l12/vladimir-lenin.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-550b77f6-2581-4979-9749-292cfeb58646.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\vladimir-lenin.png",
+      "inputSha256": "d859ab303ae282e2b6ac9243f9ac03d0af490c8beba8f95058314a6bee074b0c",
+      "outputSha256": "be2ceddc2ba80ae321ba0ef6778cf7ddcf4365f042b8d30a32dc97880b02ac7f",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 653,
+        "height": 1414
+      },
+      "resizedDimensions": {
+        "width": 81,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        55,
+        72,
+        964,
+        1490
+      ],
+      "cleanedBbox": [
+        189,
+        74,
+        842,
+        1488
+      ],
+      "savedBbox": [
+        56,
+        8,
+        137,
+        184
+      ],
+      "transparentPixelCount": 28514,
+      "removedFaintAlphaPixels": 13427,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 8350,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13427,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "julius-martov",
+      "name": "マルトフ",
+      "kind": "person",
+      "subject": "Julius Martov around 1903, slender adult Russian male socialist with dark unruly short hair, small moustache and pointed short beard, pince-nez spectacles, grey-brown suit, closed political papers.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Julius Martov around 1903, slender adult Russian male socialist with dark unruly short hair, small moustache and pointed short beard, pince-nez spectacles, grey-brown suit, closed political papers. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-71cb0150-acfe-4d53-93f4-61af2de9d3ae.png",
+      "outputFile": "public/images/modern-c03-l12/julius-martov.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-71cb0150-acfe-4d53-93f4-61af2de9d3ae.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\julius-martov.png",
+      "inputSha256": "67d7f3c9fa510fe1225173ad7a8236db873c655ff26fbaa67641dd65c58dfdfb",
+      "outputSha256": "70839614ebfd51489e2a54a5865633d13a4090ec75ae4df3eac52fa4b304064e",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 613,
+        "height": 1414
+      },
+      "resizedDimensions": {
+        "width": 76,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        68,
+        978,
+        1492
+      ],
+      "cleanedBbox": [
+        230,
+        76,
+        843,
+        1490
+      ],
+      "savedBbox": [
+        58,
+        8,
+        134,
+        184
+      ],
+      "transparentPixelCount": 28650,
+      "removedFaintAlphaPixels": 13187,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 8214,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13187,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "georgi-plekhanov",
+      "name": "プレハーノフ",
+      "kind": "person",
+      "subject": "Georgi Plekhanov around 1905, mature Russian male theorist with neatly parted grey hair, short grey pointed beard and moustache, restrained black suit, closed book.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Georgi Plekhanov around 1905, mature Russian male theorist with neatly parted grey hair, short grey pointed beard and moustache, restrained black suit, closed book. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-71ad8be4-6218-4a56-83b6-31f26a76ed5b.png",
+      "outputFile": "public/images/modern-c03-l12/georgi-plekhanov.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-71ad8be4-6218-4a56-83b6-31f26a76ed5b.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\georgi-plekhanov.png",
+      "inputSha256": "3aabdfbabf9dec43805e680b0610514b2acaaaab92889c312f71d4dfd8579a6a",
+      "outputSha256": "1aba5b24531971fd3abe2889968b5bd8f2c36211300693483eac98b2f1a1f584",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 624,
+        "height": 1407
+      },
+      "resizedDimensions": {
+        "width": 78,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        76,
+        964,
+        1488
+      ],
+      "cleanedBbox": [
+        202,
+        78,
+        826,
+        1485
+      ],
+      "savedBbox": [
+        57,
+        8,
+        135,
+        184
+      ],
+      "transparentPixelCount": 28446,
+      "removedFaintAlphaPixels": 12914,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 8418,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12914,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "alexei-child",
+      "name": "アレクセイ",
+      "kind": "person",
+      "subject": "Alexei Nikolaevich the Russian crown prince as a young child around 1905, one small fully dressed boy aged about two, short brown hair, modest pale blue early twentieth-century child sailor suit, calm neutral upright pose. No illness depiction, injury, medical apparatus or other people.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Alexei Nikolaevich the Russian crown prince as a young child around 1905, one small fully dressed boy aged about two, short brown hair, modest pale blue early twentieth-century child sailor suit, calm neutral upright pose. No illness depiction, injury, medical apparatus or other people. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-8f424c0e-9d6e-4b95-ab5c-05b6e3537eb5.png",
+      "outputFile": "public/images/modern-c03-l12/alexei-child.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-8f424c0e-9d6e-4b95-ab5c-05b6e3537eb5.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\alexei-child.png",
+      "inputSha256": "27ac9deae1240bf5e3c980ad17ed423e65a431d8325502da524239eee47788b4",
+      "outputSha256": "5e106160f33c0c256e78ed87da8434531ec445c185874d700638bd8cc9f31fae",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 440,
+        "height": 1086
+      },
+      "resizedDimensions": {
+        "width": 71,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        49,
+        37,
+        1066,
+        1374
+      ],
+      "cleanedBbox": [
+        353,
+        191,
+        793,
+        1277
+      ],
+      "savedBbox": [
+        61,
+        8,
+        132,
+        184
+      ],
+      "transparentPixelCount": 28564,
+      "removedFaintAlphaPixels": 11703,
+      "opaquePixelCount": 20,
+      "translucentPixelCount": 8280,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11703,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "georgy-gapon",
+      "name": "ガポン",
+      "kind": "person",
+      "subject": "Georgy Gapon around 1905, adult Russian Orthodox priest with long dark wavy hair and short full dark beard, modest black cassock and small simple cross, holding a folded petition. Calm standing pose, no violence.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Georgy Gapon around 1905, adult Russian Orthodox priest with long dark wavy hair and short full dark beard, modest black cassock and small simple cross, holding a folded petition. Calm standing pose, no violence. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-fcb47445-1a70-4dd6-809a-1ee94c994dc9.png",
+      "outputFile": "public/images/modern-c03-l12/georgy-gapon.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-fcb47445-1a70-4dd6-809a-1ee94c994dc9.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\georgy-gapon.png",
+      "inputSha256": "50f47af9d2a37c6e275db19ea7b64c27b9c3bc2754570fd4f3c3737187c640bb",
+      "outputSha256": "0bd76341bb80891923bb372f71b9cf85b9d054818767684637efce60543b144c",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 538,
+        "height": 1371
+      },
+      "resizedDimensions": {
+        "width": 69,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        64,
+        856,
+        1512
+      ],
+      "cleanedBbox": [
+        245,
+        97,
+        783,
+        1468
+      ],
+      "savedBbox": [
+        62,
+        8,
+        131,
+        184
+      ],
+      "transparentPixelCount": 28319,
+      "removedFaintAlphaPixels": 9827,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 8545,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9827,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "pyotr-stolypin",
+      "name": "ストルイピン",
+      "kind": "person",
+      "subject": "Pyotr Stolypin around 1908, mature Russian male minister with receding dark hair and a close-trimmed dark beard and moustache, dark formal suit and small plain waistcoat, closed policy papers.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Pyotr Stolypin around 1908, mature Russian male minister with receding dark hair and a close-trimmed dark beard and moustache, dark formal suit and small plain waistcoat, closed policy papers. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6fd94b32-106c-4623-86c1-2033d36e1f13.png",
+      "outputFile": "public/images/modern-c03-l12/pyotr-stolypin.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6fd94b32-106c-4623-86c1-2033d36e1f13.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\pyotr-stolypin.png",
+      "inputSha256": "988386101b630dd64618ae0931fbadf8703d61a0c6cfd124ede059b1d4ed14cb",
+      "outputSha256": "338de4381ddc969d9301101dbf7f2f00c779b92aaeb99801ceb20067f771c121",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 586,
+        "height": 1268
+      },
+      "resizedDimensions": {
+        "width": 81,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        41,
+        19,
+        964,
+        1374
+      ],
+      "cleanedBbox": [
+        264,
+        65,
+        850,
+        1333
+      ],
+      "savedBbox": [
+        56,
+        8,
+        137,
+        184
+      ],
+      "transparentPixelCount": 28134,
+      "removedFaintAlphaPixels": 14457,
+      "opaquePixelCount": 2,
+      "translucentPixelCount": 8728,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14457,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "samuel-gompers",
+      "name": "サミュエル＝ゴンパーズ",
+      "kind": "person",
+      "subject": "Samuel Gompers around 1900, mature American male labour organizer, balding forehead with short grey hair and clean-shaven broad face, plain dark suit and waistcoat, folded labour petition.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Samuel Gompers around 1900, mature American male labour organizer, balding forehead with short grey hair and clean-shaven broad face, plain dark suit and waistcoat, folded labour petition. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-18de6717-2c14-46f9-adab-7f361185b54d.png",
+      "outputFile": "public/images/modern-c03-l12/samuel-gompers.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-18de6717-2c14-46f9-adab-7f361185b54d.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\samuel-gompers.png",
+      "inputSha256": "3281695303db6ca7fc7ff33413523cb556c58a73cc218502426a542e28280a19",
+      "outputSha256": "64033399704566871bd8759749faf6ffe6a28a600f9d823c8646350ab1b8ed9f",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 649,
+        "height": 1244
+      },
+      "resizedDimensions": {
+        "width": 92,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        41,
+        62,
+        1026,
+        1312
+      ],
+      "cleanedBbox": [
+        249,
+        65,
+        898,
+        1309
+      ],
+      "savedBbox": [
+        50,
+        8,
+        142,
+        184
+      ],
+      "transparentPixelCount": 26996,
+      "removedFaintAlphaPixels": 11016,
+      "opaquePixelCount": 25,
+      "translucentPixelCount": 9843,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11016,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "benjamin-harrison",
+      "name": "ハリソン",
+      "kind": "person",
+      "subject": "Benjamin Harrison around 1890, mature American president with short greying hair and full close grey beard, restrained black formal suit and white shirt, closed legal papers.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Benjamin Harrison around 1890, mature American president with short greying hair and full close grey beard, restrained black formal suit and white shirt, closed legal papers. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d818f45d-01a4-4d70-b894-1f478fec7778.png",
+      "outputFile": "public/images/modern-c03-l12/benjamin-harrison.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d818f45d-01a4-4d70-b894-1f478fec7778.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\benjamin-harrison.png",
+      "inputSha256": "c2cbcc695b976ded93cbc622db5a97eb0dd3d93571d3f69fd38d3396e0894249",
+      "outputSha256": "aead1f764236a8060491cbea63aa470a6f2b1e4e61bb3d52e27833644ede6b16",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 611,
+        "height": 1222
+      },
+      "resizedDimensions": {
+        "width": 88,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        128,
+        74,
+        1066,
+        1324
+      ],
+      "cleanedBbox": [
+        271,
+        83,
+        882,
+        1305
+      ],
+      "savedBbox": [
+        52,
+        8,
+        140,
+        184
+      ],
+      "transparentPixelCount": 27065,
+      "removedFaintAlphaPixels": 9503,
+      "opaquePixelCount": 15,
+      "translucentPixelCount": 9784,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9503,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "geronimo",
+      "name": "ジェロニモ",
+      "kind": "person",
+      "subject": "Geronimo around 1886, older Apache male leader with medium brown skin and long dark-grey hair, weathered adult face, modest plain late nineteenth-century cotton shirt and brown trousers with a simple cloth headband. Respectful calm standing pose, no generic feather war bonnet, weapons, chains or captivity.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Geronimo around 1886, older Apache male leader with medium brown skin and long dark-grey hair, weathered adult face, modest plain late nineteenth-century cotton shirt and brown trousers with a simple cloth headband. Respectful calm standing pose, no generic feather war bonnet, weapons, chains or captivity. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-27e9249a-8168-40c3-acd4-174352fc04d0.png",
+      "outputFile": "public/images/modern-c03-l12/geronimo.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-27e9249a-8168-40c3-acd4-174352fc04d0.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\geronimo.png",
+      "inputSha256": "763deec29ea98e0c425b03678bed55dad13598dc5e80b0d68748e76a34cf5ebc",
+      "outputSha256": "1318747aeb958ff6b39f056cea7c2cc843cb5077a41cd4589b05ad74d238d662",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 589,
+        "height": 1346
+      },
+      "resizedDimensions": {
+        "width": 77,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        37,
+        946,
+        1496
+      ],
+      "cleanedBbox": [
+        214,
+        131,
+        803,
+        1477
+      ],
+      "savedBbox": [
+        58,
+        8,
+        135,
+        184
+      ],
+      "transparentPixelCount": 27907,
+      "removedFaintAlphaPixels": 12400,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 8957,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12400,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "william-mckinley",
+      "name": "マッキンリー",
+      "kind": "person",
+      "subject": "William McKinley around 1898, mature American president with dark greying short hair, clean-shaven broad face, black formal suit and waistcoat, folded policy papers.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: William McKinley around 1898, mature American president with dark greying short hair, clean-shaven broad face, black formal suit and waistcoat, folded policy papers. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-2be0205d-22f5-4801-ad5b-76a2babc1721.png",
+      "outputFile": "public/images/modern-c03-l12/william-mckinley.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-2be0205d-22f5-4801-ad5b-76a2babc1721.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\william-mckinley.png",
+      "inputSha256": "a29948928fb5c86aa03b8672860f7827021274c806e7acceebfd87c43212576a",
+      "outputSha256": "2d99f518c75948815a400fd504adb0e33ac492bad306ebb33de7c42fccd02a74",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 645,
+        "height": 1336
+      },
+      "resizedDimensions": {
+        "width": 85,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        55,
+        898,
+        1514
+      ],
+      "cleanedBbox": [
+        190,
+        118,
+        835,
+        1454
+      ],
+      "savedBbox": [
+        54,
+        8,
+        139,
+        184
+      ],
+      "transparentPixelCount": 27546,
+      "removedFaintAlphaPixels": 13618,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 9318,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13618,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "jose-marti",
+      "name": "ホセ＝マルティ",
+      "kind": "person",
+      "subject": "Jose Marti around 1895, adult Cuban male writer and independence organizer with receding brown hair, a distinctive drooping dark moustache, modest brown late nineteenth-century suit, closed notebook.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Jose Marti around 1895, adult Cuban male writer and independence organizer with receding brown hair, a distinctive drooping dark moustache, modest brown late nineteenth-century suit, closed notebook. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-909bda54-8dfd-41e8-82af-53fb3a75f825.png",
+      "outputFile": "public/images/modern-c03-l12/jose-marti.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-909bda54-8dfd-41e8-82af-53fb3a75f825.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\jose-marti.png",
+      "inputSha256": "a0648a987d728484d54352051de601265d79910cbe7dff3ab0a900d863d880a5",
+      "outputSha256": "4eb03ee94e416ec3a38ab96cbfbe8128040152977ddb2e8b5cfaee88429d33e2",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 541,
+        "height": 1267
+      },
+      "resizedDimensions": {
+        "width": 75,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        41,
+        19,
+        1068,
+        1374
+      ],
+      "cleanedBbox": [
+        309,
+        55,
+        850,
+        1322
+      ],
+      "savedBbox": [
+        59,
+        8,
+        134,
+        184
+      ],
+      "transparentPixelCount": 28672,
+      "removedFaintAlphaPixels": 11175,
+      "opaquePixelCount": 23,
+      "translucentPixelCount": 8169,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11175,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "liliuokalani",
+      "name": "リリウオカラニ",
+      "kind": "person",
+      "subject": "Queen Liliuokalani of Hawaii around 1893, mature Hawaiian woman with medium brown skin, dark hair swept back, dignified modest dark purple late nineteenth-century formal long gown with restrained gold brooch, folded legal papers. No exotic costume, bare skin, flowers or stereotyped imagery.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Queen Liliuokalani of Hawaii around 1893, mature Hawaiian woman with medium brown skin, dark hair swept back, dignified modest dark purple late nineteenth-century formal long gown with restrained gold brooch, folded legal papers. No exotic costume, bare skin, flowers or stereotyped imagery. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-225b9acd-457b-4fd0-81ab-5ccc25fe20ee.png",
+      "outputFile": "public/images/modern-c03-l12/liliuokalani.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-225b9acd-457b-4fd0-81ab-5ccc25fe20ee.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\liliuokalani.png",
+      "inputSha256": "09425c7ee61d011d3353bf5ad07abf922df9c5cfe906a0335cf2bf3a61c38d56",
+      "outputSha256": "b37219076fc9bc3c0eead451d4c04daac7cd4429f10cb21d5260340f6c67aa3c",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 668,
+        "height": 1382
+      },
+      "resizedDimensions": {
+        "width": 85,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        64,
+        67,
+        962,
+        1486
+      ],
+      "cleanedBbox": [
+        199,
+        98,
+        867,
+        1480
+      ],
+      "savedBbox": [
+        54,
+        8,
+        139,
+        184
+      ],
+      "transparentPixelCount": 27612,
+      "removedFaintAlphaPixels": 12811,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 9252,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12811,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "william-taft",
+      "name": "タフト",
+      "kind": "person",
+      "subject": "William Howard Taft around 1910, stocky mature American president with neatly parted dark greying hair and a broad thick moustache, restrained black suit and waistcoat, closed diplomatic papers.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: William Howard Taft around 1910, stocky mature American president with neatly parted dark greying hair and a broad thick moustache, restrained black suit and waistcoat, closed diplomatic papers. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-03abe915-e0c9-460c-b236-6b280e507487.png",
+      "outputFile": "public/images/modern-c03-l12/william-taft.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-03abe915-e0c9-460c-b236-6b280e507487.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\william-taft.png",
+      "inputSha256": "d7500ab25bc9c240de6d7bacc43dedfe5454ff91107450db871f27fd73f5a45b",
+      "outputSha256": "e9ed5c96ac32edc23bc90eae38d200cb0f075a1b6257c28875fc78414a2c42dd",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 706,
+        "height": 1443
+      },
+      "resizedDimensions": {
+        "width": 86,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        143,
+        37,
+        882,
+        1496
+      ],
+      "cleanedBbox": [
+        156,
+        47,
+        862,
+        1490
+      ],
+      "savedBbox": [
+        53,
+        8,
+        139,
+        184
+      ],
+      "transparentPixelCount": 27194,
+      "removedFaintAlphaPixels": 12781,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 9670,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12781,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "woodrow-wilson",
+      "name": "ウィルソン",
+      "kind": "person",
+      "subject": "Woodrow Wilson around 1914, slender mature American president with neatly parted grey hair, clean-shaven long face, small pince-nez spectacles, black formal suit, closed policy papers.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Woodrow Wilson around 1914, slender mature American president with neatly parted grey hair, clean-shaven long face, small pince-nez spectacles, black formal suit, closed policy papers. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-97d372a0-afbc-482f-9ff8-5045a3266a1f.png",
+      "outputFile": "public/images/modern-c03-l12/woodrow-wilson.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-97d372a0-afbc-482f-9ff8-5045a3266a1f.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\woodrow-wilson.png",
+      "inputSha256": "61a9e9c6852ffb67498ea4ef269e10c806ba0f92f069fa220f345023926a5e50",
+      "outputSha256": "ab6df89cfb8fe020010f671aecc37daee6225a28bd9d69f7503fab04e7ca3eb2",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 527,
+        "height": 1296
+      },
+      "resizedDimensions": {
+        "width": 72,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        178,
+        41,
+        1066,
+        1374
+      ],
+      "cleanedBbox": [
+        329,
+        43,
+        856,
+        1339
+      ],
+      "savedBbox": [
+        60,
+        8,
+        132,
+        184
+      ],
+      "transparentPixelCount": 29082,
+      "removedFaintAlphaPixels": 10666,
+      "opaquePixelCount": 26,
+      "translucentPixelCount": 7756,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10666,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "benito-juarez",
+      "name": "フアレス",
+      "kind": "person",
+      "subject": "Benito Juarez around 1867, mature Mexican male president with medium brown skin, short dark hair, broad clean-shaven face, restrained nineteenth-century black frock coat and white shirt, closed reform document.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Benito Juarez around 1867, mature Mexican male president with medium brown skin, short dark hair, broad clean-shaven face, restrained nineteenth-century black frock coat and white shirt, closed reform document. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-cd58218e-5bbc-4f73-b20e-66f95547bd3a.png",
+      "outputFile": "public/images/modern-c03-l12/benito-juarez.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-cd58218e-5bbc-4f73-b20e-66f95547bd3a.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\benito-juarez.png",
+      "inputSha256": "1cd10015e574d4641be846ad1bd3ce8a75109503c6f7aa05f8d54c48c4733704",
+      "outputSha256": "ac74351b606ea02e954e2f6f98e404498ca3ed22324a58383af001927c62e04e",
+      "originalDimensions": {
+        "width": 1151,
+        "height": 1367
+      },
+      "croppedDimensions": {
+        "width": 555,
+        "height": 1190
+      },
+      "resizedDimensions": {
+        "width": 82,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        286,
+        45,
+        890,
+        1367
+      ],
+      "cleanedBbox": [
+        288,
+        96,
+        843,
+        1286
+      ],
+      "savedBbox": [
+        55,
+        8,
+        137,
+        184
+      ],
+      "transparentPixelCount": 27439,
+      "removedFaintAlphaPixels": 8838,
+      "opaquePixelCount": 44,
+      "translucentPixelCount": 9381,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8838,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "porfirio-diaz",
+      "name": "ディアス",
+      "kind": "person",
+      "subject": "Porfirio Diaz around 1900, older Mexican male general and president with short white-grey hair and thick white moustache, restrained dark nineteenth-century general uniform with modest gold epaulettes, folded dispatch.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Porfirio Diaz around 1900, older Mexican male general and president with short white-grey hair and thick white moustache, restrained dark nineteenth-century general uniform with modest gold epaulettes, folded dispatch. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-75657a9c-465d-4491-89a5-316f7c6c16eb.png",
+      "outputFile": "public/images/modern-c03-l12/porfirio-diaz.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-75657a9c-465d-4491-89a5-316f7c6c16eb.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\porfirio-diaz.png",
+      "inputSha256": "85dcb22364d3a362176eeba150f56a6e23794540393a19343ed13aaef082bd9f",
+      "outputSha256": "abb9318d1a203f062a98e8c45468079b07b4368fd94996bbe1558ee940ae540e",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 584,
+        "height": 1340
+      },
+      "resizedDimensions": {
+        "width": 77,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        38,
+        942,
+        1514
+      ],
+      "cleanedBbox": [
+        218,
+        112,
+        802,
+        1452
+      ],
+      "savedBbox": [
+        58,
+        8,
+        135,
+        184
+      ],
+      "transparentPixelCount": 29210,
+      "removedFaintAlphaPixels": 18616,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7654,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 18616,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "francisco-madero",
+      "name": "マデロ",
+      "kind": "person",
+      "subject": "Francisco I Madero around 1911, adult Mexican male politician with receding dark hair, small moustache and short neat pointed beard, restrained dark formal suit, closed constitutional papers.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Francisco I Madero around 1911, adult Mexican male politician with receding dark hair, small moustache and short neat pointed beard, restrained dark formal suit, closed constitutional papers. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-863bb860-5f62-4960-9e77-a9c085fb6402.png",
+      "outputFile": "public/images/modern-c03-l12/francisco-madero.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-863bb860-5f62-4960-9e77-a9c085fb6402.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\francisco-madero.png",
+      "inputSha256": "b86a256ab66bc3cdcde842ab7bd391ea0561a7876b973e32fb3857870ec26844",
+      "outputSha256": "5e69f0cc3b35eed26299327967f43ccffacd8d204857818c53b233796bdb4d30",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 565,
+        "height": 1315
+      },
+      "resizedDimensions": {
+        "width": 76,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        15,
+        914,
+        1464
+      ],
+      "cleanedBbox": [
+        245,
+        130,
+        810,
+        1445
+      ],
+      "savedBbox": [
+        58,
+        8,
+        134,
+        184
+      ],
+      "transparentPixelCount": 28435,
+      "removedFaintAlphaPixels": 11167,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 8429,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11167,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "emiliano-zapata",
+      "name": "サパタ",
+      "kind": "person",
+      "subject": "Emiliano Zapata around 1911, adult Mexican male agrarian revolutionary with thick black drooping moustache, wide-brimmed modest tan sombrero, plain pale shirt and dark trousers, restrained brown cartridge belt, holding a folded land petition. No weapon, violence or pose of attacking.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Emiliano Zapata around 1911, adult Mexican male agrarian revolutionary with thick black drooping moustache, wide-brimmed modest tan sombrero, plain pale shirt and dark trousers, restrained brown cartridge belt, holding a folded land petition. No weapon, violence or pose of attacking. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-b18f5863-2848-458e-b454-16dc342afd14.png",
+      "outputFile": "public/images/modern-c03-l12/emiliano-zapata.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-b18f5863-2848-458e-b454-16dc342afd14.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\emiliano-zapata.png",
+      "inputSha256": "0ccbb6dfb9e809b858ddff24b25dd989cf9060db3515073f75b6fbb4b55299b0",
+      "outputSha256": "0f7d7e1e02b25804f275c45710ff88c8dbe03e7e3cf16330d8527d89d00bac4a",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 567,
+        "height": 1253
+      },
+      "resizedDimensions": {
+        "width": 80,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        41,
+        37,
+        1107,
+        1320
+      ],
+      "cleanedBbox": [
+        289,
+        60,
+        856,
+        1313
+      ],
+      "savedBbox": [
+        56,
+        8,
+        136,
+        184
+      ],
+      "transparentPixelCount": 28346,
+      "removedFaintAlphaPixels": 14016,
+      "opaquePixelCount": 41,
+      "translucentPixelCount": 8477,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14016,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "victoriano-huerta",
+      "name": "ウェルタ",
+      "kind": "person",
+      "subject": "Victoriano Huerta around 1913, mature Mexican male general with closely cropped dark-grey hair, small moustache and round spectacles, restrained dark general uniform and pale belt, closed dispatch.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Victoriano Huerta around 1913, mature Mexican male general with closely cropped dark-grey hair, small moustache and round spectacles, restrained dark general uniform and pale belt, closed dispatch. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a85d25de-bf73-4d28-a2df-745249da0f3e.png",
+      "outputFile": "public/images/modern-c03-l12/victoriano-huerta.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a85d25de-bf73-4d28-a2df-745249da0f3e.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\victoriano-huerta.png",
+      "inputSha256": "7dec31eaf2f650fbc7e751d53351bbdd23142acc7fbf662b9edbbdacd0690183",
+      "outputSha256": "9f1956b9c7368804d97d6ea353c7dc94dbabb66f2178816b33e053138da16e02",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 618,
+        "height": 1417
+      },
+      "resizedDimensions": {
+        "width": 77,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        23,
+        944,
+        1492
+      ],
+      "cleanedBbox": [
+        207,
+        73,
+        825,
+        1490
+      ],
+      "savedBbox": [
+        58,
+        8,
+        135,
+        184
+      ],
+      "transparentPixelCount": 28766,
+      "removedFaintAlphaPixels": 17193,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 8098,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 17193,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "venustiano-carranza",
+      "name": "カランサ",
+      "kind": "person",
+      "subject": "Venustiano Carranza around 1917, older Mexican male politician with full long white-grey beard and spectacles, dark formal suit and high collar, closed constitutional papers.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Venustiano Carranza around 1917, older Mexican male politician with full long white-grey beard and spectacles, dark formal suit and high collar, closed constitutional papers. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5d5392a4-3f3c-4182-a9a1-1154b08db843.png",
+      "outputFile": "public/images/modern-c03-l12/venustiano-carranza.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5d5392a4-3f3c-4182-a9a1-1154b08db843.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\venustiano-carranza.png",
+      "inputSha256": "a93930c5d2bb36f8277af5f54e70b50e4bc6b1bb2c42a27a5fdbfbd5d5d41cff",
+      "outputSha256": "150b489b743f92febbfa77bbf5b3cf6f0ebed5e7bae100ec5db2eff6da5bf3ca",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 713,
+        "height": 1443
+      },
+      "resizedDimensions": {
+        "width": 87,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        36,
+        976,
+        1504
+      ],
+      "cleanedBbox": [
+        157,
+        57,
+        870,
+        1500
+      ],
+      "savedBbox": [
+        53,
+        8,
+        140,
+        184
+      ],
+      "transparentPixelCount": 27440,
+      "removedFaintAlphaPixels": 13016,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 9424,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13016,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "pancho-villa",
+      "name": "ビリャ",
+      "kind": "person",
+      "subject": "Francisco Pancho Villa around 1914, broad adult Mexican male revolutionary with thick black moustache, plain tan wide-brimmed hat and brown early twentieth-century jacket, restrained cartridge belt, folded papers. No firearms, violence or modern flag.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Francisco Pancho Villa around 1914, broad adult Mexican male revolutionary with thick black moustache, plain tan wide-brimmed hat and brown early twentieth-century jacket, restrained cartridge belt, folded papers. No firearms, violence or modern flag. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d315d786-ecda-47ab-a935-184fb484813c.png",
+      "outputFile": "public/images/modern-c03-l12/pancho-villa.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d315d786-ecda-47ab-a935-184fb484813c.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\pancho-villa.png",
+      "inputSha256": "349aaf5dd2307520b453944f296deea821e9d10e8b9ca654acb806e4dc9112ea",
+      "outputSha256": "3fc75d8501da5a34fdd3a8e87def92b51b8cd91ff01ac94ef2815ff6faf89092",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 541,
+        "height": 1210
+      },
+      "resizedDimensions": {
+        "width": 79,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        41,
+        23,
+        1066,
+        1374
+      ],
+      "cleanedBbox": [
+        303,
+        85,
+        844,
+        1295
+      ],
+      "savedBbox": [
+        57,
+        8,
+        136,
+        184
+      ],
+      "transparentPixelCount": 28309,
+      "removedFaintAlphaPixels": 13808,
+      "opaquePixelCount": 33,
+      "translucentPixelCount": 8522,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13808,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "lazaro-cardenas",
+      "name": "カルデナス",
+      "kind": "person",
+      "subject": "Lazaro Cardenas around 1934, adult Mexican male president with neatly combed dark hair and clean-shaven face, restrained dark 1930s suit with white shirt, closed reform papers.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Lazaro Cardenas around 1934, adult Mexican male president with neatly combed dark hair and clean-shaven face, restrained dark 1930s suit with white shirt, closed reform papers. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6b01ba6d-6f49-4dc4-90c5-3fb0a4cf701a.png",
+      "outputFile": "public/images/modern-c03-l12/lazaro-cardenas.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6b01ba6d-6f49-4dc4-90c5-3fb0a4cf701a.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\lazaro-cardenas.png",
+      "inputSha256": "337210a380226f482bf6c995430166f9cdaaedcc09f988975a40fcab7e58b871",
+      "outputSha256": "174f4f34bed3988d8e3182fcdcc33d359456849851a30c74942fe1914c78e3df",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 598,
+        "height": 1329
+      },
+      "resizedDimensions": {
+        "width": 79,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        19,
+        896,
+        1536
+      ],
+      "cleanedBbox": [
+        222,
+        130,
+        820,
+        1459
+      ],
+      "savedBbox": [
+        57,
+        8,
+        136,
+        184
+      ],
+      "transparentPixelCount": 28267,
+      "removedFaintAlphaPixels": 12588,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 8597,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12588,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "jewish-migrants",
+      "name": "ユダヤ系の一般の移住者",
+      "kind": "group",
+      "subject": "Three ordinary adult Jewish migrants from eastern Europe around 1894, varied respectful individual faces, modest late nineteenth-century travel coats and a long dress, one closed small suitcase and one cloth bundle. No named leaders, religious caricatures, exaggerated features, yellow badges, chains or injuries.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Three ordinary adult Jewish migrants from eastern Europe around 1894, varied respectful individual faces, modest late nineteenth-century travel coats and a long dress, one closed small suitcase and one cloth bundle. No named leaders, religious caricatures, exaggerated features, yellow badges, chains or injuries. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c224d9cd-26b3-4542-86c3-8ed551be9a4f.png",
+      "outputFile": "public/images/modern-c03-l12/jewish-migrants.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c224d9cd-26b3-4542-86c3-8ed551be9a4f.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\jewish-migrants.png",
+      "inputSha256": "dda2a94d0c893db28d17c62613e989f2608993160bd30806249f7a4419c37d17",
+      "outputSha256": "e60d8a9b50e14917a237f8cc39e96c2083b8cbe7d2c851dce05cef206d97a78b",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1055,
+        "height": 900
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 150
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        21,
+        1436,
+        1000
+      ],
+      "cleanedBbox": [
+        227,
+        64,
+        1282,
+        964
+      ],
+      "savedBbox": [
+        8,
+        34,
+        184,
+        184
+      ],
+      "transparentPixelCount": 17923,
+      "removedFaintAlphaPixels": 28835,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 18941,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 28835,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "russian-demonstrators",
+      "name": "ロシアの一般の労働者と家族",
+      "kind": "group",
+      "subject": "Three ordinary people from a Russian worker family around 1905, two adults and one fully dressed child, simple brown worker coat and cap, muted cream blouse and long blue skirt, small folded petition. Respectful peaceful standing poses, no clergy or named leaders, no weapons, slogans or injuries.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Three ordinary people from a Russian worker family around 1905, two adults and one fully dressed child, simple brown worker coat and cap, muted cream blouse and long blue skirt, small folded petition. Respectful peaceful standing poses, no clergy or named leaders, no weapons, slogans or injuries. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-56a0a9de-ad5d-473d-bc4e-88bb6e834f70.png",
+      "outputFile": "public/images/modern-c03-l12/russian-demonstrators.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-56a0a9de-ad5d-473d-bc4e-88bb6e834f70.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\russian-demonstrators.png",
+      "inputSha256": "429478ef5ed248571f04f6cafde52ff3548b4589ddb5a5ed0856c7b0f51ad756",
+      "outputSha256": "634f03c0bf5b090df1a85a3c0037dc705958441485a05b2314ad9c412ecdec2e",
+      "originalDimensions": {
+        "width": 1222,
+        "height": 1287
+      },
+      "croppedDimensions": {
+        "width": 931,
+        "height": 1139
+      },
+      "resizedDimensions": {
+        "width": 144,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        0,
+        1208,
+        1287
+      ],
+      "cleanedBbox": [
+        152,
+        79,
+        1083,
+        1218
+      ],
+      "savedBbox": [
+        24,
+        8,
+        168,
+        184
+      ],
+      "transparentPixelCount": 19253,
+      "removedFaintAlphaPixels": 20072,
+      "opaquePixelCount": 31,
+      "translucentPixelCount": 17580,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 20072,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "us-marines",
+      "name": "アメリカ海兵隊の一般兵",
+      "kind": "group",
+      "subject": "Three ordinary adult American Marines around 1914, distinct faces, modest khaki early twentieth-century military tunics, brown leather belts and plain campaign hats, folded dispatch, rifles held vertically at rest. No officers or named leaders, no modern helmets, combat, flags, text or injuries.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Three ordinary adult American Marines around 1914, distinct faces, modest khaki early twentieth-century military tunics, brown leather belts and plain campaign hats, folded dispatch, rifles held vertically at rest. No officers or named leaders, no modern helmets, combat, flags, text or injuries. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5e3705f1-96b4-4fe2-9ba8-bd03d32b1543.png",
+      "outputFile": "public/images/modern-c03-l12/us-marines.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5e3705f1-96b4-4fe2-9ba8-bd03d32b1543.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\us-marines.png",
+      "inputSha256": "16afb6b530829e1582206d834fd513ffefb7fafa42af4c45a8b2d612dad16ee1",
+      "outputSha256": "f8cc894d2e05ccdfe785214a56241b122ab7d6b50b072f0d19436e1a30343997",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1122,
+        "height": 934
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 147
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        28,
+        1494,
+        1024
+      ],
+      "cleanedBbox": [
+        204,
+        45,
+        1326,
+        979
+      ],
+      "savedBbox": [
+        8,
+        37,
+        184,
+        184
+      ],
+      "transparentPixelCount": 20760,
+      "removedFaintAlphaPixels": 64590,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 16104,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 64590,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "mexican-peasants",
+      "name": "メキシコの一般の農民",
+      "kind": "group",
+      "subject": "Three ordinary adult Mexican peasants around 1910, respectful varied medium-brown faces, plain cream cotton shirts, brown trousers and modest wide straw hats, one woman in a muted blue long skirt, folded land petition and a small closed grain sack. No named leaders, guns, stereotypes, injuries or flags.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: Three ordinary adult Mexican peasants around 1910, respectful varied medium-brown faces, plain cream cotton shirts, brown trousers and modest wide straw hats, one woman in a muted blue long skirt, folded land petition and a small closed grain sack. No named leaders, guns, stereotypes, injuries or flags. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-4c744b51-8fed-44de-822d-9bca0a5862f6.png",
+      "outputFile": "public/images/modern-c03-l12/mexican-peasants.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-4c744b51-8fed-44de-822d-9bca0a5862f6.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\mexican-peasants.png",
+      "inputSha256": "1a3cf5082a8c7db5c839344721711ba7b3cf4c52ff7abeaba4ea1251697b6ff8",
+      "outputSha256": "6980aa99fdbf78d6ff6f2d59804c4d67b39319051f2c9be6f056ae115a37e733",
+      "originalDimensions": {
+        "width": 1374,
+        "height": 1145
+      },
+      "croppedDimensions": {
+        "width": 1239,
+        "height": 990
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 141
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        7,
+        1358,
+        1145
+      ],
+      "cleanedBbox": [
+        60,
+        93,
+        1299,
+        1083
+      ],
+      "savedBbox": [
+        8,
+        43,
+        184,
+        184
+      ],
+      "transparentPixelCount": 21162,
+      "removedFaintAlphaPixels": 40613,
+      "opaquePixelCount": 44,
+      "translucentPixelCount": 15658,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 40613,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "eiffel-tower",
+      "name": "エッフェル塔の模式図",
+      "kind": "building",
+      "subject": "A compact recognizable Eiffel Tower newly built for the 1889 Paris exposition, entire dark warm-grey lattice iron tower with four legs and broad arch, educational schematic architectural silhouette, no people, skyline, trees, ground or text.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: A compact recognizable Eiffel Tower newly built for the 1889 Paris exposition, entire dark warm-grey lattice iron tower with four legs and broad arch, educational schematic architectural silhouette, no people, skyline, trees, ground or text. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-22ed850d-e087-4469-b432-4373eba0b747.png",
+      "outputFile": "public/images/modern-c03-l12/eiffel-tower.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-22ed850d-e087-4469-b432-4373eba0b747.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\eiffel-tower.png",
+      "inputSha256": "a1da3f49c225baaf0edb1936f422df821c41260fccf8f3110206a6c43a66f4a2",
+      "outputSha256": "2540b58b7c75867671b6f44482fff802e02a8fc3dd4f88266a6a0583f19ffa92",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 772,
+        "height": 1459
+      },
+      "resizedDimensions": {
+        "width": 93,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        122,
+        38,
+        944,
+        1504
+      ],
+      "cleanedBbox": [
+        126,
+        42,
+        898,
+        1501
+      ],
+      "savedBbox": [
+        50,
+        8,
+        143,
+        184
+      ],
+      "transparentPixelCount": 32590,
+      "removedFaintAlphaPixels": 26112,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 4274,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 26112,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "potemkin-battleship",
+      "name": "戦艦ポチョムキン号の模式図",
+      "kind": "prop",
+      "subject": "One compact early twentieth-century Russian pre-dreadnought battleship representing Potemkin around 1905, side view of grey steel hull with three restrained smokestacks and simple two masts, historical schematic ship silhouette, no text, flag, sea, wake, smoke, people or firing.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: One compact early twentieth-century Russian pre-dreadnought battleship representing Potemkin around 1905, side view of grey steel hull with three restrained smokestacks and simple two masts, historical schematic ship silhouette, no text, flag, sea, wake, smoke, people or firing. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-f9fdb075-5234-48a7-a3da-677680b4ea51.png",
+      "outputFile": "public/images/modern-c03-l12/potemkin-battleship.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-f9fdb075-5234-48a7-a3da-677680b4ea51.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\potemkin-battleship.png",
+      "inputSha256": "caa70c5ed6916fe4347dfc15c632d83c50b1d6b8794366ceedb34199199eb80a",
+      "outputSha256": "1b62e74973ba7ad4658f230d7b00af415d3f7baa56a8ac9ebe2683f957bb80c8",
+      "originalDimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "croppedDimensions": {
+        "width": 1687,
+        "height": 754
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 79
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        21,
+        1738,
+        887
+      ],
+      "cleanedBbox": [
+        46,
+        48,
+        1733,
+        802
+      ],
+      "savedBbox": [
+        8,
+        105,
+        184,
+        184
+      ],
+      "transparentPixelCount": 31520,
+      "removedFaintAlphaPixels": 44061,
+      "opaquePixelCount": 8,
+      "translucentPixelCount": 5336,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 44061,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "maine-warship",
+      "name": "軍艦メーン号の模式図",
+      "kind": "prop",
+      "subject": "One compact late nineteenth-century American armoured warship representing USS Maine around 1898, side view of white and muted grey hull with two restrained smokestacks and simple masts, historical schematic ship silhouette, intact vessel, no text, flag, sea, wake, people, explosions or smoke.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: One compact late nineteenth-century American armoured warship representing USS Maine around 1898, side view of white and muted grey hull with two restrained smokestacks and simple masts, historical schematic ship silhouette, intact vessel, no text, flag, sea, wake, people, explosions or smoke. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-dfd630ea-942a-4504-840c-88de7acf02ac.png",
+      "outputFile": "public/images/modern-c03-l12/maine-warship.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-dfd630ea-942a-4504-840c-88de7acf02ac.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\maine-warship.png",
+      "inputSha256": "3704dc4bcba05cf98996f5a669ee056842bf81c48c3f2682449caeac8b571457",
+      "outputSha256": "1901ec2dc7599538e550d5c83e6b14c78a36c3e8a8f4e7092781703d05a20a94",
+      "originalDimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "croppedDimensions": {
+        "width": 1679,
+        "height": 690
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 72
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        20,
+        1742,
+        887
+      ],
+      "cleanedBbox": [
+        55,
+        98,
+        1734,
+        788
+      ],
+      "savedBbox": [
+        8,
+        112,
+        184,
+        184
+      ],
+      "transparentPixelCount": 31729,
+      "removedFaintAlphaPixels": 66415,
+      "opaquePixelCount": 26,
+      "translucentPixelCount": 5109,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 66415,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "panama-canal",
+      "name": "パナマ運河の模式図",
+      "kind": "building",
+      "subject": "One compact educational schematic cross-section of the Panama Canal locks around 1914, blue rectangular water basin bounded by warm grey stone lock walls and two simple dark gates, small digging shovel resting beside the structure. No people, sea, background scenery, arrows, text or modern equipment.",
+      "prompt": "Use case: historical-scene. Asset type: one transparent PNG sprite for an educational history website. Subject: One compact educational schematic cross-section of the Panama Canal locks around 1914, blue rectangular water basin bounded by warm grey stone lock walls and two simple dark gates, small digging shovel resting beside the structure. No people, sea, background scenery, arrows, text or modern equipment. Style: authentic 16-bit JRPG pixel art with crisp stepped dark outlines, restrained pixel shading, warm muted colours, large readable heads and short legs about three heads tall for people. Composition: one full standing person or the exact compact specified pair, group or object, entirely within the image, generous clear padding on every side. Large centred subject, true transparent background. Respectful schematic likeness and historical clothing, matching established W-History sprites. No text, watermark, ground, scenery, checkerboard, glow, extra objects or extra people beyond those specified. Keep different people visibly distinct. No smooth painted or vector styling.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c2ec0104-c8b3-4487-a9b5-617d91b6dfeb.png",
+      "outputFile": "public/images/modern-c03-l12/panama-canal.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c2ec0104-c8b3-4487-a9b5-617d91b6dfeb.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l12\\panama-canal.png",
+      "inputSha256": "8274eeb62b72482f8f8c381469087b8227868565c73d5f0e272a450505dbd887",
+      "outputSha256": "5385d4cee6ac1c026836e95979c6b408bfc5dc39094d2f2a1338249dec654bfa",
+      "originalDimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "croppedDimensions": {
+        "width": 1638,
+        "height": 523
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 56
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        51,
+        38,
+        1714,
+        887
+      ],
+      "cleanedBbox": [
+        74,
+        196,
+        1712,
+        719
+      ],
+      "savedBbox": [
+        8,
+        128,
+        184,
+        184
+      ],
+      "transparentPixelCount": 29650,
+      "removedFaintAlphaPixels": 10846,
+      "opaquePixelCount": 1,
+      "translucentPixelCount": 7213,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10846,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    }
+  ],
+  "reused": [
+    {
+      "key": "disraeli",
+      "name": "ディズレーリ",
+      "kind": "person",
+      "image": "modern-c01-l02/disraeli.png",
+      "identity": "person:disraeli",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "gladstone",
+      "name": "グラッドストン",
+      "kind": "person",
+      "image": "modern-c01-l02/gladstone.png",
+      "identity": "person:gladstone",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "asquith",
+      "name": "アスキス",
+      "kind": "person",
+      "image": "modern-c01-l02/asquith.png",
+      "identity": "person:asquith",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "thiers",
+      "name": "ティエール",
+      "kind": "person",
+      "image": "modern-c01-l02/thiers.png",
+      "identity": "person:thiers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "bismarck",
+      "name": "ビスマルク",
+      "kind": "person",
+      "image": "modern-c01-l02/bismarck.png",
+      "identity": "person:bismarck",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "zola",
+      "name": "ゾラ",
+      "kind": "person",
+      "image": "modern-c01-l06/emile-zola.png",
+      "identity": "person:zola",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "napoleon-i",
+      "name": "ナポレオン",
+      "kind": "person",
+      "image": "modern-c01-l01/napoleon-i.png",
+      "identity": "person:napoleon-i",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "napoleon-iii",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "image": "modern-c01-l01/napoleon-iii.png",
+      "identity": "person:napoleon-iii",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "wilhelm-i",
+      "name": "ヴィルヘルム1世",
+      "kind": "person",
+      "image": "modern-c01-l04/wilhelm-i.png",
+      "identity": "person:wilhelm-i",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "wilhelm-ii",
+      "name": "ヴィルヘルム2世",
+      "kind": "person",
+      "image": "modern-c03-l11/wilhelm-ii.png",
+      "identity": "person:wilhelm-ii",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "marx",
+      "name": "マルクス",
+      "kind": "person",
+      "image": "modern-c01-l04/karl-marx.png",
+      "identity": "person:marx",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "alexander-ii",
+      "name": "アレクサンドル2世",
+      "kind": "person",
+      "image": "modern-c01-l05/alexander-ii.png",
+      "identity": "person:alexander-ii",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "witte",
+      "name": "ウィッテ",
+      "kind": "person",
+      "image": "modern-c02-l10/sergei-witte.png",
+      "identity": "person:witte",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "nicholas-ii",
+      "name": "ニコライ2世",
+      "kind": "person",
+      "image": "modern-c02-l10/nicholas-ii.png",
+      "identity": "person:nicholas-ii",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "theodore-roosevelt",
+      "name": "セオドア＝ローズヴェルト",
+      "kind": "person",
+      "image": "modern-c02-l10/theodore-roosevelt.png",
+      "identity": "person:theodore-roosevelt",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "perry",
+      "name": "ペリー",
+      "kind": "person",
+      "image": "modern-c01-l03/perry.png",
+      "identity": "person:perry",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "john-hay",
+      "name": "ジョン＝ヘイ",
+      "kind": "person",
+      "image": "modern-c02-l10/john-hay.png",
+      "identity": "person:john-hay",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "maximilian",
+      "name": "マクシミリアン",
+      "kind": "person",
+      "image": "modern-c01-l02/maximilian.png",
+      "identity": "person:maximilian",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。過去の制度の参照と当時の活動を区別する。"
+    },
+    {
+      "key": "workers",
+      "name": "一般の労働者",
+      "kind": "group",
+      "image": "modern-c01-l01/workers.png",
+      "identity": "group:workers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "farmers",
+      "name": "一般の農民",
+      "kind": "group",
+      "image": "modern-c01-l01/farmers.png",
+      "identity": "group:farmers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "industrialists",
+      "name": "一般の資本家",
+      "kind": "group",
+      "image": "modern-c01-l01/industrialists.png",
+      "identity": "group:industrialists",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "bankers",
+      "name": "金融に関わる一般の人びと",
+      "kind": "group",
+      "image": "modern-c01-l01/bankers.png",
+      "identity": "group:bankers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "french-soldiers",
+      "name": "フランス軍の一般兵",
+      "kind": "group",
+      "image": "modern-c01-l01/french-soldiers.png",
+      "identity": "group:french-soldiers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "catholic-clergy",
+      "name": "カトリックの一般の聖職者",
+      "kind": "group",
+      "image": "modern-c01-l04/catholic-clergy.png",
+      "identity": "group:catholic-clergy",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "conference-table",
+      "name": "会議の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/conference-table.png",
+      "identity": "prop:conference-table",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "constitution-document",
+      "name": "制度と政策の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/constitution-document.png",
+      "identity": "prop:constitution-document",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "treaty-document",
+      "name": "条約と権利の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/treaty-document.png",
+      "identity": "prop:treaty-document",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "calendar",
+      "name": "年代と次回の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/calendar.png",
+      "identity": "prop:calendar",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "steam-factory",
+      "name": "工場と蒸気機関の模式図",
+      "kind": "building",
+      "image": "modern-c01-l01/steam-factory.png",
+      "identity": "building:steam-factory",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "heavy-industry",
+      "name": "重化学工業の模式図",
+      "kind": "building",
+      "image": "modern-c03-l11/heavy-industry.png",
+      "identity": "building:heavy-industry",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "railway",
+      "name": "鉄道の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/railway.png",
+      "identity": "prop:railway",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "ballot-box",
+      "name": "選挙の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/ballot-box.png",
+      "identity": "prop:ballot-box",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "public-school",
+      "name": "学校の模式図",
+      "kind": "building",
+      "image": "modern-c01-l02/public-school.png",
+      "identity": "building:public-school",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "grain-cargo",
+      "name": "穀物の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l02/grain-cargo.png",
+      "identity": "prop:grain-cargo",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "sugar-plantation",
+      "name": "サトウキビ栽培の模式図",
+      "kind": "building",
+      "image": "modern-c01-l01/sugar-plantation.png",
+      "identity": "building:sugar-plantation",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "oil-derrick",
+      "name": "石油産業の模式図",
+      "kind": "building",
+      "image": "modern-c01-l03/oil-derrick.png",
+      "identity": "building:oil-derrick",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "royal-palace",
+      "name": "宮殿の模式図",
+      "kind": "building",
+      "image": "modern-c01-l01/royal-palace.png",
+      "identity": "building:royal-palace",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    }
+  ],
+  "contactSheet": "docs/modern-lesson-12/contact-sheet.png"
+}

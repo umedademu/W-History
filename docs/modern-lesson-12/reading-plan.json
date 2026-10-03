@@ -1,0 +1,4885 @@
+[
+  {
+    "id": "modern-c03-l12-p01-001",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "帝国主義時代の国内問題とアメリカの台頭",
+    "paragraphs": [
+      "modern-12-5"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c03-l12-p01-002",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "資本主義の発展と労働者の生活",
+    "paragraphs": [
+      "modern-12-19"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-19",
+        "markdownStart": 0,
+        "markdownEnd": 361
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-19",
+        "lines": [
+          19
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-003",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "アメリカの外交と今回のキーワード",
+    "paragraphs": [
+      "modern-12-19"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-19",
+        "markdownStart": 361,
+        "markdownEnd": 1016
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-004",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "欧米諸国の国内問題を見ていこう",
+    "paragraphs": [
+      "modern-12-21"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-19",
+        "lines": [
+          19
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-005",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "ディズレーリとグラッドストンの二大政党制",
+    "paragraphs": [
+      "modern-12-31"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-31",
+        "markdownStart": 0,
+        "markdownEnd": 319
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-006",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "保守党の大英国主義と植民地投資",
+    "paragraphs": [
+      "modern-12-31"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-31",
+        "markdownStart": 319,
+        "markdownEnd": 495
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-007",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "交通の発達とイギリスの農業不況",
+    "paragraphs": [
+      "modern-12-33"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-33",
+        "markdownStart": 0,
+        "markdownEnd": 235
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-33",
+        "lines": [
+          33
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-008",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "新興工業国と1873年の恐慌",
+    "paragraphs": [
+      "modern-12-33"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-33",
+        "markdownStart": 235,
+        "markdownEnd": 375
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-009",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "資本輸出で支える「世界の銀行」",
+    "paragraphs": [
+      "modern-12-33"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-33",
+        "markdownStart": 375,
+        "markdownEnd": 512
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-33",
+        "lines": [
+          33
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-33",
+        "lines": [
+          33
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-010",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "自由党の小英国主義と国内改革",
+    "paragraphs": [
+      "modern-12-35"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-35",
+        "markdownStart": 0,
+        "markdownEnd": 124
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-33",
+        "lines": [
+          33
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-33",
+        "lines": [
+          33
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-33",
+        "lines": [
+          33
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-011",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "グラッドストンの教育・労働組合と選挙法改正",
+    "paragraphs": [
+      "modern-12-35"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-35",
+        "markdownStart": 124,
+        "markdownEnd": 597
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-33",
+        "lines": [
+          33
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-33",
+        "lines": [
+          33
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-33",
+        "lines": [
+          33
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-012",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "労働者の声を議会へ届ける",
+    "paragraphs": [
+      "modern-12-37"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-37",
+        "markdownStart": 0,
+        "markdownEnd": 91
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-37",
+        "lines": [
+          37
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-013",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "選挙に備える社会主義団体",
+    "paragraphs": [
+      "modern-12-37"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-37",
+        "markdownStart": 91,
+        "markdownEnd": 154
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-014",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "マルクス主義と2回の革命を振り返る",
+    "paragraphs": [
+      "modern-12-39"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-37",
+        "lines": [
+          37
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-015",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "社会民主連盟とマルクス主義",
+    "paragraphs": [
+      "modern-12-41"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-41",
+        "markdownStart": 0,
+        "markdownEnd": 99
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-016",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "議会主義と拡大した労働者の選挙権",
+    "paragraphs": [
+      "modern-12-41"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-41",
+        "markdownStart": 99,
+        "markdownEnd": 239
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-017",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "議会を通じた漸進的社会改革",
+    "paragraphs": [
+      "modern-12-41"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-41",
+        "markdownStart": 239,
+        "markdownEnd": 344
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-41",
+        "lines": [
+          41
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-018",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "ウェッブ夫妻・ショーとフェビアン協会",
+    "paragraphs": [
+      "modern-12-51"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-51",
+        "markdownStart": 0,
+        "markdownEnd": 315
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-41",
+        "lines": [
+          41
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-019",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "ケア＝ハーディと独立労働党",
+    "paragraphs": [
+      "modern-12-51"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-51",
+        "markdownStart": 315,
+        "markdownEnd": 391
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-41",
+        "lines": [
+          41
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-020",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "小選挙区で割れてしまう労働者の票",
+    "paragraphs": [
+      "modern-12-63"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-63",
+        "markdownStart": 0,
+        "markdownEnd": 125
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-021",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "労働代表委員会と1906年の29議席",
+    "paragraphs": [
+      "modern-12-63"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-63",
+        "markdownStart": 125,
+        "markdownEnd": 320
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-63",
+        "lines": [
+          63
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-022",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "議会進出と革命路線の衝突",
+    "paragraphs": [
+      "modern-12-65"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-65",
+        "markdownStart": 0,
+        "markdownEnd": 123
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-63",
+        "lines": [
+          63
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-023",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "ハーディ・マクドナルドと正式な労働党",
+    "paragraphs": [
+      "modern-12-65"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-65",
+        "markdownStart": 123,
+        "markdownEnd": 295
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-63",
+        "lines": [
+          63
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-024",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "労働党が左右する政権の成立",
+    "paragraphs": [
+      "modern-12-69"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-69",
+        "markdownStart": 0,
+        "markdownEnd": 78
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-025",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "自由党にも求められる労働者への配慮",
+    "paragraphs": [
+      "modern-12-69"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-69",
+        "markdownStart": 78,
+        "markdownEnd": 142
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-69",
+        "lines": [
+          69
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-026",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "アスキス内閣の国民保険法と議会法",
+    "paragraphs": [
+      "modern-12-71"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-71",
+        "markdownStart": 0,
+        "markdownEnd": 130
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-69",
+        "lines": [
+          69
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-027",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "下院の優先権とアイルランド自治法",
+    "paragraphs": [
+      "modern-12-71"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-71",
+        "markdownStart": 130,
+        "markdownEnd": 236
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-69",
+        "lines": [
+          69
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p01-028",
+    "volume": "modern-c03-l12-p01",
+    "part": 1,
+    "title": "最初の労働党政権は第一次世界大戦後",
+    "paragraphs": [
+      "modern-12-89"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c03-l12-p02-001",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "第三共和政初期の混乱とティエール",
+    "paragraphs": [
+      "modern-12-123"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-123",
+        "markdownStart": 0,
+        "markdownEnd": 354
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-002",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "1875年の第三共和政憲法",
+    "paragraphs": [
+      "modern-12-123"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-123",
+        "markdownStart": 354,
+        "markdownEnd": 442
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-123",
+        "lines": [
+          123
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-123",
+        "lines": [
+          123
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-003",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "共和派の連立と王党派との対立",
+    "paragraphs": [
+      "modern-12-123"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-123",
+        "markdownStart": 442,
+        "markdownEnd": 681
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-123",
+        "lines": [
+          123
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-123",
+        "lines": [
+          123
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-004",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "アルザス・ロレーヌと対独復讐心",
+    "paragraphs": [
+      "modern-12-129"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-129",
+        "markdownStart": 0,
+        "markdownEnd": 188
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-005",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "植民地の拡大とビスマルクの孤立化外交",
+    "paragraphs": [
+      "modern-12-129"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-129",
+        "markdownStart": 188,
+        "markdownEnd": 432
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-006",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "不況のなかで人気を集めたブーランジェ",
+    "paragraphs": [
+      "modern-12-133"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-133",
+        "markdownStart": 0,
+        "markdownEnd": 139
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ベルギー",
+        "paragraph": "modern-12-133",
+        "lines": [
+          133
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-007",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "反議会・反共和政運動の結集",
+    "paragraphs": [
+      "modern-12-133"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-133",
+        "markdownStart": 139,
+        "markdownEnd": 395
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-133",
+        "lines": [
+          133
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-133",
+        "lines": [
+          133
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ベルギー",
+        "paragraph": "modern-12-133",
+        "lines": [
+          133
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-008",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "ためらわれたクーデタとベルギーへの亡命",
+    "paragraphs": [
+      "modern-12-133"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-133",
+        "markdownStart": 395,
+        "markdownEnd": 484
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-133",
+        "lines": [
+          133
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-133",
+        "lines": [
+          133
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-009",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "パリ万国博覧会とエッフェル塔",
+    "paragraphs": [
+      "modern-12-135"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "contextRegions": [
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-133",
+        "lines": [
+          133
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-133",
+        "lines": [
+          133
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ベルギー",
+        "paragraph": "modern-12-133",
+        "lines": [
+          133
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-010",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "教会と共和派の対立からドレフュス事件へ",
+    "paragraphs": [
+      "modern-12-141"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c03-l12-p02-011",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "ドレフュスの告発と終身刑",
+    "paragraphs": [
+      "modern-12-143"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-143",
+        "markdownStart": 0,
+        "markdownEnd": 226
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "東欧",
+        "paragraph": "modern-12-143",
+        "lines": [
+          143
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-012",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "東欧からの移民と反ユダヤ感情",
+    "paragraphs": [
+      "modern-12-143"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-143",
+        "markdownStart": 226,
+        "markdownEnd": 328
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-143",
+        "lines": [
+          143
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-013",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "軍部の証拠隠滅とねつ造",
+    "paragraphs": [
+      "modern-12-143"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-143",
+        "markdownStart": 328,
+        "markdownEnd": 382
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-143",
+        "lines": [
+          143
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-143",
+        "lines": [
+          143
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "東欧",
+        "paragraph": "modern-12-143",
+        "lines": [
+          143
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-014",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "ゾラの公開質問状とドレフュス再審要求",
+    "paragraphs": [
+      "modern-12-159"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-159",
+        "markdownStart": 0,
+        "markdownEnd": 219
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-159",
+        "lines": [
+          159
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-159",
+        "lines": [
+          159
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-015",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "軍部・教会と共和政擁護派の対立",
+    "paragraphs": [
+      "modern-12-159"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-159",
+        "markdownStart": 219,
+        "markdownEnd": 482
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-159",
+        "lines": [
+          159
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-016",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "ファショダ事件も重なった共和政の危機",
+    "paragraphs": [
+      "modern-12-159"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-159",
+        "markdownStart": 482,
+        "markdownEnd": 544
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-017",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "釈放から1906年の無罪まで",
+    "paragraphs": [
+      "modern-12-159"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-159",
+        "markdownStart": 544,
+        "markdownEnd": 614
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-159",
+        "lines": [
+          159
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-159",
+        "lines": [
+          159
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-018",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "1901年の急進社会党は共和派の政党",
+    "paragraphs": [
+      "modern-12-163"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-163",
+        "markdownStart": 0,
+        "markdownEnd": 160
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-019",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "1905年のフランス社会党と共和派内閣",
+    "paragraphs": [
+      "modern-12-163"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-163",
+        "markdownStart": 160,
+        "markdownEnd": 257
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-020",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "教会の政治介入と政教分離法",
+    "paragraphs": [
+      "modern-12-165"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-165",
+        "markdownStart": 0,
+        "markdownEnd": 203
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-165",
+        "lines": [
+          165
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-021",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "宗教協約の破棄と軍の民主化",
+    "paragraphs": [
+      "modern-12-165"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-165",
+        "markdownStart": 203,
+        "markdownEnd": 300
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-022",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "反ユダヤ主義への衝撃とシオニズム",
+    "paragraphs": [
+      "modern-12-187"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-187",
+        "markdownStart": 0,
+        "markdownEnd": 311
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "スイス",
+        "paragraph": "modern-12-187",
+        "lines": [
+          187
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-023",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "ヘルツルのバーゼル会議とパレスチナへの移住",
+    "paragraphs": [
+      "modern-12-187"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-187",
+        "markdownStart": 311,
+        "markdownEnd": 407
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-024",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "フランスの孤立と1890年の国際情勢",
+    "paragraphs": [
+      "modern-12-193"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-193",
+        "markdownStart": 0,
+        "markdownEnd": 167
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-025",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "共通の対独対立からロシアへ接近",
+    "paragraphs": [
+      "modern-12-193"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-193",
+        "markdownStart": 167,
+        "markdownEnd": 295
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ヨーロッパ",
+        "paragraph": "modern-12-193",
+        "lines": [
+          193
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アジア",
+        "paragraph": "modern-12-193",
+        "lines": [
+          193
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アフリカ",
+        "paragraph": "modern-12-193",
+        "lines": [
+          193
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-193",
+        "lines": [
+          193
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-026",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "露仏同盟とシベリア鉄道への投資",
+    "paragraphs": [
+      "modern-12-193"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-193",
+        "markdownStart": 295,
+        "markdownEnd": 526
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ヨーロッパ",
+        "paragraph": "modern-12-193",
+        "lines": [
+          193
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アジア",
+        "paragraph": "modern-12-193",
+        "lines": [
+          193
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アフリカ",
+        "paragraph": "modern-12-193",
+        "lines": [
+          193
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-193",
+        "lines": [
+          193
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-193",
+        "lines": [
+          193
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-027",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "フランス農民の貯蓄と海外の投資先",
+    "paragraphs": [
+      "modern-12-195"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-195",
+        "markdownStart": 0,
+        "markdownEnd": 125
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-195",
+        "lines": [
+          195
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "トルコ",
+        "paragraph": "modern-12-195",
+        "lines": [
+          195
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "バルカン諸国",
+        "paragraph": "modern-12-195",
+        "lines": [
+          195
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-028",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "ロシア・トルコ・バルカンへの高利貸帝国主義",
+    "paragraphs": [
+      "modern-12-195"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-195",
+        "markdownStart": 125,
+        "markdownEnd": 220
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-195",
+        "lines": [
+          195
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-029",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "議会より直接行動を選ぶフランス労働者",
+    "paragraphs": [
+      "modern-12-197"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-197",
+        "markdownStart": 0,
+        "markdownEnd": 120
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p02-030",
+    "volume": "modern-c03-l12-p02",
+    "part": 2,
+    "title": "労働総同盟とサンディカリズム",
+    "paragraphs": [
+      "modern-12-197"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-197",
+        "markdownStart": 120,
+        "markdownEnd": 206
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-197",
+        "lines": [
+          197
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-001",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "ヴィルヘルム1世とビスマルクの体制",
+    "paragraphs": [
+      "modern-12-217"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-217",
+        "markdownStart": 0,
+        "markdownEnd": 307
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-002",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "若いヴィルヘルム2世への交代",
+    "paragraphs": [
+      "modern-12-217"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-217",
+        "markdownStart": 307,
+        "markdownEnd": 487
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-003",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "クルップ・ジーメンスとドイツ工業の発展",
+    "paragraphs": [
+      "modern-12-219"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-219",
+        "markdownStart": 0,
+        "markdownEnd": 171
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-004",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "労働運動とビスマルク・新皇帝の対立",
+    "paragraphs": [
+      "modern-12-219"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-219",
+        "markdownStart": 171,
+        "markdownEnd": 312
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-219",
+        "lines": [
+          219
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-219",
+        "lines": [
+          219
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-005",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "ヴィルヘルム2世が覆したい旧政策",
+    "paragraphs": [
+      "modern-12-219"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-219",
+        "markdownStart": 312,
+        "markdownEnd": 385
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-219",
+        "lines": [
+          219
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-219",
+        "lines": [
+          219
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-006",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "ビスマルク退陣と皇帝の親政",
+    "paragraphs": [
+      "modern-12-221"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-221",
+        "markdownStart": 0,
+        "markdownEnd": 143
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-221",
+        "lines": [
+          221
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-007",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "社会主義者鎮圧法の廃止",
+    "paragraphs": [
+      "modern-12-221"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-221",
+        "markdownStart": 143,
+        "markdownEnd": 276
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-008",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "ドイツ社会民主党とエルフルト綱領",
+    "paragraphs": [
+      "modern-12-227"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-227",
+        "markdownStart": 0,
+        "markdownEnd": 276
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-009",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "労働組合との協力と議席の増加",
+    "paragraphs": [
+      "modern-12-227"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-227",
+        "markdownStart": 276,
+        "markdownEnd": 309
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-227",
+        "lines": [
+          227
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-010",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "議会進出と革命の目標の矛盾",
+    "paragraphs": [
+      "modern-12-229"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-229",
+        "markdownStart": 0,
+        "markdownEnd": 90
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-229",
+        "lines": [
+          229
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-011",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "ベルンシュタインの修正主義",
+    "paragraphs": [
+      "modern-12-229"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-229",
+        "markdownStart": 90,
+        "markdownEnd": 250
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-229",
+        "lines": [
+          229
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-012",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "社会民主党が1912年の議会内第1党に",
+    "paragraphs": [
+      "modern-12-229"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-229",
+        "markdownStart": 250,
+        "markdownEnd": 316
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-013",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "労働者の支援と第1インターナショナル",
+    "paragraphs": [
+      "modern-12-237"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-237",
+        "markdownStart": 0,
+        "markdownEnd": 271
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-229",
+        "lines": [
+          229
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-014",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "マルクスとバクーニンの対立",
+    "paragraphs": [
+      "modern-12-237"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-237",
+        "markdownStart": 271,
+        "markdownEnd": 440
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-229",
+        "lines": [
+          229
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-015",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "パリ＝コミューン支持と政府の弾圧",
+    "paragraphs": [
+      "modern-12-237"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-237",
+        "markdownStart": 440,
+        "markdownEnd": 489
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-229",
+        "lines": [
+          229
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-016",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "第2インターナショナルとドイツ社会民主党",
+    "paragraphs": [
+      "modern-12-239"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-239",
+        "markdownStart": 0,
+        "markdownEnd": 215
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アジア",
+        "paragraph": "modern-12-239",
+        "lines": [
+          239
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "日本",
+        "paragraph": "modern-12-239",
+        "lines": [
+          239
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-017",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "個人参加と組織参加の違い",
+    "paragraphs": [
+      "modern-12-239"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-239",
+        "markdownStart": 215,
+        "markdownEnd": 296
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アジア",
+        "paragraph": "modern-12-239",
+        "lines": [
+          239
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "日本",
+        "paragraph": "modern-12-239",
+        "lines": [
+          239
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-239",
+        "lines": [
+          239
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-018",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "アジアから参加した片山潜",
+    "paragraphs": [
+      "modern-12-239"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-239",
+        "markdownStart": 296,
+        "markdownEnd": 356
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-239",
+        "lines": [
+          239
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-019",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "輸出の拡大とドイツ企業の対外進出要求",
+    "paragraphs": [
+      "modern-12-257"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-257",
+        "markdownStart": 0,
+        "markdownEnd": 145
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "バルカン半島",
+        "paragraph": "modern-12-257",
+        "lines": [
+          257
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-257",
+        "lines": [
+          257
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-020",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "バルカン進出・再保障条約更新拒否と世界政策",
+    "paragraphs": [
+      "modern-12-257"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-257",
+        "markdownStart": 145,
+        "markdownEnd": 493
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-257",
+        "lines": [
+          257
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-021",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "海軍の拡張とバグダード鉄道の敷設権",
+    "paragraphs": [
+      "modern-12-259"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-259",
+        "markdownStart": 0,
+        "markdownEnd": 201
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-022",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "ベルリン・ビザンティウム・バグダードの3B政策",
+    "paragraphs": [
+      "modern-12-259"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-259",
+        "markdownStart": 201,
+        "markdownEnd": 558
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-023",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "イギリスが警戒するペルシア湾への進出",
+    "paragraphs": [
+      "modern-12-284"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-284",
+        "markdownStart": 0,
+        "markdownEnd": 133
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-024",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "ボンベイ・ベンガルの例と語呂の注意",
+    "paragraphs": [
+      "modern-12-284"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-284",
+        "markdownStart": 133,
+        "markdownEnd": 287
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p03-025",
+    "volume": "modern-c03-l12-p03",
+    "part": 3,
+    "title": "イギリスとドイツの建艦競争",
+    "paragraphs": [
+      "modern-12-286"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c03-l12-p04-001",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "農奴解放後も進まないロシアの工業化",
+    "paragraphs": [
+      "modern-12-292"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-292",
+        "markdownStart": 0,
+        "markdownEnd": 225
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-292",
+        "lines": [
+          292
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-002",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "投資不足と南下政策での英露対立",
+    "paragraphs": [
+      "modern-12-292"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-292",
+        "markdownStart": 225,
+        "markdownEnd": 308
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-292",
+        "lines": [
+          292
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-003",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "アレクサンドル3世への代替わり",
+    "paragraphs": [
+      "modern-12-292"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-292",
+        "markdownStart": 308,
+        "markdownEnd": 365
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-292",
+        "lines": [
+          292
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-292",
+        "lines": [
+          292
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-004",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "ドイツに見捨てられたロシアと露仏同盟",
+    "paragraphs": [
+      "modern-12-294"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-294",
+        "markdownStart": 0,
+        "markdownEnd": 296
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-005",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "フランス資本・ウィッテと急速な工業化",
+    "paragraphs": [
+      "modern-12-294"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-294",
+        "markdownStart": 296,
+        "markdownEnd": 442
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-294",
+        "lines": [
+          294,
+          300
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-006",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "没落農民の労働とロシア資本主義",
+    "paragraphs": [
+      "modern-12-294"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-294",
+        "markdownStart": 442,
+        "markdownEnd": 551
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-294",
+        "lines": [
+          294,
+          300
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-294",
+        "lines": [
+          300
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-007",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "不況と全国の農民・労働者の運動",
+    "paragraphs": [
+      "modern-12-306"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-306",
+        "markdownStart": 0,
+        "markdownEnd": 122
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-008",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "専制政治批判と政党結成",
+    "paragraphs": [
+      "modern-12-306"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-306",
+        "markdownStart": 122,
+        "markdownEnd": 217
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-306",
+        "lines": [
+          306
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-009",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "ロンドン・ブリュッセルの大会とレーニン・マルトフの分裂",
+    "paragraphs": [
+      "modern-12-308"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-308",
+        "markdownStart": 0,
+        "markdownEnd": 458
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-010",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "多数派・少数派の意味と原書226頁の図",
+    "paragraphs": [
+      "modern-12-308"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-308",
+        "markdownStart": 458,
+        "markdownEnd": 641
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-308",
+        "lines": [
+          308
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-011",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "マルトフのメンシェヴィキと二段階の目標",
+    "paragraphs": [
+      "modern-12-310"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-310",
+        "markdownStart": 0,
+        "markdownEnd": 131
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-012",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "マルクス主義の原則とプレハーノフ",
+    "paragraphs": [
+      "modern-12-310"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-310",
+        "markdownStart": 131,
+        "markdownEnd": 203
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-310",
+        "lines": [
+          310
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-013",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "レーニンのボリシェヴィキと二段階連続革命",
+    "paragraphs": [
+      "modern-12-312"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-312",
+        "markdownStart": 0,
+        "markdownEnd": 171
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-014",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "少数の革命集団による武力革命",
+    "paragraphs": [
+      "modern-12-312"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-312",
+        "markdownStart": 171,
+        "markdownEnd": 244
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-312",
+        "lines": [
+          312
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-015",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "ミールを基盤とするエスエル",
+    "paragraphs": [
+      "modern-12-328"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c03-l12-p04-016",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "工業発展の資金と農民の窮乏",
+    "paragraphs": [
+      "modern-12-344"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-344",
+        "markdownStart": 0,
+        "markdownEnd": 160
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-017",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "農民反乱とユダヤ人への集団襲撃",
+    "paragraphs": [
+      "modern-12-344"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-344",
+        "markdownStart": 160,
+        "markdownEnd": 229
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-344",
+        "lines": [
+          344
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-018",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "日露戦争とペテルブルクの食糧難",
+    "paragraphs": [
+      "modern-12-346"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-346",
+        "markdownStart": 0,
+        "markdownEnd": 253
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-019",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "ニコライ2世と皇太子アレクセイ",
+    "paragraphs": [
+      "modern-12-346"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-346",
+        "markdownStart": 253,
+        "markdownEnd": 401
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-346",
+        "lines": [
+          346
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-346",
+        "lines": [
+          346
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "日本",
+        "paragraph": "modern-12-346",
+        "lines": [
+          346
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-020",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "ガポンと労働者家族の請願",
+    "paragraphs": [
+      "modern-12-348"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-348",
+        "markdownStart": 0,
+        "markdownEnd": 233
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-021",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "冬宮への行進と軍隊の発砲",
+    "paragraphs": [
+      "modern-12-348"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-348",
+        "markdownStart": 233,
+        "markdownEnd": 409
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-348",
+        "lines": [
+          348
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-022",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "皇帝への信頼を失う民衆",
+    "paragraphs": [
+      "modern-12-348"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-348",
+        "markdownStart": 409,
+        "markdownEnd": 431
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-348",
+        "lines": [
+          348
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-023",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "血の日曜日から第1次ロシア革命へ",
+    "paragraphs": [
+      "modern-12-356"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-356",
+        "markdownStart": 0,
+        "markdownEnd": 242
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "日本",
+        "paragraph": "modern-12-356",
+        "lines": [
+          356
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-356",
+        "lines": [
+          356
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-024",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "労働者の自治組織ソヴィエト",
+    "paragraphs": [
+      "modern-12-356"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-356",
+        "markdownStart": 242,
+        "markdownEnd": 376
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "日本",
+        "paragraph": "modern-12-356",
+        "lines": [
+          356
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-356",
+        "lines": [
+          356
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-025",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "軍へ広がる革命とポチョムキン号の反乱",
+    "paragraphs": [
+      "modern-12-356"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-356",
+        "markdownStart": 376,
+        "markdownEnd": 493
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-026",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "全国へ広がる革命と日露戦争の終結",
+    "paragraphs": [
+      "modern-12-390"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-390",
+        "markdownStart": 0,
+        "markdownEnd": 58
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-027",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "十月宣言の約束と首相ウィッテ",
+    "paragraphs": [
+      "modern-12-390"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-390",
+        "markdownStart": 58,
+        "markdownEnd": 389
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-390",
+        "lines": [
+          390
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "日本",
+        "paragraph": "modern-12-390",
+        "lines": [
+          390
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-028",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "制限選挙のドゥーマと立憲民主党",
+    "paragraphs": [
+      "modern-12-392"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-392",
+        "markdownStart": 0,
+        "markdownEnd": 155
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-029",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "皇帝の専制権力を残す憲法",
+    "paragraphs": [
+      "modern-12-392"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-392",
+        "markdownStart": 155,
+        "markdownEnd": 298
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-392",
+        "lines": [
+          392,
+          408
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-030",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "選挙で選ばれる議会という変化",
+    "paragraphs": [
+      "modern-12-392"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-392",
+        "markdownStart": 298,
+        "markdownEnd": 336
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-031",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "保守派の逆襲とウィッテ解任",
+    "paragraphs": [
+      "modern-12-410"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-410",
+        "markdownStart": 0,
+        "markdownEnd": 184
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-392",
+        "lines": [
+          392,
+          408
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-032",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "ストルイピンの反動政治とミール解体",
+    "paragraphs": [
+      "modern-12-410"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-410",
+        "markdownStart": 184,
+        "markdownEnd": 475
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-392",
+        "lines": [
+          392,
+          408
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-033",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "貧困化する農民と富農クラーク",
+    "paragraphs": [
+      "modern-12-410"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-410",
+        "markdownStart": 475,
+        "markdownEnd": 600
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-392",
+        "lines": [
+          392,
+          408
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p04-034",
+    "volume": "modern-c03-l12-p04",
+    "part": 4,
+    "title": "議会無視への反発と1911年の暗殺",
+    "paragraphs": [
+      "modern-12-410"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-410",
+        "markdownStart": 600,
+        "markdownEnd": 669
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ロシア",
+        "paragraph": "modern-12-392",
+        "lines": [
+          392,
+          408
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-001",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "工業発展とアメリカの労働運動",
+    "paragraphs": [
+      "modern-12-416"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-416",
+        "markdownStart": 0,
+        "markdownEnd": 193
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-002",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ゴンパーズのAFLとIWW",
+    "paragraphs": [
+      "modern-12-416"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-416",
+        "markdownStart": 193,
+        "markdownEnd": 451
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-416",
+        "lines": [
+          416
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ヨーロッパ",
+        "paragraph": "modern-12-416",
+        "lines": [
+          416
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-003",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "中産階級の警戒とポピュリスト党",
+    "paragraphs": [
+      "modern-12-416"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-416",
+        "markdownStart": 451,
+        "markdownEnd": 548
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-416",
+        "lines": [
+          416
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ヨーロッパ",
+        "paragraph": "modern-12-416",
+        "lines": [
+          416
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-004",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "独占資本にも社会主義にも反対する中産階級",
+    "paragraphs": [
+      "modern-12-418"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-418",
+        "markdownStart": 0,
+        "markdownEnd": 109
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-416",
+        "lines": [
+          416
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ヨーロッパ",
+        "paragraph": "modern-12-416",
+        "lines": [
+          416
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-005",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "自由競争を求める革新主義",
+    "paragraphs": [
+      "modern-12-418"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-418",
+        "markdownStart": 109,
+        "markdownEnd": 252
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-416",
+        "lines": [
+          416
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ヨーロッパ",
+        "paragraph": "modern-12-416",
+        "lines": [
+          416
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-006",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ハリソン・ローズヴェルトの規制と州法の違い",
+    "paragraphs": [
+      "modern-12-428"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-428",
+        "markdownStart": 0,
+        "markdownEnd": 255
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-007",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ウィルソンの新しい自由とクレイトン法",
+    "paragraphs": [
+      "modern-12-428"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-428",
+        "markdownStart": 255,
+        "markdownEnd": 427
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-428",
+        "lines": [
+          428
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-008",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "経済活動の自由と労働者・農民保護",
+    "paragraphs": [
+      "modern-12-428"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-428",
+        "markdownStart": 427,
+        "markdownEnd": 511
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-428",
+        "lines": [
+          428
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-009",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "アメリカの国内問題から外交へ",
+    "paragraphs": [
+      "modern-12-430"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c03-l12-p05-010",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "西部開拓と領土・人口の拡大",
+    "paragraphs": [
+      "modern-12-434"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-434",
+        "markdownStart": 0,
+        "markdownEnd": 154
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-011",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "拡大する国内市場と植民地の効果",
+    "paragraphs": [
+      "modern-12-434"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-434",
+        "markdownStart": 154,
+        "markdownEnd": 261
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-434",
+        "lines": [
+          434
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-012",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ジェロニモ鎮圧とウーンデッドニーの虐殺",
+    "paragraphs": [
+      "modern-12-436"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-436",
+        "markdownStart": 0,
+        "markdownEnd": 223
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-436",
+        "lines": [
+          436
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ラテンアメリカ",
+        "paragraph": "modern-12-436",
+        "lines": [
+          436
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-013",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "1890年のフロンティア消滅と工業生産1位",
+    "paragraphs": [
+      "modern-12-436"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-436",
+        "markdownStart": 223,
+        "markdownEnd": 355
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ラテンアメリカ",
+        "paragraph": "modern-12-436",
+        "lines": [
+          436
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-014",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ラテンアメリカへの市場拡大",
+    "paragraphs": [
+      "modern-12-436"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-436",
+        "markdownStart": 355,
+        "markdownEnd": 558
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-436",
+        "lines": [
+          436
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-015",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ハリソンとワシントンのパン＝アメリカ会議",
+    "paragraphs": [
+      "modern-12-438"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-438",
+        "markdownStart": 0,
+        "markdownEnd": 121
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ合衆国",
+        "paragraph": "modern-12-438",
+        "lines": [
+          438
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "南北アメリカ",
+        "paragraph": "modern-12-438",
+        "lines": [
+          438
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ラテンアメリカ",
+        "paragraph": "modern-12-438",
+        "lines": [
+          438
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-016",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "連携を口実とする政治・経済支配",
+    "paragraphs": [
+      "modern-12-438"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-438",
+        "markdownStart": 121,
+        "markdownEnd": 242
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-017",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "マッキンリーの標的キューバ",
+    "paragraphs": [
+      "modern-12-498"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-498",
+        "markdownStart": 0,
+        "markdownEnd": 185
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "スペイン",
+        "paragraph": "modern-12-498",
+        "lines": [
+          498
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-498",
+        "lines": [
+          498
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-018",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ホセ＝マルティの独立運動とアメリカ世論",
+    "paragraphs": [
+      "modern-12-498"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-498",
+        "markdownStart": 185,
+        "markdownEnd": 254
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-019",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "サトウキビ投資と企業の思惑",
+    "paragraphs": [
+      "modern-12-498"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-498",
+        "markdownStart": 254,
+        "markdownEnd": 328
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "スペイン",
+        "paragraph": "modern-12-498",
+        "lines": [
+          498
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-020",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "戦争準備と砲艦外交",
+    "paragraphs": [
+      "modern-12-500"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c03-l12-p05-021",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ハバナ港のメーン号爆沈と米西戦争",
+    "paragraphs": [
+      "modern-12-502"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-502",
+        "markdownStart": 0,
+        "markdownEnd": 267
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フィリピン",
+        "paragraph": "modern-12-502",
+        "lines": [
+          508
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-022",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "同時に進めたフィリピン占領",
+    "paragraphs": [
+      "modern-12-502"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-502",
+        "markdownStart": 267,
+        "markdownEnd": 378
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "キューバ",
+        "paragraph": "modern-12-502",
+        "lines": [
+          502
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "スペイン",
+        "paragraph": "modern-12-502",
+        "lines": [
+          502,
+          508
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-023",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "パリ条約とフィリピン・グアム・プエルトリコ",
+    "paragraphs": [
+      "modern-12-510"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-510",
+        "markdownStart": 0,
+        "markdownEnd": 396
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-024",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "プラット条項とキューバ保護国化",
+    "paragraphs": [
+      "modern-12-510"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-510",
+        "markdownStart": 396,
+        "markdownEnd": 589
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フィリピン",
+        "paragraph": "modern-12-510",
+        "lines": [
+          510
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "スペイン",
+        "paragraph": "modern-12-510",
+        "lines": [
+          510
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-025",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "リリウオカラニ退位とハワイ併合",
+    "paragraphs": [
+      "modern-12-524"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-524",
+        "markdownStart": 0,
+        "markdownEnd": 280
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "日本",
+        "paragraph": "modern-12-524",
+        "lines": [
+          524
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アジア",
+        "paragraph": "modern-12-524",
+        "lines": [
+          540
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-026",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ペリーと日本の開国・5港への入港",
+    "paragraphs": [
+      "modern-12-524"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-524",
+        "markdownStart": 280,
+        "markdownEnd": 534
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フィリピン",
+        "paragraph": "modern-12-524",
+        "lines": [
+          524
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ハワイ",
+        "paragraph": "modern-12-524",
+        "lines": [
+          524
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アジア",
+        "paragraph": "modern-12-524",
+        "lines": [
+          540
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "スペイン",
+        "paragraph": "modern-12-524",
+        "lines": [
+          524
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-027",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "太平洋航路の確保とアジア進出",
+    "paragraphs": [
+      "modern-12-524"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-524",
+        "markdownStart": 534,
+        "markdownEnd": 615
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フィリピン",
+        "paragraph": "modern-12-524",
+        "lines": [
+          524
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ハワイ",
+        "paragraph": "modern-12-524",
+        "lines": [
+          524
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "日本",
+        "paragraph": "modern-12-524",
+        "lines": [
+          524
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "スペイン",
+        "paragraph": "modern-12-524",
+        "lines": [
+          524
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-028",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "フィリピン＝アメリカ戦争と中国進出の遅れ",
+    "paragraphs": [
+      "modern-12-542"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-542",
+        "markdownStart": 0,
+        "markdownEnd": 227
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アジア",
+        "paragraph": "modern-12-542",
+        "lines": [
+          542
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-029",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ジョン＝ヘイの門戸開放宣言",
+    "paragraphs": [
+      "modern-12-542"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-542",
+        "markdownStart": 227,
+        "markdownEnd": 711
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フィリピン",
+        "paragraph": "modern-12-542",
+        "lines": [
+          542
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ヨーロッパ",
+        "paragraph": "modern-12-542",
+        "lines": [
+          542
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "日本",
+        "paragraph": "modern-12-542",
+        "lines": [
+          542
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-542",
+        "lines": [
+          542
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "中国",
+        "paragraph": "modern-12-542",
+        "lines": [
+          542
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アジア",
+        "paragraph": "modern-12-542",
+        "lines": [
+          542
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "スペイン",
+        "paragraph": "modern-12-542",
+        "lines": [
+          542
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-030",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "3原則とアメリカのアジア外交",
+    "paragraphs": [
+      "modern-12-542"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-542",
+        "markdownStart": 711,
+        "markdownEnd": 1020
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フィリピン",
+        "paragraph": "modern-12-542",
+        "lines": [
+          542
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ヨーロッパ",
+        "paragraph": "modern-12-542",
+        "lines": [
+          542
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "日本",
+        "paragraph": "modern-12-542",
+        "lines": [
+          542
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "スペイン",
+        "paragraph": "modern-12-542",
+        "lines": [
+          542
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-031",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "マッキンリーからローズヴェルトへ",
+    "paragraphs": [
+      "modern-12-546"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c03-l12-p05-032",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ローズヴェルトのモンロー宣言拡大解釈",
+    "paragraphs": [
+      "modern-12-548"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-548",
+        "markdownStart": 0,
+        "markdownEnd": 245
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-033",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "パン＝アメリカ主義との組み合わせ",
+    "paragraphs": [
+      "modern-12-548"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-548",
+        "markdownStart": 245,
+        "markdownEnd": 366
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ヨーロッパ",
+        "paragraph": "modern-12-548",
+        "lines": [
+          548
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-034",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "欧州への孤立主義とラテンアメリカへの進出",
+    "paragraphs": [
+      "modern-12-550"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-550",
+        "markdownStart": 0,
+        "markdownEnd": 123
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-035",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "武力をちらつかせる棍棒外交",
+    "paragraphs": [
+      "modern-12-550"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-550",
+        "markdownStart": 123,
+        "markdownEnd": 270
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ヨーロッパ",
+        "paragraph": "modern-12-550",
+        "lines": [
+          550
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-036",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "アメリカの大西洋・太平洋と海軍",
+    "paragraphs": [
+      "modern-12-552"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-552",
+        "markdownStart": 0,
+        "markdownEnd": 176
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アジア",
+        "paragraph": "modern-12-552",
+        "lines": [
+          552
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-552",
+        "lines": [
+          560
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "日本",
+        "paragraph": "modern-12-552",
+        "lines": [
+          560
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-037",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "南米南端とスエズ経由の遠回り",
+    "paragraphs": [
+      "modern-12-552"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-552",
+        "markdownStart": 176,
+        "markdownEnd": 299
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-552",
+        "lines": [
+          552
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドイツ",
+        "paragraph": "modern-12-552",
+        "lines": [
+          560
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "日本",
+        "paragraph": "modern-12-552",
+        "lines": [
+          560
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-038",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "両洋を守るためのパナマ運河",
+    "paragraphs": [
+      "modern-12-552"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-552",
+        "markdownStart": 299,
+        "markdownEnd": 371
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-552",
+        "lines": [
+          552
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アジア",
+        "paragraph": "modern-12-552",
+        "lines": [
+          552
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-039",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "コロンビアの拒否とパナマの独立",
+    "paragraphs": [
+      "modern-12-562"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-562",
+        "markdownStart": 0,
+        "markdownEnd": 211
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-040",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "運河の永久租借権・工事権と1914年完成",
+    "paragraphs": [
+      "modern-12-562"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-562",
+        "markdownStart": 211,
+        "markdownEnd": 508
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-041",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "債務と銀行による保護国化",
+    "paragraphs": [
+      "modern-12-564"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-564",
+        "markdownStart": 0,
+        "markdownEnd": 86
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ドミニカ",
+        "paragraph": "modern-12-564",
+        "lines": [
+          564
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ニカラグア",
+        "paragraph": "modern-12-564",
+        "lines": [
+          564
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ハイチ",
+        "paragraph": "modern-12-564",
+        "lines": [
+          564
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-042",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ドミニカの関税管理権とニカラグア・ハイチ",
+    "paragraphs": [
+      "modern-12-564"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-564",
+        "markdownStart": 86,
+        "markdownEnd": 162
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-043",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "門戸開放の領土保全とポーツマス条約の仲介",
+    "paragraphs": [
+      "modern-12-566"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c03-l12-p05-044",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "タフトの時代にも続くラテンアメリカ進出",
+    "paragraphs": [
+      "modern-12-572"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-572",
+        "markdownStart": 0,
+        "markdownEnd": 158
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ニカラグア",
+        "paragraph": "modern-12-572",
+        "lines": [
+          572
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-045",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "投資で影響力を強めるドル外交",
+    "paragraphs": [
+      "modern-12-572"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-572",
+        "markdownStart": 158,
+        "markdownEnd": 300
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ニカラグア",
+        "paragraph": "modern-12-572",
+        "lines": [
+          572
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-046",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "反乱への軍事介入とニカラグアの海兵隊",
+    "paragraphs": [
+      "modern-12-572"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-572",
+        "markdownStart": 300,
+        "markdownEnd": 365
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ラテンアメリカ",
+        "paragraph": "modern-12-572",
+        "lines": [
+          572
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-047",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ウィルソンの理想と宣教師外交",
+    "paragraphs": [
+      "modern-12-574"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-574",
+        "markdownStart": 0,
+        "markdownEnd": 282
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ハイチ",
+        "paragraph": "modern-12-574",
+        "lines": [
+          590
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "ドミニカ",
+        "paragraph": "modern-12-574",
+        "lines": [
+          590
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "キューバ",
+        "paragraph": "modern-12-574",
+        "lines": [
+          590
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "メキシコ",
+        "paragraph": "modern-12-574",
+        "lines": [
+          590
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-048",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "海兵隊派遣とメキシコ革命への干渉",
+    "paragraphs": [
+      "modern-12-574"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-574",
+        "markdownStart": 282,
+        "markdownEnd": 500
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "ラテンアメリカ",
+        "paragraph": "modern-12-574",
+        "lines": [
+          590
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-049",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "独立戦争・米墨戦争で疲弊したメキシコ",
+    "paragraphs": [
+      "modern-12-594"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c03-l12-p05-050",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "フアレスのレフォルマと保守派との内戦",
+    "paragraphs": [
+      "modern-12-596"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-596",
+        "markdownStart": 0,
+        "markdownEnd": 197
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "中南米",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "スペイン",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "メキシコ",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "オーストリア",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-051",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ナポレオン3世の出兵とマクシミリアン",
+    "paragraphs": [
+      "modern-12-596"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-596",
+        "markdownStart": 197,
+        "markdownEnd": 495
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-052",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "南北戦争の終結とフランス撤退",
+    "paragraphs": [
+      "modern-12-596"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-596",
+        "markdownStart": 495,
+        "markdownEnd": 595
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "中南米",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "スペイン",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "メキシコ",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "オーストリア",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-053",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "フアレスの勝利とマクシミリアン処刑",
+    "paragraphs": [
+      "modern-12-596"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-596",
+        "markdownStart": 595,
+        "markdownEnd": 638
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "中南米",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "イギリス",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "スペイン",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "オーストリア",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-596",
+        "lines": [
+          596
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-054",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ディアスの独裁とアメリカへの従属",
+    "paragraphs": [
+      "modern-12-598"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-598",
+        "markdownStart": 0,
+        "markdownEnd": 193
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-055",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "外国資本による近代化と農民の貧困",
+    "paragraphs": [
+      "modern-12-598"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-598",
+        "markdownStart": 193,
+        "markdownEnd": 319
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "メキシコ",
+        "paragraph": "modern-12-598",
+        "lines": [
+          598
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "フランス",
+        "paragraph": "modern-12-598",
+        "lines": [
+          598
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-598",
+        "lines": [
+          598
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-056",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "マデロ・サパタと1910年の革命",
+    "paragraphs": [
+      "modern-12-600"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-600",
+        "markdownStart": 0,
+        "markdownEnd": 283
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-057",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "地主と農民の対立",
+    "paragraphs": [
+      "modern-12-600"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-600",
+        "markdownStart": 283,
+        "markdownEnd": 386
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "メキシコ",
+        "paragraph": "modern-12-600",
+        "lines": [
+          600
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-058",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ウェルタのクーデタとマデロ殺害",
+    "paragraphs": [
+      "modern-12-610"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-610",
+        "markdownStart": 0,
+        "markdownEnd": 102
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "メキシコ",
+        "paragraph": "modern-12-610",
+        "lines": [
+          610
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      },
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-610",
+        "lines": [
+          610
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-059",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "カランサ・サパタ・ビリャの憲政派",
+    "paragraphs": [
+      "modern-12-610"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-610",
+        "markdownStart": 102,
+        "markdownEnd": 269
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "アメリカ",
+        "paragraph": "modern-12-610",
+        "lines": [
+          610
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-060",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "ウィルソンの干渉とウェルタ政権崩壊",
+    "paragraphs": [
+      "modern-12-610"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-610",
+        "markdownStart": 269,
+        "markdownEnd": 344
+      }
+    ],
+    "contextRegions": [
+      {
+        "name": "メキシコ",
+        "paragraph": "modern-12-610",
+        "lines": [
+          610
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-061",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "カランサと農民勢力の対立",
+    "paragraphs": [
+      "modern-12-612"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-612",
+        "markdownStart": 0,
+        "markdownEnd": 129
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-062",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "暗殺の続く混乱",
+    "paragraphs": [
+      "modern-12-612"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-612",
+        "markdownStart": 129,
+        "markdownEnd": 178
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-063",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "カルデナスの改革と大戦前の石油国有化",
+    "paragraphs": [
+      "modern-12-612"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "slices": [
+      {
+        "paragraph": "modern-12-612",
+        "markdownStart": 178,
+        "markdownEnd": 351
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-064",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "5か国の国内問題と外交を復習しよう",
+    "paragraphs": [
+      "modern-12-614"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。",
+    "contextRegions": [
+      {
+        "name": "メキシコ",
+        "paragraph": "modern-12-612",
+        "lines": [
+          612
+        ],
+        "reason": "親段落または直前の同じ節の本文に明記された中心地域だけを静的に引き継ぐ。本人の所在地・旅程は補わない。"
+      }
+    ]
+  },
+  {
+    "id": "modern-c03-l12-p05-065",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "原書の年号欄を確認しよう",
+    "paragraphs": [
+      "modern-12-616"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  },
+  {
+    "id": "modern-c03-l12-p05-066",
+    "volume": "modern-c03-l12-p05",
+    "part": 5,
+    "title": "第一次世界大戦に向けて国際関係を見直す",
+    "paragraphs": [
+      "modern-12-634"
+    ],
+    "reason": "通読した文・発話・制度と帰結の意味の切れ目で原文をそのまま分ける。"
+  }
+]

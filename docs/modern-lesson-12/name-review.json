@@ -1,0 +1,3026 @@
+{
+  "names": [
+    {
+      "name": "ヨーロッパ",
+      "key": "ヨーロッパ",
+      "kind": "region",
+      "points": [
+        [
+          15,
+          50
+        ]
+      ],
+      "family": "ヨーロッパ"
+    },
+    {
+      "name": "東欧",
+      "key": "東欧",
+      "kind": "region",
+      "points": [
+        [
+          25,
+          52
+        ]
+      ],
+      "family": "東欧"
+    },
+    {
+      "name": "欧米",
+      "key": "欧米",
+      "kind": "region",
+      "points": [
+        [
+          -25,
+          45
+        ]
+      ],
+      "family": "欧米"
+    },
+    {
+      "name": "アジア",
+      "key": "アジア",
+      "kind": "region",
+      "points": [
+        [
+          85,
+          30
+        ]
+      ],
+      "family": "アジア"
+    },
+    {
+      "name": "西アジア",
+      "key": "西アジア",
+      "kind": "region",
+      "points": [
+        [
+          45,
+          30
+        ]
+      ],
+      "family": "西アジア"
+    },
+    {
+      "name": "アフリカ",
+      "key": "アフリカ",
+      "kind": "region",
+      "points": [
+        [
+          20,
+          0
+        ]
+      ],
+      "family": "アフリカ"
+    },
+    {
+      "name": "アメリカ大陸",
+      "key": "アメリカ大陸",
+      "kind": "region",
+      "points": [
+        [
+          -80,
+          5
+        ]
+      ],
+      "family": "アメリカ大陸"
+    },
+    {
+      "name": "南北アメリカ",
+      "key": "南北アメリカ",
+      "kind": "region",
+      "points": [
+        [
+          -80,
+          5
+        ]
+      ],
+      "family": "アメリカ大陸"
+    },
+    {
+      "name": "南米",
+      "key": "南米",
+      "kind": "region",
+      "points": [
+        [
+          -60,
+          -20
+        ]
+      ],
+      "family": "南米"
+    },
+    {
+      "name": "ラテンアメリカ",
+      "key": "ラテンアメリカ",
+      "kind": "region",
+      "points": [
+        [
+          -75,
+          -15
+        ]
+      ],
+      "family": "ラテンアメリカ"
+    },
+    {
+      "name": "中南米",
+      "key": "中南米",
+      "kind": "region",
+      "points": [
+        [
+          -75,
+          -15
+        ]
+      ],
+      "family": "ラテンアメリカ"
+    },
+    {
+      "name": "イギリス",
+      "key": "イギリス",
+      "kind": "region",
+      "points": [
+        [
+          -2,
+          54
+        ]
+      ],
+      "family": "イギリス"
+    },
+    {
+      "name": "英国",
+      "key": "英国",
+      "kind": "region",
+      "points": [
+        [
+          -2,
+          54
+        ]
+      ],
+      "family": "イギリス"
+    },
+    {
+      "name": "フランス",
+      "key": "フランス",
+      "kind": "region",
+      "points": [
+        [
+          2,
+          47
+        ]
+      ],
+      "family": "フランス"
+    },
+    {
+      "name": "ドイツ",
+      "key": "ドイツ",
+      "kind": "region",
+      "points": [
+        [
+          10,
+          51
+        ]
+      ],
+      "family": "ドイツ"
+    },
+    {
+      "name": "アメリカ合衆国",
+      "key": "アメリカ合衆国",
+      "kind": "region",
+      "points": [
+        [
+          -98,
+          39
+        ]
+      ],
+      "family": "アメリカ"
+    },
+    {
+      "name": "アメリカ",
+      "key": "アメリカ",
+      "kind": "region",
+      "points": [
+        [
+          -98,
+          39
+        ]
+      ],
+      "family": "アメリカ"
+    },
+    {
+      "name": "日本",
+      "key": "日本",
+      "kind": "region",
+      "points": [
+        [
+          138,
+          37
+        ]
+      ],
+      "family": "日本"
+    },
+    {
+      "name": "ロシア",
+      "key": "ロシア",
+      "kind": "region",
+      "points": [
+        [
+          60,
+          55
+        ]
+      ],
+      "family": "ロシア"
+    },
+    {
+      "name": "スペイン",
+      "key": "スペイン",
+      "kind": "region",
+      "points": [
+        [
+          -4,
+          40
+        ]
+      ],
+      "family": "スペイン"
+    },
+    {
+      "name": "ベルギー",
+      "key": "ベルギー",
+      "kind": "region",
+      "points": [
+        [
+          4.5,
+          50.5
+        ]
+      ],
+      "family": "ベルギー"
+    },
+    {
+      "name": "オーストリア",
+      "key": "オーストリア",
+      "kind": "region",
+      "points": [
+        [
+          14,
+          47.5
+        ]
+      ],
+      "family": "オーストリア"
+    },
+    {
+      "name": "スイス",
+      "key": "スイス",
+      "kind": "region",
+      "points": [
+        [
+          8,
+          47
+        ]
+      ],
+      "family": "スイス"
+    },
+    {
+      "name": "ポーランド",
+      "key": "ポーランド",
+      "kind": "region",
+      "points": [
+        [
+          19,
+          52
+        ]
+      ],
+      "family": "ポーランド"
+    },
+    {
+      "name": "インド",
+      "key": "インド",
+      "kind": "region",
+      "points": [
+        [
+          79,
+          22
+        ]
+      ],
+      "family": "インド"
+    },
+    {
+      "name": "ベトナム",
+      "key": "ベトナム",
+      "kind": "region",
+      "points": [
+        [
+          106,
+          16
+        ]
+      ],
+      "family": "ベトナム"
+    },
+    {
+      "name": "トルコ",
+      "key": "トルコ",
+      "kind": "region",
+      "points": [
+        [
+          35,
+          39
+        ]
+      ],
+      "family": "トルコ"
+    },
+    {
+      "name": "イラク",
+      "key": "イラク",
+      "kind": "region",
+      "points": [
+        [
+          44,
+          33
+        ]
+      ],
+      "family": "イラク"
+    },
+    {
+      "name": "パレスチナ",
+      "key": "パレスチナ",
+      "kind": "region",
+      "points": [
+        [
+          35.2,
+          31.8
+        ]
+      ],
+      "family": "パレスチナ"
+    },
+    {
+      "name": "バルカン半島",
+      "key": "バルカン半島",
+      "kind": "region",
+      "points": [
+        [
+          22,
+          42
+        ]
+      ],
+      "family": "バルカン半島"
+    },
+    {
+      "name": "バルカン",
+      "key": "バルカン",
+      "kind": "region",
+      "points": [
+        [
+          22,
+          42
+        ]
+      ],
+      "family": "バルカン半島"
+    },
+    {
+      "name": "バルカン諸国",
+      "key": "バルカン諸国",
+      "kind": "region",
+      "points": [
+        [
+          22,
+          42
+        ]
+      ],
+      "family": "バルカン半島"
+    },
+    {
+      "name": "中国",
+      "key": "中国",
+      "kind": "region",
+      "points": [
+        [
+          104,
+          35
+        ]
+      ],
+      "family": "中国"
+    },
+    {
+      "name": "満洲",
+      "key": "満洲",
+      "kind": "region",
+      "points": [
+        [
+          125,
+          45
+        ]
+      ],
+      "family": "満洲"
+    },
+    {
+      "name": "ハワイ",
+      "key": "ハワイ",
+      "kind": "region",
+      "points": [
+        [
+          -157.8,
+          21.3
+        ]
+      ],
+      "family": "ハワイ"
+    },
+    {
+      "name": "フィリピン",
+      "key": "フィリピン",
+      "kind": "region",
+      "points": [
+        [
+          123,
+          12
+        ]
+      ],
+      "family": "フィリピン"
+    },
+    {
+      "name": "グアム",
+      "key": "グアム",
+      "kind": "region",
+      "points": [
+        [
+          144.79,
+          13.44
+        ]
+      ],
+      "family": "グアム"
+    },
+    {
+      "name": "プエルトリコ",
+      "key": "プエルトリコ",
+      "kind": "region",
+      "points": [
+        [
+          -66.5,
+          18.2
+        ]
+      ],
+      "family": "プエルトリコ"
+    },
+    {
+      "name": "キューバ",
+      "key": "キューバ",
+      "kind": "region",
+      "points": [
+        [
+          -79.5,
+          22
+        ]
+      ],
+      "family": "キューバ"
+    },
+    {
+      "name": "ドミニカ",
+      "key": "ドミニカ",
+      "kind": "region",
+      "points": [
+        [
+          -70.5,
+          19
+        ]
+      ],
+      "family": "ドミニカ"
+    },
+    {
+      "name": "ニカラグア",
+      "key": "ニカラグア",
+      "kind": "region",
+      "points": [
+        [
+          -85,
+          13
+        ]
+      ],
+      "family": "ニカラグア"
+    },
+    {
+      "name": "ハイチ",
+      "key": "ハイチ",
+      "kind": "region",
+      "points": [
+        [
+          -72.7,
+          19
+        ]
+      ],
+      "family": "ハイチ"
+    },
+    {
+      "name": "パナマ",
+      "key": "パナマ",
+      "kind": "region",
+      "points": [
+        [
+          -80,
+          9
+        ]
+      ],
+      "family": "パナマ"
+    },
+    {
+      "name": "パナマ共和国",
+      "key": "パナマ共和国",
+      "kind": "region",
+      "points": [
+        [
+          -80,
+          9
+        ]
+      ],
+      "family": "パナマ"
+    },
+    {
+      "name": "コロンビア",
+      "key": "コロンビア",
+      "kind": "region",
+      "points": [
+        [
+          -74,
+          4
+        ]
+      ],
+      "family": "コロンビア"
+    },
+    {
+      "name": "メキシコ",
+      "key": "メキシコ",
+      "kind": "region",
+      "points": [
+        [
+          -102,
+          23
+        ]
+      ],
+      "family": "メキシコ"
+    },
+    {
+      "name": "テキサス",
+      "key": "テキサス",
+      "kind": "region",
+      "points": [
+        [
+          -99,
+          31
+        ]
+      ],
+      "family": "テキサス"
+    },
+    {
+      "name": "アイルランド",
+      "key": "アイルランド",
+      "kind": "region",
+      "points": [
+        [
+          -8,
+          53
+        ]
+      ],
+      "family": "アイルランド"
+    },
+    {
+      "name": "黒海",
+      "key": "黒海",
+      "kind": "region",
+      "points": [
+        [
+          34,
+          43
+        ]
+      ],
+      "family": "黒海"
+    },
+    {
+      "name": "カリブ海",
+      "key": "カリブ海",
+      "kind": "region",
+      "points": [
+        [
+          -74,
+          16
+        ]
+      ],
+      "family": "カリブ海"
+    },
+    {
+      "name": "ペルシア湾",
+      "key": "ペルシア湾",
+      "kind": "region",
+      "points": [
+        [
+          51,
+          27
+        ]
+      ],
+      "family": "ペルシア湾"
+    },
+    {
+      "name": "インド洋",
+      "key": "インド洋",
+      "kind": "region",
+      "points": [
+        [
+          70,
+          -10
+        ]
+      ],
+      "family": "インド洋"
+    },
+    {
+      "name": "大西洋",
+      "key": "大西洋",
+      "kind": "region",
+      "points": [
+        [
+          -30,
+          5
+        ]
+      ],
+      "family": "大西洋"
+    },
+    {
+      "name": "太平洋",
+      "key": "太平洋",
+      "kind": "region",
+      "points": [
+        [
+          -150,
+          5
+        ]
+      ],
+      "family": "太平洋"
+    },
+    {
+      "name": "ロンドン",
+      "key": "ロンドン",
+      "kind": "place",
+      "points": [
+        [
+          -0.12,
+          51.5
+        ]
+      ],
+      "family": "ロンドン"
+    },
+    {
+      "name": "ブリュッセル",
+      "key": "ブリュッセル",
+      "kind": "place",
+      "points": [
+        [
+          4.35,
+          50.85
+        ]
+      ],
+      "family": "ブリュッセル"
+    },
+    {
+      "name": "パリ",
+      "key": "パリ",
+      "kind": "place",
+      "points": [
+        [
+          2.35,
+          48.86
+        ]
+      ],
+      "family": "パリ"
+    },
+    {
+      "name": "バスティーユ",
+      "key": "バスティーユ",
+      "kind": "place",
+      "points": [
+        [
+          2.37,
+          48.85
+        ]
+      ],
+      "family": "バスティーユ"
+    },
+    {
+      "name": "エッフェル塔",
+      "key": "エッフェル塔",
+      "kind": "place",
+      "points": [
+        [
+          2.29,
+          48.86
+        ]
+      ],
+      "family": "エッフェル塔"
+    },
+    {
+      "name": "アルザス・ロレーヌ",
+      "key": "アルザスロレーヌ",
+      "kind": "place",
+      "points": [
+        [
+          7,
+          48
+        ]
+      ],
+      "family": "アルザス・ロレーヌ"
+    },
+    {
+      "name": "アルザス",
+      "key": "アルザス",
+      "kind": "place",
+      "points": [
+        [
+          7.4,
+          48
+        ]
+      ],
+      "family": "アルザス・ロレーヌ"
+    },
+    {
+      "name": "ロレーヌ",
+      "key": "ロレーヌ",
+      "kind": "place",
+      "points": [
+        [
+          6.2,
+          48.6
+        ]
+      ],
+      "family": "アルザス・ロレーヌ"
+    },
+    {
+      "name": "バーゼル",
+      "key": "バーゼル",
+      "kind": "place",
+      "points": [
+        [
+          7.59,
+          47.56
+        ]
+      ],
+      "family": "バーゼル"
+    },
+    {
+      "name": "ベルリン",
+      "key": "ベルリン",
+      "kind": "place",
+      "points": [
+        [
+          13.4,
+          52.52
+        ]
+      ],
+      "family": "ベルリン"
+    },
+    {
+      "name": "イスタンブル",
+      "key": "イスタンブル",
+      "kind": "place",
+      "points": [
+        [
+          28.98,
+          41.01
+        ]
+      ],
+      "family": "イスタンブル"
+    },
+    {
+      "name": "ビザンティウム",
+      "key": "ビザンティウム",
+      "kind": "place",
+      "points": [
+        [
+          28.98,
+          41.01
+        ]
+      ],
+      "family": "イスタンブル"
+    },
+    {
+      "name": "バグダード",
+      "key": "バグダード",
+      "kind": "place",
+      "points": [
+        [
+          44.36,
+          33.32
+        ]
+      ],
+      "family": "バグダード"
+    },
+    {
+      "name": "カイロ",
+      "key": "カイロ",
+      "kind": "place",
+      "points": [
+        [
+          31.24,
+          30.04
+        ]
+      ],
+      "family": "カイロ"
+    },
+    {
+      "name": "カルカッタ",
+      "key": "カルカッタ",
+      "kind": "place",
+      "points": [
+        [
+          88.36,
+          22.57
+        ]
+      ],
+      "family": "カルカッタ"
+    },
+    {
+      "name": "ケープタウン",
+      "key": "ケープタウン",
+      "kind": "place",
+      "points": [
+        [
+          18.42,
+          -33.92
+        ]
+      ],
+      "family": "ケープタウン"
+    },
+    {
+      "name": "ボンベイ",
+      "key": "ボンベイ",
+      "kind": "place",
+      "points": [
+        [
+          72.88,
+          19.08
+        ]
+      ],
+      "family": "ボンベイ"
+    },
+    {
+      "name": "ベンガル",
+      "key": "ベンガル",
+      "kind": "place",
+      "points": [
+        [
+          88,
+          24
+        ]
+      ],
+      "family": "ベンガル"
+    },
+    {
+      "name": "ペテルブルク",
+      "key": "ペテルブルク",
+      "kind": "place",
+      "points": [
+        [
+          30.32,
+          59.94
+        ]
+      ],
+      "family": "ペテルブルク"
+    },
+    {
+      "name": "冬宮",
+      "key": "冬宮",
+      "kind": "place",
+      "points": [
+        [
+          30.31,
+          59.94
+        ]
+      ],
+      "family": "冬宮"
+    },
+    {
+      "name": "ウーンデッドニー",
+      "key": "ウーンデッドニー",
+      "kind": "place",
+      "points": [
+        [
+          -102.37,
+          43.14
+        ]
+      ],
+      "family": "ウーンデッドニー"
+    },
+    {
+      "name": "ワシントン",
+      "key": "ワシントン",
+      "kind": "place",
+      "points": [
+        [
+          -77.04,
+          38.91
+        ]
+      ],
+      "family": "ワシントン"
+    },
+    {
+      "name": "ハバナ港",
+      "key": "ハバナ港",
+      "kind": "place",
+      "points": [
+        [
+          -82.35,
+          23.14
+        ]
+      ],
+      "family": "ハバナ港"
+    },
+    {
+      "name": "ハバナ",
+      "key": "ハバナ",
+      "kind": "place",
+      "points": [
+        [
+          -82.35,
+          23.14
+        ]
+      ],
+      "family": "ハバナ港"
+    },
+    {
+      "name": "グアンタナモ",
+      "key": "グアンタナモ",
+      "kind": "place",
+      "points": [
+        [
+          -75.15,
+          19.9
+        ]
+      ],
+      "family": "グアンタナモ"
+    },
+    {
+      "name": "スエズ運河",
+      "key": "スエズ運河",
+      "kind": "place",
+      "points": [
+        [
+          32.55,
+          30.5
+        ]
+      ],
+      "family": "スエズ運河"
+    },
+    {
+      "name": "パナマ地峡",
+      "key": "パナマ地峡",
+      "kind": "place",
+      "points": [
+        [
+          -79.7,
+          9
+        ]
+      ],
+      "family": "パナマ地峡"
+    },
+    {
+      "name": "パナマ運河",
+      "key": "パナマ運河",
+      "kind": "place",
+      "points": [
+        [
+          -79.7,
+          9
+        ]
+      ],
+      "family": "パナマ地峡"
+    },
+    {
+      "name": "箱館",
+      "key": "箱館",
+      "kind": "place",
+      "points": [
+        [
+          140.73,
+          41.77
+        ]
+      ],
+      "family": "函館"
+    },
+    {
+      "name": "函館",
+      "key": "函館",
+      "kind": "place",
+      "points": [
+        [
+          140.73,
+          41.77
+        ]
+      ],
+      "family": "函館"
+    },
+    {
+      "name": "神奈川",
+      "key": "神奈川",
+      "kind": "place",
+      "points": [
+        [
+          139.65,
+          35.45
+        ]
+      ],
+      "family": "横浜"
+    },
+    {
+      "name": "横浜",
+      "key": "横浜",
+      "kind": "place",
+      "points": [
+        [
+          139.65,
+          35.45
+        ]
+      ],
+      "family": "横浜"
+    },
+    {
+      "name": "兵庫",
+      "key": "兵庫",
+      "kind": "place",
+      "points": [
+        [
+          135.18,
+          34.69
+        ]
+      ],
+      "family": "神戸"
+    },
+    {
+      "name": "神戸",
+      "key": "神戸",
+      "kind": "place",
+      "points": [
+        [
+          135.18,
+          34.69
+        ]
+      ],
+      "family": "神戸"
+    },
+    {
+      "name": "新潟",
+      "key": "新潟",
+      "kind": "place",
+      "points": [
+        [
+          139.04,
+          37.92
+        ]
+      ],
+      "family": "新潟"
+    },
+    {
+      "name": "長崎",
+      "key": "長崎",
+      "kind": "place",
+      "points": [
+        [
+          129.88,
+          32.75
+        ]
+      ],
+      "family": "長崎"
+    },
+    {
+      "name": "ポーツマス",
+      "key": "ポーツマス",
+      "kind": "place",
+      "points": [
+        [
+          -70.76,
+          43.07
+        ]
+      ],
+      "family": "ポーツマス"
+    },
+    {
+      "name": "ファショダ",
+      "key": "ファショダ",
+      "kind": "place",
+      "points": [
+        [
+          31.61,
+          9.89
+        ]
+      ],
+      "family": "ファショダ"
+    },
+    {
+      "name": "ディズレーリ",
+      "key": "ディズレーリ",
+      "kind": "person",
+      "points": [],
+      "family": "ディズレーリ"
+    },
+    {
+      "name": "グラッドストン",
+      "key": "グラッドストン",
+      "kind": "person",
+      "points": [],
+      "family": "グラッドストン"
+    },
+    {
+      "name": "マルクス",
+      "key": "マルクス",
+      "kind": "person",
+      "points": [],
+      "family": "マルクス"
+    },
+    {
+      "name": "ウェッブ夫妻",
+      "key": "ウェッブ夫妻",
+      "kind": "person",
+      "points": [],
+      "family": "ウェッブ夫妻"
+    },
+    {
+      "name": "バーナード＝ショー",
+      "key": "バーナードショー",
+      "kind": "person",
+      "points": [],
+      "family": "バーナード＝ショー"
+    },
+    {
+      "name": "ケア＝ハーディ",
+      "key": "ケアハーディ",
+      "kind": "person",
+      "points": [],
+      "family": "ケア＝ハーディ"
+    },
+    {
+      "name": "マクドナルド",
+      "key": "マクドナルド",
+      "kind": "person",
+      "points": [],
+      "family": "マクドナルド"
+    },
+    {
+      "name": "アスキス",
+      "key": "アスキス",
+      "kind": "person",
+      "points": [],
+      "family": "アスキス"
+    },
+    {
+      "name": "ティエール",
+      "key": "ティエール",
+      "kind": "person",
+      "points": [],
+      "family": "ティエール"
+    },
+    {
+      "name": "ビスマルク",
+      "key": "ビスマルク",
+      "kind": "person",
+      "points": [],
+      "family": "ビスマルク"
+    },
+    {
+      "name": "ブーランジェ",
+      "key": "ブーランジェ",
+      "kind": "person",
+      "points": [],
+      "family": "ブーランジェ"
+    },
+    {
+      "name": "ドレフュス",
+      "key": "ドレフュス",
+      "kind": "person",
+      "points": [],
+      "family": "ドレフュス"
+    },
+    {
+      "name": "ゾラ",
+      "key": "ゾラ",
+      "kind": "person",
+      "points": [],
+      "family": "ゾラ"
+    },
+    {
+      "name": "ナポレオン",
+      "key": "ナポレオン",
+      "kind": "person",
+      "points": [],
+      "family": "ナポレオン1世"
+    },
+    {
+      "name": "ナポレオン3世",
+      "key": "ナポレオン3世",
+      "kind": "person",
+      "points": [],
+      "family": "ナポレオン3世"
+    },
+    {
+      "name": "ヘルツル",
+      "key": "ヘルツル",
+      "kind": "person",
+      "points": [],
+      "family": "ヘルツル"
+    },
+    {
+      "name": "ヒトラー",
+      "key": "ヒトラー",
+      "kind": "person",
+      "points": [],
+      "family": "ヒトラー"
+    },
+    {
+      "name": "ヴィルヘルム1世",
+      "key": "ヴィルヘルム1世",
+      "kind": "person",
+      "points": [],
+      "family": "ヴィルヘルム1世"
+    },
+    {
+      "name": "ヴィルヘルム2世",
+      "key": "ヴィルヘルム2世",
+      "kind": "person",
+      "points": [],
+      "family": "ヴィルヘルム2世"
+    },
+    {
+      "name": "ベルンシュタイン",
+      "key": "ベルンシュタイン",
+      "kind": "person",
+      "points": [],
+      "family": "ベルンシュタイン"
+    },
+    {
+      "name": "バクーニン",
+      "key": "バクーニン",
+      "kind": "person",
+      "points": [],
+      "family": "バクーニン"
+    },
+    {
+      "name": "片山潜",
+      "key": "片山潜",
+      "kind": "person",
+      "points": [],
+      "family": "片山潜"
+    },
+    {
+      "name": "アレクサンドル2世",
+      "key": "アレクサンドル2世",
+      "kind": "person",
+      "points": [],
+      "family": "アレクサンドル2世"
+    },
+    {
+      "name": "アレクサンドル3世",
+      "key": "アレクサンドル3世",
+      "kind": "person",
+      "points": [],
+      "family": "アレクサンドル3世"
+    },
+    {
+      "name": "ウィッテ",
+      "key": "ウィッテ",
+      "kind": "person",
+      "points": [],
+      "family": "ウィッテ"
+    },
+    {
+      "name": "レーニン",
+      "key": "レーニン",
+      "kind": "person",
+      "points": [],
+      "family": "レーニン"
+    },
+    {
+      "name": "マルトフ",
+      "key": "マルトフ",
+      "kind": "person",
+      "points": [],
+      "family": "マルトフ"
+    },
+    {
+      "name": "プレハーノフ",
+      "key": "プレハーノフ",
+      "kind": "person",
+      "points": [],
+      "family": "プレハーノフ"
+    },
+    {
+      "name": "ニコライ2世",
+      "key": "ニコライ2世",
+      "kind": "person",
+      "points": [],
+      "family": "ニコライ2世"
+    },
+    {
+      "name": "アレクセイ",
+      "key": "アレクセイ",
+      "kind": "person",
+      "points": [],
+      "family": "アレクセイ"
+    },
+    {
+      "name": "ガポン",
+      "key": "ガポン",
+      "kind": "person",
+      "points": [],
+      "family": "ガポン"
+    },
+    {
+      "name": "ストルイピン",
+      "key": "ストルイピン",
+      "kind": "person",
+      "points": [],
+      "family": "ストルイピン"
+    },
+    {
+      "name": "サミュエル＝ゴンパーズ",
+      "key": "サミュエルゴンパーズ",
+      "kind": "person",
+      "points": [],
+      "family": "サミュエル＝ゴンパーズ"
+    },
+    {
+      "name": "ハリソン",
+      "key": "ハリソン",
+      "kind": "person",
+      "points": [],
+      "family": "ハリソン"
+    },
+    {
+      "name": "セオドア＝ローズヴェルト",
+      "key": "セオドアローズヴェルト",
+      "kind": "person",
+      "points": [],
+      "family": "セオドア＝ローズヴェルト"
+    },
+    {
+      "name": "ウィルソン",
+      "key": "ウィルソン",
+      "kind": "person",
+      "points": [],
+      "family": "ウィルソン"
+    },
+    {
+      "name": "ジェロニモ",
+      "key": "ジェロニモ",
+      "kind": "person",
+      "points": [],
+      "family": "ジェロニモ"
+    },
+    {
+      "name": "マッキンリー",
+      "key": "マッキンリー",
+      "kind": "person",
+      "points": [],
+      "family": "マッキンリー"
+    },
+    {
+      "name": "ホセ＝マルティ",
+      "key": "ホセマルティ",
+      "kind": "person",
+      "points": [],
+      "family": "ホセ＝マルティ"
+    },
+    {
+      "name": "リリウオカラニ",
+      "key": "リリウオカラニ",
+      "kind": "person",
+      "points": [],
+      "family": "リリウオカラニ"
+    },
+    {
+      "name": "ペリー",
+      "key": "ペリー",
+      "kind": "person",
+      "points": [],
+      "family": "ペリー"
+    },
+    {
+      "name": "ジョン＝ヘイ",
+      "key": "ジョンヘイ",
+      "kind": "person",
+      "points": [],
+      "family": "ジョン＝ヘイ"
+    },
+    {
+      "name": "タフト",
+      "key": "タフト",
+      "kind": "person",
+      "points": [],
+      "family": "タフト"
+    },
+    {
+      "name": "フアレス",
+      "key": "フアレス",
+      "kind": "person",
+      "points": [],
+      "family": "フアレス"
+    },
+    {
+      "name": "マクシミリアン",
+      "key": "マクシミリアン",
+      "kind": "person",
+      "points": [],
+      "family": "マクシミリアン"
+    },
+    {
+      "name": "ディアス",
+      "key": "ディアス",
+      "kind": "person",
+      "points": [],
+      "family": "ディアス"
+    },
+    {
+      "name": "マデロ",
+      "key": "マデロ",
+      "kind": "person",
+      "points": [],
+      "family": "マデロ"
+    },
+    {
+      "name": "サパタ",
+      "key": "サパタ",
+      "kind": "person",
+      "points": [],
+      "family": "サパタ"
+    },
+    {
+      "name": "ウェルタ",
+      "key": "ウェルタ",
+      "kind": "person",
+      "points": [],
+      "family": "ウェルタ"
+    },
+    {
+      "name": "カランサ",
+      "key": "カランサ",
+      "kind": "person",
+      "points": [],
+      "family": "カランサ"
+    },
+    {
+      "name": "ビリャ",
+      "key": "ビリャ",
+      "kind": "person",
+      "points": [],
+      "family": "ビリャ"
+    },
+    {
+      "name": "カルデナス",
+      "key": "カルデナス",
+      "kind": "person",
+      "points": [],
+      "family": "カルデナス"
+    },
+    {
+      "name": "帝国主義",
+      "key": "帝国主義",
+      "kind": "concept",
+      "points": [],
+      "family": "帝国主義"
+    },
+    {
+      "name": "独占資本",
+      "key": "独占資本",
+      "kind": "concept",
+      "points": [],
+      "family": "独占資本"
+    },
+    {
+      "name": "資本主義",
+      "key": "資本主義",
+      "kind": "concept",
+      "points": [],
+      "family": "資本主義"
+    },
+    {
+      "name": "労働者",
+      "key": "労働者",
+      "kind": "concept",
+      "points": [],
+      "family": "労働者"
+    },
+    {
+      "name": "社会主義",
+      "key": "社会主義",
+      "kind": "concept",
+      "points": [],
+      "family": "社会主義"
+    },
+    {
+      "name": "社会主義政党",
+      "key": "社会主義政党",
+      "kind": "concept",
+      "points": [],
+      "family": "社会主義政党"
+    },
+    {
+      "name": "マルクス主義",
+      "key": "マルクス主義",
+      "kind": "concept",
+      "points": [],
+      "family": "マルクス主義"
+    },
+    {
+      "name": "二大政党制",
+      "key": "二大政党制",
+      "kind": "concept",
+      "points": [],
+      "family": "二大政党制"
+    },
+    {
+      "name": "保守党",
+      "key": "保守党",
+      "kind": "concept",
+      "points": [],
+      "family": "保守党"
+    },
+    {
+      "name": "自由党",
+      "key": "自由党",
+      "kind": "concept",
+      "points": [],
+      "family": "自由党"
+    },
+    {
+      "name": "大英国主義",
+      "key": "大英国主義",
+      "kind": "concept",
+      "points": [],
+      "family": "大英国主義"
+    },
+    {
+      "name": "小英国主義",
+      "key": "小英国主義",
+      "kind": "concept",
+      "points": [],
+      "family": "小英国主義"
+    },
+    {
+      "name": "大陸横断鉄道",
+      "key": "大陸横断鉄道",
+      "kind": "concept",
+      "points": [],
+      "family": "大陸横断鉄道"
+    },
+    {
+      "name": "保護貿易政策",
+      "key": "保護貿易政策",
+      "kind": "concept",
+      "points": [],
+      "family": "保護貿易政策"
+    },
+    {
+      "name": "1873年の恐慌",
+      "key": "1873年の恐慌",
+      "kind": "concept",
+      "points": [],
+      "family": "1873年の恐慌"
+    },
+    {
+      "name": "世界の工場",
+      "key": "世界の工場",
+      "kind": "concept",
+      "points": [],
+      "family": "世界の工場"
+    },
+    {
+      "name": "世界の銀行",
+      "key": "世界の銀行",
+      "kind": "concept",
+      "points": [],
+      "family": "世界の銀行"
+    },
+    {
+      "name": "資本輸出",
+      "key": "資本輸出",
+      "kind": "concept",
+      "points": [],
+      "family": "資本輸出"
+    },
+    {
+      "name": "教育法",
+      "key": "教育法",
+      "kind": "concept",
+      "points": [],
+      "family": "教育法"
+    },
+    {
+      "name": "労働組合法",
+      "key": "労働組合法",
+      "kind": "concept",
+      "points": [],
+      "family": "労働組合法"
+    },
+    {
+      "name": "第3回選挙法改正",
+      "key": "第3回選挙法改正",
+      "kind": "concept",
+      "points": [],
+      "family": "第3回選挙法改正"
+    },
+    {
+      "name": "選挙法改正",
+      "key": "選挙法改正",
+      "kind": "concept",
+      "points": [],
+      "family": "選挙法改正"
+    },
+    {
+      "name": "選挙権",
+      "key": "選挙権",
+      "kind": "concept",
+      "points": [],
+      "family": "選挙権"
+    },
+    {
+      "name": "参政権",
+      "key": "参政権",
+      "kind": "concept",
+      "points": [],
+      "family": "参政権"
+    },
+    {
+      "name": "農業労働者",
+      "key": "農業労働者",
+      "kind": "concept",
+      "points": [],
+      "family": "農業労働者"
+    },
+    {
+      "name": "鉱山労働者",
+      "key": "鉱山労働者",
+      "kind": "concept",
+      "points": [],
+      "family": "鉱山労働者"
+    },
+    {
+      "name": "議会",
+      "key": "議会",
+      "kind": "concept",
+      "points": [],
+      "family": "議会"
+    },
+    {
+      "name": "ブルジョワ革命",
+      "key": "ブルジョワ革命",
+      "kind": "concept",
+      "points": [],
+      "family": "ブルジョワ革命"
+    },
+    {
+      "name": "社会主義革命",
+      "key": "社会主義革命",
+      "kind": "concept",
+      "points": [],
+      "family": "社会主義革命"
+    },
+    {
+      "name": "絶対王政",
+      "key": "絶対王政",
+      "kind": "concept",
+      "points": [],
+      "family": "絶対王政"
+    },
+    {
+      "name": "ピューリタン革命",
+      "key": "ピューリタン革命",
+      "kind": "concept",
+      "points": [],
+      "family": "ピューリタン革命"
+    },
+    {
+      "name": "名誉革命",
+      "key": "名誉革命",
+      "kind": "concept",
+      "points": [],
+      "family": "名誉革命"
+    },
+    {
+      "name": "社会民主連盟",
+      "key": "社会民主連盟",
+      "kind": "concept",
+      "points": [],
+      "family": "社会民主連盟"
+    },
+    {
+      "name": "漸進的社会改革",
+      "key": "漸進的社会改革",
+      "kind": "concept",
+      "points": [],
+      "family": "漸進的社会改革"
+    },
+    {
+      "name": "フェビアン協会",
+      "key": "フェビアン協会",
+      "kind": "concept",
+      "points": [],
+      "family": "フェビアン協会"
+    },
+    {
+      "name": "フェビアン社会主義",
+      "key": "フェビアン社会主義",
+      "kind": "concept",
+      "points": [],
+      "family": "フェビアン社会主義"
+    },
+    {
+      "name": "独立労働党",
+      "key": "独立労働党",
+      "kind": "concept",
+      "points": [],
+      "family": "独立労働党"
+    },
+    {
+      "name": "労働代表委員会",
+      "key": "労働代表委員会",
+      "kind": "concept",
+      "points": [],
+      "family": "労働代表委員会"
+    },
+    {
+      "name": "労働組合",
+      "key": "労働組合",
+      "kind": "concept",
+      "points": [],
+      "family": "労働組合"
+    },
+    {
+      "name": "労働党",
+      "key": "労働党",
+      "kind": "concept",
+      "points": [],
+      "family": "労働党"
+    },
+    {
+      "name": "小選挙区制",
+      "key": "小選挙区制",
+      "kind": "concept",
+      "points": [],
+      "family": "小選挙区制"
+    },
+    {
+      "name": "漸進主義",
+      "key": "漸進主義",
+      "kind": "concept",
+      "points": [],
+      "family": "漸進主義"
+    },
+    {
+      "name": "合法主義",
+      "key": "合法主義",
+      "kind": "concept",
+      "points": [],
+      "family": "合法主義"
+    },
+    {
+      "name": "国民保険法",
+      "key": "国民保険法",
+      "kind": "concept",
+      "points": [],
+      "family": "国民保険法"
+    },
+    {
+      "name": "議会法",
+      "key": "議会法",
+      "kind": "concept",
+      "points": [],
+      "family": "議会法"
+    },
+    {
+      "name": "議院法",
+      "key": "議院法",
+      "kind": "concept",
+      "points": [],
+      "family": "議院法"
+    },
+    {
+      "name": "アイルランド自治法",
+      "key": "アイルランド自治法",
+      "kind": "concept",
+      "points": [],
+      "family": "アイルランド自治法"
+    },
+    {
+      "name": "普仏戦争",
+      "key": "普仏戦争",
+      "kind": "concept",
+      "points": [],
+      "family": "普仏戦争"
+    },
+    {
+      "name": "プロイセン＝フランス戦争",
+      "key": "プロイセンフランス戦争",
+      "kind": "concept",
+      "points": [],
+      "family": "プロイセン＝フランス戦争"
+    },
+    {
+      "name": "独仏戦争",
+      "key": "独仏戦争",
+      "kind": "concept",
+      "points": [],
+      "family": "独仏戦争"
+    },
+    {
+      "name": "第三共和政",
+      "key": "第三共和政",
+      "kind": "concept",
+      "points": [],
+      "family": "第三共和政"
+    },
+    {
+      "name": "王党派",
+      "key": "王党派",
+      "kind": "concept",
+      "points": [],
+      "family": "王党派"
+    },
+    {
+      "name": "共和派",
+      "key": "共和派",
+      "kind": "concept",
+      "points": [],
+      "family": "共和派"
+    },
+    {
+      "name": "三権分立",
+      "key": "三権分立",
+      "kind": "concept",
+      "points": [],
+      "family": "三権分立"
+    },
+    {
+      "name": "二院制",
+      "key": "二院制",
+      "kind": "concept",
+      "points": [],
+      "family": "二院制"
+    },
+    {
+      "name": "大統領制",
+      "key": "大統領制",
+      "kind": "concept",
+      "points": [],
+      "family": "大統領制"
+    },
+    {
+      "name": "第三共和政憲法",
+      "key": "第三共和政憲法",
+      "kind": "concept",
+      "points": [],
+      "family": "第三共和政憲法"
+    },
+    {
+      "name": "ラ＝マルセイエーズ",
+      "key": "ラマルセイエーズ",
+      "kind": "concept",
+      "points": [],
+      "family": "ラ＝マルセイエーズ"
+    },
+    {
+      "name": "議会共和政",
+      "key": "議会共和政",
+      "kind": "concept",
+      "points": [],
+      "family": "議会共和政"
+    },
+    {
+      "name": "オポルテュニスム",
+      "key": "オポルテュニスム",
+      "kind": "concept",
+      "points": [],
+      "family": "オポルテュニスム"
+    },
+    {
+      "name": "対独復讐心",
+      "key": "対独復讐心",
+      "kind": "concept",
+      "points": [],
+      "family": "対独復讐心"
+    },
+    {
+      "name": "アフリカ横断政策",
+      "key": "アフリカ横断政策",
+      "kind": "concept",
+      "points": [],
+      "family": "アフリカ横断政策"
+    },
+    {
+      "name": "ブーランジェ事件",
+      "key": "ブーランジェ事件",
+      "kind": "concept",
+      "points": [],
+      "family": "ブーランジェ事件"
+    },
+    {
+      "name": "反議会主義",
+      "key": "反議会主義",
+      "kind": "concept",
+      "points": [],
+      "family": "反議会主義"
+    },
+    {
+      "name": "反共和政運動",
+      "key": "反共和政運動",
+      "kind": "concept",
+      "points": [],
+      "family": "反共和政運動"
+    },
+    {
+      "name": "パリ万国博覧会",
+      "key": "パリ万国博覧会",
+      "kind": "concept",
+      "points": [],
+      "family": "パリ万国博覧会"
+    },
+    {
+      "name": "フランス革命",
+      "key": "フランス革命",
+      "kind": "concept",
+      "points": [],
+      "family": "フランス革命"
+    },
+    {
+      "name": "カトリック教会",
+      "key": "カトリック教会",
+      "kind": "concept",
+      "points": [],
+      "family": "カトリック教会"
+    },
+    {
+      "name": "ドレフュス事件",
+      "key": "ドレフュス事件",
+      "kind": "concept",
+      "points": [],
+      "family": "ドレフュス事件"
+    },
+    {
+      "name": "反ユダヤ主義",
+      "key": "反ユダヤ主義",
+      "kind": "concept",
+      "points": [],
+      "family": "反ユダヤ主義"
+    },
+    {
+      "name": "ユダヤ系",
+      "key": "ユダヤ系",
+      "kind": "concept",
+      "points": [],
+      "family": "ユダヤ系"
+    },
+    {
+      "name": "ユダヤ人",
+      "key": "ユダヤ人",
+      "kind": "concept",
+      "points": [],
+      "family": "ユダヤ人"
+    },
+    {
+      "name": "ユダヤ系移民",
+      "key": "ユダヤ系移民",
+      "kind": "concept",
+      "points": [],
+      "family": "ユダヤ系移民"
+    },
+    {
+      "name": "ファショダ事件",
+      "key": "ファショダ事件",
+      "kind": "concept",
+      "points": [],
+      "family": "ファショダ事件"
+    },
+    {
+      "name": "急進社会党",
+      "key": "急進社会党",
+      "kind": "concept",
+      "points": [],
+      "family": "急進社会党"
+    },
+    {
+      "name": "政教分離",
+      "key": "政教分離",
+      "kind": "concept",
+      "points": [],
+      "family": "政教分離"
+    },
+    {
+      "name": "フランス社会党",
+      "key": "フランス社会党",
+      "kind": "concept",
+      "points": [],
+      "family": "フランス社会党"
+    },
+    {
+      "name": "統一社会党",
+      "key": "統一社会党",
+      "kind": "concept",
+      "points": [],
+      "family": "統一社会党"
+    },
+    {
+      "name": "政教分離法",
+      "key": "政教分離法",
+      "kind": "concept",
+      "points": [],
+      "family": "政教分離法"
+    },
+    {
+      "name": "宗教協約",
+      "key": "宗教協約",
+      "kind": "concept",
+      "points": [],
+      "family": "宗教協約"
+    },
+    {
+      "name": "コンコルダート",
+      "key": "コンコルダート",
+      "kind": "concept",
+      "points": [],
+      "family": "コンコルダート"
+    },
+    {
+      "name": "シオニズム運動",
+      "key": "シオニズム運動",
+      "kind": "concept",
+      "points": [],
+      "family": "シオニズム運動"
+    },
+    {
+      "name": "シオニズム",
+      "key": "シオニズム",
+      "kind": "concept",
+      "points": [],
+      "family": "シオニズム"
+    },
+    {
+      "name": "第1回シオニスト会議",
+      "key": "第1回シオニスト会議",
+      "kind": "concept",
+      "points": [],
+      "family": "第1回シオニスト会議"
+    },
+    {
+      "name": "世界シオニスト機構",
+      "key": "世界シオニスト機構",
+      "kind": "concept",
+      "points": [],
+      "family": "世界シオニスト機構"
+    },
+    {
+      "name": "露仏同盟",
+      "key": "露仏同盟",
+      "kind": "concept",
+      "points": [],
+      "family": "露仏同盟"
+    },
+    {
+      "name": "シベリア鉄道",
+      "key": "シベリア鉄道",
+      "kind": "concept",
+      "points": [],
+      "family": "シベリア鉄道"
+    },
+    {
+      "name": "高利貸帝国主義",
+      "key": "高利貸帝国主義",
+      "kind": "concept",
+      "points": [],
+      "family": "高利貸帝国主義"
+    },
+    {
+      "name": "労働総同盟",
+      "key": "労働総同盟",
+      "kind": "concept",
+      "points": [],
+      "family": "労働総同盟"
+    },
+    {
+      "name": "CGT",
+      "key": "CGT",
+      "kind": "concept",
+      "points": [],
+      "family": "CGT"
+    },
+    {
+      "name": "サンディカリズム",
+      "key": "サンディカリズム",
+      "kind": "concept",
+      "points": [],
+      "family": "サンディカリズム"
+    },
+    {
+      "name": "労働組合主義",
+      "key": "労働組合主義",
+      "kind": "concept",
+      "points": [],
+      "family": "労働組合主義"
+    },
+    {
+      "name": "ドイツ帝国",
+      "key": "ドイツ帝国",
+      "kind": "concept",
+      "points": [],
+      "family": "ドイツ帝国"
+    },
+    {
+      "name": "社会主義者鎮圧法",
+      "key": "社会主義者鎮圧法",
+      "kind": "concept",
+      "points": [],
+      "family": "社会主義者鎮圧法"
+    },
+    {
+      "name": "重化学工業",
+      "key": "重化学工業",
+      "kind": "concept",
+      "points": [],
+      "family": "重化学工業"
+    },
+    {
+      "name": "クルップ",
+      "key": "クルップ",
+      "kind": "concept",
+      "points": [],
+      "family": "クルップ"
+    },
+    {
+      "name": "ジーメンス",
+      "key": "ジーメンス",
+      "kind": "concept",
+      "points": [],
+      "family": "ジーメンス"
+    },
+    {
+      "name": "コンツェルン",
+      "key": "コンツェルン",
+      "kind": "concept",
+      "points": [],
+      "family": "コンツェルン"
+    },
+    {
+      "name": "ストライキ",
+      "key": "ストライキ",
+      "kind": "concept",
+      "points": [],
+      "family": "ストライキ"
+    },
+    {
+      "name": "親政",
+      "key": "親政",
+      "kind": "concept",
+      "points": [],
+      "family": "親政"
+    },
+    {
+      "name": "ドイツ社会主義労働者党",
+      "key": "ドイツ社会主義労働者党",
+      "kind": "concept",
+      "points": [],
+      "family": "ドイツ社会主義労働者党"
+    },
+    {
+      "name": "ドイツ社会民主党",
+      "key": "ドイツ社会民主党",
+      "kind": "concept",
+      "points": [],
+      "family": "ドイツ社会民主党"
+    },
+    {
+      "name": "エルフルト綱領",
+      "key": "エルフルト綱領",
+      "kind": "concept",
+      "points": [],
+      "family": "エルフルト綱領"
+    },
+    {
+      "name": "修正主義",
+      "key": "修正主義",
+      "kind": "concept",
+      "points": [],
+      "family": "修正主義"
+    },
+    {
+      "name": "第1インターナショナル",
+      "key": "第1インターナショナル",
+      "kind": "concept",
+      "points": [],
+      "family": "第1インターナショナル"
+    },
+    {
+      "name": "第2インターナショナル",
+      "key": "第2インターナショナル",
+      "kind": "concept",
+      "points": [],
+      "family": "第2インターナショナル"
+    },
+    {
+      "name": "国際労働者協会",
+      "key": "国際労働者協会",
+      "kind": "concept",
+      "points": [],
+      "family": "国際労働者協会"
+    },
+    {
+      "name": "ポーランド反乱",
+      "key": "ポーランド反乱",
+      "kind": "concept",
+      "points": [],
+      "family": "ポーランド反乱"
+    },
+    {
+      "name": "パリ＝コミューン",
+      "key": "パリコミューン",
+      "kind": "concept",
+      "points": [],
+      "family": "パリ＝コミューン"
+    },
+    {
+      "name": "無政府主義",
+      "key": "無政府主義",
+      "kind": "concept",
+      "points": [],
+      "family": "無政府主義"
+    },
+    {
+      "name": "世界政策",
+      "key": "世界政策",
+      "kind": "concept",
+      "points": [],
+      "family": "世界政策"
+    },
+    {
+      "name": "再保障条約",
+      "key": "再保障条約",
+      "kind": "concept",
+      "points": [],
+      "family": "再保障条約"
+    },
+    {
+      "name": "バグダード鉄道",
+      "key": "バグダード鉄道",
+      "kind": "concept",
+      "points": [],
+      "family": "バグダード鉄道"
+    },
+    {
+      "name": "3B政策",
+      "key": "3B政策",
+      "kind": "concept",
+      "points": [],
+      "family": "3B政策"
+    },
+    {
+      "name": "3C政策",
+      "key": "3C政策",
+      "kind": "concept",
+      "points": [],
+      "family": "3C政策"
+    },
+    {
+      "name": "建艦競争",
+      "key": "建艦競争",
+      "kind": "concept",
+      "points": [],
+      "family": "建艦競争"
+    },
+    {
+      "name": "農奴解放令",
+      "key": "農奴解放令",
+      "kind": "concept",
+      "points": [],
+      "family": "農奴解放令"
+    },
+    {
+      "name": "市民階級",
+      "key": "市民階級",
+      "kind": "concept",
+      "points": [],
+      "family": "市民階級"
+    },
+    {
+      "name": "南下政策",
+      "key": "南下政策",
+      "kind": "concept",
+      "points": [],
+      "family": "南下政策"
+    },
+    {
+      "name": "没落農民",
+      "key": "没落農民",
+      "kind": "concept",
+      "points": [],
+      "family": "没落農民"
+    },
+    {
+      "name": "農民運動",
+      "key": "農民運動",
+      "kind": "concept",
+      "points": [],
+      "family": "農民運動"
+    },
+    {
+      "name": "専制政治",
+      "key": "専制政治",
+      "kind": "concept",
+      "points": [],
+      "family": "専制政治"
+    },
+    {
+      "name": "ロシア社会民主労働党",
+      "key": "ロシア社会民主労働党",
+      "kind": "concept",
+      "points": [],
+      "family": "ロシア社会民主労働党"
+    },
+    {
+      "name": "ボリシェヴィキ",
+      "key": "ボリシェヴィキ",
+      "kind": "concept",
+      "points": [],
+      "family": "ボリシェヴィキ"
+    },
+    {
+      "name": "メンシェヴィキ",
+      "key": "メンシェヴィキ",
+      "kind": "concept",
+      "points": [],
+      "family": "メンシェヴィキ"
+    },
+    {
+      "name": "二段階連続革命",
+      "key": "二段階連続革命",
+      "kind": "concept",
+      "points": [],
+      "family": "二段階連続革命"
+    },
+    {
+      "name": "プロレタリア革命",
+      "key": "プロレタリア革命",
+      "kind": "concept",
+      "points": [],
+      "family": "プロレタリア革命"
+    },
+    {
+      "name": "ナロードニキ",
+      "key": "ナロードニキ",
+      "kind": "concept",
+      "points": [],
+      "family": "ナロードニキ"
+    },
+    {
+      "name": "ミール",
+      "key": "ミール",
+      "kind": "concept",
+      "points": [],
+      "family": "ミール"
+    },
+    {
+      "name": "エスエル",
+      "key": "エスエル",
+      "kind": "concept",
+      "points": [],
+      "family": "エスエル"
+    },
+    {
+      "name": "社会革命党",
+      "key": "社会革命党",
+      "kind": "concept",
+      "points": [],
+      "family": "社会革命党"
+    },
+    {
+      "name": "社会主義者・革命家党",
+      "key": "社会主義者革命家党",
+      "kind": "concept",
+      "points": [],
+      "family": "社会主義者・革命家党"
+    },
+    {
+      "name": "ロシア革命",
+      "key": "ロシア革命",
+      "kind": "concept",
+      "points": [],
+      "family": "ロシア革命"
+    },
+    {
+      "name": "ポグロム",
+      "key": "ポグロム",
+      "kind": "concept",
+      "points": [],
+      "family": "ポグロム"
+    },
+    {
+      "name": "日露戦争",
+      "key": "日露戦争",
+      "kind": "concept",
+      "points": [],
+      "family": "日露戦争"
+    },
+    {
+      "name": "プラウダ",
+      "key": "プラウダ",
+      "kind": "concept",
+      "points": [],
+      "family": "プラウダ"
+    },
+    {
+      "name": "血の日曜日事件",
+      "key": "血の日曜日事件",
+      "kind": "concept",
+      "points": [],
+      "family": "血の日曜日事件"
+    },
+    {
+      "name": "第1次ロシア革命",
+      "key": "第1次ロシア革命",
+      "kind": "concept",
+      "points": [],
+      "family": "第1次ロシア革命"
+    },
+    {
+      "name": "1905年革命",
+      "key": "1905年革命",
+      "kind": "concept",
+      "points": [],
+      "family": "1905年革命"
+    },
+    {
+      "name": "ツァーリ崇拝",
+      "key": "ツァーリ崇拝",
+      "kind": "concept",
+      "points": [],
+      "family": "ツァーリ崇拝"
+    },
+    {
+      "name": "ソヴィエト",
+      "key": "ソヴィエト",
+      "kind": "concept",
+      "points": [],
+      "family": "ソヴィエト"
+    },
+    {
+      "name": "評議会",
+      "key": "評議会",
+      "kind": "concept",
+      "points": [],
+      "family": "評議会"
+    },
+    {
+      "name": "日本海海戦",
+      "key": "日本海海戦",
+      "kind": "concept",
+      "points": [],
+      "family": "日本海海戦"
+    },
+    {
+      "name": "黒海艦隊",
+      "key": "黒海艦隊",
+      "kind": "concept",
+      "points": [],
+      "family": "黒海艦隊"
+    },
+    {
+      "name": "戦艦ポチョムキン号",
+      "key": "戦艦ポチョムキン号",
+      "kind": "concept",
+      "points": [],
+      "family": "戦艦ポチョムキン号"
+    },
+    {
+      "name": "十月宣言",
+      "key": "十月宣言",
+      "kind": "concept",
+      "points": [],
+      "family": "十月宣言"
+    },
+    {
+      "name": "十月勅令",
+      "key": "十月勅令",
+      "kind": "concept",
+      "points": [],
+      "family": "十月勅令"
+    },
+    {
+      "name": "ドゥーマ",
+      "key": "ドゥーマ",
+      "kind": "concept",
+      "points": [],
+      "family": "ドゥーマ"
+    },
+    {
+      "name": "立憲民主党",
+      "key": "立憲民主党",
+      "kind": "concept",
+      "points": [],
+      "family": "立憲民主党"
+    },
+    {
+      "name": "カデット",
+      "key": "カデット",
+      "kind": "concept",
+      "points": [],
+      "family": "カデット"
+    },
+    {
+      "name": "自由主義改革",
+      "key": "自由主義改革",
+      "kind": "concept",
+      "points": [],
+      "family": "自由主義改革"
+    },
+    {
+      "name": "反動政治",
+      "key": "反動政治",
+      "kind": "concept",
+      "points": [],
+      "family": "反動政治"
+    },
+    {
+      "name": "クラーク",
+      "key": "クラーク",
+      "kind": "concept",
+      "points": [],
+      "family": "クラーク"
+    },
+    {
+      "name": "南北戦争",
+      "key": "南北戦争",
+      "kind": "concept",
+      "points": [],
+      "family": "南北戦争"
+    },
+    {
+      "name": "アメリカ労働総同盟",
+      "key": "アメリカ労働総同盟",
+      "kind": "concept",
+      "points": [],
+      "family": "アメリカ労働総同盟"
+    },
+    {
+      "name": "AFL",
+      "key": "AFL",
+      "kind": "concept",
+      "points": [],
+      "family": "AFL"
+    },
+    {
+      "name": "世界産業労働者同盟",
+      "key": "世界産業労働者同盟",
+      "kind": "concept",
+      "points": [],
+      "family": "世界産業労働者同盟"
+    },
+    {
+      "name": "IWW",
+      "key": "IWW",
+      "kind": "concept",
+      "points": [],
+      "family": "IWW"
+    },
+    {
+      "name": "中産階級",
+      "key": "中産階級",
+      "kind": "concept",
+      "points": [],
+      "family": "中産階級"
+    },
+    {
+      "name": "ポピュリスト党",
+      "key": "ポピュリスト党",
+      "kind": "concept",
+      "points": [],
+      "family": "ポピュリスト党"
+    },
+    {
+      "name": "人民党",
+      "key": "人民党",
+      "kind": "concept",
+      "points": [],
+      "family": "人民党"
+    },
+    {
+      "name": "革新主義",
+      "key": "革新主義",
+      "kind": "concept",
+      "points": [],
+      "family": "革新主義"
+    },
+    {
+      "name": "反トラスト法",
+      "key": "反トラスト法",
+      "kind": "concept",
+      "points": [],
+      "family": "反トラスト法"
+    },
+    {
+      "name": "シャーマン反トラスト法",
+      "key": "シャーマン反トラスト法",
+      "kind": "concept",
+      "points": [],
+      "family": "シャーマン反トラスト法"
+    },
+    {
+      "name": "共和党",
+      "key": "共和党",
+      "kind": "concept",
+      "points": [],
+      "family": "共和党"
+    },
+    {
+      "name": "民主党",
+      "key": "民主党",
+      "kind": "concept",
+      "points": [],
+      "family": "民主党"
+    },
+    {
+      "name": "新しい自由",
+      "key": "新しい自由",
+      "kind": "concept",
+      "points": [],
+      "family": "新しい自由"
+    },
+    {
+      "name": "ニューフリーダム",
+      "key": "ニューフリーダム",
+      "kind": "concept",
+      "points": [],
+      "family": "ニューフリーダム"
+    },
+    {
+      "name": "クレイトン法",
+      "key": "クレイトン法",
+      "kind": "concept",
+      "points": [],
+      "family": "クレイトン法"
+    },
+    {
+      "name": "連邦取引委員会",
+      "key": "連邦取引委員会",
+      "kind": "concept",
+      "points": [],
+      "family": "連邦取引委員会"
+    },
+    {
+      "name": "西部開拓",
+      "key": "西部開拓",
+      "kind": "concept",
+      "points": [],
+      "family": "西部開拓"
+    },
+    {
+      "name": "東部13州",
+      "key": "東部13州",
+      "kind": "concept",
+      "points": [],
+      "family": "東部13州"
+    },
+    {
+      "name": "アパッチ族",
+      "key": "アパッチ族",
+      "kind": "concept",
+      "points": [],
+      "family": "アパッチ族"
+    },
+    {
+      "name": "インディアン居留地",
+      "key": "インディアン居留地",
+      "kind": "concept",
+      "points": [],
+      "family": "インディアン居留地"
+    },
+    {
+      "name": "スー族",
+      "key": "スー族",
+      "kind": "concept",
+      "points": [],
+      "family": "スー族"
+    },
+    {
+      "name": "フロンティア消滅",
+      "key": "フロンティア消滅",
+      "kind": "concept",
+      "points": [],
+      "family": "フロンティア消滅"
+    },
+    {
+      "name": "工業生産世界1位",
+      "key": "工業生産世界1位",
+      "kind": "concept",
+      "points": [],
+      "family": "工業生産世界1位"
+    },
+    {
+      "name": "第1回パン＝アメリカ会議",
+      "key": "第1回パンアメリカ会議",
+      "kind": "concept",
+      "points": [],
+      "family": "第1回パン＝アメリカ会議"
+    },
+    {
+      "name": "パン＝アメリカ主義",
+      "key": "パンアメリカ主義",
+      "kind": "concept",
+      "points": [],
+      "family": "パン＝アメリカ主義"
+    },
+    {
+      "name": "米西戦争",
+      "key": "米西戦争",
+      "kind": "concept",
+      "points": [],
+      "family": "米西戦争"
+    },
+    {
+      "name": "アメリカ＝スペイン戦争",
+      "key": "アメリカスペイン戦争",
+      "kind": "concept",
+      "points": [],
+      "family": "アメリカ＝スペイン戦争"
+    },
+    {
+      "name": "砲艦外交",
+      "key": "砲艦外交",
+      "kind": "concept",
+      "points": [],
+      "family": "砲艦外交"
+    },
+    {
+      "name": "メーン号爆沈事件",
+      "key": "メーン号爆沈事件",
+      "kind": "concept",
+      "points": [],
+      "family": "メーン号爆沈事件"
+    },
+    {
+      "name": "メーン号",
+      "key": "メーン号",
+      "kind": "concept",
+      "points": [],
+      "family": "メーン号"
+    },
+    {
+      "name": "パリ条約",
+      "key": "パリ条約",
+      "kind": "concept",
+      "points": [],
+      "family": "パリ条約"
+    },
+    {
+      "name": "プラット条項",
+      "key": "プラット条項",
+      "kind": "concept",
+      "points": [],
+      "family": "プラット条項"
+    },
+    {
+      "name": "保護国化",
+      "key": "保護国化",
+      "kind": "concept",
+      "points": [],
+      "family": "保護国化"
+    },
+    {
+      "name": "ハワイ併合",
+      "key": "ハワイ併合",
+      "kind": "concept",
+      "points": [],
+      "family": "ハワイ併合"
+    },
+    {
+      "name": "門戸開放宣言",
+      "key": "門戸開放宣言",
+      "kind": "concept",
+      "points": [],
+      "family": "門戸開放宣言"
+    },
+    {
+      "name": "門戸開放",
+      "key": "門戸開放",
+      "kind": "concept",
+      "points": [],
+      "family": "門戸開放"
+    },
+    {
+      "name": "機会均等",
+      "key": "機会均等",
+      "kind": "concept",
+      "points": [],
+      "family": "機会均等"
+    },
+    {
+      "name": "領土保全",
+      "key": "領土保全",
+      "kind": "concept",
+      "points": [],
+      "family": "領土保全"
+    },
+    {
+      "name": "棍棒外交",
+      "key": "棍棒外交",
+      "kind": "concept",
+      "points": [],
+      "family": "棍棒外交"
+    },
+    {
+      "name": "カリブ海政策",
+      "key": "カリブ海政策",
+      "kind": "concept",
+      "points": [],
+      "family": "カリブ海政策"
+    },
+    {
+      "name": "カメハメハ朝",
+      "key": "カメハメハ朝",
+      "kind": "concept",
+      "points": [],
+      "family": "カメハメハ朝"
+    },
+    {
+      "name": "日米和親条約",
+      "key": "日米和親条約",
+      "kind": "concept",
+      "points": [],
+      "family": "日米和親条約"
+    },
+    {
+      "name": "日米修好通商条約",
+      "key": "日米修好通商条約",
+      "kind": "concept",
+      "points": [],
+      "family": "日米修好通商条約"
+    },
+    {
+      "name": "フィリピン＝アメリカ戦争",
+      "key": "フィリピンアメリカ戦争",
+      "kind": "concept",
+      "points": [],
+      "family": "フィリピン＝アメリカ戦争"
+    },
+    {
+      "name": "中国分割",
+      "key": "中国分割",
+      "kind": "concept",
+      "points": [],
+      "family": "中国分割"
+    },
+    {
+      "name": "モンロー宣言",
+      "key": "モンロー宣言",
+      "kind": "concept",
+      "points": [],
+      "family": "モンロー宣言"
+    },
+    {
+      "name": "孤立主義",
+      "key": "孤立主義",
+      "kind": "concept",
+      "points": [],
+      "family": "孤立主義"
+    },
+    {
+      "name": "永久租借権",
+      "key": "永久租借権",
+      "kind": "concept",
+      "points": [],
+      "family": "永久租借権"
+    },
+    {
+      "name": "工事権",
+      "key": "工事権",
+      "kind": "concept",
+      "points": [],
+      "family": "工事権"
+    },
+    {
+      "name": "関税管理権",
+      "key": "関税管理権",
+      "kind": "concept",
+      "points": [],
+      "family": "関税管理権"
+    },
+    {
+      "name": "ポーツマス条約",
+      "key": "ポーツマス条約",
+      "kind": "concept",
+      "points": [],
+      "family": "ポーツマス条約"
+    },
+    {
+      "name": "勢力均衡",
+      "key": "勢力均衡",
+      "kind": "concept",
+      "points": [],
+      "family": "勢力均衡"
+    },
+    {
+      "name": "ドル外交",
+      "key": "ドル外交",
+      "kind": "concept",
+      "points": [],
+      "family": "ドル外交"
+    },
+    {
+      "name": "海兵隊",
+      "key": "海兵隊",
+      "kind": "concept",
+      "points": [],
+      "family": "海兵隊"
+    },
+    {
+      "name": "宣教師外交",
+      "key": "宣教師外交",
+      "kind": "concept",
+      "points": [],
+      "family": "宣教師外交"
+    },
+    {
+      "name": "アメリカ＝メキシコ戦争",
+      "key": "アメリカメキシコ戦争",
+      "kind": "concept",
+      "points": [],
+      "family": "アメリカ＝メキシコ戦争"
+    },
+    {
+      "name": "レフォルマ",
+      "key": "レフォルマ",
+      "kind": "concept",
+      "points": [],
+      "family": "レフォルマ"
+    },
+    {
+      "name": "大改革",
+      "key": "大改革",
+      "kind": "concept",
+      "points": [],
+      "family": "大改革"
+    },
+    {
+      "name": "レフォルマ法",
+      "key": "レフォルマ法",
+      "kind": "concept",
+      "points": [],
+      "family": "レフォルマ法"
+    },
+    {
+      "name": "インディオ",
+      "key": "インディオ",
+      "kind": "concept",
+      "points": [],
+      "family": "インディオ"
+    },
+    {
+      "name": "メキシコ革命",
+      "key": "メキシコ革命",
+      "kind": "concept",
+      "points": [],
+      "family": "メキシコ革命"
+    },
+    {
+      "name": "憲政派",
+      "key": "憲政派",
+      "kind": "concept",
+      "points": [],
+      "family": "憲政派"
+    },
+    {
+      "name": "石油国有化",
+      "key": "石油国有化",
+      "kind": "concept",
+      "points": [],
+      "family": "石油国有化"
+    },
+    {
+      "name": "第一次世界大戦",
+      "key": "第一次世界大戦",
+      "kind": "concept",
+      "points": [],
+      "family": "第一次世界大戦"
+    },
+    {
+      "name": "第二次世界大戦",
+      "key": "第二次世界大戦",
+      "kind": "concept",
+      "points": [],
+      "family": "第二次世界大戦"
+    },
+    {
+      "name": "年号",
+      "key": "年号",
+      "kind": "concept",
+      "points": [],
+      "family": "年号"
+    },
+    {
+      "name": "年号のツボ",
+      "key": "年号のツボ",
+      "kind": "concept",
+      "points": [],
+      "family": "年号のツボ"
+    }
+  ],
+  "notes": [
+    "本人・一般の集団・国と地域・制度を分ける。人の出身地から現在の居所を補わない。",
+    "北部や東部だけではアフリカの位置にしない。国籍と民族を別の地名へ置換しない。",
+    "3B・3C政策の構想・投資・政党の大会・武力をちらつかせる脅し・仮定の軍艦航路を旅行にしない。",
+    "川は位置の参考点で精密な全流路ではない。都市と国の関係は共通の拡大上限内で示す。"
+  ],
+  "review": "全644行・84段落を通読し、地名・人名・制度名を対応させた。"
+}

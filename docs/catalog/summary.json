@@ -1,7 +1,7 @@
 {
-  "version": "0.121",
-  "parts": 174,
-  "pages": 2057,
+  "version": "0.122",
+  "parts": 179,
+  "pages": 2240,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 46,
-      "pages": 1044,
+      "parts": 51,
+      "pages": 1227,
       "chapters": [
         {
           "chapter": 1,
@@ -2818,6 +2818,10 @@
             {
               "lesson": 11,
               "title": "帝国主義とアフリカ分割"
+            },
+            {
+              "lesson": 12,
+              "title": "帝国主義時代の欧米諸国"
             }
           ],
           "volumes": [
@@ -2852,6 +2856,46 @@
               "lesson": 11,
               "part": 4,
               "pages": 27
+            },
+            {
+              "id": "modern-c03-l12-p01",
+              "label": "イギリス ～自由党の改革と労働党の出現～",
+              "number": "05",
+              "lesson": 12,
+              "part": 1,
+              "pages": 28
+            },
+            {
+              "id": "modern-c03-l12-p02",
+              "label": "フランス ～第三共和政の諸問題～",
+              "number": "06",
+              "lesson": 12,
+              "part": 2,
+              "pages": 30
+            },
+            {
+              "id": "modern-c03-l12-p03",
+              "label": "ドイツ ～ドイツの発展と社会主義～",
+              "number": "07",
+              "lesson": 12,
+              "part": 3,
+              "pages": 25
+            },
+            {
+              "id": "modern-c03-l12-p04",
+              "label": "ロシア ～ロシアの社会主義と第1次ロシア革命～",
+              "number": "08",
+              "lesson": 12,
+              "part": 4,
+              "pages": 34
+            },
+            {
+              "id": "modern-c03-l12-p05",
+              "label": "アメリカ合衆国 ～アメリカの帝国主義～",
+              "number": "09",
+              "lesson": 12,
+              "part": 5,
+              "pages": 66
             }
           ]
         }
