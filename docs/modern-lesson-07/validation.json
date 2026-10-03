@@ -1,0 +1,3786 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "version": "0.117",
+  "lesson": "modern-c02-l07",
+  "source": {
+    "pages": [
+      125,
+      139
+    ],
+    "pageCount": 15,
+    "chapterTitlePage": 125,
+    "lines": 483,
+    "bodyLines": 52,
+    "joinedParagraphs": 46,
+    "pageJoins": 6,
+    "sha256": "c088d4763a1afc9d04d628565e3be75bd9ea4b905fe4357a8fdd45233268384e",
+    "unchangedSourceFiles": 60,
+    "unchangedPreexistingFiles": 2,
+    "hashes": [
+      {
+        "file": "sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md",
+        "sha256": "4710c02be0c1de8628b3c78cbd746a60564f35ac9f228a25b96f218048637697"
+      },
+      {
+        "file": "sources/古代・中世・近世/world-history-so-question-types.md",
+        "sha256": "0f20e1404f95f5b39cf60881593939a22e44338f0c419d39976d9be3cc6a0a93"
+      },
+      {
+        "file": "sources/古代・中世・近世/world-history-source-md-csv-generation.md",
+        "sha256": "f6c7e28c8e1f512b12a698ce97167c65865060dbb7697a8c89d6cf3bb96f6160"
+      },
+      {
+        "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/01_古代オリエント世界の成立.md",
+        "sha256": "f9024578a68f55bd9c978e6050b753e6668daf004b6b1f5c003b79293351c511"
+      },
+      {
+        "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/02_古代オリエント世界の統一.md",
+        "sha256": "21719e63443aff70618fe3dbc98e62a720724bfdaac0617890069916a628876d"
+      },
+      {
+        "file": "sources/古代・中世・近世/01_オリエント・インドの古代文明/03_古代インド.md",
+        "sha256": "ea929ebcb3bd84e693788cffacd07ca44e7d7971f9af136e73a9efc0270a2463"
+      },
+      {
+        "file": "sources/古代・中世・近世/02_古代の地中海世界/04_古代ギリシア世界の成立.md",
+        "sha256": "be16e648bfaab3c69e9173a7af17045d48f11ae01a5f51c1aaa520b97cdeeaa8"
+      },
+      {
+        "file": "sources/古代・中世・近世/02_古代の地中海世界/05_ポリス社会の崩壊とヘレニズム.md",
+        "sha256": "20c99a00c21be93f3587cae0e30e81a3fca5392a83c1ac7079d90c5ab2ac94ec"
+      },
+      {
+        "file": "sources/古代・中世・近世/02_古代の地中海世界/06_ローマ共和政.md",
+        "sha256": "ed45db4cea5eb6a895d56f5c7269080de5b182fbba3fe549bffa809160b46c07"
+      },
+      {
+        "file": "sources/古代・中世・近世/02_古代の地中海世界/07_ローマ帝国とキリスト教.md",
+        "sha256": "a885ff13c6979125822b3156d526d72fff1cadc30a3c2a85a6488ecf006e6178"
+      },
+      {
+        "file": "sources/古代・中世・近世/03_古代の東アジア/08_古代中国①（中国文明〜秦）.md",
+        "sha256": "1ad91d67c3d7df94e6c20240a7afb3a714218cd41ebe4fd7ac5ac5922035c358"
+      },
+      {
+        "file": "sources/古代・中世・近世/03_古代の東アジア/09_古代中国②（漢〜魏晋南北朝時代）.md",
+        "sha256": "9f798bbe2b4ce8a7bede47a6b433699951c413785f7760fd9dfc80f09174d45a"
+      },
+      {
+        "file": "sources/古代・中世・近世/03_古代の東アジア/10_古代中国③（隋〜唐）.md",
+        "sha256": "3db1c6d9c12adcb8b06d2b7d087858c644b425824b66d1ddca6b2bf70126ebcb"
+      },
+      {
+        "file": "sources/古代・中世・近世/04_中世ヨーロッパ/11_ゲルマン人の移動とフランク王国.md",
+        "sha256": "ec3676c9f4862f62ef1d674ddcd4194a5e1a1fc6cbf2dffcdb5234cbc1523aec"
+      },
+      {
+        "file": "sources/古代・中世・近世/04_中世ヨーロッパ/12_封建社会の形成とカトリック教会の発展.md",
+        "sha256": "3890bafd22ffb7424c78bed641efea8a33510bb002f7fc03fd484b693f040dc8"
+      },
+      {
+        "file": "sources/古代・中世・近世/04_中世ヨーロッパ/13_ビザンツ帝国と中世の東欧.md",
+        "sha256": "f11fc57de9688ba60149815f419dd9a046fb3aec87095d34d7aa64acac99fc45"
+      },
+      {
+        "file": "sources/古代・中世・近世/04_中世ヨーロッパ/14_十字軍と封建社会の変容.md",
+        "sha256": "4b61d500da44985ee2038e894bdda94f8b07c26724c0f56b452d6a5f03369ac0"
+      },
+      {
+        "file": "sources/古代・中世・近世/04_中世ヨーロッパ/15_中世の西ヨーロッパ諸国.md",
+        "sha256": "96ec4b05542cc97e86e9075dcb66d849a4fc4d9f9ebf9683c127d04152b25df3"
+      },
+      {
+        "file": "sources/古代・中世・近世/05_東アジア世界の変容/16_中華世界の変容（五代十国〜宋）.md",
+        "sha256": "c964833191e1b30a0e9a1891e3a1b48a690d70456d45712039d6771c5aad7ba9"
+      },
+      {
+        "file": "sources/古代・中世・近世/05_東アジア世界の変容/17_モンゴル帝国の時代.md",
+        "sha256": "6d7d7728c89213c6195ec7d0c97deda789a47b87a3dd5f8462af4610e225e2ec"
+      },
+      {
+        "file": "sources/古代・中世・近世/05_東アジア世界の変容/18_中華帝国の繁栄（明・清）.md",
+        "sha256": "7893c644440a9975278b1d74f851d3981521482d5679dfd2a00b1023db23aa08"
+      },
+      {
+        "file": "sources/古代・中世・近世/05_東アジア世界の変容/19_東南アジア世界.md",
+        "sha256": "49d4bd12ef5c2b6c2fc8899057f39398100f6abedbf12f611f934396ce68604a"
+      },
+      {
+        "file": "sources/古代・中世・近世/06_イスラーム世界/20_イスラーム世界の形成.md",
+        "sha256": "18bd3156f93c4ce96bc0911087a6a6963677888b45e08f2e5c76b534cd9de116"
+      },
+      {
+        "file": "sources/古代・中世・近世/06_イスラーム世界/21_イスラーム専制帝国の繁栄.md",
+        "sha256": "db5cfc267ecb6fa1fe5f0d816d705a46a235b0d04f301dad39320e3d0da6e96b"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/22_ルネサンスと大航海時代.md",
+        "sha256": "09f70077edde0d572520c38428b70326db06284c5a6b114fb09e649df95928e6"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/23_宗教改革.md",
+        "sha256": "19022d9c8737d6168fd7031032ca610eb4fc1c83d824693dd08260dc22b669a5"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/24_近世のヨーロッパ①（スペイン・オランダ）.md",
+        "sha256": "c7eec2d9ded4ce34e96bfe55e32516d426c1ac8e1c5d9c740f34286df8771341"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/25_近世のヨーロッパ②（イギリス・フランス）.md",
+        "sha256": "f253084f54c6e39df1fee2d7e648a7b5be42ebe5d4eec27ff6847db16591811d"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/26_近世のヨーロッパ③（ドイツ・ロシア）.md",
+        "sha256": "b4a1238a4f5bc5cbf955b68706c4dd88d3e32b7dc50d1f4233ab356508540e2c"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/27_産業革命とアメリカ独立革命.md",
+        "sha256": "9f0b6c49716753f012caa205cd1174d7bb0778d56158507802cddc7c88cd3900"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/28_フランス革命.md",
+        "sha256": "e68ec2d8e00ebc5e958edd524bb822702408d5fadbb07f7913f8ef2485e217f7"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/29_ナポレオンの時代.md",
+        "sha256": "ff758ca021ea934556aa5284644ef7a79deb4d8df2f58bca7e0166603c020828"
+      },
+      {
+        "file": "sources/古代・中世・近世/07_近代ヨーロッパの幕開け/30_17〜18世紀のヨーロッパ文化.md",
+        "sha256": "d9fac3ba70c7211c292cb9669f361c7072fc09431fd2d70d1f1b17bb927e259d"
+      },
+      {
+        "file": "sources/近代・現代/sekai_shi_tankyu_mokuji.md",
+        "sha256": "766d34236036053f9847d1128cc98151b8f359baf91503c173a62b8699f11c10"
+      },
+      {
+        "file": "sources/近代・現代/01_国民国家の形成/01_ウィーン体制とその崩壊.md",
+        "sha256": "165ddb691e4973afe09973efed87ac688207227b196b29359b37b716976e6cad"
+      },
+      {
+        "file": "sources/近代・現代/01_国民国家の形成/02_イギリスの自由主義とフランス第二帝政.md",
+        "sha256": "146b4662b580b1e418a0372071d1cb058d328086d671f0af9918d192c08f7d95"
+      },
+      {
+        "file": "sources/近代・現代/01_国民国家の形成/03_アメリカ合衆国の発展.md",
+        "sha256": "72fca4fe17c9b56f4a384f31d1f88792332f5ae71ddde72902fd2d5483353741"
+      },
+      {
+        "file": "sources/近代・現代/01_国民国家の形成/04_イタリア・ドイツの統一.md",
+        "sha256": "5222e5c09e3975b68718e5e2046deb9788a09d032cee080b35d94ee0840b8fbd"
+      },
+      {
+        "file": "sources/近代・現代/01_国民国家の形成/05_ロシアと東方問題.md",
+        "sha256": "f061a5cc959ed1869062f43104dc31a5d221133a2c7a5c21675607723abd52d1"
+      },
+      {
+        "file": "sources/近代・現代/01_国民国家の形成/06_19世紀のヨーロッパ文化.md",
+        "sha256": "af46239545496b762e50752e37b8e0088e105bb2530e343282e0faff0338cf24"
+      },
+      {
+        "file": "sources/近代・現代/02_列強の侵略とアジアの変革/07_近代の西アジア.md",
+        "sha256": "c088d4763a1afc9d04d628565e3be75bd9ea4b905fe4357a8fdd45233268384e"
+      },
+      {
+        "file": "sources/近代・現代/02_列強の侵略とアジアの変革/08_近代のインド・東南アジア.md",
+        "sha256": "e7632b36c6e6aacbca0f061ed5609a393fb16bc945f9d77bcd0f2329033f7c8d"
+      },
+      {
+        "file": "sources/近代・現代/02_列強の侵略とアジアの変革/09_近代の東アジア①.md",
+        "sha256": "298ad2bac1aa8824ecac56a7816497b46efda2cc72de85bdf29c293c96004018"
+      },
+      {
+        "file": "sources/近代・現代/02_列強の侵略とアジアの変革/10_近代の東アジア②.md",
+        "sha256": "4caf2efbb5c8255cf49d39c16da69db58ba4e447e222ed0bfc2224cfd5725d9f"
+      },
+      {
+        "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/11_帝国主義とアフリカ分割.md",
+        "sha256": "46274fb1eae774d30ce9d96d54c12a29e68200018eac6e68266811f5876f3f11"
+      },
+      {
+        "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/12_帝国主義時代の欧米諸国.md",
+        "sha256": "a081d0bbc3fd393b9f054213bf554bcc72ea6b2cf6f06263f72ca23589999215"
+      },
+      {
+        "file": "sources/近代・現代/03_帝国主義と第一次世界大戦/13_第一次世界大戦とロシア革命.md",
+        "sha256": "2b7b296d9009370b4b3e728f910c668bff8a0fb82883de7c39e4b70e93b8b752"
+      },
+      {
+        "file": "sources/近代・現代/04_戦間期と第二次世界大戦/14_ヴェルサイユ体制とワシントン体制.md",
+        "sha256": "8d397d44e81b32b763d55534b612851c3fff91c30d7008ed4883567853bc17c2"
+      },
+      {
+        "file": "sources/近代・現代/04_戦間期と第二次世界大戦/15_戦間期の欧米諸国_世界恐慌以前.md",
+        "sha256": "a41691ce04c38fceb2e201e84821e8040ca88ac5442ff65bbc7b8a2a51fc52b8"
+      },
+      {
+        "file": "sources/近代・現代/04_戦間期と第二次世界大戦/16_戦間期の西アジア・南アジア・東南アジア.md",
+        "sha256": "d977f9ae1418f2c95aaa0c0c9f940bca434ad3acd6750e26503d53b88af1c3b6"
+      },
+      {
+        "file": "sources/近代・現代/04_戦間期と第二次世界大戦/17_戦間期の東アジア.md",
+        "sha256": "d5252e52f065e7536e9b252994f3fb299df39b1db8ceef306ba80b61a8434d6a"
+      },
+      {
+        "file": "sources/近代・現代/04_戦間期と第二次世界大戦/18_世界恐慌とその影響.md",
+        "sha256": "e033d17359d98c85e493d2788cb99edfbd5fd1e3a81db8545f18209c78178039"
+      },
+      {
+        "file": "sources/近代・現代/04_戦間期と第二次世界大戦/19_第二次世界大戦.md",
+        "sha256": "9de6907328392572718fccc9afd7da98cb1e7a881472dd4f34a99166d00c4e39"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/20_冷戦の展開①（1945〜1955）.md",
+        "sha256": "10d88b3376071f5fb9859f8f563683900977b4b8c02f6d50428419283d90ee26"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/21_冷戦の展開②（1956〜1969）.md",
+        "sha256": "119c28cea82ecea1f819921d5a45010d7fc4e9bb1f0f3cdfb71fd4e95cce8c34"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/22_冷戦の展開③（1970〜1991）.md",
+        "sha256": "0da50964243b348d8aecd1dfb23f01d40d96f6ac7980d0ebf0d6f410017bd305"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/23_戦後の東アジア.md",
+        "sha256": "e2e473a392bc6ca864581a1010d56baeb1d78c27001c69bc351f619f379afc47"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/24_戦後のインド・東南アジア.md",
+        "sha256": "380760ad9acb574a100fbd7ad3b8dbdc9067babb3d403958f82631a622df86d6"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/25_戦後の西アジア・アフリカ.md",
+        "sha256": "dcba7ea48ed198d223c1821c6c8d1574ec22402b5736fe865e0bba21c979c81a"
+      },
+      {
+        "file": "sources/近代・現代/05_戦後の世界/26_冷戦終結後の世界（1990〜）.md",
+        "sha256": "1cc50ca2847ff2734d30560c5c4c8e4c9228396f8399477ced4d24fdf97bab34"
+      },
+      {
+        "file": "AGENTS.md",
+        "sha256": "a1dc62d38af3de816a02aaf90e3f99986ef1d65225407824f34398b3cff5a071"
+      },
+      {
+        "file": "TASK.md",
+        "sha256": "595a4a99e5248070ec3e174d868fa2c8bc4e03269eece3ef628d5049f01475a8"
+      }
+    ]
+  },
+  "content": {
+    "parts": 3,
+    "scenes": 85,
+    "scenesPerPart": [
+      21,
+      34,
+      30
+    ],
+    "diagrams": 24,
+    "bodyBoldRanges": 266,
+    "bodyRubyRanges": 60,
+    "contextRegionScenes": 26,
+    "placements": 227
+  },
+  "images": {
+    "new": 18,
+    "nativeGenerated": 0,
+    "fallbackGenerated": 18,
+    "generationRequests": 19,
+    "reused": 20,
+    "used": 38,
+    "panels": 85,
+    "normalizationCompleted": 18,
+    "normalizationFailed": 0
+  },
+  "checks": {
+    "source": "pass",
+    "sourceClassificationAndJoins": "pass",
+    "exactBodyAndDecoration": "pass",
+    "fullPageTextAndChapterTitle": "pass",
+    "nestedEmphasisAndDoubleRuby": "pass",
+    "geographyAndNames": "pass",
+    "allAssetsAndIdentity": "pass",
+    "generationReproduction": "pass",
+    "publishedGenerationReproduction": "pass",
+    "chapterCatalogAndNavigation": "pass",
+    "npmCheck": "pass",
+    "publishedBuild": "pass",
+    "independentSourceAndDiagramsReview": "pass"
+  },
+  "independentReview": {
+    "distinctions": [
+      "欄外見出しと本文の節開始",
+      "日露戦争の影響と日本からの実派遣",
+      "クリミアの宗主権放棄とロシア併合",
+      "シリアの領有と世襲権・放棄",
+      "アブデュルメジト1世・アブデュルアジーズ・アブデュルハミト2世の本人",
+      "新オスマン人と青年トルコ人",
+      "アフガーニーの主張・スルタンの利用・パン＝トルコ主義",
+      "バーブ教祖と信徒の反乱",
+      "保護国・併合・利権・勢力圏と精密な境界",
+      "イギリスの黙認とロシアの軍事介入",
+      "第2章内の教材番号と原書の第7回番号",
+      "未公開の原書167ページへの引用と実装済み参照"
+    ],
+    "bodyPlainAndSourceHashes": 255
+  },
+  "browser": {
+    "widths": [
+      1280,
+      390
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "inspected": 340,
+    "errors": [],
+    "issues": [],
+    "pages": [
+      95,
+      107,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139
+    ],
+    "diagrams": [
+      "学習用の整理：西アジアから見た列強の進出",
+      "学習用の整理：領土の割譲と権利の譲渡",
+      "学習用の整理：軍事と徴税の弱体化",
+      "学習用の整理：セリム3世の新軍と反発",
+      "学習用の整理：エジプトの自立と近代化",
+      "学習用の整理：2回のエジプト＝トルコ戦争",
+      "学習用の整理：マフムト2世の軍制改革",
+      "学習用の整理：イギリスの支援と自由貿易",
+      "学習用の整理：タンジマートの目標と抵抗",
+      "学習用の整理：クリミア戦争の勝利と財政危機",
+      "学習用の整理：立憲君主政から専制政治への逆戻り",
+      "学習用の整理：露土戦争後の独立と自治",
+      "学習用の整理：パン＝イスラーム主義の考え方と利用",
+      "学習用の整理：青年トルコ人と青年将校の合流",
+      "学習用の整理：青年トルコ革命と第二次立憲政",
+      "学習用の整理：革命後に続いた対外危機",
+      "学習用の整理：パン＝トルコ主義と独裁への転換",
+      "学習用の整理：ガージャール朝の統合と支配",
+      "学習用の整理：英露の進出とイランの領土・権利",
+      "学習用の整理：バーブ教の教祖と信徒の反乱",
+      "学習用の整理：利権の譲渡とタバコ＝ボイコット運動",
+      "学習用の整理：中央アジアとアフガニスタンの対立",
+      "学習用の整理：イラン立憲革命の成立と閉鎖",
+      "学習用の整理：西アジアの近代化を振り返る"
+    ],
+    "motion": {
+      "physicalMovements": 2,
+      "switches": 0,
+      "staticScenes": [
+        "modern-c02-l07-p01-007",
+        "modern-c02-l07-p02-018",
+        "modern-c02-l07-p03-011"
+      ],
+      "cases": [
+        {
+          "id": "modern-c02-l07-p01-007",
+          "mode": "static",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [],
+            "figures": [
+              {
+                "name": "エカチェリーナ2世",
+                "src": "/images/modern-c01-l05/catherine-ii.png",
+                "loaded": true
+              },
+              {
+                "name": "クリミア＝ハン国の宗主権",
+                "src": "/images/modern-c01-l01/treaty-document.png",
+                "loaded": true
+              },
+              {
+                "name": "黒海の自由航行権と保護権",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [],
+            "information": []
+          },
+          "middle": {
+            "progress": 0.356,
+            "phase": "moving",
+            "items": [],
+            "figures": [
+              {
+                "name": "エカチェリーナ2世",
+                "src": "/images/modern-c01-l05/catherine-ii.png",
+                "loaded": true
+              },
+              {
+                "name": "クリミア＝ハン国の宗主権",
+                "src": "/images/modern-c01-l01/treaty-document.png",
+                "loaded": true
+              },
+              {
+                "name": "黒海の自由航行権と保護権",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [],
+            "information": []
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [],
+            "figures": [
+              {
+                "name": "エカチェリーナ2世",
+                "src": "/images/modern-c01-l05/catherine-ii.png",
+                "loaded": true
+              },
+              {
+                "name": "クリミア＝ハン国の宗主権",
+                "src": "/images/modern-c01-l01/treaty-document.png",
+                "loaded": true
+              },
+              {
+                "name": "黒海の自由航行権と保護権",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [],
+            "information": []
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [],
+            "figures": [
+              {
+                "name": "エカチェリーナ2世",
+                "src": "/images/modern-c01-l05/catherine-ii.png",
+                "loaded": true
+              },
+              {
+                "name": "クリミア＝ハン国の宗主権",
+                "src": "/images/modern-c01-l01/treaty-document.png",
+                "loaded": true
+              },
+              {
+                "name": "黒海の自由航行権と保護権",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [],
+            "information": []
+          }
+        },
+        {
+          "id": "modern-c02-l07-p02-018",
+          "mode": "static",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "アフガーニー",
+                "key": "modern-c02-l07/jamal-al-din-afghani.png",
+                "src": "/images/modern-c02-l07/jamal-al-din-afghani.png",
+                "transform": "translate(695.495px, 355.748px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ],
+            "figures": [
+              {
+                "name": "アブデュル＝ハミト2世",
+                "src": "/images/modern-c02-l07/abdulhamid-ii.png",
+                "loaded": true
+              },
+              {
+                "name": "非西洋的な改革",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [],
+            "information": []
+          },
+          "middle": {
+            "progress": 0.353,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "アフガーニー",
+                "key": "modern-c02-l07/jamal-al-din-afghani.png",
+                "src": "/images/modern-c02-l07/jamal-al-din-afghani.png",
+                "transform": "translate(695.495px, 355.748px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ],
+            "figures": [
+              {
+                "name": "アブデュル＝ハミト2世",
+                "src": "/images/modern-c02-l07/abdulhamid-ii.png",
+                "loaded": true
+              },
+              {
+                "name": "非西洋的な改革",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [],
+            "information": []
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "アフガーニー",
+                "key": "modern-c02-l07/jamal-al-din-afghani.png",
+                "src": "/images/modern-c02-l07/jamal-al-din-afghani.png",
+                "transform": "translate(695.495px, 355.748px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：イスタンブルに招かれる。出発地不明なので旅程は描かない"
+              }
+            ],
+            "figures": [
+              {
+                "name": "アブデュル＝ハミト2世",
+                "src": "/images/modern-c02-l07/abdulhamid-ii.png",
+                "loaded": true
+              },
+              {
+                "name": "非西洋的な改革",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [],
+            "information": []
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "アフガーニー",
+                "key": "modern-c02-l07/jamal-al-din-afghani.png",
+                "src": "/images/modern-c02-l07/jamal-al-din-afghani.png",
+                "transform": "translate(695.495px, 355.748px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ],
+            "figures": [
+              {
+                "name": "アブデュル＝ハミト2世",
+                "src": "/images/modern-c02-l07/abdulhamid-ii.png",
+                "loaded": true
+              },
+              {
+                "name": "非西洋的な改革",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [],
+            "information": []
+          }
+        },
+        {
+          "id": "modern-c02-l07-p02-026",
+          "mode": "movement",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "パリから合流する委員会員の一部",
+                "key": "modern-c01-l01/liberal-students.png",
+                "src": "/images/modern-c01-l01/liberal-students.png",
+                "transform": "translate(358.246px, 227.438px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              },
+              {
+                "name": "サロニカで合流する青年将校",
+                "key": "modern-c02-l07/young-turk-officers.png",
+                "src": "/images/modern-c02-l07/young-turk-officers.png",
+                "transform": "translate(692.622px, 360.929px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ],
+            "figures": [
+              {
+                "name": "一般の民衆",
+                "src": "/images/ottoman/ottoman-resident.png",
+                "loaded": true
+              },
+              {
+                "name": "青年将校が主導する革命運動",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [
+              {
+                "index": 0,
+                "progress": 0,
+                "x": 358.246337890625,
+                "y": 227.43824768066406,
+                "opacity": 0
+              }
+            ],
+            "information": []
+          },
+          "middle": {
+            "progress": 0.39,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "パリから合流する委員会員の一部",
+                "key": "modern-c01-l01/liberal-students.png",
+                "src": "/images/modern-c01-l01/liberal-students.png",
+                "transform": "translate(477.272px, 274.956px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              },
+              {
+                "name": "サロニカで合流する青年将校",
+                "key": "modern-c02-l07/young-turk-officers.png",
+                "src": "/images/modern-c02-l07/young-turk-officers.png",
+                "transform": "translate(692.622px, 360.929px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ],
+            "figures": [
+              {
+                "name": "一般の民衆",
+                "src": "/images/ottoman/ottoman-resident.png",
+                "loaded": true
+              },
+              {
+                "name": "青年将校が主導する革命運動",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [
+              {
+                "index": 0,
+                "progress": 0.356,
+                "x": 477.27154541015625,
+                "y": 274.9558410644531,
+                "opacity": 1
+              }
+            ],
+            "information": []
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "パリから合流する委員会員の一部",
+                "key": "modern-c01-l01/liberal-students.png",
+                "src": "/images/modern-c01-l01/liberal-students.png",
+                "transform": "translate(692.622px, 360.929px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：一部の委員会員がサロニカで合流。全員ではなく概略の移動"
+              },
+              {
+                "name": "サロニカで合流する青年将校",
+                "key": "modern-c02-l07/young-turk-officers.png",
+                "src": "/images/modern-c02-l07/young-turk-officers.png",
+                "transform": "translate(692.622px, 360.929px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：陸軍士官学校を卒業したエリート将校が主導権を握る"
+              }
+            ],
+            "figures": [
+              {
+                "name": "一般の民衆",
+                "src": "/images/ottoman/ottoman-resident.png",
+                "loaded": true
+              },
+              {
+                "name": "青年将校が主導する革命運動",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [
+              {
+                "index": 0,
+                "progress": 1,
+                "x": 692.6218872070312,
+                "y": 360.92864990234375,
+                "opacity": 0
+              }
+            ],
+            "information": []
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "パリから合流する委員会員の一部",
+                "key": "modern-c01-l01/liberal-students.png",
+                "src": "/images/modern-c01-l01/liberal-students.png",
+                "transform": "translate(358.246px, 227.438px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              },
+              {
+                "name": "サロニカで合流する青年将校",
+                "key": "modern-c02-l07/young-turk-officers.png",
+                "src": "/images/modern-c02-l07/young-turk-officers.png",
+                "transform": "translate(692.622px, 360.929px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ],
+            "figures": [
+              {
+                "name": "一般の民衆",
+                "src": "/images/ottoman/ottoman-resident.png",
+                "loaded": true
+              },
+              {
+                "name": "青年将校が主導する革命運動",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [
+              {
+                "index": 0,
+                "progress": 0,
+                "x": 358.246337890625,
+                "y": 227.43824768066406,
+                "opacity": 0
+              }
+            ],
+            "information": []
+          }
+        },
+        {
+          "id": "modern-c02-l07-p03-011",
+          "mode": "static",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [],
+            "figures": [
+              {
+                "name": "サイイド＝アリー＝ムハンマド",
+                "src": "/images/modern-c02-l07/sayyid-ali-muhammad.png",
+                "loaded": true
+              },
+              {
+                "name": "教祖の処刑と信徒の弾圧",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [],
+            "information": []
+          },
+          "middle": {
+            "progress": 0.357,
+            "phase": "moving",
+            "items": [],
+            "figures": [
+              {
+                "name": "サイイド＝アリー＝ムハンマド",
+                "src": "/images/modern-c02-l07/sayyid-ali-muhammad.png",
+                "loaded": true
+              },
+              {
+                "name": "教祖の処刑と信徒の弾圧",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [],
+            "information": []
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [],
+            "figures": [
+              {
+                "name": "サイイド＝アリー＝ムハンマド",
+                "src": "/images/modern-c02-l07/sayyid-ali-muhammad.png",
+                "loaded": true
+              },
+              {
+                "name": "教祖の処刑と信徒の弾圧",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [],
+            "information": []
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [],
+            "figures": [
+              {
+                "name": "サイイド＝アリー＝ムハンマド",
+                "src": "/images/modern-c02-l07/sayyid-ali-muhammad.png",
+                "loaded": true
+              },
+              {
+                "name": "教祖の処刑と信徒の弾圧",
+                "src": "/images/modern-c01-l01/constitution-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [],
+            "information": []
+          }
+        },
+        {
+          "id": "modern-c02-l07-p03-022",
+          "mode": "movement",
+          "start": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "インド側から侵攻するイギリスの軍",
+                "key": "modern-c01-l02/british-soldiers.png",
+                "src": "/images/modern-c01-l02/british-soldiers.png",
+                "transform": "translate(897.351px, 439.681px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ],
+            "figures": [
+              {
+                "name": "一般の民衆",
+                "src": "/images/ottoman/ottoman-resident.png",
+                "loaded": true
+              },
+              {
+                "name": "アフガニスタンの保護国化",
+                "src": "/images/modern-c01-l01/treaty-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [
+              {
+                "index": 0,
+                "progress": 0,
+                "x": 897.35107421875,
+                "y": 439.68084716796875,
+                "opacity": 0
+              }
+            ],
+            "information": []
+          },
+          "middle": {
+            "progress": 0.389,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "インド側から侵攻するイギリスの軍",
+                "key": "modern-c01-l02/british-soldiers.png",
+                "src": "/images/modern-c01-l02/british-soldiers.png",
+                "transform": "translate(867.847px, 410.177px)",
+                "walking": true,
+                "loaded": true,
+                "bubble": ""
+              }
+            ],
+            "figures": [
+              {
+                "name": "一般の民衆",
+                "src": "/images/ottoman/ottoman-resident.png",
+                "loaded": true
+              },
+              {
+                "name": "アフガニスタンの保護国化",
+                "src": "/images/modern-c01-l01/treaty-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [
+              {
+                "index": 0,
+                "progress": 0.355,
+                "x": 867.8474731445312,
+                "y": 410.1772766113281,
+                "opacity": 1
+              }
+            ],
+            "information": []
+          },
+          "end": {
+            "progress": 1,
+            "phase": "complete",
+            "items": [
+              {
+                "name": "インド側から侵攻するイギリスの軍",
+                "key": "modern-c01-l02/british-soldiers.png",
+                "src": "/images/modern-c01-l02/british-soldiers.png",
+                "transform": "translate(814.266px, 356.596px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": "説明：本文が明記する侵攻方向。精密な軍路や出発都市ではない"
+              }
+            ],
+            "figures": [
+              {
+                "name": "一般の民衆",
+                "src": "/images/ottoman/ottoman-resident.png",
+                "loaded": true
+              },
+              {
+                "name": "アフガニスタンの保護国化",
+                "src": "/images/modern-c01-l01/treaty-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [
+              {
+                "index": 0,
+                "progress": 1,
+                "x": 814.2659301757812,
+                "y": 356.5957336425781,
+                "opacity": 0
+              }
+            ],
+            "information": []
+          },
+          "replay": {
+            "progress": 0,
+            "phase": "moving",
+            "items": [
+              {
+                "name": "インド側から侵攻するイギリスの軍",
+                "key": "modern-c01-l02/british-soldiers.png",
+                "src": "/images/modern-c01-l02/british-soldiers.png",
+                "transform": "translate(897.351px, 439.681px)",
+                "walking": false,
+                "loaded": true,
+                "bubble": ""
+              }
+            ],
+            "figures": [
+              {
+                "name": "一般の民衆",
+                "src": "/images/ottoman/ottoman-resident.png",
+                "loaded": true
+              },
+              {
+                "name": "アフガニスタンの保護国化",
+                "src": "/images/modern-c01-l01/treaty-document.png",
+                "loaded": true
+              }
+            ],
+            "routes": [
+              {
+                "index": 0,
+                "progress": 0,
+                "x": 897.35107421875,
+                "y": 439.68084716796875,
+                "opacity": 0
+              }
+            ],
+            "information": []
+          }
+        }
+      ],
+      "cancellation": {
+        "id": "modern-c02-l07-p02-026",
+        "detached": [
+          {
+            "tag": "circle",
+            "attributes": [
+              [
+                "r",
+                "3.5"
+              ],
+              [
+                "fill",
+                "#54866b"
+              ],
+              [
+                "stroke",
+                "#fff9ea"
+              ],
+              [
+                "stroke-width",
+                "1.2"
+              ],
+              [
+                "data-route",
+                "0"
+              ],
+              [
+                "class",
+                "history-moving-point"
+              ],
+              [
+                "opacity",
+                "1"
+              ],
+              [
+                "cx",
+                "386.26708984375"
+              ],
+              [
+                "cy",
+                "238.62478637695312"
+              ],
+              [
+                "data-progress",
+                "0.084"
+              ]
+            ],
+            "image": null
+          },
+          {
+            "tag": "DIV",
+            "attributes": [
+              [
+                "class",
+                "history-map-item is-walking"
+              ],
+              [
+                "data-name",
+                "パリから合流する委員会員の一部"
+              ],
+              [
+                "style",
+                "--item-width: 70px; --item-height: 105px; transform: translate(386.267px, 238.625px);"
+              ],
+              [
+                "data-image",
+                "modern-c01-l01/liberal-students.png"
+              ]
+            ],
+            "image": "http://127.0.0.1:18845/images/modern-c01-l01/liberal-students.png"
+          },
+          {
+            "tag": "DIV",
+            "attributes": [
+              [
+                "class",
+                "history-map-item"
+              ],
+              [
+                "data-name",
+                "サロニカで合流する青年将校"
+              ],
+              [
+                "style",
+                "--item-width: 70px; --item-height: 105px; transform: translate(692.622px, 360.929px);"
+              ],
+              [
+                "data-image",
+                "modern-c02-l07/young-turk-officers.png"
+              ]
+            ],
+            "image": "http://127.0.0.1:18845/images/modern-c02-l07/young-turk-officers.png"
+          }
+        ],
+        "cancelled": {
+          "connected": false,
+          "nodes": [
+            {
+              "tag": "circle",
+              "attributes": [
+                [
+                  "r",
+                  "3.5"
+                ],
+                [
+                  "fill",
+                  "#54866b"
+                ],
+                [
+                  "stroke",
+                  "#fff9ea"
+                ],
+                [
+                  "stroke-width",
+                  "1.2"
+                ],
+                [
+                  "data-route",
+                  "0"
+                ],
+                [
+                  "class",
+                  "history-moving-point"
+                ],
+                [
+                  "opacity",
+                  "1"
+                ],
+                [
+                  "cx",
+                  "386.26708984375"
+                ],
+                [
+                  "cy",
+                  "238.62478637695312"
+                ],
+                [
+                  "data-progress",
+                  "0.084"
+                ]
+              ],
+              "image": null
+            },
+            {
+              "tag": "DIV",
+              "attributes": [
+                [
+                  "class",
+                  "history-map-item is-walking"
+                ],
+                [
+                  "data-name",
+                  "パリから合流する委員会員の一部"
+                ],
+                [
+                  "style",
+                  "--item-width: 70px; --item-height: 105px; transform: translate(386.267px, 238.625px);"
+                ],
+                [
+                  "data-image",
+                  "modern-c01-l01/liberal-students.png"
+                ]
+              ],
+              "image": "http://127.0.0.1:18845/images/modern-c01-l01/liberal-students.png"
+            },
+            {
+              "tag": "DIV",
+              "attributes": [
+                [
+                  "class",
+                  "history-map-item"
+                ],
+                [
+                  "data-name",
+                  "サロニカで合流する青年将校"
+                ],
+                [
+                  "style",
+                  "--item-width: 70px; --item-height: 105px; transform: translate(692.622px, 360.929px);"
+                ],
+                [
+                  "data-image",
+                  "modern-c02-l07/young-turk-officers.png"
+                ]
+              ],
+              "image": "http://127.0.0.1:18845/images/modern-c02-l07/young-turk-officers.png"
+            }
+          ]
+        }
+      }
+    },
+    "referenceChecks": [
+      {
+        "id": "modern-c02-l07-p01-001",
+        "width": 1280,
+        "theme": "light",
+        "pages": [
+          125,
+          126,
+          127,
+          128
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p01-017",
+        "width": 1280,
+        "theme": "light",
+        "pages": [
+          95,
+          126,
+          128,
+          129
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-001",
+        "width": 1280,
+        "theme": "light",
+        "pages": [
+          129,
+          130,
+          131,
+          133
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-017",
+        "width": 1280,
+        "theme": "light",
+        "pages": [
+          107,
+          130,
+          131,
+          132,
+          133
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-019",
+        "width": 1280,
+        "theme": "light",
+        "pages": [
+          130,
+          131,
+          132,
+          133
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p03-001",
+        "width": 1280,
+        "theme": "light",
+        "pages": [
+          135,
+          136,
+          139
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p01-001",
+        "width": 1280,
+        "theme": "dark",
+        "pages": [
+          125,
+          126,
+          127,
+          128
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p01-017",
+        "width": 1280,
+        "theme": "dark",
+        "pages": [
+          95,
+          126,
+          128,
+          129
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-001",
+        "width": 1280,
+        "theme": "dark",
+        "pages": [
+          129,
+          130,
+          131,
+          133
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-017",
+        "width": 1280,
+        "theme": "dark",
+        "pages": [
+          107,
+          130,
+          131,
+          132,
+          133
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-019",
+        "width": 1280,
+        "theme": "dark",
+        "pages": [
+          130,
+          131,
+          132,
+          133
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p03-001",
+        "width": 1280,
+        "theme": "dark",
+        "pages": [
+          135,
+          136,
+          139
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p01-001",
+        "width": 390,
+        "theme": "light",
+        "pages": [
+          125,
+          126,
+          127,
+          128
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p01-017",
+        "width": 390,
+        "theme": "light",
+        "pages": [
+          95,
+          126,
+          128,
+          129
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-001",
+        "width": 390,
+        "theme": "light",
+        "pages": [
+          129,
+          130,
+          131,
+          133
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-017",
+        "width": 390,
+        "theme": "light",
+        "pages": [
+          107,
+          130,
+          131,
+          132,
+          133
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-019",
+        "width": 390,
+        "theme": "light",
+        "pages": [
+          130,
+          131,
+          132,
+          133
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p03-001",
+        "width": 390,
+        "theme": "light",
+        "pages": [
+          135,
+          136,
+          139
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p01-001",
+        "width": 390,
+        "theme": "dark",
+        "pages": [
+          125,
+          126,
+          127,
+          128
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p01-017",
+        "width": 390,
+        "theme": "dark",
+        "pages": [
+          95,
+          126,
+          128,
+          129
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-001",
+        "width": 390,
+        "theme": "dark",
+        "pages": [
+          129,
+          130,
+          131,
+          133
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-017",
+        "width": 390,
+        "theme": "dark",
+        "pages": [
+          107,
+          130,
+          131,
+          132,
+          133
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-019",
+        "width": 390,
+        "theme": "dark",
+        "pages": [
+          130,
+          131,
+          132,
+          133
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p03-001",
+        "width": 390,
+        "theme": "dark",
+        "pages": [
+          135,
+          136,
+          139
+        ]
+      }
+    ],
+    "speechDisabledBeforeNavigation": true,
+    "audioMuted": true,
+    "screenshotsDirectory": "C:/Users/USER/AppData/Local/Temp/w-history-modern-browser-07-EGa4Iu",
+    "lessonPages": [
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139
+    ],
+    "externalPages": [
+      95,
+      107
+    ],
+    "contextRegions": [
+      {
+        "id": "modern-c02-l07-p01-010",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-57",
+            "lines": [
+              57,
+              63
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p01-011",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-57",
+            "lines": [
+              57,
+              63
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p01-016",
+        "regions": [
+          {
+            "name": "エジプト",
+            "paragraph": "modern-07-111",
+            "lines": [
+              111
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-002",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-125",
+            "lines": [
+              125
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-004",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-127",
+            "lines": [
+              127,
+              133
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-005",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-127",
+            "lines": [
+              127,
+              133
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-006",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-127",
+            "lines": [
+              127,
+              133
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-010",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-191",
+            "lines": [
+              191
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-012",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-211",
+            "lines": [
+              211
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-013",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-211",
+            "lines": [
+              211
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-014",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-217",
+            "lines": [
+              217
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-018",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-221",
+            "lines": [
+              221
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-020",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-221",
+            "lines": [
+              221
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-022",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-225",
+            "lines": [
+              225
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-025",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-286",
+            "lines": [
+              286
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-027",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-286",
+            "lines": [
+              286
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p02-028",
+        "regions": [
+          {
+            "name": "オスマン帝国",
+            "paragraph": "modern-07-286",
+            "lines": [
+              286
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p03-009",
+        "regions": [
+          {
+            "name": "イラン",
+            "paragraph": "modern-07-415",
+            "lines": [
+              415
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p03-010",
+        "regions": [
+          {
+            "name": "イラン",
+            "paragraph": "modern-07-415",
+            "lines": [
+              415
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p03-011",
+        "regions": [
+          {
+            "name": "イラン",
+            "paragraph": "modern-07-415",
+            "lines": [
+              415
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p03-014",
+        "regions": [
+          {
+            "name": "イラン",
+            "paragraph": "modern-07-421",
+            "lines": [
+              421,
+              427
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p03-017",
+        "regions": [
+          {
+            "name": "イラン",
+            "paragraph": "modern-07-429",
+            "lines": [
+              429
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p03-018",
+        "regions": [
+          {
+            "name": "イラン",
+            "paragraph": "modern-07-429",
+            "lines": [
+              429
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p03-024",
+        "regions": [
+          {
+            "name": "イラン",
+            "paragraph": "modern-07-443",
+            "lines": [
+              443,
+              459
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p03-027",
+        "regions": [
+          {
+            "name": "イラン",
+            "paragraph": "modern-07-461",
+            "lines": [
+              461
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      },
+      {
+        "id": "modern-c02-l07-p03-028",
+        "regions": [
+          {
+            "name": "イラン",
+            "paragraph": "modern-07-461",
+            "lines": [
+              461
+            ],
+            "reason": "分割前の同じ原文段落、または直前段落が明示した中心地域を引き継ぎ、国内改革・政治の舞台と周辺国の位置関係を保つ。地域代表の静的な参照点であり、人物の所在地・旅程ではない。"
+          }
+        ]
+      }
+    ]
+  },
+  "regressions": [
+    {
+      "lesson": 1,
+      "inspected": 252,
+      "errors": [],
+      "issues": [],
+      "motion": {
+        "cases": [
+          {
+            "id": "modern-c01-l01-p01-005",
+            "start": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "ウィーン議定書",
+                  "key": "modern-c01-l01/treaty-document.png",
+                  "src": "/images/modern-c01-l01/treaty-document.png",
+                  "transform": "translate(725.271px, 284.478px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ナポレオン",
+                  "key": "modern-c01-l01/napoleon-i.png",
+                  "src": "/images/modern-c01-l01/napoleon-i.png",
+                  "transform": "translate(618.595px, 379.554px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            },
+            "middle": {
+              "progress": 0.387,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "ウィーン議定書",
+                  "key": "modern-c01-l01/treaty-document.png",
+                  "src": "/images/modern-c01-l01/treaty-document.png",
+                  "transform": "translate(725.271px, 284.478px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ナポレオン",
+                  "key": "modern-c01-l01/napoleon-i.png",
+                  "src": "/images/modern-c01-l01/napoleon-i.png",
+                  "transform": "translate(559.349px, 357.157px)",
+                  "walking": true,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            },
+            "end": {
+              "progress": 1,
+              "phase": "complete",
+              "items": [
+                {
+                  "name": "ウィーン議定書",
+                  "key": "modern-c01-l01/treaty-document.png",
+                  "src": "/images/modern-c01-l01/treaty-document.png",
+                  "transform": "translate(725.271px, 284.478px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ナポレオン",
+                  "key": "modern-c01-l01/napoleon-i.png",
+                  "src": "/images/modern-c01-l01/napoleon-i.png",
+                  "transform": "translate(478.88px, 273.054px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": "説明：エルバ島を脱出してフランスへ戻る"
+                }
+              ]
+            },
+            "replay": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "ウィーン議定書",
+                  "key": "modern-c01-l01/treaty-document.png",
+                  "src": "/images/modern-c01-l01/treaty-document.png",
+                  "transform": "translate(725.271px, 284.478px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ナポレオン",
+                  "key": "modern-c01-l01/napoleon-i.png",
+                  "src": "/images/modern-c01-l01/napoleon-i.png",
+                  "transform": "translate(618.595px, 379.554px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            }
+          },
+          {
+            "id": "modern-c01-l01-p04-008",
+            "start": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "市役所",
+                  "key": "modern-c01-l01/city-hall.png",
+                  "src": "/images/modern-c01-l01/city-hall.png",
+                  "transform": "translate(474.114px, 273.131px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ラ＝ファイエット",
+                  "key": "modern-c01-l01/lafayette.png",
+                  "src": "/images/modern-c01-l01/lafayette.png",
+                  "transform": "translate(474.114px, 273.131px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "シャルル10世",
+                  "key": "modern-c01-l01/charles-x.png",
+                  "src": "/images/modern-c01-l01/charles-x.png",
+                  "transform": "translate(474.114px, 273.131px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            },
+            "middle": {
+              "progress": 0.386,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "市役所",
+                  "key": "modern-c01-l01/city-hall.png",
+                  "src": "/images/modern-c01-l01/city-hall.png",
+                  "transform": "translate(474.114px, 273.131px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ラ＝ファイエット",
+                  "key": "modern-c01-l01/lafayette.png",
+                  "src": "/images/modern-c01-l01/lafayette.png",
+                  "transform": "translate(474.114px, 273.131px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "シャルル10世",
+                  "key": "modern-c01-l01/charles-x.png",
+                  "src": "/images/modern-c01-l01/charles-x.png",
+                  "transform": "translate(454.478px, 249.929px)",
+                  "walking": true,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            },
+            "end": {
+              "progress": 1,
+              "phase": "complete",
+              "items": [
+                {
+                  "name": "市役所",
+                  "key": "modern-c01-l01/city-hall.png",
+                  "src": "/images/modern-c01-l01/city-hall.png",
+                  "transform": "translate(474.114px, 273.131px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ラ＝ファイエット",
+                  "key": "modern-c01-l01/lafayette.png",
+                  "src": "/images/modern-c01-l01/lafayette.png",
+                  "transform": "translate(474.114px, 273.131px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": "説明：国民軍の司令官となる"
+                },
+                {
+                  "name": "シャルル10世",
+                  "key": "modern-c01-l01/charles-x-exile.png",
+                  "src": "/images/modern-c01-l01/charles-x-exile.png",
+                  "transform": "translate(418.224px, 207.09px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": "説明：パリを逃れイギリスへ亡命する"
+                }
+              ]
+            },
+            "replay": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "市役所",
+                  "key": "modern-c01-l01/city-hall.png",
+                  "src": "/images/modern-c01-l01/city-hall.png",
+                  "transform": "translate(474.114px, 273.131px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ラ＝ファイエット",
+                  "key": "modern-c01-l01/lafayette.png",
+                  "src": "/images/modern-c01-l01/lafayette.png",
+                  "transform": "translate(474.114px, 273.131px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "シャルル10世",
+                  "key": "modern-c01-l01/charles-x.png",
+                  "src": "/images/modern-c01-l01/charles-x.png",
+                  "transform": "translate(474.114px, 273.131px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            }
+          },
+          {
+            "id": "modern-c01-l01-p05-007",
+            "start": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "普通選挙",
+                  "key": "modern-c01-l01/ballot-box.png",
+                  "src": "/images/modern-c01-l01/ballot-box.png",
+                  "transform": "translate(599px, 307.5px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ルイ＝ブラン",
+                  "key": "modern-c01-l01/louis-blanc.png",
+                  "src": "/images/modern-c01-l01/louis-blanc.png",
+                  "transform": "translate(599px, 307.5px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "農民",
+                  "key": "modern-c01-l01/farmers.png",
+                  "src": "/images/modern-c01-l01/farmers.png",
+                  "transform": "translate(591.125px, 349.35px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            },
+            "middle": {
+              "progress": 0.356,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "普通選挙",
+                  "key": "modern-c01-l01/ballot-box.png",
+                  "src": "/images/modern-c01-l01/ballot-box.png",
+                  "transform": "translate(599px, 307.5px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ルイ＝ブラン",
+                  "key": "modern-c01-l01/louis-blanc.png",
+                  "src": "/images/modern-c01-l01/louis-blanc.png",
+                  "transform": "translate(599px, 307.5px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "農民",
+                  "key": "modern-c01-l01/farmers.png",
+                  "src": "/images/modern-c01-l01/farmers.png",
+                  "transform": "translate(591.125px, 349.35px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            },
+            "end": {
+              "progress": 1,
+              "phase": "complete",
+              "items": [
+                {
+                  "name": "普通選挙",
+                  "key": "modern-c01-l01/ballot-box.png",
+                  "src": "/images/modern-c01-l01/ballot-box.png",
+                  "transform": "translate(599px, 307.5px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ルイ＝ブラン",
+                  "key": "modern-c01-l01/louis-blanc-exile.png",
+                  "src": "/images/modern-c01-l01/louis-blanc-exile.png",
+                  "transform": "translate(599px, 307.5px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": "説明：選挙に敗れ議員になれない"
+                },
+                {
+                  "name": "農民",
+                  "key": "modern-c01-l01/farmers.png",
+                  "src": "/images/modern-c01-l01/farmers.png",
+                  "transform": "translate(591.125px, 349.35px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": "説明：社会主義者の支持は広がらない"
+                }
+              ]
+            },
+            "replay": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "普通選挙",
+                  "key": "modern-c01-l01/ballot-box.png",
+                  "src": "/images/modern-c01-l01/ballot-box.png",
+                  "transform": "translate(599px, 307.5px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ルイ＝ブラン",
+                  "key": "modern-c01-l01/louis-blanc.png",
+                  "src": "/images/modern-c01-l01/louis-blanc.png",
+                  "transform": "translate(599px, 307.5px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "農民",
+                  "key": "modern-c01-l01/farmers.png",
+                  "src": "/images/modern-c01-l01/farmers.png",
+                  "transform": "translate(591.125px, 349.35px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            }
+          },
+          {
+            "id": "modern-c01-l01-p05-011",
+            "start": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "国民投票",
+                  "key": "modern-c01-l01/ballot-box.png",
+                  "src": "/images/modern-c01-l01/ballot-box.png",
+                  "transform": "translate(602.938px, 286.575px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ルイ＝ナポレオン",
+                  "key": "modern-c01-l01/louis-napoleon.png",
+                  "src": "/images/modern-c01-l01/louis-napoleon.png",
+                  "transform": "translate(602.938px, 286.575px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "武力による議会解散",
+                  "key": "modern-c01-l01/french-soldiers.png",
+                  "src": "/images/modern-c01-l01/french-soldiers.png",
+                  "transform": "translate(602.938px, 286.575px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            },
+            "middle": {
+              "progress": 0.353,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "国民投票",
+                  "key": "modern-c01-l01/ballot-box.png",
+                  "src": "/images/modern-c01-l01/ballot-box.png",
+                  "transform": "translate(602.938px, 286.575px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ルイ＝ナポレオン",
+                  "key": "modern-c01-l01/louis-napoleon.png",
+                  "src": "/images/modern-c01-l01/louis-napoleon.png",
+                  "transform": "translate(602.938px, 286.575px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "武力による議会解散",
+                  "key": "modern-c01-l01/french-soldiers.png",
+                  "src": "/images/modern-c01-l01/french-soldiers.png",
+                  "transform": "translate(602.938px, 286.575px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            },
+            "end": {
+              "progress": 1,
+              "phase": "complete",
+              "items": [
+                {
+                  "name": "国民投票",
+                  "key": "modern-c01-l01/ballot-box.png",
+                  "src": "/images/modern-c01-l01/ballot-box.png",
+                  "transform": "translate(602.938px, 286.575px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ルイ＝ナポレオン",
+                  "key": "modern-c01-l01/napoleon-iii.png",
+                  "src": "/images/modern-c01-l01/napoleon-iii.png",
+                  "transform": "translate(602.938px, 286.575px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": "説明：大統領から皇帝ナポレオン3世となる"
+                },
+                {
+                  "name": "武力による議会解散",
+                  "key": "modern-c01-l01/french-soldiers.png",
+                  "src": "/images/modern-c01-l01/french-soldiers.png",
+                  "transform": "translate(602.938px, 286.575px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": "説明：1851年のクーデタ"
+                }
+              ]
+            },
+            "replay": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "国民投票",
+                  "key": "modern-c01-l01/ballot-box.png",
+                  "src": "/images/modern-c01-l01/ballot-box.png",
+                  "transform": "translate(602.938px, 286.575px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ルイ＝ナポレオン",
+                  "key": "modern-c01-l01/louis-napoleon.png",
+                  "src": "/images/modern-c01-l01/louis-napoleon.png",
+                  "transform": "translate(602.938px, 286.575px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "武力による議会解散",
+                  "key": "modern-c01-l01/french-soldiers.png",
+                  "src": "/images/modern-c01-l01/french-soldiers.png",
+                  "transform": "translate(602.938px, 286.575px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            }
+          },
+          {
+            "id": "modern-c01-l01-p05-013",
+            "start": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "メッテルニヒ",
+                  "key": "modern-c01-l01/metternich.png",
+                  "src": "/images/modern-c01-l01/metternich.png",
+                  "transform": "translate(775.253px, 356.241px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "フェルディナント1世",
+                  "key": "modern-c01-l01/ferdinand-i-austria.png",
+                  "src": "/images/modern-c01-l01/ferdinand-i-austria.png",
+                  "transform": "translate(775.253px, 356.241px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ウィーン市民",
+                  "key": "modern-c01-l01/revolutionary-citizens.png",
+                  "src": "/images/modern-c01-l01/revolutionary-citizens.png",
+                  "transform": "translate(775.253px, 356.241px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            },
+            "middle": {
+              "progress": 0.388,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "メッテルニヒ",
+                  "key": "modern-c01-l01/metternich.png",
+                  "src": "/images/modern-c01-l01/metternich.png",
+                  "transform": "translate(645.866px, 331.523px)",
+                  "walking": true,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "フェルディナント1世",
+                  "key": "modern-c01-l01/ferdinand-i-austria.png",
+                  "src": "/images/modern-c01-l01/ferdinand-i-austria.png",
+                  "transform": "translate(775.253px, 356.241px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ウィーン市民",
+                  "key": "modern-c01-l01/revolutionary-citizens.png",
+                  "src": "/images/modern-c01-l01/revolutionary-citizens.png",
+                  "transform": "translate(775.253px, 356.241px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            },
+            "end": {
+              "progress": 1,
+              "phase": "complete",
+              "items": [
+                {
+                  "name": "メッテルニヒ",
+                  "key": "modern-c01-l01/metternich-exile.png",
+                  "src": "/images/modern-c01-l01/metternich-exile.png",
+                  "transform": "translate(422.747px, 245.135px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": "説明：失脚してイギリスへ亡命する"
+                },
+                {
+                  "name": "フェルディナント1世",
+                  "key": "modern-c01-l01/ferdinand-i-austria.png",
+                  "src": "/images/modern-c01-l01/ferdinand-i-austria.png",
+                  "transform": "translate(775.253px, 356.241px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": "説明：革命に動揺し譲歩する"
+                },
+                {
+                  "name": "ウィーン市民",
+                  "key": "modern-c01-l01/revolutionary-citizens.png",
+                  "src": "/images/modern-c01-l01/revolutionary-citizens.png",
+                  "transform": "translate(775.253px, 356.241px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": "説明：憲法制定とメッテルニヒの退陣を要求する"
+                }
+              ]
+            },
+            "replay": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "メッテルニヒ",
+                  "key": "modern-c01-l01/metternich.png",
+                  "src": "/images/modern-c01-l01/metternich.png",
+                  "transform": "translate(775.253px, 356.241px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "フェルディナント1世",
+                  "key": "modern-c01-l01/ferdinand-i-austria.png",
+                  "src": "/images/modern-c01-l01/ferdinand-i-austria.png",
+                  "transform": "translate(775.253px, 356.241px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                },
+                {
+                  "name": "ウィーン市民",
+                  "key": "modern-c01-l01/revolutionary-citizens.png",
+                  "src": "/images/modern-c01-l01/revolutionary-citizens.png",
+                  "transform": "translate(775.253px, 356.241px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ]
+            }
+          }
+        ],
+        "cancellation": {
+          "id": "modern-c01-l01-p04-008",
+          "detached": {
+            "key": "modern-c01-l01/charles-x.png",
+            "transform": "translate(469.479px, 267.653px)",
+            "src": "http://127.0.0.1:18811/images/modern-c01-l01/charles-x.png"
+          },
+          "cancelled": {
+            "connected": false,
+            "key": "modern-c01-l01/charles-x.png",
+            "transform": "translate(469.479px, 267.653px)",
+            "src": "http://127.0.0.1:18811/images/modern-c01-l01/charles-x.png"
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "lesson": 6,
+      "inspected": 372,
+      "errors": [],
+      "issues": [],
+      "motion": {
+        "physicalMovements": 0,
+        "informationConnections": 4,
+        "staticScenes": [
+          "modern-c01-l06-p02-006",
+          "modern-c01-l06-p02-009",
+          "modern-c01-l06-p03-006",
+          "modern-c01-l06-p04-006",
+          "modern-c01-l06-p06-004"
+        ],
+        "cases": [
+          {
+            "id": "modern-c01-l06-p02-006",
+            "mode": "static",
+            "start": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [],
+              "figures": [
+                {
+                  "name": "グリム兄弟",
+                  "src": "/images/modern-c01-l06/grimm-brothers.png",
+                  "loaded": true
+                },
+                {
+                  "name": "グリム兄弟：言葉と昔話",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "middle": {
+              "progress": 0.355,
+              "phase": "moving",
+              "items": [],
+              "figures": [
+                {
+                  "name": "グリム兄弟",
+                  "src": "/images/modern-c01-l06/grimm-brothers.png",
+                  "loaded": true
+                },
+                {
+                  "name": "グリム兄弟：言葉と昔話",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "end": {
+              "progress": 1,
+              "phase": "complete",
+              "items": [],
+              "figures": [
+                {
+                  "name": "グリム兄弟",
+                  "src": "/images/modern-c01-l06/grimm-brothers.png",
+                  "loaded": true
+                },
+                {
+                  "name": "グリム兄弟：言葉と昔話",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "replay": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [],
+              "figures": [
+                {
+                  "name": "グリム兄弟",
+                  "src": "/images/modern-c01-l06/grimm-brothers.png",
+                  "loaded": true
+                },
+                {
+                  "name": "グリム兄弟：言葉と昔話",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            }
+          },
+          {
+            "id": "modern-c01-l06-p02-009",
+            "mode": "static",
+            "start": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "バイロン",
+                  "key": "modern-c01-l01/byron.png",
+                  "src": "/images/modern-c01-l01/byron.png",
+                  "transform": "translate(766.639px, 406.111px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ],
+              "figures": [
+                {
+                  "name": "義勇軍としての参戦",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "19世紀前半",
+                  "src": "/images/modern-c01-l01/calendar.png",
+                  "loaded": true
+                },
+                {
+                  "name": "本人・題材・居住の区別",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "middle": {
+              "progress": 0.352,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "バイロン",
+                  "key": "modern-c01-l01/byron.png",
+                  "src": "/images/modern-c01-l01/byron.png",
+                  "transform": "translate(766.639px, 406.111px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ],
+              "figures": [
+                {
+                  "name": "義勇軍としての参戦",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "19世紀前半",
+                  "src": "/images/modern-c01-l01/calendar.png",
+                  "loaded": true
+                },
+                {
+                  "name": "本人・題材・居住の区別",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "end": {
+              "progress": 1,
+              "phase": "complete",
+              "items": [
+                {
+                  "name": "バイロン",
+                  "key": "modern-c01-l01/byron.png",
+                  "src": "/images/modern-c01-l01/byron.png",
+                  "transform": "translate(766.639px, 406.111px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": "説明：ギリシア独立戦争に義勇軍として参戦。国内代表位置で、出港地・旅程・精密な所在地は補わない"
+                }
+              ],
+              "figures": [
+                {
+                  "name": "義勇軍としての参戦",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "19世紀前半",
+                  "src": "/images/modern-c01-l01/calendar.png",
+                  "loaded": true
+                },
+                {
+                  "name": "本人・題材・居住の区別",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "replay": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "バイロン",
+                  "key": "modern-c01-l01/byron.png",
+                  "src": "/images/modern-c01-l01/byron.png",
+                  "transform": "translate(766.639px, 406.111px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ],
+              "figures": [
+                {
+                  "name": "義勇軍としての参戦",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "19世紀前半",
+                  "src": "/images/modern-c01-l01/calendar.png",
+                  "loaded": true
+                },
+                {
+                  "name": "本人・題材・居住の区別",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            }
+          },
+          {
+            "id": "modern-c01-l06-p03-006",
+            "mode": "static",
+            "start": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "ミレー",
+                  "key": "modern-c01-l06/jean-francois-millet.png",
+                  "src": "/images/modern-c01-l06/jean-francois-millet.png",
+                  "transform": "translate(601.745px, 311.685px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ],
+              "figures": [
+                {
+                  "name": "農民の生活と自然",
+                  "src": "/images/modern-c01-l01/farmers.png",
+                  "loaded": true
+                },
+                {
+                  "name": "バルビゾン派",
+                  "src": "/images/modern-c01-l01/painting-easel.png",
+                  "loaded": true
+                },
+                {
+                  "name": "本人・題材・居住の区別",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "middle": {
+              "progress": 0.354,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "ミレー",
+                  "key": "modern-c01-l06/jean-francois-millet.png",
+                  "src": "/images/modern-c01-l06/jean-francois-millet.png",
+                  "transform": "translate(601.745px, 311.685px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ],
+              "figures": [
+                {
+                  "name": "農民の生活と自然",
+                  "src": "/images/modern-c01-l01/farmers.png",
+                  "loaded": true
+                },
+                {
+                  "name": "バルビゾン派",
+                  "src": "/images/modern-c01-l01/painting-easel.png",
+                  "loaded": true
+                },
+                {
+                  "name": "本人・題材・居住の区別",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "end": {
+              "progress": 1,
+              "phase": "complete",
+              "items": [
+                {
+                  "name": "ミレー",
+                  "key": "modern-c01-l06/jean-francois-millet.png",
+                  "src": "/images/modern-c01-l06/jean-francois-millet.png",
+                  "transform": "translate(601.745px, 311.685px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": "説明：バルビゾン村に集まり創作する。出発地・旅行の進路は原文にない"
+                }
+              ],
+              "figures": [
+                {
+                  "name": "農民の生活と自然",
+                  "src": "/images/modern-c01-l01/farmers.png",
+                  "loaded": true
+                },
+                {
+                  "name": "バルビゾン派",
+                  "src": "/images/modern-c01-l01/painting-easel.png",
+                  "loaded": true
+                },
+                {
+                  "name": "本人・題材・居住の区別",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "replay": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "ミレー",
+                  "key": "modern-c01-l06/jean-francois-millet.png",
+                  "src": "/images/modern-c01-l06/jean-francois-millet.png",
+                  "transform": "translate(601.745px, 311.685px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ],
+              "figures": [
+                {
+                  "name": "農民の生活と自然",
+                  "src": "/images/modern-c01-l01/farmers.png",
+                  "loaded": true
+                },
+                {
+                  "name": "バルビゾン派",
+                  "src": "/images/modern-c01-l01/painting-easel.png",
+                  "loaded": true
+                },
+                {
+                  "name": "本人・題材・居住の区別",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            }
+          },
+          {
+            "id": "modern-c01-l06-p04-006",
+            "mode": "static",
+            "start": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "ゴーガン",
+                  "key": "modern-c01-l06/paul-gauguin.png",
+                  "src": "/images/modern-c01-l06/paul-gauguin.png",
+                  "transform": "translate(248.4px, 457.211px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ],
+              "figures": [
+                {
+                  "name": "タヒチの暮らし",
+                  "src": "/images/modern-c01-l01/painting-easel.png",
+                  "loaded": true
+                },
+                {
+                  "name": "フランスへの異国趣味",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "本人・題材・居住の区別",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "middle": {
+              "progress": 0.356,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "ゴーガン",
+                  "key": "modern-c01-l06/paul-gauguin.png",
+                  "src": "/images/modern-c01-l06/paul-gauguin.png",
+                  "transform": "translate(248.4px, 457.211px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ],
+              "figures": [
+                {
+                  "name": "タヒチの暮らし",
+                  "src": "/images/modern-c01-l01/painting-easel.png",
+                  "loaded": true
+                },
+                {
+                  "name": "フランスへの異国趣味",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "本人・題材・居住の区別",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "end": {
+              "progress": 1,
+              "phase": "complete",
+              "items": [
+                {
+                  "name": "ゴーガン",
+                  "key": "modern-c01-l06/paul-gauguin.png",
+                  "src": "/images/modern-c01-l06/paul-gauguin.png",
+                  "transform": "translate(248.4px, 457.211px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": "説明：晩年にタヒチで暮らす。原文にない出発地と旅程は補わない"
+                }
+              ],
+              "figures": [
+                {
+                  "name": "タヒチの暮らし",
+                  "src": "/images/modern-c01-l01/painting-easel.png",
+                  "loaded": true
+                },
+                {
+                  "name": "フランスへの異国趣味",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "本人・題材・居住の区別",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "replay": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [
+                {
+                  "name": "ゴーガン",
+                  "key": "modern-c01-l06/paul-gauguin.png",
+                  "src": "/images/modern-c01-l06/paul-gauguin.png",
+                  "transform": "translate(248.4px, 457.211px)",
+                  "walking": false,
+                  "loaded": true,
+                  "bubble": ""
+                }
+              ],
+              "figures": [
+                {
+                  "name": "タヒチの暮らし",
+                  "src": "/images/modern-c01-l01/painting-easel.png",
+                  "loaded": true
+                },
+                {
+                  "name": "フランスへの異国趣味",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "本人・題材・居住の区別",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            }
+          },
+          {
+            "id": "modern-c01-l06-p06-004",
+            "mode": "static",
+            "start": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [],
+              "figures": [
+                {
+                  "name": "レントゲン",
+                  "src": "/images/modern-c01-l06/wilhelm-rontgen.png",
+                  "loaded": true
+                },
+                {
+                  "name": "キュリー夫妻",
+                  "src": "/images/modern-c01-l06/curie-couple.png",
+                  "loaded": true
+                },
+                {
+                  "name": "レントゲンとキュリー夫妻：放射線",
+                  "src": "/images/modern-c01-l06/science-workbench.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "middle": {
+              "progress": 0.352,
+              "phase": "moving",
+              "items": [],
+              "figures": [
+                {
+                  "name": "レントゲン",
+                  "src": "/images/modern-c01-l06/wilhelm-rontgen.png",
+                  "loaded": true
+                },
+                {
+                  "name": "キュリー夫妻",
+                  "src": "/images/modern-c01-l06/curie-couple.png",
+                  "loaded": true
+                },
+                {
+                  "name": "レントゲンとキュリー夫妻：放射線",
+                  "src": "/images/modern-c01-l06/science-workbench.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "end": {
+              "progress": 1,
+              "phase": "complete",
+              "items": [],
+              "figures": [
+                {
+                  "name": "レントゲン",
+                  "src": "/images/modern-c01-l06/wilhelm-rontgen.png",
+                  "loaded": true
+                },
+                {
+                  "name": "キュリー夫妻",
+                  "src": "/images/modern-c01-l06/curie-couple.png",
+                  "loaded": true
+                },
+                {
+                  "name": "レントゲンとキュリー夫妻：放射線",
+                  "src": "/images/modern-c01-l06/science-workbench.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            },
+            "replay": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [],
+              "figures": [
+                {
+                  "name": "レントゲン",
+                  "src": "/images/modern-c01-l06/wilhelm-rontgen.png",
+                  "loaded": true
+                },
+                {
+                  "name": "キュリー夫妻",
+                  "src": "/images/modern-c01-l06/curie-couple.png",
+                  "loaded": true
+                },
+                {
+                  "name": "レントゲンとキュリー夫妻：放射線",
+                  "src": "/images/modern-c01-l06/science-workbench.png",
+                  "loaded": true
+                }
+              ],
+              "information": [],
+              "movingPoints": 0,
+              "arrows": 0
+            }
+          },
+          {
+            "id": "modern-c01-l06-p06-011",
+            "mode": "information",
+            "start": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [],
+              "figures": [
+                {
+                  "name": "ワシントン〜ボルティモア",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "ドーヴァー海峡：1851年",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "大西洋：1866年",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "イギリス〜インド：1870年",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [
+                {
+                  "index": 0,
+                  "d": "M206.12076190476193,281.47771428571434 L208.624380952381,279.2161904761905",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                },
+                {
+                  "index": 1,
+                  "d": "M668.7942857142857,209.30380952380952 L671.9238095238095,210.30761904761906",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                },
+                {
+                  "index": 2,
+                  "d": "M613.7619047619048,204.16666666666669 L513.3809523809524,215.97619047619048 L424.80952380952385,227.78571428571428 L336.2380952380953,233.6904761904762",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                },
+                {
+                  "index": 3,
+                  "d": "M649.1904761904761,215.97619047619048 L625.5714285714287,251.40476190476193 L619.6666666666667,292.73809523809524 L678.7142857142858,298.64285714285717 L767.2857142857142,304.54761904761904 L832.2380952380952,322.26190476190476 L849.952380952381,339.9761904761905 L897.1904761904761,410.83333333333337 L968.047619047619,422.64285714285717 L1074.3333333333335,393.11904761904765",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                }
+              ],
+              "movingPoints": 0,
+              "arrows": 4
+            },
+            "middle": {
+              "progress": 0.352,
+              "phase": "moving",
+              "items": [],
+              "figures": [
+                {
+                  "name": "ワシントン〜ボルティモア",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "ドーヴァー海峡：1851年",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "大西洋：1866年",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "イギリス〜インド：1870年",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [
+                {
+                  "index": 0,
+                  "d": "M206.12076190476193,281.47771428571434 L208.624380952381,279.2161904761905",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                },
+                {
+                  "index": 1,
+                  "d": "M668.7942857142857,209.30380952380952 L671.9238095238095,210.30761904761906",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                },
+                {
+                  "index": 2,
+                  "d": "M613.7619047619048,204.16666666666669 L513.3809523809524,215.97619047619048 L424.80952380952385,227.78571428571428 L336.2380952380953,233.6904761904762",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                },
+                {
+                  "index": 3,
+                  "d": "M649.1904761904761,215.97619047619048 L625.5714285714287,251.40476190476193 L619.6666666666667,292.73809523809524 L678.7142857142858,298.64285714285717 L767.2857142857142,304.54761904761904 L832.2380952380952,322.26190476190476 L849.952380952381,339.9761904761905 L897.1904761904761,410.83333333333337 L968.047619047619,422.64285714285717 L1074.3333333333335,393.11904761904765",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                }
+              ],
+              "movingPoints": 0,
+              "arrows": 4
+            },
+            "end": {
+              "progress": 1,
+              "phase": "complete",
+              "items": [],
+              "figures": [
+                {
+                  "name": "ワシントン〜ボルティモア",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "ドーヴァー海峡：1851年",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "大西洋：1866年",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "イギリス〜インド：1870年",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [
+                {
+                  "index": 0,
+                  "d": "M206.12076190476193,281.47771428571434 L208.624380952381,279.2161904761905",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                },
+                {
+                  "index": 1,
+                  "d": "M668.7942857142857,209.30380952380952 L671.9238095238095,210.30761904761906",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                },
+                {
+                  "index": 2,
+                  "d": "M613.7619047619048,204.16666666666669 L513.3809523809524,215.97619047619048 L424.80952380952385,227.78571428571428 L336.2380952380953,233.6904761904762",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                },
+                {
+                  "index": 3,
+                  "d": "M649.1904761904761,215.97619047619048 L625.5714285714287,251.40476190476193 L619.6666666666667,292.73809523809524 L678.7142857142858,298.64285714285717 L767.2857142857142,304.54761904761904 L832.2380952380952,322.26190476190476 L849.952380952381,339.9761904761905 L897.1904761904761,410.83333333333337 L968.047619047619,422.64285714285717 L1074.3333333333335,393.11904761904765",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                }
+              ],
+              "movingPoints": 0,
+              "arrows": 4
+            },
+            "replay": {
+              "progress": 0,
+              "phase": "moving",
+              "items": [],
+              "figures": [
+                {
+                  "name": "ワシントン〜ボルティモア",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "ドーヴァー海峡：1851年",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "大西洋：1866年",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                },
+                {
+                  "name": "イギリス〜インド：1870年",
+                  "src": "/images/modern-c01-l01/constitution-document.png",
+                  "loaded": true
+                }
+              ],
+              "information": [
+                {
+                  "index": 0,
+                  "d": "M206.12076190476193,281.47771428571434 L208.624380952381,279.2161904761905",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                },
+                {
+                  "index": 1,
+                  "d": "M668.7942857142857,209.30380952380952 L671.9238095238095,210.30761904761906",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                },
+                {
+                  "index": 2,
+                  "d": "M613.7619047619048,204.16666666666669 L513.3809523809524,215.97619047619048 L424.80952380952385,227.78571428571428 L336.2380952380953,233.6904761904762",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                },
+                {
+                  "index": 3,
+                  "d": "M649.1904761904761,215.97619047619048 L625.5714285714287,251.40476190476193 L619.6666666666667,292.73809523809524 L678.7142857142858,298.64285714285717 L767.2857142857142,304.54761904761904 L832.2380952380952,322.26190476190476 L849.952380952381,339.9761904761905 L897.1904761904761,410.83333333333337 L968.047619047619,422.64285714285717 L1074.3333333333335,393.11904761904765",
+                  "label": "電信の情報接続を示す線",
+                  "dash": "4 4",
+                  "stroke": "#5c7886",
+                  "mask": null,
+                  "offset": null,
+                  "transform": null
+                }
+              ],
+              "movingPoints": 0,
+              "arrows": 4
+            }
+          }
+        ],
+        "cancellation": {
+          "id": "modern-c01-l06-p06-011",
+          "detached": [
+            {
+              "tag": "path",
+              "key": null,
+              "transform": "",
+              "attributes": [
+                [
+                  "d",
+                  "M206.12076190476193,281.47771428571434 L208.624380952381,279.2161904761905"
+                ],
+                [
+                  "fill",
+                  "none"
+                ],
+                [
+                  "stroke",
+                  "#5c7886"
+                ],
+                [
+                  "stroke-width",
+                  "2"
+                ],
+                [
+                  "stroke-dasharray",
+                  "4 4"
+                ],
+                [
+                  "class",
+                  "history-information-line"
+                ],
+                [
+                  "data-route",
+                  "0"
+                ],
+                [
+                  "aria-label",
+                  "電信の情報接続を示す線"
+                ]
+              ]
+            },
+            {
+              "tag": "path",
+              "key": null,
+              "transform": "",
+              "attributes": [
+                [
+                  "d",
+                  "M668.7942857142857,209.30380952380952 L671.9238095238095,210.30761904761906"
+                ],
+                [
+                  "fill",
+                  "none"
+                ],
+                [
+                  "stroke",
+                  "#5c7886"
+                ],
+                [
+                  "stroke-width",
+                  "2"
+                ],
+                [
+                  "stroke-dasharray",
+                  "4 4"
+                ],
+                [
+                  "class",
+                  "history-information-line"
+                ],
+                [
+                  "data-route",
+                  "1"
+                ],
+                [
+                  "aria-label",
+                  "電信の情報接続を示す線"
+                ]
+              ]
+            },
+            {
+              "tag": "path",
+              "key": null,
+              "transform": "",
+              "attributes": [
+                [
+                  "d",
+                  "M613.7619047619048,204.16666666666669 L513.3809523809524,215.97619047619048 L424.80952380952385,227.78571428571428 L336.2380952380953,233.6904761904762"
+                ],
+                [
+                  "fill",
+                  "none"
+                ],
+                [
+                  "stroke",
+                  "#5c7886"
+                ],
+                [
+                  "stroke-width",
+                  "2"
+                ],
+                [
+                  "stroke-dasharray",
+                  "4 4"
+                ],
+                [
+                  "class",
+                  "history-information-line"
+                ],
+                [
+                  "data-route",
+                  "2"
+                ],
+                [
+                  "aria-label",
+                  "電信の情報接続を示す線"
+                ]
+              ]
+            },
+            {
+              "tag": "path",
+              "key": null,
+              "transform": "",
+              "attributes": [
+                [
+                  "d",
+                  "M649.1904761904761,215.97619047619048 L625.5714285714287,251.40476190476193 L619.6666666666667,292.73809523809524 L678.7142857142858,298.64285714285717 L767.2857142857142,304.54761904761904 L832.2380952380952,322.26190476190476 L849.952380952381,339.9761904761905 L897.1904761904761,410.83333333333337 L968.047619047619,422.64285714285717 L1074.3333333333335,393.11904761904765"
+                ],
+                [
+                  "fill",
+                  "none"
+                ],
+                [
+                  "stroke",
+                  "#5c7886"
+                ],
+                [
+                  "stroke-width",
+                  "2"
+                ],
+                [
+                  "stroke-dasharray",
+                  "4 4"
+                ],
+                [
+                  "class",
+                  "history-information-line"
+                ],
+                [
+                  "data-route",
+                  "3"
+                ],
+                [
+                  "aria-label",
+                  "電信の情報接続を示す線"
+                ]
+              ]
+            }
+          ],
+          "cancelled": {
+            "connected": false,
+            "nodes": [
+              {
+                "tag": "path",
+                "key": null,
+                "transform": "",
+                "attributes": [
+                  [
+                    "d",
+                    "M206.12076190476193,281.47771428571434 L208.624380952381,279.2161904761905"
+                  ],
+                  [
+                    "fill",
+                    "none"
+                  ],
+                  [
+                    "stroke",
+                    "#5c7886"
+                  ],
+                  [
+                    "stroke-width",
+                    "2"
+                  ],
+                  [
+                    "stroke-dasharray",
+                    "4 4"
+                  ],
+                  [
+                    "class",
+                    "history-information-line"
+                  ],
+                  [
+                    "data-route",
+                    "0"
+                  ],
+                  [
+                    "aria-label",
+                    "電信の情報接続を示す線"
+                  ]
+                ]
+              },
+              {
+                "tag": "path",
+                "key": null,
+                "transform": "",
+                "attributes": [
+                  [
+                    "d",
+                    "M668.7942857142857,209.30380952380952 L671.9238095238095,210.30761904761906"
+                  ],
+                  [
+                    "fill",
+                    "none"
+                  ],
+                  [
+                    "stroke",
+                    "#5c7886"
+                  ],
+                  [
+                    "stroke-width",
+                    "2"
+                  ],
+                  [
+                    "stroke-dasharray",
+                    "4 4"
+                  ],
+                  [
+                    "class",
+                    "history-information-line"
+                  ],
+                  [
+                    "data-route",
+                    "1"
+                  ],
+                  [
+                    "aria-label",
+                    "電信の情報接続を示す線"
+                  ]
+                ]
+              },
+              {
+                "tag": "path",
+                "key": null,
+                "transform": "",
+                "attributes": [
+                  [
+                    "d",
+                    "M613.7619047619048,204.16666666666669 L513.3809523809524,215.97619047619048 L424.80952380952385,227.78571428571428 L336.2380952380953,233.6904761904762"
+                  ],
+                  [
+                    "fill",
+                    "none"
+                  ],
+                  [
+                    "stroke",
+                    "#5c7886"
+                  ],
+                  [
+                    "stroke-width",
+                    "2"
+                  ],
+                  [
+                    "stroke-dasharray",
+                    "4 4"
+                  ],
+                  [
+                    "class",
+                    "history-information-line"
+                  ],
+                  [
+                    "data-route",
+                    "2"
+                  ],
+                  [
+                    "aria-label",
+                    "電信の情報接続を示す線"
+                  ]
+                ]
+              },
+              {
+                "tag": "path",
+                "key": null,
+                "transform": "",
+                "attributes": [
+                  [
+                    "d",
+                    "M649.1904761904761,215.97619047619048 L625.5714285714287,251.40476190476193 L619.6666666666667,292.73809523809524 L678.7142857142858,298.64285714285717 L767.2857142857142,304.54761904761904 L832.2380952380952,322.26190476190476 L849.952380952381,339.9761904761905 L897.1904761904761,410.83333333333337 L968.047619047619,422.64285714285717 L1074.3333333333335,393.11904761904765"
+                  ],
+                  [
+                    "fill",
+                    "none"
+                  ],
+                  [
+                    "stroke",
+                    "#5c7886"
+                  ],
+                  [
+                    "stroke-width",
+                    "2"
+                  ],
+                  [
+                    "stroke-dasharray",
+                    "4 4"
+                  ],
+                  [
+                    "class",
+                    "history-information-line"
+                  ],
+                  [
+                    "data-route",
+                    "3"
+                  ],
+                  [
+                    "aria-label",
+                    "電信の情報接続を示す線"
+                  ]
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "人物・船・建物は学習用の模式的な絵であり、精密な肖像や復元模型ではない。",
+    "原文の簡略な説明や誤記と思われる表現は校訂せず保持し、補助図を学習用の整理として区別する。",
+    "地理は本文との位置関係の概略。思想や外交から人物・軍隊の移動や精密な国境を補わない。",
+    "原書167ページは引用されたページ番号を保持する。現時点では引用先の後続回は未公開。"
+  ]
+}

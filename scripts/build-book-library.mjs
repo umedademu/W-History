@@ -48,9 +48,10 @@ for(const chapter of bookChapters)for(const v of chapter.volumes) {
   await write(`public/${v.id}-story.html`,html);
 }
 
+const allModernVolumes=bookCollections[1].chapters.flatMap(chapter=>chapter.volumes);
 for(const chapter of bookCollections[1].chapters)for(const v of chapter.volumes) {
   const lesson=chapter.lessons.find(item=>item.lesson===v.lesson);
-  const previous=chapter.volumes[chapter.volumes.findIndex(item=>item.id===v.id)-1];
+  const previous=allModernVolumes[allModernVolumes.findIndex(item=>item.id===v.id)-1];
   const pages=modernEdition[v.id].length;
   assert.ok(pages>0,`${v.id}: 本文が必要`);
   const links=chapter.volumes.filter(o=>o.lesson===v.lesson).map(o=>`<a href="/${o.id}-story.html"${o.id===v.id?' aria-current="page"':''}>${String(o.part).padStart(2,'0')} ${escape(o.label)}</a>`).join('');
@@ -70,7 +71,7 @@ for(const chapter of bookCollections[1].chapters)for(const v of chapter.volumes)
     .replace('<nav id="scene-nav"',reference+'\n    <nav id="scene-nav"')
     .replace(/<nav class="story-series-links"[\s\S]*?<\/nav>/,nav + (previous ? `<p class="previous-volume"><a id="previous-volume-link" href="/${previous.id}-story.html#page-${modernEdition[previous.id].length}">← 前の教材の最後へ</a></p>` : ''))
     .replace(/href="[^"]*" class="home-link"/,'href="/?book=modern#modern-book" class="home-link"')
-    .replace(/<footer([\s\S]*?)<details>[\s\S]*?<\/details>/,`<footer$1<details><summary>地図と説明について</summary><p>近代・現代 第1章「国民国家の形成」の第${v.lesson}回・第${v.part}節を、原文の順番に${pages}場面でたどります。元の太字・色・下線・読み仮名を保持し、関係する原書ページは「原文の図表・補足」で全文を確認できます。</p><p>人物・集団・建物・道具は本文に沿うドット絵で示します。人物の移動や姿の切替は本文にある出来事の概略です。会議や同じ都市の勢力は、本文の後の模式図でも見比べられます。人物名だけの印は本文に関係する代表地点で、所在や活動範囲を断定するものではありません。地図の文字は見やすい位置に移し、元の地点へ細い線で結びます。矢印は本文にある移動・独立運動の方向の概略です。</p><p>基図は<a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noreferrer">Natural Earth の公開地図</a>を使用しています。関係図は原文の対立関係を整理した模式図です。</p></details>`);
+    .replace(/<footer([\s\S]*?)<details>[\s\S]*?<\/details>/,`<footer$1<details><summary>地図と説明について</summary><p>近代・現代 第${chapter.number}章「${escape(chapter.title)}」の第${v.lesson}回・第${v.part}節を、原文の順番に${pages}場面でたどります。元の太字・色・下線・読み仮名を保持し、関係する原書ページは「原文の図表・補足」で全文を確認できます。</p><p>人物・集団・建物・道具は本文に沿うドット絵で示します。人物の移動や姿の切替は本文にある出来事の概略です。会議や同じ都市の勢力は、本文の後の模式図でも見比べられます。人物名だけの印は本文に関係する代表地点で、所在や活動範囲を断定するものではありません。地図の文字は見やすい位置に移し、元の地点へ細い線で結びます。矢印は本文にある移動・独立運動の方向の概略です。</p><p>基図は<a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noreferrer">Natural Earth の公開地図</a>を使用しています。関係図は原文の対立関係を整理した模式図です。</p></details>`);
   await write(`public/${v.id}-story.html`,html);
 }
 
@@ -80,12 +81,12 @@ const chapterList=(chapters,prefix)=>chapters.map(c=>{
     return `\n<section class="lesson-group"${prefix ? ` data-lesson="${l.lesson}"` : ''} aria-labelledby="${prefix}lesson-${l.lesson}">\n<h3 id="${prefix}lesson-${l.lesson}">第${l.lesson}回 ${escape(l.title)}</h3>\n<ol class="lesson-parts">\n${volumes.map(v=>`<li><a class="part-link" href="/${v.id}-story.html">${escape(v.label)}</a></li>`).join('\n')}\n</ol>\n</section>`;
   }).join('')}\n</div>\n</details>`;
 }).join('\n');
-const collection=`<div class="book-tabs" data-book-tabs role="tablist" aria-label="読む巻を選ぶ" hidden>${bookCollections.map(book=>`<button type="button" id="${book.id}-tab" role="tab" aria-selected="${book.id==='ancient'}" aria-controls="${book.id}-book" data-book-tab="${book.id}">${book.title}</button>`).join('')}</div>\n`+bookCollections.map(book=>`<section class="book-panel" id="${book.id}-book" data-book-panel="${book.id}" role="tabpanel" aria-labelledby="${book.id}-tab">\n<h2 class="book-heading">${book.title}</h2><p class="book-description">${book.id==='ancient'?'全7章・30回を収録しています。':'第1〜6回を収録しています。'}</p>\n<!-- collection:${book.id}:start -->\n${chapterList(book.chapters,book.id==='ancient'?'':'modern-')}\n<!-- collection:${book.id}:end -->\n</section>`).join('\n');
+const collection=`<div class="book-tabs" data-book-tabs role="tablist" aria-label="読む巻を選ぶ" hidden>${bookCollections.map(book=>`<button type="button" id="${book.id}-tab" role="tab" aria-selected="${book.id==='ancient'}" aria-controls="${book.id}-book" data-book-tab="${book.id}">${book.title}</button>`).join('')}</div>\n`+bookCollections.map(book=>`<section class="book-panel" id="${book.id}-book" data-book-panel="${book.id}" role="tabpanel" aria-labelledby="${book.id}-tab">\n<h2 class="book-heading">${book.title}</h2><p class="book-description">${book.id==='ancient'?'全7章・30回を収録しています。':'第1〜7回を収録しています。'}</p>\n<!-- collection:${book.id}:start -->\n${chapterList(book.chapters,book.id==='ancient'?'':'modern-')}\n<!-- collection:${book.id}:end -->\n</section>`).join('\n');
 let catalog=await read('public/index.html');
 const block=`<!-- book-collection:start -->\n${collection}\n<!-- book-collection:end -->\n    `;
 assert.ok(catalog.includes('<!-- book-collection:start -->')&&catalog.includes('<!-- book-collection:end -->'),'目次の生成範囲が必要');
 catalog=catalog.replace(/<!-- book-collection:start -->[\s\S]*?<!-- book-collection:end -->\s*/,block);
-catalog=catalog.replace(/<meta name="description"[^>]*>/,`<meta name="description" content="W-Historyの教材目次。古代・中世・近世と近代・現代を選び、章・回・節から学べます。近代・現代は第1〜6回を収録。" />`);
+catalog=catalog.replace(/<meta name="description"[^>]*>/,`<meta name="description" content="W-Historyの教材目次。古代・中世・近世と近代・現代を選び、章・回・節から学べます。近代・現代は第1〜7回を収録。" />`);
 await write('public/index.html',catalog);
 await write('docs/catalog/summary.json',JSON.stringify({version,parts:count,pages:total,chapters:summary,collections},null,2)+'\n');
 console.log(`2巻・${count}パート・${total}場面の入口と一覧を生成しました。`);

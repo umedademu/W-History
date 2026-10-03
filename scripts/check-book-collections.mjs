@@ -12,6 +12,7 @@ import {modernNamesInText as thirdModernNamesInText} from '../public/modern-geog
 import {modernNamesInText as fourthModernNamesInText} from '../public/modern-geography-04.js';
 import {modernNamesInText as fifthModernNamesInText} from '../public/modern-geography-05.js';
 import {modernNamesInText as sixthModernNamesInText} from '../public/modern-geography-06.js';
+import {modernNamesInText as seventhModernNamesInText} from '../public/modern-geography-07.js';
 import {storyEmphasisPlan} from '../public/story-emphasis.js';
 import {modernReferencePages,modernDiagramFor} from '../public/modern-lessons.js';
 
@@ -24,7 +25,9 @@ assert.equal(series.length,128);
 assert.equal(Object.values(allEditions).flat().length,1013);
 assert.deepEqual(bookCollections[0].chapters.flatMap(c=>c.volumes),series);
 assert.deepEqual(bookCollections[1].chapters.flatMap(c=>c.volumes),modernSeries);
-assert.equal(modernSeries.length,28);
+assert.equal(modernSeries.length,31);
+assert.deepEqual(bookCollections[1].chapters.map(chapter=>({number:chapter.number,title:chapter.title,lessons:chapter.lessons.map(lesson=>lesson.lesson)})),[{number:1,title:'国民国家の形成',lessons:[1,2,3,4,5,6]},{number:2,title:'列強の侵略とアジアの変革',lessons:[7]}]);
+for(const chapter of bookCollections[1].chapters)assert.deepEqual(chapter.volumes.map(volume=>volume.number),chapter.volumes.map((_,index)=>String(index+1).padStart(2,'0')),'教材番号は章ごとに1から始める');
 const all=bookCollections.flatMap(b=>b.chapters.flatMap(c=>c.volumes));
 assert.equal(new Set(all.map(v=>v.id)).size,all.length);
 const ids=[...catalog.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
@@ -49,6 +52,10 @@ for(const volume of modernSeries) {
   const html=await read(`public/${volume.id}-story.html`);
   assert.ok(html.includes(`<span class="version">v${version}</span>`));
   assert.ok(html.includes('/modern-story.js?v='));
+  const chapter=bookCollections[1].chapters.find(chapter=>chapter.number===volume.chapter);
+  assert.ok(html.includes('第'+chapter.number+'章「'+chapter.title+'」'),'説明欄に正しい章名を表示する');
+  const previous=modernSeries[modernSeries.findIndex(item=>item.id===volume.id)-1];
+  if(previous)assert.ok(html.includes('id="previous-volume-link" href="/'+previous.id+'-story.html#page-'+modernEdition[previous.id].length+'"'),'章をまたいで前の教材へ戻る');
   assert.ok(!html.includes('/chapter-story.js'));
   assert.ok(html.includes('id="source-reference-body"'));
   assert.ok(html.includes('href="/?book=modern#modern-book"'));
@@ -60,16 +67,16 @@ for(const volume of modernSeries) {
     if(diagram)diagrams.add(diagram.title);
     if(scene.plainBody.join('').includes('次ページの図➡P.30'))assert.ok(modernReferencePages(scene,volume,index).includes(30));
     const text=scene.plainBody.join('');
-    assert.deepEqual(namesForScene(scene,text),({1:modernNamesInText,2:secondModernNamesInText,3:thirdModernNamesInText,4:fourthModernNamesInText,5:fifthModernNamesInText,6:sixthModernNamesInText}[scene.sourceText.lesson])(text),'各回の名称辞書を当てる');
+    assert.deepEqual(namesForScene(scene,text),({1:modernNamesInText,2:secondModernNamesInText,3:thirdModernNamesInText,4:fourthModernNamesInText,5:fifthModernNamesInText,6:sixthModernNamesInText,7:seventhModernNamesInText}[scene.sourceText.lesson])(text),'各回の名称辞書を当てる');
     assert.deepEqual(storyEmphasisPlan(scene),[],'原資料の強調を古代の語で上書きしない');
   }
 }
 assert.equal(diagrams.size,12+new Set(modernSeries.filter(v=>v.lesson>=3).flatMap(v=>modernEdition[v.id].map(scene=>modernDiagramFor(scene)?.title).filter(Boolean))).size);
-assert.deepEqual([...referencedPages].sort((a,b)=>a-b),Array.from({length:110},(_,i)=>15+i));
+assert.deepEqual([...referencedPages].sort((a,b)=>a-b),Array.from({length:125},(_,i)=>15+i));
 const summary=JSON.parse(await read('docs/catalog/summary.json'));
-assert.equal(summary.parts,156);
+assert.equal(summary.parts,159);
 assert.equal(summary.pages,1013+Object.values(modernEdition).flat().length);
 assert.deepEqual(summary.collections.map(c=>({book:c.book,parts:c.parts,pages:c.pages})),[
-  {book:'ancient',parts:128,pages:1013},{book:'modern',parts:28,pages:Object.values(modernEdition).flat().length}
+  {book:'ancient',parts:128,pages:1013},{book:'modern',parts:31,pages:Object.values(modernEdition).flat().length}
 ]);
 console.log('2巻の目次・識別名・集計・末尾移動・名称と強調の分離を確認しました。');

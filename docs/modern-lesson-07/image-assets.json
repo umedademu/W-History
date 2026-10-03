@@ -1,0 +1,1295 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "lesson": "modern-c02-l07",
+  "description": "原文に沿う学習用の模式的な本人・一般集団・船・施設・道具。精密な肖像や船舶・建築の復元ではない。",
+  "totals": {
+    "new": 18,
+    "nativeGenerated": 0,
+    "fallbackGenerated": 18,
+    "generationRequests": 19,
+    "reused": 20,
+    "used": 38
+  },
+  "authorization": "指定のAntigravity CLI経由でGemini 3.8 Flashへマフムト2世の画像を依頼したが、画像生成側がRESOURCE_EXHAUSTEDを返した。以前の利用者による別の画像生成ツールへの続行承認を適用し、18点を組み込み画像生成ツールで制作した。全18点の透明調整と寸法調整は指定どおりAntigravity経由Geminiへ依頼した。",
+  "generationModels": {
+    "nativeRequest": "Gemini 3.8 Flash High",
+    "nativeBackend": "応答でgemini-3.1-flash-imageを確認",
+    "fallback": "組み込み画像生成ツール。内部モデル名は返されない。"
+  },
+  "nativeRequests": [
+    {
+      "key": "mahmud-ii",
+      "status": "quota",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite. Parent model Gemini 3.8 Flash High. Detailed 16-bit JRPG short chibi THREE heads tall, crisp stepped dark pixel outlines, restrained muted colors, very short legs, large respectful adult face, full intact figure centered, transparent background if supported otherwise pure white. Match C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and talleyrand.png. Subject: Mahmud II, Ottoman Sultan in the 1830s, adult man about fifty, reddish fez with black tassel, short dark beard and moustache, dark navy long European-style Ottoman military coat with gold edging, dark trousers and black boots, standing neutral with a reform document, no turban or crown. No text, labels, cast shadow, scenery, glow, or watermark. ImageName mahmud-ii. Do not alter repository files. Return concise JSON {key:'mahmud-ii',generated_path,tool,error}; if image quota limited return immediately without waits/retries.\n"
+    }
+  ],
+  "quota": {
+    "status": "RESOURCE_EXHAUSTED",
+    "firstKey": "mahmud-ii",
+    "resetTimestampInResponse": "2026-10-03T16:45:18Z"
+  },
+  "normalization": {
+    "model": "Gemini 3.8 Flash High",
+    "via": "Antigravity CLI",
+    "completed": 18,
+    "failed": 0,
+    "canvas": [
+      192,
+      192
+    ],
+    "subjectMaximum": [
+      176,
+      176
+    ],
+    "centerX": 96,
+    "bottomY": 184,
+    "resampling": "最近傍・縦横比を維持。",
+    "alphaCleanup": "元のRGBは非改変。透明余白に残るアルファ1〜15の薄い雑音だけを0にし、16〜255はそのまま保持。背景色除去なし。",
+    "scriptSha256": "077f43b3ce539a68aa8a0a4831160031cc1542bec4c660af5b61cbd2f18668c5",
+    "preparationPrompt": "あなたはGemini 3.8 Flashです。この依頼では画像の調整処理だけを担当してください。新規画像生成、他担当起動、広い探索、Git操作、インストールは不要です。\n18画像を別経路で生成しています。まず C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson07-1791041376425/normalize-sprites.py を作成して構文確認だけ行い、画像処理はまだ実行しないでください。\n参考処理として読んでよいファイル: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson06-1791037542957/normalize-sprites.py\n入力: C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson07-1791041376425/generated-inputs.json の {assets:[{key,inputPath,outputPath,generationTool,...}]}、18件予定。出力報告 C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson07-1791041376425/normalization-report.json。確認画像 C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson07-1791041376425/contact-sheet.png。\n元の透明PNGは参照専用。元のRGBや顔・服の絵は描き替えない。アルファ1〜15のごく薄い雑音だけ0、16〜255そのまま。透過範囲bboxで切り出し、縦横比を保持して最大176×176へ最近傍縮小、192×192透明面の横中央96・下端184に配置、全周8px以上透明余白。既存入力も出力も上書きせず、元のreportで保存済みSHA照合がある場合だけ再利用。元画像に透過がない場合は失敗として報告、背景色の除去を勝手に行わない。\n報告JSONは summary{total,completed,failed}, failures[],results[]。resultsはkey,inputPath,outputPath,inputSha256,outputSha256,originalDimensions{width,height},originalBbox,cleanedBbox,savedBbox,transparentPixelCount,removedFaintAlphaPixels,backgroundOperation,status。寸法192・透明余白・空図でないことを確認。\n18点確認一覧は6列×3行、各画像192実寸の薄灰色マスとその下ASCII key、公開画像には文字を付加しない。\nsources/AGENTS.md/TASK.md/既存の他画像やコードには触れず、この私用作業フォルダのscriptのみ準備してください。まだ入力JSONはないので実行しない。\nPython/Pillowでの寸法と透明調整を許可。画像生成CLIを使わない。スクリプトの作成・構文確認後、短く結果を報告。\n",
+    "executionPrompt": "あなたはGemini 3.8 Flashです。準備済みの C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson07-1791041376425/normalize-sprites.py を読み、C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson07-1791041376425/generated-inputs.json の18件だけに実行してください。全入力の生成が完了しました。元画像は参照専用、RGB・顔・衣服の絵は描き替えず、前回指定済みの透明雑音の最小調整・最近傍で192への配置のみです。出力はこのmanifestの新規PNGだけと私用フォルダのreport/contact-sheetです。処理済みSHAで検証できない既存ファイルは上書きしない。sources、AGENTS、TASK、他画像、共通コード、Gitは触らない。18件すべての出力を寸法・透明余白・非空画像・識別値で検証し、normalization-report.jsonとcontact-sheet.pngへ記録してください。失敗があれば隠さず報告。単に計画や作成のみで終わらず、今回は処理の実行を完了してください。Python/Pillowによる寸法透明調整を許可します。画像生成を行わず、担当や画像生成CLIを使わない。最後に完了/失敗件数と報告・確認画像パスを短く返してください。\n"
+  },
+  "appearanceReview": {
+    "reviewed": "新18点の一覧を192画素実寸で目視し、本人の顔・年代と帽子、2人組の構成、住民と将校・法学者、19世紀の船、施設・品物の区別、透過と余白を確認。",
+    "reusedPeople": "既存のスレイマン1世とアーガー＝ムハンマドは同じ本人の絵を目視確認して流用する。別人の顔は使用しない。"
+  },
+  "prompts": [
+    {
+      "key": "selim-iii",
+      "name": "セリム3世",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Selim III, Ottoman Sultan in the late eighteenth century, middle aged adult, broad white Ottoman turban, short brown beard and moustache, deep red brocade Ottoman long ceremonial robe with fur trim, dark boots, reform paper in hand, no fez or crown."
+    },
+    {
+      "key": "mahmud-ii",
+      "name": "マフムト2世",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Mahmud II, Ottoman Sultan in the 1830s, adult man about fifty, reddish fez with black tassel, short dark beard and moustache, dark navy long European-style Ottoman military coat with gold edging, dark trousers and black boots, reform document, no turban or crown."
+    },
+    {
+      "key": "abdulmejid-i",
+      "name": "アブデュルメジト1世",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Abdulmejid I, Ottoman Sultan mid nineteenth century, adult about thirty-five, reddish fez with black tassel, dark brown swept hair, black moustache and small short beard, slim face, dark blue Ottoman European-style long military coat with subtle gold edging, trousers and black boots, neutral pose, distinctive younger slender face."
+    },
+    {
+      "key": "abdulaziz",
+      "name": "アブデュルアジーズ",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Abdulaziz Ottoman Sultan in the 1860s, stout adult about forty, rounded face, thick short black full beard and moustache, red fez, dark navy military long coat with narrow gold edging, black boots, solemn neutral pose, no crown."
+    },
+    {
+      "key": "abdulhamid-ii",
+      "name": "アブデュルハミト2世",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Abdulhamid II Ottoman Sultan in the late nineteenth century, slender middle aged adult, narrow face, prominent long nose, receding dark hair under red fez with black tassel, short brown-black beard and moustache, dark European-style Ottoman military long coat with understated gold trim, dark trousers, black boots, neutral upright pose."
+    },
+    {
+      "key": "midhat-pasha",
+      "name": "ミドハト＝パシャ",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Midhat Pasha Ottoman reform statesman in the 1870s, older adult, gray hair, thick white-gray moustache and no full beard, red fez, dark navy long civilian formal coat, waistcoat and trousers, white shirt, black boots, holding a blank constitutional document, neutral thoughtful expression."
+    },
+    {
+      "key": "jamal-al-din-afghani",
+      "name": "アフガーニー",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Jamal al-Din al-Afghani in the late nineteenth century, middle aged scholar, broad white turban with dark band, strong dark eyebrows, black full beard and moustache, restrained charcoal brown long scholar robe with pale inner garment, plain closed book, dignified calm face, no halo or religious symbol."
+    },
+    {
+      "key": "mehmed-v",
+      "name": "メフメト5世",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Mehmed V Ottoman Sultan in early twentieth century, elderly stocky man, round kindly adult face, white-gray moustache and short full beard, red fez, dark blue European-style long military coat with understated gold edging, trousers and black boots, dignified neutral pose."
+    },
+    {
+      "key": "sayyid-ali-muhammad",
+      "name": "サイイド＝アリー＝ムハンマド",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Sayyid Ali Muhammad the Bab, nineteenth-century young adult Persian scholar, white turban with green cloth accent, short dark beard and moustache, gentle respectful adult face, muted ivory long robe with plain brown cloak, plain closed book, calm ordinary standing pose, no halo, divine light, worship, execution, blood, or violent imagery."
+    },
+    {
+      "key": "yaqub-beg",
+      "name": "ヤークーブ＝ベク",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Yaqub Beg, nineteenth century Central Asian military leader, middle aged adult with strong dark-gray beard and moustache, tall dark fur cap, dark turquoise long Central Asian coat with cream sash and boots, plain sheathed sword, standing neutral, no Ottoman fez or modern uniform."
+    },
+    {
+      "key": "zuo-zongtang",
+      "name": "左宗棠",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Zuo Zongtang, nineteenth century Qing official in older age, dark rounded Qing official hat with red finial, long thin white-gray beard and moustache, calm lined adult Chinese face, dark blue long official robe with a modest square embroidered badge, dark boots, no European crown or Japanese clothing."
+    },
+    {
+      "key": "young-turk-officers",
+      "name": "青年トルコの将校",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Two generic Young Turk junior Ottoman army officers around 1908, adult men with distinct neutral faces and neat dark moustaches, red fezzes with black tassels, dark navy late nineteenth-century military jackets and trousers, restrained gold details and boots, one holding a blank constitutional document, no identifiable historical leader, no flag, no weapons fired."
+    },
+    {
+      "key": "iranian-ulama",
+      "name": "イランのウラマー",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Two generic nineteenth-century Iranian Shia Islamic legal scholars, adult men with dignified neutral distinct faces, white turbans, dark brown and charcoal long scholarly robes, restrained beards, one plain closed book, no fanatic caricature, halo, worship, or weapon."
+    },
+    {
+      "key": "kii-island-rescuers",
+      "name": "紀伊大島の救助住民",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Two ordinary Japanese coastal village rescuers in 1890, one adult man one adult woman, indigo and brown practical cotton work clothes, short trousers or modest skirt and sandals, carrying a coil of rope and folded rescue blanket, respectful calm determined adult faces, no victim, sea, drowning, blood, halo, or modern rescue uniform."
+    },
+    {
+      "key": "ertugrul-frigate",
+      "name": "エルトゥールル号",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: One intact nineteenth-century Ottoman wooden steam frigate representing Ertugrul in 1890, broadside three-quarter small model silhouette with dark wooden hull, three masts with furled pale sails, a single dark smokestack, tiny rigging, no modern steel battleship turret, no water or ground, no flag, no smoke cloud, no wreck or people; educational schematic not exact reconstruction."
+    },
+    {
+      "key": "hiei-kongo-ships",
+      "name": "比叡と金剛",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Two intact separate late nineteenth-century Japanese small wooden-and-metal steam corvettes representing Hiei and Kongo used in repatriation around 1890, arranged side by side slightly staggered without overlapping, dark hulls, slim masts with furled pale sails and simple funnels, no twentieth-century battleship turrets, no water, smoke clouds, scenery, flags, or people; educational schematic not exact reconstruction."
+    },
+    {
+      "key": "tobacco-cargo",
+      "name": "タバコの品",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Compact nineteenth-century tobacco trade goods: one small wooden open crate holding dried brown tobacco leaves, a few green-brown tobacco leaves beside it, subtle tied cloth bale, no text, branded product, cigarette pack, smoker, flame or smoke; clear educational trade-goods miniature."
+    },
+    {
+      "key": "british-legation-tehran",
+      "name": "テヘランの英国公使館",
+      "generationTool": "組み込み画像生成",
+      "prompt": "Create ONE new transparent-background sprite for a Japanese world-history learning website. Detailed 16-bit JRPG pixel art, compact THREE-head-tall chibi proportions, head one third height, short legs and compact body, respectful readable adult faces. Crisp stepped dark pixel outlines, muted earthy colors, restrained pixel shading, no antialias blur, similar to a high-quality retro RPG textbook portrait. Entire subject intact and centered with generous transparent margin on all sides. No background scenery, text, letters, labels, watermark, floor, external cast shadow, or glow. This is a schematic educational illustration, not an exact portrait or artifact reconstruction. Subject: Compact schematic nineteenth-century British diplomatic legation in Tehran, low warm tan brick building with a small plain courtyard gate and flat roof, modest windows, restrained Persian arched doorway, no modern embassy tower, dome, luxury palace, flag, people, text or surroundings; educational symbolic building not exact architectural reconstruction."
+    }
+  ],
+  "assets": [
+    {
+      "key": "selim-iii",
+      "image": "modern-c02-l07/selim-iii.png",
+      "name": "セリム3世",
+      "kind": "person",
+      "identity": "person:selim-iii",
+      "description": "セリム3世本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/selim-iii.png",
+      "outputSha256": "a7e3e6e89b43ca3f0eb2af027d1a191d026c29650eb44a32fac2dc239e0ffe66",
+      "originalFilename": "exec-b955d898-48cb-460d-b48d-446fba9bfedb.png",
+      "inputSha256": "93ab45a3eba830bc4d98fc30d7cf5642458d93365427700b8c947537348a6ecd",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "originalBbox": [
+        41,
+        25,
+        1079,
+        1354
+      ],
+      "cleanedBbox": [
+        269,
+        28,
+        923,
+        1347
+      ],
+      "savedBbox": [
+        53,
+        8,
+        140,
+        184
+      ],
+      "transparentPixels": 26991,
+      "removedFaintAlphaPixels": 20912,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 20912,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "mahmud-ii",
+      "image": "modern-c02-l07/mahmud-ii.png",
+      "name": "マフムト2世",
+      "kind": "person",
+      "identity": "person:mahmud-ii",
+      "description": "マフムト2世本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/mahmud-ii.png",
+      "outputSha256": "c4f8453c3867e4a04288e4a787d18e42ad33903cd978983b5fd9504cc056c58a",
+      "originalFilename": "exec-2f7ac04e-0b5e-4d92-807b-2ea46ddf125f.png",
+      "inputSha256": "54a132a60e958e70a2b38a6fca01d60d49845c5500d944da280759c1ff06620e",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        36,
+        940,
+        1514
+      ],
+      "cleanedBbox": [
+        206,
+        170,
+        780,
+        1404
+      ],
+      "savedBbox": [
+        55,
+        8,
+        137,
+        184
+      ],
+      "transparentPixels": 28092,
+      "removedFaintAlphaPixels": 17664,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 17664,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "abdulmejid-i",
+      "image": "modern-c02-l07/abdulmejid-i.png",
+      "name": "アブデュルメジト1世",
+      "kind": "person",
+      "identity": "person:abdulmejid-i",
+      "description": "アブデュルメジト1世本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/abdulmejid-i.png",
+      "outputSha256": "3689ad63e2991e64b61a1f2bd82c67dff13f2bf288a0654a560f09f44ca7472a",
+      "originalFilename": "exec-4e39eed4-252d-4cb4-b7f6-d689228420bd.png",
+      "inputSha256": "629e3e926f4b69c609e45ce9b34fa34ada6a33d5bd9d4f637aa1a89c00b9ce01",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        65,
+        893,
+        1536
+      ],
+      "cleanedBbox": [
+        257,
+        190,
+        753,
+        1441
+      ],
+      "savedBbox": [
+        61,
+        8,
+        131,
+        184
+      ],
+      "transparentPixels": 28779,
+      "removedFaintAlphaPixels": 15286,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15286,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "abdulaziz",
+      "image": "modern-c02-l07/abdulaziz.png",
+      "name": "アブデュルアジーズ",
+      "kind": "person",
+      "identity": "person:abdulaziz",
+      "description": "アブデュルアジーズ本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/abdulaziz.png",
+      "outputSha256": "b07be901d8245e3edc2ab6925ec0bf98de325bb3ee9821aa7f954b42590b3b73",
+      "originalFilename": "exec-d34b73db-2cf5-4c3f-9fbb-91094d832d2b.png",
+      "inputSha256": "16c98d597026f56d94fc864a2e3b47a40ff806260dd2a3c6d753b8ec150527ad",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        37,
+        964,
+        1520
+      ],
+      "cleanedBbox": [
+        183,
+        129,
+        838,
+        1453
+      ],
+      "savedBbox": [
+        53,
+        8,
+        140,
+        184
+      ],
+      "transparentPixels": 27277,
+      "removedFaintAlphaPixels": 14105,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14105,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "abdulhamid-ii",
+      "image": "modern-c02-l07/abdulhamid-ii.png",
+      "name": "アブデュルハミト2世",
+      "kind": "person",
+      "identity": "person:abdulhamid-ii",
+      "description": "アブデュルハミト2世本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/abdulhamid-ii.png",
+      "outputSha256": "49d8166c10585cf8cd56a47d189483f7679a4a1d2469846899d61f8b6f141dc1",
+      "originalFilename": "exec-7fad38c4-a470-45cc-807d-26b8bd169d3f.png",
+      "inputSha256": "92e6000a8eed0e9d47c46c6fc7a49c15d0c2ce186787496fefc90e2885aa286a",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        73,
+        117,
+        868,
+        1504
+      ],
+      "cleanedBbox": [
+        270,
+        119,
+        756,
+        1446
+      ],
+      "savedBbox": [
+        64,
+        8,
+        128,
+        184
+      ],
+      "transparentPixels": 28734,
+      "removedFaintAlphaPixels": 14789,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14789,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "midhat-pasha",
+      "image": "modern-c02-l07/midhat-pasha.png",
+      "name": "ミドハト＝パシャ",
+      "kind": "person",
+      "identity": "person:midhat-pasha",
+      "description": "ミドハト＝パシャ本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/midhat-pasha.png",
+      "outputSha256": "043e29c8e71bb704f0267e6fbb6d107cdf4ce07362d424fb682e95ef3a3b3e27",
+      "originalFilename": "exec-960a2cc7-6e63-48dd-b59a-aa9c5fb533a2.png",
+      "inputSha256": "cd0d163736886e7adae5654e5a141e965ecf5aecf7a19d3fe85481a3b71b58c8",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        37,
+        964,
+        1518
+      ],
+      "cleanedBbox": [
+        222,
+        97,
+        824,
+        1449
+      ],
+      "savedBbox": [
+        57,
+        8,
+        135,
+        184
+      ],
+      "transparentPixels": 28225,
+      "removedFaintAlphaPixels": 12013,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12013,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "jamal-al-din-afghani",
+      "image": "modern-c02-l07/jamal-al-din-afghani.png",
+      "name": "アフガーニー",
+      "kind": "person",
+      "identity": "person:jamal-al-din-afghani",
+      "description": "アフガーニー本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/jamal-al-din-afghani.png",
+      "outputSha256": "23b4badf57c4ee9bcdb01d4e88ae597f2f6ded45c63ede71a11c172be9a3429c",
+      "originalFilename": "exec-79d5f30f-4633-4a36-b670-b105b5b99705.png",
+      "inputSha256": "1dbfab980d9bc5219d621f8a190beaaf062516d76039b6c1485576f562831e08",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "originalBbox": [
+        138,
+        23,
+        907,
+        1328
+      ],
+      "cleanedBbox": [
+        277,
+        115,
+        871,
+        1326
+      ],
+      "savedBbox": [
+        53,
+        8,
+        139,
+        184
+      ],
+      "transparentPixels": 26015,
+      "removedFaintAlphaPixels": 9016,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9016,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "mehmed-v",
+      "image": "modern-c02-l07/mehmed-v.png",
+      "name": "メフメト5世",
+      "kind": "person",
+      "identity": "person:mehmed-v",
+      "description": "メフメト5世本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/mehmed-v.png",
+      "outputSha256": "252d31d857a5e1b64790859c7aae12f79a03ba964f2ad29cf890776216017dfd",
+      "originalFilename": "exec-289de048-df8d-45c7-88d2-15e95dc41058.png",
+      "inputSha256": "2d1db11f8a07b10e9f6217596f1b2aad80bb51953d6ce712b9f13b3071aea315",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        61,
+        946,
+        1514
+      ],
+      "cleanedBbox": [
+        230,
+        192,
+        791,
+        1367
+      ],
+      "savedBbox": [
+        54,
+        8,
+        138,
+        184
+      ],
+      "transparentPixels": 27269,
+      "removedFaintAlphaPixels": 11478,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11478,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "sayyid-ali-muhammad",
+      "image": "modern-c02-l07/sayyid-ali-muhammad.png",
+      "name": "サイイド＝アリー＝ムハンマド",
+      "kind": "person",
+      "identity": "person:sayyid-ali-muhammad",
+      "description": "サイイド＝アリー＝ムハンマド本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/sayyid-ali-muhammad.png",
+      "outputSha256": "8871d0976c15925626c92a5325900a4aa2ac62b4b9631e34a1b8723d9159115b",
+      "originalFilename": "exec-71bc0f1a-3ebb-43ac-b18a-cc3e06bdf57d.png",
+      "inputSha256": "72aa5a989a11c6e5f1dfca9a95e5f6d7bda8733bc4b00aa82fbf17771a3fcf13",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        41,
+        964,
+        1536
+      ],
+      "cleanedBbox": [
+        230,
+        68,
+        777,
+        1493
+      ],
+      "savedBbox": [
+        62,
+        8,
+        130,
+        184
+      ],
+      "transparentPixels": 27915,
+      "removedFaintAlphaPixels": 13926,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13926,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "yaqub-beg",
+      "image": "modern-c02-l07/yaqub-beg.png",
+      "name": "ヤークーブ＝ベク",
+      "kind": "person",
+      "identity": "person:yaqub-beg",
+      "description": "ヤークーブ＝ベク本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/yaqub-beg.png",
+      "outputSha256": "99cca0b88a16beea1e4e2eb4bdbcc3043e2fa283b35d5eff1c6df535074f8a53",
+      "originalFilename": "exec-3a2e42f1-ec92-412c-b9d6-b8ea330a37a9.png",
+      "inputSha256": "88d0b6255a9506140c5b29c643838a99ce5b31f86e551e1bccd6bda10c36abe4",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        67,
+        1010,
+        1504
+      ],
+      "cleanedBbox": [
+        249,
+        205,
+        790,
+        1388
+      ],
+      "savedBbox": [
+        56,
+        8,
+        136,
+        184
+      ],
+      "transparentPixels": 27696,
+      "removedFaintAlphaPixels": 16844,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 16844,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "zuo-zongtang",
+      "image": "modern-c02-l07/zuo-zongtang.png",
+      "name": "左宗棠",
+      "kind": "person",
+      "identity": "person:zuo-zongtang",
+      "description": "左宗棠本人を敬意ある中立的な小さなドット絵で描く。別人の顔で代用せず、固定所在地や本人の発言を補わない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/zuo-zongtang.png",
+      "outputSha256": "6101ecee32b0fe82790449e088f2a50760ee8f04bbb782d20ce9177522ecee4e",
+      "originalFilename": "exec-f632c16f-8462-4607-86c5-7fab271287a7.png",
+      "inputSha256": "5dd31671da0862bb38b63006ddcb7c8d78b671ed6da146c9a49adb96fa133edc",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        37,
+        962,
+        1464
+      ],
+      "cleanedBbox": [
+        220,
+        105,
+        799,
+        1455
+      ],
+      "savedBbox": [
+        59,
+        8,
+        134,
+        184
+      ],
+      "transparentPixels": 28166,
+      "removedFaintAlphaPixels": 13777,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13777,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "young-turk-officers",
+      "image": "modern-c02-l07/young-turk-officers.png",
+      "name": "青年トルコの将校",
+      "kind": "group",
+      "identity": "group:young-turk-officers",
+      "description": "赤フェズと19世紀末の軍装の一般青年将校。特定の指導者の顔にはしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/young-turk-officers.png",
+      "outputSha256": "171fa2c9704ab8ad640106bbdae70e7da8fdcd692eb4f98f5ae347959bfad491",
+      "originalFilename": "exec-f344d86d-945e-4680-aa0b-c189c61a1c37.png",
+      "inputSha256": "ac30f043c26802e8d3e6f630e818269b57f5464fd188172c7cc17c22e1a3e2bb",
+      "originalDimensions": {
+        "width": 1230,
+        "height": 1278
+      },
+      "originalBbox": [
+        0,
+        128,
+        1129,
+        1252
+      ],
+      "cleanedBbox": [
+        171,
+        131,
+        1036,
+        1158
+      ],
+      "savedBbox": [
+        22,
+        8,
+        170,
+        184
+      ],
+      "transparentPixels": 21508,
+      "removedFaintAlphaPixels": 19572,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 19572,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "iranian-ulama",
+      "image": "modern-c02-l07/iranian-ulama.png",
+      "name": "イランのウラマー",
+      "kind": "group",
+      "identity": "group:iranian-ulama",
+      "description": "ターバンと学者服の一般のイスラーム法学者。狂信や民族の誇張をしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/iranian-ulama.png",
+      "outputSha256": "b0a74fb7cec6e2f6e2dbf875d0cda4f4e10c0f982736ab52357e22063cc7b8c0",
+      "originalFilename": "exec-191529bb-35c1-4b1f-9bd8-b3203bd720cb.png",
+      "inputSha256": "207b07ae5137e4e9073482a2091aaed484fbdac2ab1f541ffc5507388c674f0b",
+      "originalDimensions": {
+        "width": 1312,
+        "height": 1199
+      },
+      "originalBbox": [
+        0,
+        41,
+        1276,
+        1199
+      ],
+      "cleanedBbox": [
+        151,
+        111,
+        1153,
+        1126
+      ],
+      "savedBbox": [
+        9,
+        8,
+        183,
+        184
+      ],
+      "transparentPixels": 14555,
+      "removedFaintAlphaPixels": 21365,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 21365,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "kii-island-rescuers",
+      "image": "modern-c02-l07/kii-island-rescuers.png",
+      "name": "紀伊大島の救助する住民",
+      "kind": "group",
+      "identity": "group:kii-island-rescuers",
+      "description": "1890年の日本の海辺の一般住民。縄・毛布による救助の役割を描き、流血や溺死した人は描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/kii-island-rescuers.png",
+      "outputSha256": "058c42e21837282c32c6f0e3071890c85733715f870bc65d6739884d5ebb191b",
+      "originalFilename": "exec-192a069e-f9a2-4900-8377-0d5c206518fd.png",
+      "inputSha256": "81695714b21b29ec7e0910e7b93c6c615c3c2e0c368f97d0a1dd91d2b96b1f40",
+      "originalDimensions": {
+        "width": 1230,
+        "height": 1278
+      },
+      "originalBbox": [
+        0,
+        18,
+        1218,
+        1244
+      ],
+      "cleanedBbox": [
+        117,
+        108,
+        1157,
+        1206
+      ],
+      "savedBbox": [
+        13,
+        8,
+        180,
+        184
+      ],
+      "transparentPixels": 19402,
+      "removedFaintAlphaPixels": 29717,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 29717,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "ertugrul-frigate",
+      "image": "modern-c02-l07/ertugrul-frigate.png",
+      "name": "エルトゥールル号",
+      "kind": "prop",
+      "identity": "prop:ertugrul-frigate",
+      "description": "19世紀の木造蒸気フリゲートの模式絵。帆と煙突を持ち、沈没破壊の演出をしない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/ertugrul-frigate.png",
+      "outputSha256": "e0b985973e2af0c465b06765e5e589aa3377059e668c0d6a7901e8c108342f99",
+      "originalFilename": "exec-80fe5d3b-1b2b-4536-b8bc-959bca43c27c.png",
+      "inputSha256": "9676e454640524d87e9471430656bae25017a8274143e2ea83b16a805638e5b6",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        0,
+        19,
+        1504,
+        996
+      ],
+      "cleanedBbox": [
+        162,
+        44,
+        1454,
+        984
+      ],
+      "savedBbox": [
+        8,
+        56,
+        184,
+        184
+      ],
+      "transparentPixels": 28744,
+      "removedFaintAlphaPixels": 125880,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 125880,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "hiei-kongo-ships",
+      "image": "modern-c02-l07/hiei-kongo-ships.png",
+      "name": "比叡と金剛",
+      "kind": "prop",
+      "identity": "prop:hiei-kongo-ships",
+      "description": "当時の送還に用いられた日本の蒸気軍艦2隻の模式絵。現代戦艦として描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/hiei-kongo-ships.png",
+      "outputSha256": "f4e4a1d25fb9580589dc9c8f4f9e558c850c20fee870764ab83f327adf0cbdc3",
+      "originalFilename": "exec-d0421794-3ad1-4fb1-81b4-49c191c41476.png",
+      "inputSha256": "bf3c5af31a25d06b2983d8ba6852768aa8df22cc660fb65c6064d4d3a0c43d34",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        19,
+        21,
+        1536,
+        1024
+      ],
+      "cleanedBbox": [
+        27,
+        73,
+        1501,
+        970
+      ],
+      "savedBbox": [
+        8,
+        77,
+        184,
+        184
+      ],
+      "transparentPixels": 30743,
+      "removedFaintAlphaPixels": 117564,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 117564,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "tobacco-cargo",
+      "image": "modern-c02-l07/tobacco-cargo.png",
+      "name": "タバコの品",
+      "kind": "prop",
+      "identity": "prop:tobacco-cargo",
+      "description": "葉と木箱。独占利権とボイコットの説明用で喫煙や人物の顔を描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/tobacco-cargo.png",
+      "outputSha256": "4af274e7e53d03d4b22e5f17e3dd58eba3ba59e93129f3088f6bed83d84ebb16",
+      "originalFilename": "exec-ce2ad8db-6ad4-44c9-8583-0fd50a5eacba.png",
+      "inputSha256": "c75ae3c9686a752a06f8f4d96a7e026e9cb4303930bc194c6fc88b40bb229f97",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        65,
+        13,
+        1450,
+        1024
+      ],
+      "cleanedBbox": [
+        233,
+        160,
+        1303,
+        897
+      ],
+      "savedBbox": [
+        8,
+        63,
+        184,
+        184
+      ],
+      "transparentPixels": 20962,
+      "removedFaintAlphaPixels": 17458,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 17458,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "british-legation-tehran",
+      "image": "modern-c02-l07/british-legation-tehran.png",
+      "name": "テヘランのイギリス公使館",
+      "kind": "building",
+      "identity": "building:british-legation-tehran",
+      "description": "19世紀の公使館の建物と門の模式絵。現代の大使館や精密な建築復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l07/british-legation-tehran.png",
+      "outputSha256": "9a563c455852e8ed985ab25ff157c7fe6c23c8b4203832d39aa731f896cf66c5",
+      "originalFilename": "exec-63aefd2a-2a75-408a-a6ac-956af6d50ab1.png",
+      "inputSha256": "dbefc9b4ad946075448624e67f9047bb50b1e82baeebe9826e318796c25e78e0",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        45,
+        32,
+        1484,
+        958
+      ],
+      "cleanedBbox": [
+        123,
+        210,
+        1414,
+        816
+      ],
+      "savedBbox": [
+        8,
+        101,
+        184,
+        184
+      ],
+      "transparentPixels": 25556,
+      "removedFaintAlphaPixels": 12404,
+      "generationTool": "組み込み画像生成",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12404,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "muhammad-ali",
+      "image": "modern-c01-l01/muhammad-ali.png",
+      "name": "ムハンマド＝アリー",
+      "kind": "person",
+      "identity": "person:muhammad-ali",
+      "description": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/muhammad-ali.png",
+      "outputSha256": "0c74743c08b3e6b1c4589d6c4598889d14a3b2b3955ab81614a648a0518ff5bd",
+      "reuseReason": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。"
+    },
+    {
+      "key": "napoleon-i",
+      "image": "modern-c01-l01/napoleon-i.png",
+      "name": "ナポレオン",
+      "kind": "person",
+      "identity": "person:napoleon-i",
+      "description": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/napoleon-i.png",
+      "outputSha256": "45b5efce60ae83da533e94f320b611a0ed0b46e1363979fe52196a7eba53ecd4",
+      "reuseReason": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。"
+    },
+    {
+      "key": "catherine-ii",
+      "image": "modern-c01-l05/catherine-ii.png",
+      "name": "エカチェリーナ2世",
+      "kind": "person",
+      "identity": "person:catherine-ii",
+      "description": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l05/catherine-ii.png",
+      "outputSha256": "a91bafe203a98457f46b745a8503a0f808f7c752e41d87f18217aa5e751f11cb",
+      "reuseReason": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。"
+    },
+    {
+      "key": "suleiman-calm",
+      "image": "ottoman/suleiman-calm.png",
+      "name": "スレイマン1世",
+      "kind": "person",
+      "identity": "person:suleiman-calm",
+      "description": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/ottoman/suleiman-calm.png",
+      "outputSha256": "0ab76d3bbff8bce26367363799500f68e6cb1aee218a71a98d8b4857771dca48",
+      "reuseReason": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。"
+    },
+    {
+      "key": "agha-mohammad",
+      "image": "safavid/agha-mohammad.png",
+      "name": "アーガー＝ムハンマド",
+      "kind": "person",
+      "identity": "person:agha-mohammad",
+      "description": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/safavid/agha-mohammad.png",
+      "outputSha256": "1162d32aa301f68c702f43cbc934fd34209a0a2114d07e5747085e4f853aab92",
+      "reuseReason": "根担当が本人の容姿を確認した同じ本人の既存絵。別人や別のスルタンの顔として流用しない。"
+    },
+    {
+      "key": "ottoman-soldiers",
+      "image": "modern-c01-l01/ottoman-soldiers.png",
+      "name": "オスマン帝国の軍",
+      "kind": "group",
+      "identity": "group:ottoman-soldiers",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/ottoman-soldiers.png",
+      "outputSha256": "dec2b50c3b2adb2fc44839e830d728915a3f06f0aa971e700febe45a6a296080",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "egyptian-soldiers",
+      "image": "modern-c01-l01/egyptian-soldiers.png",
+      "name": "エジプトの軍",
+      "kind": "group",
+      "identity": "group:egyptian-soldiers",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/egyptian-soldiers.png",
+      "outputSha256": "b026a1d7921a2a9545f5389dd056240bf5deaa72160be738afcaf0a851aeddca",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "russian-soldiers",
+      "image": "modern-c01-l01/russian-soldiers.png",
+      "name": "ロシア軍",
+      "kind": "group",
+      "identity": "group:russian-soldiers",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/russian-soldiers.png",
+      "outputSha256": "cb93aed36902d8e3673a11896d7a3d644753a8bac85c003a259d800fbf67a3f0",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "british-soldiers",
+      "image": "modern-c01-l02/british-soldiers.png",
+      "name": "イギリス軍",
+      "kind": "group",
+      "identity": "group:british-soldiers",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/british-soldiers.png",
+      "outputSha256": "b7e389faeb2a340204f0ab987e8a9fa9fa5ce8ad367305f66484f37630c70978",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "italian-royal-soldiers",
+      "image": "modern-c01-l04/italian-royal-soldiers.png",
+      "name": "イタリアの軍",
+      "kind": "group",
+      "identity": "group:italian-royal-soldiers",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l04/italian-royal-soldiers.png",
+      "outputSha256": "8d04ce6a20d2679adcffb557ed5c2ca499f8d11337927ea5bb7ada7273640218",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "liberal-students",
+      "image": "modern-c01-l01/liberal-students.png",
+      "name": "知識人の参照",
+      "kind": "group",
+      "identity": "group:liberal-students",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/liberal-students.png",
+      "outputSha256": "110b19b545d3106aeea81d8b25c55b5074f5c0c22ed8feaf7b6e5054a519ce61",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "janissary-soldier",
+      "image": "ottoman/janissary-soldier.png",
+      "name": "イェニチェリ軍団",
+      "kind": "group",
+      "identity": "group:janissary-soldier",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/ottoman/janissary-soldier.png",
+      "outputSha256": "3e2af3faf0ea8163d2ba86d84f956106bae26daf88e4798cb05050aefc82cf9c",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "ayan-notable",
+      "image": "ottoman/ayan-notable.png",
+      "name": "アーヤーン",
+      "kind": "group",
+      "identity": "group:ayan-notable",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/ottoman/ayan-notable.png",
+      "outputSha256": "cb20ca5f5d2060513e297bb6ec1f454276c0743111fa63228be86223a04733c3",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "ottoman-resident",
+      "image": "ottoman/ottoman-resident.png",
+      "name": "一般の民衆",
+      "kind": "group",
+      "identity": "group:ottoman-resident",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 128,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/ottoman/ottoman-resident.png",
+      "outputSha256": "e46899c0dd6f11281e31fa7f4b46d5070732414b3c7a35ae3503eb3686f2495f",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "merchant-cargo",
+      "image": "modern-c01-l01/merchant-cargo.png",
+      "name": "交易の品",
+      "kind": "prop",
+      "identity": "prop:merchant-cargo",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/merchant-cargo.png",
+      "outputSha256": "5b34f33edbecda0ad85cb122e4451b4e7641af0cf34ab15279f64bba7ac3e3be",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "constitution-document",
+      "image": "modern-c01-l01/constitution-document.png",
+      "name": "文字資料",
+      "kind": "prop",
+      "identity": "prop:constitution-document",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/constitution-document.png",
+      "outputSha256": "8a715a4bfee02a55f27382fa8eb2fc1ad812c14e68926b6f35defc23f0364757",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "treaty-document",
+      "image": "modern-c01-l01/treaty-document.png",
+      "name": "条約と権利",
+      "kind": "prop",
+      "identity": "prop:treaty-document",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/treaty-document.png",
+      "outputSha256": "0e94dae0a55aa978ec2a8aa80594bafcc2ac3d7982b852608c5e6128a2f88da7",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "tax-ledger",
+      "image": "modern-c01-l01/tax-ledger.png",
+      "name": "財政と負担",
+      "kind": "prop",
+      "identity": "prop:tax-ledger",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/tax-ledger.png",
+      "outputSha256": "677649776ccc53774db1a01056f6dd99ce1ff193e6cc5e490bb0c87c0146d936",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "calendar",
+      "image": "modern-c01-l01/calendar.png",
+      "name": "時代の確認",
+      "kind": "prop",
+      "identity": "prop:calendar",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/calendar.png",
+      "outputSha256": "ce0c76abaa9de57d5a96c781a77b922e172b519269ef85529e22140782f178e5",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    },
+    {
+      "key": "steam-factory",
+      "image": "modern-c01-l01/steam-factory.png",
+      "name": "工業の参照",
+      "kind": "prop",
+      "identity": "prop:steam-factory",
+      "description": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/steam-factory.png",
+      "outputSha256": "dbfe2d21c918c76323834cfc56212955058a50a711a66cd3995f584939bd69b0",
+      "reuseReason": "同じ一般の役割・道具の既存絵。人物や民族を同定しない。文字資料は実物の文書や写本の精密な復元ではない。"
+    }
+  ]
+}
