@@ -1,0 +1,1753 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "lesson": "modern-c02-l08",
+  "description": "原文に沿う学習用の模式的な本人・一般集団・馬・綿布・輸出産品。精密な肖像・復元模型ではない。",
+  "totals": {
+    "new": 26,
+    "newPeople": 19,
+    "newGroups": 4,
+    "newGoods": 3,
+    "nativeGenerated": 0,
+    "fallbackGenerated": 26,
+    "generationRequests": 27,
+    "reused": 21,
+    "used": 47
+  },
+  "authorization": "指定のAntigravity CLI経由でGemini 3.8 Flashへクライヴの画像を依頼したが、画像生成側がRESOURCE_EXHAUSTEDを返した。以前の利用者による別の画像生成ツールへの続行承認を適用し、26点を組み込み画像生成ツールで制作した。全26点の透明調整と寸法調整は指定どおりAntigravity経由Geminiへ依頼した。",
+  "generationModels": {
+    "nativeRequest": "Gemini 3.8 Flash High",
+    "fallback": "組み込み画像生成ツール。内部モデル名は返されない。"
+  },
+  "nativeRequests": [
+    {
+      "key": "robert-clive",
+      "status": "quota",
+      "prompt": "Use your native image-generator subagent with generate_image for ONE new sprite. Parent model Gemini 3.8 Flash High. Use case historical-scene, website history lesson bitmap asset. Detailed 16-bit JRPG short chibi THREE heads tall, crisp stepped dark pixel outlines, restrained muted colors, very short legs, large respectful adult face, full intact figure centered, transparent background if supported otherwise pure white. Match C:/Users/USER/Desktop/W-History/public/images/modern-c01-l01/metternich.png and talleyrand.png. Subject: Robert Clive in the 1750s-1760s, British East India Company officer, adult about forty, round pale face, powdered hair with short side curls, dark brows, clean-shaven, muted red long military coat with cream waistcoat, knee breeches, dark boots, standing neutral holding a rolled document, simple gold trim. Historical schematic likeness, not a portrait of another person. No text, labels, cast shadow, scenery, glow, or watermark. ImageName robert-clive. Do not alter repository files. Return concise JSON {key:'robert-clive',generated_path,tool,error}; if image quota limited return immediately without waits/retries.\n"
+    }
+  ],
+  "quota": {
+    "status": "RESOURCE_EXHAUSTED",
+    "firstKey": "robert-clive",
+    "response": "画像生成担当は利用枠の制限を返し、待機・再試行は行わなかった。"
+  },
+  "normalization": {
+    "model": "Gemini 3.8 Flash High",
+    "via": "Antigravity CLI",
+    "completed": 26,
+    "failed": 0,
+    "canvas": [
+      192,
+      192
+    ],
+    "subjectMaximum": [
+      176,
+      176
+    ],
+    "centerX": 96,
+    "bottomY": 184,
+    "resampling": "最近傍・縦横比を維持。",
+    "alphaCleanup": "元のRGBは非改変。透明余白に残るアルファ1〜15の薄い雑音だけを0にし、16〜255はそのまま保持。背景色除去なし。",
+    "scriptSha256": "93a519a52cbc0f1d92151b9ef22e201708e1f040a4de0a33066de8fd84299676",
+    "preparationPrompt": "あなたはGemini 3.8 Flashです。この依頼では画像の調整処理だけを担当してください。新規画像生成、他担当起動、広い探索、Git操作、インストールは不要です。\n26画像を別経路で生成しています。C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson08-20261004/normalize-sprites.py を準備してください。入力JSON generated-inputs.json（key,inputPath,outputPath）は同フォルダ、出力reportは normalization-report.json、確認一覧は contact-sheet.png。以前の実績 C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson07-1791041376425/normalize-sprites.py を参照し、そのまま26点にも対応できる形式にしてよい。\n元の透明PNGは参照専用。元のRGBや顔・服の絵は描き替えない。アルファ1〜15のごく薄い雑音だけ0、16〜255そのまま。透過範囲bboxで切り出し、縦横比を保持して最大176×176へ最近傍縮小、192×192透明面の横中央96・下端184に配置、全周8px以上透明余白。既存入力も出力も上書きせず、元のreportで保存済みSHA照合がある場合だけ再利用。元画像に透過がない場合は失敗として報告、背景色の除去を勝手に行わない。\n報告JSONは summary{total,completed,failed}, failures[],results[]。resultsはkey,inputPath,outputPath,inputSha256,outputSha256,originalDimensions{width,height},originalBbox,cleanedBbox,savedBbox,transparentPixelCount,removedFaintAlphaPixels,backgroundOperation,status。寸法192・透明余白・空図でないことを確認。\n26点確認一覧は6列×5行、各画像192実寸の薄灰色マスとその下ASCII key、公開画像には文字を付加しない。\nsources/AGENTS.md/TASK.md/既存の他画像やコードには触れず、この私用作業フォルダのscriptのみ準備してください。まだ入力JSONはないので実行しない。\nPython/Pillowでの寸法と透明調整を許可。画像生成CLIを使わない。スクリプトの作成・構文確認後、短く結果を報告。\n",
+    "executionPrompt": "あなたはGemini 3.8 Flashです。準備済みの C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson08-20261004/normalize-sprites.py を読み、C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson08-20261004/generated-inputs.json の26件だけに実行してください。全入力の生成が完了しました。元画像は参照専用、RGB・顔・衣服の絵は描き替えず、前回指定済みの透明雑音の最小調整・最近傍で192への配置のみです。出力はこのmanifestの新規PNGだけと私用フォルダのreport/contact-sheetです。処理済みSHAで検証できない既存ファイルは上書きしない。sources、AGENTS、TASK、他画像、共通コード、Gitは触らない。26件すべての出力を寸法・透明余白・非空画像・識別値で検証し、normalization-report.jsonとcontact-sheet.pngへ記録してください。失敗があれば隠さず報告。単に計画や作成のみで終わらず、今回は処理の実行を完了してください。Python/Pillowによる寸法透明調整を許可します。画像生成を行わず、担当や画像生成CLIを使わない。最後に完了/失敗件数と報告・確認画像パスを短く返してください。\n"
+  },
+  "appearanceReview": {
+    "reviewed": "新26点の一覧を192画素実寸で目視し、本人の顔・年代と帽子・服、4種類の2人組、王妃と馬、綿布・作物・錫とゴムの区別、透過と余白を確認。",
+    "reusedPeople": "アウラングゼーブは同じ本人の既存画像を目視して過去参照に使用。ヴィクトリア・ディズレーリ・ナポレオン3世も同じ本人の既存画像を使用。古い阮福映の絵は今回使用せず、新しい本人像を制作。別人の顔で代用しない。"
+  },
+  "referenceSources": [
+    {
+      "title": "英国国立肖像画美術館：クライヴの肖像",
+      "url": "https://www.npg.org.uk/collections/search/portrait/mw01349/Robert-Clive"
+    },
+    {
+      "title": "英国国立肖像画美術館：ナオロジーの肖像",
+      "url": "https://www.npg.org.uk/schools-hub/dadabhai-naoroji-by-london-stereoscopic-and-photographic-company"
+    },
+    {
+      "title": "シンガポール・アジア文明博物館：ラッフルズ展示",
+      "url": "https://www.nhb.gov.sg/acm/whats-on/exhibitions/raffles-in-southeast-asia"
+    },
+    {
+      "title": "フィリピン国立博物館：リサールの作品と肖像",
+      "url": "https://www.nationalmuseum.gov.ph/2021/12/27/jose-rizal-day/"
+    }
+  ],
+  "prompts": [
+    {
+      "key": "joseph-dupleix",
+      "name": "デュプレクス",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Joseph Francois Dupleix, French governor in India in the 1740s, late forties man, long oval pale face, narrow nose, clean shaven, white powdered shoulder-length curled wig, deep blue eighteenth-century long coat with restrained gold edges, cream waistcoat, breeches, dark shoes, holding a rolled trade document.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "robert-clive",
+      "name": "クライヴ",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Robert Clive, British East India Company officer in the 1750s-1760s, adult about forty, round pale face, powdered hair with short side curls, dark brows, clean shaven, muted red long military coat with cream waistcoat, knee breeches and dark boots, holding a rolled document. Different face and uniform from Dupleix.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "bahadur-shah-ii",
+      "name": "バハードゥル＝シャー2世",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Bahadur Shah II, last Mughal emperor, elderly Indian man about eighty, very thin oval face, long white beard and moustache, modest beaded Mughal royal cap, light cream long robe with gold edging and pale shawl, traditional shoes, calm dignified neutral standing pose. No Ottoman fez or European crown.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "dadabhai-naoroji",
+      "name": "ナオロジー",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Dadabhai Naoroji in the late nineteenth century, elderly Parsi Indian intellectual, thin broad forehead, heavy white moustache and white chin beard, black tall Parsi cylindrical cap, dark formal coat and waistcoat, spectacles, holding an unlabelled book. Calm neutral pose.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "surendranath-banerjee",
+      "name": "バネルジー",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Surendranath Banerjee circa 1900, mature Bengali Indian intellectual, thinning dark-grey hair brushed back with large forehead, broad grey moustache, clean chin, cream dhoti and long cream Bengali tunic with a muted brown shawl, holding an unlabelled folded paper. Different face from Naoroji, no Parsi cap or turban.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "bal-gangadhar-tilak",
+      "name": "ティラク",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Bal Gangadhar Tilak circa 1906, Indian nationalist intellectual about fifty, dark eyes, broad heavy drooping dark moustache, tightly wrapped dark red Marathi turban, white long tunic and shawl, traditional shoes, small closed unlabelled book, dignified neutral standing pose.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "stamford-raffles",
+      "name": "ラッフルズ",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Sir Stamford Raffles about forty in 1819, British colonial administrator, broad forehead, wavy short dark hair with period sideburns, clean chin and upper lip, navy early-nineteenth-century long formal coat, cream waistcoat, white neckcloth, knee breeches and dark boots, folded unlabelled paper, neutral standing pose. No powdered wig.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "nguyen-phuc-anh",
+      "name": "阮福映【嘉隆帝】",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Gia Long, Nguyen Phuc Anh, Vietnamese emperor in early nineteenth century, mature Vietnamese man with narrow face, thin long black moustache and small goatee, dark Vietnamese imperial ceremonial hat with two modest horizontal side wings, gold-yellow Vietnamese imperial long robe with restrained embroidery and dark shoes. Neutral full body, no fantasy or Chinese tall crown.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "pierre-pigneau",
+      "name": "ピニョー",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Pierre Pigneau de Behaine, eighteenth-century French Catholic bishop/missionary in Vietnam, mature pale man, rounded forehead, short grey hair, clean shaven, simple long black cassock, small restrained pectoral cross, dark shoes, holding a small unlabelled closed book, quiet neutral pose. No military coat.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "liu-yongfu",
+      "name": "劉永福",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Liu Yongfu, Chinese Black Flag Army leader in the 1880s, adult Chinese man about forty-five, wide face and thick black moustache with short pointed beard, dark Qing period round cloth military cap, navy dark long military jacket with muted brown sash, dark trousers and cloth boots, arms relaxed, no modern helmet or stars, no firearm action.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "phan-boi-chau",
+      "name": "ファン＝ボイ＝チャウ",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Phan Boi Chau circa 1905, Vietnamese scholar and nationalist about forty, narrow thoughtful face, dark strong moustache and small pointed chin beard, black wrapped Vietnamese headcloth, long charcoal traditional ao dai tunic, pale trousers, dark shoes, small unlabelled book, neutral dignified pose.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "phan-chau-trinh",
+      "name": "ファン＝チュー＝チン",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Phan Chau Trinh circa 1907, Vietnamese reformist scholar about thirty-five, broader oval face, clean shaven upper lip and chin, dark wrapped Vietnamese headcloth, long muted grey-brown ao dai tunic, cream trousers and dark shoes, folded unlabelled educational paper. Clearly distinct younger broader face from Phan Boi Chau.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "diponegoro",
+      "name": "ディポネゴロ",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Prince Diponegoro in Java circa 1825, Javanese man about forty, narrow mature face, restrained moustache, white wrapped Javanese turban, long cream-white tunic with white shawl and muted brown sash, patterned batik trousers, traditional shoes, neutral standing pose. No gore, attack or exotic fantasy.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "johannes-van-den-bosch",
+      "name": "ファン＝デン＝ボス",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Johannes van den Bosch, Dutch colonial governor circa 1830, European man about fifty, broad angular pale face, grey receding hair with short sideburns, clean shaven upper lip and chin, restrained dark navy Dutch formal military/administrative coat with small gold shoulder trim, white neckcloth, dark trousers and boots, folded crop ledger without writing. Neutral pose.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "jose-rizal",
+      "name": "ホセ＝リサール",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Jose Rizal circa 1892, Filipino intellectual about thirty, oval youthful face, straight dark hair carefully side parted, small neat black moustache, no beard, dark brown nineteenth-century suit with white collar and small dark bow tie, dark trousers and shoes, small unlabelled closed book. Neutral dignified pose.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "emilio-aguinaldo",
+      "name": "アギナルド",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Emilio Aguinaldo circa 1898, young Filipino revolutionary leader about twenty-nine, round compact face, black straight hair parted at side with raised forelock, clean shaven, light grey-khaki late-nineteenth-century revolutionary military tunic with simple belt and subtle high collar, plain trousers and dark boots, arms relaxed. No modern camouflage or assault rifle.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "rama-iv",
+      "name": "ラーマ4世",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: King Mongkut, Rama IV of Siam in the 1850s-1860s, very lean older Thai man, narrow long face, short dark-grey hair, clean shaven, cream-white period Siamese court tunic with restrained gold brocade edging and muted red sash, traditional dark trousers and shoes, neutral upright standing pose. No Buddhist monk robe or fantasy crown.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "rama-v",
+      "name": "ラーマ5世【チュラロンコン】",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: King Chulalongkorn, Rama V of Siam circa 1890, Thai man about forty, fuller rounded face, short neatly parted dark hair, distinct thick well-groomed dark moustache, white nineteenth-century royal court military tunic with restrained gold shoulders and red sash, dark trousers and shoes, neutral pose. Clearly distinct younger fuller face from Rama IV.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "lakshmibai",
+      "name": "ラクシュミー＝バーイ",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Rani Lakshmibai in 1857-1858, young Indian queen in her twenties, dignified woman with dark eyes, wrapped red-orange headcloth, cream and muted red practical riding attire with trousers and tunic, astride a small brown horse fully visible side-on three-quarter view, sword held low and safely away, one queen and one horse only, no gore or enemy. Respectful historically schematic riding reference.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "indian-sepoys",
+      "name": "シパーヒー",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Exactly two adult Indian sepoys of the British East India Company in the mid-nineteenth century, distinct neutral faces, one with pale cloth turban and muted red uniform jacket, another with period cloth headgear and dark red jacket, cream trousers and dark shoes, period long muskets lowered safely, no aggressive gestures or gore. Generic roles, no religious caricature.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "indian-villagers",
+      "name": "インドの農民・民衆",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Exactly two ordinary nineteenth-century Indian rural adults, one man in white cotton dhoti and tunic with pale turban, one woman in muted ochre sari with headcloth, neutral dignified faces and simple cloth sandals, small woven harvest basket and simple hoe held relaxed. Generic ordinary roles, not national ethnic representatives.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "javanese-villagers",
+      "name": "ジャワの農民・商人",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Exactly two ordinary nineteenth-century Javanese rural adults, one man with restrained patterned brown headcloth and simple cream shirt, one woman with simple muted blue kebaya top, both patterned brown batik sarongs and plain sandals, harvest basket and simple farming tool lowered, neutral dignified faces. Distinct clothing from Indian villagers, no national flag.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "chinese-migrant-workers",
+      "name": "中国からの契約移民・労働者",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: Exactly two ordinary adult nineteenth-century Chinese migrant contract workers, neutral dignified faces, plain muted grey-blue cotton work jackets and trousers, one with simple straw hat and one with dark cloth cap, woven basket and shovel held relaxed. No caricature, chains, railway equipment, national flag or violent guards.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "cotton-textiles",
+      "name": "綿布",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: A small historical trade cargo set of soft cream-white cotton fabric bolts with one indigo-blue roll and neatly folded cloth. Clearly cotton cloth, rounded folds with crisp stepped pixel edges, three compact cloth pieces only, no flags, people or letters.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "plantation-export-crops",
+      "name": "ジャワの輸出用作物",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: A compact nineteenth-century Java export-crop still life: an open burlap sack with visible coffee beans, two short sugarcane stalks, indigo green leaves beside a small blue dye bowl. Clearly separate coffee, cane and indigo, no tea or opium, no background farming field or people.\nGenerate only this single finished asset. Maintain transparent background."
+    },
+    {
+      "key": "tin-rubber-cargo",
+      "name": "錫・天然ゴム",
+      "generationTool": "image_gen__imagegen",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for a Japanese world-history educational website. Make ONE detailed 16-bit JRPG pixel-art asset, matching short chibi proportions of our existing sprites: large respectful adult head, about THREE heads tall, very short legs, crisp stepped dark pixel outlines, carefully grouped visible pixels, muted cream/brown/navy/red colours, readable at a small 192px displayed size. Not a tall realistic person, painting, smooth cartoon, photograph, glossy 3D or vector. Whole intact subject centred with generous transparent margin on all sides. Full figure head-to-toe, no cropped hat/feet/tools; for groups full bodies of exactly two people, for objects entire compact still life. Neutral calm expression and posture, historical schematic likeness; don't reuse another person's face. Background: genuine alpha transparency, no white square, ground plane, scenery, cast shadow, checkerboard drawing, labels, watermarks or text. \nSubject: A compact historical cargo still life: two silver-grey tin ingots, one simple unlabelled tin can, small cream natural rubber slab with a plain latex collection bowl. Readable distinct tin metal and natural rubber, no synthetic car tyre, no text, people, scenery or flags.\nGenerate only this single finished asset. Maintain transparent background."
+    }
+  ],
+  "assets": [
+    {
+      "key": "joseph-dupleix",
+      "image": "modern-c02-l08/joseph-dupleix.png",
+      "name": "デュプレクス",
+      "kind": "person",
+      "identity": "person:joseph-dupleix",
+      "description": "デュプレクス本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/joseph-dupleix.png",
+      "outputSha256": "db0fd1c51e36f3b702dd54c530dd9a0a82b23495ebc6918fda37f43d93a73176",
+      "originalFilename": "exec-58edc937-774b-4438-a402-9f6b7a210f02.png",
+      "inputSha256": "e603b08c166dd0871447ee22b9aef514c46f8a7cbff6da6baca000218ec7babb",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "originalBbox": [
+        146,
+        77,
+        992,
+        1332
+      ],
+      "cleanedBbox": [
+        267,
+        80,
+        850,
+        1321
+      ],
+      "savedBbox": [
+        55,
+        8,
+        138,
+        184
+      ],
+      "transparentPixels": 27280,
+      "removedFaintAlphaPixels": 14073,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14073,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "robert-clive",
+      "image": "modern-c02-l08/robert-clive.png",
+      "name": "クライヴ",
+      "kind": "person",
+      "identity": "person:robert-clive",
+      "description": "クライヴ本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/robert-clive.png",
+      "outputSha256": "05144baa02c9a8d7a98bbc7a2668e9e77b68f9a63b3d3e3174c1a26692d32c5b",
+      "originalFilename": "exec-66e6aa55-2fe6-4a66-ad38-43de03ac434d.png",
+      "inputSha256": "39eea642064cf5e0f97e64073f9f2bacf375b56316c90df5dcd208078ee89dee",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        57,
+        61,
+        966,
+        1520
+      ],
+      "cleanedBbox": [
+        207,
+        163,
+        820,
+        1439
+      ],
+      "savedBbox": [
+        54,
+        8,
+        139,
+        184
+      ],
+      "transparentPixels": 26914,
+      "removedFaintAlphaPixels": 17146,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 17146,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "bahadur-shah-ii",
+      "image": "modern-c02-l08/bahadur-shah-ii.png",
+      "name": "バハードゥル＝シャー2世",
+      "kind": "person",
+      "identity": "person:bahadur-shah-ii",
+      "description": "バハードゥル＝シャー2世本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/bahadur-shah-ii.png",
+      "outputSha256": "23f8f10b0af0667b41103cd95a479acec0573738970b592189717ff2dd692aed",
+      "originalFilename": "exec-949528e0-69a3-4e89-addd-e2f36388fd02.png",
+      "inputSha256": "716c165615e4404134e2c6974d998ac99c878791c5ebda998842949bb1b5389d",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        0,
+        18,
+        1010,
+        1500
+      ],
+      "cleanedBbox": [
+        265,
+        23,
+        811,
+        1493
+      ],
+      "savedBbox": [
+        64,
+        8,
+        129,
+        184
+      ],
+      "transparentPixels": 29204,
+      "removedFaintAlphaPixels": 19397,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 19397,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "dadabhai-naoroji",
+      "image": "modern-c02-l08/dadabhai-naoroji.png",
+      "name": "ナオロジー",
+      "kind": "person",
+      "identity": "person:dadabhai-naoroji",
+      "description": "ナオロジー本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/dadabhai-naoroji.png",
+      "outputSha256": "56f0a2cf53ea64af99b6795d19e0081d1685794ab7c4bc7494f5cc64abd26f8b",
+      "originalFilename": "exec-a146f03c-38db-4f56-ad4c-5bcf005dbc5a.png",
+      "inputSha256": "d522e664f516f621ff06d14454bfb2734a931cbc7769fdb29197debff1af67c5",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        23,
+        964,
+        1536
+      ],
+      "cleanedBbox": [
+        245,
+        105,
+        808,
+        1466
+      ],
+      "savedBbox": [
+        60,
+        8,
+        133,
+        184
+      ],
+      "transparentPixels": 27547,
+      "removedFaintAlphaPixels": 11964,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11964,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "surendranath-banerjee",
+      "image": "modern-c02-l08/surendranath-banerjee.png",
+      "name": "バネルジー",
+      "kind": "person",
+      "identity": "person:surendranath-banerjee",
+      "description": "バネルジー本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/surendranath-banerjee.png",
+      "outputSha256": "aff9998e7fc49c8d2284de79828e799da0e64c7f3bb1d4e5b2a235a5bef61157",
+      "originalFilename": "exec-229058d4-3080-4ebe-b9cf-e4da02a3cb5c.png",
+      "inputSha256": "f8399e017605368cbf8e7d41c70b08b29b4d5272874794dfe6c3e065e673d975",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        92,
+        944,
+        1512
+      ],
+      "cleanedBbox": [
+        217,
+        94,
+        806,
+        1462
+      ],
+      "savedBbox": [
+        58,
+        8,
+        134,
+        184
+      ],
+      "transparentPixels": 27804,
+      "removedFaintAlphaPixels": 15762,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15762,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "bal-gangadhar-tilak",
+      "image": "modern-c02-l08/bal-gangadhar-tilak.png",
+      "name": "ティラク",
+      "kind": "person",
+      "identity": "person:bal-gangadhar-tilak",
+      "description": "ティラク本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/bal-gangadhar-tilak.png",
+      "outputSha256": "a132676c142684209310c6082bc0a035bd8db285d77f84ffa2575e3d389b5e09",
+      "originalFilename": "exec-f3216af8-96d7-412d-b30a-d5e546185aae.png",
+      "inputSha256": "1886726dc14f12ea0b1404812051ea3fb67efd1f4bc950eeb8a5809a6b4035a1",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        27,
+        92,
+        894,
+        1512
+      ],
+      "cleanedBbox": [
+        223,
+        94,
+        815,
+        1453
+      ],
+      "savedBbox": [
+        58,
+        8,
+        135,
+        184
+      ],
+      "transparentPixels": 27617,
+      "removedFaintAlphaPixels": 15769,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15769,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "stamford-raffles",
+      "image": "modern-c02-l08/stamford-raffles.png",
+      "name": "ラッフルズ",
+      "kind": "person",
+      "identity": "person:stamford-raffles",
+      "description": "ラッフルズ本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/stamford-raffles.png",
+      "outputSha256": "52d8897e96e783c2814829595672c7fb1458e332e1a7336c5b60511b6c454ffd",
+      "originalFilename": "exec-24a6eaf8-fb3c-465f-bc90-3ab19c47d853.png",
+      "inputSha256": "6d5e36915fb5ac923b769fdde5e513ec901a7b2393d3e4bb66e053762819c632",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        37,
+        1010,
+        1520
+      ],
+      "cleanedBbox": [
+        211,
+        108,
+        818,
+        1457
+      ],
+      "savedBbox": [
+        57,
+        8,
+        136,
+        184
+      ],
+      "transparentPixels": 28092,
+      "removedFaintAlphaPixels": 14237,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14237,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "nguyen-phuc-anh",
+      "image": "modern-c02-l08/nguyen-phuc-anh.png",
+      "name": "阮福映",
+      "kind": "person",
+      "identity": "person:nguyen-phuc-anh",
+      "description": "阮福映本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/nguyen-phuc-anh.png",
+      "outputSha256": "2e66b1219bcdb1946181723c8fff6afa4a78707769e4a14234e59b04ac3f8e84",
+      "originalFilename": "exec-e97186ce-618a-4efb-bbdb-29456500c92c.png",
+      "inputSha256": "7559b639b0a6a92f071626214fca286bb75d015759f7c81ce031d9aa64cc4366",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "originalBbox": [
+        49,
+        30,
+        1107,
+        1343
+      ],
+      "cleanedBbox": [
+        243,
+        34,
+        885,
+        1340
+      ],
+      "savedBbox": [
+        53,
+        8,
+        140,
+        184
+      ],
+      "transparentPixels": 27664,
+      "removedFaintAlphaPixels": 18605,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 18605,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "pierre-pigneau",
+      "image": "modern-c02-l08/pierre-pigneau.png",
+      "name": "ピニョー",
+      "kind": "person",
+      "identity": "person:pierre-pigneau",
+      "description": "ピニョー本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/pierre-pigneau.png",
+      "outputSha256": "269d93a2ff1b099029df50ff953cc0ee84d0f196438b1f80825e2be22710ae9a",
+      "originalFilename": "exec-b2ad0414-f1f8-4b6a-8eff-059bfa6ed272.png",
+      "inputSha256": "58e79ba9b04bd4e63b8c6f2ccf1d0a5b5b905b86524eae08b6603811c25022d1",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        73,
+        95,
+        860,
+        1536
+      ],
+      "cleanedBbox": [
+        211,
+        109,
+        790,
+        1457
+      ],
+      "savedBbox": [
+        58,
+        8,
+        134,
+        184
+      ],
+      "transparentPixels": 27347,
+      "removedFaintAlphaPixels": 11778,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11778,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "liu-yongfu",
+      "image": "modern-c02-l08/liu-yongfu.png",
+      "name": "劉永福",
+      "kind": "person",
+      "identity": "person:liu-yongfu",
+      "description": "劉永福本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/liu-yongfu.png",
+      "outputSha256": "67e6dd6f0fda1946764b532ec24c107009f83cab84c07bae39e03c1efc75fd47",
+      "originalFilename": "exec-9e2896ba-2321-4238-ad9f-0234940e5d55.png",
+      "inputSha256": "307b99ec37d54eb9631330e5ca2d9fe6956df9239f4e1f3d205f1b1e6867a711",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "originalBbox": [
+        49,
+        37,
+        1044,
+        1311
+      ],
+      "cleanedBbox": [
+        259,
+        98,
+        874,
+        1307
+      ],
+      "savedBbox": [
+        51,
+        8,
+        141,
+        184
+      ],
+      "transparentPixels": 26487,
+      "removedFaintAlphaPixels": 15631,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15631,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "phan-boi-chau",
+      "image": "modern-c02-l08/phan-boi-chau.png",
+      "name": "ファン＝ボイ＝チャウ",
+      "kind": "person",
+      "identity": "person:phan-boi-chau",
+      "description": "ファン＝ボイ＝チャウ本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/phan-boi-chau.png",
+      "outputSha256": "d0f09628f7337af2130e823e987f94dfb4838886a6e447fb9e7de0b0fd99732f",
+      "originalFilename": "exec-44a50c6e-dd17-4a2d-9bfe-56ec1ddc0601.png",
+      "inputSha256": "3757bc677a3d167bede3884df3ec3b29ba90d6cb1c2a542f9985a9036eef0493",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        68,
+        964,
+        1475
+      ],
+      "cleanedBbox": [
+        236,
+        82,
+        792,
+        1473
+      ],
+      "savedBbox": [
+        61,
+        8,
+        131,
+        184
+      ],
+      "transparentPixels": 28224,
+      "removedFaintAlphaPixels": 11335,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11335,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "phan-chau-trinh",
+      "image": "modern-c02-l08/phan-chau-trinh.png",
+      "name": "ファン＝チュー＝チン",
+      "kind": "person",
+      "identity": "person:phan-chau-trinh",
+      "description": "ファン＝チュー＝チン本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/phan-chau-trinh.png",
+      "outputSha256": "772de45a40e2e8b7805c11e8546e324dc4b44caf6f7d87069b43d99267d222dd",
+      "originalFilename": "exec-decb2e76-8d0d-445b-9911-15a4c968045e.png",
+      "inputSha256": "fa16f38fe4a15e716b9c6e60c5ddbb306b397267d090e9c76ea1f60ab3fe319e",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        56,
+        938,
+        1490
+      ],
+      "cleanedBbox": [
+        240,
+        59,
+        784,
+        1488
+      ],
+      "savedBbox": [
+        63,
+        8,
+        130,
+        184
+      ],
+      "transparentPixels": 28078,
+      "removedFaintAlphaPixels": 15599,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15599,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "diponegoro",
+      "image": "modern-c02-l08/diponegoro.png",
+      "name": "ディポネゴロ",
+      "kind": "person",
+      "identity": "person:diponegoro",
+      "description": "ディポネゴロ本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/diponegoro.png",
+      "outputSha256": "c1f73e2f5ffd4bb436c6da988eee45cf6d5a9caecfaee21cb7682c0480f774fd",
+      "originalFilename": "exec-696f9e08-e80a-4adc-8548-36adf9f38c62.png",
+      "inputSha256": "0fff112aa7903ce65965a9f80cad5c6e2b3985c6daf96f1f3730b486dd5f626f",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        74,
+        890,
+        1478
+      ],
+      "cleanedBbox": [
+        192,
+        76,
+        831,
+        1474
+      ],
+      "savedBbox": [
+        56,
+        8,
+        136,
+        184
+      ],
+      "transparentPixels": 27060,
+      "removedFaintAlphaPixels": 14810,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14810,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "johannes-van-den-bosch",
+      "image": "modern-c02-l08/johannes-van-den-bosch.png",
+      "name": "ファン＝デン＝ボス",
+      "kind": "person",
+      "identity": "person:johannes-van-den-bosch",
+      "description": "ファン＝デン＝ボス本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/johannes-van-den-bosch.png",
+      "outputSha256": "e5cbad4ec0143f7feac663dbce539d4c6ef1e1708842377792aefced2349fa51",
+      "originalFilename": "exec-f0e5e5e0-548d-464e-85f1-62dabaa20afb.png",
+      "inputSha256": "03a2c7a59bc7f75dd58ec4bc1487ca77ef08d3b7dc468b6897197a53b2d0d1ab",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        105,
+        109,
+        922,
+        1536
+      ],
+      "cleanedBbox": [
+        202,
+        111,
+        826,
+        1443
+      ],
+      "savedBbox": [
+        55,
+        8,
+        137,
+        184
+      ],
+      "transparentPixels": 27459,
+      "removedFaintAlphaPixels": 13862,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13862,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "jose-rizal",
+      "image": "modern-c02-l08/jose-rizal.png",
+      "name": "ホセ＝リサール",
+      "kind": "person",
+      "identity": "person:jose-rizal",
+      "description": "ホセ＝リサール本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/jose-rizal.png",
+      "outputSha256": "4cee244748bdf4d932be670fbdf2c74e6a93802804b27c35c39f117e47eab04f",
+      "originalFilename": "exec-05567f6d-eb92-44d7-9e4b-93a6859e2f48.png",
+      "inputSha256": "c98de5e8f2d4930baca965cba5b472a5090307e47b45a68c3d8fa54099154633",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        37,
+        962,
+        1464
+      ],
+      "cleanedBbox": [
+        251,
+        196,
+        746,
+        1372
+      ],
+      "savedBbox": [
+        59,
+        8,
+        133,
+        184
+      ],
+      "transparentPixels": 27585,
+      "removedFaintAlphaPixels": 11529,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11529,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "emilio-aguinaldo",
+      "image": "modern-c02-l08/emilio-aguinaldo.png",
+      "name": "アギナルド",
+      "kind": "person",
+      "identity": "person:emilio-aguinaldo",
+      "description": "アギナルド本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/emilio-aguinaldo.png",
+      "outputSha256": "3f1e4a184e20c36e737e232fb85339928bc753a77ddc6b656c14607f27e42247",
+      "originalFilename": "exec-cde5c040-51b8-4f04-bfd6-871a7146fdef.png",
+      "inputSha256": "6f8bf77068de0dc0a86aadfa9c0446de8b97922894868290afd93d085aa78b09",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        25,
+        892,
+        1494
+      ],
+      "cleanedBbox": [
+        268,
+        112,
+        766,
+        1451
+      ],
+      "savedBbox": [
+        64,
+        8,
+        129,
+        184
+      ],
+      "transparentPixels": 28783,
+      "removedFaintAlphaPixels": 13748,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13748,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "rama-iv",
+      "image": "modern-c02-l08/rama-iv.png",
+      "name": "ラーマ4世",
+      "kind": "person",
+      "identity": "person:rama-iv",
+      "description": "ラーマ4世本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/rama-iv.png",
+      "outputSha256": "bf95c3a79644ccb90bf4baea5f74b3e5670c8b786003e859995c16e41019070f",
+      "originalFilename": "exec-a2f57638-3740-49c0-b0ea-641e3f4dbe7b.png",
+      "inputSha256": "5796cd1e2c36150a9b6a91c10f6ab1fa6ff07cb3f533bed59b5be93c141f9606",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        104,
+        882,
+        1502
+      ],
+      "cleanedBbox": [
+        288,
+        106,
+        738,
+        1445
+      ],
+      "savedBbox": [
+        67,
+        8,
+        126,
+        184
+      ],
+      "transparentPixels": 29737,
+      "removedFaintAlphaPixels": 15453,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15453,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "rama-v",
+      "image": "modern-c02-l08/rama-v.png",
+      "name": "ラーマ5世",
+      "kind": "person",
+      "identity": "person:rama-v",
+      "description": "ラーマ5世本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/rama-v.png",
+      "outputSha256": "3cf51e0711602f32ffbcd2a0719613f5a49f4e31aafd69aaeb4b554ba544d39c",
+      "originalFilename": "exec-7f1dcba2-8434-45e9-8961-3e7e65c15ec3.png",
+      "inputSha256": "a3581a603056c207990577b5eacaf2f0c3be5940097c6e4ab799955e2fe2b982",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "originalBbox": [
+        65,
+        15,
+        974,
+        1520
+      ],
+      "cleanedBbox": [
+        205,
+        133,
+        846,
+        1430
+      ],
+      "savedBbox": [
+        53,
+        8,
+        140,
+        184
+      ],
+      "transparentPixels": 26476,
+      "removedFaintAlphaPixels": 15610,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15610,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "lakshmibai",
+      "image": "modern-c02-l08/lakshmibai.png",
+      "name": "ラクシュミー＝バーイ",
+      "kind": "person",
+      "identity": "person:lakshmibai",
+      "description": "ラクシュミー＝バーイ本人の歴史的容姿を尊重する中立的なドット絵。同じ本人以外へ流用せず、固定所在地や創作発言を付けない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/lakshmibai.png",
+      "outputSha256": "d7871d91b6185c41c791f66204528ab30aeecb7138055929f1ff50bea4aee736",
+      "originalFilename": "exec-a0d7cd04-005d-4847-a898-2420a1fd7dc9.png",
+      "inputSha256": "49bba7b4fbf307cfb151e8bd6573b2738d5ea229c13cae2e3f5e31d9ab79ca58",
+      "originalDimensions": {
+        "width": 1214,
+        "height": 1295
+      },
+      "originalBbox": [
+        0,
+        21,
+        1190,
+        1273
+      ],
+      "cleanedBbox": [
+        115,
+        38,
+        1095,
+        1268
+      ],
+      "savedBbox": [
+        26,
+        8,
+        166,
+        184
+      ],
+      "transparentPixels": 24763,
+      "removedFaintAlphaPixels": 44490,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 44490,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "indian-sepoys",
+      "image": "modern-c02-l08/indian-sepoys.png",
+      "name": "シパーヒー",
+      "kind": "group",
+      "identity": "group:indian-sepoys",
+      "description": "19世紀東インド会社のインド人傭兵の一般集団。下げた銃と軍装。特定宗教への敵意や流血を描かない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/indian-sepoys.png",
+      "outputSha256": "16d30c86f844223bcf083c14a7afb954dd52abfa3c72d0120ac2e6fe541972f8",
+      "originalFilename": "exec-c354c6b8-252f-40ac-9f21-6f8d4c1824a6.png",
+      "inputSha256": "b0d7e27630e4885e4cd9c4c0ee893f0bc9f9ee819710b4f6d6deaeafe4518c6d",
+      "originalDimensions": {
+        "width": 1312,
+        "height": 1199
+      },
+      "originalBbox": [
+        185,
+        3,
+        1256,
+        1134
+      ],
+      "cleanedBbox": [
+        223,
+        140,
+        1097,
+        1123
+      ],
+      "savedBbox": [
+        18,
+        8,
+        174,
+        184
+      ],
+      "transparentPixels": 19288,
+      "removedFaintAlphaPixels": 31484,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 31484,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "indian-villagers",
+      "image": "modern-c02-l08/indian-villagers.png",
+      "name": "インドの農民・民衆",
+      "kind": "group",
+      "identity": "group:indian-villagers",
+      "description": "綿衣・頭布・籠の一般集団。特定の同じ個人を支配階級や兵士へ切り替えない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/indian-villagers.png",
+      "outputSha256": "b957e84dc151dc078807f3477716473b1c0c67dc4a42a9d902bf940f8cbef77d",
+      "originalFilename": "exec-a68383e4-4872-4af3-ad63-7c0025502bc2.png",
+      "inputSha256": "f357f71363ad00e7cfc69fd90eb73fc9806c687ab47167db5f0124dab3cd991e",
+      "originalDimensions": {
+        "width": 1368,
+        "height": 1149
+      },
+      "originalBbox": [
+        49,
+        39,
+        1313,
+        1125
+      ],
+      "cleanedBbox": [
+        178,
+        44,
+        1154,
+        1099
+      ],
+      "savedBbox": [
+        15,
+        8,
+        178,
+        184
+      ],
+      "transparentPixels": 20045,
+      "removedFaintAlphaPixels": 26374,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 26374,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "javanese-villagers",
+      "image": "modern-c02-l08/javanese-villagers.png",
+      "name": "ジャワの農民・商人",
+      "kind": "group",
+      "identity": "group:javanese-villagers",
+      "description": "バティック布と簡素な服の一般集団。作物・民衆・商人の役割であり固定個人や民族の顔の断定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/javanese-villagers.png",
+      "outputSha256": "52af06ad77051cbb797a20a55a12189a9957cba008711f8fa7765c2ce84959da",
+      "originalFilename": "exec-03e0e024-1a7b-4e0b-a062-e8f1513eb4e4.png",
+      "inputSha256": "215523b0c94b912d30a3c9f7ae94a3603cf88a8f82b70812679c1164301ff205",
+      "originalDimensions": {
+        "width": 1220,
+        "height": 1289
+      },
+      "originalBbox": [
+        0,
+        23,
+        1202,
+        1233
+      ],
+      "cleanedBbox": [
+        115,
+        100,
+        1190,
+        1216
+      ],
+      "savedBbox": [
+        11,
+        8,
+        181,
+        184
+      ],
+      "transparentPixels": 20448,
+      "removedFaintAlphaPixels": 32851,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 32851,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "chinese-migrant-workers",
+      "image": "modern-c02-l08/chinese-migrant-workers.png",
+      "name": "中国からの契約移民",
+      "kind": "group",
+      "identity": "group:chinese-migrant-workers",
+      "description": "19世紀末の一般契約移民。仕事服・籠・シャベル、国旗や鉄道専用工具なし。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/chinese-migrant-workers.png",
+      "outputSha256": "845273e454830c33d8d7279b72db2f8b08faf8391e2d58c80b263ab010bd5435",
+      "originalFilename": "exec-568feaf2-b762-46dc-90c6-052201a677c4.png",
+      "inputSha256": "60176483e01210b04471dd94d957af73c4d3be3d4fe05913aecef80a39a6d984",
+      "originalDimensions": {
+        "width": 1319,
+        "height": 1193
+      },
+      "originalBbox": [
+        0,
+        19,
+        1301,
+        1155
+      ],
+      "cleanedBbox": [
+        88,
+        64,
+        1270,
+        1148
+      ],
+      "savedBbox": [
+        8,
+        23,
+        184,
+        184
+      ],
+      "transparentPixels": 19747,
+      "removedFaintAlphaPixels": 43120,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 43120,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "cotton-textiles",
+      "image": "modern-c02-l08/cotton-textiles.png",
+      "name": "綿布",
+      "kind": "prop",
+      "identity": "prop:cotton-textiles",
+      "description": "柔らかい白・藍の綿布束。英印の綿布貿易の反転と国産品愛用を参照。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/cotton-textiles.png",
+      "outputSha256": "e9e56afc871bce322cca75dd43280c3402b6d585de53ada6a50a3abcc1dee970",
+      "originalFilename": "exec-2bdf3f52-97a4-4fc5-9339-44d845a05a23.png",
+      "inputSha256": "af87a32ee9cab78874d90d8deb70081c5fcd4672b9cca970771aeff880dc3b80",
+      "originalDimensions": {
+        "width": 1374,
+        "height": 1145
+      },
+      "originalBbox": [
+        0,
+        51,
+        1320,
+        1145
+      ],
+      "cleanedBbox": [
+        149,
+        287,
+        1236,
+        971
+      ],
+      "savedBbox": [
+        8,
+        73,
+        184,
+        184
+      ],
+      "transparentPixels": 23769,
+      "removedFaintAlphaPixels": 9390,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9390,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "plantation-export-crops",
+      "image": "modern-c02-l08/plantation-export-crops.png",
+      "name": "コーヒー・サトウキビ・藍",
+      "kind": "prop",
+      "identity": "prop:plantation-export-crops",
+      "description": "ジャワの輸出作物3種を区別した模式的な産品。全て同じ作物としない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/plantation-export-crops.png",
+      "outputSha256": "06a2adbd0e6a1781a63379e416e676942f19f64b5a968c3df627b34c4b40b803",
+      "originalFilename": "exec-333eb735-60c3-4c9b-a5ea-2c7f8680284a.png",
+      "inputSha256": "d134e4dc88b98653c2a4ee1860aff8989d894f5928027fc6173f4983148b58fd",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        0,
+        29,
+        1522,
+        1024
+      ],
+      "cleanedBbox": [
+        127,
+        49,
+        1476,
+        972
+      ],
+      "savedBbox": [
+        8,
+        64,
+        184,
+        184
+      ],
+      "transparentPixels": 24438,
+      "removedFaintAlphaPixels": 38579,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 38579,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "tin-rubber-cargo",
+      "image": "modern-c02-l08/tin-rubber-cargo.png",
+      "name": "錫と天然ゴム",
+      "kind": "prop",
+      "identity": "prop:tin-rubber-cargo",
+      "description": "錫の塊・缶とゴム樹液容器・ゴム片。錫開発と20世紀ゴム需要の時期を別に説明する。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": true,
+      "file": "public/images/modern-c02-l08/tin-rubber-cargo.png",
+      "outputSha256": "d6b34edfd5cb7ac5f71e4537ce61434c79c982f854d12f8fbe9ea913de3b6296",
+      "originalFilename": "exec-8b10decd-1f18-4004-9b2d-c1ee088b9b74.png",
+      "inputSha256": "81c6e6da6dd918450c1820a74dcbd677ac4e0c162a3364a387f5d0048eb1387e",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "originalBbox": [
+        0,
+        21,
+        1522,
+        1024
+      ],
+      "cleanedBbox": [
+        191,
+        119,
+        1353,
+        904
+      ],
+      "savedBbox": [
+        8,
+        65,
+        184,
+        184
+      ],
+      "transparentPixels": 22496,
+      "removedFaintAlphaPixels": 15895,
+      "generationTool": "image_gen__imagegen",
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15895,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      }
+    },
+    {
+      "key": "aurangzeb-calm",
+      "image": "mughal/aurangzeb-calm.png",
+      "name": "アウラングゼーブ",
+      "kind": "person",
+      "identity": "person:aurangzeb-calm",
+      "description": "同じ本人と確認した既存の絵。過去の参照と現在の役割を分ける。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/mughal/aurangzeb-calm.png",
+      "outputSha256": "ce6c5ab84d27d8b61f8a6207aeef9c9de93993496d01aeb2df53f3ea345f3b08",
+      "reuseReason": "同じ本人と確認した既存の絵。過去の参照と現在の役割を分ける。"
+    },
+    {
+      "key": "victoria",
+      "image": "modern-c01-l02/victoria.png",
+      "name": "ヴィクトリア女王",
+      "kind": "person",
+      "identity": "person:victoria",
+      "description": "同じ本人と確認した既存の絵。過去の参照と現在の役割を分ける。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/victoria.png",
+      "outputSha256": "ff974545455c51f263833395c32b6ab9716bde18b2b2de7ec888a407bcb02484",
+      "reuseReason": "同じ本人と確認した既存の絵。過去の参照と現在の役割を分ける。"
+    },
+    {
+      "key": "disraeli",
+      "image": "modern-c01-l02/disraeli.png",
+      "name": "ディズレーリ",
+      "kind": "person",
+      "identity": "person:disraeli",
+      "description": "同じ本人と確認した既存の絵。過去の参照と現在の役割を分ける。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/disraeli.png",
+      "outputSha256": "efc8e3da3fbf0ad45b8db807ecd6e1ec6c6901fa40677f743c5df9f4c26adc3e",
+      "reuseReason": "同じ本人と確認した既存の絵。過去の参照と現在の役割を分ける。"
+    },
+    {
+      "key": "napoleon-iii",
+      "image": "modern-c01-l01/napoleon-iii.png",
+      "name": "ナポレオン3世",
+      "kind": "person",
+      "identity": "person:napoleon-iii",
+      "description": "同じ本人と確認した既存の絵。過去の参照と現在の役割を分ける。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/napoleon-iii.png",
+      "outputSha256": "6f8840c8d0a84ff3aba681b9fee64f7e290cf1cb5db886ba7228753ec05931a7",
+      "reuseReason": "同じ本人と確認した既存の絵。過去の参照と現在の役割を分ける。"
+    },
+    {
+      "key": "napoleon-i",
+      "image": "modern-c01-l01/napoleon-i.png",
+      "name": "ナポレオン",
+      "kind": "person",
+      "identity": "person:napoleon-i",
+      "description": "同じ本人と確認した既存の絵。過去の参照と現在の役割を分ける。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/napoleon-i.png",
+      "outputSha256": "45b5efce60ae83da533e94f320b611a0ed0b46e1363979fe52196a7eba53ecd4",
+      "reuseReason": "同じ本人と確認した既存の絵。過去の参照と現在の役割を分ける。"
+    },
+    {
+      "key": "british-soldiers",
+      "image": "modern-c01-l02/british-soldiers.png",
+      "name": "イギリスの軍",
+      "kind": "group",
+      "identity": "group:british-soldiers",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/british-soldiers.png",
+      "outputSha256": "b7e389faeb2a340204f0ab987e8a9fa9fa5ce8ad367305f66484f37630c70978",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "french-soldiers",
+      "image": "modern-c01-l01/french-soldiers.png",
+      "name": "フランスの軍",
+      "kind": "group",
+      "identity": "group:french-soldiers",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/french-soldiers.png",
+      "outputSha256": "d7211acf4b64e8b166aba906172a2121907edb35fb9b955f5043a1516e22df1b",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "dutch-soldiers",
+      "image": "modern-c01-l01/dutch-soldiers.png",
+      "name": "オランダの軍",
+      "kind": "group",
+      "identity": "group:dutch-soldiers",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/dutch-soldiers.png",
+      "outputSha256": "e1ab0d41e3e110bfbe94098605a7e2f18f8fc9215ba2de98018c3f955e67653a",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "union-soldiers",
+      "image": "modern-c01-l03/union-soldiers.png",
+      "name": "アメリカの軍の参照",
+      "kind": "group",
+      "identity": "group:union-soldiers",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l03/union-soldiers.png",
+      "outputSha256": "39e527bfa9b4185ae3117929434062e072f4ee2f38ef2c2db0b42968b814263c",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "liberal-students",
+      "image": "modern-c01-l01/liberal-students.png",
+      "name": "学生・知識人の役割",
+      "kind": "group",
+      "identity": "group:liberal-students",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/liberal-students.png",
+      "outputSha256": "110b19b545d3106aeea81d8b25c55b5074f5c0c22ed8feaf7b6e5054a519ce61",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "merchant-cargo",
+      "image": "modern-c01-l01/merchant-cargo.png",
+      "name": "交易品",
+      "kind": "prop",
+      "identity": "prop:merchant-cargo",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/merchant-cargo.png",
+      "outputSha256": "5b34f33edbecda0ad85cb122e4451b4e7641af0cf34ab15279f64bba7ac3e3be",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "constitution-document",
+      "image": "modern-c01-l01/constitution-document.png",
+      "name": "文字資料",
+      "kind": "prop",
+      "identity": "prop:constitution-document",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/constitution-document.png",
+      "outputSha256": "8a715a4bfee02a55f27382fa8eb2fc1ad812c14e68926b6f35defc23f0364757",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "treaty-document",
+      "image": "modern-c01-l01/treaty-document.png",
+      "name": "条約と権利",
+      "kind": "prop",
+      "identity": "prop:treaty-document",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/treaty-document.png",
+      "outputSha256": "0e94dae0a55aa978ec2a8aa80594bafcc2ac3d7982b852608c5e6128a2f88da7",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "tax-ledger",
+      "image": "modern-c01-l01/tax-ledger.png",
+      "name": "財政と地租",
+      "kind": "prop",
+      "identity": "prop:tax-ledger",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/tax-ledger.png",
+      "outputSha256": "677649776ccc53774db1a01056f6dd99ce1ff193e6cc5e490bb0c87c0146d936",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "calendar",
+      "image": "modern-c01-l01/calendar.png",
+      "name": "時期の確認",
+      "kind": "prop",
+      "identity": "prop:calendar",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/calendar.png",
+      "outputSha256": "ce0c76abaa9de57d5a96c781a77b922e172b519269ef85529e22140782f178e5",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "steam-factory",
+      "image": "modern-c01-l01/steam-factory.png",
+      "name": "工業の参照",
+      "kind": "prop",
+      "identity": "prop:steam-factory",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/steam-factory.png",
+      "outputSha256": "dbfe2d21c918c76323834cfc56212955058a50a711a66cd3995f584939bd69b0",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "sugar-plantation",
+      "image": "modern-c01-l01/sugar-plantation.png",
+      "name": "農園の参照",
+      "kind": "prop",
+      "identity": "prop:sugar-plantation",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l01/sugar-plantation.png",
+      "outputSha256": "dcedc636b146995c40559d7595cd0a94d2210bfc5c8e8b467932ca41130aa566",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "cotton-loom",
+      "image": "modern-c01-l02/cotton-loom.png",
+      "name": "綿織物の手工業",
+      "kind": "prop",
+      "identity": "prop:cotton-loom",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/cotton-loom.png",
+      "outputSha256": "ebfddd57ad16b0d35be0c3071979851e67c11b76952512d206dc82493fd9cd2a",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "cotton-bales",
+      "image": "modern-c01-l03/cotton-bales.png",
+      "name": "原料の綿花",
+      "kind": "prop",
+      "identity": "prop:cotton-bales",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l03/cotton-bales.png",
+      "outputSha256": "a599634d49941543d82506ee406a56b7d7c17a24ec809eb992efbc03bc21d9c2",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "grain-cargo",
+      "image": "modern-c01-l02/grain-cargo.png",
+      "name": "コメ・穀物の参照",
+      "kind": "prop",
+      "identity": "prop:grain-cargo",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c01-l02/grain-cargo.png",
+      "outputSha256": "6e2629250b12b0f76d27e223710abc430cde8020ef354ddd68ffcef14603231b",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    },
+    {
+      "key": "tobacco-cargo",
+      "image": "modern-c02-l07/tobacco-cargo.png",
+      "name": "タバコ",
+      "kind": "prop",
+      "identity": "prop:tobacco-cargo",
+      "description": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "file": "public/images/modern-c02-l07/tobacco-cargo.png",
+      "outputSha256": "4af274e7e53d03d4b22e5f17e3dd58eba3ba59e93129f3088f6bed83d84ebb16",
+      "reuseReason": "同じ一般の役割・道具を表す既存絵。特定の民族・個人・部隊・実物の文書の同定ではない。"
+    }
+  ]
+}

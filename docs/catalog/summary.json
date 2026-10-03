@@ -1,7 +1,7 @@
 {
-  "version": "0.117",
-  "parts": 159,
-  "pages": 1515,
+  "version": "0.118",
+  "parts": 162,
+  "pages": 1652,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 31,
-      "pages": 502,
+      "parts": 34,
+      "pages": 639,
       "chapters": [
         {
           "chapter": 1,
@@ -2682,6 +2682,10 @@
             {
               "lesson": 7,
               "title": "近代の西アジア"
+            },
+            {
+              "lesson": 8,
+              "title": "近代のインド・東南アジア"
             }
           ],
           "volumes": [
@@ -2708,6 +2712,30 @@
               "lesson": 7,
               "part": 3,
               "pages": 30
+            },
+            {
+              "id": "modern-c02-l08-p01",
+              "label": "イギリスのインド侵略",
+              "number": "04",
+              "lesson": 8,
+              "part": 1,
+              "pages": 37
+            },
+            {
+              "id": "modern-c02-l08-p02",
+              "label": "インド民族運動の始まり",
+              "number": "05",
+              "lesson": 8,
+              "part": 2,
+              "pages": 17
+            },
+            {
+              "id": "modern-c02-l08-p03",
+              "label": "列強の東南アジア侵略",
+              "number": "06",
+              "lesson": 8,
+              "part": 3,
+              "pages": 83
             }
           ]
         }

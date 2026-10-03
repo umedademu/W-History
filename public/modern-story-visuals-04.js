@@ -1,4 +1,4 @@
-import { modernEdition } from './modern-c01-l04-edition.js?v=0.117';
+import { modernEdition } from './modern-c01-l04-edition.js?v=0.118';
 
 // 原文・紙面を保持し、人物本人・一般集団・道具を説明として添える。
 // 現地が原文に示されない人物は模式欄に置き、実際の発言の引用と区別する。
