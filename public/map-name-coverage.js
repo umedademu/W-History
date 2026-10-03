@@ -1,7 +1,7 @@
 import { mapNameCatalog } from "./map-name-catalog.js?v=0.064";
 import { ancientNamesInText } from "./ancient-geography.js?v=0.068";
 import { chapterNameFinders } from "./chapter-geography.js?v=0.068";
-import { modernNamesInText } from "./modern-geography.js?v=0.110";
+import { modernNamesInText } from "./modern-geography.js?v=0.111";
 
 export const plainText = value => String(value ?? "").replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g, "").replace(/<[^>]*>/g, "");
 export const normalizeMapName = value => plainText(value).replace(/[\s＝=・『』「」]/g, "");
@@ -29,7 +29,14 @@ export function mapNamePlan(scene, mapItems) {
   const required = namesForScene(scene,narrative);
   // title・desc・非表示の見どころ欄は、地図上の表示には数えない。
   const shown = mapItems.map(item=>normalizeMapName(mapDisplayName(item.text,scene)));
-  const missing = required.filter(entry=>!shown.some(text=>text.includes(entry.key)));
+  // 近代の模式欄で示す人物を、地図へ文字だけで重複追加しない。
+  const modern = scene.sourceText?.book === 'modern';
+  const elsewhere = modern ? (scene.namesOutsideMap??[]).map(normalizeMapName) : [];
+  const inText = modern ? [...(scene.textOnlyPeople??[]),...(scene.excludedPersonNames??[])].map(item=>normalizeMapName(item.name)) : [];
+  const aliases = modern ? (scene.personAliases??[]).filter(alias=>
+    [...(scene.actors??[]),...(scene.props??[])].some(item=>item.identity===alias.identity && shown.includes(normalizeMapName(item.name))))
+    .map(alias=>normalizeMapName(alias.name)) : [];
+  const missing = required.filter(entry=>![...shown,...elsewhere,...inText,...aliases].some(text=>text.includes(entry.key)));
   const centers=mapItems.filter(item=>Array.isArray(item.at)).map(item=>item.at);
   const distance = point => centers.length ? Math.min(...centers.map(at=>(point[0]-at[0])**2+(point[1]-at[1])**2)) : 0;
   return {
@@ -49,8 +56,10 @@ export function mapDisplayName(text, scene) {
     namesForScene(scene,inside).some(entry=>!narrative.includes(entry.key)) ? "" : all);
 }
 export function sceneMapItems(scene, places) {
-  return [...(scene.pins??[]).map(key=>({text:places[key].name,at:places[key].point})),...(scene.tags??[]),
-    ...[...(scene.actors??[]),...(scene.props??[])].map(item=>({text:item.name,at:typeof item.at==="string"?places[item.at]?.point:item.at}))];
+  const figures = [...(scene.actors??[]),...(scene.props??[])].map(item=>({text:item.name,at:typeof item.at==="string"?places[item.at]?.point:item.at}));
+  const labels = [...(scene.pins??[]).map(key=>({text:places[key].name,at:places[key].point})),...(scene.tags??[])];
+  const names = new Set(figures.map(item=>normalizeMapName(mapDisplayName(item.text,scene))));
+  return [...labels.filter(item=>scene.sourceText?.book!=='modern'||!names.has(normalizeMapName(mapDisplayName(item.text,scene)))),...figures];
 }
 export function withMapNames(scene, places) {
   const plan=mapNamePlan(scene,sceneMapItems(scene,places));

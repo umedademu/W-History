@@ -1,5 +1,5 @@
 import { initialPageIndex } from "./story-volumes.js?v=0.110";
-import { withMapNames, mapDisplayName } from "./map-name-coverage.js?v=0.110";
+import { withMapNames, mapDisplayName, normalizeMapName } from "./map-name-coverage.js?v=0.111";
 import { maximumMapScale } from "./map-camera.js?v=0.064";
 import { createMapLayout } from "./map-layout.js?v=0.064";
 import { decorateStoryBody } from "./story-emphasis.js?v=0.110";
@@ -98,6 +98,8 @@ function drawMap(scene) {
   map.append(pins, labels);
   function label(text, point, className, offset = [0, 20]) {
     text = mapDisplayName(text, scene);
+    if (scene.sourceText?.book === 'modern' && [...scene.actors,...scene.props].some(item=>
+      normalizeMapName(mapDisplayName(item.name,scene)) === normalizeMapName(text))) return;
     const [px, py] = toScreen(point);
     const node = svg("text", { x: px + offset[0], y: py + offset[1], class: className, "text-anchor": "middle", "data-anchor-x": px, "data-anchor-y": py }, text);
     labels.append(node);

@@ -64,11 +64,11 @@ for(const chapter of bookCollections[1].chapters)for(const v of chapter.volumes)
     .replaceAll('イスラーム教の成立と正統カリフの地図',escape(v.label)+'の地図')
     .replaceAll('6世紀後半',escape(v.period))
     .replace(/(?:01|1) \/ (?:22|27)/g,`1 / ${pages}`).replace(/max="(?:22|27)"/,`max="${pages}"`)
-    .replace('<div id="scene-body" class="scene-body"></div>','<div id="scene-body" class="scene-body"></div><p id="source-page-label" class="source-page-label"></p>')
+    .replace('<div id="scene-body" class="scene-body"></div>','<div id="scene-body" class="scene-body"></div><p id="source-page-label" class="source-page-label"></p><section id="modern-illustration" class="modern-illustration" aria-label="本文に沿う人物と道具の模式図" hidden></section>')
     .replace('<nav id="scene-nav"',reference+'\n    <nav id="scene-nav"')
     .replace(/<nav class="story-series-links"[\s\S]*?<\/nav>/,nav)
     .replace(/href="[^"]*" class="home-link"/,'href="/?book=modern#modern-book" class="home-link"')
-    .replace(/<footer([\s\S]*?)<details>[\s\S]*?<\/details>/,`<footer$1<details><summary>地図と説明について</summary><p>近代・現代 第1章「国民国家の形成」の第1回・第${v.part}節を、原文の順番に${pages}場面でたどります。元の太字・色・下線・読み仮名を保持し、関係する原書ページは「原文の図表・補足」で全文を確認できます。</p><p>地図の人物名は本文に関係する代表地点に置いています。所在や活動範囲を断定する印ではありません。地図の文字は見やすい位置に移し、元の地点へ細い線で結びます。矢印は本文にある移動・独立運動の方向の概略です。</p><p>基図は<a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noreferrer">Natural Earth の公開地図</a>を使用しています。関係図は原文の対立関係を整理した模式図です。</p></details>`);
+    .replace(/<footer([\s\S]*?)<details>[\s\S]*?<\/details>/,`<footer$1<details><summary>地図と説明について</summary><p>近代・現代 第1章「国民国家の形成」の第1回・第${v.part}節を、原文の順番に${pages}場面でたどります。元の太字・色・下線・読み仮名を保持し、関係する原書ページは「原文の図表・補足」で全文を確認できます。</p><p>人物・集団・建物・道具は本文に沿うドット絵で示します。人物の移動や姿の切替は本文にある出来事の概略です。会議や同じ都市の勢力は、本文の後の模式図でも見比べられます。人物名だけの印は本文に関係する代表地点で、所在や活動範囲を断定するものではありません。地図の文字は見やすい位置に移し、元の地点へ細い線で結びます。矢印は本文にある移動・独立運動の方向の概略です。</p><p>基図は<a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noreferrer">Natural Earth の公開地図</a>を使用しています。関係図は原文の対立関係を整理した模式図です。</p></details>`);
   await write(`public/${v.id}-story.html`,html);
 }
 

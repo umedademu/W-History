@@ -2040,7 +2040,7 @@ const escapePattern = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const pattern = new RegExp([...byKey.keys()].sort((a,b) => b.length-a.length).map(escapePattern).join('|'), 'g');
 export function modernNamesInText(text) {
   // 階層名や事件名の一部を、都市や人物の名称へ誤適用しない。
-  const value = normalize(text).replace(/パンアメリカ主義|メスティーソ|デカブリスト|アメリカ型/g, match => ' '.repeat(match.length));
+  const value = normalize(text).replace(/パンアメリカ主義|メスティーソ|デカブリスト|キリスト教|アメリカ型/g, match => ' '.repeat(match.length));
   const found = new Map();
   for (const match of value.matchAll(pattern)) {
     const entry = byKey.get(match[0]);

@@ -79,7 +79,8 @@ for(const entry of modernNameCatalog) {
   assert(['place','region','person','building'].includes(entry.kind));
   entry.points.forEach(mapPoints);
 }
-for(const word of ['メスティーソ','デカブリスト','パン＝アメリカ主義']) assert.deepEqual(modernNamesInText(word),[],`制度や階層の所在地: ${word}`);
+for(const word of ['メスティーソ','デカブリスト','キリスト教','パン＝アメリカ主義']) assert.deepEqual(modernNamesInText(word),[],`制度や階層の所在地: ${word}`);
+assert.equal(modernNamesInText('リストが関税同盟を主張した。')[0]?.name,'リスト','経済学者本人は表示する');
 assert(!modernNameCatalog.some(entry=>entry.name === 'メス'),'階層名を都市へ誤一致');
 let boldCount=0,rubyCount=0;
 for(const [index,scene] of scenes.entries()) {

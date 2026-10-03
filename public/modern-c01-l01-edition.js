@@ -964,14 +964,6 @@ export const modernEdition = {
           "kind": "person"
         },
         {
-          "text": "リスト",
-          "at": [
-            10,
-            51
-          ],
-          "kind": "person"
-        },
-        {
           "text": "オーストリア",
           "at": [
             14,

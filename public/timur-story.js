@@ -1,5 +1,5 @@
 import { sourceEdition } from "./source-edition.js?v=0.064";
-import { mapNamePlan } from "./map-name-coverage.js?v=0.110";
+import { mapNamePlan } from "./map-name-coverage.js?v=0.111";
 import { characterCamera, characterScenes, renderMapCharacters } from "./timur-characters.js?v=0.064";
 
 import { renderAfterMap, stopAfterMap } from "./timur-after-map.js?v=0.064";

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "scope": "近代・現代 第1章第1回の本文・地図・全原書ページ表示・独立した対応検査",
+  "scope": "近代・現代 第1章第1回の本文・地図・人物と道具・通常の動き・全原書ページ表示",
   "source_sha256": "165ddb691e4973afe09973efed87ac688207227b196b29359b37b716976e6cad",
   "source_bytes": 125641,
   "source_verified_unchanged": true,
@@ -15,7 +15,17 @@
     "bold_ranges": 544,
     "ruby_ranges": 89,
     "name_spellings": 169,
-    "routes": 16
+    "routes": 19,
+    "images": 92,
+    "new_images": 89,
+    "existing_buildings": 3,
+    "people": 40,
+    "person_variants": 5,
+    "groups": 25,
+    "new_props_and_buildings": 19,
+    "illustrated_scenes": 55,
+    "moving_figures": 17,
+    "animated_pose_changes": 4
   },
   "commands": [
     {
@@ -32,6 +42,26 @@
       "command": "node scripts/build-modern-lesson-01.mjs --check",
       "result": "passed",
       "notes": "表示用の生成結果が保存済みの公開データと一致。"
+    },
+    {
+      "command": "node scripts/check-modern-visuals.mjs",
+      "result": "passed"
+    },
+    {
+      "command": "npm run check",
+      "result": "passed"
+    },
+    {
+      "command": "npm run build",
+      "result": "passed"
+    },
+    {
+      "command": "npm run check:modern:browser",
+      "result": "passed"
+    },
+    {
+      "command": "node scripts/build-book-library.mjs --check",
+      "result": "passed"
     }
   ],
   "independent_review": {
@@ -39,6 +69,140 @@
     "notes": "別担当が原文と全830行を照合し、紙面をまたぐ12組と16経路の本文上の意味を読み取り専用で点検。重大な不一致なし。"
   },
   "browser_review": {
+    "version": "0.111",
+    "date": "2026-10-03",
+    "result": "passed",
+    "scenes": 63,
+    "widths": [
+      1280,
+      390
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "total_views": 252,
+    "errors": 0,
+    "issues": 0,
+    "pages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "diagrams": [
+      "七月革命の対立",
+      "二月革命の対立",
+      "ドイツ統一をめぐる対立"
+    ],
+    "checks": [
+      "本文全文と装飾の保持",
+      "92枚の読込みと姓名・役割の対応",
+      "地図と模式欄の絵・姓名・説明・見出しの重なりと端からのはみ出し",
+      "経度32度・緯度24度の共通拡大上限",
+      "原書26ページの補助全文と3つの対立図",
+      "巻の切替と保存・前後移動・再読込・同じ教材内の番号リンク・末尾移動・旧教材の両端"
+    ],
+    "audio": "ページを開く前に自動読み上げと音声再生を無効化",
+    "motion": {
+      "result": "passed",
+      "cases": [
+        "modern-c01-l01-p01-005",
+        "modern-c01-l01-p04-008",
+        "modern-c01-l01-p05-007",
+        "modern-c01-l01-p05-011",
+        "modern-c01-l01-p05-013"
+      ],
+      "cancellation": {
+        "id": "modern-c01-l01-p04-008",
+        "detached": {
+          "key": "modern-c01-l01/charles-x.png",
+          "transform": "translate(469.629px, 267.831px)",
+          "src": "http://127.0.0.1:18812/images/modern-c01-l01/charles-x.png"
+        },
+        "cancelled": {
+          "connected": false,
+          "key": "modern-c01-l01/charles-x.png",
+          "transform": "translate(469.629px, 267.831px)",
+          "src": "http://127.0.0.1:18812/images/modern-c01-l01/charles-x.png"
+        }
+      },
+      "checks": [
+        "移動の途中と終点",
+        "同じ本人の姿の切替",
+        "地図からの再表示",
+        "場面を変えた後の古い動きの取消"
+      ]
+    }
+  },
+  "generated_files": [
+    {
+      "file": "public/modern-volumes.js",
+      "bytes": 2327,
+      "sha256": "1c78315e8df4a06236464f9410fca0c29cd31b8cddc43960c8848a28be42c320"
+    },
+    {
+      "file": "public/modern-c01-l01-edition.js",
+      "bytes": 453237,
+      "sha256": "c70adb2c8928845439e6bb504693dd73084f4aac514719b63fb375ddec3d9f49"
+    },
+    {
+      "file": "public/modern-geography.js",
+      "bytes": 36060,
+      "sha256": "7a2976c1b621de665e0433410f9ab1632f454f5bd5617bc9eb04cd67946098a1"
+    },
+    {
+      "file": "public/modern-story-visuals.js",
+      "bytes": 64457,
+      "sha256": "9ee1f06147d4fb642333d4e5439311da243920d85749028135b332aab9aa44bb"
+    },
+    {
+      "file": "docs/modern-lesson-01/visual-plan.json",
+      "bytes": 186376,
+      "sha256": "af8dd58bffe5536858851146aa2974ca9221bb2800b7cbef768a13a44595a1da"
+    },
+    {
+      "file": "docs/modern-lesson-01/image-assets.json",
+      "bytes": 241673,
+      "sha256": "5ab0d9ac725b0004e38eb11d08b8ac1204497206af1cfda17e1be5f10235512e"
+    }
+  ],
+  "independent_route_regression": {
+    "result": "passed",
+    "scenes": [
+      "modern-c01-l01-p02-003",
+      "modern-c01-l01-p02-004"
+    ],
+    "expectations": [
+      "ドイツ学生運動の本文と経路0",
+      "カルボナリの本文と介入2本",
+      "介入元オーストリアと対象ナポリ・ピエモンテの代表位置"
+    ]
+  },
+  "version": "0.111",
+  "previous_browser_review": {
     "responsible": "統合担当",
     "result": "passed",
     "scenes": 63,
@@ -67,33 +231,21 @@
     "additional_views": 8,
     "version": "0.110"
   },
-  "generated_files": [
-    {
-      "file": "public/modern-volumes.js",
-      "bytes": 2327,
-      "sha256": "1c78315e8df4a06236464f9410fca0c29cd31b8cddc43960c8848a28be42c320"
-    },
-    {
-      "file": "public/modern-c01-l01-edition.js",
-      "bytes": 453378,
-      "sha256": "474b07928c95ce05d13fd7e2f13b682335c57e705e2eb0309f98e1c256c83b56"
-    },
-    {
-      "file": "public/modern-geography.js",
-      "bytes": 36044,
-      "sha256": "57ba9a2ae051458a1f0e6315e4fc3ffa31feadbb09dce470b4e9b26f87df45da"
-    }
-  ],
-  "independent_route_regression": {
+  "visual_independent_review": {
     "result": "passed",
-    "scenes": [
-      "modern-c01-l01-p02-003",
-      "modern-c01-l01-p02-004"
-    ],
-    "expectations": [
-      "ドイツ学生運動の本文と経路0",
-      "カルボナリの本文と介入2本",
-      "介入元オーストリアと対象ナポリ・ピエモンテの代表位置"
+    "scenes": 63,
+    "notes": [
+      "別担当が読み取り専用で全63場面の図と原文の意味を照合し、4点を修正後に再確認。",
+      "1846年のクラクフの鎮圧を1848年の反乱の結末へ混ぜない。",
+      "フリードリヒ＝ヴィルヘルム4世の拒否対象は原文のドイツ国憲法。",
+      "議事堂への乱入と王宮の包囲を区別し、市民の要求を原文へ合わせる。",
+      "図注に原文にない1832年を補わない。",
+      "本人の取り違え・同名人物の混同・過去の比較人物を当時の集会へ同席させる問題なし。"
     ]
+  },
+  "protected_files": {
+    "sources": 60,
+    "preexisting_user_changes": 2,
+    "all_verified_unchanged": true
   }
 }

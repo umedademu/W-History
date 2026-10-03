@@ -1,14 +1,65 @@
-import {modernEdition, modernPlaces, sourcePages} from './modern-c01-l01-edition.js?v=0.110';
-import {modernSeries} from './modern-volumes.js?v=0.110';
-import {volumeNavigation} from './story-volumes.js?v=0.110';
-import {modernDiagramFor, modernReferencePages} from './modern-story-support.js?v=0.110';
-import {mountStory} from './history-story.js?v=0.110';
+import {modernPlaces, sourcePages} from './modern-c01-l01-edition.js?v=0.111';
+import {modernSeries} from './modern-volumes.js?v=0.111';
+import {initialPageIndex, volumeNavigation} from './story-volumes.js?v=0.111';
+import {modernDiagramFor, modernReferencePages} from './modern-story-support.js?v=0.111';
+import {modernVisualEdition, modernIllustrationFor} from './modern-story-visuals.js?v=0.111';
+import {mountStory} from './history-story.js?v=0.111';
 
 const id = location.pathname.split('/').pop().replace(/-story\.html$/, '');
 const volume = modernSeries.find(item => item.id === id);
 if (!volume) throw new Error('教材が見つかりません: ' + id);
-const scenes = modernEdition[id];
+const scenes = modernVisualEdition[id];
+function showIllustration(scene) {
+  const panel = document.getElementById('modern-illustration');
+  const illustration = modernIllustrationFor(scene);
+  panel.replaceChildren();
+  panel.hidden = !illustration;
+  if (!illustration) return;
+  const heading = document.createElement('h3');
+  heading.textContent = illustration.title;
+  const note = document.createElement('p');
+  note.className = 'illustration-note';
+  note.textContent = '本文に沿う模式図';
+  const groups = document.createElement('div');
+  groups.className = 'illustration-groups';
+  for (const group of illustration.groups) {
+    const section = document.createElement('section');
+    section.className = 'illustration-group';
+    const title = document.createElement('h4');
+    title.textContent = group.label;
+    section.append(title);
+    const figures = document.createElement('div');
+    figures.className = 'illustration-figures';
+    for (const item of group.figures) {
+      const figure = document.createElement('figure');
+      figure.className = 'illustration-figure';
+      const picture = document.createElement('img');
+      const key = item.image.includes('/') ? item.image : 'modern-c01-l01/' + item.image;
+      picture.src = '/images/' + key + (/\.(png|svg)$/.test(key) ? '' : '.png');
+      picture.alt = item.name;
+      picture.width = 192;
+      picture.height = 192;
+      const caption = document.createElement('figcaption');
+      const name = document.createElement('strong');
+      name.className = 'illustration-name';
+      name.textContent = item.name;
+      caption.append(name);
+      if (item.caption) {
+        const explanation = document.createElement('span');
+        explanation.className = 'illustration-caption';
+        explanation.textContent = item.caption;
+        caption.append(explanation);
+      }
+      figure.append(picture, caption);
+      figures.append(figure);
+    }
+    section.append(figures);
+    groups.append(section);
+  }
+  panel.append(heading, note, groups);
+}
 function showReference(scene, index) {
+  showIllustration(scene);
   const pages = modernReferencePages(scene, volume, index);
   document.getElementById('source-page-label').textContent = '原書 ' + scene.sourceText.sourcePages.join('・') + 'ページ';
   const details = document.getElementById('source-reference');
@@ -43,6 +94,12 @@ function showReference(scene, index) {
   history.replaceState(null, '', '#page-' + (index + 1));
 }
 
-mountStory({places:modernPlaces, zones:{}, scenes, imageDirectory:'ancient', chapterNavigation:volumeNavigation(volume),
+mountStory({places:modernPlaces, zones:{}, scenes, imageDirectory:'modern-c01-l01', chapterNavigation:volumeNavigation(volume),
   baseMap:{href:'/ottoman-world-map.svg', width:1440, height:720, project:([lon,lat])=>[(lon+180)*4,(90-lat)*4]},
   onSceneChange:showReference});
+
+// 同じ教材内の場面リンクや戻る操作でも、表示を番号に合わせる。
+window.addEventListener('hashchange', () => {
+  const index = initialPageIndex(scenes.length, location.hash);
+  document.querySelector(`button[data-scene="${index}"]`)?.click();
+});
