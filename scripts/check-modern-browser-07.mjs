@@ -21,6 +21,32 @@ const sourceRecord=JSON.parse(await readFile(path.join(root,'docs/modern-lesson-
 const sourceLines=new Map(sourceRecord.lines.map(line=>[line.line,line]));
 // 同じ人物の別表記だけを家族識別で束ねる。
 const family=entity=>entity.family??entity.name;
+const contextRecords=new Map(JSON.parse(await readFile(path.join(root,'docs/modern-lesson-07/visual-plan.json'),'utf8')).scenes.map(scene=>[scene.sceneId,scene]));
+const sourceParagraphs=new Map(sourceRecord.paragraphs.map(paragraph=>[paragraph.id,paragraph]));
+const sourceParagraphOrder=sourceRecord.paragraphs.map(paragraph=>paragraph.id);
+const readingPlan=new Map(JSON.parse(await readFile(path.join(root,'docs/modern-lesson-07/reading-plan.json'),'utf8')).map(scene=>[scene.id,scene]));
+function contextEntities(scene,visualPlan) {
+  const planned=readingPlan.get(scene.id),contexts=scene.contextRegions??[];
+  assert.deepEqual(contexts,planned.contextRegions??[],scene.id+': 地域の引継ぎを読み分け表と照合する');
+  assert.deepEqual(contexts,visualPlan.contextRegions??[],scene.id+': 配置記録にも地域の原文根拠を保持する');
+  const direct=namesForScene(scene,scene.plainBody.join(''));
+  assert.equal(new Set(contexts.map(context=>context.name)).size,contexts.length,scene.id+': 文脈地域を重複しない');
+  return contexts.map(context=>{
+    const paragraph=sourceParagraphs.get(context.paragraph),first=sourceParagraphOrder.indexOf(planned.paragraphs[0]);
+    assert.ok(paragraph&&(planned.paragraphs.includes(paragraph.id)||sourceParagraphOrder[first-1]===paragraph.id),scene.id+': 同じ親段落または直前段落の地域だけを引き継ぐ');
+    assert.ok(paragraph.lines.every(line=>Math.max(1,[41,121,316].filter(start=>start<=line).length)===scene.sourceText.part),scene.id+': 文脈地域は同じ節の原文を根拠とする');
+    assert.ok(context.reason?.trim()&&context.lines.length&&context.lines.every(line=>paragraph.lines.includes(line)&&sourceLines.get(line)?.kind==='body'),scene.id+': 地域を明示する通常本文の行と理由を記録する');
+    assert.equal(new Set(context.lines).size,context.lines.length,scene.id+': 根拠行を重複しない');
+    const entry=namesForScene(scene,context.name).find(entry=>entry.name===context.name&&entry.kind==='region');
+    assert.ok(entry?.points.length,scene.id+': 文脈では所在地をもつ地域だけを補う');
+    const text=context.lines.map(line=>sourceLines.get(line).text).join('').replace(/<rt>[\s\S]*?<\/rt>/g,'').replace(/<[^>]*>/g,'').replaceAll('**','');
+    assert.ok(namesForScene(scene,text).some(found=>found.kind==='region'&&family(found)===family(entry)),scene.id+': 指定した根拠行に同じ地域が明示される');
+    assert.ok(!direct.some(found=>family(found)===family(entry)),scene.id+': 本文に明示された地域と重ねない');
+    for(const point of entry.points)assert.ok(scene.tags.some(tag=>tag.text===entry.name&&JSON.stringify(tag.at)===JSON.stringify(point)),scene.id+': 文脈地域の静的な参照点が地図に残る');
+    return entry;
+  });
+}
+
 const port=process.env.W_HISTORY_MODERN_CHECK_PORT??'18845',base='http://127.0.0.1:'+port;
 const server=spawn(process.execPath,[path.join(root,'scripts/serve.mjs')],{cwd:root,env:{...process.env,PORT:port},windowsHide:true,stdio:'pipe'});
 
@@ -227,7 +253,7 @@ try {
           for(const [shown,wanted] of actual.decoration)assert.equal(shown,wanted,`${expected.id}: 原資料の装飾`);
           assert.ok(actual.longitude>=32-1e-6&&actual.latitude>=24-1e-6,'共通の地理図拡大上限');
           const plan=modernVisualScenePlans[expected.id],notes=[...(plan.textOnlyPeople??[]),...(plan.excludedPersonNames??[])];
-          const narrativeNames=namesForScene(expected,expected.title+'。'+expected.plainBody.join(''));
+          const narrativeNames=[...namesForScene(expected,expected.title+'。'+expected.plainBody.join('')),...contextEntities(expected,contextRecords.get(expected.id))];
           const names=narrativeNames.filter(name=>name.kind!=='concept'&&!notes.some(note=>normalizeMapName(note.name)===name.key));
           const shown=[...actual.shown,...actual.figures.map(figure=>figure.name)].map(normalizeMapName);
           const items=[...(expected.props??[]),...(expected.actors??[])],illustration=modernIllustrationFor(expected),figures=(illustration?.groups??[]).flatMap(group=>group.figures??[]);
@@ -353,10 +379,10 @@ try {
   let motion;
   try {motion=await checkMotion(browser,output,errors);}
   catch(error) {
-    await writeFile(path.join(output,'result.json'),JSON.stringify({inspected,errors,issues,pages:[...seenPages],lessonPages:[...seenPages].filter(p=>p>=125&&p<=139),externalPages:[...seenPages].filter(p=>p<125||p>139),diagrams:[...seenDiagrams],referenceChecks,motionFailure:error.message},null,2));
+    await writeFile(path.join(output,'result.json'),JSON.stringify({inspected,errors,issues,pages:[...seenPages],lessonPages:[...seenPages].filter(p=>p>=125&&p<=139),externalPages:[...seenPages].filter(p=>p<125||p>139),diagrams:[...seenDiagrams],referenceChecks,contextRegions:[...readingPlan.values()].filter(scene=>scene.contextRegions?.length).map(scene=>({id:scene.id,regions:scene.contextRegions})),motionFailure:error.message},null,2));
     throw error;
   }
-  await writeFile(path.join(output,'result.json'),JSON.stringify({inspected,errors,issues,pages:[...seenPages],lessonPages:[...seenPages].filter(p=>p>=125&&p<=139),externalPages:[...seenPages].filter(p=>p<125||p>139),diagrams:[...seenDiagrams],referenceChecks,motion},null,2));
+  await writeFile(path.join(output,'result.json'),JSON.stringify({inspected,errors,issues,pages:[...seenPages],lessonPages:[...seenPages].filter(p=>p>=125&&p<=139),externalPages:[...seenPages].filter(p=>p<125||p>139),diagrams:[...seenDiagrams],referenceChecks,contextRegions:[...readingPlan.values()].filter(scene=>scene.contextRegions?.length).map(scene=>({id:scene.id,regions:scene.contextRegions})),motion},null,2));
   assert.equal(referenceChecks.length,criticalReferences.size*4,'章扉・独立コラム・二重ルビ・他回引用の重要場面を2幅・2色で開閉して確認する');
   assert.deepEqual(errors,[]);
   assert.deepEqual(issues,[],'地図の名前・文字の重なり・はみ出し');

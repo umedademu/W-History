@@ -91,6 +91,31 @@ assert.deepEqual(paragraphIds.filter((id,index)=>id!==paragraphIds[index-1]),sel
 assert.equal(selection.paragraphs.length,46,'通常本文の全46段落');
 assert.equal(selection.lines.filter(line=>line.kind==='body').length,52,'通常本文の全52行');
 const paragraphs = new Map(selection.paragraphs.map(paragraph=>[paragraph.id,paragraph]));
+const paragraphOrder=selection.paragraphs.map(paragraph=>paragraph.id);
+const sectionForLine=line=>Math.max(1,[41,121,316].filter(start=>start<=line).length);
+const nameFamily=entry=>entry.family??entry.name;
+function contextNames(scene,planned) {
+  const contexts=scene.contextRegions??[];
+  assert.deepEqual(contexts,planned.contextRegions??[],scene.id+': 文脈地域と読み分け表の根拠が一致する');
+  assert.deepEqual(contexts,audit.find(entry=>entry.scene===scene.id).contextRegions??[],scene.id+': 名称監査にも同じ文脈地域を保存する');
+  assert.equal(new Set(contexts.map(context=>context.name)).size,contexts.length,scene.id+': 同じ文脈地域を重複しない');
+  const direct=modernNamesInText(scene.plainBody.join(''));
+  return contexts.map(context=>{
+    const evidence=paragraphs.get(context.paragraph),first=paragraphOrder.indexOf(planned.paragraphs[0]);
+    assert.ok(evidence,scene.id+': 文脈地域の根拠段落が原文に存在する');
+    assert.ok(planned.paragraphs.includes(context.paragraph)||paragraphOrder[first-1]===context.paragraph,scene.id+': 同じ親段落または直前段落に限り地域を引き継ぐ');
+    assert.ok(evidence.lines.every(line=>sectionForLine(line)===scene.sourceText.part),scene.id+': 他節の地域を引き継がない');
+    assert.ok(context.reason?.trim()&&context.lines.length>0,scene.id+': 文脈地域の原文行と理由を明記する');
+    assert.equal(new Set(context.lines).size,context.lines.length,scene.id+': 根拠行を重複しない');
+    assert.ok(context.lines.every(line=>evidence.lines.includes(line)&&byLine.get(line)?.kind==='body'),scene.id+': 根拠を通常本文の指定段落から取る');
+    const entry=modernNameCatalog.find(entry=>entry.name===context.name&&entry.kind==='region');
+    assert.ok(entry?.points.length,scene.id+': 文脈で補うのは地域代表の静的な参照点だけ');
+    const original=plainSource(context.lines.map(line=>byLine.get(line).text).join(''));
+    assert.ok(modernNamesInText(original).some(found=>found.kind==='region'&&nameFamily(found)===nameFamily(entry)),scene.id+': 指定した原文行に地域名が明示される');
+    assert.ok(!direct.some(found=>nameFamily(found)===nameFamily(entry)),scene.id+': 本文に明示された地域と重ねない');
+    return entry;
+  });
+}
 const connections=[[57,63],[127,133],[296,312],[393,409],[421,427],[443,459]];
 assert.deepEqual(selection.cross_page_connections.map(connection=>connection.lines),connections,'通読した6か所の紙面接続の記録');
 assert.deepEqual(selection.paragraphs.filter(paragraph=>paragraph.lines.length>1).map(paragraph=>paragraph.lines),connections,'6か所の紙面接続だけを同じ段落にする');
@@ -140,7 +165,6 @@ for(const [index,scene] of scenes.entries()) {
   assert.deepEqual(scene.sourceText.sourcePages,[...new Set(chosen.flatMap(paragraph=>paragraph.sourcePages))].sort((a,b)=>a-b));
   assert.equal(scene.sourceText.book,'modern');
   assert.equal(scene.sourceText.part,planned.part);
-  const sectionForLine=line=>Math.max(1,[41,121,316].filter(start=>start<=line).length);
   for(const passage of scene.sourceText.passages)for(const line of passage.lines)assert.equal(scene.sourceText.part,sectionForLine(line),scene.id+': 柱ではなく実際の節見出しで本文を区分');
   assert.equal(scene.sourceText.chapter,2);
   assert.equal(scene.sourceText.lesson,7);
@@ -154,7 +178,8 @@ for(const [index,scene] of scenes.entries()) {
     assert.deepEqual([...html.matchAll(/(?:data-source-[a-z-]+|style)="[^"]*"/g)].map(match=>match[0]),[...markdown.matchAll(/(?:data-source-[a-z-]+|style)="[^"]*"/g)].map(match=>match[0]),'色・下線などの原書属性');
     boldCount+=(html.match(/<strong\b/g)??[]).length;rubyCount+=(html.match(/<ruby\b/g)??[]).length;
   });
-  const names = modernNamesInText(scene.plainBody.join(''));
+  const contextual=contextNames(scene,planned);
+  const names = [...modernNamesInText(scene.plainBody.join('')),...contextual];
   const auditedNames=modernNamesInText(scene.title+'。'+scene.plainBody.join(''));
   assert.deepEqual(auditedNames.map(entry=>normalize(entry.name)).toSorted(),audit.find(entry=>entry.scene === scene.id).names.map(normalize).toSorted(),scene.id+': 題名・本文を通読した場面別名称の記録');
   const expected = names.flatMap(entry=>entry.points.map(point=>({name:entry.name,point}))).sort((a,b)=>JSON.stringify(a).localeCompare(JSON.stringify(b)));
@@ -165,6 +190,10 @@ for(const [index,scene] of scenes.entries()) {
   assert(west<east&&south<north,'表示範囲');
   [...expected.map(entry=>entry.point),...scene.routes.flatMap(route=>route.points)].forEach(point=>{mapPoints(point);assert(point[0]>=west&&point[0]<=east&&point[1]>=south&&point[1]<=north,'表示範囲から外れた地点');});
   assert.deepEqual(scene.routes,routes.filter(route=>route.scene === scene.id).map(({scene,reason,...route})=>route),'明示された移動経路');
+}
+for(const [id,name] of [['p01-011','オスマン帝国'],['p02-004','オスマン帝国'],['p02-027','オスマン帝国'],['p03-014','イラン'],['p03-027','イラン'],['p03-028','イラン']]) {
+  const scene=scenes.find(scene=>scene.id==='modern-c02-l07-'+id);
+  assert.ok(scene.tags.some(tag=>tag.text===name),scene.id+': 国内改革・政治の舞台を周辺国だけの地図にしない');
 }
 for(const route of routes) { assert(scenes.some(scene=>scene.id===route.scene));assert(route.reason.length>0);assert(['move','campaign','rival','trade'].includes(route.kind)); }
 // 条約の権利、思想による連携、単なる利権の譲渡を実際の移動へ読み替えない。

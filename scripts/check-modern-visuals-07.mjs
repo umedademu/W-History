@@ -43,6 +43,32 @@ assert.equal(modernVisualAssetCatalog.filter(asset=>!asset.requiresGeneration).l
 assert.ok(modernVisualAssetCatalog.length>0,'今回の人物・集団・道具を記録する');
 assert.ok(modernVisualAssetCatalog.some(asset=>asset.requiresGeneration),'本文に応じた新規の本人・集団・道具をそろえる');
 
+const sourceParagraphs=new Map(sourceRecord.paragraphs.map(paragraph=>[paragraph.id,paragraph]));
+const sourceParagraphOrder=sourceRecord.paragraphs.map(paragraph=>paragraph.id);
+const readingPlan=new Map(JSON.parse(await readFile(path.join(root,'docs/modern-lesson-07/reading-plan.json'),'utf8')).map(scene=>[scene.id,scene]));
+function contextEntities(scene,visualPlan) {
+  const planned=readingPlan.get(scene.id),contexts=scene.contextRegions??[];
+  assert.deepEqual(contexts,planned.contextRegions??[],scene.id+': 地域の引継ぎを読み分け表と照合する');
+  assert.deepEqual(contexts,visualPlan.contextRegions??[],scene.id+': 配置記録にも地域の原文根拠を保持する');
+  const direct=namesForScene(scene,scene.plainBody.join(''));
+  assert.equal(new Set(contexts.map(context=>context.name)).size,contexts.length,scene.id+': 文脈地域を重複しない');
+  return contexts.map(context=>{
+    const paragraph=sourceParagraphs.get(context.paragraph),first=sourceParagraphOrder.indexOf(planned.paragraphs[0]);
+    assert.ok(paragraph&&(planned.paragraphs.includes(paragraph.id)||sourceParagraphOrder[first-1]===paragraph.id),scene.id+': 同じ親段落または直前段落の地域だけを引き継ぐ');
+    assert.ok(paragraph.lines.every(line=>Math.max(1,[41,121,316].filter(start=>start<=line).length)===scene.sourceText.part),scene.id+': 文脈地域は同じ節の原文を根拠とする');
+    assert.ok(context.reason?.trim()&&context.lines.length&&context.lines.every(line=>paragraph.lines.includes(line)&&sourceLines.get(line)?.kind==='body'),scene.id+': 地域を明示する通常本文の行と理由を記録する');
+    assert.equal(new Set(context.lines).size,context.lines.length,scene.id+': 根拠行を重複しない');
+    const entry=namesForScene(scene,context.name).find(entry=>entry.name===context.name&&entry.kind==='region');
+    assert.ok(entry?.points.length,scene.id+': 文脈では所在地をもつ地域だけを補う');
+    const text=context.lines.map(line=>sourceLines.get(line).text).join('').replace(/<rt>[\s\S]*?<\/rt>/g,'').replace(/<[^>]*>/g,'').replaceAll('**','');
+    assert.ok(namesForScene(scene,text).some(found=>found.kind==='region'&&family(found)===family(entry)),scene.id+': 指定した根拠行に同じ地域が明示される');
+    assert.ok(!direct.some(found=>family(found)===family(entry)),scene.id+': 本文に明示された地域と重ねない');
+    for(const point of entry.points)assert.ok(scene.tags.some(tag=>tag.text===entry.name&&JSON.stringify(tag.at)===JSON.stringify(point)),scene.id+': 文脈地域の静的な参照点が地図に残る');
+    return entry;
+  });
+}
+
+
 function imageName(key) {
   assert.equal(typeof key,'string','画像名を明記する');
   assert.ok(key&&!key.includes('..')&&!path.isAbsolute(key)&&!key.includes('\\'),'画像は専用の公開フォルダに置く');
@@ -111,7 +137,7 @@ for(const asset of modernVisualAssetCatalog) {
     personIdentities.set(asset.identity,personFamily);
   }
   const filenames=[asset.image,...(asset.afterImage?[asset.afterImage]:[])].map(imageName);
-  assert.ok(filenames.every(filename=>asset.requiresGeneration?filename.startsWith('modern-c02-l07/'):['modern-c01-l01/','modern-c01-l02/','modern-c01-l03/','modern-c01-l04/','modern-c01-l05/','modern-c01-l06/','ancient/','modern-c02-l07/'].some(folder=>filename.startsWith(folder))),asset.name+': 新規画像と既存の本人・建物を区別する');
+  assert.ok(filenames.every(filename=>asset.requiresGeneration?filename.startsWith('modern-c02-l07/'):['modern-c01-l01/','modern-c01-l02/','modern-c01-l03/','modern-c01-l04/','modern-c01-l05/','modern-c01-l06/','ancient/','ottoman/','safavid/','modern-c02-l07/'].some(folder=>filename.startsWith(folder))),asset.name+': 新規画像と既存の本人・建物を区別する');
   for(const filename of filenames) {
     assert.ok(!byImage.has(filename)||byImage.get(filename).identity===asset.identity,filename+': 同じ画像を別の人物にしない');
     if(byImage.has(filename))continue;
@@ -143,7 +169,7 @@ const used=new Set(),shownPeople=new Set();let moving=0,switches=0,illustrated=0
 for(const [index,scene] of original.entries()) {
   const before=structuredClone(scene),enriched=withModernVisuals(scene),displayed=rendered[index],plan=scenePlans[index],saved=recorded.scenes[index];
   assert.deepEqual(scene,before,scene.id+': 原データを変更しない');
-  for(const field of ['id','title','body','plainBody','sourceText'])assert.deepEqual(enriched[field],before[field],scene.id+': 本文・原文との対応を保つ');
+  for(const field of ['id','title','body','plainBody','sourceText','contextRegions'])assert.deepEqual(enriched[field],before[field],scene.id+': 本文・原文との対応を保つ');
   for(const [field,hashField] of [['body','htmlBodySha256'],['plainBody','plainBodySha256'],['sourceText','sourceTextSha256']])if(saved[hashField]!==undefined)assert.equal(createHash('sha256').update(JSON.stringify(before[field])).digest('hex'),saved[hashField],scene.id+': 記録した本文・出典の一致');
   if(saved.sourcePages!==undefined)assert.deepEqual(saved.sourcePages,before.sourceText.sourcePages,scene.id+': 記録した原書ページの一致');
   assert.deepEqual(enriched,displayed,scene.id+': 一覧と個別の表示処理が一致する');
@@ -155,7 +181,7 @@ for(const [index,scene] of original.entries()) {
   assert.ok(items.length+figures.length>0,scene.id+': 全場面に内容に応じた絵がある');
   if(figures.length)illustrated++;
   assert.ok(typeof plan.reason==='string'&&plan.reason.trim(),scene.id+': その場所・模式欄を選んだ根拠を記録する');
-  const narrative=scene.title+'。'+scene.plainBody.join(''),required=namesForScene(scene,narrative),requiredFamilies=new Set(required.map(entity=>family(entity)));
+  const narrative=scene.title+'。'+scene.plainBody.join(''),directRequired=namesForScene(scene,narrative),required=[...directRequired,...contextEntities(scene,saved)],requiredFamilies=new Set(required.map(entity=>family(entity)));
   const preceding=original[index-1];
   // 「この会議」などの続きでは、直前に原文が明示した地名・施設名を引き継げる。
   const precedingNames=preceding?.sourceText.part===scene.sourceText.part?namesForScene(preceding,preceding.title+'。'+preceding.plainBody.join('')).filter(entity=>entity.kind!=='person'):[];
@@ -210,7 +236,7 @@ for(const [index,scene] of original.entries()) {
     } else {
       const entity=entityFor(item.name);
       if(entity?.kind==='person') {
-        const locations=[...entity.points,...required.filter(name=>name.kind!=='person').flatMap(name=>name.points),...(enriched.pins??[]).map(key=>modernPlaces[key].point)];
+        const locations=[...entity.points,...directRequired.filter(name=>name.kind!=='person').flatMap(name=>name.points),...(enriched.pins??[]).map(key=>modernPlaces[key].point)];
         const [west,south,east,north]=scene.frame;
         const countryTour=/全国|全土|国内/.test(narrative)&&/国内巡回|全国|各地/.test(plan.reason)&&at[0]>=west&&at[0]<=east&&at[1]>=south&&at[1]<=north;
         assert.ok(locations.some(candidate=>Math.hypot(candidate[0]-at[0],candidate[1]-at[1])<.1)||countryTour,scene.id+': 本文の現地・人物の活動地域・明記した国内巡回と配置が対応する '+item.name);
