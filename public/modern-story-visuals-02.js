@@ -1,4 +1,4 @@
-import { modernEdition } from './modern-c01-l02-edition.js';
+import { modernEdition } from './modern-c01-l02-edition.js?v=0.112';
 
 // 本文・装飾・順序・原書の紙面を保持し、本人・一般集団・道具の説明だけを重ねる。
 // 吹き出しは引用ではない。説明図は本文の後に、地理図とは分けて表示する。
