@@ -106,10 +106,14 @@ assert.deepEqual(modernNameCatalog,namesRecord.names,'独立した原文固有�
 const allRaw = selection.lines.map(line=>line.text).concat(selection.paragraphs.map(paragraph=>paragraph.markdown)).join('');
 for(const entry of modernNameCatalog) {
   assert(normalize(plainSource(allRaw)).includes(entry.key),`原文にない地図名称: ${entry.name}`);
-  assert(['place','region','person','building'].includes(entry.kind));
+  assert(['place','region','person','building','concept'].includes(entry.kind));
+  if(entry.kind==='concept')assert.deepEqual(entry.points,[],'団体・王家・階層には所在地を補わない: '+entry.name);
   entry.points.forEach(mapPoints);
 }
-for(const word of ['鉄血政策','勢力均衡','社会主義者鎮圧法','社会保険制度','保護関税法','ユンカー'])assert.deepEqual(modernNamesInText(word),[],'制度や階層だけで所在地・人物を補わない: '+word);
+for(const word of ['鉄血政策','勢力均衡','社会主義者鎮圧法','社会保険制度','保護関税法'])assert.deepEqual(modernNamesInText(word),[],'制度だけで所在地・人物を補わない: '+word);
+for(const word of ['ユンカー','ハプスブルク家','ブルボン家','ホーエンツォレルン家','青年イタリア','中央党'])assert.ok(modernNamesInText(word).every(entry=>entry.kind==='concept'&&entry.points.length===0),'王家・階層・団体を個人や所在地と混同しない: '+word);
+for(const text of ['神聖ローマ皇帝','ローマ帝国','西ローマ帝国','ローマ教皇','ローマ教皇ピウス9世'])assert.ok(!modernNamesInText(text).some(entry=>entry.kind==='place'&&entry.name==='ローマ'),'帝国・皇帝・教皇の肩書きに含まれる語を都市の所在にしない: '+text);
+assert.ok(modernNamesInText('ローマに駐屯するフランス軍').some(entry=>entry.kind==='place'&&entry.name==='ローマ'),'実際にローマ所在を述べる本文は都市を表示する');
 for(const text of ['クルップ社','ジーメンス社'])assert.ok(!modernNamesInText(text).some(entry=>entry.kind==='person'),'会社名を勝手に個人として扱わない: '+text);
 assert.ok(modernNamesInText('ナポレオン3世').some(entry=>entry.kind==='person'&&entry.name==='ナポレオン3世'),'第二帝政の本人を識別する');
 assert.ok(!modernNamesInText('ナポレオン3世').some(entry=>entry.kind==='person'&&['ナポレオン1世','ナポレオン'].includes(entry.name)),'甥の名前の途中を叔父と取り違えない');
@@ -168,6 +172,11 @@ const movementLines=new Set([119,123,139,153,159,187,189,213,250,371,389,391,397
 for(const route of routes){const scene=scenes.find(scene=>scene.id===route.scene);assert.ok(scene.sourceText.passages.some(passage=>passage.lines.some(line=>movementLines.has(line))),scene.id+': 移動・出兵・通信の原文行がある');}
 // 原文を通読して選んだ、改ページを挟む接続と意味上の要点。
 const narrative=scenes.flatMap(scene=>scene.plainBody).join('');
+for(const id of ['modern-c01-l04-p04-002','modern-c01-l04-p04-007','modern-c01-l04-p05-014']) {
+ const scene=scenes.find(scene=>scene.id===id);assert.ok(scene,id+': 肩書きと都市を区別する原文場面がある');
+ assert.ok(!modernNamesInText(scene.plainBody.join('')).some(entry=>entry.kind==='place'&&entry.name==='ローマ'),id+': 神聖ローマ皇帝からローマの都市印を補わない');
+ assert.ok(![...scene.pins.map(key=>modernPlaces[key].name),...scene.tags.map(tag=>tag.text)].includes('ローマ'),id+': 肩書きから補ったローマを地理図へ表示しない');
+}
 for(const phrase of ['ウィーン体制下では','気合い入りすぎ','ドイツの統一を望んでいなかった','経済の主導権はプロイセン','プロイセンから戦争を仕掛ける','ドイツ人が住んでいて','これ全部「次にフランス','このハンガリーとの妥協','変えて発表した……','いえないね。','皇帝狙撃事件を口実に','仲良くするっていう'])assert.ok(narrative.includes(phrase),'紙面の接続を保持: '+phrase);
 for(const phrase of ['王政にするか、共和政にするか','ヴェネツィアはオーストリア領のまま','テアーノ','住民投票','制限選挙','農民にも土地は分配されない','未回収のイタリア','ヴァチカンの囚人','大ドイツ主義','小ドイツ主義','オーストリアは','ウィーンは占領しなかった','ベーメンもオーストリアに返した','マジャール人にだけ自治権','レオポルトは王位を辞退','ヴェルサイユ宮殿','50億フラン','25歳以上の男性普通選挙','責任内閣制も認められない','社会保険制度','鉄と穀物の同盟','なるべく領土拡大はしない'])assert.ok(narrative.includes(phrase),'混同しやすい原文の意味を保持: '+phrase);
 for(const line of [528,530])assert.ok(scenes.filter(scene=>scene.sourceText.passages.some(passage=>passage.lines.includes(line))).every(scene=>scene.sourceText.part===5),'89ページの帝国成立・講和は第5節の続き');
