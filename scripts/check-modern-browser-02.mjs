@@ -102,8 +102,8 @@ async function checkMotion(browser,output,errors) {
   await muteBeforeOpening(page);watchErrors(page,errors);
   const candidates=modernSeries.flatMap(volume=>modernVisualEdition[volume.id].map((scene,index)=>({volume,scene,index}))),cases=[];
   const switches=candidates.filter(({scene})=>[...(scene.actors??[]),...(scene.props??[])].some(item=>item.afterImage));
-  const mover=candidates.find(({scene})=>[...(scene.actors??[]),...(scene.props??[])].some(item=>item.route!==undefined));
-  assert.ok(mover,'通常の動きで移動を確認する場面がある');assert.ok(switches.length,'通常の動きで姿の切替を確認する場面がある');
+  const movers=candidates.filter(({scene})=>[...(scene.actors??[]),...(scene.props??[])].some(item=>item.route!==undefined));
+  assert.ok(movers.length,'通常の動きで移動を確認する場面がある');assert.ok(switches.length,'通常の動きで姿の切替を確認する場面がある');
   async function openAndReplay(candidate) {
     await page.goto(`${base}/${candidate.volume.id}-story.html#page-${candidate.index+1}`);
     await page.waitForFunction(id=>document.querySelector('#story-map')?.dataset.scene===id,candidate.scene.id);
@@ -113,7 +113,7 @@ async function checkMotion(browser,output,errors) {
     await page.waitForFunction(()=>Number(document.querySelector('#story-map').dataset.progress)<.1);
   }
   const state=()=>page.evaluate(()=>({progress:Number(document.querySelector('#story-map').dataset.progress),phase:document.querySelector('#story-map').dataset.phase,items:[...document.querySelectorAll('.history-map-item')].map(node=>({name:node.dataset.name,key:node.dataset.image,src:new URL(node.querySelector('img').src).pathname,transform:node.style.transform,walking:node.classList.contains('is-walking'),loaded:node.querySelector('img').complete&&node.querySelector('img').naturalWidth>0,bubble:node.querySelector('.history-bubble').textContent}))}));
-  for(const [index,candidate] of [...new Map([mover,...switches].map(value=>[value.scene.id,value])).values()].entries()) {
+  for(const [index,candidate] of [...new Map([...movers,...switches].map(value=>[value.scene.id,value])).values()].entries()) {
     const {scene}=candidate,items=[...(scene.props??[]),...(scene.actors??[])];
     console.log('通常の動きと姿の切替: '+scene.id);
     await openAndReplay(candidate);const start=await state();
@@ -191,8 +191,8 @@ try {
     await page.locator('[data-book-tab="modern"]').click();
     assert.equal(await page.locator('#ancient-book').isVisible(),false);
     assert.equal(await page.locator('#modern-book .part-link').count(),8,'第1回5節と第2回3節を目次から開ける');
-    assert.equal(await page.locator('#modern-book .lesson-section[data-lesson="1"] .part-link').count(),5,'第1回の5節を回ごとにまとめる');
-    assert.equal(await page.locator('#modern-book .lesson-section[data-lesson="2"] .part-link').count(),3,'第2回の3節を別の回としてまとめる');
+    assert.equal(await page.locator('#modern-book .lesson-group[data-lesson="1"] .part-link').count(),5,'第1回の5節を回ごとにまとめる');
+    assert.equal(await page.locator('#modern-book .lesson-group[data-lesson="2"] .part-link').count(),3,'第2回の3節を別の回としてまとめる');
     const lessonLinks=await page.locator('#modern-book .part-link').evaluateAll(links=>links.map(link=>({href:new URL(link.href).pathname,text:link.textContent})));
     assert.deepEqual(lessonLinks.filter(link=>/modern-c01-l02/.test(link.href)).map(link=>link.href),modernSeries.map(volume=>'/'+volume.id+'-story.html'),'第2回の3節の掲載順');
     await page.locator('#modern-chapter-1>summary').click();
