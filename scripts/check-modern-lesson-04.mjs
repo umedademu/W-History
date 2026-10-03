@@ -131,7 +131,7 @@ for(const paragraph of selection.paragraphs) {
  assert.equal(end,whole.length,'段落末尾まで掲載する: '+paragraph.id);
  assert.equal(segments.map(segment=>segment.text).join(''),whole,'分割した場面から原文全文を復元する: '+paragraph.id);
 }
-for(const {scene,passage,text} of passageRecords)if(passage.end<plainSource(paragraphs.get(passage.paragraph).markdown).length)assert.ok(/[。！!？?」]$/.test(text),scene+': 文・発話の意味の切れ目で分ける');
+for(const {scene,passage,text} of passageRecords)if(passage.end<plainSource(paragraphs.get(passage.paragraph).markdown).length)assert.ok(/[。！!？?」]$/.test(text.trimEnd()),scene+': 文・発話の意味の切れ目で分ける');
 let boldCount=0,rubyCount=0;
 for(const [index,scene] of scenes.entries()) {
   const planned = plan[index];
