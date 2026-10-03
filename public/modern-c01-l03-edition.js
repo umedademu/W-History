@@ -2609,8 +2609,8 @@ export const modernEdition = {
       },
       "frame": [
         -103,
-        33,
-        -89,
+        31,
+        -70,
         45
       ],
       "pins": [],
@@ -2620,6 +2620,14 @@ export const modernEdition = {
           "at": [
             -96,
             39
+          ],
+          "kind": "region"
+        },
+        {
+          "text": "13州",
+          "at": [
+            -77,
+            37
           ],
           "kind": "region"
         }

@@ -1,5 +1,6 @@
 // 第3回専用。国・地域は代表位置、都市・建物は現地、人物の固定した所在地は補わない。
 export const modernNameCatalog = [
+  {"name":"13州","key":"13州","kind":"region","points":[[-77,37]],"family":"建国13州"},
   {name:"スペイン",key:"スペイン",kind:"region",points:[[-4,40]],family:"スペイン"},
   {name:"ストウ夫人",key:"ストウ夫人",kind:"person",points:[],family:"ストウ夫人"},
   {
@@ -886,7 +887,7 @@ export const modernNameCatalog = [
 const normalize = text => String(text ?? '').replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g,'').replace(/<[^>]*>/g,'').replace(/[\s＝=・『』「」]/g,'');
 const byKey = new Map(modernNameCatalog.map(entry=>[entry.key,entry]));
 const escapePattern = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const pattern = new RegExp([...byKey.keys()].sort((a,b)=>b.length-a.length).map(key=>key==='リー'?`(?<![ァ-ヿ])${escapePattern(key)}(?![ァ-ヿ])`:escapePattern(key)).join('|'),'g');
+const pattern = new RegExp([...byKey.keys()].sort((a,b)=>b.length-a.length).map(key=>key==='リー'?`(?<![ァ-ヿ])${escapePattern(key)}(?![ァ-ヿ])`:key==='13州'?`(?<![0-9])${escapePattern(key)}`:escapePattern(key)).join('|'),'g');
 export function modernNamesInText(text) {
   let value = normalize(text);
   const found = new Map();
