@@ -1,7 +1,7 @@
 {
-  "version": "0.128",
-  "parts": 207,
-  "pages": 3389,
+  "version": "0.129",
+  "parts": 209,
+  "pages": 3662,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 79,
-      "pages": 2376,
+      "parts": 81,
+      "pages": 2649,
       "chapters": [
         {
           "chapter": 1,
@@ -2966,6 +2966,10 @@
             {
               "lesson": 18,
               "title": "世界恐慌とその影響"
+            },
+            {
+              "lesson": 19,
+              "title": "第二次世界大戦"
             }
           ],
           "volumes": [
@@ -3152,6 +3156,22 @@
               "lesson": 18,
               "part": 4,
               "pages": 72
+            },
+            {
+              "id": "modern-c04-l19-p01",
+              "label": "ドイツの侵略と第二次世界大戦の勃発",
+              "number": "24",
+              "lesson": 19,
+              "part": 1,
+              "pages": 146
+            },
+            {
+              "id": "modern-c04-l19-p02",
+              "label": "第二次世界大戦",
+              "number": "25",
+              "lesson": 19,
+              "part": 2,
+              "pages": 127
             }
           ]
         }

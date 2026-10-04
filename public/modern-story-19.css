@@ -1,0 +1,6 @@
+/* 航空機・戦車・舟艇・艦船・施設は縦横比を保って模式欄に示す。 */
+.modern-story .illustration-figure-wide img {
+  width: min(100%, 256px);
+  height: 160px;
+  object-fit: contain;
+}

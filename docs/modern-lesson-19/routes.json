@@ -1,0 +1,515 @@
+[
+  {
+    "scene": "modern-c04-l19-p01-030",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        47
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "フランスとソ連の相互援助条約",
+    "reason": "条約の関係。挟撃の可能性を実際の出兵にしない。",
+    "evidenceLines": [
+      105,
+      121
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p01-030",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        47
+      ],
+      [
+        15,
+        49.8
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "フランスとチェコの相互援助条約",
+    "reason": "本文に明記された静的な条約関係。",
+    "evidenceLines": [
+      105,
+      121
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p01-030",
+    "kind": "rival",
+    "points": [
+      [
+        60,
+        55
+      ],
+      [
+        15,
+        49.8
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ソ連とチェコの相互援助条約",
+    "reason": "本文に明記された静的な条約関係。",
+    "evidenceLines": [
+      105,
+      121
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p01-036",
+    "kind": "rival",
+    "points": [
+      [
+        -2,
+        54
+      ],
+      [
+        10,
+        51
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "英独海軍協定による海軍力の承認",
+    "reason": "軍備の上限の合意。艦隊の航路にしない。",
+    "evidenceLines": [
+      123
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p01-079",
+    "kind": "rival",
+    "points": [
+      [
+        13.405,
+        52.52
+      ],
+      [
+        12.5,
+        41.9
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ベルリン＝ローマ枢軸の外交上の連携",
+    "reason": "本文の都市名を持つ枢軸。首脳の移動ではない。",
+    "evidenceLines": [
+      214
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p01-080",
+    "kind": "rival",
+    "points": [
+      [
+        138,
+        37
+      ],
+      [
+        10,
+        51
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "日独防共協定の連携",
+    "reason": "反ソ連・反コミンテルンの外交関係。",
+    "evidenceLines": [
+      216,
+      222
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p01-083",
+    "kind": "rival",
+    "points": [
+      [
+        10,
+        51
+      ],
+      [
+        12.5,
+        42.5
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "イタリア参加による三国防共協定",
+    "reason": "外交上の連携。軍事行動の経路とは分ける。",
+    "evidenceLines": [
+      216,
+      222
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p01-091",
+    "kind": "campaign",
+    "points": [
+      [
+        10,
+        51
+      ],
+      [
+        14,
+        47.5
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文に明記された軍派遣。国代表点を結ぶ概略方向で、出発基地・軍道・全員の到着は復元しない。",
+    "evidenceLines": [
+      230
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p01-100",
+    "kind": "move",
+    "points": [
+      [
+        -2,
+        54
+      ],
+      [
+        10,
+        51
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文の2回のドイツ訪問を国代表点を結ぶ一本の概略で示す。個々の訪問都市・便・滞在地は補わない。",
+    "evidenceLines": [
+      236,
+      252
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p01-129",
+    "kind": "rival",
+    "points": [
+      [
+        10,
+        51
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "独ソ不可侵条約（実際の侵攻は次の段落）",
+    "reason": "本文の不侵略の約束を静的に示す。勢力範囲の決定を軍の到着にしない。",
+    "evidenceLines": [
+      274
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p01-141",
+    "kind": "campaign",
+    "points": [
+      [
+        10,
+        51
+      ],
+      [
+        19,
+        52
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文の侵攻を国代表点で結ぶ概略方向。電撃戦の全部隊・出発基地・軍道は補わない。",
+    "evidenceLines": [
+      282,
+      298
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p01-143",
+    "kind": "campaign",
+    "points": [
+      [
+        60,
+        55
+      ],
+      [
+        19,
+        52
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文のソ連軍の侵攻。国代表点を結ぶ概略で、具体的な基地や軍道は補わない。",
+    "evidenceLines": [
+      282,
+      298
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p02-006",
+    "kind": "campaign",
+    "points": [
+      [
+        10,
+        51
+      ],
+      [
+        10,
+        56
+      ],
+      [
+        9,
+        62
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文のデンマーク侵攻、そのままノルウェー上陸という順序。地域代表点を結ぶ概略で、実際の陸路・上陸港・海路は補わない。",
+    "evidenceLines": [
+      308
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p02-010",
+    "kind": "campaign",
+    "points": [
+      [
+        10,
+        51
+      ],
+      [
+        5.3,
+        52.3
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文のオランダ・ベルギーへの侵攻のうち、オランダへの方向を示す。両国を経由する単一の実在軍道は作らない。",
+    "evidenceLines": [
+      308
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p02-011",
+    "kind": "campaign",
+    "points": [
+      [
+        4.5,
+        50.8
+      ],
+      [
+        5.65,
+        50.2
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文のベルギーに侵入したドイツ軍がアルデンヌを戦車で突破したことを示す地域代表点の概略。正確な戦車型・軍道は補わない。",
+    "evidenceLines": [
+      308
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p02-018",
+    "kind": "move",
+    "points": [
+      [
+        2,
+        47
+      ],
+      [
+        -0.128,
+        51.507
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文の1940年6月のロンドン亡命。フランスの国代表点から目的地を結ぶ概略で、出発港・同行者・航路は補わない。",
+    "evidenceLines": [
+      318
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p02-029",
+    "kind": "rival",
+    "points": [
+      [
+        106,
+        17
+      ],
+      [
+        102,
+        25
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "インドシナ・雲南経由の援蔣ルートを遮断する目的",
+    "reason": "本文の支援経路と遮断の目的を静的な関係として示す。実際の輸送便ではない。",
+    "evidenceLines": [
+      354
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p02-035",
+    "kind": "rival",
+    "points": [
+      [
+        138,
+        37
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "日ソ中立条約の相互不侵略",
+    "reason": "本文の約束。南進の構想や将来の侵攻を人の移動にしない。",
+    "evidenceLines": [
+      356
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p02-042",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        -2,
+        54
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "武器貸与法で可能になったイギリスへの軍需品供与",
+    "reason": "本文の制度と供与関係。未知の輸送港・便・航路や軍人の到着にしない。",
+    "evidenceLines": [
+      360
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p02-052",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        -2,
+        54
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "大西洋上会談での米英の協力",
+    "reason": "米英の会談と戦争目的の確認を静的に示す。会談場所はニューファンドランド沖で、両国の代表点は艦船の航路ではない。",
+    "evidenceLines": [
+      434
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p02-085",
+    "kind": "move",
+    "points": [
+      [
+        31.24,
+        30.04
+      ],
+      [
+        51.42,
+        35.69
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文はローズヴェルトとチャーチルがカイロ会談後テヘランへ飛んだことを明記。チャーチルの一枚を動かし、都市代表点で方向を示す。航空便・飛行経路・乗機は補わない。",
+    "evidenceLines": [
+      484,
+      500
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p02-087",
+    "kind": "rival",
+    "points": [
+      [
+        -2,
+        54
+      ],
+      [
+        2,
+        47
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "第二戦線の計画（上陸の実行は次の段落）",
+    "reason": "本文で協議された米英軍のフランス上陸を静的に示す。予定段階で軍が到着したことにはしない。",
+    "evidenceLines": [
+      500
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p02-100",
+    "kind": "rival",
+    "points": [
+      [
+        60,
+        55
+      ],
+      [
+        142.5,
+        47
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "対日参戦の見返りに南樺太をソ連領とする密約",
+    "reason": "会談での将来の領土の約束。実際の軍の占領は後の段落と分ける。",
+    "evidenceLines": [
+      506
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p02-100",
+    "kind": "rival",
+    "points": [
+      [
+        60,
+        55
+      ],
+      [
+        151,
+        46
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "対日参戦の見返りに千島全島をソ連領とする密約",
+    "reason": "原文の密約の関係。本文にない軍の旅程を補わない。",
+    "evidenceLines": [
+      506
+    ]
+  },
+  {
+    "scene": "modern-c04-l19-p02-119",
+    "kind": "campaign",
+    "points": [
+      [
+        60,
+        55
+      ],
+      [
+        125,
+        43
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文の対日参戦と満洲侵攻。国と地域の代表点で概略方向を示し、未知の出発基地・全軍道を補わない。",
+    "evidenceLines": [
+      591
+    ]
+  }
+]

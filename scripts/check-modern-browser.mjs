@@ -187,7 +187,7 @@ try {
     assert.equal(await page.locator('#modern-book').isVisible(),false);
     await page.locator('[data-book-tab="modern"]').click();
     assert.equal(await page.locator('#ancient-book').isVisible(),false);
-    assert.equal(await page.locator('#modern-book .part-link').count(),79);
+    assert.equal(await page.locator('#modern-book .part-link').count(),81);
     await page.locator('#modern-chapter-1>summary').click();
     await page.screenshot({path:path.join(output,`modern-catalog-${width}.png`),fullPage:true});
     await page.reload();
