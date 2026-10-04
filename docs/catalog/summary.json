@@ -1,7 +1,7 @@
 {
-  "version": "0.129",
-  "parts": 209,
-  "pages": 3662,
+  "version": "0.130",
+  "parts": 214,
+  "pages": 3883,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 81,
-      "pages": 2649,
+      "parts": 86,
+      "pages": 2870,
       "chapters": [
         {
           "chapter": 1,
@@ -3172,6 +3172,58 @@
               "lesson": 19,
               "part": 2,
               "pages": 127
+            }
+          ]
+        },
+        {
+          "chapter": 5,
+          "title": "戦後の世界",
+          "lessons": [
+            {
+              "lesson": 20,
+              "title": "冷戦の展開①（1945〜1955）"
+            }
+          ],
+          "volumes": [
+            {
+              "id": "modern-c05-l20-p01",
+              "label": "国際連合の成立と戦後処理",
+              "number": "01",
+              "lesson": 20,
+              "part": 1,
+              "pages": 52
+            },
+            {
+              "id": "modern-c05-l20-p02",
+              "label": "冷戦の始まり",
+              "number": "02",
+              "lesson": 20,
+              "part": 2,
+              "pages": 41
+            },
+            {
+              "id": "modern-c05-l20-p03",
+              "label": "ベルリン問題と冷戦体制の形成",
+              "number": "03",
+              "lesson": 20,
+              "part": 3,
+              "pages": 51
+            },
+            {
+              "id": "modern-c05-l20-p04",
+              "label": "アジアでの対立激化",
+              "number": "04",
+              "lesson": 20,
+              "part": 4,
+              "pages": 39
+            },
+            {
+              "id": "modern-c05-l20-p05",
+              "label": "「雪どけ」と「巻き返し政策」",
+              "number": "05",
+              "lesson": 20,
+              "part": 5,
+              "pages": 38
             }
           ]
         }

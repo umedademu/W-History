@@ -1,0 +1,2390 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-05",
+  "version": "0.130",
+  "lesson": "modern-c05-l20",
+  "description": "国連・戦後処理・冷戦・ベルリン問題・朝鮮戦争・軍事同盟・雪どけを読むドット絵。本人・一般集団・施設、過去と当時、提案と実行を分ける。",
+  "totals": {
+    "nativeRequested": 27,
+    "requestedAssets": 28,
+    "new": 28,
+    "newPeople": 19,
+    "newGroups": 4,
+    "newPropsAndBuildings": 5,
+    "nativeGenerated": 0,
+    "fallbackGenerated": 28,
+    "reused": 17,
+    "used": 45,
+    "currentUnavailable": 0
+  },
+  "authorization": "指定のAntigravity CLI経由でGemini 3.8 Flashへ27点の画像と寸法調整を依頼した。直接利用できる画像生成機能がないとの回答を受け、以前の利用者の別の画像生成ツールでの続行承認に従って組み込み画像生成で制作した。役割の確認後、大統領就任後のアイゼンハワー1点を同じ方法で追加した。今回Geminiが作成した寸法調整用プログラムは変更せず実行した。",
+  "nativeRequests": [
+    {
+      "model": "gemini-3.8-flash-high",
+      "tool": "Antigravity CLI",
+      "requestedAssets": [
+        {
+          "key": "douglas-macarthur",
+          "name": "マッカーサー",
+          "kind": "person",
+          "subject": "Douglas MacArthur around 1950, tall lean older American officer in his early seventies, clean-shaven long face, plain khaki officer cap and restrained khaki tunic, dark glasses, no medals or insignia, neutral full-body standing pose",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Douglas MacArthur around 1950, tall lean older American officer in his early seventies, clean-shaven long face, plain khaki officer cap and restrained khaki tunic, dark glasses, no medals or insignia, neutral full-body standing pose"
+        },
+        {
+          "key": "george-c-marshall",
+          "name": "マーシャル",
+          "kind": "person",
+          "subject": "George C. Marshall as civilian secretary of state in 1947, older American man aged sixty-six, close cropped silver hair and long clean-shaven face, dark civilian suit and modest tie, closed plain folder",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: George C. Marshall as civilian secretary of state in 1947, older American man aged sixty-six, close cropped silver hair and long clean-shaven face, dark civilian suit and modest tie, closed plain folder"
+        },
+        {
+          "key": "josip-broz-tito",
+          "name": "ティトー",
+          "kind": "person",
+          "subject": "Josip Broz Tito around 1948, broad clean-shaven Yugoslav man in his mid-fifties, combed grey hair, plain subdued grey military-style tunic without insignia or medals, dark trousers",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Josip Broz Tito around 1948, broad clean-shaven Yugoslav man in his mid-fifties, combed grey hair, plain subdued grey military-style tunic without insignia or medals, dark trousers"
+        },
+        {
+          "key": "konrad-adenauer",
+          "name": "アデナウアー",
+          "kind": "person",
+          "subject": "Konrad Adenauer around 1949, slim elderly German civilian man aged seventy-three, narrow deeply lined clean-shaven face, receding close grey hair, dark suit and modest tie",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Konrad Adenauer around 1949, slim elderly German civilian man aged seventy-three, narrow deeply lined clean-shaven face, receding close grey hair, dark suit and modest tie"
+        },
+        {
+          "key": "joseph-mccarthy",
+          "name": "マッカーシー",
+          "kind": "person",
+          "subject": "Joseph McCarthy around 1951, stocky American civilian man in his early forties, short side-parted dark hair, round clean-shaven face, dark suit and modest tie, closed plain paper, neutral pose",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Joseph McCarthy around 1951, stocky American civilian man in his early forties, short side-parted dark hair, round clean-shaven face, dark suit and modest tie, closed plain paper, neutral pose"
+        },
+        {
+          "key": "john-foster-dulles",
+          "name": "ダレス",
+          "kind": "person",
+          "subject": "John Foster Dulles around 1954, older American civilian man in his mid-sixties, thinning grey hair, narrow rimless glasses, long clean-shaven face, dark formal suit and modest tie",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: John Foster Dulles around 1954, older American civilian man in his mid-sixties, thinning grey hair, narrow rimless glasses, long clean-shaven face, dark formal suit and modest tie"
+        },
+        {
+          "key": "nikolai-bulganin",
+          "name": "ブルガーニン",
+          "kind": "person",
+          "subject": "Nikolai Bulganin around 1955, Russian man aged sixty, neatly brushed grey hair, tidy narrow moustache and short pointed goatee, plain dark civilian suit and tie",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Nikolai Bulganin around 1955, Russian man aged sixty, neatly brushed grey hair, tidy narrow moustache and short pointed goatee, plain dark civilian suit and tie"
+        },
+        {
+          "key": "anthony-eden",
+          "name": "イーデン",
+          "kind": "person",
+          "subject": "Anthony Eden around 1955, British civilian man aged fifty-eight, neatly combed dark hair with grey sides, small neat dark moustache, elegant restrained dark suit and tie",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Anthony Eden around 1955, British civilian man aged fifty-eight, neatly combed dark hair with grey sides, small neat dark moustache, elegant restrained dark suit and tie"
+        },
+        {
+          "key": "edgar-faure",
+          "name": "フォール",
+          "kind": "person",
+          "subject": "Edgar Faure around 1955, French civilian man aged forty-seven, high forehead and thinning short dark hair, round glasses and clean-shaven face, dark suit and tie",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Edgar Faure around 1955, French civilian man aged forty-seven, high forehead and thinning short dark hair, round glasses and clean-shaven face, dark suit and tie"
+        },
+        {
+          "key": "fulgencio-batista",
+          "name": "バティスタ",
+          "kind": "person",
+          "subject": "Fulgencio Batista in the early 1950s, Cuban man in his early fifties, short neatly combed dark hair, clean-shaven round face, medium brown complexion, plain muted olive officer tunic with no medals or insignia",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Fulgencio Batista in the early 1950s, Cuban man in his early fifties, short neatly combed dark hair, clean-shaven round face, medium brown complexion, plain muted olive officer tunic with no medals or insignia"
+        },
+        {
+          "key": "anastasio-somoza-garcia",
+          "name": "ソモサ",
+          "kind": "person",
+          "subject": "Anastasio Somoza Garcia in the early 1950s, stocky Nicaraguan man in his mid-fifties, round clean-shaven face, receding short dark hair, medium warm complexion, plain dark civilian suit and tie",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Anastasio Somoza Garcia in the early 1950s, stocky Nicaraguan man in his mid-fifties, round clean-shaven face, receding short dark hair, medium warm complexion, plain dark civilian suit and tie"
+        },
+        {
+          "key": "bao-dai-1949",
+          "name": "バオダイ",
+          "kind": "person",
+          "subject": "Bao Dai around 1949, Vietnamese civilian man aged thirty-six, neatly combed short dark hair, smooth clean-shaven face, plain dark Western suit, white shirt and restrained tie",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Bao Dai around 1949, Vietnamese civilian man aged thirty-six, neatly combed short dark hair, smooth clean-shaven face, plain dark Western suit, white shirt and restrained tie"
+        },
+        {
+          "key": "syngman-rhee-1948",
+          "name": "李承晩",
+          "kind": "person",
+          "subject": "Syngman Rhee around 1948, elderly Korean civilian man aged seventy-three, long lined clean-shaven face, receding grey hair, plain dark Western suit and modest tie",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Syngman Rhee around 1948, elderly Korean civilian man aged seventy-three, long lined clean-shaven face, receding grey hair, plain dark Western suit and modest tie"
+        },
+        {
+          "key": "kim-il-sung-1950",
+          "name": "金日成",
+          "kind": "person",
+          "subject": "Kim Il Sung around 1950, Korean man aged thirty-eight with rounded clean-shaven youthful face and thick short dark side-parted hair, plain grey high-collared civilian tunic, no badges or medals",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Kim Il Sung around 1950, Korean man aged thirty-eight with rounded clean-shaven youthful face and thick short dark side-parted hair, plain grey high-collared civilian tunic, no badges or medals"
+        },
+        {
+          "key": "mao-zedong-1949",
+          "name": "毛沢東",
+          "kind": "person",
+          "subject": "Mao Zedong around 1949, Chinese man aged fifty-five, round clean-shaven face, swept back receding dark hair, plain subdued grey high-collared civilian tunic and trousers, no insignia",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Mao Zedong around 1949, Chinese man aged fifty-five, round clean-shaven face, swept back receding dark hair, plain subdued grey high-collared civilian tunic and trousers, no insignia"
+        },
+        {
+          "key": "ho-chi-minh-1945",
+          "name": "ホー＝チ＝ミン",
+          "kind": "person",
+          "subject": "Ho Chi Minh around 1945, slender Vietnamese man aged fifty-five, short sparse greying hair, thin wispy moustache and pointed goatee, simple plain khaki high-collared civilian suit and sandals",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Ho Chi Minh around 1945, slender Vietnamese man aged fifty-five, short sparse greying hair, thin wispy moustache and pointed goatee, simple plain khaki high-collared civilian suit and sandals"
+        },
+        {
+          "key": "zhou-enlai-1954",
+          "name": "周恩来",
+          "kind": "person",
+          "subject": "Zhou Enlai around 1954, lean Chinese civilian man aged fifty-six, tidy short black hair, angular clean-shaven face and thick brows, plain dark grey high-collared civilian suit",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Zhou Enlai around 1954, lean Chinese civilian man aged fifty-six, tidy short black hair, angular clean-shaven face and thick brows, plain dark grey high-collared civilian suit"
+        },
+        {
+          "key": "jawaharlal-nehru-1954",
+          "name": "ネルー",
+          "kind": "person",
+          "subject": "Jawaharlal Nehru around 1954, slender older Indian civilian man aged sixty-four, clean-shaven lined face, plain white Gandhi cap, restrained light cream high-collared long civilian coat and trousers, no flower or symbols",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Jawaharlal Nehru around 1954, slender older Indian civilian man aged sixty-four, clean-shaven lined face, plain white Gandhi cap, restrained light cream high-collared long civilian coat and trousers, no flower or symbols"
+        },
+        {
+          "key": "korean-peoples-army-1950",
+          "name": "朝鮮人民軍の一般兵",
+          "kind": "group",
+          "subject": "Two generic Korean infantry soldiers of the early 1950s, simple subdued olive uniforms and plain caps, dark boots, compact closed shoulder packs, standing calmly, no identifiable individuals, no weapons, combat or insignia",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Two generic Korean infantry soldiers of the early 1950s, simple subdued olive uniforms and plain caps, dark boots, compact closed shoulder packs, standing calmly, no identifiable individuals, no weapons, combat or insignia"
+        },
+        {
+          "key": "chinese-volunteers-1950",
+          "name": "中国人民義勇軍の一般兵",
+          "kind": "group",
+          "subject": "Two generic Chinese infantry soldiers of the early 1950s, plain muted tan padded tunics and trousers, unmarked simple soft caps, dark cloth shoes, small packs, standing calmly, no identifiable individuals, weapons, combat or insignia",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Two generic Chinese infantry soldiers of the early 1950s, plain muted tan padded tunics and trousers, unmarked simple soft caps, dark cloth shoes, small packs, standing calmly, no identifiable individuals, weapons, combat or insignia"
+        },
+        {
+          "key": "european-civilians-1948",
+          "name": "戦後ヨーロッパの市民",
+          "kind": "group",
+          "subject": "Three generic postwar European adult civilians around 1948, a man in a worn brown civilian coat, a woman in a subdued blue coat carrying a closed cloth bag, and an older man in a grey coat and cap, calm dignified full bodies, no injuries or begging",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Three generic postwar European adult civilians around 1948, a man in a worn brown civilian coat, a woman in a subdued blue coat carrying a closed cloth bag, and an older man in a grey coat and cap, calm dignified full bodies, no injuries or begging"
+        },
+        {
+          "key": "workers-1950",
+          "name": "戦後の一般の労働者",
+          "kind": "group",
+          "subject": "Two generic industrial workers around 1950, adult man and woman wearing plain subdued blue and brown work clothes, practical shoes, one closed small toolbox, calm standing full bodies, no flags, signs, slogans or protest violence",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Two generic industrial workers around 1950, adult man and woman wearing plain subdued blue and brown work clothes, practical shoes, one closed small toolbox, calm standing full bodies, no flags, signs, slogans or protest violence"
+        },
+        {
+          "key": "airlift-transport-aircraft",
+          "name": "大空輸の輸送機の模式図",
+          "kind": "prop",
+          "subject": "A neutral side-view 1940s four-engine propeller cargo aircraft, plain silver grey fuselage, four radial engine nacelles, broad straight wings, modest transport tail, no markings or insignia, a generic cargo transport rather than a fighter, whole aircraft centered with ample transparent margins",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: A neutral side-view 1940s four-engine propeller cargo aircraft, plain silver grey fuselage, four radial engine nacelles, broad straight wings, modest transport tail, no markings or insignia, a generic cargo transport rather than a fighter, whole aircraft centered with ample transparent margins"
+        },
+        {
+          "key": "relief-supplies-crates",
+          "name": "生活物資の模式図",
+          "kind": "prop",
+          "subject": "Three modest closed wooden relief-supply crates with a plain cloth sack and two sealed rectangular food tins, muted brown cream and grey, no text, emblems or flags, whole small stack isolated",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Three modest closed wooden relief-supply crates with a plain cloth sack and two sealed rectangular food tins, muted brown cream and grey, no text, emblems or flags, whole small stack isolated"
+        },
+        {
+          "key": "postwar-factory",
+          "name": "復興する工場の模式図",
+          "kind": "prop",
+          "subject": "A modest postwar industrial factory around 1950, low red brown brick workshop, grey sawtooth roof, two short neutral chimneys, a small closed loading door, no smoke, logos, people, signs or ground plane, isolated whole building",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: A modest postwar industrial factory around 1950, low red brown brick workshop, grey sawtooth roof, two short neutral chimneys, a small closed loading door, no smoke, logos, people, signs or ground plane, isolated whole building"
+        },
+        {
+          "key": "research-laboratory",
+          "name": "核開発を読む研究設備の模式図",
+          "kind": "prop",
+          "subject": "A neutral mid-century scientific measurement bench with closed metal instrument box, small round analog gauge, two sealed glass vessels and simple short cables, subdued cream grey teal, no bomb, weapon, diagrams, formulas, text, emblems, sparks or explosion, isolated educational equipment",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: A neutral mid-century scientific measurement bench with closed metal instrument box, small round analog gauge, two sealed glass vessels and simple short cables, subdued cream grey teal, no bomb, weapon, diagrams, formulas, text, emblems, sparks or explosion, isolated educational equipment"
+        },
+        {
+          "key": "currency-and-gold",
+          "name": "通貨と金の模式図",
+          "kind": "prop",
+          "subject": "A small restrained educational arrangement of two plain gold ingots, a few blank round coins and three folded unmarked banknotes, muted gold cream green, no numbers, letters, currency signs, logos or luxury framing, isolated whole objects",
+          "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: A small restrained educational arrangement of two plain gold ingots, a few blank round coins and three folded unmarked banknotes, muted gold cream green, no numbers, letters, currency signs, logos or luxury framing, isolated whole objects"
+        }
+      ],
+      "fullPrompt": "W-History第20回「冷戦の展開①」のドット絵27点をAntigravity CLI経由Gemini 3.8 Flashで作成してください。別の担当・サブエージェントへ委譲せず、ご自身で直接画像生成を利用できるか確認してください。可能ならrequested-prompts.jsonの各依頼をkey-native.pngの本物の透過PNGとしてこの一時フォルダへ保存してください。利用できない場合は状態を明示し、SVGやコードで絵の代用品を作らないでください。画風の参照はC:/Users/USER/Desktop/W-History/public/images/modern-c04-l19/harry-s-truman.pngとwinston-churchill.pngです。参照画像は変更しないでください。\n\n画像の寸法調整用normalize-sprites.pyをこの一時フォルダへ作成してください。前回のC:/Users/USER/Desktop/W-History/docs/modern-lesson-19/normalize-sprites.pyを参考に、今回のgenerated-inputs.jsonにあるassetsのkeyとrawImageを入力し、C:/Users/USER/Desktop/W-History/public/images/modern-c05-l20/<key>.pngへ出力します。未生成なら入力待ちで正常終了。画像生成はこのプログラムでは行いません。RGBAとRGB・絵柄・縦横比を保持し、alpha1〜15の薄い雑音だけ0にし、可視範囲を最近傍で176画素以内へ縮小、192角の透明面に8画素以上の余白と足元184で合わせます。不透過なら勝手な背景除去をせずエラー。解決後の絶対出力先が指定フォルダ直下のPNGであることを検査。normalization-report.jsonに前後のSHA256・寸法・透過・範囲・重複を記録し5列のcontact-sheet.pngを一時フォルダへ作成。元画像を削除・変更しません。アプリ・sources・AGENTS.md・TASK.md・前回の記録・既存画像は編集禁止。新しいプログラムの編集は今回の一時フォルダだけに限定し、生成状態と作成ファイルを簡潔に報告してください。\n",
+      "responseSummary": "直接利用できる画像生成機能がないため画像は作成されなかった。担当への委譲や描画による代用をせず、normalize-sprites.pyを作成した。",
+      "verifiedGeneratedOutput": false,
+      "verifiedNormalizationScript": true,
+      "logSha256": "00dc9cb54bb7e729d095c9f2be2fae2858ea546e358d0958c1e952e4a9944781"
+    }
+  ],
+  "unavailable": [],
+  "carriedUnavailable": [],
+  "generationModels": {
+    "nativeRequest": "Gemini 3.8 Flash / Antigravity CLI",
+    "fallback": "組み込み画像生成ツール。内部のモデル名は返されない。"
+  },
+  "normalization": {
+    "requestedVia": "Antigravity CLI / Gemini 3.8 Flash",
+    "performed": "今回Geminiが作成したnormalize-sprites.pyを変更せず実行。元のRGBと透過を保持し、アルファ16未満の薄い雑音だけを0にした。縦横比を保った最近傍縮小で最大176画素とし、192画素の透過面の中央96・下端184へ配置した。",
+    "script": "docs/modern-lesson-20/normalize-sprites.py",
+    "scriptSha256": "4063c6777481cf706ac3ee129a8d3bc7da68cf74f7d2dcb46a0a0841978a862f",
+    "summary": {
+      "total": 28,
+      "completed": 28,
+      "failed": 0,
+      "unique_output_hashes": 28,
+      "all_hashes_unique": true,
+      "targetDirectory": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20"
+    }
+  },
+  "appearanceReview": {
+    "status": "新作28点の一覧を目視済み。全221場面の884回表示を確認。主要20場面・明暗両方の120画像を撮影し、上記9画像を目視確認した。",
+    "reviewedImages": 28,
+    "checks": [
+      "全28点の全身・足元・輪郭・持ち物・服装・画風と透過の余白を実際に目で確認した。",
+      "新作人物19点は原文の本人と時期に対応する。アイゼンハワーは1953年以降の大統領の私服姿。",
+      "一般集団4点は個々の指導者・実在部隊全員・特定の被害者を復元する絵ではない。",
+      "輸送機・物資・工場・研究設備・通貨と金は模式図であり、全空路・工場所在地・核攻撃や製造法・現在の相場を示さない。",
+      "生成元を保持し、公開用全28点の四方8画素以上の余白・描画範囲と異なる画像内容を確認した。"
+    ],
+    "validation": "docs/modern-lesson-20/validation.json",
+    "reviewedScreenshots": [
+      "appearance-review/berlin-airlift-light-map.png",
+      "appearance-review/berlin-airlift-dark-illustration.png",
+      "appearance-review/geneva-leaders-light-illustration.png",
+      "appearance-review/geneva-leaders-dark-diagram.png",
+      "appearance-review/chinese-volunteers-dark-map.png",
+      "appearance-review/nehru-zhou-light-illustration.png",
+      "appearance-motion-review/north-korean-invasion-light-map.png",
+      "appearance-motion-review/un-northward-dark-map.png",
+      "appearance-motion-review/chinese-counterattack-light-map.png"
+    ]
+  },
+  "assets": [
+    {
+      "key": "douglas-macarthur",
+      "name": "マッカーサー",
+      "kind": "person",
+      "subject": "Douglas MacArthur around 1950, tall lean older American officer in his early seventies, clean-shaven long face, plain khaki officer cap and restrained khaki tunic, dark glasses, no medals or insignia, neutral full-body standing pose",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Douglas MacArthur around 1950, tall lean older American officer in his early seventies, clean-shaven long face, plain khaki officer cap and restrained khaki tunic, dark glasses, no medals or insignia, neutral full-body standing pose",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-76f679bb-a6de-4594-924b-e29f894af3e7.png",
+      "outputFile": "public/images/modern-c05-l20/douglas-macarthur.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-76f679bb-a6de-4594-924b-e29f894af3e7.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\douglas-macarthur.png",
+      "inputSha256": "2c2cb2b0b6c09cf7ef8a779507506990d9bf911190d6bc1b3529fe3afbef4d33",
+      "outputSha256": "8e6b880b7933b47a569603a951d19eddcedf151cbfc9eec2f460f3f8ef520628",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 435,
+        "height": 1183
+      },
+      "resizedDimensions": {
+        "width": 65,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        43,
+        21,
+        1230,
+        1222
+      ],
+      "cleanedBbox": [
+        415,
+        36,
+        850,
+        1219
+      ],
+      "savedBbox": [
+        64,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1245585,
+        "faint": 13126,
+        "translucent": 325664,
+        "opaque": 1267
+      },
+      "transparentPixelCount": 29900,
+      "removedFaintAlphaPixels": 13126,
+      "opaquePixelCount": 23,
+      "translucentPixelCount": 6941,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13126,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "george-c-marshall",
+      "name": "マーシャル",
+      "kind": "person",
+      "subject": "George C. Marshall as civilian secretary of state in 1947, older American man aged sixty-six, close cropped silver hair and long clean-shaven face, dark civilian suit and modest tie, closed plain folder",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: George C. Marshall as civilian secretary of state in 1947, older American man aged sixty-six, close cropped silver hair and long clean-shaven face, dark civilian suit and modest tie, closed plain folder",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-af353172-664e-4f7c-9118-f36f9204532e.png",
+      "outputFile": "public/images/modern-c05-l20/george-c-marshall.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-af353172-664e-4f7c-9118-f36f9204532e.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\george-c-marshall.png",
+      "inputSha256": "fea614a1e170fe69e0edeca3d2a32085b70b9f97753bfb8b0c18ac726a6ae111",
+      "outputSha256": "072f10c3b9eb8851fbb1f8d62e6086cd3198d812e81a1f87017eda36d0cc31ae",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 451,
+        "height": 1068
+      },
+      "resizedDimensions": {
+        "width": 74,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        97,
+        43,
+        1199,
+        1230
+      ],
+      "cleanedBbox": [
+        423,
+        108,
+        874,
+        1176
+      ],
+      "savedBbox": [
+        59,
+        8,
+        133,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1267164,
+        "faint": 8268,
+        "translucent": 303920,
+        "opaque": 1432
+      },
+      "transparentPixelCount": 28794,
+      "removedFaintAlphaPixels": 8268,
+      "opaquePixelCount": 41,
+      "translucentPixelCount": 8029,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8268,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "josip-broz-tito",
+      "name": "ティトー",
+      "kind": "person",
+      "subject": "Josip Broz Tito around 1948, broad clean-shaven Yugoslav man in his mid-fifties, combed grey hair, plain subdued grey military-style tunic without insignia or medals, dark trousers",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Josip Broz Tito around 1948, broad clean-shaven Yugoslav man in his mid-fifties, combed grey hair, plain subdued grey military-style tunic without insignia or medals, dark trousers",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-983dddc9-8713-4211-8492-17746a6aea44.png",
+      "outputFile": "public/images/modern-c05-l20/josip-broz-tito.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-983dddc9-8713-4211-8492-17746a6aea44.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\josip-broz-tito.png",
+      "inputSha256": "bc9dc8061c5f3f9975daab7adb70ebf72c689fd3c78af054420465b849ff4e80",
+      "outputSha256": "f8f913a2dbb9dbe8d908d6d961a2b0a429e562954a606a6ffc3d1dfd1eb9b3ec",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 479,
+        "height": 1104
+      },
+      "resizedDimensions": {
+        "width": 76,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        57,
+        69,
+        1119,
+        1192
+      ],
+      "cleanedBbox": [
+        408,
+        86,
+        887,
+        1190
+      ],
+      "savedBbox": [
+        58,
+        8,
+        134,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1228079,
+        "faint": 8168,
+        "translucent": 343056,
+        "opaque": 1381
+      },
+      "transparentPixelCount": 28350,
+      "removedFaintAlphaPixels": 8168,
+      "opaquePixelCount": 22,
+      "translucentPixelCount": 8492,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8168,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "konrad-adenauer",
+      "name": "アデナウアー",
+      "kind": "person",
+      "subject": "Konrad Adenauer around 1949, slim elderly German civilian man aged seventy-three, narrow deeply lined clean-shaven face, receding close grey hair, dark suit and modest tie",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Konrad Adenauer around 1949, slim elderly German civilian man aged seventy-three, narrow deeply lined clean-shaven face, receding close grey hair, dark suit and modest tie",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7175486e-0ad3-46e6-af2a-c3d8125f1060.png",
+      "outputFile": "public/images/modern-c05-l20/konrad-adenauer.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7175486e-0ad3-46e6-af2a-c3d8125f1060.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\konrad-adenauer.png",
+      "inputSha256": "17593802037488c084b844725aa2a22fd7a3e891785b559541b036e438b57147",
+      "outputSha256": "ec57e4066a513ec5c83dbd584f52586754a81303819006974f1bc76e735afc31",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 414,
+        "height": 1113
+      },
+      "resizedDimensions": {
+        "width": 65,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        146,
+        53,
+        961,
+        1204
+      ],
+      "cleanedBbox": [
+        449,
+        85,
+        863,
+        1198
+      ],
+      "savedBbox": [
+        64,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1269033,
+        "faint": 8224,
+        "translucent": 302111,
+        "opaque": 1372
+      },
+      "transparentPixelCount": 29551,
+      "removedFaintAlphaPixels": 8224,
+      "opaquePixelCount": 27,
+      "translucentPixelCount": 7286,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8224,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "joseph-mccarthy",
+      "name": "マッカーシー",
+      "kind": "person",
+      "subject": "Joseph McCarthy around 1951, stocky American civilian man in his early forties, short side-parted dark hair, round clean-shaven face, dark suit and modest tie, closed plain paper, neutral pose",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Joseph McCarthy around 1951, stocky American civilian man in his early forties, short side-parted dark hair, round clean-shaven face, dark suit and modest tie, closed plain paper, neutral pose",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c9fb74ee-f78f-4149-b9e9-ff2e8cff98ea.png",
+      "outputFile": "public/images/modern-c05-l20/joseph-mccarthy.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c9fb74ee-f78f-4149-b9e9-ff2e8cff98ea.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\joseph-mccarthy.png",
+      "inputSha256": "50642dd99ae7a45911508c3b80ada1d485da79fb9af06ab715ca9addb53a9f3b",
+      "outputSha256": "2b5adac3fc299d84d60cd1d1eab9911e6ef60b8fb1907ff38182c055a5e8a43a",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 542,
+        "height": 1124
+      },
+      "resizedDimensions": {
+        "width": 85,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        19,
+        73,
+        1059,
+        1205
+      ],
+      "cleanedBbox": [
+        360,
+        76,
+        902,
+        1200
+      ],
+      "savedBbox": [
+        54,
+        8,
+        139,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1185383,
+        "faint": 8387,
+        "translucent": 385214,
+        "opaque": 1919
+      },
+      "transparentPixelCount": 27559,
+      "removedFaintAlphaPixels": 8387,
+      "opaquePixelCount": 29,
+      "translucentPixelCount": 9276,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8387,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "john-foster-dulles",
+      "name": "ダレス",
+      "kind": "person",
+      "subject": "John Foster Dulles around 1954, older American civilian man in his mid-sixties, thinning grey hair, narrow rimless glasses, long clean-shaven face, dark formal suit and modest tie",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: John Foster Dulles around 1954, older American civilian man in his mid-sixties, thinning grey hair, narrow rimless glasses, long clean-shaven face, dark formal suit and modest tie",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7cb22a31-ed71-485d-986a-b2098ac56d48.png",
+      "outputFile": "public/images/modern-c05-l20/john-foster-dulles.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7cb22a31-ed71-485d-986a-b2098ac56d48.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\john-foster-dulles.png",
+      "inputSha256": "689ed1157ff5f61a5aebe0189ab660ec5d2bcf99ab052f27eac3478dc1e87816",
+      "outputSha256": "79555e3108ef766a99ad192a70dd1ac5d4e37548775845c13d88a545e1bfcd22",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 456,
+        "height": 1108
+      },
+      "resizedDimensions": {
+        "width": 72,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        59,
+        53,
+        1199,
+        1230
+      ],
+      "cleanedBbox": [
+        408,
+        84,
+        864,
+        1192
+      ],
+      "savedBbox": [
+        60,
+        8,
+        132,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1246312,
+        "faint": 8698,
+        "translucent": 324771,
+        "opaque": 1433
+      },
+      "transparentPixelCount": 28904,
+      "removedFaintAlphaPixels": 8698,
+      "opaquePixelCount": 36,
+      "translucentPixelCount": 7924,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8698,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "nikolai-bulganin",
+      "name": "ブルガーニン",
+      "kind": "person",
+      "subject": "Nikolai Bulganin around 1955, Russian man aged sixty, neatly brushed grey hair, tidy narrow moustache and short pointed goatee, plain dark civilian suit and tie",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Nikolai Bulganin around 1955, Russian man aged sixty, neatly brushed grey hair, tidy narrow moustache and short pointed goatee, plain dark civilian suit and tie",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-bff3180b-1c35-4b47-ac2f-b1b17a666433.png",
+      "outputFile": "public/images/modern-c05-l20/nikolai-bulganin.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-bff3180b-1c35-4b47-ac2f-b1b17a666433.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\nikolai-bulganin.png",
+      "inputSha256": "4aa0841b4cf2ffdc2ec04c00b213c65690a578cc644c7bf1327138302046a2d8",
+      "outputSha256": "8ae399a606cbb287b4377b6e9d228e8736c0eae72aa372fc7120cfe3be963126",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 512,
+        "height": 1146
+      },
+      "resizedDimensions": {
+        "width": 79,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        146,
+        56,
+        1210,
+        1254
+      ],
+      "cleanedBbox": [
+        371,
+        60,
+        883,
+        1206
+      ],
+      "savedBbox": [
+        57,
+        8,
+        136,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1176634,
+        "faint": 8368,
+        "translucent": 393961,
+        "opaque": 1921
+      },
+      "transparentPixelCount": 27699,
+      "removedFaintAlphaPixels": 8368,
+      "opaquePixelCount": 45,
+      "translucentPixelCount": 9120,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8368,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "anthony-eden",
+      "name": "イーデン",
+      "kind": "person",
+      "subject": "Anthony Eden around 1955, British civilian man aged fifty-eight, neatly combed dark hair with grey sides, small neat dark moustache, elegant restrained dark suit and tie",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Anthony Eden around 1955, British civilian man aged fifty-eight, neatly combed dark hair with grey sides, small neat dark moustache, elegant restrained dark suit and tie",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5692d536-625b-4099-9322-71f083d0c422.png",
+      "outputFile": "public/images/modern-c05-l20/anthony-eden.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5692d536-625b-4099-9322-71f083d0c422.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\anthony-eden.png",
+      "inputSha256": "7f63b9026c1aa9a9035fc95e614fa6eb4093245d230a9dc3d8890f39ce6445ad",
+      "outputSha256": "f42ac3248d8adbe549660aa8e865f3ed38a82792b9224e4b3946d0826bf217b5",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 478,
+        "height": 1142
+      },
+      "resizedDimensions": {
+        "width": 74,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        146,
+        31,
+        1119,
+        1254
+      ],
+      "cleanedBbox": [
+        395,
+        76,
+        873,
+        1218
+      ],
+      "savedBbox": [
+        59,
+        8,
+        133,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1227861,
+        "faint": 10963,
+        "translucent": 343335,
+        "opaque": 1320
+      },
+      "transparentPixelCount": 28911,
+      "removedFaintAlphaPixels": 10963,
+      "opaquePixelCount": 28,
+      "translucentPixelCount": 7925,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10963,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "edgar-faure",
+      "name": "フォール",
+      "kind": "person",
+      "subject": "Edgar Faure around 1955, French civilian man aged forty-seven, high forehead and thinning short dark hair, round glasses and clean-shaven face, dark suit and tie",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Edgar Faure around 1955, French civilian man aged forty-seven, high forehead and thinning short dark hair, round glasses and clean-shaven face, dark suit and tie",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7316b2aa-d852-463b-b8ad-a468094c39bd.png",
+      "outputFile": "public/images/modern-c05-l20/edgar-faure.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7316b2aa-d852-463b-b8ad-a468094c39bd.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\edgar-faure.png",
+      "inputSha256": "58257f9badc070b3f3907b023f5734b54a1f94b0d6ed7903ceef54db1091d965",
+      "outputSha256": "4a76e9290ba3a4063df55d60e583baeb2a04157798781de0f2145729bcb757b1",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 475,
+        "height": 1141
+      },
+      "resizedDimensions": {
+        "width": 73,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        95,
+        58,
+        1210,
+        1214
+      ],
+      "cleanedBbox": [
+        390,
+        60,
+        865,
+        1201
+      ],
+      "savedBbox": [
+        60,
+        8,
+        133,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1207563,
+        "faint": 8591,
+        "translucent": 363438,
+        "opaque": 1515
+      },
+      "transparentPixelCount": 28418,
+      "removedFaintAlphaPixels": 8591,
+      "opaquePixelCount": 24,
+      "translucentPixelCount": 8422,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8591,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "fulgencio-batista",
+      "name": "バティスタ",
+      "kind": "person",
+      "subject": "Fulgencio Batista in the early 1950s, Cuban man in his early fifties, short neatly combed dark hair, clean-shaven round face, medium brown complexion, plain muted olive officer tunic with no medals or insignia",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Fulgencio Batista in the early 1950s, Cuban man in his early fifties, short neatly combed dark hair, clean-shaven round face, medium brown complexion, plain muted olive officer tunic with no medals or insignia",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-41c60316-18a3-4b9c-8e02-3a019f004fdc.png",
+      "outputFile": "public/images/modern-c05-l20/fulgencio-batista.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-41c60316-18a3-4b9c-8e02-3a019f004fdc.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\fulgencio-batista.png",
+      "inputSha256": "30cdce40ccb7760b18acbb1221054716b450e43793d85d997cb4f9dae5777a8f",
+      "outputSha256": "69dd219a20df5904682f7c6cba54e19f8fd0d027c1d7b5c8b1aa084fc665b904",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 486,
+        "height": 1099
+      },
+      "resizedDimensions": {
+        "width": 78,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        59,
+        93,
+        1199,
+        1254
+      ],
+      "cleanedBbox": [
+        385,
+        95,
+        871,
+        1194
+      ],
+      "savedBbox": [
+        57,
+        8,
+        135,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1211662,
+        "faint": 9707,
+        "translucent": 359491,
+        "opaque": 1363
+      },
+      "transparentPixelCount": 27840,
+      "removedFaintAlphaPixels": 9707,
+      "opaquePixelCount": 15,
+      "translucentPixelCount": 9009,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9707,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "anastasio-somoza-garcia",
+      "name": "ソモサ",
+      "kind": "person",
+      "subject": "Anastasio Somoza Garcia in the early 1950s, stocky Nicaraguan man in his mid-fifties, round clean-shaven face, receding short dark hair, medium warm complexion, plain dark civilian suit and tie",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Anastasio Somoza Garcia in the early 1950s, stocky Nicaraguan man in his mid-fifties, round clean-shaven face, receding short dark hair, medium warm complexion, plain dark civilian suit and tie",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-31b2845b-a5ec-46ca-8c2e-ace547156957.png",
+      "outputFile": "public/images/modern-c05-l20/anastasio-somoza-garcia.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-31b2845b-a5ec-46ca-8c2e-ace547156957.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\anastasio-somoza-garcia.png",
+      "inputSha256": "9cf8ea04e44d3b914a901626fd65ee95ec5f03e1828d9637ba8ec29129dcc664",
+      "outputSha256": "b71ec0242375ba872e88713cb548630297d81b47fffd3f8baf9f894a23b2710b",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 500,
+        "height": 1033
+      },
+      "resizedDimensions": {
+        "width": 85,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        130,
+        124,
+        985,
+        1161
+      ],
+      "cleanedBbox": [
+        379,
+        126,
+        879,
+        1159
+      ],
+      "savedBbox": [
+        54,
+        8,
+        139,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1227236,
+        "faint": 7849,
+        "translucent": 344176,
+        "opaque": 1104
+      },
+      "transparentPixelCount": 27092,
+      "removedFaintAlphaPixels": 7849,
+      "opaquePixelCount": 31,
+      "translucentPixelCount": 9741,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 7849,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "bao-dai-1949",
+      "name": "バオダイ",
+      "kind": "person",
+      "subject": "Bao Dai around 1949, Vietnamese civilian man aged thirty-six, neatly combed short dark hair, smooth clean-shaven face, plain dark Western suit, white shirt and restrained tie",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Bao Dai around 1949, Vietnamese civilian man aged thirty-six, neatly combed short dark hair, smooth clean-shaven face, plain dark Western suit, white shirt and restrained tie",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9ae7e6c3-054a-4101-a990-91af27ea54d3.png",
+      "outputFile": "public/images/modern-c05-l20/bao-dai-1949.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9ae7e6c3-054a-4101-a990-91af27ea54d3.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\bao-dai-1949.png",
+      "inputSha256": "82cedfcb7f6bae88f470687abce25b6dfb50f9e420a70841e2b818b4380c2c6a",
+      "outputSha256": "65e1b9b68388336633ae425e13c5b99bd36d94c25a14faecc6182f68a0d02d1a",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 427,
+        "height": 1044
+      },
+      "resizedDimensions": {
+        "width": 72,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        25,
+        1194,
+        1254
+      ],
+      "cleanedBbox": [
+        415,
+        112,
+        842,
+        1156
+      ],
+      "savedBbox": [
+        60,
+        8,
+        132,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1259926,
+        "faint": 8330,
+        "translucent": 311189,
+        "opaque": 1401
+      },
+      "transparentPixelCount": 28210,
+      "removedFaintAlphaPixels": 8330,
+      "opaquePixelCount": 44,
+      "translucentPixelCount": 8610,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8330,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "syngman-rhee-1948",
+      "name": "李承晩",
+      "kind": "person",
+      "subject": "Syngman Rhee around 1948, elderly Korean civilian man aged seventy-three, long lined clean-shaven face, receding grey hair, plain dark Western suit and modest tie",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Syngman Rhee around 1948, elderly Korean civilian man aged seventy-three, long lined clean-shaven face, receding grey hair, plain dark Western suit and modest tie",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-314c0430-f72b-4ab9-911e-113437204097.png",
+      "outputFile": "public/images/modern-c05-l20/syngman-rhee-1948.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-314c0430-f72b-4ab9-911e-113437204097.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\syngman-rhee-1948.png",
+      "inputSha256": "dab8e2673058e66235943b5f380f605957723313160de74842da78f76222f8ae",
+      "outputSha256": "afdc9593f9cfbaca0c3c751f278718efdb8c3b391ad799c255a05108da238af3",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 445,
+        "height": 1118
+      },
+      "resizedDimensions": {
+        "width": 70,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        132,
+        47,
+        1073,
+        1254
+      ],
+      "cleanedBbox": [
+        419,
+        83,
+        864,
+        1201
+      ],
+      "savedBbox": [
+        61,
+        8,
+        131,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1240448,
+        "faint": 8624,
+        "translucent": 330616,
+        "opaque": 1452
+      },
+      "transparentPixelCount": 28868,
+      "removedFaintAlphaPixels": 8624,
+      "opaquePixelCount": 26,
+      "translucentPixelCount": 7970,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8624,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "kim-il-sung-1950",
+      "name": "金日成",
+      "kind": "person",
+      "subject": "Kim Il Sung around 1950, Korean man aged thirty-eight with rounded clean-shaven youthful face and thick short dark side-parted hair, plain grey high-collared civilian tunic, no badges or medals",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Kim Il Sung around 1950, Korean man aged thirty-eight with rounded clean-shaven youthful face and thick short dark side-parted hair, plain grey high-collared civilian tunic, no badges or medals",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-aad95612-6fe2-4a27-b0e3-e9832913542c.png",
+      "outputFile": "public/images/modern-c05-l20/kim-il-sung-1950.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-aad95612-6fe2-4a27-b0e3-e9832913542c.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\kim-il-sung-1950.png",
+      "inputSha256": "9503550e5244448eab4133a3cc49b36e025f8ed4314e875db260f13d546c4969",
+      "outputSha256": "23664836f50359d2c2727543fe2a212124f732c622a7d6cef92e67d83e291f42",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 460,
+        "height": 1087
+      },
+      "resizedDimensions": {
+        "width": 74,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        146,
+        94,
+        1208,
+        1188
+      ],
+      "cleanedBbox": [
+        402,
+        96,
+        862,
+        1183
+      ],
+      "savedBbox": [
+        59,
+        8,
+        133,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1250847,
+        "faint": 8229,
+        "translucent": 320078,
+        "opaque": 1591
+      },
+      "transparentPixelCount": 28670,
+      "removedFaintAlphaPixels": 8229,
+      "opaquePixelCount": 25,
+      "translucentPixelCount": 8169,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8229,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "mao-zedong-1949",
+      "name": "毛沢東",
+      "kind": "person",
+      "subject": "Mao Zedong around 1949, Chinese man aged fifty-five, round clean-shaven face, swept back receding dark hair, plain subdued grey high-collared civilian tunic and trousers, no insignia",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Mao Zedong around 1949, Chinese man aged fifty-five, round clean-shaven face, swept back receding dark hair, plain subdued grey high-collared civilian tunic and trousers, no insignia",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-41bce4fe-b4d2-433f-b9a0-e06e356af9cb.png",
+      "outputFile": "public/images/modern-c05-l20/mao-zedong-1949.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-41bce4fe-b4d2-433f-b9a0-e06e356af9cb.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\mao-zedong-1949.png",
+      "inputSha256": "ea5c05d53af1edf8a0604ce1a100fdda8ac8558ae5db5dba878a2a7754b4ec52",
+      "outputSha256": "d87174337520019ae687f0e0971234cfcadda4c9a3a85a5e92864bd79d84c682",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 445,
+        "height": 1045
+      },
+      "resizedDimensions": {
+        "width": 75,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        21,
+        1192,
+        1196
+      ],
+      "cleanedBbox": [
+        408,
+        127,
+        853,
+        1172
+      ],
+      "savedBbox": [
+        59,
+        8,
+        134,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1260090,
+        "faint": 8817,
+        "translucent": 311321,
+        "opaque": 1105
+      },
+      "transparentPixelCount": 28261,
+      "removedFaintAlphaPixels": 8817,
+      "opaquePixelCount": 32,
+      "translucentPixelCount": 8571,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8817,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "ho-chi-minh-1945",
+      "name": "ホー＝チ＝ミン",
+      "kind": "person",
+      "subject": "Ho Chi Minh around 1945, slender Vietnamese man aged fifty-five, short sparse greying hair, thin wispy moustache and pointed goatee, simple plain khaki high-collared civilian suit and sandals",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Ho Chi Minh around 1945, slender Vietnamese man aged fifty-five, short sparse greying hair, thin wispy moustache and pointed goatee, simple plain khaki high-collared civilian suit and sandals",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-f6b30c6c-ce8f-4917-be61-0020e6f8a4bb.png",
+      "outputFile": "public/images/modern-c05-l20/ho-chi-minh-1945.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-f6b30c6c-ce8f-4917-be61-0020e6f8a4bb.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\ho-chi-minh-1945.png",
+      "inputSha256": "cd0fa0455bc89b4096dfb0de01f10af71493db8f3fcbcd1a6fcf1657b46e36d2",
+      "outputSha256": "2c3219c2e713dfda828ab4d8653d236917f0a733f80295b72162f34204205a95",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 382,
+        "height": 1041
+      },
+      "resizedDimensions": {
+        "width": 65,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        97,
+        114,
+        1192,
+        1214
+      ],
+      "cleanedBbox": [
+        442,
+        118,
+        824,
+        1159
+      ],
+      "savedBbox": [
+        64,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1326003,
+        "faint": 10195,
+        "translucent": 245066,
+        "opaque": 1447
+      },
+      "transparentPixelCount": 30056,
+      "removedFaintAlphaPixels": 10195,
+      "opaquePixelCount": 47,
+      "translucentPixelCount": 6761,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10195,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "zhou-enlai-1954",
+      "name": "周恩来",
+      "kind": "person",
+      "subject": "Zhou Enlai around 1954, lean Chinese civilian man aged fifty-six, tidy short black hair, angular clean-shaven face and thick brows, plain dark grey high-collared civilian suit",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Zhou Enlai around 1954, lean Chinese civilian man aged fifty-six, tidy short black hair, angular clean-shaven face and thick brows, plain dark grey high-collared civilian suit",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5a0afd35-74bb-4562-9806-d65983b2ed85.png",
+      "outputFile": "public/images/modern-c05-l20/zhou-enlai-1954.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5a0afd35-74bb-4562-9806-d65983b2ed85.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\zhou-enlai-1954.png",
+      "inputSha256": "4b18348dac034b9da3e3cf102a645f1ea8e271a934dbef00dc5024e427a839b5",
+      "outputSha256": "ceb2788778003bca5081c7b00df0abf1cc5529697cebab978bf0cd0012d920c1",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 418,
+        "height": 1099
+      },
+      "resizedDimensions": {
+        "width": 67,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        146,
+        94,
+        1171,
+        1254
+      ],
+      "cleanedBbox": [
+        421,
+        96,
+        839,
+        1195
+      ],
+      "savedBbox": [
+        63,
+        8,
+        130,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1253025,
+        "faint": 8804,
+        "translucent": 318335,
+        "opaque": 1156
+      },
+      "transparentPixelCount": 28905,
+      "removedFaintAlphaPixels": 8804,
+      "opaquePixelCount": 25,
+      "translucentPixelCount": 7934,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8804,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "jawaharlal-nehru-1954",
+      "name": "ネルー",
+      "kind": "person",
+      "subject": "Jawaharlal Nehru around 1954, slender older Indian civilian man aged sixty-four, clean-shaven lined face, plain white Gandhi cap, restrained light cream high-collared long civilian coat and trousers, no flower or symbols",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Jawaharlal Nehru around 1954, slender older Indian civilian man aged sixty-four, clean-shaven lined face, plain white Gandhi cap, restrained light cream high-collared long civilian coat and trousers, no flower or symbols",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-2646ec3e-9844-492d-a0e0-2cab51412400.png",
+      "outputFile": "public/images/modern-c05-l20/jawaharlal-nehru-1954.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-2646ec3e-9844-492d-a0e0-2cab51412400.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\jawaharlal-nehru-1954.png",
+      "inputSha256": "ae117056cf792016de89a9e3776b2ada52e7dd4c7562380c853a5e8847327d2b",
+      "outputSha256": "d452b4e1319a964df3e861bf4f97b0b00f144049e62ab14620f026b6e2849e19",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 394,
+        "height": 1080
+      },
+      "resizedDimensions": {
+        "width": 64,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        71,
+        21,
+        1079,
+        1212
+      ],
+      "cleanedBbox": [
+        422,
+        87,
+        816,
+        1167
+      ],
+      "savedBbox": [
+        64,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1297806,
+        "faint": 10132,
+        "translucent": 273498,
+        "opaque": 1212
+      },
+      "transparentPixelCount": 29870,
+      "removedFaintAlphaPixels": 10132,
+      "opaquePixelCount": 19,
+      "translucentPixelCount": 6975,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10132,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "korean-peoples-army-1950",
+      "name": "朝鮮人民軍の一般兵",
+      "kind": "group",
+      "subject": "Two generic Korean infantry soldiers of the early 1950s, simple subdued olive uniforms and plain caps, dark boots, compact closed shoulder packs, standing calmly, no identifiable individuals, no weapons, combat or insignia",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Two generic Korean infantry soldiers of the early 1950s, simple subdued olive uniforms and plain caps, dark boots, compact closed shoulder packs, standing calmly, no identifiable individuals, no weapons, combat or insignia",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-2c79b7ea-413b-417d-855d-40c4bab8deef.png",
+      "outputFile": "public/images/modern-c05-l20/korean-peoples-army-1950.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-2c79b7ea-413b-417d-855d-40c4bab8deef.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\korean-peoples-army-1950.png",
+      "inputSha256": "3b5d875f4efc41f79bc17dea35b389526511d84473182dbf0ac88060549e9d36",
+      "outputSha256": "b8073960c0ba8fb651594213b665b289c24adb2aa11c5f68c75bc2847e929e26",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 862,
+        "height": 1070
+      },
+      "resizedDimensions": {
+        "width": 142,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        21,
+        1198,
+        1254
+      ],
+      "cleanedBbox": [
+        203,
+        104,
+        1065,
+        1174
+      ],
+      "savedBbox": [
+        25,
+        8,
+        167,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1004861,
+        "faint": 21788,
+        "translucent": 564896,
+        "opaque": 2759
+      },
+      "transparentPixelCount": 22091,
+      "removedFaintAlphaPixels": 21788,
+      "opaquePixelCount": 99,
+      "translucentPixelCount": 14674,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 21788,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "chinese-volunteers-1950",
+      "name": "中国人民義勇軍の一般兵",
+      "kind": "group",
+      "subject": "Two generic Chinese infantry soldiers of the early 1950s, plain muted tan padded tunics and trousers, unmarked simple soft caps, dark cloth shoes, small packs, standing calmly, no identifiable individuals, weapons, combat or insignia",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Two generic Chinese infantry soldiers of the early 1950s, plain muted tan padded tunics and trousers, unmarked simple soft caps, dark cloth shoes, small packs, standing calmly, no identifiable individuals, weapons, combat or insignia",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c1072e8f-4f72-4936-89dd-79c9abfed6a8.png",
+      "outputFile": "public/images/modern-c05-l20/chinese-volunteers-1950.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c1072e8f-4f72-4936-89dd-79c9abfed6a8.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\chinese-volunteers-1950.png",
+      "inputSha256": "8de90e3648cb3b98597d3b64d173e656bd762384e669403a6cef28fdadb1eda8",
+      "outputSha256": "0932134e8935c3bdcffc211500b11ab66ccf33355d08ea062f18462a6a8cf9e9",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 869,
+        "height": 1057
+      },
+      "resizedDimensions": {
+        "width": 145,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        93,
+        21,
+        1230,
+        1254
+      ],
+      "cleanedBbox": [
+        191,
+        108,
+        1060,
+        1165
+      ],
+      "savedBbox": [
+        24,
+        8,
+        169,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 984056,
+        "faint": 27458,
+        "translucent": 586578,
+        "opaque": 1882
+      },
+      "transparentPixelCount": 21265,
+      "removedFaintAlphaPixels": 27458,
+      "opaquePixelCount": 38,
+      "translucentPixelCount": 15561,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 27458,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "european-civilians-1948",
+      "name": "戦後ヨーロッパの市民",
+      "kind": "group",
+      "subject": "Three generic postwar European adult civilians around 1948, a man in a worn brown civilian coat, a woman in a subdued blue coat carrying a closed cloth bag, and an older man in a grey coat and cap, calm dignified full bodies, no injuries or begging",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Three generic postwar European adult civilians around 1948, a man in a worn brown civilian coat, a woman in a subdued blue coat carrying a closed cloth bag, and an older man in a grey coat and cap, calm dignified full bodies, no injuries or begging",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-39d99728-4327-4216-9016-d0979e5ea81d.png",
+      "outputFile": "public/images/modern-c05-l20/european-civilians-1948.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-39d99728-4327-4216-9016-d0979e5ea81d.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\european-civilians-1948.png",
+      "inputSha256": "45ba138c4d240c44c0d53b86d277a29e122d304a763742b335792062ba916330",
+      "outputSha256": "26b1ece7c5ebff805b68d0ca86dc4c17b821369d659ba8aa724e256f40aa038a",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 1085,
+        "height": 996
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 162
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        17,
+        9,
+        1206,
+        1254
+      ],
+      "cleanedBbox": [
+        99,
+        128,
+        1184,
+        1124
+      ],
+      "savedBbox": [
+        8,
+        22,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 806909,
+        "faint": 33829,
+        "translucent": 763282,
+        "opaque": 2325
+      },
+      "transparentPixelCount": 17560,
+      "removedFaintAlphaPixels": 33829,
+      "opaquePixelCount": 68,
+      "translucentPixelCount": 19236,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 33829,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "workers-1950",
+      "name": "戦後の一般の労働者",
+      "kind": "group",
+      "subject": "Two generic industrial workers around 1950, adult man and woman wearing plain subdued blue and brown work clothes, practical shoes, one closed small toolbox, calm standing full bodies, no flags, signs, slogans or protest violence",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Two generic industrial workers around 1950, adult man and woman wearing plain subdued blue and brown work clothes, practical shoes, one closed small toolbox, calm standing full bodies, no flags, signs, slogans or protest violence",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-85fa7504-cee9-4565-8330-7b8df81838bc.png",
+      "outputFile": "public/images/modern-c05-l20/workers-1950.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-85fa7504-cee9-4565-8330-7b8df81838bc.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\workers-1950.png",
+      "inputSha256": "f762033ccb50ad55adf38650cbaf43464b99bc17baf35224117a4519775f434a",
+      "outputSha256": "942a08f871d992e8d53a75d0acfb8d9c553a07bd3015637c60e7f6a6b63c86d0",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 935,
+        "height": 1088
+      },
+      "resizedDimensions": {
+        "width": 151,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        3,
+        1236,
+        1214
+      ],
+      "cleanedBbox": [
+        148,
+        108,
+        1083,
+        1196
+      ],
+      "savedBbox": [
+        21,
+        8,
+        172,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 963093,
+        "faint": 25465,
+        "translucent": 607012,
+        "opaque": 2411
+      },
+      "transparentPixelCount": 21589,
+      "removedFaintAlphaPixels": 25465,
+      "opaquePixelCount": 61,
+      "translucentPixelCount": 15214,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 25465,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "airlift-transport-aircraft",
+      "name": "大空輸の輸送機の模式図",
+      "kind": "prop",
+      "subject": "A neutral side-view 1940s four-engine propeller cargo aircraft, plain silver grey fuselage, four radial engine nacelles, broad straight wings, modest transport tail, no markings or insignia, a generic cargo transport rather than a fighter, whole aircraft centered with ample transparent margins",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: A neutral side-view 1940s four-engine propeller cargo aircraft, plain silver grey fuselage, four radial engine nacelles, broad straight wings, modest transport tail, no markings or insignia, a generic cargo transport rather than a fighter, whole aircraft centered with ample transparent margins",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-02ad4e35-2fc9-43f9-96bb-d5acb7978e5b.png",
+      "outputFile": "public/images/modern-c05-l20/airlift-transport-aircraft.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-02ad4e35-2fc9-43f9-96bb-d5acb7978e5b.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\airlift-transport-aircraft.png",
+      "inputSha256": "635fcd51e0badf1174342bbeb90d6644db2eaaed774bd1434e76f659c5f5eeed",
+      "outputSha256": "369417ef8308e7eed3d46913993486d621d75f496a43d783888ac369e66a2e5a",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1418,
+        "height": 470
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 58
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        134,
+        1515,
+        982
+      ],
+      "cleanedBbox": [
+        69,
+        246,
+        1487,
+        716
+      ],
+      "savedBbox": [
+        8,
+        126,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1267942,
+        "faint": 19814,
+        "translucent": 304922,
+        "opaque": 0
+      },
+      "transparentPixelCount": 32516,
+      "removedFaintAlphaPixels": 19814,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 4348,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 19814,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "relief-supplies-crates",
+      "name": "生活物資の模式図",
+      "kind": "prop",
+      "subject": "Three modest closed wooden relief-supply crates with a plain cloth sack and two sealed rectangular food tins, muted brown cream and grey, no text, emblems or flags, whole small stack isolated",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Three modest closed wooden relief-supply crates with a plain cloth sack and two sealed rectangular food tins, muted brown cream and grey, no text, emblems or flags, whole small stack isolated",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d2bbf1c0-47f7-47a3-a140-52fcdf8c281b.png",
+      "outputFile": "public/images/modern-c05-l20/relief-supplies-crates.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d2bbf1c0-47f7-47a3-a140-52fcdf8c281b.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\relief-supplies-crates.png",
+      "inputSha256": "fe985bf7bfd8f93b444bbe69b5b2cf2c49909da55f3ee362cf883d37e2b51592",
+      "outputSha256": "38a080fa5b6484e6b1572765ee64d96346eb9c82a28bc60b6418424713070ae3",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 991,
+        "height": 931
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 165
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        59,
+        76,
+        1214,
+        1254
+      ],
+      "cleanedBbox": [
+        138,
+        208,
+        1129,
+        1139
+      ],
+      "savedBbox": [
+        8,
+        19,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 928677,
+        "faint": 9683,
+        "translucent": 642425,
+        "opaque": 1414
+      },
+      "transparentPixelCount": 16887,
+      "removedFaintAlphaPixels": 9683,
+      "opaquePixelCount": 10,
+      "translucentPixelCount": 19967,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9683,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "postwar-factory",
+      "name": "復興する工場の模式図",
+      "kind": "prop",
+      "subject": "A modest postwar industrial factory around 1950, low red brown brick workshop, grey sawtooth roof, two short neutral chimneys, a small closed loading door, no smoke, logos, people, signs or ground plane, isolated whole building",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: A modest postwar industrial factory around 1950, low red brown brick workshop, grey sawtooth roof, two short neutral chimneys, a small closed loading door, no smoke, logos, people, signs or ground plane, isolated whole building",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-db993d26-3e15-4cfd-a668-6150b460ab4d.png",
+      "outputFile": "public/images/modern-c05-l20/postwar-factory.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-db993d26-3e15-4cfd-a668-6150b460ab4d.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\postwar-factory.png",
+      "inputSha256": "2e425fdebf8041117ec4d9e991cd8b8eded28597cd7bf2ba0533b21040340e7f",
+      "outputSha256": "a8c6c05d652f8ba956244bade65d8fa4b7bcf96a520ec0f93734b32d96436f7e",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 1141,
+        "height": 828
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 128
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        59,
+        53,
+        1207,
+        1212
+      ],
+      "cleanedBbox": [
+        62,
+        186,
+        1203,
+        1014
+      ],
+      "savedBbox": [
+        8,
+        56,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 874646,
+        "faint": 12616,
+        "translucent": 696227,
+        "opaque": 1643
+      },
+      "transparentPixelCount": 20508,
+      "removedFaintAlphaPixels": 12616,
+      "opaquePixelCount": 80,
+      "translucentPixelCount": 16276,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12616,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "research-laboratory",
+      "name": "核開発を読む研究設備の模式図",
+      "kind": "prop",
+      "subject": "A neutral mid-century scientific measurement bench with closed metal instrument box, small round analog gauge, two sealed glass vessels and simple short cables, subdued cream grey teal, no bomb, weapon, diagrams, formulas, text, emblems, sparks or explosion, isolated educational equipment",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: A neutral mid-century scientific measurement bench with closed metal instrument box, small round analog gauge, two sealed glass vessels and simple short cables, subdued cream grey teal, no bomb, weapon, diagrams, formulas, text, emblems, sparks or explosion, isolated educational equipment",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-8fb6b22e-9d6b-48c5-a8fe-cb8a502a2462.png",
+      "outputFile": "public/images/modern-c05-l20/research-laboratory.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-8fb6b22e-9d6b-48c5-a8fe-cb8a502a2462.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\research-laboratory.png",
+      "inputSha256": "600ffb3a7043e2158de0e0a1cbd9a8ca6a30b4dbe5e2a38b57d4ff2d979dae56",
+      "outputSha256": "946005da35be5a68ca911e43ecc967600eb612b9d06889227d6ad99859cd0cd4",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 1103,
+        "height": 682
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 109
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        39,
+        53,
+        1198,
+        1214
+      ],
+      "cleanedBbox": [
+        75,
+        351,
+        1178,
+        1033
+      ],
+      "savedBbox": [
+        8,
+        75,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1134321,
+        "faint": 23332,
+        "translucent": 434268,
+        "opaque": 3927
+      },
+      "transparentPixelCount": 26277,
+      "removedFaintAlphaPixels": 23332,
+      "opaquePixelCount": 197,
+      "translucentPixelCount": 10390,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 23332,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "currency-and-gold",
+      "name": "通貨と金の模式図",
+      "kind": "prop",
+      "subject": "A small restrained educational arrangement of two plain gold ingots, a few blank round coins and three folded unmarked banknotes, muted gold cream green, no numbers, letters, currency signs, logos or luxury framing, isolated whole objects",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: A small restrained educational arrangement of two plain gold ingots, a few blank round coins and three folded unmarked banknotes, muted gold cream green, no numbers, letters, currency signs, logos or luxury framing, isolated whole objects",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-0ff14dd3-bde5-4d38-a630-4e2e6e7b296d.png",
+      "outputFile": "public/images/modern-c05-l20/currency-and-gold.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-0ff14dd3-bde5-4d38-a630-4e2e6e7b296d.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\currency-and-gold.png",
+      "inputSha256": "4d7f55f47f829a67606dd49c85a8f8fe0c11ce7d68de6747d65b2b998ff6421b",
+      "outputSha256": "7336e6763b3dad8629d93c902b12dde007ecb2dbf6b4ea98796b5612ad689271",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 1044,
+        "height": 791
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 133
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        63,
+        53,
+        1202,
+        1182
+      ],
+      "cleanedBbox": [
+        116,
+        247,
+        1160,
+        1038
+      ],
+      "savedBbox": [
+        8,
+        51,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1038340,
+        "faint": 11607,
+        "translucent": 532744,
+        "opaque": 1432
+      },
+      "transparentPixelCount": 22036,
+      "removedFaintAlphaPixels": 11607,
+      "opaquePixelCount": 52,
+      "translucentPixelCount": 14776,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11607,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "dwight-d-eisenhower-1953",
+      "name": "アイゼンハワー",
+      "kind": "person",
+      "subject": "Dwight D. Eisenhower as United States president around 1953, older American man aged sixty-two, broad clean-shaven face and bald head with short grey hair at the sides, restrained dark civilian suit with white shirt and modest tie, closed plain folder, neutral calm full-body standing pose, no military clothing or medals",
+      "prompt": "Use case: historical-scene. Asset type: transparent bitmap sprite for the Japanese W-History educational website. Neutral historical reference, not praise or propaganda. Clear low-resolution Japanese educational RPG pixel art matching the established W-History sprites: visible square pixel clusters, firm dark outlines, restrained warm muted palette with 3 shades per material, readable face and clothing, slight three-quarter front view for people, complete full body with both feet visible. One requested subject only, centered, comfortably within the square with at least ten percent empty transparent margin on every side. No text, letters, flags, crests, insignia, medals, salutes, slogans, background, floor, cast shadow, border, pedestal, glowing effects, weapon use, injury, violence, photograph, smooth vector drawing or anti-aliased edges. Genuine transparent background. Subject: Dwight D. Eisenhower as United States president around 1953, older American man aged sixty-two, broad clean-shaven face and bald head with short grey hair at the sides, restrained dark civilian suit with white shirt and modest tie, closed plain folder, neutral calm full-body standing pose, no military clothing or medals",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-66c00c07-1aef-4404-9eaa-144bc21a4419.png",
+      "outputFile": "public/images/modern-c05-l20/dwight-d-eisenhower-1953.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-66c00c07-1aef-4404-9eaa-144bc21a4419.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l20\\dwight-d-eisenhower-1953.png",
+      "inputSha256": "ad5355010c2f5eca76712d19ec2dac886e1aca84907dabfe3d8cb2017783d0d9",
+      "outputSha256": "6b7369ce0219361bdd9944b4ead3ad7305e64065453f576e84c267393ab35c60",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 464,
+        "height": 1100
+      },
+      "resizedDimensions": {
+        "width": 74,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        97,
+        90,
+        1192,
+        1198
+      ],
+      "cleanedBbox": [
+        376,
+        93,
+        840,
+        1193
+      ],
+      "savedBbox": [
+        59,
+        8,
+        133,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1260973,
+        "faint": 7945,
+        "translucent": 310076,
+        "opaque": 1467
+      },
+      "transparentPixelCount": 29110,
+      "removedFaintAlphaPixels": 7945,
+      "opaquePixelCount": 31,
+      "translucentPixelCount": 7723,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 7945,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    }
+  ],
+  "reused": [
+    {
+      "key": "joseph-stalin",
+      "name": "スターリン",
+      "kind": "person",
+      "image": "modern-c03-l13/joseph-stalin.png",
+      "identity": "person:joseph-stalin",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "franklin-d-roosevelt",
+      "name": "フランクリン＝ローズヴェルト",
+      "kind": "person",
+      "image": "modern-c04-l16/franklin-d-roosevelt.png",
+      "identity": "person:franklin-d-roosevelt",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "winston-churchill",
+      "name": "チャーチル",
+      "kind": "person",
+      "image": "modern-c04-l19/winston-churchill.png",
+      "identity": "person:winston-churchill",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "harry-s-truman",
+      "name": "トルーマン",
+      "kind": "person",
+      "image": "modern-c04-l19/harry-s-truman.png",
+      "identity": "person:harry-s-truman",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "clement-attlee",
+      "name": "アトリー",
+      "kind": "person",
+      "image": "modern-c04-l19/clement-attlee.png",
+      "identity": "person:clement-attlee",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "charles-de-gaulle",
+      "name": "ド＝ゴール",
+      "kind": "person",
+      "image": "modern-c04-l19/charles-de-gaulle.png",
+      "identity": "person:charles-de-gaulle",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "edvard-benes",
+      "name": "ベネシュ",
+      "kind": "person",
+      "image": "modern-c04-l19/edvard-benes.png",
+      "identity": "person:edvard-benes",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "chiang-kai-shek",
+      "name": "蒋介石",
+      "kind": "person",
+      "image": "modern-c04-l16/chiang-kai-shek.png",
+      "identity": "person:chiang-kai-shek",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "beethoven",
+      "name": "ベートーヴェン",
+      "kind": "person",
+      "image": "modern-c01-l06/beethoven.png",
+      "identity": "person:beethoven",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "us-wwii-troops",
+      "name": "米軍主体の一般兵の参照",
+      "kind": "group",
+      "image": "modern-c04-l19/us-wwii-troops.png",
+      "identity": "group:us-wwii-troops",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "refugee-civilians-1937",
+      "name": "戦争の影響を受けた市民の参照",
+      "kind": "group",
+      "image": "modern-c04-l17/refugee-civilians-1937.png",
+      "identity": "group:refugee-civilians-1937",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "wwii-landing-craft",
+      "name": "上陸用舟艇の模式図",
+      "kind": "prop",
+      "image": "modern-c04-l19/wwii-landing-craft.png",
+      "identity": "prop:wwii-landing-craft",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "conference-table",
+      "name": "会議と機関の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/conference-table.png",
+      "identity": "prop:conference-table",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "constitution-document",
+      "name": "制度と政策の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/constitution-document.png",
+      "identity": "prop:constitution-document",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "treaty-document",
+      "name": "外交と合意の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/treaty-document.png",
+      "identity": "prop:treaty-document",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "calendar",
+      "name": "年代の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/calendar.png",
+      "identity": "prop:calendar",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    },
+    {
+      "key": "ballot-box",
+      "name": "投票の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/ballot-box.png",
+      "identity": "prop:ballot-box",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人または一般的な役割の模式図。国籍から居所を推定せず、過去の人物と現在の役割を区別する。"
+    }
+  ],
+  "contactSheet": "docs/modern-lesson-20/contact-sheet.png"
+}

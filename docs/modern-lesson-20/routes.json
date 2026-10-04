@@ -1,0 +1,575 @@
+[
+  {
+    "scene": "modern-c05-l20-p02-017",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        23,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ギリシアへの経済・軍事援助",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      195
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p02-017",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        35,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "トルコへの経済・軍事援助",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      195
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p02-020",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        6,
+        50.5
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "西ヨーロッパへの復興援助",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      197
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p02-033",
+    "kind": "rival",
+    "points": [
+      [
+        60,
+        55
+      ],
+      [
+        20,
+        41
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ソ連によるアルバニア支援",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      236
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p02-034",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        20,
+        44
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ユーゴへのアメリカの援助",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      236
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p02-037",
+    "kind": "rival",
+    "points": [
+      [
+        -2,
+        54
+      ],
+      [
+        2,
+        47
+      ],
+      [
+        5.3,
+        52.3
+      ],
+      [
+        4.5,
+        50.8
+      ],
+      [
+        6.1,
+        49.8
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "英仏・ベネルクス三国の軍事同盟",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      238
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p02-040",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        -70,
+        -15
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "米州の反共同盟と連携",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      240
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p03-022",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        6,
+        50.5
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "NATOによるアメリカと西欧の連携",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      339
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p04-011",
+    "kind": "rival",
+    "points": [
+      [
+        105,
+        35
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "中ソ友好同盟相互援助条約",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      408,
+      414
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p04-036",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        122,
+        12
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "米比相互防衛条約",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      481,
+      487
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p04-036",
+    "kind": "rival",
+    "points": [
+      [
+        134,
+        -25
+      ],
+      [
+        173,
+        -41
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ANZUSの豪州・ニュージーランド・米国",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      481,
+      487
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p04-037",
+    "kind": "rival",
+    "points": [
+      [
+        138,
+        37
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "日米安全保障条約",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      481,
+      487
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p04-038",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        128,
+        36
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "米韓相互防衛条約",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      481,
+      487
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p04-039",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        121,
+        23.7
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "米華相互防衛条約の米国・台湾の関係",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      481,
+      487
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p05-013",
+    "kind": "rival",
+    "points": [
+      [
+        134,
+        -25
+      ],
+      [
+        173,
+        -41
+      ],
+      [
+        -98,
+        39
+      ],
+      [
+        -2,
+        54
+      ],
+      [
+        2,
+        47
+      ],
+      [
+        122,
+        12
+      ],
+      [
+        101,
+        15
+      ],
+      [
+        69,
+        29
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "SEATOの加盟国の連携",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      481,
+      487,
+      533
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p05-017",
+    "kind": "rival",
+    "points": [
+      [
+        8,
+        50.5
+      ],
+      [
+        15,
+        50
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "西ドイツのNATO加盟の決定",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      533
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p05-018",
+    "kind": "rival",
+    "points": [
+      [
+        -2,
+        54
+      ],
+      [
+        35,
+        39
+      ],
+      [
+        44,
+        33
+      ],
+      [
+        54,
+        32
+      ],
+      [
+        69,
+        29
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "英国主導のMETOの加盟国",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      533
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p05-020",
+    "kind": "rival",
+    "points": [
+      [
+        60,
+        55
+      ],
+      [
+        27,
+        49
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ソ連と東欧の軍事同盟",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      537
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p05-030",
+    "kind": "rival",
+    "points": [
+      [
+        79,
+        22
+      ],
+      [
+        105,
+        35
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ネルー・周恩来の平和五原則",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      560
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p05-034",
+    "kind": "rival",
+    "points": [
+      [
+        8,
+        50.5
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "西ドイツとソ連の国交回復",
+    "reason": "本文に明記された援助・条約・加盟・外交の静的な関係。人・物資・軍の実際の移動とは分ける。",
+    "evidenceLines": [
+      578
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p04-009",
+    "kind": "move",
+    "points": [
+      [
+        105,
+        35
+      ],
+      [
+        121,
+        23.7
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文の中国本土から台湾への逃亡。出発都市・港・手段・航路は補わない。",
+    "evidenceLines": [
+      408,
+      414
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p04-013",
+    "kind": "campaign",
+    "points": [
+      [
+        127.5,
+        40
+      ],
+      [
+        127.5,
+        38
+      ],
+      [
+        128,
+        36
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文の北緯38度線を越える侵攻。地域の代表点と緯度の概略で、基地と軍道は復元しない。",
+    "evidenceLines": [
+      418
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p04-014",
+    "kind": "campaign",
+    "points": [
+      [
+        128,
+        36
+      ],
+      [
+        129.08,
+        35.18
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文の釜山までの侵攻を概略方向で示す。市街の完全占領や部隊の詳細は補わない。",
+    "evidenceLines": [
+      418
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p04-019",
+    "kind": "campaign",
+    "points": [
+      [
+        126.62,
+        37.46
+      ],
+      [
+        126.98,
+        37.57
+      ],
+      [
+        127.5,
+        40
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文の仁川上陸・ソウル奪還・中国国境方向への北上。直前段落の北朝鮮の地域代表点は越境や具体的な到達地を表さない。",
+    "evidenceLines": [
+      431
+    ]
+  },
+  {
+    "scene": "modern-c05-l20-p04-023",
+    "kind": "campaign",
+    "points": [
+      [
+        127.5,
+        40
+      ],
+      [
+        125.75,
+        39.04
+      ],
+      [
+        126.98,
+        37.57
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "本文の平壌奪還と再度のソウル占領。北朝鮮の地域代表点からの概略方向で、中国内の出発基地や渡河地点は補わない。",
+    "evidenceLines": [
+      431
+    ]
+  }
+]
