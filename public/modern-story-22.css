@@ -1,0 +1,11 @@
+/* 人物の集団・航空機・道具・施設は縦横比を保って模式欄に示す。 */
+.modern-story .illustration-figure-wide img {
+  width: min(100%, 256px);
+  height: 192px;
+  object-fit: contain;
+}
+
+/* 原書の二重線を、明暗どちらでも本文と同じ色で読めるようにする。 */
+.modern-story [data-source-marker="double-line"] {
+  border-bottom-color: currentColor !important;
+}

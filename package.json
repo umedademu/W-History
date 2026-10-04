@@ -1,6 +1,6 @@
 {
   "name": "w-history",
-  "version": "0.131",
+  "version": "0.132",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
     "build": "node scripts/check.mjs --published",
     "build:map": "node scripts/build-timur-map.mjs",
     "check:browser": "node scripts/check-map-name-browser.mjs",
-    "build:source": "node scripts/build-ancient-edition.mjs && node scripts/build-source-edition.mjs && node scripts/build-chapter-02.mjs && node scripts/build-chapter-03.mjs && node scripts/build-chapter-04.mjs && node scripts/build-chapter-05.mjs && node scripts/build-chapter-07.mjs && node scripts/build-modern-lesson-01.mjs && node scripts/build-modern-lesson-02.mjs && node scripts/build-modern-lesson-03.mjs && node scripts/build-modern-lesson-04.mjs && node scripts/build-modern-lesson-05.mjs && node scripts/build-modern-lesson-06.mjs && node scripts/build-modern-lesson-07.mjs && node scripts/build-modern-lesson-08.mjs && node scripts/build-modern-lesson-09.mjs && node scripts/build-modern-lesson-10.mjs && node scripts/build-modern-lesson-11.mjs && node scripts/build-modern-lesson-12.mjs && node scripts/build-modern-lesson-13.mjs && node scripts/build-modern-lesson-14.mjs && node scripts/build-modern-lesson-15.mjs && node scripts/build-modern-lesson-16.mjs && node scripts/build-modern-lesson-17.mjs && node scripts/build-modern-lesson-18.mjs && node scripts/build-modern-lesson-19.mjs && node scripts/build-modern-lesson-20.mjs && node scripts/build-modern-lesson-21.mjs && node scripts/build-book-library.mjs",
+    "build:source": "node scripts/build-ancient-edition.mjs && node scripts/build-source-edition.mjs && node scripts/build-chapter-02.mjs && node scripts/build-chapter-03.mjs && node scripts/build-chapter-04.mjs && node scripts/build-chapter-05.mjs && node scripts/build-chapter-07.mjs && node scripts/build-modern-lesson-01.mjs && node scripts/build-modern-lesson-02.mjs && node scripts/build-modern-lesson-03.mjs && node scripts/build-modern-lesson-04.mjs && node scripts/build-modern-lesson-05.mjs && node scripts/build-modern-lesson-06.mjs && node scripts/build-modern-lesson-07.mjs && node scripts/build-modern-lesson-08.mjs && node scripts/build-modern-lesson-09.mjs && node scripts/build-modern-lesson-10.mjs && node scripts/build-modern-lesson-11.mjs && node scripts/build-modern-lesson-12.mjs && node scripts/build-modern-lesson-13.mjs && node scripts/build-modern-lesson-14.mjs && node scripts/build-modern-lesson-15.mjs && node scripts/build-modern-lesson-16.mjs && node scripts/build-modern-lesson-17.mjs && node scripts/build-modern-lesson-18.mjs && node scripts/build-modern-lesson-19.mjs && node scripts/build-modern-lesson-20.mjs && node scripts/build-modern-lesson-21.mjs && node scripts/build-modern-lesson-22.mjs && node scripts/build-book-library.mjs",
     "check:ancient": "node scripts/check-ancient-source.mjs",
     "check:ancient:browser": "node scripts/check-ancient-browser.mjs",
     "check:source:browser": "node scripts/check-source-browser.mjs",
@@ -57,7 +57,9 @@
     "check:modern:20": "node scripts/check-modern-lesson-20.mjs && node scripts/check-modern-visuals-20.mjs",
     "check:modern:20:browser": "node scripts/check-modern-browser-20.mjs",
     "check:modern:21": "node scripts/check-modern-lesson-21.mjs && node scripts/check-modern-visuals-21.mjs",
-    "check:modern:21:browser": "node scripts/check-modern-browser-21.mjs"
+    "check:modern:21:browser": "node scripts/check-modern-browser-21.mjs",
+    "check:modern:22": "node scripts/check-modern-lesson-22.mjs && node scripts/check-modern-visuals-22.mjs",
+    "check:modern:22:browser": "node scripts/check-modern-browser-22.mjs"
   },
   "devDependencies": {
     "playwright": "1.63.0"

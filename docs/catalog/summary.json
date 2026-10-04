@@ -1,7 +1,7 @@
 {
-  "version": "0.131",
-  "parts": 218,
-  "pages": 4105,
+  "version": "0.132",
+  "parts": 222,
+  "pages": 4337,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 90,
-      "pages": 3092,
+      "parts": 94,
+      "pages": 3324,
       "chapters": [
         {
           "chapter": 1,
@@ -3186,6 +3186,10 @@
             {
               "lesson": 21,
               "title": "冷戦の展開②（1956〜1969）"
+            },
+            {
+              "lesson": 22,
+              "title": "冷戦の展開③（1970〜1991）"
             }
           ],
           "volumes": [
@@ -3260,6 +3264,38 @@
               "lesson": 21,
               "part": 4,
               "pages": 87
+            },
+            {
+              "id": "modern-c05-l22-p01",
+              "label": "アメリカ合衆国の地位低下",
+              "number": "10",
+              "lesson": 22,
+              "part": 1,
+              "pages": 47
+            },
+            {
+              "id": "modern-c05-l22-p02",
+              "label": "デタント（緊張緩和）の進行と世界の多極化",
+              "number": "11",
+              "lesson": 22,
+              "part": 2,
+              "pages": 43
+            },
+            {
+              "id": "modern-c05-l22-p03",
+              "label": "米ソの行き詰まりと「新冷戦」",
+              "number": "12",
+              "lesson": 22,
+              "part": 3,
+              "pages": 73
+            },
+            {
+              "id": "modern-c05-l22-p04",
+              "label": "冷戦の終結とソ連の崩壊",
+              "number": "13",
+              "lesson": 22,
+              "part": 4,
+              "pages": 69
             }
           ]
         }

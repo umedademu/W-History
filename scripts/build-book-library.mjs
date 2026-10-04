@@ -60,7 +60,7 @@ for(const chapter of bookCollections[1].chapters)for(const v of chapter.volumes)
   const html=base
     .replace(/<title>[\s\S]*?<\/title>/,`<title>${escape(v.label)}｜近代・現代 第${v.lesson}回 ${v.part}｜地図でたどる世界史</title>`)
     .replace(/<meta name="description"[^>]*>/,`<meta name="description" content="近代・現代 第${v.lesson}回 ${escape(lesson.title)}。第${v.part}節 ${escape(v.label)}。原文に沿う全${pages}場面と地図・図表・補足。" />`)
-    .replace(/\s*<link rel="stylesheet" href="\/islam-origin-story.css[^>]*>/,`\n  <link rel="stylesheet" href="/modern-story.css?v=${version}" />${[15,16,17,18,19,20,21].includes(v.lesson)?`\n  <link rel="stylesheet" href="/modern-story-${v.lesson}.css?v=${version}" />`:''}`)
+    .replace(/\s*<link rel="stylesheet" href="\/islam-origin-story.css[^>]*>/,`\n  <link rel="stylesheet" href="/modern-story.css?v=${version}" />${[15,16,17,18,19,20,21,22].includes(v.lesson)?`\n  <link rel="stylesheet" href="/modern-story-${v.lesson}.css?v=${version}" />`:''}`)
     .replace(/<script src="\/islam-origin-story.js[^>]*><\/script>/,`<script src="/modern-story.js?v=${version}" type="module"></script>`)
     .replace('restored-story islam-origin-story','restored-story modern-story')
     .replaceAll('アラビア半島の隊商ルート',escape(v.label))
@@ -81,12 +81,12 @@ const chapterList=(chapters,prefix)=>chapters.map(c=>{
     return `\n<section class="lesson-group"${prefix ? ` data-lesson="${l.lesson}"` : ''} aria-labelledby="${prefix}lesson-${l.lesson}">\n<h3 id="${prefix}lesson-${l.lesson}">第${l.lesson}回 ${escape(l.title)}</h3>\n<ol class="lesson-parts">\n${volumes.map(v=>`<li><a class="part-link" href="/${v.id}-story.html">${escape(v.label)}</a></li>`).join('\n')}\n</ol>\n</section>`;
   }).join('')}\n</div>\n</details>`;
 }).join('\n');
-const collection=`<div class="book-tabs" data-book-tabs role="tablist" aria-label="読む巻を選ぶ" hidden>${bookCollections.map(book=>`<button type="button" id="${book.id}-tab" role="tab" aria-selected="${book.id==='ancient'}" aria-controls="${book.id}-book" data-book-tab="${book.id}">${book.title}</button>`).join('')}</div>\n`+bookCollections.map(book=>`<section class="book-panel" id="${book.id}-book" data-book-panel="${book.id}" role="tabpanel" aria-labelledby="${book.id}-tab">\n<h2 class="book-heading">${book.title}</h2><p class="book-description">${book.id==='ancient'?'全7章・30回を収録しています。':'第1〜21回を収録しています。'}</p>\n<!-- collection:${book.id}:start -->\n${chapterList(book.chapters,book.id==='ancient'?'':'modern-')}\n<!-- collection:${book.id}:end -->\n</section>`).join('\n');
+const collection=`<div class="book-tabs" data-book-tabs role="tablist" aria-label="読む巻を選ぶ" hidden>${bookCollections.map(book=>`<button type="button" id="${book.id}-tab" role="tab" aria-selected="${book.id==='ancient'}" aria-controls="${book.id}-book" data-book-tab="${book.id}">${book.title}</button>`).join('')}</div>\n`+bookCollections.map(book=>`<section class="book-panel" id="${book.id}-book" data-book-panel="${book.id}" role="tabpanel" aria-labelledby="${book.id}-tab">\n<h2 class="book-heading">${book.title}</h2><p class="book-description">${book.id==='ancient'?'全7章・30回を収録しています。':'第1〜22回を収録しています。'}</p>\n<!-- collection:${book.id}:start -->\n${chapterList(book.chapters,book.id==='ancient'?'':'modern-')}\n<!-- collection:${book.id}:end -->\n</section>`).join('\n');
 let catalog=await read('public/index.html');
 const block=`<!-- book-collection:start -->\n${collection}\n<!-- book-collection:end -->\n    `;
 assert.ok(catalog.includes('<!-- book-collection:start -->')&&catalog.includes('<!-- book-collection:end -->'),'目次の生成範囲が必要');
 catalog=catalog.replace(/<!-- book-collection:start -->[\s\S]*?<!-- book-collection:end -->\s*/,block);
-catalog=catalog.replace(/<meta name="description"[^>]*>/,`<meta name="description" content="W-Historyの教材目次。古代・中世・近世と近代・現代を選び、章・回・節から学べます。近代・現代は第1〜21回を収録。" />`);
+catalog=catalog.replace(/<meta name="description"[^>]*>/,`<meta name="description" content="W-Historyの教材目次。古代・中世・近世と近代・現代を選び、章・回・節から学べます。近代・現代は第1〜22回を収録。" />`);
 await write('public/index.html',catalog);
 await write('docs/catalog/summary.json',JSON.stringify({version,parts:count,pages:total,chapters:summary,collections},null,2)+'\n');
 console.log(`2巻・${count}パート・${total}場面の入口と一覧を生成しました。`);
