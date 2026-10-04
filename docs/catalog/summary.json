@@ -1,7 +1,7 @@
 {
-  "version": "0.126",
-  "parts": 199,
-  "pages": 3024,
+  "version": "0.127",
+  "parts": 203,
+  "pages": 3191,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 71,
-      "pages": 2011,
+      "parts": 75,
+      "pages": 2178,
       "chapters": [
         {
           "chapter": 1,
@@ -2958,6 +2958,10 @@
             {
               "lesson": 16,
               "title": "戦間期の西アジア・南アジア・東南アジア"
+            },
+            {
+              "lesson": 17,
+              "title": "戦間期の東アジア"
             }
           ],
           "volumes": [
@@ -3080,6 +3084,38 @@
               "lesson": 16,
               "part": 4,
               "pages": 47
+            },
+            {
+              "id": "modern-c04-l17-p01",
+              "label": "新文化運動と五・四運動",
+              "number": "16",
+              "lesson": 17,
+              "part": 1,
+              "pages": 30
+            },
+            {
+              "id": "modern-c04-l17-p02",
+              "label": "孫文の国民革命と北伐",
+              "number": "17",
+              "lesson": 17,
+              "part": 2,
+              "pages": 62
+            },
+            {
+              "id": "modern-c04-l17-p03",
+              "label": "日本の侵略と国共内戦",
+              "number": "18",
+              "lesson": 17,
+              "part": 3,
+              "pages": 40
+            },
+            {
+              "id": "modern-c04-l17-p04",
+              "label": "日中戦争",
+              "number": "19",
+              "lesson": 17,
+              "part": 4,
+              "pages": 35
             }
           ]
         }

@@ -1,4 +1,4 @@
-import {modernEdition} from './modern-c02-l07-edition.js?v=0.126';
+import {modernEdition} from './modern-c02-l07-edition.js?v=0.127';
 // 原文と装飾を保持し、本人・役割・制度・独立コラムを分けて説明する。
 export const modernVisualAssetCatalog=[
   {

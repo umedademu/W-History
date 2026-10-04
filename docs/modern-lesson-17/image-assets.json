@@ -1,0 +1,2692 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "version": "0.127",
+  "lesson": "modern-c04-l17",
+  "description": "戦間期の東アジアの思想・国民革命・軍事行動と内戦を読むドット絵。本人・一般集団・道具と制度、回想と戦後を分ける。",
+  "totals": {
+    "requestedAssets": 35,
+    "new": 35,
+    "newPeople": 23,
+    "newGroups": 8,
+    "newPropsAndBuildings": 4,
+    "nativeGenerated": 0,
+    "fallbackGenerated": 35,
+    "reused": 18,
+    "used": 53,
+    "unavailablePortraits": 0
+  },
+  "authorization": "指定のAntigravity CLI経由でGemini 3.8 Flashへ画像生成と寸法調整を依頼した。3分の時間切れで画像を取得できず、以前の利用者による別の画像生成ツールでの続行承認に基づき組み込み画像生成で35点を制作した。今回Geminiが作成した寸法調整用プログラムは取得でき、変更せず実行した。",
+  "nativeRequests": [
+    {
+      "name": "native-assets",
+      "prompt": "W-History第17回「戦間期の東アジア」用のドット絵を制作してください。Gemini 3.8 Flash指定です。\nまず実際の画像生成機能を利用できるか確認してください。可能なら、1934〜1935年の長征の時期の中国紅軍の一般兵2人を1枚の透過PNGとして生成してください。特定の指導者ではありません。灰色の簡素な綿の軍服と小さな布の制帽、巻脚絆、背負った小さな布の荷物、全身の立ち姿。人物の間を少し離し、学習用の模式図として小さな色の面と輪郭の読めるドット絵にしてください。文字・旗・背景・地図・床・影・写真風・攻撃動作は不要です。画像の生成が使えなければ、できないことを明示し、コードやSVGで代用品を作らないでください。\n画風は C:/Users/USER/Desktop/W-History/public/images/modern-c04-l16/greek-troops-1919.png と C:/Users/USER/Desktop/W-History/public/images/modern-c03-l13/russian-wwi-soldiers.png を参考にしてください。参考画像は変更せず、現在の作業フォルダに chinese-red-army-native.png として保存してください。\n生成画像を192画素の透過PNGへ揃える normalize-sprites.py も現在の作業フォルダに作成してください。generated-inputs.json のkeyとinputPathを読み、元画像を保存したまま、アルファが16未満の薄い雑音のみ0にした上で、見える範囲を切り出して、縦横比を保った最近傍法で最大176×176へ収め、透過192×192の中央96・足元184へ置いて C:/Users/USER/Desktop/W-History/public/images/modern-c04-l17/ の各 key.png に保存します。元と出力のSHA256・描画範囲・透過・寸法・重複を normalization-report.json へ記録し、5列の確認一覧 contact-sheet.png を現在の作業フォルダに作成してください。画像が未生成なら処理は実行せず、プログラムだけ作成します。\nsourcesフォルダは参照専用です。全ファイルを一切編集しないでください。ほかの教材や既存の表示用画像も編集しないでください。\n",
+      "response": {
+        "conversation_id": "c4fc69c8-478c-4802-86cf-c7df6202548e",
+        "status": "SUCCESS",
+        "response": "",
+        "duration_seconds": 179.9934873,
+        "num_turns": 1,
+        "usage": {
+          "input_tokens": 285414,
+          "output_tokens": 18784,
+          "thinking_tokens": 9844,
+          "cache_read_tokens": 964320,
+          "total_tokens": 304198
+        }
+      },
+      "logEvidence": "[agy] print timeout after 3m0s with turn in progress; returning partial output",
+      "verifiedGeneratedOutput": false,
+      "verifiedNormalizationScript": true
+    }
+  ],
+  "unavailable": [],
+  "generationModels": {
+    "nativeRequest": "Gemini 3.8 Flash / Antigravity CLI",
+    "fallback": "組み込み画像生成ツール。内部のモデル名は返されない。"
+  },
+  "normalization": {
+    "requestedVia": "Antigravity CLI / Gemini 3.8 Flash",
+    "performed": "今回Geminiが作成したnormalize-sprites.pyを変更せず使用。入力一覧と出力先を引数で渡した。人物や道具は描き替えない。",
+    "program": "docs/modern-lesson-17/normalize-sprites.py",
+    "completed": 35,
+    "failed": 0,
+    "canvas": [
+      192,
+      192
+    ],
+    "subjectMaximum": [
+      176,
+      176
+    ],
+    "centerX": 96,
+    "bottomY": 184,
+    "resampling": "最近傍、縦横比保持。",
+    "alphaCleanup": "16未満のごく薄いアルファ値のみ0へ調整。RGBと元画像を保持する。",
+    "scriptSha256": "f441ff6b9fbadc157d3b260267b49c0095b5437090f44aef4e930c73f4e2b392"
+  },
+  "appearanceReview": {
+    "status": "新作35点の一覧を目視済み。全167場面の668回表示を確認。主要15場面・明暗両方の90画像を撮影し、主要箇所の顔・服装・役割・収まりと図を目視確認した。",
+    "portraits": "当時の役割と特徴を踏まえた学習用の模式図。精密な肖像・軍装・実物の復元ではない。",
+    "roles": "文学者と政治家、宋家の姉妹と宋子文、指導者と一般兵、1920年代の赤軍と1939年の戦車、回想と戦後の関連説明を分ける。",
+    "validation": "docs/modern-lesson-17/validation.json"
+  },
+  "assets": [
+    {
+      "key": "chen-duxiu",
+      "name": "陳独秀",
+      "kind": "person",
+      "subject": "Chen Duxiu around 1921, Chinese intellectual about forty-two, broad face with a small neat dark moustache, short black hair, modest dark early twentieth century long changshan robe, closed plain journal, calm full-body stance.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、陳独秀の透過ドット絵。\nSubject: Chen Duxiu around 1921, Chinese intellectual about forty-two, broad face with a small neat dark moustache, short black hair, modest dark early twentieth century long changshan robe, closed plain journal, calm full-body stance.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-dfa65422-9de7-4546-bd03-ef14f9a8769a.png",
+      "outputFile": "public/images/modern-c04-l17/chen-duxiu.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-dfa65422-9de7-4546-bd03-ef14f9a8769a.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\chen-duxiu.png",
+      "inputSha256": "9cce49db489fdb01cb73b6ecc3435bbfb9e9ad1c3a9648b94820637b1236c07b",
+      "outputSha256": "d31c64aa58529e0fb62dad4559177fb090810815807ba8961db114c44971f7c5",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 456,
+        "height": 1322
+      },
+      "resizedDimensions": {
+        "width": 61,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        66,
+        1010,
+        1472
+      ],
+      "cleanedBbox": [
+        279,
+        146,
+        735,
+        1468
+      ],
+      "savedBbox": [
+        66,
+        8,
+        127,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1155134,
+        "faint": 10271,
+        "translucent": 417730,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29567,
+      "removedFaintAlphaPixels": 10271,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7297,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10271,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "hu-shih",
+      "name": "胡適",
+      "kind": "person",
+      "subject": "Hu Shih around 1919, young Chinese scholar about twenty-eight, round wire spectacles, clean-shaven face, short side-parted black hair, restrained dark Western three-piece suit with pale shirt and tie, closed plain manuscript.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、胡適の透過ドット絵。\nSubject: Hu Shih around 1919, young Chinese scholar about twenty-eight, round wire spectacles, clean-shaven face, short side-parted black hair, restrained dark Western three-piece suit with pale shirt and tie, closed plain manuscript.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-ed6908d9-e7b1-4ca6-9873-b9340132a12c.png",
+      "outputFile": "public/images/modern-c04-l17/hu-shih.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-ed6908d9-e7b1-4ca6-9873-b9340132a12c.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\hu-shih.png",
+      "inputSha256": "6f44b7ee1b6773137e8cf521db6c7c8738a930747aa6866766d02fcc78b10917",
+      "outputSha256": "cc67824648c0a433482ba86dd942be1f91fca6eb17f461e1fc51aa266ba9e098",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 466,
+        "height": 1308
+      },
+      "resizedDimensions": {
+        "width": 63,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        169,
+        36,
+        868,
+        1520
+      ],
+      "cleanedBbox": [
+        270,
+        124,
+        736,
+        1432
+      ],
+      "savedBbox": [
+        65,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1214201,
+        "faint": 10690,
+        "translucent": 358663,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30520,
+      "removedFaintAlphaPixels": 10690,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6344,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10690,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "lu-xun",
+      "name": "魯迅",
+      "kind": "person",
+      "subject": "Lu Xun around 1920, Chinese writer about forty, short upright black hair, conspicuous compact dark brush moustache, lean face, plain charcoal long Chinese changshan robe, small closed notebook, calm full-body civilian pose.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、魯迅の透過ドット絵。\nSubject: Lu Xun around 1920, Chinese writer about forty, short upright black hair, conspicuous compact dark brush moustache, lean face, plain charcoal long Chinese changshan robe, small closed notebook, calm full-body civilian pose.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-48d62fd5-19fd-4ca4-9d73-9522f818de5c.png",
+      "outputFile": "public/images/modern-c04-l17/lu-xun.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-48d62fd5-19fd-4ca4-9d73-9522f818de5c.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\lu-xun.png",
+      "inputSha256": "4c223263b748c605f6e725b3cdcc9dbb47bcd7a89f58ef53cea6f4afa7ff336f",
+      "outputSha256": "87e1641e99b5fad65187a42f8122eac2d608a38932c4fbde57108709dbd3f95d",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 447,
+        "height": 1306
+      },
+      "resizedDimensions": {
+        "width": 60,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        37,
+        718,
+        1449
+      ],
+      "cleanedBbox": [
+        267,
+        137,
+        714,
+        1443
+      ],
+      "savedBbox": [
+        66,
+        8,
+        126,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1173192,
+        "faint": 10805,
+        "translucent": 399672,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29802,
+      "removedFaintAlphaPixels": 10805,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7062,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10805,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "li-dazhao",
+      "name": "李大釗",
+      "kind": "person",
+      "subject": "Li Dazhao around 1920, sturdy Chinese intellectual about thirty-one, round wire spectacles, dark moustache and short neat black beard, plain dark long changshan robe and modest black cloth shoes, closed book.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、李大釗の透過ドット絵。\nSubject: Li Dazhao around 1920, sturdy Chinese intellectual about thirty-one, round wire spectacles, dark moustache and short neat black beard, plain dark long changshan robe and modest black cloth shoes, closed book.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-04999147-ac89-44c9-8759-de8b16ea9b33.png",
+      "outputFile": "public/images/modern-c04-l17/li-dazhao.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-04999147-ac89-44c9-8759-de8b16ea9b33.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\li-dazhao.png",
+      "inputSha256": "b662ca702bb91baf1796a31e54203a7755d703979636087d177d6d5291c3a9a4",
+      "outputSha256": "4275dc79502242a857eda940b7d3c059623f0f41d35171ccbf21bd78e64c1cef",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 508,
+        "height": 1361
+      },
+      "resizedDimensions": {
+        "width": 66,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        17,
+        944,
+        1474
+      ],
+      "cleanedBbox": [
+        271,
+        111,
+        779,
+        1472
+      ],
+      "savedBbox": [
+        63,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1099108,
+        "faint": 11255,
+        "translucent": 473756,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29107,
+      "removedFaintAlphaPixels": 11255,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7757,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11255,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "duan-qirui",
+      "name": "段祺瑞",
+      "kind": "person",
+      "subject": "Duan Qirui around 1919, mature Chinese statesman about fifty-four, neat short dark moustache, khaki early Republican officer tunic and restrained peaked cap, dark trousers and leather boots, neutral standing stance.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、段祺瑞の透過ドット絵。\nSubject: Duan Qirui around 1919, mature Chinese statesman about fifty-four, neat short dark moustache, khaki early Republican officer tunic and restrained peaked cap, dark trousers and leather boots, neutral standing stance.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-adafc371-bb1d-478e-b7b7-37c57f2c2fdb.png",
+      "outputFile": "public/images/modern-c04-l17/duan-qirui.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-adafc371-bb1d-478e-b7b7-37c57f2c2fdb.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\duan-qirui.png",
+      "inputSha256": "29560eddf10441e94d170542404427cbe05c47703ee754c65e1c9c7f0a40903b",
+      "outputSha256": "bc1a7dbfb7ad795bb8a7627277fdca84c4787458ec58a100db263b95e02fc1a5",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 454,
+        "height": 1261
+      },
+      "resizedDimensions": {
+        "width": 63,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        67,
+        880,
+        1464
+      ],
+      "cleanedBbox": [
+        289,
+        172,
+        743,
+        1433
+      ],
+      "savedBbox": [
+        65,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1209698,
+        "faint": 15005,
+        "translucent": 363166,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30140,
+      "removedFaintAlphaPixels": 15005,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6724,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15005,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "lev-karakhan",
+      "name": "カラハン",
+      "kind": "person",
+      "subject": "Lev Karakhan around 1919, Soviet diplomat in his thirties, short dark hair with a side part, dark narrow moustache, restrained early twentieth century civilian dark suit, white shirt and tie, closed diplomatic paper.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、カラハンの透過ドット絵。\nSubject: Lev Karakhan around 1919, Soviet diplomat in his thirties, short dark hair with a side part, dark narrow moustache, restrained early twentieth century civilian dark suit, white shirt and tie, closed diplomatic paper.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a1a80511-8989-4312-90e4-362be3b7165d.png",
+      "outputFile": "public/images/modern-c04-l17/lev-karakhan.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a1a80511-8989-4312-90e4-362be3b7165d.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\lev-karakhan.png",
+      "inputSha256": "96610068eb60784d835a1d12d9ae88d8bdbb6cb445d479af359970d39804fd84",
+      "outputSha256": "3535902eaa32cc4b04c39cd9349042d6ead3ed8de03bc0339e82f46fdd3e6278",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 477,
+        "height": 1309
+      },
+      "resizedDimensions": {
+        "width": 64,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        279,
+        67,
+        944,
+        1472
+      ],
+      "cleanedBbox": [
+        291,
+        151,
+        768,
+        1460
+      ],
+      "savedBbox": [
+        64,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1189860,
+        "faint": 9952,
+        "translucent": 383004,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30120,
+      "removedFaintAlphaPixels": 9952,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6744,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9952,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "choibalsan",
+      "name": "チョイバルサン",
+      "kind": "person",
+      "subject": "Khorloogiin Choibalsan around 1924, young Mongolian man about twenty-nine, clean-shaven broad face, short dark hair, simple muted olive Mongolian deel coat with a plain dark belt and trousers, black boots, calm full-body pose, no later medals.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、チョイバルサンの透過ドット絵。\nSubject: Khorloogiin Choibalsan around 1924, young Mongolian man about twenty-nine, clean-shaven broad face, short dark hair, simple muted olive Mongolian deel coat with a plain dark belt and trousers, black boots, calm full-body pose, no later medals.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c7de622f-482b-4d28-862e-8d9533c1610a.png",
+      "outputFile": "public/images/modern-c04-l17/choibalsan.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c7de622f-482b-4d28-862e-8d9533c1610a.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\choibalsan.png",
+      "inputSha256": "bdd500e642085d5789755f566704a08680ed736a2ed9f3534af9088b05121383",
+      "outputSha256": "692c75eaf6d3b44c247dc0e9ba84082cbd6367ab614a6cb0adb8301080fdc15f",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 445,
+        "height": 1260
+      },
+      "resizedDimensions": {
+        "width": 62,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        67,
+        940,
+        1512
+      ],
+      "cleanedBbox": [
+        304,
+        172,
+        749,
+        1432
+      ],
+      "savedBbox": [
+        65,
+        8,
+        127,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1194191,
+        "faint": 12605,
+        "translucent": 378673,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29704,
+      "removedFaintAlphaPixels": 12605,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7160,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12605,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "adolf-joffe",
+      "name": "ヨッフェ",
+      "kind": "person",
+      "subject": "Adolf Joffe around 1923, Soviet diplomat about forty, round spectacles, dark moustache and small neat beard, receding dark hair, restrained dark Western civilian suit and waistcoat, folded plain diplomatic paper.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、ヨッフェの透過ドット絵。\nSubject: Adolf Joffe around 1923, Soviet diplomat about forty, round spectacles, dark moustache and small neat beard, receding dark hair, restrained dark Western civilian suit and waistcoat, folded plain diplomatic paper.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-f10dc552-4fb5-49a9-9254-e80341a24394.png",
+      "outputFile": "public/images/modern-c04-l17/adolf-joffe.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-f10dc552-4fb5-49a9-9254-e80341a24394.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\adolf-joffe.png",
+      "inputSha256": "9c343281f73a968fac8ffebf85e9e221b897bab811a3fa1e1a8431670279518c",
+      "outputSha256": "9f5a8ffeccb65cca7cc07e0e7d66ede88a234358f7b28777e2b43eb21288ffc4",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 537,
+        "height": 1310
+      },
+      "resizedDimensions": {
+        "width": 72,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        130,
+        962,
+        1536
+      ],
+      "cleanedBbox": [
+        241,
+        133,
+        778,
+        1443
+      ],
+      "savedBbox": [
+        60,
+        8,
+        132,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1154276,
+        "faint": 11590,
+        "translucent": 418588,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29553,
+      "removedFaintAlphaPixels": 11590,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7311,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11590,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "zhou-enlai-1930",
+      "name": "周恩来",
+      "kind": "person",
+      "subject": "Zhou Enlai around 1936, young Chinese man about thirty-eight, slim clean-shaven oval face, neat side-parted black hair, plain grey Zhongshan jacket and trousers, dark cloth shoes, neutral full-body pose.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、周恩来の透過ドット絵。\nSubject: Zhou Enlai around 1936, young Chinese man about thirty-eight, slim clean-shaven oval face, neat side-parted black hair, plain grey Zhongshan jacket and trousers, dark cloth shoes, neutral full-body pose.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5f4effa4-a77d-453a-82a9-d60a0cb11a14.png",
+      "outputFile": "public/images/modern-c04-l17/zhou-enlai-1930.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5f4effa4-a77d-453a-82a9-d60a0cb11a14.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\zhou-enlai-1930.png",
+      "inputSha256": "fa1181388c82581eb5d6d24ec5dc5f05c19cf61bb977d4193b5c5418bfc8249c",
+      "outputSha256": "86782dc7fd05cf36baaec93be588298924f78e7fc05320534c0977bcdfef8230",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 394,
+        "height": 1228
+      },
+      "resizedDimensions": {
+        "width": 56,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        173,
+        940,
+        1432
+      ],
+      "cleanedBbox": [
+        298,
+        175,
+        692,
+        1403
+      ],
+      "savedBbox": [
+        68,
+        8,
+        124,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1270936,
+        "faint": 11516,
+        "translucent": 301928,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30962,
+      "removedFaintAlphaPixels": 11516,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 5902,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11516,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "wang-jingwei",
+      "name": "汪兆銘",
+      "kind": "person",
+      "subject": "Wang Jingwei around 1927, Chinese politician about forty-four, clean-shaven smooth oval face and side-parted black hair, restrained dark Zhongshan jacket and trousers, dark shoes, calm full-body pose.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、汪兆銘の透過ドット絵。\nSubject: Wang Jingwei around 1927, Chinese politician about forty-four, clean-shaven smooth oval face and side-parted black hair, restrained dark Zhongshan jacket and trousers, dark shoes, calm full-body pose.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5ff9f9e0-43e7-4781-a60c-c48aa5366c2d.png",
+      "outputFile": "public/images/modern-c04-l17/wang-jingwei.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5ff9f9e0-43e7-4781-a60c-c48aa5366c2d.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\wang-jingwei.png",
+      "inputSha256": "b1e738951670f1110c83a2847fc653efd3d77974d49ecf125b19faf165f39815",
+      "outputSha256": "aaf632e9a936f837a6bd7f8886a1d351aa464fd1d4a9e7ea7b4422bde7672d31",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 489,
+        "height": 1360
+      },
+      "resizedDimensions": {
+        "width": 63,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        51,
+        938,
+        1478
+      ],
+      "cleanedBbox": [
+        263,
+        116,
+        752,
+        1476
+      ],
+      "savedBbox": [
+        65,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1155979,
+        "faint": 11016,
+        "translucent": 416885,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30077,
+      "removedFaintAlphaPixels": 11016,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6787,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11016,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "zhang-zuolin",
+      "name": "張作霖",
+      "kind": "person",
+      "subject": "Zhang Zuolin around 1928, mature Chinese officer about fifty-three, thick compact dark moustache, khaki early Republican officer tunic and peaked cap, dark riding boots, restrained shoulder tabs, neutral full-body stance.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、張作霖の透過ドット絵。\nSubject: Zhang Zuolin around 1928, mature Chinese officer about fifty-three, thick compact dark moustache, khaki early Republican officer tunic and peaked cap, dark riding boots, restrained shoulder tabs, neutral full-body stance.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-b4ba2abd-dfc1-403e-8721-2cadff3b8263.png",
+      "outputFile": "public/images/modern-c04-l17/zhang-zuolin.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-b4ba2abd-dfc1-403e-8721-2cadff3b8263.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\zhang-zuolin.png",
+      "inputSha256": "20e1ce3f61ac9922a4296f933a0b050eed7465b1f6f44b10a80069f174e80967",
+      "outputSha256": "565b89b1950a4775b8c83323c4ad269e334b0c652a9ba7966509553ef8b896dd",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 466,
+        "height": 1307
+      },
+      "resizedDimensions": {
+        "width": 63,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        131,
+        868,
+        1444
+      ],
+      "cleanedBbox": [
+        288,
+        135,
+        754,
+        1442
+      ],
+      "savedBbox": [
+        65,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1188122,
+        "faint": 16333,
+        "translucent": 384742,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30149,
+      "removedFaintAlphaPixels": 16333,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6715,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 16333,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "zhang-xueliang",
+      "name": "張学良",
+      "kind": "person",
+      "subject": "Zhang Xueliang around 1936, young Chinese officer about thirty-five, clean-shaven narrow face, neatly combed short dark hair, plain grey-green Republican military tunic, dark trousers and boots, neutral full-body stance. Distinct from his moustached father.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、張学良の透過ドット絵。\nSubject: Zhang Xueliang around 1936, young Chinese officer about thirty-five, clean-shaven narrow face, neatly combed short dark hair, plain grey-green Republican military tunic, dark trousers and boots, neutral full-body stance. Distinct from his moustached father.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-dcf92189-8c5a-4071-9696-3b6feb9e40ab.png",
+      "outputFile": "public/images/modern-c04-l17/zhang-xueliang.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-dcf92189-8c5a-4071-9696-3b6feb9e40ab.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\zhang-xueliang.png",
+      "inputSha256": "b4fbabb1b0d1c904859a8a74ba35fa061bd9f5ecfc7bb7362c98ef9331fe739c",
+      "outputSha256": "17fe864fc4e249bc8f36b24626d5e07fd600a0932ec645516e5c9e95ac20d0f4",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 429,
+        "height": 1292
+      },
+      "resizedDimensions": {
+        "width": 58,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        64,
+        812,
+        1520
+      ],
+      "cleanedBbox": [
+        280,
+        156,
+        709,
+        1448
+      ],
+      "savedBbox": [
+        67,
+        8,
+        125,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1219420,
+        "faint": 11945,
+        "translucent": 353444,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30602,
+      "removedFaintAlphaPixels": 11945,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6262,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11945,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "puyi-1932",
+      "name": "溥儀",
+      "kind": "person",
+      "subject": "Puyi around 1932, young Chinese man aged twenty-six, thin oval clean-shaven face, round wire spectacles, short neatly parted dark hair, restrained dark Western suit with white shirt and tie, calm full-body civilian pose. No imperial Qing robes, no crown.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、溥儀の透過ドット絵。\nSubject: Puyi around 1932, young Chinese man aged twenty-six, thin oval clean-shaven face, round wire spectacles, short neatly parted dark hair, restrained dark Western suit with white shirt and tie, calm full-body civilian pose. No imperial Qing robes, no crown.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-4de772e1-0c00-4a7d-bfac-f1402c99905e.png",
+      "outputFile": "public/images/modern-c04-l17/puyi-1932.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-4de772e1-0c00-4a7d-bfac-f1402c99905e.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\puyi-1932.png",
+      "inputSha256": "c79e96bb49b35b7f455ecfe622ec4ebe9ea38719be470362e21854850b16e6cc",
+      "outputSha256": "df99fba37fb1e0c679be5bf5c2dd3665696d4813bcac6f3d1884eb005b72ef8f",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 424,
+        "height": 1384
+      },
+      "resizedDimensions": {
+        "width": 54,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        193,
+        82,
+        938,
+        1473
+      ],
+      "cleanedBbox": [
+        305,
+        86,
+        729,
+        1470
+      ],
+      "savedBbox": [
+        69,
+        8,
+        123,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1212482,
+        "faint": 12059,
+        "translucent": 360382,
+        "opaque": 0
+      },
+      "transparentPixelCount": 31224,
+      "removedFaintAlphaPixels": 12059,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 5640,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12059,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "lord-lytton",
+      "name": "リットン",
+      "kind": "person",
+      "subject": "Victor Bulwer-Lytton second Earl of Lytton around 1932, older British diplomat about fifty-six, receding light grey hair and a neat small grey moustache, dark Western three-piece suit, white shirt and tie, closed plain investigation folder.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、リットンの透過ドット絵。\nSubject: Victor Bulwer-Lytton second Earl of Lytton around 1932, older British diplomat about fifty-six, receding light grey hair and a neat small grey moustache, dark Western three-piece suit, white shirt and tie, closed plain investigation folder.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5cb0cdc7-462c-4b8c-99f5-6973f361e408.png",
+      "outputFile": "public/images/modern-c04-l17/lord-lytton.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5cb0cdc7-462c-4b8c-99f5-6973f361e408.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\lord-lytton.png",
+      "inputSha256": "4cafd92f5aad9428a9f011b542da13336d3d294d92c33fc6e604de13f3fa4401",
+      "outputSha256": "436764c81810e12603d5fc4eb2e918d8d743844f74014b42f922079a76d4f8c0",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 497,
+        "height": 1354
+      },
+      "resizedDimensions": {
+        "width": 65,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        23,
+        868,
+        1520
+      ],
+      "cleanedBbox": [
+        256,
+        110,
+        753,
+        1464
+      ],
+      "savedBbox": [
+        64,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1153050,
+        "faint": 12410,
+        "translucent": 419814,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29923,
+      "removedFaintAlphaPixels": 12410,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6941,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12410,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "inukai-tsuyoshi",
+      "name": "犬養毅",
+      "kind": "person",
+      "subject": "Inukai Tsuyoshi around 1932, elderly Japanese civilian politician aged seventy-six, thin oval face, balding head with grey side hair, fine grey moustache and short pointed grey goatee, restrained dark Western formal suit, closed plain document, calm full-body pose.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、犬養毅の透過ドット絵。\nSubject: Inukai Tsuyoshi around 1932, elderly Japanese civilian politician aged seventy-six, thin oval face, balding head with grey side hair, fine grey moustache and short pointed grey goatee, restrained dark Western formal suit, closed plain document, calm full-body pose.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-df7bc6d5-cb28-49b2-810b-931fd794e76c.png",
+      "outputFile": "public/images/modern-c04-l17/inukai-tsuyoshi.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-df7bc6d5-cb28-49b2-810b-931fd794e76c.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\inukai-tsuyoshi.png",
+      "inputSha256": "12f63f442019ba7fbd013eea0ad9de35f906699b6357db11b1af067edb2a64f6",
+      "outputSha256": "de613ffe10b44cf147d5fce08f1704772b7b5e0d6d63a4ef0eb927a2587bc7c8",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 486,
+        "height": 1306
+      },
+      "resizedDimensions": {
+        "width": 65,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        156,
+        938,
+        1469
+      ],
+      "cleanedBbox": [
+        257,
+        159,
+        743,
+        1465
+      ],
+      "savedBbox": [
+        64,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1187680,
+        "faint": 10919,
+        "translucent": 385184,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30120,
+      "removedFaintAlphaPixels": 10919,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6744,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10919,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "konoe-fumimaro",
+      "name": "近衛文麿",
+      "kind": "person",
+      "subject": "Fumimaro Konoe around 1938, Japanese civilian politician in his late forties, tall slender clean-shaven face, neatly side-parted black hair, dark formal Western suit with waistcoat, white shirt and tie, closed paper, calm full-body stance.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、近衛文麿の透過ドット絵。\nSubject: Fumimaro Konoe around 1938, Japanese civilian politician in his late forties, tall slender clean-shaven face, neatly side-parted black hair, dark formal Western suit with waistcoat, white shirt and tie, closed paper, calm full-body stance.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-cf257660-fde2-4bf7-873e-2c4f4e7be88a.png",
+      "outputFile": "public/images/modern-c04-l17/konoe-fumimaro.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-cf257660-fde2-4bf7-873e-2c4f4e7be88a.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\konoe-fumimaro.png",
+      "inputSha256": "65cb182bcdb0b80dfca33e687847e24cd57af77f170de710711c7cfdcc1b1d5a",
+      "outputSha256": "a7c92280c844ff286009407e2288786c12d231685b6ce83963be5d4c5f9bbe88",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 428,
+        "height": 1376
+      },
+      "resizedDimensions": {
+        "width": 55,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        98,
+        964,
+        1478
+      ],
+      "cleanedBbox": [
+        305,
+        100,
+        733,
+        1476
+      ],
+      "savedBbox": [
+        69,
+        8,
+        124,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1199286,
+        "faint": 12266,
+        "translucent": 373578,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30948,
+      "removedFaintAlphaPixels": 12266,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 5916,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12266,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "tojo-hideki",
+      "name": "東条英機",
+      "kind": "person",
+      "subject": "Hideki Tojo around 1941, Japanese military officer about fifty-seven, round wire spectacles, balding head and small neat dark moustache, restrained khaki officer tunic with a simple belt, dark trousers and boots, calm neutral full-body educational pose, no flags or salutes.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、東条英機の透過ドット絵。\nSubject: Hideki Tojo around 1941, Japanese military officer about fifty-seven, round wire spectacles, balding head and small neat dark moustache, restrained khaki officer tunic with a simple belt, dark trousers and boots, calm neutral full-body educational pose, no flags or salutes.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-14a3d33a-d5f7-496a-8233-d96d96368303.png",
+      "outputFile": "public/images/modern-c04-l17/tojo-hideki.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-14a3d33a-d5f7-496a-8233-d96d96368303.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\tojo-hideki.png",
+      "inputSha256": "391f7c76e58f95298cdca987e3cece929f60a126b835fc0db4ed3f96b6ccbcce",
+      "outputSha256": "6c29dd75771a022a6fbd146b6a93c685aa91f742e9bde6070f6759b63da2920a",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 536,
+        "height": 1404
+      },
+      "resizedDimensions": {
+        "width": 67,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        37,
+        962,
+        1488
+      ],
+      "cleanedBbox": [
+        257,
+        80,
+        793,
+        1484
+      ],
+      "savedBbox": [
+        63,
+        8,
+        130,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1101528,
+        "faint": 14286,
+        "translucent": 471336,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29682,
+      "removedFaintAlphaPixels": 14286,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7182,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14286,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "soong-ching-ling",
+      "name": "宋慶齢",
+      "kind": "person",
+      "subject": "Soong Ching-ling around the 1930s, mature Chinese woman with dark hair swept into a low neat bun, understated cream qipao with a long hem and modest collar, simple dark shoes, calm dignified full-body civilian pose.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、宋慶齢の透過ドット絵。\nSubject: Soong Ching-ling around the 1930s, mature Chinese woman with dark hair swept into a low neat bun, understated cream qipao with a long hem and modest collar, simple dark shoes, calm dignified full-body civilian pose.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-0708a1e8-e393-4362-849e-94eed96e319f.png",
+      "outputFile": "public/images/modern-c04-l17/soong-ching-ling.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-0708a1e8-e393-4362-849e-94eed96e319f.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\soong-ching-ling.png",
+      "inputSha256": "72fffbe3b60a39ef0bb137ca6756446c4f6ae95d4cbf550ce6086e20a0633710",
+      "outputSha256": "190249dbb28effddac96f099d2a2efa02adf58954dabf8be5815e6daab189bf5",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 377,
+        "height": 1332
+      },
+      "resizedDimensions": {
+        "width": 50,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        36,
+        738,
+        1514
+      ],
+      "cleanedBbox": [
+        318,
+        117,
+        695,
+        1449
+      ],
+      "savedBbox": [
+        71,
+        8,
+        121,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1220476,
+        "faint": 9956,
+        "translucent": 352388,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30841,
+      "removedFaintAlphaPixels": 9956,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6023,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9956,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "soong-mei-ling",
+      "name": "宋美齢",
+      "kind": "person",
+      "subject": "Soong Mei-ling around 1936, Chinese woman in her late thirties, neat short waved dark hair, understated muted blue qipao with a long hem and modest collar, simple dark shoes, calm dignified full-body civilian pose.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、宋美齢の透過ドット絵。\nSubject: Soong Mei-ling around 1936, Chinese woman in her late thirties, neat short waved dark hair, understated muted blue qipao with a long hem and modest collar, simple dark shoes, calm dignified full-body civilian pose.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9febb088-4069-4821-b3ad-d0b43dd5ebe3.png",
+      "outputFile": "public/images/modern-c04-l17/soong-mei-ling.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9febb088-4069-4821-b3ad-d0b43dd5ebe3.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\soong-mei-ling.png",
+      "inputSha256": "dc6c2b2bc671dceeacbd22badfe4901024e46255b332d8f36857be99b25884af",
+      "outputSha256": "0f589ce30a66590ea70bf9bb383b71c620cb545ae793fb064d8e68596742f458",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 369,
+        "height": 1295
+      },
+      "resizedDimensions": {
+        "width": 50,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        37,
+        940,
+        1457
+      ],
+      "cleanedBbox": [
+        323,
+        159,
+        692,
+        1454
+      ],
+      "savedBbox": [
+        71,
+        8,
+        121,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1256325,
+        "faint": 10587,
+        "translucent": 316539,
+        "opaque": 0
+      },
+      "transparentPixelCount": 31212,
+      "removedFaintAlphaPixels": 10587,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 5652,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10587,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "soong-ai-ling",
+      "name": "宋靄齢",
+      "kind": "person",
+      "subject": "Soong Ai-ling around 1936, Chinese woman in her late forties, dark hair gathered into a neat bun, understated muted plum qipao with a long hem and modest collar, simple dark shoes, calm full-body civilian pose. Distinct from her two younger sisters.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、宋靄齢の透過ドット絵。\nSubject: Soong Ai-ling around 1936, Chinese woman in her late forties, dark hair gathered into a neat bun, understated muted plum qipao with a long hem and modest collar, simple dark shoes, calm full-body civilian pose. Distinct from her two younger sisters.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d840c538-4378-48a0-bb77-38394bc739d0.png",
+      "outputFile": "public/images/modern-c04-l17/soong-ai-ling.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d840c538-4378-48a0-bb77-38394bc739d0.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\soong-ai-ling.png",
+      "inputSha256": "574d038639a49b377f7dfb8c087d5ea5a3fa8b149d8a24e03467c5652f56be32",
+      "outputSha256": "fb9cfcc248b1984e3614c06a4b6183de48dfc138798b84661f9095082f9128ee",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 321,
+        "height": 1358
+      },
+      "resizedDimensions": {
+        "width": 42,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        66,
+        866,
+        1454
+      ],
+      "cleanedBbox": [
+        342,
+        89,
+        663,
+        1447
+      ],
+      "savedBbox": [
+        75,
+        8,
+        117,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1246595,
+        "faint": 9290,
+        "translucent": 326266,
+        "opaque": 3
+      },
+      "transparentPixelCount": 31467,
+      "removedFaintAlphaPixels": 9290,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 5397,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9290,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "soong-tse-ven",
+      "name": "宋子文",
+      "kind": "person",
+      "subject": "T. V. Soong around 1936, Chinese civilian finance official in his early forties, clean-shaven oval face, neatly parted short black hair, restrained dark Western three-piece suit and tie, small closed financial document, neutral full-body pose.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、宋子文の透過ドット絵。\nSubject: T. V. Soong around 1936, Chinese civilian finance official in his early forties, clean-shaven oval face, neatly parted short black hair, restrained dark Western three-piece suit and tie, small closed financial document, neutral full-body pose.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-698b51c9-eb0a-41c7-8d20-ab126989e400.png",
+      "outputFile": "public/images/modern-c04-l17/soong-tse-ven.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-698b51c9-eb0a-41c7-8d20-ab126989e400.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\soong-tse-ven.png",
+      "inputSha256": "150e7b2438fb76b8c96d4cc7f590b23ff8b04d261804cc309bbc26024bac5f49",
+      "outputSha256": "13075e9fae7d2b9ce0d5271bb6a64f64a31ab5db81a35645216dba6560e9dade",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 453,
+        "height": 1234
+      },
+      "resizedDimensions": {
+        "width": 65,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        65,
+        938,
+        1464
+      ],
+      "cleanedBbox": [
+        284,
+        202,
+        737,
+        1436
+      ],
+      "savedBbox": [
+        64,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1223401,
+        "faint": 11286,
+        "translucent": 349463,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29976,
+      "removedFaintAlphaPixels": 11286,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6888,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11286,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "chinese-students-1919",
+      "name": "五・四運動の学生",
+      "kind": "group",
+      "subject": "Three ordinary Chinese university students around 1919, two young men and a young woman, plain early twentieth century grey and blue student jackets with dark long trousers or a long skirt, simple cloth shoes, closed books and one blank small placard, calm full-body civilian standing poses with space between figures. Not named leaders.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、五・四運動の学生の透過ドット絵。\nSubject: Three ordinary Chinese university students around 1919, two young men and a young woman, plain early twentieth century grey and blue student jackets with dark long trousers or a long skirt, simple cloth shoes, closed books and one blank small placard, calm full-body civilian standing poses with space between figures. Not named leaders.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a small complete group, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5d988331-6e58-48c4-984b-354334e2ef08.png",
+      "outputFile": "public/images/modern-c04-l17/chinese-students-1919.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5d988331-6e58-48c4-984b-354334e2ef08.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\chinese-students-1919.png",
+      "inputSha256": "07dbeaaf6bcf70821a49844a12d2db8ac6a0f4d019013c785e3c3949538a19ee",
+      "outputSha256": "fbd7b44820db903180ff825ed6bab4a61bc126bd6cd8d041222d5bd9b5c11319",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1011,
+        "height": 866
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 151
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        9,
+        1510,
+        990
+      ],
+      "cleanedBbox": [
+        288,
+        92,
+        1299,
+        958
+      ],
+      "savedBbox": [
+        8,
+        33,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1069923,
+        "faint": 43192,
+        "translucent": 502941,
+        "opaque": 0
+      },
+      "transparentPixelCount": 22929,
+      "removedFaintAlphaPixels": 43192,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 13935,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 43192,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "korean-protesters-1919",
+      "name": "三・一独立運動の人びと",
+      "kind": "group",
+      "subject": "Three ordinary Korean civilian participants around 1919, two adults and one young student, restrained white and beige everyday Korean clothing with a modest long skirt and plain trousers, simple shoes, calm dignified full-body standing poses with space between people, no flags, weapons or written placards.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、三・一独立運動の人びとの透過ドット絵。\nSubject: Three ordinary Korean civilian participants around 1919, two adults and one young student, restrained white and beige everyday Korean clothing with a modest long skirt and plain trousers, simple shoes, calm dignified full-body standing poses with space between people, no flags, weapons or written placards.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a small complete group, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-152dd009-46a5-41e8-8b9a-30eb7c7d1ea0.png",
+      "outputFile": "public/images/modern-c04-l17/korean-protesters-1919.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-152dd009-46a5-41e8-8b9a-30eb7c7d1ea0.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\korean-protesters-1919.png",
+      "inputSha256": "746cb2312dbe9cad7dd218429fbab76085f30c04db32e4012b8e95e7ac331e42",
+      "outputSha256": "8f5d46a490ad1d5ca4c7d0b311f9f60109d21ad24462d1067384c5f35a874e92",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 877,
+        "height": 845
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 170
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        59,
+        32,
+        1452,
+        998
+      ],
+      "cleanedBbox": [
+        325,
+        98,
+        1202,
+        943
+      ],
+      "savedBbox": [
+        8,
+        14,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1097287,
+        "faint": 30205,
+        "translucent": 475577,
+        "opaque": 0
+      },
+      "transparentPixelCount": 18793,
+      "removedFaintAlphaPixels": 30205,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 18071,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 30205,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "chinese-nra-troops-1926",
+      "name": "北伐期の国民革命軍",
+      "kind": "group",
+      "subject": "Two ordinary Chinese National Revolutionary Army soldiers around 1926, muted khaki cotton tunics and trousers, simple peaked cloth caps, cloth puttees and plain shoes, a small rolled blanket and a closed satchel, neutral full-body standing poses with space between them. No named officer, flags or emblems.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、北伐期の国民革命軍の透過ドット絵。\nSubject: Two ordinary Chinese National Revolutionary Army soldiers around 1926, muted khaki cotton tunics and trousers, simple peaked cloth caps, cloth puttees and plain shoes, a small rolled blanket and a closed satchel, neutral full-body standing poses with space between them. No named officer, flags or emblems.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a small complete group, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-eaff90ea-ae81-438d-9816-2df52a874038.png",
+      "outputFile": "public/images/modern-c04-l17/chinese-nra-troops-1926.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-eaff90ea-ae81-438d-9816-2df52a874038.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\chinese-nra-troops-1926.png",
+      "inputSha256": "999a590487a2dad7db6a8e5f51f631c00e74389912ded80ac7f8575f88515f03",
+      "outputSha256": "69fd2a09be07a9510ca4be5007796dceb2743eed92c05a36eacdfb88b1a85b5f",
+      "originalDimensions": {
+        "width": 1378,
+        "height": 1142
+      },
+      "croppedDimensions": {
+        "width": 761,
+        "height": 919
+      },
+      "resizedDimensions": {
+        "width": 146,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        31,
+        21,
+        1344,
+        1116
+      ],
+      "cleanedBbox": [
+        318,
+        158,
+        1079,
+        1077
+      ],
+      "savedBbox": [
+        23,
+        8,
+        169,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1141319,
+        "faint": 32144,
+        "translucent": 430830,
+        "opaque": 1527
+      },
+      "transparentPixelCount": 22128,
+      "removedFaintAlphaPixels": 32144,
+      "opaquePixelCount": 71,
+      "translucentPixelCount": 14665,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 32144,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "chinese-red-army-1934",
+      "name": "長征期の紅軍",
+      "kind": "group",
+      "subject": "Two ordinary Chinese Red Army soldiers around 1934, simple grey cotton tunics and trousers, plain soft cloth caps, cloth puttees and straw or cloth shoes, small rolled blankets and cloth packs, calm full-body standing poses with space between them. No named leaders, flags or writing.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、長征期の紅軍の透過ドット絵。\nSubject: Two ordinary Chinese Red Army soldiers around 1934, simple grey cotton tunics and trousers, plain soft cloth caps, cloth puttees and straw or cloth shoes, small rolled blankets and cloth packs, calm full-body standing poses with space between them. No named leaders, flags or writing.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a small complete group, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-826ce72d-7ab8-45bf-b8bc-d7165faea582.png",
+      "outputFile": "public/images/modern-c04-l17/chinese-red-army-1934.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-826ce72d-7ab8-45bf-b8bc-d7165faea582.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\chinese-red-army-1934.png",
+      "inputSha256": "e1c33b742af0358a12acfbccbd849c80374853d7abafcc7c01b700a9a04025df",
+      "outputSha256": "cc96493950a177f259182bd78e7401d14c6d27bfcd1fc11e9e7918ab910943d6",
+      "originalDimensions": {
+        "width": 1402,
+        "height": 1122
+      },
+      "croppedDimensions": {
+        "width": 818,
+        "height": 865
+      },
+      "resizedDimensions": {
+        "width": 166,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        48,
+        1374,
+        1082
+      ],
+      "cleanedBbox": [
+        313,
+        156,
+        1131,
+        1021
+      ],
+      "savedBbox": [
+        13,
+        8,
+        179,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1154046,
+        "faint": 39131,
+        "translucent": 418111,
+        "opaque": 887
+      },
+      "transparentPixelCount": 21189,
+      "removedFaintAlphaPixels": 39131,
+      "opaquePixelCount": 36,
+      "translucentPixelCount": 15639,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 39131,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "chinese-peasants-1930",
+      "name": "中国の農村の人びと",
+      "kind": "group",
+      "subject": "Two ordinary rural Chinese adults around 1930, a farmer and a woman, plain patched brown and muted blue cotton garments, simple cloth trousers or a long plain skirt, straw hat held at the side and a small woven basket, calm full-body poses, dignified everyday figures without caricature.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、中国の農村の人びとの透過ドット絵。\nSubject: Two ordinary rural Chinese adults around 1930, a farmer and a woman, plain patched brown and muted blue cotton garments, simple cloth trousers or a long plain skirt, straw hat held at the side and a small woven basket, calm full-body poses, dignified everyday figures without caricature.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a small complete group, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-24cb824c-d29c-4f49-9b6d-d0ce4c181f92.png",
+      "outputFile": "public/images/modern-c04-l17/chinese-peasants-1930.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-24cb824c-d29c-4f49-9b6d-d0ce4c181f92.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\chinese-peasants-1930.png",
+      "inputSha256": "a7d51c16acf83c0ded071328badd890f9eb946ae268bf28adbddbba3722200aa",
+      "outputSha256": "a8735f1a614b71e64f8cfe182586a53c42d064c33aae0e52adc2026d08eb40f4",
+      "originalDimensions": {
+        "width": 1374,
+        "height": 1145
+      },
+      "croppedDimensions": {
+        "width": 756,
+        "height": 921
+      },
+      "resizedDimensions": {
+        "width": 144,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        81,
+        19,
+        1346,
+        1119
+      ],
+      "cleanedBbox": [
+        295,
+        122,
+        1051,
+        1043
+      ],
+      "savedBbox": [
+        24,
+        8,
+        168,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1137456,
+        "faint": 23125,
+        "translucent": 434218,
+        "opaque": 1556
+      },
+      "transparentPixelCount": 21850,
+      "removedFaintAlphaPixels": 23125,
+      "opaquePixelCount": 47,
+      "translucentPixelCount": 14967,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 23125,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "chinese-industrial-workers-1925",
+      "name": "中国の工場労働者",
+      "kind": "group",
+      "subject": "Two ordinary Chinese industrial workers around 1925, a man and a woman, muted blue cotton working jackets and plain trousers, simple cloth shoes, one small folded piece of cloth and a closed toolbox, full-body calm poses with space between them. No named leaders or written placards.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、中国の工場労働者の透過ドット絵。\nSubject: Two ordinary Chinese industrial workers around 1925, a man and a woman, muted blue cotton working jackets and plain trousers, simple cloth shoes, one small folded piece of cloth and a closed toolbox, full-body calm poses with space between them. No named leaders or written placards.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a small complete group, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d83d48fb-c764-4948-b306-f53e9bbfeda8.png",
+      "outputFile": "public/images/modern-c04-l17/chinese-industrial-workers-1925.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d83d48fb-c764-4948-b306-f53e9bbfeda8.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\chinese-industrial-workers-1925.png",
+      "inputSha256": "debe6d9207af567b9ee6cdfebc2636194ed2c42ac98708cde7de4937c24f26aa",
+      "outputSha256": "08c69b3763eb2f18f4691e55791864d8a00a823732b321a5f1be5de1f0d1c3c3",
+      "originalDimensions": {
+        "width": 1367,
+        "height": 1150
+      },
+      "croppedDimensions": {
+        "width": 803,
+        "height": 951
+      },
+      "resizedDimensions": {
+        "width": 149,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        19,
+        1339,
+        1094
+      ],
+      "cleanedBbox": [
+        256,
+        136,
+        1059,
+        1087
+      ],
+      "savedBbox": [
+        22,
+        8,
+        171,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1146502,
+        "faint": 22728,
+        "translucent": 424754,
+        "opaque": 794
+      },
+      "transparentPixelCount": 23024,
+      "removedFaintAlphaPixels": 22728,
+      "opaquePixelCount": 52,
+      "translucentPixelCount": 13788,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 22728,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "chinese-northeastern-troops",
+      "name": "張学良の東北軍",
+      "kind": "group",
+      "subject": "Two ordinary Chinese Northeastern Army soldiers around 1936, muted dark olive cotton military tunics and plain peaked caps, dark trousers, cloth puttees and boots, a small plain satchel, calm full-body standing poses with space between them. No named officers or emblems.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、張学良の東北軍の透過ドット絵。\nSubject: Two ordinary Chinese Northeastern Army soldiers around 1936, muted dark olive cotton military tunics and plain peaked caps, dark trousers, cloth puttees and boots, a small plain satchel, calm full-body standing poses with space between them. No named officers or emblems.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a small complete group, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-62225126-6c15-4c54-bb6b-8f3f8b99ab1f.png",
+      "outputFile": "public/images/modern-c04-l17/chinese-northeastern-troops.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-62225126-6c15-4c54-bb6b-8f3f8b99ab1f.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\chinese-northeastern-troops.png",
+      "inputSha256": "2b0acdb12fd6c411af3b1647ae0e383355f5eaa40d59ee0bbbfaee95a855551d",
+      "outputSha256": "53c214e50bc82f33aec70b1b682870d29a85af7ffca4310a2c8e70a77cce1321",
+      "originalDimensions": {
+        "width": 1312,
+        "height": 1199
+      },
+      "croppedDimensions": {
+        "width": 703,
+        "height": 880
+      },
+      "resizedDimensions": {
+        "width": 141,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        41,
+        39,
+        1240,
+        1199
+      ],
+      "cleanedBbox": [
+        306,
+        188,
+        1009,
+        1068
+      ],
+      "savedBbox": [
+        26,
+        8,
+        167,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1193743,
+        "faint": 26738,
+        "translucent": 378486,
+        "opaque": 859
+      },
+      "transparentPixelCount": 22678,
+      "removedFaintAlphaPixels": 26738,
+      "opaquePixelCount": 47,
+      "translucentPixelCount": 14139,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 26738,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "soviet-tank-1939",
+      "name": "ノモンハンのソ連軍戦車",
+      "kind": "prop",
+      "subject": "A compact early Second World War Soviet BT-style light tank around 1939, generic olive green body, thin tracks, narrow low turret and a short plain gun barrel, clean three-quarter side view, no national insignia, no flags, no battlefield, educational simplified pixel sprite rather than exact restored equipment.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、ノモンハンのソ連軍戦車の透過ドット絵。\nSubject: A compact early Second World War Soviet BT-style light tank around 1939, generic olive green body, thin tracks, narrow low turret and a short plain gun barrel, clean three-quarter side view, no national insignia, no flags, no battlefield, educational simplified pixel sprite rather than exact restored equipment.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete object, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5834056e-4c58-4ebe-b18d-2466b1f7015e.png",
+      "outputFile": "public/images/modern-c04-l17/soviet-tank-1939.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5834056e-4c58-4ebe-b18d-2466b1f7015e.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\soviet-tank-1939.png",
+      "inputSha256": "68cdd853976e7477f04759348563bee5b2220ffb5db5c3ad70214205a0d67c02",
+      "outputSha256": "a421c70e4cfd9c4b32ad1a47b47ed5f30ae8a21e5b3079020c1a5a9d1f331eaf",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1283,
+        "height": 628
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 86
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        32,
+        1490,
+        1024
+      ],
+      "cleanedBbox": [
+        124,
+        236,
+        1407,
+        864
+      ],
+      "savedBbox": [
+        8,
+        98,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1034321,
+        "faint": 22631,
+        "translucent": 538543,
+        "opaque": 0
+      },
+      "transparentPixelCount": 27189,
+      "removedFaintAlphaPixels": 22631,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 9675,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 22631,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "steam-train-1928",
+      "name": "張作霖の撤退列車",
+      "kind": "prop",
+      "subject": "An early twentieth century steam locomotive and one small dark passenger carriage around 1928, charcoal black engine, muted red wheel rims, simple compact three-quarter side view, no rail scenery, no smoke cloud, no text, no people, no damage or explosions, educational simplified pixel sprite.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、張作霖の撤退列車の透過ドット絵。\nSubject: An early twentieth century steam locomotive and one small dark passenger carriage around 1928, charcoal black engine, muted red wheel rims, simple compact three-quarter side view, no rail scenery, no smoke cloud, no text, no people, no damage or explosions, educational simplified pixel sprite.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete object, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-78b93967-ae05-4aca-8f05-8fdee8d39795.png",
+      "outputFile": "public/images/modern-c04-l17/steam-train-1928.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-78b93967-ae05-4aca-8f05-8fdee8d39795.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\steam-train-1928.png",
+      "inputSha256": "47e1c4c50cdb7b990ddafefc95589a68d5a15478d50c9e17a153a8091120b85d",
+      "outputSha256": "16ba1a2697675ef90af153047390daac97cd27a95eb4a232606f2c06f98aba1a",
+      "originalDimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "croppedDimensions": {
+        "width": 1366,
+        "height": 608
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 78
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        69,
+        25,
+        1691,
+        887
+      ],
+      "cleanedBbox": [
+        208,
+        154,
+        1574,
+        762
+      ],
+      "savedBbox": [
+        8,
+        106,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1016741,
+        "faint": 19963,
+        "translucent": 555921,
+        "opaque": 876
+      },
+      "transparentPixelCount": 27978,
+      "removedFaintAlphaPixels": 19963,
+      "opaquePixelCount": 11,
+      "translucentPixelCount": 8875,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 19963,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "new-culture-journal",
+      "name": "新文化運動の雑誌と文学",
+      "kind": "prop",
+      "subject": "A small set of three early twentieth century Chinese bound journals and books, one open cream-page book and two closed dark blue and tan thread-bound volumes, a plain brush and small inkstone nearby, no legible writing, educational compact pixel sprite on a transparent background.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、新文化運動の雑誌と文学の透過ドット絵。\nSubject: A small set of three early twentieth century Chinese bound journals and books, one open cream-page book and two closed dark blue and tan thread-bound volumes, a plain brush and small inkstone nearby, no legible writing, educational compact pixel sprite on a transparent background.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete object, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-4a1405e4-4a15-4739-8fa1-5fb1fb813328.png",
+      "outputFile": "public/images/modern-c04-l17/new-culture-journal.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-4a1405e4-4a15-4739-8fa1-5fb1fb813328.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\new-culture-journal.png",
+      "inputSha256": "709c10293b7d3eec417986bd4ea89080097517354c8319ab920be84f6a4f4556",
+      "outputSha256": "31b18bfc314bfc4e59f40d0210dc877270e8109fe5fe2a5ed7a9bcdf1c514a9c",
+      "originalDimensions": {
+        "width": 1402,
+        "height": 1122
+      },
+      "croppedDimensions": {
+        "width": 825,
+        "height": 767
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 164
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        156,
+        113,
+        1181,
+        1080
+      ],
+      "cleanedBbox": [
+        288,
+        184,
+        1113,
+        951
+      ],
+      "savedBbox": [
+        8,
+        20,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1104616,
+        "faint": 12521,
+        "translucent": 467136,
+        "opaque": 1292
+      },
+      "transparentPixelCount": 16019,
+      "removedFaintAlphaPixels": 12521,
+      "opaquePixelCount": 62,
+      "translucentPixelCount": 20783,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12521,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "fabi-banknotes",
+      "name": "幣制改革の紙幣",
+      "kind": "prop",
+      "subject": "A small neat stack of 1930s style cream banknotes beside three round silver coins, simple muted blue decorative borders, no readable lettering, no identifiable legal currency, educational pixel sprite for paper-money and silver exchange.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、幣制改革の紙幣の透過ドット絵。\nSubject: A small neat stack of 1930s style cream banknotes beside three round silver coins, simple muted blue decorative borders, no readable lettering, no identifiable legal currency, educational pixel sprite for paper-money and silver exchange.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete object, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-b7d3dba9-b36c-4951-bb2f-6a31a99b0f1c.png",
+      "outputFile": "public/images/modern-c04-l17/fabi-banknotes.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-b7d3dba9-b36c-4951-bb2f-6a31a99b0f1c.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\fabi-banknotes.png",
+      "inputSha256": "efe27ddfcb43ec1588d4d25e6bcc38d43f5063d7dc9ba328879aa6990b81dd7b",
+      "outputSha256": "caa79477a93b686032b9a51a8f6c297258e03eee0bad55af289e7c46b8f48bae",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1009,
+        "height": 718
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 125
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        32,
+        1344,
+        982
+      ],
+      "cleanedBbox": [
+        255,
+        169,
+        1264,
+        887
+      ],
+      "savedBbox": [
+        8,
+        59,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1064888,
+        "faint": 9604,
+        "translucent": 507976,
+        "opaque": 0
+      },
+      "transparentPixelCount": 21750,
+      "removedFaintAlphaPixels": 9604,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 15114,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9604,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "refugee-civilians-1937",
+      "name": "戦争による避難者",
+      "kind": "group",
+      "subject": "Three ordinary Chinese civilian refugees around 1937, two adults and a child, plain muted grey and brown cotton clothing and cloth shoes, one small tied fabric bundle and one woven bag, calm dignified full-body standing poses with space between them, no injuries, weapons, ruins or active violence.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、戦争による避難者の透過ドット絵。\nSubject: Three ordinary Chinese civilian refugees around 1937, two adults and a child, plain muted grey and brown cotton clothing and cloth shoes, one small tied fabric bundle and one woven bag, calm dignified full-body standing poses with space between them, no injuries, weapons, ruins or active violence.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a small complete group, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6698237e-f091-47ed-bd40-cabf5c673bf9.png",
+      "outputFile": "public/images/modern-c04-l17/refugee-civilians-1937.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6698237e-f091-47ed-bd40-cabf5c673bf9.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\refugee-civilians-1937.png",
+      "inputSha256": "3be4a38079c9830e820923058db2c810638631ec82fa063e274cc0d4eb08f5d8",
+      "outputSha256": "37caf42e2a0e0d2190482d52477bd5479757495e0690efa67bf0c1cf606e2189",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 933,
+        "height": 801
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 151
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        21,
+        1452,
+        984
+      ],
+      "cleanedBbox": [
+        304,
+        115,
+        1237,
+        916
+      ],
+      "savedBbox": [
+        8,
+        33,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1146612,
+        "faint": 28310,
+        "translucent": 426252,
+        "opaque": 0
+      },
+      "transparentPixelCount": 22671,
+      "removedFaintAlphaPixels": 28310,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 14193,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 28310,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "syngman-rhee",
+      "name": "李承晩",
+      "kind": "person",
+      "subject": "Syngman Rhee around 1919, mature Korean civilian politician aged about forty-four, short neatly parted dark hair, clean-shaven long face, round wire spectacles, restrained dark Western suit with waistcoat, white shirt and tie, calm full-body standing pose, closed plain paper.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、李承晩の透過ドット絵。\nSubject: Syngman Rhee around 1919, mature Korean civilian politician aged about forty-four, short neatly parted dark hair, clean-shaven long face, round wire spectacles, restrained dark Western suit with waistcoat, white shirt and tie, calm full-body standing pose, closed plain paper.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-1b9a4e22-920d-430c-b03f-10813de97b7e.png",
+      "outputFile": "public/images/modern-c04-l17/syngman-rhee.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-1b9a4e22-920d-430c-b03f-10813de97b7e.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\syngman-rhee.png",
+      "inputSha256": "a7b88273e18e7ee70ccf0893fb2b2879d3d82ddd117e07067d5e92883a608055",
+      "outputSha256": "b6c7cc09e2de113f75e3599fe2e7d86a62a010c0441a6f7eed97dc21faa48ee7",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 510,
+        "height": 1403
+      },
+      "resizedDimensions": {
+        "width": 64,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        67,
+        940,
+        1484
+      ],
+      "cleanedBbox": [
+        269,
+        77,
+        779,
+        1480
+      ],
+      "savedBbox": [
+        64,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1145075,
+        "faint": 12533,
+        "translucent": 427789,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30347,
+      "removedFaintAlphaPixels": 12533,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6517,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12533,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "zhu-de-1930",
+      "name": "朱徳",
+      "kind": "person",
+      "subject": "Zhu De around 1930, mature Chinese officer about forty-four, broad clean-shaven face, short dark hair, simple grey military tunic with a plain soft cap, trousers and cloth shoes, calm neutral full-body standing pose, no flags or insignia.",
+      "prompt": "用途：W-Historyの日本語歴史教材の本文に添える、朱徳の透過ドット絵。\nSubject: Zhu De around 1930, mature Chinese officer about forty-four, broad clean-shaven face, short dark hair, simple grey military tunic with a plain soft cap, trousers and cloth shoes, calm neutral full-body standing pose, no flags or insignia.\nStyle: restrained classic 16-bit educational pixel art. Clearly visible stepped pixel edges, compact color clusters, 16 to 24 muted colors, a thin dark outline, no anti-aliased painterly shading. Match the existing historical character sprites. Use a single complete person, small and centered, fully visible, with ample transparent margins. Front or gentle three-quarter view. Clothing and objects remain readable when reduced to about 96 pixels high. Neutral historical reference, no glorification.\nInvariants: genuinely transparent background, no text or letters, no logo or watermark, no floor or cast shadow, no scenery, no frame, no cropped heads or feet, no photograph, no realistic skin texture, no halo. Keep distinct faces and clothing for named people. Educational schematic, not a precise restoration. Generate exactly one image for this asset.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-bfae2d26-c365-43ca-b917-da7a8bc51ebe.png",
+      "outputFile": "public/images/modern-c04-l17/zhu-de-1930.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-bfae2d26-c365-43ca-b917-da7a8bc51ebe.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l17\\zhu-de-1930.png",
+      "inputSha256": "286d5ee74a1f8ffdf562d44a9c5090e6b28eaf0a8d67992ba392b2d6a89eb306",
+      "outputSha256": "31652961242b5c730235514e7ed877a00f57dc8dcbc07b778e40ff691f6fac3a",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 456,
+        "height": 1247
+      },
+      "resizedDimensions": {
+        "width": 64,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        36,
+        868,
+        1432
+      ],
+      "cleanedBbox": [
+        265,
+        156,
+        721,
+        1403
+      ],
+      "savedBbox": [
+        64,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1204999,
+        "faint": 15354,
+        "translucent": 367865,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29839,
+      "removedFaintAlphaPixels": 15354,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7025,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15354,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    }
+  ],
+  "reused": [
+    {
+      "key": "sun-yat-sen",
+      "name": "孫文",
+      "kind": "person",
+      "image": "modern-c02-l10/sun-yat-sen.png",
+      "identity": "person:sun-yat-sen",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文で名前の挙がる同じ本人。回想と戦後の関連説明を区別する。"
+    },
+    {
+      "key": "yuan-shikai",
+      "name": "袁世凱",
+      "kind": "person",
+      "image": "modern-c02-l09/yuan-shikai.png",
+      "identity": "person:yuan-shikai",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文で名前の挙がる同じ本人。回想と戦後の関連説明を区別する。"
+    },
+    {
+      "key": "chiang-kai-shek",
+      "name": "蔣介石",
+      "kind": "person",
+      "image": "modern-c04-l16/chiang-kai-shek.png",
+      "identity": "person:chiang-kai-shek",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文で名前の挙がる同じ本人。回想と戦後の関連説明を区別する。"
+    },
+    {
+      "key": "mao-zedong-1930",
+      "name": "毛沢東",
+      "kind": "person",
+      "image": "modern-c04-l16/mao-zedong-1930.png",
+      "identity": "person:mao-zedong-1930",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文で名前の挙がる同じ本人。回想と戦後の関連説明を区別する。"
+    },
+    {
+      "key": "woodrow-wilson",
+      "name": "ウィルソン",
+      "kind": "person",
+      "image": "modern-c03-l12/woodrow-wilson.png",
+      "identity": "person:woodrow-wilson",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文で名前の挙がる同じ本人。回想と戦後の関連説明を区別する。"
+    },
+    {
+      "key": "vladimir-lenin",
+      "name": "レーニン",
+      "kind": "person",
+      "image": "modern-c03-l12/vladimir-lenin.png",
+      "identity": "person:vladimir-lenin",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文で名前の挙がる同じ本人。回想と戦後の関連説明を区別する。"
+    },
+    {
+      "key": "tanaka-giichi",
+      "name": "田中義一",
+      "kind": "person",
+      "image": "modern-c04-l15/tanaka-giichi.png",
+      "identity": "person:tanaka-giichi",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文で名前の挙がる同じ本人。回想と戦後の関連説明を区別する。"
+    },
+    {
+      "key": "japanese-wwii-troops",
+      "name": "1930年代から大戦期の日本軍の一般兵",
+      "kind": "group",
+      "image": "modern-c04-l16/japanese-wwii-troops.png",
+      "identity": "group:japanese-wwii-troops",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の部隊・実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "british-wwi-soldiers",
+      "name": "大戦後のイギリス軍の一般兵",
+      "kind": "group",
+      "image": "modern-c03-l13/british-wwi-soldiers.png",
+      "identity": "group:british-wwi-soldiers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の部隊・実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "us-wwi-soldiers",
+      "name": "大戦後のアメリカ軍の一般兵",
+      "kind": "group",
+      "image": "modern-c03-l13/us-wwi-soldiers.png",
+      "identity": "group:us-wwi-soldiers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の部隊・実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "soviet-red-army-1920s",
+      "name": "1920年代のソ連の赤軍の一般兵",
+      "kind": "group",
+      "image": "modern-c04-l15/soviet-red-army-1920s.png",
+      "identity": "group:soviet-red-army-1920s",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の部隊・実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "conference-table",
+      "name": "会議の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/conference-table.png",
+      "identity": "prop:conference-table",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の部隊・実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "constitution-document",
+      "name": "制度と政策の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/constitution-document.png",
+      "identity": "prop:constitution-document",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の部隊・実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "treaty-document",
+      "name": "条約と権利の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/treaty-document.png",
+      "identity": "prop:treaty-document",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の部隊・実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "calendar",
+      "name": "年代の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/calendar.png",
+      "identity": "prop:calendar",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の部隊・実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "cotton-textiles",
+      "name": "綿製品の模式図",
+      "kind": "prop",
+      "image": "modern-c02-l08/cotton-textiles.png",
+      "identity": "prop:cotton-textiles",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の部隊・実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "oil-derrick-1930s",
+      "name": "石油資源の模式図",
+      "kind": "prop",
+      "image": "modern-c04-l16/oil-derrick-1930s.png",
+      "identity": "prop:oil-derrick-1930s",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の部隊・実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "silver-currency",
+      "name": "銀の模式図",
+      "kind": "prop",
+      "image": "modern-c02-l09/silver-currency.png",
+      "identity": "prop:silver-currency",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の部隊・実物や全員の姿を復元しない。"
+    }
+  ],
+  "contactSheet": "docs/modern-lesson-17/contact-sheet.png"
+}

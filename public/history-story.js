@@ -1,8 +1,8 @@
-import { initialPageIndex } from "./story-volumes.js?v=0.126";
-import { withMapNames, mapDisplayName, normalizeMapName } from "./map-name-coverage.js?v=0.126";
+import { initialPageIndex } from "./story-volumes.js?v=0.127";
+import { withMapNames, mapDisplayName, normalizeMapName } from "./map-name-coverage.js?v=0.127";
 import { maximumMapScale } from "./map-camera.js?v=0.064";
 import { createMapLayout } from "./map-layout.js?v=0.064";
-import { decorateStoryBody } from "./story-emphasis.js?v=0.126";
+import { decorateStoryBody } from "./story-emphasis.js?v=0.127";
 
 export function mountStory({ places, zones, scenes, imageDirectory, chapterNavigation, baseMap, onSceneChange }) {
 const NS = "http://www.w3.org/2000/svg";
