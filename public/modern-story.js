@@ -1,7 +1,7 @@
-import {modernPlacesFor, sourcePages, modernDiagramFor, modernReferencePages, modernVisualEdition, modernIllustrationFor} from './modern-lessons.js?v=0.123';
-import {modernSeries} from './modern-volumes.js?v=0.123';
-import {initialPageIndex, volumeNavigation} from './story-volumes.js?v=0.123';
-import {mountStory} from './history-story.js?v=0.123';
+import {modernPlacesFor, sourcePages, modernDiagramFor, modernReferencePages, modernVisualEdition, modernIllustrationFor} from './modern-lessons.js?v=0.124';
+import {modernSeries} from './modern-volumes.js?v=0.124';
+import {initialPageIndex, volumeNavigation} from './story-volumes.js?v=0.124';
+import {mountStory} from './history-story.js?v=0.124';
 
 const id = location.pathname.split('/').pop().replace(/-story\.html$/, '');
 const volume = modernSeries.find(item => item.id === id);
@@ -30,7 +30,7 @@ function showIllustration(scene) {
     figures.className = 'illustration-figures';
     for (const item of group.figures) {
       const figure = document.createElement('figure');
-      figure.className = 'illustration-figure';
+      figure.className = 'illustration-figure' + (item.wide ? ' illustration-figure-wide' : '');
       const picture = document.createElement('img');
       const key = item.image.includes('/') ? item.image : 'modern-c01-l01/' + item.image;
       picture.src = '/images/' + key + (/\.(png|svg)$/.test(key) ? '' : '.png');

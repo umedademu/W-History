@@ -30,6 +30,8 @@ import "./check-modern-lesson-12.mjs";
 import "./check-modern-visuals-12.mjs";
 import "./check-modern-lesson-13.mjs";
 import "./check-modern-visuals-13.mjs";
+import "./check-modern-lesson-14.mjs";
+import "./check-modern-visuals-14.mjs";
 import "./check-book-collections.mjs";
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -67,7 +69,7 @@ for(const file of publicFiles.filter(f=>/\.(html|js|css)$/.test(f))){
 const htmlFiles=publicFiles.filter(file=>file.endsWith(".html"));
 for(const file of htmlFiles){
   const html=await fs.readFile(file,"utf8");
-  if(!html.includes('/theme.js?v=0.123')||!html.includes('/theme.css?v=0.123'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
+  if(!html.includes('/theme.js?v=0.124')||!html.includes('/theme.css?v=0.124'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
 }
 const themeScript=await fs.readFile(path.join(publicRoot,"theme.js"),"utf8");
 const themeStyle=await fs.readFile(path.join(publicRoot,"theme.css"),"utf8");

@@ -13,6 +13,10 @@
 .illustration-caption{display:block;font-size:12px;line-height:1.8;margin-top:4px;overflow-wrap:anywhere;color:var(--muted,#657970)}
 html[data-theme="dark"] .illustration-group{background:#151a19}
 @media(max-width:640px){.modern-illustration{padding-top:16px}.illustration-group{flex-basis:100%;padding:12px}.illustration-figure{flex-basis:124px}.illustration-figure img{width:88px;height:112px}}
+.illustration-figure-wide{flex-basis:100%}
+.illustration-figure-wide img{width:min(100%,320px);height:112px;object-fit:cover;object-position:50% 100%}
+.illustration-figure-wide figcaption{max-width:30em;margin:0 auto}
+@media(max-width:640px){.illustration-figure-wide img{width:min(100%,256px);height:96px}}
 .modern-reference,.modern-diagram{max-width:45em;margin:24px auto;padding:18px 20px;border:1px solid var(--line,#d9d7ca);border-radius:6px}
 .modern-reference summary{cursor:pointer;font-weight:700;line-height:1.8}
 .modern-reference summary:focus-visible{outline:3px solid var(--accent,#a45538);outline-offset:5px}

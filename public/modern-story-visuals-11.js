@@ -1,4 +1,4 @@
-import {modernEdition} from './modern-c03-l11-edition.js?v=0.123';
+import {modernEdition} from './modern-c03-l11-edition.js?v=0.124';
 // 本人・一般集団・実際の移動・静的な構想を原文へ対応させる。
 export const modernVisualAssetCatalog=[
   {

@@ -1,7 +1,7 @@
 {
-  "version": "0.123",
-  "parts": 184,
-  "pages": 2445,
+  "version": "0.124",
+  "parts": 188,
+  "pages": 2598,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 56,
-      "pages": 1432,
+      "parts": 60,
+      "pages": 1585,
       "chapters": [
         {
           "chapter": 1,
@@ -2940,6 +2940,50 @@
               "lesson": 13,
               "part": 5,
               "pages": 14
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "title": "戦間期と第二次世界大戦",
+          "lessons": [
+            {
+              "lesson": 14,
+              "title": "ヴェルサイユ体制とワシントン体制"
+            }
+          ],
+          "volumes": [
+            {
+              "id": "modern-c04-l14-p01",
+              "label": "ヴェルサイユ体制",
+              "number": "01",
+              "lesson": 14,
+              "part": 1,
+              "pages": 53
+            },
+            {
+              "id": "modern-c04-l14-p02",
+              "label": "国際連盟の成立",
+              "number": "02",
+              "lesson": 14,
+              "part": 2,
+              "pages": 15
+            },
+            {
+              "id": "modern-c04-l14-p03",
+              "label": "ワシントン体制",
+              "number": "03",
+              "lesson": 14,
+              "part": 3,
+              "pages": 37
+            },
+            {
+              "id": "modern-c04-l14-p04",
+              "label": "ドイツの賠償問題と協調外交",
+              "number": "04",
+              "lesson": 14,
+              "part": 4,
+              "pages": 48
             }
           ]
         }
