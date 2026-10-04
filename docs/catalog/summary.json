@@ -1,7 +1,7 @@
 {
-  "version": "0.130",
-  "parts": 214,
-  "pages": 3883,
+  "version": "0.131",
+  "parts": 218,
+  "pages": 4105,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 86,
-      "pages": 2870,
+      "parts": 90,
+      "pages": 3092,
       "chapters": [
         {
           "chapter": 1,
@@ -3182,6 +3182,10 @@
             {
               "lesson": 20,
               "title": "冷戦の展開①（1945〜1955）"
+            },
+            {
+              "lesson": 21,
+              "title": "冷戦の展開②（1956〜1969）"
             }
           ],
           "volumes": [
@@ -3224,6 +3228,38 @@
               "lesson": 20,
               "part": 5,
               "pages": 38
+            },
+            {
+              "id": "modern-c05-l21-p01",
+              "label": "スターリン批判と平和共存政策",
+              "number": "06",
+              "lesson": 21,
+              "part": 1,
+              "pages": 42
+            },
+            {
+              "id": "modern-c05-l21-p02",
+              "label": "冷戦の再燃とキューバ危機",
+              "number": "07",
+              "lesson": 21,
+              "part": 2,
+              "pages": 41
+            },
+            {
+              "id": "modern-c05-l21-p03",
+              "label": "ECの成立と西欧諸国",
+              "number": "08",
+              "lesson": 21,
+              "part": 3,
+              "pages": 52
+            },
+            {
+              "id": "modern-c05-l21-p04",
+              "label": "東西両陣営の動揺",
+              "number": "09",
+              "lesson": 21,
+              "part": 4,
+              "pages": 87
             }
           ]
         }

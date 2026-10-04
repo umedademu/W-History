@@ -44,6 +44,8 @@ import "./check-modern-lesson-19.mjs";
 import "./check-modern-visuals-19.mjs";
 import "./check-modern-lesson-20.mjs";
 import "./check-modern-visuals-20.mjs";
+import "./check-modern-lesson-21.mjs";
+import "./check-modern-visuals-21.mjs";
 import "./check-book-collections.mjs";
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -79,9 +81,10 @@ for(const file of publicFiles.filter(f=>/\.(html|js|css)$/.test(f))){
   if(/anki-ume\.vercel\.app|anki-progress-api|cloud-progress\.js|speech\.js/.test(text))throw new Error(`Ankiへの依存が残っています: ${file}`);
 }
 const htmlFiles=publicFiles.filter(file=>file.endsWith(".html"));
+const applicationVersion=JSON.parse(await fs.readFile(path.join(root,"package.json"),"utf8")).version;
 for(const file of htmlFiles){
   const html=await fs.readFile(file,"utf8");
-  if(!html.includes('/theme.js?v=0.130')||!html.includes('/theme.css?v=0.130'))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
+  if(!html.includes(`/theme.js?v=${applicationVersion}`)||!html.includes(`/theme.css?v=${applicationVersion}`))throw new Error(`明暗テーマの共通部品がありません: ${file}`);
 }
 const themeScript=await fs.readFile(path.join(publicRoot,"theme.js"),"utf8");
 const themeStyle=await fs.readFile(path.join(publicRoot,"theme.css"),"utf8");

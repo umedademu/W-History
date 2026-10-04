@@ -1,7 +1,7 @@
-import {modernPlacesFor, sourcePages, modernDiagramFor, modernReferencePages, modernVisualEdition, modernIllustrationFor} from './modern-lessons.js?v=0.130';
-import {modernSeries} from './modern-volumes.js?v=0.130';
-import {initialPageIndex, volumeNavigation} from './story-volumes.js?v=0.130';
-import {mountStory} from './history-story.js?v=0.130';
+import {modernPlacesFor, sourcePages, modernDiagramFor, modernReferencePages, modernVisualEdition, modernIllustrationFor} from './modern-lessons.js?v=0.131';
+import {modernSeries} from './modern-volumes.js?v=0.131';
+import {initialPageIndex, volumeNavigation} from './story-volumes.js?v=0.131';
+import {mountStory} from './history-story.js?v=0.131';
 
 const id = location.pathname.split('/').pop().replace(/-story\.html$/, '');
 const volume = modernSeries.find(item => item.id === id);

@@ -1,0 +1,588 @@
+[
+  {
+    "scene": "modern-c05-l21-p01-031",
+    "kind": "rival",
+    "points": [
+      [
+        138,
+        37
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "日ソ共同宣言と国交回復",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      79
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p02-023",
+    "kind": "rival",
+    "points": [
+      [
+        -79.5,
+        22
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "キューバの軍事援助要請",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      131
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p02-034",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "米ソの直通通信",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      142
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p02-036",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        -2,
+        54
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "米・英・ソの部分的核実験禁止条約",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      142
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p03-010",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        47
+      ],
+      [
+        8,
+        50.5
+      ],
+      [
+        12.5,
+        42.5
+      ],
+      [
+        4.5,
+        50.8
+      ],
+      [
+        5.3,
+        52.3
+      ],
+      [
+        6.1,
+        49.8
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ECSCの六カ国",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      192,
+      196
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p03-013",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        47
+      ],
+      [
+        8,
+        50.5
+      ],
+      [
+        12.5,
+        42.5
+      ],
+      [
+        4.5,
+        50.8
+      ],
+      [
+        5.3,
+        52.3
+      ],
+      [
+        6.1,
+        49.8
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ローマ条約の六カ国",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      192,
+      196,
+      198
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p03-019",
+    "kind": "rival",
+    "points": [
+      [
+        -2,
+        54
+      ],
+      [
+        10,
+        56
+      ],
+      [
+        9,
+        62
+      ],
+      [
+        15,
+        62
+      ],
+      [
+        14,
+        47.5
+      ],
+      [
+        8.2,
+        46.8
+      ],
+      [
+        -8,
+        39.5
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "EFTAの七カ国",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      235
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p03-022",
+    "kind": "rival",
+    "points": [
+      [
+        -2,
+        54
+      ],
+      [
+        2,
+        47
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "英国加盟申請とフランスの拒否",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      239
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p03-031",
+    "kind": "rival",
+    "points": [
+      [
+        -2,
+        54
+      ],
+      [
+        2,
+        47
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "再度の加盟申請と拒否",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      239,
+      249
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p03-043",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        47
+      ],
+      [
+        20,
+        0
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "アフリカの植民地の独立",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      259
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p03-044",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        47
+      ],
+      [
+        3,
+        28
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "アルジェリア独立と戦争終結",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      259,
+      275
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p03-046",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        47
+      ],
+      [
+        105,
+        35
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "中華人民共和国の承認",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      277
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p03-048",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        47
+      ],
+      [
+        8,
+        50.5
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "仏・西独を中心とする欧州統合",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      277
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p04-041",
+    "kind": "rival",
+    "points": [
+      [
+        105,
+        35
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "中国によるソ連批判",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      381
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p04-042",
+    "kind": "rival",
+    "points": [
+      [
+        60,
+        55
+      ],
+      [
+        105,
+        35
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ソ連による中国批判",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      381
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p04-045",
+    "kind": "rival",
+    "points": [
+      [
+        20,
+        41
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "アルバニアの対ソ断交",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      381
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p04-053",
+    "kind": "rival",
+    "points": [
+      [
+        25,
+        46
+      ],
+      [
+        105,
+        35
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ルーマニアの対中接近",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      405
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p04-053",
+    "kind": "rival",
+    "points": [
+      [
+        25,
+        46
+      ],
+      [
+        6,
+        50.5
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ルーマニアの対西欧接近",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      405
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p04-054",
+    "kind": "rival",
+    "points": [
+      [
+        25,
+        46
+      ],
+      [
+        8,
+        50.5
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ルーマニアと西ドイツの国交回復",
+    "reason": "原文に明記された同盟・援助・外交・通信・対立の静的な関係。人や軍の移動ではない。",
+    "evidenceLines": [
+      405
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p01-018",
+    "kind": "move",
+    "points": [
+      [
+        60,
+        55
+      ],
+      [
+        19,
+        52
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原文のソ連からポーランドへの訪問。出発都市と到着都市は補わない。",
+    "evidenceLines": [
+      71
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p01-022",
+    "kind": "campaign",
+    "points": [
+      [
+        60,
+        55
+      ],
+      [
+        19,
+        47
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原文に明記されたソ連軍のハンガリーへの派遣。地域代表点を結ぶ概略方向。",
+    "evidenceLines": [
+      73
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p01-038",
+    "kind": "move",
+    "points": [
+      [
+        60,
+        55
+      ],
+      [
+        -77.47,
+        39.65
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原文のフルシチョフ訪米とキャンプ＝デーヴィッドの会談。ソ連の地域代表点からの概略方向。",
+    "evidenceLines": [
+      89
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p03-047",
+    "kind": "move",
+    "points": [
+      [
+        2,
+        47
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原書394ページの同じ段落の主語ド＝ゴールがソ連を訪問。本文にない訪問都市・旅程は補わない。",
+    "evidenceLines": [
+      277
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p04-039",
+    "kind": "move",
+    "points": [
+      [
+        105,
+        35
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原文の中ソ技術協定破棄と中国からの引き揚げ。地域代表点を結び、個人名・出発研究所・全旅程を補わない。",
+    "evidenceLines": [
+      381
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p04-061",
+    "kind": "campaign",
+    "points": [
+      [
+        60,
+        55
+      ],
+      [
+        16,
+        49
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原文の五カ国の軍事介入をソ連側の地域代表点から示す概略方向。他の四カ国は本文・地図名称・説明図で示す。基地と軍道は補わない。",
+    "evidenceLines": [
+      409
+    ]
+  },
+  {
+    "scene": "modern-c05-l21-p04-062",
+    "kind": "move",
+    "points": [
+      [
+        16,
+        49
+      ],
+      [
+        60,
+        55
+      ],
+      [
+        16,
+        49
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原文のソ連への連行と帰国を一つの往復方向で示す。出発都市・訪問都市・移送手段・全旅程を補わない。",
+    "evidenceLines": [
+      407,
+      409
+    ]
+  }
+]
