@@ -1,4 +1,4 @@
-import {modernEdition} from './modern-c02-l09-edition.js?v=0.125';
+import {modernEdition} from './modern-c02-l09-edition.js?v=0.126';
 // 本文に明記された人物・集団・取引品・制度を区別する。
 export const modernVisualAssetCatalog=[
   {

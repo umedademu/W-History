@@ -1,4 +1,4 @@
-import {modernEdition} from './modern-c04-l14-edition.js?v=0.125';
+import {modernEdition} from './modern-c04-l14-edition.js?v=0.126';
 // 本人・集団・条約・資金関係・実移動を原文へ対応させる。
 export const modernVisualAssetCatalog=[
   {

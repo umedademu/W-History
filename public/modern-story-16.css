@@ -1,0 +1,3 @@
+/* 糸紡ぎ車の全体を枠内に収め、年号欄の下側の語呂も原書に合わせる。 */
+.modern-story .illustration-figure-wide img{width:min(100%,256px);height:160px;object-fit:contain}
+.modern-story #source-reference-body ruby:has(rt[data-source-position="below"]){ruby-position:under}

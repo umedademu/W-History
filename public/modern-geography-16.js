@@ -1,0 +1,2154 @@
+// 地域・都市・川・組織・本人を区別する。本人の座標は補わない。
+export const modernNameCatalog=[
+  {
+    "name": "アジア",
+    "key": "アジア",
+    "kind": "region",
+    "points": [
+      [
+        100,
+        30
+      ]
+    ],
+    "family": "アジア"
+  },
+  {
+    "name": "西アジア",
+    "key": "西アジア",
+    "kind": "region",
+    "points": [
+      [
+        45,
+        31
+      ]
+    ],
+    "family": "西アジア"
+  },
+  {
+    "name": "南アジア",
+    "key": "南アジア",
+    "kind": "region",
+    "points": [
+      [
+        79,
+        22
+      ]
+    ],
+    "family": "南アジア"
+  },
+  {
+    "name": "東南アジア",
+    "key": "東南アジア",
+    "kind": "region",
+    "points": [
+      [
+        110,
+        10
+      ]
+    ],
+    "family": "東南アジア"
+  },
+  {
+    "name": "ヨーロッパ",
+    "key": "ヨーロッパ",
+    "kind": "region",
+    "points": [
+      [
+        15,
+        50
+      ]
+    ],
+    "family": "ヨーロッパ"
+  },
+  {
+    "name": "アフリカ",
+    "key": "アフリカ",
+    "kind": "region",
+    "points": [
+      [
+        20,
+        3
+      ]
+    ],
+    "family": "アフリカ"
+  },
+  {
+    "name": "イギリス",
+    "key": "イギリス",
+    "kind": "region",
+    "points": [
+      [
+        -2,
+        54
+      ]
+    ],
+    "family": "イギリス"
+  },
+  {
+    "name": "フランス",
+    "key": "フランス",
+    "kind": "region",
+    "points": [
+      [
+        2,
+        47
+      ]
+    ],
+    "family": "フランス"
+  },
+  {
+    "name": "ドイツ",
+    "key": "ドイツ",
+    "kind": "region",
+    "points": [
+      [
+        10,
+        51
+      ]
+    ],
+    "family": "ドイツ"
+  },
+  {
+    "name": "イタリア",
+    "key": "イタリア",
+    "kind": "region",
+    "points": [
+      [
+        12.5,
+        42.5
+      ]
+    ],
+    "family": "イタリア"
+  },
+  {
+    "name": "ロシア",
+    "key": "ロシア",
+    "kind": "region",
+    "points": [
+      [
+        60,
+        55
+      ]
+    ],
+    "family": "ロシア"
+  },
+  {
+    "name": "ソ連",
+    "key": "ソ連",
+    "kind": "region",
+    "points": [
+      [
+        60,
+        55
+      ]
+    ],
+    "family": "ロシア"
+  },
+  {
+    "name": "アメリカ",
+    "key": "アメリカ",
+    "kind": "region",
+    "points": [
+      [
+        -98,
+        39
+      ]
+    ],
+    "family": "アメリカ"
+  },
+  {
+    "name": "日本",
+    "key": "日本",
+    "kind": "region",
+    "points": [
+      [
+        138,
+        37
+      ]
+    ],
+    "family": "日本"
+  },
+  {
+    "name": "中国",
+    "key": "中国",
+    "kind": "region",
+    "points": [
+      [
+        105,
+        35
+      ]
+    ],
+    "family": "中国"
+  },
+  {
+    "name": "オランダ",
+    "key": "オランダ",
+    "kind": "region",
+    "points": [
+      [
+        5.3,
+        52.3
+      ]
+    ],
+    "family": "オランダ"
+  },
+  {
+    "name": "ギリシア",
+    "key": "ギリシア",
+    "kind": "region",
+    "points": [
+      [
+        23,
+        39
+      ]
+    ],
+    "family": "ギリシア"
+  },
+  {
+    "name": "エーゲ海",
+    "key": "エーゲ海",
+    "kind": "region",
+    "points": [
+      [
+        25,
+        38
+      ]
+    ],
+    "family": "エーゲ海"
+  },
+  {
+    "name": "中南米",
+    "key": "中南米",
+    "kind": "region",
+    "points": [
+      [
+        -75,
+        -10
+      ]
+    ],
+    "family": "ラテンアメリカ"
+  },
+  {
+    "name": "オランダ領東インド",
+    "key": "オランダ領東インド",
+    "kind": "region",
+    "points": [
+      [
+        117,
+        -2
+      ]
+    ],
+    "family": "インドネシア"
+  },
+  {
+    "name": "オスマン帝国",
+    "key": "オスマン帝国",
+    "kind": "region",
+    "points": [
+      [
+        35,
+        39
+      ]
+    ],
+    "family": "トルコ"
+  },
+  {
+    "name": "トルコ共和国",
+    "key": "トルコ共和国",
+    "kind": "region",
+    "points": [
+      [
+        35,
+        39
+      ]
+    ],
+    "family": "トルコ"
+  },
+  {
+    "name": "トルコ",
+    "key": "トルコ",
+    "kind": "region",
+    "points": [
+      [
+        35,
+        39
+      ]
+    ],
+    "family": "トルコ"
+  },
+  {
+    "name": "アナトリア",
+    "key": "アナトリア",
+    "kind": "region",
+    "points": [
+      [
+        33,
+        39
+      ]
+    ],
+    "family": "アナトリア"
+  },
+  {
+    "name": "小アジア",
+    "key": "小アジア",
+    "kind": "region",
+    "points": [
+      [
+        33,
+        39
+      ]
+    ],
+    "family": "アナトリア"
+  },
+  {
+    "name": "アナトリア南西部",
+    "key": "アナトリア南西部",
+    "kind": "region",
+    "points": [
+      [
+        29,
+        37
+      ]
+    ],
+    "family": "アナトリア南西部"
+  },
+  {
+    "name": "東トラキア",
+    "key": "東トラキア",
+    "kind": "region",
+    "points": [
+      [
+        27.5,
+        41.2
+      ]
+    ],
+    "family": "東トラキア"
+  },
+  {
+    "name": "キプロス島",
+    "key": "キプロス島",
+    "kind": "region",
+    "points": [
+      [
+        33.2,
+        35
+      ]
+    ],
+    "family": "キプロス"
+  },
+  {
+    "name": "キプロス",
+    "key": "キプロス",
+    "kind": "region",
+    "points": [
+      [
+        33.2,
+        35
+      ]
+    ],
+    "family": "キプロス"
+  },
+  {
+    "name": "マルタ",
+    "key": "マルタ",
+    "kind": "region",
+    "points": [
+      [
+        14.4,
+        35.9
+      ]
+    ],
+    "family": "マルタ"
+  },
+  {
+    "name": "イラン",
+    "key": "イラン",
+    "kind": "region",
+    "points": [
+      [
+        54,
+        32
+      ]
+    ],
+    "family": "イラン"
+  },
+  {
+    "name": "ペルシア",
+    "key": "ペルシア",
+    "kind": "region",
+    "points": [
+      [
+        54,
+        32
+      ]
+    ],
+    "family": "イラン"
+  },
+  {
+    "name": "アラビア半島",
+    "key": "アラビア半島",
+    "kind": "region",
+    "points": [
+      [
+        46,
+        24
+      ]
+    ],
+    "family": "アラビア半島"
+  },
+  {
+    "name": "アラブ",
+    "key": "アラブ",
+    "kind": "region",
+    "points": [
+      [
+        44,
+        30
+      ]
+    ],
+    "family": "アラブ地域"
+  },
+  {
+    "name": "メソポタミア",
+    "key": "メソポタミア",
+    "kind": "region",
+    "points": [
+      [
+        44,
+        34
+      ]
+    ],
+    "family": "メソポタミア"
+  },
+  {
+    "name": "パレスチナ",
+    "key": "パレスチナ",
+    "kind": "region",
+    "points": [
+      [
+        35.2,
+        31.8
+      ]
+    ],
+    "family": "パレスチナ"
+  },
+  {
+    "name": "シリア",
+    "key": "シリア",
+    "kind": "region",
+    "points": [
+      [
+        38,
+        35
+      ]
+    ],
+    "family": "シリア"
+  },
+  {
+    "name": "レバノン",
+    "key": "レバノン",
+    "kind": "region",
+    "points": [
+      [
+        35.8,
+        33.8
+      ]
+    ],
+    "family": "レバノン"
+  },
+  {
+    "name": "イラク",
+    "key": "イラク",
+    "kind": "region",
+    "points": [
+      [
+        44,
+        33
+      ]
+    ],
+    "family": "イラク"
+  },
+  {
+    "name": "トランスヨルダン",
+    "key": "トランスヨルダン",
+    "kind": "region",
+    "points": [
+      [
+        36,
+        31
+      ]
+    ],
+    "family": "ヨルダン"
+  },
+  {
+    "name": "ヨルダン",
+    "key": "ヨルダン",
+    "kind": "region",
+    "points": [
+      [
+        36,
+        31
+      ]
+    ],
+    "family": "ヨルダン"
+  },
+  {
+    "name": "ヒジャーズ王国",
+    "key": "ヒジャーズ王国",
+    "kind": "region",
+    "points": [
+      [
+        39,
+        24
+      ]
+    ],
+    "family": "ヒジャーズ"
+  },
+  {
+    "name": "ヒジャーズ",
+    "key": "ヒジャーズ",
+    "kind": "region",
+    "points": [
+      [
+        39,
+        24
+      ]
+    ],
+    "family": "ヒジャーズ"
+  },
+  {
+    "name": "ネジド王国",
+    "key": "ネジド王国",
+    "kind": "region",
+    "points": [
+      [
+        45,
+        25
+      ]
+    ],
+    "family": "ネジド"
+  },
+  {
+    "name": "ネジド",
+    "key": "ネジド",
+    "kind": "region",
+    "points": [
+      [
+        45,
+        25
+      ]
+    ],
+    "family": "ネジド"
+  },
+  {
+    "name": "ヒジャーズ＝ネジド王国",
+    "key": "ヒジャーズネジド王国",
+    "kind": "region",
+    "points": [
+      [
+        42,
+        24
+      ]
+    ],
+    "family": "ヒジャーズ・ネジド"
+  },
+  {
+    "name": "サウジアラビア王国",
+    "key": "サウジアラビア王国",
+    "kind": "region",
+    "points": [
+      [
+        45,
+        24
+      ]
+    ],
+    "family": "サウジアラビア"
+  },
+  {
+    "name": "サウジアラビア",
+    "key": "サウジアラビア",
+    "kind": "region",
+    "points": [
+      [
+        45,
+        24
+      ]
+    ],
+    "family": "サウジアラビア"
+  },
+  {
+    "name": "イエメン",
+    "key": "イエメン",
+    "kind": "region",
+    "points": [
+      [
+        47.5,
+        15.5
+      ]
+    ],
+    "family": "イエメン"
+  },
+  {
+    "name": "エジプト王国",
+    "key": "エジプト王国",
+    "kind": "region",
+    "points": [
+      [
+        30,
+        27
+      ]
+    ],
+    "family": "エジプト"
+  },
+  {
+    "name": "エジプト",
+    "key": "エジプト",
+    "kind": "region",
+    "points": [
+      [
+        30,
+        27
+      ]
+    ],
+    "family": "エジプト"
+  },
+  {
+    "name": "スーダン",
+    "key": "スーダン",
+    "kind": "region",
+    "points": [
+      [
+        30,
+        15
+      ]
+    ],
+    "family": "スーダン"
+  },
+  {
+    "name": "インド",
+    "key": "インド",
+    "kind": "region",
+    "points": [
+      [
+        79,
+        22
+      ]
+    ],
+    "family": "インド"
+  },
+  {
+    "name": "インド帝国",
+    "key": "インド帝国",
+    "kind": "region",
+    "points": [
+      [
+        79,
+        22
+      ]
+    ],
+    "family": "インド"
+  },
+  {
+    "name": "インド連邦",
+    "key": "インド連邦",
+    "kind": "region",
+    "points": [
+      [
+        79,
+        22
+      ]
+    ],
+    "family": "インド"
+  },
+  {
+    "name": "パキスタン",
+    "key": "パキスタン",
+    "kind": "region",
+    "points": [
+      [
+        69,
+        30
+      ]
+    ],
+    "family": "パキスタン"
+  },
+  {
+    "name": "パンジャーブ地方",
+    "key": "パンジャーブ地方",
+    "kind": "region",
+    "points": [
+      [
+        73,
+        31
+      ]
+    ],
+    "family": "パンジャーブ"
+  },
+  {
+    "name": "南アフリカ",
+    "key": "南アフリカ",
+    "kind": "region",
+    "points": [
+      [
+        25,
+        -29
+      ]
+    ],
+    "family": "南アフリカ"
+  },
+  {
+    "name": "ビルマ",
+    "key": "ビルマ",
+    "kind": "region",
+    "points": [
+      [
+        96,
+        21
+      ]
+    ],
+    "family": "ビルマ"
+  },
+  {
+    "name": "ミャンマー",
+    "key": "ミャンマー",
+    "kind": "region",
+    "points": [
+      [
+        96,
+        21
+      ]
+    ],
+    "family": "ビルマ"
+  },
+  {
+    "name": "ベトナム",
+    "key": "ベトナム",
+    "kind": "region",
+    "points": [
+      [
+        106,
+        16
+      ]
+    ],
+    "family": "ベトナム"
+  },
+  {
+    "name": "インドシナ",
+    "key": "インドシナ",
+    "kind": "region",
+    "points": [
+      [
+        106,
+        16
+      ]
+    ],
+    "family": "インドシナ"
+  },
+  {
+    "name": "カンボジア",
+    "key": "カンボジア",
+    "kind": "region",
+    "points": [
+      [
+        105,
+        12.5
+      ]
+    ],
+    "family": "カンボジア"
+  },
+  {
+    "name": "ラオス",
+    "key": "ラオス",
+    "kind": "region",
+    "points": [
+      [
+        103,
+        18
+      ]
+    ],
+    "family": "ラオス"
+  },
+  {
+    "name": "インドネシア",
+    "key": "インドネシア",
+    "kind": "region",
+    "points": [
+      [
+        117,
+        -2
+      ]
+    ],
+    "family": "インドネシア"
+  },
+  {
+    "name": "ジャワ島",
+    "key": "ジャワ島",
+    "kind": "region",
+    "points": [
+      [
+        110,
+        -7
+      ]
+    ],
+    "family": "ジャワ"
+  },
+  {
+    "name": "ジャワ",
+    "key": "ジャワ",
+    "kind": "region",
+    "points": [
+      [
+        110,
+        -7
+      ]
+    ],
+    "family": "ジャワ"
+  },
+  {
+    "name": "スマトラ島",
+    "key": "スマトラ島",
+    "kind": "region",
+    "points": [
+      [
+        101,
+        -1
+      ]
+    ],
+    "family": "スマトラ"
+  },
+  {
+    "name": "スマトラ",
+    "key": "スマトラ",
+    "kind": "region",
+    "points": [
+      [
+        101,
+        -1
+      ]
+    ],
+    "family": "スマトラ"
+  },
+  {
+    "name": "北ボルネオ",
+    "key": "北ボルネオ",
+    "kind": "region",
+    "points": [
+      [
+        116,
+        5
+      ]
+    ],
+    "family": "北ボルネオ"
+  },
+  {
+    "name": "南ボルネオ",
+    "key": "南ボルネオ",
+    "kind": "region",
+    "points": [
+      [
+        113,
+        -2
+      ]
+    ],
+    "family": "南ボルネオ"
+  },
+  {
+    "name": "フィリピン",
+    "key": "フィリピン",
+    "kind": "region",
+    "points": [
+      [
+        123,
+        12
+      ]
+    ],
+    "family": "フィリピン"
+  },
+  {
+    "name": "タイ",
+    "key": "タイ",
+    "kind": "region",
+    "points": [
+      [
+        101,
+        15
+      ]
+    ],
+    "family": "タイ"
+  },
+  {
+    "name": "シャム",
+    "key": "シャム",
+    "kind": "region",
+    "points": [
+      [
+        101,
+        15
+      ]
+    ],
+    "family": "タイ"
+  },
+  {
+    "name": "イスタンブル",
+    "key": "イスタンブル",
+    "kind": "place",
+    "points": [
+      [
+        28.98,
+        41.01
+      ]
+    ],
+    "family": "イスタンブル"
+  },
+  {
+    "name": "アンカラ",
+    "key": "アンカラ",
+    "kind": "place",
+    "points": [
+      [
+        32.86,
+        39.93
+      ]
+    ],
+    "family": "アンカラ"
+  },
+  {
+    "name": "イズミル",
+    "key": "イズミル",
+    "kind": "place",
+    "points": [
+      [
+        27.14,
+        38.42
+      ]
+    ],
+    "family": "イズミル"
+  },
+  {
+    "name": "スミルナ",
+    "key": "スミルナ",
+    "kind": "place",
+    "points": [
+      [
+        27.14,
+        38.42
+      ]
+    ],
+    "family": "イズミル"
+  },
+  {
+    "name": "メッカ",
+    "key": "メッカ",
+    "kind": "place",
+    "points": [
+      [
+        39.82,
+        21.42
+      ]
+    ],
+    "family": "メッカ"
+  },
+  {
+    "name": "メディナ",
+    "key": "メディナ",
+    "kind": "place",
+    "points": [
+      [
+        39.61,
+        24.47
+      ]
+    ],
+    "family": "メディナ"
+  },
+  {
+    "name": "ロンドン",
+    "key": "ロンドン",
+    "kind": "place",
+    "points": [
+      [
+        -0.12,
+        51.5
+      ]
+    ],
+    "family": "ロンドン"
+  },
+  {
+    "name": "パリ",
+    "key": "パリ",
+    "kind": "place",
+    "points": [
+      [
+        2.35,
+        48.86
+      ]
+    ],
+    "family": "パリ"
+  },
+  {
+    "name": "モスクワ",
+    "key": "モスクワ",
+    "kind": "place",
+    "points": [
+      [
+        37.62,
+        55.75
+      ]
+    ],
+    "family": "モスクワ"
+  },
+  {
+    "name": "広東",
+    "key": "広東",
+    "kind": "place",
+    "points": [
+      [
+        113.26,
+        23.13
+      ]
+    ],
+    "family": "広東"
+  },
+  {
+    "name": "ラホール",
+    "key": "ラホール",
+    "kind": "place",
+    "points": [
+      [
+        74.34,
+        31.55
+      ]
+    ],
+    "family": "ラホール"
+  },
+  {
+    "name": "アムリットサール",
+    "key": "アムリットサール",
+    "kind": "place",
+    "points": [
+      [
+        74.87,
+        31.63
+      ]
+    ],
+    "family": "アムリットサール"
+  },
+  {
+    "name": "カルカッタ",
+    "key": "カルカッタ",
+    "kind": "place",
+    "points": [
+      [
+        88.36,
+        22.57
+      ]
+    ],
+    "family": "カルカッタ"
+  },
+  {
+    "name": "ハノイ",
+    "key": "ハノイ",
+    "kind": "place",
+    "points": [
+      [
+        105.83,
+        21.03
+      ]
+    ],
+    "family": "ハノイ"
+  },
+  {
+    "name": "マニラ",
+    "key": "マニラ",
+    "kind": "place",
+    "points": [
+      [
+        120.98,
+        14.6
+      ]
+    ],
+    "family": "マニラ"
+  },
+  {
+    "name": "サイゴン",
+    "key": "サイゴン",
+    "kind": "place",
+    "points": [
+      [
+        106.7,
+        10.77
+      ]
+    ],
+    "family": "サイゴン"
+  },
+  {
+    "name": "シンガポール",
+    "key": "シンガポール",
+    "kind": "place",
+    "points": [
+      [
+        103.82,
+        1.35
+      ]
+    ],
+    "family": "シンガポール"
+  },
+  {
+    "name": "バタヴィア",
+    "key": "バタヴィア",
+    "kind": "place",
+    "points": [
+      [
+        106.85,
+        -6.21
+      ]
+    ],
+    "family": "バタヴィア"
+  },
+  {
+    "name": "サカリヤ川",
+    "key": "サカリヤ川",
+    "kind": "place",
+    "points": [
+      [
+        32.1,
+        39.9
+      ]
+    ],
+    "family": "サカリヤ川",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "ヨルダン川",
+    "key": "ヨルダン川",
+    "kind": "place",
+    "points": [
+      [
+        35.58,
+        32.03
+      ]
+    ],
+    "family": "ヨルダン川",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "スエズ運河",
+    "key": "スエズ運河",
+    "kind": "place",
+    "points": [
+      [
+        32.3,
+        30.2
+      ]
+    ],
+    "family": "スエズ運河",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "インダス川",
+    "key": "インダス川",
+    "kind": "place",
+    "points": [
+      [
+        70,
+        28
+      ]
+    ],
+    "family": "インダス川",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "ガンジス川",
+    "key": "ガンジス川",
+    "kind": "place",
+    "points": [
+      [
+        83,
+        25
+      ]
+    ],
+    "family": "ガンジス川",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "ムスタファ＝ケマル",
+    "key": "ムスタファケマル",
+    "kind": "person",
+    "points": [],
+    "family": "ムスタファ＝ケマル",
+    "personKey": "mustafa-kemal"
+  },
+  {
+    "name": "メフメト6世",
+    "key": "メフメト6世",
+    "kind": "person",
+    "points": [],
+    "family": "メフメト6世",
+    "personKey": "mehmed-vi"
+  },
+  {
+    "name": "レザー＝ハーン",
+    "key": "レザーハーン",
+    "kind": "person",
+    "points": [],
+    "family": "レザー＝ハーン",
+    "personKey": "reza-shah"
+  },
+  {
+    "name": "マクマホン",
+    "key": "マクマホン",
+    "kind": "person",
+    "points": [],
+    "family": "マクマホン",
+    "personKey": "henry-mcmahon"
+  },
+  {
+    "name": "フセイン",
+    "key": "フセイン",
+    "kind": "person",
+    "points": [],
+    "family": "フセイン",
+    "personKey": "hussein-bin-ali"
+  },
+  {
+    "name": "ローレンス",
+    "key": "ローレンス",
+    "kind": "person",
+    "points": [],
+    "family": "ローレンス",
+    "personKey": "t-e-lawrence"
+  },
+  {
+    "name": "イブン＝サウード",
+    "key": "イブンサウード",
+    "kind": "person",
+    "points": [],
+    "family": "イブン＝サウード",
+    "personKey": "ibn-saud"
+  },
+  {
+    "name": "ファイサル",
+    "key": "ファイサル",
+    "kind": "person",
+    "points": [],
+    "family": "ファイサル",
+    "personKey": "faisal-i"
+  },
+  {
+    "name": "アブドゥッラー",
+    "key": "アブドゥッラー",
+    "kind": "person",
+    "points": [],
+    "family": "アブドゥッラー",
+    "personKey": "abdullah-i"
+  },
+  {
+    "name": "サアド＝ザグルール",
+    "key": "サアドザグルール",
+    "kind": "person",
+    "points": [],
+    "family": "サアド＝ザグルール",
+    "personKey": "saad-zaghlul"
+  },
+  {
+    "name": "ハサン＝アルバンナ",
+    "key": "ハサンアルバンナ",
+    "kind": "person",
+    "points": [],
+    "family": "ハサン＝アルバンナ",
+    "personKey": "hasan-al-banna"
+  },
+  {
+    "name": "モンタギュー",
+    "key": "モンタギュー",
+    "kind": "person",
+    "points": [],
+    "family": "モンタギュー",
+    "personKey": "edwin-montagu"
+  },
+  {
+    "name": "ガンディー",
+    "key": "ガンディー",
+    "kind": "person",
+    "points": [],
+    "family": "ガンディー",
+    "personKey": "mahatma-gandhi"
+  },
+  {
+    "name": "ネルー",
+    "key": "ネルー",
+    "kind": "person",
+    "points": [],
+    "family": "ネルー",
+    "personKey": "jawaharlal-nehru"
+  },
+  {
+    "name": "ジンナー",
+    "key": "ジンナー",
+    "kind": "person",
+    "points": [],
+    "family": "ジンナー",
+    "personKey": "muhammad-ali-jinnah"
+  },
+  {
+    "name": "チャンドラ＝ボース",
+    "key": "チャンドラボース",
+    "kind": "person",
+    "points": [],
+    "family": "チャンドラ・ボース",
+    "personKey": "subhas-chandra-bose"
+  },
+  {
+    "name": "サヤー＝サン",
+    "key": "サヤーサン",
+    "kind": "person",
+    "points": [],
+    "family": "サヤー＝サン",
+    "personKey": "saya-san"
+  },
+  {
+    "name": "アウン＝サン",
+    "key": "アウンサン",
+    "kind": "person",
+    "points": [],
+    "family": "アウン＝サン",
+    "personKey": "aung-san"
+  },
+  {
+    "name": "アウン＝サン＝スー＝チー",
+    "key": "アウンサンスーチー",
+    "kind": "person",
+    "points": [],
+    "family": "スー＝チー",
+    "personKey": "aung-san-suu-kyi"
+  },
+  {
+    "name": "グエン＝タイ＝ホク",
+    "key": "グエンタイホク",
+    "kind": "person",
+    "points": [],
+    "family": "グエン＝タイ＝ホク",
+    "personKey": "nguyen-thai-hoc"
+  },
+  {
+    "name": "ホー＝チ＝ミン",
+    "key": "ホーチミン",
+    "kind": "person",
+    "points": [],
+    "family": "ホー＝チ＝ミン",
+    "personKey": "ho-chi-minh-1930"
+  },
+  {
+    "name": "バオダイ",
+    "key": "バオダイ",
+    "kind": "person",
+    "points": [],
+    "family": "バオダイ",
+    "personKey": "bao-dai"
+  },
+  {
+    "name": "スカルノ",
+    "key": "スカルノ",
+    "kind": "person",
+    "points": [],
+    "family": "スカルノ",
+    "personKey": "sukarno"
+  },
+  {
+    "name": "フランクリン＝ローズヴェルト",
+    "key": "フランクリンローズヴェルト",
+    "kind": "person",
+    "points": [],
+    "family": "フランクリン＝ローズヴェルト",
+    "personKey": "franklin-d-roosevelt"
+  },
+  {
+    "name": "ピブン",
+    "key": "ピブン",
+    "kind": "person",
+    "points": [],
+    "family": "ピブン",
+    "personKey": "plaek-phibun"
+  },
+  {
+    "name": "蔣介石",
+    "key": "蔣介石",
+    "kind": "person",
+    "points": [],
+    "family": "蔣介石",
+    "personKey": "chiang-kai-shek"
+  },
+  {
+    "name": "毛沢東",
+    "key": "毛沢東",
+    "kind": "person",
+    "points": [],
+    "family": "毛沢東",
+    "personKey": "mao-zedong-1930"
+  },
+  {
+    "name": "ケマル＝パシャ",
+    "key": "ケマルパシャ",
+    "kind": "person",
+    "points": [],
+    "family": "ムスタファ＝ケマル",
+    "personKey": "mustafa-kemal"
+  },
+  {
+    "name": "ケマル",
+    "key": "ケマル",
+    "kind": "person",
+    "points": [],
+    "family": "ムスタファ＝ケマル",
+    "personKey": "mustafa-kemal"
+  },
+  {
+    "name": "アタテュルク",
+    "key": "アタテュルク",
+    "kind": "person",
+    "points": [],
+    "family": "ムスタファ＝ケマル",
+    "personKey": "mustafa-kemal"
+  },
+  {
+    "name": "レザー＝シャー",
+    "key": "レザーシャー",
+    "kind": "person",
+    "points": [],
+    "family": "レザー＝ハーン",
+    "personKey": "reza-shah"
+  },
+  {
+    "name": "アブド＝アルアジーズ",
+    "key": "アブドアルアジーズ",
+    "kind": "person",
+    "points": [],
+    "family": "イブン＝サウード",
+    "personKey": "ibn-saud"
+  },
+  {
+    "name": "スー＝チー",
+    "key": "スーチー",
+    "kind": "person",
+    "points": [],
+    "family": "スー＝チー",
+    "personKey": "aung-san-suu-kyi"
+  },
+  {
+    "name": "ウィルソン",
+    "key": "ウィルソン",
+    "kind": "person",
+    "points": [],
+    "family": "ウィルソン",
+    "personKey": "woodrow-wilson"
+  },
+  {
+    "name": "マクドナルド",
+    "key": "マクドナルド",
+    "kind": "person",
+    "points": [],
+    "family": "マクドナルド",
+    "personKey": "ramsay-macdonald"
+  },
+  {
+    "name": "ボールドウィン",
+    "key": "ボールドウィン",
+    "kind": "person",
+    "points": [],
+    "family": "ボールドウィン",
+    "personKey": "stanley-baldwin"
+  },
+  {
+    "name": "ファン＝ボイ＝チャウ",
+    "key": "ファンボイチャウ",
+    "kind": "person",
+    "points": [],
+    "family": "ファン＝ボイ＝チャウ",
+    "personKey": "phan-boi-chau"
+  },
+  {
+    "name": "ラーマ5世",
+    "key": "ラーマ5世",
+    "kind": "person",
+    "points": [],
+    "family": "ラーマ5世",
+    "personKey": "rama-v"
+  },
+  {
+    "name": "ウラービー",
+    "key": "ウラービー",
+    "kind": "person",
+    "points": [],
+    "family": "ウラービー",
+    "personKey": "ahmed-urabi"
+  },
+  {
+    "name": "孫文",
+    "key": "孫文",
+    "kind": "person",
+    "points": [],
+    "family": "孫文",
+    "personKey": "sun-yat-sen"
+  },
+  {
+    "name": "ムハンマド",
+    "key": "ムハンマド",
+    "kind": "person",
+    "points": [],
+    "family": "ムハンマド"
+  },
+  {
+    "name": "ムハンマド＝アリー",
+    "key": "ムハンマドアリー",
+    "kind": "person",
+    "points": [],
+    "family": "ムハンマド＝アリー",
+    "personKey": "muhammad-ali"
+  },
+  {
+    "name": "ワッハーブ",
+    "key": "ワッハーブ",
+    "kind": "person",
+    "points": [],
+    "family": "ワッハーブ"
+  },
+  {
+    "name": "民族自決",
+    "key": "民族自決",
+    "kind": "concept",
+    "points": [],
+    "family": "民族自決"
+  },
+  {
+    "name": "十四カ条",
+    "key": "十四カ条",
+    "kind": "concept",
+    "points": [],
+    "family": "十四カ条"
+  },
+  {
+    "name": "青年トルコ",
+    "key": "青年トルコ",
+    "kind": "concept",
+    "points": [],
+    "family": "青年トルコ"
+  },
+  {
+    "name": "大ギリシア国家",
+    "key": "大ギリシア国家",
+    "kind": "concept",
+    "points": [],
+    "family": "大ギリシア国家"
+  },
+  {
+    "name": "大国民議会",
+    "key": "大国民議会",
+    "kind": "concept",
+    "points": [],
+    "family": "大国民議会"
+  },
+  {
+    "name": "革命政府",
+    "key": "革命政府",
+    "kind": "concept",
+    "points": [],
+    "family": "革命政府"
+  },
+  {
+    "name": "セーヴル条約",
+    "key": "セーヴル条約",
+    "kind": "concept",
+    "points": [],
+    "family": "セーヴル条約"
+  },
+  {
+    "name": "ローザンヌ条約",
+    "key": "ローザンヌ条約",
+    "kind": "concept",
+    "points": [],
+    "family": "ローザンヌ条約"
+  },
+  {
+    "name": "スルタン制",
+    "key": "スルタン制",
+    "kind": "concept",
+    "points": [],
+    "family": "スルタン制"
+  },
+  {
+    "name": "カリフ制",
+    "key": "カリフ制",
+    "kind": "concept",
+    "points": [],
+    "family": "カリフ制"
+  },
+  {
+    "name": "スルタン＝カリフ制",
+    "key": "スルタンカリフ制",
+    "kind": "concept",
+    "points": [],
+    "family": "スルタン＝カリフ制"
+  },
+  {
+    "name": "人民党",
+    "key": "人民党",
+    "kind": "concept",
+    "points": [],
+    "family": "人民党"
+  },
+  {
+    "name": "政教分離",
+    "key": "政教分離",
+    "kind": "concept",
+    "points": [],
+    "family": "政教分離"
+  },
+  {
+    "name": "マドラサ",
+    "key": "マドラサ",
+    "kind": "concept",
+    "points": [],
+    "family": "マドラサ"
+  },
+  {
+    "name": "共和国憲法",
+    "key": "共和国憲法",
+    "kind": "concept",
+    "points": [],
+    "family": "共和国憲法"
+  },
+  {
+    "name": "ローマ字",
+    "key": "ローマ字",
+    "kind": "concept",
+    "points": [],
+    "family": "ローマ字"
+  },
+  {
+    "name": "英露協商",
+    "key": "英露協商",
+    "kind": "concept",
+    "points": [],
+    "family": "英露協商"
+  },
+  {
+    "name": "ソヴィエト政権",
+    "key": "ソヴィエト政権",
+    "kind": "concept",
+    "points": [],
+    "family": "ソヴィエト政権"
+  },
+  {
+    "name": "ガージャール朝",
+    "key": "ガージャール朝",
+    "kind": "concept",
+    "points": [],
+    "family": "ガージャール朝"
+  },
+  {
+    "name": "パフレヴィー朝",
+    "key": "パフレヴィー朝",
+    "kind": "concept",
+    "points": [],
+    "family": "パフレヴィー朝"
+  },
+  {
+    "name": "フセイン・マクマホン協定",
+    "key": "フセインマクマホン協定",
+    "kind": "concept",
+    "points": [],
+    "family": "フセイン・マクマホン協定"
+  },
+  {
+    "name": "サイクス・ピコ協定",
+    "key": "サイクスピコ協定",
+    "kind": "concept",
+    "points": [],
+    "family": "サイクス・ピコ協定"
+  },
+  {
+    "name": "バルフォア宣言",
+    "key": "バルフォア宣言",
+    "kind": "concept",
+    "points": [],
+    "family": "バルフォア宣言"
+  },
+  {
+    "name": "ハーシム家",
+    "key": "ハーシム家",
+    "kind": "concept",
+    "points": [],
+    "family": "ハーシム家"
+  },
+  {
+    "name": "サウード家",
+    "key": "サウード家",
+    "kind": "concept",
+    "points": [],
+    "family": "サウード家"
+  },
+  {
+    "name": "ワッハーブ派",
+    "key": "ワッハーブ派",
+    "kind": "concept",
+    "points": [],
+    "family": "ワッハーブ派"
+  },
+  {
+    "name": "ワッハーブ王国",
+    "key": "ワッハーブ王国",
+    "kind": "concept",
+    "points": [],
+    "family": "ワッハーブ王国"
+  },
+  {
+    "name": "ジェッダ条約",
+    "key": "ジェッダ条約",
+    "kind": "concept",
+    "points": [],
+    "family": "ジェッダ条約"
+  },
+  {
+    "name": "サンレモ会議",
+    "key": "サンレモ会議",
+    "kind": "concept",
+    "points": [],
+    "family": "サンレモ会議"
+  },
+  {
+    "name": "スンナ派",
+    "key": "スンナ派",
+    "kind": "concept",
+    "points": [],
+    "family": "スンナ派"
+  },
+  {
+    "name": "マロン派",
+    "key": "マロン派",
+    "kind": "concept",
+    "points": [],
+    "family": "マロン派"
+  },
+  {
+    "name": "ザイド派",
+    "key": "ザイド派",
+    "kind": "concept",
+    "points": [],
+    "family": "ザイド派"
+  },
+  {
+    "name": "ワフド",
+    "key": "ワフド",
+    "kind": "concept",
+    "points": [],
+    "family": "ワフド"
+  },
+  {
+    "name": "ワフド党",
+    "key": "ワフド党",
+    "kind": "concept",
+    "points": [],
+    "family": "ワフド党"
+  },
+  {
+    "name": "1919年革命",
+    "key": "1919年革命",
+    "kind": "concept",
+    "points": [],
+    "family": "1919年革命"
+  },
+  {
+    "name": "ムスリム同胞団",
+    "key": "ムスリム同胞団",
+    "kind": "concept",
+    "points": [],
+    "family": "ムスリム同胞団"
+  },
+  {
+    "name": "コーラン",
+    "key": "コーラン",
+    "kind": "concept",
+    "points": [],
+    "family": "コーラン"
+  },
+  {
+    "name": "原理主義",
+    "key": "原理主義",
+    "kind": "concept",
+    "points": [],
+    "family": "原理主義"
+  },
+  {
+    "name": "国民会議派",
+    "key": "国民会議派",
+    "kind": "concept",
+    "points": [],
+    "family": "国民会議派"
+  },
+  {
+    "name": "全インド＝ムスリム連盟",
+    "key": "全インドムスリム連盟",
+    "kind": "concept",
+    "points": [],
+    "family": "全インド＝ムスリム連盟"
+  },
+  {
+    "name": "ムスリム連盟",
+    "key": "ムスリム連盟",
+    "kind": "concept",
+    "points": [],
+    "family": "ムスリム連盟"
+  },
+  {
+    "name": "ラクナウ協定",
+    "key": "ラクナウ協定",
+    "kind": "concept",
+    "points": [],
+    "family": "ラクナウ協定"
+  },
+  {
+    "name": "ローラット法",
+    "key": "ローラット法",
+    "kind": "concept",
+    "points": [],
+    "family": "ローラット法"
+  },
+  {
+    "name": "アムリットサール事件",
+    "key": "アムリットサール事件",
+    "kind": "concept",
+    "points": [],
+    "family": "アムリットサール事件"
+  },
+  {
+    "name": "インド統治法",
+    "key": "インド統治法",
+    "kind": "concept",
+    "points": [],
+    "family": "インド統治法"
+  },
+  {
+    "name": "新インド統治法",
+    "key": "新インド統治法",
+    "kind": "concept",
+    "points": [],
+    "family": "新インド統治法"
+  },
+  {
+    "name": "サティヤーグラハ",
+    "key": "サティヤーグラハ",
+    "kind": "concept",
+    "points": [],
+    "family": "サティヤーグラハ"
+  },
+  {
+    "name": "ハルタール",
+    "key": "ハルタール",
+    "kind": "concept",
+    "points": [],
+    "family": "ハルタール"
+  },
+  {
+    "name": "チャルカ",
+    "key": "チャルカ",
+    "kind": "concept",
+    "points": [],
+    "family": "チャルカ"
+  },
+  {
+    "name": "カリフ擁護運動",
+    "key": "カリフ擁護運動",
+    "kind": "concept",
+    "points": [],
+    "family": "カリフ擁護運動"
+  },
+  {
+    "name": "ヒラーファト運動",
+    "key": "ヒラーファト運動",
+    "kind": "concept",
+    "points": [],
+    "family": "ヒラーファト運動"
+  },
+  {
+    "name": "非暴力・不服従",
+    "key": "非暴力不服従",
+    "kind": "concept",
+    "points": [],
+    "family": "非暴力・不服従"
+  },
+  {
+    "name": "非協力運動",
+    "key": "非協力運動",
+    "kind": "concept",
+    "points": [],
+    "family": "非協力運動"
+  },
+  {
+    "name": "インド共産党",
+    "key": "インド共産党",
+    "kind": "concept",
+    "points": [],
+    "family": "インド共産党"
+  },
+  {
+    "name": "労働党",
+    "key": "労働党",
+    "kind": "concept",
+    "points": [],
+    "family": "労働党"
+  },
+  {
+    "name": "保守党",
+    "key": "保守党",
+    "kind": "concept",
+    "points": [],
+    "family": "保守党"
+  },
+  {
+    "name": "サイモン委員会",
+    "key": "サイモン委員会",
+    "kind": "concept",
+    "points": [],
+    "family": "サイモン委員会"
+  },
+  {
+    "name": "プールナ＝スワラージ",
+    "key": "プールナスワラージ",
+    "kind": "concept",
+    "points": [],
+    "family": "プールナ＝スワラージ"
+  },
+  {
+    "name": "塩の行進",
+    "key": "塩の行進",
+    "kind": "concept",
+    "points": [],
+    "family": "塩の行進"
+  },
+  {
+    "name": "コミンテルン",
+    "key": "コミンテルン",
+    "kind": "concept",
+    "points": [],
+    "family": "コミンテルン"
+  },
+  {
+    "name": "人民戦線",
+    "key": "人民戦線",
+    "kind": "concept",
+    "points": [],
+    "family": "人民戦線"
+  },
+  {
+    "name": "英印円卓会議",
+    "key": "英印円卓会議",
+    "kind": "concept",
+    "points": [],
+    "family": "英印円卓会議"
+  },
+  {
+    "name": "クイット＝インディア",
+    "key": "クイットインディア",
+    "kind": "concept",
+    "points": [],
+    "family": "クイット＝インディア"
+  },
+  {
+    "name": "インド国民軍",
+    "key": "インド国民軍",
+    "kind": "concept",
+    "points": [],
+    "family": "インド国民軍"
+  },
+  {
+    "name": "インパール作戦",
+    "key": "インパール作戦",
+    "kind": "concept",
+    "points": [],
+    "family": "インパール作戦"
+  },
+  {
+    "name": "ビルマ統治法",
+    "key": "ビルマ統治法",
+    "kind": "concept",
+    "points": [],
+    "family": "ビルマ統治法"
+  },
+  {
+    "name": "タキン党",
+    "key": "タキン党",
+    "kind": "concept",
+    "points": [],
+    "family": "タキン党"
+  },
+  {
+    "name": "我らのビルマ協会",
+    "key": "我らのビルマ協会",
+    "kind": "concept",
+    "points": [],
+    "family": "我らのビルマ協会"
+  },
+  {
+    "name": "反ファシスト人民自由連盟",
+    "key": "反ファシスト人民自由連盟",
+    "kind": "concept",
+    "points": [],
+    "family": "反ファシスト人民自由連盟"
+  },
+  {
+    "name": "中国国民党",
+    "key": "中国国民党",
+    "kind": "concept",
+    "points": [],
+    "family": "中国国民党"
+  },
+  {
+    "name": "ベトナム国民党",
+    "key": "ベトナム国民党",
+    "kind": "concept",
+    "points": [],
+    "family": "ベトナム国民党"
+  },
+  {
+    "name": "ベトナム青年革命同志会",
+    "key": "ベトナム青年革命同志会",
+    "kind": "concept",
+    "points": [],
+    "family": "ベトナム青年革命同志会"
+  },
+  {
+    "name": "ベトナム共産党",
+    "key": "ベトナム共産党",
+    "kind": "concept",
+    "points": [],
+    "family": "ベトナム共産党"
+  },
+  {
+    "name": "インドシナ共産党",
+    "key": "インドシナ共産党",
+    "kind": "concept",
+    "points": [],
+    "family": "インドシナ共産党"
+  },
+  {
+    "name": "ベトナム独立同盟",
+    "key": "ベトナム独立同盟",
+    "kind": "concept",
+    "points": [],
+    "family": "ベトナム独立同盟"
+  },
+  {
+    "name": "ベトミン",
+    "key": "ベトミン",
+    "kind": "concept",
+    "points": [],
+    "family": "ベトミン"
+  },
+  {
+    "name": "ベトナム帝国",
+    "key": "ベトナム帝国",
+    "kind": "concept",
+    "points": [],
+    "family": "ベトナム帝国"
+  },
+  {
+    "name": "ベトナム民主共和国",
+    "key": "ベトナム民主共和国",
+    "kind": "concept",
+    "points": [],
+    "family": "ベトナム民主共和国"
+  },
+  {
+    "name": "サレカット＝イスラム",
+    "key": "サレカットイスラム",
+    "kind": "concept",
+    "points": [],
+    "family": "サレカット＝イスラム"
+  },
+  {
+    "name": "インドネシア共産党",
+    "key": "インドネシア共産党",
+    "kind": "concept",
+    "points": [],
+    "family": "インドネシア共産党"
+  },
+  {
+    "name": "インドネシア国民党",
+    "key": "インドネシア国民党",
+    "kind": "concept",
+    "points": [],
+    "family": "インドネシア国民党"
+  },
+  {
+    "name": "インドネシア国民同盟",
+    "key": "インドネシア国民同盟",
+    "kind": "concept",
+    "points": [],
+    "family": "インドネシア国民同盟"
+  },
+  {
+    "name": "ムルデカ運動",
+    "key": "ムルデカ運動",
+    "kind": "concept",
+    "points": [],
+    "family": "ムルデカ運動"
+  },
+  {
+    "name": "インドネシア共和国",
+    "key": "インドネシア共和国",
+    "kind": "concept",
+    "points": [],
+    "family": "インドネシア共和国"
+  },
+  {
+    "name": "ハーグ協定",
+    "key": "ハーグ協定",
+    "kind": "concept",
+    "points": [],
+    "family": "ハーグ協定"
+  },
+  {
+    "name": "善隣外交",
+    "key": "善隣外交",
+    "kind": "concept",
+    "points": [],
+    "family": "善隣外交"
+  },
+  {
+    "name": "フィリピン独立法",
+    "key": "フィリピン独立法",
+    "kind": "concept",
+    "points": [],
+    "family": "フィリピン独立法"
+  },
+  {
+    "name": "独立準備政府",
+    "key": "独立準備政府",
+    "kind": "concept",
+    "points": [],
+    "family": "独立準備政府"
+  },
+  {
+    "name": "タイ立憲革命",
+    "key": "タイ立憲革命",
+    "kind": "concept",
+    "points": [],
+    "family": "タイ立憲革命"
+  }
+];
+const normalize=text=>String(text??'').replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g,'').replace(/<[^>]*>/g,'').replace(/[\s＝=・『』「」]/g,'');
+const byKey=new Map(modernNameCatalog.map(entry=>[entry.key,entry]));
+const escapePattern=value=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const pattern=new RegExp([...byKey.keys()].sort((a,b)=>b.length-a.length).map(key=>key.length===1?`(?<![一-龯])${escapePattern(key)}(?![一-龯])`:escapePattern(key)).join('|'),'g');
+export function modernNamesInText(text){
+ const value=normalize(text).replace(/ヨーロッパ人|イギリス人|フランス人|アメリカ人|エジプト人|ドイツ人|日本人|イタリア人|インドネシア人|インド人|イラン人|フィリピン人|ビルマ人|トルコ人|アルメニア人|クルド人|アラブ人|中国人|ベトナム人|インドネシア語|インド語|トルコ語|トルコ史|英語/g,'');
+ const found=new Map();for(const match of value.matchAll(pattern)){const entry=byKey.get(match[0]);if(!found.has(entry.family))found.set(entry.family,entry);}
+ // 名称内部の国を機械的に地点へせず、実際の対立・貿易・制度が本文で明記される場合だけ国を共存させる。
+ const relations=[["英露協商",["イギリス","ロシア","イラン"]],["フセイン・マクマホン協定",["イギリス","アラブ"]],["サイクス・ピコ協定",["イギリス","フランス","ロシア","アラブ"]],["バルフォア宣言",["イギリス","パレスチナ"]],["英仏",["イギリス","フランス"]],["日・英",["日本","イギリス"]],["トルコ革命",["トルコ"]],["英印円卓会議",["イギリス","インド"]],["インド統治法",["インド"]],["新インド統治法",["インド"]],["ビルマ統治法",["ビルマ"]],["タイ立憲革命",["タイ"]],["フィリピン独立法",["フィリピン"]]];
+ for(const [term,names]of relations)if(value.includes(normalize(term)))for(const name of names){const entry=byKey.get(name);if(!found.has(entry.family))found.set(entry.family,entry);}
+ return [...found.values()];
+}

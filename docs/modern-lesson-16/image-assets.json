@@ -1,0 +1,2783 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "version": "0.126",
+  "lesson": "modern-c04-l16",
+  "description": "戦間期の西・南・東南アジアの人物と独立運動を読むためのドット絵。本人・一般集団・道具と制度を分ける。",
+  "totals": {
+    "requestedAssets": 37,
+    "new": 36,
+    "newPeople": 26,
+    "newGroups": 7,
+    "newPropsAndBuildings": 3,
+    "nativeGenerated": 0,
+    "fallbackGenerated": 36,
+    "reused": 19,
+    "used": 55,
+    "unavailablePortraits": 1
+  },
+  "authorization": "指定のAntigravity CLI経由でGemini 3.8 Flashへ画像と寸法調整を依頼したが、3分で時間切れとなり、生成済み画像と処理用ファイルを取得できなかった。以前の利用者による別の生成ツールでの続行承認に基づき、組み込み画像生成で制作した。ガンディー本人の人物画は入力側の安全審査で拒否され、本人名・原文・糸紡ぎ車と行進の絵で示す。",
+  "nativeRequests": [
+    {
+      "name": "native-assets",
+      "prompt": "W-History第16回用の学習教材のドット絵を制作してください。モデルはGemini 3.8 Flash指定です。\nまず、この経路で実際の画像生成を使えるか確認し、可能ならギリシア＝トルコ戦争のギリシア軍の一般兵2人を1枚の透過PNGとして生成してください。特定の指導者ではありません。1919〜1922年の落ち着いた灰緑色の軍服と当時の制帽、全身、左右に少し離れた立ち姿。史実の精密な復元ではなく教材の模式図です。文字・旗・背景・地図・床・影・写真風は禁止です。小さな色の面と輪郭が読める、既存のファミコン風のドット絵と同じ密度にしてください。画像を生成する機能がなければ、できないことを明示してください。SVGやコードで画像の代用品を作らないでください。\n参考画像は C:/Users/USER/Desktop/W-History/public/images/modern-c04-l15/italian-troops-1920s.png と C:/Users/USER/Desktop/W-History/public/images/modern-c03-l13/british-wwi-soldiers.png。出力先は現在の作業フォルダの greek-troops-native.png です。元の画像は変更しないでください。\n画像生成後の透過・寸法の統一に使う normalize-sprites.py もこの作業フォルダへ作成してください。generated-inputs.json の各行の key と inputPath を読み、元画像を変更せず、アルファが16未満の微かな透明画素だけを0にした上で、見える範囲を切り出し、縦横比を保って最大176×176へ最近傍法で収め、透過192×192の中央96・足元184へ配置します。C:/Users/USER/Desktop/W-History/public/images/modern-c04-l16/ の各 key.png に保存し、元と出力のSHA256・描画範囲・透過・寸法・重複確認を normalization-report.json に記録してください。5列の確認一覧 contact-sheet.png は作業フォルダに作成します。生成画像がまだ存在しない場合は処理を実行せず、プログラムだけ作成してください。sourcesフォルダは参照専用で、全ファイルを一切変更しないでください。\n",
+      "response": {
+        "conversation_id": "120efaf9-4c6f-4143-bdb9-a0603fd77a9c",
+        "status": "SUCCESS",
+        "response": "",
+        "duration_seconds": 167.5823021,
+        "num_turns": 1,
+        "usage": {
+          "input_tokens": 187882,
+          "output_tokens": 10078,
+          "thinking_tokens": 6507,
+          "cache_read_tokens": 972749,
+          "total_tokens": 197960
+        }
+      },
+      "logEvidence": "[agy] print timeout after 3m0s with turn in progress; returning partial output",
+      "verifiedGeneratedOutput": false
+    }
+  ],
+  "unavailable": [
+    {
+      "key": "mahatma-gandhi",
+      "name": "ガンディー",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Mahatma Gandhi around 1930, slender older Indian man, bald head, small round wire spectacles and neat small moustache, simple white dhoti and white shawl, bare lower legs and sandals, a plain bamboo walking staff, calm dignified full-body stance.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "error": {
+        "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 1481afc5-d731-445a-841b-e4b427c2f201.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"public-figure\\\"\\n      ]\\n    }\\n  }\\n}\")"
+      },
+      "handling": "本文・本人名・糸紡ぎ車と行進の絵で示す。別人の顔を流用しない。"
+    }
+  ],
+  "generationModels": {
+    "nativeRequest": "Gemini 3.8 Flash / Antigravity CLI",
+    "fallback": "組み込み画像生成ツール。内部のモデル名は返されない。"
+  },
+  "normalization": {
+    "requestedVia": "Antigravity CLI / Gemini 3.8 Flash",
+    "currentAttempt": "時間切れで応答は空、処理用ファイルは取得できなかった。",
+    "performed": "以前Geminiが作成した処理用プログラムを再利用し、今回の保存先・件数・一覧の行数を変更して実行した。人物や道具を描き替えない。",
+    "provenance": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson14-20261004/normalize-sprites.py",
+    "completed": 36,
+    "failed": 0,
+    "canvas": [
+      192,
+      192
+    ],
+    "subjectMaximum": [
+      176,
+      176
+    ],
+    "centerX": 96,
+    "bottomY": 184,
+    "resampling": "最近傍、縦横比保持。",
+    "alphaCleanup": "16未満のごく薄いアルファ値のみ0へ調整。RGBと元画像を保持する。",
+    "scriptSha256": "c97c25c25fe190dd5505c5ff2c25b4b5b587879445695d96897ba6587cede80c"
+  },
+  "appearanceReview": {
+    "status": "新作36点の一覧と、全197場面の788回表示を確認済み。携帯幅の主要15場面を明暗両方で確認した。",
+    "portraits": "本人の特徴を踏まえた学習用の模式図。精密な肖像・軍装・実物の復元ではない。",
+    "roles": "最後のスルタンとその従兄弟、フランクリンとセオドア、青年期のホーと毛沢東、本人と一般集団、回想と先取りを分ける。",
+    "validation": "docs/modern-lesson-16/validation.json"
+  },
+  "assets": [
+    {
+      "key": "mustafa-kemal",
+      "name": "ムスタファ＝ケマル",
+      "kind": "person",
+      "subject": "Mustafa Kemal Ataturk around 1923, middle-aged Turkish man, strong narrow face and thick neat brown moustache, short neatly combed dark hair, restrained dark three-piece civilian suit, white shirt, tie and a closed document, no fez and no military insignia.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Mustafa Kemal Ataturk around 1923, middle-aged Turkish man, strong narrow face and thick neat brown moustache, short neatly combed dark hair, restrained dark three-piece civilian suit, white shirt, tie and a closed document, no fez and no military insignia.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3fe13cc1-1976-471b-b6aa-798dbbee2ef4.png",
+      "outputFile": "public/images/modern-c04-l16/mustafa-kemal.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3fe13cc1-1976-471b-b6aa-798dbbee2ef4.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\mustafa-kemal.png",
+      "inputSha256": "591a5f32e03e994f9ec5e5d4bf375e02f7aaa324b212556a8720119d98b8fb80",
+      "outputSha256": "84db02dd9b02c2ea3ca2dcdf92634f19975861d878d54a1753b4ed45801dfd5b",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 531,
+        "height": 1276
+      },
+      "resizedDimensions": {
+        "width": 73,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        49,
+        37,
+        1004,
+        1374
+      ],
+      "cleanedBbox": [
+        305,
+        60,
+        836,
+        1336
+      ],
+      "savedBbox": [
+        60,
+        8,
+        133,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1176865,
+        "faint": 15340,
+        "translucent": 395454,
+        "opaque": 911
+      },
+      "transparentPixelCount": 29614,
+      "removedFaintAlphaPixels": 15340,
+      "opaquePixelCount": 28,
+      "translucentPixelCount": 7222,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15340,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "mehmed-vi",
+      "name": "メフメト6世",
+      "kind": "person",
+      "subject": "Mehmed VI the last Ottoman sultan in 1922, elderly Turkish man, prominent pale moustache, red fez, dark formal Ottoman civilian coat with modest braid, dark trousers, a closed document. Distinct from Mehmed V and medieval sultans.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Mehmed VI the last Ottoman sultan in 1922, elderly Turkish man, prominent pale moustache, red fez, dark formal Ottoman civilian coat with modest braid, dark trousers, a closed document. Distinct from Mehmed V and medieval sultans.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9ce1078b-18c8-4b3a-9bba-6143e35709d8.png",
+      "outputFile": "public/images/modern-c04-l16/mehmed-vi.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9ce1078b-18c8-4b3a-9bba-6143e35709d8.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\mehmed-vi.png",
+      "inputSha256": "8a48f130ee7b92068e04c6c77cf418e23dcf96ac422085c9337c758b154ff580",
+      "outputSha256": "d3d06d1874ee0b2bbccda82b04b6ae7434821831a02a0b8dac651790281e3c0b",
+      "originalDimensions": {
+        "width": 1222,
+        "height": 1287
+      },
+      "croppedDimensions": {
+        "width": 483,
+        "height": 1197
+      },
+      "resizedDimensions": {
+        "width": 71,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        21,
+        1112,
+        1287
+      ],
+      "cleanedBbox": [
+        369,
+        49,
+        852,
+        1246
+      ],
+      "savedBbox": [
+        61,
+        8,
+        132,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1184971,
+        "faint": 11484,
+        "translucent": 386843,
+        "opaque": 900
+      },
+      "transparentPixelCount": 28733,
+      "removedFaintAlphaPixels": 11484,
+      "opaquePixelCount": 9,
+      "translucentPixelCount": 8122,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11484,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "reza-shah",
+      "name": "レザー＝ハーン",
+      "kind": "person",
+      "subject": "Reza Shah Pahlavi around 1925, sturdy middle-aged Iranian man, thick dark moustache, khaki early twentieth century Iranian officer tunic and peaked cap, dark riding boots, modest shoulder marks, neutral standing posture.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Reza Shah Pahlavi around 1925, sturdy middle-aged Iranian man, thick dark moustache, khaki early twentieth century Iranian officer tunic and peaked cap, dark riding boots, modest shoulder marks, neutral standing posture.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-63524451-2db9-47dd-a55c-e947d6349c0f.png",
+      "outputFile": "public/images/modern-c04-l16/reza-shah.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-63524451-2db9-47dd-a55c-e947d6349c0f.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\reza-shah.png",
+      "inputSha256": "67c567a6fae55056d4f6f759c240268c40ac35cb3e1d0f2c6df7f5abb6d7d985",
+      "outputSha256": "d1abef6ab6916eae62a5fbe484994f9df43d377aac74416b1341805adf44496f",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 502,
+        "height": 1337
+      },
+      "resizedDimensions": {
+        "width": 66,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        73,
+        942,
+        1536
+      ],
+      "cleanedBbox": [
+        261,
+        108,
+        763,
+        1445
+      ],
+      "savedBbox": [
+        63,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1168212,
+        "faint": 18917,
+        "translucent": 404652,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30192,
+      "removedFaintAlphaPixels": 18917,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6672,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 18917,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "henry-mcmahon",
+      "name": "マクマホン",
+      "kind": "person",
+      "subject": "Henry McMahon British administrator around 1915, older white man with receding grey hair and broad white moustache, dark Edwardian civilian suit and waistcoat, closed diplomatic portfolio.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Henry McMahon British administrator around 1915, older white man with receding grey hair and broad white moustache, dark Edwardian civilian suit and waistcoat, closed diplomatic portfolio.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-89ac0674-49b1-48ee-8c25-ea30444c007b.png",
+      "outputFile": "public/images/modern-c04-l16/henry-mcmahon.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-89ac0674-49b1-48ee-8c25-ea30444c007b.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\henry-mcmahon.png",
+      "inputSha256": "14e2be79f75a0afc356cdbdfe7edaa823b0709d99b024dd2f1d0f5f0d386140d",
+      "outputSha256": "d7594e6615677992f17be75b6a75c9349227a926b88f840a60bf150b379e4819",
+      "originalDimensions": {
+        "width": 1076,
+        "height": 1462
+      },
+      "croppedDimensions": {
+        "width": 563,
+        "height": 1344
+      },
+      "resizedDimensions": {
+        "width": 74,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        81,
+        36,
+        994,
+        1446
+      ],
+      "cleanedBbox": [
+        256,
+        66,
+        819,
+        1410
+      ],
+      "savedBbox": [
+        59,
+        8,
+        133,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1121322,
+        "faint": 17011,
+        "translucent": 451101,
+        "opaque": 689
+      },
+      "transparentPixelCount": 29405,
+      "removedFaintAlphaPixels": 17011,
+      "opaquePixelCount": 14,
+      "translucentPixelCount": 7445,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 17011,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "hussein-bin-ali",
+      "name": "フセイン",
+      "kind": "person",
+      "subject": "Hussein bin Ali of the Hashemite family, king of the Hejaz around 1916, older Arab man with a full neat white beard, white headcloth with black agal, restrained dark brown cloak over a cream robe, calm full-body civilian pose.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Hussein bin Ali of the Hashemite family, king of the Hejaz around 1916, older Arab man with a full neat white beard, white headcloth with black agal, restrained dark brown cloak over a cream robe, calm full-body civilian pose.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-588a02dd-db93-4960-a1c2-abf6a6be7719.png",
+      "outputFile": "public/images/modern-c04-l16/hussein-bin-ali.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-588a02dd-db93-4960-a1c2-abf6a6be7719.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\hussein-bin-ali.png",
+      "inputSha256": "6d36d6ce2aa1312eeb489589c2e7a9be9f3d6cacae67d9ad228c458d6fb22fe8",
+      "outputSha256": "9a3b5a2709bde06a14901c06f010472b0ef21f0fef85c79639e580f404ba9a61",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 534,
+        "height": 1411
+      },
+      "resizedDimensions": {
+        "width": 67,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        62,
+        962,
+        1486
+      ],
+      "cleanedBbox": [
+        243,
+        64,
+        777,
+        1475
+      ],
+      "savedBbox": [
+        63,
+        8,
+        130,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 977239,
+        "faint": 11162,
+        "translucent": 595625,
+        "opaque": 0
+      },
+      "transparentPixelCount": 27738,
+      "removedFaintAlphaPixels": 11162,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 9126,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11162,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "t-e-lawrence",
+      "name": "ローレンス",
+      "kind": "person",
+      "subject": "T. E. Lawrence around 1917, young slender British man with a pale clean-shaven face, white Arab headcloth with dark agal, cream Arab robe and a muted tan cloak, calm full-body pose with a closed notebook.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: T. E. Lawrence around 1917, young slender British man with a pale clean-shaven face, white Arab headcloth with dark agal, cream Arab robe and a muted tan cloak, calm full-body pose with a closed notebook.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-08064dc1-f1db-4575-ac60-fae7ee6d2290.png",
+      "outputFile": "public/images/modern-c04-l16/t-e-lawrence.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-08064dc1-f1db-4575-ac60-fae7ee6d2290.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\t-e-lawrence.png",
+      "inputSha256": "f6a03c1eacba78931dec5c3e0a43560ce36e2e93ba332a049b1adc4afc0f8020",
+      "outputSha256": "03c2e978707accc5282b17ed5f7a50e1bfca81c3754b97f5439024002c1d5f0b",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 553,
+        "height": 1460
+      },
+      "resizedDimensions": {
+        "width": 67,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        36,
+        1010,
+        1504
+      ],
+      "cleanedBbox": [
+        240,
+        39,
+        793,
+        1499
+      ],
+      "savedBbox": [
+        63,
+        8,
+        130,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 973779,
+        "faint": 15640,
+        "translucent": 599085,
+        "opaque": 0
+      },
+      "transparentPixelCount": 28353,
+      "removedFaintAlphaPixels": 15640,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 8511,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15640,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "ibn-saud",
+      "name": "イブン＝サウード",
+      "kind": "person",
+      "subject": "Abdulaziz Ibn Saud around 1932, tall broad middle-aged Arab man, neat dark beard and moustache, white keffiyeh with black agal, dark brown bisht with restrained gold edging over a pale robe, calm neutral standing pose.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Abdulaziz Ibn Saud around 1932, tall broad middle-aged Arab man, neat dark beard and moustache, white keffiyeh with black agal, dark brown bisht with restrained gold edging over a pale robe, calm neutral standing pose.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9269ccb4-f6f7-4428-87ef-6c575d06f13e.png",
+      "outputFile": "public/images/modern-c04-l16/ibn-saud.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9269ccb4-f6f7-4428-87ef-6c575d06f13e.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\ibn-saud.png",
+      "inputSha256": "5cefa92345a85c172503a9b78db5b67fa90c737ad2f2ace08c82a7167c65f385",
+      "outputSha256": "83c0c82565378a2186e02ff7074713c3f1e4e755b60f8554aa294891646a7d7f",
+      "originalDimensions": {
+        "width": 1230,
+        "height": 1278
+      },
+      "croppedDimensions": {
+        "width": 520,
+        "height": 1173
+      },
+      "resizedDimensions": {
+        "width": 78,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        54,
+        1212,
+        1234
+      ],
+      "cleanedBbox": [
+        331,
+        59,
+        851,
+        1232
+      ],
+      "savedBbox": [
+        57,
+        8,
+        135,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1106142,
+        "faint": 11152,
+        "translucent": 464615,
+        "opaque": 1183
+      },
+      "transparentPixelCount": 26609,
+      "removedFaintAlphaPixels": 11152,
+      "opaquePixelCount": 7,
+      "translucentPixelCount": 10248,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11152,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "faisal-i",
+      "name": "ファイサル",
+      "kind": "person",
+      "subject": "Faisal I of the Hashemite family around 1921, slender Arab man with a narrow face, neat short dark beard and moustache, white keffiyeh and black agal, charcoal cloak with subtle gold edging over cream clothing.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Faisal I of the Hashemite family around 1921, slender Arab man with a narrow face, neat short dark beard and moustache, white keffiyeh and black agal, charcoal cloak with subtle gold edging over cream clothing.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9ff67827-7ece-408d-aa85-04620302a067.png",
+      "outputFile": "public/images/modern-c04-l16/faisal-i.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9ff67827-7ece-408d-aa85-04620302a067.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\faisal-i.png",
+      "inputSha256": "55ea5b4c59351781a2f53a518e67c1494fb520320e8f1eb0d9466e2d6b0e9163",
+      "outputSha256": "12259ba8bf955a39ab8b6227578646a7b735c3d83bb68c551793388e17394156",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 430,
+        "height": 1272
+      },
+      "resizedDimensions": {
+        "width": 59,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        41,
+        37,
+        1066,
+        1334
+      ],
+      "cleanedBbox": [
+        346,
+        57,
+        776,
+        1329
+      ],
+      "savedBbox": [
+        67,
+        8,
+        126,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1140731,
+        "faint": 10142,
+        "translucent": 432027,
+        "opaque": 472
+      },
+      "transparentPixelCount": 28825,
+      "removedFaintAlphaPixels": 10142,
+      "opaquePixelCount": 12,
+      "translucentPixelCount": 8027,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10142,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "abdullah-i",
+      "name": "アブドゥッラー",
+      "kind": "person",
+      "subject": "Abdullah I of the Hashemite family around 1921, middle-aged Arab man with a broader round face and grey-black moustache and short beard, pale headcloth with black agal, dark olive cloak over a light robe. Distinct from the slender Faisal.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Abdullah I of the Hashemite family around 1921, middle-aged Arab man with a broader round face and grey-black moustache and short beard, pale headcloth with black agal, dark olive cloak over a light robe. Distinct from the slender Faisal.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-71d4d99c-9b33-48ae-8b11-08662a81e65d.png",
+      "outputFile": "public/images/modern-c04-l16/abdullah-i.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-71d4d99c-9b33-48ae-8b11-08662a81e65d.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\abdullah-i.png",
+      "inputSha256": "26e13bab9b1021de5544233069630f9ea3ee04ee33775124b96029768a7bb210",
+      "outputSha256": "2fa295ceda18c8db6daf4d5cbe7398cbd9c31bc5f4b975dfeebb93b2c8c9f38e",
+      "originalDimensions": {
+        "width": 1214,
+        "height": 1295
+      },
+      "croppedDimensions": {
+        "width": 489,
+        "height": 1178
+      },
+      "resizedDimensions": {
+        "width": 73,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        21,
+        1174,
+        1269
+      ],
+      "cleanedBbox": [
+        364,
+        67,
+        853,
+        1245
+      ],
+      "savedBbox": [
+        60,
+        8,
+        133,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1104118,
+        "faint": 8635,
+        "translucent": 466589,
+        "opaque": 1423
+      },
+      "transparentPixelCount": 26605,
+      "removedFaintAlphaPixels": 8635,
+      "opaquePixelCount": 12,
+      "translucentPixelCount": 10247,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 8635,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "saad-zaghlul",
+      "name": "サアド＝ザグルール",
+      "kind": "person",
+      "subject": "Saad Zaghlul around 1920, older Egyptian statesman, grey-white moustache and short greying hair, red fez, restrained dark civilian coat and waistcoat, white shirt, closed political paper.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Saad Zaghlul around 1920, older Egyptian statesman, grey-white moustache and short greying hair, red fez, restrained dark civilian coat and waistcoat, white shirt, closed political paper.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-dd10cda0-787a-4f00-9f0d-0adf496b42bd.png",
+      "outputFile": "public/images/modern-c04-l16/saad-zaghlul.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-dd10cda0-787a-4f00-9f0d-0adf496b42bd.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\saad-zaghlul.png",
+      "inputSha256": "9a86f0faed09e90e4af90a9bc50baf1f74ec78478f612ea6cf292b6df49890b1",
+      "outputSha256": "794dd87d8fd420425d211d7542de5d89e59199ee8389bf182493d9df1628d7d1",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 548,
+        "height": 1295
+      },
+      "resizedDimensions": {
+        "width": 74,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        41,
+        35,
+        994,
+        1344
+      ],
+      "cleanedBbox": [
+        305,
+        41,
+        853,
+        1336
+      ],
+      "savedBbox": [
+        59,
+        8,
+        133,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1106910,
+        "faint": 12041,
+        "translucent": 464717,
+        "opaque": 1603
+      },
+      "transparentPixelCount": 28504,
+      "removedFaintAlphaPixels": 12041,
+      "opaquePixelCount": 30,
+      "translucentPixelCount": 8330,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12041,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "hasan-al-banna",
+      "name": "ハサン＝アルバンナ",
+      "kind": "person",
+      "subject": "Hasan al-Banna around 1930, young adult Egyptian man, neat dark moustache and small short beard, plain red fez, modest charcoal jacket over a light traditional shirt, neutral civilian full-body pose, no organization symbols.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Hasan al-Banna around 1930, young adult Egyptian man, neat dark moustache and small short beard, plain red fez, modest charcoal jacket over a light traditional shirt, neutral civilian full-body pose, no organization symbols.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3bbf3687-e1ca-49de-95a6-50e6ec119e79.png",
+      "outputFile": "public/images/modern-c04-l16/hasan-al-banna.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3bbf3687-e1ca-49de-95a6-50e6ec119e79.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\hasan-al-banna.png",
+      "inputSha256": "f5994a1aa8f12b8a69c4965dbdd1c32215b028b3f1dee18234012791d441bd51",
+      "outputSha256": "9b22337a26a6383776e8e55ae8625798f529a414d19b02be523e9814c610360f",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 517,
+        "height": 1379
+      },
+      "resizedDimensions": {
+        "width": 66,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        66,
+        1010,
+        1472
+      ],
+      "cleanedBbox": [
+        235,
+        91,
+        752,
+        1470
+      ],
+      "savedBbox": [
+        63,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1087924,
+        "faint": 12361,
+        "translucent": 484940,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29185,
+      "removedFaintAlphaPixels": 12361,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7679,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12361,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "edwin-montagu",
+      "name": "モンタギュー",
+      "kind": "person",
+      "subject": "Edwin Montagu British politician around 1917, mature man with receding dark hair and a small neat moustache, dark early twentieth century three-piece civilian suit, white collar and tie, a closed parliamentary paper.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Edwin Montagu British politician around 1917, mature man with receding dark hair and a small neat moustache, dark early twentieth century three-piece civilian suit, white collar and tie, a closed parliamentary paper.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-b28961bf-4c44-4d37-9629-d118a2523b84.png",
+      "outputFile": "public/images/modern-c04-l16/edwin-montagu.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-b28961bf-4c44-4d37-9629-d118a2523b84.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\edwin-montagu.png",
+      "inputSha256": "6811d33eb4fc08a1aae50328f2989ce82414c573b1694018f298c6360d777937",
+      "outputSha256": "9b435cb3b5879d68e01197e108df9caab553bd074fc039b50d61cbc6634fc51b",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 537,
+        "height": 1349
+      },
+      "resizedDimensions": {
+        "width": 70,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        67,
+        940,
+        1502
+      ],
+      "cleanedBbox": [
+        237,
+        107,
+        774,
+        1456
+      ],
+      "savedBbox": [
+        61,
+        8,
+        131,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1147444,
+        "faint": 12625,
+        "translucent": 425420,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29876,
+      "removedFaintAlphaPixels": 12625,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6988,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12625,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "jawaharlal-nehru",
+      "name": "ネルー",
+      "kind": "person",
+      "subject": "Jawaharlal Nehru around 1929, slim Indian man aged about forty, clean-shaven oval face, small white Gandhi cap, cream achkan jacket over white trousers, calm full-body pose holding a folded plain document.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Jawaharlal Nehru around 1929, slim Indian man aged about forty, clean-shaven oval face, small white Gandhi cap, cream achkan jacket over white trousers, calm full-body pose holding a folded plain document.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-bad4dab8-29d1-462b-b30b-c7767f8798b2.png",
+      "outputFile": "public/images/modern-c04-l16/jawaharlal-nehru.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-bad4dab8-29d1-462b-b30b-c7767f8798b2.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\jawaharlal-nehru.png",
+      "inputSha256": "a31cbe21b1b3b74077c424f9bc860486dc1206c73530636b2eadb4c13c19d9e6",
+      "outputSha256": "91512cc0796c4a9bff8a6618c464cd79530454105affd53f50aef260fc9b5745",
+      "originalDimensions": {
+        "width": 1145,
+        "height": 1374
+      },
+      "croppedDimensions": {
+        "width": 454,
+        "height": 1290
+      },
+      "resizedDimensions": {
+        "width": 62,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        49,
+        32,
+        935,
+        1334
+      ],
+      "cleanedBbox": [
+        332,
+        39,
+        786,
+        1329
+      ],
+      "savedBbox": [
+        65,
+        8,
+        127,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1202444,
+        "faint": 18723,
+        "translucent": 369626,
+        "opaque": 1160
+      },
+      "transparentPixelCount": 30317,
+      "removedFaintAlphaPixels": 18723,
+      "opaquePixelCount": 6,
+      "translucentPixelCount": 6541,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 18723,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "muhammad-ali-jinnah",
+      "name": "ジンナー",
+      "kind": "person",
+      "subject": "Muhammad Ali Jinnah around 1940, tall slender older South Asian man with a long clean-shaven face, plain black karakul cap and restrained charcoal sherwani over light trousers, calm dignified civilian stance.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Muhammad Ali Jinnah around 1940, tall slender older South Asian man with a long clean-shaven face, plain black karakul cap and restrained charcoal sherwani over light trousers, calm dignified civilian stance.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-b4dea303-46fc-494c-9f91-ef0c6c51a823.png",
+      "outputFile": "public/images/modern-c04-l16/muhammad-ali-jinnah.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-b4dea303-46fc-494c-9f91-ef0c6c51a823.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\muhammad-ali-jinnah.png",
+      "inputSha256": "907de7a2795294056836b1c0450c6f554567a2955f2ecfba3fd2f0082bde3d89",
+      "outputSha256": "56d95694135ef8f13911c46aee4a0f2c7e5048b61775187ec703304a76b49cc0",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 474,
+        "height": 1441
+      },
+      "resizedDimensions": {
+        "width": 58,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        32,
+        942,
+        1498
+      ],
+      "cleanedBbox": [
+        280,
+        51,
+        754,
+        1492
+      ],
+      "savedBbox": [
+        67,
+        8,
+        125,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1147633,
+        "faint": 13672,
+        "translucent": 425231,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30724,
+      "removedFaintAlphaPixels": 13672,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6140,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13672,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "subhas-chandra-bose",
+      "name": "チャンドラ・ボース",
+      "kind": "person",
+      "subject": "Subhas Chandra Bose around 1943, mature Indian man, round face, small round wire spectacles, khaki military tunic and plain peaked cap, dark boots, neutral full-body stance, no party symbols.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Subhas Chandra Bose around 1943, mature Indian man, round face, small round wire spectacles, khaki military tunic and plain peaked cap, dark boots, neutral full-body stance, no party symbols.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-eff03332-232b-4460-901f-676284905f31.png",
+      "outputFile": "public/images/modern-c04-l16/subhas-chandra-bose.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-eff03332-232b-4460-901f-676284905f31.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\subhas-chandra-bose.png",
+      "inputSha256": "2ca5b00f9a04e4731557599f15284e5a01bbf673341a0dd5308433f532f9ad27",
+      "outputSha256": "d7a9ab2b7f2b38259a63fa875d146e40060df101dcaf2ddcc92bc1ffe81d7ee9",
+      "originalDimensions": {
+        "width": 1224,
+        "height": 1285
+      },
+      "croppedDimensions": {
+        "width": 467,
+        "height": 1154
+      },
+      "resizedDimensions": {
+        "width": 71,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        48,
+        1089,
+        1285
+      ],
+      "cleanedBbox": [
+        380,
+        67,
+        847,
+        1221
+      ],
+      "savedBbox": [
+        61,
+        8,
+        132,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1240404,
+        "faint": 12784,
+        "translucent": 331249,
+        "opaque": 1187
+      },
+      "transparentPixelCount": 29452,
+      "removedFaintAlphaPixels": 12784,
+      "opaquePixelCount": 49,
+      "translucentPixelCount": 7363,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12784,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "saya-san",
+      "name": "サヤー＝サン",
+      "kind": "person",
+      "subject": "Saya San around 1930, Burmese former monk and peasant movement leader, middle-aged Southeast Asian man, simple white civilian jacket and muted dark longyi, plain cloth head wrap, barefoot or simple sandals, no active monk robes, no weapons.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Saya San around 1930, Burmese former monk and peasant movement leader, middle-aged Southeast Asian man, simple white civilian jacket and muted dark longyi, plain cloth head wrap, barefoot or simple sandals, no active monk robes, no weapons.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6baf8e33-4ba0-40f4-838d-d752747cf177.png",
+      "outputFile": "public/images/modern-c04-l16/saya-san.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6baf8e33-4ba0-40f4-838d-d752747cf177.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\saya-san.png",
+      "inputSha256": "c92a50e0689d286fbe0f52991f6350d92cf219126172875a31bd7d048dbad126",
+      "outputSha256": "8f425087a85f05f04c93b45d308ec9bf0a9e48ed53e2b83f182403c5aef18881",
+      "originalDimensions": {
+        "width": 1194,
+        "height": 1317
+      },
+      "croppedDimensions": {
+        "width": 414,
+        "height": 1136
+      },
+      "resizedDimensions": {
+        "width": 64,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        33,
+        53,
+        1150,
+        1243
+      ],
+      "cleanedBbox": [
+        379,
+        103,
+        793,
+        1239
+      ],
+      "savedBbox": [
+        64,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1237574,
+        "faint": 12246,
+        "translucent": 333998,
+        "opaque": 926
+      },
+      "transparentPixelCount": 29083,
+      "removedFaintAlphaPixels": 12246,
+      "opaquePixelCount": 18,
+      "translucentPixelCount": 7763,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12246,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "aung-san",
+      "name": "アウン＝サン",
+      "kind": "person",
+      "subject": "Aung San around 1945, slim young Burmese man aged thirty, short dark hair and clean-shaven narrow face, modest khaki military tunic with plain shoulder tabs, dark trousers and boots, calm full-body pose.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Aung San around 1945, slim young Burmese man aged thirty, short dark hair and clean-shaven narrow face, modest khaki military tunic with plain shoulder tabs, dark trousers and boots, calm full-body pose.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a6987c82-715c-46e9-97a0-bae8825ac673.png",
+      "outputFile": "public/images/modern-c04-l16/aung-san.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a6987c82-715c-46e9-97a0-bae8825ac673.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\aung-san.png",
+      "inputSha256": "53976b02f2fad749e750bdc91b69e1f9c8e20e283d246cbbdeaaf37b87fbbe9d",
+      "outputSha256": "9f01c6d26733df4d7d3ed72d47fc61678500bd16a74aefb5cd054a2b6de9ba39",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 432,
+        "height": 1362
+      },
+      "resizedDimensions": {
+        "width": 56,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        64,
+        1008,
+        1464
+      ],
+      "cleanedBbox": [
+        311,
+        98,
+        743,
+        1460
+      ],
+      "savedBbox": [
+        68,
+        8,
+        124,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1195285,
+        "faint": 14869,
+        "translucent": 377579,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30820,
+      "removedFaintAlphaPixels": 14869,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6044,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14869,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "aung-san-suu-kyi",
+      "name": "アウン＝サン＝スー＝チー",
+      "kind": "person",
+      "subject": "Aung San Suu Kyi as a postwar related figure around the 1990s, middle-aged Burmese woman, long dark hair tied in a neat bun with a small flower, plain white blouse and muted purple-blue longyi, simple sandals, calm dignified full-body civilian pose.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Aung San Suu Kyi as a postwar related figure around the 1990s, middle-aged Burmese woman, long dark hair tied in a neat bun with a small flower, plain white blouse and muted purple-blue longyi, simple sandals, calm dignified full-body civilian pose.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-b60704a7-1306-4708-bbac-484ac76a3aae.png",
+      "outputFile": "public/images/modern-c04-l16/aung-san-suu-kyi.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-b60704a7-1306-4708-bbac-484ac76a3aae.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\aung-san-suu-kyi.png",
+      "inputSha256": "744e4f3be3c22f392286b078d096faa11de0cd25b4c5a865cbe26bd57fd97630",
+      "outputSha256": "5f19227a5cb660ce20814f7fdc185e34c95fb7b09eaf8cece75ecd82926f8bbf",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 361,
+        "height": 1378
+      },
+      "resizedDimensions": {
+        "width": 46,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        67,
+        962,
+        1494
+      ],
+      "cleanedBbox": [
+        341,
+        92,
+        702,
+        1470
+      ],
+      "savedBbox": [
+        73,
+        8,
+        119,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1201542,
+        "faint": 11245,
+        "translucent": 371322,
+        "opaque": 0
+      },
+      "transparentPixelCount": 31034,
+      "removedFaintAlphaPixels": 11245,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 5830,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11245,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "nguyen-thai-hoc",
+      "name": "グエン＝タイ＝ホク",
+      "kind": "person",
+      "subject": "Nguyen Thai Hoc around 1927, young Vietnamese man in his mid-twenties, neatly parted short black hair, clean-shaven oval face, dark simple high-collar civilian jacket and light trousers, a closed plain notebook.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Nguyen Thai Hoc around 1927, young Vietnamese man in his mid-twenties, neatly parted short black hair, clean-shaven oval face, dark simple high-collar civilian jacket and light trousers, a closed plain notebook.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-8b53b174-0cb3-4675-8038-d535ab1a7687.png",
+      "outputFile": "public/images/modern-c04-l16/nguyen-thai-hoc.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-8b53b174-0cb3-4675-8038-d535ab1a7687.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\nguyen-thai-hoc.png",
+      "inputSha256": "7def36c6439052d9cf555f861df3e0a0d524beca8a04973e0318356a44d62874",
+      "outputSha256": "c060b8bf353aebe7a1ad0702383873f875f8c21debd89d626d936934dad1731b",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 514,
+        "height": 1394
+      },
+      "resizedDimensions": {
+        "width": 65,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        64,
+        1010,
+        1496
+      ],
+      "cleanedBbox": [
+        242,
+        98,
+        756,
+        1492
+      ],
+      "savedBbox": [
+        64,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1119086,
+        "faint": 14635,
+        "translucent": 453778,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29874,
+      "removedFaintAlphaPixels": 14635,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6990,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14635,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "ho-chi-minh-1930",
+      "name": "ホー＝チ＝ミン",
+      "kind": "person",
+      "subject": "Ho Chi Minh around 1930, slender Vietnamese man around forty, short dark hair, thin dark moustache and sparse small dark goatee, modest light high-collar shirt and dark trousers, calm civilian full-body pose. Not his later elderly white-bearded appearance.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Ho Chi Minh around 1930, slender Vietnamese man around forty, short dark hair, thin dark moustache and sparse small dark goatee, modest light high-collar shirt and dark trousers, calm civilian full-body pose. Not his later elderly white-bearded appearance.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7b1daeb3-c1c9-4a63-8e76-f19ca1241c77.png",
+      "outputFile": "public/images/modern-c04-l16/ho-chi-minh-1930.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7b1daeb3-c1c9-4a63-8e76-f19ca1241c77.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\ho-chi-minh-1930.png",
+      "inputSha256": "60379c6265e4c4cb722d0d895de9d49298765874db12237692df776632b31890",
+      "outputSha256": "fc251f777bb7eae7a056d8c47bebb206b1c7a7591dbc517baf7db2a081476d7d",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 449,
+        "height": 1354
+      },
+      "resizedDimensions": {
+        "width": 58,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        37,
+        946,
+        1536
+      ],
+      "cleanedBbox": [
+        288,
+        100,
+        737,
+        1454
+      ],
+      "savedBbox": [
+        67,
+        8,
+        125,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1185235,
+        "faint": 13051,
+        "translucent": 387629,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30556,
+      "removedFaintAlphaPixels": 13051,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6308,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13051,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "bao-dai",
+      "name": "バオダイ",
+      "kind": "person",
+      "subject": "Bao Dai around 1945, young adult Vietnamese emperor aged about thirty-two, clean-shaven face, neat black traditional Vietnamese ring turban, restrained golden-ochre long Vietnamese court tunic over pale trousers, modest embroidered trim, no Chinese Qing hat.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Bao Dai around 1945, young adult Vietnamese emperor aged about thirty-two, clean-shaven face, neat black traditional Vietnamese ring turban, restrained golden-ochre long Vietnamese court tunic over pale trousers, modest embroidered trim, no Chinese Qing hat.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-1bb53af0-c3e1-4fdf-9936-5c56634e78fe.png",
+      "outputFile": "public/images/modern-c04-l16/bao-dai.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-1bb53af0-c3e1-4fdf-9936-5c56634e78fe.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\bao-dai.png",
+      "inputSha256": "7331ffcf766afd2571b90a6189aca08d03bb6d6da1226c5d6bd31c8bd58f7eee",
+      "outputSha256": "217f0245c7f456d3db7f747b3ddad6411a850db43ed2b18798ca2566f7ed9d82",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 509,
+        "height": 1405
+      },
+      "resizedDimensions": {
+        "width": 64,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        37,
+        1010,
+        1484
+      ],
+      "cleanedBbox": [
+        250,
+        73,
+        759,
+        1478
+      ],
+      "savedBbox": [
+        64,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1055342,
+        "faint": 17124,
+        "translucent": 517522,
+        "opaque": 0
+      },
+      "transparentPixelCount": 28986,
+      "removedFaintAlphaPixels": 17124,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7878,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 17124,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "sukarno",
+      "name": "スカルノ",
+      "kind": "person",
+      "subject": "Sukarno around the 1930s, young mature Indonesian man with a clean-shaven round face, plain black peci cap, restrained light high-collar civilian jacket and dark trousers, a closed independence document, no large medals.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Sukarno around the 1930s, young mature Indonesian man with a clean-shaven round face, plain black peci cap, restrained light high-collar civilian jacket and dark trousers, a closed independence document, no large medals.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-92cd6d3e-81b5-4dda-9c03-2c143fa625cc.png",
+      "outputFile": "public/images/modern-c04-l16/sukarno.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-92cd6d3e-81b5-4dda-9c03-2c143fa625cc.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\sukarno.png",
+      "inputSha256": "7c9f4d433feba1cb2119e8ebfbca381d47c5f05f88560502c214f491bad82652",
+      "outputSha256": "2467b37e17ce80aac5e59bcdcba21f3f012baa32f547aa85acd9acf017f606bc",
+      "originalDimensions": {
+        "width": 1230,
+        "height": 1278
+      },
+      "croppedDimensions": {
+        "width": 466,
+        "height": 1123
+      },
+      "resizedDimensions": {
+        "width": 73,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        23,
+        1052,
+        1278
+      ],
+      "cleanedBbox": [
+        394,
+        107,
+        860,
+        1230
+      ],
+      "savedBbox": [
+        60,
+        8,
+        133,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1248435,
+        "faint": 12196,
+        "translucent": 322713,
+        "opaque": 792
+      },
+      "transparentPixelCount": 29219,
+      "removedFaintAlphaPixels": 12196,
+      "opaquePixelCount": 17,
+      "translucentPixelCount": 7628,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12196,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "franklin-d-roosevelt",
+      "name": "フランクリン＝ローズヴェルト",
+      "kind": "person",
+      "subject": "Franklin D. Roosevelt around 1934, mature American man with receding dark-grey hair, small round wire spectacles and clean-shaven face, dark three-piece suit, seated in a simple period wooden wheelchair with small wheels, entire seated figure and chair visible. Distinct from Theodore Roosevelt.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Franklin D. Roosevelt around 1934, mature American man with receding dark-grey hair, small round wire spectacles and clean-shaven face, dark three-piece suit, seated in a simple period wooden wheelchair with small wheels, entire seated figure and chair visible. Distinct from Theodore Roosevelt.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-4da24835-1a8a-42b9-b501-bb8376e3ce70.png",
+      "outputFile": "public/images/modern-c04-l16/franklin-d-roosevelt.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-4da24835-1a8a-42b9-b501-bb8376e3ce70.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\franklin-d-roosevelt.png",
+      "inputSha256": "e823231214780e27db1a8d47f65b8d0937f4a76991b8bba4bd9783c7d5b485a9",
+      "outputSha256": "9965f1d1771e40ea8ceef8ce56b08140d6b07e3810a0b775528927eab8767694",
+      "originalDimensions": {
+        "width": 1223,
+        "height": 1286
+      },
+      "croppedDimensions": {
+        "width": 717,
+        "height": 1108
+      },
+      "resizedDimensions": {
+        "width": 114,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        21,
+        1141,
+        1286
+      ],
+      "cleanedBbox": [
+        273,
+        92,
+        990,
+        1200
+      ],
+      "savedBbox": [
+        39,
+        8,
+        153,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1052067,
+        "faint": 23139,
+        "translucent": 519534,
+        "opaque": 1177
+      },
+      "transparentPixelCount": 24282,
+      "removedFaintAlphaPixels": 23139,
+      "opaquePixelCount": 35,
+      "translucentPixelCount": 12547,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 23139,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "plaek-phibun",
+      "name": "ピブン",
+      "kind": "person",
+      "subject": "Plaek Phibunsongkhram around 1938, mature Thai man with neat short dark hair and clean-shaven face, modest tan Thai military officer tunic and plain peaked cap, dark trousers and boots, restrained small insignia, neutral stance.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Plaek Phibunsongkhram around 1938, mature Thai man with neat short dark hair and clean-shaven face, modest tan Thai military officer tunic and plain peaked cap, dark trousers and boots, restrained small insignia, neutral stance.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-4c06916f-b146-43c5-aad8-6dc5dd503bb2.png",
+      "outputFile": "public/images/modern-c04-l16/plaek-phibun.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-4c06916f-b146-43c5-aad8-6dc5dd503bb2.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\plaek-phibun.png",
+      "inputSha256": "4d9d1268f3cd4dbef12d4bebe227ec9a1f593b306d08cd61c8bb57dddd95fa61",
+      "outputSha256": "2e782856b7d36dbe33c373d800d672eaf1667a532e7fbe2dcb7effe43c468766",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 478,
+        "height": 1400
+      },
+      "resizedDimensions": {
+        "width": 60,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        65,
+        1010,
+        1475
+      ],
+      "cleanedBbox": [
+        265,
+        73,
+        743,
+        1473
+      ],
+      "savedBbox": [
+        66,
+        8,
+        126,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1146722,
+        "faint": 16704,
+        "translucent": 426142,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30459,
+      "removedFaintAlphaPixels": 16704,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6405,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 16704,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "chiang-kai-shek",
+      "name": "蔣介石",
+      "kind": "person",
+      "subject": "Chiang Kai-shek around 1930, slim middle-aged Chinese man with closely shaved head and clean-shaven angular face, restrained khaki high-collar military tunic, dark riding trousers and boots, no ceremonial regalia.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Chiang Kai-shek around 1930, slim middle-aged Chinese man with closely shaved head and clean-shaven angular face, restrained khaki high-collar military tunic, dark riding trousers and boots, no ceremonial regalia.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-8236d92e-5fa5-4e64-9ff7-a420fbd075ed.png",
+      "outputFile": "public/images/modern-c04-l16/chiang-kai-shek.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-8236d92e-5fa5-4e64-9ff7-a420fbd075ed.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\chiang-kai-shek.png",
+      "inputSha256": "891917c458db2f8603e5fbaf950c81ffa8d8175dc8de6e6524038ce02d0c92a4",
+      "outputSha256": "775cdd5c86059c365f9ccbe93f8577d0232ea6e55dd3f69112b64308bec33ae8",
+      "originalDimensions": {
+        "width": 1234,
+        "height": 1275
+      },
+      "croppedDimensions": {
+        "width": 428,
+        "height": 1200
+      },
+      "resizedDimensions": {
+        "width": 63,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        41,
+        21,
+        1206,
+        1243
+      ],
+      "cleanedBbox": [
+        410,
+        39,
+        838,
+        1239
+      ],
+      "savedBbox": [
+        65,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1251375,
+        "faint": 12876,
+        "translucent": 320819,
+        "opaque": 1156
+      },
+      "transparentPixelCount": 30224,
+      "removedFaintAlphaPixels": 12876,
+      "opaquePixelCount": 34,
+      "translucentPixelCount": 6606,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12876,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "mao-zedong-1930",
+      "name": "毛沢東",
+      "kind": "person",
+      "subject": "Mao Zedong around 1930, Chinese man aged about thirty-seven, thick dark hair and broad clean-shaven face, plain muted blue-grey high-collar civilian tunic and trousers, cloth shoes, calm neutral full-body pose, no banners or political symbols.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Mao Zedong around 1930, Chinese man aged about thirty-seven, thick dark hair and broad clean-shaven face, plain muted blue-grey high-collar civilian tunic and trousers, cloth shoes, calm neutral full-body pose, no banners or political symbols.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-28e924dd-9566-4e8d-97cd-3b8cf2d2c8b9.png",
+      "outputFile": "public/images/modern-c04-l16/mao-zedong-1930.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-28e924dd-9566-4e8d-97cd-3b8cf2d2c8b9.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\mao-zedong-1930.png",
+      "inputSha256": "ae175c624b65c5c8d583617a3165025348907f5d43350e3b572c1758723d950d",
+      "outputSha256": "3bd2a019773fbf4683a36993ff0be2d90dabfa931b6730c87ebb550725cc1600",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 490,
+        "height": 1379
+      },
+      "resizedDimensions": {
+        "width": 63,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        49,
+        962,
+        1474
+      ],
+      "cleanedBbox": [
+        256,
+        92,
+        746,
+        1471
+      ],
+      "savedBbox": [
+        65,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1128170,
+        "faint": 13911,
+        "translucent": 444694,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29807,
+      "removedFaintAlphaPixels": 13911,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7057,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13911,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "greek-troops-1919",
+      "name": "ギリシア軍の一般兵",
+      "kind": "group",
+      "subject": "Two ordinary Greek soldiers of 1919 to 1922, muted grey-olive uniforms with contemporary plain military caps, boots and rifles held lowered at their sides, full bodies separated slightly, no shooting and no named leader.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Two ordinary Greek soldiers of 1919 to 1922, muted grey-olive uniforms with contemporary plain military caps, boots and rifles held lowered at their sides, full bodies separated slightly, no shooting and no named leader.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9430f1cc-b621-4ce6-8d00-d397974cbd3a.png",
+      "outputFile": "public/images/modern-c04-l16/greek-troops-1919.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9430f1cc-b621-4ce6-8d00-d397974cbd3a.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\greek-troops-1919.png",
+      "inputSha256": "31cc387f8b4859a51e77dbe0f4703ca94bb74bc2279362dd5edc075e8fa601dc",
+      "outputSha256": "ed95dc208f8c250745bb7d1dcae041f35b8260112c4cae42f49f717439d4cd4a",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 761,
+        "height": 824
+      },
+      "resizedDimensions": {
+        "width": 163,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        69,
+        9,
+        1344,
+        1024
+      ],
+      "cleanedBbox": [
+        399,
+        103,
+        1160,
+        927
+      ],
+      "savedBbox": [
+        15,
+        8,
+        178,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1183864,
+        "faint": 27019,
+        "translucent": 389000,
+        "opaque": 0
+      },
+      "transparentPixelCount": 20213,
+      "removedFaintAlphaPixels": 27019,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 16651,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 27019,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "turkish-national-troops",
+      "name": "トルコの祖国解放軍の一般兵",
+      "kind": "group",
+      "subject": "Two ordinary Turkish nationalist soldiers around 1921, restrained khaki uniforms with plain period kalpak or simple cloth caps, boots and rifles held lowered, full bodies separated, no named leader or flag.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Two ordinary Turkish nationalist soldiers around 1921, restrained khaki uniforms with plain period kalpak or simple cloth caps, boots and rifles held lowered, full bodies separated, no named leader or flag.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a51b8688-340d-4e77-a5fb-4f35e5334aa7.png",
+      "outputFile": "public/images/modern-c04-l16/turkish-national-troops.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a51b8688-340d-4e77-a5fb-4f35e5334aa7.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\turkish-national-troops.png",
+      "inputSha256": "1ad6fb176e2b2a8f4d697a4e6372b2f75ff54d5fa639e21695554de00c75eff1",
+      "outputSha256": "e6e35e557b6fa5f0d119d8229a56f3f437c80da37ea014bba265f4ee778ae117",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 884,
+        "height": 976
+      },
+      "resizedDimensions": {
+        "width": 159,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        177,
+        16,
+        1522,
+        1024
+      ],
+      "cleanedBbox": [
+        322,
+        18,
+        1206,
+        994
+      ],
+      "savedBbox": [
+        17,
+        8,
+        176,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1106647,
+        "faint": 30432,
+        "translucent": 466217,
+        "opaque": 0
+      },
+      "transparentPixelCount": 22702,
+      "removedFaintAlphaPixels": 30432,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 14162,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 30432,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "nejd-troops-1924",
+      "name": "ネジド側の一般の兵士",
+      "kind": "group",
+      "subject": "Two ordinary Arabian Nejd soldiers around 1924, cream and muted brown robes, plain white headcloths and dark agal, modest belts, simple rifles held lowered at their sides, full bodies separated, no named king or religious icon.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Two ordinary Arabian Nejd soldiers around 1924, cream and muted brown robes, plain white headcloths and dark agal, modest belts, simple rifles held lowered at their sides, full bodies separated, no named king or religious icon.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7af1cc55-df4d-4b79-a1d6-d2d4e9dafedd.png",
+      "outputFile": "public/images/modern-c04-l16/nejd-troops-1924.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7af1cc55-df4d-4b79-a1d6-d2d4e9dafedd.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\nejd-troops-1924.png",
+      "inputSha256": "5f007ee1e3d353c8d70d4d237e443b996b0326cd89db70ac84c74a7f44e01eba",
+      "outputSha256": "25b458c38197c09b350d9ce5b3df3030bf0643ee175b925747d74f21dc375b76",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 914,
+        "height": 908
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 175
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        23,
+        1448,
+        1024
+      ],
+      "cleanedBbox": [
+        299,
+        57,
+        1213,
+        965
+      ],
+      "savedBbox": [
+        8,
+        9,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 995957,
+        "faint": 22623,
+        "translucent": 576907,
+        "opaque": 0
+      },
+      "transparentPixelCount": 16278,
+      "removedFaintAlphaPixels": 22623,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 20586,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 22623,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "british-colonial-troops-1919",
+      "name": "インド駐留軍の一般兵",
+      "kind": "group",
+      "subject": "Two ordinary members of the British colonial army in India around 1919, one khaki-uniformed British soldier with plain peaked cap and one Indian sepoy with restrained khaki turban, boots and rifles held lowered, calm neutral full-body stance, no firing or victims.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Two ordinary members of the British colonial army in India around 1919, one khaki-uniformed British soldier with plain peaked cap and one Indian sepoy with restrained khaki turban, boots and rifles held lowered, calm neutral full-body stance, no firing or victims.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a79f88bd-e3cf-42af-9c76-0a6f96db5433.png",
+      "outputFile": "public/images/modern-c04-l16/british-colonial-troops-1919.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a79f88bd-e3cf-42af-9c76-0a6f96db5433.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\british-colonial-troops-1919.png",
+      "inputSha256": "ca30b9af85d929b147f95ac2303cb100f8c7934a78354e2af26775f5b1cca380",
+      "outputSha256": "e7f90d3eeef43cc57b25c1d70747a6cda5829827d809c4070c0c1ed0f000d3a5",
+      "originalDimensions": {
+        "width": 1323,
+        "height": 1189
+      },
+      "croppedDimensions": {
+        "width": 815,
+        "height": 1021
+      },
+      "resizedDimensions": {
+        "width": 140,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        82,
+        69,
+        1271,
+        1189
+      ],
+      "cleanedBbox": [
+        249,
+        90,
+        1064,
+        1111
+      ],
+      "savedBbox": [
+        26,
+        8,
+        166,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1043354,
+        "faint": 31046,
+        "translucent": 527112,
+        "opaque": 2581
+      },
+      "transparentPixelCount": 22065,
+      "removedFaintAlphaPixels": 31046,
+      "opaquePixelCount": 49,
+      "translucentPixelCount": 14750,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 31046,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "salt-marchers-1930",
+      "name": "塩の行進に参加する一般の人びと",
+      "kind": "group",
+      "subject": "Three ordinary Indian civilian participants in the Salt March around 1930, two men in simple white cotton kurta and dhoti and one woman in a muted earthy sari, calm walking poses and a small plain basket, full bodies separated, no named Gandhi duplicate and no weapons.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Three ordinary Indian civilian participants in the Salt March around 1930, two men in simple white cotton kurta and dhoti and one woman in a muted earthy sari, calm walking poses and a small plain basket, full bodies separated, no named Gandhi duplicate and no weapons.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-fc4f056d-a797-48f3-bc74-277637c22cf3.png",
+      "outputFile": "public/images/modern-c04-l16/salt-marchers-1930.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-fc4f056d-a797-48f3-bc74-277637c22cf3.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\salt-marchers-1930.png",
+      "inputSha256": "53e0da33e6a736bdf94b984f6529250a7d215915e71e30ec8949396565811a24",
+      "outputSha256": "da883dc43da1bd2044f52f11bb0141cda31a20600dd899da8fde4e42ce38a458",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1231,
+        "height": 887
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 127
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        17,
+        1522,
+        1024
+      ],
+      "cleanedBbox": [
+        168,
+        73,
+        1399,
+        960
+      ],
+      "savedBbox": [
+        8,
+        57,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 953966,
+        "faint": 53638,
+        "translucent": 618898,
+        "opaque": 0
+      },
+      "transparentPixelCount": 25291,
+      "removedFaintAlphaPixels": 53638,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 11573,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 53638,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "japanese-wwii-troops",
+      "name": "第二次世界大戦期の日本軍の一般兵",
+      "kind": "group",
+      "subject": "Two ordinary Japanese soldiers in Southeast Asia around 1941 to 1942, restrained olive-khaki field uniforms and plain period field caps or helmets, boots and rifles held lowered, full bodies separated, no insignia closeups, no fighting or victims.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Two ordinary Japanese soldiers in Southeast Asia around 1941 to 1942, restrained olive-khaki field uniforms and plain period field caps or helmets, boots and rifles held lowered, full bodies separated, no insignia closeups, no fighting or victims.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-342d6b54-95c2-4631-a86b-bc986b8d0574.png",
+      "outputFile": "public/images/modern-c04-l16/japanese-wwii-troops.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-342d6b54-95c2-4631-a86b-bc986b8d0574.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\japanese-wwii-troops.png",
+      "inputSha256": "c5cf83046d033cbb0e1274aeff5314d7206da3b3c6c365bd9d717d9f4cfa1c22",
+      "outputSha256": "722dfe8978a6a3f32c273786d1fd6ded45aec48ad2d58d15c23945eea3f19b07",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 994,
+        "height": 919
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 163
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        57,
+        21,
+        1524,
+        978
+      ],
+      "cleanedBbox": [
+        305,
+        52,
+        1299,
+        971
+      ],
+      "savedBbox": [
+        8,
+        21,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1125652,
+        "faint": 36770,
+        "translucent": 447212,
+        "opaque": 0
+      },
+      "transparentPixelCount": 23970,
+      "removedFaintAlphaPixels": 36770,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 12894,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 36770,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "dutch-colonial-troops-1945",
+      "name": "戦後のオランダ軍の一般兵",
+      "kind": "group",
+      "subject": "Two ordinary Dutch colonial soldiers around 1945 to 1949, one European Dutch soldier and one Indonesian member in restrained khaki tropical uniforms with plain field caps, boots and lowered rifles, full bodies separated, no battle, no named commander.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: Two ordinary Dutch colonial soldiers around 1945 to 1949, one European Dutch soldier and one Indonesian member in restrained khaki tropical uniforms with plain field caps, boots and lowered rifles, full bodies separated, no battle, no named commander.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-2394033d-51cb-4334-beea-2260cb79c9f8.png",
+      "outputFile": "public/images/modern-c04-l16/dutch-colonial-troops-1945.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-2394033d-51cb-4334-beea-2260cb79c9f8.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\dutch-colonial-troops-1945.png",
+      "inputSha256": "9e0ff6c2688822b7e47fc18e3dea3bfb0789d10b9a9efcf62a646cb958fb91cc",
+      "outputSha256": "f6274ff2137a62df0c0d2356ce4d3ea4aae529375051a44da7edc46b83cf1360",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1061,
+        "height": 958
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 159
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        21,
+        1522,
+        1024
+      ],
+      "cleanedBbox": [
+        259,
+        32,
+        1320,
+        990
+      ],
+      "savedBbox": [
+        8,
+        25,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1077132,
+        "faint": 60446,
+        "translucent": 495732,
+        "opaque": 0
+      },
+      "transparentPixelCount": 24871,
+      "removedFaintAlphaPixels": 60446,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 11993,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 60446,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "charkha-spinning-wheel",
+      "name": "糸紡ぎ車【チャルカ】",
+      "kind": "prop",
+      "subject": "A historically plausible portable wooden Indian charkha spinning wheel around 1930, low rectangular wooden base with a modest spoke wheel, hand crank, spindle and a small cotton thread bundle. Entire object visible. Not a tall European spinning wheel, no hands or person, no writing.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: A historically plausible portable wooden Indian charkha spinning wheel around 1930, low rectangular wooden base with a modest spoke wheel, hand crank, spindle and a small cotton thread bundle. Entire object visible. Not a tall European spinning wheel, no hands or person, no writing.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-705192dc-a829-499e-a042-6a53db17f91c.png",
+      "outputFile": "public/images/modern-c04-l16/charkha-spinning-wheel.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-705192dc-a829-499e-a042-6a53db17f91c.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\charkha-spinning-wheel.png",
+      "inputSha256": "5794ecd8d88a6ef11e5290e4eafb73319a0b84daad581ad5aa5e049d6c4292b8",
+      "outputSha256": "9cab235bfe4d668550817b852f2a66c37503ed2d83e0ad00281b8480f291c219",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1124,
+        "height": 714
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 112
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        17,
+        1524,
+        1024
+      ],
+      "cleanedBbox": [
+        201,
+        159,
+        1325,
+        873
+      ],
+      "savedBbox": [
+        8,
+        72,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1166230,
+        "faint": 48847,
+        "translucent": 406634,
+        "opaque": 0
+      },
+      "transparentPixelCount": 28078,
+      "removedFaintAlphaPixels": 48847,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 8786,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 48847,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "salt-basket",
+      "name": "塩の模式図",
+      "kind": "prop",
+      "subject": "A plain shallow woven basket filled with white salt crystals beside a small light cloth sack, entire modest objects visible, educational object sprite for the Salt March of 1930, no brand, no person, no writing.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: A plain shallow woven basket filled with white salt crystals beside a small light cloth sack, entire modest objects visible, educational object sprite for the Salt March of 1930, no brand, no person, no writing.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-2a87e8ac-1199-49e3-8edf-ac3b352d56a1.png",
+      "outputFile": "public/images/modern-c04-l16/salt-basket.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-2a87e8ac-1199-49e3-8edf-ac3b352d56a1.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\salt-basket.png",
+      "inputSha256": "86370c116da9124362d72b879cf9f9d8a2ad6b9fd41288979bcf794e40250590",
+      "outputSha256": "9d4c6630537c015a573e76982fe534e1a8d9aa18f1fc7eb242126e36c3a8147b",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1137,
+        "height": 671
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 104
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        39,
+        1436,
+        1024
+      ],
+      "cleanedBbox": [
+        235,
+        204,
+        1372,
+        875
+      ],
+      "savedBbox": [
+        8,
+        80,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1104098,
+        "faint": 9603,
+        "translucent": 468766,
+        "opaque": 0
+      },
+      "transparentPixelCount": 25851,
+      "removedFaintAlphaPixels": 9603,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 11013,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 9603,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "oil-derrick-1930s",
+      "name": "石油資源の模式図",
+      "kind": "building",
+      "subject": "A single modest 1930s oil drilling derrick with a dark timber or steel lattice tower and a small simple platform, whole structure visible, educational reference to petroleum resources, no specific oil field, no modern pump station, no landscape or smoke.",
+      "prompt": "Use case: historical-scene. Asset type: transparent pixel-art sprite for a Japanese educational history website. Primary request: A single modest 1930s oil drilling derrick with a dark timber or steel lattice tower and a small simple platform, whole structure visible, educational reference to petroleum resources, no specific oil field, no modern pump station, no landscape or smoke.\nStyle: polished consistent retro 16-bit / Famicom-inspired educational pixel art, crisp deliberate square pixel clusters, restrained warm-earth palette, readable dark outline, small expressive face, dignified human proportions. Simulate a 64 by 64 pixel logical grid scaled with nearest-neighbour crisp edges. One complete sprite object or group centered, nothing cropped, generous clear transparent margin on every side, feet/base on a consistent bottom baseline. True transparent background. No floor, backdrop, ground line, cast shadow, glow, halo, text, watermark, flag, logo, panels or unrelated objects. Ordinary groups are schematic, not identified real people or units. Faces are educational stylizations, not caricatures or exact photographic reconstructions. Neutral textbook illustration, no praise, propaganda, violence or dramatic scene. Keep full figure(s) and all accessories within the image.",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-dbdcbac6-5166-4936-95dd-de1fed94bebd.png",
+      "outputFile": "public/images/modern-c04-l16/oil-derrick-1930s.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-dbdcbac6-5166-4936-95dd-de1fed94bebd.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c04-l16\\oil-derrick-1930s.png",
+      "inputSha256": "23b04b9f444d68bef57bce6aae658a3150ce3cf5306f18a4cbb6815bc46b8193",
+      "outputSha256": "ea249b2474c8659fc9cf0d304d10c2103137fa3cea10cee1e09a9e6e4b0b1b73",
+      "originalDimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "croppedDimensions": {
+        "width": 723,
+        "height": 1153
+      },
+      "resizedDimensions": {
+        "width": 110,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        21,
+        1232,
+        1254
+      ],
+      "cleanedBbox": [
+        262,
+        47,
+        985,
+        1200
+      ],
+      "savedBbox": [
+        41,
+        8,
+        151,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1175459,
+        "faint": 61323,
+        "translucent": 395880,
+        "opaque": 1177
+      },
+      "transparentPixelCount": 29061,
+      "removedFaintAlphaPixels": 61323,
+      "opaquePixelCount": 17,
+      "translucentPixelCount": 7786,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 61323,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    }
+  ],
+  "reused": [
+    {
+      "key": "woodrow-wilson",
+      "name": "ウィルソン",
+      "kind": "person",
+      "image": "modern-c03-l12/woodrow-wilson.png",
+      "identity": "person:woodrow-wilson",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。回想・現在・先取りを分ける。"
+    },
+    {
+      "key": "ramsay-macdonald",
+      "name": "マクドナルド",
+      "kind": "person",
+      "image": "modern-c03-l12/ramsay-macdonald.png",
+      "identity": "person:ramsay-macdonald",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。回想・現在・先取りを分ける。"
+    },
+    {
+      "key": "stanley-baldwin",
+      "name": "ボールドウィン",
+      "kind": "person",
+      "image": "modern-c04-l15/stanley-baldwin.png",
+      "identity": "person:stanley-baldwin",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。回想・現在・先取りを分ける。"
+    },
+    {
+      "key": "phan-boi-chau",
+      "name": "ファン＝ボイ＝チャウ",
+      "kind": "person",
+      "image": "modern-c02-l08/phan-boi-chau.png",
+      "identity": "person:phan-boi-chau",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。回想・現在・先取りを分ける。"
+    },
+    {
+      "key": "rama-v",
+      "name": "ラーマ5世",
+      "kind": "person",
+      "image": "modern-c02-l08/rama-v.png",
+      "identity": "person:rama-v",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。回想・現在・先取りを分ける。"
+    },
+    {
+      "key": "ahmed-urabi",
+      "name": "ウラービー",
+      "kind": "person",
+      "image": "modern-c03-l11/ahmed-urabi.png",
+      "identity": "person:ahmed-urabi",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。回想・現在・先取りを分ける。"
+    },
+    {
+      "key": "sun-yat-sen",
+      "name": "孫文",
+      "kind": "person",
+      "image": "modern-c02-l10/sun-yat-sen.png",
+      "identity": "person:sun-yat-sen",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。回想・現在・先取りを分ける。"
+    },
+    {
+      "key": "young-turk-officers",
+      "name": "旧青年トルコの一般の将校",
+      "kind": "group",
+      "image": "modern-c02-l07/young-turk-officers.png",
+      "identity": "group:young-turk-officers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "indian-villagers",
+      "name": "インドの一般の人びと",
+      "kind": "group",
+      "image": "modern-c02-l08/indian-villagers.png",
+      "identity": "group:indian-villagers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "javanese-villagers",
+      "name": "ジャワの一般の人びと",
+      "kind": "group",
+      "image": "modern-c02-l08/javanese-villagers.png",
+      "identity": "group:javanese-villagers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "british-wwi-soldiers",
+      "name": "大戦期のイギリス軍の一般兵",
+      "kind": "group",
+      "image": "modern-c03-l13/british-wwi-soldiers.png",
+      "identity": "group:british-wwi-soldiers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "russian-wwi-soldiers",
+      "name": "大戦期のロシア軍の一般兵",
+      "kind": "group",
+      "image": "modern-c03-l13/russian-wwi-soldiers.png",
+      "identity": "group:russian-wwi-soldiers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "conference-table",
+      "name": "会議の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/conference-table.png",
+      "identity": "prop:conference-table",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "constitution-document",
+      "name": "制度と政策の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/constitution-document.png",
+      "identity": "prop:constitution-document",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "treaty-document",
+      "name": "条約と権利の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/treaty-document.png",
+      "identity": "prop:treaty-document",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "calendar",
+      "name": "年代の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/calendar.png",
+      "identity": "prop:calendar",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "ballot-box",
+      "name": "投票の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/ballot-box.png",
+      "identity": "prop:ballot-box",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "cotton-textiles",
+      "name": "綿製品の模式図",
+      "kind": "prop",
+      "image": "modern-c02-l08/cotton-textiles.png",
+      "identity": "prop:cotton-textiles",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の実物や全員の姿を復元しない。"
+    },
+    {
+      "key": "religious-reference",
+      "name": "宗教的な歴史参照",
+      "kind": "prop",
+      "image": "islam-origin/prophet-banner.png",
+      "identity": "prop:religious-reference",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的な役割の模式図。特定の実物や全員の姿を復元しない。"
+    }
+  ],
+  "contactSheet": "docs/modern-lesson-16/contact-sheet.png"
+}

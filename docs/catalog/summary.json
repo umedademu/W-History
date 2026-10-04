@@ -1,7 +1,7 @@
 {
-  "version": "0.125",
-  "parts": 195,
-  "pages": 2827,
+  "version": "0.126",
+  "parts": 199,
+  "pages": 3024,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 67,
-      "pages": 1814,
+      "parts": 71,
+      "pages": 2011,
       "chapters": [
         {
           "chapter": 1,
@@ -2954,6 +2954,10 @@
             {
               "lesson": 15,
               "title": "戦間期の欧米諸国 〜世界恐慌以前〜"
+            },
+            {
+              "lesson": 16,
+              "title": "戦間期の西アジア・南アジア・東南アジア"
             }
           ],
           "volumes": [
@@ -3044,6 +3048,38 @@
               "lesson": 15,
               "part": 7,
               "pages": 15
+            },
+            {
+              "id": "modern-c04-l16-p01",
+              "label": "トルコ革命",
+              "number": "12",
+              "lesson": 16,
+              "part": 1,
+              "pages": 51
+            },
+            {
+              "id": "modern-c04-l16-p02",
+              "label": "戦間期の西アジア・アラブ諸国",
+              "number": "13",
+              "lesson": 16,
+              "part": 2,
+              "pages": 51
+            },
+            {
+              "id": "modern-c04-l16-p03",
+              "label": "インドの民族運動",
+              "number": "14",
+              "lesson": 16,
+              "part": 3,
+              "pages": 48
+            },
+            {
+              "id": "modern-c04-l16-p04",
+              "label": "東南アジアの民族運動",
+              "number": "15",
+              "lesson": 16,
+              "part": 4,
+              "pages": 47
             }
           ]
         }
