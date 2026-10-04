@@ -1,0 +1,2424 @@
+// 地域・都市・川・組織・本人を区別する。本人の座標は補わない。
+export const modernNameCatalog=[
+  {
+    "name": "ヨーロッパ",
+    "key": "ヨーロッパ",
+    "kind": "region",
+    "points": [
+      [
+        15,
+        50
+      ]
+    ],
+    "family": "ヨーロッパ"
+  },
+  {
+    "name": "欧米",
+    "key": "欧米",
+    "kind": "region",
+    "points": [
+      [
+        -25,
+        45
+      ]
+    ],
+    "family": "欧米"
+  },
+  {
+    "name": "アジア",
+    "key": "アジア",
+    "kind": "region",
+    "points": [
+      [
+        85,
+        30
+      ]
+    ],
+    "family": "アジア"
+  },
+  {
+    "name": "アフリカ",
+    "key": "アフリカ",
+    "kind": "region",
+    "points": [
+      [
+        20,
+        0
+      ]
+    ],
+    "family": "アフリカ"
+  },
+  {
+    "name": "イギリス",
+    "key": "イギリス",
+    "kind": "region",
+    "points": [
+      [
+        -2,
+        54
+      ]
+    ],
+    "family": "イギリス"
+  },
+  {
+    "name": "フランス",
+    "key": "フランス",
+    "kind": "region",
+    "points": [
+      [
+        2,
+        47
+      ]
+    ],
+    "family": "フランス"
+  },
+  {
+    "name": "ドイツ",
+    "key": "ドイツ",
+    "kind": "region",
+    "points": [
+      [
+        10,
+        51
+      ]
+    ],
+    "family": "ドイツ"
+  },
+  {
+    "name": "アメリカ",
+    "key": "アメリカ",
+    "kind": "region",
+    "points": [
+      [
+        -98,
+        39
+      ]
+    ],
+    "family": "アメリカ"
+  },
+  {
+    "name": "日本",
+    "key": "日本",
+    "kind": "region",
+    "points": [
+      [
+        138,
+        37
+      ]
+    ],
+    "family": "日本"
+  },
+  {
+    "name": "ロシア",
+    "key": "ロシア",
+    "kind": "region",
+    "points": [
+      [
+        60,
+        55
+      ]
+    ],
+    "family": "ロシア"
+  },
+  {
+    "name": "スペイン",
+    "key": "スペイン",
+    "kind": "region",
+    "points": [
+      [
+        -4,
+        40
+      ]
+    ],
+    "family": "スペイン"
+  },
+  {
+    "name": "ベルギー",
+    "key": "ベルギー",
+    "kind": "region",
+    "points": [
+      [
+        4.5,
+        50.5
+      ]
+    ],
+    "family": "ベルギー"
+  },
+  {
+    "name": "オーストリア",
+    "key": "オーストリア",
+    "kind": "region",
+    "points": [
+      [
+        14,
+        47.5
+      ]
+    ],
+    "family": "オーストリア"
+  },
+  {
+    "name": "スイス",
+    "key": "スイス",
+    "kind": "region",
+    "points": [
+      [
+        8.2,
+        46.8
+      ]
+    ],
+    "family": "スイス"
+  },
+  {
+    "name": "ポーランド",
+    "key": "ポーランド",
+    "kind": "region",
+    "points": [
+      [
+        19,
+        52
+      ]
+    ],
+    "family": "ポーランド"
+  },
+  {
+    "name": "インド",
+    "key": "インド",
+    "kind": "region",
+    "points": [
+      [
+        79,
+        22
+      ]
+    ],
+    "family": "インド"
+  },
+  {
+    "name": "トルコ",
+    "key": "トルコ",
+    "kind": "region",
+    "points": [
+      [
+        35,
+        39
+      ]
+    ],
+    "family": "トルコ"
+  },
+  {
+    "name": "パレスチナ",
+    "key": "パレスチナ",
+    "kind": "region",
+    "points": [
+      [
+        35.2,
+        31.8
+      ]
+    ],
+    "family": "パレスチナ"
+  },
+  {
+    "name": "バルカン半島",
+    "key": "バルカン半島",
+    "kind": "region",
+    "points": [
+      [
+        22,
+        43
+      ]
+    ],
+    "family": "バルカン半島"
+  },
+  {
+    "name": "バルカン",
+    "key": "バルカン",
+    "kind": "region",
+    "points": [
+      [
+        22,
+        42
+      ]
+    ],
+    "family": "バルカン半島"
+  },
+  {
+    "name": "中国",
+    "key": "中国",
+    "kind": "region",
+    "points": [
+      [
+        104,
+        35
+      ]
+    ],
+    "family": "中国"
+  },
+  {
+    "name": "満洲",
+    "key": "満洲",
+    "kind": "region",
+    "points": [
+      [
+        125,
+        45
+      ]
+    ],
+    "family": "満洲"
+  },
+  {
+    "name": "太平洋",
+    "key": "太平洋",
+    "kind": "region",
+    "points": [
+      [
+        -150,
+        5
+      ]
+    ],
+    "family": "太平洋"
+  },
+  {
+    "name": "オーストリア＝ハンガリー帝国",
+    "key": "オーストリアハンガリー帝国",
+    "kind": "region",
+    "points": [
+      [
+        16,
+        48
+      ]
+    ],
+    "family": "オーストリア"
+  },
+  {
+    "name": "オーストリア帝国",
+    "key": "オーストリア帝国",
+    "kind": "region",
+    "points": [
+      [
+        16,
+        48
+      ]
+    ],
+    "family": "オーストリア"
+  },
+  {
+    "name": "ボスニア・ヘルツェゴヴィナ",
+    "key": "ボスニアヘルツェゴヴィナ",
+    "kind": "region",
+    "points": [
+      [
+        17.8,
+        44.2
+      ]
+    ],
+    "family": "ボスニア・ヘルツェゴヴィナ"
+  },
+  {
+    "name": "ボスニア",
+    "key": "ボスニア",
+    "kind": "region",
+    "points": [
+      [
+        17.8,
+        44.2
+      ]
+    ],
+    "family": "ボスニア・ヘルツェゴヴィナ"
+  },
+  {
+    "name": "セルビア",
+    "key": "セルビア",
+    "kind": "region",
+    "points": [
+      [
+        20.8,
+        44
+      ]
+    ],
+    "family": "セルビア"
+  },
+  {
+    "name": "モンテネグロ",
+    "key": "モンテネグロ",
+    "kind": "region",
+    "points": [
+      [
+        19.3,
+        42.8
+      ]
+    ],
+    "family": "モンテネグロ"
+  },
+  {
+    "name": "ブルガリア",
+    "key": "ブルガリア",
+    "kind": "region",
+    "points": [
+      [
+        25.5,
+        42.7
+      ]
+    ],
+    "family": "ブルガリア"
+  },
+  {
+    "name": "ルーマニア",
+    "key": "ルーマニア",
+    "kind": "region",
+    "points": [
+      [
+        25,
+        45.7
+      ]
+    ],
+    "family": "ルーマニア"
+  },
+  {
+    "name": "ギリシア",
+    "key": "ギリシア",
+    "kind": "region",
+    "points": [
+      [
+        23,
+        38.5
+      ]
+    ],
+    "family": "ギリシア"
+  },
+  {
+    "name": "リビア",
+    "key": "リビア",
+    "kind": "region",
+    "points": [
+      [
+        17,
+        27
+      ]
+    ],
+    "family": "リビア"
+  },
+  {
+    "name": "トリポリ",
+    "key": "トリポリ",
+    "kind": "region",
+    "points": [
+      [
+        13.2,
+        32.9
+      ]
+    ],
+    "family": "トリポリ地域"
+  },
+  {
+    "name": "キレナイカ",
+    "key": "キレナイカ",
+    "kind": "region",
+    "points": [
+      [
+        22,
+        31
+      ]
+    ],
+    "family": "キレナイカ"
+  },
+  {
+    "name": "クレタ島",
+    "key": "クレタ島",
+    "kind": "region",
+    "points": [
+      [
+        24.9,
+        35.2
+      ]
+    ],
+    "family": "クレタ島"
+  },
+  {
+    "name": "キプロス島",
+    "key": "キプロス島",
+    "kind": "region",
+    "points": [
+      [
+        33,
+        35
+      ]
+    ],
+    "family": "キプロス島"
+  },
+  {
+    "name": "チュニジア",
+    "key": "チュニジア",
+    "kind": "region",
+    "points": [
+      [
+        10,
+        34
+      ]
+    ],
+    "family": "チュニジア"
+  },
+  {
+    "name": "エジプト",
+    "key": "エジプト",
+    "kind": "region",
+    "points": [
+      [
+        30,
+        27
+      ]
+    ],
+    "family": "エジプト"
+  },
+  {
+    "name": "モロッコ",
+    "key": "モロッコ",
+    "kind": "region",
+    "points": [
+      [
+        -7,
+        32
+      ]
+    ],
+    "family": "モロッコ"
+  },
+  {
+    "name": "スーダン",
+    "key": "スーダン",
+    "kind": "region",
+    "points": [
+      [
+        30,
+        15
+      ]
+    ],
+    "family": "スーダン"
+  },
+  {
+    "name": "南アフリカ",
+    "key": "南アフリカ",
+    "kind": "region",
+    "points": [
+      [
+        25,
+        -29
+      ]
+    ],
+    "family": "南アフリカ"
+  },
+  {
+    "name": "中央アジア",
+    "key": "中央アジア",
+    "kind": "region",
+    "points": [
+      [
+        65,
+        44
+      ]
+    ],
+    "family": "中央アジア"
+  },
+  {
+    "name": "遼東半島",
+    "key": "遼東半島",
+    "kind": "region",
+    "points": [
+      [
+        122,
+        40
+      ]
+    ],
+    "family": "遼東半島"
+  },
+  {
+    "name": "南洋諸島",
+    "key": "南洋諸島",
+    "kind": "region",
+    "points": [
+      [
+        155,
+        7
+      ]
+    ],
+    "family": "南洋諸島"
+  },
+  {
+    "name": "南太平洋",
+    "key": "南太平洋",
+    "kind": "region",
+    "points": [
+      [
+        155,
+        -15
+      ]
+    ],
+    "family": "南太平洋"
+  },
+  {
+    "name": "ウクライナ",
+    "key": "ウクライナ",
+    "kind": "region",
+    "points": [
+      [
+        31,
+        49
+      ]
+    ],
+    "family": "ウクライナ"
+  },
+  {
+    "name": "フィンランド",
+    "key": "フィンランド",
+    "kind": "region",
+    "points": [
+      [
+        25.5,
+        64
+      ]
+    ],
+    "family": "フィンランド"
+  },
+  {
+    "name": "オランダ",
+    "key": "オランダ",
+    "kind": "region",
+    "points": [
+      [
+        5.3,
+        52
+      ]
+    ],
+    "family": "オランダ"
+  },
+  {
+    "name": "ポルトガル",
+    "key": "ポルトガル",
+    "kind": "region",
+    "points": [
+      [
+        -8,
+        39.5
+      ]
+    ],
+    "family": "ポルトガル"
+  },
+  {
+    "name": "イタリア",
+    "key": "イタリア",
+    "kind": "region",
+    "points": [
+      [
+        12.5,
+        42.5
+      ]
+    ],
+    "family": "イタリア"
+  },
+  {
+    "name": "オスマン帝国",
+    "key": "オスマン帝国",
+    "kind": "region",
+    "points": [
+      [
+        35,
+        39
+      ]
+    ],
+    "family": "トルコ"
+  },
+  {
+    "name": "東部戦線",
+    "key": "東部戦線",
+    "kind": "region",
+    "points": [
+      [
+        21,
+        53
+      ]
+    ],
+    "family": "東部戦線の参考範囲"
+  },
+  {
+    "name": "西部戦線",
+    "key": "西部戦線",
+    "kind": "region",
+    "points": [
+      [
+        3.3,
+        49.5
+      ]
+    ],
+    "family": "西部戦線の参考範囲"
+  },
+  {
+    "name": "シベリア",
+    "key": "シベリア",
+    "kind": "region",
+    "points": [
+      [
+        100,
+        60
+      ]
+    ],
+    "family": "シベリア"
+  },
+  {
+    "name": "アルザス・ロレーヌ",
+    "key": "アルザスロレーヌ",
+    "kind": "region",
+    "points": [
+      [
+        7,
+        48.5
+      ]
+    ],
+    "family": "アルザス・ロレーヌ"
+  },
+  {
+    "name": "ベーメン",
+    "key": "ベーメン",
+    "kind": "region",
+    "points": [
+      [
+        14.5,
+        50
+      ]
+    ],
+    "family": "ベーメン"
+  },
+  {
+    "name": "ロンドン",
+    "key": "ロンドン",
+    "kind": "place",
+    "points": [
+      [
+        -0.12,
+        51.5
+      ]
+    ],
+    "family": "ロンドン"
+  },
+  {
+    "name": "パリ",
+    "key": "パリ",
+    "kind": "place",
+    "points": [
+      [
+        2.35,
+        48.86
+      ]
+    ],
+    "family": "パリ"
+  },
+  {
+    "name": "アルザス",
+    "key": "アルザス",
+    "kind": "place",
+    "points": [
+      [
+        7.4,
+        48
+      ]
+    ],
+    "family": "アルザス・ロレーヌ"
+  },
+  {
+    "name": "ロレーヌ",
+    "key": "ロレーヌ",
+    "kind": "place",
+    "points": [
+      [
+        6.2,
+        48.6
+      ]
+    ],
+    "family": "アルザス・ロレーヌ"
+  },
+  {
+    "name": "ベルリン",
+    "key": "ベルリン",
+    "kind": "place",
+    "points": [
+      [
+        13.4,
+        52.52
+      ]
+    ],
+    "family": "ベルリン"
+  },
+  {
+    "name": "イスタンブル",
+    "key": "イスタンブル",
+    "kind": "place",
+    "points": [
+      [
+        28.98,
+        41.01
+      ]
+    ],
+    "family": "イスタンブール"
+  },
+  {
+    "name": "ペテルブルク",
+    "key": "ペテルブルク",
+    "kind": "place",
+    "points": [
+      [
+        30.32,
+        59.94
+      ]
+    ],
+    "family": "ペテルブルク"
+  },
+  {
+    "name": "スエズ運河",
+    "key": "スエズ運河",
+    "kind": "place",
+    "points": [
+      [
+        32.55,
+        30.5
+      ]
+    ],
+    "family": "スエズ運河"
+  },
+  {
+    "name": "ファショダ",
+    "key": "ファショダ",
+    "kind": "place",
+    "points": [
+      [
+        31.86,
+        9.88
+      ]
+    ],
+    "family": "ファショダ"
+  },
+  {
+    "name": "サライェヴォ",
+    "key": "サライェヴォ",
+    "kind": "place",
+    "points": [
+      [
+        18.41,
+        43.86
+      ]
+    ],
+    "family": "サライェヴォ"
+  },
+  {
+    "name": "ヴェルサイユ宮殿",
+    "key": "ヴェルサイユ宮殿",
+    "kind": "place",
+    "points": [
+      [
+        2.12,
+        48.8
+      ]
+    ],
+    "family": "ヴェルサイユ宮殿"
+  },
+  {
+    "name": "カルタゴ",
+    "key": "カルタゴ",
+    "kind": "place",
+    "points": [
+      [
+        10.32,
+        36.86
+      ]
+    ],
+    "family": "カルタゴ"
+  },
+  {
+    "name": "ヴェネツィア",
+    "key": "ヴェネツィア",
+    "kind": "place",
+    "points": [
+      [
+        12.33,
+        45.44
+      ]
+    ],
+    "family": "ヴェネツィア"
+  },
+  {
+    "name": "タンネンベルク",
+    "key": "タンネンベルク",
+    "kind": "place",
+    "points": [
+      [
+        20.3,
+        53.49
+      ]
+    ],
+    "family": "タンネンベルク"
+  },
+  {
+    "name": "ヴェルダン",
+    "key": "ヴェルダン",
+    "kind": "place",
+    "points": [
+      [
+        5.4,
+        49.16
+      ]
+    ],
+    "family": "ヴェルダン"
+  },
+  {
+    "name": "イープル",
+    "key": "イープル",
+    "kind": "place",
+    "points": [
+      [
+        2.88,
+        50.85
+      ]
+    ],
+    "family": "イープル"
+  },
+  {
+    "name": "ユトランド沖",
+    "key": "ユトランド沖",
+    "kind": "place",
+    "points": [
+      [
+        6,
+        56
+      ]
+    ],
+    "family": "ユトランド沖"
+  },
+  {
+    "name": "キール軍港",
+    "key": "キール軍港",
+    "kind": "place",
+    "points": [
+      [
+        10.14,
+        54.32
+      ]
+    ],
+    "family": "キール"
+  },
+  {
+    "name": "キール",
+    "key": "キール",
+    "kind": "place",
+    "points": [
+      [
+        10.14,
+        54.32
+      ]
+    ],
+    "family": "キール"
+  },
+  {
+    "name": "コンピエーニュ",
+    "key": "コンピエーニュ",
+    "kind": "place",
+    "points": [
+      [
+        2.9,
+        49.4
+      ]
+    ],
+    "family": "コンピエーニュ"
+  },
+  {
+    "name": "ペトログラード",
+    "key": "ペトログラード",
+    "kind": "place",
+    "points": [
+      [
+        30.32,
+        59.94
+      ]
+    ],
+    "family": "ペテルブルク"
+  },
+  {
+    "name": "モスクワ",
+    "key": "モスクワ",
+    "kind": "place",
+    "points": [
+      [
+        37.62,
+        55.75
+      ]
+    ],
+    "family": "モスクワ"
+  },
+  {
+    "name": "膠州湾",
+    "key": "膠州湾",
+    "kind": "place",
+    "points": [
+      [
+        120.2,
+        36.1
+      ]
+    ],
+    "family": "膠州湾"
+  },
+  {
+    "name": "富山県",
+    "key": "富山県",
+    "kind": "place",
+    "points": [
+      [
+        137.2,
+        36.7
+      ]
+    ],
+    "family": "富山県"
+  },
+  {
+    "name": "マルヌ",
+    "key": "マルヌ",
+    "kind": "place",
+    "points": [
+      [
+        3.1,
+        49
+      ]
+    ],
+    "family": "マルヌ",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "ソンム",
+    "key": "ソンム",
+    "kind": "place",
+    "points": [
+      [
+        2.7,
+        50
+      ]
+    ],
+    "family": "ソンム",
+    "geographicType": "river-reference",
+    "description": "河川の概略参考点。都市や正確な全流路ではない。"
+  },
+  {
+    "name": "ディズレーリ",
+    "key": "ディズレーリ",
+    "kind": "person",
+    "points": [],
+    "family": "ディズレーリ"
+  },
+  {
+    "name": "ビスマルク",
+    "key": "ビスマルク",
+    "kind": "person",
+    "points": [],
+    "family": "ビスマルク"
+  },
+  {
+    "name": "ブーランジェ",
+    "key": "ブーランジェ",
+    "kind": "person",
+    "points": [],
+    "family": "ブーランジェ"
+  },
+  {
+    "name": "ヴィルヘルム2世",
+    "key": "ヴィルヘルム2世",
+    "kind": "person",
+    "points": [],
+    "family": "ヴィルヘルム2世"
+  },
+  {
+    "name": "レーニン",
+    "key": "レーニン",
+    "kind": "person",
+    "points": [],
+    "family": "レーニン"
+  },
+  {
+    "name": "ニコライ2世",
+    "key": "ニコライ2世",
+    "kind": "person",
+    "points": [],
+    "family": "ニコライ2世"
+  },
+  {
+    "name": "アレクセイ",
+    "key": "アレクセイ",
+    "kind": "person",
+    "points": [],
+    "family": "アレクセイ",
+    "personKey": "alexei-teenager"
+  },
+  {
+    "name": "フランツ＝フェルディナント夫妻",
+    "key": "フランツフェルディナント夫妻",
+    "kind": "person",
+    "points": [],
+    "family": "フランツ＝フェルディナント夫妻",
+    "personKey": "franz-ferdinand-couple"
+  },
+  {
+    "name": "ヒンデンブルク",
+    "key": "ヒンデンブルク",
+    "kind": "person",
+    "points": [],
+    "family": "ヒンデンブルク",
+    "personKey": "paul-von-hindenburg"
+  },
+  {
+    "name": "ロイド＝ジョージ",
+    "key": "ロイドジョージ",
+    "kind": "person",
+    "points": [],
+    "family": "ロイド＝ジョージ",
+    "personKey": "david-lloyd-george"
+  },
+  {
+    "name": "クレマンソー",
+    "key": "クレマンソー",
+    "kind": "person",
+    "points": [],
+    "family": "クレマンソー",
+    "personKey": "georges-clemenceau"
+  },
+  {
+    "name": "ペタン",
+    "key": "ペタン",
+    "kind": "person",
+    "points": [],
+    "family": "ペタン",
+    "personKey": "philippe-petain"
+  },
+  {
+    "name": "ラスプーチン",
+    "key": "ラスプーチン",
+    "kind": "person",
+    "points": [],
+    "family": "ラスプーチン",
+    "personKey": "grigori-rasputin"
+  },
+  {
+    "name": "ケレンスキー",
+    "key": "ケレンスキー",
+    "kind": "person",
+    "points": [],
+    "family": "ケレンスキー",
+    "personKey": "alexander-kerensky"
+  },
+  {
+    "name": "コルニーロフ",
+    "key": "コルニーロフ",
+    "kind": "person",
+    "points": [],
+    "family": "コルニーロフ",
+    "personKey": "lavr-kornilov"
+  },
+  {
+    "name": "トロツキー",
+    "key": "トロツキー",
+    "kind": "person",
+    "points": [],
+    "family": "トロツキー",
+    "personKey": "leon-trotsky"
+  },
+  {
+    "name": "スターリン",
+    "key": "スターリン",
+    "kind": "person",
+    "points": [],
+    "family": "スターリン",
+    "personKey": "joseph-stalin"
+  },
+  {
+    "name": "桂太郎",
+    "key": "桂太郎",
+    "kind": "person",
+    "points": [],
+    "family": "桂太郎",
+    "personKey": "katsura-taro"
+  },
+  {
+    "name": "吉野作造",
+    "key": "吉野作造",
+    "kind": "person",
+    "points": [],
+    "family": "吉野作造",
+    "personKey": "yoshino-sakuzo"
+  },
+  {
+    "name": "美濃部達吉",
+    "key": "美濃部達吉",
+    "kind": "person",
+    "points": [],
+    "family": "美濃部達吉",
+    "personKey": "minobe-tatsukichi"
+  },
+  {
+    "name": "寺内正毅",
+    "key": "寺内正毅",
+    "kind": "person",
+    "points": [],
+    "family": "寺内正毅",
+    "personKey": "terauchi-masatake"
+  },
+  {
+    "name": "原敬",
+    "key": "原敬",
+    "kind": "person",
+    "points": [],
+    "family": "原敬",
+    "personKey": "hara-takashi"
+  },
+  {
+    "name": "加藤高明",
+    "key": "加藤高明",
+    "kind": "person",
+    "points": [],
+    "family": "加藤高明",
+    "personKey": "kato-takaaki"
+  },
+  {
+    "name": "平塚らいてう",
+    "key": "平塚らいてう",
+    "kind": "person",
+    "points": [],
+    "family": "平塚らいてう",
+    "personKey": "hiratsuka-raicho"
+  },
+  {
+    "name": "市川房江",
+    "key": "市川房江",
+    "kind": "person",
+    "points": [],
+    "family": "市川房江",
+    "personKey": "ichikawa-fusae"
+  },
+  {
+    "name": "フランツ＝フェルディナント",
+    "key": "フランツフェルディナント",
+    "kind": "person",
+    "points": [],
+    "family": "フランツ＝フェルディナント夫妻",
+    "personKey": "franz-ferdinand-couple"
+  },
+  {
+    "name": "皇后",
+    "key": "皇后",
+    "kind": "person",
+    "points": [],
+    "family": "ロシア皇后",
+    "personKey": "russian-empress"
+  },
+  {
+    "name": "プリンチップ",
+    "key": "プリンチップ",
+    "kind": "person",
+    "points": [],
+    "family": "プリンチップ"
+  },
+  {
+    "name": "袁世凱",
+    "key": "袁世凱",
+    "kind": "person",
+    "points": [],
+    "family": "袁世凱",
+    "personKey": "yuan-shikai-late"
+  },
+  {
+    "name": "らいちょう",
+    "key": "らいちょう",
+    "kind": "person",
+    "points": [],
+    "family": "平塚らいてう",
+    "personKey": "hiratsuka-raicho"
+  },
+  {
+    "name": "帝国主義",
+    "key": "帝国主義",
+    "kind": "concept",
+    "points": [],
+    "family": "帝国主義"
+  },
+  {
+    "name": "労働者",
+    "key": "労働者",
+    "kind": "concept",
+    "points": [],
+    "family": "労働者"
+  },
+  {
+    "name": "社会主義",
+    "key": "社会主義",
+    "kind": "concept",
+    "points": [],
+    "family": "社会主義"
+  },
+  {
+    "name": "参政権",
+    "key": "参政権",
+    "kind": "concept",
+    "points": [],
+    "family": "参政権"
+  },
+  {
+    "name": "議会",
+    "key": "議会",
+    "kind": "concept",
+    "points": [],
+    "family": "議会"
+  },
+  {
+    "name": "ブルジョワ革命",
+    "key": "ブルジョワ革命",
+    "kind": "concept",
+    "points": [],
+    "family": "ブルジョワ革命"
+  },
+  {
+    "name": "社会主義革命",
+    "key": "社会主義革命",
+    "kind": "concept",
+    "points": [],
+    "family": "社会主義革命"
+  },
+  {
+    "name": "普仏戦争",
+    "key": "普仏戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "普仏戦争"
+  },
+  {
+    "name": "独仏戦争",
+    "key": "独仏戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "独仏戦争"
+  },
+  {
+    "name": "アフリカ横断政策",
+    "key": "アフリカ横断政策",
+    "kind": "concept",
+    "points": [],
+    "family": "アフリカ横断政策"
+  },
+  {
+    "name": "ブーランジェ事件",
+    "key": "ブーランジェ事件",
+    "kind": "concept",
+    "points": [],
+    "family": "ブーランジェ事件"
+  },
+  {
+    "name": "ユダヤ系",
+    "key": "ユダヤ系",
+    "kind": "concept",
+    "points": [],
+    "family": "ユダヤ系"
+  },
+  {
+    "name": "ユダヤ人",
+    "key": "ユダヤ人",
+    "kind": "concept",
+    "points": [],
+    "family": "ユダヤ人"
+  },
+  {
+    "name": "ファショダ事件",
+    "key": "ファショダ事件",
+    "kind": "concept",
+    "points": [],
+    "family": "ファショダ事件"
+  },
+  {
+    "name": "露仏同盟",
+    "key": "露仏同盟",
+    "kind": "concept",
+    "points": [],
+    "family": "露仏同盟"
+  },
+  {
+    "name": "シベリア鉄道",
+    "key": "シベリア鉄道",
+    "kind": "concept",
+    "points": [],
+    "family": "シベリア鉄道"
+  },
+  {
+    "name": "ドイツ帝国",
+    "key": "ドイツ帝国",
+    "kind": "concept",
+    "points": [],
+    "family": "ドイツ帝国"
+  },
+  {
+    "name": "親政",
+    "key": "親政",
+    "kind": "concept",
+    "points": [],
+    "family": "親政"
+  },
+  {
+    "name": "世界政策",
+    "key": "世界政策",
+    "kind": "concept",
+    "points": [],
+    "family": "世界政策"
+  },
+  {
+    "name": "再保障条約",
+    "key": "再保障条約",
+    "kind": "concept",
+    "points": [],
+    "family": "再保障条約"
+  },
+  {
+    "name": "3B政策",
+    "key": "3B政策",
+    "kind": "concept",
+    "points": [],
+    "family": "3B政策"
+  },
+  {
+    "name": "3C政策",
+    "key": "3C政策",
+    "kind": "concept",
+    "points": [],
+    "family": "3C政策"
+  },
+  {
+    "name": "建艦競争",
+    "key": "建艦競争",
+    "kind": "concept",
+    "points": [],
+    "family": "建艦競争"
+  },
+  {
+    "name": "南下政策",
+    "key": "南下政策",
+    "kind": "concept",
+    "points": [],
+    "family": "南下政策"
+  },
+  {
+    "name": "ボリシェヴィキ",
+    "key": "ボリシェヴィキ",
+    "kind": "concept",
+    "points": [],
+    "family": "ボリシェヴィキ"
+  },
+  {
+    "name": "メンシェヴィキ",
+    "key": "メンシェヴィキ",
+    "kind": "concept",
+    "points": [],
+    "family": "メンシェヴィキ"
+  },
+  {
+    "name": "エスエル",
+    "key": "エスエル",
+    "kind": "concept",
+    "points": [],
+    "family": "エスエル"
+  },
+  {
+    "name": "社会革命党",
+    "key": "社会革命党",
+    "kind": "concept",
+    "points": [],
+    "family": "社会革命党"
+  },
+  {
+    "name": "社会主義者・革命家党",
+    "key": "社会主義者革命家党",
+    "kind": "concept",
+    "points": [],
+    "family": "社会主義者・革命家党"
+  },
+  {
+    "name": "ロシア革命",
+    "key": "ロシア革命",
+    "kind": "concept",
+    "points": [],
+    "family": "ロシア革命"
+  },
+  {
+    "name": "日露戦争",
+    "key": "日露戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "日露戦争"
+  },
+  {
+    "name": "ソヴィエト",
+    "key": "ソヴィエト",
+    "kind": "concept",
+    "points": [],
+    "family": "ソヴィエト"
+  },
+  {
+    "name": "評議会",
+    "key": "評議会",
+    "kind": "concept",
+    "points": [],
+    "family": "評議会"
+  },
+  {
+    "name": "ドゥーマ",
+    "key": "ドゥーマ",
+    "kind": "concept",
+    "points": [],
+    "family": "ドゥーマ"
+  },
+  {
+    "name": "立憲民主党",
+    "key": "立憲民主党",
+    "kind": "concept",
+    "points": [],
+    "family": "立憲民主党"
+  },
+  {
+    "name": "民主党",
+    "key": "民主党",
+    "kind": "concept",
+    "points": [],
+    "family": "民主党"
+  },
+  {
+    "name": "パリ条約",
+    "key": "パリ条約",
+    "kind": "concept",
+    "points": [],
+    "family": "パリ条約"
+  },
+  {
+    "name": "保護国化",
+    "key": "保護国化",
+    "kind": "concept",
+    "points": [],
+    "family": "保護国化"
+  },
+  {
+    "name": "機会均等",
+    "key": "機会均等",
+    "kind": "concept",
+    "points": [],
+    "family": "機会均等"
+  },
+  {
+    "name": "勢力均衡",
+    "key": "勢力均衡",
+    "kind": "concept",
+    "points": [],
+    "family": "勢力均衡"
+  },
+  {
+    "name": "第一次世界大戦",
+    "key": "第一次世界大戦",
+    "kind": "concept",
+    "points": [],
+    "family": "第一次世界大戦"
+  },
+  {
+    "name": "第二次世界大戦",
+    "key": "第二次世界大戦",
+    "kind": "concept",
+    "points": [],
+    "family": "第二次世界大戦"
+  },
+  {
+    "name": "年号",
+    "key": "年号",
+    "kind": "concept",
+    "points": [],
+    "family": "年号"
+  },
+  {
+    "name": "年号のツボ",
+    "key": "年号のツボ",
+    "kind": "concept",
+    "points": [],
+    "family": "年号のツボ"
+  },
+  {
+    "name": "長い19世紀",
+    "key": "長い19世紀",
+    "kind": "concept",
+    "points": [],
+    "family": "長い19世紀"
+  },
+  {
+    "name": "ビスマルク外交",
+    "key": "ビスマルク外交",
+    "kind": "concept",
+    "points": [],
+    "family": "ビスマルク外交"
+  },
+  {
+    "name": "鉄血政策",
+    "key": "鉄血政策",
+    "kind": "concept",
+    "points": [],
+    "family": "鉄血政策"
+  },
+  {
+    "name": "三帝同盟",
+    "key": "三帝同盟",
+    "kind": "concept",
+    "points": [],
+    "family": "三帝同盟"
+  },
+  {
+    "name": "独墺同盟",
+    "key": "独墺同盟",
+    "kind": "concept",
+    "points": [],
+    "family": "独墺同盟"
+  },
+  {
+    "name": "新三帝同盟",
+    "key": "新三帝同盟",
+    "kind": "concept",
+    "points": [],
+    "family": "新三帝同盟"
+  },
+  {
+    "name": "三国同盟",
+    "key": "三国同盟",
+    "kind": "concept",
+    "points": [],
+    "family": "三国同盟"
+  },
+  {
+    "name": "二重保障条約",
+    "key": "二重保障条約",
+    "kind": "concept",
+    "points": [],
+    "family": "二重保障条約"
+  },
+  {
+    "name": "露土戦争",
+    "key": "露土戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "露土戦争"
+  },
+  {
+    "name": "サン＝ステファノ条約",
+    "key": "サンステファノ条約",
+    "kind": "concept",
+    "points": [],
+    "family": "サン＝ステファノ条約"
+  },
+  {
+    "name": "普墺戦争",
+    "key": "普墺戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "普墺戦争"
+  },
+  {
+    "name": "ポエニ戦争",
+    "key": "ポエニ戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "ポエニ戦争"
+  },
+  {
+    "name": "ローマ帝国",
+    "key": "ローマ帝国",
+    "kind": "concept",
+    "points": [],
+    "family": "ローマ帝国"
+  },
+  {
+    "name": "ベルリン会議",
+    "key": "ベルリン会議",
+    "kind": "concept",
+    "points": [],
+    "family": "ベルリン会議"
+  },
+  {
+    "name": "ベルリン＝コンゴ会議",
+    "key": "ベルリンコンゴ会議",
+    "kind": "concept",
+    "points": [],
+    "family": "ベルリン＝コンゴ会議"
+  },
+  {
+    "name": "三国干渉",
+    "key": "三国干渉",
+    "kind": "concept",
+    "points": [],
+    "family": "三国干渉"
+  },
+  {
+    "name": "義和団戦争",
+    "key": "義和団戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "義和団戦争"
+  },
+  {
+    "name": "日英同盟",
+    "key": "日英同盟",
+    "kind": "concept",
+    "points": [],
+    "family": "日英同盟"
+  },
+  {
+    "name": "英仏協商",
+    "key": "英仏協商",
+    "kind": "concept",
+    "points": [],
+    "family": "英仏協商"
+  },
+  {
+    "name": "英露協商",
+    "key": "英露協商",
+    "kind": "concept",
+    "points": [],
+    "family": "英露協商"
+  },
+  {
+    "name": "三国協商",
+    "key": "三国協商",
+    "kind": "concept",
+    "points": [],
+    "family": "三国協商"
+  },
+  {
+    "name": "日仏協約",
+    "key": "日仏協約",
+    "kind": "concept",
+    "points": [],
+    "family": "日仏協約"
+  },
+  {
+    "name": "日露協約",
+    "key": "日露協約",
+    "kind": "concept",
+    "points": [],
+    "family": "日露協約"
+  },
+  {
+    "name": "第1次モロッコ事件",
+    "key": "第1次モロッコ事件",
+    "kind": "concept",
+    "points": [],
+    "family": "第1次モロッコ事件"
+  },
+  {
+    "name": "第2次モロッコ事件",
+    "key": "第2次モロッコ事件",
+    "kind": "concept",
+    "points": [],
+    "family": "第2次モロッコ事件"
+  },
+  {
+    "name": "光栄ある孤立",
+    "key": "光栄ある孤立",
+    "kind": "concept",
+    "points": [],
+    "family": "光栄ある孤立"
+  },
+  {
+    "name": "武装平和",
+    "key": "武装平和",
+    "kind": "concept",
+    "points": [],
+    "family": "武装平和"
+  },
+  {
+    "name": "パン＝スラヴ主義",
+    "key": "パンスラヴ主義",
+    "kind": "concept",
+    "points": [],
+    "family": "パン＝スラヴ主義"
+  },
+  {
+    "name": "パン＝ゲルマン主義",
+    "key": "パンゲルマン主義",
+    "kind": "concept",
+    "points": [],
+    "family": "パン＝ゲルマン主義"
+  },
+  {
+    "name": "ギリシア正教",
+    "key": "ギリシア正教",
+    "kind": "concept",
+    "points": [],
+    "family": "ギリシア正教"
+  },
+  {
+    "name": "大セルビア主義",
+    "key": "大セルビア主義",
+    "kind": "concept",
+    "points": [],
+    "family": "大セルビア主義"
+  },
+  {
+    "name": "青年トルコ革命",
+    "key": "青年トルコ革命",
+    "kind": "concept",
+    "points": [],
+    "family": "青年トルコ革命"
+  },
+  {
+    "name": "イタリア＝トルコ戦争",
+    "key": "イタリアトルコ戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "イタリア＝トルコ戦争"
+  },
+  {
+    "name": "仏伊協商",
+    "key": "仏伊協商",
+    "kind": "concept",
+    "points": [],
+    "family": "仏伊協商"
+  },
+  {
+    "name": "バルカン同盟",
+    "key": "バルカン同盟",
+    "kind": "concept",
+    "points": [],
+    "family": "バルカン同盟"
+  },
+  {
+    "name": "第1次バルカン戦争",
+    "key": "第1次バルカン戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "第1次バルカン戦争"
+  },
+  {
+    "name": "第2次バルカン戦争",
+    "key": "第2次バルカン戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "第2次バルカン戦争"
+  },
+  {
+    "name": "サライェヴォ事件",
+    "key": "サライェヴォ事件",
+    "kind": "concept",
+    "points": [],
+    "family": "サライェヴォ事件"
+  },
+  {
+    "name": "シュリーフェン＝プラン",
+    "key": "シュリーフェンプラン",
+    "kind": "concept",
+    "points": [],
+    "family": "シュリーフェン＝プラン"
+  },
+  {
+    "name": "タンネンベルクの戦い",
+    "key": "タンネンベルクの戦い",
+    "kind": "concept",
+    "points": [],
+    "family": "タンネンベルクの戦い"
+  },
+  {
+    "name": "マルヌの戦い",
+    "key": "マルヌの戦い",
+    "kind": "concept",
+    "points": [],
+    "family": "マルヌの戦い"
+  },
+  {
+    "name": "ヴェルダン要塞",
+    "key": "ヴェルダン要塞",
+    "kind": "concept",
+    "points": [],
+    "family": "ヴェルダン要塞"
+  },
+  {
+    "name": "ソンムの戦い",
+    "key": "ソンムの戦い",
+    "kind": "concept",
+    "points": [],
+    "family": "ソンムの戦い"
+  },
+  {
+    "name": "イープルの戦い",
+    "key": "イープルの戦い",
+    "kind": "concept",
+    "points": [],
+    "family": "イープルの戦い"
+  },
+  {
+    "name": "ユトランド沖海戦",
+    "key": "ユトランド沖海戦",
+    "kind": "concept",
+    "points": [],
+    "family": "ユトランド沖海戦"
+  },
+  {
+    "name": "塹壕戦",
+    "key": "塹壕戦",
+    "kind": "concept",
+    "points": [],
+    "family": "塹壕戦"
+  },
+  {
+    "name": "総力戦",
+    "key": "総力戦",
+    "kind": "concept",
+    "points": [],
+    "family": "総力戦"
+  },
+  {
+    "name": "挙国一致体制",
+    "key": "挙国一致体制",
+    "kind": "concept",
+    "points": [],
+    "family": "挙国一致体制"
+  },
+  {
+    "name": "挙国一致内閣",
+    "key": "挙国一致内閣",
+    "kind": "concept",
+    "points": [],
+    "family": "挙国一致内閣"
+  },
+  {
+    "name": "軍部独裁体制",
+    "key": "軍部独裁体制",
+    "kind": "concept",
+    "points": [],
+    "family": "軍部独裁体制"
+  },
+  {
+    "name": "ロンドン秘密条約",
+    "key": "ロンドン秘密条約",
+    "kind": "concept",
+    "points": [],
+    "family": "ロンドン秘密条約"
+  },
+  {
+    "name": "二十一カ条要求",
+    "key": "二十一カ条要求",
+    "kind": "concept",
+    "points": [],
+    "family": "二十一カ条要求"
+  },
+  {
+    "name": "ルシタニア号事件",
+    "key": "ルシタニア号事件",
+    "kind": "concept",
+    "points": [],
+    "family": "ルシタニア号事件"
+  },
+  {
+    "name": "無制限潜水艦作戦",
+    "key": "無制限潜水艦作戦",
+    "kind": "concept",
+    "points": [],
+    "family": "無制限潜水艦作戦"
+  },
+  {
+    "name": "石井・ランシング協定",
+    "key": "石井ランシング協定",
+    "kind": "concept",
+    "points": [],
+    "family": "石井・ランシング協定"
+  },
+  {
+    "name": "フセイン・マクマホン協定",
+    "key": "フセインマクマホン協定",
+    "kind": "concept",
+    "points": [],
+    "family": "フセイン・マクマホン協定"
+  },
+  {
+    "name": "サイクス・ピコ協定",
+    "key": "サイクスピコ協定",
+    "kind": "concept",
+    "points": [],
+    "family": "サイクス・ピコ協定"
+  },
+  {
+    "name": "バルフォア宣言",
+    "key": "バルフォア宣言",
+    "kind": "concept",
+    "points": [],
+    "family": "バルフォア宣言"
+  },
+  {
+    "name": "ロスチャイルド家",
+    "key": "ロスチャイルド家",
+    "kind": "concept",
+    "points": [],
+    "family": "ロスチャイルド家"
+  },
+  {
+    "name": "パレスチナ問題",
+    "key": "パレスチナ問題",
+    "kind": "concept",
+    "points": [],
+    "family": "パレスチナ問題"
+  },
+  {
+    "name": "スペイン風邪",
+    "key": "スペイン風邪",
+    "kind": "concept",
+    "points": [],
+    "family": "スペイン風邪"
+  },
+  {
+    "name": "ドイツ革命",
+    "key": "ドイツ革命",
+    "kind": "concept",
+    "points": [],
+    "family": "ドイツ革命"
+  },
+  {
+    "name": "レーテ",
+    "key": "レーテ",
+    "kind": "concept",
+    "points": [],
+    "family": "レーテ"
+  },
+  {
+    "name": "ドイツ共和国",
+    "key": "ドイツ共和国",
+    "kind": "concept",
+    "points": [],
+    "family": "ドイツ共和国"
+  },
+  {
+    "name": "ドイツ休戦協定",
+    "key": "ドイツ休戦協定",
+    "kind": "concept",
+    "points": [],
+    "family": "ドイツ休戦協定"
+  },
+  {
+    "name": "二月革命",
+    "key": "二月革命",
+    "kind": "concept",
+    "points": [],
+    "family": "二月革命"
+  },
+  {
+    "name": "三月革命",
+    "key": "三月革命",
+    "kind": "concept",
+    "points": [],
+    "family": "三月革命"
+  },
+  {
+    "name": "国際婦人デー",
+    "key": "国際婦人デー",
+    "kind": "concept",
+    "points": [],
+    "family": "国際婦人デー"
+  },
+  {
+    "name": "ユリウス暦",
+    "key": "ユリウス暦",
+    "kind": "concept",
+    "points": [],
+    "family": "ユリウス暦"
+  },
+  {
+    "name": "ロマノフ朝",
+    "key": "ロマノフ朝",
+    "kind": "concept",
+    "points": [],
+    "family": "ロマノフ朝"
+  },
+  {
+    "name": "労兵会",
+    "key": "労兵会",
+    "kind": "concept",
+    "points": [],
+    "family": "労兵会"
+  },
+  {
+    "name": "臨時政府",
+    "key": "臨時政府",
+    "kind": "concept",
+    "points": [],
+    "family": "臨時政府"
+  },
+  {
+    "name": "二重権力",
+    "key": "二重権力",
+    "kind": "concept",
+    "points": [],
+    "family": "二重権力"
+  },
+  {
+    "name": "ブルジョワジー",
+    "key": "ブルジョワジー",
+    "kind": "concept",
+    "points": [],
+    "family": "ブルジョワジー"
+  },
+  {
+    "name": "四月テーゼ",
+    "key": "四月テーゼ",
+    "kind": "concept",
+    "points": [],
+    "family": "四月テーゼ"
+  },
+  {
+    "name": "封印列車",
+    "key": "封印列車",
+    "kind": "concept",
+    "points": [],
+    "family": "封印列車"
+  },
+  {
+    "name": "七月蜂起",
+    "key": "七月蜂起",
+    "kind": "concept",
+    "points": [],
+    "family": "七月蜂起"
+  },
+  {
+    "name": "反革命軍",
+    "key": "反革命軍",
+    "kind": "concept",
+    "points": [],
+    "family": "反革命軍"
+  },
+  {
+    "name": "十月革命",
+    "key": "十月革命",
+    "kind": "concept",
+    "points": [],
+    "family": "十月革命"
+  },
+  {
+    "name": "十一月革命",
+    "key": "十一月革命",
+    "kind": "concept",
+    "points": [],
+    "family": "十一月革命"
+  },
+  {
+    "name": "全ロシア＝ソヴィエト会議",
+    "key": "全ロシアソヴィエト会議",
+    "kind": "concept",
+    "points": [],
+    "family": "全ロシア＝ソヴィエト会議"
+  },
+  {
+    "name": "人民委員会議",
+    "key": "人民委員会議",
+    "kind": "concept",
+    "points": [],
+    "family": "人民委員会議"
+  },
+  {
+    "name": "平和に関する布告",
+    "key": "平和に関する布告",
+    "kind": "concept",
+    "points": [],
+    "family": "平和に関する布告"
+  },
+  {
+    "name": "土地に関する布告",
+    "key": "土地に関する布告",
+    "kind": "concept",
+    "points": [],
+    "family": "土地に関する布告"
+  },
+  {
+    "name": "無併合",
+    "key": "無併合",
+    "kind": "concept",
+    "points": [],
+    "family": "無併合"
+  },
+  {
+    "name": "無償金",
+    "key": "無償金",
+    "kind": "concept",
+    "points": [],
+    "family": "無償金"
+  },
+  {
+    "name": "無賠償",
+    "key": "無賠償",
+    "kind": "concept",
+    "points": [],
+    "family": "無賠償"
+  },
+  {
+    "name": "民族自決",
+    "key": "民族自決",
+    "kind": "concept",
+    "points": [],
+    "family": "民族自決"
+  },
+  {
+    "name": "土地私有権",
+    "key": "土地私有権",
+    "kind": "concept",
+    "points": [],
+    "family": "土地私有権"
+  },
+  {
+    "name": "憲法制定会議",
+    "key": "憲法制定会議",
+    "kind": "concept",
+    "points": [],
+    "family": "憲法制定会議"
+  },
+  {
+    "name": "一党独裁体制",
+    "key": "一党独裁体制",
+    "kind": "concept",
+    "points": [],
+    "family": "一党独裁体制"
+  },
+  {
+    "name": "ボリシェヴィキ独裁",
+    "key": "ボリシェヴィキ独裁",
+    "kind": "concept",
+    "points": [],
+    "family": "ボリシェヴィキ独裁"
+  },
+  {
+    "name": "ロシア共産党",
+    "key": "ロシア共産党",
+    "kind": "concept",
+    "points": [],
+    "family": "ロシア共産党"
+  },
+  {
+    "name": "ソ連",
+    "key": "ソ連",
+    "kind": "concept",
+    "points": [],
+    "family": "ソ連"
+  },
+  {
+    "name": "帝国議会",
+    "key": "帝国議会",
+    "kind": "concept",
+    "points": [],
+    "family": "帝国議会"
+  },
+  {
+    "name": "衆議院",
+    "key": "衆議院",
+    "kind": "concept",
+    "points": [],
+    "family": "衆議院"
+  },
+  {
+    "name": "貴族院",
+    "key": "貴族院",
+    "kind": "concept",
+    "points": [],
+    "family": "貴族院"
+  },
+  {
+    "name": "第1次護憲運動",
+    "key": "第1次護憲運動",
+    "kind": "concept",
+    "points": [],
+    "family": "第1次護憲運動"
+  },
+  {
+    "name": "大正政変",
+    "key": "大正政変",
+    "kind": "concept",
+    "points": [],
+    "family": "大正政変"
+  },
+  {
+    "name": "民本主義",
+    "key": "民本主義",
+    "kind": "concept",
+    "points": [],
+    "family": "民本主義"
+  },
+  {
+    "name": "天皇機関説",
+    "key": "天皇機関説",
+    "kind": "concept",
+    "points": [],
+    "family": "天皇機関説"
+  },
+  {
+    "name": "米騒動",
+    "key": "米騒動",
+    "kind": "concept",
+    "points": [],
+    "family": "米騒動"
+  },
+  {
+    "name": "シベリア出兵",
+    "key": "シベリア出兵",
+    "kind": "concept",
+    "points": [],
+    "family": "シベリア出兵"
+  },
+  {
+    "name": "元老",
+    "key": "元老",
+    "kind": "concept",
+    "points": [],
+    "family": "元老"
+  },
+  {
+    "name": "平民宰相",
+    "key": "平民宰相",
+    "kind": "concept",
+    "points": [],
+    "family": "平民宰相"
+  },
+  {
+    "name": "男性普通選挙",
+    "key": "男性普通選挙",
+    "kind": "concept",
+    "points": [],
+    "family": "男性普通選挙"
+  },
+  {
+    "name": "女性参政権",
+    "key": "女性参政権",
+    "kind": "concept",
+    "points": [],
+    "family": "女性参政権"
+  },
+  {
+    "name": "第2次護憲運動",
+    "key": "第2次護憲運動",
+    "kind": "concept",
+    "points": [],
+    "family": "第2次護憲運動"
+  },
+  {
+    "name": "護憲三派",
+    "key": "護憲三派",
+    "kind": "concept",
+    "points": [],
+    "family": "護憲三派"
+  },
+  {
+    "name": "憲政会",
+    "key": "憲政会",
+    "kind": "concept",
+    "points": [],
+    "family": "憲政会"
+  },
+  {
+    "name": "立憲政友会",
+    "key": "立憲政友会",
+    "kind": "concept",
+    "points": [],
+    "family": "立憲政友会"
+  },
+  {
+    "name": "革新倶楽部",
+    "key": "革新倶楽部",
+    "kind": "concept",
+    "points": [],
+    "family": "革新倶楽部"
+  },
+  {
+    "name": "護憲三派内閣",
+    "key": "護憲三派内閣",
+    "kind": "concept",
+    "points": [],
+    "family": "護憲三派内閣"
+  },
+  {
+    "name": "コミンテルン",
+    "key": "コミンテルン",
+    "kind": "concept",
+    "points": [],
+    "family": "コミンテルン"
+  },
+  {
+    "name": "日本共産党",
+    "key": "日本共産党",
+    "kind": "concept",
+    "points": [],
+    "family": "日本共産党"
+  },
+  {
+    "name": "国体",
+    "key": "国体",
+    "kind": "concept",
+    "points": [],
+    "family": "国体"
+  },
+  {
+    "name": "治安維持法",
+    "key": "治安維持法",
+    "kind": "concept",
+    "points": [],
+    "family": "治安維持法"
+  },
+  {
+    "name": "青鞜社",
+    "key": "青鞜社",
+    "kind": "concept",
+    "points": [],
+    "family": "青鞜社"
+  },
+  {
+    "name": "新婦人協会",
+    "key": "新婦人協会",
+    "kind": "concept",
+    "points": [],
+    "family": "新婦人協会"
+  },
+  {
+    "name": "全国水平社",
+    "key": "全国水平社",
+    "kind": "concept",
+    "points": [],
+    "family": "全国水平社"
+  },
+  {
+    "name": "部落解放運動",
+    "key": "部落解放運動",
+    "kind": "concept",
+    "points": [],
+    "family": "部落解放運動"
+  },
+  {
+    "name": "国民生活",
+    "key": "国民生活",
+    "kind": "concept",
+    "points": [],
+    "family": "国民生活"
+  },
+  {
+    "name": "食糧難",
+    "key": "食糧難",
+    "kind": "concept",
+    "points": [],
+    "family": "食糧難"
+  },
+  {
+    "name": "徴兵制",
+    "key": "徴兵制",
+    "kind": "concept",
+    "points": [],
+    "family": "徴兵制"
+  }
+];
+const normalize=text=>String(text??'').replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g,'').replace(/<[^>]*>/g,'').replace(/[\s＝=・『』「」]/g,'');
+const byKey=new Map(modernNameCatalog.map(entry=>[entry.key,entry]));
+const escapePattern=value=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const pattern=new RegExp([...byKey.keys()].sort((a,b)=>b.length-a.length).map(key=>key.length===1?`(?<![一-龯])${escapePattern(key)}(?![一-龯])`:escapePattern(key)).join('|'),'g');
+export function modernNamesInText(text){
+ const value=normalize(text).replace(/ヨーロッパ人|イギリス人|フランス人|アメリカ人|エジプト人|ドイツ人|英語/g,'');
+ const found=new Map();for(const match of value.matchAll(pattern)){const entry=byKey.get(match[0]);if(!found.has(entry.family))found.set(entry.family,entry);}
+ // 名称内部の国を機械的に地点へせず、実際の対立・貿易・制度が本文で明記される場合だけ国を共存させる。
+ const relations=[["ベルリン会議",["ベルリン"]],["三帝同盟",["ドイツ","オーストリア","ロシア"]],["新三帝同盟",["ドイツ","オーストリア","ロシア"]],["独墺同盟",["ドイツ","オーストリア"]],["三国同盟",["ドイツ","オーストリア","イタリア"]],["露仏同盟",["ロシア","フランス"]],["英仏協商",["イギリス","フランス"]],["英露協商",["イギリス","ロシア"]],["三国協商",["イギリス","フランス","ロシア"]],["日英同盟",["日本","イギリス"]],["日仏協約",["日本","フランス"]],["日露協約",["日本","ロシア"]],["タンネンベルクの戦い",["タンネンベルク"]],["マルヌの戦い",["マルヌ"]],["ソンムの戦い",["ソンム"]],["ユトランド沖海戦",["ユトランド沖"]],["イープルの戦い",["イープル"]],["ヴェルダン要塞",["ヴェルダン"]],["サライェヴォ事件",["サライェヴォ"]]];
+ for(const [term,names]of relations)if(value.includes(term))for(const name of names){const entry=byKey.get(name);if(!found.has(entry.family))found.set(entry.family,entry);}
+ return [...found.values()];
+}

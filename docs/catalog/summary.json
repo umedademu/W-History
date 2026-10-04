@@ -1,7 +1,7 @@
 {
-  "version": "0.122",
-  "parts": 179,
-  "pages": 2240,
+  "version": "0.123",
+  "parts": 184,
+  "pages": 2445,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 51,
-      "pages": 1227,
+      "parts": 56,
+      "pages": 1432,
       "chapters": [
         {
           "chapter": 1,
@@ -2822,6 +2822,10 @@
             {
               "lesson": 12,
               "title": "帝国主義時代の欧米諸国"
+            },
+            {
+              "lesson": 13,
+              "title": "第一次世界大戦とロシア革命"
             }
           ],
           "volumes": [
@@ -2896,6 +2900,46 @@
               "lesson": 12,
               "part": 5,
               "pages": 66
+            },
+            {
+              "id": "modern-c03-l13-p01",
+              "label": "第一次世界大戦にいたる国際関係",
+              "number": "10",
+              "lesson": 13,
+              "part": 1,
+              "pages": 90
+            },
+            {
+              "id": "modern-c03-l13-p02",
+              "label": "「ヨーロッパの火薬庫」から開戦へ",
+              "number": "11",
+              "lesson": 13,
+              "part": 2,
+              "pages": 28
+            },
+            {
+              "id": "modern-c03-l13-p03",
+              "label": "第一次世界大戦",
+              "number": "12",
+              "lesson": 13,
+              "part": 3,
+              "pages": 34
+            },
+            {
+              "id": "modern-c03-l13-p04",
+              "label": "ロシア革命",
+              "number": "13",
+              "lesson": 13,
+              "part": 4,
+              "pages": 39
+            },
+            {
+              "id": "modern-c03-l13-p05",
+              "label": "近現代日本へのアプローチ5 ～日本の大衆政治運動～",
+              "number": "14",
+              "lesson": 13,
+              "part": 5,
+              "pages": 14
             }
           ]
         }

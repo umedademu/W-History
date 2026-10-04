@@ -1,4 +1,4 @@
-import {modernEdition} from './modern-c01-l05-edition.js?v=0.122';
+import {modernEdition} from './modern-c01-l05-edition.js?v=0.123';
 // 原文・紙面を保持し、説明として本人・集団・道具を重ねる。注釈は発言の引用ではない。
 const catalog=[],assetByKey=new Map();
 function asset(key,name,kind,description,options={}) {const entry={key,image:`modern-c01-l05/${key}.png`,name,kind,identity:`${kind}:${key}`,description,width:192,height:192,requiresGeneration:true,...options};catalog.push(entry);assetByKey.set(key,entry);return entry;}

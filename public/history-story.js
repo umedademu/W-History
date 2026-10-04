@@ -1,8 +1,8 @@
-import { initialPageIndex } from "./story-volumes.js?v=0.122";
-import { withMapNames, mapDisplayName, normalizeMapName } from "./map-name-coverage.js?v=0.122";
+import { initialPageIndex } from "./story-volumes.js?v=0.123";
+import { withMapNames, mapDisplayName, normalizeMapName } from "./map-name-coverage.js?v=0.123";
 import { maximumMapScale } from "./map-camera.js?v=0.064";
 import { createMapLayout } from "./map-layout.js?v=0.064";
-import { decorateStoryBody } from "./story-emphasis.js?v=0.122";
+import { decorateStoryBody } from "./story-emphasis.js?v=0.123";
 
 export function mountStory({ places, zones, scenes, imageDirectory, chapterNavigation, baseMap, onSceneChange }) {
 const NS = "http://www.w3.org/2000/svg";
@@ -76,8 +76,8 @@ function drawMap(scene) {
   const routeNodes = scene.routes.map((route, i) => {
     const p = route.points.map(toScreen), d = p.map((v, j) => `${j ? "L" : "M"}${v.join(",")}`).join(" ");
     if (route.informationOnly) {
-      // 通信の成立を示す線には、方向や人・物の移動を表す印を付けない。
-      const path = svg("path", { d, fill: "none", stroke: colors.rival, "stroke-width": 2, "stroke-dasharray": "4 4", class: "history-information-line", "data-route": i, "aria-label": "電信の情報接続を示す線" });
+      // 静的なつながりには、方向や人・物の移動を表す印を付けない。
+      const path = svg("path", { d, fill: "none", stroke: colors.rival, "stroke-width": 2, "stroke-dasharray": "4 4", class: "history-information-line", "data-route": i, "aria-label": route.informationLabel || "電信の情報接続を示す線" });
       arrows.append(path);
       return { route, path, length: path.getTotalLength(), reveal: null, head: null, dot: null };
     }

@@ -1,0 +1,2553 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-04",
+  "version": "0.123",
+  "lesson": "modern-c03-l13",
+  "description": "原文の本人と一般集団、同盟・計画と実移動を区別する学習用のドット絵。帝位継承者夫妻は二人を一組で示す。",
+  "totals": {
+    "new": 36,
+    "newPeople": 20,
+    "newGroups": 8,
+    "newPropsAndBuildings": 8,
+    "nativeGenerated": 0,
+    "fallbackGenerated": 36,
+    "generationRequests": 37,
+    "reused": 19,
+    "used": 55
+  },
+  "authorization": "指定のAntigravity CLI経由でGemini 3.8 Flashへ依頼したが、画像生成側は429と12分27秒後の上限解除を返し、画像は生成されなかった。以前の利用者による別ツールでの続行承認を適用して36点を組み込み画像生成で制作した。透過・寸法と余白の調整は指定経路のGeminiへ依頼し、全出力を検証した。",
+  "nativeRequests": [
+    {
+      "name": "native-pilot",
+      "prompt": "Use Gemini 3.8 Flash as requested through Antigravity CLI to generate one genuine new pixel-art PNG of Paul von Hindenburg around 1914: an older German commander with short grey hair, thick grey moustache, muted grey-green field uniform, restrained cap, closed papers, calm standing full-body pose. Historical educational game sprite, clear hard square pixels and fine dark outlines, muted warm palette, detailed face, entire body and shoes visible, compact subject with generous transparent padding. Real transparent RGBA background, no background scenery, ground, halo, shadow, text, flag, badge with lettering, violence or injured people. Save the actual PNG as C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson13-20261004/paul-von-hindenburg.png. Do not edit any project or source files. Call the available image-generation capability once only. If unavailable or quota exhausted, return the actual error and reset time immediately without retry or wait. Never substitute a placeholder. Verify the saved output exists and has real alpha transparency before reporting success. Return generated_path, tool, actual model and errors.\n",
+      "response": {
+        "conversation_id": "e9e7ad3d-5c7d-43bf-b9c9-240b49d59d5e",
+        "status": "SUCCESS",
+        "response": "Waiting for the image generator subagent to complete the task...\n画像生成の試行結果を報告いたします。\n\n指示に基づき、画像生成機能を1度のみ呼び出しましたが、モデルのクォータ上限（RESOURCE_EXHAUSTED / 429 Too Many Requests）に達したため、再試行や待機を行わず、プレースホルダーの作成も行わずに直ちにエラーを報告します。\n\n### 実行結果\n\n- **generated_path**: なし（クォータ上限のためファイルは未生成）\n- **tool**: `image-generator`\n- **actual model**: `gemini-3.1-flash-image`\n- **errors**:\n  - **エラーコード**: `429` (`RESOURCE_EXHAUSTED`)\n  - **エラーメッセージ**: `\"You have exhausted your capacity on this model. Your quota will reset after 12m27s.\"`\n  - **クォータリセット時間（目安）**: 約12分27秒後（`2026-10-03T23:46:23Z` / 日本時間 `2026-10-04T08:46:23+09:00`）\n",
+        "duration_seconds": 25.3256035,
+        "num_turns": 1,
+        "usage": {
+          "input_tokens": 39659,
+          "output_tokens": 2225,
+          "thinking_tokens": 1679,
+          "cache_read_tokens": 0,
+          "total_tokens": 41884
+        }
+      },
+      "verifiedGeneratedOutput": false
+    }
+  ],
+  "generationModels": {
+    "nativeRequest": "Gemini 3.8 Flash High / Antigravity CLI",
+    "imageBackendReportedByNative": "gemini-3.1-flash-image / 429 RESOURCE_EXHAUSTED",
+    "fallback": "組み込み画像生成ツール。内部モデル名は返されない。"
+  },
+  "normalization": {
+    "model": "Gemini 3.8 Flash High",
+    "via": "Antigravity CLI",
+    "completed": 36,
+    "failed": 0,
+    "mode": "透過を保った寸法と透明余白の調整。描き替えなし。",
+    "canvas": [
+      192,
+      192
+    ],
+    "subjectMaximum": [
+      176,
+      176
+    ],
+    "centerX": 96,
+    "bottomY": 184,
+    "resampling": "最近傍、縦横比保持。",
+    "alphaCleanup": "アルファ値16未満の薄い雑音のみ0へ調整。顔・衣服・RGBを保持し、全周8画素以上の透明余白を確保する。",
+    "scriptSha256": "8295c5bb3c9b4de999a969d65f625d3b79ac1c4c6077de12adaed07d807d943b",
+    "prompt": "Image editing and verification task requested through Antigravity CLI with Gemini 3.8 Flash. Read generated-inputs.json in this working directory. It contains exactly 36 generated image input paths and their relative output names. The generation step is already complete. Never call image generation, wait for a quota reset, or use an external image service for this task.\n\nInspect the alpha channels and adapt C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson12-20261004/normalize-sprites.py as a guide. Do not run that old script against the previous lesson. Create and run a new normalize-sprites.py only in this working directory for the 36 current inputs. Preserve original source images. Do not edit sources/, AGENTS.md, TASK.md, or any other repository files. Save sprites only as C:/Users/USER/Desktop/W-History/public/images/modern-c03-l13/<key>.png. Validate every resolved output path stays directly within that exact directory before writing.\n\nPreserve actual RGBA transparency and pixel colors. Remove only faint alpha fringe below 16, without painting or changing the subjects. Crop to visible alpha bounds and resize by nearest neighbor with aspect ratio preserved to fit within 176 pixels in both axes. Place on a transparent 192x192 RGBA canvas centered at x=96, with bottom y=184 and at least 8 pixels of transparent padding on every side. Do not add backgrounds, floors, labels, or shadows to the individual sprites. Verify exactly 36 nonempty outputs, dimensions, alpha padding, and distinct SHA256 hashes. Do not replace opaque black pixels inside clothes with transparency. Require real transparent backgrounds, inspect every input alpha and report any opaque background rather than guessing.\n\nSave normalization-report.json in this private directory with original/output paths, sizes, alpha counts, visible bounds, SHA256 hashes, and errors. Make a labelled contact-sheet.png of the 36 final sprites, with seven columns and six rows on pale gray cells for visual inspection. Do the real processing and read the outputs before reporting success. Return only a compact summary and saved paths.\n"
+  },
+  "appearanceReview": {
+    "new": "36点の一覧を目視。本人20点（夫妻は二人一組）、各国の兵士・女性労働者・水兵・日本の運動の一般集団8点、歴史的な道具8点の顔・服装・役割・輪郭・透明余白を確認済み。",
+    "reuse": "同じ本人の既存絵を使う。レーニンは前回の本人、袁世凱は政権期の姿。大戦期の皇太子に1905年の幼児の姿を流用しない。日本の大衆運動に西洋の一般集団を流用しない。",
+    "portraits": "人物と集団は学習用の模式図。特定の写真・認証した肖像を再現したとはしない。兵士は大戦期の一般的な軍装で特定の日や部隊の精密な再現ではない。兵器と船も精密な復元ではない。"
+  },
+  "assets": [
+    {
+      "key": "franz-ferdinand-couple",
+      "name": "フランツ＝フェルディナント夫妻",
+      "displayName": "フランツ＝フェルディナント夫妻",
+      "kind": "person",
+      "subject": "Archduke Franz Ferdinand and his wife together around 1914, TWO named Austrian adults in one compact pair, Franz with short dark hair and thick dark moustache in restrained blue-grey formal army uniform, his wife with upswept brown hair and a modest cream long dress, calm standing full-body pose. No car, attack or injured people.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Archduke Franz Ferdinand and his wife together around 1914, TWO named Austrian adults in one compact pair, Franz with short dark hair and thick dark moustache in restrained blue-grey formal army uniform, his wife with upswept brown hair and a modest cream long dress, calm standing full-body pose. No car, attack or injured people. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-18290ff6-cc3f-4d3f-a14a-3d522870ea8a.png",
+      "outputFile": "public/images/modern-c03-l13/franz-ferdinand-couple.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-18290ff6-cc3f-4d3f-a14a-3d522870ea8a.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\franz-ferdinand-couple.png",
+      "inputSha256": "022bfd10c2f7b329f52e348c287dc18029cfe705b7f305a98e4ee494a294c972",
+      "outputSha256": "61bcb488b66b4d3d5979838851d4832e8eae807572794350a1a26f33e24412a0",
+      "originalDimensions": {
+        "width": 1213,
+        "height": 1297
+      },
+      "croppedDimensions": {
+        "width": 825,
+        "height": 1149
+      },
+      "resizedDimensions": {
+        "width": 126,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        21,
+        1199,
+        1297
+      ],
+      "cleanedBbox": [
+        256,
+        86,
+        1081,
+        1235
+      ],
+      "savedBbox": [
+        33,
+        8,
+        159,
+        184
+      ],
+      "transparentPixelCount": 23417,
+      "removedFaintAlphaPixels": 34685,
+      "opaquePixelCount": 18,
+      "translucentPixelCount": 13429,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 34685,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "paul-von-hindenburg",
+      "name": "ヒンデンブルク",
+      "displayName": "ヒンデンブルク",
+      "kind": "person",
+      "subject": "Paul von Hindenburg around 1914, older German commander with short grey hair, thick grey moustache, muted grey-green field uniform, restrained military cap, closed papers.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Paul von Hindenburg around 1914, older German commander with short grey hair, thick grey moustache, muted grey-green field uniform, restrained military cap, closed papers. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-df62fe7c-120a-4aa6-9a86-3bc3dc5c6e52.png",
+      "outputFile": "public/images/modern-c03-l13/paul-von-hindenburg.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-df62fe7c-120a-4aa6-9a86-3bc3dc5c6e52.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\paul-von-hindenburg.png",
+      "inputSha256": "a2825f2f1dbd11cfebae46b6e5eb164972ffeaf8cff8fc4df892ccd3eae2fcc7",
+      "outputSha256": "430fdcb4ed1d350a262062293faa374362ccafab30bcf7dc85d816d0b3ee0096",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 523,
+        "height": 1360
+      },
+      "resizedDimensions": {
+        "width": 68,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        25,
+        31,
+        938,
+        1518
+      ],
+      "cleanedBbox": [
+        254,
+        95,
+        777,
+        1455
+      ],
+      "savedBbox": [
+        62,
+        8,
+        130,
+        184
+      ],
+      "transparentPixelCount": 29796,
+      "removedFaintAlphaPixels": 19639,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7068,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 19639,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "david-lloyd-george",
+      "name": "ロイド＝ジョージ",
+      "displayName": "ロイド＝ジョージ",
+      "kind": "person",
+      "subject": "David Lloyd George around 1916, mature British statesman with wavy grey hair and thick grey moustache, restrained dark three-piece suit and closed papers.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: David Lloyd George around 1916, mature British statesman with wavy grey hair and thick grey moustache, restrained dark three-piece suit and closed papers. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-74d56c1c-586c-4cf2-a5fa-a30bff7908c9.png",
+      "outputFile": "public/images/modern-c03-l13/david-lloyd-george.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-74d56c1c-586c-4cf2-a5fa-a30bff7908c9.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\david-lloyd-george.png",
+      "inputSha256": "31e62910fbafa4d9a98c0e79748d3cf2a3e74c641537fd797d152244d2cc8b1f",
+      "outputSha256": "eaa897f1652c63f184ab4dbdc947d696e724ee70a59f314770a0394821c5628d",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 555,
+        "height": 1376
+      },
+      "resizedDimensions": {
+        "width": 71,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        80,
+        962,
+        1480
+      ],
+      "cleanedBbox": [
+        238,
+        83,
+        793,
+        1459
+      ],
+      "savedBbox": [
+        61,
+        8,
+        132,
+        184
+      ],
+      "transparentPixelCount": 29520,
+      "removedFaintAlphaPixels": 15513,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7344,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15513,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "georges-clemenceau",
+      "name": "クレマンソー",
+      "displayName": "クレマンソー",
+      "kind": "person",
+      "subject": "Georges Clemenceau around 1917, older French statesman with bald crown, white side hair and thick white moustache, restrained dark suit and small round spectacles, closed papers.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Georges Clemenceau around 1917, older French statesman with bald crown, white side hair and thick white moustache, restrained dark suit and small round spectacles, closed papers. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3c54128e-6c5d-402b-b276-bf5273b587dd.png",
+      "outputFile": "public/images/modern-c03-l13/georges-clemenceau.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3c54128e-6c5d-402b-b276-bf5273b587dd.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\georges-clemenceau.png",
+      "inputSha256": "64a634641145d1a684bef93af53862dfe1e77af7edcef9c4c7621f3ef8b4faf6",
+      "outputSha256": "ef9c6149eeed296bf14176b6c86e0843d485fd144ecf7d0110265ddb7581deb4",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 609,
+        "height": 1309
+      },
+      "resizedDimensions": {
+        "width": 82,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        43,
+        850,
+        1504
+      ],
+      "cleanedBbox": [
+        208,
+        116,
+        817,
+        1425
+      ],
+      "savedBbox": [
+        55,
+        8,
+        137,
+        184
+      ],
+      "transparentPixelCount": 28435,
+      "removedFaintAlphaPixels": 12712,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 8429,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12712,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "philippe-petain",
+      "name": "ペタン",
+      "displayName": "ペタン",
+      "kind": "person",
+      "subject": "Philippe Petain around 1916, mature French army officer with short grey hair and small grey moustache, muted horizon-blue field uniform and restrained kepi cap, closed papers.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Philippe Petain around 1916, mature French army officer with short grey hair and small grey moustache, muted horizon-blue field uniform and restrained kepi cap, closed papers. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c1644bb8-92ca-4f0c-b4f8-ebaaa0c1e46c.png",
+      "outputFile": "public/images/modern-c03-l13/philippe-petain.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c1644bb8-92ca-4f0c-b4f8-ebaaa0c1e46c.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\philippe-petain.png",
+      "inputSha256": "9aaef6a6108eaba9e6c4ddafff8ef72cb33804eb6302069a7bc952cf6568e7bf",
+      "outputSha256": "f9ddb91a7e38221abeeba92724b3f7e6bbd2eabe0c4e174fb1273af376bab5eb",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 555,
+        "height": 1425
+      },
+      "resizedDimensions": {
+        "width": 69,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        59,
+        964,
+        1498
+      ],
+      "cleanedBbox": [
+        230,
+        62,
+        785,
+        1487
+      ],
+      "savedBbox": [
+        62,
+        8,
+        131,
+        184
+      ],
+      "transparentPixelCount": 30220,
+      "removedFaintAlphaPixels": 21445,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6644,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 21445,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "alexei-teenager",
+      "name": "アレクセイ",
+      "displayName": "アレクセイ",
+      "kind": "person",
+      "subject": "Alexei Nikolaevich the Russian crown prince around 1916 as a fully dressed twelve-year-old boy, short light-brown hair and a modest dark navy sailor uniform, calm neutral standing pose. No illness, injury, treatment, infant clothing or weapon.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Alexei Nikolaevich the Russian crown prince around 1916 as a fully dressed twelve-year-old boy, short light-brown hair and a modest dark navy sailor uniform, calm neutral standing pose. No illness, injury, treatment, infant clothing or weapon. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-84443769-4acc-47c6-b922-b985724eb78b.png",
+      "outputFile": "public/images/modern-c03-l13/alexei-teenager.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-84443769-4acc-47c6-b922-b985724eb78b.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\alexei-teenager.png",
+      "inputSha256": "68c0216a92fe47784b7087d029a0cc943f4ebd1c092eaceee1ac52e106f6447d",
+      "outputSha256": "676447bf16d4471c178939c1c336e3ede4332d91c53ad852ef0098dc615f1c1a",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 398,
+        "height": 1351
+      },
+      "resizedDimensions": {
+        "width": 52,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        94,
+        964,
+        1500
+      ],
+      "cleanedBbox": [
+        316,
+        97,
+        714,
+        1448
+      ],
+      "savedBbox": [
+        70,
+        8,
+        122,
+        184
+      ],
+      "transparentPixelCount": 30888,
+      "removedFaintAlphaPixels": 15987,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 5976,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15987,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "russian-empress",
+      "name": "ロシア皇后",
+      "displayName": "皇后",
+      "kind": "person",
+      "subject": "The Russian empress in the Nicholas II family around 1916, mature adult woman with upswept light-brown hair, modest muted blue-grey long dress and small simple pearl necklace, folded family letter, calm standing pose. No illness, mystical effects or named text.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: The Russian empress in the Nicholas II family around 1916, mature adult woman with upswept light-brown hair, modest muted blue-grey long dress and small simple pearl necklace, folded family letter, calm standing pose. No illness, mystical effects or named text. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-308d69ad-c290-4db8-aa3b-d7cd9fb4e2d8.png",
+      "outputFile": "public/images/modern-c03-l13/russian-empress.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-308d69ad-c290-4db8-aa3b-d7cd9fb4e2d8.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\russian-empress.png",
+      "inputSha256": "a4c73604e5250b864d06cc9670cd6a1df9bdd7c536963c950a5516277b92b775",
+      "outputSha256": "6a26b552e9458efa7b2d29f3d7f1bd2fd11ab63f3474a351ad993ba661995522",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 567,
+        "height": 1459
+      },
+      "resizedDimensions": {
+        "width": 68,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        35,
+        1010,
+        1505
+      ],
+      "cleanedBbox": [
+        268,
+        44,
+        835,
+        1503
+      ],
+      "savedBbox": [
+        62,
+        8,
+        130,
+        184
+      ],
+      "transparentPixelCount": 29733,
+      "removedFaintAlphaPixels": 20211,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7131,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 20211,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "grigori-rasputin",
+      "name": "ラスプーチン",
+      "displayName": "ラスプーチン",
+      "kind": "person",
+      "subject": "Grigori Rasputin around 1916, mature Russian man with shoulder-length brown hair and long full dark beard, plain dark brown tunic and boots, empty relaxed hands. No magic, medical treatment, weapons or threatening pose.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Grigori Rasputin around 1916, mature Russian man with shoulder-length brown hair and long full dark beard, plain dark brown tunic and boots, empty relaxed hands. No magic, medical treatment, weapons or threatening pose. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-40fc36f7-ee2f-462e-8b09-3f0da2f018be.png",
+      "outputFile": "public/images/modern-c03-l13/grigori-rasputin.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-40fc36f7-ee2f-462e-8b09-3f0da2f018be.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\grigori-rasputin.png",
+      "inputSha256": "bff66268ec7c3c8f3a5601fdc732516e749729eb61e20cc1e5cc751f97a7d6ca",
+      "outputSha256": "71563cd98abc09332a7a13a91fd5d9e2aeb877aaa44b852316ac113d561cf470",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 505,
+        "height": 1403
+      },
+      "resizedDimensions": {
+        "width": 63,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        31,
+        1010,
+        1471
+      ],
+      "cleanedBbox": [
+        254,
+        67,
+        759,
+        1470
+      ],
+      "savedBbox": [
+        65,
+        8,
+        128,
+        184
+      ],
+      "transparentPixelCount": 29972,
+      "removedFaintAlphaPixels": 18644,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6892,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 18644,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "alexander-kerensky",
+      "name": "ケレンスキー",
+      "displayName": "ケレンスキー",
+      "kind": "person",
+      "subject": "Alexander Kerensky around 1917, adult Russian politician with short neatly parted dark hair and clean-shaven face, plain brown high-collared jacket and trousers, closed government papers.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Alexander Kerensky around 1917, adult Russian politician with short neatly parted dark hair and clean-shaven face, plain brown high-collared jacket and trousers, closed government papers. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-37962b54-b9d8-4171-afef-eae510822c67.png",
+      "outputFile": "public/images/modern-c03-l13/alexander-kerensky.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-37962b54-b9d8-4171-afef-eae510822c67.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\alexander-kerensky.png",
+      "inputSha256": "93671b3b0d158eebc2f71e72ae60163bff8a57f6b0ef437b11950f0e71c1402f",
+      "outputSha256": "7dfcd4c38bc22b3df2fae9402c013b2f833c91c306d355f3a6a4d421f9963d5b",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 526,
+        "height": 1378
+      },
+      "resizedDimensions": {
+        "width": 67,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        41,
+        938,
+        1520
+      ],
+      "cleanedBbox": [
+        242,
+        93,
+        768,
+        1471
+      ],
+      "savedBbox": [
+        63,
+        8,
+        130,
+        184
+      ],
+      "transparentPixelCount": 30184,
+      "removedFaintAlphaPixels": 15248,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6680,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15248,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "lavr-kornilov",
+      "name": "コルニーロフ",
+      "displayName": "コルニーロフ",
+      "kind": "person",
+      "subject": "Lavr Kornilov around 1917, mature Russian general with short dark hair and neat small moustache, restrained khaki field uniform and cap, folded orders. No attacking pose.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Lavr Kornilov around 1917, mature Russian general with short dark hair and neat small moustache, restrained khaki field uniform and cap, folded orders. No attacking pose. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-62cb66a4-a990-422c-8970-09e9d5b62a90.png",
+      "outputFile": "public/images/modern-c03-l13/lavr-kornilov.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-62cb66a4-a990-422c-8970-09e9d5b62a90.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\lavr-kornilov.png",
+      "inputSha256": "68959eb6e885e51add0a647eef1ac8327685267e6e5b9475d5c6933d69242640",
+      "outputSha256": "00511d84aee2e444fe10a73a290c7f3898f61fdc9b4bf23caf4d5fe6972ac7e4",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 523,
+        "height": 1434
+      },
+      "resizedDimensions": {
+        "width": 64,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        37,
+        964,
+        1504
+      ],
+      "cleanedBbox": [
+        259,
+        63,
+        782,
+        1497
+      ],
+      "savedBbox": [
+        64,
+        8,
+        128,
+        184
+      ],
+      "transparentPixelCount": 30340,
+      "removedFaintAlphaPixels": 18471,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6524,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 18471,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "leon-trotsky",
+      "name": "トロツキー",
+      "displayName": "トロツキー",
+      "kind": "person",
+      "subject": "Leon Trotsky around 1917, adult Russian revolutionary with wavy dark hair, round glasses, small moustache and pointed dark beard, plain dark coat and closed papers.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Leon Trotsky around 1917, adult Russian revolutionary with wavy dark hair, round glasses, small moustache and pointed dark beard, plain dark coat and closed papers. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-02b1775b-246e-4b5c-8fa4-cd850683648b.png",
+      "outputFile": "public/images/modern-c03-l13/leon-trotsky.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-02b1775b-246e-4b5c-8fa4-cd850683648b.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\leon-trotsky.png",
+      "inputSha256": "1d93f5f7e021185995dd4923fab7b641efa799588a58a664162111e461e70872",
+      "outputSha256": "5eab557a6c9cfecd3899ac21bb333f9fef79428db47213cc6657a89d1fdfddbb",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 526,
+        "height": 1361
+      },
+      "resizedDimensions": {
+        "width": 68,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        37,
+        874,
+        1512
+      ],
+      "cleanedBbox": [
+        257,
+        100,
+        783,
+        1461
+      ],
+      "savedBbox": [
+        62,
+        8,
+        130,
+        184
+      ],
+      "transparentPixelCount": 29077,
+      "removedFaintAlphaPixels": 13057,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7787,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13057,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "joseph-stalin",
+      "name": "スターリン",
+      "displayName": "スターリン",
+      "kind": "person",
+      "subject": "Joseph Stalin around 1917 as a younger adult revolutionary, dark short swept-back hair and thick dark moustache, plain dark brown early twentieth-century coat and trousers, closed papers. No later medals, dictator throne or heroic framing.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Joseph Stalin around 1917 as a younger adult revolutionary, dark short swept-back hair and thick dark moustache, plain dark brown early twentieth-century coat and trousers, closed papers. No later medals, dictator throne or heroic framing. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-dbaf87e5-5bce-4b2a-8d51-1192f0eeacac.png",
+      "outputFile": "public/images/modern-c03-l13/joseph-stalin.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-dbaf87e5-5bce-4b2a-8d51-1192f0eeacac.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\joseph-stalin.png",
+      "inputSha256": "d19374a17f481dfdc1efb296d6788b131b38391a6a94d1c3e1682fe87bc602c8",
+      "outputSha256": "b00edcc9c2da21afc57f7842d4e29ec79e57107418ed06a688edd776aef7b20a",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 562,
+        "height": 1434
+      },
+      "resizedDimensions": {
+        "width": 69,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        23,
+        880,
+        1495
+      ],
+      "cleanedBbox": [
+        234,
+        58,
+        796,
+        1492
+      ],
+      "savedBbox": [
+        62,
+        8,
+        131,
+        184
+      ],
+      "transparentPixelCount": 28875,
+      "removedFaintAlphaPixels": 13680,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7989,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13680,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "katsura-taro",
+      "name": "桂太郎",
+      "displayName": "桂太郎",
+      "kind": "person",
+      "subject": "Katsura Taro around 1913, mature Japanese statesman with receding short grey hair and close grey moustache, restrained dark Western formal suit and closed government papers.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Katsura Taro around 1913, mature Japanese statesman with receding short grey hair and close grey moustache, restrained dark Western formal suit and closed government papers. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6c90d5a2-9bba-400f-92f9-001219c0d7cb.png",
+      "outputFile": "public/images/modern-c03-l13/katsura-taro.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6c90d5a2-9bba-400f-92f9-001219c0d7cb.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\katsura-taro.png",
+      "inputSha256": "8ea8f119366f0ee7370c17e118cb82e44997d054739e3020d1be987ebaa1ecc6",
+      "outputSha256": "5db1f3e390a8a02721f207c874b0a921fcb7109e3a3f49b3d5d7b8b80484bd16",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 519,
+        "height": 1385
+      },
+      "resizedDimensions": {
+        "width": 66,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        67,
+        962,
+        1536
+      ],
+      "cleanedBbox": [
+        267,
+        89,
+        786,
+        1474
+      ],
+      "savedBbox": [
+        63,
+        8,
+        129,
+        184
+      ],
+      "transparentPixelCount": 29655,
+      "removedFaintAlphaPixels": 14123,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7209,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14123,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "yoshino-sakuzo",
+      "name": "吉野作造",
+      "displayName": "吉野作造",
+      "kind": "person",
+      "subject": "Yoshino Sakuzo around 1916, Japanese scholar in his late thirties, short neatly parted dark hair, small moustache and round spectacles, plain brown Western suit and closed book.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Yoshino Sakuzo around 1916, Japanese scholar in his late thirties, short neatly parted dark hair, small moustache and round spectacles, plain brown Western suit and closed book. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-205d656b-7a5c-42da-843d-982c261d17b4.png",
+      "outputFile": "public/images/modern-c03-l13/yoshino-sakuzo.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-205d656b-7a5c-42da-843d-982c261d17b4.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\yoshino-sakuzo.png",
+      "inputSha256": "e64b8fcbd34159c1b053fbe1b4fcb1634f0f2f02595cca804b76eb5abfe74061",
+      "outputSha256": "b49ea45d016d3bb13daf87aa6ebc36b119e78618c230dc43ae14ebe943d305fd",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 517,
+        "height": 1359
+      },
+      "resizedDimensions": {
+        "width": 67,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        67,
+        962,
+        1486
+      ],
+      "cleanedBbox": [
+        258,
+        111,
+        775,
+        1470
+      ],
+      "savedBbox": [
+        63,
+        8,
+        130,
+        184
+      ],
+      "transparentPixelCount": 29751,
+      "removedFaintAlphaPixels": 14449,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7113,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14449,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "minobe-tatsukichi",
+      "name": "美濃部達吉",
+      "displayName": "美濃部達吉",
+      "kind": "person",
+      "subject": "Minobe Tatsukichi around 1920, mature Japanese law scholar with neatly parted dark-grey hair and small moustache, thin round glasses, dark Western formal suit and closed legal book.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Minobe Tatsukichi around 1920, mature Japanese law scholar with neatly parted dark-grey hair and small moustache, thin round glasses, dark Western formal suit and closed legal book. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d37f6cf3-ec00-4aa6-9b9d-fdc0b198db65.png",
+      "outputFile": "public/images/modern-c03-l13/minobe-tatsukichi.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d37f6cf3-ec00-4aa6-9b9d-fdc0b198db65.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\minobe-tatsukichi.png",
+      "inputSha256": "90021394ce5380dfeb76d6180252667530894b20884fc8a69a75aa5dfeff2432",
+      "outputSha256": "433195400e51ff61a59432d4c850f5b3764a26e265ad1dd885b1b1beddc4934c",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 496,
+        "height": 1340
+      },
+      "resizedDimensions": {
+        "width": 65,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        185,
+        120,
+        866,
+        1514
+      ],
+      "cleanedBbox": [
+        271,
+        123,
+        767,
+        1463
+      ],
+      "savedBbox": [
+        64,
+        8,
+        129,
+        184
+      ],
+      "transparentPixelCount": 29824,
+      "removedFaintAlphaPixels": 11093,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7040,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 11093,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "terauchi-masatake",
+      "name": "寺内正毅",
+      "displayName": "寺内正毅",
+      "kind": "person",
+      "subject": "Terauchi Masatake around 1918, mature Japanese statesman with closely cropped grey hair and a prominent close grey moustache, restrained dark Western formal suit and folded papers.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Terauchi Masatake around 1918, mature Japanese statesman with closely cropped grey hair and a prominent close grey moustache, restrained dark Western formal suit and folded papers. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-93be122d-00f2-49c6-af16-723897307ee8.png",
+      "outputFile": "public/images/modern-c03-l13/terauchi-masatake.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-93be122d-00f2-49c6-af16-723897307ee8.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\terauchi-masatake.png",
+      "inputSha256": "efc7dff9cf13bb0b99c03eb93c434084a73683052845d94730644b0f2004d75d",
+      "outputSha256": "0b206b4d80423b9422390174d9b8b6bdcaf52dab3b699cd5f77dc09ddb3cba3a",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 489,
+        "height": 1383
+      },
+      "resizedDimensions": {
+        "width": 62,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        66,
+        1010,
+        1472
+      ],
+      "cleanedBbox": [
+        271,
+        83,
+        760,
+        1466
+      ],
+      "savedBbox": [
+        65,
+        8,
+        127,
+        184
+      ],
+      "transparentPixelCount": 30081,
+      "removedFaintAlphaPixels": 12421,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6783,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12421,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "hara-takashi",
+      "name": "原敬",
+      "displayName": "原敬",
+      "kind": "person",
+      "subject": "Hara Takashi around 1918, mature Japanese statesman with swept-back grey hair and small grey moustache, restrained dark Western suit and waistcoat, folded papers.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Hara Takashi around 1918, mature Japanese statesman with swept-back grey hair and small grey moustache, restrained dark Western suit and waistcoat, folded papers. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-001f3d03-89f5-4fc7-bc91-9c4dc03b8fb1.png",
+      "outputFile": "public/images/modern-c03-l13/hara-takashi.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-001f3d03-89f5-4fc7-bc91-9c4dc03b8fb1.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\hara-takashi.png",
+      "inputSha256": "6de664ba44846c1dce2a895b10d5e7ffe609ade829e2d0fd2fa76725b3deed68",
+      "outputSha256": "05141ebb5a94313f796647eec8cd6bf2b78290c285ed1395e204f4fcc570524e",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 497,
+        "height": 1366
+      },
+      "resizedDimensions": {
+        "width": 64,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        25,
+        37,
+        1010,
+        1536
+      ],
+      "cleanedBbox": [
+        267,
+        101,
+        764,
+        1467
+      ],
+      "savedBbox": [
+        64,
+        8,
+        128,
+        184
+      ],
+      "transparentPixelCount": 29911,
+      "removedFaintAlphaPixels": 16879,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6953,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 16879,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "kato-takaaki",
+      "name": "加藤高明",
+      "displayName": "加藤高明",
+      "kind": "person",
+      "subject": "Kato Takaaki around 1925, mature Japanese statesman with receding short grey hair and neat grey moustache, restrained dark Western suit and waistcoat, closed legal papers.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Kato Takaaki around 1925, mature Japanese statesman with receding short grey hair and neat grey moustache, restrained dark Western suit and waistcoat, closed legal papers. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-95ae1d0e-d5eb-4e44-aac6-6a45bc47294e.png",
+      "outputFile": "public/images/modern-c03-l13/kato-takaaki.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-95ae1d0e-d5eb-4e44-aac6-6a45bc47294e.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\kato-takaaki.png",
+      "inputSha256": "1e36840e10b377e17eb1168a92e2945bf2e3388eb0dda51444f12596e1d51d45",
+      "outputSha256": "8f7e6fbacd0603e0a84a21fa796b7b35e492f7ce5c9987bbe503dd75b46c99ab",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 527,
+        "height": 1425
+      },
+      "resizedDimensions": {
+        "width": 65,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        65,
+        1010,
+        1518
+      ],
+      "cleanedBbox": [
+        255,
+        71,
+        782,
+        1496
+      ],
+      "savedBbox": [
+        64,
+        8,
+        129,
+        184
+      ],
+      "transparentPixelCount": 30057,
+      "removedFaintAlphaPixels": 16248,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6807,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 16248,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "hiratsuka-raicho",
+      "name": "平塚らいてう",
+      "displayName": "平塚らいてう",
+      "kind": "person",
+      "subject": "Hiratsuka Raicho around 1911, adult Japanese woman intellectual in her mid-twenties, dark upswept hair, modest muted purple kimono and restrained cream obi, closed book and paper, calm standing pose.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Hiratsuka Raicho around 1911, adult Japanese woman intellectual in her mid-twenties, dark upswept hair, modest muted purple kimono and restrained cream obi, closed book and paper, calm standing pose. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3cffda06-b726-4e67-9e69-362cc76b712f.png",
+      "outputFile": "public/images/modern-c03-l13/hiratsuka-raicho.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3cffda06-b726-4e67-9e69-362cc76b712f.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\hiratsuka-raicho.png",
+      "inputSha256": "462d6fc90d87f95ce15540fe35025f67af8731e41c1a9c8c00dd270e207f01b1",
+      "outputSha256": "7ec06ff9723ee35c9b81ce7ea7a7af49dbd96c073899b4ad485bdafae2a2e743",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 447,
+        "height": 1395
+      },
+      "resizedDimensions": {
+        "width": 56,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        36,
+        964,
+        1496
+      ],
+      "cleanedBbox": [
+        291,
+        74,
+        738,
+        1469
+      ],
+      "savedBbox": [
+        68,
+        8,
+        124,
+        184
+      ],
+      "transparentPixelCount": 30645,
+      "removedFaintAlphaPixels": 17086,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6219,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 17086,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "ichikawa-fusae",
+      "name": "市川房江",
+      "displayName": "市川房江",
+      "kind": "person",
+      "subject": "Ichikawa Fusae around 1920, adult Japanese woman suffrage organizer in her late twenties, neatly gathered dark hair, modest muted blue kimono and plain grey obi, folded petition, calm standing pose.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Ichikawa Fusae around 1920, adult Japanese woman suffrage organizer in her late twenties, neatly gathered dark hair, modest muted blue kimono and plain grey obi, folded petition, calm standing pose. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-66b4df73-51ed-47c1-bcdd-767cf0cc206d.png",
+      "outputFile": "public/images/modern-c03-l13/ichikawa-fusae.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-66b4df73-51ed-47c1-bcdd-767cf0cc206d.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\ichikawa-fusae.png",
+      "inputSha256": "37020356a26de177a4ba199dd37dff9809f48cc3c078f8c30a460a88d4c994dd",
+      "outputSha256": "54dbd11b2303ed6e4ad100ff30ae507966ad06304d3d36a8d8c4a9f2546483b4",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 420,
+        "height": 1418
+      },
+      "resizedDimensions": {
+        "width": 52,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        64,
+        866,
+        1488
+      ],
+      "cleanedBbox": [
+        312,
+        68,
+        732,
+        1486
+      ],
+      "savedBbox": [
+        70,
+        8,
+        122,
+        184
+      ],
+      "transparentPixelCount": 30934,
+      "removedFaintAlphaPixels": 12058,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 5930,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12058,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "german-wwi-soldiers",
+      "name": "大戦期のドイツ軍の一般兵",
+      "displayName": "大戦期のドイツ軍の一般兵",
+      "kind": "group",
+      "subject": "Two ordinary German infantrymen around 1914, grey-green field uniforms and restrained early-war spiked helmets, varied respectful adult faces, rifles held safely down with no firing or injury.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Two ordinary German infantrymen around 1914, grey-green field uniforms and restrained early-war spiked helmets, varied respectful adult faces, rifles held safely down with no firing or injury. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-769803d9-185c-440f-8d46-bafa0e120275.png",
+      "outputFile": "public/images/modern-c03-l13/german-wwi-soldiers.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-769803d9-185c-440f-8d46-bafa0e120275.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\german-wwi-soldiers.png",
+      "inputSha256": "4dbf68bd31db3ae8cfa397494b8af98fef34c55fc20a7e01c458af087e31eb52",
+      "outputSha256": "ef6624bf108341fa2d8ced175760cfa1453df1748f28a4cff50d2b3cdd0ce5b9",
+      "originalDimensions": {
+        "width": 1246,
+        "height": 1263
+      },
+      "croppedDimensions": {
+        "width": 835,
+        "height": 1099
+      },
+      "resizedDimensions": {
+        "width": 134,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        33,
+        21,
+        1222,
+        1263
+      ],
+      "cleanedBbox": [
+        220,
+        76,
+        1055,
+        1175
+      ],
+      "savedBbox": [
+        29,
+        8,
+        163,
+        184
+      ],
+      "transparentPixelCount": 24009,
+      "removedFaintAlphaPixels": 41640,
+      "opaquePixelCount": 28,
+      "translucentPixelCount": 12827,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 41640,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "french-wwi-soldiers",
+      "name": "大戦期のフランス軍の一般兵",
+      "displayName": "大戦期のフランス軍の一般兵",
+      "kind": "group",
+      "subject": "Two ordinary French infantrymen around 1916, horizon-blue coats and blue Adrian helmets, varied respectful adult faces, rifles safely lowered, no firing, injuries or text.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Two ordinary French infantrymen around 1916, horizon-blue coats and blue Adrian helmets, varied respectful adult faces, rifles safely lowered, no firing, injuries or text. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-07afa7ec-3d14-40aa-8f85-dab7b6221a7e.png",
+      "outputFile": "public/images/modern-c03-l13/french-wwi-soldiers.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-07afa7ec-3d14-40aa-8f85-dab7b6221a7e.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\french-wwi-soldiers.png",
+      "inputSha256": "1cccb42e3ee87fdc53c502ff1d314654fa954a7e052d9de8cacc76f2a61c6046",
+      "outputSha256": "23a3085767245a86e965932cf4109a045202757d17c827c33d7886385afb6416",
+      "originalDimensions": {
+        "width": 1246,
+        "height": 1263
+      },
+      "croppedDimensions": {
+        "width": 865,
+        "height": 1124
+      },
+      "resizedDimensions": {
+        "width": 135,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        23,
+        3,
+        1228,
+        1263
+      ],
+      "cleanedBbox": [
+        194,
+        66,
+        1059,
+        1190
+      ],
+      "savedBbox": [
+        29,
+        8,
+        164,
+        184
+      ],
+      "transparentPixelCount": 22037,
+      "removedFaintAlphaPixels": 32769,
+      "opaquePixelCount": 42,
+      "translucentPixelCount": 14785,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 32769,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "british-wwi-soldiers",
+      "name": "大戦期のイギリス軍の一般兵",
+      "displayName": "大戦期のイギリス軍の一般兵",
+      "kind": "group",
+      "subject": "Two ordinary British infantrymen around 1916, khaki uniforms and simple Brodie steel helmets, varied respectful adult faces, rifles safely lowered, no firing, injuries or text.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Two ordinary British infantrymen around 1916, khaki uniforms and simple Brodie steel helmets, varied respectful adult faces, rifles safely lowered, no firing, injuries or text. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d1cf2998-98da-40d3-802d-e587d8af4559.png",
+      "outputFile": "public/images/modern-c03-l13/british-wwi-soldiers.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d1cf2998-98da-40d3-802d-e587d8af4559.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\british-wwi-soldiers.png",
+      "inputSha256": "2280a2886df52c94a780eaae62d301b5c37193ef660bfd0bb6f7e3f02ca120e7",
+      "outputSha256": "9a9af353a3b991de051831f77779ad4162b76899f5cbe7df5622f791ec5bb8b4",
+      "originalDimensions": {
+        "width": 1216,
+        "height": 1294
+      },
+      "croppedDimensions": {
+        "width": 907,
+        "height": 1078
+      },
+      "resizedDimensions": {
+        "width": 148,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        11,
+        1202,
+        1294
+      ],
+      "cleanedBbox": [
+        184,
+        103,
+        1091,
+        1181
+      ],
+      "savedBbox": [
+        22,
+        8,
+        170,
+        184
+      ],
+      "transparentPixelCount": 22119,
+      "removedFaintAlphaPixels": 48310,
+      "opaquePixelCount": 4,
+      "translucentPixelCount": 14741,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 48310,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "russian-wwi-soldiers",
+      "name": "大戦期のロシア軍の一般兵",
+      "displayName": "大戦期のロシア軍の一般兵",
+      "kind": "group",
+      "subject": "Two ordinary Russian infantrymen around 1917, muted khaki tunics and simple soft military caps, varied respectful adult faces, one holding folded petition, safely lowered rifle, no firing or injuries.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Two ordinary Russian infantrymen around 1917, muted khaki tunics and simple soft military caps, varied respectful adult faces, one holding folded petition, safely lowered rifle, no firing or injuries. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5a323c5a-b693-4bc4-b580-0b7b8f5d06f9.png",
+      "outputFile": "public/images/modern-c03-l13/russian-wwi-soldiers.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5a323c5a-b693-4bc4-b580-0b7b8f5d06f9.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\russian-wwi-soldiers.png",
+      "inputSha256": "4096f43dfe3df6fb4fb39562deaa8130e27e21c5f8fd94c93875913eab199ffd",
+      "outputSha256": "fa3010a52676e618e81ff662746e4041c4858c813fe6d16be5a22f22d2c74080",
+      "originalDimensions": {
+        "width": 1217,
+        "height": 1293
+      },
+      "croppedDimensions": {
+        "width": 818,
+        "height": 1093
+      },
+      "resizedDimensions": {
+        "width": 132,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        23,
+        1159,
+        1293
+      ],
+      "cleanedBbox": [
+        198,
+        104,
+        1016,
+        1197
+      ],
+      "savedBbox": [
+        30,
+        8,
+        162,
+        184
+      ],
+      "transparentPixelCount": 22263,
+      "removedFaintAlphaPixels": 43570,
+      "opaquePixelCount": 64,
+      "translucentPixelCount": 14537,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 43570,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "us-wwi-soldiers",
+      "name": "大戦期のアメリカ軍の一般兵",
+      "displayName": "大戦期のアメリカ軍の一般兵",
+      "kind": "group",
+      "subject": "Two ordinary United States infantrymen around 1918, khaki uniforms and simple broad steel helmets, varied respectful adult faces, rifles safely lowered, no firing, injuries or text.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Two ordinary United States infantrymen around 1918, khaki uniforms and simple broad steel helmets, varied respectful adult faces, rifles safely lowered, no firing, injuries or text. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5001da9b-f8ac-4d94-acf0-c0a8483eeaef.png",
+      "outputFile": "public/images/modern-c03-l13/us-wwi-soldiers.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5001da9b-f8ac-4d94-acf0-c0a8483eeaef.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\us-wwi-soldiers.png",
+      "inputSha256": "69986e72f6b99feec54b57aa3603291725dfd3b2ec46125cb6ee62aee50e28ed",
+      "outputSha256": "97fef713943975a790502065c6699c14cf4244630efa167738fab5d95e160ac2",
+      "originalDimensions": {
+        "width": 1222,
+        "height": 1287
+      },
+      "croppedDimensions": {
+        "width": 926,
+        "height": 1125
+      },
+      "resizedDimensions": {
+        "width": 145,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        19,
+        1212,
+        1287
+      ],
+      "cleanedBbox": [
+        151,
+        81,
+        1077,
+        1206
+      ],
+      "savedBbox": [
+        24,
+        8,
+        169,
+        184
+      ],
+      "transparentPixelCount": 22196,
+      "removedFaintAlphaPixels": 51157,
+      "opaquePixelCount": 14,
+      "translucentPixelCount": 14654,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 51157,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "russian-women-workers",
+      "name": "ロシアの一般の女性労働者",
+      "displayName": "ロシアの一般の女性労働者",
+      "kind": "group",
+      "subject": "Three ordinary Russian women workers around 1917, varied adult faces, plain brown and blue long skirts, modest headscarves and aprons, one carrying a small empty closed bread basket and one holding folded petition. Respectful calm standing pose, no slogans or injuries.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Three ordinary Russian women workers around 1917, varied adult faces, plain brown and blue long skirts, modest headscarves and aprons, one carrying a small empty closed bread basket and one holding folded petition. Respectful calm standing pose, no slogans or injuries. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-8d31ad47-d1cb-48cc-92e0-4d773139536a.png",
+      "outputFile": "public/images/modern-c03-l13/russian-women-workers.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-8d31ad47-d1cb-48cc-92e0-4d773139536a.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\russian-women-workers.png",
+      "inputSha256": "ef0f0c2d4bc6f3ff7e3c3c2d22656d1cfe2fe09996cb3fa038124a690d51aa09",
+      "outputSha256": "e8c7818fe5cc3df673a86f17689e7373599e914fe32d81f15623b41fd37f790e",
+      "originalDimensions": {
+        "width": 1312,
+        "height": 1199
+      },
+      "croppedDimensions": {
+        "width": 1102,
+        "height": 1075
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 172
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        2,
+        1294,
+        1199
+      ],
+      "cleanedBbox": [
+        108,
+        73,
+        1210,
+        1148
+      ],
+      "savedBbox": [
+        8,
+        12,
+        184,
+        184
+      ],
+      "transparentPixelCount": 14986,
+      "removedFaintAlphaPixels": 36254,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 21878,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 36254,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "japanese-demonstrators",
+      "name": "日本の一般の大衆運動の人びと",
+      "displayName": "日本の一般の大衆運動の人びと",
+      "kind": "group",
+      "subject": "Three ordinary Japanese adults around 1918, two men and one woman with varied respectful faces, modest grey and blue kimono, one man in a plain brown Western jacket and cap, folded blank petitions and small closed grain sack. Calm standing pose, no slogans, stereotypes or injuries.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Three ordinary Japanese adults around 1918, two men and one woman with varied respectful faces, modest grey and blue kimono, one man in a plain brown Western jacket and cap, folded blank petitions and small closed grain sack. Calm standing pose, no slogans, stereotypes or injuries. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-88780d9e-7315-44aa-bd86-7ab833117892.png",
+      "outputFile": "public/images/modern-c03-l13/japanese-demonstrators.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-88780d9e-7315-44aa-bd86-7ab833117892.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\japanese-demonstrators.png",
+      "inputSha256": "8202b8b8a2cddbfb2d0d30b35d67b2cd58161f24e7f68077d32757e8a324b2db",
+      "outputSha256": "61325a8f2e5d5d61b1481e9219c3d8f849e163e4af803c0416c16364bb440697",
+      "originalDimensions": {
+        "width": 1414,
+        "height": 1112
+      },
+      "croppedDimensions": {
+        "width": 1026,
+        "height": 1004
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 172
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        7,
+        1358,
+        1112
+      ],
+      "cleanedBbox": [
+        194,
+        61,
+        1220,
+        1065
+      ],
+      "savedBbox": [
+        8,
+        12,
+        184,
+        184
+      ],
+      "transparentPixelCount": 17944,
+      "removedFaintAlphaPixels": 36049,
+      "opaquePixelCount": 53,
+      "translucentPixelCount": 18867,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 36049,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "kiel-sailors",
+      "name": "大戦期のドイツの一般の水兵",
+      "displayName": "大戦期のドイツの一般の水兵",
+      "kind": "group",
+      "subject": "Two ordinary German sailors around 1918, plain navy blue sailor uniforms and simple round caps without lettering, varied respectful adult faces, one folded blank petition, no guns, injuries or text.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Two ordinary German sailors around 1918, plain navy blue sailor uniforms and simple round caps without lettering, varied respectful adult faces, one folded blank petition, no guns, injuries or text. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-da4d1883-5f3c-4950-9e46-cda681fdcff5.png",
+      "outputFile": "public/images/modern-c03-l13/kiel-sailors.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-da4d1883-5f3c-4950-9e46-cda681fdcff5.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\kiel-sailors.png",
+      "inputSha256": "1837de3ed11468e13491ad0ca5122bd54dffb618c9362319e8fab4e9d487566c",
+      "outputSha256": "05990c1486750e326653fb956f251533bc0a6fbf9885afe85a9c5c74cf02e969",
+      "originalDimensions": {
+        "width": 1223,
+        "height": 1286
+      },
+      "croppedDimensions": {
+        "width": 914,
+        "height": 1129
+      },
+      "resizedDimensions": {
+        "width": 142,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        53,
+        1171,
+        1254
+      ],
+      "cleanedBbox": [
+        171,
+        98,
+        1085,
+        1227
+      ],
+      "savedBbox": [
+        25,
+        8,
+        167,
+        184
+      ],
+      "transparentPixelCount": 22330,
+      "removedFaintAlphaPixels": 34892,
+      "opaquePixelCount": 22,
+      "translucentPixelCount": 14512,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 34892,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "wwi-trench",
+      "name": "塹壕の模式図",
+      "displayName": "塹壕の模式図",
+      "kind": "prop",
+      "subject": "Compact educational schematic cross-section of one First World War trench, short brown earth wall reinforced with simple wooden planks and two sandbags, entire small structure visible, no soldiers, weapons, barbed-wire injuries or landscape.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: Compact educational schematic cross-section of one First World War trench, short brown earth wall reinforced with simple wooden planks and two sandbags, entire small structure visible, no soldiers, weapons, barbed-wire injuries or landscape. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9d7dc413-ee39-437c-ad91-495abf44f781.png",
+      "outputFile": "public/images/modern-c03-l13/wwi-trench.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9d7dc413-ee39-437c-ad91-495abf44f781.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\wwi-trench.png",
+      "inputSha256": "5bdcbb583e89c887b1550f705c325799aa45306cc93dae386be6ba0564d80335",
+      "outputSha256": "f885437bcab952f228d4b198fa3dc8cb62a58447bf9f6e147c6aea8f44c4c8af",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1288,
+        "height": 614
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 84
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        29,
+        31,
+        1522,
+        1002
+      ],
+      "cleanedBbox": [
+        124,
+        205,
+        1412,
+        819
+      ],
+      "savedBbox": [
+        8,
+        100,
+        184,
+        184
+      ],
+      "transparentPixelCount": 23882,
+      "removedFaintAlphaPixels": 14939,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 12982,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14939,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "wwi-tank",
+      "name": "大戦期の戦車の模式図",
+      "displayName": "大戦期の戦車の模式図",
+      "kind": "prop",
+      "subject": "One compact British First World War Mark I style rhomboid tank around 1916, side view of muted brown-green armoured hull and caterpillar tracks, no people, firing, markings, text or scenery.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: One compact British First World War Mark I style rhomboid tank around 1916, side view of muted brown-green armoured hull and caterpillar tracks, no people, firing, markings, text or scenery. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a524c9e6-888d-46dc-96a4-0c1042e93c9e.png",
+      "outputFile": "public/images/modern-c03-l13/wwi-tank.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a524c9e6-888d-46dc-96a4-0c1042e93c9e.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\wwi-tank.png",
+      "inputSha256": "8edb9dd1707a7f5fe8697271582f1a30826d93d7192531bdc088803eafa3adc0",
+      "outputSha256": "0ef481e517d89b94d74c65689bb2f4295fe279fa0b57c6284ad5cb8c528a3d3d",
+      "originalDimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "croppedDimensions": {
+        "width": 1727,
+        "height": 613
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 62
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        9,
+        1768,
+        887
+      ],
+      "cleanedBbox": [
+        23,
+        132,
+        1750,
+        745
+      ],
+      "savedBbox": [
+        8,
+        122,
+        184,
+        184
+      ],
+      "transparentPixelCount": 28784,
+      "removedFaintAlphaPixels": 23752,
+      "opaquePixelCount": 2,
+      "translucentPixelCount": 8078,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 23752,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "wwi-biplane",
+      "name": "大戦期の飛行機の模式図",
+      "displayName": "大戦期の飛行機の模式図",
+      "kind": "prop",
+      "subject": "One compact early First World War reconnaissance biplane, warm cream canvas wings, brown wood body and simple propeller, three-quarter side view, no bombs, pilots, markings, sky or text.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: One compact early First World War reconnaissance biplane, warm cream canvas wings, brown wood body and simple propeller, three-quarter side view, no bombs, pilots, markings, sky or text. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-93a688ac-a069-4588-90a9-89988e3f6a31.png",
+      "outputFile": "public/images/modern-c03-l13/wwi-biplane.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-93a688ac-a069-4588-90a9-89988e3f6a31.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\wwi-biplane.png",
+      "inputSha256": "5dd7c657ab4c73670b9e06da8a167fca90e238c38dec94db98082de8d7bc11ae",
+      "outputSha256": "b2c7d2b5f464fafcc52891a87c57aa57b850364af3ec594644c77e73a0e6ae4d",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1471,
+        "height": 729
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 87
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        21,
+        1515,
+        1024
+      ],
+      "cleanedBbox": [
+        37,
+        182,
+        1508,
+        911
+      ],
+      "savedBbox": [
+        8,
+        97,
+        184,
+        184
+      ],
+      "transparentPixelCount": 29510,
+      "removedFaintAlphaPixels": 71323,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7354,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 71323,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "wwi-submarine",
+      "name": "大戦期の潜水艦の模式図",
+      "displayName": "大戦期の潜水艦の模式図",
+      "kind": "prop",
+      "subject": "One compact First World War German U-boat style submarine, side view of muted grey hull and small conning tower, no torpedoes, sea, crew, firing, wake or text.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: One compact First World War German U-boat style submarine, side view of muted grey hull and small conning tower, no torpedoes, sea, crew, firing, wake or text. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a017be8a-5494-495d-a84f-7cc73bdb4048.png",
+      "outputFile": "public/images/modern-c03-l13/wwi-submarine.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a017be8a-5494-495d-a84f-7cc73bdb4048.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\wwi-submarine.png",
+      "inputSha256": "308bfd3f79a71192ebecef85b38372a7dc61e31893671706d39845c3eb0b2791",
+      "outputSha256": "08758b1263fc2d44eb85eeb34c9fd981e152553f9733fe14a2dd1a69baf268f3",
+      "originalDimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "croppedDimensions": {
+        "width": 2071,
+        "height": 545
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 46
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        48,
+        80,
+        2138,
+        724
+      ],
+      "cleanedBbox": [
+        51,
+        82,
+        2122,
+        627
+      ],
+      "savedBbox": [
+        8,
+        138,
+        184,
+        184
+      ],
+      "transparentPixelCount": 33728,
+      "removedFaintAlphaPixels": 66425,
+      "opaquePixelCount": 14,
+      "translucentPixelCount": 3122,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 66425,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "lusitania-liner",
+      "name": "ルシタニア号の模式図",
+      "displayName": "ルシタニア号の模式図",
+      "kind": "prop",
+      "subject": "One compact early twentieth-century British ocean liner representing Lusitania, intact side-view silhouette with dark hull, cream superstructure and four muted red-and-black funnels, no sinking, smoke, sea, passengers, text or flag.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: One compact early twentieth-century British ocean liner representing Lusitania, intact side-view silhouette with dark hull, cream superstructure and four muted red-and-black funnels, no sinking, smoke, sea, passengers, text or flag. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-efdc963f-06f8-4dce-a12e-bb8c42ed6cce.png",
+      "outputFile": "public/images/modern-c03-l13/lusitania-liner.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-efdc963f-06f8-4dce-a12e-bb8c42ed6cce.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\lusitania-liner.png",
+      "inputSha256": "67f6f6a86b06dbdfe769e6924eae8c143bbde4f095c537293fa838a2463905d4",
+      "outputSha256": "636eca808d873ec2a790a22fc221ba79c38bd49d5405dc980897f687be00a5a4",
+      "originalDimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "croppedDimensions": {
+        "width": 1986,
+        "height": 559
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 50
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        81,
+        2,
+        2090,
+        700
+      ],
+      "cleanedBbox": [
+        93,
+        57,
+        2079,
+        616
+      ],
+      "savedBbox": [
+        8,
+        134,
+        184,
+        184
+      ],
+      "transparentPixelCount": 32419,
+      "removedFaintAlphaPixels": 56941,
+      "opaquePixelCount": 10,
+      "translucentPixelCount": 4435,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 56941,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "wwi-machine-gun",
+      "name": "大戦期の機関銃の模式図",
+      "displayName": "大戦期の機関銃の模式図",
+      "kind": "prop",
+      "subject": "One compact educational First World War era water-cooled machine-gun silhouette on a simple short tripod, muted grey and brown, side view, no firing, ammunition diagram, assembly detail, people or text.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: One compact educational First World War era water-cooled machine-gun silhouette on a simple short tripod, muted grey and brown, side view, no firing, ammunition diagram, assembly detail, people or text. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-584ba57a-08a4-43a0-a347-d400c8c0b9c9.png",
+      "outputFile": "public/images/modern-c03-l13/wwi-machine-gun.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-584ba57a-08a4-43a0-a347-d400c8c0b9c9.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\wwi-machine-gun.png",
+      "inputSha256": "1d178ba496747daf67004ab92adb9ef1b742fb8c0f4e9990c8d61aee0ccdfabe",
+      "outputSha256": "67716900c0372f7e780d0b270a4dcecd0409f371b536a3e361a4fd2c34f96301",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1301,
+        "height": 863
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 117
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        21,
+        1516,
+        1024
+      ],
+      "cleanedBbox": [
+        182,
+        91,
+        1483,
+        954
+      ],
+      "savedBbox": [
+        8,
+        67,
+        184,
+        184
+      ],
+      "transparentPixelCount": 31163,
+      "removedFaintAlphaPixels": 39645,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 5701,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 39645,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "wwi-gas-mask",
+      "name": "毒ガス防護の模式図",
+      "displayName": "毒ガス防護の模式図",
+      "kind": "prop",
+      "subject": "One simple First World War era protective gas mask with round glass eyepieces and a compact covered respirator, muted grey-brown, isolated educational object. No wearer, chemicals, canisters, deployment, attack, text or technical cutaway.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: One simple First World War era protective gas mask with round glass eyepieces and a compact covered respirator, muted grey-brown, isolated educational object. No wearer, chemicals, canisters, deployment, attack, text or technical cutaway. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-969ff838-65b8-49a4-94e3-81adb1aa135c.png",
+      "outputFile": "public/images/modern-c03-l13/wwi-gas-mask.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-969ff838-65b8-49a4-94e3-81adb1aa135c.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\wwi-gas-mask.png",
+      "inputSha256": "33eeaaae89dcba05872885f51d87a619eb94ec66a3a7a1f241d1dcaf74e7549b",
+      "outputSha256": "725351e68c4c752e1f11338cc8be8c55455a22792fb50d4e28fdbb0a8141fd22",
+      "originalDimensions": {
+        "width": 1214,
+        "height": 1295
+      },
+      "croppedDimensions": {
+        "width": 755,
+        "height": 1082
+      },
+      "resizedDimensions": {
+        "width": 123,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        80,
+        47,
+        1141,
+        1295
+      ],
+      "cleanedBbox": [
+        257,
+        114,
+        1012,
+        1196
+      ],
+      "savedBbox": [
+        35,
+        8,
+        158,
+        184
+      ],
+      "transparentPixelCount": 22282,
+      "removedFaintAlphaPixels": 15485,
+      "opaquePixelCount": 24,
+      "translucentPixelCount": 14558,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15485,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    },
+    {
+      "key": "sealed-train",
+      "name": "封印列車の模式図",
+      "displayName": "封印列車の模式図",
+      "kind": "prop",
+      "subject": "One compact early twentieth-century closed railway passenger carriage on short visible wheels, muted dark green body and closed windows, educational schematic side view, no people, engine, background tracks, labels or text.",
+      "prompt": "Use case: historical-scene. Asset type: W-History educational pixel-art sprite. Primary request: One compact early twentieth-century closed railway passenger carriage on short visible wheels, muted dark green body and closed windows, educational schematic side view, no people, engine, background tracks, labels or text. Style: detailed 16-bit historical game pixel art, crisp hard square pixels, fine dark outlines, warm restrained colors and readable small faces. Composition: entire subject including feet or complete object, centered compact isolated cutout with generous transparent padding. True transparent RGBA background. No backdrop, ground, cast shadow, glow, haze, halo, frame, lettering, captions, watermark, extra people or modern objects. Match the established historical sprites. All humans stand calmly with closed papers where requested. Preserve the requested identities, number of people, era and clothing.",
+      "mode": "create-original",
+      "tool": "image_gen.imagegen",
+      "transparent_background": true,
+      "inputFile": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-03e3c7c6-0c20-4d73-9071-bb42bbccfb9b.png",
+      "outputFile": "public/images/modern-c03-l13/sealed-train.png",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-03e3c7c6-0c20-4d73-9071-bb42bbccfb9b.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c03-l13\\sealed-train.png",
+      "inputSha256": "ab187a202b638f02dcdf32c7b1ef15ea21142a7a122492db811ae31c45e902a3",
+      "outputSha256": "d1f14edd12c370fbcadb2eaa9a802df16e7fb915e853dba4c276f4e7cf2ae581",
+      "originalDimensions": {
+        "width": 1774,
+        "height": 887
+      },
+      "croppedDimensions": {
+        "width": 1686,
+        "height": 589
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 61
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        29,
+        0,
+        1764,
+        887
+      ],
+      "cleanedBbox": [
+        44,
+        156,
+        1730,
+        745
+      ],
+      "savedBbox": [
+        8,
+        123,
+        184,
+        184
+      ],
+      "transparentPixelCount": 28228,
+      "removedFaintAlphaPixels": 25443,
+      "opaquePixelCount": 5,
+      "translucentPixelCount": 8631,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 25443,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "status": "completed"
+    }
+  ],
+  "reused": [
+    {
+      "key": "bismarck",
+      "name": "ビスマルク",
+      "kind": "person",
+      "image": "modern-c01-l02/bismarck.png",
+      "identity": "person:bismarck",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。活動時期と姿を対応させる。"
+    },
+    {
+      "key": "disraeli",
+      "name": "ディズレーリ",
+      "kind": "person",
+      "image": "modern-c01-l02/disraeli.png",
+      "identity": "person:disraeli",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。活動時期と姿を対応させる。"
+    },
+    {
+      "key": "wilhelm-ii",
+      "name": "ヴィルヘルム2世",
+      "kind": "person",
+      "image": "modern-c03-l11/wilhelm-ii.png",
+      "identity": "person:wilhelm-ii",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。活動時期と姿を対応させる。"
+    },
+    {
+      "key": "nicholas-ii",
+      "name": "ニコライ2世",
+      "kind": "person",
+      "image": "modern-c02-l10/nicholas-ii.png",
+      "identity": "person:nicholas-ii",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。活動時期と姿を対応させる。"
+    },
+    {
+      "key": "vladimir-lenin",
+      "name": "レーニン",
+      "kind": "person",
+      "image": "modern-c03-l12/vladimir-lenin.png",
+      "identity": "person:vladimir-lenin",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。活動時期と姿を対応させる。"
+    },
+    {
+      "key": "yuan-shikai-late",
+      "name": "袁世凱",
+      "kind": "person",
+      "image": "modern-c02-l10/yuan-shikai-late.png",
+      "identity": "person:yuan-shikai-late",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "原文の同じ本人。活動時期と姿を対応させる。"
+    },
+    {
+      "key": "workers",
+      "name": "一般の労働者",
+      "kind": "group",
+      "image": "modern-c01-l01/workers.png",
+      "identity": "group:workers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "farmers",
+      "name": "一般の農民",
+      "kind": "group",
+      "image": "modern-c01-l01/farmers.png",
+      "identity": "group:farmers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "industrialists",
+      "name": "一般の資本家",
+      "kind": "group",
+      "image": "modern-c01-l01/industrialists.png",
+      "identity": "group:industrialists",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "bankers",
+      "name": "金融に関わる一般の人びと",
+      "kind": "group",
+      "image": "modern-c01-l01/bankers.png",
+      "identity": "group:bankers",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "conference-table",
+      "name": "会議の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/conference-table.png",
+      "identity": "prop:conference-table",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "constitution-document",
+      "name": "制度と政策の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/constitution-document.png",
+      "identity": "prop:constitution-document",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "treaty-document",
+      "name": "条約と権利の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/treaty-document.png",
+      "identity": "prop:treaty-document",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "calendar",
+      "name": "年代の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/calendar.png",
+      "identity": "prop:calendar",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "steam-factory",
+      "name": "工業の模式図",
+      "kind": "building",
+      "image": "modern-c01-l01/steam-factory.png",
+      "identity": "building:steam-factory",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "railway",
+      "name": "鉄道の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/railway.png",
+      "identity": "prop:railway",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "ballot-box",
+      "name": "選挙の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l01/ballot-box.png",
+      "identity": "prop:ballot-box",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "grain-cargo",
+      "name": "穀物の模式図",
+      "kind": "prop",
+      "image": "modern-c01-l02/grain-cargo.png",
+      "identity": "prop:grain-cargo",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    },
+    {
+      "key": "royal-palace",
+      "name": "宮殿の模式図",
+      "kind": "building",
+      "image": "modern-c01-l01/royal-palace.png",
+      "identity": "building:royal-palace",
+      "width": 192,
+      "height": 192,
+      "requiresGeneration": false,
+      "description": "同じ一般的役割の模式図。特定の実物・集団を同定しない。"
+    }
+  ],
+  "contactSheet": "docs/modern-lesson-13/contact-sheet.png"
+}
