@@ -1,7 +1,7 @@
 {
-  "version": "0.124",
-  "parts": 188,
-  "pages": 2598,
+  "version": "0.125",
+  "parts": 195,
+  "pages": 2827,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 60,
-      "pages": 1585,
+      "parts": 67,
+      "pages": 1814,
       "chapters": [
         {
           "chapter": 1,
@@ -2950,6 +2950,10 @@
             {
               "lesson": 14,
               "title": "ヴェルサイユ体制とワシントン体制"
+            },
+            {
+              "lesson": 15,
+              "title": "戦間期の欧米諸国 〜世界恐慌以前〜"
             }
           ],
           "volumes": [
@@ -2984,6 +2988,62 @@
               "lesson": 14,
               "part": 4,
               "pages": 48
+            },
+            {
+              "id": "modern-c04-l15-p01",
+              "label": "アメリカ合衆国の繁栄 〜黄金の20年代〜",
+              "number": "05",
+              "lesson": 15,
+              "part": 1,
+              "pages": 47
+            },
+            {
+              "id": "modern-c04-l15-p02",
+              "label": "大英帝国の再編とフランス",
+              "number": "06",
+              "lesson": 15,
+              "part": 2,
+              "pages": 28
+            },
+            {
+              "id": "modern-c04-l15-p03",
+              "label": "ドイツ 〜ヴァイマル共和国の混乱と復興〜",
+              "number": "07",
+              "lesson": 15,
+              "part": 3,
+              "pages": 32
+            },
+            {
+              "id": "modern-c04-l15-p04",
+              "label": "イタリア 〜ファシズム政権の出現〜",
+              "number": "08",
+              "lesson": 15,
+              "part": 4,
+              "pages": 36
+            },
+            {
+              "id": "modern-c04-l15-p05",
+              "label": "ソ連 〜社会主義国家の建設〜",
+              "number": "09",
+              "lesson": 15,
+              "part": 5,
+              "pages": 57
+            },
+            {
+              "id": "modern-c04-l15-p06",
+              "label": "戦間期の東欧諸国",
+              "number": "10",
+              "lesson": 15,
+              "part": 6,
+              "pages": 14
+            },
+            {
+              "id": "modern-c04-l15-p07",
+              "label": "日本の戦間期の経済・財政政策",
+              "number": "11",
+              "lesson": 15,
+              "part": 7,
+              "pages": 15
             }
           ]
         }

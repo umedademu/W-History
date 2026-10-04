@@ -1,0 +1,2 @@
+/* 第15回の流れ作業の絵を広く見せ、透明な余白も含めて枠内へ収める。 */
+.modern-story .illustration-figure-wide img{width:min(100%,256px)}
