@@ -1,4 +1,4 @@
-import {modernEdition} from './modern-c02-l10-edition.js?v=0.127';
+import {modernEdition} from './modern-c02-l10-edition.js?v=0.128';
 // 原文の本人と一般集団を区別する配置の対応表。
 export const modernVisualAssetCatalog=[
   {

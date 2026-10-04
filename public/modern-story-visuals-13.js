@@ -1,4 +1,4 @@
-import {modernEdition} from './modern-c03-l13-edition.js?v=0.127';
+import {modernEdition} from './modern-c03-l13-edition.js?v=0.128';
 // 本人・集団・計画・同盟・実移動を原文へ対応させる。
 export const modernVisualAssetCatalog=[
   {

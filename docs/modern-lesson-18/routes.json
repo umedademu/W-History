@@ -1,0 +1,274 @@
+[
+  {
+    "scene": "modern-c04-l18-p01-008",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        10,
+        51
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "アメリカの民間資本によるドイツへの投資",
+    "reason": "本文の投資関係。人物・軍や具体的な送金便の動線にはしない。",
+    "evidenceLines": [
+      77,
+      93
+    ]
+  },
+  {
+    "scene": "modern-c04-l18-p01-009",
+    "kind": "rival",
+    "points": [
+      [
+        10,
+        51
+      ],
+      [
+        -2,
+        54
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ドイツからイギリスへの賠償金",
+    "reason": "ドーズ案の本文に明記された賠償金。静的な経済関係。",
+    "evidenceLines": [
+      77,
+      93
+    ]
+  },
+  {
+    "scene": "modern-c04-l18-p01-009",
+    "kind": "rival",
+    "points": [
+      [
+        10,
+        51
+      ],
+      [
+        2,
+        47
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ドイツからフランスへの賠償金",
+    "reason": "本文の英仏への賠償金を原文の両国へ対応させる。",
+    "evidenceLines": [
+      77,
+      93
+    ]
+  },
+  {
+    "scene": "modern-c04-l18-p01-009",
+    "kind": "rival",
+    "points": [
+      [
+        -2,
+        54
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "イギリスからアメリカへの戦債返済",
+    "reason": "本文の英仏からアメリカへの戦債返済。具体的な輸送は復元しない。",
+    "evidenceLines": [
+      77,
+      93
+    ]
+  },
+  {
+    "scene": "modern-c04-l18-p01-009",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        47
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "フランスからアメリカへの戦債返済",
+    "reason": "本文の英仏からアメリカへの戦債返済。静的な経済関係。",
+    "evidenceLines": [
+      77,
+      93
+    ]
+  },
+  {
+    "scene": "modern-c04-l18-p01-046",
+    "kind": "rival",
+    "points": [
+      [
+        15,
+        50
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ヨーロッパからアメリカ資本の引き揚げ",
+    "reason": "本文の資本引き揚げの関係。旅行・移住・軍事行動ではない。",
+    "evidenceLines": [
+      147,
+      156
+    ]
+  },
+  {
+    "scene": "modern-c04-l18-p01-046",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        10,
+        51
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "アメリカ発の信用不安がドイツへ波及",
+    "reason": "本文と原図330頁の国名・信用不安の波及を対応させる。静的な金融上の関係で、資金移送や人物の到着にしない。",
+    "evidenceLines": [
+      147,
+      153,
+      154
+    ]
+  },
+  {
+    "scene": "modern-c04-l18-p01-046",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        -2,
+        54
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "アメリカ発の信用不安がイギリスへ波及",
+    "reason": "本文と原図330頁の国名・信用不安の波及を対応させる。静的な金融上の関係で、資金移送や人物の到着にしない。",
+    "evidenceLines": [
+      147,
+      153,
+      154
+    ]
+  },
+  {
+    "scene": "modern-c04-l18-p01-046",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        2,
+        47
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "アメリカ発の信用不安がフランスへ波及",
+    "reason": "本文と原図330頁の国名・信用不安の波及を対応させる。静的な金融上の関係で、資金移送や人物の到着にしない。",
+    "evidenceLines": [
+      147,
+      153,
+      154
+    ]
+  },
+  {
+    "scene": "modern-c04-l18-p02-036",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        -70,
+        -10
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "アメリカとラテンアメリカのドル＝ブロック",
+    "reason": "本文の南北アメリカの経済的一体化。原文にない加盟国一覧や実際の輸出航路は補わない。",
+    "evidenceLines": [
+      234
+    ]
+  },
+  {
+    "scene": "modern-c04-l18-p03-019",
+    "kind": "rival",
+    "points": [
+      [
+        -2,
+        54
+      ],
+      [
+        -106,
+        56
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "イギリス連邦の貿易圏（本文に明記されたカナダを参照）",
+    "reason": "カナダのオタワで開かれた連邦会議と関税ブロック。本文にない加盟国を追加せず、会議へ人物を移動させない。",
+    "evidenceLines": [
+      316
+    ]
+  },
+  {
+    "scene": "modern-c04-l18-p03-022",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        47
+      ],
+      [
+        4.5,
+        50.8
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "フランスとベルギーのフラン＝ブロック",
+    "reason": "本文に明記された金本位制を維持する国の経済圏。静的な制度の関係。",
+    "evidenceLines": [
+      334
+    ]
+  },
+  {
+    "scene": "modern-c04-l18-p03-022",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        47
+      ],
+      [
+        5.3,
+        52.3
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "フランスとオランダのフラン＝ブロック",
+    "reason": "本文に明記された金本位制を維持する国の経済圏。静的な制度の関係。",
+    "evidenceLines": [
+      334
+    ]
+  }
+]

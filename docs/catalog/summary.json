@@ -1,7 +1,7 @@
 {
-  "version": "0.127",
-  "parts": 203,
-  "pages": 3191,
+  "version": "0.128",
+  "parts": 207,
+  "pages": 3389,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 75,
-      "pages": 2178,
+      "parts": 79,
+      "pages": 2376,
       "chapters": [
         {
           "chapter": 1,
@@ -2962,6 +2962,10 @@
             {
               "lesson": 17,
               "title": "戦間期の東アジア"
+            },
+            {
+              "lesson": 18,
+              "title": "世界恐慌とその影響"
             }
           ],
           "volumes": [
@@ -3116,6 +3120,38 @@
               "lesson": 17,
               "part": 4,
               "pages": 35
+            },
+            {
+              "id": "modern-c04-l18-p01",
+              "label": "世界恐慌の発生",
+              "number": "20",
+              "lesson": 18,
+              "part": 1,
+              "pages": 57
+            },
+            {
+              "id": "modern-c04-l18-p02",
+              "label": "アメリカの恐慌対策　〜ニューディール〜",
+              "number": "21",
+              "lesson": 18,
+              "part": 2,
+              "pages": 41
+            },
+            {
+              "id": "modern-c04-l18-p03",
+              "label": "英仏の恐慌対策　〜ブロック経済の形成〜",
+              "number": "22",
+              "lesson": 18,
+              "part": 3,
+              "pages": 28
+            },
+            {
+              "id": "modern-c04-l18-p04",
+              "label": "世界恐慌後のドイツ　〜ナチス＝ドイツ体制の成立〜",
+              "number": "23",
+              "lesson": 18,
+              "part": 4,
+              "pages": 72
             }
           ]
         }

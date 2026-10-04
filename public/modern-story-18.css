@@ -1,0 +1,2 @@
+/* 発電所・道路・生産設備の全体を枠内に収める。 */
+.modern-story .illustration-figure-wide img{width:min(100%,256px);height:160px;object-fit:contain}

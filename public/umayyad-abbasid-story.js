@@ -1,8 +1,8 @@
 import { sourceEdition } from "./source-edition.js?v=0.064";
 import { places, zones } from "./umayyad-abbasid-scenes.js?v=0.064";
-import { mountStory } from "./history-story.js?v=0.127";
+import { mountStory } from "./history-story.js?v=0.128";
 
-import {volumeNavigation} from './story-volumes.js?v=0.127';
+import {volumeNavigation} from './story-volumes.js?v=0.128';
 
 const chapterNavigation=volumeNavigation({id:'umayyad-abbasid'});
 const scenes=sourceEdition["umayyad-abbasid"];
