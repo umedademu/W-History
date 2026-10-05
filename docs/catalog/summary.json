@@ -1,7 +1,7 @@
 {
-  "version": "0.134",
-  "parts": 228,
-  "pages": 4761,
+  "version": "0.135",
+  "parts": 231,
+  "pages": 5060,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 100,
-      "pages": 3748,
+      "parts": 103,
+      "pages": 4047,
       "chapters": [
         {
           "chapter": 1,
@@ -3198,6 +3198,10 @@
             {
               "lesson": 24,
               "title": "戦後のインド・東南アジア"
+            },
+            {
+              "lesson": 25,
+              "title": "戦後の西アジア・アフリカ"
             }
           ],
           "volumes": [
@@ -3352,6 +3356,30 @@
               "lesson": 24,
               "part": 3,
               "pages": 97
+            },
+            {
+              "id": "modern-c05-l25-p01",
+              "label": "パレスチナ問題と中東戦争",
+              "number": "20",
+              "lesson": 25,
+              "part": 1,
+              "pages": 144
+            },
+            {
+              "id": "modern-c05-l25-p02",
+              "label": "戦後の西アジア（イラン・イラク）",
+              "number": "21",
+              "lesson": 25,
+              "part": 2,
+              "pages": 48
+            },
+            {
+              "id": "modern-c05-l25-p03",
+              "label": "戦後のアフリカ",
+              "number": "22",
+              "lesson": 25,
+              "part": 3,
+              "pages": 107
             }
           ]
         }
