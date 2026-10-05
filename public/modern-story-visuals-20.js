@@ -1,4 +1,4 @@
-import {modernEdition} from './modern-c05-l20-edition.js?v=0.132';
+import {modernEdition} from './modern-c05-l20-edition.js?v=0.133';
 // 本人と一般集団、条約・構想と実移動、休戦と講和を原文へ対応させる。
 export const modernVisualAssetCatalog=[
   {

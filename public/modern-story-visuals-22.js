@@ -1,4 +1,4 @@
-import {modernEdition} from './modern-c05-l22-edition.js?v=0.132';
+import {modernEdition} from './modern-c05-l22-edition.js?v=0.133';
 // 原文の人物・制度と、構想・実行・中止・過去・後年を区別する。
 export const modernVisualAssetCatalog=[
   {

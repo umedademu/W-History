@@ -48,6 +48,8 @@ import "./check-modern-lesson-21.mjs";
 import "./check-modern-visuals-21.mjs";
 import "./check-modern-lesson-22.mjs";
 import "./check-modern-visuals-22.mjs";
+import "./check-modern-lesson-23.mjs";
+import "./check-modern-visuals-23.mjs";
 import "./check-book-collections.mjs";
 import fs from "node:fs/promises";
 import path from "node:path";

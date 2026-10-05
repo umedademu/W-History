@@ -1,4 +1,4 @@
-import {modernEdition} from './modern-c04-l16-edition.js?v=0.132';
+import {modernEdition} from './modern-c04-l16-edition.js?v=0.133';
 // 本人・集団・制度・静的な政治関係と実移動を原文へ対応させる。
 export const modernVisualAssetCatalog=[
   {

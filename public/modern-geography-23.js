@@ -1,0 +1,1938 @@
+// 地域・都市・川・組織・本人を区別する。本人の座標は補わない。
+export const modernNameCatalog=[
+  {
+    "name": "東アジア",
+    "key": "東アジア",
+    "kind": "region",
+    "points": [
+      [
+        119,
+        36
+      ]
+    ],
+    "family": "東アジア"
+  },
+  {
+    "name": "東南アジア",
+    "key": "東南アジア",
+    "kind": "region",
+    "points": [
+      [
+        110,
+        12
+      ]
+    ],
+    "family": "東南アジア"
+  },
+  {
+    "name": "中国",
+    "key": "中国",
+    "kind": "region",
+    "points": [
+      [
+        105,
+        35
+      ]
+    ],
+    "family": "中国"
+  },
+  {
+    "name": "中華人民共和国",
+    "key": "中華人民共和国",
+    "kind": "region",
+    "points": [
+      [
+        105,
+        35
+      ]
+    ],
+    "family": "中国"
+  },
+  {
+    "name": "台湾",
+    "key": "台湾",
+    "kind": "region",
+    "points": [
+      [
+        121,
+        24
+      ]
+    ],
+    "family": "台湾"
+  },
+  {
+    "name": "中華民国",
+    "key": "中華民国",
+    "kind": "region",
+    "points": [
+      [
+        121,
+        24
+      ]
+    ],
+    "family": "台湾"
+  },
+  {
+    "name": "ソ連",
+    "key": "ソ連",
+    "kind": "region",
+    "points": [
+      [
+        60,
+        55
+      ]
+    ],
+    "family": "ソ連"
+  },
+  {
+    "name": "アメリカ",
+    "key": "アメリカ",
+    "kind": "region",
+    "points": [
+      [
+        -98,
+        39
+      ]
+    ],
+    "family": "アメリカ"
+  },
+  {
+    "name": "アメリカ合衆国",
+    "key": "アメリカ合衆国",
+    "kind": "region",
+    "points": [
+      [
+        -98,
+        39
+      ]
+    ],
+    "family": "アメリカ"
+  },
+  {
+    "name": "イギリス",
+    "key": "イギリス",
+    "kind": "region",
+    "points": [
+      [
+        -2,
+        54
+      ]
+    ],
+    "family": "イギリス"
+  },
+  {
+    "name": "インド",
+    "key": "インド",
+    "kind": "region",
+    "points": [
+      [
+        78,
+        23
+      ]
+    ],
+    "family": "インド"
+  },
+  {
+    "name": "モンゴル人民共和国",
+    "key": "モンゴル人民共和国",
+    "kind": "region",
+    "points": [
+      [
+        104,
+        46
+      ]
+    ],
+    "family": "モンゴル"
+  },
+  {
+    "name": "日本",
+    "key": "日本",
+    "kind": "region",
+    "points": [
+      [
+        138,
+        36
+      ]
+    ],
+    "family": "日本"
+  },
+  {
+    "name": "東欧",
+    "key": "東欧",
+    "kind": "region",
+    "points": [
+      [
+        20,
+        49
+      ]
+    ],
+    "family": "東欧"
+  },
+  {
+    "name": "ハンガリー",
+    "key": "ハンガリー",
+    "kind": "region",
+    "points": [
+      [
+        19,
+        47
+      ]
+    ],
+    "family": "ハンガリー"
+  },
+  {
+    "name": "ベトナム",
+    "key": "ベトナム",
+    "kind": "region",
+    "points": [
+      [
+        106,
+        16
+      ]
+    ],
+    "family": "ベトナム"
+  },
+  {
+    "name": "北朝鮮",
+    "key": "北朝鮮",
+    "kind": "region",
+    "points": [
+      [
+        127,
+        40
+      ]
+    ],
+    "family": "北朝鮮"
+  },
+  {
+    "name": "韓国",
+    "key": "韓国",
+    "kind": "region",
+    "points": [
+      [
+        127.8,
+        36.5
+      ]
+    ],
+    "family": "韓国"
+  },
+  {
+    "name": "朝鮮半島",
+    "key": "朝鮮半島",
+    "kind": "region",
+    "points": [
+      [
+        127.5,
+        39
+      ]
+    ],
+    "family": "朝鮮"
+  },
+  {
+    "name": "朝鮮",
+    "key": "朝鮮",
+    "kind": "region",
+    "points": [
+      [
+        127.5,
+        39
+      ]
+    ],
+    "family": "朝鮮"
+  },
+  {
+    "name": "チベット",
+    "key": "チベット",
+    "kind": "region",
+    "points": [
+      [
+        90,
+        31
+      ]
+    ],
+    "family": "チベット"
+  },
+  {
+    "name": "華南",
+    "key": "華南",
+    "kind": "region",
+    "points": [
+      [
+        112,
+        24
+      ]
+    ],
+    "family": "華南"
+  },
+  {
+    "name": "広東省",
+    "key": "広東省",
+    "kind": "region",
+    "points": [
+      [
+        113,
+        24
+      ]
+    ],
+    "family": "広東省"
+  },
+  {
+    "name": "福建省",
+    "key": "福建省",
+    "kind": "region",
+    "points": [
+      [
+        117,
+        26
+      ]
+    ],
+    "family": "福建省"
+  },
+  {
+    "name": "海南島",
+    "key": "海南島",
+    "kind": "region",
+    "points": [
+      [
+        109.6,
+        19.2
+      ]
+    ],
+    "family": "海南島"
+  },
+  {
+    "name": "ポルトガル",
+    "key": "ポルトガル",
+    "kind": "region",
+    "points": [
+      [
+        -8,
+        39.5
+      ]
+    ],
+    "family": "ポルトガル"
+  },
+  {
+    "name": "キューバ",
+    "key": "キューバ",
+    "kind": "region",
+    "points": [
+      [
+        -79.5,
+        22
+      ]
+    ],
+    "family": "キューバ"
+  },
+  {
+    "name": "東ドイツ",
+    "key": "東ドイツ",
+    "kind": "region",
+    "points": [
+      [
+        13,
+        51
+      ]
+    ],
+    "family": "東ドイツ"
+  },
+  {
+    "name": "西ドイツ",
+    "key": "西ドイツ",
+    "kind": "region",
+    "points": [
+      [
+        8,
+        50.5
+      ]
+    ],
+    "family": "西ドイツ"
+  },
+  {
+    "name": "ハワイ",
+    "key": "ハワイ",
+    "kind": "region",
+    "points": [
+      [
+        -155.5,
+        20
+      ]
+    ],
+    "family": "ハワイ"
+  },
+  {
+    "name": "台湾海峡",
+    "key": "台湾海峡",
+    "kind": "region",
+    "points": [
+      [
+        119.5,
+        24.5
+      ]
+    ],
+    "family": "台湾海峡"
+  },
+  {
+    "name": "九州",
+    "key": "九州",
+    "kind": "region",
+    "points": [
+      [
+        130.8,
+        32.5
+      ]
+    ],
+    "family": "九州"
+  },
+  {
+    "name": "尖閣諸島",
+    "key": "尖閣諸島",
+    "kind": "region",
+    "points": [
+      [
+        123.5,
+        25.75
+      ]
+    ],
+    "family": "尖閣諸島"
+  },
+  {
+    "name": "北京",
+    "key": "北京",
+    "kind": "place",
+    "points": [
+      [
+        116.407,
+        39.904
+      ]
+    ],
+    "family": "北京"
+  },
+  {
+    "name": "南京",
+    "key": "南京",
+    "kind": "place",
+    "points": [
+      [
+        118.796,
+        32.06
+      ]
+    ],
+    "family": "南京"
+  },
+  {
+    "name": "台北",
+    "key": "台北",
+    "kind": "place",
+    "points": [
+      [
+        121.565,
+        25.034
+      ]
+    ],
+    "family": "台北"
+  },
+  {
+    "name": "ラサ",
+    "key": "ラサ",
+    "kind": "place",
+    "points": [
+      [
+        91.133,
+        29.65
+      ]
+    ],
+    "family": "ラサ"
+  },
+  {
+    "name": "上海",
+    "key": "上海",
+    "kind": "place",
+    "points": [
+      [
+        121.473,
+        31.23
+      ]
+    ],
+    "family": "上海"
+  },
+  {
+    "name": "深圳",
+    "key": "深圳",
+    "kind": "place",
+    "points": [
+      [
+        114.058,
+        22.543
+      ]
+    ],
+    "family": "深圳"
+  },
+  {
+    "name": "珠海",
+    "key": "珠海",
+    "kind": "place",
+    "points": [
+      [
+        113.577,
+        22.27
+      ]
+    ],
+    "family": "珠海"
+  },
+  {
+    "name": "汕頭",
+    "key": "汕頭",
+    "kind": "place",
+    "points": [
+      [
+        116.682,
+        23.353
+      ]
+    ],
+    "family": "汕頭"
+  },
+  {
+    "name": "廈門",
+    "key": "廈門",
+    "kind": "place",
+    "points": [
+      [
+        118.09,
+        24.479
+      ]
+    ],
+    "family": "廈門"
+  },
+  {
+    "name": "香港",
+    "key": "香港",
+    "kind": "place",
+    "points": [
+      [
+        114.161,
+        22.28
+      ]
+    ],
+    "family": "香港"
+  },
+  {
+    "name": "マカオ",
+    "key": "マカオ",
+    "kind": "place",
+    "points": [
+      [
+        113.543,
+        22.198
+      ]
+    ],
+    "family": "マカオ"
+  },
+  {
+    "name": "天安門広場",
+    "key": "天安門広場",
+    "kind": "place",
+    "points": [
+      [
+        116.397,
+        39.909
+      ]
+    ],
+    "family": "天安門広場"
+  },
+  {
+    "name": "京都大学",
+    "key": "京都大学",
+    "kind": "place",
+    "points": [
+      [
+        135.781,
+        35.026
+      ]
+    ],
+    "family": "京都大学"
+  },
+  {
+    "name": "ソウル",
+    "key": "ソウル",
+    "kind": "place",
+    "points": [
+      [
+        126.98,
+        37.56
+      ]
+    ],
+    "family": "ソウル"
+  },
+  {
+    "name": "ピョンヤン",
+    "key": "ピョンヤン",
+    "kind": "place",
+    "points": [
+      [
+        125.75,
+        39.04
+      ]
+    ],
+    "family": "ピョンヤン"
+  },
+  {
+    "name": "光州",
+    "key": "光州",
+    "kind": "place",
+    "points": [
+      [
+        126.851,
+        35.16
+      ]
+    ],
+    "family": "光州"
+  },
+  {
+    "name": "珍宝島",
+    "key": "珍宝島",
+    "kind": "place",
+    "points": [
+      [
+        133.85,
+        46.49
+      ]
+    ],
+    "family": "珍宝島"
+  },
+  {
+    "name": "ダマンスキー島",
+    "key": "ダマンスキー島",
+    "kind": "place",
+    "points": [
+      [
+        133.85,
+        46.49
+      ]
+    ],
+    "family": "珍宝島"
+  },
+  {
+    "name": "漢江",
+    "key": "漢江",
+    "kind": "place",
+    "points": [
+      [
+        126.98,
+        37.53
+      ]
+    ],
+    "family": "漢江",
+    "geographicType": "river-reference",
+    "description": "漢江のソウル周辺における位置の参考点。全流路や移動先ではない。"
+  },
+  {
+    "name": "劉少奇",
+    "key": "劉少奇",
+    "kind": "person",
+    "points": [],
+    "family": "劉少奇",
+    "personKey": "liu-shaoqi-1959"
+  },
+  {
+    "name": "鄧小平",
+    "key": "鄧小平",
+    "kind": "person",
+    "points": [],
+    "family": "鄧小平",
+    "personKey": "deng-xiaoping-1962"
+  },
+  {
+    "name": "ダライ＝ラマ14世",
+    "key": "ダライラマ14世",
+    "kind": "person",
+    "points": [],
+    "family": "ダライ＝ラマ14世",
+    "personKey": "dalai-lama-xiv-1959"
+  },
+  {
+    "name": "林彪",
+    "key": "林彪",
+    "kind": "person",
+    "points": [],
+    "family": "林彪",
+    "personKey": "lin-biao-1969"
+  },
+  {
+    "name": "江青",
+    "key": "江青",
+    "kind": "person",
+    "points": [],
+    "family": "江青",
+    "personKey": "jiang-qing-1974"
+  },
+  {
+    "name": "張春橋",
+    "key": "張春橋",
+    "kind": "person",
+    "points": [],
+    "family": "張春橋",
+    "personKey": "zhang-chunqiao-1974"
+  },
+  {
+    "name": "姚文元",
+    "key": "姚文元",
+    "kind": "person",
+    "points": [],
+    "family": "姚文元",
+    "personKey": "yao-wenyuan-1974"
+  },
+  {
+    "name": "王洪文",
+    "key": "王洪文",
+    "kind": "person",
+    "points": [],
+    "family": "王洪文",
+    "personKey": "wang-hongwen-1974"
+  },
+  {
+    "name": "朱徳",
+    "key": "朱徳",
+    "kind": "person",
+    "points": [],
+    "family": "朱徳",
+    "personKey": "zhu-de-1976"
+  },
+  {
+    "name": "華国鋒",
+    "key": "華国鋒",
+    "kind": "person",
+    "points": [],
+    "family": "華国鋒",
+    "personKey": "hua-guofeng-1976"
+  },
+  {
+    "name": "胡耀邦",
+    "key": "胡耀邦",
+    "kind": "person",
+    "points": [],
+    "family": "胡耀邦",
+    "personKey": "hu-yaobang-1987"
+  },
+  {
+    "name": "李鵬",
+    "key": "李鵬",
+    "kind": "person",
+    "points": [],
+    "family": "李鵬",
+    "personKey": "li-peng-1989"
+  },
+  {
+    "name": "趙紫陽",
+    "key": "趙紫陽",
+    "kind": "person",
+    "points": [],
+    "family": "趙紫陽",
+    "personKey": "zhao-ziyang-1989"
+  },
+  {
+    "name": "江沢民",
+    "key": "江沢民",
+    "kind": "person",
+    "points": [],
+    "family": "江沢民",
+    "personKey": "jiang-zemin-1997"
+  },
+  {
+    "name": "朱鎔基",
+    "key": "朱鎔基",
+    "kind": "person",
+    "points": [],
+    "family": "朱鎔基",
+    "personKey": "zhu-rongji-1998"
+  },
+  {
+    "name": "胡錦濤",
+    "key": "胡錦濤",
+    "kind": "person",
+    "points": [],
+    "family": "胡錦濤",
+    "personKey": "hu-jintao-2003"
+  },
+  {
+    "name": "温家宝",
+    "key": "温家宝",
+    "kind": "person",
+    "points": [],
+    "family": "温家宝",
+    "personKey": "wen-jiabao-2003"
+  },
+  {
+    "name": "習近平",
+    "key": "習近平",
+    "kind": "person",
+    "points": [],
+    "family": "習近平",
+    "personKey": "xi-jinping-2013"
+  },
+  {
+    "name": "野田首相",
+    "key": "野田首相",
+    "kind": "person",
+    "points": [],
+    "family": "野田首相",
+    "personKey": "yoshihiko-noda-2012"
+  },
+  {
+    "name": "蒋経国",
+    "key": "蒋経国",
+    "kind": "person",
+    "points": [],
+    "family": "蒋経国",
+    "personKey": "chiang-ching-kuo-1985"
+  },
+  {
+    "name": "李登輝",
+    "key": "李登輝",
+    "kind": "person",
+    "points": [],
+    "family": "李登輝",
+    "personKey": "lee-teng-hui-1996"
+  },
+  {
+    "name": "陳水扁",
+    "key": "陳水扁",
+    "kind": "person",
+    "points": [],
+    "family": "陳水扁",
+    "personKey": "chen-shui-bian-2000"
+  },
+  {
+    "name": "馬英九",
+    "key": "馬英九",
+    "kind": "person",
+    "points": [],
+    "family": "馬英九",
+    "personKey": "ma-ying-jeou-2008"
+  },
+  {
+    "name": "蔡英文",
+    "key": "蔡英文",
+    "kind": "person",
+    "points": [],
+    "family": "蔡英文",
+    "personKey": "tsai-ing-wen-2016"
+  },
+  {
+    "name": "張勉",
+    "key": "張勉",
+    "kind": "person",
+    "points": [],
+    "family": "張勉",
+    "personKey": "chang-myon-1960"
+  },
+  {
+    "name": "朴正熙",
+    "key": "朴正熙",
+    "kind": "person",
+    "points": [],
+    "family": "朴正熙",
+    "personKey": "park-chung-hee-1965"
+  },
+  {
+    "name": "全斗煥",
+    "key": "全斗煥",
+    "kind": "person",
+    "points": [],
+    "family": "全斗煥",
+    "personKey": "chun-doo-hwan-1980"
+  },
+  {
+    "name": "金泳三",
+    "key": "金泳三",
+    "kind": "person",
+    "points": [],
+    "family": "金泳三",
+    "personKey": "kim-young-sam-1993"
+  },
+  {
+    "name": "金大中",
+    "key": "金大中",
+    "kind": "person",
+    "points": [],
+    "family": "金大中",
+    "personKey": "kim-dae-jung-2000"
+  },
+  {
+    "name": "盧泰愚",
+    "key": "盧泰愚",
+    "kind": "person",
+    "points": [],
+    "family": "盧泰愚",
+    "personKey": "roh-tae-woo-1988"
+  },
+  {
+    "name": "金正日",
+    "key": "金正日",
+    "kind": "person",
+    "points": [],
+    "family": "金正日",
+    "personKey": "kim-jong-il-2000"
+  },
+  {
+    "name": "盧武鉉",
+    "key": "盧武鉉",
+    "kind": "person",
+    "points": [],
+    "family": "盧武鉉",
+    "personKey": "roh-moo-hyun-2003"
+  },
+  {
+    "name": "李明博",
+    "key": "李明博",
+    "kind": "person",
+    "points": [],
+    "family": "李明博",
+    "personKey": "lee-myung-bak-2008"
+  },
+  {
+    "name": "朴槿恵",
+    "key": "朴槿恵",
+    "kind": "person",
+    "points": [],
+    "family": "朴槿恵",
+    "personKey": "park-geun-hye-2013"
+  },
+  {
+    "name": "文在寅",
+    "key": "文在寅",
+    "kind": "person",
+    "points": [],
+    "family": "文在寅",
+    "personKey": "moon-jae-in-2017"
+  },
+  {
+    "name": "金正恩",
+    "key": "金正恩",
+    "kind": "person",
+    "points": [],
+    "family": "金正恩",
+    "personKey": "kim-jong-un-2018"
+  },
+  {
+    "name": "尹錫悦",
+    "key": "尹錫悦",
+    "kind": "person",
+    "points": [],
+    "family": "尹錫悦",
+    "personKey": "yoon-suk-yeol-2022"
+  },
+  {
+    "name": "毛沢東",
+    "key": "毛沢東",
+    "kind": "person",
+    "points": [],
+    "family": "毛沢東",
+    "personKey": "mao-zedong-1966"
+  },
+  {
+    "name": "周恩来",
+    "key": "周恩来",
+    "kind": "person",
+    "points": [],
+    "family": "周恩来",
+    "personKey": "zhou-enlai-1954"
+  },
+  {
+    "name": "蒋介石",
+    "key": "蒋介石",
+    "kind": "person",
+    "points": [],
+    "family": "蒋介石",
+    "personKey": "chiang-kai-shek"
+  },
+  {
+    "name": "マーシャル",
+    "key": "マーシャル",
+    "kind": "person",
+    "points": [],
+    "family": "マーシャル",
+    "personKey": "george-c-marshall"
+  },
+  {
+    "name": "アトリー",
+    "key": "アトリー",
+    "kind": "person",
+    "points": [],
+    "family": "アトリー",
+    "personKey": "clement-attlee"
+  },
+  {
+    "name": "フルシチョフ",
+    "key": "フルシチョフ",
+    "kind": "person",
+    "points": [],
+    "family": "フルシチョフ",
+    "personKey": "nikita-khrushchev"
+  },
+  {
+    "name": "スターリン",
+    "key": "スターリン",
+    "kind": "person",
+    "points": [],
+    "family": "スターリン",
+    "personKey": "joseph-stalin"
+  },
+  {
+    "name": "キッシンジャー",
+    "key": "キッシンジャー",
+    "kind": "person",
+    "points": [],
+    "family": "キッシンジャー",
+    "personKey": "henry-kissinger-1971"
+  },
+  {
+    "name": "ニクソン",
+    "key": "ニクソン",
+    "kind": "person",
+    "points": [],
+    "family": "ニクソン",
+    "personKey": "richard-nixon-1972"
+  },
+  {
+    "name": "田中角栄",
+    "key": "田中角栄",
+    "kind": "person",
+    "points": [],
+    "family": "田中角栄",
+    "personKey": "kakuei-tanaka"
+  },
+  {
+    "name": "ゴルバチョフ",
+    "key": "ゴルバチョフ",
+    "kind": "person",
+    "points": [],
+    "family": "ゴルバチョフ",
+    "personKey": "mikhail-gorbachev"
+  },
+  {
+    "name": "サッチャー",
+    "key": "サッチャー",
+    "kind": "person",
+    "points": [],
+    "family": "サッチャー",
+    "personKey": "margaret-thatcher"
+  },
+  {
+    "name": "李承晩",
+    "key": "李承晩",
+    "kind": "person",
+    "points": [],
+    "family": "李承晩",
+    "personKey": "syngman-rhee-1948"
+  },
+  {
+    "name": "孔子",
+    "key": "孔子",
+    "kind": "person",
+    "points": [],
+    "family": "孔子",
+    "personKey": "confucius-philosopher"
+  },
+  {
+    "name": "日中戦争",
+    "key": "日中戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "日中戦争"
+  },
+  {
+    "name": "国民党",
+    "key": "国民党",
+    "kind": "concept",
+    "points": [],
+    "family": "国民党"
+  },
+  {
+    "name": "共産党",
+    "key": "共産党",
+    "kind": "concept",
+    "points": [],
+    "family": "共産党"
+  },
+  {
+    "name": "第2次国共合作",
+    "key": "第2次国共合作",
+    "kind": "concept",
+    "points": [],
+    "family": "第2次国共合作"
+  },
+  {
+    "name": "抗日民族統一戦線",
+    "key": "抗日民族統一戦線",
+    "kind": "concept",
+    "points": [],
+    "family": "抗日民族統一戦線"
+  },
+  {
+    "name": "双十協定",
+    "key": "双十協定",
+    "kind": "concept",
+    "points": [],
+    "family": "双十協定"
+  },
+  {
+    "name": "国共停戦協定",
+    "key": "国共停戦協定",
+    "kind": "concept",
+    "points": [],
+    "family": "国共停戦協定"
+  },
+  {
+    "name": "政治協商会議",
+    "key": "政治協商会議",
+    "kind": "concept",
+    "points": [],
+    "family": "政治協商会議"
+  },
+  {
+    "name": "人民政治協商会議",
+    "key": "人民政治協商会議",
+    "kind": "concept",
+    "points": [],
+    "family": "人民政治協商会議"
+  },
+  {
+    "name": "国民政府",
+    "key": "国民政府",
+    "kind": "concept",
+    "points": [],
+    "family": "国民政府"
+  },
+  {
+    "name": "台湾国民政府",
+    "key": "台湾国民政府",
+    "kind": "concept",
+    "points": [],
+    "family": "台湾国民政府"
+  },
+  {
+    "name": "台湾政府",
+    "key": "台湾政府",
+    "kind": "concept",
+    "points": [],
+    "family": "台湾政府"
+  },
+  {
+    "name": "人民解放軍",
+    "key": "人民解放軍",
+    "kind": "concept",
+    "points": [],
+    "family": "人民解放軍"
+  },
+  {
+    "name": "人民義勇軍",
+    "key": "人民義勇軍",
+    "kind": "concept",
+    "points": [],
+    "family": "人民義勇軍"
+  },
+  {
+    "name": "八路軍",
+    "key": "八路軍",
+    "kind": "concept",
+    "points": [],
+    "family": "八路軍"
+  },
+  {
+    "name": "新四軍",
+    "key": "新四軍",
+    "kind": "concept",
+    "points": [],
+    "family": "新四軍"
+  },
+  {
+    "name": "中国土地法大綱",
+    "key": "中国土地法大綱",
+    "kind": "concept",
+    "points": [],
+    "family": "中国土地法大綱"
+  },
+  {
+    "name": "新民主主義",
+    "key": "新民主主義",
+    "kind": "concept",
+    "points": [],
+    "family": "新民主主義"
+  },
+  {
+    "name": "2つの中国",
+    "key": "2つの中国",
+    "kind": "concept",
+    "points": [],
+    "family": "2つの中国"
+  },
+  {
+    "name": "国連安保理",
+    "key": "国連安保理",
+    "kind": "concept",
+    "points": [],
+    "family": "国連安保理"
+  },
+  {
+    "name": "国連",
+    "key": "国連",
+    "kind": "concept",
+    "points": [],
+    "family": "国連"
+  },
+  {
+    "name": "常任理事国",
+    "key": "常任理事国",
+    "kind": "concept",
+    "points": [],
+    "family": "常任理事国"
+  },
+  {
+    "name": "中ソ友好同盟相互援助条約",
+    "key": "中ソ友好同盟相互援助条約",
+    "kind": "concept",
+    "points": [],
+    "family": "中ソ友好同盟相互援助条約"
+  },
+  {
+    "name": "朝鮮戦争",
+    "key": "朝鮮戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "朝鮮戦争"
+  },
+  {
+    "name": "土地改革法",
+    "key": "土地改革法",
+    "kind": "concept",
+    "points": [],
+    "family": "土地改革法"
+  },
+  {
+    "name": "三反五反運動",
+    "key": "三反五反運動",
+    "kind": "concept",
+    "points": [],
+    "family": "三反五反運動"
+  },
+  {
+    "name": "第1次五カ年計画",
+    "key": "第1次五カ年計画",
+    "kind": "concept",
+    "points": [],
+    "family": "第1次五カ年計画"
+  },
+  {
+    "name": "中華人民共和国憲法",
+    "key": "中華人民共和国憲法",
+    "kind": "concept",
+    "points": [],
+    "family": "中華人民共和国憲法"
+  },
+  {
+    "name": "スターリン批判",
+    "key": "スターリン批判",
+    "kind": "concept",
+    "points": [],
+    "family": "スターリン批判"
+  },
+  {
+    "name": "平和共存政策",
+    "key": "平和共存政策",
+    "kind": "concept",
+    "points": [],
+    "family": "平和共存政策"
+  },
+  {
+    "name": "中ソ対立",
+    "key": "中ソ対立",
+    "kind": "concept",
+    "points": [],
+    "family": "中ソ対立"
+  },
+  {
+    "name": "百花斉放・百家争鳴運動",
+    "key": "百花斉放百家争鳴運動",
+    "kind": "concept",
+    "points": [],
+    "family": "百花斉放・百家争鳴運動"
+  },
+  {
+    "name": "反右派闘争",
+    "key": "反右派闘争",
+    "kind": "concept",
+    "points": [],
+    "family": "反右派闘争"
+  },
+  {
+    "name": "大躍進",
+    "key": "大躍進",
+    "kind": "concept",
+    "points": [],
+    "family": "大躍進"
+  },
+  {
+    "name": "人民公社",
+    "key": "人民公社",
+    "kind": "concept",
+    "points": [],
+    "family": "人民公社"
+  },
+  {
+    "name": "集団所有",
+    "key": "集団所有",
+    "kind": "concept",
+    "points": [],
+    "family": "集団所有"
+  },
+  {
+    "name": "集団労働",
+    "key": "集団労働",
+    "kind": "concept",
+    "points": [],
+    "family": "集団労働"
+  },
+  {
+    "name": "公共食堂",
+    "key": "公共食堂",
+    "kind": "concept",
+    "points": [],
+    "family": "公共食堂"
+  },
+  {
+    "name": "土法炉",
+    "key": "土法炉",
+    "kind": "concept",
+    "points": [],
+    "family": "土法炉"
+  },
+  {
+    "name": "中ソ技術協定",
+    "key": "中ソ技術協定",
+    "kind": "concept",
+    "points": [],
+    "family": "中ソ技術協定"
+  },
+  {
+    "name": "国家主席",
+    "key": "国家主席",
+    "kind": "concept",
+    "points": [],
+    "family": "国家主席"
+  },
+  {
+    "name": "共産党主席",
+    "key": "共産党主席",
+    "kind": "concept",
+    "points": [],
+    "family": "共産党主席"
+  },
+  {
+    "name": "調整政策",
+    "key": "調整政策",
+    "kind": "concept",
+    "points": [],
+    "family": "調整政策"
+  },
+  {
+    "name": "チベット問題",
+    "key": "チベット問題",
+    "kind": "concept",
+    "points": [],
+    "family": "チベット問題"
+  },
+  {
+    "name": "チベット反乱",
+    "key": "チベット反乱",
+    "kind": "concept",
+    "points": [],
+    "family": "チベット反乱"
+  },
+  {
+    "name": "中印国境紛争",
+    "key": "中印国境紛争",
+    "kind": "concept",
+    "points": [],
+    "family": "中印国境紛争"
+  },
+  {
+    "name": "修正主義",
+    "key": "修正主義",
+    "kind": "concept",
+    "points": [],
+    "family": "修正主義"
+  },
+  {
+    "name": "教条主義",
+    "key": "教条主義",
+    "kind": "concept",
+    "points": [],
+    "family": "教条主義"
+  },
+  {
+    "name": "部分的核実験禁止条約",
+    "key": "部分的核実験禁止条約",
+    "kind": "concept",
+    "points": [],
+    "family": "部分的核実験禁止条約"
+  },
+  {
+    "name": "実権派",
+    "key": "実権派",
+    "kind": "concept",
+    "points": [],
+    "family": "実権派"
+  },
+  {
+    "name": "走資派",
+    "key": "走資派",
+    "kind": "concept",
+    "points": [],
+    "family": "走資派"
+  },
+  {
+    "name": "プロレタリア文化大革命",
+    "key": "プロレタリア文化大革命",
+    "kind": "concept",
+    "points": [],
+    "family": "プロレタリア文化大革命"
+  },
+  {
+    "name": "文化大革命",
+    "key": "文化大革命",
+    "kind": "concept",
+    "points": [],
+    "family": "文化大革命"
+  },
+  {
+    "name": "文革",
+    "key": "文革",
+    "kind": "concept",
+    "points": [],
+    "family": "文革"
+  },
+  {
+    "name": "毛沢東語録",
+    "key": "毛沢東語録",
+    "kind": "concept",
+    "points": [],
+    "family": "毛沢東語録"
+  },
+  {
+    "name": "紅衛兵",
+    "key": "紅衛兵",
+    "kind": "concept",
+    "points": [],
+    "family": "紅衛兵"
+  },
+  {
+    "name": "造反有理",
+    "key": "造反有理",
+    "kind": "concept",
+    "points": [],
+    "family": "造反有理"
+  },
+  {
+    "name": "四人組",
+    "key": "四人組",
+    "kind": "concept",
+    "points": [],
+    "family": "四人組"
+  },
+  {
+    "name": "批林批孔運動",
+    "key": "批林批孔運動",
+    "kind": "concept",
+    "points": [],
+    "family": "批林批孔運動"
+  },
+  {
+    "name": "新憲法",
+    "key": "新憲法",
+    "kind": "concept",
+    "points": [],
+    "family": "新憲法"
+  },
+  {
+    "name": "天安門事件",
+    "key": "天安門事件",
+    "kind": "concept",
+    "points": [],
+    "family": "天安門事件"
+  },
+  {
+    "name": "国連代表権交代",
+    "key": "国連代表権交代",
+    "kind": "concept",
+    "points": [],
+    "family": "国連代表権交代"
+  },
+  {
+    "name": "日中国交正常化",
+    "key": "日中国交正常化",
+    "kind": "concept",
+    "points": [],
+    "family": "日中国交正常化"
+  },
+  {
+    "name": "四つの現代化",
+    "key": "四つの現代化",
+    "kind": "concept",
+    "points": [],
+    "family": "四つの現代化"
+  },
+  {
+    "name": "党副主席",
+    "key": "党副主席",
+    "kind": "concept",
+    "points": [],
+    "family": "党副主席"
+  },
+  {
+    "name": "副総理",
+    "key": "副総理",
+    "kind": "concept",
+    "points": [],
+    "family": "副総理"
+  },
+  {
+    "name": "最高実力者",
+    "key": "最高実力者",
+    "kind": "concept",
+    "points": [],
+    "family": "最高実力者"
+  },
+  {
+    "name": "改革・開放政策",
+    "key": "改革開放政策",
+    "kind": "concept",
+    "points": [],
+    "family": "改革・開放政策"
+  },
+  {
+    "name": "日中平和友好条約",
+    "key": "日中平和友好条約",
+    "kind": "concept",
+    "points": [],
+    "family": "日中平和友好条約"
+  },
+  {
+    "name": "米中国交正常化",
+    "key": "米中国交正常化",
+    "kind": "concept",
+    "points": [],
+    "family": "米中国交正常化"
+  },
+  {
+    "name": "経済特区",
+    "key": "経済特区",
+    "kind": "concept",
+    "points": [],
+    "family": "経済特区"
+  },
+  {
+    "name": "生産請負制",
+    "key": "生産請負制",
+    "kind": "concept",
+    "points": [],
+    "family": "生産請負制"
+  },
+  {
+    "name": "社会主義市場経済",
+    "key": "社会主義市場経済",
+    "kind": "concept",
+    "points": [],
+    "family": "社会主義市場経済"
+  },
+  {
+    "name": "計画経済",
+    "key": "計画経済",
+    "kind": "concept",
+    "points": [],
+    "family": "計画経済"
+  },
+  {
+    "name": "市場経済",
+    "key": "市場経済",
+    "kind": "concept",
+    "points": [],
+    "family": "市場経済"
+  },
+  {
+    "name": "ペレストロイカ",
+    "key": "ペレストロイカ",
+    "kind": "concept",
+    "points": [],
+    "family": "ペレストロイカ"
+  },
+  {
+    "name": "新思考外交",
+    "key": "新思考外交",
+    "kind": "concept",
+    "points": [],
+    "family": "新思考外交"
+  },
+  {
+    "name": "党総書記",
+    "key": "党総書記",
+    "kind": "concept",
+    "points": [],
+    "family": "党総書記"
+  },
+  {
+    "name": "共産党総書記",
+    "key": "共産党総書記",
+    "kind": "concept",
+    "points": [],
+    "family": "共産党総書記"
+  },
+  {
+    "name": "東欧革命",
+    "key": "東欧革命",
+    "kind": "concept",
+    "points": [],
+    "family": "東欧革命"
+  },
+  {
+    "name": "民主化運動",
+    "key": "民主化運動",
+    "kind": "concept",
+    "points": [],
+    "family": "民主化運動"
+  },
+  {
+    "name": "香港返還協定",
+    "key": "香港返還協定",
+    "kind": "concept",
+    "points": [],
+    "family": "香港返還協定"
+  },
+  {
+    "name": "香港特別行政区",
+    "key": "香港特別行政区",
+    "kind": "concept",
+    "points": [],
+    "family": "香港特別行政区"
+  },
+  {
+    "name": "一国二制度",
+    "key": "一国二制度",
+    "kind": "concept",
+    "points": [],
+    "family": "一国二制度"
+  },
+  {
+    "name": "世界貿易機関",
+    "key": "世界貿易機関",
+    "kind": "concept",
+    "points": [],
+    "family": "世界貿易機関"
+  },
+  {
+    "name": "WTO",
+    "key": "WTO",
+    "kind": "concept",
+    "points": [],
+    "family": "WTO"
+  },
+  {
+    "name": "北京オリンピック",
+    "key": "北京オリンピック",
+    "kind": "concept",
+    "points": [],
+    "family": "北京オリンピック"
+  },
+  {
+    "name": "国内総生産",
+    "key": "国内総生産",
+    "kind": "concept",
+    "points": [],
+    "family": "国内総生産"
+  },
+  {
+    "name": "GDP",
+    "key": "GDP",
+    "kind": "concept",
+    "points": [],
+    "family": "GDP"
+  },
+  {
+    "name": "二・二八事件",
+    "key": "二二八事件",
+    "kind": "concept",
+    "points": [],
+    "family": "二・二八事件"
+  },
+  {
+    "name": "本省人",
+    "key": "本省人",
+    "kind": "concept",
+    "points": [],
+    "family": "本省人"
+  },
+  {
+    "name": "外省人",
+    "key": "外省人",
+    "kind": "concept",
+    "points": [],
+    "family": "外省人"
+  },
+  {
+    "name": "サンフランシスコ平和条約",
+    "key": "サンフランシスコ平和条約",
+    "kind": "concept",
+    "points": [],
+    "family": "サンフランシスコ平和条約"
+  },
+  {
+    "name": "日華平和条約",
+    "key": "日華平和条約",
+    "kind": "concept",
+    "points": [],
+    "family": "日華平和条約"
+  },
+  {
+    "name": "米華相互防衛条約",
+    "key": "米華相互防衛条約",
+    "kind": "concept",
+    "points": [],
+    "family": "米華相互防衛条約"
+  },
+  {
+    "name": "在華米軍",
+    "key": "在華米軍",
+    "kind": "concept",
+    "points": [],
+    "family": "在華米軍"
+  },
+  {
+    "name": "民進党",
+    "key": "民進党",
+    "kind": "concept",
+    "points": [],
+    "family": "民進党"
+  },
+  {
+    "name": "総統直接選挙",
+    "key": "総統直接選挙",
+    "kind": "concept",
+    "points": [],
+    "family": "総統直接選挙"
+  },
+  {
+    "name": "総統選挙",
+    "key": "総統選挙",
+    "kind": "concept",
+    "points": [],
+    "family": "総統選挙"
+  },
+  {
+    "name": "世界金融危機",
+    "key": "世界金融危機",
+    "kind": "concept",
+    "points": [],
+    "family": "世界金融危機"
+  },
+  {
+    "name": "台湾意識",
+    "key": "台湾意識",
+    "kind": "concept",
+    "points": [],
+    "family": "台湾意識"
+  },
+  {
+    "name": "現状維持",
+    "key": "現状維持",
+    "kind": "concept",
+    "points": [],
+    "family": "現状維持"
+  },
+  {
+    "name": "米韓相互防衛条約",
+    "key": "米韓相互防衛条約",
+    "kind": "concept",
+    "points": [],
+    "family": "米韓相互防衛条約"
+  },
+  {
+    "name": "在韓米軍",
+    "key": "在韓米軍",
+    "kind": "concept",
+    "points": [],
+    "family": "在韓米軍"
+  },
+  {
+    "name": "韓国軍",
+    "key": "韓国軍",
+    "kind": "concept",
+    "points": [],
+    "family": "韓国軍"
+  },
+  {
+    "name": "四月革命",
+    "key": "四月革命",
+    "kind": "concept",
+    "points": [],
+    "family": "四月革命"
+  },
+  {
+    "name": "軍部クーデタ",
+    "key": "軍部クーデタ",
+    "kind": "concept",
+    "points": [],
+    "family": "軍部クーデタ"
+  },
+  {
+    "name": "日韓基本条約",
+    "key": "日韓基本条約",
+    "kind": "concept",
+    "points": [],
+    "family": "日韓基本条約"
+  },
+  {
+    "name": "開発独裁",
+    "key": "開発独裁",
+    "kind": "concept",
+    "points": [],
+    "family": "開発独裁"
+  },
+  {
+    "name": "漢江の奇跡",
+    "key": "漢江の奇跡",
+    "kind": "concept",
+    "points": [],
+    "family": "漢江の奇跡"
+  },
+  {
+    "name": "戒厳令",
+    "key": "戒厳令",
+    "kind": "concept",
+    "points": [],
+    "family": "戒厳令"
+  },
+  {
+    "name": "金大中事件",
+    "key": "金大中事件",
+    "kind": "concept",
+    "points": [],
+    "family": "金大中事件"
+  },
+  {
+    "name": "ベトナム戦争",
+    "key": "ベトナム戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "ベトナム戦争"
+  },
+  {
+    "name": "光州事件",
+    "key": "光州事件",
+    "kind": "concept",
+    "points": [],
+    "family": "光州事件"
+  },
+  {
+    "name": "民主化宣言",
+    "key": "民主化宣言",
+    "kind": "concept",
+    "points": [],
+    "family": "民主化宣言"
+  },
+  {
+    "name": "大統領直接選挙",
+    "key": "大統領直接選挙",
+    "kind": "concept",
+    "points": [],
+    "family": "大統領直接選挙"
+  },
+  {
+    "name": "ソウルオリンピック",
+    "key": "ソウルオリンピック",
+    "kind": "concept",
+    "points": [],
+    "family": "ソウルオリンピック"
+  },
+  {
+    "name": "北方外交",
+    "key": "北方外交",
+    "kind": "concept",
+    "points": [],
+    "family": "北方外交"
+  },
+  {
+    "name": "韓ソ国交樹立",
+    "key": "韓ソ国交樹立",
+    "kind": "concept",
+    "points": [],
+    "family": "韓ソ国交樹立"
+  },
+  {
+    "name": "南北朝鮮",
+    "key": "南北朝鮮",
+    "kind": "concept",
+    "points": [],
+    "family": "南北朝鮮"
+  },
+  {
+    "name": "東西ドイツ",
+    "key": "東西ドイツ",
+    "kind": "concept",
+    "points": [],
+    "family": "東西ドイツ"
+  },
+  {
+    "name": "太陽政策",
+    "key": "太陽政策",
+    "kind": "concept",
+    "points": [],
+    "family": "太陽政策"
+  },
+  {
+    "name": "南北朝鮮首脳会談",
+    "key": "南北朝鮮首脳会談",
+    "kind": "concept",
+    "points": [],
+    "family": "南北朝鮮首脳会談"
+  },
+  {
+    "name": "核実験",
+    "key": "核実験",
+    "kind": "concept",
+    "points": [],
+    "family": "核実験"
+  },
+  {
+    "name": "核保有国",
+    "key": "核保有国",
+    "kind": "concept",
+    "points": [],
+    "family": "核保有国"
+  },
+  {
+    "name": "従軍慰安婦問題",
+    "key": "従軍慰安婦問題",
+    "kind": "concept",
+    "points": [],
+    "family": "従軍慰安婦問題"
+  },
+  {
+    "name": "反日政策",
+    "key": "反日政策",
+    "kind": "concept",
+    "points": [],
+    "family": "反日政策"
+  }
+];
+const normalize=text=>String(text??'').replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g,'').replace(/<[^>]*>/g,'').replace(/[\s＝=・『』「」]/g,'');
+const byKey=new Map(modernNameCatalog.map(entry=>[entry.key,entry]));
+const escapePattern=value=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const pattern=new RegExp([...byKey.keys()].sort((a,b)=>b.length-a.length).map(key=>key.length===1?`(?<![一-龯])${escapePattern(key)}(?![一-龯])`:escapePattern(key)).join('|'),'g');
+export function modernNamesInText(text){
+ const value=normalize(text).replace(/ヨーロッパ人|イギリス人|フランス人|アメリカ人|ドイツ人|日本人|中国人|朝鮮人|モンゴル人(?!民共和国)|日本語|中国語|朝鮮語|英語|ポーランド人|スペイン人|フランス人|ドイツ人/g,'');
+ const found=new Map();for(const match of value.matchAll(pattern)){const entry=byKey.get(match[0]);if(!found.has(entry.family))found.set(entry.family,entry);}
+ // 名称内部の国を機械的に地点へせず、実際の対立・貿易・制度が本文で明記される場合だけ国を共存させる。
+ const relations=[["日中",["日本","中国"]],["中ソ",["中国","ソ連"]],["中印",["中国","インド"]],["米ソ",["アメリカ","ソ連"]],["米英ソ",["アメリカ","イギリス","ソ連"]],["日韓",["日本","韓国"]],["米韓",["アメリカ","韓国"]],["米華",["アメリカ","台湾"]],["韓ソ",["韓国","ソ連"]],["日米",["日本","アメリカ"]],["米中",["アメリカ","中国"]],["南北朝鮮",["韓国","北朝鮮"]],["東西ドイツ",["東ドイツ","西ドイツ"]],["訪中",["中国"]],["訪米",["アメリカ"]],["訪ソ",["ソ連"]],["訪日",["日本"]],["朝鮮戦争",["韓国","北朝鮮"]],["ベトナム戦争",["ベトナム"]],["韓国軍",["韓国"]],["北京オリンピック",["北京"]],["ソウルオリンピック",["ソウル"]],["天安門事件",["天安門広場"]],["台湾政府",["台湾"]],["台湾国民政府",["台湾"]]];
+ for(const [term,names]of relations)if(value.includes(normalize(term)))for(const name of names){const entry=byKey.get(normalize(name));if(!found.has(entry.family))found.set(entry.family,entry);}
+ return [...found.values()];
+}
