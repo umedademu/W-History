@@ -1,0 +1,34 @@
+/* 人物の集団・航空機・道具・施設は縦横比を保って模式欄に示す。 */
+.modern-story .illustration-figure-wide img {
+  width: min(100%, 256px);
+  height: 240px;
+  object-fit: contain;
+}
+
+/* 原書の二重線を、明暗どちらでも本文と同じ色で読めるようにする。 */
+.modern-story [data-source-marker="double-line"] {
+  border-bottom-color: currentColor !important;
+}
+
+/* 原書属性を保ち、黒い丸囲みは本文色、淡い桃色は明るい画面で見分けられる濃さにする。 */
+.modern-story [data-source-border="black"] {
+  border-color: currentColor !important;
+}
+
+html:not([data-theme="dark"]) .modern-story [data-source-border="pink"] {
+  border-color: #b84c69 !important;
+}
+
+/* 線の形・太さ・原書属性は保持し、暗い画面でも線を背景から見分けられる色に合わせる。 */
+.modern-story [data-source-line-style="dashed"] {
+  border-bottom-color: currentColor !important;
+}
+html[data-theme="dark"] .modern-story [data-source-border="red"]:not([data-source-background]) {
+  border-color: #ffb49f !important;
+}
+html[data-theme="dark"] .modern-story [data-source-border="brown"]:not([data-source-background]) {
+  border-color: #edb195 !important;
+}
+html[data-theme="dark"] .modern-story [data-source-border="gray"]:not([data-source-background]) {
+  border-color: #b4c3bc !important;
+}

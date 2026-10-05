@@ -1,7 +1,7 @@
 {
-  "version": "0.133",
-  "parts": 225,
-  "pages": 4517,
+  "version": "0.134",
+  "parts": 228,
+  "pages": 4761,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 97,
-      "pages": 3504,
+      "parts": 100,
+      "pages": 3748,
       "chapters": [
         {
           "chapter": 1,
@@ -3194,6 +3194,10 @@
             {
               "lesson": 23,
               "title": "戦後の東アジア"
+            },
+            {
+              "lesson": 24,
+              "title": "戦後のインド・東南アジア"
             }
           ],
           "volumes": [
@@ -3324,6 +3328,30 @@
               "lesson": 23,
               "part": 3,
               "pages": 28
+            },
+            {
+              "id": "modern-c05-l24-p01",
+              "label": "戦後のインドと第三世界の形成",
+              "number": "17",
+              "lesson": 24,
+              "part": 1,
+              "pages": 71
+            },
+            {
+              "id": "modern-c05-l24-p02",
+              "label": "インドシナ戦争とベトナム戦争",
+              "number": "18",
+              "lesson": 24,
+              "part": 2,
+              "pages": 76
+            },
+            {
+              "id": "modern-c05-l24-p03",
+              "label": "戦後の東南アジア",
+              "number": "19",
+              "lesson": 24,
+              "part": 3,
+              "pages": 97
             }
           ]
         }

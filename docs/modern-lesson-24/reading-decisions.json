@@ -1,0 +1,223 @@
+{
+  "version": "0.134",
+  "lesson": 24,
+  "rule": "句点・発話と出来事の主語・目的・帰結が切り替わるところで分ける。読点24カ所の分割は字句・装飾・空白を加えず、連結すると原文に一致する。",
+  "decisions": [
+    {
+      "sourceLine": 64,
+      "topic": "同盟",
+      "boundary": "非同盟・中立外交を進め、",
+      "reason": "外交方針と具体的会談を分ける。",
+      "scenes": [
+        "modern-c05-l24-p01-027"
+      ]
+    },
+    {
+      "sourceLine": 70,
+      "topic": "コロンボ",
+      "boundary": "コロンボ会議を開き、",
+      "reason": "参加者と宣言を分ける。",
+      "scenes": [
+        "modern-c05-l24-p01-034"
+      ]
+    },
+    {
+      "sourceLine": 70,
+      "topic": "チベット",
+      "boundary": "ネルー・周恩来会談が開かれ、",
+      "reason": "会談と五つの原則を分ける。",
+      "scenes": [
+        "modern-c05-l24-p01-036"
+      ]
+    },
+    {
+      "sourceLine": 76,
+      "topic": "カイロ",
+      "boundary": "アジア・アフリカ人民連帯会議が開かれ、",
+      "reason": "民間代表会議と二つの植民地主義への反対を分ける。",
+      "scenes": [
+        "modern-c05-l24-p01-045"
+      ]
+    },
+    {
+      "sourceLine": 174,
+      "topic": "ベトミン",
+      "boundary": "抗日ゲリラ闘争を展開すると、",
+      "reason": "戦時の運動と独立宣言を分ける。",
+      "scenes": [
+        "modern-c05-l24-p02-001"
+      ]
+    },
+    {
+      "sourceLine": 174,
+      "topic": "交渉",
+      "boundary": "中部や南部をめぐる交渉は決裂、",
+      "reason": "交渉と軍事侵攻を分ける。",
+      "scenes": [
+        "modern-c05-l24-p02-004"
+      ]
+    },
+    {
+      "sourceLine": 196,
+      "topic": "支援",
+      "boundary": "北ベトナムへの支援を開始、",
+      "reason": "北への支援と南への援助を分ける。",
+      "scenes": [
+        "modern-c05-l24-p02-011"
+      ]
+    },
+    {
+      "sourceLine": 200,
+      "topic": "反撃",
+      "boundary": "反撃のチャンスを狙っていたんだけど、",
+      "reason": "反撃の意図と敗北を分ける。",
+      "scenes": [
+        "modern-c05-l24-p02-015"
+      ]
+    },
+    {
+      "sourceLine": 202,
+      "topic": "境界",
+      "boundary": "南をベトナム国としたうえで、",
+      "reason": "暫定境界と予定の選挙を分ける。",
+      "scenes": [
+        "modern-c05-l24-p02-018"
+      ]
+    },
+    {
+      "sourceLine": 206,
+      "topic": "SEATO",
+      "boundary": "北ベトナム包囲網をつくると、",
+      "reason": "条約機構と別政府の成立を分ける。",
+      "scenes": [
+        "modern-c05-l24-p02-023"
+      ]
+    },
+    {
+      "sourceLine": 206,
+      "topic": "共和国",
+      "boundary": "ベトナム共和国を建て、",
+      "reason": "政府の成立と選挙拒否を分ける。",
+      "scenes": [
+        "modern-c05-l24-p02-024"
+      ]
+    },
+    {
+      "sourceLine": 254,
+      "topic": "解放勢力",
+      "boundary": "南ベトナム解放民族戦線が結成されて、",
+      "reason": "組織の成立と参加勢力を分ける。",
+      "scenes": [
+        "modern-c05-l24-p02-027"
+      ]
+    },
+    {
+      "sourceLine": 254,
+      "topic": "援助路",
+      "boundary": "ホー＝チ＝ミン＝ルートを建設して解放勢力を支援し、",
+      "reason": "支援経路と南の戦闘を分ける。",
+      "scenes": [
+        "modern-c05-l24-p02-029"
+      ]
+    },
+    {
+      "sourceLine": 336,
+      "topic": "カンボジア",
+      "boundary": "ヘン＝サムリン政権を立てると、",
+      "reason": "ベトナムの侵攻と中国の侵攻を分ける。",
+      "scenes": [
+        "modern-c05-l24-p02-065"
+      ]
+    },
+    {
+      "sourceLine": 346,
+      "topic": "撤退",
+      "boundary": "カンボジアから撤退したことで、",
+      "reason": "軍の撤退と国交正常化を分ける。",
+      "scenes": [
+        "modern-c05-l24-p02-073"
+      ]
+    },
+    {
+      "sourceLine": 356,
+      "topic": "指導者",
+      "boundary": "リーダーとして活躍し、",
+      "reason": "会議での役割と対外政策を分ける。",
+      "scenes": [
+        "modern-c05-l24-p03-003"
+      ]
+    },
+    {
+      "sourceLine": 360,
+      "topic": "統合",
+      "boundary": "政策をとって国内を統合し、",
+      "reason": "国内統合と対外政策を分ける。",
+      "scenes": [
+        "modern-c05-l24-p03-007"
+      ]
+    },
+    {
+      "sourceLine": 388,
+      "topic": "独立",
+      "boundary": "ポルトガルから独立したんだけど、",
+      "reason": "独立と侵攻・併合を分ける。",
+      "scenes": [
+        "modern-c05-l24-p03-020"
+      ]
+    },
+    {
+      "sourceLine": 419,
+      "topic": "ロン",
+      "boundary": "クーデタで権力を掌握し、",
+      "reason": "権力掌握と米軍侵攻を分ける。",
+      "scenes": [
+        "modern-c05-l24-p03-028"
+      ]
+    },
+    {
+      "sourceLine": 441,
+      "topic": "内戦",
+      "boundary": "内戦状態になったんだけど、",
+      "reason": "対立の状態と愛国戦線の勝利を分ける。",
+      "scenes": [
+        "modern-c05-l24-p03-037"
+      ]
+    },
+    {
+      "sourceLine": 485,
+      "topic": "独立",
+      "boundary": "マラヤ連邦が独立し、",
+      "reason": "マラヤ独立と連邦の拡大を分ける。",
+      "scenes": [
+        "modern-c05-l24-p03-057"
+      ]
+    },
+    {
+      "sourceLine": 513,
+      "topic": "内政",
+      "boundary": "国内の支持は高かったけど、",
+      "reason": "国内政策と対外関係を分ける。",
+      "scenes": [
+        "modern-c05-l24-p03-075"
+      ]
+    },
+    {
+      "sourceLine": 523,
+      "topic": "条約",
+      "boundary": "幅広く協力することを約束、",
+      "reason": "協力の約束と加盟拡大を分ける。",
+      "scenes": [
+        "modern-c05-l24-p03-083"
+      ]
+    },
+    {
+      "sourceLine": 533,
+      "topic": "12カ国",
+      "boundary": "計12カ国だったけど、",
+      "reason": "当初の参加国と参加の拡大を分ける。",
+      "scenes": [
+        "modern-c05-l24-p03-090"
+      ]
+    }
+  ]
+}
