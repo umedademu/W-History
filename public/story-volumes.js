@@ -1,5 +1,5 @@
 import {bookChapters} from './book-chapters.js?v=0.068';
-import {modernSeries} from './modern-volumes.js?v=0.135';
+import {modernSeries} from './modern-volumes.js?v=0.136';
 // 書籍の章・回・節の順に並べる。章内の番号は章ごとに振り直す。
 export const series=bookChapters.flatMap(chapter=>chapter.volumes);
 

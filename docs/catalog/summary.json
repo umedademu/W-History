@@ -1,7 +1,7 @@
 {
-  "version": "0.135",
-  "parts": 231,
-  "pages": 5060,
+  "version": "0.136",
+  "parts": 234,
+  "pages": 5344,
   "chapters": [
     {
       "chapter": 1,
@@ -2416,8 +2416,8 @@
     {
       "book": "modern",
       "title": "近代・現代",
-      "parts": 103,
-      "pages": 4047,
+      "parts": 106,
+      "pages": 4331,
       "chapters": [
         {
           "chapter": 1,
@@ -3202,6 +3202,10 @@
             {
               "lesson": 25,
               "title": "戦後の西アジア・アフリカ"
+            },
+            {
+              "lesson": 26,
+              "title": "冷戦終結後の世界（1990〜）"
             }
           ],
           "volumes": [
@@ -3380,6 +3384,30 @@
               "lesson": 25,
               "part": 3,
               "pages": 107
+            },
+            {
+              "id": "modern-c05-l26-p01",
+              "label": "冷戦終結後の欧米諸国",
+              "number": "23",
+              "lesson": 26,
+              "part": 1,
+              "pages": 138
+            },
+            {
+              "id": "modern-c05-l26-p02",
+              "label": "現代の諸問題",
+              "number": "24",
+              "lesson": 26,
+              "part": 2,
+              "pages": 72
+            },
+            {
+              "id": "modern-c05-l26-p03",
+              "label": "地域紛争・民族紛争の激化",
+              "number": "25",
+              "lesson": 26,
+              "part": 3,
+              "pages": 74
             }
           ]
         }

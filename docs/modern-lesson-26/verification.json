@@ -1,0 +1,556 @@
+{
+  "passed": true,
+  "date": "2026-10-07",
+  "version": "0.136",
+  "lesson": 26,
+  "source": {
+    "sha256": "1cc50ca2847ff2734d30560c5c4c8e4c9228396f8399477ced4d24fdf97bab34",
+    "pages": 22,
+    "pageRange": [
+      476,
+      497
+    ],
+    "lines": 602,
+    "bodyLines": 101,
+    "paragraphs": 87,
+    "pageConnections": 14,
+    "boldRanges": 572,
+    "rubyRanges": 137,
+    "fullPaperTextAttributesTablesPreserved": true,
+    "sharedFrameTokensConvertedOnly": [
+      584,
+      592
+    ],
+    "protectedFiles": [
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/01_オリエント・インドの古代文明/01_古代オリエント世界の成立.md",
+        "sha256": "f9024578a68f55bd9c978e6050b753e6668daf004b6b1f5c003b79293351c511"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/01_オリエント・インドの古代文明/02_古代オリエント世界の統一.md",
+        "sha256": "21719e63443aff70618fe3dbc98e62a720724bfdaac0617890069916a628876d"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/01_オリエント・インドの古代文明/03_古代インド.md",
+        "sha256": "ea929ebcb3bd84e693788cffacd07ca44e7d7971f9af136e73a9efc0270a2463"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/02_古代の地中海世界/04_古代ギリシア世界の成立.md",
+        "sha256": "be16e648bfaab3c69e9173a7af17045d48f11ae01a5f51c1aaa520b97cdeeaa8"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/02_古代の地中海世界/05_ポリス社会の崩壊とヘレニズム.md",
+        "sha256": "20c99a00c21be93f3587cae0e30e81a3fca5392a83c1ac7079d90c5ab2ac94ec"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/02_古代の地中海世界/06_ローマ共和政.md",
+        "sha256": "ed45db4cea5eb6a895d56f5c7269080de5b182fbba3fe549bffa809160b46c07"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/02_古代の地中海世界/07_ローマ帝国とキリスト教.md",
+        "sha256": "a885ff13c6979125822b3156d526d72fff1cadc30a3c2a85a6488ecf006e6178"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/03_古代の東アジア/08_古代中国①（中国文明〜秦）.md",
+        "sha256": "1ad91d67c3d7df94e6c20240a7afb3a714218cd41ebe4fd7ac5ac5922035c358"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/03_古代の東アジア/09_古代中国②（漢〜魏晋南北朝時代）.md",
+        "sha256": "9f798bbe2b4ce8a7bede47a6b433699951c413785f7760fd9dfc80f09174d45a"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/03_古代の東アジア/10_古代中国③（隋〜唐）.md",
+        "sha256": "3db1c6d9c12adcb8b06d2b7d087858c644b425824b66d1ddca6b2bf70126ebcb"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/04_中世ヨーロッパ/11_ゲルマン人の移動とフランク王国.md",
+        "sha256": "ec3676c9f4862f62ef1d674ddcd4194a5e1a1fc6cbf2dffcdb5234cbc1523aec"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/04_中世ヨーロッパ/12_封建社会の形成とカトリック教会の発展.md",
+        "sha256": "3890bafd22ffb7424c78bed641efea8a33510bb002f7fc03fd484b693f040dc8"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/04_中世ヨーロッパ/13_ビザンツ帝国と中世の東欧.md",
+        "sha256": "f11fc57de9688ba60149815f419dd9a046fb3aec87095d34d7aa64acac99fc45"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/04_中世ヨーロッパ/14_十字軍と封建社会の変容.md",
+        "sha256": "4b61d500da44985ee2038e894bdda94f8b07c26724c0f56b452d6a5f03369ac0"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/04_中世ヨーロッパ/15_中世の西ヨーロッパ諸国.md",
+        "sha256": "96ec4b05542cc97e86e9075dcb66d849a4fc4d9f9ebf9683c127d04152b25df3"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/05_東アジア世界の変容/16_中華世界の変容（五代十国〜宋）.md",
+        "sha256": "c964833191e1b30a0e9a1891e3a1b48a690d70456d45712039d6771c5aad7ba9"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/05_東アジア世界の変容/17_モンゴル帝国の時代.md",
+        "sha256": "6d7d7728c89213c6195ec7d0c97deda789a47b87a3dd5f8462af4610e225e2ec"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/05_東アジア世界の変容/18_中華帝国の繁栄（明・清）.md",
+        "sha256": "7893c644440a9975278b1d74f851d3981521482d5679dfd2a00b1023db23aa08"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/05_東アジア世界の変容/19_東南アジア世界.md",
+        "sha256": "49d4bd12ef5c2b6c2fc8899057f39398100f6abedbf12f611f934396ce68604a"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/06_イスラーム世界/20_イスラーム世界の形成.md",
+        "sha256": "18bd3156f93c4ce96bc0911087a6a6963677888b45e08f2e5c76b534cd9de116"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/06_イスラーム世界/21_イスラーム専制帝国の繁栄.md",
+        "sha256": "db5cfc267ecb6fa1fe5f0d816d705a46a235b0d04f301dad39320e3d0da6e96b"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/07_近代ヨーロッパの幕開け/22_ルネサンスと大航海時代.md",
+        "sha256": "09f70077edde0d572520c38428b70326db06284c5a6b114fb09e649df95928e6"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/07_近代ヨーロッパの幕開け/23_宗教改革.md",
+        "sha256": "19022d9c8737d6168fd7031032ca610eb4fc1c83d824693dd08260dc22b669a5"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/07_近代ヨーロッパの幕開け/24_近世のヨーロッパ①（スペイン・オランダ）.md",
+        "sha256": "c7eec2d9ded4ce34e96bfe55e32516d426c1ac8e1c5d9c740f34286df8771341"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/07_近代ヨーロッパの幕開け/25_近世のヨーロッパ②（イギリス・フランス）.md",
+        "sha256": "f253084f54c6e39df1fee2d7e648a7b5be42ebe5d4eec27ff6847db16591811d"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/07_近代ヨーロッパの幕開け/26_近世のヨーロッパ③（ドイツ・ロシア）.md",
+        "sha256": "b4a1238a4f5bc5cbf955b68706c4dd88d3e32b7dc50d1f4233ab356508540e2c"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/07_近代ヨーロッパの幕開け/27_産業革命とアメリカ独立革命.md",
+        "sha256": "9f0b6c49716753f012caa205cd1174d7bb0778d56158507802cddc7c88cd3900"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/07_近代ヨーロッパの幕開け/28_フランス革命.md",
+        "sha256": "e68ec2d8e00ebc5e958edd524bb822702408d5fadbb07f7913f8ef2485e217f7"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/07_近代ヨーロッパの幕開け/29_ナポレオンの時代.md",
+        "sha256": "ff758ca021ea934556aa5284644ef7a79deb4d8df2f58bca7e0166603c020828"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/07_近代ヨーロッパの幕開け/30_17〜18世紀のヨーロッパ文化.md",
+        "sha256": "d9fac3ba70c7211c292cb9669f361c7072fc09431fd2d70d1f1b17bb927e259d"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/sekai_shi_tankyu_mokuji.md",
+        "sha256": "4710c02be0c1de8628b3c78cbd746a60564f35ac9f228a25b96f218048637697"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/world-history-so-question-types.md",
+        "sha256": "0f20e1404f95f5b39cf60881593939a22e44338f0c419d39976d9be3cc6a0a93"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/古代・中世・近世/world-history-source-md-csv-generation.md",
+        "sha256": "f6c7e28c8e1f512b12a698ce97167c65865060dbb7697a8c89d6cf3bb96f6160"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/01_国民国家の形成/01_ウィーン体制とその崩壊.md",
+        "sha256": "165ddb691e4973afe09973efed87ac688207227b196b29359b37b716976e6cad"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/01_国民国家の形成/02_イギリスの自由主義とフランス第二帝政.md",
+        "sha256": "146b4662b580b1e418a0372071d1cb058d328086d671f0af9918d192c08f7d95"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/01_国民国家の形成/03_アメリカ合衆国の発展.md",
+        "sha256": "72fca4fe17c9b56f4a384f31d1f88792332f5ae71ddde72902fd2d5483353741"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/01_国民国家の形成/04_イタリア・ドイツの統一.md",
+        "sha256": "5222e5c09e3975b68718e5e2046deb9788a09d032cee080b35d94ee0840b8fbd"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/01_国民国家の形成/05_ロシアと東方問題.md",
+        "sha256": "f061a5cc959ed1869062f43104dc31a5d221133a2c7a5c21675607723abd52d1"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/01_国民国家の形成/06_19世紀のヨーロッパ文化.md",
+        "sha256": "af46239545496b762e50752e37b8e0088e105bb2530e343282e0faff0338cf24"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/02_列強の侵略とアジアの変革/07_近代の西アジア.md",
+        "sha256": "c088d4763a1afc9d04d628565e3be75bd9ea4b905fe4357a8fdd45233268384e"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/02_列強の侵略とアジアの変革/08_近代のインド・東南アジア.md",
+        "sha256": "e7632b36c6e6aacbca0f061ed5609a393fb16bc945f9d77bcd0f2329033f7c8d"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/02_列強の侵略とアジアの変革/09_近代の東アジア①.md",
+        "sha256": "298ad2bac1aa8824ecac56a7816497b46efda2cc72de85bdf29c293c96004018"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/02_列強の侵略とアジアの変革/10_近代の東アジア②.md",
+        "sha256": "4caf2efbb5c8255cf49d39c16da69db58ba4e447e222ed0bfc2224cfd5725d9f"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/03_帝国主義と第一次世界大戦/11_帝国主義とアフリカ分割.md",
+        "sha256": "46274fb1eae774d30ce9d96d54c12a29e68200018eac6e68266811f5876f3f11"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/03_帝国主義と第一次世界大戦/12_帝国主義時代の欧米諸国.md",
+        "sha256": "a081d0bbc3fd393b9f054213bf554bcc72ea6b2cf6f06263f72ca23589999215"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/03_帝国主義と第一次世界大戦/13_第一次世界大戦とロシア革命.md",
+        "sha256": "2b7b296d9009370b4b3e728f910c668bff8a0fb82883de7c39e4b70e93b8b752"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/04_戦間期と第二次世界大戦/14_ヴェルサイユ体制とワシントン体制.md",
+        "sha256": "8d397d44e81b32b763d55534b612851c3fff91c30d7008ed4883567853bc17c2"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/04_戦間期と第二次世界大戦/15_戦間期の欧米諸国_世界恐慌以前.md",
+        "sha256": "a41691ce04c38fceb2e201e84821e8040ca88ac5442ff65bbc7b8a2a51fc52b8"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/04_戦間期と第二次世界大戦/16_戦間期の西アジア・南アジア・東南アジア.md",
+        "sha256": "d977f9ae1418f2c95aaa0c0c9f940bca434ad3acd6750e26503d53b88af1c3b6"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/04_戦間期と第二次世界大戦/17_戦間期の東アジア.md",
+        "sha256": "d5252e52f065e7536e9b252994f3fb299df39b1db8ceef306ba80b61a8434d6a"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/04_戦間期と第二次世界大戦/18_世界恐慌とその影響.md",
+        "sha256": "e033d17359d98c85e493d2788cb99edfbd5fd1e3a81db8545f18209c78178039"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/04_戦間期と第二次世界大戦/19_第二次世界大戦.md",
+        "sha256": "9de6907328392572718fccc9afd7da98cb1e7a881472dd4f34a99166d00c4e39"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/05_戦後の世界/20_冷戦の展開①（1945〜1955）.md",
+        "sha256": "10d88b3376071f5fb9859f8f563683900977b4b8c02f6d50428419283d90ee26"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/05_戦後の世界/21_冷戦の展開②（1956〜1969）.md",
+        "sha256": "119c28cea82ecea1f819921d5a45010d7fc4e9bb1f0f3cdfb71fd4e95cce8c34"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/05_戦後の世界/22_冷戦の展開③（1970〜1991）.md",
+        "sha256": "0da50964243b348d8aecd1dfb23f01d40d96f6ac7980d0ebf0d6f410017bd305"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/05_戦後の世界/23_戦後の東アジア.md",
+        "sha256": "e2e473a392bc6ca864581a1010d56baeb1d78c27001c69bc351f619f379afc47"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/05_戦後の世界/24_戦後のインド・東南アジア.md",
+        "sha256": "380760ad9acb574a100fbd7ad3b8dbdc9067babb3d403958f82631a622df86d6"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/05_戦後の世界/25_戦後の西アジア・アフリカ.md",
+        "sha256": "dcba7ea48ed198d223c1821c6c8d1574ec22402b5736fe865e0bba21c979c81a"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/05_戦後の世界/26_冷戦終結後の世界（1990〜）.md",
+        "sha256": "1cc50ca2847ff2734d30560c5c4c8e4c9228396f8399477ced4d24fdf97bab34"
+      },
+      {
+        "file": "C:/Users/USER/Desktop/W-History/sources/近代・現代/sekai_shi_tankyu_mokuji.md",
+        "sha256": "766d34236036053f9847d1128cc98151b8f359baf91503c173a62b8699f11c10"
+      }
+    ]
+  },
+  "counts": {
+    "parts": 3,
+    "perPart": [
+      138,
+      72,
+      74
+    ],
+    "scenes": 284,
+    "diagrams": 87,
+    "newImages": 45,
+    "reusedImages": 38,
+    "images": 83,
+    "movements": 21,
+    "informationConnections": 78
+  },
+  "checks": [
+    {
+      "command": "npm run build:source",
+      "passed": true
+    },
+    {
+      "command": "npm run check:modern:26",
+      "passed": true
+    },
+    {
+      "command": "npm run check",
+      "passed": true
+    },
+    {
+      "command": "npm run build",
+      "passed": true
+    },
+    {
+      "command": "npm run check:modern:26:browser",
+      "passed": true
+    },
+    {
+      "command": "npm run check:modern:browser",
+      "passed": true
+    }
+  ],
+  "browser": {
+    "inspected": 1136,
+    "widths": [
+      1440,
+      390
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "referenceOpenCloseChecks": 348,
+    "pages": [
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497
+    ],
+    "externalPages": [],
+    "diagramCount": 87,
+    "errors": [],
+    "issues": [],
+    "audioDisabled": true,
+    "outputDirectory": "C:/Users/USER/AppData/Local/Temp/w-history-modern-browser-26-sjK1nS",
+    "motion": {
+      "physicalMovements": 21,
+      "staticScenes": 102,
+      "switches": 0,
+      "checkedScenes": 120,
+      "replay": true,
+      "cancellation": true,
+      "informationConnectionsStable": 78
+    }
+  },
+  "firstLessonRegression": {
+    "inspected": 252,
+    "errors": [],
+    "issues": [],
+    "outputDirectory": "C:/Users/USER/AppData/Local/Temp/w-history-modern-browser-6M4s56"
+  },
+  "appearance": {
+    "newImagesReviewedInContactSheet": 45,
+    "criticalScenesPhotographed": 23,
+    "themeCases": 46,
+    "screenshots": 138,
+    "reviewedScreenshots": [
+      "us-uk-iraq-light-map.png",
+      "scientists-reference-dark-illustration.png",
+      "bosnia-entities-light-diagram.png",
+      "iran-agreement-light-illustration.png",
+      "tunisian-protests-dark-illustration.png",
+      "okinawa-light-diagram.png",
+      "replenishment-dark-map.png",
+      "paper-years-390-light.png",
+      "paper-heading-1-390-dark.png",
+      "paper-syria-1440-dark.png",
+      "paper-japan-390-dark.png"
+    ],
+    "sourceScreenshots": [
+      {
+        "theme": "light",
+        "width": 1440,
+        "key": "heading-1",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-heading-1-1440-light.png"
+      },
+      {
+        "theme": "light",
+        "width": 1440,
+        "key": "heading-2",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-heading-2-1440-light.png"
+      },
+      {
+        "theme": "light",
+        "width": 1440,
+        "key": "years",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-years-1440-light.png"
+      },
+      {
+        "theme": "light",
+        "width": 1440,
+        "key": "japan",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-japan-1440-light.png"
+      },
+      {
+        "theme": "light",
+        "width": 1440,
+        "key": "syria",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-syria-1440-light.png"
+      },
+      {
+        "theme": "dark",
+        "width": 1440,
+        "key": "heading-1",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-heading-1-1440-dark.png"
+      },
+      {
+        "theme": "dark",
+        "width": 1440,
+        "key": "heading-2",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-heading-2-1440-dark.png"
+      },
+      {
+        "theme": "dark",
+        "width": 1440,
+        "key": "years",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-years-1440-dark.png"
+      },
+      {
+        "theme": "dark",
+        "width": 1440,
+        "key": "japan",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-japan-1440-dark.png"
+      },
+      {
+        "theme": "dark",
+        "width": 1440,
+        "key": "syria",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-syria-1440-dark.png"
+      },
+      {
+        "theme": "light",
+        "width": 390,
+        "key": "heading-1",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-heading-1-390-light.png"
+      },
+      {
+        "theme": "light",
+        "width": 390,
+        "key": "heading-2",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-heading-2-390-light.png"
+      },
+      {
+        "theme": "light",
+        "width": 390,
+        "key": "years",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-years-390-light.png"
+      },
+      {
+        "theme": "light",
+        "width": 390,
+        "key": "japan",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-japan-390-light.png"
+      },
+      {
+        "theme": "light",
+        "width": 390,
+        "key": "syria",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-syria-390-light.png"
+      },
+      {
+        "theme": "dark",
+        "width": 390,
+        "key": "heading-1",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-heading-1-390-dark.png"
+      },
+      {
+        "theme": "dark",
+        "width": 390,
+        "key": "heading-2",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-heading-2-390-dark.png"
+      },
+      {
+        "theme": "dark",
+        "width": 390,
+        "key": "years",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-years-390-dark.png"
+      },
+      {
+        "theme": "dark",
+        "width": 390,
+        "key": "japan",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-japan-390-dark.png"
+      },
+      {
+        "theme": "dark",
+        "width": 390,
+        "key": "syria",
+        "file": "C:/Users/USER/AppData/Local/Temp/w-history-modern-lesson26-20261007/appearance-review/paper-syria-390-dark.png"
+      }
+    ],
+    "originalBorders": 36,
+    "borderChecks": 164,
+    "minimumBorderContrast": 3.8809685906702147,
+    "whiteAndGrayGreenTextChecks": 192,
+    "minimumSelectedTextContrast": 4.533053506493453
+  },
+  "preservation": {
+    "sources": 60,
+    "preexistingChanges": 2,
+    "passed": true
+  },
+  "diffReview": {
+    "passed": true,
+    "version": "0.136",
+    "trackedChanges": 298,
+    "cacheOnly": 276,
+    "structural": [
+      "public/book-collections.js",
+      "public/changelog.html",
+      "public/index.html",
+      "public/map-name-coverage.js",
+      "public/modern-lessons.js",
+      "public/modern-volumes.js"
+    ],
+    "protectedSourceFiles": 60,
+    "protectedPreexistingFiles": 2
+  },
+  "limitations": [
+    "人物と集団の絵は学習用の一般像。精密な肖像・実物の復元ではない。",
+    "ビン＝ラーディン本人画は生成側の制限で未制作。名前と原文を保持し出来事を図解で示す。",
+    "原書の2023年9月の時点、年次、政治評価、当時の現在という語を保持する。",
+    "地図は概略参考点。未記載の基地・全旅程・撤退先・難民の到着地を補わない。"
+  ],
+  "verificationRepairs": [
+    {
+      "issue": "497頁の装飾枠が5段落を包み、場面別にそのまま分割できない。",
+      "resolution": "原書参照では全属性と5段落を一つの枠に保持。本文では字句・内側の装飾を保持し外枠だけ同じ表示区画にした。"
+    },
+    {
+      "issue": "主語が省略されたオバマの訪問と鳩山の姓名の対応。",
+      "resolution": "訪問に原書478頁の見える注釈を付け、鳩山由紀夫の本人の対応を原文の別表記として記録した。"
+    },
+    {
+      "issue": "暗い画面の白背景見出しと緑の囲み、淡い外枠の読みづらさ。",
+      "resolution": "第26回のCSSだけで表示色を調整。元の属性・形・太さを保持し、境界の明暗比3以上、選択した白背景・灰緑字の文字の明暗比4.5以上を確認した。"
+    },
+    {
+      "issue": "通常再生の静止指定に見出し・吹き出しの4行が混じっていた。",
+      "resolution": "本文の実際の場面に指定を直し、全表示検査と途中・到着・再表示・取消を再実行した。"
+    }
+  ]
+}

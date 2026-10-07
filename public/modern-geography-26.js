@@ -1,0 +1,3619 @@
+// 地域・都市・川・組織・本人を区別する。本人の座標は補わない。
+export const modernNameCatalog=[
+  {
+    "name": "アメリカ",
+    "key": "アメリカ",
+    "kind": "region",
+    "points": [
+      [
+        -98,
+        39
+      ]
+    ],
+    "family": "アメリカ"
+  },
+  {
+    "name": "イギリス",
+    "key": "イギリス",
+    "kind": "region",
+    "points": [
+      [
+        -2,
+        54
+      ]
+    ],
+    "family": "イギリス"
+  },
+  {
+    "name": "日本",
+    "key": "日本",
+    "kind": "region",
+    "points": [
+      [
+        138,
+        37
+      ]
+    ],
+    "family": "日本"
+  },
+  {
+    "name": "フランス",
+    "key": "フランス",
+    "kind": "region",
+    "points": [
+      [
+        2,
+        46
+      ]
+    ],
+    "family": "フランス"
+  },
+  {
+    "name": "ドイツ",
+    "key": "ドイツ",
+    "kind": "region",
+    "points": [
+      [
+        10.5,
+        51.2
+      ]
+    ],
+    "family": "ドイツ"
+  },
+  {
+    "name": "西ドイツ",
+    "key": "西ドイツ",
+    "kind": "region",
+    "points": [
+      [
+        8.5,
+        51
+      ]
+    ],
+    "family": "西ドイツ"
+  },
+  {
+    "name": "東ドイツ",
+    "key": "東ドイツ",
+    "kind": "region",
+    "points": [
+      [
+        12.5,
+        52
+      ]
+    ],
+    "family": "東ドイツ"
+  },
+  {
+    "name": "ロシア",
+    "key": "ロシア",
+    "kind": "region",
+    "points": [
+      [
+        60,
+        57
+      ]
+    ],
+    "family": "ロシア"
+  },
+  {
+    "name": "ロシア連邦",
+    "key": "ロシア連邦",
+    "kind": "region",
+    "points": [
+      [
+        60,
+        57
+      ]
+    ],
+    "family": "ロシア"
+  },
+  {
+    "name": "ソ連",
+    "key": "ソ連",
+    "kind": "region",
+    "points": [
+      [
+        60,
+        57
+      ]
+    ],
+    "family": "ソ連"
+  },
+  {
+    "name": "中国",
+    "key": "中国",
+    "kind": "region",
+    "points": [
+      [
+        104,
+        35
+      ]
+    ],
+    "family": "中国"
+  },
+  {
+    "name": "韓国",
+    "key": "韓国",
+    "kind": "region",
+    "points": [
+      [
+        128,
+        36.3
+      ]
+    ],
+    "family": "韓国"
+  },
+  {
+    "name": "北朝鮮",
+    "key": "北朝鮮",
+    "kind": "region",
+    "points": [
+      [
+        127.2,
+        40.3
+      ]
+    ],
+    "family": "北朝鮮"
+  },
+  {
+    "name": "イタリア",
+    "key": "イタリア",
+    "kind": "region",
+    "points": [
+      [
+        12.5,
+        42.5
+      ]
+    ],
+    "family": "イタリア"
+  },
+  {
+    "name": "カナダ",
+    "key": "カナダ",
+    "kind": "region",
+    "points": [
+      [
+        -106,
+        57
+      ]
+    ],
+    "family": "カナダ"
+  },
+  {
+    "name": "メキシコ",
+    "key": "メキシコ",
+    "kind": "region",
+    "points": [
+      [
+        -102,
+        23.5
+      ]
+    ],
+    "family": "メキシコ"
+  },
+  {
+    "name": "パナマ",
+    "key": "パナマ",
+    "kind": "region",
+    "points": [
+      [
+        -80,
+        9
+      ]
+    ],
+    "family": "パナマ"
+  },
+  {
+    "name": "キューバ",
+    "key": "キューバ",
+    "kind": "region",
+    "points": [
+      [
+        -79,
+        22
+      ]
+    ],
+    "family": "キューバ"
+  },
+  {
+    "name": "アフガニスタン",
+    "key": "アフガニスタン",
+    "kind": "region",
+    "points": [
+      [
+        66,
+        34
+      ]
+    ],
+    "family": "アフガニスタン"
+  },
+  {
+    "name": "イラン",
+    "key": "イラン",
+    "kind": "region",
+    "points": [
+      [
+        54,
+        32
+      ]
+    ],
+    "family": "イラン"
+  },
+  {
+    "name": "イラク",
+    "key": "イラク",
+    "kind": "region",
+    "points": [
+      [
+        43.5,
+        33
+      ]
+    ],
+    "family": "イラク"
+  },
+  {
+    "name": "シリア",
+    "key": "シリア",
+    "kind": "region",
+    "points": [
+      [
+        38.8,
+        35
+      ]
+    ],
+    "family": "シリア"
+  },
+  {
+    "name": "エジプト",
+    "key": "エジプト",
+    "kind": "region",
+    "points": [
+      [
+        30,
+        26
+      ]
+    ],
+    "family": "エジプト"
+  },
+  {
+    "name": "リビア",
+    "key": "リビア",
+    "kind": "region",
+    "points": [
+      [
+        17,
+        27
+      ]
+    ],
+    "family": "リビア"
+  },
+  {
+    "name": "チュニジア",
+    "key": "チュニジア",
+    "kind": "region",
+    "points": [
+      [
+        9.5,
+        34
+      ]
+    ],
+    "family": "チュニジア"
+  },
+  {
+    "name": "サウジアラビア",
+    "key": "サウジアラビア",
+    "kind": "region",
+    "points": [
+      [
+        44,
+        24
+      ]
+    ],
+    "family": "サウジアラビア"
+  },
+  {
+    "name": "イスラエル",
+    "key": "イスラエル",
+    "kind": "region",
+    "points": [
+      [
+        35.05,
+        31.4
+      ]
+    ],
+    "family": "イスラエル"
+  },
+  {
+    "name": "パレスチナ",
+    "key": "パレスチナ",
+    "kind": "region",
+    "points": [
+      [
+        35.2,
+        31.9
+      ]
+    ],
+    "family": "パレスチナ"
+  },
+  {
+    "name": "ウクライナ",
+    "key": "ウクライナ",
+    "kind": "region",
+    "points": [
+      [
+        32,
+        49
+      ]
+    ],
+    "family": "ウクライナ"
+  },
+  {
+    "name": "ウクライナ東部",
+    "key": "ウクライナ東部",
+    "kind": "region",
+    "points": [
+      [
+        37.8,
+        48.3
+      ]
+    ],
+    "family": "ウクライナ東部"
+  },
+  {
+    "name": "チェチェン",
+    "key": "チェチェン",
+    "kind": "region",
+    "points": [
+      [
+        45.6,
+        43.1
+      ]
+    ],
+    "family": "チェチェン"
+  },
+  {
+    "name": "クリミア半島",
+    "key": "クリミア半島",
+    "kind": "region",
+    "points": [
+      [
+        34.2,
+        45.3
+      ]
+    ],
+    "family": "クリミア半島"
+  },
+  {
+    "name": "クリミア自治共和国",
+    "key": "クリミア自治共和国",
+    "kind": "region",
+    "points": [
+      [
+        34.2,
+        45.3
+      ]
+    ],
+    "family": "クリミア半島"
+  },
+  {
+    "name": "ジョージア",
+    "key": "ジョージア",
+    "kind": "region",
+    "points": [
+      [
+        44.5,
+        42
+      ]
+    ],
+    "family": "ジョージア"
+  },
+  {
+    "name": "グルジア",
+    "key": "グルジア",
+    "kind": "region",
+    "points": [
+      [
+        44.5,
+        42
+      ]
+    ],
+    "family": "ジョージア"
+  },
+  {
+    "name": "南オセチア州",
+    "key": "南オセチア州",
+    "kind": "region",
+    "points": [
+      [
+        44,
+        42.3
+      ]
+    ],
+    "family": "南オセチア"
+  },
+  {
+    "name": "南オセチア",
+    "key": "南オセチア",
+    "kind": "region",
+    "points": [
+      [
+        44,
+        42.3
+      ]
+    ],
+    "family": "南オセチア"
+  },
+  {
+    "name": "北オセチア",
+    "key": "北オセチア",
+    "kind": "region",
+    "points": [
+      [
+        44.35,
+        43.1
+      ]
+    ],
+    "family": "北オセチア"
+  },
+  {
+    "name": "カザフスタン",
+    "key": "カザフスタン",
+    "kind": "region",
+    "points": [
+      [
+        67,
+        48
+      ]
+    ],
+    "family": "カザフスタン"
+  },
+  {
+    "name": "トルクメニスタン",
+    "key": "トルクメニスタン",
+    "kind": "region",
+    "points": [
+      [
+        58,
+        39.5
+      ]
+    ],
+    "family": "トルクメニスタン"
+  },
+  {
+    "name": "アゼルバイジャン",
+    "key": "アゼルバイジャン",
+    "kind": "region",
+    "points": [
+      [
+        48,
+        40
+      ]
+    ],
+    "family": "アゼルバイジャン"
+  },
+  {
+    "name": "ベラルーシ",
+    "key": "ベラルーシ",
+    "kind": "region",
+    "points": [
+      [
+        28,
+        54
+      ]
+    ],
+    "family": "ベラルーシ"
+  },
+  {
+    "name": "モルドヴァ",
+    "key": "モルドヴァ",
+    "kind": "region",
+    "points": [
+      [
+        28.5,
+        47
+      ]
+    ],
+    "family": "モルドヴァ"
+  },
+  {
+    "name": "ヨーロッパ",
+    "key": "ヨーロッパ",
+    "kind": "region",
+    "points": [
+      [
+        15,
+        50
+      ]
+    ],
+    "family": "ヨーロッパ"
+  },
+  {
+    "name": "西欧",
+    "key": "西欧",
+    "kind": "region",
+    "points": [
+      [
+        2,
+        49
+      ]
+    ],
+    "family": "西ヨーロッパ"
+  },
+  {
+    "name": "西ヨーロッパ",
+    "key": "西ヨーロッパ",
+    "kind": "region",
+    "points": [
+      [
+        2,
+        49
+      ]
+    ],
+    "family": "西ヨーロッパ"
+  },
+  {
+    "name": "東欧",
+    "key": "東欧",
+    "kind": "region",
+    "points": [
+      [
+        22,
+        48
+      ]
+    ],
+    "family": "東ヨーロッパ"
+  },
+  {
+    "name": "北欧",
+    "key": "北欧",
+    "kind": "region",
+    "points": [
+      [
+        20,
+        63
+      ]
+    ],
+    "family": "北欧"
+  },
+  {
+    "name": "アジア",
+    "key": "アジア",
+    "kind": "region",
+    "points": [
+      [
+        90,
+        30
+      ]
+    ],
+    "family": "アジア"
+  },
+  {
+    "name": "中央アジア",
+    "key": "中央アジア",
+    "kind": "region",
+    "points": [
+      [
+        65,
+        43
+      ]
+    ],
+    "family": "中央アジア"
+  },
+  {
+    "name": "アフリカ",
+    "key": "アフリカ",
+    "kind": "region",
+    "points": [
+      [
+        20,
+        0
+      ]
+    ],
+    "family": "アフリカ"
+  },
+  {
+    "name": "北アフリカ",
+    "key": "北アフリカ",
+    "kind": "region",
+    "points": [
+      [
+        20,
+        28
+      ]
+    ],
+    "family": "北アフリカ"
+  },
+  {
+    "name": "中南米",
+    "key": "中南米",
+    "kind": "region",
+    "points": [
+      [
+        -70,
+        -12
+      ]
+    ],
+    "family": "中南米"
+  },
+  {
+    "name": "中東",
+    "key": "中東",
+    "kind": "region",
+    "points": [
+      [
+        42,
+        30
+      ]
+    ],
+    "family": "中東"
+  },
+  {
+    "name": "ポーランド",
+    "key": "ポーランド",
+    "kind": "region",
+    "points": [
+      [
+        19,
+        52
+      ]
+    ],
+    "family": "ポーランド"
+  },
+  {
+    "name": "フィンランド",
+    "key": "フィンランド",
+    "kind": "region",
+    "points": [
+      [
+        26,
+        64
+      ]
+    ],
+    "family": "フィンランド"
+  },
+  {
+    "name": "スウェーデン",
+    "key": "スウェーデン",
+    "kind": "region",
+    "points": [
+      [
+        16,
+        62
+      ]
+    ],
+    "family": "スウェーデン"
+  },
+  {
+    "name": "デンマーク",
+    "key": "デンマーク",
+    "kind": "region",
+    "points": [
+      [
+        10,
+        56
+      ]
+    ],
+    "family": "デンマーク"
+  },
+  {
+    "name": "オーストリア",
+    "key": "オーストリア",
+    "kind": "region",
+    "points": [
+      [
+        14,
+        48
+      ]
+    ],
+    "family": "オーストリア"
+  },
+  {
+    "name": "チェコ",
+    "key": "チェコ",
+    "kind": "region",
+    "points": [
+      [
+        15.5,
+        49.8
+      ]
+    ],
+    "family": "チェコ"
+  },
+  {
+    "name": "スロヴァキア",
+    "key": "スロヴァキア",
+    "kind": "region",
+    "points": [
+      [
+        19.5,
+        48.7
+      ]
+    ],
+    "family": "スロヴァキア"
+  },
+  {
+    "name": "ハンガリー",
+    "key": "ハンガリー",
+    "kind": "region",
+    "points": [
+      [
+        19.5,
+        47
+      ]
+    ],
+    "family": "ハンガリー"
+  },
+  {
+    "name": "バルト3国",
+    "key": "バルト3国",
+    "kind": "region",
+    "points": [
+      [
+        25,
+        57
+      ]
+    ],
+    "family": "バルト三国"
+  },
+  {
+    "name": "マルタ",
+    "key": "マルタ",
+    "kind": "region",
+    "points": [
+      [
+        14.4,
+        35.9
+      ]
+    ],
+    "family": "マルタ"
+  },
+  {
+    "name": "キプロス",
+    "key": "キプロス",
+    "kind": "region",
+    "points": [
+      [
+        33.1,
+        35
+      ]
+    ],
+    "family": "キプロス"
+  },
+  {
+    "name": "ブルガリア",
+    "key": "ブルガリア",
+    "kind": "region",
+    "points": [
+      [
+        25,
+        43
+      ]
+    ],
+    "family": "ブルガリア"
+  },
+  {
+    "name": "ルーマニア",
+    "key": "ルーマニア",
+    "kind": "region",
+    "points": [
+      [
+        25,
+        46
+      ]
+    ],
+    "family": "ルーマニア"
+  },
+  {
+    "name": "ギリシア",
+    "key": "ギリシア",
+    "kind": "region",
+    "points": [
+      [
+        23.5,
+        39
+      ]
+    ],
+    "family": "ギリシア"
+  },
+  {
+    "name": "スペイン",
+    "key": "スペイン",
+    "kind": "region",
+    "points": [
+      [
+        -4,
+        40
+      ]
+    ],
+    "family": "スペイン"
+  },
+  {
+    "name": "アイルランド",
+    "key": "アイルランド",
+    "kind": "region",
+    "points": [
+      [
+        -8,
+        53
+      ]
+    ],
+    "family": "アイルランド"
+  },
+  {
+    "name": "北アイルランド",
+    "key": "北アイルランド",
+    "kind": "region",
+    "points": [
+      [
+        -6.6,
+        54.6
+      ]
+    ],
+    "family": "北アイルランド"
+  },
+  {
+    "name": "スコットランド",
+    "key": "スコットランド",
+    "kind": "region",
+    "points": [
+      [
+        -4,
+        56.5
+      ]
+    ],
+    "family": "スコットランド"
+  },
+  {
+    "name": "ユーゴスラヴィア",
+    "key": "ユーゴスラヴィア",
+    "kind": "region",
+    "points": [
+      [
+        20.5,
+        44.5
+      ]
+    ],
+    "family": "ユーゴスラヴィア"
+  },
+  {
+    "name": "ユーゴ",
+    "key": "ユーゴ",
+    "kind": "region",
+    "points": [
+      [
+        20.5,
+        44.5
+      ]
+    ],
+    "family": "ユーゴスラヴィア"
+  },
+  {
+    "name": "新ユーゴスラヴィア連邦",
+    "key": "新ユーゴスラヴィア連邦",
+    "kind": "region",
+    "points": [
+      [
+        20.5,
+        44.5
+      ]
+    ],
+    "family": "新ユーゴ連邦"
+  },
+  {
+    "name": "新ユーゴ",
+    "key": "新ユーゴ",
+    "kind": "region",
+    "points": [
+      [
+        20.5,
+        44.5
+      ]
+    ],
+    "family": "新ユーゴ連邦"
+  },
+  {
+    "name": "セルビア",
+    "key": "セルビア",
+    "kind": "region",
+    "points": [
+      [
+        20.8,
+        44
+      ]
+    ],
+    "family": "セルビア"
+  },
+  {
+    "name": "スロヴェニア",
+    "key": "スロヴェニア",
+    "kind": "region",
+    "points": [
+      [
+        14.5,
+        46.2
+      ]
+    ],
+    "family": "スロヴェニア"
+  },
+  {
+    "name": "クロアティア",
+    "key": "クロアティア",
+    "kind": "region",
+    "points": [
+      [
+        16,
+        45.5
+      ]
+    ],
+    "family": "クロアティア"
+  },
+  {
+    "name": "ボスニア・ヘルツェゴヴィナ",
+    "key": "ボスニアヘルツェゴヴィナ",
+    "kind": "region",
+    "points": [
+      [
+        17.8,
+        44.2
+      ]
+    ],
+    "family": "ボスニア・ヘルツェゴヴィナ"
+  },
+  {
+    "name": "ボスニア",
+    "key": "ボスニア",
+    "kind": "region",
+    "points": [
+      [
+        17.8,
+        44.2
+      ]
+    ],
+    "family": "ボスニア・ヘルツェゴヴィナ"
+  },
+  {
+    "name": "モンテネグロ",
+    "key": "モンテネグロ",
+    "kind": "region",
+    "points": [
+      [
+        19.2,
+        42.7
+      ]
+    ],
+    "family": "モンテネグロ"
+  },
+  {
+    "name": "マケドニア",
+    "key": "マケドニア",
+    "kind": "region",
+    "points": [
+      [
+        21.7,
+        41.6
+      ]
+    ],
+    "family": "北マケドニア"
+  },
+  {
+    "name": "北マケドニア",
+    "key": "北マケドニア",
+    "kind": "region",
+    "points": [
+      [
+        21.7,
+        41.6
+      ]
+    ],
+    "family": "北マケドニア"
+  },
+  {
+    "name": "コソヴォ",
+    "key": "コソヴォ",
+    "kind": "region",
+    "points": [
+      [
+        21,
+        42.6
+      ]
+    ],
+    "family": "コソヴォ"
+  },
+  {
+    "name": "アルバニア",
+    "key": "アルバニア",
+    "kind": "region",
+    "points": [
+      [
+        20,
+        41
+      ]
+    ],
+    "family": "アルバニア"
+  },
+  {
+    "name": "タイ",
+    "key": "タイ",
+    "kind": "region",
+    "points": [
+      [
+        101,
+        15
+      ]
+    ],
+    "family": "タイ"
+  },
+  {
+    "name": "インドネシア",
+    "key": "インドネシア",
+    "kind": "region",
+    "points": [
+      [
+        118,
+        -3
+      ]
+    ],
+    "family": "インドネシア"
+  },
+  {
+    "name": "インド",
+    "key": "インド",
+    "kind": "region",
+    "points": [
+      [
+        79,
+        22
+      ]
+    ],
+    "family": "インド"
+  },
+  {
+    "name": "パキスタン",
+    "key": "パキスタン",
+    "kind": "region",
+    "points": [
+      [
+        69,
+        30
+      ]
+    ],
+    "family": "パキスタン"
+  },
+  {
+    "name": "南アフリカ",
+    "key": "南アフリカ",
+    "kind": "region",
+    "points": [
+      [
+        25,
+        -29
+      ]
+    ],
+    "family": "南アフリカ"
+  },
+  {
+    "name": "ブラジル",
+    "key": "ブラジル",
+    "kind": "region",
+    "points": [
+      [
+        -52,
+        -10
+      ]
+    ],
+    "family": "ブラジル"
+  },
+  {
+    "name": "オーストラリア",
+    "key": "オーストラリア",
+    "kind": "region",
+    "points": [
+      [
+        134,
+        -25
+      ]
+    ],
+    "family": "オーストラリア"
+  },
+  {
+    "name": "トルコ",
+    "key": "トルコ",
+    "kind": "region",
+    "points": [
+      [
+        35,
+        39
+      ]
+    ],
+    "family": "トルコ"
+  },
+  {
+    "name": "台湾",
+    "key": "台湾",
+    "kind": "region",
+    "points": [
+      [
+        121,
+        23.5
+      ]
+    ],
+    "family": "台湾"
+  },
+  {
+    "name": "フィリピン",
+    "key": "フィリピン",
+    "kind": "region",
+    "points": [
+      [
+        122,
+        12
+      ]
+    ],
+    "family": "フィリピン"
+  },
+  {
+    "name": "マレーシア",
+    "key": "マレーシア",
+    "kind": "region",
+    "points": [
+      [
+        102,
+        4
+      ]
+    ],
+    "family": "マレーシア"
+  },
+  {
+    "name": "ベトナム",
+    "key": "ベトナム",
+    "kind": "region",
+    "points": [
+      [
+        106,
+        16
+      ]
+    ],
+    "family": "ベトナム"
+  },
+  {
+    "name": "新疆ウイグル自治区",
+    "key": "新疆ウイグル自治区",
+    "kind": "region",
+    "points": [
+      [
+        85,
+        42
+      ]
+    ],
+    "family": "新疆ウイグル自治区"
+  },
+  {
+    "name": "香港",
+    "key": "香港",
+    "kind": "region",
+    "points": [
+      [
+        114.17,
+        22.3
+      ]
+    ],
+    "family": "香港"
+  },
+  {
+    "name": "カンボジア",
+    "key": "カンボジア",
+    "kind": "region",
+    "points": [
+      [
+        105,
+        12.7
+      ]
+    ],
+    "family": "カンボジア"
+  },
+  {
+    "name": "沖縄",
+    "key": "沖縄",
+    "kind": "region",
+    "points": [
+      [
+        127.9,
+        26.4
+      ]
+    ],
+    "family": "沖縄"
+  },
+  {
+    "name": "沖縄県",
+    "key": "沖縄県",
+    "kind": "region",
+    "points": [
+      [
+        127.9,
+        26.4
+      ]
+    ],
+    "family": "沖縄"
+  },
+  {
+    "name": "沖縄本島",
+    "key": "沖縄本島",
+    "kind": "region",
+    "points": [
+      [
+        127.85,
+        26.45
+      ]
+    ],
+    "family": "沖縄本島"
+  },
+  {
+    "name": "島根県",
+    "key": "島根県",
+    "kind": "region",
+    "points": [
+      [
+        132.5,
+        35.2
+      ]
+    ],
+    "family": "島根県"
+  },
+  {
+    "name": "ニューヨーク",
+    "key": "ニューヨーク",
+    "kind": "place",
+    "points": [
+      [
+        -74,
+        40.71
+      ]
+    ],
+    "family": "ニューヨーク"
+  },
+  {
+    "name": "ワシントン",
+    "key": "ワシントン",
+    "kind": "place",
+    "points": [
+      [
+        -77.04,
+        38.91
+      ]
+    ],
+    "family": "ワシントン"
+  },
+  {
+    "name": "モスクワ",
+    "key": "モスクワ",
+    "kind": "place",
+    "points": [
+      [
+        37.62,
+        55.75
+      ]
+    ],
+    "family": "モスクワ"
+  },
+  {
+    "name": "キーウ",
+    "key": "キーウ",
+    "kind": "place",
+    "points": [
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "family": "キーウ"
+  },
+  {
+    "name": "キエフ",
+    "key": "キエフ",
+    "kind": "place",
+    "points": [
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "family": "キーウ"
+  },
+  {
+    "name": "プラハ",
+    "key": "プラハ",
+    "kind": "place",
+    "points": [
+      [
+        14.42,
+        50.08
+      ]
+    ],
+    "family": "プラハ"
+  },
+  {
+    "name": "ムルロア環礁",
+    "key": "ムルロア環礁",
+    "kind": "place",
+    "points": [
+      [
+        -138.88,
+        -21.84
+      ]
+    ],
+    "family": "ムルロア環礁"
+  },
+  {
+    "name": "ビキニ環礁",
+    "key": "ビキニ環礁",
+    "kind": "place",
+    "points": [
+      [
+        165.38,
+        11.58
+      ]
+    ],
+    "family": "ビキニ環礁"
+  },
+  {
+    "name": "パグウォッシュ",
+    "key": "パグウォッシュ",
+    "kind": "place",
+    "points": [
+      [
+        -63.7,
+        45.85
+      ]
+    ],
+    "family": "パグウォッシュ"
+  },
+  {
+    "name": "ゲッティンゲン",
+    "key": "ゲッティンゲン",
+    "kind": "place",
+    "points": [
+      [
+        9.94,
+        51.53
+      ]
+    ],
+    "family": "ゲッティンゲン"
+  },
+  {
+    "name": "ストックホルム",
+    "key": "ストックホルム",
+    "kind": "place",
+    "points": [
+      [
+        18.06,
+        59.33
+      ]
+    ],
+    "family": "ストックホルム"
+  },
+  {
+    "name": "リオデジャネイロ",
+    "key": "リオデジャネイロ",
+    "kind": "place",
+    "points": [
+      [
+        -43.17,
+        -22.91
+      ]
+    ],
+    "family": "リオデジャネイロ"
+  },
+  {
+    "name": "京都",
+    "key": "京都",
+    "kind": "place",
+    "points": [
+      [
+        135.77,
+        35.01
+      ]
+    ],
+    "family": "京都"
+  },
+  {
+    "name": "パリ",
+    "key": "パリ",
+    "kind": "place",
+    "points": [
+      [
+        2.35,
+        48.86
+      ]
+    ],
+    "family": "パリ"
+  },
+  {
+    "name": "東京都杉並区",
+    "key": "東京都杉並区",
+    "kind": "place",
+    "points": [
+      [
+        139.64,
+        35.7
+      ]
+    ],
+    "family": "杉並区"
+  },
+  {
+    "name": "杉並区",
+    "key": "杉並区",
+    "kind": "place",
+    "points": [
+      [
+        139.64,
+        35.7
+      ]
+    ],
+    "family": "杉並区"
+  },
+  {
+    "name": "広島",
+    "key": "広島",
+    "kind": "place",
+    "points": [
+      [
+        132.46,
+        34.39
+      ]
+    ],
+    "family": "広島"
+  },
+  {
+    "name": "福島第一原発",
+    "key": "福島第一原発",
+    "kind": "place",
+    "points": [
+      [
+        141.03,
+        37.42
+      ]
+    ],
+    "family": "福島第一原発"
+  },
+  {
+    "name": "名護市辺野古",
+    "key": "名護市辺野古",
+    "kind": "place",
+    "points": [
+      [
+        128.03,
+        26.52
+      ]
+    ],
+    "family": "辺野古"
+  },
+  {
+    "name": "辺野古",
+    "key": "辺野古",
+    "kind": "place",
+    "points": [
+      [
+        128.03,
+        26.52
+      ]
+    ],
+    "family": "辺野古"
+  },
+  {
+    "name": "普天間海兵隊基地",
+    "key": "普天間海兵隊基地",
+    "kind": "place",
+    "points": [
+      [
+        127.77,
+        26.27
+      ]
+    ],
+    "family": "普天間"
+  },
+  {
+    "name": "沖縄国際大学",
+    "key": "沖縄国際大学",
+    "kind": "place",
+    "points": [
+      [
+        127.75,
+        26.26
+      ]
+    ],
+    "family": "沖縄国際大学"
+  },
+  {
+    "name": "尖閣諸島",
+    "key": "尖閣諸島",
+    "kind": "place",
+    "points": [
+      [
+        123.47,
+        25.75
+      ]
+    ],
+    "family": "尖閣諸島"
+  },
+  {
+    "name": "竹島",
+    "key": "竹島",
+    "kind": "place",
+    "points": [
+      [
+        131.87,
+        37.24
+      ]
+    ],
+    "family": "竹島"
+  },
+  {
+    "name": "バクー沖油田",
+    "key": "バクー沖油田",
+    "kind": "place",
+    "points": [
+      [
+        50.1,
+        40.35
+      ]
+    ],
+    "family": "バクー沖油田"
+  },
+  {
+    "name": "黒海",
+    "key": "黒海",
+    "kind": "place",
+    "points": [
+      [
+        34,
+        43
+      ]
+    ],
+    "family": "黒海",
+    "geographicType": "river-reference",
+    "description": "川・海・湾の位置の参考点。全流路や船の目的地ではない。"
+  },
+  {
+    "name": "カスピ海",
+    "key": "カスピ海",
+    "kind": "place",
+    "points": [
+      [
+        51,
+        41
+      ]
+    ],
+    "family": "カスピ海",
+    "geographicType": "river-reference",
+    "description": "川・海・湾の位置の参考点。全流路や船の目的地ではない。"
+  },
+  {
+    "name": "ドニエプル川",
+    "key": "ドニエプル川",
+    "kind": "place",
+    "points": [
+      [
+        32,
+        47.5
+      ]
+    ],
+    "family": "ドニプロ川",
+    "geographicType": "river-reference",
+    "description": "川・海・湾の位置の参考点。全流路や船の目的地ではない。"
+  },
+  {
+    "name": "ドニプロ川",
+    "key": "ドニプロ川",
+    "kind": "place",
+    "points": [
+      [
+        32,
+        47.5
+      ]
+    ],
+    "family": "ドニプロ川",
+    "geographicType": "river-reference",
+    "description": "川・海・湾の位置の参考点。全流路や船の目的地ではない。"
+  },
+  {
+    "name": "東シナ海",
+    "key": "東シナ海",
+    "kind": "place",
+    "points": [
+      [
+        125,
+        29
+      ]
+    ],
+    "family": "東シナ海",
+    "geographicType": "river-reference",
+    "description": "川・海・湾の位置の参考点。全流路や船の目的地ではない。"
+  },
+  {
+    "name": "南シナ海",
+    "key": "南シナ海",
+    "kind": "place",
+    "points": [
+      [
+        114,
+        13
+      ]
+    ],
+    "family": "南シナ海",
+    "geographicType": "river-reference",
+    "description": "川・海・湾の位置の参考点。全流路や船の目的地ではない。"
+  },
+  {
+    "name": "インド洋",
+    "key": "インド洋",
+    "kind": "place",
+    "points": [
+      [
+        75,
+        -8
+      ]
+    ],
+    "family": "インド洋",
+    "geographicType": "river-reference",
+    "description": "川・海・湾の位置の参考点。全流路や船の目的地ではない。"
+  },
+  {
+    "name": "南太平洋",
+    "key": "南太平洋",
+    "kind": "place",
+    "points": [
+      [
+        -150,
+        -15
+      ]
+    ],
+    "family": "南太平洋",
+    "geographicType": "river-reference",
+    "description": "川・海・湾の位置の参考点。全流路や船の目的地ではない。"
+  },
+  {
+    "name": "パナマ運河",
+    "key": "パナマ運河",
+    "kind": "place",
+    "points": [
+      [
+        -79.7,
+        9.1
+      ]
+    ],
+    "family": "パナマ運河",
+    "geographicType": "river-reference",
+    "description": "川・海・湾の位置の参考点。全流路や船の目的地ではない。"
+  },
+  {
+    "name": "ノリエガ",
+    "key": "ノリエガ",
+    "kind": "person",
+    "points": [],
+    "family": "ノリエガ",
+    "personKey": "manuel-noriega-1989"
+  },
+  {
+    "name": "ビン＝ラーディン",
+    "key": "ビンラーディン",
+    "kind": "person",
+    "points": [],
+    "family": "ビン＝ラーディン",
+    "personKey": "osama-bin-laden-2001"
+  },
+  {
+    "name": "カダフィ",
+    "key": "カダフィ",
+    "kind": "person",
+    "points": [],
+    "family": "カダフィ",
+    "personKey": "muammar-gaddafi-2011"
+  },
+  {
+    "name": "トランプ",
+    "key": "トランプ",
+    "kind": "person",
+    "points": [],
+    "family": "トランプ",
+    "personKey": "donald-trump-2017"
+  },
+  {
+    "name": "バイデン",
+    "key": "バイデン",
+    "kind": "person",
+    "points": [],
+    "family": "バイデン",
+    "personKey": "joe-biden-2021"
+  },
+  {
+    "name": "プーチン",
+    "key": "プーチン",
+    "kind": "person",
+    "points": [],
+    "family": "プーチン",
+    "personKey": "vladimir-putin-2000"
+  },
+  {
+    "name": "メドヴェージェフ",
+    "key": "メドヴェージェフ",
+    "kind": "person",
+    "points": [],
+    "family": "メドヴェージェフ",
+    "personKey": "dmitry-medvedev-2008"
+  },
+  {
+    "name": "ゼレンスキー",
+    "key": "ゼレンスキー",
+    "kind": "person",
+    "points": [],
+    "family": "ゼレンスキー",
+    "personKey": "volodymyr-zelensky-2019"
+  },
+  {
+    "name": "キャメロン",
+    "key": "キャメロン",
+    "kind": "person",
+    "points": [],
+    "family": "キャメロン",
+    "personKey": "david-cameron-2010"
+  },
+  {
+    "name": "メイ",
+    "key": "メイ",
+    "kind": "person",
+    "points": [],
+    "family": "メイ",
+    "personKey": "theresa-may-2017"
+  },
+  {
+    "name": "ジョンソン",
+    "key": "ジョンソン",
+    "kind": "person",
+    "points": [],
+    "family": "ジョンソン",
+    "personKey": "boris-johnson-2020"
+  },
+  {
+    "name": "メージャー",
+    "key": "メージャー",
+    "kind": "person",
+    "points": [],
+    "family": "メージャー",
+    "personKey": "john-major-1992"
+  },
+  {
+    "name": "ブラウン",
+    "key": "ブラウン",
+    "kind": "person",
+    "points": [],
+    "family": "ブラウン",
+    "personKey": "gordon-brown-2008"
+  },
+  {
+    "name": "スナク",
+    "key": "スナク",
+    "kind": "person",
+    "points": [],
+    "family": "スナク",
+    "personKey": "rishi-sunak-2022"
+  },
+  {
+    "name": "シラク",
+    "key": "シラク",
+    "kind": "person",
+    "points": [],
+    "family": "シラク",
+    "personKey": "jacques-chirac-1995"
+  },
+  {
+    "name": "サルコジ",
+    "key": "サルコジ",
+    "kind": "person",
+    "points": [],
+    "family": "サルコジ",
+    "personKey": "nicolas-sarkozy-2007"
+  },
+  {
+    "name": "オランド",
+    "key": "オランド",
+    "kind": "person",
+    "points": [],
+    "family": "オランド",
+    "personKey": "francois-hollande-2012"
+  },
+  {
+    "name": "マクロン",
+    "key": "マクロン",
+    "kind": "person",
+    "points": [],
+    "family": "マクロン",
+    "personKey": "emmanuel-macron-2017"
+  },
+  {
+    "name": "シュレーダー",
+    "key": "シュレーダー",
+    "kind": "person",
+    "points": [],
+    "family": "シュレーダー",
+    "personKey": "gerhard-schroeder-1998"
+  },
+  {
+    "name": "メルケル",
+    "key": "メルケル",
+    "kind": "person",
+    "points": [],
+    "family": "メルケル",
+    "personKey": "angela-merkel-2005"
+  },
+  {
+    "name": "ショルツ",
+    "key": "ショルツ",
+    "kind": "person",
+    "points": [],
+    "family": "ショルツ",
+    "personKey": "olaf-scholz-2022"
+  },
+  {
+    "name": "アフマディネジャド",
+    "key": "アフマディネジャド",
+    "kind": "person",
+    "points": [],
+    "family": "アフマディネジャド",
+    "personKey": "mahmoud-ahmadinejad-2005"
+  },
+  {
+    "name": "ロウハニ",
+    "key": "ロウハニ",
+    "kind": "person",
+    "points": [],
+    "family": "ロウハニ",
+    "personKey": "hassan-rouhani-2013"
+  },
+  {
+    "name": "ミロシェヴィッチ",
+    "key": "ミロシェヴィッチ",
+    "kind": "person",
+    "points": [],
+    "family": "ミロシェヴィッチ",
+    "personKey": "slobodan-milosevic-1999"
+  },
+  {
+    "name": "シャロン",
+    "key": "シャロン",
+    "kind": "person",
+    "points": [],
+    "family": "シャロン",
+    "personKey": "ariel-sharon-2001"
+  },
+  {
+    "name": "ベン＝アリー",
+    "key": "ベンアリー",
+    "kind": "person",
+    "points": [],
+    "family": "ベン＝アリー",
+    "personKey": "zine-el-abidine-ben-ali-2010"
+  },
+  {
+    "name": "モルシ",
+    "key": "モルシ",
+    "kind": "person",
+    "points": [],
+    "family": "モルシ",
+    "personKey": "mohamed-morsi-2012"
+  },
+  {
+    "name": "アサド",
+    "key": "アサド",
+    "kind": "person",
+    "points": [],
+    "family": "アサド",
+    "personKey": "bashar-al-assad-2011"
+  },
+  {
+    "name": "安倍晋三",
+    "key": "安倍晋三",
+    "kind": "person",
+    "points": [],
+    "family": "安倍晋三",
+    "personKey": "shinzo-abe-2015"
+  },
+  {
+    "name": "ブッシュ（父）",
+    "key": "ブッシュ（父）",
+    "kind": "person",
+    "points": [],
+    "family": "ブッシュ（父）",
+    "personKey": "george-hw-bush"
+  },
+  {
+    "name": "ブッシュ（子）",
+    "key": "ブッシュ（子）",
+    "kind": "person",
+    "points": [],
+    "family": "ブッシュ（子）",
+    "personKey": "george-w-bush-2003"
+  },
+  {
+    "name": "クリントン",
+    "key": "クリントン",
+    "kind": "person",
+    "points": [],
+    "family": "クリントン",
+    "personKey": "bill-clinton-1993"
+  },
+  {
+    "name": "レーガン",
+    "key": "レーガン",
+    "kind": "person",
+    "points": [],
+    "family": "レーガン",
+    "personKey": "ronald-reagan"
+  },
+  {
+    "name": "ケネディ",
+    "key": "ケネディ",
+    "kind": "person",
+    "points": [],
+    "family": "ケネディ",
+    "personKey": "john-f-kennedy"
+  },
+  {
+    "name": "カーター",
+    "key": "カーター",
+    "kind": "person",
+    "points": [],
+    "family": "カーター",
+    "personKey": "jimmy-carter"
+  },
+  {
+    "name": "オバマ",
+    "key": "オバマ",
+    "kind": "person",
+    "points": [],
+    "family": "オバマ",
+    "personKey": "barack-obama"
+  },
+  {
+    "name": "アイゼンハワー",
+    "key": "アイゼンハワー",
+    "kind": "person",
+    "points": [],
+    "family": "アイゼンハワー",
+    "personKey": "dwight-d-eisenhower-1953"
+  },
+  {
+    "name": "エリツィン",
+    "key": "エリツィン",
+    "kind": "person",
+    "points": [],
+    "family": "エリツィン",
+    "personKey": "boris-yeltsin"
+  },
+  {
+    "name": "ミッテラン",
+    "key": "ミッテラン",
+    "kind": "person",
+    "points": [],
+    "family": "ミッテラン",
+    "personKey": "francois-mitterrand"
+  },
+  {
+    "name": "コール",
+    "key": "コール",
+    "kind": "person",
+    "points": [],
+    "family": "コール",
+    "personKey": "helmut-kohl"
+  },
+  {
+    "name": "サッチャー",
+    "key": "サッチャー",
+    "kind": "person",
+    "points": [],
+    "family": "サッチャー",
+    "personKey": "margaret-thatcher"
+  },
+  {
+    "name": "ブレア",
+    "key": "ブレア",
+    "kind": "person",
+    "points": [],
+    "family": "ブレア",
+    "personKey": "tony-blair-2003"
+  },
+  {
+    "name": "スハルト",
+    "key": "スハルト",
+    "kind": "person",
+    "points": [],
+    "family": "スハルト",
+    "personKey": "suharto-1967"
+  },
+  {
+    "name": "鳩山由紀夫",
+    "key": "鳩山由紀夫",
+    "kind": "person",
+    "points": [],
+    "family": "鳩山由紀夫",
+    "personKey": "yukio-hatoyama"
+  },
+  {
+    "name": "ラッセル",
+    "key": "ラッセル",
+    "kind": "person",
+    "points": [],
+    "family": "ラッセル",
+    "personKey": "bertrand-russell"
+  },
+  {
+    "name": "アインシュタイン",
+    "key": "アインシュタイン",
+    "kind": "person",
+    "points": [],
+    "family": "アインシュタイン",
+    "personKey": "albert-einstein"
+  },
+  {
+    "name": "ゴルバチョフ",
+    "key": "ゴルバチョフ",
+    "kind": "person",
+    "points": [],
+    "family": "ゴルバチョフ",
+    "personKey": "mikhail-gorbachev"
+  },
+  {
+    "name": "習近平",
+    "key": "習近平",
+    "kind": "person",
+    "points": [],
+    "family": "習近平",
+    "personKey": "xi-jinping-2013"
+  },
+  {
+    "name": "金正恩",
+    "key": "金正恩",
+    "kind": "person",
+    "points": [],
+    "family": "金正恩",
+    "personKey": "kim-jong-un-2018"
+  },
+  {
+    "name": "ティトー",
+    "key": "ティトー",
+    "kind": "person",
+    "points": [],
+    "family": "ティトー",
+    "personKey": "josip-broz-tito"
+  },
+  {
+    "name": "サダム＝フセイン",
+    "key": "サダムフセイン",
+    "kind": "person",
+    "points": [],
+    "family": "サダム＝フセイン",
+    "personKey": "saddam-hussein-1980"
+  },
+  {
+    "name": "アラファト",
+    "key": "アラファト",
+    "kind": "person",
+    "points": [],
+    "family": "アラファト",
+    "personKey": "yasser-arafat-1993"
+  },
+  {
+    "name": "ムバラク",
+    "key": "ムバラク",
+    "kind": "person",
+    "points": [],
+    "family": "ムバラク",
+    "personKey": "hosni-mubarak-1981"
+  },
+  {
+    "name": "ナセル",
+    "key": "ナセル",
+    "kind": "person",
+    "points": [],
+    "family": "ナセル",
+    "personKey": "gamal-abdel-nasser-1955"
+  },
+  {
+    "name": "サダト",
+    "key": "サダト",
+    "kind": "person",
+    "points": [],
+    "family": "サダト",
+    "personKey": "anwar-sadat-1977"
+  },
+  {
+    "name": "小泉純一郎",
+    "key": "小泉純一郎",
+    "kind": "person",
+    "points": [],
+    "family": "小泉純一郎",
+    "personKey": "junichiro-koizumi"
+  },
+  {
+    "name": "ブッシュ",
+    "key": "ブッシュ",
+    "kind": "person",
+    "points": [],
+    "family": "ブッシュ（子）",
+    "personKey": "george-w-bush-2003"
+  },
+  {
+    "name": "G.H.W. ブッシュ",
+    "key": "G.H.W.ブッシュ",
+    "kind": "person",
+    "points": [],
+    "family": "ブッシュ（父）",
+    "personKey": "george-hw-bush"
+  },
+  {
+    "name": "G.W. ブッシュ",
+    "key": "G.W.ブッシュ",
+    "kind": "person",
+    "points": [],
+    "family": "ブッシュ（子）",
+    "personKey": "george-w-bush-2003"
+  },
+  {
+    "name": "フセイン",
+    "key": "フセイン",
+    "kind": "person",
+    "points": [],
+    "family": "サダム＝フセイン",
+    "personKey": "saddam-hussein-1980"
+  },
+  {
+    "name": "小泉",
+    "key": "小泉",
+    "kind": "person",
+    "points": [],
+    "family": "小泉純一郎",
+    "personKey": "junichiro-koizumi"
+  },
+  {
+    "name": "鳩山",
+    "key": "鳩山",
+    "kind": "person",
+    "points": [],
+    "family": "鳩山由紀夫",
+    "personKey": "yukio-hatoyama"
+  },
+  {
+    "name": "バートランド＝ラッセル",
+    "key": "バートランドラッセル",
+    "kind": "person",
+    "points": [],
+    "family": "ラッセル",
+    "personKey": "bertrand-russell"
+  },
+  {
+    "name": "単独行動主義",
+    "key": "単独行動主義",
+    "kind": "concept",
+    "points": [],
+    "family": "単独行動主義"
+  },
+  {
+    "name": "国際協調主義",
+    "key": "国際協調主義",
+    "kind": "concept",
+    "points": [],
+    "family": "国際協調主義"
+  },
+  {
+    "name": "アメリカ第一主義",
+    "key": "アメリカ第一主義",
+    "kind": "concept",
+    "points": [],
+    "family": "アメリカ第一主義"
+  },
+  {
+    "name": "湾岸戦争",
+    "key": "湾岸戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "湾岸戦争"
+  },
+  {
+    "name": "イラク戦争",
+    "key": "イラク戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "イラク戦争"
+  },
+  {
+    "name": "同時多発テロ事件",
+    "key": "同時多発テロ事件",
+    "kind": "concept",
+    "points": [],
+    "family": "同時多発テロ事件"
+  },
+  {
+    "name": "9.11事件",
+    "key": "9.11事件",
+    "kind": "concept",
+    "points": [],
+    "family": "9.11事件"
+  },
+  {
+    "name": "世界貿易センタービル",
+    "key": "世界貿易センタービル",
+    "kind": "concept",
+    "points": [],
+    "family": "世界貿易センタービル"
+  },
+  {
+    "name": "国防総省",
+    "key": "国防総省",
+    "kind": "concept",
+    "points": [],
+    "family": "国防総省"
+  },
+  {
+    "name": "対テロ戦争",
+    "key": "対テロ戦争",
+    "kind": "concept",
+    "points": [],
+    "family": "対テロ戦争"
+  },
+  {
+    "name": "テロとの戦い",
+    "key": "テロとの戦い",
+    "kind": "concept",
+    "points": [],
+    "family": "テロとの戦い"
+  },
+  {
+    "name": "悪の枢軸",
+    "key": "悪の枢軸",
+    "kind": "concept",
+    "points": [],
+    "family": "悪の枢軸"
+  },
+  {
+    "name": "アル＝カーイダ",
+    "key": "アルカーイダ",
+    "kind": "concept",
+    "points": [],
+    "family": "アル＝カーイダ"
+  },
+  {
+    "name": "ターリバーン",
+    "key": "ターリバーン",
+    "kind": "concept",
+    "points": [],
+    "family": "ターリバーン"
+  },
+  {
+    "name": "共和党",
+    "key": "共和党",
+    "kind": "concept",
+    "points": [],
+    "family": "共和党"
+  },
+  {
+    "name": "民主党",
+    "key": "民主党",
+    "kind": "concept",
+    "points": [],
+    "family": "民主党"
+  },
+  {
+    "name": "パレスチナ暫定自治協定",
+    "key": "パレスチナ暫定自治協定",
+    "kind": "concept",
+    "points": [],
+    "family": "パレスチナ暫定自治協定"
+  },
+  {
+    "name": "ボスニア和平協定",
+    "key": "ボスニア和平協定",
+    "kind": "concept",
+    "points": [],
+    "family": "ボスニア和平協定"
+  },
+  {
+    "name": "北米自由貿易協定",
+    "key": "北米自由貿易協定",
+    "kind": "concept",
+    "points": [],
+    "family": "北米自由貿易協定"
+  },
+  {
+    "name": "NAFTA",
+    "key": "NAFTA",
+    "kind": "concept",
+    "points": [],
+    "family": "NAFTA"
+  },
+  {
+    "name": "新パナマ運河条約",
+    "key": "新パナマ運河条約",
+    "kind": "concept",
+    "points": [],
+    "family": "新パナマ運河条約"
+  },
+  {
+    "name": "アップル",
+    "key": "アップル",
+    "kind": "concept",
+    "points": [],
+    "family": "アップル"
+  },
+  {
+    "name": "マイクロソフト",
+    "key": "マイクロソフト",
+    "kind": "concept",
+    "points": [],
+    "family": "マイクロソフト"
+  },
+  {
+    "name": "世界金融危機",
+    "key": "世界金融危機",
+    "kind": "concept",
+    "points": [],
+    "family": "世界金融危機"
+  },
+  {
+    "name": "リーマン＝ショック",
+    "key": "リーマンショック",
+    "kind": "concept",
+    "points": [],
+    "family": "リーマン＝ショック"
+  },
+  {
+    "name": "リーマン＝ブラザーズ",
+    "key": "リーマンブラザーズ",
+    "kind": "concept",
+    "points": [],
+    "family": "リーマン＝ブラザーズ"
+  },
+  {
+    "name": "オバマ・ケア",
+    "key": "オバマケア",
+    "kind": "concept",
+    "points": [],
+    "family": "オバマ・ケア"
+  },
+  {
+    "name": "イスラーム国",
+    "key": "イスラーム国",
+    "kind": "concept",
+    "points": [],
+    "family": "イスラーム国"
+  },
+  {
+    "name": "IS（Islamic State）",
+    "key": "IS（IslamicState）",
+    "kind": "concept",
+    "points": [],
+    "family": "IS（Islamic State）"
+  },
+  {
+    "name": "アラブの春",
+    "key": "アラブの春",
+    "kind": "concept",
+    "points": [],
+    "family": "アラブの春"
+  },
+  {
+    "name": "イスラーム原理主義",
+    "key": "イスラーム原理主義",
+    "kind": "concept",
+    "points": [],
+    "family": "イスラーム原理主義"
+  },
+  {
+    "name": "アフリカ連合",
+    "key": "アフリカ連合",
+    "kind": "concept",
+    "points": [],
+    "family": "アフリカ連合"
+  },
+  {
+    "name": "TPP",
+    "key": "TPP",
+    "kind": "concept",
+    "points": [],
+    "family": "TPP"
+  },
+  {
+    "name": "中距離核戦力全廃条約",
+    "key": "中距離核戦力全廃条約",
+    "kind": "concept",
+    "points": [],
+    "family": "中距離核戦力全廃条約"
+  },
+  {
+    "name": "パリ協定",
+    "key": "パリ協定",
+    "kind": "concept",
+    "points": [],
+    "family": "パリ協定"
+  },
+  {
+    "name": "UAMCA",
+    "key": "UAMCA",
+    "kind": "concept",
+    "points": [],
+    "family": "UAMCA"
+  },
+  {
+    "name": "アメリカ＝メキシコ＝カナダ協定",
+    "key": "アメリカメキシコカナダ協定",
+    "kind": "concept",
+    "points": [],
+    "family": "アメリカ＝メキシコ＝カナダ協定"
+  },
+  {
+    "name": "米朝首脳会談",
+    "key": "米朝首脳会談",
+    "kind": "concept",
+    "points": [],
+    "family": "米朝首脳会談"
+  },
+  {
+    "name": "Me Too",
+    "key": "MeToo",
+    "kind": "concept",
+    "points": [],
+    "family": "Me Too"
+  },
+  {
+    "name": "BLM",
+    "key": "BLM",
+    "kind": "concept",
+    "points": [],
+    "family": "BLM"
+  },
+  {
+    "name": "Black Lives Matter",
+    "key": "BlackLivesMatter",
+    "kind": "concept",
+    "points": [],
+    "family": "Black Lives Matter"
+  },
+  {
+    "name": "連邦議会",
+    "key": "連邦議会",
+    "kind": "concept",
+    "points": [],
+    "family": "連邦議会"
+  },
+  {
+    "name": "チェチェン紛争",
+    "key": "チェチェン紛争",
+    "kind": "concept",
+    "points": [],
+    "family": "チェチェン紛争"
+  },
+  {
+    "name": "南オセチア紛争",
+    "key": "南オセチア紛争",
+    "kind": "concept",
+    "points": [],
+    "family": "南オセチア紛争"
+  },
+  {
+    "name": "G8",
+    "key": "G8",
+    "kind": "concept",
+    "points": [],
+    "family": "G8"
+  },
+  {
+    "name": "G7",
+    "key": "G7",
+    "kind": "concept",
+    "points": [],
+    "family": "G7"
+  },
+  {
+    "name": "G20",
+    "key": "G20",
+    "kind": "concept",
+    "points": [],
+    "family": "G20"
+  },
+  {
+    "name": "国連",
+    "key": "国連",
+    "kind": "concept",
+    "points": [],
+    "family": "国連"
+  },
+  {
+    "name": "国連安保理",
+    "key": "国連安保理",
+    "kind": "concept",
+    "points": [],
+    "family": "国連安保理"
+  },
+  {
+    "name": "KGB",
+    "key": "KGB",
+    "kind": "concept",
+    "points": [],
+    "family": "KGB"
+  },
+  {
+    "name": "キエフ公国",
+    "key": "キエフ公国",
+    "kind": "concept",
+    "points": [],
+    "family": "キエフ公国"
+  },
+  {
+    "name": "モスクワ大公国",
+    "key": "モスクワ大公国",
+    "kind": "concept",
+    "points": [],
+    "family": "モスクワ大公国"
+  },
+  {
+    "name": "ロシア帝国",
+    "key": "ロシア帝国",
+    "kind": "concept",
+    "points": [],
+    "family": "ロシア帝国"
+  },
+  {
+    "name": "ポーランド王国",
+    "key": "ポーランド王国",
+    "kind": "concept",
+    "points": [],
+    "family": "ポーランド王国"
+  },
+  {
+    "name": "モンゴル",
+    "key": "モンゴル",
+    "kind": "concept",
+    "points": [],
+    "family": "モンゴル"
+  },
+  {
+    "name": "東方正教会",
+    "key": "東方正教会",
+    "kind": "concept",
+    "points": [],
+    "family": "東方正教会"
+  },
+  {
+    "name": "EC",
+    "key": "EC",
+    "kind": "concept",
+    "points": [],
+    "family": "EC"
+  },
+  {
+    "name": "EU",
+    "key": "EU",
+    "kind": "concept",
+    "points": [],
+    "family": "EU"
+  },
+  {
+    "name": "ヨーロッパ連合",
+    "key": "ヨーロッパ連合",
+    "kind": "concept",
+    "points": [],
+    "family": "ヨーロッパ連合"
+  },
+  {
+    "name": "NATO",
+    "key": "NATO",
+    "kind": "concept",
+    "points": [],
+    "family": "NATO"
+  },
+  {
+    "name": "単一欧州議定書",
+    "key": "単一欧州議定書",
+    "kind": "concept",
+    "points": [],
+    "family": "単一欧州議定書"
+  },
+  {
+    "name": "マーストリヒト条約",
+    "key": "マーストリヒト条約",
+    "kind": "concept",
+    "points": [],
+    "family": "マーストリヒト条約"
+  },
+  {
+    "name": "共通市民権",
+    "key": "共通市民権",
+    "kind": "concept",
+    "points": [],
+    "family": "共通市民権"
+  },
+  {
+    "name": "欧州議会",
+    "key": "欧州議会",
+    "kind": "concept",
+    "points": [],
+    "family": "欧州議会"
+  },
+  {
+    "name": "ユーロ",
+    "key": "ユーロ",
+    "kind": "concept",
+    "points": [],
+    "family": "ユーロ"
+  },
+  {
+    "name": "ユーロ危機",
+    "key": "ユーロ危機",
+    "kind": "concept",
+    "points": [],
+    "family": "ユーロ危機"
+  },
+  {
+    "name": "リスボン条約",
+    "key": "リスボン条約",
+    "kind": "concept",
+    "points": [],
+    "family": "リスボン条約"
+  },
+  {
+    "name": "EU大統領",
+    "key": "EU大統領",
+    "kind": "concept",
+    "points": [],
+    "family": "EU大統領"
+  },
+  {
+    "name": "シェンゲン協定",
+    "key": "シェンゲン協定",
+    "kind": "concept",
+    "points": [],
+    "family": "シェンゲン協定"
+  },
+  {
+    "name": "アムステルダム条約",
+    "key": "アムステルダム条約",
+    "kind": "concept",
+    "points": [],
+    "family": "アムステルダム条約"
+  },
+  {
+    "name": "EU離脱",
+    "key": "EU離脱",
+    "kind": "concept",
+    "points": [],
+    "family": "EU離脱"
+  },
+  {
+    "name": "ブレグジット",
+    "key": "ブレグジット",
+    "kind": "concept",
+    "points": [],
+    "family": "ブレグジット"
+  },
+  {
+    "name": "労働党",
+    "key": "労働党",
+    "kind": "concept",
+    "points": [],
+    "family": "労働党"
+  },
+  {
+    "name": "保守党",
+    "key": "保守党",
+    "kind": "concept",
+    "points": [],
+    "family": "保守党"
+  },
+  {
+    "name": "自由民主党",
+    "key": "自由民主党",
+    "kind": "concept",
+    "points": [],
+    "family": "自由民主党"
+  },
+  {
+    "name": "社会党",
+    "key": "社会党",
+    "kind": "concept",
+    "points": [],
+    "family": "社会党"
+  },
+  {
+    "name": "キリスト教民主同盟",
+    "key": "キリスト教民主同盟",
+    "kind": "concept",
+    "points": [],
+    "family": "キリスト教民主同盟"
+  },
+  {
+    "name": "社会民主党",
+    "key": "社会民主党",
+    "kind": "concept",
+    "points": [],
+    "family": "社会民主党"
+  },
+  {
+    "name": "緑の党",
+    "key": "緑の党",
+    "kind": "concept",
+    "points": [],
+    "family": "緑の党"
+  },
+  {
+    "name": "サッチャリズム",
+    "key": "サッチャリズム",
+    "kind": "concept",
+    "points": [],
+    "family": "サッチャリズム"
+  },
+  {
+    "name": "ネオ＝ナチ",
+    "key": "ネオナチ",
+    "kind": "concept",
+    "points": [],
+    "family": "ネオ＝ナチ"
+  },
+  {
+    "name": "原子力発電所",
+    "key": "原子力発電所",
+    "kind": "concept",
+    "points": [],
+    "family": "原子力発電所"
+  },
+  {
+    "name": "原発ゼロ",
+    "key": "原発ゼロ",
+    "kind": "concept",
+    "points": [],
+    "family": "原発ゼロ"
+  },
+  {
+    "name": "新型コロナ感染症",
+    "key": "新型コロナ感染症",
+    "kind": "concept",
+    "points": [],
+    "family": "新型コロナ感染症"
+  },
+  {
+    "name": "アジア通貨危機",
+    "key": "アジア通貨危機",
+    "kind": "concept",
+    "points": [],
+    "family": "アジア通貨危機"
+  },
+  {
+    "name": "タイ＝バーツ",
+    "key": "タイバーツ",
+    "kind": "concept",
+    "points": [],
+    "family": "タイ＝バーツ"
+  },
+  {
+    "name": "バーツ",
+    "key": "バーツ",
+    "kind": "concept",
+    "points": [],
+    "family": "バーツ"
+  },
+  {
+    "name": "ヘッジ・ファンド",
+    "key": "ヘッジファンド",
+    "kind": "concept",
+    "points": [],
+    "family": "ヘッジ・ファンド"
+  },
+  {
+    "name": "デフォルト",
+    "key": "デフォルト",
+    "kind": "concept",
+    "points": [],
+    "family": "デフォルト"
+  },
+  {
+    "name": "国際通貨基金",
+    "key": "国際通貨基金",
+    "kind": "concept",
+    "points": [],
+    "family": "国際通貨基金"
+  },
+  {
+    "name": "IMF",
+    "key": "IMF",
+    "kind": "concept",
+    "points": [],
+    "family": "IMF"
+  },
+  {
+    "name": "バブル経済",
+    "key": "バブル経済",
+    "kind": "concept",
+    "points": [],
+    "family": "バブル経済"
+  },
+  {
+    "name": "サブプライム・ローン",
+    "key": "サブプライムローン",
+    "kind": "concept",
+    "points": [],
+    "family": "サブプライム・ローン"
+  },
+  {
+    "name": "不良債権",
+    "key": "不良債権",
+    "kind": "concept",
+    "points": [],
+    "family": "不良債権"
+  },
+  {
+    "name": "世界恐慌",
+    "key": "世界恐慌",
+    "kind": "concept",
+    "points": [],
+    "family": "世界恐慌"
+  },
+  {
+    "name": "BRICS",
+    "key": "BRICS",
+    "kind": "concept",
+    "points": [],
+    "family": "BRICS"
+  },
+  {
+    "name": "ストックホルム＝アピール",
+    "key": "ストックホルムアピール",
+    "kind": "concept",
+    "points": [],
+    "family": "ストックホルム＝アピール"
+  },
+  {
+    "name": "世界平和擁護大会",
+    "key": "世界平和擁護大会",
+    "kind": "concept",
+    "points": [],
+    "family": "世界平和擁護大会"
+  },
+  {
+    "name": "第五福竜丸事件",
+    "key": "第五福竜丸事件",
+    "kind": "concept",
+    "points": [],
+    "family": "第五福竜丸事件"
+  },
+  {
+    "name": "第五福竜丸",
+    "key": "第五福竜丸",
+    "kind": "concept",
+    "points": [],
+    "family": "第五福竜丸"
+  },
+  {
+    "name": "原水爆禁止運動",
+    "key": "原水爆禁止運動",
+    "kind": "concept",
+    "points": [],
+    "family": "原水爆禁止運動"
+  },
+  {
+    "name": "原水爆禁止世界大会",
+    "key": "原水爆禁止世界大会",
+    "kind": "concept",
+    "points": [],
+    "family": "原水爆禁止世界大会"
+  },
+  {
+    "name": "ラッセル・アインシュタイン宣言",
+    "key": "ラッセルアインシュタイン宣言",
+    "kind": "concept",
+    "points": [],
+    "family": "ラッセル・アインシュタイン宣言"
+  },
+  {
+    "name": "ゲッティンゲン宣言",
+    "key": "ゲッティンゲン宣言",
+    "kind": "concept",
+    "points": [],
+    "family": "ゲッティンゲン宣言"
+  },
+  {
+    "name": "パグウォッシュ会議",
+    "key": "パグウォッシュ会議",
+    "kind": "concept",
+    "points": [],
+    "family": "パグウォッシュ会議"
+  },
+  {
+    "name": "核兵器",
+    "key": "核兵器",
+    "kind": "concept",
+    "points": [],
+    "family": "核兵器"
+  },
+  {
+    "name": "核武装",
+    "key": "核武装",
+    "kind": "concept",
+    "points": [],
+    "family": "核武装"
+  },
+  {
+    "name": "核弾頭",
+    "key": "核弾頭",
+    "kind": "concept",
+    "points": [],
+    "family": "核弾頭"
+  },
+  {
+    "name": "放射能汚染",
+    "key": "放射能汚染",
+    "kind": "concept",
+    "points": [],
+    "family": "放射能汚染"
+  },
+  {
+    "name": "核軍縮",
+    "key": "核軍縮",
+    "kind": "concept",
+    "points": [],
+    "family": "核軍縮"
+  },
+  {
+    "name": "STARTⅠ",
+    "key": "STARTⅠ",
+    "kind": "concept",
+    "points": [],
+    "family": "STARTⅠ"
+  },
+  {
+    "name": "STARTⅡ",
+    "key": "STARTⅡ",
+    "kind": "concept",
+    "points": [],
+    "family": "STARTⅡ"
+  },
+  {
+    "name": "STARTⅢ",
+    "key": "STARTⅢ",
+    "kind": "concept",
+    "points": [],
+    "family": "STARTⅢ"
+  },
+  {
+    "name": "第1次戦略兵器削減条約",
+    "key": "第1次戦略兵器削減条約",
+    "kind": "concept",
+    "points": [],
+    "family": "第1次戦略兵器削減条約"
+  },
+  {
+    "name": "第2次戦略兵器削減条約",
+    "key": "第2次戦略兵器削減条約",
+    "kind": "concept",
+    "points": [],
+    "family": "第2次戦略兵器削減条約"
+  },
+  {
+    "name": "第3次戦略兵器削減条約",
+    "key": "第3次戦略兵器削減条約",
+    "kind": "concept",
+    "points": [],
+    "family": "第3次戦略兵器削減条約"
+  },
+  {
+    "name": "第4次戦略兵器削減条約",
+    "key": "第4次戦略兵器削減条約",
+    "kind": "concept",
+    "points": [],
+    "family": "第4次戦略兵器削減条約"
+  },
+  {
+    "name": "新START",
+    "key": "新START",
+    "kind": "concept",
+    "points": [],
+    "family": "新START"
+  },
+  {
+    "name": "プラハ演説",
+    "key": "プラハ演説",
+    "kind": "concept",
+    "points": [],
+    "family": "プラハ演説"
+  },
+  {
+    "name": "プラハ宣言",
+    "key": "プラハ宣言",
+    "kind": "concept",
+    "points": [],
+    "family": "プラハ宣言"
+  },
+  {
+    "name": "核兵器廃絶演説",
+    "key": "核兵器廃絶演説",
+    "kind": "concept",
+    "points": [],
+    "family": "核兵器廃絶演説"
+  },
+  {
+    "name": "包括的核実験禁止条約",
+    "key": "包括的核実験禁止条約",
+    "kind": "concept",
+    "points": [],
+    "family": "包括的核実験禁止条約"
+  },
+  {
+    "name": "CTBT",
+    "key": "CTBT",
+    "kind": "concept",
+    "points": [],
+    "family": "CTBT"
+  },
+  {
+    "name": "臨界前実験",
+    "key": "臨界前実験",
+    "kind": "concept",
+    "points": [],
+    "family": "臨界前実験"
+  },
+  {
+    "name": "六カ国協議",
+    "key": "六カ国協議",
+    "kind": "concept",
+    "points": [],
+    "family": "六カ国協議"
+  },
+  {
+    "name": "核兵器禁止条約",
+    "key": "核兵器禁止条約",
+    "kind": "concept",
+    "points": [],
+    "family": "核兵器禁止条約"
+  },
+  {
+    "name": "核の傘",
+    "key": "核の傘",
+    "kind": "concept",
+    "points": [],
+    "family": "核の傘"
+  },
+  {
+    "name": "一国二制度",
+    "key": "一国二制度",
+    "kind": "concept",
+    "points": [],
+    "family": "一国二制度"
+  },
+  {
+    "name": "国家安全維持法",
+    "key": "国家安全維持法",
+    "kind": "concept",
+    "points": [],
+    "family": "国家安全維持法"
+  },
+  {
+    "name": "米中新冷戦",
+    "key": "米中新冷戦",
+    "kind": "concept",
+    "points": [],
+    "family": "米中新冷戦"
+  },
+  {
+    "name": "一帯一路",
+    "key": "一帯一路",
+    "kind": "concept",
+    "points": [],
+    "family": "一帯一路"
+  },
+  {
+    "name": "GDP",
+    "key": "GDP",
+    "kind": "concept",
+    "points": [],
+    "family": "GDP"
+  },
+  {
+    "name": "知的財産権",
+    "key": "知的財産権",
+    "kind": "concept",
+    "points": [],
+    "family": "知的財産権"
+  },
+  {
+    "name": "国連人間環境会議",
+    "key": "国連人間環境会議",
+    "kind": "concept",
+    "points": [],
+    "family": "国連人間環境会議"
+  },
+  {
+    "name": "人間環境宣言",
+    "key": "人間環境宣言",
+    "kind": "concept",
+    "points": [],
+    "family": "人間環境宣言"
+  },
+  {
+    "name": "国連環境計画",
+    "key": "国連環境計画",
+    "kind": "concept",
+    "points": [],
+    "family": "国連環境計画"
+  },
+  {
+    "name": "UNEP",
+    "key": "UNEP",
+    "kind": "concept",
+    "points": [],
+    "family": "UNEP"
+  },
+  {
+    "name": "地球サミット",
+    "key": "地球サミット",
+    "kind": "concept",
+    "points": [],
+    "family": "地球サミット"
+  },
+  {
+    "name": "環境と開発に関する国連会議",
+    "key": "環境と開発に関する国連会議",
+    "kind": "concept",
+    "points": [],
+    "family": "環境と開発に関する国連会議"
+  },
+  {
+    "name": "リオ宣言",
+    "key": "リオ宣言",
+    "kind": "concept",
+    "points": [],
+    "family": "リオ宣言"
+  },
+  {
+    "name": "アジェンダ21",
+    "key": "アジェンダ21",
+    "kind": "concept",
+    "points": [],
+    "family": "アジェンダ21"
+  },
+  {
+    "name": "気候変動枠組み条約",
+    "key": "気候変動枠組み条約",
+    "kind": "concept",
+    "points": [],
+    "family": "気候変動枠組み条約"
+  },
+  {
+    "name": "気候変動枠組み条約締約国会議",
+    "key": "気候変動枠組み条約締約国会議",
+    "kind": "concept",
+    "points": [],
+    "family": "気候変動枠組み条約締約国会議"
+  },
+  {
+    "name": "COP3",
+    "key": "COP3",
+    "kind": "concept",
+    "points": [],
+    "family": "COP3"
+  },
+  {
+    "name": "COP21",
+    "key": "COP21",
+    "kind": "concept",
+    "points": [],
+    "family": "COP21"
+  },
+  {
+    "name": "COP",
+    "key": "COP",
+    "kind": "concept",
+    "points": [],
+    "family": "COP"
+  },
+  {
+    "name": "京都議定書",
+    "key": "京都議定書",
+    "kind": "concept",
+    "points": [],
+    "family": "京都議定書"
+  },
+  {
+    "name": "京都会議",
+    "key": "京都会議",
+    "kind": "concept",
+    "points": [],
+    "family": "京都会議"
+  },
+  {
+    "name": "パリ会議",
+    "key": "パリ会議",
+    "kind": "concept",
+    "points": [],
+    "family": "パリ会議"
+  },
+  {
+    "name": "国連サミット",
+    "key": "国連サミット",
+    "kind": "concept",
+    "points": [],
+    "family": "国連サミット"
+  },
+  {
+    "name": "SDGs",
+    "key": "SDGs",
+    "kind": "concept",
+    "points": [],
+    "family": "SDGs"
+  },
+  {
+    "name": "持続可能な開発目標",
+    "key": "持続可能な開発目標",
+    "kind": "concept",
+    "points": [],
+    "family": "持続可能な開発目標"
+  },
+  {
+    "name": "Sustainable Development Goals",
+    "key": "SustainableDevelopmentGoals",
+    "kind": "concept",
+    "points": [],
+    "family": "Sustainable Development Goals"
+  },
+  {
+    "name": "温室効果ガス",
+    "key": "温室効果ガス",
+    "kind": "concept",
+    "points": [],
+    "family": "温室効果ガス"
+  },
+  {
+    "name": "脱炭素社会",
+    "key": "脱炭素社会",
+    "kind": "concept",
+    "points": [],
+    "family": "脱炭素社会"
+  },
+  {
+    "name": "再生可能エネルギー",
+    "key": "再生可能エネルギー",
+    "kind": "concept",
+    "points": [],
+    "family": "再生可能エネルギー"
+  },
+  {
+    "name": "女性差別撤廃条約",
+    "key": "女性差別撤廃条約",
+    "kind": "concept",
+    "points": [],
+    "family": "女性差別撤廃条約"
+  },
+  {
+    "name": "男女雇用機会均等法",
+    "key": "男女雇用機会均等法",
+    "kind": "concept",
+    "points": [],
+    "family": "男女雇用機会均等法"
+  },
+  {
+    "name": "ジェンダー＝ギャップ指数",
+    "key": "ジェンダーギャップ指数",
+    "kind": "concept",
+    "points": [],
+    "family": "ジェンダー＝ギャップ指数"
+  },
+  {
+    "name": "ジェンダー平等",
+    "key": "ジェンダー平等",
+    "kind": "concept",
+    "points": [],
+    "family": "ジェンダー平等"
+  },
+  {
+    "name": "LGBTQ",
+    "key": "LGBTQ",
+    "kind": "concept",
+    "points": [],
+    "family": "LGBTQ"
+  },
+  {
+    "name": "同性婚",
+    "key": "同性婚",
+    "kind": "concept",
+    "points": [],
+    "family": "同性婚"
+  },
+  {
+    "name": "パルチザン",
+    "key": "パルチザン",
+    "kind": "concept",
+    "points": [],
+    "family": "パルチザン"
+  },
+  {
+    "name": "ユーゴスラヴィア内戦",
+    "key": "ユーゴスラヴィア内戦",
+    "kind": "concept",
+    "points": [],
+    "family": "ユーゴスラヴィア内戦"
+  },
+  {
+    "name": "国連平和維持軍",
+    "key": "国連平和維持軍",
+    "kind": "concept",
+    "points": [],
+    "family": "国連平和維持軍"
+  },
+  {
+    "name": "PKF",
+    "key": "PKF",
+    "kind": "concept",
+    "points": [],
+    "family": "PKF"
+  },
+  {
+    "name": "ボスニア紛争",
+    "key": "ボスニア紛争",
+    "kind": "concept",
+    "points": [],
+    "family": "ボスニア紛争"
+  },
+  {
+    "name": "イスラーム教徒",
+    "key": "イスラーム教徒",
+    "kind": "concept",
+    "points": [],
+    "family": "イスラーム教徒"
+  },
+  {
+    "name": "モスレム人",
+    "key": "モスレム人",
+    "kind": "concept",
+    "points": [],
+    "family": "モスレム人"
+  },
+  {
+    "name": "カトリック",
+    "key": "カトリック",
+    "kind": "concept",
+    "points": [],
+    "family": "カトリック"
+  },
+  {
+    "name": "ギリシア正教",
+    "key": "ギリシア正教",
+    "kind": "concept",
+    "points": [],
+    "family": "ギリシア正教"
+  },
+  {
+    "name": "セルビア正教会",
+    "key": "セルビア正教会",
+    "kind": "concept",
+    "points": [],
+    "family": "セルビア正教会"
+  },
+  {
+    "name": "マケドニア正教会",
+    "key": "マケドニア正教会",
+    "kind": "concept",
+    "points": [],
+    "family": "マケドニア正教会"
+  },
+  {
+    "name": "ボスニア連邦",
+    "key": "ボスニア連邦",
+    "kind": "concept",
+    "points": [],
+    "family": "ボスニア連邦"
+  },
+  {
+    "name": "セルビア人共和国",
+    "key": "セルビア人共和国",
+    "kind": "concept",
+    "points": [],
+    "family": "セルビア人共和国"
+  },
+  {
+    "name": "コソヴォ紛争",
+    "key": "コソヴォ紛争",
+    "kind": "concept",
+    "points": [],
+    "family": "コソヴォ紛争"
+  },
+  {
+    "name": "民族浄化",
+    "key": "民族浄化",
+    "kind": "concept",
+    "points": [],
+    "family": "民族浄化"
+  },
+  {
+    "name": "国際刑事裁判法廷",
+    "key": "国際刑事裁判法廷",
+    "kind": "concept",
+    "points": [],
+    "family": "国際刑事裁判法廷"
+  },
+  {
+    "name": "リクード",
+    "key": "リクード",
+    "kind": "concept",
+    "points": [],
+    "family": "リクード"
+  },
+  {
+    "name": "労働党政権",
+    "key": "労働党政権",
+    "kind": "concept",
+    "points": [],
+    "family": "労働党政権"
+  },
+  {
+    "name": "中東和平ロードマップ",
+    "key": "中東和平ロードマップ",
+    "kind": "concept",
+    "points": [],
+    "family": "中東和平ロードマップ"
+  },
+  {
+    "name": "PLO",
+    "key": "PLO",
+    "kind": "concept",
+    "points": [],
+    "family": "PLO"
+  },
+  {
+    "name": "ハマス",
+    "key": "ハマス",
+    "kind": "concept",
+    "points": [],
+    "family": "ハマス"
+  },
+  {
+    "name": "パン＝アラブ主義",
+    "key": "パンアラブ主義",
+    "kind": "concept",
+    "points": [],
+    "family": "パン＝アラブ主義"
+  },
+  {
+    "name": "ムスリム同胞団",
+    "key": "ムスリム同胞団",
+    "kind": "concept",
+    "points": [],
+    "family": "ムスリム同胞団"
+  },
+  {
+    "name": "自由と公正党",
+    "key": "自由と公正党",
+    "kind": "concept",
+    "points": [],
+    "family": "自由と公正党"
+  },
+  {
+    "name": "ジャスミン革命",
+    "key": "ジャスミン革命",
+    "kind": "concept",
+    "points": [],
+    "family": "ジャスミン革命"
+  },
+  {
+    "name": "世俗化",
+    "key": "世俗化",
+    "kind": "concept",
+    "points": [],
+    "family": "世俗化"
+  },
+  {
+    "name": "政教分離",
+    "key": "政教分離",
+    "kind": "concept",
+    "points": [],
+    "family": "政教分離"
+  },
+  {
+    "name": "SNS",
+    "key": "SNS",
+    "kind": "concept",
+    "points": [],
+    "family": "SNS"
+  },
+  {
+    "name": "IS",
+    "key": "IS",
+    "kind": "concept",
+    "points": [],
+    "family": "IS"
+  },
+  {
+    "name": "スンナ派",
+    "key": "スンナ派",
+    "kind": "concept",
+    "points": [],
+    "family": "スンナ派"
+  },
+  {
+    "name": "クルド人勢力",
+    "key": "クルド人勢力",
+    "kind": "concept",
+    "points": [],
+    "family": "クルド人勢力"
+  },
+  {
+    "name": "自衛隊",
+    "key": "自衛隊",
+    "kind": "concept",
+    "points": [],
+    "family": "自衛隊"
+  },
+  {
+    "name": "安全保障法制",
+    "key": "安全保障法制",
+    "kind": "concept",
+    "points": [],
+    "family": "安全保障法制"
+  },
+  {
+    "name": "集団的自衛権",
+    "key": "集団的自衛権",
+    "kind": "concept",
+    "points": [],
+    "family": "集団的自衛権"
+  },
+  {
+    "name": "国際平和協力法",
+    "key": "国際平和協力法",
+    "kind": "concept",
+    "points": [],
+    "family": "国際平和協力法"
+  },
+  {
+    "name": "PKO協力法",
+    "key": "PKO協力法",
+    "kind": "concept",
+    "points": [],
+    "family": "PKO協力法"
+  },
+  {
+    "name": "PKO",
+    "key": "PKO",
+    "kind": "concept",
+    "points": [],
+    "family": "PKO"
+  },
+  {
+    "name": "国連カンボジア暫定統治機構",
+    "key": "国連カンボジア暫定統治機構",
+    "kind": "concept",
+    "points": [],
+    "family": "国連カンボジア暫定統治機構"
+  },
+  {
+    "name": "UNTAC",
+    "key": "UNTAC",
+    "kind": "concept",
+    "points": [],
+    "family": "UNTAC"
+  },
+  {
+    "name": "海兵隊",
+    "key": "海兵隊",
+    "kind": "concept",
+    "points": [],
+    "family": "海兵隊"
+  }
+];
+const normalize=text=>String(text??'').replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/g,'').replace(/<[^>]*>/g,'').replace(/[\s＝=・『』「」]/g,'');
+const byKey=new Map(modernNameCatalog.map(entry=>[entry.key,entry]));
+const escapePattern=value=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const pattern=new RegExp([...byKey.keys()].sort((a,b)=>b.length-a.length).map(key=>key.length===1?`(?<![一-龯])${escapePattern(key)}(?![一-龯])`:escapePattern(key)).join('|'),'g');
+export function modernNamesInText(text){
+ const value=normalize(text).replace(/ヨーロッパ人|イギリス人|フランス人|アメリカ人|ドイツ人|日本人|中国人|朝鮮人|モンゴル人(?!民共和国)|日本語|中国語|朝鮮語|英語|ポーランド人|スペイン人|フランス人|ドイツ人|ベトナム人|マレー人|インド系|中国系|インド人|ウルドゥー語|ベンガル語/g,'');
+ const found=new Map();for(const match of value.matchAll(pattern)){const entry=byKey.get(match[0]);if(!found.has(entry.family))found.set(entry.family,entry);}
+ // 名称内部の国を機械的に地点へせず、実際の対立・貿易・制度が本文で明記される場合だけ国を共存させる。
+ const relations=[["米英",["アメリカ","イギリス"]],["米ソ",["アメリカ","ソ連"]],["米ロ",["アメリカ","ロシア"]],["米中",["アメリカ","中国"]],["日米韓",["日本","アメリカ","韓国"]],["日米",["日本","アメリカ"]],["仏独",["フランス","ドイツ"]],["独仏",["ドイツ","フランス"]],["親米",["アメリカ"]],["反米",["アメリカ"]],["反イスラエル",["イスラエル"]],["親イスラエル",["イスラエル"]],["PLO",["パレスチナ"]],["ボスニア連邦",["ボスニア・ヘルツェゴヴィナ"]],["パレスチナ暫定自治協定",["パレスチナ"]],["米英仏独日",["アメリカ","イギリス","フランス","ドイツ","日本"]],["米・英・日・仏・独・伊・カナダ",["アメリカ","イギリス","日本","フランス","ドイツ","イタリア","カナダ"]],["アメリカ＝メキシコ＝カナダ協定",["アメリカ","メキシコ","カナダ"]],["国連カンボジア暫定統治機構",["カンボジア"]],["米軍",["アメリカ"]],["英軍",["イギリス"]],["在韓米軍",["アメリカ","韓国"]],["アフリカ連合",["アフリカ"]],["ボスニア和平協定",["ボスニア・ヘルツェゴヴィナ"]],["鳩山",["鳩山由紀夫"]]];
+ for(const [term,names]of relations)if(value.includes(normalize(term)))for(const name of names){const entry=byKey.get(normalize(name));if(!found.has(entry.family))found.set(entry.family,entry);}
+ return [...found.values()];
+}

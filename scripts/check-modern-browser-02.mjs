@@ -190,7 +190,7 @@ try {
     assert.equal(await page.locator('#modern-book').isVisible(),false);
     await page.locator('[data-book-tab="modern"]').click();
     assert.equal(await page.locator('#ancient-book').isVisible(),false);
-    assert.equal(await page.locator('#modern-book .part-link').count(),103,'第1〜8回の34節を目次から開ける');
+    assert.equal(await page.locator('#modern-book .part-link').count(),106,'第1〜8回の34節を目次から開ける');
     assert.equal(await page.locator('#modern-book .lesson-group[data-lesson="1"] .part-link').count(),5,'第1回の5節を回ごとにまとめる');
     assert.equal(await page.locator('#modern-book .lesson-group[data-lesson="2"] .part-link').count(),3,'第2回の3節を別の回としてまとめる');
     const lessonLinks=await page.locator('#modern-book .part-link').evaluateAll(links=>links.map(link=>({href:new URL(link.href).pathname,text:link.textContent})));

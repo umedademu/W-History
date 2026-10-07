@@ -1,4 +1,4 @@
-import {modernEdition} from './modern-c01-l06-edition.js?v=0.135';
+import {modernEdition} from './modern-c01-l06-edition.js?v=0.136';
 // 本人・作品・理論の説明を分ける。本文は変更せず、注釈は発言の引用ではない。
 export const modernVisualAssetCatalog=[
   {

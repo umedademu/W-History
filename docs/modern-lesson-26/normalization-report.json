@@ -1,0 +1,2758 @@
+{
+  "summary": {
+    "total": 45,
+    "completed": 45,
+    "failed": 0,
+    "unique_output_hashes": 45,
+    "all_hashes_unique": true,
+    "targetDirectory": "C:/Users/USER/Desktop/W-History/public/images/modern-c05-l26"
+  },
+  "failures": [],
+  "results": [
+    {
+      "key": "manuel-noriega-1989",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d276276e-f934-451c-a12a-def376dddbc1.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\manuel-noriega-1989.png",
+      "inputSha256": "39a467b9c3e54ec6b0776ed6f696623ab0b08d7c81f8836b7a2c3ea44ea6aa7d",
+      "outputSha256": "ac3110b0e14972aee72f551a4f2b4b969fa8232d5bdb7cc8ca94664bfc3b6330",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 500,
+        "height": 1259
+      },
+      "resizedDimensions": {
+        "width": 70,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        31,
+        938,
+        1536
+      ],
+      "cleanedBbox": [
+        254,
+        162,
+        754,
+        1421
+      ],
+      "savedBbox": [
+        61,
+        8,
+        131,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1159399,
+        "faint": 14723,
+        "translucent": 413465,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29049,
+      "removedFaintAlphaPixels": 14723,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7815,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14723,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "muammar-gaddafi-2011",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-8eba001d-dd7a-447a-98fb-ecd68f41d067.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\muammar-gaddafi-2011.png",
+      "inputSha256": "929dfee2a1663eb17f567d3d65501e69cbfef1738e8e6067ec4deaf4433908a1",
+      "outputSha256": "583a22e8b3a08550f5d6c49fcf812523e9a36c7473f1d401776dc9250201f2cd",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 518,
+        "height": 1414
+      },
+      "resizedDimensions": {
+        "width": 64,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        31,
+        986,
+        1520
+      ],
+      "cleanedBbox": [
+        258,
+        60,
+        776,
+        1474
+      ],
+      "savedBbox": [
+        64,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1041342,
+        "faint": 13518,
+        "translucent": 531522,
+        "opaque": 0
+      },
+      "transparentPixelCount": 28882,
+      "removedFaintAlphaPixels": 13518,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7982,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13518,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "donald-trump-2017",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c9bf6dbc-1968-43cf-b35f-3409626acf1f.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\donald-trump-2017.png",
+      "inputSha256": "fd42c390952fa14c0d60318649151539f0f24ab75d6da7ff23afdaa338d3d87e",
+      "outputSha256": "9f6602bad04a8236e770740338b48c41fb311a07738d160a04bd24ae6637c60c",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 531,
+        "height": 1464
+      },
+      "resizedDimensions": {
+        "width": 64,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        153,
+        30,
+        860,
+        1536
+      ],
+      "cleanedBbox": [
+        233,
+        33,
+        764,
+        1497
+      ],
+      "savedBbox": [
+        64,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1058781,
+        "faint": 16416,
+        "translucent": 514083,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29662,
+      "removedFaintAlphaPixels": 16416,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7202,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 16416,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "joe-biden-2021",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-fddca8ff-25ec-4383-a7f9-0d41e190dae9.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\joe-biden-2021.png",
+      "inputSha256": "d14f2e17079d0ba2e019cc624aab629d73b97a86d8503324107d7740bde81446",
+      "outputSha256": "ead38d4bc5568c7708d1339512aa784082b00fbc438b941f61f9fe7bc49dfeb5",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 475,
+        "height": 1494
+      },
+      "resizedDimensions": {
+        "width": 56,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        17,
+        1010,
+        1520
+      ],
+      "cleanedBbox": [
+        269,
+        21,
+        744,
+        1515
+      ],
+      "savedBbox": [
+        68,
+        8,
+        124,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1109581,
+        "faint": 15731,
+        "translucent": 463283,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30662,
+      "removedFaintAlphaPixels": 15731,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6202,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15731,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "vladimir-putin-2000",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-9f64a66c-91d0-4bd8-bcf8-b1bcb8ddc43d.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\vladimir-putin-2000.png",
+      "inputSha256": "a4231ef966c98a90be183584d755b63338a4927fa54be3fb73612302262d2354",
+      "outputSha256": "3db8b5b93721f6158ec1c32867764b4659a3888cb6d2ceab5aee90919cf764c1",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 463,
+        "height": 1425
+      },
+      "resizedDimensions": {
+        "width": 57,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        139,
+        57,
+        850,
+        1516
+      ],
+      "cleanedBbox": [
+        286,
+        60,
+        749,
+        1485
+      ],
+      "savedBbox": [
+        68,
+        8,
+        125,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1128851,
+        "faint": 12511,
+        "translucent": 444013,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30313,
+      "removedFaintAlphaPixels": 12511,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6551,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12511,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "dmitry-medvedev-2008",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-e3b2ff09-8092-4907-ad69-5b583bc41793.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\dmitry-medvedev-2008.png",
+      "inputSha256": "de22da6041734870c5d6c65266da9e70091dceb27246ebafa210e4858dbca5c4",
+      "outputSha256": "e496225e6588aebaa5a288ba4187ea27e732ffc8318511a9ee86782c303a911c",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 482,
+        "height": 1470
+      },
+      "resizedDimensions": {
+        "width": 58,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        34,
+        964,
+        1508
+      ],
+      "cleanedBbox": [
+        266,
+        36,
+        748,
+        1506
+      ],
+      "savedBbox": [
+        67,
+        8,
+        125,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1113115,
+        "faint": 14469,
+        "translucent": 459749,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30445,
+      "removedFaintAlphaPixels": 14469,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6419,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14469,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "volodymyr-zelensky-2019",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-174861ef-1dcd-4c22-8d0e-725451df855f.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\volodymyr-zelensky-2019.png",
+      "inputSha256": "0a6d177f444e8a69ab70308222c199d0ea6f6cb76b8c0380200c328cff60ccd3",
+      "outputSha256": "55d65261f2df077a4dc3baac7a133bd5f8333b7da1957063bd6183115094be89",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 504,
+        "height": 1450
+      },
+      "resizedDimensions": {
+        "width": 61,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        44,
+        862,
+        1511
+      ],
+      "cleanedBbox": [
+        276,
+        46,
+        780,
+        1496
+      ],
+      "savedBbox": [
+        66,
+        8,
+        127,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1104304,
+        "faint": 16295,
+        "translucent": 468560,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30226,
+      "removedFaintAlphaPixels": 16295,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6638,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 16295,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "david-cameron-2010",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-e84371fc-dff4-4bcc-b9df-39235c92d3b4.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\david-cameron-2010.png",
+      "inputSha256": "0affe8a91edd11e6d9c82b3edffe97c3a956e784e5dd66678910b2e9d11e8db4",
+      "outputSha256": "934a4d680bf22396876f00b704d40e6f696b8ba26a2201dbb6baf53c453e09ce",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 531,
+        "height": 1434
+      },
+      "resizedDimensions": {
+        "width": 65,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        55,
+        964,
+        1502
+      ],
+      "cleanedBbox": [
+        251,
+        57,
+        782,
+        1491
+      ],
+      "savedBbox": [
+        64,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1114764,
+        "faint": 14512,
+        "translucent": 458100,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30198,
+      "removedFaintAlphaPixels": 14512,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6666,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14512,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "theresa-may-2017",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-b3d98ac2-449b-432f-b509-d108699c3ee9.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\theresa-may-2017.png",
+      "inputSha256": "ff3d97999dddadab1a326af7a37f6f474dc3bc2d6f3cf4332147797b6bc0b612",
+      "outputSha256": "efb17401a2274e64e321fb8ab9ec639334b9c07e2619b999f840a7ca3f920e23",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 429,
+        "height": 1420
+      },
+      "resizedDimensions": {
+        "width": 53,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        59,
+        812,
+        1487
+      ],
+      "cleanedBbox": [
+        287,
+        61,
+        716,
+        1481
+      ],
+      "savedBbox": [
+        70,
+        8,
+        123,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1186819,
+        "faint": 14761,
+        "translucent": 386045,
+        "opaque": 0
+      },
+      "transparentPixelCount": 31175,
+      "removedFaintAlphaPixels": 14761,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 5689,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14761,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "boris-johnson-2020",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-f2376b94-7f68-4f0e-b49a-c3465d82143c.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\boris-johnson-2020.png",
+      "inputSha256": "24525ca0dba0f9d20db2662d2718e930eb965d2cf6078d023f08a4f80a783d7b",
+      "outputSha256": "200cd95d0abdc733e9a9c2513e4a132ddd2b877124dc2ce16d78b7700912b00b",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 622,
+        "height": 1454
+      },
+      "resizedDimensions": {
+        "width": 75,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        33,
+        868,
+        1496
+      ],
+      "cleanedBbox": [
+        212,
+        37,
+        834,
+        1491
+      ],
+      "savedBbox": [
+        59,
+        8,
+        134,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1067456,
+        "faint": 19420,
+        "translucent": 505408,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29770,
+      "removedFaintAlphaPixels": 19420,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7094,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 19420,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "john-major-1992",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3068757a-d043-4090-a0de-ee0931224dc5.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\john-major-1992.png",
+      "inputSha256": "0098d3226e1170725d98eb0ca0d6d7571b70e8399302892c8ce21b3f8bf297b6",
+      "outputSha256": "f22e00d679676aafcc0b63774812ca5e19d83bcde70f34b236b7ac6512f38ad4",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 551,
+        "height": 1474
+      },
+      "resizedDimensions": {
+        "width": 66,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        17,
+        962,
+        1502
+      ],
+      "cleanedBbox": [
+        238,
+        21,
+        789,
+        1495
+      ],
+      "savedBbox": [
+        63,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1119373,
+        "faint": 17122,
+        "translucent": 453491,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30585,
+      "removedFaintAlphaPixels": 17122,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6279,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 17122,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "gordon-brown-2008",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-664ddc2e-cdad-4d28-b303-44e2f5ee7bdd.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\gordon-brown-2008.png",
+      "inputSha256": "7c42d139fb83fe1d88af32d490da9c3fc94f0aa0bffe5e1088fe9d43fa9ec7a5",
+      "outputSha256": "8fe11dd25979f2e002b4f51a4fcbd89f8a362fcbdb33b1803e6bba0cbc9c0205",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 528,
+        "height": 1469
+      },
+      "resizedDimensions": {
+        "width": 63,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        34,
+        866,
+        1536
+      ],
+      "cleanedBbox": [
+        237,
+        36,
+        765,
+        1505
+      ],
+      "savedBbox": [
+        65,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1084368,
+        "faint": 13981,
+        "translucent": 488496,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30086,
+      "removedFaintAlphaPixels": 13981,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6778,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13981,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "rishi-sunak-2022",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3564fe2d-f4b4-479e-8c84-bc8046b951e4.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\rishi-sunak-2022.png",
+      "inputSha256": "747aa56a40c024a6296694f130015adc1427c0ca125201f6a939d7b72621f8c0",
+      "outputSha256": "8e04a1c21a13706c3fdd237ad2e6fac7508f09d79f10bb463d6b6fd1acd2c343",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 461,
+        "height": 1428
+      },
+      "resizedDimensions": {
+        "width": 57,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        71,
+        49,
+        938,
+        1482
+      ],
+      "cleanedBbox": [
+        285,
+        51,
+        746,
+        1479
+      ],
+      "savedBbox": [
+        68,
+        8,
+        125,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1200946,
+        "faint": 13401,
+        "translucent": 371918,
+        "opaque": 0
+      },
+      "transparentPixelCount": 31386,
+      "removedFaintAlphaPixels": 13401,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 5478,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13401,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "jacques-chirac-1995",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3ca9eca6-a2e9-4aed-a17a-fc93364d4ce6.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\jacques-chirac-1995.png",
+      "inputSha256": "dd1ab57d33fbbe8c8fa9c5d523b0dfc51d979adbae05d2bb08d9d5e818b74adf",
+      "outputSha256": "ad74c579045c5d30f02ba5f2d926dcab447f91d746ebf013c255e81b517dd7f0",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 458,
+        "height": 1441
+      },
+      "resizedDimensions": {
+        "width": 56,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        56,
+        962,
+        1504
+      ],
+      "cleanedBbox": [
+        309,
+        60,
+        767,
+        1501
+      ],
+      "savedBbox": [
+        68,
+        8,
+        124,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1143961,
+        "faint": 14802,
+        "translucent": 428903,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30694,
+      "removedFaintAlphaPixels": 14802,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6170,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14802,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "nicolas-sarkozy-2007",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-f8938e22-4ffc-447c-9958-7d8c1dcab1b2.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\nicolas-sarkozy-2007.png",
+      "inputSha256": "7a18ac06115f5c41e17cd62ce6cb0b0ecf6c0d07e66765cd6b74deb30bc5c423",
+      "outputSha256": "8bdc0ece0d44d79590a0e8c85ee2d7fac0aec2d902e243c2c63c9e6be3aa1afb",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 460,
+        "height": 1330
+      },
+      "resizedDimensions": {
+        "width": 61,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        72,
+        66,
+        938,
+        1480
+      ],
+      "cleanedBbox": [
+        269,
+        102,
+        729,
+        1432
+      ],
+      "savedBbox": [
+        66,
+        8,
+        127,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1186696,
+        "faint": 13939,
+        "translucent": 386168,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30305,
+      "removedFaintAlphaPixels": 13939,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6559,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 13939,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "francois-hollande-2012",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-e0aad285-0c25-4ebb-aaeb-b501581f2c56.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\francois-hollande-2012.png",
+      "inputSha256": "8faac52797c7d5fc1ea199640ef4a2ca31105268aa2f2395ef522d7e7ceeb9ba",
+      "outputSha256": "a114c8f3b5ce04424bdfe3c1a96ec7a6c592c473ac45b5db4d0689b6d716caa6",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 506,
+        "height": 1377
+      },
+      "resizedDimensions": {
+        "width": 65,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        37,
+        962,
+        1516
+      ],
+      "cleanedBbox": [
+        256,
+        88,
+        762,
+        1465
+      ],
+      "savedBbox": [
+        64,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1141385,
+        "faint": 15167,
+        "translucent": 431479,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30023,
+      "removedFaintAlphaPixels": 15167,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6841,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15167,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "emmanuel-macron-2017",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-837c0152-4c2c-4347-b6d1-25ba4dc59cd3.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\emmanuel-macron-2017.png",
+      "inputSha256": "d0f3a531dad1eaadcaddc1b9ba87e5dba1e6b7e8fdcbe9a7f0607020c3a7ea1a",
+      "outputSha256": "9723f70680373bc8834944eadf211f14c828add5343e3a57ab2884d1b3ec1937",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 506,
+        "height": 1465
+      },
+      "resizedDimensions": {
+        "width": 61,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        34,
+        962,
+        1506
+      ],
+      "cleanedBbox": [
+        265,
+        37,
+        771,
+        1502
+      ],
+      "savedBbox": [
+        66,
+        8,
+        127,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1137697,
+        "faint": 17337,
+        "translucent": 435167,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30849,
+      "removedFaintAlphaPixels": 17337,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6015,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 17337,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "gerhard-schroeder-1998",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-646c4d5e-b25b-466a-8a84-c80c51e23ca4.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\gerhard-schroeder-1998.png",
+      "inputSha256": "e8af04c437ae2687bdc7f664b5def74f2934126159bb0486bfe4c17350f85850",
+      "outputSha256": "366912e8f1091508e409619c57c20104b3930c5c11c0a3b821dc6ab76430aa90",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 517,
+        "height": 1439
+      },
+      "resizedDimensions": {
+        "width": 63,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        56,
+        860,
+        1520
+      ],
+      "cleanedBbox": [
+        270,
+        59,
+        787,
+        1498
+      ],
+      "savedBbox": [
+        65,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1094352,
+        "faint": 16759,
+        "translucent": 478512,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29985,
+      "removedFaintAlphaPixels": 16759,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6879,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 16759,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "angela-merkel-2005",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-13316093-2a30-4af6-ac9b-a8fa13323a76.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\angela-merkel-2005.png",
+      "inputSha256": "4929d5e83b13e304763744077cb2d2dfbb21e204d1d3d656dc704ff4c5a6dc5d",
+      "outputSha256": "9023e16f66e901c3cedb74d7600378928af6eabcf6ab6828094fbcf706712ea7",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 550,
+        "height": 1452
+      },
+      "resizedDimensions": {
+        "width": 67,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        40,
+        944,
+        1512
+      ],
+      "cleanedBbox": [
+        252,
+        42,
+        802,
+        1494
+      ],
+      "savedBbox": [
+        63,
+        8,
+        130,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1101065,
+        "faint": 15912,
+        "translucent": 471799,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30111,
+      "removedFaintAlphaPixels": 15912,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6753,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15912,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "olaf-scholz-2022",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-957020d0-0bfc-4445-9a9f-cc5972a1c98a.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\olaf-scholz-2022.png",
+      "inputSha256": "b8f49f192a29ba47c7b63ec24135013a68ebf6fde8a0dcb3dc4915351bf1cd9c",
+      "outputSha256": "592fec2ad19624bf67ffdb37cf9fac179eb61d5b727e7256f720b4b0746526c2",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 529,
+        "height": 1414
+      },
+      "resizedDimensions": {
+        "width": 66,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        65,
+        962,
+        1536
+      ],
+      "cleanedBbox": [
+        240,
+        72,
+        769,
+        1486
+      ],
+      "savedBbox": [
+        63,
+        8,
+        129,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1112266,
+        "faint": 18230,
+        "translucent": 460598,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30002,
+      "removedFaintAlphaPixels": 18230,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6862,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 18230,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "mahmoud-ahmadinejad-2005",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-7263294a-4f7b-4fe5-8f6a-c91a6770fd17.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\mahmoud-ahmadinejad-2005.png",
+      "inputSha256": "22d0753c0cecd96096187fdb773e2b84f963723dc69ec3ed40c85aa4a35317a5",
+      "outputSha256": "888467aaa2fe3da0aa5ee3cdd963206a074b67a4fab6f618dd6456647ca4b30f",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 507,
+        "height": 1393
+      },
+      "resizedDimensions": {
+        "width": 64,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        65,
+        962,
+        1488
+      ],
+      "cleanedBbox": [
+        287,
+        80,
+        794,
+        1473
+      ],
+      "savedBbox": [
+        64,
+        8,
+        128,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1113010,
+        "faint": 14450,
+        "translucent": 459854,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29787,
+      "removedFaintAlphaPixels": 14450,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7077,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14450,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "hassan-rouhani-2013",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-34788988-f7db-4436-9ae5-49114b91c25b.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\hassan-rouhani-2013.png",
+      "inputSha256": "99d1516af3fbb57c3d91a804d589420a130ccc63bb9c735a849bfe4d15f77ab0",
+      "outputSha256": "796cb9ecf683046b777befb01da665eb102b746173083c0f0b592545499db08b",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 527,
+        "height": 1313
+      },
+      "resizedDimensions": {
+        "width": 71,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        72,
+        112,
+        962,
+        1518
+      ],
+      "cleanedBbox": [
+        249,
+        114,
+        776,
+        1427
+      ],
+      "savedBbox": [
+        61,
+        8,
+        132,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1044185,
+        "faint": 10230,
+        "translucent": 528679,
+        "opaque": 0
+      },
+      "transparentPixelCount": 27505,
+      "removedFaintAlphaPixels": 10230,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 9359,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 10230,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "slobodan-milosevic-1999",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-4b8cddfe-585d-41fa-b5a0-fc9c3fbb1152.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\slobodan-milosevic-1999.png",
+      "inputSha256": "660c3f09051d202478c4c07e5353b431737e7229579faafc442c84d726aab351",
+      "outputSha256": "dbec8f9331a86b48ac9d8101e10024e6b93a50dda1d076c4b3cf925f58d349ad",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 499,
+        "height": 1420
+      },
+      "resizedDimensions": {
+        "width": 62,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        49,
+        75,
+        964,
+        1504
+      ],
+      "cleanedBbox": [
+        268,
+        78,
+        767,
+        1498
+      ],
+      "savedBbox": [
+        65,
+        8,
+        127,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1094789,
+        "faint": 14111,
+        "translucent": 478075,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29702,
+      "removedFaintAlphaPixels": 14111,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7162,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14111,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "ariel-sharon-2001",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-bf288070-c6de-40ce-a69f-24067597a1a3.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\ariel-sharon-2001.png",
+      "inputSha256": "3038605d1c6136cab532d996da51ecd19de0845adb31986fcb04da76da0b4e93",
+      "outputSha256": "8b3af665c227fd81f845764f1d7ebd67a31829bde55fbe64a65f4a2079415f04",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 640,
+        "height": 1452
+      },
+      "resizedDimensions": {
+        "width": 78,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        49,
+        42,
+        938,
+        1502
+      ],
+      "cleanedBbox": [
+        190,
+        46,
+        830,
+        1498
+      ],
+      "savedBbox": [
+        57,
+        8,
+        135,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 976642,
+        "faint": 14461,
+        "translucent": 596222,
+        "opaque": 0
+      },
+      "transparentPixelCount": 28283,
+      "removedFaintAlphaPixels": 14461,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 8581,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14461,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "zine-el-abidine-ben-ali-2010",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-981f740b-818d-4562-8a17-9c924a391427.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\zine-el-abidine-ben-ali-2010.png",
+      "inputSha256": "aa97459b8ac132bcbc8056fae9f73d9fa2c432cc416f485972e91db924ecc9d1",
+      "outputSha256": "fb9b2238321f9169683258c8503eda0ca978306c5a5c8b4a6ab0e332f0961d04",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 528,
+        "height": 1510
+      },
+      "resizedDimensions": {
+        "width": 62,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        11,
+        876,
+        1528
+      ],
+      "cleanedBbox": [
+        231,
+        13,
+        759,
+        1523
+      ],
+      "savedBbox": [
+        65,
+        8,
+        127,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1041362,
+        "faint": 14390,
+        "translucent": 531502,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29794,
+      "removedFaintAlphaPixels": 14390,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7070,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14390,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "mohamed-morsi-2012",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-ac08487c-5d07-4705-b5c7-4971d8e487f6.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\mohamed-morsi-2012.png",
+      "inputSha256": "cf6da2e819b042716f582d2d431f450d3d1ff44e9a96a524029de84c8de85ba5",
+      "outputSha256": "1ad6203a0f3780a23ed22e58b12fc1f06b5d734fc9b06d5af799a3f1d00ca596",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 506,
+        "height": 1472
+      },
+      "resizedDimensions": {
+        "width": 60,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        73,
+        32,
+        938,
+        1508
+      ],
+      "cleanedBbox": [
+        256,
+        34,
+        762,
+        1506
+      ],
+      "savedBbox": [
+        66,
+        8,
+        126,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1076224,
+        "faint": 14659,
+        "translucent": 496640,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30052,
+      "removedFaintAlphaPixels": 14659,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6812,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14659,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "bashar-al-assad-2011",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-976f324d-a1f8-43d6-8fee-e76ee578b88f.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\bashar-al-assad-2011.png",
+      "inputSha256": "5bb174313056fe229edaf5ef9cf57beed250d2e5f06977b284934b36bdf5d795",
+      "outputSha256": "cb508578969bb7e8740ec5ce9cce9391f9f9b68d3cf7fd2701d2ef86a28eec49",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 424,
+        "height": 1464
+      },
+      "resizedDimensions": {
+        "width": 51,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        35,
+        940,
+        1505
+      ],
+      "cleanedBbox": [
+        290,
+        39,
+        714,
+        1503
+      ],
+      "savedBbox": [
+        71,
+        8,
+        122,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1166107,
+        "faint": 14139,
+        "translucent": 406757,
+        "opaque": 0
+      },
+      "transparentPixelCount": 31202,
+      "removedFaintAlphaPixels": 14139,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 5662,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14139,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "shinzo-abe-2015",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-660b5bd5-4ca9-4b35-9332-ed56a5b48bbc.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\shinzo-abe-2015.png",
+      "inputSha256": "1328d646eb347ef0ed5177bdc9073104511d7f013d02c27a42b3d379d4ef7c55",
+      "outputSha256": "422dee17636432f83817a64ad82850e9ae138bfb103e5a1e5a91ff1e697e0fca",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 431,
+        "height": 1426
+      },
+      "resizedDimensions": {
+        "width": 53,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        63,
+        938,
+        1494
+      ],
+      "cleanedBbox": [
+        302,
+        65,
+        733,
+        1491
+      ],
+      "savedBbox": [
+        70,
+        8,
+        123,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1153481,
+        "faint": 12357,
+        "translucent": 419383,
+        "opaque": 0
+      },
+      "transparentPixelCount": 30698,
+      "removedFaintAlphaPixels": 12357,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 6166,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 12357,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "american-service-members-2003",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-e321391d-3289-4052-ac65-1e64d785d7d2.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\american-service-members-2003.png",
+      "inputSha256": "e9b9bb8004f3f7460fc405b7ea497998383dcbd737f27c3837df6b4c7bc81c71",
+      "outputSha256": "2a2ac04dcdaa6c5a0b02abdeb6fa259fa38f7164fdf31bf405b459286bbcb65b",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 963,
+        "height": 1375
+      },
+      "resizedDimensions": {
+        "width": 123,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        31,
+        6,
+        1010,
+        1536
+      ],
+      "cleanedBbox": [
+        42,
+        86,
+        1005,
+        1461
+      ],
+      "savedBbox": [
+        35,
+        8,
+        158,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 732437,
+        "faint": 52983,
+        "translucent": 840427,
+        "opaque": 0
+      },
+      "transparentPixelCount": 24007,
+      "removedFaintAlphaPixels": 52983,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 12857,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 52983,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "british-service-members-2003",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-4b9c6cc2-0f72-43c0-a9cd-27fe0b69cf35.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\british-service-members-2003.png",
+      "inputSha256": "3f07a8795abb07e8e4832da9b0035687a7713ba224f39843725ccb835a617658",
+      "outputSha256": "d0c921e281bc66bd89c186cf262a036070cffeab24da9c25ec671db9e57494b0",
+      "originalDimensions": {
+        "width": 1226,
+        "height": 1283
+      },
+      "croppedDimensions": {
+        "width": 971,
+        "height": 1193
+      },
+      "resizedDimensions": {
+        "width": 143,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        9,
+        1208,
+        1283
+      ],
+      "cleanedBbox": [
+        157,
+        47,
+        1128,
+        1240
+      ],
+      "savedBbox": [
+        25,
+        8,
+        168,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 871064,
+        "faint": 62509,
+        "translucent": 701362,
+        "opaque": 532
+      },
+      "transparentPixelCount": 22966,
+      "removedFaintAlphaPixels": 62509,
+      "opaquePixelCount": 12,
+      "translucentPixelCount": 13886,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 62509,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "russian-service-members-1994",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-a020aed5-895f-4127-8e44-76af948f6e63.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\russian-service-members-1994.png",
+      "inputSha256": "807809d450a4b98fd72d969c602738d01ee98395f89f9ebe9b848168218b47e4",
+      "outputSha256": "5b811931c1fbf375e8725431b27dad79494613743584ee75f1cb5f945cdeb1ab",
+      "originalDimensions": {
+        "width": 1222,
+        "height": 1287
+      },
+      "croppedDimensions": {
+        "width": 913,
+        "height": 1123
+      },
+      "resizedDimensions": {
+        "width": 143,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        0,
+        1186,
+        1247
+      ],
+      "cleanedBbox": [
+        152,
+        84,
+        1065,
+        1207
+      ],
+      "savedBbox": [
+        25,
+        8,
+        168,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 947024,
+        "faint": 41014,
+        "translucent": 624212,
+        "opaque": 1478
+      },
+      "transparentPixelCount": 22507,
+      "removedFaintAlphaPixels": 41014,
+      "opaquePixelCount": 32,
+      "translucentPixelCount": 14325,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 41014,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "nato-service-members-1999",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-30503da2-8e8d-4756-b770-0584a039b553.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\nato-service-members-1999.png",
+      "inputSha256": "9d33bbe769d6c18e29d575cfa8288b9a700df1cd9e12f0e8e9747e507a92a380",
+      "outputSha256": "14fe24941466edee07a7eec3503871b9465c1dcf5b91c4101c1304980e2c329b",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 937,
+        "height": 1378
+      },
+      "resizedDimensions": {
+        "width": 120,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        9,
+        1020,
+        1536
+      ],
+      "cleanedBbox": [
+        47,
+        75,
+        984,
+        1453
+      ],
+      "savedBbox": [
+        36,
+        8,
+        156,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 736806,
+        "faint": 44297,
+        "translucent": 836058,
+        "opaque": 0
+      },
+      "transparentPixelCount": 23916,
+      "removedFaintAlphaPixels": 44297,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 12948,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 44297,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "yugoslav-federal-soldiers-1991",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-6e05e6fc-6345-4be4-83f3-71a2c65505b4.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\yugoslav-federal-soldiers-1991.png",
+      "inputSha256": "6d0a8457af73ff32349c2abbb4ab856028521b2948d55e22ab0eb97cef19e058",
+      "outputSha256": "7b2858fbffd429c4967df9c40a7c54698b14213b14b15e32acb46b6fb35b0568",
+      "originalDimensions": {
+        "width": 1312,
+        "height": 1199
+      },
+      "croppedDimensions": {
+        "width": 832,
+        "height": 1088
+      },
+      "resizedDimensions": {
+        "width": 135,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        89,
+        59,
+        1242,
+        1199
+      ],
+      "cleanedBbox": [
+        245,
+        62,
+        1077,
+        1150
+      ],
+      "savedBbox": [
+        29,
+        8,
+        164,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1020389,
+        "faint": 35929,
+        "translucent": 552399,
+        "opaque": 300
+      },
+      "transparentPixelCount": 23311,
+      "removedFaintAlphaPixels": 35929,
+      "opaquePixelCount": 2,
+      "translucentPixelCount": 13551,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 35929,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "croatian-soldiers-1992",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-3e1c4446-8709-4a99-b52c-3ea8b30f11e7.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\croatian-soldiers-1992.png",
+      "inputSha256": "89df02605204f42f2a1821e75cdf4b9ccad29ab75b2e941244e7b1c69529aa15",
+      "outputSha256": "fc617a385cfb98c4b57399b029cb72a32c4c9d392bf5960d1a27009f26f182e8",
+      "originalDimensions": {
+        "width": 1312,
+        "height": 1199
+      },
+      "croppedDimensions": {
+        "width": 856,
+        "height": 1058
+      },
+      "resizedDimensions": {
+        "width": 142,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        85,
+        15,
+        1256,
+        1199
+      ],
+      "cleanedBbox": [
+        247,
+        77,
+        1103,
+        1135
+      ],
+      "savedBbox": [
+        25,
+        8,
+        167,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1007227,
+        "faint": 38292,
+        "translucent": 565420,
+        "opaque": 441
+      },
+      "transparentPixelCount": 22288,
+      "removedFaintAlphaPixels": 38292,
+      "opaquePixelCount": 17,
+      "translucentPixelCount": 14559,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 38292,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "syrian-refugee-civilians-2011",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-39ac41c5-4e40-48d7-8345-52b548096695.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\syrian-refugee-civilians-2011.png",
+      "inputSha256": "9406d8022a89020dc464ee9b88743410db8491bda166aef26c912b1338f3852e",
+      "outputSha256": "d9bc067e80479313d592e2f813ced9f43e15813595f2eb8db0faf77bf9fd9279",
+      "originalDimensions": {
+        "width": 1374,
+        "height": 1145
+      },
+      "croppedDimensions": {
+        "width": 1197,
+        "height": 961
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 141
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        20,
+        1354,
+        1091
+      ],
+      "cleanedBbox": [
+        105,
+        105,
+        1302,
+        1066
+      ],
+      "savedBbox": [
+        8,
+        43,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 836102,
+        "faint": 46357,
+        "translucent": 735979,
+        "opaque": 1149
+      },
+      "transparentPixelCount": 21978,
+      "removedFaintAlphaPixels": 46357,
+      "opaquePixelCount": 21,
+      "translucentPixelCount": 14865,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 46357,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "japanese-self-defense-members-1993",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-26b84e32-bbbd-4204-85c8-323da27ab16f.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\japanese-self-defense-members-1993.png",
+      "inputSha256": "87875d591ed418e25fe9078247d8de5fe46304bdaf6998bd8d55c7b4bf37f7d1",
+      "outputSha256": "460a68837cdb0ee2b377a4aad5badd5b754dbf4229454a2268b3aa536a3a821e",
+      "originalDimensions": {
+        "width": 1312,
+        "height": 1199
+      },
+      "croppedDimensions": {
+        "width": 795,
+        "height": 1119
+      },
+      "resizedDimensions": {
+        "width": 125,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        81,
+        31,
+        1258,
+        1167
+      ],
+      "cleanedBbox": [
+        270,
+        42,
+        1065,
+        1161
+      ],
+      "savedBbox": [
+        34,
+        8,
+        159,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1068239,
+        "faint": 38184,
+        "translucent": 504416,
+        "opaque": 433
+      },
+      "transparentPixelCount": 25321,
+      "removedFaintAlphaPixels": 38184,
+      "opaquePixelCount": 8,
+      "translucentPixelCount": 11535,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 38184,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "arab-spring-demonstrators-2011",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-d82f2dde-d3dd-4553-9892-cb0caebbe72e.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\arab-spring-demonstrators-2011.png",
+      "inputSha256": "a2163c9706897fd56f6a22ed1baa12793de0da7a3d7d9956a0eefaed2c6248e6",
+      "outputSha256": "3687853da79197be29e01d95581f185088255564118073f9cb4586ca8fd12288",
+      "originalDimensions": {
+        "width": 1375,
+        "height": 1144
+      },
+      "croppedDimensions": {
+        "width": 1030,
+        "height": 1053
+      },
+      "resizedDimensions": {
+        "width": 172,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        47,
+        25,
+        1323,
+        1112
+      ],
+      "cleanedBbox": [
+        178,
+        42,
+        1208,
+        1095
+      ],
+      "savedBbox": [
+        10,
+        8,
+        182,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 864508,
+        "faint": 48214,
+        "translucent": 707275,
+        "opaque": 1217
+      },
+      "transparentPixelCount": 18420,
+      "removedFaintAlphaPixels": 48214,
+      "opaquePixelCount": 56,
+      "translucentPixelCount": 18388,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 48214,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "european-migrant-workers-2004",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-323570c9-6566-48d5-97e4-f3f53a85e825.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\european-migrant-workers-2004.png",
+      "inputSha256": "6ff047d262afa127db71f56a308d4f224a8cb6dbc6c976acee245122524a73ba",
+      "outputSha256": "c7051aaec6b6ea0c24bed61a495f0283d774eac2f8bdb50c2e4b8ed4c43841ea",
+      "originalDimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "croppedDimensions": {
+        "width": 882,
+        "height": 1326
+      },
+      "resizedDimensions": {
+        "width": 117,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        29,
+        1004,
+        1536
+      ],
+      "cleanedBbox": [
+        69,
+        92,
+        951,
+        1418
+      ],
+      "savedBbox": [
+        38,
+        8,
+        155,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 848423,
+        "faint": 38318,
+        "translucent": 724441,
+        "opaque": 0
+      },
+      "transparentPixelCount": 24767,
+      "removedFaintAlphaPixels": 38318,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 12097,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 38318,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "american-congressional-delegates-2022",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-c2e69c2e-a0bd-4459-b15e-2d574b6a9bd3.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\american-congressional-delegates-2022.png",
+      "inputSha256": "d11dfd5ceea4e37cd8b4c815a57253b7927410f36528b5448c8d4965debaa7ae",
+      "outputSha256": "012b4ee3738d10d897c09a774fcf8ade06afa1ca73d1979489ca91e990737df6",
+      "originalDimensions": {
+        "width": 1199,
+        "height": 1312
+      },
+      "croppedDimensions": {
+        "width": 777,
+        "height": 1249
+      },
+      "resizedDimensions": {
+        "width": 109,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        31,
+        1161,
+        1294
+      ],
+      "cleanedBbox": [
+        209,
+        34,
+        986,
+        1283
+      ],
+      "savedBbox": [
+        42,
+        8,
+        151,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 968938,
+        "faint": 32030,
+        "translucent": 602986,
+        "opaque": 1164
+      },
+      "transparentPixelCount": 25553,
+      "removedFaintAlphaPixels": 32030,
+      "opaquePixelCount": 7,
+      "translucentPixelCount": 11304,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 32030,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "desktop-computer-1995",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-f0c38802-c362-4388-8f95-99437125e8c4.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\desktop-computer-1995.png",
+      "inputSha256": "90f9346a7dfb414459d44edbd9ac31623d15dfaff1d0f1565bec4cc9cac12b05",
+      "outputSha256": "b5c6ba5926be2027d576cd200860fa1957e0d06c182861f1db06b952bd77ecda",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 942,
+        "height": 690
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 129
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        69,
+        179,
+        1264,
+        936
+      ],
+      "cleanedBbox": [
+        317,
+        191,
+        1259,
+        881
+      ],
+      "savedBbox": [
+        8,
+        55,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1039149,
+        "faint": 14895,
+        "translucent": 533715,
+        "opaque": 0
+      },
+      "transparentPixelCount": 18742,
+      "removedFaintAlphaPixels": 14895,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 18122,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 14895,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "renewable-energy-equipment",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-31e67c30-1136-46b0-a021-ec0dd604a781.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\renewable-energy-equipment.png",
+      "inputSha256": "a4ee21e7f553d09650fc6c851b5f20c2b867366bcff341b88f05018b99b5322f",
+      "outputSha256": "caec008d5561929dbf4fc2f0baeef449faead10f0ef989c33450fe4b7b5be5f5",
+      "originalDimensions": {
+        "width": 1402,
+        "height": 1122
+      },
+      "croppedDimensions": {
+        "width": 1067,
+        "height": 1072
+      },
+      "resizedDimensions": {
+        "width": 175,
+        "height": 176
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        18,
+        1239,
+        1095
+      ],
+      "cleanedBbox": [
+        169,
+        20,
+        1236,
+        1092
+      ],
+      "savedBbox": [
+        9,
+        8,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1208061,
+        "faint": 22973,
+        "translucent": 362840,
+        "opaque": 2143
+      },
+      "transparentPixelCount": 27649,
+      "removedFaintAlphaPixels": 22973,
+      "opaquePixelCount": 62,
+      "translucentPixelCount": 9153,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 22973,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "mortgage-house",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-5c80e0a9-0f41-4cec-bb00-d86e6cd1ba75.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\mortgage-house.png",
+      "inputSha256": "dcbea8259ff2e8e6ced6c8999bf26b8c97b0c19cf1d5634ff31abbec62483b0a",
+      "outputSha256": "6f6198709d9af0e13920248db8505921fe2dcd4cf3a122efc8f88cd439b4a4b5",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1173,
+        "height": 681
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 102
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        65,
+        30,
+        1520,
+        1024
+      ],
+      "cleanedBbox": [
+        203,
+        151,
+        1376,
+        832
+      ],
+      "savedBbox": [
+        8,
+        82,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 920077,
+        "faint": 15455,
+        "translucent": 652787,
+        "opaque": 0
+      },
+      "transparentPixelCount": 22551,
+      "removedFaintAlphaPixels": 15455,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 14313,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 15455,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "fishing-vessel-1954",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-0e6f7c19-84f7-4560-9762-47048fd1b47b.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\fishing-vessel-1954.png",
+      "inputSha256": "c882b2ea787da6d56f1719ec2c59d6eb0430ec324468c580d49aae35183cae76",
+      "outputSha256": "ec3ef60d1ef0d033cc09452c535251493c2c32d246b08f467bc335ddffcca29c",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1262,
+        "height": 953
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 133
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        69,
+        31,
+        1516,
+        1024
+      ],
+      "cleanedBbox": [
+        132,
+        37,
+        1394,
+        990
+      ],
+      "savedBbox": [
+        8,
+        51,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1000875,
+        "faint": 57842,
+        "translucent": 571989,
+        "opaque": 0
+      },
+      "transparentPixelCount": 26857,
+      "removedFaintAlphaPixels": 57842,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 10007,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 57842,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "naval-replenishment-ship-2001",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-69f03009-02e8-4b16-8dcd-076e28e5a87f.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\naval-replenishment-ship-2001.png",
+      "inputSha256": "37f15584a68398a834de31cb1346700bac2557e5bb62deca031a1a8a0256bc6c",
+      "outputSha256": "b9a2d9002aa23eda65b03863438c1fe9a545e1da3b1260dfa549228cf4033828",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1421,
+        "height": 859
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 106
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        31,
+        21,
+        1488,
+        1024
+      ],
+      "cleanedBbox": [
+        62,
+        90,
+        1483,
+        949
+      ],
+      "savedBbox": [
+        8,
+        79,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1041115,
+        "faint": 46886,
+        "translucent": 531749,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29456,
+      "removedFaintAlphaPixels": 46886,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7408,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 46886,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    },
+    {
+      "key": "chinese-patrol-vessel-2020",
+      "inputPath": "C:\\Users\\USER\\.codex\\generated_images\\01a0f8a0-57db-7371-9467-837598fefa02\\exec-1876dfea-b47e-43db-b403-e3dc9351ecb5.png",
+      "outputPath": "C:\\Users\\USER\\Desktop\\W-History\\public\\images\\modern-c05-l26\\chinese-patrol-vessel-2020.png",
+      "inputSha256": "078fa2a340c34659638086ea8d8fd4c5bed7304dc0a90ad0f6c3b80e340d7775",
+      "outputSha256": "b45578a25487cc4005aae75f0fa201dd07706581c053eb17353a043945f1f176",
+      "originalDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "croppedDimensions": {
+        "width": 1443,
+        "height": 850
+      },
+      "resizedDimensions": {
+        "width": 176,
+        "height": 104
+      },
+      "canvasDimensions": [
+        192,
+        192
+      ],
+      "originalBbox": [
+        0,
+        35,
+        1493,
+        1024
+      ],
+      "cleanedBbox": [
+        47,
+        91,
+        1490,
+        941
+      ],
+      "savedBbox": [
+        8,
+        80,
+        184,
+        184
+      ],
+      "originalAlphaCounts": {
+        "transparent": 1042308,
+        "faint": 40591,
+        "translucent": 530556,
+        "opaque": 0
+      },
+      "transparentPixelCount": 29541,
+      "removedFaintAlphaPixels": 40591,
+      "opaquePixelCount": 0,
+      "translucentPixelCount": 7323,
+      "backgroundOperation": {
+        "operation": "faint_alpha_cleanup",
+        "method": "alpha_threshold_clamp",
+        "threshold": 16,
+        "removedPixelCount": 40591,
+        "description": "Preserved original transparent alpha and RGB; clamped faint alpha noise (1-15) to 0 without background color removal."
+      },
+      "error": null,
+      "errors": [],
+      "status": "completed"
+    }
+  ]
+}

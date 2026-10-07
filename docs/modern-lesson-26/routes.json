@@ -1,0 +1,2002 @@
+[
+  {
+    "scene": "modern-c05-l26-p01-009",
+    "kind": "campaign",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        -80,
+        9
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "1989年の軍事介入。国の参考点による概略方向で、出発基地や航路は示さない。",
+    "evidenceLines": [
+      30
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-016",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        35.2,
+        31.9
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "1993年の和平の立会い",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      38
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-016",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        17.8,
+        44.2
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "1995年の和平仲介",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      38
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-017",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        -106,
+        57
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "北米自由貿易の関係",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      38
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-017",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        -102,
+        23.5
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "北米自由貿易の関係",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      38
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-018",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        -79.7,
+        9.1
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "1999年末の運河返還",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      38
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-023",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        20.8,
+        44
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "NATOの空爆への関与：出撃基地の線ではない",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      42
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-028",
+    "kind": "campaign",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        66,
+        34
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "2001年の攻撃。国の参考点による概略方向で、出発基地や全行程は未記載。",
+    "evidenceLines": [
+      62
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-031",
+    "kind": "campaign",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        43.5,
+        33
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "2003年の米軍の攻撃。国の参考点を結ぶ概略方向。",
+    "evidenceLines": [
+      66
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-031",
+    "kind": "campaign",
+    "points": [
+      [
+        -2,
+        54
+      ],
+      [
+        43.5,
+        33
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "2003年の英軍の攻撃。国の参考点を結ぶ概略方向。",
+    "evidenceLines": [
+      66
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-032",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "単独行動主義への非難",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      66
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-032",
+    "kind": "rival",
+    "points": [
+      [
+        60,
+        57
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "単独行動主義への非難",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      66
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-032",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        46
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "単独行動主義への非難",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      66
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-032",
+    "kind": "rival",
+    "points": [
+      [
+        10.5,
+        51.2
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "単独行動主義への非難",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      66
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-039",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        60,
+        57
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "新STARTの調印",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      72,
+      78
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-040",
+    "kind": "move",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        66,
+        34
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "オバマ政権の増派。国の参考点による概略方向。",
+    "evidenceLines": [
+      72,
+      80
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-041",
+    "kind": "rival",
+    "points": [
+      [
+        43.5,
+        33
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "2011年の米軍撤退：到着地を示す線ではない",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      72,
+      80
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-042",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        17,
+        27
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "2011年のリビアへの攻撃",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      72,
+      80
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-042",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        38.8,
+        35
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "2014年のシリア内戦への介入",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      72,
+      80
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-043",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        -79,
+        22
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "国交正常化",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      80,
+      82
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-048",
+    "kind": "move",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        -79,
+        22
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原書478ページから続くオバマ政権のキューバ訪問。国の参考点による概略方向。",
+    "evidenceLines": [
+      86
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-049",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        20,
+        0
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "アフリカ連合への訪問：地域の参考点",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      86
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-050",
+    "kind": "move",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        132.46,
+        34.39
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原書478ページから続くオバマ政権の広島訪問。出発都市や全旅程は未記載。",
+    "evidenceLines": [
+      86
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-056",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        104,
+        35
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "関税・影響力の対立",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      92
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-057",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        127.2,
+        40.3
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "首脳会談",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      92
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-062",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        32,
+        49
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ウクライナへの支援",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      116
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-062",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        60,
+        57
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "経済制裁",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      116
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-066",
+    "kind": "campaign",
+    "points": [
+      [
+        60,
+        57
+      ],
+      [
+        45.6,
+        43.1
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "1994年の軍事介入。国・地域の参考点による概略方向。",
+    "evidenceLines": [
+      124
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-075",
+    "kind": "campaign",
+    "points": [
+      [
+        60,
+        57
+      ],
+      [
+        44,
+        42.3
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "2008年の介入。国・地域の参考点による概略方向。",
+    "evidenceLines": [
+      147
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-076",
+    "kind": "rival",
+    "points": [
+      [
+        60,
+        57
+      ],
+      [
+        34.2,
+        45.3
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "一方的な併合宣言",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      149
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-078",
+    "kind": "campaign",
+    "points": [
+      [
+        60,
+        57
+      ],
+      [
+        37.8,
+        48.3
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "2014年のウクライナ東部への派兵。精密な軍道や境界は未記載。",
+    "evidenceLines": [
+      149
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-086",
+    "kind": "campaign",
+    "points": [
+      [
+        60,
+        57
+      ],
+      [
+        32,
+        49
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "2022年の全面侵攻。国の参考点による概略方向。",
+    "evidenceLines": [
+      178
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-087",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        32,
+        49
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ウクライナへの支援",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      178
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-087",
+    "kind": "rival",
+    "points": [
+      [
+        138,
+        37
+      ],
+      [
+        32,
+        49
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ウクライナへの支援",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      178
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-087",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        60,
+        57
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "原文が記す関係強化",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      178
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-093",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        46
+      ],
+      [
+        10.5,
+        51.2
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "EU統合の主導",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      184
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-103",
+    "kind": "rival",
+    "points": [
+      [
+        10.5,
+        51.2
+      ],
+      [
+        23.5,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "財政支援",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      202
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-103",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        46
+      ],
+      [
+        23.5,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "財政支援",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      202
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-108",
+    "kind": "move",
+    "points": [
+      [
+        19,
+        52
+      ],
+      [
+        -2,
+        54
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原文が挙げる東欧のうちポーランドを参考点とした英国への流入。全移民の旅程ではない。",
+    "evidenceLines": [
+      206
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-116",
+    "kind": "campaign",
+    "points": [
+      [
+        -2,
+        54
+      ],
+      [
+        43.5,
+        33
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "2003年のイラク派兵。英国の国の参考点から概略方向を示す。",
+    "evidenceLines": [
+      210,
+      232
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-122",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        46
+      ],
+      [
+        -138.88,
+        -21.84
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ムルロア環礁での地下核実験",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      240
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-127",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        46
+      ],
+      [
+        10.5,
+        51.2
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "危機への協調",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      242
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-134",
+    "kind": "rival",
+    "points": [
+      [
+        10.5,
+        51.2
+      ],
+      [
+        2,
+        46
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "米英の出兵に反対",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      254
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p01-138",
+    "kind": "rival",
+    "points": [
+      [
+        10.5,
+        51.2
+      ],
+      [
+        32,
+        49
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "武器供与の関係",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      258
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-007",
+    "kind": "rival",
+    "points": [
+      [
+        101,
+        15
+      ],
+      [
+        128,
+        36.3
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "通貨危機の波及",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      284
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-007",
+    "kind": "rival",
+    "points": [
+      [
+        101,
+        15
+      ],
+      [
+        118,
+        -3
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "通貨危機の波及",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      284
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-008",
+    "kind": "rival",
+    "points": [
+      [
+        101,
+        15
+      ],
+      [
+        60,
+        57
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "通貨危機の波及",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      284
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-008",
+    "kind": "rival",
+    "points": [
+      [
+        101,
+        15
+      ],
+      [
+        -70,
+        -12
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "通貨危機の波及",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      284
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-029",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        60,
+        57
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "STARTⅠの米ソ調印",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      332
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-031",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        60,
+        57
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "STARTⅡと削減の難航",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      334
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-032",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        60,
+        57
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "2010年の新START",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      334
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-039",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        54,
+        32
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "核開発をめぐる対立",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      350
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-040",
+    "kind": "rival",
+    "points": [
+      [
+        54,
+        32
+      ],
+      [
+        35.05,
+        31.4
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "原文が述べる反米・反イスラエル外交",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      350
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-042",
+    "kind": "rival",
+    "points": [
+      [
+        54,
+        32
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "2015年の制限合意",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      350
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-043",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        54,
+        32
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "米国の合意離脱",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      350
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-045",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "六カ国協議の関係",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      352
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-045",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        138,
+        37
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "六カ国協議の関係",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      352
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-045",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        60,
+        57
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "六カ国協議の関係",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      352
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-045",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        128,
+        36.3
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "六カ国協議の関係",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      352
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-045",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        127.2,
+        40.3
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "六カ国協議の関係",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      352
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-054",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        122,
+        12
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "海域の領有権をめぐる対立",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      360,
+      362
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-054",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        102,
+        4
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "海域の領有権をめぐる対立",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      360,
+      362
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-054",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        106,
+        16
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "海域の領有権をめぐる対立",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      360,
+      362
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-054",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        118,
+        -3
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "海域の領有権をめぐる対立",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      360,
+      362
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-055",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        121,
+        23.5
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "圧力と軍事演習",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      360,
+      362
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-056",
+    "kind": "move",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        121,
+        23.5
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原書489ページの米下院議長の台湾訪問。特定の本人の肖像や出発都市は未記載。",
+    "evidenceLines": [
+      362
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-057",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        90,
+        30
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "経済圏の構想・援助",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      360,
+      378
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-057",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        15,
+        50
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "経済圏の構想・援助",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      360,
+      378
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-057",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        20,
+        0
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "経済圏の構想・援助",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      360,
+      378
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p02-058",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "貿易・技術の対立",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      378
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-007",
+    "kind": "campaign",
+    "points": [
+      [
+        20.5,
+        44.5
+      ],
+      [
+        14.5,
+        46.2
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "独立宣言を受けた軍事介入。国の参考点による概略方向。",
+    "evidenceLines": [
+      447
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-007",
+    "kind": "campaign",
+    "points": [
+      [
+        20.5,
+        44.5
+      ],
+      [
+        16,
+        45.5
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "独立宣言を受けた軍事介入。国の参考点による概略方向。",
+    "evidenceLines": [
+      447
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-013",
+    "kind": "campaign",
+    "points": [
+      [
+        20.5,
+        44.5
+      ],
+      [
+        17.8,
+        44.2
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "新ユーゴ連邦軍の介入。国の参考点による概略方向。",
+    "evidenceLines": [
+      460
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-013",
+    "kind": "campaign",
+    "points": [
+      [
+        16,
+        45.5
+      ],
+      [
+        17.8,
+        44.2
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "クロアティア共和国軍の介入。国の参考点による概略方向。",
+    "evidenceLines": [
+      460
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-014",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        17.8,
+        44.2
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "NATOの介入：出撃基地の線ではない",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      460,
+      466
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-015",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        17.8,
+        44.2
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "1995年の和平の仲介",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      460,
+      466
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-019",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        20.8,
+        44
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "1999年の空爆：出撃基地の線ではない",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      472
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-025",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        21,
+        42.6
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "国家承認",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      476
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-025",
+    "kind": "rival",
+    "points": [
+      [
+        60,
+        57
+      ],
+      [
+        21,
+        42.6
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "承認しない立場",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      476
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-025",
+    "kind": "rival",
+    "points": [
+      [
+        104,
+        35
+      ],
+      [
+        21,
+        42.6
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "承認しない立場",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      476
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-028",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        43.5,
+        33
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "対イラク政策",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      504
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-029",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        35.2,
+        31.9
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "和平ロードマップ",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      506
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-034",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        35.05,
+        31.4
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "原文が述べる支援・承認",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      514
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-034",
+    "kind": "rival",
+    "points": [
+      [
+        60,
+        57
+      ],
+      [
+        42,
+        30
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "冷戦期のソ連の支援",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      514
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-040",
+    "kind": "rival",
+    "points": [
+      [
+        30,
+        26
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "親米路線",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      533
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-040",
+    "kind": "rival",
+    "points": [
+      [
+        30,
+        26
+      ],
+      [
+        35.05,
+        31.4
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "親イスラエル路線",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      533
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-046",
+    "kind": "rival",
+    "points": [
+      [
+        17,
+        27
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "2003年の関係改善",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      535
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-048",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        17,
+        27
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "国連決議に基づく多国籍軍の介入",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      535,
+      551
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-052",
+    "kind": "rival",
+    "points": [
+      [
+        -98,
+        39
+      ],
+      [
+        38.8,
+        35
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "反政府側への支援",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      553
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-052",
+    "kind": "rival",
+    "points": [
+      [
+        2,
+        49
+      ],
+      [
+        38.8,
+        35
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "反政府側への支援",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      553
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-052",
+    "kind": "rival",
+    "points": [
+      [
+        54,
+        32
+      ],
+      [
+        38.8,
+        35
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "アサド政権への支援",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      553
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-052",
+    "kind": "rival",
+    "points": [
+      [
+        60,
+        57
+      ],
+      [
+        38.8,
+        35
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "アサド政権への支援",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      553
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-052",
+    "kind": "rival",
+    "points": [
+      [
+        35,
+        39
+      ],
+      [
+        38.8,
+        35
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "クルド人勢力への攻撃",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      553
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-053",
+    "kind": "rival",
+    "points": [
+      [
+        43.5,
+        33
+      ],
+      [
+        38.8,
+        35
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "ISの支配地域の拡大：軍道の線ではない",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      553
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-058",
+    "kind": "rival",
+    "points": [
+      [
+        138,
+        37
+      ],
+      [
+        -98,
+        39
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "日米協力と共同訓練",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      584
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-062",
+    "kind": "move",
+    "points": [
+      [
+        138,
+        37
+      ],
+      [
+        105,
+        12.7
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原文がPKO協力法の翌年と記すカンボジアへの派遣。国の参考点による概略方向。",
+    "evidenceLines": [
+      586
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-063",
+    "kind": "move",
+    "points": [
+      [
+        138,
+        37
+      ],
+      [
+        75,
+        -8
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原書497ページが記すインド洋での給油活動。基地・航海の全旅程は未記載。",
+    "evidenceLines": [
+      586,
+      588
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-064",
+    "kind": "move",
+    "points": [
+      [
+        138,
+        37
+      ],
+      [
+        43.5,
+        33
+      ]
+    ],
+    "start": 0.08,
+    "end": 0.95,
+    "reason": "原書497ページが記す復興支援の派遣。国の参考点による概略方向。",
+    "evidenceLines": [
+      586,
+      588
+    ]
+  },
+  {
+    "scene": "modern-c05-l26-p03-070",
+    "kind": "rival",
+    "points": [
+      [
+        127.77,
+        26.27
+      ],
+      [
+        128.03,
+        26.52
+      ]
+    ],
+    "informationOnly": true,
+    "informationLabel": "返還合意と移設先：完了した移動ではない",
+    "reason": "原文に明記された外交・援助・占領・承認・会談・独立・介入・撤退の静的な関係。到着地が不明な移動は旅程を作らず関係だけ示す。",
+    "evidenceLines": [
+      590
+    ]
+  }
+]

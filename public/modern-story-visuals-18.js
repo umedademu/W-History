@@ -1,4 +1,4 @@
-import {modernEdition} from './modern-c04-l18-edition.js?v=0.135';
+import {modernEdition} from './modern-c04-l18-edition.js?v=0.136';
 // 資金・貿易圏と移動、本人と一般集団、回想と後年を原文へ対応させる。
 export const modernVisualAssetCatalog=[
   {

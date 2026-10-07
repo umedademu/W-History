@@ -1,4 +1,4 @@
-import {modernEdition} from './modern-c04-l19-edition.js?v=0.135';
+import {modernEdition} from './modern-c04-l19-edition.js?v=0.136';
 // 本人と一般集団、条約・計画と実移動、降伏の各段階を原文へ対応させる。
 export const modernVisualAssetCatalog=[
   {

@@ -54,6 +54,8 @@ import "./check-modern-lesson-24.mjs";
 import "./check-modern-visuals-24.mjs";
 import "./check-modern-lesson-25.mjs";
 import "./check-modern-visuals-25.mjs";
+import "./check-modern-lesson-26.mjs";
+import "./check-modern-visuals-26.mjs";
 import "./check-book-collections.mjs";
 import fs from "node:fs/promises";
 import path from "node:path";

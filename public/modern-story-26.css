@@ -1,0 +1,67 @@
+/* 人物の集団・航空機・道具・施設は縦横比を保って模式欄に示す。 */
+.modern-story .illustration-figure-wide img {
+  width: min(100%, 256px);
+  height: 240px;
+  object-fit: contain;
+}
+
+/* 原書の二重線を、明暗どちらでも本文と同じ色で読めるようにする。 */
+.modern-story [data-source-marker="double-line"] {
+  border-bottom-color: currentColor !important;
+}
+
+/* 原書属性を保ち、黒い丸囲みは本文色、淡い桃色は明るい画面で見分けられる濃さにする。 */
+.modern-story [data-source-border="black"] {
+  border-color: currentColor !important;
+}
+
+html:not([data-theme="dark"]) .modern-story [data-source-border="pink"] {
+  border-color: #b84c69 !important;
+}
+
+/* 線の形・太さ・原書属性は保持し、暗い画面でも線を背景から見分けられる色に合わせる。 */
+.modern-story [data-source-line-style="dashed"] {
+  border-bottom-color: currentColor !important;
+}
+html[data-theme="dark"] .modern-story [data-source-border="red"]:not([data-source-background]) {
+  border-color: #ffb49f !important;
+}
+html[data-theme="dark"] .modern-story [data-source-border="brown"]:not([data-source-background]) {
+  border-color: #edb195 !important;
+}
+html[data-theme="dark"] .modern-story [data-source-border="gray"]:not([data-source-background]) {
+  border-color: #b4c3bc !important;
+}
+
+/* 点線の紙面属性を保ち、線色を本文とそろえる。 */
+.modern-story [data-source-line-style="dotted"] {border-bottom-color:currentColor !important;}
+
+/* 原書の薄い緑と桃色の囲みは、形・太さ・属性を保って背景から読み分ける。 */
+html:not([data-theme="dark"]) .modern-story [data-source-border="green"][style*="#89967b"] {
+  border-color: #53664a !important;
+}
+html[data-theme="dark"] .modern-story [data-source-background="pink"][data-source-border="pink"] {
+  border-color: #b84c69 !important;
+}
+html[data-theme="dark"] .modern-story [data-source-background="pink"],
+html[data-theme="dark"] .modern-story [data-source-background="pink"] [data-source-color="blue"] {
+  color: #123848 !important;
+}
+
+/* 複数段落を包む原書497頁の外枠は、各場面でも読みやすい区画で示す。 */
+.modern-story .source-japan-frame {display:block;border-left:6px solid #c2a38c;padding:0.6em 0.85em;background:#f3eee5;border-radius:0 8px 8px 0;}
+html[data-theme="dark"] .modern-story .source-japan-frame {background:#292f2c;}
+.modern-story .source-frame {display:block !important;padding:0.6em 0.85em !important;}
+.modern-story [data-source-border="light-brown"] {border-color:#99765f !important;color:#24303c !important;}
+.modern-story [data-source-border="gray-green"] {border-color:#536c4d !important;}
+html[data-theme="dark"] .modern-story [data-source-border="gray-green"]:not([data-source-background]) {border-color:#adbea7 !important;}
+html[data-theme="dark"] .modern-story [data-source-border="green"]:not([data-source-background]) {border-color:#a7d3b4 !important;}
+.modern-story .source-era-note {margin:1em 0;padding:0.65em 0.9em;border-left:4px solid #748b92;background:#eaf0ef;font-size:0.9rem;line-height:1.7;}
+html[data-theme="dark"] .modern-story .source-era-note {background:#293330;}
+.modern-story [data-source-background="white"] {color:#24303c !important;}
+html[data-theme="dark"] .modern-story [data-source-background="white"] [data-source-color="red"]:not([data-source-background]) {color:#b72316 !important;}
+html[data-theme="dark"] .modern-story [data-source-background="white"] [data-source-color="brown"]:not([data-source-background]) {color:#a43725 !important;}
+html[data-theme="dark"] .modern-story [data-source-background="white"] [data-source-color="green"]:not([data-source-background]) {color:#315837 !important;}
+html[data-theme="dark"] .modern-story [data-source-background="white"] [data-source-color="gray"]:not([data-source-background]) {color:#5b655e !important;}
+.modern-story [data-source-color="gray-green"] {color:#536c4d !important;}
+html[data-theme="dark"] .modern-story [data-source-color="gray-green"] {color:#adbea7 !important;}
